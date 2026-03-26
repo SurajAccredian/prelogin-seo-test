@@ -3,17 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { Grid, Typography, Button, Box, Container } from "@mui/material";
 import Link from "next/link";
-import {
-  FloatingMenu,
-  MainButton,
-  ChildButton,
-  Directions,
-} from "react-floating-button-menu";
-import ChevronRightImg from "../Assets/images/chat.svg";
-import CloseicoImg from "../Assets/images/close.svg";
-
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-
 import CallIcon from "@mui/icons-material/Call";
 import Tooltip from "@mui/material/Tooltip";
 import SubFooter from "./SubFooter";
@@ -34,9 +24,6 @@ import { categoriesWithContacts } from "../Assets/constants";
 import MobileProgramFooter from "./ProgramsSectionFooter";
 import FloatingChatWidget from "../bot/FloatingChatWidget";
 
-const SafeMainButton = ({ slideSpeed, direction, index, spacing, ...props }) => {
-  return <MainButton {...props} />;
-};
 
 const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -846,86 +833,90 @@ const Footer = () => {
           </Box>
         </Container>
       </Box>
-
-      <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-        {/* <Box sx={{ml:3}}> */}
-        {/* <FloatingMenu
-          style={{ marginRight: "60px" }}
-          slideSpeed={100}
-          isOpen={isOpen}
-          spacing={50}
-          // direction={Directions.Right}
-          className="menu-btn"
-          background="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)"
+      {/* ✅ Custom Floating Action Button — replaces react-floating-button-menu */}
+      <div className="fixed bottom-6 right-6 z-[9999] flex flex-col items-center gap-3">
+        {/* Child buttons — slide up when open */}
+        <div
+          className="flex flex-col items-center gap-3 transition-all duration-300"
+          style={{
+            opacity: isOpen ? 1 : 0,
+            transform: isOpen ? "translateY(0)" : "translateY(20px)",
+            pointerEvents: isOpen ? "auto" : "none",
+          }}
         >
-          <a
-            class="mr-2"
-            href="https://api.whatsapp.com/send?phone=918287249844&&text=Hi!%20I’d%20like%20to%20chat%20with%20an%20expert"
-            target="_blank"
-          >
-            <img
-              src="https://accredian.com/wp-content/uploads/2023/08/whatsapp.png"
-              style={{ height: "53px" }}
-              alt="whats app logo"
-            />
-          </a>
-        </FloatingMenu> */}
+          {/* Chat button */}
+          <Tooltip title="Chat" placement="left">
+            <button
+              onClick={() => { setIsChatBotOpen(true); setIsOpen(false); }}
+              aria-label="Open chat"
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: "50%",
+                background: "#2563EB",
+                border: "none",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                boxShadow: "0 4px 14px rgba(37,99,235,0.45)",
+                color: "#fff",
+              }}
+            >
+              <ChatBubbleOutlineIcon style={{ fontSize: 20 }} />
+            </button>
+          </Tooltip>
 
-        {/* </Box> */}
+          {/* Call back button */}
+          <Tooltip title="Request Call Back" placement="left">
+            <button
+              onClick={() => { handleClickOpenRcb(); setIsOpen(false); }}
+              aria-label="Request call back"
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: "50%",
+                background: "#2563EB",
+                border: "none",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                boxShadow: "0 4px 14px rgba(37,99,235,0.45)",
+                color: "#fff",
+              }}
+            >
+              <CallIcon style={{ fontSize: 20 }} />
+            </button>
+          </Tooltip>
+        </div>
 
-        <FloatingMenu
-          isOpen={isOpen}
-          spacing={20}
-          direction={Directions.Up}
-          className="menu-btn"
-          style={{ bottom: '0px' }}
-          background="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)"
+        {/* Main FAB toggle button */}
+        <button
+          onClick={() => setIsOpen((prev) => !prev)}
+          aria-label="Toggle menu"
+          style={{
+            width: 60,
+            height: 60,
+            borderRadius: "50%",
+            background: "linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)",
+            border: "none",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 8px 24px rgba(37,99,235,0.5)",
+            transition: "transform 0.2s ease",
+            transform: isOpen ? "rotate(45deg) scale(1.05)" : "scale(1)",
+          }}
         >
-          <SafeMainButton
-            //  style={{paddingBottom:"270px"}}
-            isOpen={isOpen}
-            iconResting={<img src={ChevronRightImg?.src || ChevronRightImg} alt="chat" style={{width: 24, height: 24}} />}
-            iconActive={<img src={CloseicoImg?.src || CloseicoImg} alt="close" style={{width: 24, height: 24}} />}
-            background="transparent"
-            onClick={() => {
-              setIsOpen((prev) => !prev);
-            }}
-            size={56}
-          />
-
-          <ChildButton
-            icon={
-              <Tooltip title="Chat" placement="left-start">
-                {/* <button className="artibot-button-expand"> */}
-                <ChatBubbleOutlineIcon
-                  onClick={() => {
-                    setIsChatBotOpen(true)
-                  }}
-
-                  style={{ fontSize: 20, color: "#fff" }}
-                />
-                {/* </button> */}
-              </Tooltip>
-            }
-            background="#007bff"
-            size={40}
-            style={{ marginBottom: "6px" }}
-          ></ChildButton>
-
-          <ChildButton
-            icon={
-              <Tooltip title="Request Call Back" placement="left-start">
-                <CallIcon
-                  onClick={handleClickOpenRcb}
-                  style={{ fontSize: 20, color: "#fff" }}
-                />
-              </Tooltip>
-            }
-            background="#007bff"
-            size={40}
-          />
-        </FloatingMenu>
-      </Box>
+          {isOpen ? (
+            <span style={{ color: "#fff", fontSize: 24, lineHeight: 1 }}>✕</span>
+          ) : (
+            <ChatBubbleOutlineIcon style={{ fontSize: 28, color: "#fff" }} />
+          )}
+        </button>
+      </div>
 
       <SubFooter />
       <FloatingChatWidget isOpen={isChatBotOpen} setIsChatBotOpen={setIsChatBotOpen} />

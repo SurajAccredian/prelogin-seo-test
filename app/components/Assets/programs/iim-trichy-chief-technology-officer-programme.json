@@ -1,0 +1,359 @@
+{
+  "category": "40",
+  "id": "iim-trichy-chief-technology-officer-programme",
+  "vertical": "cxo leadership",
+  "title": "Chief Technology Officer Programme (The CTO Program)",
+  "description": "Embark on a 10 month learning journey in Strategic Leadership, Technology, Innovation & Governance",
+  "short_title": "Chief Technology Officer",
+  "contact": "8851827093",
+  "university_name": "IIM Tiruchirappalli",
+  "short_university_name": "iim-trichy",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-V-v2.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
+  "start_date": "28 Mar 2026",
+  "duration": "10 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/iimt_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 115
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 11
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "domain": "pillar",
+  "overview": {
+    "programId": "iim-trichy-chief-technology-officer-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring CTOs looking to step into a senior technology leadership role.",
+          "Current CTOs aiming to sharpen their strategic, financial, and innovation capabilities.",
+          "VPs of Engineering, Heads of Technology, and Tech Architects preparing for C-suite responsibilities.",
+          "Product & Tech Leaders who want to align technology with business outcomes.",
+          "Entrepreneurs & Founders seeking to scale tech-led businesses effectively.",
+          "IT Directors & Senior Managers aiming to transition into strategic leadership roles.",
+          "Consultants in Tech & Digital Transformation looking to deepen enterprise technology expertise.",
+          "Mid-career Professionals in Tech seeking accelerated growth into executive roles in technology leadership."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Technology Officer (CTO)",
+          "Vice President of Engineering",
+          "Head of Technology",
+          "Director of Technology",
+          "Chief Digital Officer (CDO)",
+          "Chief Information Officer (CIO)",
+          "Technology Strategy Consultant",
+          "Product & Technology Leader",
+          "Digital Transformation Leader",
+          "Technical Co-Founder",
+          "Innovation Head",
+          "Enterprise Architect"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 pillars - Strategic Leadership, Technology, Innovation & Governance",
+          "Learn from esteemed IIM Tiruchirappalli faculty",
+          "Duration: 10 Months | Weekend Online",
+          "Certification From IIM Tiruchirappalli",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 24 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "campus-immersion",
+    "experiential-learning",
+    "certificate",
+    "strategic-leadership"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "CTO as Strategic Enterprise Leader",
+      "id": "1",
+      "points": [
+        "The Evolving Role of the CTO — From Technologist to Business Value Driver",
+        "Role Clarity Across the C-Suite — CTO, CIO, CDO, VP Engineering",
+        "Building Influence & Trust at Board Level",
+        "Crafting and Communicating a Strategic CTO Vision"
+      ]
+    },
+    {
+      "title": "Stakeholder & Cross-Functional Leadership",
+      "id": "2",
+      "points": [
+        "Navigating Multi-Stakeholder Decision Environments",
+        "Partnering with CFO, CMO, CHRO for Business Impact",
+        "Resolving Strategic Conflicts Across Technology & Business",
+        "Expanding Influence Through External Partnerships & Alliances"
+      ]
+    },
+    {
+      "title": "Technology Strategy",
+      "id": "3",
+      "points": [
+        "Linking Technology Roadmaps to Corporate Strategy",
+        "Strategic Decision Frameworks — Build, Buy, Partner, Invest",
+        "Scenario Planning & Strategic Foresight in Technology",
+        "Defining & Tracking North Star Metrics for Technology Value"
+      ]
+    },
+    {
+      "title": "Strategic Finance for CTOs",
+      "id": "4",
+      "points": [
+        "Budgeting & Forecasting for Technology Portfolios",
+        "Managing CapEx, OpEx, & Total Cost of Ownership",
+        "Building Business Cases & ROI Models for Innovation",
+        "Communicating Technology Value to CFOs, CEOs & Boards"
+      ]
+    },
+    {
+      "title": "Product, Technology & Market Alignment",
+      "id": "5",
+      "points": [
+        "Product Lifecycle: From Vision to Market Success",
+        "CTO–CPO Strategic Partnership for Innovation",
+        "Aligning Technology Roadmaps with Customer & Market Needs",
+        "KPIs & Metrics for Measuring Product–Technology Success"
+      ]
+    },
+    {
+      "title": "Digital Transformation Leadership",
+      "id": "6",
+      "points": [
+        "Designing Digital Operating Models for Enterprise Agility",
+        "Leading Large-Scale Technology-Driven Change Programs",
+        "Balancing Innovation, Risk, & ROI in Transformation Initiatives",
+        "Securing Stakeholder Buy-In for Transformation Roadmaps",
+        "Enterprise Architecture & Infrastructure Strategy"
+      ]
+    },
+    {
+      "title": "AI, Generative AI & Emerging Technologies",
+      "id": "7",
+      "points": [
+        "Developing an Enterprise AI & GenAI Strategy",
+        "Identifying & Prioritizing High-ROI AI Use Cases",
+        "Driving Technology Foresight — Agentic AI, Blockchain, Quantum, Edge",
+        "Trends vs Fads — Governance for Emerging Tech Adoption"
+      ]
+    },
+    {
+      "title": "Innovation Leadership for CTOs",
+      "id": "8",
+      "points": [
+        "Building a Culture of Innovation in Technology Teams",
+        "Innovation Portfolio Management — Core, Adjacent & Disruptive",
+        "Design Thinking & Customer-Centric Innovation",
+        "Scaling Innovation Through CoEs, Labs & Ecosystem Partnerships"
+      ]
+    },
+    {
+      "title": "GTM for CTOs",
+      "id": "9",
+      "points": [
+        "Role of the CTO in GTM Planning",
+        "Aligning GTM with Technology Roadmaps",
+        "Cross-Functional GTM Execution",
+        "Data-Driven GTM Decisions",
+        "Scaling for Market Demand"
+      ]
+    },
+    {
+      "title": "Technology Governance & Compliance",
+      "id": "10",
+      "points": [
+        "Governance Models for Technology & Digital Operations",
+        "Compliance in Cloud, Data & AI Ecosystems (GDPR, SOC2, ISO)",
+        "Risk Management & Audit Readiness",
+        "Governance Metrics & Performance Measurement"
+      ]
+    },
+    {
+      "title": "Cybersecurity Leadership & Risk Management",
+      "id": "11",
+      "points": [
+        "Cybersecurity as a Strategic Business Risk",
+        "Enterprise Cybersecurity Strategy & Architecture",
+        "Threat Detection, Incident Response & Crisis Leadership",
+        "Building a Cyber-Resilient Organization"
+      ]
+    },
+
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will craft a bold, future-ready transformation blueprint that reimagines their organization’s technology, innovation, AI, governance, & cybersecurity strategies. Framed for a high-stakes boardroom pitch, the project challenges CTOs to deliver a compelling vision, quantified business impact, & an execution roadmap that positions their enterprise as an industry leader by 2030."
+      ]
+    }
+  ],
+
+  "faculty": [
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Trichy",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Trichy",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
+    }
+  ],
+
+  "billing": {
+    "programId": "iim-trichy-chief-technology-officer-programme",
+    "points": [
+      "115+ Hours of Live Classes",
+      
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 26019
+      },
+      {
+        "months": 18,
+        "emi": 17976
+      },
+      {
+        "months": 24,
+        "emi": 13924
+      }
+    ],
+    "total": 290000
+  },
+  "faq": {
+    "programId": "iim-trichy-chief-technology-officer-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in technology leadership role required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 10 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Trichy",
+        "content": [
+          {
+            "title": "How is the IIM Trichy Chief Technology Officer Programme (The CTO Program) different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Innovation-Driven Learning:** Backed by its NIRF Innovation ranking, IIM Trichy’s progressive pedagogical approach ensures that each concept is deeply rooted in relevance, equipping learners with the tools needed for real-world senior leadership.",
+              "- **Academics Aligned with Industry Impact:** The program’s design ensures a seamless integration of theoretical learning with industry practices, enabling participants to convert ideas into actionable outcomes in their roles.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iim-trichy-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMT-chief-technology-officer-programme.pdf",
+    "source": "IIMT Chief Technology Officer Programme (The CTO Program) Brochure",
+    "campaign_name": "IIMT-CTO-10 Months"
+  }
+}

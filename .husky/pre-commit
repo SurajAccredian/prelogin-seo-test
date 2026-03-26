@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+node syncPrograms.js
+node syncNumbers.js
+node syncSitemaps.js
+git add public/programs.json
+git add public/sitemaps/
+git add public/sitemap.xml

@@ -1,0 +1,126 @@
+{
+  "category": "4",
+  "id": "PM",
+  "short_id": "CFO",
+  "vertical": "CFO",
+  "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/CFO.webp",
+  "title": "Transform Your Career in CFO",
+  "short_title": "CFO",
+  
+  "description": "Master advanced finance strategies and accelerate your path to CFO.",
+  "contact": "8826567425",
+  "type": "verticalPage",
+  "stats": [
+    {
+      "title": "professionals enrolled in CFO program.",
+      "text": "100+"
+    },
+    {
+      "title": "salary increase reported after program completion.",
+      "text": "35%"
+    },
+    {
+      "title": "industries represented by our participants.",
+      "text": "15+"
+    }
+  ],
+
+  "patners": ["iimv"],
+
+  "unique_points": [
+    "gain practical exp",
+    "accelerate your career",
+    "unlock-oppertunittes",
+    "expand-network"
+  ],
+
+  "whyaccredian": [
+    "campus immersion",
+    "carrer assistance sessions",
+    "online classes",
+    "certificate",
+    "doubt clearing",
+    "student support",
+    "simulation",
+    "CXO-coaching-sessions"
+  ],
+
+  "faq": {
+    "programId": "CFO",
+    "points": [
+      {
+        "title": "General Program Information",
+        "content": [
+          {
+            "title": "What are the key highlights of the CFO programs?",
+            "content": [
+              "Our programs feature expert-led sessions, real-world case studies, hands-on projects, and certification from renowned institutes in the country."
+            ]
+          },
+          {
+            "title": "Are these programs suitable for beginners?",
+            "content": [
+              "CFO programs are designed for professionals with prior experience, aiming to further develop their leadership and strategic skills."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Program Structure & Delivery",
+        "content": [
+          {
+            "title": " Do I get access to course materials after the program ends?",
+            "content": [
+              "Yes, participants have access to course materials and session recordings via the LMS for a specified period."
+            ]
+          },
+          {
+            "title": "Are the programs offered online or in a hybrid format?",
+            "content": [
+              "The programs are delivered 100% live online, offering flexibility and interactive learning experiences."
+            ]
+          },
+          {
+            "title": "What is the duration of these programs?",
+            "content": [
+              "Program durations typically range from 6 months to a year, depending on the institute."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Program Requirements & Enrollment",
+        "content": [
+          {
+            "title": "Are there any prerequisites for enrolling in these programs?",
+            "content": [
+              "Some programs may require prior experience, while others are open to all professionals."
+            ]
+          },
+          {
+            "title": "Can I enroll in multiple programs simultaneously?",
+            "content": [
+              "Yes, but it is recommended to speak with our advisors to manage workloads effectively and align the programs with your goals."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Certification & Career Outcomes",
+        "content": [
+          {
+            "title": "Will I receive a certificate after completing the program?",
+            "content": ["Yes, you will receive a certificate of completion."]
+          },
+          {
+            "title": "How will these programs help in my career advancement?",
+            "content": [
+              "The programs equip you with practical skills, industry knowledge, and credentials to enhance your career prospects in CFO."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": ["stats", "courses",   "why accredian", "unique points", "FAQs"]
+}

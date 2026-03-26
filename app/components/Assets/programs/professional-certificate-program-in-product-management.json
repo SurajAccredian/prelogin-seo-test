@@ -1,0 +1,405 @@
+{
+  "category": "26",
+  "vertical": "product management",
+  "title": "Professional Certificate Program in Product Management",
+  "description": "Embark on a 6-term learning journey in Product Strategy, UI/UX, Agile Product Development, Product Analytics, and Generative AI.",
+  "short_title": "Product Management",
+  "contact": "8882597163",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v2.svg",
+  "university_name": "E&ICT Academy IIT Kanpur",
+  "short_university_name": "iitk",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 72
+    },
+    {
+      "title": "career sessions",
+      "count": 4
+    },
+    {
+      "title": "modules",
+      "text": 22
+    },
+    {
+      "title": "Capstone Project",
+      "text": 1
+    },
+    {
+      "title": "tools",
+      "count": 12
+    },
+    {
+      "title": "campus immersion (opt.)",
+      "text": "2 Days"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v1.webp",
+  "start_date": "7 Sep 2025",
+  "id": "professional-certificate-program-in-product-management",
+  "duration": "6 Months",
+  "required_years_experience": 1,
+  "timings": "weekends only",
+  "type": "online",
+  "enrollments": "inactive",
+  "overview": {
+    "programId": "professional-certificate-program-in-product-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring Product Managers: Gain foundational skills for career launch.",
+          "Product Managers/Owners: Balance customer needs with business goals.",
+          "Product Leaders: Guide product strategy and foster innovation.",
+          "Experienced Professionals: Transition into product management roles.",
+          "Entrepreneurs: Manage product lifecycles and innovations.",
+          "Tech & Design Pros: Expand roles to include product strategy."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Operations Manager",
+          "Business Consultant",
+          "Entrepreneur",
+          "Product Manager",
+          "Risk Manager",
+          "Marketing Manager",
+          "Sales Manager",
+          "Project Manager",
+          "Human Resources Manager",
+          "Supply Chain Coordinator/Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "6 Terms - Product Strategy, UI/UX, and Product Marketing",
+          "Learn from the top industry professionals",
+          "Duration: 6 Months | Weekend Online",
+          "Certification from E&ICT, IIT Kanpur",
+          "Live Instructor led classes",
+          "1 Capstone project",
+          "Career Assistance by Accredian",
+          "1:1 career mentorship sessions",
+          "Campus Immersions: One Campus Immersion of 2 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+
+  "domain": "term",
+  "campusImmersionCost": "900",
+  "curriculum": [
+    {
+      "title": "Fundamentals of Product Management",
+      "week": "4 weeks",
+      "id": "fundamentals-of-product-management",
+      "points": [
+        "PM Basics: Role, Responsibilities, Skills",
+        "Market Analysis & Customer Research",
+        "Competitive Analysis for PMs",
+        "Product Ideation & Conceptualization"
+      ]
+    },
+    {
+      "title": "Product Strategy & Roadmapping",
+      "week": "4 weeks",
+      "id": "product-strategy---roadmap",
+      "points": [
+        "Product Vision & Mission",
+        "Product Strategy Frameworks",
+        "Prioritization & Roadmapping Techniques",
+        "Business & Product Strategy Alignment"
+      ]
+    },
+    {
+      "title": "User Centered Design & UX",
+      "week": "4 weeks",
+      "id": "user-experience-design",
+      "points": [
+        "Design Thinking for PMs",
+        "Introduction to UX Design",
+        "Information Architecture & Design Process",
+        "Empathy-Driven Design Essentials"
+      ]
+    },
+    {
+      "title": "Agile Product Development & Execution",
+      "week": "4 weeks",
+      "id": "agile-product-development",
+      "points": [
+        "Agile Methodologies Overview",
+        "Sprint Planning, Review, & Retrospective",
+        "Prioritization & Backlog Refinement Techniques",
+        "Agile Metrics & Performance Measurement"
+      ]
+    },
+    {
+      "title": "Go-to-Market Strategy & Growth",
+      "week": "3 weeks",
+      "id": "product-launch---marketing",
+      "points": [
+        "GTM Strategies & Planning",
+        "Product Messaging & Positioning",
+        "Marketing Channels for Product Launch"
+      ]
+    },
+    {
+      "title": "Product Analytics & AI",
+      "week": "3 weeks",
+      "id": "product-launch---marketing",
+      "points": [
+        "Product Success Metrices, KPIs, A/B testing",
+        "Data-driven Decision Making in PM",
+        "Generative AI Applications in PM"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project--minor-",
+      "points": [
+        "In BYOP, participants will undertake comprehensive product  development. We will integrate product management, strategy, and UX design to ensure a solid foundation for our product. As a part of this we will also use Agile methodologies to drive iterative development, with launch and marketing strategies aimed at user attraction. To wrap, we will build sustainable growth plans, supported by product analytics and generative AI, to achieve product innovation."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Suchit Majunmdar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/suchit-v1.webp",
+      "position": "Product Manager",
+      "organization": "Accredian",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Harihara",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku Chakraborty",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    }
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "billing": {
+    "programId": "professional-certificate-program-in-product-management",
+    "points": [
+      "72+ Hours of Live Classes",
+
+      "30+ Tools & Frameworks Covered",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 11926
+      },
+      {
+        "months": 18,
+        "emi": 8239
+      },
+      {
+        "months": 24,
+        "emi": 6382
+      }
+    ],
+    "total": 150000
+  },
+  "faq": {
+    "programId": "professional-certificate-program-in-product-management",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior product management experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Professional Certificate Program in Product Management you will have access to many case studies from the industries, Capstone Project to provide a better understanding of the real-world applications of digital transformation concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Professional Certificate Program in Product Management",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 6 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Kanpur?",
+        "content": [
+          {
+            "title": "How's the E&ICT, IIT Kanpur's Advanced Certificate Program in AI for Leaders program different?",
+            "content": [
+              "### This program is distinguished by three key elements:",
+              "- **Pioneering Education at E&ICT, IIT Kanpur:** Recognized as a frontrunner in fostering innovation, E&ICT, IIT Kanpur boasts a top position in NIRF rankings for Innovation. Its dynamic academic environment nurtures groundbreaking research and forward-thinking approaches, empowering students to pioneer solutions for global challenges.",
+              "- **Empowering Innovation and Academic Excellence:** At E&ICT, IIT Kanpur, innovation is not just a concept but a way of life. With a strong emphasis on interdisciplinary collaboration and hands-on learning, students are equipped with the skills and mindset to drive positive change in diverse fields.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your Artificial Intelligence career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iit-kanpur)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "BYOP-challenge"
+  ],
+  "tools": [
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "survey monkey",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/survey-monkey.webp"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "miro",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    }
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Professional-Certificate-Program-in-Product-Management.pdf",
+    "source": "IITK Professional Certificate Program in Product Management Brochure",
+    "campaign_name": "PCPM-IITK-6 Months"
+  },
+  "external_enroll": "https://eicta.iitk.ac.in/courses/professional-certificate-program-in-product-management"
+}

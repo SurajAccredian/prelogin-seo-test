@@ -1,0 +1,373 @@
+{
+  "category": "39",
+  "id": "accelerated-senior-management-program",
+  "vertical": "senior management",
+  "title": "Accelerated Senior Management Programme",
+  "description": "Embark on a 10 month learning journey in Strategic Leadership, AI and GenAI Strategy.",
+  "short_title": "Senior Management",
+  "contact": "8882597163",
+  "university_name": "IIM Tiruchirappalli",
+  "short_university_name": "iim-trichy",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-V-v2.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
+  "start_date": "26 Oct 2025",
+  "duration": "10 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/iimt_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 115
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "domain": "pillar",
+  "overview": {
+    "programId": "accelerated-senior-management-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Senior Professionals: Transition into enterprise-wide leadership roles.",
+          "Functional Heads: Sharpen cross-functional acumen for CXO responsibilities.",
+          "Mid-to-Senior Managers: Shift from execution to strategic leadership.",
+          "Founders: Scale sustainably with structured frameworks.",
+          "Specialists (Tech, Finance, HR): Expand leadership scope beyond domain expertise.",
+          "CXO-Track Professionals: Gain formal training in enterprise strategy."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Business Unit Head",
+          "General Manager (GM)",
+          "Vice President / Senior Vice President",
+          "Director of Strategy / Operations",
+          "Transformation Leader",
+          "Regional Head",
+          "Strategy Consultant",
+          "Entrepreneur / Founder",
+          "Product Head / Business Head",
+          "Innovation & Growth Leader"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "3 pillars - Strategic Leadership, AI and GenAI Strategy",
+          "Learn from esteemed IIM Tiruchirappalli faculty.",
+          "Duration: 10 Months | Weekend Online",
+          "Certification From IIM Tiruchirappalli",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 24 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "campus-immersion",
+    "experiential-learning",
+    "certificate",
+    "strategic-leadership"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Strategic Leadership & Executive Influence",
+      "id": "1",
+      "points": [
+        "Leadership Foundations for Senior Leaders",
+        "Leading With Strategic Clarity & Conviction",
+        "Navigating Power, Influence, & Organizational Politics",
+        "Strategic Communication & Executive Presence"
+      ]
+    },
+    {
+      "title": "Strategy & Competitive Advantage in a Disruptive World",
+      "id": "2",
+      "points": [
+        "Strategic Frameworks for Growth & Positioning",
+        "Competing in Volatile & Fast-Changing Markets",
+        "Business Model Reinvention & Renewal",
+        "Strategy Execution Across Enterprise Complexity"
+      ]
+    },
+    {
+      "title": "Corporate Governance, Risk & ESG",
+      "id": "3",
+      "points": [
+        "Board Structures, Roles, & Governance Dynamics",
+        "Strategic Risk Frameworks & Enterprise Resilience",
+        "ESG Integration Into Business Strategy",
+        "Ethical Leadership, Compliance & Regulatory Expectations"
+      ]
+    },
+    {
+      "title": "Global Markets & Strategic Risk",
+      "id": "4",
+      "points": [
+        "Macroeconomic Shifts & Global Trends",
+        "Geopolitical Risk & Scenario Planning",
+        "Market Entry & International Growth Strategies",
+        "Crisis Response in a Globalized World"
+      ]
+    },
+    {
+      "title": "Financial Acumen for Strategic Leaders",
+      "id": "5",
+      "points": [
+        "Interpreting Financial Statements With Executive Insight",
+        "Capital Allocation & Value Creation Levers",
+        "Forecasting, Budgeting, & Financial Planning",
+        "M&A, Valuation, & Strategic Investments"
+      ]
+    },
+    {
+      "title": "Operational Excellence & Strategic Execution",
+      "id": "6",
+      "points": [
+        "Lean Operations & Process Excellence",
+        "Driving Execution Through OKRs & KPIs",
+        "Building Scalable, Agile Operating Systems",
+        "Managing Operational Risks & Bottlenecks"
+      ]
+    },
+    {
+      "title": "Leading People & Talent in the Age of Transformation",
+      "id": "7",
+      "points": [
+        "Building High-Performing Leadership Teams",
+        "Culture Transformation & Organizational Alignment",
+        "Succession Planning & Future Workforce Readiness",
+        "Leading Through Inclusion, Diversity, & Change"
+      ]
+    },
+    {
+      "title": "Customer Strategy & Marketing in the Digital Age",
+      "id": "8",
+      "points": [
+        "Customer Segmentation & Insight-Driven Strategy",
+        "Brand Architecture & Digital Positioning",
+        "Designing Omnichannel Customer Experiences",
+        "Maximizing Customer Lifetime Value & Loyalty"
+      ]
+    },
+    {
+      "title": "Product Innovation & Design Thinking",
+      "id": "9",
+      "points": [
+        "Customer-Centric Innovation & Problem Framing",
+        "Design Thinking Frameworks & Rapid Ideation",
+        "Prototyping, Testing & Iterating Solutions",
+        "Driving Innovation From Idea to Scalable Impact"
+      ]
+    },
+    {
+      "title": "Strategic Management of Intellectual Property Rights (IPR)",
+      "id": "10",
+      "points": [
+        "IPR & Business Strategy",
+        "New Product Development & IPR",
+        "Business Models for Managing IPR"
+      ]
+    },
+    {
+      "title": "AI, GenAI for Leaders",
+      "id": "11",
+      "points": [
+        "AI & GenAI Fundamentals for Leaders",
+        "Identifying High-Impact AI Use Cases Across Functions",
+        "Building AI Strategy & Roadmap",
+        "Estimation Cost, ROI & Value"
+      ]
+    },
+    {
+      "title": "Digital Transformation Strategy",
+      "id": "12",
+      "points": [
+        "Digital Strategy in a Disruptive World",
+        "Business Model Innovation & Value Creation",
+        "Digital Transformation Frameworks & Roadmaps",
+        "Leading Digital Transformation: People, Change & Culture"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Senior leaders will identify a real organizational challenge—such as market expansion, AI integration, or business model reinvention—and apply strategy, finance, digital, & leadership tools to solve it. They will craft a comprehensive solution, stakeholder alignment plan, & execution roadmap. The project culminates in a board-style presentation, showcasing strategic thinking, leadership presence, & decision-making under uncertainty."
+      ]
+    }
+  ],
+
+  "faculty": [
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Trichy",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Trichy",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "R",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/R-language-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "accelerated-senior-management-program",
+    "points": [
+      "115+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 26019
+      },
+      {
+        "months": 18,
+        "emi": 17976
+      },
+      {
+        "months": 24,
+        "emi": 13924
+      }
+    ],
+    "total": 290000
+  },
+  "faq": {
+    "programId": "accelerated-senior-management-program",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Accelerated Senior Management Program required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 10 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Trichy",
+        "content": [
+          {
+            "title": "How is the IIM Trichy Accelerated Senior Management Program different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Innovation-Driven Learning:** Backed by its NIRF Innovation ranking, IIM Trichy’s progressive pedagogical approach ensures that each concept is deeply rooted in relevance, equipping learners with the tools needed for real-world senior management.",
+              "- **Academics Aligned with Industry Impact:** The program’s design ensures a seamless integration of theoretical learning with industry practices, enabling participants to convert ideas into actionable outcomes in their roles.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iim-trichy-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMT-Accelerated-Senior-Management-Program.pdf",
+    "source": "IIMT Accelerated Senior Management Program Brochure",
+    "campaign_name": "SMP-IIMT-10 Months"
+  }
+}

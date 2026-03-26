@@ -1,0 +1,16 @@
+export const verticalsData = {
+  "artificial intelligence": require('./artificial intelligence.json'),
+  "business management": require('./business management.json'),
+  "cfo": require('./cfo.json'),
+  "cxo leadership": require('./cxo leadership.json'),
+  "cybersecurity": require('./cybersecurity.json'),
+  "data science": require('./data science.json'),
+  "digital transformation": require('./digital transformation.json'),
+  "finance": require('./finance.json'),
+  "general management": require('./general management.json'),
+  "human resource": require('./human resource.json'),
+  "product management": require('./product management.json'),
+  "project management": require('./project management.json'),
+  "senior management": require('./senior management.json'),
+  "strategy & leadership": require('./strategy & leadership.json'),
+};

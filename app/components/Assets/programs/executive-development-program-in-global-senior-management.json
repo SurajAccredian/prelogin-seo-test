@@ -1,0 +1,428 @@
+{
+  "category": "21",
+  "id": "executive-development-program-in-global-senior-management",
+  "vertical": "senior management",
+  "title": "Executive Development Program in Global Senior Management",
+  "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
+  "short_title": "Senior Management",
+  "contact": "9810184424",
+  "university_name": "XLRI",
+  "short_university_name": "xlri",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
+  "accredited_by": [
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/xlead-logo-xlri.webp"
+  ],
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "start_date": "7 June 2026",
+  "duration": "11 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "enrollments": "active",
+  "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/edpgsm.html",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/xlri-certificate/XLRI-CMO-11-Months-v1.webp",
+  "key_features": [
+    {
+      "title": "int. immersion in dubai",
+      "text": "3-Days"
+    },
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "text": 11
+    },
+    {
+      "title": "case studies",
+      "text": 6
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-Days"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-strategy-leadership",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives refining leadership, driving organizational change, and fostering growth.",
+          "Managers mastering strategies for dynamic business challenges in complex environments.",
+          "Directors deepening strategic decision-making and enhancing corporate governance skills.",
+          "C-suite leaders staying abreast of industry trends and fostering innovation.",
+          "Potential successors preparing for top executive roles and leadership.",
+          "Division heads integrating departments with overall corporate objectives effectively.",
+          "Project managers leading large-scale projects with strategic impact.",
+          "Entrepreneurs scaling operations and exploring new markets in mature businesses.",
+          "Nonprofit leaders applying advanced business principles for organizational effectiveness.",
+          "Government officials bringing efficiency and strategy to public sector management.",
+          "Education leaders applying business principles to run educational institutions effectively.",
+          "Healthcare executives navigating complex systems and improving operational efficiency."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Financial Officer (CFO)",
+          "Chief Marketing Officer (CMO)",
+          "Senior Vice President (SVP)",
+          "General Manager",
+          "Director of Operations",
+          "Director of Finance",
+          "Director of Marketing",
+          "Director of Human Resources",
+          "Executive Director",
+          "Vice President of Sales"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "11 Modules - Executive Leadership, Operations, Business Strategies, and Analytics",
+          "Learn from the top industry professionals and expert sessions by XLRI Faculty",
+          "Duration: 11 months | Weekend Online",
+          "Certification from XLEAD & XLRI",
+          "Live Instructor led classes",
+          "Transformative Simulation",
+          "EMI upto 24 months",
+          "1:1 career mentorship sessions",
+          "International Immersion for 3 days at Dubai",
+          "Campus Immersions: One Campus Immersion of 2 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "attendancePercent": 70,
+  "domain": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "CXO-coaching-sessions",
+    "engaging-simulations"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Strategic Leadership in Global Organizations",
+      "week": "",
+      "id": "competitive-strategy-for-leaders",
+      "points": [
+        "Strategic Leadership Models & Frameworks",
+        "Leading Through Complexity & Change",
+        "Purpose-Driven & Visionary Leadership",
+        "Strategic Influence & Power Dynamics"
+      ]
+    },
+    {
+      "title": "Corporate Strategy for Senior Leaders",
+      "week": "",
+      "id": "competitive-strategy-for-leaders",
+      "points": [
+        "Enterprise Strategy Design & Strategic Choice",
+        "Scenario Planning & Strategic Foresight",
+        "M&A, Alliances & Business Portfolio Optimization",
+        "Long-Term Value Creation & Stakeholder Alignment"
+      ]
+    },
+    {
+      "title": "Global Macroeconomics & Expansion Strategy",
+      "week": "",
+      "id": "corporate---business-strategy",
+      "points": [
+        "Macroeconomic Trends & Business Implications",
+        "Geopolitical Risk, Policy Shocks & Strategic Response",
+        "Emerging Markets vs. Mature Markets: Growth Strategy Design",
+        "Scenario Planning & Strategic Economic Forecasting"
+      ]
+    },
+    {
+      "title": "Strategic Finance for Senior Leaders",
+      "week": "",
+      "id": "strategy-execution---change-management",
+      "points": [
+        "Financial Acumen for Senior Executives",
+        "Corporate Finance & Capital Allocation Strategy",
+        "Business Valuation & Forecasting Techniques",
+        "Financial Governance, Compliance & Controls"
+      ]
+    },
+    {
+      "title": "Global Talent & Workforce Leadership",
+      "week": "",
+      "id": "global-expansion---international-strategy",
+      "points": [
+        "Strategic Workforce Planning Across Regions",
+        "Talent Development in Hybrid & AI-Driven Contexts",
+        "DEI, Culture, & Employee Experience",
+        "Cross Cultural Management"
+      ]
+    },
+
+    {
+      "title": "Marketing & Customer Growth Strategy",
+      "week": "",
+      "id": "foundations-of-strategic--leadership",
+      "points": [
+        "Customer Segmentation & Growth Drivers",
+        "Brand Positioning & Market Strategy",
+        "Channel & Pricing Optimization",
+        "Data-Driven Marketing & Customer Insights"
+      ]
+    },
+
+    {
+      "title": "Global Operations & Supply Chain Leadership",
+      "week": "",
+      "id": "leading-organizations---building-culture",
+      "points": [
+        "Global Supply Chain Strategy & Resilience",
+        "Operational Excellence in Multinational Firms",
+        "Process Redesign, Automation & Scalability",
+        "Logistics, Distribution & Last-Mile Innovation"
+      ]
+    },
+    {
+      "title": "Digital Transformation & Innovation",
+      "week": "",
+      "id": "strategic-communication-for-leaders",
+      "points": [
+        "Creating the Innovation Strategy for a Global Firm",
+        "Digitally Native Business Models",
+        "Platform & Ecosystem Strategy",
+        "Digitization of Customer & Partner Journeys",
+        "Business Model Reinvention & Value Streams"
+      ]
+    },
+    {
+      "title": "AI & GenAI for Leaders",
+      "week": "",
+      "id": "leading-high-performance-teams",
+      "points": [
+        "AI Fundamentals & Ethics for Leaders",
+        "Generative AI & Business Process Transformation",
+        "Data Governance, Strategy & Monetization",
+        "Leading AI Adoption Across Functions"
+      ]
+    },
+    {
+      "title": "Boardroom Influence & Executive Decision Making",
+      "week": "",
+      "id": "decision-making-for-leaders",
+      "points": [
+        "Board-CXO Dynamics & Governance Models",
+        "Executive Presence & Communication",
+        "High-Stakes Decision-Making Under Uncertainty",
+        "Governance Risk Oversight & Fiduciary Duty"
+      ]
+    },
+    {
+      "title": "Sustainability & ESG Leadership",
+      "week": "",
+      "id": "strategic-negotiation-for-leaders",
+      "points": [
+        "The Sustainability Imperative for Global Firms",
+        "Leading the Sustainability Initiatives Across Borders",
+        "Legitimacy Through Corporate Social Responsibility",
+        "ESG Leadership"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will select a high-impact strategic challenge—such as global expansion, digital disruption, talent realignment, or business model innovation—facing their organization or industry. They will develop a comprehensive, data-informed leadership response that integrates global strategy, cross-border dynamics, financial stewardship, and enterprise transformation. The project culminates in an executive-level boardroom presentation, demonstrating readiness to lead strategic change in complex, global environments."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Saurav Snehvrat",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/saurav-snehvrat.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Arindam Mondal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/arindam-mondal.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Deepika Dixit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/deepika-dixit.webp",
+      "position": "AI Consultant",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Apalak Khatua",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/apalak-khatua.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Vinit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Prof. V.N. Bhattacharya",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/prof-vn-bhattacharya.webp",
+      "position": "Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-strategy-leadership",
+    "points": [
+      "132+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 37945
+      },
+      {
+        "months": 18,
+        "emi": 26215
+      },
+      {
+        "months": 24,
+        "emi": 20306
+      }
+    ],
+    "total": 400000
+  },
+  "faq": {
+    "programId": "executive-program-in-strategy-leadership",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Strategy & Leadership required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 11 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why XLRI",
+        "content": [
+          {
+            "title": "How is the XLRI's Strategy & Leadership program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Experiential Learning Structure at XLRI:** XLRI's Experiential Learning Structure bridges theory and practice, immersing students in real-world scenarios to enhance critical thinking and problem-solving skills. This approach, supported by its AACSB accreditation, ensures graduates are well-prepared to excel in dynamic business environments.",
+              "- **Pursuit of Academic Excellence at XLRI:** XLRI's unwavering commitment to academic excellence, reflected in its prestigious NIRF ranking, underscores its dedication to providing world-class education. This dedication extends beyond rankings, fostering an environment where students thrive intellectually, professionally, and personally.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/xlri-delhi-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Global-Senior-Management.pdf",
+    "source": "Executive Development Program in Global Senior Management Brochure",
+    "campaign_name": "GSM-XLRI-11 Months"
+  }
+}

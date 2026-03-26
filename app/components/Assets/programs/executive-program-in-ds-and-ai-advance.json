@@ -1,0 +1,616 @@
+{
+  "category": "2",
+  "id": "executive-program-in-ds-and-ai-advance",
+  "vertical": "data science",
+  "title": "Executive Program in Data Science & Artificial Intelligence",
+  "description": "Embark on a 12-term learning journey in Data Science, Machine Learning, & End-to-End AI Product Development.",
+  "short_title": "Data Science & AI",
+  "contact": "9079653292",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/H4onZUViTno?si=bd9G2LM07YnDKuVj",
+  "start_date": "August 2024",
+  "duration": "12 months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    },
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/iit12.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 190
+    },
+    {
+      "title": "Career Sessions",
+      "count": 8
+    },
+    {
+      "title": "Modules",
+      "count": 50
+    },
+    {
+      "title": "Projects",
+      "count": 100
+    },
+    {
+      "title": "Tools",
+      "count": 25
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-ds-and-ai-advance",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Graduates looking to enter the tech industry",
+          "Professionals seeking career advancement",
+          "Analysts aiming to enhance their data handling skills",
+          "Engineers wanting to pivot to data science roles",
+          "Managers needing to oversee data-driven projects",
+          "Marketers looking to apply AI in strategies",
+          "Healthcare professionals seeking to use data for better patient care"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Data Analyst",
+          "Business Intelligence Analyst",
+          "Data Engineer",
+          "Database Administrator",
+          "Data Architect",
+          "Statistician",
+          "Quantitative Analyst",
+          "AI Research Scientist",
+          "Data Visualization Specialist",
+          "Predictive Modeler"
+        ]
+      },
+      {
+        "title": "Program Snapshot",
+        "points": [
+          "Learn from the top industry professionals and expert sessions by IIT Guwahati Faculty",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Term projects & Capstone projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "two days career immersion at IIT Guwahati",
+          "One on one career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "add-ons"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Data Analysis with Python",
+      "week": "4 weeks",
+      "id": "term-1",
+      "points": [
+        "Data Science Fundamentals   ",
+        " Data Operation with Numpy ",
+        "Data Manipulation with Pandas "
+      ]
+    },
+    {
+      "title": "Data Visualization Techniques",
+      "week": "4 weeks",
+      "id": "term-2",
+      "points": [
+        "Introduction to Data Visualization",
+        "Data Visualization using Matplotlib",
+        "Hands-on Pandas for Rapid Visualization ",
+        "Seaborn for Data Visualization"
+      ]
+    },
+    {
+      "title": "EDA & Data Storytelling",
+      "week": "4 weeks",
+      "id": "term-3",
+      "points": [
+        "Introduction to Exploratory Data Analysis",
+        "EDA Framework Deep Dive",
+        "Scientific Exploration of Industry Data (Case Study) ",
+        "Student Presentations & Insight Delivery "
+      ]
+    },
+    {
+      "title": "Minor Capstone Project",
+      "special": "1",
+      "id": "term-4",
+      "points": [
+        "In a simulated environment, you get to work with a major Telecom company that seeks help from your team of Data Scientists to resolve a major marketing hurdle. Get a near real world exposure of working on industry problems within data science teams"
+      ]
+    },
+    {
+      "title": "Machine Learning Foundation",
+      "week": "4 weeks",
+      "id": "term-5",
+      "points": [
+        "Introduction to Machine Learning",
+        "Linear Regression",
+        "Logistic Regression",
+        "Model Evaluation Techniques"
+      ]
+    },
+    {
+      "title": "Machine Learning Intermediate",
+      "week": "4 weeks",
+      "id": "term-6",
+      "points": [
+        "Decision Trees",
+        "Random Forests ",
+        "Dimensionality Reduction using Principal Component Analysis (PCA) ",
+        "Naive Bayes Classifier "
+      ]
+    },
+    {
+      "title": "Machine Learning Advanced",
+      "week": "4 weeks",
+      "id": "term-7",
+      "points": [
+        "KNN (K- Nearest neighbors)",
+        "K-means Clustering",
+        "Ensemble Learning ",
+        "Optimization "
+      ]
+    },
+    {
+      "title": "Major Capstone Project",
+      "special": "2",
+      "id": "term-8",
+      "points": [
+        "Experience a real world simulation of a company Employee Retention Program that needs to be solved using Data Science and Machine Learning.Work with a team of Data Scientists and experience real-world problem solving through Data Science"
+      ]
+    },
+    {
+      "title": "Basics of AI, TensorFlow, and Keras",
+      "week": "4 weeks",
+      "id": "term-9",
+      "points": [
+        "Introduction to Artificial Intelligence",
+        "Introduction to Deep Learning Module",
+        "Deep Learning Model Practical with Tensorflow and Keras"
+      ]
+    },
+    {
+      "title": "Computer Vision",
+      "week": "4 weeks",
+      "id": "trerm-0",
+      "points": [
+        "Introduction to Convolutional Neural Networks",
+        "Decoding Image Components",
+        "Identifying MNIST using CNN",
+        "Preprocessing Image Data to apply CNN"
+      ]
+    },
+    {
+      "title": "Natural Language Processing",
+      "week": "4 weeks",
+      "id": "trerm-1",
+      "points": [
+        "Introduction to NLP & Word Vectors",
+        "Decoding a Textual Data",
+        "NLP using Recurrent Neural Networks (RNN)",
+        "NLP using Memory Alterations"
+      ]
+    },
+    {
+      "title": "AI Capstone Project",
+      "special": "3",
+      "id": "trerm-2",
+      "points": [
+        "In this ever evolving world, solving complex problems get easier using AI.In this capstone project you will be an AI expert who is helping a hypothetical company resolve some major challenges it faces by using AI. Get a chance to work with a team of AI specialists and a simulated environment to help you relate to real world challenges companies face regularly."
+      ]
+    },
+    {
+      "title": "Specialization in CV",
+      "week": "4 weeks",
+      "id": "trerm-3",
+      "points": [
+        "Transfer Learning",
+        "Object Detection using CNN based Algorithms - I",
+        "Object Detection using CNN based Algorithms - II",
+        "Instance Segmentation in Images"
+      ]
+    },
+    {
+      "title": "Specialization in NLP",
+      "week": "4 weeks",
+      "id": "trerm-4",
+      "points": [
+        "Teach Machines to Generate New Textual Data (Language Modeling)",
+        "Language Translation - English to Spanish using Seq2Seq Models",
+        "Techniques to Enhance Seq2Seq Models (Attention Mechanism)",
+        "Advanced NLP using BERT",
+        "Understanding LLM & their Usecases"
+      ]
+    },
+    {
+      "title": "Building AI Solution",
+      "week": "4 weeks",
+      "id": "trerm-5",
+      "points": [
+        "Intoduction to Cloud Computing",
+        "Language Translation - English to Spanish using Seq2Seq Models",
+        "Techniques to Enhance Seq2Seq Models (Attention Mechanism)",
+        "Advanced NLP using BERT"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    },
+    {
+      "name": "Neelmani Gupta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/neelmani-gupta-v1.webp",
+      "position": "Head Data Scientist",
+      "organization": "Gojek",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gojek.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "matplotlib",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Matplotlib.svg"
+    },
+    {
+      "title": "seaborn",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/seaborn.webp"
+    },
+    {
+      "title": "pandas",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Pandas.svg"
+    },
+    {
+      "title": "plotly",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/plotly.webp"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "numpy",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/numpy.svg"
+    },
+    {
+      "title": "GCP",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-cloud-console.webp"
+    },
+    {
+      "title": "hugging face",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hugging-face.webp"
+    },
+    {
+      "title": "keras",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/keras.webp"
+    },
+    {
+      "title": "openAI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "jupyter",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jupyter.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-ds-and-ai-advance",
+    "points": [
+      "Dual Certification from E&ICT, IIT Guwahati and Accredian",
+      "190+ Hours of Live Classes",
+      
+      "25+ Tools Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 14750
+      },
+      {
+        "months": 18,
+        "emi": 10227
+      },
+      {
+        "months": 24,
+        "emi": 7947
+      }
+    ],
+    "total": 250000
+  },
+  "projects": [
+    {
+      "title": "Transform Feedback into Insight",
+      "description": "Blends the art of data analysis with the customer feedback, distilling reviews into actionable product insights.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project1.webp",
+      "category": "Natural Language Processing",
+      "skills": [
+        "Python",
+        "Deep Learning",
+        "Artificial Neural Networks",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "title": "Analyze Authenticity by Sorting Real News from Fabrications",
+      "description": "Pioneer the Battle Against Misinformation by Implementing Sophisticated Analysis to Discern Real News from Fabrications.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project2.webp",
+      "category": "Classification",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "Artificial Neural Networks",
+        "Supervised Machine Learning"
+      ]
+    },
+    {
+      "title": "Tracking Themes in Text using a Neural Approach",
+      "description": "Employs advanced neural methods to discern and track themes within text, providing unparalleled insights.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project3.webp",
+      "category": "Deep Learning",
+      "skills": [
+        "Deep Learning",
+        "Python",
+        "Artificial Neural Networks"
+      ]
+    },
+    {
+      "title": "Anticipating News Topics By Machine Intelligence",
+      "description": "Leverages cutting-edge machine intelligence to anticipate upcoming news topics, providing invaluable foresight.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project4.webp",
+      "category": "Natural Language Processing",
+      "skills": [
+        "Artificial Neural Networks",
+        "Python",
+        "Deep Learning",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "title": "NietzscheNexa: Craft Prose in the Style of Nietzsche",
+      "description": "Capture the essence of Nietzsche's prose, using neural intelligence and craft new literary works imbued with his distinct style.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project5.webp",
+      "category": "Natural Language Processing",
+      "skills": [
+        "Natural Language Processing",
+        "Python",
+        "Deep Learning",
+        "Artificial Neural Networks"
+      ]
+    },
+    {
+      "title": "Predict Abalone Age Through Analytical Modeling",
+      "description": "Harness the prowess of advanced analytical modeling to accurately predict the age of abalones.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project6.webp",
+      "category": "Regression",
+      "skills": [
+        "Supervised Machine Learning",
+        "Python",
+        "Machine Learning",
+        "Artificial Neural Networks"
+      ]
+    },
+    {
+      "title": "Recommend Tailored Drugs from Health Reports",
+      "description": "Analyzes comprehensive health reports to recommend tailored medication, Using Artificial Intelligence.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project7.webp",
+      "category": "Deep Learning",
+      "skills": [
+        "Python",
+        "Artificial Neural Networks",
+        "Deep Learning"
+      ]
+    },
+    {
+      "title": "Anticipating Avocado Prices with Neural Modelling",
+      "description": "Employs advance techniques to anticipate avocado prices with unparalleled accuracy. By harnessing neural networks.",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project8.webp",
+      "category": "Deep Learning",
+      "skills": [
+        "Python",
+        "Artificial Neural Networks",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "faq": {
+    "programId": "executive-program-in-ds-and-ai-advance",
+    "points": [
+      {
+        "title": "Program Pre-requisites",
+        "content": [
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "The recommended system specifications are any latest processor (i3, i5, i7) with a minimum clock speed of 2.0GHz, and 4GB of RAM (required), though 8GB (recommended) for optimal performance."
+            ]
+          },
+          {
+            "title": "Is prior experience in Data Science and AI required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In the Executive Program for Data Science & AI, you will undertake 12 Term Projects, 1 Mini Capstone Project, and 1 mandatory Capstone Project, as well as 1 AI Capstone Project. In addition to these, we provide a repository of over 100 projects spanning various domains for you to choose from."
+            ]
+          },
+          {
+            "title": "What's the difference between Term Project & Capstone Project?",
+            "content": [
+              "Term Projects are individual assignments specific to each term and will be shared upon the completion of every term. Capstone Projects closely resemble real-world Data Science projects, requiring the application of various concepts learned throughout the program."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Data Science & AI",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "What is the typical time commitment required on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the program's duration?",
+            "content": [
+              "The duration of the program is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIT Guwahati?",
+        "content": [
+          {
+            "title": "How is the Executive Program in Data Science & AI program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Data Science and AI concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "projects",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-in-DS-AI-12-months.pdf",
+    "source": "data science and AI brochure",
+    "campaign_name": "DSAI-IIT 12 Months"
+  }
+}

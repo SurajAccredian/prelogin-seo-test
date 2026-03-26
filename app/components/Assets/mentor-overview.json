@@ -1,0 +1,339 @@
+{
+  "overview": {
+    "content": [
+      {
+        "title": "Instructor",
+        "points": [
+          "Allocate at least 2 hours on weekdays or weekends to instruct professionals.",
+          "Bring 5+ years of experience in your field to deliver structured training and education.",
+          "Teach advanced topics and provide in-depth training to professionals from top companies.",
+          "Lead interactive sessions, discussions, and workshops to enhance understanding and engagement among learners."
+        ]
+      },
+      {
+        "title": "Mentor",
+        "points": [
+          "Dedicate 1-2 hours on weekdays or weekends to mentor students.",
+          "Bring 5+ years of experience in your field to provide personalized career guidance.",
+          "Share advice and insights from your professional journey to help students achieve their goals.",
+          "Lead sessions to address career questions, industry trends, and academic challenges."
+        ]
+      }
+    ]
+  },
+
+  "unique_points": [
+    "Best Industry Pay",
+    "Flexible Scheduling",
+    "Personal Development",
+    "Top-Qualified Professionals"
+  ],
+  "faculty": [
+    
+    {
+      "name": "Harihara",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    },
+    {
+      "name": "Dr. Anand Lokhande",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-anand-lokhande.webp",
+      "position": "Co-Founder",
+      "organization": "Imagilytica Leadership Consulting",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/imagilytica-v1.webp"
+    },
+    {
+      "name": "Harihara Subramanian R",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/harihara-subramanian-r%20.webp",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Dr. Preeti Adhav",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-preeti.webp",
+      "position": "Founder & CEO",
+      "organization": "Monks - learning lab",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/monks-learning-labs.webp"
+    },
+    {
+      "name": "Jaideep Butta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/jaideep-butta.webp",
+      "position": "Sr. Product Line Manager",
+      "organization": "Shell",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/shell.webp"
+    },
+
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    },
+    {
+      "name": "Dr. Darshan Ingle",
+      "position": "Principal Consultant",
+      "organization": "DataCouch",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/darshan-ingle.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/data-couch.webp"
+    }
+  ],
+  "referFaq": [
+    {
+      "id": "eligibility",
+      "heading": "Eligibility",
+      "Faqaccd": [
+        {
+          "faqHeading": "Who is eligible for the referral bonus?",
+          "accdId": "panel1",
+          "subfaq": [
+            "Any referred individual who completes the admission process and enrolls in one of Accredian's programs is eligible for the referral bonus."
+          ]
+        },
+        {
+          "faqHeading": "What are the conditions for eligibility in Accredian's referral program?",
+          "accdId": "panel2",
+          "subfaq": [
+            "The referred individual must be a new inquiry, having had no prior contact with Accredian for any intake or program."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-process",
+      "heading": "Referral process",
+      "Faqaccd": [
+        {
+          "faqHeading": "How can I submit a referral to Accredian?",
+          "accdId": "panel1",
+          "subfaq": [
+            "Referrals can be submitted via Accredian's website’s referral section."
+          ]
+        },
+        {
+          "faqHeading": "What happens after I submit a referral through the website?",
+          "accdId": "panel1",
+          "subfaq": [
+            "After submitting a referral, an admission counselor from Accredian will contact the referred individual."
+          ]
+        },
+        {
+          "faqHeading": "When do both the referrer and the referred individual become eligible for the referral bonus?",
+          "accdId": "panel1",
+          "subfaq": [
+            "Both the referrer and the referred individual become eligible for the referral bonus once the referred individual enrolls in Accredian's program, with the bonus typically given within 30 days of program enrollment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-and-c",
+      "heading": "Terms & Conditions",
+      "Faqaccd": [
+        {
+          "faqHeading": "Terms & Conditions",
+          "accdId": "panel1",
+          "subfaq": [
+            "1. **Bonus Processing:** Referral bonuses will be processed within 30 days of the referred individual's admission process completion.",
+            "2. **Bonus Distribution:**",
+            " - The referral bonus will be credited to both the referrer and the referred person.",
+            " - Distribution of bonuses will be processed through direct money transfer to the bank accounts provided by both parties, or it can be deducted or adjusted from pending program fee installments.",
+            "3. **Previous Inquiries:**",
+            " - The referral bonus will not be processed if Accredian has already received an earlier inquiry or application from the referred individual for any intake or program, and someone from the team is already in contact with them.",
+            " - If no one is in touch with the referred individual, credit will be given to the referrer, and the referral bonus will also be released to the referring candidate.",
+            "4. **Multiple Referrals:** If multiple referrals are received from the same individual, the referral bonus will be processed for all referrals that have completed their admission process and meet the aforementioned criteria.",
+            "5. **Right to Modify:** Accredian reserves the right to modify or terminate the referral program at any time without prior notice."
+          ]
+        }
+      ]
+    }
+  ],
+
+  "points": [
+    "1000+ Professional Trained",
+    "80% Positive Career Impact",
+    "1.6 Million+ Class Hours Delivered",
+    "4.5/5 Program Satisfaction"
+  ],
+  "key_features": [
+    {
+      "title": "professionals trained",
+      "count": 10000
+    },
+    {
+      "title": "positive career impact",
+      "text": "80%"
+    },
+    {
+      "title": "million hours",
+      "text": "1.6+"
+    },
+    {
+      "title": "program satisfaction",
+      "text": "4.5/5"
+    }
+  ],
+
+  "verticals": [
+    {
+      "name": "Product Management",
+      "points": [
+        "5+ years of hands-on product management experience.",
+        "Proficient in strategy and UI/UX, marketing, GTM & leadership.",
+        "Proven achievements and growth in product management.",
+        "Mentoring experience is a valuable addition."
+      ]
+    },
+    {
+      "name": "Data Science",
+      "points": [
+        "5+ years of hands-on data science experience.",
+        "Proficient in data analysis, visualization, and machine learning.",
+        "Proven achievements and growth in data science.",
+        "Mentoring experience is a valuable addition."
+      ]
+    },
+
+    {
+      "name": "Project Management",
+      "points": [
+        "5+ years of hands-on project management experience.",
+        "Proficient in planning, risk management, and stakeholder communication.",
+        "Proven achievements and growth in project management.",
+        "Mentoring experience is a valuable addition."
+      ]
+    },
+    {
+      "name": "Digital Transformation",
+      "points": [
+        "5+ years of hands-on digital transformation experience.",
+        "Proficient in change management, technology integration, and process optimization.",
+        "Proven achievements and growth in digital transformation.",
+        "Mentoring experience is a valuable addition."
+      ]
+    },
+
+    {
+      "name": "Fintech",
+      "points": [
+        "5+ years of hands-on fintech experience.",
+        "Proficient in blockchain, digital payments, and AI in finance.",
+        "Proven achievements and growth in fintech.",
+        "Mentoring experience is a valuable addition."
+      ]
+    }
+  ],
+
+  "allVerticals": [
+    {
+      "name": "Product Management",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/productMangamentlogo.svg"
+    },
+    {
+      "name": "Project Management",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/projectManagementlogo.svg"
+    },
+    {
+      "name": "Data Science",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/datascincelogo.svg"
+    },
+    {
+      "name": "Digital Transformation",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/digitalTlogo.svg"
+    },
+
+    {
+      "name": "Business Analytics",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/businessAlogo.svg"
+    },
+    {
+      "name": "CXO",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/cxosvg.svg"
+    },
+    {
+      "name": "Strategic Management",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/Strategysvg.svg"
+    },
+    {
+      "name": "Fintech",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/fintechSvg.svg"
+    },
+    {
+      "name": "Senior Management",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/seniorMangementsvg.svg"
+    }
+  ]
+}

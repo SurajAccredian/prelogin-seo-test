@@ -1,0 +1,382 @@
+{
+  "category": "31",
+  "id": "chief-technology-officer-programme",
+  "vertical": "cxo leadership",
+  "title": "Chief Technology Officer Programme (The CTO Program)",
+  "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
+  "short_title": "Chief Technology Officer",
+  "contact": "8851827093",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "17 May 2026",
+  "duration": "11 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 9
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "domain": "pillar",
+  "overview": {
+    "programId": "chief-technology-officer-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current CTOs: Sharpen strategic, financial, and innovation capabilities.",
+          "Senior Tech Leaders (VPs, Heads of Tech): Prepare for C-suite responsibilities.",
+          "Product & Tech Leaders: Align technology strategies with business outcomes.",
+          "IT Directors & Managers: Transition from execution to strategic leadership.",
+          "Tech Founders: Scale tech-led businesses effectively.",
+          "Consultants: Deepen enterprise technology expertise.",
+          "Aspiring CTOs: Step into senior technology leadership roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Technology Officer (CTO)",
+          "Chief Information Officer (CIO)",
+          "Chief Digital Officer (CDO)",
+          "Vice President of Engineering",
+          "Head of Technology",
+          "Director of Technology",
+          "Product & Technology Leader",
+          "Enterprise Architect",
+          "Technology Strategy Consultant",
+          "Digital Transformation Leader"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "3 Pillars - technology strategy, tech risk management & strategic communication",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 11 months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "Boardroom, Product Innovation, Digital Transformation Leadership Simulation",
+          "Campus Immersions: One Campus Immersion of 3 days",
+          "Career Assistance by Accredian",
+          "No Cost EMI up to 12 months"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "engaging-simulations",
+    "alumni-status",
+    "exclusive-merchandise"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Intro to CTO Role",
+      "id": "1",
+      "points": [
+        "Evolving Role of the CTO in Different Business Contexts",
+        "Stakeholder Management & Board-Level Engagement",
+        "Navigating C-Suite Dynamics: CEO, CIO, CFO, CHRO, etc.",
+        "Driving Enterprise-Wide Influence Through Tech"
+      ]
+    },
+    {
+      "title": "Technology Strategy for CTOs",
+      "id": "2",
+      "points": [
+        "Building & Communicating Technology Strategy",
+        "Aligning Technology With Business Vision & Goals",
+        "Tech Roadmapping, Metrics, & KPIs",
+        "Scenario Planning & Strategic Foresight"
+      ]
+    },
+    {
+      "title": "Cross Functional Leadership for CTOs",
+      "id": "3",
+      "points": [
+        "Financial Acumen for Technology Leaders",
+        "Strategic Marketing Alignment for Tech Initiatives",
+        "Operational Efficiency & Tech-Driven Scalability"
+      ]
+    },
+    {
+      "title": "Financial Leadership for CTOs",
+      "id": "4",
+      "points": [
+        "Budgeting, Forecasting, & Tech Financial Management",
+        "Evaluating & Prioritizing IT Investments",
+        "Cloud Cost Management, FinOps, & Optimization Levers",
+        "Communicating Tech Value in Financial Terms"
+      ]
+    },
+    {
+      "title": "Technology Infrastructure & Architecture",
+      "id": "5",
+      "points": [
+        "Designing Scalable Architecture",
+        "Strategic Enterprise Architecture Planning",
+        "Modernizing Legacy Systems & IT Infrastructure",
+        "Governance Models & Modernization Strategies"
+      ]
+    },
+
+    {
+      "title": "Digital Transformation & Emerging Technologies",
+      "id": "6",
+      "points": [
+        "Crafting & Leading Digital Transformation Journeys",
+        "Overview of AI, Cloud, IoT, Blockchain & Trending Tech",
+        "Balancing Innovation, Experimentation, & ROI",
+        "Organizational Alignment for Successful Transformation"
+      ]
+    },
+    {
+      "title": "Tech Driven Business Model Innovation",
+      "id": "7",
+      "points": [
+        "Reimagining Business Models Through Technology",
+        "CTO Role in Product Innovation, Business Model Design",
+        "Case Studies: How Tech Leaders Transformed Legacy Companies",
+        "Driving Tech-Lead Value Creation, Not Just Operational Efficiency"
+      ]
+    },
+
+    {
+      "title": "Data Science, Analytics & GenAI for CTOs",
+      "id": "8",
+      "points": [
+        "Predictive, Prescriptive & Diagnostic Analytics",
+        "Business & Financial Analytics",
+        "Marketing & Customer Analytics",
+        "Operations, Supply Chain, & Logistics Analytics"
+      ]
+    },
+    {
+      "title": "Tech Governance, Risk & Cybersecurity",
+      "id": "9",
+      "points": [
+        "Enterprise Cybersecurity Strategy",
+        "Threat Detection & Incident Response",
+        "Data Privacy & Compliance (GDPR, CCPA, etc.)",
+        "Secure Software Development Lifecycle (SDLC)",
+        "Governance Frameworks",
+        "Technology Risk Management & Resilience Planning",
+        "Regulatory Compliance within Technology Ecosystems",
+        "Board-Level Dynamics for Technology Leaders"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Design a comprehensive technology strategy for a mid-sized enterprise, focusing on digital transformation. The project should include product development roadmaps, lifecycle management, integrating emerging technologies, and aligning IT infrastructure with business goals for scalability and innovation."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Gaurav Dilip Tikas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/gaurav-dilip-tikas.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Pankaj Viswakarma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/pankaj-viswakarma.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Kaveri Krishnan",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/kaveri-krishnan.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Joysula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Neena Pandey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/neena-pandey.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+
+    {
+      "name": "Prof. Rishi Raj",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rishi-raj.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "chief-technology-officer-programme",
+    "points": [
+      "132+ Hours of Live Classes",
+
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 28025
+      },
+      {
+        "months": 18,
+        "emi": 19431
+      },
+      {
+        "months": 24,
+        "emi": 15099
+      }
+    ],
+    "total": 350000
+  },
+  "faq": {
+    "programId": "chief-technology-officer-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Chief Technology Officer Programme required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In the Chief Technology Officer Programme, you will have access to case studies, simulations, and a Capstone Project to provide a better understanding of the CTO’s role."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 11 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's CTO program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Tech Leadership concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Technology-Officer-Programme.pdf",
+    "source": "IIMV Chief Technology Officer Programme Brochure",
+    "campaign_name": "IIMV-CTOP-11 Months"
+  }
+}

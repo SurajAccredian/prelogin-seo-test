@@ -1,0 +1,131 @@
+{
+  "category": "4",
+  "id": "PM",
+  "short_id" : "project",
+  "vertical": "project management",
+  "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/Project%20Manager.webp",
+  "title": "Transform Your Career in Project Management",
+  "short_title": "Project Management",
+  "description": "Learn Project Management from top institutes and advance your career.",
+  "contact": "9818329799",
+  "type": "verticalPage",
+  "stats": [
+    {
+      "title": "professionals trained in project management.",
+      "text": "10K+"
+    },
+    {
+      "title": "salary increase reported after program completion.",
+      "text": "40%"
+    },
+    {
+      "title": "industries represented by our participants.",
+      "text": "20+"
+    }
+  ],
+
+  "patners": ["iimv"],
+
+  "unique_points": [
+    "gain practical exp",
+    "accelerate your career",
+    "unlock-oppertunittes",
+    "expand-network"
+  ],
+
+  "whyaccredian": [
+    "campus immersion",
+    "carrer assistance sessions",
+    "online classes",
+    "certificate",
+    "doubt clearing",
+    "student support",
+    "case-study",
+    "tools"
+  ],
+
+  "faq": {
+    "programId": "project management",
+    "points": [
+      {
+        "title": "General Program Information",
+        "content": [
+          {
+            "title": "What are the key highlights of the Project Management programs?",
+            "content": [
+              "Our programs feature expert-led sessions, real-world case studies, hands-on projects, and certification from renowned institutes in the country."
+            ]
+          },
+          {
+            "title": "How do I choose the right Project Management program for me?",
+            "content": [
+              "Consider your career goals, experience level, and industry interests. Our advisors can help guide your choice"
+            ]
+          },
+          {
+            "title": "Are these programs suitable for beginners in Project Management?",
+            "content": [
+              "Yes, we offer programs for all experience levels—whether you're starting out or looking to advance your career."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Program Structure & Delivery",
+        "content": [
+          {
+            "title": " Do I get access to course materials after the program ends?",
+            "content": [
+              "Yes, participants have access to course materials and session recordings via the LMS for a specified period."
+            ]
+          },
+          {
+            "title": "Are the programs offered online or in a hybrid format?",
+            "content": [
+              "The programs are delivered 100% live online, offering flexibility and interactive learning experiences."
+            ]
+          },
+          {
+            "title": "What is the duration of these programs?",
+            "content": [
+              "Program durations typically range from 5 months to a year, depending on the institute."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Program Requirements & Enrollment",
+        "content": [
+          {
+            "title": "Are there any prerequisites for enrolling in these programs?",
+            "content": [
+              "Some programs may require prior experience, while others are open to all professionals."
+            ]
+          },
+          {
+            "title": "Can I enroll in multiple programs simultaneously?",
+            "content": [
+              "Yes, but it is recommended to speak with our advisors to manage workloads effectively and align the programs with your goals."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Certification & Career Outcomes",
+        "content": [
+          {
+            "title": "Will I receive a certificate after completing the program?",
+            "content": ["Yes, you will receive a certificate of completion."]
+          },
+          {
+            "title": "How will these programs help in my career advancement?",
+            "content": [
+              "The programs equip you with practical skills, industry knowledge, and credentials to enhance your career prospects in Project Management."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": ["stats", "courses",   "why accredian", "unique points", "FAQs"]
+}

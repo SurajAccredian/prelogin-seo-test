@@ -1,0 +1,378 @@
+{
+  "category": "2",
+  "id": "pg-certificate-program-in-data-science",
+  "vertical": "data science",
+  "title": "Post Graduate Certificate Program in Data Science",
+  "description": "Embark on a 6 month learning journey in Python Foundation, Data Visualization, and Machine Learning.",
+  "short_title": "Data Science",
+  "contact": "9358719988",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "",
+  "start_date": "19 Apr 2025",
+  "duration": "6 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/PGCDS.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 72
+    },
+    {
+      "title": "career sessions",
+      "text": 4
+    },
+    {
+      "title": "capstone project",
+      "count": 1
+    },
+    {
+      "title": "tools",
+      "count": 5
+    },
+    {
+      "title": "modules",
+      "text": 20
+    }
+  ],
+  "overview": {
+    "programId": "pg-certificate-program-in-data-science",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring data scientists eager to master data analysis, machine learning, & predictive modeling.",
+          "Analysts and researchers looking to deepen insights with data science techniques.",
+          "Business professionals needing data insights to enhance strategies and performance.",
+          "IT professionals seeking to add data science to their technical toolkit.",
+          "Marketing professionals interested in leveraging customer data for strategic campaigns.",
+          "Healthcare professionals aiming to innovate with predictive analytics and personalized treatments.",
+          "Financial analysts wanting to employ data science in risk and investment management."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Data Analyst",
+          "Business Intelligence Analyst",
+          "Data Engineer",
+          "Database Administrator",
+          "Data Architect",
+          "Quantitative Analyst",
+          "AI Research Scientist",
+          "Data Visualization Specialist",
+          "Predictive Modeler"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "5 Terms - Python Foundation, Data Visualization, and Machine Learning.",
+          "Learn From The Top Industry Professionals",
+          "Duration: 6 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "add-ons",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundations of Data Science",
+      "week": "4 weeks",
+      "id": "data-analysis-with-python",
+      "points": [
+        "Introduction to Data Science and Python Basics",
+        "Python Foundations",
+        "Essential Libraries for Data Science",
+        "Practical Implementations"
+      ]
+    },
+    {
+      "title": "Statistical Foundations & Data Visualization",
+      "week": "4 weeks",
+      "id": "data-visualization-techniques",
+      "points": [
+        "Introduction to Statistics",
+        "Advanced Statistical Concepts",
+        "Data Visualization",
+        "Practical Implementations"
+      ]
+    },
+    {
+      "title": "Exploratory Data Analysis",
+      "week": "4 weeks",
+      "id": "eda---data-storytelling",
+      "points": [
+        "Data Acquisition & Cleaning",
+        "Data Transformation",
+        "Exploratory Data Analysis (EDA)",
+        "Practical Implementations"
+      ]
+    },
+    {
+      "title": "Machine Learning Fundamentals",
+      "week": "4 weeks",
+      "points": [
+        "Introduction to Machine Learning",
+        "Supervised Learning Algorithms",
+        "Ensemble Learning",
+        "Advanced Supervised Learning Algorithms (self-paced)"
+      ]
+    },
+    {
+      "title": "Advanced Machine Learning & Model Optimization",
+      "week": "4 weeks",
+      "id": "machine-learning-foundation",
+      "points": [
+        "Unsupervised Learning Techniques",
+        "Model Tuning & Evaluation",
+        "Feature Engineering",
+        "Advanced Feature Engineering & Selection (self-paced)"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "major-capstone-project",
+      "points": [
+        "As a data scientist, you'll tackle a key business challenge by aligning with company goals and preparing data for analysis. Using techniques like machine learning, you’ll derive actionable insights and develop a scalable solution. Collaborating with your team, you’ll create a comprehensive report with recommendations and metrics. This capstone mirrors real-world scenarios, showcasing your technical and teamwork skills."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    },
+    {
+      "name": "Dr. Darshan Ingle",
+      "position": "Principal Consultant",
+      "organization": "DataCouch",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/darshan-ingle.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/data-couch.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "numpy",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/numpy.svg"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "pandas",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Pandas.svg"
+    },
+    {
+      "title": "seaborn",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/seaborn.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    }
+  ],
+  "billing": {
+    "programId": "pg-certificate-program-in-data-science",
+    "points": [
+      "72+ Class Hours",
+      
+      "5+ Tools and Frameworks Covered",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 8850
+      },
+      {
+        "months": 18,
+        "emi": 6136
+      },
+      {
+        "months": 24,
+        "emi": 4768
+      }
+    ],
+    "total": 120000
+  },
+  "faq": {
+    "programId": "pg-certificate-program-in-data-science",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Data Science required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Post Graduate Certificate Program in Data Science you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Data Science concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Post Graduate Certificate Program in Data Science?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 6 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How is the Post Graduate Certificate Program in Data Science program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Data Science concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIT-Post-Graduate-Certificate-Program-in-DS-6-months.pdf",
+    "source": "IITG PG Certificate Program in Data Science Brochure",
+    "campaign_name": "PGCPDS-IITG-6 Months"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "category": "13",
+  "id": "executive-general-management-program",
+  "vertical": "general management",
+  "title": "Executive General Management Program",
+  "description": "Embark on an 11 month learning journey in Strategy, Finance, and Digital Transformation.",
+  "short_title": "General Management",
+  "contact": "9810184424",
+  "university_name": "IIM Lucknow",
+  "short_university_name": "iiml",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
+  "start_date": "30 Nov 2025",
+  "duration": "11 months",
+  "required_years_experience": 1,
+  "type": "online",
+  "external_enroll": "https://iiml.accredian.com/",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIML-certificate/IIML-GMP-11-Months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 186
+    },
+    {
+      "title": "capstone project",
+      "count": 1
+    },
+    {
+      "title": "modules",
+      "text": 17
+    },
+
+    {
+      "title": "campus immersions",
+      "text": "10 Day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-general-management-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          [
+            "Mid-Career Professionals: Enhance leadership skills for senior management roles.",
+            "Functional Managers (Sales, Marketing, Finance, Ops): Integrate specific strategies with broader business management practices.",
+            "Technical Professionals: Transition into managerial roles with a broader business perspective.",
+            "Project Managers: Develop holistic skills for overseeing strategic projects.",
+            "Entrepreneurs: Gain a comprehensive foundation in managing growing businesses.",
+            "Consultants: Deepen knowledge of organizational dynamics for effective advising."
+          ]
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "General Manager",
+          "Operations Manager",
+          "Regional Manager",
+          "Corporate Strategy Manager",
+          "Business Development Manager",
+          "Sales Manager",
+          "Project Manager",
+          "Human Resources Manager",
+          "Strategic Planner",
+          "Supply Chain Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "11 Months- Strategy, Finance, and Digital Transformation",
+          "Learn from esteemed IIM Lucknow faculty",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From IIM Lucknow",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 24 Months",
+          "Selected Topics with Industry Experts"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "alumni-status"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundation of Business Management",
+      "week": "",
+      "id": "leadership-basics---communication"
+    },
+    {
+      "title": "Managerial Economic Insights for Better Decision-Making",
+      "week": "",
+      "id": "finance--marketing--sales--operations---supply-chain-management"
+    },
+    {
+      "title": "Managerial Communication: Leading with Clarity",
+      "week": "",
+      "id": "strategic-management"
+    },
+    {
+      "title": "The Dynamics of Individual & Organizational Behavior",
+      "week": "",
+      "id": "hr--governance---risk-management"
+    },
+    {
+      "title": "Financial Acumen: Decoding Numbers, Driving Strategy",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Marketing Management: Strategies That Connect & Convert",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Competitive Success Through Strategic Management",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Human Resource Management: The Pulse of Organizational Success",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Managerial Finance Beyond the Balance Sheet",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Business Analytics Turning Data into Decisions",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Operations and Supply Chain Fueling Business Momentum",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Diverse Perspectives Driving Global Success",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Business Governance Leading with Ethics and Impact",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Gen AI and Digital Transformation Driving Tomorrow’s Innovation",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Turning Creativity into Business Success",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Business Turnaround & Change Management",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    },
+    {
+      "title": "Sustainability and ESG for Responsible Business Growth",
+      "week": "",
+      "id": "leading-change-for-sustainable-growth"
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Faisal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/faizal-v1.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Malvika",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-malvika-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Rahul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/rahul-v1.webp",
+      "position": "Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Vinit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Sunil",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-sunil-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Vaibhav",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-vaibhav-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Raghu",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/raghu-v1.webp",
+      "position": "CA & Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Asma R Shora",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-asma-r-shora.webp",
+      "position": "Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Ankit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-ankit.webp",
+      "position": "Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Prof. Gourav Vallabh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/prof-gourav-vallabh.webp",
+      "position": "Professor - Finance",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-general-management-program",
+    "points": [
+      "186+ Hours of Live Classes",
+      "Live & Interactive Learning",
+      "Elite Peer Network",
+      "10 Days Campus Immersions",
+      "Executive Alumni Status (at additional cost)"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": "INR 45658 - INR 46807"
+      },
+      {
+        "months": 18,
+        "emi": "INR 33660 - INR 34966"
+      },
+      {
+        "months": 24,
+        "emi": "INR 28628 - INR 29672"
+      }
+    ],
+    "total": 425000
+  },
+  "faq": {
+    "programId": "executive-general-management-program",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in General Management required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "About the Program",
+        "content": [
+          {
+            "title": "What is the learning methodology for this program?",
+            "content": [
+              "- 11-month immersive learning with weekend-only classes except immersion",
+              "- 186 Hours LIVE Interactive Sessions led by IIM Lucknow Faculty",
+              "- 10 days On-Campus Learning (2 campus immersions of 5 days each) at IIM Lucknow",
+              "- Judicious blend of lectures, real-life case studies, quizzes, projects, simulations and assignments"
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 11 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Lucknow?",
+        "content": [
+          {
+            "title": "How's the General Management program different?",
+            "content": [
+              "- **Progressive Learning Architecture:** IIML's proprietary Progressive Learning Architecture ensures that irrespective of the background you are from, you will attain mastery in a step-by-step way.",
+              "- **Theory to Industry Learning Framework:** IIML's Theory to Industry framework ensures that you are learning every General Management concept in context of real-world industry problems."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Executive-General-Management-Program.pdf",
+    "source": "IIML Executive General Management Program Brochure",
+    "campaign_name": "GM-IIML-11 Months"
+  }
+}

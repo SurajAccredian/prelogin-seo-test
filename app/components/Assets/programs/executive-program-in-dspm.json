@@ -1,0 +1,531 @@
+{
+  "category": "2",
+  "id": "executive-program-in-dspm",
+  "vertical": "data science",
+  "title": "Executive Program in  Data Science and Product Management",
+  "description": "Embark on an 11-term learning journey in Data Science, Machine Learning, and Product Management.",
+  "short_title": "Data Science",
+  "contact": "9079653292",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/LS024UnsxNA?si=BIReRf000IUSVwDW",
+  "start_date": "31 Aug 2024",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/DSPM.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 150
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "text": 45
+    },
+    {
+      "title": "capstone project",
+      "count": 2
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-dspm",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring data scientists eager to master data analysis, machine learning, & predictive modeling.",
+          "Business professionals needing data insights to enhance strategies and performance.",
+          "IT professionals seeking to add data science to their technical toolkit.",
+          "Marketing professionals interested in leveraging customer data for strategic campaigns.",
+          "Financial analysts wanting to employ data science in risk and investment management.",
+          "Engineers and developers keen to integrate data science into their projects.",
+          "Sales professionals understanding product features for better sales.",
+          "Quality assurance professionals incorporating user-centric testing.",
+          "Data analysts using analytics to influence product strategies.",
+          "Technology professionals understanding product development's business aspects",
+          "Software developers contributing to product vision and strategy",
+          "Business analysts enhancing strategic product management skills",
+          "Aspiring product managers seek foundational skills for career launch"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Data Analyst",
+          "Business Intelligence Analyst",
+          "Data Engineer",
+          "AI Product Manager",
+          "Data Architect",
+          "Product Strategist",
+          "Product Development Manager",
+          "Innovation Manager",
+          "UX/UI Product Designer",
+          "Product Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "11 Terms - Analytics, ML, Product Management",
+          "Learn from the top industry professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "2-day Campus Immersion at IIT Guwahati",
+          "Capstone projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "Product Demo Day",
+          "1:1 career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Data Analysis with Python",
+      "week": "4 weeks",
+      "id": "data-analysis-with-python",
+      "points": [
+        "Data Science Fundamentals",
+        "Data Operation with Numpy",
+        "Data Manipulation with Pandas"
+      ]
+    },
+    {
+      "title": "Data Visualization Techniques",
+      "week": "4 weeks",
+      "id": "data-visualization-techniques",
+      "points": [
+        "Introduction to Data Visualization",
+        "Data Visualization using Matplotlib",
+        "Hands-on Pandas for Rapid Visualization",
+        "Seaborn for Data Visualization"
+      ]
+    },
+    {
+      "title": "EDA & Data Storytelling",
+      "week": "4 weeks",
+      "id": "eda---data-storytelling",
+      "points": [
+        "Introduction to Exploratory Data Analysis",
+        "EDA Framework Deep Dive",
+        "Scientific Exploration of Industry Data (Case Study)",
+        "Student Presentations & Insight Delivery"
+      ]
+    },
+    {
+      "title": "Minor Capstone Project",
+      "special": "1",
+      "id": "minor-capstone-project",
+      "points": [
+        "In a simulated environment, you get to work with a major Telecom company that seeks help from your team of Data Scientists to resolve a major marketing hurdle. Get a near real world exposure of working on industry problems within data science teams."
+      ]
+    },
+    {
+      "title": "Machine Learning Foundation",
+      "week": "4 weeks",
+      "id": "machine-learning-foundation",
+      "points": [
+        "Introduction to Machine Learning (ML)",
+        "Linear Regression",
+        "Logistic Regression",
+        "Model Evaluation Techniques"
+      ]
+    },
+    {
+      "title": "Machine Learning Intermediate",
+      "week": "4 weeks",
+      "id": "machine-learning-intermediate",
+      "points": [
+        "Decision Trees",
+        "Random Forests",
+        "Dimensionality Reduction using Principle Component Analysis",
+        "Naïve Bayes Classifier"
+      ]
+    },
+    {
+      "title": "Machine Learning Advanced",
+      "week": "4 weeks",
+      "id": "machine-learning-advanced",
+      "points": [
+        "KNN (K- Nearest neighbors)",
+        "K-means Clustering",
+        "Ensemble Learning",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Major Capstone Project",
+      "special": "1",
+      "id": "major-capstone-project",
+      "points": [
+        "Experience a real world simulation of a company Employee Retention Program that needs to be solved using Data Science and Machine Learning. Work with a team of Data Scientists and experience real-world problem solving through Data Science"
+      ]
+    },
+    {
+      "title": "Introduction to Product Management",
+      "week": "4 weeks",
+      "id": "introduction-to-product-management",
+      "points": [
+        "Roles & Responsibilities of a Product Manager (PM)",
+        "User Research for PMs",
+        "Market Research for PMs",
+        "Competitive Analysis for PMs"
+      ]
+    },
+    {
+      "title": "Product Strategy & Roadmap",
+      "week": "4 weeks",
+      "id": "product-strategy---roadmap",
+      "points": [
+        "What is Product Planning Cycle?",
+        "Establishing Product Vision & Mission",
+        "Formulating Product Strategy & Product Goals",
+        "What is Product Backlog & Roadmap"
+      ]
+    },
+    {
+      "title": "Design Thinking & UI/UX",
+      "week": "4 weeks",
+      "id": "design-thinking---ui-ux",
+      "points": [
+        "Design Thinking for PMs",
+        "Building MVP - Artefacts, Persona Mapping & PRDs",
+        "UI/UX for PMs",
+        "Designing Mockups, Wireframes, & Prototypes"
+      ]
+    },
+    {
+      "title": "Agile Product Engineering",
+      "week": "4 weeks",
+      "id": "agile-product-engineering",
+      "points": [
+        "Introduction to Engineering for Product Managers",
+        "Understanding Microservices & Cloud Services",
+        "Waterfall & Agile Methodology",
+        "Understanding Scrum & Kanban"
+      ]
+    },
+    {
+      "title": "Product Marketing & Launch",
+      "week": "4 weeks",
+      "id": "product-marketing---launch",
+      "points": [
+        "Product Launch & A/B Testing",
+        "Understanding Product Marketing & Consumer Behaviour",
+        "Measuring Brand & Impact of Product Marketing",
+        "Marketing Ninja Challenge"
+      ]
+    },
+    {
+      "title": "Design Discovery",
+      "special": "1",
+      "id": "project--design-discovery",
+      "points": [
+        "Design Discovery requires one to apply design thinking concepts to create human-centred and action-oriented solutions. As a PM practitioner you will be competing with the best to solve a complex challenge."
+      ]
+    }
+  ],
+  "faculty": [
+     {
+      "name": "Deepesh",
+ "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Senior Faculty",
+      "organization": "Accredian",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Harihara",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "optimizely",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/optimizely.svg"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "seaborn",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/seaborn.webp"
+    },
+    {
+      "title": "pandas",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Pandas.svg"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "numpy",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/numpy.svg"
+    },
+    {
+      "title": "miro",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "matplotlib",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Matplotlib.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-dspm",
+    "points": [
+      "150+ Hours of Live Classes",
+      
+      "50+ Tools & Frameworks Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-dspm",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "1.Is prior experience in Data Science or Product Management required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "2.What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In the Executive Program in Data Science and Product Management, you will have access to three projects: a Minor Capstone Project, a Major Project, and Mission: Design Discovery, to provide a better understanding of the real-world applications of Data Science and Product Management concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Data Science and Product Management Program?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 11 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How is the Executive Program in Data Science & Product Management program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Data Science and Product Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-DSPM-11-months-v2.pdf",
+    "source": "Data Science and Product Management Brochure",
+    "campaign_name": "DSPM-IIT-11Months"
+  }
+}

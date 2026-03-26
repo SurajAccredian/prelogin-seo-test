@@ -1,0 +1,279 @@
+.mentorback {
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/MentorForm2.svg");
+    /* background-image: url('../../../Assets/images/MentorForm2.svg'); */
+    background-size: cover;
+    background-size: 690px 690px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.mentorform {}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+.preferredType {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+    .mentorback {
+
+        background-size: 600px 600px;
+        /* background-position: 700px 80px; */
+    }
+
+    .mentorform {
+        margin-left: 60px;
+    }
+
+    .preferredType {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 1194px) {
+    .mentorback {
+
+        background-size: 550px 550px;
+        /* background-position: 600px 110px; */
+    }
+
+    .mentorform {
+        width: 500px;
+    }
+
+    .preferredType {
+        width: 160px;
+        height: 160px;
+    }
+
+}
+
+@media screen and (max-width: 1235px) {
+    .mentorback {
+
+        background-size: 500px 500px;
+        /* background-position: 490px 150px; */
+    }
+
+    .mentorform {
+        width: 490px;
+    }
+
+    .preferredType {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+@media screen and (max-width: 1055px) {
+    .mentorback {
+        background-size: 380px 380px;
+        background-position: right;
+    }
+
+    .mentorform {
+        width: 490px;
+    }
+
+    .preferredType {
+        width: 150px;
+        height: 150px;
+    }
+
+
+}
+
+@media screen and (max-width: 980px) {
+    .mentorback {
+        background-size: 300px 300px;
+        background-position: top;
+    }
+
+    .mentorform {
+        /* width: 100px; */
+        margin-top: 300px;
+        margin-left: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        border-top-left-radius: 30px;
+        /* adjust the value as needed */
+        border-top-right-radius: 30px;
+    }
+
+}
+
+
+.hide-scrollbar {
+    overflow: -moz-scrollbars-none;
+    /* Firefox */
+    overflow: hidden;
+    /* Hide scrollbar for WebKit browsers */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    direction: rtl;
+}
+
+/* 
+@media screen and (max-width: 920px) {
+    .mentorback {
+        background-image: none;
+    }
+
+    .mentorform{
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+} */
+.custom-button {
+    width: auto;
+    padding: 0.5rem 1rem;
+    /* Adjust padding as needed */
+    margin-top: 1rem;
+    /* Adds space above the button */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mentorback {
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/MentorFormImage.svg");
+    background-size: cover;
+    background-size: 650px 650px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.mentorform{
+
+}
+
+.preferredType{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+    .mentorback {
+    
+        background-size: 500px 500px;
+    }
+
+    .mentorform{
+        width: 750px;
+    }
+
+    .preferredType{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 1194px) {
+    .mentorback {
+    
+        background-size: 450px 450px;
+    }
+
+    .mentorform{
+        width: 600px;
+    }
+
+    .preferredType{
+        width: 160px;
+        height: 160px;
+    }
+    
+}
+
+@media screen and (max-width: 1008px) {
+    .mentorback {
+    
+        background-size: 450px 450px;
+    }
+
+    .mentorform{
+        width: 500px;
+    }
+
+    .preferredType{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 920px) {
+    .mentorback {
+        background-size: 300px 300px;
+        background-position: top;
+    }
+
+    .mentorform{
+        /* width: 100px; */
+/* margin-top: 300px;
+        width: 100%;
+        border-radius: 0px;
+        border-top-left-radius: 30px; /* adjust the value as needed */
+/* border-top-right-radius: 30px; */
+/* } */
+/*  */
+/* } */
+/* 
+@media screen and (max-width: 920px) {
+    .mentorback {
+        background-image: none;
+    }
+
+    .mentorform{
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+} */
+/* .custom-button {
+    width: auto;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+/* margin-top: 1rem; Adds space above the button */
+/* }  */

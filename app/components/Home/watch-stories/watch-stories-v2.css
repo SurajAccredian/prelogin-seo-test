@@ -1,0 +1,170 @@
+/* === 3D CAROUSEL - PURE REACT VERSION === */
+
+.watch-success-stories {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Card wrapper styling with filters */
+.card-wrapper {
+  position: relative;
+  /* filter: blur(1px) brightness(0.88); */
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Text section dimmed by default */
+.text-section {
+  opacity: 1;
+  transition: all 0.7s ease;
+}
+
+/* Play button dimmed by default */
+.play-button-circle {
+  transform: scale(0.9);
+  opacity: 0.9;
+  transition: all 0.7s ease;
+}
+
+/* Active card styling - Remove filters and enhance */
+[style*="translateZ(100px)"] .card-wrapper {
+  filter: none !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(0, 0, 0, 0.05) !important;
+  overflow: hidden;
+}
+
+[style*="translateZ(100px)"] .text-section {
+  opacity: 1 !important;
+}
+
+[style*="translateZ(100px)"] .play-button-circle {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+
+/* Shimmer effect for active card */
+/* Shimmer effect for active card with blue tint */
+/* Shimmer effect for active card with light blue tint */
+/* Shimmer effect for active card with light blue tint */
+[style*="translateZ(100px)"] .card-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+      transparent 0%,
+      rgba(59, 130, 246, 0.15) 50%,
+      transparent 100%);
+  animation: shimmer-slide 3s infinite;
+  z-index: 1;
+  /* Changed from 1 to -1 */
+  pointer-events: none;
+}
+
+
+
+/* Shimmer animation */
+@keyframes shimmer-slide {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 200%;
+  }
+}
+
+
+
+/* Glow pulse animation */
+@keyframes glow-pulse {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* === RESPONSIVE ADJUSTMENTS === */
+
+/* Mobile - Single card visible */
+/* Mobile - Single card visible */
+@media screen and (max-width: 768px) {
+  /* Container adjustments */
+  .watch-success-stories {
+    overflow: hidden;
+  }
+
+  /* Only show the active/center card */
+  [style*="perspective"] > div > div:not([style*="translateZ(100px)"]) {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  /* Active card styling */
+  .card-wrapper {
+    filter: none !important;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+
+  .text-section {
+    opacity: 1 !important;
+  }
+
+  .play-button-circle {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }
+
+  /* Hide navigation arrows on mobile */
+  button.hidden.md\:flex {
+    display: none !important;
+  }
+
+  /* Adjust container height for mobile */
+  [style*="perspective"] {
+    height: 420px !important;
+    overflow: hidden !important;
+  }
+
+  /* Ensure cards container doesn't overflow */
+  [style*="perspective"] > div {
+    overflow: hidden !important;
+  }
+}
+
+
+/* Tablet adjustments */
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  [style*="perspective"] {
+    height: 550px !important;
+  }
+}
+
+/* Desktop fine-tuning */
+@media screen and (min-width: 1024px) {
+  .card-wrapper {
+    max-width: 370px;
+    min-height: 380px;
+  }
+}

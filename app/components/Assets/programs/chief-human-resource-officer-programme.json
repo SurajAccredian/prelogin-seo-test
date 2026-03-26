@@ -1,0 +1,401 @@
+{
+  "category": "32",
+  "id": "chief-human-resource-officer-programme",
+  "vertical": "Human Resource",
+  "title": "Chief Human Resource Officer Programme",
+  "description": "Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
+  "short_title": "Chief Human Resource Officer",
+  "contact": "9115924967",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "22 Feb 2026",
+  "duration": "12 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 140
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 13
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "overview": {
+    "programId": "chief-human-resource-officer-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Senior HR Professionals: Enhance strategic leadership skills.",
+          "HR Directors: Transition into the CHRO role.",
+          "HR Business Partners: Influence organizational strategy and transformation.",
+          "Talent Leaders: Develop advanced people management capabilities.",
+          "HR Consultants: Expand knowledge in strategic HR planning.",
+          "Business Leaders: Build robust HR systems for success."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Human Resources Officer (CHRO)",
+          "HR Director",
+          "Vice President of Human Resources",
+          "Global HR Head",
+          "Talent Management Leader",
+          "HR Business Partner",
+          "HR Consultant",
+          "Strategic HR Advisor",
+          "HR Transformation Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "13 Modules- Talent Acquisition, Leadership Development, and HR Analytics",
+          "Learn From The Top Industry Professionals",
+          "Duration: 12 Months | Weekend Online",
+          "Certification From IIM Visakhapatnam",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "alumni-status",
+    "exclusive-merchandise"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "domain": "pillar",
+  "curriculum": [
+    {
+      "title": "The Modern CHRO",
+      "id": "1",
+      "points": [
+        "The Evolving Responsibilities of the Modern CHRO",
+        "The Modern CHRO as a Strategic Partner",
+        "The Modern CHRO as a Value Creator",
+        "Key Skills and Competencies for the Modern CHRO"
+      ]
+    },
+    {
+      "title": "Strategic Leadership for CHROs",
+      "id": "2",
+      "points": [
+        "Strategy Fundamentals for CHROs",
+        "Aligning HR Strategy with Business Objectives",
+        "Building and Leading High-Performing Teams",
+        "Stakeholder Management & Communication"
+      ]
+    },
+    {
+      "title": "Organizational Design and Strategy",
+      "id": "3",
+      "points": [
+        "Principles of Organizational Design",
+        "Aligning Organizational Structure with Strategy",
+        "Designing for Agility and Innovation",
+        "Measuring the Impact of Organizational Design on Performance"
+      ]
+    },
+    {
+      "title": "Strategic Talent Acquisition and Workforce Planning",
+      "id": "4",
+      "points": [
+        "Developing a Strategic Talent Acquisition Plan",
+        "Workforce Forecasting and Demand Planning",
+        "Employer Branding and Recruitment Strategies",
+        "Recruitment Metrics and Processes"
+      ]
+    },
+    {
+      "title": "Strategic Employee Engagement and Retention",
+      "id": "5",
+      "points": [
+        "Developing Strategic Employee Engagement Plan",
+        "Designing Employee Recognition Programs",
+        "Creating Career Development Opportunities",
+        "Implementing Performance Management System"
+      ]
+    },
+    {
+      "title": "Leadership Development & Succession Planning",
+      "id": "6",
+      "points": [
+        "Identifying and Assessing Leadership Potential",
+        "Creating Leadership Development Programs",
+        "Implementing Leadership Assessment Tools and Metrics",
+        "Developing Leadership Competencies and Skills"
+      ]
+    },
+    {
+      "title": "Leading Culture & Change",
+      "id": "7",
+      "points": [
+        "Defining and Communicating Organizational Culture",
+        "Aligning Culture with Business Objectives",
+        "Managing Change and Overcoming Resistance",
+        "Managing Cultural Integration During Mergers and Acquisitions"
+      ]
+    },
+    {
+      "title": "Compensation & Benefits",
+      "id": "8",
+      "points": [
+        "Strategic Compensation Planning",
+        "Designing Competitive Compensation Packages",
+        "Managing Employee Stock Options and Equity",
+        "Executive Compensation"
+      ]
+    },
+    {
+      "title": "Diversity, Equity, and Inclusion (DEI)",
+      "id": "9",
+      "points": [
+        "Developing and Implementing DEI Strategies",
+        "Fostering an Inclusive Organizational Culture",
+        "Promoting Equity in Career Development and Advancement",
+        "Measuring and Reporting DEI Progress and Metrics"
+      ]
+    },
+    {
+      "title": "Legal and Compliance Management",
+      "id": "10",
+      "points": [
+        "Employment Law and Regulations",
+        "Ensuring Compliance with Labor Standards",
+        "Addressing Discrimination and Harassment Issues",
+        "Managing Legal Disputes and Litigation"
+      ]
+    },
+    {
+      "title": "Financial Acumen for CHROs",
+      "id": "11",
+      "points": [
+        "Budgeting and Financial Planning for HR",
+        "Understanding Financial Statements and Metrics",
+        "Aligning HR Initiatives with Financial Goals"
+      ]
+    },
+    {
+      "title": "Strategic HR Analytics and Data-Driven Decision Making",
+      "id": "12",
+      "points": [
+        "Implementing HR Analytics Tools and Technologies",
+        "Strategic Workforce Planning using Data Analytics",
+        "Using Predictive Models for Talent Management",
+        "Evaluating ROI of HR initiatives"
+      ]
+    },
+    {
+      "title": "Digital Transformation and Future of Work",
+      "id": "13",
+      "points": [
+        "Implementing HR Technology Systems",
+        "Leveraging Artificial Intelligence and Automation in HR",
+        "Future Trends in HR Technologies",
+        "The Future of Work- For Employees, Leaders & Organizations"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "For the CHRO program capstone project, participants will design and implement a comprehensive HR transformation strategy for a hypothetical organization undergoing significant change. This project involves assessing the current state of HR practices and identifying key areas for improvement. Participants will develop a detailed plan for integrating advanced HR technologies and data analytics to enhance decision-making and operational efficiency. The project will also require crafting strategies for fostering a positive organizational culture and driving employee engagement during the transition. Finally, participants will present their implementation plan, including metrics for measuring success and managing change. The capstone project will culminate in a presentation to a panel of industry experts for feedback and evaluation."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. Bishakha Majumdar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Bisakha-v1.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. MV Anuradha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Joysula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Happy Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "chief-human-resource-officer-programme",
+    "points": [
+      "140+ Hours of Live Classes",
+
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 24300
+      },
+      {
+        "months": 18,
+        "emi": 18099
+      },
+      {
+        "months": 24,
+        "emi": 15360
+      }
+    ],
+    "total": 250000
+  },
+  "faq": {
+    "programId": "chief-human-resource-officer-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Human Resource required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 12 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's CHRO program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of HR concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-chief-human-resource-officer-programme.pdf",
+    "source": "IIMV Human Resource Brochure",
+    "campaign_name": "CHRO-IIMV-12 Months"
+  }
+}

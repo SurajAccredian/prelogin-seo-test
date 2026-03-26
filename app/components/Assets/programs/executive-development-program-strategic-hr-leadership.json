@@ -1,0 +1,437 @@
+{
+  "category": "34",
+  "id": "executive-development-program-strategic-hr-leadership",
+  "vertical": "Human Resource",
+  "title": "Executive Development Program in Strategic HR Leadership",
+  "description": "Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.",
+  "short_title": "Human Resource",
+  "contact": "9289224842",
+  "university_name": "XLRI",
+  "short_university_name": "xlri",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
+  "accredited_by": [
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-XLEAD.webp"
+  ],
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "start_date": "26 Oct 2025",
+  "duration": "10 months",
+  "required_years_experience": 5,
+  "type": "online",
+  "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/edps.html",
+  "enrollments": "inacive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/xlri-certificate/XLRI-CMO-11-Months-v1.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 120
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 10
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-Days"
+    }
+  ],
+  "overview": {
+    "programId": "executive-development-program-strategic-hr-leadership",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "HR Professionals: Transition into strategic roles and decision-making.",
+          "Business Leaders: Align HR strategies with organizational goals.",
+          "Mid-Level Practitioners: Broaden expertise in workforce planning and analytics.",
+          "HR Consultants: Deepen knowledge of strategic HR practices.",
+          "Cross-Functional Leaders: Collaborate effectively with HR on organizational strategy.",
+          "Founders: Develop robust HR strategies for scalability."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Human Resources Officer (CHRO)",
+          "HR Director",
+          "Talent Management Head",
+          "Learning and Development Director",
+          "Organizational Development Consultant",
+          "Strategic HR Business Partner",
+          "HR Analytics Lead",
+          "Employee Experience Leader",
+          "Global HR Manager",
+          "Corporate HR Strategy Consultant",
+          "C-suite Advisor on HR Strategy",
+          "HR Transformation Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Modules - HRM Strategy, DEI Leadership, and GenAI",
+          "Learn from the top industry professionals and expert sessions by XLRI Faculty",
+          "Duration: 10 months | Weekend Online",
+          "Certification from XLEAD & XLRI",
+          "Live Instructor led classes",
+          "Transformative Simulation",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "1:1 career mentorship sessions",
+          "Campus Immersions: One Campus Immersion of 2 days"
+        ]
+      }
+    ]
+  },
+  "domain": "module",
+  "attendancePercent": 70,
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "engaging-simulations"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Future of Workplace",
+      "week": "",
+      "points": [
+        "Setting the Context for Digital Change in HR",
+        "Developing an Ability to look into the Future",
+        "Industry 4.0 & the Skilling Challenges",
+        "Digital Transformation in Business",
+        "Managing the Transformation",
+        "Impact of Organizational Design on Strategy",
+        "New-Age Organization Design & Structures",
+        "Impact of Work from Anywhere",
+        "Managing Organization Culture in Hybrid Workmode",
+        "Social Media & Employer Branding"
+      ]
+    },
+    {
+      "title": "Strategic HRM",
+      "week": "",
+      "points": [
+        "Aligning Business Strategy with Organization Objectives",
+        "Talent Management: Attraction, Retention, & Development",
+        "Strategic Staffing & Resource Allocation",
+        "Managing Remote Contractual Workforce",
+        "Contemporary Issues in HRM - GIG Economy & Workers",
+        "Building Learning Organizations",
+        "SHRM Frameworks",
+        "Corporate Governance",
+        "Role of HR in Successful Mergers, Acquisitions & Joint Ventures",
+        "Role of HR in Internationalization"
+      ]
+    },
+    {
+      "title": "Understanding HR Metrics",
+      "week": "",
+      "points": [
+        "Digital Tools for Research",
+        "Employee Persona & Look-alike Audience",
+        "Employer Branding",
+        "Framework for Problem Solving",
+        "Basics of People Analytics",
+        "Steps to Workforce Planning- Supply, Demand, Gap & Solution Analysis",
+        "Strategic HR Metrics",
+        "Employee Training & Development Analytics",
+        "Talent Engagement Analytics",
+        "HR Scorecards"
+      ]
+    },
+    {
+      "title": "Digitalization, AI & HRM",
+      "week": "",
+      "points": [
+        "Interpreting Data for Actionable Insights",
+        "Behavioral Modeling & Predictive Analytics",
+        "GenAI & its Applications in HR Strategy (Planning, Recruitment & Selection)",
+        "GenAI & its Applications in Learning & Development, Performance & Career Management",
+        "Developing Learning Experience Platforms",
+        "Ethical Issues in the Digitalization of HRM"
+      ]
+    },
+    {
+      "title": "Motivating Next-Gen Employees",
+      "week": "",
+      "points": [
+        "Reimagine Careers & Succession Planning",
+        "Performance Management & Appraisal for the next-gen employees",
+        "Compensation Management including Rewards & Recognition"
+      ]
+    },
+
+    {
+      "title": "Leadership",
+      "week": "",
+      "points": [
+        "Self-Leadership, Servant Leadership & Emotional Intelligence",
+        "Building Leadership through Uncertain Times; Leadership & Communication",
+        "Employee Counseling, Coaching, & Mentoring for Leadership Development",
+        "Leading Innovation",
+        "Leading Start-ups"
+      ]
+    },
+
+    {
+      "title": "Employee Wellness & Mental Well-Being",
+      "week": "",
+      "points": [
+        "Future of Work: Post-Pandemic Perspectives",
+        "Understanding & Managing Stress in the Workplace",
+        "Mental Health & Well-Being"
+      ]
+    },
+
+    {
+      "title": "Diversity, Equity, & Inclusion",
+      "week": "",
+      "points": [
+        "Relevance in the Present Time & Context",
+        "Diversity: A Strong Business Case",
+        "Types: Cultural, Racial, Religious, Age, Sex, Sexual Orientation, Physical, Mental, Caste, Regional",
+        "Psychological Foundations",
+        "Leading a Diverse Workforce",
+        "Team Diversity"
+      ]
+    },
+    {
+      "title": "Future of Industrial Relations & New Labor Laws",
+      "week": "",
+      "points": ["Labour Laws", "HR Compliance", "New Policies"]
+    },
+    {
+      "title": "Campus Immersion",
+      "week": "",
+      "points": [
+        "Critical Concepts of Marketing",
+        "Role of HR as a Business Growth Enabler",
+        "Understanding the Business Landscape",
+        "Capstone Project Presentations"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Ankit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-ankit.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Faisal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/faizal-v1.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Shravasti Chakravarti",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/sharvasti-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr. Keith C. D’Souza",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Keith%20C.%20D%E2%80%99Souza.webp",
+      "position": "Visiting Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Vinit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr Narasimhan Rajkumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Narsimha%20Rao.webp",
+      "position": "Associate Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr. Paramjyot Singh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Paramjyot%20Singh.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr. Snigdha Pattnaik",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Snigdha%20Pattnaik.webp",
+      "position": "Adjunct Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Prof. RatanKK",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Prof.%20RatanKK.webp",
+      "position": "Digital Marketing Expert",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gutsgo.webp"
+    },
+
+    {
+      "name": "Ramesh Soundararajan",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Ramesh%20Soundararajan.webp",
+      "position": "Visiting Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Santosh Thangavelu",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Santosh%20Thangavelu.webp",
+      "position": "CHRO - India",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Axtria_Logo.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-development-program-strategic-hr-leadership",
+    "points": [
+      "120 Hours of Live Classes",
+
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 21683
+      },
+      {
+        "months": 18,
+        "emi": 14980
+      },
+      {
+        "months": 24,
+        "emi": 11604
+      }
+    ],
+    "total": 240000
+  },
+  "faq": {
+    "programId": "executive-development-program-strategic-hr-leadership",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in HR required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "In the Strategic HR Leadership Program, you will work on real-world case studies and Capstone Projects to gain a better understanding of the practical applications of strategic HR and leadership concepts."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 10 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why XLRI",
+        "content": [
+          {
+            "title": "How's the Executive Development Program in Strategic HR Leadership program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Progressive Learning Architecture:** XLRI's proprietary Progressive Learning Architecture ensures that irrespective of the background you are from, you will attain mastery in a step-by-step way.",
+              "- **Theory to Industry Learning Framework:** XLRI's Theory to Industry framework ensures that you are learning every HR Leadership concept in context of real-world industry problems.",
+              "- **Accredian Career Center:**  Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/xlri-delhi-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Strategic-HR-Leadership.pdf",
+    "source": "XLRI Executive Development Program in Strategic HR Leadership Brochure",
+    "campaign_name": "EDPSHR-XLRI-10 Months"
+  }
+}

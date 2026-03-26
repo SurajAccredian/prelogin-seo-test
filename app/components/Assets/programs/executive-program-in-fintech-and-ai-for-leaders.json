@@ -1,0 +1,463 @@
+{
+  "category": "29",
+  "id": "executive-program-in-fintech-and-ai-for-leaders",
+  "vertical": "finance",
+  "title": "Executive Program in Fintech & AI for Leaders",
+  "description": "Embark on an 11 month learning journey in Fintech Ecosystem, Cybersecurity, and Generative AI.",
+  "short_title": "Fintech",
+  "contact": "8826567425",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "27 July 2025",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/executive-program-in-fintech-and-ai-for-leaders.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 34
+    },
+    {
+      "title": "capstone project",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 15
+    },
+    {
+      "title": "campus immersion",
+    "text": "2 day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-fintech-and-ai-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Finance professionals exploring emerging technologies impacting industry trends.",
+          "Tech enthusiasts examining finance, technology, and innovation intersections.",
+          "Entrepreneurs developing fintech startups to disrupt traditional financial services.",
+          "Banking professionals updating on digital trends, implementing fintech solutions.",
+          "Investment managers using fintech for portfolio optimization and wealth management.",
+          "Marketing professionals understanding consumer behavior, crafting fintech strategies.",
+          "Data Science Professionals looking to deepen their AI and machine learning expertise.",
+          "Software Engineers seeking to integrate AI solutions into applications and products.",
+          "Technical Leads overseeing AI-driven projects and managing AI teams.",
+          "Business Analysts aiming to leverage AI for data-driven decision-making.",
+          "Entrepreneurs building AI-based startups or innovative solutions.",
+          "Mid-career Professionals transitioning into AI roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Blockchain Developer",
+          "Cryptocurrency Analyst",
+          "Fintech Product Manager",
+          "Digital Payments Specialist",
+          "Blockchain Consultant",
+          "Financial Technology Strategist",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "AI Product Manager",
+          "Business Intelligence Analyst",
+          "AI Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - Fintech Ecosystem, Cybersecurity, and Generative AI.",
+          "Learn From The Top Industry Professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "alumni-status-iit",
+    "experiential-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+
+  "curriculum": [
+    {
+      "title": "Introduction to FinTech",
+      "id": "1",
+      "points": [
+        "Foundations of FinTech",
+        "Fintech Ecosystem",
+        "Fintech Regulations & Compliance"
+      ]
+    },
+    {
+      "title": "Payments & Lending Technology",
+      "id": "2",
+      "points": [
+        "Introduction to Digital Payment Systems",
+        "Payment Ecosystem",
+        "Emerging Trends in Payment Technology",
+        "Digital Lending Platforms"
+      ]
+    },
+    {
+      "title": "Blockchain & Cryptocurrency",
+      "id": "3",
+      "points": [
+        "Fundamentals of Blockchain Technology",
+        "Cryptocurrency Fundamentals",
+        "Smart Contracts in FinTech"
+      ]
+    },
+    {
+      "title": "Cybersecurity in Fintech",
+      "id": "4",
+      "points": [
+        "Fundamentals of Cybersecurity in Fintech",
+        "Cybersecurity Risk Management",
+        "Cybersecurity Compliance and Data Protection"
+      ]
+    },
+    {
+      "title": "Financial Risk Analytics",
+      "id": "5",
+      "points": [
+        "Intro to Financial Risk Analytics",
+        "Market Risk Analytics",
+        "Credit Risk Analytics"
+      ]
+    },
+    {
+      "title": "Fintech Capstone",
+      "special": "1",
+      "id": "minor-project",
+      "points": [
+        "This Project will challenge participants to address a real-world problem or opportunity in the fintech domain, leveraging skills from fintech fundamentals, digital payments, blockchain, cybersecurity, and financial risk analytics. Participants will collaborate in teams, employing innovative solutions and demonstrating a comprehensive understanding of fintech concepts. This hands-on experience aims to enhance their problem-solving abilities and prepare them for future industry challenges."
+      ]
+    },
+    {
+      "title": "Introduction to AI for Leaders",
+      "id": "1",
+      "points": [
+        "Introduction to AI & Machine Learning",
+        "Data Basics & Quality Management",
+        "AI's Impact on Strategy & Business Model",
+        "AI Trends & Business Applications"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning & AI",
+      "id": "2",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Building AI Strategy & Teams",
+      "id": "3",
+      "points": [
+        "Building AI Strategy",
+        "Building AI Roadmap",
+        "AI Leadership & Team Building",
+        "AI Change Management"
+      ]
+    },
+    {
+      "title": "AI Business Models & Market Disruption",
+      "id": "4",
+      "points": [
+        "Types of AI Business Models: Product, Service, Platform",
+        "Implementing AI in Traditional Businesses",
+        "Future of AI"
+      ]
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "id": "5",
+      "points": [
+        "Introduction to Generative AI",
+        "GenAI Business Models & Monetization",
+        "Enterprise GenAI: Model Selection & Data Strategy"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Capstone",
+      "special": "1",
+      "id": "minor-project",
+      "points": [
+        "Participants will create a strategic framework for integrating AI, including Generative AI, into organizations. Starting with an assessment of current processes, they will identify opportunities and craft an AI strategy with an implementation roadmap. The final deliverable will be a report and presentation, supported by data and case studies, highlighting benefits for efficiency and competitiveness."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+
+    {
+      "name": "Prahlad Modi",
+      "position": "Senior Product Manager",
+      "organization": "Adobe",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Prahlad-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Adobe.webp"
+    },
+    {
+      "name": "Harihara",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Lavi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/lavi-v1.webp",
+      "position": "Software Engineer",
+      "organization": "Google",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/google.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "remix",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/remix.webp"
+    },
+    {
+      "title": "solidity",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/solidity.svg"
+    },
+    {
+      "title": "OpenVAS",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-vas.webp"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "keras",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/keras.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-fintech-and-ai-for-leaders",
+    "points": [
+      "132+ Hours of Live Classes",
+      
+      "15+ Tools and Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-fintech-and-ai-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Fintech required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Fintech &  AI for Leaders you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Fintech concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Fintech & AI for Leaders?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 11 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Fintech & AI for Leaders different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Fintech concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-Fintech-and-AI-for-Leaders.pdf",
+    "source": "IITG Fintech & AI for Leaders Brochure",
+    "campaign_name": "EPFAI-IITG-11 Months"
+  }
+}

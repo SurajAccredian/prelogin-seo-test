@@ -1,0 +1,101 @@
+.verticalList .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.verticalList .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .verticalList .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.verticalList .swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.verticalList .swiper-pagination {
+    bottom: -20%;
+}
+
+.verticalList .custom-prev2::after,
+.verticalList .custom-prev2::before,
+.verticalList .custom-next2::after,
+.verticalList .custom-next2::before {
+    content: none;
+}
+
+
+.verticalList .custom-prev2::after,
+.verticalList .custom-prev2::before {
+    content: none !important;
+}
+
+.verticalList .swiper-button-prev.custom-prev2,
+.verticalList .swiper-button-next.custom-next2 {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    color: #000 !important;
+    /* Change this to the color you want */
+    z-index: 10;
+    /* Increase this value if the buttons are behind other elements */
+}
+
+.verticalList .swiper-button-prev.custom-prev2 {
+    left: 0;
+}
+
+.verticalList .swiper-button-next.custom-next2 {
+    right: 0;
+}
+
+.verticalList .swiper-pagination {
+    bottom: -20%;
+}
+
+
+
+.verticalList .verticalList-bg {
+    /* background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/shapes.svg"); */
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top right;
+    width: 250px;
+    height: 180px;
+}
+
+.swiper-button-prev.custom-prev2,
+.swiper-button-next.custom-next2 {
+    display: none;
+    /* Hide by default */
+}
+
+.verticalListImage {
+    width: 60px;
+    height: 60px;
+}
+
+/* CSS media query for desktop screens */
+@media screen and (min-width: 1024px) {
+
+    .swiper-button-prev.custom-prev2,
+    .swiper-button-next.custom-next2 {
+        display: block;
+        /* Show on desktop screens */
+    }
+}

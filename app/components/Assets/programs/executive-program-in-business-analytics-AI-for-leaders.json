@@ -1,0 +1,480 @@
+{
+  "category": "11",
+  "id": "executive-program-in-business-analytics-AI-for-leaders",
+  "vertical": "business analytics",
+  "title": "Executive Program in Business Analytics & AI for Leaders",
+  "description": "Embark on a 10-term learning journey in Excel Modelling, Marketing Analytics, NLP, and Generative AI.",
+  "short_title": "Business Analytics",
+  "contact": "9971109528",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "22 Sept 2024",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-BAAI-11-Months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 150
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "count": 35
+    },
+    {
+      "title": "capstone projects",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 15
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-days"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-business-analytics-AI-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Business Analysts looking to enhance their skills with AI and advanced analytics techniques.",
+          "Data Scientists wanting to expand their knowledge of business applications and strategy.",
+          "Managers and Executives aiming to leverage AI for strategic decision-making and innovation.",
+          "IT Professionals interested in integrating AI solutions into business operations.",
+          "Entrepreneurs seeking to use data and AI to drive business growth and innovation.",
+          "Consultants working in business transformation and digital strategy.",
+          "Marketing and Sales Professionals wanting to harness AI for customer insights and personalization.",
+          "Finance Professionals aiming to use analytics for risk management and financial planning.",
+          "HR Professionals looking to utilize AI for talent acquisition and workforce analytics.",
+          "Operations Managers seeking to optimize processes and improve efficiency through AI and data-driven insights."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Data Analyst",
+          "Data Scientist",
+          "Business Intelligence Analyst",
+          "Machine Learning Engineer",
+          "AI Specialist",
+          "Business Analytics Manager",
+          "Data Engineer",
+          "Marketing Analyst",
+          "Financial Analyst",
+          "Operations Analyst",
+          "Product Manager",
+          "Strategy Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - Excel Modelling, Marketing Analytics, NLP, and Generative AI.",
+          "Learn From The Top Industry Professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "alumni-status-iit",
+    "experiential-learning",
+    "campus-immersion"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundation of Business Analytics",
+      "id": "foundation-of-business-analytics",
+      "points": [
+        "Introduction to Business Analytics",
+        "Data Analytics Fundamentals for Managers",
+        "Descriptive Analytics",
+        "Inferential Statistics for Decision Making"
+      ]
+    },
+    {
+      "title": "Data Management & SQL for Business Insights",
+      "id": "data-management-and-sql-for-business-insights",
+      "points": [
+        "Data Management for Business",
+        "SQL Fundamentals for Business Analysis",
+        "Data Querying Fundamentals",
+        "Advanced SQL for Managers"
+      ]
+    },
+    {
+      "title": "Business Decision Data Modeling",
+      "id": "business-decision-data-modeling",
+      "points": [
+        "Extracting Business Insights from Data",
+        "Decision Making Techniques Using Excel",
+        "Business Reporting with Excel Pivot Tables",
+        "Excel Modelling for Business Solutions"
+      ]
+    },
+    {
+      "title": "Data Visualization & Story Telling",
+      "id": "data-visualization-and-story-telling",
+      "points": [
+        "Data Visualization & Storytelling Basics",
+        "Advanced Power BI for Strategic Business Insights",
+        "Real Time Insights & Data Integrity for Managers",
+        "Building Reports for Business Insights"
+      ]
+    },
+    {
+      "title": "Applied Managerial Analytics",
+      "id": "applied-managerial-analytics",
+      "points": [
+        "Business Analytics in BFSI",
+        "Analytics for Marketing & Telecommunications",
+        "Analytics in Healthcare & Manufacturing",
+        "E-commerce & Supply Chain Analytics"
+      ]
+    },
+    {
+      "title": "Business Analytics Capstone",
+      "special": "2",
+      "id": "capstone-project",
+      "points": [
+        "This capstone project involves advanced data analysis skills through corporate dataset exploration: data acquisition, transformation, exploratory analysis with statistics and visualization, predictive modeling using supervised learning, prescriptive analytics for strategy, and data storytelling for compelling narratives."
+      ]
+    },
+    {
+      "title": "Introduction to AI for Leaders",
+      "id": "introduction-to-ai-for-leaders",
+      "points": [
+        "Introduction to AI & Machine Learning",
+        "Data Basics & Quality Management",
+        "AI's Impact on Strategy & Business Model",
+        "AI Trends & Business Applications"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning & AI",
+      "id": "applied-machine-learning-and-ai",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Building AI Strategy & Teams",
+      "id": "building-ai-strategy-and-teams",
+      "points": [
+        "Building AI Strategy",
+        "Building AI Roadmap",
+        "AI Leadership & Team Building",
+        "AI Change Management"
+      ]
+    },
+    {
+      "title": "AI Business Models & Market Disruption",
+      "id": "ai-business-models-and-market-disruption",
+      "points": [
+        "Types of AI Business Models: Product, Service, Platform",
+        "Implementing AI in Traditional Businesses",
+        "Future of AI"
+      ]
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "id": "generative-ai-for-business-leaders",
+      "points": [
+        "Introduction to Generative AI",
+        "GenAI Business Models & Monetization",
+        "Enterprise GenAI: Model Selection & Data Strategy"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Capstone",
+      "special": "2",
+      "id": "capstone-project",
+      "points": [
+        "Participants will develop a strategic framework for integrating AI, including Generative AI, into an organization that is looking to adopt AI. The project will begin with an assessment of existing processes and challenges to identify opportunities for value addition through Generative AI. Students will craft an AI strategy and outline a detailed implementation roadmap, addressing steps, potential risks, and mitigation strategies. The final deliverable will include a report and presentation that describe the strategic framework, supported by data and case studies, highlighting anticipated benefits for operational efficiency and competitive positioning."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    },
+
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratulds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gauravds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premankuds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Prahlad Modi",
+      "position": "Senior Product Manager",
+      "organization": "Adobe",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Prahlad-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Adobe.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "SQL",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/sql.webp"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-business-analytics-AI-for-leaders",
+    "points": [
+      "150+ Hours of Live Classes",
+      
+      "15+ Tools Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-business-analytics-AI-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to know Programming & Math before enrolling to a program?",
+            "content": [
+              "Background in Programming & Maths is helpful but not mandatory."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Business Analytics & AI for Leaders you will have access to many case studies and Capstone Projects to provide a better understanding of the real-world applications of Business Analytics and Artificial Intelligence concepts."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Business Analytics & AI for Leaders?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is approximately 4-5 weeks long. The overall duration of the Executive Program in Business Analytics & AI for Leaders is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Business Analytics & AI for Leaders different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Business Analytics concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-BAAI-for-Leaders-11-Months-v3.pdf",
+    "source": "business analytics and ai brochure",
+    "campaign_name": "BAAI-IITG-11 Months"
+  }
+}

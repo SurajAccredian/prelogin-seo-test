@@ -1,0 +1,49 @@
+{
+  "type": "categories",
+  "data": [
+    {
+      "category": "artificial intelligence",
+      "contact": "9358719988"
+    },
+    {
+      "category": "business management",
+      "contact": "8595709940"
+    },
+    {
+      "category": "cxo leadership",
+      "contact": "9810184424"
+    },
+    {
+      "category": "design thinking",
+      "contact": "9810184424"
+    },
+    {
+      "category": "finance",
+      "contact": "9289224842"
+    },
+    {
+      "category": "general management",
+      "contact": "9810184424"
+    },
+    {
+      "category": "human resource",
+      "contact": "9115924967"
+    },
+    {
+      "category": "pg diploma",
+      "contact": "7678385465"
+    },
+    {
+      "category": "project management",
+      "contact": "9810184424"
+    },
+    {
+      "category": "senior management",
+      "contact": "9810184424"
+    },
+    {
+      "category": "strategy & leadership",
+      "contact": "8851827093"
+    }
+  ]
+}

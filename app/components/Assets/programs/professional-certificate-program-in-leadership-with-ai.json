@@ -1,0 +1,411 @@
+{
+  "category": "26",
+  "vertical": "artificial intelligence",
+  "title": "Professional Certificate Program in Leadership with AI",
+  "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
+  "short_title": "Artificial Intelligence",
+  "contact": "9211285411",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v2.svg",
+  "university_name": "E&ICT Academy IIT Kanpur",
+  "short_university_name": "iitk",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 96
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "text": 8
+    },
+    {
+      "title": "Capstone Project",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "case studies",
+      "count": 7
+    }
+  ],
+  "domain": "module",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v1.webp",
+  "start_date": "11 Jan 2026",
+  "id": "professional-certificate-program-in-leadership-with-ai",
+  "duration": "8 Months",
+  "required_years_experience": 0,
+  "timings": "weekends only",
+  "type": "online",
+  "enrollments": "inactive",
+  "overview": {
+    "programId": "professional-certificate-program-in-leadership-with-ai",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Data Science & Software Professionals: Deepen ML expertise and integrate AI solutions into applications.",
+          "Technical Leads: Oversee AI-driven projects and manage AI teams.",
+          "Product Managers & Business Analysts: Develop AI-enabled products and leverage data for decision-making.",
+          "Entrepreneurs: Build AI-based startups or innovative solutions.",
+          "Consultants: Advise clients on AI-driven strategies for growth.",
+          "Mid-Career Professionals: Transition into AI roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "AI Product Manager",
+          "AI Consultant",
+          "Business Intelligence Lead",
+          "Data Strategy Lead",
+          "AI/ML Engineer Lead",
+          "Data Scientist Lead",
+          "AI Implementation Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "8 Modules - Machine Learning, AI Strategy, and GenAI",
+          "Learn From The Top Industry Professionals",
+          "Duration: 8 Months | Weekend Online",
+          "Certification From E&ICT, IIT Kanpur",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 24 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions",
+          "Campus Immersions: One Campus Immersion of 2 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "campusImmersionCost": "750",
+  "curriculum": [
+    {
+      "title": "AI Foundations for Leaders",
+      "id": "fundamentals-of-product-management",
+      "points": [
+        "Foundations of AI - Concepts, Capabilities & Business Use",
+        "The Language of AI - Models, Data, Learning & Feedback Loops",
+        "Data Thinking for AI-Enabled Leadership",
+        "Strategic Thinking in the Age of AI"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning for Executives",
+      "id": "product-strategy---roadmap",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Generative AI for Leaders",
+      "id": "user-experience-design",
+      "points": [
+        "Generative AI Landscape: Models, Tools & Ecosystems",
+        "GenAI for Business: Content, Code, Design, and Beyond",
+        "Prompting & Prototyping: Hands-On GenAI for Leaders",
+        "Enterprise Readiness: Challenges, Risk, Integration"
+      ]
+    },
+    {
+      "title": "AI Strategy & Roadmapping",
+      "id": "agile-product-development",
+      "points": [
+        "Aligning AI Strategy with Business Strategy",
+        "AI Opportunity Framing & Use Case Prioritization",
+        "Building AI Execution Roadmap",
+        "AI Budgeting, ROI, Value Realization"
+      ]
+    },
+    {
+      "title": "Designing AI-Native Business Models",
+      "id": "product-launch---marketing",
+      "points": [
+        "AI Business Model Canvas & Design Principles",
+        "Platform Thinking, Network Effects, and Data Flywheels",
+        "Embedding Intelligence into Products & Services",
+        "Monetizing AI: Pricing, Subscriptions, and Margins"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project--minor",
+      "points": [
+        "Develop a comprehensive AI strategy for your business unit or organization. Define a compelling AI vision, identify and prioritize 3–5 high-impact use cases, and create a multi-year roadmap with budgeting, governance, and risk considerations. Align your strategy with business goals and propose key success metrics. Present your strategy as a leadership plan that balances ambition, feasibility, and measurable value for the enterprise."
+      ]
+    },
+    {
+      "title": "Building AI Products( No code AI)",
+      "id": "product-launch---marketing",
+      "points": [
+        "Identifying High-Impact AI Product Opportunities",
+        "Design Thinking for AI: From Problem to Prototype",
+        "Building AI MVPs with No-Code Tools",
+        "Testing, Iterating, and Scaling AI Solutions in the Enterprise"
+      ]
+    },
+
+    {
+      "title": "Leading AI Transformation & Change",
+      "id": "product-launch---marketing",
+      "points": [
+        "Building and Leading High-Impact AI Teams",
+        "Leading Organizational Transformation in the AI Era",
+        "Change Management Strategies for AI Adoption",
+        "AI Adoption Playbook: Communication, Resistance, Scaling"
+      ]
+    },
+
+    {
+      "title": "Agentic AI & Autonomous AI",
+      "id": "product-launch---marketing",
+      "points": [
+        "What are AI Agents, Multi-Agent Systems & Autonomous Workflows",
+        "Business Use-Cases: AI Agents in Ops, CX, Sales & Strategy",
+        "Designing and Simulating Agentic Workflows",
+        "Strategic Bets: Where AI Agents Will Disrupt Your Industry"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "2",
+      "id": "capstone-project--minor-",
+      "points": [
+        "Develop a GenAI-enabled solution to solve a real business problem in your function or industry. Define the use-case, outline how generative AI (e.g., LLMs, image or code generation) creates value, and design a prototype workflow using no-code or low-code tools. Address data needs, ethical risks, and governance. Present a business case with expected outcomes, demonstrating your ability to lead AI innovation from concept to execution."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Deepesh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Senior Faculty",
+      "organization": "Accredian",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    }
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "billing": {
+    "programId": "professional-certificate-program-in-leadership-with-ai",
+    "points": [
+      "96+ Class Hours",
+
+      "10+ Tools and Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 15178
+      },
+      {
+        "months": 18,
+        "emi": 10486
+      },
+      {
+        "months": 24,
+        "emi": 8123
+      }
+    ],
+    "total": 180000
+  },
+  "faq": {
+    "programId": "professional-certificate-program-in-leadership-with-ai",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Artificial Intelligence experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor: Any modern processor:** Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)",
+              "- **Storage:** 256GB SSD or HDD (SSD preferred for faster performance)",
+              "- **Graphics:** Integrated GPU (No dedicated GPU required)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Professional Certificate Program in Leadership with AI you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Artificial Intelligence concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Professional Certificate Program in Leadership with AI",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 8 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Kanpur?",
+        "content": [
+          {
+            "title": "How's the E&ICT, IIT Kanpur's Advanced Certificate Program in AI for Leaders program different?",
+            "content": [
+              "### This program is distinguished by three key elements:",
+              "- **Pioneering Education at E&ICT, IIT Kanpur:** Recognized as a frontrunner in fostering innovation, E&ICT, IIT Kanpur boasts a top position in NIRF rankings for Innovation. Its dynamic academic environment nurtures groundbreaking research and forward-thinking approaches, empowering students to pioneer solutions for global challenges.",
+              "- **Empowering Innovation and Academic Excellence:** At E&ICT, IIT Kanpur, innovation is not just a concept but a way of life. With a strong emphasis on interdisciplinary collaboration and hands-on learning, students are equipped with the skills and mindset to drive positive change in diverse fields.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your Artificial Intelligence career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iit-kanpur)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "unique_points": [
+    "campus-immersion",
+    "experiential-learning",
+    "certificate",
+    "case-based-learning"
+  ],
+  "tools": [
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "keras",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/keras.webp"
+    },
+    {
+      "title": "Crew AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/crewAi.svg"
+    },
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    }
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Professional-Certificate-Program-In-Leadership-With-AI.pdf",
+    "source": "IITK Professional Certificate Program in Leadership with AI Brochure",
+    "campaign_name": "PCPLAI-IITK-8 Months"
+  },
+  "external_enroll": "https://eicta.iitk.ac.in/courses/professional-certificate-program-in-leadership-with-ai"
+}

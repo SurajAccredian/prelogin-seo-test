@@ -1,0 +1,56 @@
+  .faculty .custom-prev::after,
+  .faculty .custom-prev::before,
+  .faculty .custom-next::after,
+  .faculty .custom-next::before {
+  content: none;
+}
+
+
+  .faculty .custom-prev::after,
+  .faculty .custom-prev::before {
+  content: none !important;
+} 
+
+  .faculty .swiper-button-prev.custom-prev,
+  .faculty .swiper-button-next.custom-next {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  color: #000 !important;
+  /* Change this to the color you want */
+  z-index: 10;
+  /* Increase this value if the buttons are behind other elements */
+}
+
+  .faculty .swiper-button-prev.custom-prev {
+  left: 0;
+}
+
+  .faculty .swiper-button-next.custom-next {
+  right: 0;
+}
+
+  .faculty .swiper-pagination{
+  bottom: -20%;
+}
+
+  .faculty .faculty-bg{
+  background-image: url(https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/faculty-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: bottom right;
+}
+
+  .faculty .swiper-button-prev.custom-prev,
+  .faculty .swiper-button-next.custom-next {
+  display: none; /* Hide by default */
+}
+
+/* CSS media query for desktop screens */
+@media screen and (min-width: 1024px) {
+    .faculty .swiper-button-prev.custom-prev,
+    .faculty .swiper-button-next.custom-next {
+    display: block; /* Show on desktop screens */
+  }
+}
+

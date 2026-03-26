@@ -1,0 +1,450 @@
+{
+  "category": "20",
+  "id": "pg-certificate-program-in-strategic-product-management",
+  "vertical": "product management",
+  "title": "PG Certificate Program in Strategic Product Management",
+  "description": "Master product strategy, agile product development, and data driven decision making at one of India’s premier business schools, and attain Executive Alumni status",
+  "short_title": "Product Management",
+  "contact": "7012957331",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-vizag-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/iAs1gGwKZao?si=-ep95UKQguCBP13q",
+  "start_date": "30th June 2024",
+  "duration": "10 months",
+  "required_years_experience": 1,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 130
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "text": 36
+    },
+    {
+      "title": "assignments",
+      "count": 40
+    },
+    {
+      "title": "tools",
+      "count": 12
+    },
+    {
+      "title": "campus immersion (opt.)",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "pg-certificate-program-in-strategic-product-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring product managers seeking foundational skills for career launch.",
+          "Product Managers Balancing Customer Needs With Business Goals For Impactful Solutions.",
+          "Product Leaders Guiding Product Strategy And Fostering Innovation Across Teams.",
+          "Product Owners Driving Agile Product Delivery And Team Collaboration.",
+          "Experienced professionals transitioning into product management roles.",
+          "Project managers focusing on product development and management.",
+          "Business analysts enhancing strategic product management skills.",
+          "Marketing professionals integrating strategies with product management.",
+          "Entrepreneurs managing product lifecycles and startup innovations.",
+          "Technology professionals understanding product development's business aspects.",
+          "Designers expanding roles to include product strategy management.",
+          "Sales professionals understanding product features for better sales.",
+          "Software developers contributing to product vision and strategy.",
+          "Quality assurance professionals incorporating user-centric testing.",
+          "Data analysts using analytics to influence product strategies."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Product Manager",
+          "Associate Product Manager",
+          "Product Owner",
+          "Technical Product Manager",
+          "Senior Product Manager",
+          "Director of Product Management",
+          "Product Marketing Manager",
+          "Product Strategist",
+          "Product Development Manager",
+          "Innovation Manager",
+          "Digital Product Manager",
+          "UX/UI Product Designer",
+          "Product Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "9 Terms - Product Strategy, Agile Product Development & Data Driven Decision Making",
+          "Learn from the top industry professionals and expert sessions by IIM Visakhapatnam Faculty",
+          "Duration: 10 months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "Product Strategy, Design & Growth Simulations",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "2 Days Campus Immersion (Optional)"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "exclusive-merchandise"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Introduction to Strategic Product Management",
+      "week": "5 weeks",
+      "id": "introduction-to-strategic-product-management",
+      "points": [
+        "Introduction to Product Management",
+        "Foundations of Strategic Thinking",
+        "Understanding Product Vision & Mission",
+        "Competitive Analysis & Market Research"
+      ]
+    },
+    {
+      "title": "Product Strategy & Roadmap",
+      "week": "4 weeks",
+      "id": "product-strategy---roadmap",
+      "points": [
+        "Understanding Business Model Canvas & Value Proposition",
+        "Customer Segmentation",
+        "Prioritization Frameworks",
+        "Product Roadmapping"
+      ]
+    },
+    {
+      "title": "Testing Product Market Fit",
+      "week": "4 weeks",
+      "id": "testing-product-market-fit",
+      "points": [
+        "Introduction to Product-Market Fit (PMF)",
+        "Quantitative Metrics for PMF Assessment",
+        "Launching Minimum Viable Product (MVP)",
+        "Iterative Development and Continuous Improvement"
+      ]
+    },
+    {
+      "title": "Design Strategies for Product Success",
+      "week": "5 weeks",
+      "id": "design-strategies-for-product-success",
+      "points": [
+        "User Interface (UI) & User Experience (UX) Design Principles",
+        "Design Thinking & Empathy-Driven Design",
+        "Information Architecture & Navigation Design",
+        "A/B Testing for Design Optimization"
+      ]
+    },
+    {
+      "title": "Agile Product Development",
+      "week": "4 weeks",
+      "id": "agile-product-development",
+      "points": [
+        "Scrum Framework & Team Roles",
+        "Agile Ceremonies & Sprint Management",
+        "Prioritization & Backlog Refinement Techniques",
+        "Continuous Improvement & Experimentation"
+      ]
+    },
+    {
+      "title": "Go-to-Market (GTM)",
+      "week": "4 weeks",
+      "id": "go-to-market--gtm-",
+      "points": [
+        "Product Marketing & Branding Strategies",
+        "User Acquisition & Retention Channels",
+        "Launch Planning & Execution Tactics",
+        "Measuring GTM Success & Growth Hacking"
+      ]
+    },
+    {
+      "title": "Analytics & Data-Driven Product Strategies",
+      "week": "5 weeks",
+      "id": "analytics---data-driven-product-strategies",
+      "points": [
+        "Defining Product Success Metrics & KPIs",
+        "Data Analysis & Storytelling for Product Decisions",
+        "Effective Dashboards & Reporting Techniques",
+        "Building a Data-Driven Product Culture"
+      ]
+    },
+    {
+      "title": "Pricing Strategies",
+      "week": "4 weeks",
+      "id": "pricing-strategies",
+      "points": [
+        "Pricing Fundamentals & Value Frameworks",
+        "Psychological Pricing & Consumer Behavior",
+        "A/B Testing & Data-Driven Pricing Decisions",
+        "Advanced Pricing Strategies & Monetization Models"
+      ]
+    },
+    {
+      "title": "Global Product Management",
+      "week": "4 weeks",
+      "id": "global-product-management",
+      "points": [
+        "Global Market Landscape & Entry Strategies",
+        "Legal, Regulatory, & Compliance Requirements",
+        "Go-to-Market & Localization Strategies",
+        "Managing Global Product Teams & Operations"
+      ]
+    },
+    {
+      "title": "Capstone Project: Product Innovation Challenge",
+      "special": "1",
+      "id": "capstone-project--product-innovation-challenge",
+      "points": [
+        "Analyzing World-class Challenges",
+        "Crafting Winning Elevator Pitches",
+        "Articulating Effective Go-to-Market (GTM) Strategies",
+        "Showcasing Achievements on Demo Day"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Mr. Shailendra Nath Jha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "position": "Co-Founder and Director of Product",
+      "organization": "Change Engine",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Changengine.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "position": "Product Manager",
+      "organization": "Walmart",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Sai Charan Tej Kommuri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Sai-v1.webp",
+      "position": "Product Manager",
+      "organization": "Google",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/google.webp"
+    },
+    {
+      "name": "Premanku Chakraborty",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    }
+  ],
+  "tools": [
+    {
+      "title": "optimizely",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/optimizely.svg"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    },
+    {
+      "title": "mural",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mural.webp"
+    },
+    {
+      "title": "analytics",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-analytics.svg"
+    },
+    {
+      "title": "uizard",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/uizard.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "mind",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mind-meister.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    }
+  ],
+  "billing": {
+    "programId": "pg-certificate-program-in-strategic-product-management",
+    "points": [
+      "130+ Hours of Live Classes",
+      
+      "40+ Tools & Frameworks Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 14750
+      },
+      {
+        "months": 18,
+        "emi": 10227
+      },
+      {
+        "months": 24,
+        "emi": 7947
+      }
+    ],
+    "total": 200000
+  },
+  "faq": {
+    "programId": "pg-certificate-program-in-strategic-product-management",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Product Management required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 10 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Product Management program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Product Management concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Accredian's mission is to groom leaders of tomorrow. Accredian Career Center helps you launch a Product Management career with 100% confidence."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "tools",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIMV-SPM-Brochure-v8.pdf",
+    "source": "product management brochure",
+    "campaign_name": "PM-IIMV-10 Months"
+  }
+}

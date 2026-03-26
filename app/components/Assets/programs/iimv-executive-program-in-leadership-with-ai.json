@@ -1,0 +1,398 @@
+{
+  "category": "41",
+  "id": "iimv-executive-program-in-leadership-with-ai",
+  "vertical": "artificial intelligence",
+  "title": "Executive Program in Leadership with AI",
+  "description": "Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.",
+  "short_title": "Artificial intelligence",
+  "contact": "7678385465",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "28 Feb 2026",
+  "required_years_experience": 5,
+  "duration": "10 months",
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 120
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 10
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "campus immersions",
+      "text": "2 Day"
+    }
+  ],
+  "overview": {
+    "programId": "iimv-executive-program-in-leadership-with-ai",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives: Refine leadership and drive organizational change.",
+          "C-Suite Leaders: Stay abreast of industry trends and foster innovation.",
+          "Directors: Deepen strategic decision-making skills.",
+          "Entrepreneurs: Scale operations and explore new markets.",
+          "Project Managers: Lead large-scale projects with strategic impact.",
+          "Sector Leaders: Apply advanced business principles for effectiveness."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Executives",
+          "C-Suite Leaders",
+          "Directors",
+          "Entrepreneurs",
+          "Project Managers",
+          "Sector Leaders"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Modules - Machine Learning, AI Strategy, and GenAI",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals",
+          "Duration: 10 Months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "Campus Immersions: One Campus Immersion of 2 days",
+          "Career Assistance by Accredian",
+          "1:1 Career Mentorship Sessions by Accredian",
+          "No Cost EMI Upto 9 Months"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "exclusive-merchandise",
+    "alumni-status"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "AI Fundamentals for Business Leaders",
+      "id": "foundations-of-executive-leadership",
+      "points": [
+        "Introduction to AI, Machine Learning & Generative AI",
+        "How AI Systems Work?: From Data to Decisions",
+        "The AI Ecosystem: Tools, Technologies, and Platforms",
+        "AI for Strategic Advantage: Disruption, Differentiation & Growth"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning for Leaders",
+      "id": "strategy-for-senior-executives",
+      "points": [
+        "What is Machine Learning?",
+        "Supervised Learning: Prediction Through Labeled Data",
+        "Unsupervised Learning: Discovering Patterns & Segments",
+        "Applying ML to Solve Business Problems"
+      ]
+    },
+    {
+      "title": "Generative AI for Leaders",
+      "id": "corporate-governance---corporate-social-responsibility",
+      "points": [
+        "Introduction to Generative AI for Leaders",
+        "Prompt Engineering for Leaders",
+        "Applying GenAI to Real Business Functions",
+        "Hands-on with GenAI tools"
+      ]
+    },
+    {
+      "title": "Data Strategy for AI Readiness",
+      "id": "finance-for-senior-leaders",
+      "points": [
+        "What Leaders Need to Know About Data for AI?",
+        "Understanding the Data Value Chain",
+        "Data Ownership, Access & Governance",
+        "From Data to Decision: Analytics & Storytelling for Leaders"
+      ]
+    },
+    {
+      "title": "AI Strategy, Roadmapping & ROI",
+      "id": "strategic-marketing---brand-management",
+      "points": [
+        "Aligning AI with Business Strategy",
+        "Identifying High Impact AI Use Cases",
+        "Building an AI Roadmap and Investment Plan",
+        "AI Business Case: Estimating ROI, Cost & Value"
+      ]
+    },
+    {
+      "title": "AI Product Thinking & Implementation",
+      "id": "operations---supply-chain-excellence",
+      "points": [
+        "AI Product Lifecycle: From Concept to Deployment",
+        "AI Product Strategy & Problem Framing",
+        "Building AI MVPs: UX, Feedback & Trust",
+        "Launch, Adoption & Growth Strategy for AI Products"
+      ]
+    },
+    {
+      "title": "Business Transformation with Agentic AI",
+      "id": "strategic--hr-leadership",
+      "points": [
+        "Understanding Agentic AI",
+        "Use Cases and Agent-Driven Workflow Redesign",
+        "Strategic Applications of Agentic AI in the Enterprise",
+        "Hands-On: Designing & Prototyping Your First Autonomous AI Agent"
+      ]
+    },
+    {
+      "title": "Responsible AI: Governance, Ethics & Compliance",
+      "id": "legal-business-laws-for-senior-leaders",
+      "points": [
+        "Types of AI Bias: Data, Model, Outcome",
+        "Explainability & Transparency in AI",
+        "Regulatory Landscape: GDPR, DPDP, EU AI Act",
+        "Risk Mitigation Strategies & Governance"
+      ]
+    },
+    {
+      "title": "AI in Business Functions",
+      "id": "global-business-strategies",
+      "points": [
+        "AI in Operations & Supply Chain",
+        "AI in Sales, Marketing & Customer Experience",
+        "AI in HR, Talent & Workforce Transformation",
+        "AI in Finance, Risk & Compliance"
+      ]
+    },
+
+    {
+      "title": "Leading AI Transformation & Change Management",
+      "id": "growth-strategies-for-senior-leaders",
+      "points": [
+        "Building & Communicating the AI Vision",
+        "Driving Change: Mindset, Culture & Executive Alignment",
+        "Setting Up AI Teams and Operating Models",
+        "Governance, Incentives & Execution Discipline"
+      ]
+    },
+
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will identify a real-world business challenge and design an AI-powered solution leveraging Generative AI and other relevant AI techniques. The project will cover problem framing, data readiness, AI , ethical considerations, and an implementation roadmap. The final output includes a board-level presentation and a working GenAI prototype/demo that showcases business impact, ROI potential, and scalability."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Rishi Raj",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rishi-raj.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Abhishek Srivastava",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/abhishek-srivastava.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. MV Anuradha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "open AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "Lovable",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/lovable.svg"
+    },
+    {
+      "title": "Alteryx",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/alteryx.svg"
+    },
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    }
+  ],
+  "billing": {
+    "programId": "iimv-executive-program-in-leadership-with-ai",
+    "points": [
+      "120+ Hours of Live Classes",
+
+      "7+ Tools and Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 9,
+        "emi": 25468
+      },
+      {
+        "months": 12,
+        "emi": 19667
+      },
+      {
+        "months": 18,
+        "emi": 13636
+      },
+      {
+        "months": 24,
+        "emi": 10596
+      }
+    ],
+    "total": 240000
+  },
+  "faq": {
+    "programId": "iimv-executive-program-in-leadership-with-ai",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in HR required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for mid-level professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with foundational industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 10 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Executive Program in Leadership with AI different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Artificial intelligence  concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-leadership-with-ai.pdf",
+    "source": "IIMV Executive Program in Leadership with AI Brochure",
+    "campaign_name": "EPLAI-IIMV-10 Months"
+  }
+}

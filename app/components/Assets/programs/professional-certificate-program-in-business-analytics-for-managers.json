@@ -1,0 +1,392 @@
+{
+  "category": "11",
+  "id": "professional-certificate-program-in-business-analytics-for-managers",
+  "vertical": "business analytics",
+  "title": "Professional Certificate Program in Business Analytics for Managers",
+  "description": "Embark on a 5-term learning journey in Excel Modelling, Data Visualization, & Marketing Analytics.",
+  "short_title": "Business Analytics",
+  "contact": "7619555873",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/H35bmk_PWK0?si=Qm0lpsYtgJ8GvLBg",
+  "start_date": "22 Sept 2024",
+  "duration": "6 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IIT-G-BA-6-Months-Certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 90
+    },
+    {
+      "title": "career sessions",
+      "count": 4
+    },
+    {
+      "title": "modules",
+      "text": 20
+    },
+    {
+      "title": "case studies",
+      "count": 20
+    },
+    {
+      "title": "tools",
+      "count": 3
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    }
+  ],
+  "overview": {
+    "programId": "professional-certificate-program-in-business-analytics-for-managers",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring Data Analysts and Scientists interested in data, patterns, insights.",
+          "Business Professionals who are managers seeking data-driven business decisions.",
+          "Career Switchers transitioning to roles centered around data and analytics.",
+          "Recent Graduates from business, economics, computer science, engineering disciplines.",
+          "Entrepreneurs leveraging data for growth, efficiency, and business success.",
+          "IT and Engineering Professionals managing and integrating business data better.",
+          "Consultants providing clients with data-driven insights and tailored solutions.",
+          "Academics and Researchers using data analysis in research and teaching.",
+          "Individuals with an Analytical Mindset, curiosity, and problem-solving skills."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Scientist",
+          "Business Intelligence Analyst",
+          "Data Engineer",
+          "Market Research Analyst",
+          "Operations Analyst",
+          "Financial Analyst",
+          "Analytics Consultant",
+          "Product Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "5 Terms - Excel Modelling, Data Visualization, & Marketing Analytics",
+          "Learn From The Top Industry Professionals",
+          "Duration: 6 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "1:1 Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "add-ons",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundation of Business Analytics",
+      "id": "foundation-of-business-analytics",
+      "points": [
+        "Introduction to Business Analytics",
+        "Data Analytics Fundamentals for Managers",
+        "Descriptive Analytics",
+        "Inferential Statistics for Decision Making"
+      ]
+    },
+    {
+      "title": "Data Management & SQL for Business Insights",
+      "id": "data-management-sql-for-business-insights",
+      "points": [
+        "Data Management for Business",
+        "SQL Fundamentals for Business Analysis",
+        "Data Querying Fundamentals",
+        "Advanced SQL for Managers"
+      ]
+    },
+    {
+      "title": "Business Decision Data Modeling",
+      "id": "business-decision-data-modeling",
+      "points": [
+        "Extracting Business Insights from Data",
+        "Decision Making Techniques Using Excel",
+        "Business Reporting with Excel Pivot Tables",
+        "Excel Modelling for Business Solutions"
+      ]
+    },
+    {
+      "title": "Data Visualization & Story Telling",
+      "id": "data-visualization-story-telling",
+      "points": [
+        "Data Visualization & Storytelling Basics",
+        "Advanced Power BI for Strategic Business Insights",
+        "Real Time Insights & Data Integrity for Managers",
+        "Building Reports for Business Insights"
+      ]
+    },
+    {
+      "title": "Applied Managerial Analytics",
+      "id": "applied-managerial-analytics",
+      "points": [
+        "Business Analytics in BFSI",
+        "Analytics for Marketing & Telecommunications",
+        "Analytics in Healthcare & Manufacturing",
+        "E-commerce & Supply Chain Analytics"
+      ]
+    },
+    {
+      "title": "Business Analytics Capstone",
+      "special": "2",
+      "id": "capstone-project",
+      "points": [
+        "This capstone project involves advanced data analysis skills through corporate dataset exploration: data acquisition, transformation, exploratory analysis with statistics and visualization, predictive modeling using supervised learning, prescriptive analytics for strategy, and data storytelling for compelling narratives."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    },
+    {
+      "name": "Dr. Darshan Ingle",
+      "position": "Principal Consultant",
+      "organization": "DataCouch",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/darshan-ingle.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/data-couch.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "SQL",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/sql.webp"
+    }
+  ],
+  "billing": {
+    "programId": "professional-certificate-program-in-business-analytics-for-managers",
+    "points": [
+      "90+ Hours of Live Classes",
+      
+      "3+ Tools & Frameworks Covered",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 9843
+      },
+      {
+        "months": 18,
+        "emi": 6818
+      },
+      {
+        "months": 24,
+        "emi": 5298
+      }
+    ],
+    "total": 120000
+  },
+  "faq": {
+    "programId": "professional-certificate-program-in-business-analytics-for-managers",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Business Analytics experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Professional Certificate Program in Business Analytics for Managers you will have access to many case studies from the industries and Capstone Project to provide a better understanding of the real-world applications of Business Analytics concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Professional Certificate Program in Business Analytics for Managers?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Typically, students spend around 30 minutes on preparation every day, although this may vary according to their academic needs. Additionally, students are required to attend live classes as scheduled, with the class schedule shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is for 4-5 weeks approximately. The overall Professional Certificate Program in Business Analytics for Managers duration is 6 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Professional Certificate Program in Business Analytics for Managers program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Business Analytics concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Professional-Certification-Program-in-BA-6-months-v4.pdf",
+    "source": "business analytics brochure",
+    "campaign_name": "PCBA-IITG-6 Months"
+  }
+}

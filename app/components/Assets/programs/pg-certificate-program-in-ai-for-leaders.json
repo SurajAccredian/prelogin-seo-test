@@ -1,0 +1,367 @@
+{
+  "category": "35",
+  "id": "pg-certificate-program-in-ai-for-leaders",
+  "vertical": "artificial intelligence",
+  "title": "Post Graduate Certificate Program in AI for Leaders",
+  "description": "Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.",
+  "short_title": "Artificial Intelligence",
+  "contact": "9818329799",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "",
+  "start_date": "31 May 2025",
+  "duration": "5 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-PGCAI.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 60
+    },
+    {
+      "title": "career sessions",
+      "text": 4
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "modules",
+      "text": 18
+    }
+  ],
+  "overview": {
+    "programId": "pg-certificate-program-in-ai-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Data Science Professionals looking to deepen their AI and machine learning expertise.",
+          "Software Engineers seeking to integrate AI solutions into applications and products.",
+          "Technical Leads overseeing AI-driven projects and managing AI teams.",
+          "Business Analysts aiming to leverage AI for data-driven decision-making.",
+          "Entrepreneurs building AI-based startups or innovative solutions.",
+          "Mid-career Professionals transitioning into AI roles.",
+          "Product Managers developing AI-enabled products and features.",
+          "Consultants advising clients on AI-driven strategies for growth."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "AI/ML Engineer",
+          "Data Scientist",
+          "AI Product Manager",
+          "Business Intelligence Analyst",
+          "AI Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "5 Terms - Machine Learning, AI Strategy, and GenAI",
+          "Learn From The Top Industry Professionals",
+          "Duration: 5 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "add-ons",
+    "certificate",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Introduction to AI for Leaders",
+      "id": "data-analysis-with-python",
+      "points": [
+        "Introduction to AI & Machine Learning",
+        "Data Basics & Quality Management",
+        "AI's Impact on Strategy & Business Model",
+        "AI Trends & Business Applications"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning & AI",
+      "id": "data-visualization-techniques",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Building AI Strategy & Teams",
+      "id": "eda---data-storytelling",
+      "points": [
+        "Building AI Strategy",
+        "Building AI Roadmap",
+        "AI Leadership & Team Building",
+        "AI Change Management"
+      ]
+    },
+    {
+      "title": "AI Business Models & Market Disruption",
+      "points": [
+        "Types of AI Business Models: Product, Service, Platform",
+        "Implementing AI in Traditional Businesses",
+        "Future of AI"
+      ]
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "points": [
+        "Introduction to Generative AI",
+        "GenAI Business Models & Monetization",
+        "Enterprise GenAI: Model Selection & Data Strategy"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will develop a strategic framework for integrating AI, including Generative AI, into an organization that is looking to adopt AI. The project will begin with an assessment of existing processes and challenges to identify opportunities for value addition through Generative AI. Students will craft an AI strategy and outline a detailed implementation roadmap, addressing steps, potential risks, and mitigation strategies. The final deliverable will include a report and presentation that describe the strategic framework, supported by data and case studies, highlighting anticipated benefits for operational efficiency and competitive positioning."
+      ]
+    }
+  ],
+  "faculty": [
+     {
+      "name": "Deepesh",
+ "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Senior Faculty",
+      "organization": "Accredian",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "keras",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/keras.webp"
+    },
+    {
+      "title": "Crew AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/crewAi.svg"
+    }
+  ],
+  "billing": {
+    "programId": "pg-certificate-program-in-ai-for-leaders",
+    "points": [
+      "60+ Class Hours",
+      
+      "10+ Tools and Frameworks Covered",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 10817
+      },
+      {
+        "months": 18,
+        "emi": 7500
+      },
+      {
+        "months": 24,
+        "emi": 5828
+      }
+    ],
+    "total": 140000
+  },
+  "faq": {
+    "programId": "pg-certificate-program-in-ai-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Artificial Intelligence required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor: Any modern processor:** Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)",
+              "- **Storage:** 256GB SSD or HDD (SSD preferred for faster performance)",
+              "- **Graphics:** Integrated GPU (No dedicated GPU required)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Post Graduate Certificate Program in AI for Leaders you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Artificial Intelligence concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Post Graduate Certificate Program in AI for Leaders?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 5 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How is the Post Graduate Certificate Program in AI for Leaders program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Artificial Intelligence concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Professional-Certificate-Program-in-AI-for-Leaders.pdf",
+    "source": "IITG PG Certificate Program in AI for Leaders",
+    "campaign_name": "PGPDSAIL-5 Months"
+  }
+}

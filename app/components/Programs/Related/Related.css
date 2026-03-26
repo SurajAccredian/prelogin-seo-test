@@ -1,0 +1,51 @@
+.programs .related .custom-prev::after,
+.programs .related .custom-prev::before,
+.programs .related .custom-next::after,
+.programs .related .custom-next::before {
+  content: none;
+}
+
+
+.programs .related .custom-prev::after,
+.programs .related .custom-prev::before {
+  content: none !important;
+}
+
+.programs .related .swiper-button-prev.custom-prev,
+.programs .related .swiper-button-next.custom-next {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  color: #000 !important;
+  /* Change this to the color you want */
+  z-index: 10;
+  /* Increase this value if the buttons are behind other elements */
+}
+
+.programs .related .swiper-button-prev.custom-prev {
+  left: 0;
+}
+
+.programs .related .swiper-button-next.custom-next {
+  right: 0;
+}
+
+.programs .related .swiper-pagination {
+  bottom: -5%;
+}
+
+.programs .related .swiper-button-prev.custom-prev,
+.programs .related .swiper-button-next.custom-next {
+  display: none;
+  /* Hide by default */
+}
+
+/* CSS media query for desktop screens */
+@media screen and (min-width: 1024px) {
+
+  .programs .related .swiper-button-prev.custom-prev,
+  .programs .related .swiper-button-next.custom-next {
+    display: block;
+    /* Show on desktop screens */
+  }
+}

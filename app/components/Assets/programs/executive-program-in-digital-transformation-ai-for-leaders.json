@@ -1,0 +1,488 @@
+{
+  "category": "27",
+  "id": "executive-program-in-digital-transformation-ai-for-leaders",
+  "vertical": "digital transformation",
+  "title": "Executive Program in Digital Transformation & AI for Leaders",
+  "description": "Embark on an 11-term learning journey in Digital Strategy, AI/ML Analytics, Natural Language Processing (NLP), and Generative AI.",
+  "short_title": "Digital Transformation",
+  "contact": "9818329799",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/260kCm3-hcU?si=vOsJJuXpSkYX3msc",
+  "start_date": "23 Aug 2025",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-DTAI-11-Months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 130
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "text": 36
+    },
+    {
+      "title": "capstone projects",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 20
+    },
+    {
+      "title": "case studies",
+      "count": 20
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-digital-transformation-ai-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Business Analysts who aim to leverage AI for advanced data analysis and strategic decision-making.",
+          "Project Managers who want to understand the integration of AI in digital transformation projects.",
+          "IT Managers who need to oversee the implementation of AI technologies within organizational infrastructures.",
+          "Software Developers who seek to gain skills in AI programming and the development of intelligent systems.",
+          "Data Scientists who want to enhance their expertise in AI algorithms and machine learning models.",
+          "Marketing Professionals who plan to utilize AI for targeted marketing strategies and consumer insights.",
+          "Operations Managers who aim to streamline business processes using AI-driven automation.",
+          "Consultants who aspire to provide expert advice on digital transformation and AI adoption.",
+          "CIOs/CTOs who are responsible for leading their organizations in the adoption and implementation of AI technologies for competitive advantage."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "AI Specialist",
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Digital Transformation Consultant",
+          "IT Manager",
+          "Business Analyst",
+          "Product Manager",
+          "Project Manager",
+          "Chief Information Officer (CIO)",
+          "Operations Manager",
+          "Marketing Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "11 Terms - Digital Strategy, AI/ML Analytics, NLP, And Generative AI",
+          "Learn From The Top Industry Professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "alumni-status-iit",
+    "experiential-learning",
+    "campus-immersion"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Digital Disruption & Digital Strategy",
+      "id": "1",
+      "points": [
+        "Introduction to Digital Transformation",
+        "Core Components of Digital Transformation",
+        "Digital Strategy Formulation",
+        "Digital Strategy Frameworks"
+      ]
+    },
+    {
+      "title": "Digital Business Models",
+      "id": "2",
+      "points": [
+        "Digital Business Model Fundamentals",
+        "Value Proposition Development",
+        "Monetizing Digital Business Models",
+        "Digital Ecosystems & Partnerships"
+      ]
+    },
+    {
+      "title": "Digital Technologies",
+      "id": "3",
+      "points": [
+        "Foundations of Digital Technologies",
+        "Cybersecurity & Data Privacy",
+        "AI/ML & IoT Analytics",
+        "Digital Technologies for Industry 4.0"
+      ]
+    },
+    {
+      "title": "Digital Transformation Implementation & Change Management",
+      "id": "4",
+      "points": [
+        "Digital Transformation Roadmaps",
+        "Agile Methodologies for Transformation",
+        "Change Management Strategies"
+      ]
+    },
+    {
+      "title": "Metrics, KPIs & ROI Evaluation",
+      "id": "5",
+      "points": [
+        "Key Metrics & KPIs in Digital Transformation",
+        "Evaluating ROI of Digital Transformation Initiatives"
+      ]
+    },
+    {
+      "title": "Digital Transformation in Action",
+      "id": "6",
+      "points": [
+        "Digital Transformation in Finance & Operations",
+        "Digital Transformation in Sales & Marketing"
+      ]
+    },
+    {
+      "title": "Digital Transformation Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Capstone Project allows participants to apply their knowledge to a real-world challenge, integrating digital strategy, business models, and change management. They will create a digital transformation plan, assess digital maturity, and measure success with KPIs and ROI, gaining the skills to lead digital transformation."
+      ]
+    },
+    {
+      "title": "Introduction to AI for Leaders",
+      "id": "introduction-to-ai-for-leaders",
+      "points": [
+        "Introduction to AI & Machine Learning",
+        "Data Basics & Quality Management",
+        "AI's Impact on Strategy & Business model",
+        "AI Trends & Business Applications"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning & AI",
+      "id": "applied-machine-learning-and-ai",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Building AI Strategy & Teams",
+      "id": "building-ai-strategy-and-teams",
+      "points": [
+        "Building AI Strategy",
+        "Building AI roadmap",
+        "AI Leadership & Team Building",
+        "AI Change Management"
+      ]
+    },
+    {
+      "title": "AI Business Models & Market Disruption",
+      "id": "ai-business-models-and-market-disruption",
+      "points": [
+        "Types of AI Business Models: Product, Service, Platform",
+        "Implementing AI in Traditional Businesses",
+        "Future of AI"
+      ]
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "id": "generative-ai-for-business-leaders",
+      "points": [
+        "Introduction to Generative AI",
+        "GenAI Business Models & Monetization",
+        "Enterprise GenAI: Model Selection & Data Strategy"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Project",
+      "special": "2",
+      "id": "capstone-project",
+      "points": [
+        "Participants will create a strategic framework for integrating AI, including Generative AI, into organizations. Starting with an assessment of current processes, they will identify opportunities and craft an AI strategy with an implementation roadmap. The final deliverable will be a report and presentation, supported by data and case studies, highlighting benefits for efficiency and competitiveness."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Irfan Khalid",
+      "position": "Founder",
+      "organization": "Ai4Education",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/irfan-khalid.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Ai4Education.webp"
+    },
+    {
+      "name": "Jimit Dattani",
+      "position": "Executive Partner",
+      "organization": "Ai4Education",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Jimit-Dattani.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/thoughtworks.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Dr. Darshan Ingle",
+      "position": "Principal Consultant",
+      "organization": "DataCouch",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/darshan-ingle.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/data-couch.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+  
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+  
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "solidity",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/solidity.svg"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "slack",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/slack.webp"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-digital-transformation-ai-for-leaders",
+    "points": [
+      "130+ Hours of Live Classes",
+      
+      "20+ Tools Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-digital-transformation-ai-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to know Programming & Math before enrolling to a program?",
+            "content": [
+              "Background in Programming & Maths is helpful but not mandatory."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+           "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Digital Transformation & AI for Leaders for Leaders you will have access to many industry relevant case studies and 2 Capstone Projects to provide a better understanding of the real-world applications of Digital Transformation and Artificial Intelligence concepts."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Digital Transformation & AI for Leaders for Leaders?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is approximately 4-5 weeks long. The overall duration of the Executive Program in Digital Transformation & AI for Leaders for Leaders is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Digital Transformation & AI for Leaders different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Digital Transformation concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-Digital-Transformation-and-AI-for-Leaders.pdf",
+    "source": "IITG Digital Transformation & AI for Leaders Brochure",
+    "campaign_name": "DTAI-IITG-11 Month"
+  }
+}

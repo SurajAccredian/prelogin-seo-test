@@ -1,0 +1,636 @@
+{
+  "category": "2",
+  "id": "executive-program-in-ds-and-dt",
+  "vertical": "data science",
+  "title": "Executive Program in Data Science and Digital Transformation",
+  "description": "Embark on an 11- term learning journey Data Analytics, Machine Learning, Digital Strategy, and Design Thinking.",
+  "short_title": "Data Science",
+  "contact": "9079653292",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "31 August 2024",
+  "duration": "12 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IIT-G-DSDT-Certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 160
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "text": 45
+    },
+    {
+      "title": "Projects",
+      "count": 30
+    },
+    {
+      "title": "tools",
+      "count": 20
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-ds-and-dt",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring data scientists eager to master data analysis, machine learning, & predictive modeling.",
+          "Analysts and researchers looking to deepen insights with data science techniques.",
+          "Business professionals needing data insights to enhance strategies and performance.",
+          "IT professionals seeking to add data science to their technical toolkit.",
+          "Marketing professionals interested in leveraging customer data for strategic campaigns.",
+          "Healthcare professionals aiming to innovate with predictive analytics and personalized treatments.",
+          "Financial analysts wanting to employ data science in risk and investment management.",
+          "Customer service managers enhancing experiences through digital channels and platforms.",
+          "Supply chain managers improving visibility and efficiency with digital solutions.",
+          "Entrepreneurs innovating business models and processes through digital technologies.",
+          "Government officials implementing digital initiatives for public sector modernization.",
+          "Healthcare administrators improving patient care and operational efficiency digitally."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Digital Transformation Consultant",
+          "Digital Strategy Manager",
+          "Digital Project Manager",
+          "Change Management Specialist",
+          "Digital Marketing Manager",
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Data Analyst",
+          "Business Intelligence Analyst",
+          "Data Engineer",
+          "Database Administrator",
+          "Data Architect",
+          "Customer Experience Manager",
+          "Business Process Analyst",
+          "IT Transformation Lead",
+          "Data Analytics Manager",
+          "E-commerce Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "11 Terms - Data Analytics & Machine Learning,Digital Strategy, Design Thinking",
+          "Learn from the top industry professionals and expert sessions by IIT Guwahati Faculty",
+          "Duration: 12 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Term projects & Capstone projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "2-day career immersion at IIT Guwahati",
+          "One on one career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Data Analysis with Python",
+      "week": "4 weeks",
+      "id": "data-analysis-with-python",
+      "points": [
+        "Data Science Fundamentals",
+        "Data Operation with Numpy",
+        "Data Manipulation with Pandas"
+      ]
+    },
+    {
+      "title": "Data Visualization Techniques",
+      "week": "4 weeks",
+      "id": "data-visualization-techniques",
+      "points": [
+        "Introduction to Data Visualization",
+        "Data Visualization using Matplotlib",
+        "Hands-on Pandas for Rapid Visualization",
+        "Seaborn for Data Visualization"
+      ]
+    },
+    {
+      "title": "EDA & Data Storytelling",
+      "week": "4 weeks",
+      "id": "eda---data-storytelling",
+      "points": [
+        "Introduction to Exploratory Data Analysis",
+        "EDA Framework Deep Dive",
+        "Scientific Exploration of Industry Data (Case Study)",
+        "Student Presentations & Insight Delivery"
+      ]
+    },
+    {
+      "title": "Minor Capstone Project",
+      "special": "1",
+      "id": "minor-capstone-project",
+      "points": [
+        "In a simulated environment get to work with a major Telecom company that seeks help from your team of Data Scientists to resolve a major marketing hurdle in front of them. Get a near real world exposure of working on industry problems within data science teams to reach a common end goal of helping customers win"
+      ]
+    },
+    {
+      "title": "Machine Learning Foundation",
+      "week": "4 weeks",
+      "id": "machine-learning-foundation",
+      "points": [
+        "Introduction to Machine Learning",
+        "Linear Regression",
+        "Logistic Regression",
+        "Model Evaluation Techniques"
+      ]
+    },
+    {
+      "title": "Machine Learning Intermediate",
+      "week": "4 weeks",
+      "id": "machine-learning-intermediate",
+      "points": [
+        "Decision Trees",
+        "Random Forests",
+        "Dimensionality Reduction using Principal Component Analysis (PCA)",
+        "Naive Bayes Classifier"
+      ]
+    },
+    {
+      "title": "Machine Learning Advanced",
+      "week": "4 weeks",
+      "id": "term-6--machine-learning-advanced",
+      "points": [
+        "KNN (K- Nearest neighbors)",
+        "K-means Clustering",
+        "Ensemble Learning",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Major Capstone Project",
+      "special": "1",
+      "id": "major-capstone-project",
+      "points": [
+        "Experience a real world simulation of a company Employee Retention Program that needs to be solved using Data Science and Machine Learning.Work with a team of Data Scientists and experience real-world problem solving through Data Science"
+      ]
+    },
+    {
+      "title": "Digital Strategy & Planning",
+      "week": "4 weeks",
+      "id": "term-7--digital-strategy---planning",
+      "points": [
+        "Digital Disruption in 21st Century",
+        "Strategy Development and Alignment",
+        "Developing a Customer- Centric Strategy",
+        "Measuring and Optimizing Digital Strategy"
+      ]
+    },
+    {
+      "title": "Digital Business Models and Value Proposition",
+      "week": "4 weeks",
+      "id": "term-8--digital-business-models-and-value-proposition",
+      "points": [
+        "Fundamentals of Digital Business Models",
+        "Value Proposition Development",
+        "Monetizing Digital Business Models",
+        "Digital Ecosystems and Partnership"
+      ]
+    },
+    {
+      "title": "Digital Technology & Tools",
+      "week": "4 weeks",
+      "id": "term-9--digital-technology---tools",
+      "points": [
+        "Foundations of Digital Technologies",
+        "Cybersecurity and Data Privacy",
+        "AI/ML & IOT Analytics",
+        "Blockchain & Industry 4.0"
+      ]
+    },
+    {
+      "title": "Digital Transformation Frameworks and Implementation",
+      "week": "4 weeks",
+      "id": "term-10--digital-transformation-frameworks-and-implementation",
+      "points": [
+        "Digital Transformation Models",
+        "Digital Transformation Roadmaps",
+        "Agile Methodologies for Transformation",
+        "Digital Transformation Governance"
+      ]
+    },
+    {
+      "title": "Digital Leadership & Change Management",
+      "week": "4 weeks",
+      "id": "term-11--digital-leadership---change-management",
+      "points": [
+        "Leadership in Digital Transformation",
+        "Change Management Strategies",
+        "Building an Innovation First culture",
+        "Sustaining Digital Success"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Lead Development of Digital Transformation Roadmap for Your Organization Utilize a Standardized Methodology to Evaluate Digital Readiness and Formulate the Rationale for Change, Growth Strategies, New Governance Structures, Key Capabilities, and Cultural Adaptation."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    },
+
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratulds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gauravds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premankuds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Prahlad Modi",
+      "position": "Senior Product Manager",
+      "organization": "Adobe",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Prahlad-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Adobe.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "matplotlib",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Matplotlib.svg"
+    },
+    {
+      "title": "seaborn",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/seaborn.webp"
+    },
+    {
+      "title": "pandas",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Pandas.svg"
+    },
+    {
+      "title": "plotly",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/plotly.webp"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "numpy",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/numpy.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "jupyter",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jupyter.svg"
+    },
+    {
+      "title": "Click Up",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/click-up.webp"
+    },
+    {
+      "title": "Retool",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/retool.webp"
+    },
+    {
+      "title": "bubble.io",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/bubble-io.webp"
+    },
+    {
+      "title": "slack",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/slack.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-ds-and-dt",
+    "points": [
+      "160+ Hours of Live Classes",
+      
+      "20+ Tools Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "projects": [
+    {
+      "title": "Predict Churn for Forecasting Telecom Loyalty",
+      "description": "This Project predicts customer churn, enabling proactive retention strategies to enhance customer satisfaction",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-1ds-and-dt.webp",
+      "category": "Classification, Deep Learning",
+      "skills": [
+        "Python Programming",
+        "Machine Learning",
+        "Artificial Newral Networks",
+        "Supervised Machine Learning"
+      ]
+    },
+    {
+      "title": "Revolutionizing Predictive Pricing for Used Cars",
+      "description": "This Project uses Advanced data science forecast techniques to reshape resale market dynamics with insights",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-2ds-and-dt.webp",
+      "category": "Regression",
+      "skills": [
+        "Python Programming",
+        "Machine Learning",
+        "Artificial Newral Networks",
+        "Supervised Machine Learning"
+      ]
+    },
+    {
+      "title": "Map Medal Dominance in Olympics with Data Analytics",
+      "description": "Explore Olympic medal trends worldwide using data analytics, uncovering dominant nations across various sports and events",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-3ds-and-dt.webp",
+      "category": "Data Analytics",
+      "skills": [
+        "Python Programming",
+        "Statistics",
+        "Data Analysis",
+        "Data Manipulation & Wrangling"
+      ]
+    },
+    {
+      "title": "Abalone Lifespan Prognosticate by Data-Driven Approach",
+      "description": "Utilizing data-driven methods to forecast the lifespan of abalone, enhancing understanding of their growth patterns",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-4ds-and-dt.webp",
+      "category": "Regression, Deep Learning",
+      "skills": [
+        "Python Programming",
+        "Machine Learning",
+        "Artificial Newral Networks",
+        "Supervised Machine Learning"
+      ]
+    },
+    {
+      "title": "Unveiling America's Vibrant Restaurant Scene with Data",
+      "description": "Delve into the Heart of America's Culinary Tapestry by revealing Vibrant Restaurant Gems Through Data Exploration",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-5ds-and-dt.webp",
+      "category": "Data Analytics",
+      "skills": [
+        "Python Programming",
+        "Statistics",
+        "Data Analysis",
+        "Data Manipulation & Wrangling"
+      ]
+    },
+    {
+      "title": "Brewing Predictions for Halloween Candy Success Rates",
+      "description": "Using data to anticipate which Halloween candies will be most successful, optimizing treats for spooky satisfaction",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-6ds-and-dt.webp",
+      "category": "Classification, Data Analytics",
+      "skills": [
+        "Python Programming",
+        "Statistics",
+        "Data Analysis",
+        "Data Manipulation & Wrangling",
+        "Supervised Machine Learning"
+      ]
+    },
+    {
+      "title": "Unlocking Passenger Satisfaction Patterns with Data Science",
+      "description": "This Project reveals Passenger Satisfaction Patterns, Elevating Flight Experiences through Data-Driven Insights",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-7ds-and-dt.webp",
+      "category": "Deep Learning",
+      "skills": [
+        "Python Programming",
+        "Artificial Newral Networks",
+        "Deep Learning"
+      ]
+    },
+    {
+      "title": "Predictive Modeling for Avocado Price Trends",
+      "description": "Utilizing predictive modeling to anticipate future avocado prices, empowering stakeholders with insights into market trends",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Projects/gcdsai/Project-8ds-and-dt.webp",
+      "category": "Regression",
+      "skills": [
+        "Python Programming",
+        "Machine Learning",
+        "Artificial Newral Networks",
+        "Supervised Machine Learning"
+      ]
+    }
+  ],
+  "faq": {
+    "programId": "executive-program-in-ds-and-dt",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to know Programming & Math before enrolling to a program?",
+            "content": [
+              "Background in Programming & Maths is helpful but not mandatory."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In the Executive Program in Data Science and Digital Transformation, you will undertake 11 Term Projects, 3 Capstone Projects. In addition to these, we provide a repository of over 100 projects spanning various domains for you to choose from."
+            ]
+          },
+          {
+            "title": "What's the difference between Term Project & Capstone Project?",
+            "content": [
+              "Term Projects are individual assignments specific to each term and will be shared upon the completion of every term. Capstone Projects closely resemble real-world projects, requiring the application of various concepts learned throughout the program."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Data Science and Digital Transformation",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is for 4-5 weeks approximately. And the overall Executive Program in Data Science & DT duration is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Data Science & DT different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Data Science and Digital Transformation concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "projects",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-DSDT-12-months-v2.pdf",
+    "source": "Data Science and digital transformation Brochure",
+    "campaign_name": "DSDT-IITG-12 Months"
+  }
+}

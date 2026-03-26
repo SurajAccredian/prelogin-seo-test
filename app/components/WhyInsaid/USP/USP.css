@@ -1,0 +1,65 @@
+.USP .USP-card-bg-image {
+  background-image: url(https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/circles-shapes.svg);
+  background-repeat: no-repeat;
+  background-size: 120px 120px;
+  background-position: top right;
+  position: relative;
+}
+
+/* .second-bg-grad {
+  background: rgb(26, 115, 232);
+  background: radial-gradient(circle, rgba(124, 181, 255, 0.155) 0%, rgba(255, 255, 255, 1) 100%);
+} */
+
+
+.USP .custom-prev2::after,
+.USP .custom-prev2::before,
+.USP .custom-next2::after,
+.USP .custom-next2::before {
+  content: none;
+}
+
+
+.USP .custom-prev2::after,
+.USP .custom-prev2::before {
+  content: none !important;
+}
+
+.USP .swiper-button-prev.custom-prev2,
+.USP .swiper-button-next.custom-next2 {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  color: #000 !important;
+  /* Change this to the color you want */
+  z-index: 10;
+  /* Increase this value if the buttons are behind other elements */
+}
+
+.USP .swiper-button-prev.custom-prev2 {
+  left: 0;
+}
+
+.USP .swiper-button-next.custom-next2 {
+  right: 0;
+}
+
+.USP .swiper-pagination {
+  bottom: -10%;
+}
+
+.USP .swiper-button-prev.custom-prev2,
+.USP .swiper-button-next.custom-next2 {
+  display: none;
+  /* Hide by default */
+}
+
+/* CSS media query for desktop screens */
+@media screen and (min-width: 1024px) {
+
+  .USP .swiper-button-prev.custom-prev2,
+  .USP .swiper-button-next.custom-next2 {
+    display: block;
+    /* Show on desktop screens */
+  }
+}

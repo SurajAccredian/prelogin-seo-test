@@ -1,0 +1,424 @@
+{
+  "category": "18",
+  "id": "executive-program-in-business-management",
+  "vertical": "business management",
+  "title": "Executive Program in Business Management",
+  "description": "Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status",
+  "short_title": "Business Management",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "25 May 2025",
+  "contact": "8595709940",
+  "duration": "12 months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 150
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "tools",
+      "text": 2
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-business-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current Managers: Enhance leadership skills and advance careers.",
+          "Aspiring Entrepreneurs: Gain foundational business knowledge.",
+          "Corporate Professionals: Advance into managerial or executive roles.",
+          "Specialists (Healthcare, IT): Develop business acumen for leadership.",
+          "Business Owners: Improve management practices and strategic planning.",
+          "Career Changers: Transition into business management."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Business Analyst",
+          "Operations Manager",
+          "Project Manager",
+          "Human Resources Manager",
+          "Sales Manager",
+          "Marketing Manager",
+          "Financial Analyst",
+          "Supply Chain Coordinator",
+          "Business Consultant",
+          "Entrepreneur",
+          "Product Manager",
+          "Risk Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Module - Leadership Principles, Strategic Thinking and Management",
+          "Learn from the top industry professionals and expert sessions by IIM Visakhapatnam Faculty",
+          "Duration: 12 months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "Management & Leadership Simulations",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "3 Days Campus Immersions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "engaging-simulations",
+    "exclusive-merchandise"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "start learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Fundamentals of Business Management",
+      "week": "4 weeks",
+      "id": "fundamentals-of-business-management",
+      "points": [
+        "Introduction to Business",
+        "Principles of Management",
+        "Business Ethics and Corporate Social Responsibility",
+        "Managerial Economics"
+      ]
+    },
+    {
+      "title": "Marketing Management",
+      "week": "5 weeks",
+      "id": "marketing-management",
+      "points": [
+        "Introduction to Marketing Principles",
+        "Market Research and Consumer Behaviour",
+        "Branding and Positioning",
+        "Integrated Marketing Communication",
+        "Digital Marketing Fundamentals"
+      ]
+    },
+    {
+      "title": "Finance and Accounting",
+      "week": "5 weeks",
+      "id": "finance-and-accounting",
+      "points": [
+        "Introduction to Financial Accounting Principles",
+        "Basics of Managerial Accounting",
+        "Financial Statement Fundamentals & Analaysis",
+        "Budgeting, Cost Control and Financial Planning",
+        "Investment and Risk Management"
+      ]
+    },
+    {
+      "title": "Operation and Supply Chain Management",
+      "week": "5 weeks",
+      "id": "operation-and-supply-chain-management",
+      "points": [
+        "Introduction to Supply Chain & Operations Management",
+        "Inventory Control & Demand Forecasting",
+        "Supply Chain Network Design",
+        "Quality Management in Operations",
+        "Process Improvement & Lean Principles",
+        "Project Management"
+      ]
+    },
+    {
+      "title": "Human Resource Management & OB",
+      "week": "5 weeks",
+      "id": "human-resource-management---ob",
+      "points": [
+        "Introduction to Human Resource Management",
+        "Organizational Culture Development",
+        "Talent Acquisition and Retention",
+        "Learning and Development Programs",
+        "Conflict Resolution for Managers",
+        "Motivation and Rewards",
+        "Employee Engagement and Well-being"
+      ]
+    },
+    {
+      "title": "Leadership Fundamentals",
+      "week": "5 weeks",
+      "id": "leadership-fundamentals",
+      "points": [
+        "Introduction to Leadership Styles and Theories",
+        "Communication Skills for Effective Leadership",
+        "DecisIon Making & Problem Solving in Leadership",
+        "Team Building and Motivation Techniques",
+        "Emotional Intelligence in Leadership"
+      ]
+    },
+    {
+      "title": "Strategic Management",
+      "week": "5 weeks",
+      "id": "strategic-management",
+      "points": [
+        "Strategic Management Fundamentals",
+        "Strategic Planning",
+        "SWOT Analysis",
+        "Industry & Environment Analysis",
+        "Compeitive Advantage & Positioning",
+        "Strategy Implementation"
+      ]
+    },
+    {
+      "title": "Enterprise Risk Management",
+      "week": "5 weeks",
+      "id": "enterprise-risk-management",
+      "points": [
+        "Introduction to Enterprise Risk Management",
+        "Types & Categories of Enterprise Risks",
+        "Risk Identification & Assessment",
+        "ERM Planning & Strategic Implementation",
+        "Department Risk Planning & Implementation",
+        "Challenges & Solutions in ERM"
+      ]
+    },
+    {
+      "title": "Business Analytics and Data-driven Decision Making",
+      "week": "5 weeks",
+      "id": "business-analytics-and-data-driven-decision-making",
+      "points": [
+        "Introduction to Business Analytics",
+        "Managerial Applications of Business Analytics",
+        "Statistical Concepts for Business Analytics",
+        "Exploratory Data Analysis Techniques for Beginners",
+        "Introduction to Predictive Analytics & its Applications"
+      ]
+    },
+    {
+      "title": "Digital Transformation",
+      "week": "3 weeks",
+      "id": "digital-transformation",
+      "points": [
+        "Fundamentals of Digital Transformation",
+        "Digital Disruption & its Impact on Industries",
+        "Formulating Digital Business Strategy",
+        "Key Digital Tools & Technologies",
+        "Customer Centric Approaches in Digital Transformation"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence for Leaders",
+      "week": "3 weeks",
+      "id": "artificial-intelligence-for-leaders",
+      "points": [
+        "AI Basics for Managers & Leaders",
+        "AI-Driven Decision-Making",
+        "Leading AI Teams and Collaborations",
+        "AI Driven Customer Experience & Engagement"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "week": "1 week",
+      "id": "capstone-project--1-week",
+      "points": ["Strategic Business Transformation Project"]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Happy Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Srinivas Josyula",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. MV Anuradha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. PRS Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Pooja Kumari",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/pooja-kumari-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Aalok Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/alok-kr-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-business-management",
+    "points": [
+      "150+ Hours of Live Classes",
+
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 21634
+      },
+      {
+        "months": 18,
+        "emi": 15000
+      },
+      {
+        "months": 24,
+        "emi": 11655
+      }
+    ],
+    "total": 270000
+  },
+  "faq": {
+    "programId": "executive-program-in-business-management",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Business Management required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 12 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Business Management program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Business Management concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Business-Management.pdf",
+    "source": "Business Management brochure",
+    "campaign_name": "BM-IIMV-12 Months"
+  }
+}

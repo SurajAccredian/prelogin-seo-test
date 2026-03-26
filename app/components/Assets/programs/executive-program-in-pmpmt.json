@@ -1,0 +1,471 @@
+{
+  "category": "4",
+  "id": "executive-program-in-pmpmt",
+  "vertical": "product management",
+  "title": "Executive Program in Product Management and Project Management",
+  "description": "Embark on a 10 term learning journey in Design Thinking, UI/UX Engineering, & Project Management",
+  "short_title": "Product Management",
+  "contact": "8851827093",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/w2ZnCO_yvG0?si=P_zHeLlJZfT5pqzC",
+  "start_date": "27 Sep 2025",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/pmpmi-certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 130
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 29
+    },
+    {
+      "title": "assignments",
+      "count": 10
+    },
+    {
+      "title": "tools",
+      "count": 8
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-pmpmt",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring project managers seeking skills in planning, execution, and team management.",
+          "Product managers developing strategies for product lifecycle from development to launch.",
+          "Business analysts bridging gaps between stakeholders and development teams effectively.",
+          "Software developers learning project management to contribute to product innovation.",
+          "Marketing professionals aligning product strategies with market demands and customer needs.",
+          "Entrepreneurs managing product lifecycles, overcoming challenges in development and launch.",
+          "Operations managers streamlining processes for successful project delivery and efficiency.",
+          "Sales managers understanding product features to develop effective sales strategies.",
+          "Quality assurance professionals ensuring products meet standards and customer expectations.",
+          "Designers contributing to product strategy and managing user experience in teams.",
+          "Technology professionals moving to project or product management for broader insight.",
+          "Customer success managers using customer insights to improve product development."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Project Manager",
+          "Product Manager",
+          "Program Manager",
+          "Technical Project Manager",
+          "Product Owner",
+          "Agile Scrum Master",
+          "Product Development Manager",
+          "Project Coordinator",
+          "Operations Manager",
+          "Innovation Manager",
+          "Project Analyst",
+          "Product Strategy Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - UI/UX, Agile, Six Sigma",
+          "Learn from the top industry professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Capstone projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "2-day campus immersion at IIT Guwahati",
+          "1:1 career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Introduction to Product Management",
+      "id": "1",
+      "points": [
+        "Roles & Responsibilities of a PM",
+        "User Research for PMs",
+        "Market Research for PMs",
+        "Competitive Analysis for PMs"
+      ]
+    },
+    {
+      "title": "Product Strategy & Roadmap",
+      "id": "2",
+      "points": [
+        "Product Planning Cycle",
+        "Product Vision & Mission",
+        "Product Strategy & Product Goals",
+        "Product Backlog & Roadmap"
+      ]
+    },
+    {
+      "title": "Design Thinking & UI/UX",
+      "id": "3",
+      "points": [
+        "Design Thinking for PMs",
+        "Building MVP - Artefacts, Persona Mapping & PRDs",
+        "UI/UX for PMs",
+        "Mockups, Wireframes & Prototypes"
+      ]
+    },
+    {
+      "title": "Product Engineering",
+      "id": "4",
+      "points": [
+        "Engineering for Product Managers",
+        "Microservices & Cloud Services",
+        "Waterfall & Agile Methodology",
+        "Understanding Scrum & Kanban"
+      ]
+    },
+    {
+      "title": "Product Marketing & Launch",
+      "id": "5",
+      "points": [
+        "Product Launch & A/B Testing",
+        "Data Driven Product Marketing & Consumer Behaviour",
+        "Marketing Ninja Challenge"
+      ]
+    },
+    {
+      "title": "Design Discovery",
+      "special": "1",
+      "id": "project--design-discovery",
+      "points": [
+        "Design Discovery requires one to apply design thinking concepts to create human-centred and action-oriented solutions. As a PM practitioner you will be competing with the best to solve a complex challenge."
+      ]
+    },
+    {
+      "title": "Project Management Fundamentals",
+      "id": "project-management-fundamentals",
+      "points": ["Introduction to Project Management", "Project Initiation"]
+    },
+    {
+      "title": "Project Planning & Execution",
+      "id": "project-planning---execution",
+      "points": ["Project Planning", "Project Execution"]
+    },
+    {
+      "title": "Risk Management & Agile Project Management",
+      "id": "risk-management---agile-project-management",
+      "points": ["Project Risk Management", "Agile Project Management"]
+    },
+    {
+      "title": "Contract, Procurement, Closure",
+      "id": "contract--procurement--closure",
+      "points": [
+        "Project Procurement and Contract Management",
+        "Project Closure and Evaluation"
+      ]
+    },
+    {
+      "title": "Project Leadership & Advanced Topics",
+      "id": "project-leadership---advanced-topics",
+      "points": [
+        "Leadership and Soft Skills for Project Managers",
+        "Advanced Topics in Project Management"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "2",
+      "id": "term-11--capstone-project",
+      "points": [
+        "The Capstone Project involves applying knowledge to a real-world scenario, either individually or in teams, enhancing preparation for Project Management Institute (PMI) and other certifications."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    },
+
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+
+    {
+      "name": "Dr. Anand Lokhande",
+      "position": "Co-Founder",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Dr.%20Anand%20Lokhande.webp",
+
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/imagilytica-v1.webp"
+    },
+
+    {
+      "name": "Jaideep Butta",
+      "position": "Sr. Product Line Manager",
+      "organization": "Shell",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Jaideep%20Butta.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/shell.webp"
+    },
+
+    {
+      "name": "Dr. Preeti Adhav",
+      "position": "Founder & CEO",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Dr.%20Preeti%20Adhav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/monks-learning-labs.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "mural",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mural.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "Microsoft Project",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-project.webp"
+    },
+
+    {
+      "title": "toggle",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/togll.svg"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-pmpmt",
+    "points": [
+      "130+ Hours of Live Classes",
+      
+      "30+ Tools & Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-pmpmt",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Product Management and Project Management experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In the Executive Program in Product Management and Project Management, you'll gain access to numerous case studies, the 'Design Discovery' project, and a Capstone Project, all designed to deepen your understanding of real-world applications of both Product Management and Project Management concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Product Management and Project Management Program?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is for 4-5 weeks approximately. The overall duration of the Executive Program in Product Management and Project Management is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title":  "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Product Management and Project Management Program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach :** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model :** IIT G's unique framework ensures that every Product Management and Project Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center :** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-PMPMT.pdf",
+    "source": "IITG Product Management and Project Management Brochure",
+    "campaign_name": "PMPMT-IITG-11 Months"
+  }
+}

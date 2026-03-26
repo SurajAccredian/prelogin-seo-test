@@ -1,0 +1,180 @@
+{
+  "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
+  "tags": [
+    { "type": "main", "title": "best selling" },
+    { "type": "ordinary", "title": "Instructor led" },
+    { "type": "ordinary", "title": "Online" }
+  ],
+  "type": "online",
+  "title": "Executive Certification Program in Design Thinking & Innovation for Strategic Leadership",
+  "domain": "module",
+  "billing": {
+    "total": 179000,
+    "points": [
+      "72+ Hours of Live Classes",
+      "Interactive Doubt-Clearing Sessions",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "programId": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
+    "monthly_emi": [
+      { "emi": 15070, "months": 12 },
+      { "emi": 10411, "months": 18 },
+      { "emi": 8065, "months": 24 }
+    ]
+  },
+  "contact": "8882597163",
+  "timings": "weekends only",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITH-Executive-Program-in-Design-Thinking-and-Innovation-for-Strategic-Leadership.pdf",
+    "source": "IITH Executive Program in Design Thinking & Innovation for Strategic Leadership Brochure",
+    "campaign_name": "DTIP-IITH-6 Months"
+  },
+  "category": "54",
+  "duration": "6 Months",
+  "overview": {
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Innovation & Strategy Leaders: Drive innovation through structured design thinking approaches.",
+          "Senior Managers & Functional Heads: Solve complex business challenges with design thinking.",
+          "Entrepreneurs & Business Owners: Build innovative products and scalable business models.",
+          "Consultants & Strategy Professionals: Apply design thinking frameworks for strategic solutions.",
+          "Product & Innovation Managers: Design user-centric products and lead innovation initiatives.",
+          "Transformation & Change Leaders: Drive organizational change using design thinking principles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Innovation Manager",
+          "Design Thinking Consultant",
+          "Product Innovation Manager",
+          "Strategic Innovation Lead",
+          "Customer Experience (CX) Manager",
+          "Business Transformation Manager",
+          "Product Strategy Manager",
+          "Innovation Program Lead",
+          "Service Design Manager",
+          "Strategy & Innovation Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "5 Modules - Applied Innovation, Experience Design & Strategic Leadership",
+          "Learn From The Esteemed IIT Hyderabad Faculty",
+          "Duration: 6 Months | Weekend Online",
+          "Certification From IIT Hyderabad",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian"
+        ]
+      }
+    ],
+    "programId": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee"
+  ],
+  "vertical": "design thinking",
+  "curriculum": [
+    {
+      "id": "1",
+      "title": "Design Thinking & Innovation Foundations",
+      "points": [
+        "Innovation Strategy in 21st Century",
+        "Global Innovation Case Studies",
+        "Design Thinking and Problem Framing",
+        "Applied Design Thinking Case Studies"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Design Thinking Process & Methods",
+      "points": [
+        "Design Thinking: From Insight to Implementation",
+        "Framework & Tools for Design Thinking",
+        "Human-Centered Design Methods"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Applied Innovation & Experience Design",
+      "points": [
+        "Innovation Scaling & Market Adoption",
+        "Design Thinking & Innovation for Entrepreneurship",
+        "GenAI Augmented Design Thinking",
+        "Service Experience Design(SXD)"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Competitive Strategy & Strategic Direction",
+      "points": [
+        "Strategic Thinking and Enterprise Direction",
+        "Competitive Strategy & Market Positioning",
+        "Designing Sustainable Competitive Advantage",
+        "Corporate & Business Strategy",
+        "Strategy Implementation & Execution"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Business Models & Value Creation",
+      "points": [
+        "Next-Generation Business Models",
+        "Business Model Innovation & Growth",
+        "Strategic Innovation Leadership",
+        "Innovation Economics & ROI"
+      ]
+    },
+    {
+      "id": "capstone-project",
+      "title": "Capstone Project",
+      "points": [
+        "Apply the principles of design thinking and strategic innovation to solve a real-world business challenge. Participants will work through the entire design thinking process—from empathy and problem definition to prototyping and testing—to develop a strategic solution that drives value and innovation within an organization."
+      ],
+      "special": "1"
+    }
+  ],
+  "start_date": "13 June 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/IITH-ECPDTISL-Program-v2.png",
+  "description": "Embark on a 6 month learning journey in Applied Innovation, Experience Design & Strategic Leadership.",
+  "enrollments": "active",
+  "short_title": "Design Thinking",
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "key_features": [
+    { "text": "5", "title": "modules" },
+    { "text": "72+", "title": "class hours" },
+    { "text": "1", "title": "capstone project" },
+    { "text": "2 day", "title": "campus immersion (opt.)" },
+    { "text": "4", "title": "career sessions" }
+  ],
+  "unique_points": [
+    "capstone-project",
+    "campus-immersion-opt",
+    "certificate",
+    "experiential-learning"
+  ],
+  "curriculum_type": "module",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-long-logo.webp",
+  "university_name": "IIT Hyderabad",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-universityi-image-v2.webp",
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "short_university_name": "iith",
+  "required_years_experience": 1
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "quote": "The guidance I got from Accredian was really fantastic which set me on the right path.",
+    "link": "https://blog.accredian.com/how-aditya-became-a-senior-engineer-consultant-data-science-at-verizon/",
+    "videoSrc": "https://www.youtube.com/embed/0ASncSl55ME?si=kuX8gxNgyvN73fQv",
+    "banner": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/aditya-gundu-success-story.webp",
+    "name": "Aditya Gundu"
+  },
+  {
+    "quote": "Suchit and Manjusha from Accredian helped me strategise for interviews and I landed a job at Philips because of them.",
+    "link": "https://blog.accredian.com/how-aditya-became-a-senior-engineer-consultant-data-science-at-verizon/",
+    "videoSrc": "https://www.youtube.com/embed/aJgoxsL8Pns?si=a-ockZfg6fTCfmlG",
+    "banner": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/rahul-ghosh-success-story.webp",
+    "name": "Rahul Ghosh"
+  },
+  {
+    "quote": "Accredian has been very instrumental in laying my Data Science foundation, which I am grateful for.",
+    "link": "https://blog.accredian.com/how-data-science-helped-sourav-land-his-dream-job-at-philips/",
+    "videoSrc": "https://www.youtube.com/embed/9eAB7XP1rO0?si=pp3NuS_8gi5pF9oZ",
+    "banner": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/saurav-ghosh-success-story.webp",
+    "name": "Sourav Ghosh"
+  },
+  {
+    "quote": "Accredian’s structured learning and mentorship helped me merge operational expertise with product management, empowering me to lead with confidence.",
+    "link": "https://blog.accredian.com/how-data-science-helped-sourav-land-his-dream-job-at-philips/",
+    "videoSrc": "https://www.youtube.com/embed/OnHWuiSMrTY?si=H_-WT7Ck_snEfwHK",
+    "banner": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/dilip-kumar-yadav-success-story.webp",
+    "name": "Dilip Kumar Yadav"
+  },
+  {
+    "quote": "Accredian’s real-world projects, expert mentorship, and experienced faculty equipped me with the strategic mindset and technical skills to confidently lead cross-functional product teams.",
+    "link": "https://blog.accredian.com/how-data-science-helped-sourav-land-his-dream-job-at-philips/",
+    "videoSrc": "https://www.youtube.com/embed/7UDz0zlLA2I?si=0YwvMMvEKveeXXeT",
+    "banner": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/priya-motwani-success-story.webp",
+    "name": "Priya Motwani"
+  }
+]

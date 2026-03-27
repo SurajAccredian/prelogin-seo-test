@@ -81,7 +81,7 @@ export default function Career() {
     <main className="w-full block flex-grow">
       <Testingnavbar />
       <ThemeProvider theme={theme}>
-        <Box sx={{ display: { xs: 'none', lg: 'block', md: "none", sm: "none" } }} >
+        <Box sx={{ display: { xs: 'none', sm: 'none', md: 'block', lg: 'block' } }} >
           <Box
             sx={{
               backgroundImage:
@@ -600,27 +600,22 @@ export default function Career() {
                   >
                     Three pillars of our culture
                   </Typography>
-                  <Grid item lg={12} container>
+                  <Grid item lg={12} container justifyContent="center" spacing={4}>
                     <Grid item lg={4}>
-                      <Box>
-                        <center>
-                          {" "}
-                          <CardMedia
-                            component="img"
-                            image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Transparency.webp"
-                            alt="Goole"
-                            sx={{ width: "85px", mb: 2 }}
-                          />
-                        </center>
+                      <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                        <CardMedia
+                          component="img"
+                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Transparency.webp"
+                          alt="Transparency"
+                          sx={{ width: "60px", flexShrink: 0 }}
+                        />
                         <Typography
                           variant="h4"
                           component="div"
                           sx={{
                             color: "#fff",
                             textDecoration: "none",
-                            fontSize: "25px",
-                            textAlign: "center",
-                            mb: 1,
+                            fontSize: "22px",
                           }}
                         >
                           Transparency
@@ -628,25 +623,20 @@ export default function Career() {
                       </Box>
                     </Grid>
                     <Grid item lg={4}>
-                      <Box>
-                        <center>
-                          {" "}
-                          <CardMedia
-                            component="img"
-                            image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Growth-Oriented.webp"
-                            alt="Goole"
-                            sx={{ width: "85px", mb: 2 }}
-                          />
-                        </center>
+                      <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                        <CardMedia
+                          component="img"
+                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Growth-Oriented.webp"
+                          alt="Growth Oriented"
+                          sx={{ width: "60px", flexShrink: 0 }}
+                        />
                         <Typography
                           variant="h4"
                           component="div"
                           sx={{
                             color: "#fff",
                             textDecoration: "none",
-                            fontSize: "25px",
-                            textAlign: "center",
-                            mb: 1,
+                            fontSize: "22px",
                           }}
                         >
                           Growth Oriented
@@ -654,25 +644,20 @@ export default function Career() {
                       </Box>
                     </Grid>
                     <Grid item lg={4}>
-                      <Box>
-                        <center>
-                          {" "}
-                          <CardMedia
-                            component="img"
-                            image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Impact-Driven.webp"
-                            alt="Goole"
-                            sx={{ width: "85px", mb: 2 }}
-                          />
-                        </center>
+                      <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                        <CardMedia
+                          component="img"
+                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Impact-Driven.webp"
+                          alt="Impact Driven"
+                          sx={{ width: "60px", flexShrink: 0 }}
+                        />
                         <Typography
                           variant="h4"
                           component="div"
                           sx={{
                             color: "#fff",
                             textDecoration: "none",
-                            fontSize: "25px",
-                            textAlign: "center",
-                            mb: 1,
+                            fontSize: "22px",
                           }}
                         >
                           Impact Driven
@@ -707,7 +692,7 @@ export default function Career() {
             </Box>
           </Box>
         </Box>
-        <Box sx={{ display: { xs: "block", lg: "none", sm: "block", md: "block" } }}>
+        <Box sx={{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }}>
           <Box
             sx={{
               backgroundImage:
@@ -1186,79 +1171,64 @@ export default function Career() {
                 >
                   Three pillars of our culture
                 </Typography>
-                <Grid item lg={12} container>
-                  <Grid item xs={6}>
-                    <Box>
-                      <center>
-                        {" "}
-                        <CardMedia
-                          component="img"
-                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Transparency.webp"
-                          alt="Goole"
-                          sx={{ width: "85px", mb: 2 }}
-                        />
-                      </center>
+                <Grid item xs={12} container justifyContent="center" spacing={2}>
+                  <Grid item xs={12}>
+                    <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                      <CardMedia
+                        component="img"
+                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Transparency.webp"
+                        alt="Transparency"
+                        sx={{ width: "55px", flexShrink: 0 }}
+                      />
                       <Typography
                         variant="h4"
                         component="div"
                         sx={{
                           color: "#fff",
                           textDecoration: "none",
-                          fontSize: "25px",
-                          textAlign: "center",
-                          mb: 1,
+                          fontSize: "20px",
                         }}
                       >
                         Transparency
                       </Typography>
                     </Box>
                   </Grid>
-                  <Grid item xs={6} >
-                    <Box>
-                      <center>
-                        {" "}
-                        <CardMedia
-                          component="img"
-                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Growth-Oriented.webp"
-                          alt="Goole"
-                          sx={{ width: "85px", mb: 2 }}
-                        />
-                      </center>
+                  <Grid item xs={12} >
+                    <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                      <CardMedia
+                        component="img"
+                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Growth-Oriented.webp"
+                        alt="Growth Oriented"
+                        sx={{ width: "55px", flexShrink: 0 }}
+                      />
                       <Typography
                         variant="h4"
                         component="div"
                         sx={{
                           color: "#fff",
                           textDecoration: "none",
-                          fontSize: "25px",
-                          textAlign: "center",
-                          mb: 1,
+                          fontSize: "20px",
                         }}
                       >
                         Growth Oriented
                       </Typography>
                     </Box>
                   </Grid>
-                  <Grid item xs={12} sx={{ pt: 3 }}>
-                    <Box>
-                      <center>
-                        {" "}
-                        <CardMedia
-                          component="img"
-                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Impact-Driven.webp"
-                          alt="Goole"
-                          sx={{ width: "85px", mb: 2 }}
-                        />
-                      </center>
+                  <Grid item xs={12}>
+                    <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                      <CardMedia
+                        component="img"
+                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Impact-Driven.webp"
+                        alt="Impact Driven"
+                        sx={{ width: "55px", flexShrink: 0 }}
+                      />
                       <Typography
                         variant="h4"
                         component="div"
                         sx={{
                           color: "#fff",
                           textDecoration: "none",
-                          fontSize: "25px",
-                          textAlign: "center",
-                          mb: 1,
+                          fontSize: "20px",
                         }}
                       >
                         Impact Driven

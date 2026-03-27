@@ -79,6 +79,13 @@
 .testimonials .mySwiper2 .swiper-button-next::after,
 .testimonials .mySwiper2 .swiper-button-prev::after {
   display: none !important;
+  content: "" !important;
+}
+
+/* Hide the default blue Swiper button color */
+.testimonials .mySwiper2 .swiper-button-next,
+.testimonials .mySwiper2 .swiper-button-prev {
+  color: transparent !important;
 }
 
 .testimonials .swiper-pagination-bullet {

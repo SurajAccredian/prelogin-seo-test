@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import Rcta from "../cta/request_a_call_back";
+import Rcta from "../cta/request_a_call_back";
 // import ReferModal from "../Modals/ReferModal/ReferModal";
 
 const Strip = ({ user }) => {
@@ -29,7 +29,7 @@ const Strip = ({ user }) => {
       ) : (
         <button onClick={handleClickOpenRcb} className="md:mx-2 font-semibold text-nowrap text-sm text-universal capitalize block md:hidden">{"contact expert"}</button>
       )}
-      {/* <Rcta open={cta} handleClose={RcbhandleClose} /> */}
+      <Rcta open={cta} handleClose={RcbhandleClose} />
       {/* <ReferModal open={isReferModalOpen} setOpen={setisReferModalOpen} /> */}
     </div>
   )

@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import {
   Grid,
   Typography,
@@ -78,7 +78,7 @@ export default function Career() {
 
 
   return (
-    <>
+    <main className="w-full block flex-grow">
       <Testingnavbar />
       <ThemeProvider theme={theme}>
         <Box sx={{ display: { xs: 'none', lg: 'block', md: "none", sm: "none" } }} >
@@ -1295,6 +1295,6 @@ export default function Career() {
         <Form />
       </ThemeProvider>
       <Footer />
-    </>
+    </main>
   );
 }

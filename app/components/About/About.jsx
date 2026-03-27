@@ -125,10 +125,10 @@ export default function About() {
             </Typography>
           </Box>
           <Box sx={{ pb: 4 }}>
-            <Container fixd>
+            <Container fixed>
               <Box>
-                <Container fixd>
-                  <Grid item lg={12} sm={12} container>
+                <Container fixed>
+                  <Grid item lg={12} sm={12} container sx={{ justifyContent: "center", gap: 3.6 }}>
                     <Grid
                       item
                       lg={4}
@@ -136,7 +136,7 @@ export default function About() {
                       sx={{
                         boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
                         borderRadius: "10px",
-                        backgroubdColor: "#fff",
+                        backgroundColor: "#fff",
                         maxWidth: { lg: "30.333333% !important ", sm: "100%", md: "30.333333% !important " },
                         mb: { lg: 0, md: 0, sm: 4 }
 
@@ -190,9 +190,9 @@ export default function About() {
                       sx={{
                         boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
                         borderRadius: "10px",
-                        backgroubdColor: "#fff",
+                        backgroundColor: "#fff",
                         maxWidth: { lg: "30.333333% !important ", sm: "100%", md: "30.333333% !important " },
-                        ml: { lg: 3.6, md: 3.6, sm: 0 },
+                        ml: { lg: 0, md: 0, sm: 0 },
                         mb: { lg: 0, md: 0, sm: 4 }
                       }}
                     >
@@ -244,9 +244,9 @@ export default function About() {
                       sx={{
                         boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
                         borderRadius: "10px",
-                        backgroubdColor: "#fff",
+                        backgroundColor: "#fff",
                         maxWidth: { lg: "30.333333% !important ", sm: "100%", md: "30.333333% !important " },
-                        ml: { lg: 3.6, md: 3.6, sm: 0 },
+                        ml: { lg: 0, md: 0, sm: 0 },
                         mb: { lg: 0, md: 0, sm: 4 }
                       }}
                     >
@@ -340,7 +340,7 @@ export default function About() {
           <Container fixed>
             <Box sx={{ pb: 2 }}>
               <Container fixed>
-                <Grid item lg={12} container sx={{}}>
+                <Grid item lg={12} container sx={{ justifyContent: "center", columnGap: 2, rowGap: 4 }}>
                   <Grid
 
                     lg={4}
@@ -349,9 +349,8 @@ export default function About() {
                     sx={{
                       boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
                       maxWidth: { lg: "19.333333% !important ", sm: "100%", md: "100%" },
-                      // width:{lg:"19.3333% !important",md:0,sm:0},
                       p: 3,
-                      ml: { lg: 26, md: 0, sm: 0 },
+                      ml: { lg: 0, md: 0, sm: 0 },
                       mb: { lg: 4, sm: 3, md: 3 },
                       borderRadius: "10px",
                       backgroubdColor: "#fff",
@@ -466,7 +465,7 @@ export default function About() {
                       boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
                       maxWidth: { lg: "19.333333% !important ", sm: "100%", md: "100%" },
                       p: 3,
-                      ml: { lg: 26, md: 0, sm: 0 },
+                      ml: { lg: 0, md: 0, sm: 0 },
                       mb: { lg: 4, sm: 3, md: 3 },
                       borderRadius: "10px",
                       backgroubdColor: "#fff",
@@ -586,7 +585,7 @@ export default function About() {
         </Box>
         <Box sx={{ py: 6 }}>
           <Container fixed>
-            <Grid item lg={12} container sx={{}}>
+            <Grid item lg={12} container sx={{ justifyContent: "center", gap: 4 }}>
               <Grid
                 lg={6}
                 sm={12}
@@ -596,7 +595,7 @@ export default function About() {
                   borderRadius: "10px",
                   p: 4,
                   maxWidth: { lg: "43.333333% !important ", sm: "100%", md: "100%" },
-                  ml: { lg: 8, md: 3, sm: 3 },
+                  ml: { lg: 0, md: 0, sm: 0 },
                   mb: { lg: 0, md: 3, sm: 3 }
                 }}
               >
@@ -667,7 +666,7 @@ export default function About() {
                   p: 4,
                   borderRadius: "10px",
                   maxWidth: { lg: "43.333333% !important ", sm: "100%", md: "100%" },
-                  ml: { lg: 4, md: 3, sm: 3 },
+                  ml: { lg: 0, md: 0, sm: 0 },
                 }}
               >
                 <Typography

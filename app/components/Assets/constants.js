@@ -121,5 +121,94 @@ export const DEPARTMENTS = [
 
 // TESTIMONIALS array — identical, just rename file to .ts
 export const TESTIMONIALS = [
-  /* ...identical to original... */
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni1.webp",
+    review:
+      "I would like to thank the Accredian team for keeping me busy with material and helping me develop the discipline needed to become a Data Scientist.",
+    name: "Anirudha Acharya",
+    designation: "Data Scientist",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo1.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni2.webp",
+    review:
+      "Accredian alleviated my lack of confidence coming from a non-coding background. Eventually, I became sure I'll do justice to Data Science projects.",
+    name: "Lalit Garg",
+    designation: "Assistant General Manager",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo2.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni3.webp",
+    review:
+      "I come from a statistics background with no exposure to coding. I was fortunate enough to come across Accredian which provided the right pace and right guidance.",
+    name: "Jigna Thacker",
+    designation: "Group Director Analytics",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo3.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni4.webp",
+    review:
+      "Accredian conducts different helpful sessions like Fireside chat and Industry Speakers to keep us informed of the world moving into something that we are far away from.",
+    name: "Sanjit Ghosh",
+    designation: "Senior, Project Manager",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo5.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni5.webp",
+    review:
+      "Accredian has designed the course after thorough research in a structured and well-thought-out way. It helps you in the real-world and practical aspects of your actual business or work.",
+    name: "Sunitha Sharma",
+    designation: "Assistant Vice President",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo6.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni6.webp",
+    review:
+      "Accredian faculty is talented and friendly and the curriculum is helpful. The initial confidence-building comes from the starter kits. They are extremely user-friendly.",
+    name: "Nilesh Joshi",
+    designation: "Vice President",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo7.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni7.webp",
+    review:
+      "I found Accredian is the best as compared to the other online programs. Accredian’s curriculum is way ahead than what other institutes are providing.",
+    name: "Siboli Mukherjee",
+    designation: "Data Analyst",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo8.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni8.webp",
+    review:
+      "Accredian proved to be the right platform to bridge all gaps and helped me achieve my main goal, which was to work as a Data Scientist.",
+    name: "Rahul Sinha",
+    designation: "Data Analytics Manager",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo9.webp",
+  },
+  {
+    photo_url:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumni9.webp",
+    review:
+      "I am the National Head of Strategy for Kinetic Worldwide with little, prior coding experience. I owe my learning & inquisitiveness to Accredian and it's team of coders who is highly responsive.",
+    name: "Arijit Chakrabarti",
+    designation: "National Head of Strategy",
+    company_logo:
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo10.webp",
+  },
 ];

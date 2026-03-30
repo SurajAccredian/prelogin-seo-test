@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <>
       <Wrapper>
-        <div className="font-circular">
+        <div className="font-circular mt-20 md:mt-0">
           <GetInTouch />
         </div>
       </Wrapper>

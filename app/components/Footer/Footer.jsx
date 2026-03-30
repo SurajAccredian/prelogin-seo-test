@@ -694,13 +694,13 @@ const Footer = () => {
                     item.category.toLowerCase() === category.toLowerCase()
                 );
                 return (
-                    <MobileProgramFooter
-                      key={index}
-                      categorizedPrograms={categorizedPrograms}
-                      category={category}
-                      index={index}
-                      matchingContact={matchingContact}
-                    />
+                  <MobileProgramFooter
+                    key={index}
+                    categorizedPrograms={categorizedPrograms}
+                    category={category}
+                    index={index}
+                    matchingContact={matchingContact}
+                  />
                 );
               })}
               {/* </div> */}
@@ -833,8 +833,9 @@ const Footer = () => {
           </Box>
         </Container>
       </Box>
-      {/* ✅ Custom Floating Action Button — replaces react-floating-button-menu */}
-      <div className="fixed bottom-6 right-6 z-[9999] flex flex-col items-center gap-3">
+
+      {/* ✅ Custom Floating Action Button — replaces react-floating-button-menu */}
+      <div className="fixed bottom-6 right-6 z-[99] flex flex-col items-center gap-3">
         {/* Child buttons — slide up when open */}
         <div
           className="flex flex-col items-center gap-3 transition-all duration-300"
@@ -896,8 +897,8 @@ const Footer = () => {
           onClick={() => setIsOpen((prev) => !prev)}
           aria-label="Toggle menu"
           style={{
-            width: 60,
-            height: 60,
+            width: 54,       // was 60
+            height: 54,      // was 60
             borderRadius: "50%",
             background: "linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)",
             border: "none",

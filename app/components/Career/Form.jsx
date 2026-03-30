@@ -8,7 +8,7 @@ import Link from "next/link"; // ✅ Replaced react-router-dom Link
 import PhoneInput from "react-phone-input-2";
 import Select from "react-select";
 import { DEPARTMENTS } from "../Assets/constants";
-
+import "react-phone-input-2/lib/material.css";
 import "./Careers.css";
 import { careersPortal } from "../../services/careers.service";
 import Swal from "sweetalert2";

@@ -6,7 +6,7 @@ const FraudNotificationStrip = () => {
   if (!open) return null;
 
   return (
-    <div className="w-full z-[1300]" role="alert">
+    <div className="w-full z-[99]" role="alert">
       <div className="relative bg-blue-100 text-[#1B66C9] overflow-hidden py-3 px-4 flex items-center">
         <div className="flex animate-marquee">
           <div className="flex items-center gap-2 shrink-0">
@@ -39,7 +39,7 @@ const FraudNotificationStrip = () => {
               />
             </svg> */}
             <span className="text-xs sm:text-sm whitespace-nowrap pr-[3rem]">
-               <strong>⚠️ Important: Ignore fraudulent payment requests on WhatsApp or unofficial sources – only trust emails ending with @accredian.com</strong>.
+              <strong>⚠️ Important: Ignore fraudulent payment requests on WhatsApp or unofficial sources – only trust emails ending with @accredian.com</strong>.
             </span>
           </div>
         </div>

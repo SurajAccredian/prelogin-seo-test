@@ -5,7 +5,7 @@ const Benefits = () => {
   const { data } = useSelector((state) => state.program);
   return (
     <div
-      id="stats"
+      id="benefitsSection"
       className="tools my-10 w-full overflow-hidden flex flex-col items-center py-12 xl:px-12 px-4 capitalize"
     >
       <h1 className="text-xl sm:text-2xl md:text-4xl pb-6 font-semibold text-center font-circular">

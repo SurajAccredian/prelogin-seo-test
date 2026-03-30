@@ -64,13 +64,6 @@ const Programs = () => {
     order: 0,
   };
 
-  // Get sorted streams WITH popular courses at the top
-  const sortedStreams = [
-    popularCategory,
-    ...STREAMS.sort((a, b) => a.order - b.order),
-  ];
-
-  // Get popular programs by IDs
   const getPopularPrograms = () => {
     const filtered = PROGRAMS.filter((program) =>
       POPULAR_PROGRAM_IDS.includes(program.id),
@@ -84,6 +77,24 @@ const Programs = () => {
     console.log(unique);
     return unique;
   };
+
+
+  // Get sorted streams WITH popular courses at the top
+  const sortedStreams = [
+    popularCategory,
+    ...STREAMS.sort((a, b) => a.order - b.order),
+  ].filter((vertical) => {
+    if (vertical.category === "popular") {
+      return getPopularPrograms().length > 0;
+    }
+    return PROGRAMS.some(
+      (program) =>
+        program.category.toLowerCase() === vertical.category.toLowerCase()
+    );
+  });
+
+  // Get popular programs by IDs
+
 
   // Get programs for selected vertical
   const getDisplayedPrograms = () => {
@@ -323,11 +334,10 @@ const SidebarDesktop = ({
             <button
               key={index}
               onClick={() => onVerticalSelect(vertical.category)}
-              className={`w-full text-left px-3 xl:px-4 py-2.5 xl:py-3 rounded-lg font-medium transition-all duration-200 flex items-center gap-3 group relative overflow-hidden ${
-                isSelected
-                  ? "bg-universal text-white shadow-md"
-                  : "hover:bg-gray-50 text-gray-700"
-              }`}
+              className={`w-full text-left px-3 xl:px-4 py-2.5 xl:py-3 rounded-lg font-medium transition-all duration-200 flex items-center gap-3 group relative overflow-hidden ${isSelected
+                ? "bg-universal text-white shadow-md"
+                : "hover:bg-gray-50 text-gray-700"
+                }`}
             >
               {/* Sliding border bottom animation - ONLY for non-selected items */}
               {!isSelected && (
@@ -346,11 +356,10 @@ const SidebarDesktop = ({
 
               {/* Arrow Icon */}
               <ArrowRight
-                className={`w-4 h-4 flex-shrink-0 transition-transform duration-300 ${
-                  isSelected
-                    ? "translate-x-0 opacity-100"
-                    : "-translate-x-1 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
-                }`}
+                className={`w-4 h-4 flex-shrink-0 transition-transform duration-300 ${isSelected
+                  ? "translate-x-0 opacity-100"
+                  : "-translate-x-1 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
+                  }`}
               />
             </button>
           );
@@ -383,12 +392,11 @@ export const ProgramCard = ({ program, handleOpen }) => {
 
       {program.status && (
         <span
-          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md capitalize ${
-            program.status.toLowerCase() === "admission closed" ||
+          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md capitalize ${program.status.toLowerCase() === "admission closed" ||
             program.status.toLowerCase() === "admissions closed"
-              ? "bg-red-500"
-              : "bg-green-500"
-          }`}
+            ? "bg-red-500"
+            : "bg-green-500"
+            }`}
         >
           {program.status}
         </span>
@@ -535,34 +543,30 @@ const MobileCategoryItem = ({
     <div ref={categoryRef} className="bg-white overflow-hidden">
       <button
         onClick={onToggle}
-        className={`w-full flex items-center justify-between p-2 transition-all duration-300 ${
-          isExpanded
-            ? "bg-universal text-white border-white/30"
-            : " text-gray-900 "
-        }`}
+        className={`w-full flex items-center justify-between p-2 transition-all duration-300 ${isExpanded
+          ? "bg-universal text-white border-white/30"
+          : " text-gray-900 "
+          }`}
       >
         <div className="flex items-center gap-3">
           <div
-            className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${
-              isExpanded ? "text-white" : "text-universal"
-            }`}
+            className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${isExpanded ? "text-white" : "text-universal"
+              }`}
           >
             {IconComponent ? <IconComponent className="w-5 h-5" /> : null}
           </div>
           <div className="flex flex-col items-start">
             <span
-              className={`font-medium text-sm capitalize ${
-                isExpanded ? "text-white" : "text-gray-900"
-              }`}
+              className={`font-medium text-sm capitalize ${isExpanded ? "text-white" : "text-gray-900"
+                }`}
             >
               {vertical.name || vertical.category}
             </span>
           </div>
         </div>
         <ChevronDown
-          className={`w-5 h-5 transition-transform duration-300 flex-shrink-0 ${
-            isExpanded ? "rotate-180 text-white" : "text-gray-500"
-          }`}
+          className={`w-5 h-5 transition-transform duration-300 flex-shrink-0 ${isExpanded ? "rotate-180 text-white" : "text-gray-500"
+            }`}
         />
       </button>
 

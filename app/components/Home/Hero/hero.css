@@ -1,15 +1,3 @@
-/* ============================================
-   BUTTON RESET - Prevents browser overrides
-   ============================================ */
-.hero-primary-button,
-.hero-secondary-button,
-.mobile-primary-button,
-.mobile-secondary-button {
-  font-family: inherit;
-  -webkit-appearance: none;
-  appearance: none;
-}
-
 /* Hero Wrapper */
 .lazy-bg {
   background-image: none !important;
@@ -29,6 +17,8 @@
   width: 71%;
   overflow: hidden;
   position: relative;
+  /* mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent); */
 }
 
 .university-scroll-wrapper {
@@ -56,6 +46,7 @@
   transform: scale(1.1);
 }
 
+/* Keyframe for left-to-right scroll */
 @keyframes scroll-left {
   0% {
     transform: translateX(0%);
@@ -66,10 +57,12 @@
   }
 }
 
+/* Pause animation on hover */
 .university-container:hover .university-scroll-wrapper {
   animation-play-state: paused;
 }
 
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .university-container {
     mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
@@ -110,6 +103,7 @@
   }
 }
 
+
 @media (min-width: 1280px) {
   .university-image {
     width: 60px;
@@ -123,14 +117,13 @@
   }
 }
 
-/* ============================================
-   SWIPER CONTAINER
-   ============================================ */
+/* Swiper Container */
 .swiper-container {
   width: 100%;
   position: relative;
 }
 
+/* Base Swiper Styles - Reduced Heights */
 .hero-swiper {
   width: 100%;
   height: auto;
@@ -157,6 +150,7 @@
   min-height: 590px;
 }
 
+/* Desktop Background Image - Right Side */
 .hero-background-desktop {
   position: absolute;
   top: 0;
@@ -169,6 +163,7 @@
   z-index: 1;
 }
 
+/* Gradient Overlay for Desktop */
 .hero-gradient-overlay {
   position: absolute;
   top: 0;
@@ -185,6 +180,7 @@
   z-index: 2;
 }
 
+/* Content Wrapper */
 .hero-content-wrapper {
   position: relative;
   z-index: 3;
@@ -206,9 +202,7 @@
   max-width: 100%;
 }
 
-/* ============================================
-   TYPOGRAPHY - Desktop Base
-   ============================================ */
+/* Typography - Desktop */
 .hero-title {
   font-size: 1.75rem;
   line-height: 1.2;
@@ -229,74 +223,27 @@
   line-height: 1.4;
 }
 
-/* ============================================
-   DESKTOP BUTTON STYLES (Base)
-   ============================================ */
-.hero-primary-button {
-  padding: 0.75rem 1.5rem;
-  font-size: 0.875rem;
-  font-weight: 700;
-  border-radius: 0.5rem;
-  min-height: 44px;
-  background: transparent;
-  color: #000000;
-  border: 2px solid #2563eb;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
-  width: 100%;
-}
-
-.hero-primary-button:hover {
-  background: #eff6ff;
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
-}
-
+/* Button Styles */
+.hero-primary-button,
 .hero-secondary-button {
   padding: 0.75rem 1.5rem;
   font-size: 0.875rem;
-  font-weight: 700;
   border-radius: 0.5rem;
   min-height: 44px;
-  background: #2563eb;
-  color: #ffffff;
-  border: 2px solid #2563eb;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
-  width: 100%;
-}
-
-.hero-secondary-button:hover {
-  background: #1d4ed8;
-  border-color: #1d4ed8;
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
 }
 
 .hero-buttons-container {
   width: 100%;
 }
 
-/* ============================================
-   NAVIGATION ARROWS
-   ============================================ */
+/* Navigation Styles - Desktop Only */
 .custom-nav-prev.desktop-nav,
 .custom-nav-next.desktop-nav {
   position: absolute;
-  top: 43%;
+  top: 50%;
   transform: translateY(-50%);
-  width: 33px;
-  height: 33px;
+  width: 44px;
+  height: 44px;
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -324,9 +271,7 @@
   color: #374151;
 }
 
-/* ============================================
-   PAGINATION
-   ============================================ */
+/* Pagination Container - Below Swiper */
 .pagination-container {
   width: 100%;
   display: flex;
@@ -342,6 +287,7 @@
   justify-content: center;
 }
 
+/* Original Pagination Bullet Styles */
 .custom-pagination-bullet {
   width: 8px;
   height: 8px;
@@ -355,18 +301,16 @@
 
 .custom-pagination-bullet.active {
   width: 24px;
-  background: #1a73e8;
+  background: #1A73E8;
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 }
 
-/* ============================================
-   HOVER EFFECTS
-   ============================================ */
+/* Hover Effects */
 .custom-nav-prev.desktop-nav:hover,
 .custom-nav-next.desktop-nav:hover {
-  background: #1a73e8 !important;
+  background: #1A73E8 !important;
   transform: translateY(-50%) scale(1.05) !important;
-  box-shadow: 0 8px 30px #1a73e8 !important;
+  box-shadow: 0 8px 30px #1A73E8 !important;
 }
 
 .custom-nav-prev.desktop-nav:hover .nav-icon,
@@ -383,9 +327,7 @@
   background: #1d4ed8 !important;
 }
 
-/* ============================================
-   FOCUS STATES
-   ============================================ */
+/* Focus States */
 .custom-nav-prev.desktop-nav:focus,
 .custom-nav-next.desktop-nav:focus,
 .custom-pagination-bullet:focus {
@@ -393,15 +335,17 @@
   outline-offset: 2px;
 }
 
-/* ============================================
-   MOBILE (up to 767px)
-   ============================================ */
+/* Mobile Devices (up to 767px) */
 @media screen and (max-width: 767px) {
+
+  /* Hide desktop layout */
   .desktop-hero-layout {
     display: none;
   }
 
+
   .university-container {
+
     width: 80%;
   }
 
@@ -426,21 +370,42 @@
     transition: transform 0.3s ease;
   }
 
+
+  /* .university-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 8px;
+  } */
+
+  /* .university-image {
+    width: 40px;
+    height: 40px;
+
+  } */
+
+  /* Show mobile layout */
   .mobile-hero-layout {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
+  /* Hide navigation arrows on mobile */
   .custom-nav-prev.desktop-nav,
   .custom-nav-next.desktop-nav {
     display: none !important;
   }
 
+  /* Reduced Swiper height for mobile */
   .hero-swiper {
     height: auto;
   }
 
+  /* Top Image Section - Reduced height */
   .mobile-hero-image {
     width: 100%;
     height: 35vh;
@@ -451,6 +416,7 @@
     position: relative;
   }
 
+  /* Overlapping Content Card */
   .mobile-content-card {
     position: relative;
     background: #ffffff;
@@ -472,6 +438,7 @@
     flex: 1;
   }
 
+  /* Mobile Typography */
   .hero-title-mobile {
     font-size: 1.625rem;
     line-height: 1.2;
@@ -507,7 +474,7 @@
     padding: 1rem 1.5rem;
     font-size: 0.95rem;
     font-weight: 700;
-    background: #3b82f6;
+    background: #3B82F6;
     color: white;
     border: none;
     border-radius: 0.75rem;
@@ -517,11 +484,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
   }
 
   .mobile-primary-button:hover {
-    background: #2563eb;
+    background: #2563EB;
     transform: translateY(-1px);
     box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
   }
@@ -532,32 +498,30 @@
     font-size: 0.95rem;
     font-weight: 700;
     background: transparent;
-    color: #3b82f6;
-    border: 2px solid #3b82f6;
+    color: #3B82F6;
+    border: 2px solid #3B82F6;
     border-radius: 0.75rem;
     transition: all 0.3s ease;
     min-height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
   }
 
   .mobile-secondary-button:hover {
-    background: #3b82f6;
+    background: #3B82F6;
     color: white;
     transform: translateY(-1px);
     box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
   }
 
+  /* Mobile pagination container */
   .pagination-container {
     padding: 1rem 0;
   }
 }
 
-/* ============================================
-   SMALL MOBILE (up to 479px)
-   ============================================ */
+/* Small Mobile (up to 479px) */
 @media screen and (max-width: 479px) {
   .mobile-hero-image {
     height: 42vh;
@@ -595,11 +559,11 @@
   .pagination-container {
     padding: 0.75rem 0;
   }
+
+
 }
 
-/* ============================================
-   TABLET (768px - 1023px)
-   ============================================ */
+/* Tablet Devices (768px - 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .hero-swiper {
     height: auto;
@@ -607,12 +571,13 @@
   }
 
   .desktop-hero-layout {
-    min-height: 100px;
+    min-height: 100px
   }
 
   .university-image {
     width: 40px;
     height: 40px;
+
   }
 
   .hero-background-desktop {
@@ -661,8 +626,8 @@
 
   .hero-primary-button,
   .hero-secondary-button {
-    padding: 10px 16px;
-    font-size: 0.875rem;
+    padding: 10px 10px;
+    font-size: 0.8rem;
     width: auto;
   }
 
@@ -676,15 +641,24 @@
   }
 }
 
-/* ============================================
-   DESKTOP (1024px+)
-   ============================================ */
+.custom-nav-prev.desktop-nav,
+.custom-nav-next.desktop-nav {
+  position: absolute;
+  top: 43%;
+  transform: translateY(-50%);
+  width: 33px;
+  height: 33px;
+  background: rgba(255, 255, 255, 0.95);
+
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1030px) {
   .desktop-hero-layout {
-    min-height: 100px;
+    min-height: 100px
   }
 }
 
+/* Desktop Devices (1024px and above) */
 @media screen and (min-width: 1024px) {
   .hero-swiper {
     height: auto;
@@ -694,6 +668,7 @@
   .university-image {
     width: 50px;
     height: 50px;
+
   }
 
   .hero-content-wrapper {
@@ -728,11 +703,6 @@
   .hero-secondary-button {
     padding: 1rem 2rem;
     font-size: 1rem;
-    width: auto;
-  }
-
-  .hero-buttons-container {
-    flex-direction: row;
   }
 
   .pagination-container {
@@ -740,9 +710,7 @@
   }
 }
 
-/* ============================================
-   LARGE DESKTOP (1280px+)
-   ============================================ */
+/* Large Desktop (1280px and above) */
 @media screen and (min-width: 1280px) {
   .hero-swiper {
     height: auto;
@@ -788,7 +756,6 @@
   .hero-secondary-button {
     padding: 1.25rem 2.25rem;
     font-size: 1.125rem;
-    width: auto;
   }
 
   .custom-nav-prev.desktop-nav,
@@ -828,9 +795,7 @@
   }
 }
 
-/* ============================================
-   LANDSCAPE MOBILE
-   ============================================ */
+/* Landscape Orientation for Mobile */
 @media screen and (orientation: landscape) and (max-height: 500px) and (max-width: 767px) {
   .mobile-hero-image {
     height: 40vh;
@@ -858,9 +823,7 @@
   }
 }
 
-/* ============================================
-   ANIMATIONS
-   ============================================ */
+/* Animation */
 @keyframes slideInUp {
   from {
     opacity: 0;
@@ -881,7 +844,7 @@
   animation: slideInUp 0.6s ease-out forwards;
 }
 
-/* High DPI */
+/* High DPI Displays */
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi) {
 
@@ -895,17 +858,24 @@ screen and (min-resolution: 192dpi) {
 /* ============================================
    ANIMATED BORDER STYLES FOR JOBS REPORT BUTTON
    ============================================ */
+
+/* VERSION 1: Subtle Glow Pulse - Professional & Elegant */
 @keyframes glow-pulse {
 
   0%,
   100% {
-    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5), 0 0 10px rgba(59, 130, 246, 0.3),
+    box-shadow:
+      0 0 5px rgba(59, 130, 246, 0.5),
+      0 0 10px rgba(59, 130, 246, 0.3),
       0 0 15px rgba(59, 130, 246, 0.2);
   }
 
   50% {
-    box-shadow: 0 0 10px rgba(59, 130, 246, 0.8), 0 0 20px rgba(59, 130, 246, 0.5),
-      0 0 30px rgba(59, 130, 246, 0.3), 0 0 40px rgba(59, 130, 246, 0.1);
+    box-shadow:
+      0 0 10px rgba(59, 130, 246, 0.8),
+      0 0 20px rgba(59, 130, 246, 0.5),
+      0 0 30px rgba(59, 130, 246, 0.3),
+      0 0 40px rgba(59, 130, 246, 0.1);
   }
 }
 
@@ -913,6 +883,7 @@ screen and (min-resolution: 192dpi) {
   animation: glow-pulse 2s ease-in-out infinite;
 }
 
+/* VERSION 2: Rotating Rainbow Gradient Border - Eye-catching */
 @keyframes rotate-gradient {
   0% {
     background-position: 0% 50%;
@@ -929,35 +900,36 @@ screen and (min-resolution: 192dpi) {
 
 .jobs-report-v2 {
   position: relative;
-  background: linear-gradient(90deg, #3b82f6, #60a5fa, #2563eb, #3b82f6);
+  background: linear-gradient(90deg, #3B82F6, #60A5FA, #2563EB, #3B82F6);
   background-size: 300% 300%;
   animation: rotate-gradient 3s ease infinite;
   border-width: 3px;
 }
 
+/* VERSION 3: Border Shimmer with Color Shift */
 @keyframes border-shimmer {
   0% {
-    border-color: #3b82f6;
+    border-color: #3B82F6;
     box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
   }
 
   25% {
-    border-color: #60a5fa;
+    border-color: #60A5FA;
     box-shadow: 0 0 12px rgba(96, 165, 250, 0.8);
   }
 
   50% {
-    border-color: #2563eb;
+    border-color: #2563EB;
     box-shadow: 0 0 16px rgba(37, 99, 235, 1);
   }
 
   75% {
-    border-color: #60a5fa;
+    border-color: #60A5FA;
     box-shadow: 0 0 12px rgba(96, 165, 250, 0.8);
   }
 
   100% {
-    border-color: #3b82f6;
+    border-color: #3B82F6;
     box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
   }
 }
@@ -966,19 +938,29 @@ screen and (min-resolution: 192dpi) {
   animation: border-shimmer 2.5s ease-in-out infinite;
 }
 
+/* VERSION 4: Neon Glow Breathing Effect - Bold */
 @keyframes neon-breathe {
 
   0%,
   100% {
-    box-shadow: 0 0 2px #fff, 0 0 5px #3b82f6, 0 0 10px #3b82f6, 0 0 20px #3b82f6,
+    box-shadow:
+      0 0 2px #fff,
+      0 0 5px #3B82F6,
+      0 0 10px #3B82F6,
+      0 0 20px #3B82F6,
       inset 0 0 5px rgba(59, 130, 246, 0.2);
-    border-color: #60a5fa;
+    border-color: #60A5FA;
   }
 
   50% {
-    box-shadow: 0 0 5px #fff, 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 40px #3b82f6,
-      0 0 60px #3b82f6, inset 0 0 10px rgba(59, 130, 246, 0.4);
-    border-color: #2563eb;
+    box-shadow:
+      0 0 5px #fff,
+      0 0 10px #3B82F6,
+      0 0 20px #3B82F6,
+      0 0 40px #3B82F6,
+      0 0 60px #3B82F6,
+      inset 0 0 10px rgba(59, 130, 246, 0.4);
+    border-color: #2563EB;
   }
 }
 
@@ -987,15 +969,20 @@ screen and (min-resolution: 192dpi) {
   border-width: 2px;
 }
 
+/* VERSION 5: Double Border Pulse - Modern & Dynamic */
 @keyframes double-border-pulse {
 
   0%,
   100% {
-    box-shadow: 0 0 0 0px rgba(59, 130, 246, 0.7), 0 0 0 0px rgba(59, 130, 246, 0.4);
+    box-shadow:
+      0 0 0 0px rgba(59, 130, 246, 0.7),
+      0 0 0 0px rgba(59, 130, 246, 0.4);
   }
 
   50% {
-    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.4), 0 0 0 8px rgba(59, 130, 246, 0.1);
+    box-shadow:
+      0 0 0 4px rgba(59, 130, 246, 0.4),
+      0 0 0 8px rgba(59, 130, 246, 0.1);
   }
 }
 
@@ -1004,6 +991,7 @@ screen and (min-resolution: 192dpi) {
   animation: double-border-pulse 2s ease-out infinite;
 }
 
+/* Hover enhancement for all versions */
 .jobs-report-v1:hover,
 .jobs-report-v2:hover,
 .jobs-report-v3:hover,

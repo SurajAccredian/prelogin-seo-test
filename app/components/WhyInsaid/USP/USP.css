@@ -6,34 +6,43 @@
   position: relative;
 }
 
-/* .second-bg-grad {
-  background: rgb(26, 115, 232);
-  background: radial-gradient(circle, rgba(124, 181, 255, 0.155) 0%, rgba(255, 255, 255, 1) 100%);
-} */
-
-
+/* Remove default swiper arrow content */
 .USP .custom-prev2::after,
 .USP .custom-prev2::before,
 .USP .custom-next2::after,
 .USP .custom-next2::before {
-  content: none;
-}
-
-
-.USP .custom-prev2::after,
-.USP .custom-prev2::before {
   content: none !important;
 }
 
+/* Swiper container: horizontal padding keeps slides clear of buttons */
+.USP .swiper-container {
+  padding: 0 44px;
+}
+
+/*
+  ── THE FIX ──
+  .USP-slider-wrapper is `position: relative` (set via Tailwind `relative` class).
+  Buttons are absolutely positioned inside it.
+  They use top/bottom + margin:auto for true vertical centering
+  regardless of the card's actual rendered height.
+*/
 .USP .swiper-button-prev.custom-prev2,
 .USP .swiper-button-next.custom-next2 {
+  display: none;
+  /* hidden on mobile */
   position: absolute;
-  top: 50%;
-  /* transform: translateY(-50%); */
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /* vertically centers between top:0 and bottom:0 */
+  height: 40px;
+  /* explicit height required for margin:auto to work */
+  width: 40px;
   color: #000 !important;
-  /* Change this to the color you want */
   z-index: 10;
-  /* Increase this value if the buttons are behind other elements */
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .USP .swiper-button-prev.custom-prev2 {
@@ -48,18 +57,12 @@
   bottom: -10%;
 }
 
-.USP .swiper-button-prev.custom-prev2,
-.USP .swiper-button-next.custom-next2 {
-  display: none;
-  /* Hide by default */
-}
-
-/* CSS media query for desktop screens */
+/* Show buttons on desktop only */
 @media screen and (min-width: 1024px) {
 
   .USP .swiper-button-prev.custom-prev2,
   .USP .swiper-button-next.custom-next2 {
-    display: block;
-    /* Show on desktop screens */
+    display: flex;
+    /* flex so the icon centers inside */
   }
 }

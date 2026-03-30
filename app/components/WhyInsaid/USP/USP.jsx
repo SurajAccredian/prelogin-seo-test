@@ -1,15 +1,12 @@
 "use client"
 import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import SwiperCore from "swiper";
-
 import "swiper/swiper-bundle.css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css";
-
 import { FiTrendingUp } from "react-icons/fi";
 import { FaRegAddressCard } from "react-icons/fa6";
 import { RiPresentationFill } from "react-icons/ri";
@@ -18,7 +15,9 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import "./USP.css";
 import { FolderOpenDot, RadioTower } from "lucide-react";
 import { PiPathBold } from "react-icons/pi";
+
 SwiperCore.use([Navigation]);
+
 const USP = () => {
   const uspData = [
     {
@@ -63,17 +62,6 @@ const USP = () => {
   const swiperContainerRef = useRef(null);
   const [swiper, setSwiper] = useState(null);
 
-  // useEffect(() => {
-  //   if (swiper) {
-  //     swiper.el.onmouseover = () => {
-  //       swiper.autoplay.stop();
-  //     };
-  //     swiper.el.onmouseout = () => {
-  //       swiper.autoplay.start();
-  //     };
-  //   }
-  // }, [swiper]);
-
   useEffect(() => {
     if (swiper && swiperContainerRef.current && paginationRef.current) {
       swiperContainerRef.current.appendChild(paginationRef.current);
@@ -94,17 +82,23 @@ const USP = () => {
             Why Learners <span className="text-universal"> Trust </span> Us
           </h1>
         </div>
-        <div className="max-w-[95rem] h-full mx-auto flex justify-center items-center mt-2 md:mt-4  relative">
+
+        {/* ── CHANGED: single relative wrapper that contains both buttons + swiper ── */}
+        <div className="USP-slider-wrapper mt-2 md:mt-4 relative w-full max-w-[85rem] mx-auto">
+
+          {/* Prev button — inside the relative wrapper */}
           <div className="swiper-button-prev custom-prev2">
             <IoIosArrowBack className="text-universal" />
           </div>
+
+          {/* Swiper container — padded so slides don't go under buttons */}
           <div
             ref={swiperContainerRef}
-            className="swiper-container w-full h-[80%] max-w-[85rem]"
+            className="swiper-container w-full"
           >
             <Swiper
               modules={[Navigation, Pagination]}
-              className="mySwiper3 h-full"
+              className="mySwiper3"
               onSwiper={setSwiper}
               spaceBetween={20}
               slidesPerView={1}
@@ -124,12 +118,12 @@ const USP = () => {
               }}
             >
               {uspData.map((usp, index) => (
-                <SwiperSlide key={index} className="h-full">
-                  <div className="USP-card-bg-image h-full gap-0 md:gap-4 lg:gap-10 flex flex-col md:flex-col lg:flex-row w-full justify-center lg:justify-between py-4 md:py-4 lg:py-6 px-3 md:px-5 rounded-lg items-center text-center drop-shadow-2xl border cursor-context-menu">
+                <SwiperSlide key={index}>
+                  <div className="USP-card-bg-image gap-0 md:gap-4 lg:gap-10 flex flex-col md:flex-col lg:flex-row w-full justify-center lg:justify-between py-4 md:py-4 lg:py-6 px-3 md:px-5 rounded-lg items-center text-center drop-shadow-2xl border cursor-context-menu">
                     <div className="w-16 h-16 mt-4 text-blue-600 flex-shrink-0">
                       {usp.icon}
                     </div>
-                    <div className="flex flex-col  items-start text-center md:text-start">
+                    <div className="flex flex-col items-start text-center md:text-start">
                       <h1 className="text-lg font-semibold mt-4">
                         {usp.title}
                       </h1>
@@ -143,9 +137,12 @@ const USP = () => {
             </Swiper>
             <div ref={paginationRef} className="swiper-pagination"></div>
           </div>
+
+          {/* Next button — inside the relative wrapper */}
           <div className="swiper-button-next custom-next2">
             <IoIosArrowForward className="text-universal" />
           </div>
+
         </div>
       </div>
     </div>

@@ -243,10 +243,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div
-        className="nav-3 flex justify-center py-[0.6rem] w-full px-4 xl:px-12"
-        data-lenis-prevent
-      >
+      <div className="nav-3 flex justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
         <div className="nav-3-inner">
           <div className="nav-3-left">
             <Link href={"/"} style={{ textDecoration: "none" }}>
@@ -379,15 +376,20 @@ export default function Navbar() {
       </div>
       <Ham
         onLoginClick={loginClick}
+        // onLoginClick={setIsLoginOpen}
         isLoginOpen={isLoginOpen}
         LogOut={LogOut}
+        // userInfo={userInfo}
         loginStatus={isCookie}
         isOpen={isOpenHam}
         setIsOpen={setIsOpenHam}
+      // openMyAccountDrawer={onMyAccountClick}
       />
+      {/* <AccountDrawer isOpen={myAccountIsOpen} onClose={myAccountOnClose} /> */}
       <ExploreDrawer isOpen={isOpen} onClose={onClose} onOpen={onOpen} />
       <Authdrawer isOpen={openLoginDrawerState} onClose={closeLoginDrawer} />
 
+      {/* TO close the login model redux is used */}
       <div>
         {authType && (
           <LoginModal open={authType !== null && authType !== "loginsuccess"} />

@@ -2,18 +2,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./index.css";
-import "./components/Footer/Footer.css";
-import "./components/Home/CTA/CTA.css";
-import "./components/Home/Hero/hero.css";
-// import "./components/Home/Info/Info.css";
-import "./components/Home/Intro/Intro.css";
-import "./components/Home/Programs/Programs.css";
-import "./components/Home/Verticals/verticals.css";
-import "./components/Home/watch-stories/watch-stories-v2.css";
-import "./components/Home/watch-stories/watch-stories.css";
-import "./components/Navbar/ExploreDropdown/ExploreDropDown.css";
-import "./components/Navbar/Navbar.css";
-import "./components/Career/Careers.css";
+
 import ReduxProvider from "./store/ReduxProvider";
 import QueryProvider from "./store/QueryProvider";
 import AnalyticsProvider from "./components/AnalyticsProvider";

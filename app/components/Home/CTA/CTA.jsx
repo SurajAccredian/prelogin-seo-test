@@ -4,6 +4,7 @@ import "./CTA.css";
 import { IoIosArrowForward } from "react-icons/io";
 // import CtaModal from "../../Modals/call-to-actions/get-in-touch";
 import { useState } from "react";
+import CtaModal from "../../Modals/call-to-actions/get-in-touch";
 
 const CTA = () => {
   const [isModalOpen, setIsModalOpen] = useState(null);
@@ -48,7 +49,7 @@ const CTA = () => {
           <IoIosArrowForward className="mt-1" />
         </button>
       </div>
-      {/* <CtaModal open={isModalOpen} setOpen={setIsModalOpen} /> */}
+      <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
     </div>
   );
 };

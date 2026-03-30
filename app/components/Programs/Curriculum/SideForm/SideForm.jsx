@@ -13,7 +13,7 @@ import { HashLoader } from "../../../Loaders";
 import Disclaimer from "../../Disclaimer";
 import ReCAPTCHA from "react-google-recaptcha";
 import { allowedIds } from "../../../Assets/constants";
-
+import "react-phone-input-2/lib/style.css";
 const SideForm = () => {
   const { data } = useSelector((state) => state.program);
 
@@ -187,18 +187,31 @@ ${errors["email"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                 }}
                 render={({ field }) => (
                   <PhoneInput
+                    containerStyle={{
+                      width: "100%",
+                    }}
                     inputStyle={{
                       width: "100%",
                       borderTop: "none",
                       borderLeft: "none",
                       borderRight: "none",
                       borderBottom: errors.contact
-                        ? "2px solid red"
-                        : "2px solid rgb(212 212 212)",
+                        ? "2px solid rgb(239 68 68)"   // red-500
+                        : "2px solid rgb(212 212 212)", // neutral-300
                       borderRadius: "0px",
-                      padding: "10px",
+                      paddingTop: "10px",
+                      paddingBottom: "10px",
                       paddingLeft: "55px",
                       outline: "none",
+                      boxShadow: "none",  // ✅ removes material.css focus glow
+                    }}
+                    buttonStyle={{
+                      border: "none",           // ✅ removes flag button border
+                      background: "transparent",
+                      borderBottom: errors.contact
+                        ? "2px solid rgb(239 68 68)"
+                        : "2px solid rgb(212 212 212)",
+                      borderRadius: "0px",
                     }}
                     enableSearch={true}
                     country={"in"}

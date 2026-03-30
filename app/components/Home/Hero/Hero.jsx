@@ -1,12 +1,13 @@
 import "./hero.css";
-import React, { useState, useRef, useEffect } from "react";
-import Rcta from "../../cta/request_a_call_back";
+import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { MoveRight, PhoneCall } from "lucide-react";
+import { useEffect } from "react";
+import RctaABTesting from "../../cta/request_a_call_back";
 
 const Hero = () => {
   useEffect(() => {
@@ -26,22 +27,27 @@ const Hero = () => {
     });
 
     lazyBackgrounds.forEach((bg) => observer.observe(bg));
+
     return () => observer.disconnect();
   }, []);
-
   const [cta, setCta] = useState(false);
   const swiperRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
 
-  const handleClickOpenRcb = () => setCta(true);
-  const RcbhandleClose = () => setCta(false);
+  const handleClickOpenRcb = () => {
+    setCta(true);
+  };
+
+  const RcbhandleClose = () => {
+    setCta(false);
+  };
 
   const heroSlides = [
     {
       id: 1,
       title: "Elevate your Career with India's top Institutes",
       subtitle:
-        "Master in-demand skills with our expert-led courses, certified in partnerships with IIMs, IITs & XLRI.",
+        " Master in-demand skills with our expert-led courses, certified in partnerships with IIMs, IITs & XLRI.",
       bulletPoints: [],
       buttonText: "Explore Courses",
       backgroundImage:
@@ -70,6 +76,7 @@ const Hero = () => {
   ];
 
   const universityImages = [
+    // "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iitg-logo.webp",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
@@ -77,7 +84,6 @@ const Hero = () => {
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
   ];
 
   const duplicatedUniversityImages = [...universityImages, ...universityImages];
@@ -92,7 +98,6 @@ const Hero = () => {
       />
     )
   );
-
   return (
     <div className="hero-wrapper">
       <div className="swiper-container">
@@ -101,37 +106,52 @@ const Hero = () => {
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={0}
           loop={true}
-          autoplay={{ delay: 4000 }}
+          autoplay={{
+            delay: 4000,
+          }}
           slidesPerView={1}
           speed={800}
           onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
           className="hero-swiper"
           breakpoints={{
-            320: { slidesPerView: 1, spaceBetween: 0 },
-            768: { slidesPerView: 1, spaceBetween: 0 },
-            1024: { slidesPerView: 1, spaceBetween: 0 },
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            1024: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
           }}
         >
           {heroSlides.map((slide, index) => (
             <SwiperSlide key={slide.id}>
               <div className="hero-slide">
-
-                {/* ── MOBILE LAYOUT ── */}
+                {/* Mobile Layout */}
                 <div className="mobile-hero-layout">
+                  {/* Top Image Section */}
                   <div
                     className="mobile-hero-image lazy-bg"
                     data-bg={slide.backgroundImage}
                   />
 
+                  {/* Overlapping Content Card */}
                   <div className="mobile-content-card">
                     <div className="mobile-content-inner">
+                      {/* Main Title */}
                       <div className="w-full capitalize flex flex-col gap-1 items-center">
                         <h1 className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
                           {index === 0 ? (
                             <>
                               Level up your career with{" "}
                               <span className="text-blue-600">india's</span>{" "}
-                              <span className="text-blue-600">Top Institutes</span>
+                              <span className="text-blue-600">
+                                Top Institutes
+                              </span>
                             </>
                           ) : (
                             slide.title
@@ -139,24 +159,36 @@ const Hero = () => {
                         </h1>
                       </div>
 
+                      {/* Description */}
                       {index !== 0 ? (
-                        <p className="hero-description text-center text-gray-600 font-medium">
+                        <p className="hero-description md:text-start text-center text-gray-600 font-medium">
                           {slide.subtitle}
                         </p>
                       ) : (
-                        <div className="university-container">
-                          <div className="university-scroll-wrapper">
-                            {universityImagesComponent}
+                        <>
+                          <div className="university-container">
+                            <div className="university-scroll-wrapper">
+                              {universityImagesComponent}
+                            </div>
                           </div>
-                        </div>
+                        </>
                       )}
 
+                      {/* Bullet Points */}
                       {slide.bulletPoints.length > 0 && (
                         <div className="w-full flex flex-col gap-3 items-center">
                           {slide.bulletPoints.map((point, idx) => (
-                            <div key={idx} className="flex items-center gap-3 w-full">
+                            <div
+                              key={idx}
+                              className="flex items-center gap-3 w-full"
+                            >
                               <div className="w-5 h-5 rounded-full bg-green-500 flex-shrink-0 flex items-center justify-center">
-                                <svg width="12" height="9" viewBox="0 0 12 9" fill="none">
+                                <svg
+                                  width="12"
+                                  height="9"
+                                  viewBox="0 0 12 9"
+                                  fill="none"
+                                >
                                   <path
                                     d="M1 4.5L4.5 8L11 1.5"
                                     stroke="white"
@@ -174,50 +206,58 @@ const Hero = () => {
                         </div>
                       )}
 
-                      {/* Mobile CTA Buttons - classes only, no conflicting Tailwind */}
+                      {/* CTA Buttons */}
                       <div className="mobile-buttons-container">
+
                         <button
                           className="mobile-secondary-button"
-                          onClick={() => (window.location.href = "#courses")}
+                          onClick={() => {
+                            window.location.href = "#courses";
+                          }}
                           title="Explore Programs"
                         >
-                          {slide.buttonText}
-                          <MoveRight className="inline ml-2 mt-1 w-4 h-4" />
+                          {slide.buttonText}{" "}
+                          <MoveRight className="inline ml-2  mt-1 w-4 h-4" />
                         </button>
                         <button
                           className="mobile-primary-button"
                           onClick={handleClickOpenRcb}
                           title="Talk to Expert"
                         >
-                          Talk to Expert
-                          <MoveRight className="inline mb-1 mt-1 ml-2 w-4 h-4" />
+                          Talk to Expert{" "}
+                          <MoveRight className="inline  mb-1 mt-1 ml-2 w-4 h-4" />
                         </button>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* ── DESKTOP LAYOUT ── */}
+                {/* Desktop/Tablet Layout */}
                 <div className="desktop-hero-layout">
+                  {/* Desktop Background Image - Right Side */}
                   <div
                     className="hero-background-desktop lazy-bg"
                     data-bg={slide.backgroundImage}
                   />
 
+                  {/* Gradient Overlays */}
                   <div className="hero-gradient-overlay" />
 
+                  {/* Content Container */}
                   <div className="hero-content-wrapper">
                     <div className="hero-container-responsive font-roboto w-full max-w-[85rem] flex relative md:flex-row flex-col">
                       <div className="hero-content-left flex flex-col gap-4 sm:gap-6 md:items-start items-center w-full md:w-[800px] px-4 sm:px-6 md:px-8 lg:px-10">
-
-                        <div className="w-full flex flex-col gap-1 sm:gap-2 md:items-start items-center">
+                        {/* Main Title */}
+                        <div className="w-full flex flex-col gap-1 sm:gap-2 md:items-start items-center ">
                           <h1 className="hero-title text-center capitalize mb-0 md:text-start font-bold leading-tight text-gray-900">
                             {index === 0 ? (
                               <>
                                 Level up your career with{" "}
                                 <span className="text-blue-600">india's</span>{" "}
                                 <br />
-                                <span className="text-blue-600">Top Institutes</span>
+                                <span className="text-blue-600">
+                                  Top Institutes
+                                </span>
                               </>
                             ) : (
                               slide.title
@@ -225,54 +265,101 @@ const Hero = () => {
                           </h1>
                         </div>
 
+                        {/* Description */}
                         {index !== 0 ? (
                           <p className="hero-description md:text-start w-full md:max-w-lg text-center text-gray-600 font-medium">
                             {slide.subtitle}
                           </p>
                         ) : (
-                          <div className="university-container">
-                            <div className="university-scroll-wrapper">
-                              {universityImagesComponent}
+                          <>
+                            <div className="university-container">
+                              <div className="university-scroll-wrapper">
+                                {universityImagesComponent}
+                              </div>
                             </div>
-                          </div>
+                          </>
                         )}
+                        {/* Bullet Points */}
+                        {/* <div className="w-full flex flex-col gap-2 sm:gap-3 md:items-start items-center">
+                          {slide.bulletPoints.map((point, idx) => (
+                            <div
+                              key={idx}
+                              className="flex items-center gap-2 sm:gap-3 w-full md:w-auto"
+                            >
+                              <div className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-green-500 flex-shrink-0 flex items-center justify-center">
+                                <svg
+                                  width="10"
+                                  height="8"
+                                  viewBox="0 0 12 9"
+                                  fill="none"
+                                  className="sm:w-3 sm:h-3"
+                                >
+                                  <path
+                                    d="M1 4.5L4.5 8L11 1.5"
+                                    stroke="white"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                              <span className="hero-bullet-text font-medium text-gray-800">
+                                {point}
+                              </span>
+                            </div>
+                          ))}
+                        </div> */}
 
-                        {/* Desktop CTA Buttons - CSS classes own all styling */}
+                        {/* CTA Buttons */}
                         <div className="hero-buttons-container flex flex-col sm:flex-row items-center gap-3 sm:gap-4 md:justify-start justify-center w-full">
                           <button
-                            className="hero-primary-button"
-                            onClick={() => (window.location.href = "#courses")}
+                            className="hero-primary-button w-full sm:w-auto text-nowrap font-bold border-2 border-blue-600 rounded-lg text-black transition-all duration-300 shadow-xl hover:shadow-xl transform hover:scale-105"
+                            onClick={() => {
+                              window.location.href = "#courses";
+                            }}
                             title="Explore Programs"
                           >
-                            {slide.buttonText}
+                            {slide.buttonText}{" "}
                             <MoveRight className="inline ml-2 w-4 h-4 sm:w-5 sm:h-5" />
                           </button>
                           <button
-                            className="hero-secondary-button"
+                            className=" w-full hero-secondary-button sm:w-auto text-nowrap font-bold border-2 border-blue-600 bg-blue-600 hover:bg-blue-700 rounded-lg text-white transition-all duration-300 shadow-xl hover:shadow-xl transform hover:scale-105"
                             onClick={handleClickOpenRcb}
                             title="Talk to Expert"
                           >
-                            Talk to Expert
+                            Talk to Expert{" "}
                             <PhoneCall className="inline mb-1 ml-2 w-4 h-4 sm:w-5 sm:h-5" />
                           </button>
-                        </div>
 
+                        </div>
                       </div>
-                      <div className="flex-1 hidden lg:block" />
+
+                      {/* Right side spacer for desktop */}
+                      <div className="flex-1 hidden lg:block"></div>
                     </div>
                   </div>
                 </div>
-
               </div>
             </SwiperSlide>
           ))}
 
+          {/* Custom Navigation Buttons - Hidden on Mobile */}
           <div
             className="custom-nav-prev desktop-nav"
             onClick={() => swiperRef.current?.swiper.slidePrev()}
           >
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="nav-icon">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <svg
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              className="nav-icon"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
             </svg>
           </div>
 
@@ -280,26 +367,38 @@ const Hero = () => {
             className="custom-nav-next desktop-nav"
             onClick={() => swiperRef.current?.swiper.slideNext()}
           >
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="nav-icon">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <svg
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              className="nav-icon"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
             </svg>
           </div>
         </Swiper>
       </div>
 
+      {/* Pagination positioned below Swiper */}
       <div className="pagination-container">
         <div className="custom-pagination">
           {heroSlides.map((_, index) => (
             <div
               key={index}
-              className={`custom-pagination-bullet ${index === activeSlide ? "active" : ""}`}
+              className={`custom-pagination-bullet ${index === activeSlide ? "active" : ""
+                }`}
               onClick={() => swiperRef.current?.swiper.slideTo(index)}
             />
           ))}
         </div>
       </div>
 
-      {cta && <Rcta open={cta} handleClose={RcbhandleClose} />}
+      <RctaABTesting open={cta} handleClose={RcbhandleClose} />
     </div>
   );
 };

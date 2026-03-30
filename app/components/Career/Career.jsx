@@ -16,7 +16,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-
+import "react-phone-input-2/lib/material.css";
 import "./Careers.css"
 import Form from "./Form";
 
@@ -91,8 +91,9 @@ export default function Career() {
           >
             <Container fixed>
               <Box sx={{ pt: 22, pb: 23 }}>
-                <Grid item lg={12} container>
-                  <Grid item lg={6}>
+                {/* ✅ FIXED: removed `item`, lg={12} → size={12}, lg={6} → size={6} */}
+                <Grid size={12} container>
+                  <Grid size={6}>
                     <Typography
                       variant="h4"
                       component="div"
@@ -124,7 +125,7 @@ export default function Career() {
                       Accelerate your growth here{" "}
                     </Typography>
                   </Grid>
-                  <Grid item lg={6}>
+                  <Grid size={6}>
                     <Typography
                       variant="h4"
                       component="div"
@@ -211,15 +212,15 @@ export default function Career() {
               <Container fixed>
                 <Box sx={{ ml: -2, mr: 4 }}>
                   <Container fixed>
+                    {/* ✅ FIXED: removed `item`, lg={12} → size={12} */}
                     <Grid
-                      item
-                      lg={12}
+                      size={12}
                       container
                       sx={{ boxShadow: "0 0 4px 0 #0091ff", border: "8px" }}
                     >
+                      {/* ✅ FIXED: removed `item`, lg={3} → size={3} */}
                       <Grid
-                        item
-                        lg={3}
+                        size={3}
                         sx={{ py: 10, mx: 1, maxWidth: "23.333333% !important " }}
                       >
                         <CardMedia
@@ -257,8 +258,7 @@ export default function Career() {
                         </Typography>
                       </Grid>
                       <Grid
-                        item
-                        lg={3}
+                        size={3}
                         sx={{ py: 10, mx: 1, maxWidth: "23.333333% !important " }}
                       >
                         <CardMedia
@@ -296,15 +296,14 @@ export default function Career() {
                         </Typography>
                       </Grid>
                       <Grid
-                        item
-                        lg={3}
+                        size={3}
                         sx={{ py: 10, mx: 1, maxWidth: "23.333333% !important " }}
                       >
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Accelerator.webp"
                           alt="Goole"
-                          sx={{ width: "84px", mx: 12, pb: 4 }}
+                          sx={{ width: "102px", mx: 12, pb: 4 }}
                         />
                         <Typography
                           variant="h4"
@@ -329,22 +328,20 @@ export default function Career() {
                             fontSize: "17px",
                             textAlign: "center",
                             fontWeight: 400,
-                            mx: 3,
                           }}
                         >
                           Should be fast in driving results.
                         </Typography>
                       </Grid>
                       <Grid
-                        item
-                        lg={3}
+                        size={3}
                         sx={{ py: 10, mx: 1, maxWidth: "23.333333% !important " }}
                       >
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Innovator.webp"
                           alt="Goole"
-                          sx={{ width: "77px", mx: 12, pb: 4 }}
+                          sx={{ width: "102px", mx: 12, pb: 4 }}
                         />
                         <Typography
                           variant="h4"
@@ -406,15 +403,16 @@ export default function Career() {
                     fontWeight: 300,
                   }}
                 >
-                  Here’s what you should expect
+                  Here's what you should expect
                 </Typography>
               </Box>
               <Box sx={{ mb: 5 }}>
                 <Container fixed>
                   <Box sx={{ ml: -1 }}>
                     <Container fixed>
-                      <Grid item lg={12} container>
-                        <Grid item lg={6}>
+                      {/* ✅ FIXED: removed `item`, lg={12} → size={12}, lg={6} → size={6} */}
+                      <Grid size={12} container>
+                        <Grid size={6}>
                           <CardMedia
                             component="img"
                             image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/office-image.webp"
@@ -422,7 +420,7 @@ export default function Career() {
                             sx={{}}
                           />
                         </Grid>
-                        <Grid item lg={6}>
+                        <Grid size={6}>
                           <Box sx={{ mx: 13, mt: 15 }}>
                             <Typography
                               variant="h4"
@@ -463,8 +461,8 @@ export default function Career() {
                 <Container fixed>
                   <Box sx={{ ml: -2 }}>
                     <Container fixed>
-                      <Grid item lg={12} container>
-                        <Grid item lg={6}>
+                      <Grid size={12} container>
+                        <Grid size={6}>
                           <Box sx={{ mx: 13, mt: 15 }}>
                             <Typography
                               variant="h4"
@@ -488,15 +486,15 @@ export default function Career() {
                                 fontSize: "17px",
                               }}
                             >
-                              Apart from daily grind, we don’t miss an opportunity to
+                              Apart from daily grind, we don't miss an opportunity to
                               have fun at work. We celebrate every xsall occasion,
                               usually go on company wide outings, weekly team lunches
                               and not to miss HR activities which will ensure that
-                              you’re always high on energy.
+                              you're always high on energy.
                             </Typography>
                           </Box>
                         </Grid>
-                        <Grid item lg={6}>
+                        <Grid size={6}>
                           <Slider
                             ref={sliderRef}
                             {...settings}
@@ -525,8 +523,8 @@ export default function Career() {
                 <Container fixed>
                   <Box sx={{ ml: -2 }}>
                     <Container fixed>
-                      <Grid item lg={12} container>
-                        <Grid item lg={6}>
+                      <Grid size={12} container>
+                        <Grid size={6}>
                           <CardMedia
                             component="img"
                             image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/careers3.webp"
@@ -534,7 +532,7 @@ export default function Career() {
                             sx={{}}
                           />
                         </Grid>
-                        <Grid item lg={6}>
+                        <Grid size={6}>
                           <Box sx={{ mx: 13, mt: 15 }}>
                             <Typography
                               variant="h4"
@@ -559,7 +557,7 @@ export default function Career() {
                                 mb: 2,
                               }}
                             >
-                              If you’re looking for faster growth, right role and a
+                              If you're looking for faster growth, right role and a
                               great opportunity to maximise your full potential then you
                               should join us.{" "}
                             </Typography>
@@ -600,8 +598,9 @@ export default function Career() {
                   >
                     Three pillars of our culture
                   </Typography>
-                  <Grid item lg={12} container justifyContent="center" spacing={4}>
-                    <Grid item lg={4}>
+                  {/* ✅ FIXED: removed `item`, lg={12} → size={12}, lg={4} → size={4} */}
+                  <Grid size={12} container justifyContent="center" spacing={4}>
+                    <Grid size={4}>
                       <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
                         <CardMedia
                           component="img"
@@ -622,7 +621,7 @@ export default function Career() {
                         </Typography>
                       </Box>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid size={4}>
                       <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
                         <CardMedia
                           component="img"
@@ -643,7 +642,7 @@ export default function Career() {
                         </Typography>
                       </Box>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid size={4}>
                       <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
                         <CardMedia
                           component="img"
@@ -692,6 +691,8 @@ export default function Career() {
             </Box>
           </Box>
         </Box>
+
+        {/* ===== MOBILE VIEW ===== */}
         <Box sx={{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }}>
           <Box
             sx={{
@@ -741,7 +742,6 @@ export default function Career() {
                     variant="contained"
                     sx={{
                       mb: 2,
-
                       backgroundImage:
                         "linear-gradient(to left,#00c4ff 0%,#0091ff 71%)",
                       textTransform: "none",
@@ -755,7 +755,6 @@ export default function Career() {
                 </a>
               </center>
             </Box>
-
           </Box>
           <Box sx={{ mx: 2 }}>
             <Container fixed>
@@ -768,7 +767,6 @@ export default function Career() {
                     textDecoration: "none",
                     fontSize: "22px",
                     textAlign: "center",
-
                     mb: 1,
                   }}
                 >
@@ -782,24 +780,22 @@ export default function Career() {
                     textDecoration: "none",
                     fontSize: "19px",
                     textAlign: "center",
-
                   }}
                 >
                   Our core values & cultural strengths reflect being a
                 </Typography>
               </Box>
               <Box>
+                {/* ✅ FIXED: removed `item`, xs={12} → size={12} */}
                 <Grid
-
                   container
                   sx={{ boxShadow: "0 0 4px 0 #0091ff", border: "8px", py: 4 }}
                 >
                   <Grid
-                    item
-                    xs={12}
+                    size={12}
                     sx={{ pb: 3 }}
                   >
-                    <center>  <CardMedia
+                    <center><CardMedia
                       component="img"
                       image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/problem-solver.webp"
                       alt="Goole"
@@ -835,16 +831,15 @@ export default function Career() {
                     </Typography>
                   </Grid>
                   <Grid
-                    item
-                    xs={12}
+                    size={12}
                     sx={{ pb: 3 }}
                   >
-                    <center>  <CardMedia
+                    <center><CardMedia
                       component="img"
                       image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Self-Starter.webp"
                       alt="Goole"
                       sx={{ width: "102px", pb: 3 }}
-                    /> </center>
+                    /></center>
                     <Typography
                       variant="h4"
                       component="div"
@@ -875,16 +870,15 @@ export default function Career() {
                     </Typography>
                   </Grid>
                   <Grid
-                    item
-                    xs={12}
+                    size={12}
                     sx={{ pb: 3 }}
                   >
-                    <center>  <CardMedia
+                    <center><CardMedia
                       component="img"
                       image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Accelerator.webp"
                       alt="Goole"
                       sx={{ width: "84px", pb: 3 }}
-                    /> </center>
+                    /></center>
                     <Typography
                       variant="h4"
                       component="div"
@@ -915,16 +909,15 @@ export default function Career() {
                     </Typography>
                   </Grid>
                   <Grid
-                    item
-                    xs={12}
+                    size={12}
                     sx={{ pb: 3 }}
                   >
-                    <center>  <CardMedia
+                    <center><CardMedia
                       component="img"
                       image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Innovator.webp"
                       alt="Goole"
                       sx={{ width: "77px", pb: 3 }}
-                    /> </center>
+                    /></center>
                     <Typography
                       variant="h4"
                       component="div"
@@ -985,13 +978,14 @@ export default function Career() {
                   fontWeight: 300,
                 }}
               >
-                Here’s what you should expect
+                Here's what you should expect
               </Typography>
             </Box>
             <Box sx={{ mb: 5 }}>
               <Container fixed>
-                <Grid item lg={12} container>
-                  <Grid item xs={12}>
+                {/* ✅ FIXED: removed `item`, lg={12} → size={12}, xs={12} → size={12} */}
+                <Grid size={12} container>
+                  <Grid size={12}>
                     <CardMedia
                       component="img"
                       image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/office-image.webp"
@@ -999,7 +993,7 @@ export default function Career() {
                       sx={{ pb: 2 }}
                     />
                   </Grid>
-                  <Grid item xs={12}>
+                  <Grid size={12}>
                     <Box sx={{}}>
                       <Typography
                         variant="h4"
@@ -1037,9 +1031,8 @@ export default function Career() {
             </Box>
             <Box sx={{ mb: 5 }}>
               <Container fixed>
-                <Grid item lg={12} container>
-
-                  <Grid item xs={12}>
+                <Grid size={12} container>
+                  <Grid size={12}>
                     <Slider
                       ref={sliderRef}
                       {...settings}
@@ -1059,7 +1052,7 @@ export default function Career() {
                       />
                     </Slider>
                   </Grid>
-                  <Grid item xs={12}>
+                  <Grid size={12}>
                     <Box sx={{}}>
                       <Typography
                         variant="h4"
@@ -1069,8 +1062,8 @@ export default function Career() {
                           textDecoration: "none",
                           fontSize: "25px",
                           fontWeight: 400,
-                          textAlign: "center",
                           mb: 2,
+                          textAlign: "center"
                         }}
                       >
                         Fun at work
@@ -1084,11 +1077,11 @@ export default function Career() {
                           fontSize: "17px",
                         }}
                       >
-                        Apart from daily grind, we don’t miss an opportunity to
+                        Apart from daily grind, we don't miss an opportunity to
                         have fun at work. We celebrate every xsall occasion,
                         usually go on company wide outings, weekly team lunches
                         and not to miss HR activities which will ensure that
-                        you’re always high on energy.
+                        you're always high on energy.
                       </Typography>
                     </Box>
                   </Grid>
@@ -1097,8 +1090,8 @@ export default function Career() {
             </Box>
             <Box sx={{ mb: 5 }}>
               <Container fixed>
-                <Grid item lg={12} container>
-                  <Grid item xs={12}>
+                <Grid size={12} container>
+                  <Grid size={12}>
                     <CardMedia
                       component="img"
                       image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/careers3.webp"
@@ -1106,7 +1099,7 @@ export default function Career() {
                       sx={{ mb: 3 }}
                     />
                   </Grid>
-                  <Grid item xs={12}>
+                  <Grid size={12}>
                     <Box sx={{}}>
                       <Typography
                         variant="h4"
@@ -1132,7 +1125,7 @@ export default function Career() {
                           mb: 2,
                         }}
                       >
-                        If you’re looking for faster growth, right role and a
+                        If you're looking for faster growth, right role and a
                         great opportunity to maximise your full potential then you
                         should join us.{" "}
                       </Typography>
@@ -1171,8 +1164,9 @@ export default function Career() {
                 >
                   Three pillars of our culture
                 </Typography>
-                <Grid item xs={12} container justifyContent="center" spacing={2}>
-                  <Grid item xs={12}>
+                {/* ✅ FIXED: removed `item`, xs={12} → size={12} */}
+                <Grid size={12} container justifyContent="center" spacing={2}>
+                  <Grid size={12}>
                     <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
                       <CardMedia
                         component="img"
@@ -1193,7 +1187,7 @@ export default function Career() {
                       </Typography>
                     </Box>
                   </Grid>
-                  <Grid item xs={12} >
+                  <Grid size={12}>
                     <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
                       <CardMedia
                         component="img"
@@ -1214,7 +1208,7 @@ export default function Career() {
                       </Typography>
                     </Box>
                   </Grid>
-                  <Grid item xs={12}>
+                  <Grid size={12}>
                     <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
                       <CardMedia
                         component="img"
@@ -1252,7 +1246,6 @@ export default function Career() {
                   fontWeight: 400,
                   mb: 3,
                   pt: 2,
-
                 }}
               >
                 Your work will directly impact professionals through education and

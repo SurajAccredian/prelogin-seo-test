@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import "react-phone-input-2/lib/material.css";
-// import "./phone-input.css"; // Optional if you have custom styles
 import {
   Grid,
   Typography,
@@ -83,7 +82,7 @@ const CareerTransition = (props) => {
   const handleChange = (event) => {
     setProgram(event.target.value);
   };
-  
+
   const LoaderClose = () => setOpen(false);
   const LoaderOpen = () => setOpen(true);
 
@@ -196,10 +195,20 @@ const CareerTransition = (props) => {
         <RcbDialogTitle
           id="customized-dialog-title"
           onClose={props.handleClose}
-        ></RcbDialogTitle>
+        />
         <Box>
-          <Grid container>
-            <Grid item lg={5} md={5} sm={5}>
+          {/* ✅ MUI v7: no `item` prop, use size={{ }} instead of xs/sm/md/lg */}
+          <Grid container alignItems="center">
+
+            {/* Image column — hidden on mobile */}
+            <Grid
+              size={{ lg: 5, md: 5, sm: 5, xs: 12 }}
+              sx={{
+                display: { xs: "none", sm: "flex" },
+                justifyContent: "center",
+                alignItems: "flex-start",
+              }}
+            >
               <Box sx={{ mx: 2 }}>
                 <CardMedia
                   component="img"
@@ -210,17 +219,16 @@ const CareerTransition = (props) => {
                     height: "350px",
                     boxShadow: "8px 8px #d6d6d6",
                     mt: 3,
-                    display: { xs: "none", lg: "block", sm: "block", md: "block" },
                   }}
                 />
               </Box>
             </Grid>
 
-            <Box sx={{ pl: 2, display: { lg: "block", sm: "block", md: "block", xs: "none" } }}></Box>
+            {/* Form column — full width on mobile, 7 cols on sm+ */}
+            <Grid size={{ lg: 7, md: 7, sm: 7, xs: 12 }}>
+              <Box sx={{ px: { xs: 2, sm: 3 } }}>
 
-            <Grid item lg={6} xs={12} sm={6} md={6}>
-              <Box>
-                <Box sx={{ mx: { lg: 3, sm: 3, xs: 3, md: 3 }, mb: 2 }}>
+                <Box sx={{ mb: 2 }}>
                   <Typography
                     variant="h4"
                     component="div"
@@ -234,13 +242,18 @@ const CareerTransition = (props) => {
                     Download Handbook
                   </Typography>
                 </Box>
+
                 <Backdrop
-                  sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  sx={{
+                    color: "#fff",
+                    zIndex: (theme) => theme.zIndex.drawer + 1,
+                  }}
                   open={open}
                 >
                   <CircularProgress color="inherit" />
                 </Backdrop>
-                <Box sx={{ mx: { lg: 3, sm: 3, xs: 3, md: 3 }, mb: 3 }}>
+
+                <Box sx={{ mb: 3 }}>
                   <Typography
                     variant="h4"
                     component="div"
@@ -254,33 +267,36 @@ const CareerTransition = (props) => {
                     Fill in the below details to receive your copy
                   </Typography>
                 </Box>
-              </Box>
-              <Box>
+
                 <form onSubmit={submitForm}>
+                  {/* ✅ All fields use width="100%" — parent px handles spacing */}
                   <TextField
                     id="name"
                     label="Name"
-                    sx={{ pb: 1, mx: { lg: 4, sm: 4, md: 4, xs: 2 }, width: "90%" }}
+                    sx={{ pb: 1, width: "100%" }}
                     onChange={rcbhandleChange}
                     value={rcb.name}
                     type="text"
                     name="name"
                     required
                   />
+
                   <TextField
                     id="newemail"
                     label="Email"
-                    sx={{ pb: 1, mx: { lg: 4, sm: 4, md: 4, xs: 2 }, width: "90%" }}
+                    sx={{ pb: 1, width: "100%" }}
                     type="email"
                     name="newemail"
                     onChange={rcbhandleChange}
                     value={rcb.newemail}
                     required
                   />
+
+                  {/* ✅ PhoneInput: width 100% on both container and input */}
                   <PhoneInput
                     containerClass="career"
-                    containerStyle={{ marginLeft: "30px" }}
-                    inputStyle={{ width: "90%" }}
+                    containerStyle={{ width: "100%" }}
+                    inputStyle={{ width: "100%" }}
                     enableSearch={true}
                     country={"in"}
                     inputProps={{
@@ -291,13 +307,14 @@ const CareerTransition = (props) => {
                     value={number}
                     onChange={setNumber}
                   />
+
                   {!props.program && (
                     <TextField
                       id="program"
                       select
                       value={program}
                       onChange={handleChange}
-                      sx={{ mx: { lg: 4, sm: 4, md: 4, xs: 2 }, mt: 1, width: "90%" }}
+                      sx={{ mt: 1, width: "100%" }}
                       name="program"
                       label="Select the vertical"
                       required
@@ -324,8 +341,7 @@ const CareerTransition = (props) => {
                         backgroundColor: "#0039e6",
                         textTransform: "none",
                         p: 1,
-                        width: "90%",
-                        ml: { lg: 2.5, sm: 2.5, md: 2.5, xs: 0 },
+                        width: "100%",
                         "&:hover": {
                           backgroundColor: "#002bb3",
                         },
@@ -334,11 +350,11 @@ const CareerTransition = (props) => {
                       Download
                     </Button>
                   </Box>
+
                   <Typography
                     sx={{
                       fontSize: "0.8rem",
                       color: "#858e9f",
-                      mx: 4,
                     }}
                   >
                     Note: You will receive a call between Mon-Fri from 10am - 6pm.
@@ -346,6 +362,7 @@ const CareerTransition = (props) => {
                 </form>
               </Box>
             </Grid>
+
           </Grid>
         </Box>
       </RcbDialog>

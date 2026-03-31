@@ -112,7 +112,7 @@ const CustomEnrollNowButton = ({
           // console.log(response);
           dispatch(programActions.setTracker(response.data));
           // console.log(trackerId);
-          const encodedTracker = encodeBase64(response.data);
+          const encodedTracker = encodeBase64(String(response.data));
           openUniversityApp(data, encodedTracker);
           // window.open(
           //   `https://${data.short_university_name}.accredian.com/?app_id=${encodedTracker}`,
@@ -154,7 +154,7 @@ const CustomEnrollNowButton = ({
         if (enrollText === "Continue Application") {
           // const traker_id = localStorage.getItem("tracker");
           // console.log(trackerId);
-          const encodedTracker = encodeBase64(trackerId);
+          const encodedTracker = encodeBase64(String(trackerId));
           // console.log("Encoded Tracker" + encodedTracker);
           openUniversityApp(data, encodedTracker);
           // window.open(

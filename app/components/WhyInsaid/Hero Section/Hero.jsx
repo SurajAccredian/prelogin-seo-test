@@ -13,7 +13,7 @@ const Hero = () => {
     <>
       <div
         id="home"
-        className="flex justify-center items-center my-4  xl:px-12 sm:px-4 mb-10 md:mb-0"
+        className="flex justify-center items-center my-4  xl:px-12 sm:px-4 mt-20 md:mt-0"
       >
         <div className="rounded-lg md:rounded-3xl  bg-blue-50 flex flex-col-reverse sm:flex-row items-center justify-center sm:justify-between gap-4 sm:gap-4 md:gap-8 lg:gap-12  shadow-card overflow-visible">
           <div className="sm:w-1/2 w-full sm:ml-7 p-4 flex flex-col  justify-between gap-4 sm:gap-4 md:gap-8 lg:gap-10 md:ps-2 lg:ps-8">

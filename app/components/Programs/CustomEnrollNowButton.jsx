@@ -33,6 +33,8 @@ const CustomEnrollNowButton = ({
   const { enrollText, trackerId, enrollLoderState } = useSelector(
     (state) => state.program
   );
+  console.log("The tracker id is ")
+  console.log(trackerId)
   const dataCategory = data.category;
   const intCategory = parseInt(dataCategory, 10);
   // console.log(intCategory);
@@ -43,6 +45,7 @@ const CustomEnrollNowButton = ({
 
   // Redirecting the user to the specific payment portal
   function openUniversityApp(data, encodedTracker) {
+    console.log(encodedTracker)
     // Check the current environment
     const isDevelopment = process.env.NODE_ENV === "development";
     // Construct the URL based on the environment
@@ -112,7 +115,7 @@ const CustomEnrollNowButton = ({
           // console.log(response);
           dispatch(programActions.setTracker(response.data));
           // console.log(trackerId);
-          const encodedTracker = encodeBase64(response.data);
+          const encodedTracker = encodeBase64(String(response.data));
           openUniversityApp(data, encodedTracker);
           // window.open(
           //   `https://${data.short_university_name}.accredian.com/?app_id=${encodedTracker}`,
@@ -154,7 +157,7 @@ const CustomEnrollNowButton = ({
         if (enrollText === "Continue Application") {
           // const traker_id = localStorage.getItem("tracker");
           // console.log(trackerId);
-          const encodedTracker = encodeBase64(trackerId);
+          const encodedTracker = encodeBase64(String(trackerId));
           // console.log("Encoded Tracker" + encodedTracker);
           openUniversityApp(data, encodedTracker);
           // window.open(

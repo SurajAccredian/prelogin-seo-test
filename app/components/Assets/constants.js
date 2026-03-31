@@ -77,7 +77,7 @@ export const NAV_ITEMS = [
     label: "For Business",
     redirect: true,
     icon: GrAnnounce,
-    href: "https://corporate.accredian.com",
+    href: "https://enterprise.accredian.com",
   },
   {
     label: "Resources",

@@ -154,7 +154,7 @@ function RctaInner(props) {
 
         if (result.data.status == "200") {
           if (window) {
-            window.open("https://accredian.com/cta-thank-you", "_blank");
+            window.open("/cta-thank-you", "_blank");
           }
           setRcb({
             mobile: "",

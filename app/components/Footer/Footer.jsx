@@ -444,7 +444,7 @@ const Footer = () => {
                         </Typography>
                       </Link>
 
-                      <Link href="/Faq" style={{ textDecoration: "none" }}>
+                      {/* <Link href="/Faq" style={{ textDecoration: "none" }}>
                         <Typography
                           sx={{
                             color: "#fff",
@@ -456,7 +456,7 @@ const Footer = () => {
                         >
                           Master FAQs
                         </Typography>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                   {/* <li className="pt-4"> */}

@@ -33,8 +33,6 @@ const CustomEnrollNowButton = ({
   const { enrollText, trackerId, enrollLoderState } = useSelector(
     (state) => state.program
   );
-  console.log("The tracker id is ")
-  console.log(trackerId)
   const dataCategory = data.category;
   const intCategory = parseInt(dataCategory, 10);
   // console.log(intCategory);
@@ -45,7 +43,6 @@ const CustomEnrollNowButton = ({
 
   // Redirecting the user to the specific payment portal
   function openUniversityApp(data, encodedTracker) {
-    console.log(encodedTracker)
     // Check the current environment
     const isDevelopment = process.env.NODE_ENV === "development";
     // Construct the URL based on the environment

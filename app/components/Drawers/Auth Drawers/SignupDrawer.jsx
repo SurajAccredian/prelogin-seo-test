@@ -548,11 +548,11 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
               {/* Terms & Conditions */}
               <Box className="text-xs text-gray-600 text-center">
                 By submitting the form, you agree to our{' '}
-                <Link href="/terms-and-conditions" className="text-blue-600 hover:underline">
+                <Link href="/terms-and-conditions" prefetch={false} className="text-blue-600 hover:underline">
                   Terms and Conditions
                 </Link>{' '}
                 and{' '}
-                <Link href="/privacy-policy" className="text-blue-600 hover:underline">
+                <Link href="/privacy-policy" prefetch={false} className="text-blue-600 hover:underline">
                   Privacy Policy
                 </Link>
               </Box>

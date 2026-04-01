@@ -112,6 +112,7 @@ export default function AccordionHam() {
                                       ) : (
                                         <Link
                                           href={inner_child.href}
+                                          prefetch={false}
                                           className="w-full py-2 font-medium text-lg text-neutral-700 hover:text-universal"
                                           key={`inner_child_acc_${index}`}
                                         >
@@ -138,6 +139,7 @@ export default function AccordionHam() {
                               ) : (
                                 <Link
                                   href={child.href}
+                                  prefetch={false}
                                   className="w-full py-2 font-medium text-lg text-neutral-700 hover:text-universal"
                                   key={`Accordion_${index}`}
                                 >
@@ -165,7 +167,7 @@ export default function AccordionHam() {
                     <h1 className="font-semibold">{acc.label}</h1>
                   </a>
                 ) : (
-                  <Link href={acc.href}>
+                  <Link href={acc.href} prefetch={false}>
                     <div className="flex items-center gap-2">
                       <h1 className="font-semibold">{acc.label}</h1>
                     </div>

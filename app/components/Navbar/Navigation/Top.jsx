@@ -60,7 +60,7 @@ const NavigationTop = ({ show, data, setCurrentSection, currentSection }) => {
     >
       <div className="nav-main-inner w-full max-w-[85rem]  flex items-center justify-between relative gap-2">
         <div className="flex-[0.1] hidden md:flex items-center">
-          <Link href="/" style={{ textDecoration: "none" }}>
+          <Link href="/" prefetch={false} style={{ textDecoration: "none" }}>
             <div className="max-w-[125px] min-w-[100px] w-full">
               <img
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"

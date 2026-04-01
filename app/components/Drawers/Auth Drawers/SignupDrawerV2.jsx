@@ -384,11 +384,11 @@ function SignupDrawer({ open, email, handleClose }) {
                     <div className="w-full text-[12px] font-base p-2 text-center">
                       <h3 className="">
                         By submitting the form, you agree to our{" "}
-                        <Link href="/terms" className="text-universal">
+                        <Link href="/terms" prefetch={false} className="text-universal">
                           Terms and Conditions
                         </Link>{" "}
                         and our{" "}
-                        <Link href="/terms/privacy" className="text-universal">
+                        <Link href="/terms/privacy" prefetch={false} className="text-universal">
                           Privacy Policy
                         </Link>
                         .

@@ -204,7 +204,7 @@ const Footer = () => {
                 </Typography>
                 <ul className="footer-body-content">
                   <li className="pt-4">
-                    <Link href="/About" style={{ textDecoration: "none" }}>
+                    <Link href="/About" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -218,7 +218,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="pt-4">
-                    <Link href="/Career" style={{ textDecoration: "none" }}>
+                    <Link href="/Career" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -232,7 +232,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="pt-4">
-                    <Link href="/contact-us" style={{ textDecoration: "none" }}>
+                    <Link href="/contact-us" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -263,7 +263,7 @@ const Footer = () => {
                     </a>
                   </li>
                   {/* <li className="pt-4 pb-4">
-                    <Link href="/whyaccredian" style={{ textDecoration: "none" }}>
+                    <Link href="/whyaccredian" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -292,7 +292,7 @@ const Footer = () => {
                   </li>
 
                   {/* <li>
-                  <Link href="/Gallery" style={{ textDecoration: "none" }}>
+                  <Link href="/Gallery" prefetch={false} style={{ textDecoration: "none" }}>
                     <Typography
                       sx={{
                         color: "#fff",
@@ -326,6 +326,7 @@ const Footer = () => {
                     <div className="">
                       <Link
                         href={"/policies/accredian-policy"}
+                        prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
                         <Typography
@@ -343,6 +344,7 @@ const Footer = () => {
 
                       <Link
                         href={"/terms/referral"}
+                        prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
                         <Typography
@@ -360,6 +362,7 @@ const Footer = () => {
 
                       <Link
                         href={"/terms/refund"}
+                        prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
                         <Typography
@@ -378,6 +381,7 @@ const Footer = () => {
 
                       <Link
                         href={"/terms/privacy"}
+                        prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
                         <Typography
@@ -395,6 +399,7 @@ const Footer = () => {
 
                       <Link
                         href={"/terms/cookie-policy"}
+                        prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
                         <Typography
@@ -415,6 +420,7 @@ const Footer = () => {
                     <div>
                       <Link
                         href={"/terms/cancellation"}
+                        prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
                         <Typography
@@ -430,7 +436,7 @@ const Footer = () => {
                         </Typography>
                       </Link>
 
-                      <Link href={"/terms"} style={{ textDecoration: "none" }}>
+                      <Link href={"/terms"} prefetch={false} style={{ textDecoration: "none" }}>
                         <Typography
                           sx={{
                             color: "#fff",
@@ -489,7 +495,7 @@ const Footer = () => {
 
                   {/* <li className="pt-4"></li> */}
                   {/* <li>
-                  <Link href="/Gallery" style={{ textDecoration: "none" }}>
+                  <Link href="/Gallery" prefetch={false} style={{ textDecoration: "none" }}>
                     <Typography
                       sx={{
                         color: "#fff",
@@ -645,7 +651,7 @@ const Footer = () => {
                 </Typography> */}
                 {/* <ul className="footer-body-content">
                   <li className="pt-4 pb-4">
-                    <Link href="/whyaccredian" style={{ textDecoration: "none" }}>
+                    <Link href="/whyaccredian" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -779,6 +785,7 @@ const Footer = () => {
                                   >
                                     <Link
                                       href={`/programs/${program.id}`}
+                                      prefetch={false}
                                       style={{ textDecoration: "none" }}
                                     >
                                       <Typography

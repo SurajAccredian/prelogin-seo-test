@@ -440,11 +440,11 @@ const Form = () => {
             <div className="w-full mt-6 text-center">
               <h3 className="text-sm font-medium text-neutral-500">
                 By submitting the form, you agree to our{" "}
-                <Link href="/terms" className="text-universal"> {/* ✅ href instead of to */}
+                <Link href="/terms" prefetch={false} className="text-universal"> {/* ✅ href instead of to */}
                   Terms and Conditions
                 </Link>{" "}
                 and our{" "}
-                <Link href="/terms/privacy" className="text-universal">
+                <Link href="/terms/privacy" prefetch={false} className="text-universal">
                   Privacy Policy
                 </Link>
                 .

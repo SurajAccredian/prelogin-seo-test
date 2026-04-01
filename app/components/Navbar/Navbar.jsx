@@ -246,7 +246,7 @@ export default function Navbar() {
       <div className="nav-3 flex justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
         <div className="nav-3-inner">
           <div className="nav-3-left">
-            <Link href={"/"} style={{ textDecoration: "none" }}>
+            <Link href={"/"} prefetch={false} style={{ textDecoration: "none" }}>
               <div className="max-w-[125px] w-full">
                 <img
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"

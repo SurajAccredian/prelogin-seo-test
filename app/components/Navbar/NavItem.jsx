@@ -51,7 +51,7 @@ const NavItem = ({ item }) => {
                                 </h2>
                               </a>
                             ) : (
-                              <Link href={inner_child.href}>
+                              <Link href={inner_child.href} prefetch={false}>
                                 <h2 className="font-medium capitalize">
                                   {inner_child.label}
                                 </h2>
@@ -70,7 +70,7 @@ const NavItem = ({ item }) => {
                           </h2>
                         </a>
                       ) : (
-                        <Link href={child.href}>
+                        <Link href={child.href} prefetch={false}>
                           <h2 className="font-medium capitalize">
                             {child.label}
                           </h2>
@@ -90,7 +90,7 @@ const NavItem = ({ item }) => {
               {item.label}
             </a>
           ) : (
-            <Link href={item.href}>{item.label}</Link>
+            <Link href={item.href} prefetch={false}>{item.label}</Link>
           )}
         </h2>
       )}

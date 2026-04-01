@@ -53,6 +53,7 @@ const MobileProgramFooter = ({
               <Link
                 key={innerIndex}
                 href={`/programs/${program.id}`}
+                prefetch={false}
                 style={{
                   display: "block",
                   color: "rgba(255,255,255,0.8)",

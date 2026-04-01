@@ -17,8 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Accredian | Senior Management, General Management, PG Diploma, CXO Leadership, Project Management, Data Science, AI/ML, Product Management, Finance & Fintech, Business Management, and Business Analytics Programs from IITs, XLRI, SP Jain & IIMs",
-  description: "India's leading career-focused education platform. Co-create your career with E&ICT IIT Kanpur, IIM Lucknow, IIM Visakhapatnam, IIM Trichy, XLRI & more. Senior Management, General Management, PG Diploma, CXO Leadership, Project Management, Data Science, AI/ML, Product Management, Finance & Fintech, Business Management, and Business Analytics programs for working professionals.",
+  title: "Accredian",
   keywords: "data science course India, AI ML certification, AI ML courses in india, top AI ML programs, product management program IIT, IIM executive program, online data science certification, career transition data science, IIT Kanpur data science, IIM Lucknow executive program, XLRI HR program, best data science courses in India, online professional certifications, IIM certification for working professionals, IIT artificial intelligence course, management courses for senior executives, data analytics course with placement, best AI ML courses for beginners",
   openGraph: {
     type: "website",

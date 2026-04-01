@@ -17,7 +17,7 @@ const PolicyDrawer = ({ isOpen, onClose, id }) => {
           <DrawerBody position={"relative"}>
             <div className='w-full flex relative flex-col gap-1 max-h-[60vh] overflow-y-auto custom-scrollbar'>
               {POLICIES.map((policy, index) => (
-                <Link href={`/policies/${policy.tab}`} className={`w-full ${id === policy.tab ? "bg-universal drop-shadow text-white rounded" : "border-b border-dashed border-universal text-neutral-600"} px-3 py-2  mt-2 cursor-pointer flex items-center justify-between gap-4`} key={index} onClick={() => onClose()}>
+                <Link href={`/policies/${policy.tab}`} prefetch={false} className={`w-full ${id === policy.tab ? "bg-universal drop-shadow text-white rounded" : "border-b border-dashed border-universal text-neutral-600"} px-3 py-2  mt-2 cursor-pointer flex items-center justify-between gap-4`} key={index} onClick={() => onClose()}>
                   <h1 className='font-medium text-base'>
                     {policy.title}
                   </h1>

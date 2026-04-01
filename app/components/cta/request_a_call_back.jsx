@@ -421,11 +421,11 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                       <div className="w-full mt-6 text-center">
                         <h3 className="text-xs font-medium text-gray-500 py-2 pt-4 border-t-[1px] border-neutral-100">
                           By submitting the form, you agree to our{" "}
-                          <Link href="/terms" className="text-universal transition hover:underline">
+                          <Link href="/terms" prefetch={false} className="text-universal transition hover:underline">
                             Terms and Conditions
                           </Link>{" "}
                           and our{" "}
-                          <Link href="/terms/privacy" className="text-universal transition hover:underline">
+                          <Link href="/terms/privacy" prefetch={false} className="text-universal transition hover:underline">
                             Privacy Policy
                           </Link>
                           .

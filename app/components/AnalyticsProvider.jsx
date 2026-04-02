@@ -19,25 +19,6 @@ export default function AnalyticsProvider({ children }) {
 
   return (
     <>
-      <Script id="abhide" strategy="afterInteractive">
-        {`
-          var timeout = 1500;
-          !(function (h, i, d, e) {
-            var t,
-              n = h.createElement("style");
-            ((n.id = e),
-              (n.innerHTML = "body{opacity:0}"),
-              h.head.appendChild(n),
-              (t = d),
-              (i.rmfk = function () {
-                var t = h.getElementById(e);
-                t && t.parentNode.removeChild(t);
-              }),
-              setTimeout(i.rmfk, t));
-          })(document, window, timeout, "abhide");
-        `}
-      </Script>
-
       <Script
         id="mida-ab-test"
         src="https://cdn.mida.so/js/optimize.js?key=3Ejq4KNndxbL4RJyArpv7b"

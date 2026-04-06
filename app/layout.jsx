@@ -6,6 +6,7 @@ import "./index.css";
 import ReduxProvider from "./store/ReduxProvider";
 import QueryProvider from "./store/QueryProvider";
 import AnalyticsProvider from "./components/AnalyticsProvider";
+import SmoothScroll from "./components/SmoothScroll";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -59,9 +60,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+      <body className="" suppressHydrationWarning>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-W2HX5GJ"
@@ -93,6 +94,7 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+        <SmoothScroll />
         <ReduxProvider>
           <QueryProvider>
             <AnalyticsProvider>

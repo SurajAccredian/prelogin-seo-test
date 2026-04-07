@@ -10,7 +10,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "22 Feb 2026",
+  "start_date": "28 Jun 2026",
   "duration": "6 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -116,14 +116,14 @@
         "Understanding The New AI Paradigm",
         "Core Models Explained Simply",
         "Disruption Landscape: Opportunities & Risks",
-        "Leader’s Role In AI Adoption (TechRadar, Impact Radar, Maturity Assessment)"
+        "Leader’s Role In AI Adoption"
       ]
     },
     {
       "title": "Generative AI Tools, Workflows & Applied Practice",
       "id": "genai-tools-workflows",
       "points": [
-        "Hands-On With Top GenAI Platforms (ChatGPT, Claude, Gemini, MidJourney, Runway)",
+        "Hands-On With Top GenAI Platforms",
         "Prompt Design & Applied Use Cases",
         "RAG, Finetuning, MCP, & Multimodal Workflows",
         "Human–AI Collaboration In Day-To-Day Business"
@@ -176,16 +176,16 @@
         "Crafting Enterprise GenAI Strategy & Roadmap",
         "ROI Frameworks For GenAI Investments",
         "Business Model Reinvention With GenAI",
-        "Governance, Risk, & Compliance For GenAI"
+        "Governance, Risk, & Compliance For GenAI",
+        "Centers of Excellence (CoE) & Scaling Strategies",
+        "Workforce Reskilling & Leadership in the AI Era",
+        "Case Studies of AI-Driven Transformation"
       ]
     },
     {
       "title": "Leading GenAI Projects & Teams",
       "id": "leading-genai-projects-teams",
       "points": [
-        "Centers Of Excellence (CoE) & Scaling Strategies",
-        "Workforce Reskilling & Leadership In The AI Era",
-        "Case Studies Of AI-Driven Transformation",
         "Identifying High-Value Opportunities",
         "Evaluating Vendors & Ecosystems",
         "Process Redesign & Customer Journey Reimagination",
@@ -311,18 +311,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11926
+        "emi": 15178
       },
       {
         "months": 18,
-        "emi": 8239
+        "emi": 10486
       },
       {
         "months": 24,
-        "emi": 6382
+        "emi": 8123
       }
     ],
-    "total": 150000
+    "total": 180000
   },
   "faq": {
     "programId": "executive-program-in-generative-ai-for-leaders",

@@ -44,13 +44,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Generative AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "22th Feb 2026",
+    "start_date": "28th Jun 2026",
     "status": "New Launch"
   },
   {
     "university_name": "SP Jain School of Global Management",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
-    "program_name": "Professional Certificate in Applied Generative AI",
+    "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
     "start_date": "22th Feb 2026",
     "status": "New Launch"
@@ -93,7 +93,7 @@
     "program_name": "Executive Program in Strategic HR Leadership",
     "category": "Human Resource",
     "start_date": "8th Feb 2026",
-    "status": "New Launch"
+    "status": "admission closed"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -116,7 +116,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Program in Strategic HR Leadership",
     "category": "Human Resource",
-    "start_date": "26 Oct 2025",
+    "start_date": "28 June 2026",
     "status": "admission closed"
   },
   {
@@ -197,7 +197,7 @@
     "program_name": "Executive Development Programme in Digital HR Leadership and People Analytics",
     "category": "Human Resource",
     "start_date": "15 Feb 2026",
-    "status": "New Launch"
+    "status": "admission closed"
   },
   {
     "university_name": "IIM Visakhapatnam",

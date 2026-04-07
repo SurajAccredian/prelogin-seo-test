@@ -13,12 +13,12 @@
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-XLEAD.webp"
   ],
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
-  "start_date": "26 Oct 2025",
+  "start_date": "28 Jun 2026",
   "duration": "10 months",
   "required_years_experience": 5,
   "type": "online",
   "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/edps.html",
-  "enrollments": "inacive",
+  "enrollments": "coming-soon",
   "timings": "weekends only",
   "tags": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "title": "modules",
-      "text": 10
+      "text": 9
     },
     {
       "title": "simulations",
@@ -91,7 +91,7 @@
       {
         "title": "program snapshot",
         "points": [
-          "10 Modules - HRM Strategy, DEI Leadership, and GenAI",
+          "9 Modules - HRM Strategy, DEI Leadership, and GenAI",
           "Learn from the top industry professionals and expert sessions by XLRI Faculty",
           "Duration: 10 months | Weekend Online",
           "Certification from XLEAD & XLRI",
@@ -126,31 +126,31 @@
       "week": "",
       "points": [
         "Setting the Context for Digital Change in HR",
-        "Developing an Ability to look into the Future",
+        "Developing an Ability to Look into the Future",
         "Industry 4.0 & the Skilling Challenges",
-        "Digital Transformation in Business",
-        "Managing the Transformation",
         "Impact of Organizational Design on Strategy",
         "New-Age Organization Design & Structures",
+        "Digital Transformation in Business",
+        "Digital: Future for HR",
+        "Managing the Transformation",
+        "Social Media & Employer Branding",
         "Impact of Work from Anywhere",
-        "Managing Organization Culture in Hybrid Workmode",
-        "Social Media & Employer Branding"
+        "Managing Organization Culture in Hybrid Workmode"
       ]
     },
     {
       "title": "Strategic HRM",
       "week": "",
       "points": [
-        "Aligning Business Strategy with Organization Objectives",
-        "Talent Management: Attraction, Retention, & Development",
         "Strategic Staffing & Resource Allocation",
         "Managing Remote Contractual Workforce",
-        "Contemporary Issues in HRM - GIG Economy & Workers",
+        "Talent Management: Attraction, Retention, & Development",
+        "Aligning Business Strategy with Organization Objectives (SHRM Frameworks)",
+        "Change Management",
         "Building Learning Organizations",
-        "SHRM Frameworks",
-        "Corporate Governance",
+        "Role of HR in Internationalization",
         "Role of HR in Successful Mergers, Acquisitions & Joint Ventures",
-        "Role of HR in Internationalization"
+        "Corporate Governance"
       ]
     },
     {
@@ -159,10 +159,10 @@
       "points": [
         "Digital Tools for Research",
         "Employee Persona & Look-alike Audience",
-        "Employer Branding",
-        "Framework for Problem Solving",
-        "Basics of People Analytics",
-        "Steps to Workforce Planning- Supply, Demand, Gap & Solution Analysis",
+        "Employer Branding & Case Study Discussions",
+        "Framework for Problem Solving (Define Problem, Collect Data, Build Model, Evaluate & Present Results)",
+        "People Analytics - Basics",
+        "Steps to Workforce Planning (Supply, Demand, Gap & Solution Analysis - Markov Chain, Scatter Plot, Trend Analysis)",
         "Strategic HR Metrics",
         "Employee Training & Development Analytics",
         "Talent Engagement Analytics",
@@ -174,7 +174,7 @@
       "week": "",
       "points": [
         "Interpreting Data for Actionable Insights",
-        "Behavioral Modeling & Predictive Analytics",
+        "Behavioral Modeling & Predictive Analytics (Case Discussion)",
         "GenAI & its Applications in HR Strategy (Planning, Recruitment & Selection)",
         "GenAI & its Applications in Learning & Development, Performance & Career Management",
         "Developing Learning Experience Platforms",
@@ -186,23 +186,22 @@
       "week": "",
       "points": [
         "Reimagine Careers & Succession Planning",
-        "Performance Management & Appraisal for the next-gen employees",
+        "Performance Management & Appraisal for Next-Gen Employees",
         "Compensation Management including Rewards & Recognition"
       ]
     },
-
     {
       "title": "Leadership",
       "week": "",
       "points": [
         "Self-Leadership, Servant Leadership & Emotional Intelligence",
         "Building Leadership through Uncertain Times; Leadership & Communication",
-        "Employee Counseling, Coaching, & Mentoring for Leadership Development",
+        "Employee Counseling, Coaching & Mentoring for Leadership Development",
         "Leading Innovation",
-        "Leading Start-ups"
+        "Leading Start-ups",
+        "Conflict Management & Negotiation"
       ]
     },
-
     {
       "title": "Employee Wellness & Mental Well-Being",
       "week": "",
@@ -212,7 +211,6 @@
         "Mental Health & Well-Being"
       ]
     },
-
     {
       "title": "Diversity, Equity, & Inclusion",
       "week": "",
@@ -222,13 +220,10 @@
         "Types: Cultural, Racial, Religious, Age, Sex, Sexual Orientation, Physical, Mental, Caste, Regional",
         "Psychological Foundations",
         "Leading a Diverse Workforce",
-        "Team Diversity"
+        "Team Diversity",
+        "Diversity at the Top: Diverse Leadership Styles",
+        "Fostering a Culture that Embraces and Leverages Diversity"
       ]
-    },
-    {
-      "title": "Future of Industrial Relations & New Labor Laws",
-      "week": "",
-      "points": ["Labour Laws", "HR Compliance", "New Policies"]
     },
     {
       "title": "Campus Immersion",
@@ -237,7 +232,7 @@
         "Critical Concepts of Marketing",
         "Role of HR as a Business Growth Enabler",
         "Understanding the Business Landscape",
-        "Capstone Project Presentations"
+        "Capstone Project"
       ]
     }
   ],

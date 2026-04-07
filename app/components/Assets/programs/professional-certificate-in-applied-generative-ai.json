@@ -2,15 +2,15 @@
   "category": "47",
   "id": "professional-certificate-in-applied-generative-ai",
   "vertical": "artificial intelligence",
-  "title": "Professional Certificate in Applied Generative AI",
+  "title": "Professional Certificate in Generative AI for Business Transformation",
   "description": "Embark on a 4-month learning journey in GenAI Tools, Workflow Automation, & Real-World Enterprise Use Cases.",
-  "short_title": "Artificial intelligence",
+  "short_title": "Artificial Intelligence",
   "contact": "9358719988",
   "university_name": "SP Jain School of Global Management",
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "22 Feb 2026",
+  "start_date": "28 Jun 2026",
   "duration": "4 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -26,7 +26,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SPJ/spjain-pcagai-certificate.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SPJ/spjain-pcgaibt-certificate.webp",
   "key_features": [
     {
       "title": "hours",
@@ -258,18 +258,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11013
+        "emi": 11926
       },
       {
         "months": 18,
-        "emi": 7670
+        "emi": 8239
       },
       {
         "months": 24,
-        "emi": 5949
+        "emi": 6382
       }
     ],
-    "total": 120000
+    "total": 140000
   },
   "faq": {
     "programId": "professional-certificate-in-applied-generative-ai",
@@ -347,8 +347,8 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Professional-Certificate-in-Applied-Generative-AI-Brochure.pdf",
-    "source": "SPJ Professional Certificate in Applied Generative AI Brochure",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Professional-Certificate-in-Generative-AI-for-Business-Transformation-Brochure.pdf",
+    "source": "SPJ Professional Certificate in Generative AI for Business Transformation Brochure",
     "campaign_name": "PCAGAI-SPJ-4 Months"
   }
 }

@@ -32,7 +32,7 @@ const CTA = dynamic(() => import("./CTA/CTA"), { ssr: false });
 --------------------------------------- */
 
 
-const LazyComponent = ({ children, minHeight = "400px" }) => {
+const LazyComponent = ({ children }) => {
   const ref = React.useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -50,7 +50,7 @@ const LazyComponent = ({ children, minHeight = "400px" }) => {
           });
         },
         {
-          rootMargin: "800px", // pre-load before it reaches the viewport
+          rootMargin: "2000px", // Eagerly load way before viewport to stop footer flashing
           threshold: 0,
         },
       );
@@ -61,7 +61,7 @@ const LazyComponent = ({ children, minHeight = "400px" }) => {
     return () => observer && observer.disconnect();
   }, []);
 
-  return <div ref={ref} style={{ minHeight: visible ? "auto" : minHeight }}>{visible ? children : null}</div>;
+  return <div ref={ref} className={!visible ? "min-h-[100vh]" : ""}>{visible ? children : null}</div>;
 };
 
 /* -------------------------------------- 

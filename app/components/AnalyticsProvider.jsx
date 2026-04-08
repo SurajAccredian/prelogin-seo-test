@@ -19,12 +19,6 @@ export default function AnalyticsProvider({ children }) {
 
   return (
     <>
-      <Script
-        id="mida-ab-test"
-        src="https://cdn.mida.so/js/optimize.js?key=3Ejq4KNndxbL4RJyArpv7b"
-        strategy="afterInteractive"
-      />
-
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           setTimeout(function () {

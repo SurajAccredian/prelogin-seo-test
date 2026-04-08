@@ -2,8 +2,8 @@
   "category": "47",
   "id": "executive-program-in-generative-ai-for-leaders",
   "vertical": "artificial intelligence",
-  "title": "Executive Program in Generative AI for Leaders",
-  "description": "Embark on a 6-month learning journey in GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.",
+  "title": "Executive Program in Generative AI & Agentic AI for Leaders",
+  "description": "Embark on a 7-month learning journey in GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.",
   "short_title": "Artificial intelligence",
   "contact": "9358719988",
   "university_name": "SP Jain School of Global Management",
@@ -11,7 +11,7 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
   "start_date": "28 Jun 2026",
-  "duration": "6 Months",
+  "duration": "7 Months",
   "required_years_experience": 5,
   "type": "online",
   "enrollments": "active",
@@ -26,19 +26,19 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SPJ/spjain-epgail-certificate.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SPJ/spjain-epgail-certificate-v2.webp",
   "key_features": [
     {
       "title": "hours",
-      "count": 72
+      "count": 84
     },
     {
       "title": "career sessions",
-      "count": 4
+      "text": 6
     },
     {
       "title": "modules",
-      "text": 7
+      "text": 8
     },
     {
       "title": "capstone project",
@@ -81,9 +81,9 @@
       {
         "title": "program snapshot",
         "points": [
-          "7 Modules - GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.",
+          "8 Modules - GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.",
           "Learn from esteemed SP Jain School of Global Management faculty and top industry Experts.",
-          "Duration: 6 Months | Weekend Online",
+          "Duration: 7 Months | Weekend Online",
           "Certification from SP Jain School of Global Management",
           "Live Instructor led classes",
           "Case Studies",
@@ -157,6 +157,16 @@
       "special": "1",
       "points": [
         "Identify One Real Process From Your Organization (E.g., Lead Nurturing, Month-End Reporting, Hiring, Ticket Triage). Map The Current Workflow, Then Design A GenAI-Augmented Version Using LLMs, RAG & No/Low-Code Tools. Build A Working Assistant Or Copilot Prototype, Run A Small Pilot With Sample Data, & Quantify Impact On Time, Quality, & Decision-Making."
+      ]
+    },
+    {
+      "title": "AI Agents & Workflow Automation",
+      "id": "ai-agents-workflow-automation",
+      "points": [
+        "AI Agents vs Traditional Automation",
+        "Automating Multi-Step Business Processes",
+        "Embedding Agents Across Business Processes",
+        "Measuring Automation Impact and ROI"
       ]
     },
     {
@@ -302,9 +312,9 @@
   "billing": {
     "programId": "executive-program-in-generative-ai-for-leaders",
     "points": [
-      "72+ Hours of Live Classes",
+      "84+ Hours of Live Classes",
       "50+ Tools & Frameworks Covered",
-      "4 Career Sessions by Accredian",
+      "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
     ],
@@ -400,8 +410,8 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Executive-Program-in-Generative-AI-for-Leaders-Brochure.pdf",
-    "source": "SPJ Executive Program in Generative AI for Leaders Brochure",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Executive-Program-in-Generative-AI-and-Agentic-AI-for-Leaders-Brochure.pdf",
+    "source": "SPJ Executive Program in Generative AI & Agentic AI for Leaders Brochure",
     "campaign_name": "EPGAIL-SPJ-6 Months"
   }
 }

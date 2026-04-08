@@ -78,7 +78,7 @@ export default function Career() {
 
 
   return (
-    <main className="w-full block flex-grow">
+    <main className="w-full block flex-grow mt-10 md:mt-0">
       <Testingnavbar />
       <ThemeProvider theme={theme}>
         <Box sx={{ display: { xs: 'none', sm: 'none', md: 'block', lg: 'block' } }} >

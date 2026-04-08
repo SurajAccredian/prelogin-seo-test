@@ -7,6 +7,7 @@ import ReduxProvider from "./store/ReduxProvider";
 import QueryProvider from "./store/QueryProvider";
 import AnalyticsProvider from "./components/AnalyticsProvider";
 import SmoothScroll from "./components/SmoothScroll";
+import { Toaster } from "react-hot-toast";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -99,6 +100,7 @@ export default function RootLayout({ children }) {
           <QueryProvider>
             <AnalyticsProvider>
               {children}
+              <Toaster />
             </AnalyticsProvider>
           </QueryProvider>
         </ReduxProvider>

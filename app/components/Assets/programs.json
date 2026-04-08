@@ -168,8 +168,8 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "university_name": "SP Jain School of Global Management",
-    "program_name": "Executive Program in Generative AI for Leaders",
-    "duration": "6 Months",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "duration": "7 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
     "batch_type": "Online",
     "id": "executive-program-in-generative-ai-for-leaders",
@@ -186,8 +186,8 @@
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Executive-Program-in-Generative-AI-for-Leaders-Brochure.pdf",
-      "source": "SPJ Executive Program in Generative AI for Leaders Brochure",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Executive-Program-in-Generative-AI-and-Agentic-AI-for-Leaders-Brochure.pdf",
+      "source": "SPJ Executive Program in Generative AI & Agentic AI for Leaders Brochure",
       "campaign_name": "EPGAIL-SPJ-6 Months"
     },
     "enrolled": {

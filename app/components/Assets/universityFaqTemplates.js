@@ -2321,17 +2321,17 @@ export const universityFaqTemplates = {
                 title: "Program Overview",
                 questions: [
                     {
-                        title: "What is the SP Jain School of Global Management Executive Program in Generative AI for Leaders about?",
+                        title: "What is the SP Jain School of Global Management Executive Program in Generative AI & Agentic AI for Leaders about?",
                         content: [
-                            "The Executive Program in Generative AI for Leaders is a 6-month program offered by SP Jain School of Global Management. It is designed to equip learners with core Artificial Intelligence skills."
+                            "The Executive Program in Generative AI & Agentic AI for Leaders is a 7-month program offered by SP Jain School of Global Management. It is designed to equip learners with core Artificial Intelligence skills."
                         ]
                     },
                     {
                         title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
                         content: [
-                            "Structured across 6 months comprising 7 modules, covering all core aspects of GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.",
-                            "- **Duration:** 6 months",
-                            "- **Learning Format:** 72+ hours of live online sessions, with study materials available for 3 years from the batch start date",
+                            "Structured across 7 months comprising 8 modules, covering all core aspects of GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.",
+                            "- **Duration:** 7 months",
+                            "- **Learning Format:** 84+ hours of live online sessions, with study materials available for 3 years from the batch start date",
                             "- **Class Timings:** Conducted on weekends",
                             "- **Flexibility:** Recordings & study materials available"
                         ]
@@ -2452,7 +2452,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,50,000 + GST.",
+                            "- The program fee is INR 1,80,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },

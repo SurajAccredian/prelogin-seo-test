@@ -76,7 +76,6 @@ const Related = () => {
   }, []);
 
   const handleDownloadBrochure = (program) => {
-    console.log(program);
     if (program) {
       dispatch(programActions.setBrochureState(program));
     }
@@ -135,7 +134,6 @@ const Related = () => {
             >
               {verticalPrograms.map((program, index) => (
                 <SwiperSlide key={index} className="py-4">
-                  {console.log(program)}
                   <div className="w-full lg:max-w-[400px] min-h-[420px] rounded-2xl overflow-hidden bg-white drop-shadow-md border flex flex-col relative">
                     <div className="w-full h-32 flex items-center justify-center bg-blue-50">
                       <div className="absolute top-2 right-2 z-10">

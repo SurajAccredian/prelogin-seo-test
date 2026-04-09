@@ -2481,5 +2481,51 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIT Hyderabad"
     }
+  },
+  {
+    "title": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
+    "id": "iimv-post-graduate-diploma-in-management-for-working-executives-pgdmex-12months",
+    "data": {
+      "institute name": "IIM Visakhapatnam",
+      "program name": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
+      "duration": "12 Months",
+      "courses": "40+ Courses",
+      "live session hours": "480+ Hours (includes 60+ hour capstone project)",
+      "capstone project": "1 Capstone Project",
+      "campus immersion available": "Yes",
+      "campus immersion duration": "One Campus Immersion of 3 days",
+      "campus immersion fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
+      "program faculty": "IIM Visakhapatnam Faculty",
+      "alumni status": "Alumni Status from IIM Visakhapatnam awarded upon program completion",
+      "benefits of alumni status": [
+        "Access & Membership",
+        "Lifetime Membership: Alumni receive lifetime regular alumni status.",
+        "Alumni ID & Email: Each alumnus is provided with an exclusive alumni ID card and personalized alumni email ID.",
+        "Alumni Portal: Lifetime access to a dedicated online portal for networking, updates, and institute-related information.",
+
+        "On-Campus Engagement",
+        "Library Access: On-site access to the IIMV library, subject to the institute’s prevailing terms and conditions.",
+        "Annual Homecoming (Sanshrey): Invitation to the annual alumni meet on campus to reconnect with batchmates and faculty.",
+
+        "Professional & Network Development",
+        "Mentorship & Knowledge Sharing: Opportunities to mentor current students and participate in knowledge-sharing webinars.",
+        "Industry Insights: Access to the “Know it from Alum” series featuring successful alumni sharing their professional experiences.",
+        "Professional & Social Network: Connection to a strong community of professionals for career development and collaboration.",
+
+        "Networking Events",
+        "City Chapter Meets (V-Unite): Pan-India alumni events to network and discuss institutional initiatives.",
+        "Professional Events: Invitations to IIMV workshops, seminars, and conferences, often available at discounted rates for alumni."
+      ],
+      "minimum attendance required": [
+        "Attendance- 75%",
+        "The participants of the PGDMEx program are expected to attend 100% of the sessions in all courses. Up to 25% relaxation is available only on health/medical grounds, own-marriage and bereavement in immediate family. If the attendance falls below 75% in a course, for whatever reasons, s/he will be given one (1.00) grade point drop for that course. If attendance falls below 50%, s/he will be given a ‘U’ grade with GPA of 0.00 in that course."
+      ],
+      "PG diploma": "PG Diploma issued by IIM Visakhapatnam",
+      "physical PG diploma": [
+        "Physical Diploma to be issued only if: ",
+        "1. Attendance- 75% and above; and ",
+        "2. Score in Overall Assessment- 2.15 CGPA and above"
+      ]
+    }
   }
 ]

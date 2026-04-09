@@ -74,7 +74,6 @@ const Programs = () => {
       new Map(filtered.map((program) => [program.id, program])).values(),
     );
 
-    console.log(unique);
     return unique;
   };
 

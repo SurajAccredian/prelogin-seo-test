@@ -1,5 +1,5 @@
 {
-  "category": "28",
+  "category": "55",
   "id": "iima-senior-management-program",
   "vertical": "senior management",
   "title": "Senior Management Program",
@@ -10,11 +10,11 @@
   "short_university_name": "",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v1.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-amritsar-cover-v2.webp",
-  "start_date": "2 Aug 2026",
+  "start_date": "26 Jul 2026",
   "duration": "10 months",
   "required_years_experience": 5,
   "type": "online",
-  "enrollments": "active",
+  "enrollments": "coming-soon",
   "timings": "weekends only",
   "tags": [
     {
@@ -30,7 +30,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM-Amritsar/iim-amritsar-certificate.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM-Amritsar/iim-amritsar-smp-certificate.webp",
   "key_features": [
     {
       "title": "hours",
@@ -289,18 +289,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 16717
+        "emi": 18431
       },
       {
         "months": 18,
-        "emi": 11591
+        "emi": 12733
       },
       {
         "months": 24,
-        "emi": 9007
+        "emi": 9863
       }
     ],
-    "total": 200000
+    "total": 210000
   },
   "faq": {
     "programId": "executive-program-in-strategic-management",
@@ -364,15 +364,14 @@
     "overview",
     "curriculum",
     "unique points",
-    "faculty",
     "certificate",
     "top companies",
     "extra achievements",
     "program fee"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Amritsar-Strategic-Management.pdf",
-    "source": "IIMA Strategic Management Brochure",
-    "campaign_name": "EPSM-IIMA-8 Months"
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMA-Senior-Management-Program.pdf",
+    "source": "IIMA Senior Management Program Brochure",
+    "campaign_name": "SMP-IIMA-10 Months"
   }
 }

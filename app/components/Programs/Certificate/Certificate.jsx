@@ -86,14 +86,14 @@ const Certificate = () => {
                           <div
                             onClick={() => handleCertificateClick(val)}
                             className={`certificate-image w-full rounded-lg bg-white border drop-shadow-xl p-5 cursor-pointer transition-all duration-300 ${data?.id ===
-                              "iith-professional-certificate-program-in-strategic-project-management" || data?.id === 'iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership'
+                              "iith-professional-certificate-program-in-strategic-project-management" || data?.id === 'iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership' || data?.id === "iima-senior-management-program"
                               ? "max-w-sm mx-auto"
                               : ""
                               }`}
                           >
                             <img
                               className={`w-full ${data?.id ===
-                                "iith-professional-certificate-program-in-strategic-project-management" || data?.id === 'iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership'
+                                "iith-professional-certificate-program-in-strategic-project-management" || data?.id === 'iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership' || data?.id === "iima-senior-management-program"
                                 ? "max-h-[400px] md:max-h-[500px] object-contain"
                                 : ""
                                 }`}
@@ -173,14 +173,14 @@ const Certificate = () => {
               <div
                 onClick={() => handleCertificateClick(data?.certificate)}
                 className={`certificate-image max-w-3xl w-full rounded-lg bg-white border drop-shadow-xl p-5 cursor-pointer transition-all duration-300 ${data?.id ===
-                  "iith-professional-certificate-program-in-strategic-project-management" || data?.id === "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
+                  "iith-professional-certificate-program-in-strategic-project-management" || data?.id === "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" || data?.id === "iima-senior-management-program"
                   ? "lg:max-w-sm"
                   : "lg:max-w-xl"
                   }`}
               >
                 <img
                   className={`w-full ${data?.id ===
-                    "iith-professional-certificate-program-in-strategic-project-management" || data?.id === "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
+                    "iith-professional-certificate-program-in-strategic-project-management" || data?.id === "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" || data?.id === "iima-senior-management-program"
                     ? "max-h-[400px] md:max-h-[500px] object-contain"
                     : ""
                     }`}

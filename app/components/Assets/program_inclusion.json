@@ -2527,5 +2527,31 @@
         "2. Score in Overall Assessment- 2.15 CGPA and above"
       ]
     }
+  },
+  {
+    "title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+    "id": "xlri-epcto-11-months",
+
+    "data": {
+      "Institute Name": "XLRI Delhi NCR",
+      "Program Name": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+      "Duration of the Program": "11 Months",
+      "Program Terms/Modules": "12 Modules",
+      "Live Session Hours": "132+ hours",
+      "Capstone Project": "1 Capstone Project upon Terms Completion",
+      "Campus Immersion": "Two Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Incorporated into the Program Fee (including food and accommodation)",
+      "Program Faculty": " XLRI Faculty",
+      "Benefits of Alumni Status": [
+        "Access to Alumni Events organized by the XLRI Alumni Association",
+        "Access to the Alumni Network Portal",
+        "Alumni Discounts on Other Programs",
+        "Access to Online Lectures and Seminars"
+      ],
+      "Alumni Status": "Yes, Optional Executive Alumni Status at an additional cost of INR 20,000 + GST.",
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from XLRI",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
   }
 ]

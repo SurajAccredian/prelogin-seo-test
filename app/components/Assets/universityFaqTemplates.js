@@ -2687,5 +2687,811 @@ export const universityFaqTemplates = {
                 ]
             }
         ]
+    },
+
+    iith_strategic_project_management: {
+        templateId: "iith_strategic_project_management_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIT Hyderabad Professional Certificate Program in Strategic Project Management about?",
+                        content: [
+                            "The Professional Certificate Program in Strategic Project Management is a 6-month program offered by IIT Hyderabad, in collaboration with Accredian. It is designed to equip learners with core project management skills, hands-on exposure to tools, and practical learning experiences, with a focus on emerging areas like Generative AI."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 8 modules, covering all core aspects of project management: strategy, design, development, launch, growth, and AI-driven innovation.",
+                            "- **Duration:** 6 months",
+                            "- **Learning Format:** 72+ hours of live online sessions, with recordings available for 3 years from the batch start date",
+                            "- **Class Timings:** 3 PM – 6 PM IST on Saturdays",
+                            "- **Flexibility:** Recordings available in case a session is missed"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline with more than 50% marks. 1+ year of work experience is preferred, but can also be considered on an exceptional basis."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in project management or technology to enroll?",
+                        content: [
+                            "No prior project management experience is required. The program covers fundamentals as well as advanced topics."
+                        ]
+                    },
+                    {
+                        title: "How do I apply for the program?",
+                        content: [
+                            "You can apply through Accredian's application portal at: https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIT Hyderabad after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIT Hyderabad, upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% and above",
+                            "- **Participation Certificate will be issued if:** Attendance is below 70% (no Completion Certificate in this case)"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is a professional certificate program recognized by employers and issued by IIT Hyderabad."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni benefits or networking opportunities with IIT Hyderabad?",
+                        content: [
+                            "No, IIT Hyderabad alumni status will not be conferred. However, learners can network with peers and industry experts during the program."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIT Hyderabad confirming my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by top IIT Hyderabad faculty, with Master Class sessions led by industry experts."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, industry immersion sessions, case studies, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 4 dedicated career assistance sessions designed to help learners enhance their professional growth. However, **please note that no placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career mentoring is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Graduates can explore roles such as Project Manager, Associate Project Manager, Project Analyst, and Business Strategist across tech, consulting, e-commerce, and other industries."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is ₹1,80,000 + GST.",
+                            "- Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: {policyLink}"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "What does the IIT Hyderabad campus immersion include, and how is it scheduled?",
+                        content: [
+                            "A 2-day campus immersion at IIT Hyderabad is available at an additional cost of ₹6,000 + GST for both days.",
+                            "",
+                            "- **Food and accommodation** are included in the immersion fee",
+                            "- **Travel cost** is not included and must be arranged by the participant",
+                            "- IIT Hyderabad will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIT Hyderabad's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in Project Planning, Stakeholder Management, Risk Management, and Strategic Execution, enabling them to make informed project decisions, lead cross-functional teams, and deliver practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and the skills to successfully manage and deliver projects end-to-end."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    iith_design_thinking_innovation: {
+        templateId: "iith_design_thinking_innovation_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIT Hyderabad Executive Certification Program in Design Thinking & Innovation for Strategic Leadership about?",
+                        content: [
+                            "The Executive Certification Program in Design Thinking & Innovation for Strategic Leadership is a 6-month program offered by IIT Hyderabad in collaboration with Accredian. It is designed to equip learners with core Design Thinking skills, hands-on exposure to innovation frameworks, and practical learning experiences, with a focus on driving strategic leadership and creative problem-solving in real-world business scenarios."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 5 modules, covering all core aspects of Design Thinking: from strategy, design, and development to launch, growth, and AI-driven innovation.",
+                            "- **Duration:** 6 months",
+                            "- **Learning Format:** 72+ hours of live online sessions, with recordings available for 3 years from the batch start date",
+                            "- **Class Timings:** 3 PM – 6 PM IST on Saturdays",
+                            "- **Flexibility:** Recordings available in case a session is missed"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline with more than 50% marks. 1+ year of work experience is preferred, but can also be considered on an exceptional basis."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in Design Thinking or technology to enroll?",
+                        content: [
+                            "No prior experience in Design Thinking or innovation is required. The program covers everything from the fundamentals of Design Thinking to advanced strategies for Innovation and Strategic Leadership, making it suitable for both beginners and experienced professionals."
+                        ]
+                    },
+                    {
+                        title: "How do I apply for the program?",
+                        content: [
+                            "You can apply through Accredian's application portal at: https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIT Hyderabad after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIT Hyderabad, upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% and above",
+                            "- **Participation Certificate will be issued if:** Attendance is below 70% (no Completion Certificate in this case)"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is an executive certificate program recognized by employers and issued by IIT Hyderabad."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni benefits or networking opportunities with IIT Hyderabad?",
+                        content: [
+                            "No, IIT Hyderabad alumni status will not be conferred. However, learners can network with peers and industry experts during the program."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIT Hyderabad confirming my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by top IIT Hyderabad faculty, with Master Class sessions led by industry experts."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, industry immersion sessions, case studies, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 4 dedicated career assistance sessions designed to help learners enhance their professional growth. However, **please note that no placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career mentoring is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Graduates can explore roles such as Design Thinking Consultant, Innovation Strategist, Product Designer, UX Lead, and Business Transformation Manager across industries like tech, consulting, FMCG, e-commerce, healthcare, and more."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is ₹1,79,000 + GST.",
+                            "- Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: {policyLink}"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "What does the IIT Hyderabad campus immersion include, and how is it scheduled?",
+                        content: [
+                            "A 2-day campus immersion at IIT Hyderabad is available at an additional cost of ₹6,000 + GST for both days.",
+                            "",
+                            "- **Food and accommodation** are included in the immersion fee",
+                            "- **Travel cost** is not included and must be arranged by the participant",
+                            "- IIT Hyderabad will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIT Hyderabad's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in Design Thinking, Innovation Frameworks, Strategic Leadership, and Creative Problem-Solving, enabling them to tackle complex business challenges, lead innovation-driven teams, and apply human-centered solutions to real-world scenarios. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and the practical skills to drive meaningful change."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    iiml_strategic_project_management_leadership: {
+        templateId: "iiml_strategic_project_management_leadership_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIML Executive Program in Strategic Project Management & Leadership Program about?",
+                        content: [
+                            "The Executive Program in Strategic Project Management & Leadership is a 10-month program offered by IIM Lucknow, designed to strengthen strategic thinking, project leadership capabilities, and decision-making skills. The program blends academic rigor with practical application through case studies, simulations, CXO sessions, and a capstone project, equipping professionals to lead and manage complex projects with strategic precision."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across multiple modules covering all core aspects of the Executive Program in Strategic Project Management & Leadership: including strategy, leadership development, organizational transformation, digital business, finance, and business simulations.",
+                            "- **Duration:** 10 months",
+                            "- **Learning Format:** 120+ hours of live online sessions, with recordings available for 3 months from the class delivery",
+                            "- **Class Timings:** 9 AM – 12 PM on Saturdays",
+                            "- **Flexibility:** Recordings available in case a session is missed"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants must be Graduates or Postgraduates with a minimum of 50% marks (including Diploma equivalents). Additionally, a minimum of 1 year of work experience as of the Programme Start Date (Technical Orientation Date) is required. Screening and selection will be conducted by IIML based on a mandatory Statement of Purpose (SOP), along with the quality and relevance of the applicant's academic and professional background."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in strategy or leadership roles to enroll?",
+                        content: [
+                            "No specific prior experience in strategy or leadership is required. However, a minimum of 1 year of work experience is mandatory. Selection is based on your SOP, academic background, and overall work experience, as evaluated by IIM Lucknow."
+                        ]
+                    },
+                    {
+                        title: "How do I apply for the program?",
+                        content: [
+                            "You can apply through Accredian's application portal at: https://accredian.com/programs/iiml-executive-program-in-strategic-project-management-leadership"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIML after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Lucknow upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** The participant maintains a minimum attendance of 75% and achieves a Cumulative Overall Percentage of Marks (COPM) of 50% or above",
+                            "- **Participation Certificate will be issued if:** Attendance is below 75% and/or COPM (Cumulative Overall Percentage of Marks) is below 50% (no Completion Certificate in this case)"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and how is it recognized by employers?",
+                        content: [
+                            "This is a Certificate program from IIM Lucknow, one of India's most reputed IIMs, and is widely recognized by employers across industries."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni benefits or networking opportunities with IIML?",
+                        content: [
+                            "Yes. Participants can obtain IIML Executive Education Alumni Status for an additional fee of ₹10,000 + GST (not included in the program fees) for a lifetime membership, payable directly to IIM Lucknow upon completion."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official confirmation from IIML for my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching in the program?",
+                        content: [
+                            "The program is taught by IIML Faculty and Industry Experts."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, simulations)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, industry immersion sessions, case studies, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring or support available?",
+                        content: [
+                            "Doubt resolution is done during live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "**No placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career assistance sessions and career support services are not included in this specific program."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles, industries, or leadership opportunities can I target after completing this program?",
+                        content: [
+                            "Graduates of this program can explore project leadership and strategic management roles across a wide range of industries, such as consulting, IT, BFSI, infrastructure, manufacturing, FMCG, and emerging tech sectors."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is ₹2,42,500 + GST.",
+                            "- 12 Months No-Cost EMI available. Standard EMI options are available for more than 12 months (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "No, we do not offer any scholarships or discounts for this program."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: {policyLink}"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "What does the IIML campus immersion include, and how is it scheduled?",
+                        content: [
+                            "One campus immersion of 3 days at IIM Lucknow is **included in the program fee**.",
+                            "",
+                            "- **Food and accommodation** are included in the program fee",
+                            "- **Travel cost** is not included and must be arranged by the participant",
+                            "- IIML will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Lucknow's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop deep expertise in strategic execution, leadership development, digital business, and complex project delivery. This enables them to tackle critical business challenges, align project outcomes with organizational strategy, and apply robust management frameworks to real-world scenarios. The program's mix of academic rigor and hands-on business simulations ensures graduates leave with both conceptual clarity and the practical skills to drive impactful change."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    iiml_chief_digital_ai_officer_programme: {
+        templateId: "iiml_chief_digital_ai_officer_programme_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the Chief Digital & AI Officer Programme (The CDAIO Program) about?",
+                        content: [
+                            "The Chief Digital & AI Officer Programme (The CDAIO Program) is an 11-month program offered by IIM Lucknow, designed to strengthen capabilities in digital transformation, AI strategy, and data-driven executive leadership. The program blends academic rigor with practical application through case studies, simulations, CXO sessions, and a capstone project, equipping professionals to lead enterprise-wide digital and AI initiatives with strategic precision."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across multiple modules covering all core aspects of the Chief Digital & AI Officer Programme: including digital transformation strategy, AI integration, data-driven decision making, organizational change management, technology investments, and business simulations.",
+                            "- **Duration:** 11 months",
+                            "- **Learning Format:** 132+ hours of live online sessions, with recordings available for 3 months from the class delivery",
+                            "- **Class Timings:** 10 AM – 1 PM on Sundays",
+                            "- **Flexibility:** Recordings available in case a session is missed"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants must be Graduates or Postgraduates with a minimum of 50% marks (including Diploma equivalents). Additionally, a minimum of 7 years of work experience as of the Programme Start Date (Technical Orientation Date) is required. Screening and selection will be conducted by IIML based on a mandatory Statement of Purpose (SOP), along with the quality and relevance of the applicant's academic and professional background."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in strategy or leadership roles to enroll?",
+                        content: [
+                            "While specific prior experience in C-level strategy or leadership is not strictly required, a minimum of 7 years of overall work experience is mandatory. Selection is based on your SOP, academic background, and the quality and relevance of your work experience, as evaluated by IIM Lucknow."
+                        ]
+                    },
+                    {
+                        title: "How do I apply for the program?",
+                        content: [
+                            "You can apply through Accredian's application portal at: https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIML after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Lucknow upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** The participant maintains a minimum attendance of 75% and achieves a Cumulative Overall Percentage of Marks (COPM) of 50% or above",
+                            "- **Participation Certificate will be issued if:** Attendance is below 75% and/or COPM (Cumulative Overall Percentage of Marks) is below 50% (no Completion Certificate in this case)"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and how is it recognized by employers?",
+                        content: [
+                            "This is a Certificate program from IIM Lucknow, one of India's most reputed IIMs, and is widely recognized by employers across industries."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni benefits or networking opportunities with IIML?",
+                        content: [
+                            "Yes. Participants can obtain IIML Executive Education Alumni Status for an additional fee of ₹10,000 + GST (not included in the program fees) for a lifetime membership, payable directly to IIM Lucknow upon completion."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official confirmation from IIML for my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching in the program?",
+                        content: [
+                            "The program is taught by IIML Faculty and Industry Experts."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, simulations)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, industry immersion sessions, case studies, CXO interactions, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring or support available?",
+                        content: [
+                            "Doubt resolution is done during live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "**No placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career assistance sessions and career support services are not included in this specific program."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles, industries, or leadership opportunities can I target after completing this program?",
+                        content: [
+                            "Graduates of this program can explore senior digital leadership and AI strategy roles, such as Chief Digital Officer or Head of AI, across a wide range of industries, including consulting, IT, BFSI, infrastructure, manufacturing, FMCG, and emerging tech sectors."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is ₹4,52,500 + GST.",
+                            "- 12 Months No-Cost EMI available. Standard EMI options are available for more than 12 months (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "No, we do not offer any scholarships, discounts, or referral benefits for this program."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: {policyLink}"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "What does the IIML campus immersion include, and how is it scheduled?",
+                        content: [
+                            "One campus immersion of 3 days at IIM Lucknow is **included in the program fee**.",
+                            "",
+                            "- **Food and accommodation** are included in the program fee",
+                            "- **Travel cost** is not included and must be arranged by the participant",
+                            "- IIML will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Lucknow's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop deep expertise in digital transformation, AI strategy, data-driven leadership, and enterprise-wide technology adoption. This enables them to tackle critical business challenges, align digital and AI initiatives with organizational strategy, and apply advanced technology frameworks to real-world scenarios. The program's mix of academic rigor and hands-on business simulations ensures graduates leave with both conceptual clarity and the practical skills to drive impactful change."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
     }
+
 };

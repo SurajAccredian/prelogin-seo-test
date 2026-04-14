@@ -1,0 +1,438 @@
+{
+  "category": "34",
+  "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+  "vertical": "cxo",
+  "title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+  "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
+  "short_title": "CXO",
+  "contact": "9289224842",
+  "university_name": "XLRI",
+  "short_university_name": "xlri",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
+  "accredited_by": [
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-XLEAD.webp"
+  ],
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "start_date": "26 Jul 2026",
+  "duration": "11 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "external_enroll": "https://xlridelhi.ac.in/executive-development-programme-in-strategic-hr-leadership-batch-7/",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/xlri-certificate/XLRI-CMO-11-Months-v1.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "case studies",
+      "text": 6
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 10
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-Days"
+    }
+  ],
+  "overview": {
+    "programId": "xecutive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current CTOs aiming to sharpen strategic, financial, and innovation capabilities.",
+          "Senior Tech Leaders (VPs, Heads of Tech) preparing for C-suite responsibilities.",
+          "Product & Tech Leaders aligning technology strategies with business outcomes.",
+          "IT Directors & Managers transitioning from execution to strategic leadership.",
+          "Tech Founders scaling tech-led businesses effectively.",
+          "Consultants deepening enterprise technology expertise.",
+          "Aspiring CTOs stepping into senior technology leadership roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Technology Officer (CTO)",
+          "Chief Information Officer (CIO)",
+          "Chief Digital Officer (CDO)",
+          "Vice President of Engineering",
+          "Head of Technology",
+          "Director of Technology",
+          "Product & Technology Leader",
+          "Enterprise Architect",
+          "Technology Strategy Consultant",
+          "Digital Transformation Leader"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules- Technology Strategy, Innovation, Leadership, and Business Alignment",
+          "Learn from top XLRI faculty and industry pioneers at leading companies",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From XLRI XLEAD",
+          "Live Instructor Led Classes",
+          "2 Campus Immersions of 2 days each",
+          "1 Capstone Project",
+          "EMI upto 24 months",
+          "Placement Support & Assistance",
+          "1:1 Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "domain": "module",
+  "attendancePercent": 70,
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "engaging-simulations"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Future of Workplace",
+      "week": "",
+      "points": [
+        "Setting the Context for Digital Change in HR",
+        "Developing an Ability to Look into the Future",
+        "Industry 4.0 & the Skilling Challenges",
+        "Impact of Organizational Design on Strategy",
+        "New-Age Organization Design & Structures",
+        "Digital Transformation in Business",
+        "Digital: Future for HR",
+        "Managing the Transformation",
+        "Social Media & Employer Branding",
+        "Impact of Work from Anywhere",
+        "Managing Organization Culture in Hybrid Workmode"
+      ]
+    },
+    {
+      "title": "Strategic HRM",
+      "week": "",
+      "points": [
+        "Strategic Staffing & Resource Allocation",
+        "Managing Remote Contractual Workforce",
+        "Talent Management: Attraction, Retention, & Development",
+        "Aligning Business Strategy with Organization Objectives (SHRM Frameworks)",
+        "Change Management",
+        "Building Learning Organizations",
+        "Role of HR in Internationalization",
+        "Role of HR in Successful Mergers, Acquisitions & Joint Ventures",
+        "Corporate Governance"
+      ]
+    },
+    {
+      "title": "Understanding HR Metrics",
+      "week": "",
+      "points": [
+        "Digital Tools for Research",
+        "Employee Persona & Look-alike Audience",
+        "Employer Branding & Case Study Discussions",
+        "Framework for Problem Solving (Define Problem, Collect Data, Build Model, Evaluate & Present Results)",
+        "People Analytics - Basics",
+        "Steps to Workforce Planning (Supply, Demand, Gap & Solution Analysis - Markov Chain, Scatter Plot, Trend Analysis)",
+        "Strategic HR Metrics",
+        "Employee Training & Development Analytics",
+        "Talent Engagement Analytics",
+        "HR Scorecards"
+      ]
+    },
+    {
+      "title": "Digitalization, AI & HRM",
+      "week": "",
+      "points": [
+        "Interpreting Data for Actionable Insights",
+        "Behavioral Modeling & Predictive Analytics (Case Discussion)",
+        "GenAI & its Applications in HR Strategy (Planning, Recruitment & Selection)",
+        "GenAI & its Applications in Learning & Development, Performance & Career Management",
+        "Developing Learning Experience Platforms",
+        "Ethical Issues in the Digitalization of HRM"
+      ]
+    },
+    {
+      "title": "Motivating Next-Gen Employees",
+      "week": "",
+      "points": [
+        "Reimagine Careers & Succession Planning",
+        "Performance Management & Appraisal for Next-Gen Employees",
+        "Compensation Management including Rewards & Recognition"
+      ]
+    },
+    {
+      "title": "Leadership",
+      "week": "",
+      "points": [
+        "Self-Leadership, Servant Leadership & Emotional Intelligence",
+        "Building Leadership through Uncertain Times; Leadership & Communication",
+        "Employee Counseling, Coaching & Mentoring for Leadership Development",
+        "Leading Innovation",
+        "Leading Start-ups",
+        "Conflict Management & Negotiation"
+      ]
+    },
+    {
+      "title": "Employee Wellness & Mental Well-Being",
+      "week": "",
+      "points": [
+        "Future of Work: Post-Pandemic Perspectives",
+        "Understanding & Managing Stress in the Workplace",
+        "Mental Health & Well-Being"
+      ]
+    },
+    {
+      "title": "Diversity, Equity, & Inclusion",
+      "week": "",
+      "points": [
+        "Relevance in the Present Time & Context",
+        "Diversity: A Strong Business Case",
+        "Types: Cultural, Racial, Religious, Age, Sex, Sexual Orientation, Physical, Mental, Caste, Regional",
+        "Psychological Foundations",
+        "Leading a Diverse Workforce",
+        "Team Diversity",
+        "Diversity at the Top: Diverse Leadership Styles",
+        "Fostering a Culture that Embraces and Leverages Diversity"
+      ]
+    },
+    {
+      "title": "Future of Industrial Relations & New Labor Laws",
+      "week": "",
+      "points": ["Labour Laws", "HR Compliance", "New Policies"]
+    },
+    {
+      "title": "Campus Immersion",
+      "week": "",
+      "points": [
+        "Critical Concepts of Marketing",
+        "Role of HR as a Business Growth Enabler",
+        "Understanding the Business Landscape",
+        "Capstone Project"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Ankit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-ankit.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Faisal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/faizal-v1.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Shravasti Chakravarti",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/sharvasti-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr. Keith C. D’Souza",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Keith%20C.%20D%E2%80%99Souza.webp",
+      "position": "Visiting Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Vinit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr Narasimhan Rajkumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Narsimha%20Rao.webp",
+      "position": "Associate Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr. Paramjyot Singh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Paramjyot%20Singh.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Dr. Snigdha Pattnaik",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Snigdha%20Pattnaik.webp",
+      "position": "Adjunct Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Prof. RatanKK",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Prof.%20RatanKK.webp",
+      "position": "Digital Marketing Expert",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gutsgo.webp"
+    },
+
+    {
+      "name": "Ramesh Soundararajan",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Ramesh%20Soundararajan.webp",
+      "position": "Visiting Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+
+    {
+      "name": "Santosh Thangavelu",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Santosh%20Thangavelu.webp",
+      "position": "CHRO - India",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Axtria_Logo.webp"
+    }
+  ],
+  "billing": {
+    "programId": "xecutive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "points": [
+      "132+ Hours of Live Classes",
+      "Learn from XLRI faculty and industry pioneers",
+      "Interactive Doubt-Clearing Sessions",
+      "6 Career Sessions by Accredian",
+      "1 Capstone Project",
+      "2 Campus Immersions of 2 days each",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 21683
+      },
+      {
+        "months": 18,
+        "emi": 14980
+      },
+      {
+        "months": 24,
+        "emi": 11604
+      }
+    ],
+    "total": 330000
+  },
+  "faq": {
+    "programId": "xecutive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in HR required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "In the Strategic HR Leadership Program, you will work on real-world case studies and Capstone Projects to gain a better understanding of the practical applications of strategic HR and leadership concepts."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": ["The duration of the program is 10 months."]
+          }
+        ]
+      },
+      {
+        "title": "Why XLRI",
+        "content": [
+          {
+            "title": "How's the Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Progressive Learning Architecture:** XLRI's proprietary Progressive Learning Architecture ensures that irrespective of the background you are from, you will attain mastery in a step-by-step way.",
+              "- **Theory to Industry Learning Framework:** XLRI's Theory to Industry framework ensures that you are learning every HR Leadership concept in context of real-world industry problems.",
+              "- **Accredian Career Center:**  Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/xlri-delhi-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Strategic-HR-Leadership.pdf",
+    "source": "XLRI Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) Brochure",
+    "campaign_name": "EDPSHR-XLRI-10 Months"
+  }
+}

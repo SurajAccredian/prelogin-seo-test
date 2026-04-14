@@ -17,7 +17,7 @@
   "duration": "11 months",
   "required_years_experience": 10,
   "type": "online",
-  "external_enroll": "https://xlridelhi.ac.in/executive-development-programme-in-strategic-hr-leadership-batch-7/",
+  "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/cto.html",
   "enrollments": "active",
   "timings": "weekends only",
   "tags": [
@@ -54,7 +54,7 @@
     },
     {
       "title": "campus immersion",
-      "text": "2-Days"
+      "text": "4-Days (2+2)"
     }
   ],
   "overview": {
@@ -423,15 +423,13 @@
     "overview",
     "curriculum",
     "unique points",
-    "faculty",
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee",
-    "FAQs"
+    "program fee"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Strategic-HR-Leadership.pdf",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRIJ-Executive-Development-Programme-or-Emerging-Chief-Technology-Officers.pdf",
     "source": "XLRI Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) Brochure",
     "campaign_name": "EDPSHR-XLRI-10 Months"
   }

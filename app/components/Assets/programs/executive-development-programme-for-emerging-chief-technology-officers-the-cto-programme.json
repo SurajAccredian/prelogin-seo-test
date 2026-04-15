@@ -242,88 +242,53 @@
   ],
   "faculty": [
     {
-      "name": "Dr. Ankit",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-ankit.webp",
+      "name": "Dr. Saurav Snehvrat",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Saurav-Snehvrat.webp",
       "position": "Program Director",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
     {
-      "name": "Faisal",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/faizal-v1.webp",
+      "name": "Dr. Harshit Kumar Singh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Harshit-Kumar-Singh.png",
       "position": "Program Director",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
     {
-      "name": "Dr. Shravasti Chakravarti",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/sharvasti-v1.webp",
-      "position": "Assistant Professor",
-      "organization": "XLRI",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
-    },
-
-    {
-      "name": "Dr. Keith C. D’Souza",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Keith%20C.%20D%E2%80%99Souza.webp",
-      "position": "Visiting Professor",
+      "name": "Dr. Arindam Mondal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Arindam-Mondal.png",
+      "position": "Strategic Management",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
     {
-      "name": "Vinit",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
-      "position": "Professor",
+      "name": "Dr. Kushal Saha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Kushal-Saha.png",
+      "position": "Information Systems",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
-      "name": "Dr Narasimhan Rajkumar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Narsimha%20Rao.webp",
-      "position": "Associate Professor",
+      "name": "Dr. Rajeev Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Rajeev-Sharma.png",
+      "position": "Information Systems",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
-      "name": "Dr. Paramjyot Singh",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Paramjyot%20Singh.webp",
-      "position": "Assistant Professor",
+      "name": "Dr. Supriya Kumar De",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Supriya-Kumar-De.png",
+      "position": "Information Systems",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
-      "name": "Dr. Snigdha Pattnaik",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Snigdha%20Pattnaik.webp",
-      "position": "Adjunct Professor",
+      "name": "Dr. Shanthan K",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Shanthan-K.png",
+      "position": "Visiting Faculty",
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
-    },
-
-    {
-      "name": "Prof. RatanKK",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Prof.%20RatanKK.webp",
-      "position": "Digital Marketing Expert",
-      "organization": "XLRI",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gutsgo.webp"
-    },
-
-    {
-      "name": "Ramesh Soundararajan",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Ramesh%20Soundararajan.webp",
-      "position": "Visiting Professor",
-      "organization": "XLRI",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
-    },
-
-    {
-      "name": "Santosh Thangavelu",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Santosh%20Thangavelu.webp",
-      "position": "CHRO - India",
-      "organization": "XLRI",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Axtria_Logo.webp"
     }
   ],
   "billing": {
@@ -418,12 +383,40 @@
       }
     ]
   },
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "R",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/R-language-v1.webp"
+    },
+    {
+      "title": "Google AI Studio",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-ai-studio.webp"
+    },
+    {
+      "title": "Bizagi",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Bizagi.jpg"
+    },
+    {
+      "title": "Tableau",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tableau.png"
+    },
+    {
+      "title": "Claude",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    }
+  ],
   "sections": [
     "introduction",
     "overview",
     "curriculum",
     "unique points",
+    "tools",
     "certificate",
+    "faculty",
     "top companies",
     "extra achievements",
     "program fee"

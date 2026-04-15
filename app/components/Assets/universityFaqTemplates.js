@@ -3492,6 +3492,213 @@ export const universityFaqTemplates = {
                 ]
             }
         ]
+    },
+    xlri_cto_program: {
+        templateId: "xlri_cto_program_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the XLRI CTO Program about?",
+                        content: [
+                            "The Executive Development Program for Emerging Chief Technology Officers (CTO Programme) from XLRI Jamshedpur is an 11-month program designed to develop technology leadership, digital transformation capabilities, and strategic decision-making skills. The program enables professionals to lead large-scale technology initiatives, align technology strategy with business goals, and drive innovation and digital transformation. It combines academic rigor with practical exposure through case studies, simulations, CXO coaching, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 4 pillars and 12 modules, covering key areas of technology leadership such as digital transformation and innovation, technology strategy and leadership, enterprise systems and architecture, and data-driven decision-making.",
+                            "- **Duration:** 11 months",
+                            "- **Learning Format:** 132+ hours of live online sessions, with recordings available for 3 years from the program start date",
+                            "- **Class Timings:** 9 AM – 12 PM IST on Sundays",
+                            "- **Flexibility:** Recordings available in case a session is missed"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Classes are conducted on weekends (Sundays), recordings are available for up to 3 years post program start, and schedules are shared in advance for planning."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have Graduation (10+2+3) or equivalent from a recognized institution. A preferred work experience of 10+ years is recommended."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in leadership or technical roles to enroll?",
+                        content: [
+                            "Yes, this program is designed for experienced professionals. It is ideal for senior technology professionals, engineering leaders and managers, and professionals aspiring for CTO or senior leadership roles."
+                        ]
+                    },
+                    {
+                        title: "How do I apply for the program?",
+                        content: [
+                            "You can apply through Accredian's application portal at: https://accredian.com/programs/xlri-cto-program"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from XLRI after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from XLRI & XLEAD upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% or above, along with Project participation and Assessments",
+                            "- **Participation Certificate will be issued if:** Attendance is below 70% and above 50% (no Completion Certificate in this case)",
+                            "- **No Certificate will be issued if:** Attendance is below 50%"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and how is it recognized by employers?",
+                        content: [
+                            "This is a professional certificate program from XLRI & XLEAD, one of India's most reputed B-schools, and is widely recognized by employers across industries."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni benefits or networking opportunities with XLRI?",
+                        content: [
+                            "Yes. Participants can opt for Executive Alumni Status by paying a one-time fee of ₹20,000 + GST upon program completion.",
+                            "",
+                            "- Access to alumni network",
+                            "- Invitations to alumni events",
+                            "- Learning resources and webinars",
+                            "- Discounts on future programs"
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official confirmation from XLRI for my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching in the program?",
+                        content: [
+                            "The program is taught by XLRI Faculty and Industry Experts."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, simulations)?",
+                        content: [
+                            "Learning includes live interactive sessions, case studies, simulations, CXO coaching sessions, industry immersion sessions, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring or support available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, **please note that no placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career mentoring is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles, industries, or leadership opportunities can I target after completing this program?",
+                        content: [
+                            "Graduates can explore roles across industries like IT, consulting, BFSI, startups, and digital enterprises."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is ₹3,30,000 + GST.",
+                            "- Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "Refunds are governed by the official policy. Details are shared during the application process. Full details are available at: {policyLink}"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "Refunds are not applicable after the defined cooling-off period."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "What does the XLRI campus immersion include, and how is it scheduled?",
+                        content: [
+                            "The program includes **2 campus immersions of 2 days each** at XLRI, included in the program fee.",
+                            "",
+                            "- **Food and accommodation** are included in the program fee",
+                            "- **Travel cost** is not included and must be arranged by the participant",
+                            "- XLRI will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines XLRI's academic excellence with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will build strategic technology leadership skills, learn to drive digital transformation initiatives, understand enterprise systems and innovation, lead high-performing technology teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 
 };

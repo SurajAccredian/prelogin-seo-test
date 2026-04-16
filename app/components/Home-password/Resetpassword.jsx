@@ -95,7 +95,7 @@ const Resetpassword = () => {
         }
       );
 
-      if (result.data.status === "200") {
+      if (result.data.status == 200) {
         await Swal.fire({
           title: "Success",
           text: "Your password has been changed successfully.",

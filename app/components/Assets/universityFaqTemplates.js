@@ -3109,7 +3109,7 @@ export const universityFaqTemplates = {
                             "Structured across multiple modules covering all core aspects of the Executive Program in Strategic Project Management & Leadership: including strategy, leadership development, organizational transformation, digital business, finance, and business simulations.",
                             "- **Duration:** 10 months",
                             "- **Learning Format:** 120+ hours of live online sessions, with recordings available for 3 months from the class delivery",
-                            "- **Class Timings:** 9 AM – 12 PM on Saturdays",
+                            "- **Class Timings:** 9 AM – 12 PM on Sundays",
                             "- **Flexibility:** Recordings available in case a session is missed"
                         ]
                     },

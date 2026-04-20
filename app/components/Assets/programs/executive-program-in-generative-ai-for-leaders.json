@@ -321,18 +321,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 15178
+        "emi": 13010
       },
       {
         "months": 18,
-        "emi": 10486
+        "emi": 8988
       },
       {
         "months": 24,
-        "emi": 8123
+        "emi": 6962
       }
     ],
-    "total": 180000
+    "total": 160000
   },
   "faq": {
     "programId": "executive-program-in-generative-ai-for-leaders",

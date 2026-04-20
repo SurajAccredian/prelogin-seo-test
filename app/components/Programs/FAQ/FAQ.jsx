@@ -6,7 +6,7 @@ import FaqOld from "./FaqOld";
 const FAQ = () => {
   const { data } = useSelector(state => state.program);
 
-  if (data?.short_university_name === 'iimv' || data?.short_university_name === 'iitk' || data?.short_university_name === 'xlri' || data?.short_university_name === 'iiml' || data?.short_university_name === 'iim-trichy' || data?.id == 'executive-program-in-strategic-hr-leadership' || data?.id == 'executive-program-in-strategic-project-management-and-leadership' || data?.id == 'executive-program-in-generative-ai-for-leaders' || data?.id == 'professional-certificate-in-applied-generative-ai') {
+  if (data?.short_university_name === 'iimv' || data?.short_university_name === 'iitk' || data?.short_university_name === 'xlri' || data?.short_university_name === 'iiml' || data?.short_university_name === 'iim-trichy' || data?.id == 'executive-program-in-strategic-hr-leadership' || data?.id == 'executive-program-in-strategic-project-management-and-leadership' || data?.id == 'executive-program-in-generative-ai-for-leaders' || data?.id == 'professional-certificate-in-applied-generative-ai' || data?.id == 'executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme' || data?.id == "iith-professional-certificate-program-in-strategic-project-management" || data?.id == "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" || data?.id == "iiml-executive-program-in-strategic-project-management-leadership" || data?.id == "iiml-chief-digital-ai-officer-programme-the-cdaio-program") {
     return <FaqTemplateVersion data={data} />;
   }
 

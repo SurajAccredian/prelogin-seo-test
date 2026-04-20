@@ -2452,7 +2452,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,80,000 + GST.",
+                            "- The program fee is INR 1,60,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },
@@ -2639,7 +2639,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,20,000 + GST.",
+                            "- The program fee is INR 1,30,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },

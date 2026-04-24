@@ -1,5 +1,13 @@
 [
   {
+    "university_name": "IIM Amritsar",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp",
+    "program_name": "Senior Management Program",
+    "category": "senior management",
+    "start_date": "26 Jul 2026",
+    "status": "New Launch"
+  },
+  {
     "university_name": "XLRI",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",

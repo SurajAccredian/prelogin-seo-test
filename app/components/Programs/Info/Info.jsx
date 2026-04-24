@@ -19,6 +19,17 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Disclaimer from "../Disclaimer";
 import { Blocks, BookCopy, SquareLibrary } from "lucide-react";
 
+
+// ── Add more program IDs here as needed ──
+const ADMISSION_CLOSED_IDS = [
+  "iimv-executive-program-in-leadership-with-ai",
+  "executive-program-in-generative-ai-for-business-leaders",
+  "chief-executive-officer-program",
+  "senior-management-program",
+  "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
+];
+
+
 const FeatureIcons = {
   credits: <Blocks className="w-full h-full" />,
   "subject areas": <BookCopy className="w-full h-full" />,
@@ -52,15 +63,21 @@ const FeatureIcons = {
   "CXO coaching": <FaPeopleGroup className="w-full h-full" />,
 };
 
+
 const Info = () => {
   const { data, enrollLoderState } = useSelector((state) => state.program);
   const dispatch = useDispatch();
+
+  // Check if the current program is in the admission closed list
+  const isAdmissionClosedProgram = ADMISSION_CLOSED_IDS.includes(data?.id);
+
 
   const handleEnrollNow = () => {
     if (data) {
       dispatch(programActions.setEnrollState(data));
     }
   };
+
 
   const renderFeature = (feature) => {
     if (
@@ -88,6 +105,7 @@ const Info = () => {
             </div>
           </div>
 
+
           {/* Desktop View (md and above) - Original Design */}
           <div className="hidden md:flex items-center">
             <div className="w-16 md:w-20 h-16 md:h-20 flex-shrink-0 p-4 text-universal">
@@ -110,6 +128,7 @@ const Info = () => {
     }
     return null;
   };
+
 
   return (
     <div className="info second-bg-grad w-full flex justify-center xl:px-12 px-4 py-6 md:py-12  border-t overflow-x-hidden">
@@ -136,11 +155,13 @@ const Info = () => {
               <button className="w-full cursor-context-menu max-w-[14rem] px-4 py-2 bg-white drop-shadow-xl border border-universal rounded-md flex items-center justify-center gap-4">
                 <BiSolidTimer className="text-universal" size={35} />
                 <div>
+                  {/* ── CHANGE: Show "Coming Soon" for admission closed programs instead of date ── */}
                   <h1 className="font-semibold text-nowrap">
-                    {/* {data?.start_date} */}
-                    {data?.enrollments == "inactive"
+                    {isAdmissionClosedProgram
                       ? "Coming Soon"
-                      : data?.start_date}
+                      : data?.enrollments == "inactive"
+                        ? "Coming Soon"
+                        : data?.start_date}
                   </h1>
                 </div>
               </button>
@@ -172,6 +193,7 @@ const Info = () => {
                 //   Enroll Now
                 // </button>
 
+
                 // <CustomEnrollNowButton    text={"Enroll Now"}  data={data}  className={"px-4 py-2 h-full border-universal border drop-shadow-xl text-nowrap font-semibold rounded-md bg-universal hover:bg-darkBlue active:bg-darkBlue text-white"}  />
                 <>
                   {data?.enrollments === "coming-soon" ? (
@@ -200,6 +222,7 @@ const Info = () => {
           </div>
         </div>
 
+
         {/* Disclaimer - Only shown on mobile below all content */}
         <div className="lg:hidden mt-4">
           <Disclaimer ClassName={"text-[12px] text-center"} />
@@ -208,5 +231,6 @@ const Info = () => {
     </div>
   );
 };
+
 
 export default Info;

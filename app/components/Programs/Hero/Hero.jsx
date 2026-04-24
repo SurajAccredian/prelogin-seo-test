@@ -20,6 +20,19 @@ import { getApplicationDetails } from "../../../services/program.service";
 import { CircleAlertIcon, HandshakeIcon } from "lucide-react";
 import { allowedIds } from "../../Assets/constants";
 
+
+// ── Add more program IDs here as needed ──
+const ADMISSION_CLOSED_IDS = [
+  "iimv-executive-program-in-leadership-with-ai",
+  "executive-program-in-generative-ai-for-business-leaders",
+  "chief-executive-officer-program",
+  "senior-management-program",
+  "executive-program-in-strategy-leadership-and-innovation-in-ai-era"
+];
+
+const IIMV_PROGRAM_ID = "iimv-executive-program-in-leadership-with-ai";
+
+
 const Hero = () => {
   const pathname = usePathname();
   const { data, enrollLoderState } = useSelector((state) => state.program);
@@ -28,23 +41,30 @@ const Hero = () => {
   const isMain = data?.tags.find((tag) => tag.type === "main");
   const dispatch = useDispatch();
 
+  // Check if the current program is the IIMV program
+  const isAdmissionClosedProgram = ADMISSION_CLOSED_IDS.includes(data?.id);
+
   const now = moment();
   let date = "";
   if (now.day() === 0 && now.format("hh:mm A") === "12:55 PM") {
     date = moment().day("Sunday").add(7, "days");
   }
 
+
   if (now.day() === 0 && now.isBefore(moment("23:55", "HH:mm"))) {
     date = moment().day("Sunday");
   }
+
 
   if (now.day() !== 0) {
     date = moment().day("Sunday").add(7, "days");
   }
 
+
   const startDateObj = new Date(data?.start_date);
   const admissionDeadlineObj = date.toDate();
   const [isVideoOpen, setIsVideoOpen] = useState(null);
+
 
   useEffect(() => {
     async function checkUserEnrollStatus() {
@@ -78,8 +98,10 @@ const Hero = () => {
       }
     }
 
+
     checkUserEnrollStatus();
   }, [dispatch, data.category, data.short_university_name]);
+
 
   const handleDownloadBrochure = () => {
     if (data) {
@@ -87,11 +109,13 @@ const Hero = () => {
     }
   };
 
+
   const handleVideoOpen = () => {
     if (data) {
       setIsVideoOpen(data?.university_video);
     }
   };
+
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -110,6 +134,7 @@ const Hero = () => {
 
 
 
+
   return (
     <div
       id="introduction"
@@ -124,6 +149,7 @@ const Hero = () => {
             style={{
               backgroundImage: `linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(${data?.university_image})`,
 
+
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -135,6 +161,7 @@ const Hero = () => {
                 {data?.university_name}
               </span>
             </div> */}
+
 
             {/* Content */}
             <div className="relative z-10 p-6 pt-8 text-white">
@@ -155,10 +182,12 @@ const Hero = () => {
                 </div>
               </div>
 
+
               <h1 className="text-2xl font-semibold mt-1">{data?.title}</h1>
               <h4 className="text-base font-normal mt-4 text-white/90">
                 {data?.description}
               </h4>
+
 
               {/* Tags on Mobile - Below Description */}
               <div className="flex flex-wrap gap-3 mt-6">
@@ -186,6 +215,7 @@ const Hero = () => {
             </div>
           </div>
 
+
           {/* Desktop Title/Description */}
           <div className="hidden lg:block lg:text-start text-center">
             <h1 className="text-neutral-500 text-xl md:text-2xl font-semibold">
@@ -199,23 +229,30 @@ const Hero = () => {
             </h4>
           </div>
 
+
           {/* Stats Section */}
           <div className="flex gap-8 my-4 md:my-8 lg:justify-normal justify-center">
+
+            {/* ── CHANGE 1: For IIMV program, show "Number of Hours" instead of "Next Cohort" ── */}
             <div className="flex gap-2 items-center">
               <div className="xl:w-12 w-10 h-10 xl:h-12 md:block hidden flex-shrink-0 bg-green-100 rounded-full p-3">
                 <BiSolidTimer className="w-full h-full text-green-500" />
               </div>
               <div className="text-center sm:text-start">
                 <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
-                  Next Cohort
+                  {isAdmissionClosedProgram ? "Number of Hours" : "Next Cohort"}
                 </h1>
                 <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
-                  {data?.enrollments == "inactive"
-                    ? "Coming Soon"
-                    : data?.start_date}
+                  {isAdmissionClosedProgram
+                    ? `${data?.key_features?.find(f => f.title === "hours")?.count ?? "120"}+ Hours`
+                    : data?.enrollments == "inactive"
+                      ? "Coming Soon"
+                      : data?.start_date}
                 </h4>
               </div>
             </div>
+
+            {/* ── CHANGE 2: For IIMV program show "Admission Deadline → Closed", original logic for others ── */}
             {data.enrollments === "active" && (
               <div className="flex gap-2 items-center">
                 <div className="xl:w-12 w-10 h-10 xl:h-12 md:block hidden flex-shrink-0 bg-green-100 rounded-full p-3">
@@ -223,28 +260,32 @@ const Hero = () => {
                 </div>
                 <div className="text-center sm:text-start">
                   <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
-                    {(() => {
-                      return startDateObj < admissionDeadlineObj
-                        ? "Cohort Status"
-                        : "Admission Deadline";
-                    })()}
+                    {isAdmissionClosedProgram
+                      ? "Admission Deadline"
+                      : (() => {
+                        return startDateObj < admissionDeadlineObj
+                          ? "Cohort Status"
+                          : "Admission Deadline";
+                      })()}
                   </h1>
                   <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
-                    {(() => {
-                      if (startDateObj < admissionDeadlineObj) {
-                        return "Closing Soon";
-                      }
-
-                      return data?.admission_deadline ? (
-                        data?.admission_deadline
-                      ) : (
-                        <Moment format="D MMM YYYY">{date}</Moment>
-                      );
-                    })()}
+                    {isAdmissionClosedProgram
+                      ? "Closed"
+                      : (() => {
+                        if (startDateObj < admissionDeadlineObj) {
+                          return "Closing Soon";
+                        }
+                        return data?.admission_deadline ? (
+                          data?.admission_deadline
+                        ) : (
+                          <Moment format="D MMM YYYY">{date}</Moment>
+                        );
+                      })()}
                   </h4>
                 </div>
               </div>
             )}
+
             <div className="flex gap-2 items-center">
               <div className="xl:w-12 w-10 h-10 xl:h-12 md:block hidden flex-shrink-0 bg-green-100 rounded-full p-3">
                 <IoCalendarNumberOutline className="w-full h-full text-green-500" />
@@ -259,6 +300,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
 
           {/* Action Buttons */}
           <div className="flex md:flex-row flex-col-reverse items-center gap-0 md:gap-4 lg:justify-normal justify-center w-full md:w-auto">
@@ -303,6 +345,7 @@ const Hero = () => {
             )}
           </div>
 
+
           {/* Message Section */}
           {isMain && data?.enrollments !== "inactive" && (
             <div className="lg:text-start text-center flex max-lg:justify-center">
@@ -317,6 +360,7 @@ const Hero = () => {
                     ? <>
                       <HandshakeIcon className="text-green-400 inline-block w-5 h-5  mr-1" /> Marketing Partner Accredian
 
+
                     </>
                     : (
                       <>
@@ -326,9 +370,11 @@ const Hero = () => {
                     )}
                 </h4>
 
+
               )}
             </div>
           )}
+
 
           {/* Tags on Desktop - Below Message */}
           <div className="hidden lg:flex gap-4 lg:justify-normal justify-center mt-4">
@@ -354,6 +400,7 @@ const Hero = () => {
             ))}
           </div>
         </div>
+
 
         {/* Right Section - University Card (Desktop Only) */}
         <div className="w-full lg:flex-[0.5] hidden lg:flex justify-end relative gap-4">
@@ -384,6 +431,7 @@ const Hero = () => {
                 <LuShare2 className="w-full h-full text-blue-500" />
               </div>
             </div>
+
 
             <div className="w-full h-full relative">
               <img
@@ -426,5 +474,6 @@ const Hero = () => {
     </div>
   );
 };
+
 
 export default Hero;

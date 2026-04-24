@@ -6,8 +6,23 @@ import CustomEnrollNowButton from "../../Programs/CustomEnrollNowButton";
 import CircularProgress from "@mui/material/CircularProgress";
 import { allowedIds } from "../../Assets/constants";
 
+
+// ── Add more program IDs here as needed ──
+const ADMISSION_CLOSED_IDS = [
+  "iimv-executive-program-in-leadership-with-ai",
+  "executive-program-in-generative-ai-for-business-leaders",
+  "chief-executive-officer-program",
+  "senior-management-program",
+  "executive-program-in-strategy-leadership-and-innovation-in-ai-era"
+];
+
+
 const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
   const dispatch = useDispatch();
+
+  // Check if the current program is in the admission closed list
+  const isAdmissionClosedProgram = ADMISSION_CLOSED_IDS.includes(data?.id);
+
 
   const handleEnrollNow = () => {
     if (data) {
@@ -15,11 +30,13 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
     }
   };
 
+
   const handleDownloadBrochure = () => {
     if (data) {
       dispatch(programActions.setBrochureState(data));
     }
   };
+
 
   const handleScrollTop = () => {
     const scrollHeight = window.scrollY;
@@ -32,6 +49,7 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
       }
     }, 15);
   };
+
 
   return (
     <div className="w-full fixed bottom-0 z-[100] pointer-events-none">
@@ -55,16 +73,21 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
         {/* for desktop */}
         <div className="w-full max-w-[85rem] hidden lg:flex items-center justify-between gap-4">
           <div className="flex-[0.3] flex items-center gap-8">
+
+            {/* ── CHANGE: For admission closed programs, replace "Next cohort" with "Admission Deadline → Closed" ── */}
             <div className="">
               <h1 className="text-neutral-600 text-xs font-semibold">
-                Next cohort
+                {isAdmissionClosedProgram ? "Admission Deadline" : "Next cohort"}
               </h1>
               <h4 className="text-base font-semibold text-universal text-nowrap">
-                {data?.enrollments == "inactive"
-                  ? "Coming Soon"
-                  : data?.start_date}
+                {isAdmissionClosedProgram
+                  ? "Closed"
+                  : data?.enrollments == "inactive"
+                    ? "Coming Soon"
+                    : data?.start_date}
               </h4>
             </div>
+
             <div className="">
               <h1 className="text-neutral-600 text-xs font-semibold">
                 Duration
@@ -120,6 +143,7 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
               //   Enroll Now
               // </button>
 
+
               <>
                 {enrollLoderState ? (
                   <button
@@ -173,16 +197,21 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
               </h1>
             )}
             <div className="hidden md:flex gap-4">
+
+              {/* ── CHANGE: For admission closed programs, replace "Next cohort" with "Admission Deadline → Closed" on tablet ── */}
               <div className="">
                 <h1 className="text-neutral-600 text-xs font-semibold">
-                  Next cohort
+                  {isAdmissionClosedProgram ? "Admission Deadline" : "Next cohort"}
                 </h1>
                 <h4 className="text-sm font-semibold text-universal text-nowrap">
-                  {data?.enrollments == "inactive"
-                    ? "Coming Soon"
-                    : data?.start_date}
+                  {isAdmissionClosedProgram
+                    ? "Closed"
+                    : data?.enrollments == "inactive"
+                      ? "Coming Soon"
+                      : data?.start_date}
                 </h4>
               </div>
+
               <div className="">
                 <h1 className="text-neutral-600 text-xs font-semibold">
                   Duration
@@ -260,5 +289,6 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
     </div>
   );
 };
+
 
 export default NavigationDown;

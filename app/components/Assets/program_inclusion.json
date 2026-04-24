@@ -2249,8 +2249,29 @@
   },
 
   {
-    "title": "Professional Certificate in Generative AI for Business Transformation ",
+    "title": "Professional Certificate in Applied Generative AI",
     "id": "professional-certificate-in-applied-generative-ai-4-months",
+    "data": {
+      "Institute Name": "SP Jain School of Global Management | Dubai, Singapore",
+      "Program Name": "Professional Certificate in Applied Generative AI",
+      "Duration of the Program": "4 Months",
+      "Program Terms/Modules": "4 Modules",
+      "Live Session Hours": "48+ Hours",
+      "Capstone Project": "1 Capstone Project upon Modules Completion",
+      "Campus Immersion": "NA",
+      "Campus Immersion Fee": "NA",
+      "Program Faculty": "SP Jain School of Global Management Faculty and Industry Experts ",
+      "Alumni Status": "Executive Alumni Status from SP Jain School of Global Management awarded upon program completion",
+      "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
+    }
+  },
+
+  {
+    "title": "Professional Certificate in Generative AI for Business Transformation ",
+    "id": "professional-certificate-in-generative-ai-for-business-transformation-4-months",
     "data": {
       "Institute Name": "SP Jain School of Global Management | Dubai, Singapore",
       "Program Name": "Professional Certificate in Generative AI for Business Transformation ",
@@ -2268,6 +2289,7 @@
       "Tools/Framework Covered in the Program": "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
     }
   },
+
   {
     "title": "Executive Program in Strategic Project Management & Leadership ",
     "id": "executive-program-in-strategic-project-management-and-leadership-6-months",

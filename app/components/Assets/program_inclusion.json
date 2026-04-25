@@ -2594,5 +2594,31 @@
       "Certificates": "Completion Certificate from XLRI",
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
+  },
+  {
+    "title": "Senior Management Program",
+    "id": "iimr-senior-management-program-12months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "Senior Management Program",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "13 Modules",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project upon Program Completion",
+      "Campus Immersion": "One Campus Immersions of 3 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+      ],
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
   }
 ]

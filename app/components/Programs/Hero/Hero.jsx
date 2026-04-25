@@ -168,11 +168,14 @@ const Hero = () => {
               {/* University Logo Box - Bottom Left */}
               <div className="bg-white rounded-md px-3 py-1 inline-block mb-3">
                 <div
-                  className={`${data.short_university_name?.toLowerCase() !== "iim-trichy" ? data.short_university_name?.toLowerCase() !== "iiml"
-                    ? "max-w-[100px]"
-                    : "max-w-[100px]"
-                    : "max-w-[120px]"
-                    }`}
+                  className={`${data.short_university_name?.toLowerCase() === "iim-trichy"
+                    ? "max-w-[300px]"
+                    : data.short_university_name?.toLowerCase() === "iiml"
+                      ? "max-w-[200px]"
+                      : data.short_university_name?.toLowerCase() === "iim-ranchi"
+                        ? "max-w-[70px]"   // ← adjust this value to your liking
+                        : "max-w-[120px]"
+                    } flex-shrink-0 rounded-md`}
                 >
                   <img
                     className="w-full h-full object-contain"
@@ -359,8 +362,6 @@ const Hero = () => {
                   {data?.id === "post-graduate-diploma-in-management-for-working-executives"
                     ? <>
                       <HandshakeIcon className="text-green-400 inline-block w-5 h-5  mr-1" /> Marketing Partner Accredian
-
-
                     </>
                     : (
                       <>
@@ -407,12 +408,12 @@ const Hero = () => {
           <div className="lg:mx-6 w-full min-h-0 md:min-h-[260px] max-h-[400px] drop-shadow-none md:drop-shadow-md bg-white border overflow-hidden rounded-lg relative flex flex-col">
             <div className="py-2 px-4 bg-white flex items-center md:justify-between justify-center border-b drop-shadow-none md:drop-shadow-md">
               <div
-                className={`${data.short_university_name?.toLowerCase() !== "iim-trichy"
-                  ? data.short_university_name?.toLowerCase() !== "iiml"
-                    ? "max-w-[120px]"
-                    : "max-w-[200px]"
-                  : "max-w-[300px]"
-                  } flex-shrink-0 rounded-md`}
+                className={`${data.short_university_name?.toLowerCase() === "iim-trichy"
+                  ? "max-w-[120px]"
+                  : data.short_university_name?.toLowerCase() === "iim-ranchi"
+                    ? "max-w-[60px]"   // ← adjust this value to your liking
+                    : "max-w-[100px]"
+                  }`}
               >
                 <img
                   className={`${data.short_university_name?.toLowerCase() !== "iim-trichy"

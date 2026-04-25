@@ -3699,6 +3699,200 @@ export const universityFaqTemplates = {
                 ]
             }
         ]
+    },
+    iimr_senior_management_program: {
+        templateId: "iimr_senior_management_program_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIMR Senior Management Program about?",
+                        content: [
+                            "The Senior Management Program from IIM Ranchi is a 12-month program designed to strengthen strategic thinking, leadership capabilities, and decision-making skills. The program blends academic rigor with practical application through case studies, simulations, CXO sessions, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across multiple modules covering all core aspects of senior management: including strategy, leadership development, organizational transformation, digital business, finance, and business simulations.",
+                            "- **Duration:** 12 months",
+                            "- **Learning Format:** 144+ hours of live online sessions",
+                            "- **Class Timings:** Conducted on weekends",
+                            "- **Flexibility:** Recordings available in case a session is missed"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5+ years is preferred."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in strategy or leadership roles to enroll?",
+                        content: [
+                            "No. Prior management or leadership experience is not mandatory."
+                        ]
+                    },
+                    {
+                        title: "How do I apply for the program?",
+                        content: [
+                            "You can apply through Accredian's application portal at: {applyLink}"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIM Ranchi after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Ranchi upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% or above"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and how is it recognized by employers?",
+                        content: [
+                            "This is a Certificate program from IIM Ranchi, one of India's most reputed IIMs, and is widely recognized by employers across industries."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni benefits or networking opportunities with IIMR?",
+                        content: [
+                            "Yes. Participants will receive IIMR Executive Alumni Status. It is included in the program fees."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official confirmation from IIM Ranchi for my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching in the program?",
+                        content: [
+                            "The program is taught by IIM Ranchi Faculty."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, simulations)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, industry immersion sessions, case studies, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring or support available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, **please note that no placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career mentoring is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles, industries, or leadership opportunities can I target after completing this program?",
+                        content: [
+                            "Graduates can explore leadership roles across industries such as consulting, IT, BFSI, manufacturing, FMCG, and emerging tech sectors."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is ₹2,60,000 + GST.",
+                            "- Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: {policyLink}"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "What does the IIM Ranchi campus immersion include, and how is it scheduled?",
+                        content: [
+                            "One campus immersion of 3 days at IIM Ranchi is **included in the program fee**.",
+                            "",
+                            "- **Food and accommodation** are included in the program fee",
+                            "- **Travel cost** is not included and must be arranged by the participant",
+                            "- IIM Ranchi will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Learner Reviews & Why Choose This Program",
+                questions: [
+                    {
+                        title: "What do past learners say about this program?",
+                        content: [
+                            "Past learners have highlighted the program's structured curriculum, practical projects, and the opportunity to learn from industry experts. Many found the sessions on corporate business and leadership particularly valuable."
+                        ]
+                    },
+                    {
+                        title: "Why choose this program over other senior management programs?",
+                        content: [
+                            "This program combines IIM Ranchi's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 
 };

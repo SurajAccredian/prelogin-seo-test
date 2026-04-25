@@ -118,15 +118,22 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
                 Accredited by
               </h1>
               <div className="flex items-center justify-center gap-2 mt-3">
-                <div className="max-w-[120px] flex-shrink-0 rounded-md">
+                <div
+                  className={`${data.short_university_name?.toLowerCase() === "iim-ranchi"
+                    ? "max-w-[70px]"   // ← adjust to your liking
+                    : "max-w-[120px]"
+                    } flex-shrink-0 rounded-md`}
+                >
                   <img
-                    className={`${data.short_university_name?.toLowerCase() !== "iim-trichy"
-                      ? "w-full h-full"
-                      : "w-14 h-14"
+                    className={`${data.short_university_name?.toLowerCase() === "iim-trichy"
+                      ? "w-14 h-14"
+                      : "w-full h-full"
                       } rounded`}
-                    src={data.short_university_name?.toLowerCase() !== "iim-trichy"
-                      ? data?.university_logo
-                      : "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"}
+                    src={
+                      data.short_university_name?.toLowerCase() === "iim-trichy"
+                        ? "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
+                        : data?.university_logo
+                    }
                     alt="university"
                   />
                 </div>

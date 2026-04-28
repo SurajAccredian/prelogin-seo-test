@@ -2620,5 +2620,45 @@
       "Certificates": "Completion Certificate from IIM Ranchi",
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
+  },
+  {
+    "title": "Professional Certificate in AI for Leaders",
+    "id": "sp-jain-professional-certificate-in-ai-for-leaders-4-months",
+    "data": {
+      "Institute Name": "SP Jain School of Global Management | Dubai, Singapore",
+      "Program Name": "Professional Certificate in AI for Leaders",
+      "Duration of the Program": "4 Months",
+      "Program Terms/Modules": "4 Modules",
+      "Live Session Hours": "48+ Hours",
+      "Capstone Project": "1 Capstone Project upon Modules Completion",
+      "Campus Immersion": "NA",
+      "Campus Immersion Fee": "NA",
+      "Program Faculty": "SP Jain School of Global Management Faculty and Industry Experts ",
+      "Alumni Status": "Executive Alumni Status from SP Jain School of Global Management awarded upon program completion",
+      "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "10+ Tools Chatgpt, Gemini, Claude, Sora etc."
+    }
+  },
+  {
+    "title": "Executive Program in Leadership with AI",
+    "id": "sp-jain-executive-program-in-leadership-with-ai-7-months",
+    "data": {
+      "Institute Name": "SP Jain School of Global Management | Dubai, Singapore",
+      "Program Name": "Executive Program in Leadership with AI",
+      "Duration of the Program": "7 Months",
+      "Program Terms/Modules": "8 Modules",
+      "Live Session Hours": "84+ Hours",
+      "Capstone Project": "2 Capstone Project upon Modules Completion",
+      "Campus Immersion": "NA",
+      "Campus Immersion Fee": "NA",
+      "Program Faculty": "SP Jain School of Global Management Faculty and Industry Experts ",
+      "Alumni Status": "Executive Alumni Status from SP Jain School of Global Management awarded upon program completion",
+      "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc."
+    }
   }
 ]

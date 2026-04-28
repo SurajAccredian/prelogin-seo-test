@@ -1,6 +1,81 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "university_name": "SP Jain School of Global Management",
+    "program_name": "Professional Certificate in AI for Leaders",
+    "duration": "4 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
+    "batch_type": "Online",
+    "id": "professional-certificate-in-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Professional-Certificate-in-AI-for-Leaders-Brochure.pdf",
+      "source": "SPJ Professional Certificate in AI for Leaders Brochure",
+      "campaign_name": "PCAIL-SPJ-4 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "21st Jun 2026",
+    "contact": "9358719988"
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "university_name": "SP Jain School of Global Management",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "7 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
+    "batch_type": "Online",
+    "id": "sp-jain-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Executive-Program-in-Leadership-with-AI-Brochure.pdf",
+      "source": "SPJ Executive Program in Leadership with AI Brochure",
+      "campaign_name": "EPLAI-SPJ-7 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "21st Jun 2026",
+    "contact": "9358719988"
+  },
+
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "university_name": "IIM Ranchi",
     "program_name": "Senior Management Program",

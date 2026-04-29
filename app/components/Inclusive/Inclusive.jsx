@@ -55,7 +55,21 @@ const Inclusive = () => {
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
-    const data = PROGRAM_INCLUSION.find((item) => item.id === id);
+    const normalize = (s) => {
+      if (!s) return "";
+      try {
+        return decodeURIComponent(s)
+          .toLowerCase()
+          .replace(/&/g, "and")
+          .replace(/[^a-z0-9]/g, "");
+      } catch (e) {
+        return s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "");
+      }
+    };
+
+    const targetId = normalize(id);
+    const data = PROGRAM_INCLUSION.find((item) => normalize(item.id) === targetId);
+
     if (data) {
       setInclusiveWithId(data);
       setNotFound(false);

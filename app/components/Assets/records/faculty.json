@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Deepesh Wadhwani",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+    "position": "Director",
+    "organization": "SketchMyHome.AI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/scetch-homes.webp"
+  },
+  {
+    "name": "Nishkam Verma",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+    "position": "Data Scientist",
+    "organization": "American Express",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+  },
+  {
+    "name": "Amit Goyal",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+    "position": "Team Lead - Data Analytics",
+    "organization": "Paytm",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+  },
+  {
+    "name": "Gaurav Trivedi",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+    "position": "Assistance Professor",
+    "organization": "IIT Guwahati",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+  },
+  {
+    "name": "Lavi",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/lavi-v1.webp",
+    "position": "Software Engineer",
+    "organization": "Google",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/google.webp"
+  },
+  {
+    "name": "Subhodeep Dey",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+    "position": "Lead Data Scientist",
+    "organization": "Jio",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+  },
+  {
+    "name": "Neelmani Gupta",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/neelmani-gupta-v1.webp",
+    "position": "Head Data Scientist",
+    "organization": "Gojek",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gojek.webp"
+  },
+  {
+    "name": "Prahlad Modi",
+    "position": "Senior Product Manager",
+    "organization": "Adobe",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Prahlad-v1.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Adobe.webp"
+  },
+  {
+    "name": "Shailendra",
+    "position": "Co-Founder",
+    "organization": "Change Engine",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Changengine.webp"
+  },
+  {
+    "name": "Rajib Roy",
+    "position": "Product",
+    "organization": "Walmart Global Tech India",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+  },
+  {
+    "name": "Sai Charan",
+    "position": "Product Manager",
+    "organization": "Google",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Sai-v1.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/google.webp"
+  },
+  {
+    "name": "Harihara",
+    "position": "Senior Program Manager",
+    "organization": "Amazon",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+  },
+  {
+    "name": "Gaurav Verma",
+    "position": "Product Manager II",
+    "organization": "Chegg Inc",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+  },
+  {
+    "name": "Premanku Chakraborty",
+    "position": "Senior Product Manager",
+    "organization": "Atlassian",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+  },
+  {
+    "name": "Pratul Gupta",
+    "position": "Product Manager",
+    "organization": "Razorpay",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+  },
+  {
+    "name": "Dr. Amit Shankar",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+    "position": "Program Co-Director",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Dr. Sushil Kumar",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+    "position": "Program Director",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. Aalok Kumar",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/alok-kr-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. Happy Paul",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+    "position": "Professor- HRM & OB",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. Joysula Srinivas",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+    "position": "Information System",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. MV Anuradha",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+    "position": "HRM & OB",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. PRS Sharma",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
+    "position": "Professor",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. Pooja Kumari",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/pooja-kumari-v1.webp",
+    "position": "Finance & Accounting",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. Shalini Agnihotri",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Prof. Md. Shameem Jawed",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shameem-v1.webp",
+    "position": "Associate Professor",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Dr. Monika Dhochak",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/monica-dochak-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Dr. Kaveri Krishnan",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/kaveri-krishna-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "IIMV",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+  },
+  {
+    "name": "Dr Malvika",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-malvika-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Dr Rahul",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/rahul-v1.webp",
+    "position": "Faculty",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Narasimhan",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/narasimhan-v1.webp",
+    "position": "Associate Dean",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "MG Jomon",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/jomon-v1.webp",
+    "position": "Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Sanjiv Bhatia",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/sanjiv-v1.webp",
+    "position": "",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Faisal",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/faizal-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Vinit",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
+    "position": "Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Dr Sunil",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-sunil-v1.webp",
+    "position": "Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Dr Vaibhav",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-vaibhav-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Raghu",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/raghu-v1.webp",
+    "position": "CA & Visiting Faculty",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Rajeev",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/rajeev-roy-v1.webp",
+    "position": "CEO",
+    "organization": "XCEED",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xceed-v1.webp"
+  },
+  {
+    "name": "Dr. Shravasti Chakravarti",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/sharvasti-v1.webp",
+    "position": "Assistant Professor",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Sandeep Bhushan",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/sandeep-v1.webp",
+    "position": "Faculty Strategic",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Dr. Sam Placid",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/sam-placid-v1.webp",
+    "position": "Cheif, Corporate Relations",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Dr. Ankit",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI-SL-Faculty/ankit-v1.webp",
+    "position": "Ph.D.",
+    "organization": "XLRI",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+  },
+  {
+    "name": "Arun Kumar Kaushik",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/arun-kumar-kaushik.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Harpreet Kaur",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/harpreet-kaur.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Nabendu Paul",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/nabendu-paul.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Pankaj Gupta",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/pankaj-gupta.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Santosh Kumar Tiwari",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/santosh-kumar-tiwari.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Sunil Reddy Kunduru",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/sunil-reddy-kunduru.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Vartika Dutta",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/vartika-dutta.webp",
+    "position": "",
+    "organization": "",
+    "organization_image": ""
+  },
+  {
+    "name": "Suchit Majunmdar",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/suchit-v1.webp",
+    "position": "Product Manager",
+    "organization": "Accredian",
+    "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
+  }
+]

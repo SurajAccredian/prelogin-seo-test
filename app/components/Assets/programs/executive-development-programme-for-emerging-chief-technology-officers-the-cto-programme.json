@@ -121,122 +121,146 @@
   ],
   "curriculum": [
     {
-      "title": "Future of Workplace",
-      "week": "",
+      "title": "The Role of the Modern CTO",
+      "id": "role-of-modern-cto",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
       "points": [
-        "Setting the Context for Digital Change in HR",
-        "Developing an Ability to Look into the Future",
-        "Industry 4.0 & the Skilling Challenges",
-        "Impact of Organizational Design on Strategy",
-        "New-Age Organization Design & Structures",
-        "Digital Transformation in Business",
-        "Digital: Future for HR",
-        "Managing the Transformation",
-        "Social Media & Employer Branding",
-        "Impact of Work from Anywhere",
-        "Managing Organization Culture in Hybrid Workmode"
+        "Evolution of the CTO Role",
+        "Board & CXO Stakeholder Management",
+        "CTO Accountability & Value Creation"
       ]
     },
     {
-      "title": "Strategic HRM",
-      "week": "",
+      "title": "Technology Strategy & Business Alignment",
+      "id": "technology-strategy-business-alignment",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
       "points": [
-        "Strategic Staffing & Resource Allocation",
-        "Managing Remote Contractual Workforce",
-        "Talent Management: Attraction, Retention, & Development",
-        "Aligning Business Strategy with Organization Objectives (SHRM Frameworks)",
-        "Change Management",
-        "Building Learning Organizations",
-        "Role of HR in Internationalization",
-        "Role of HR in Successful Mergers, Acquisitions & Joint Ventures",
-        "Corporate Governance"
+        "Technology Strategy Formulation",
+        "Business–Technology Alignment",
+        "Enterprise Architecture",
+        "Strategic Foresight & Scenario Planning"
       ]
     },
     {
-      "title": "Understanding HR Metrics",
-      "week": "",
+      "title": "Technology Investment, Budgeting & ROI",
+      "id": "technology-investment-budgeting-roi",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
       "points": [
-        "Digital Tools for Research",
-        "Employee Persona & Look-alike Audience",
-        "Employer Branding & Case Study Discussions",
-        "Framework for Problem Solving (Define Problem, Collect Data, Build Model, Evaluate & Present Results)",
-        "People Analytics - Basics",
-        "Steps to Workforce Planning (Supply, Demand, Gap & Solution Analysis - Markov Chain, Scatter Plot, Trend Analysis)",
-        "Strategic HR Metrics",
-        "Employee Training & Development Analytics",
-        "Talent Engagement Analytics",
-        "HR Scorecards"
+        "CapEx vs OpEx Decisions for Technology",
+        "Modeling ROI for Technology Programs",
+        "Architecture-Aware Budgeting"
       ]
     },
     {
-      "title": "Digitalization, AI & HRM",
-      "week": "",
+      "title": "Digital & Technology Architecture",
+      "id": "digital-technology-architecture",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
       "points": [
-        "Interpreting Data for Actionable Insights",
-        "Behavioral Modeling & Predictive Analytics (Case Discussion)",
-        "GenAI & its Applications in HR Strategy (Planning, Recruitment & Selection)",
-        "GenAI & its Applications in Learning & Development, Performance & Career Management",
-        "Developing Learning Experience Platforms",
-        "Ethical Issues in the Digitalization of HRM"
+        "Modern Data Architecture for Scalability & Risk Reduction",
+        "Analytics, Integrations & Modular Design",
+        "Managing Technical Debt",
+        "Aligning Architecture Choices with Customer & Business Goals",
+        "Cloud & Service Oriented Architecture",
+        "Data Warehouse and Lakehouse Architecture",
+        "IT Service Management"
       ]
     },
     {
-      "title": "Motivating Next-Gen Employees",
-      "week": "",
+      "title": "Technology-Driven Product Leadership",
+      "id": "technology-driven-product-leadership",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
       "points": [
-        "Reimagine Careers & Succession Planning",
-        "Performance Management & Appraisal for Next-Gen Employees",
-        "Compensation Management including Rewards & Recognition"
+        "CTO's Role in Product Strategy",
+        "Platform Thinking & Digital Ecosystems",
+        "Tech-Enabled Business Model Innovation",
+        "Tech-Driven Value Creation (Blockchain, AR/VR etc.)"
       ]
     },
     {
-      "title": "Leadership",
-      "week": "",
+      "title": "Leading Digital Transformation at Scale",
+      "id": "leading-digital-transformation-scale",
+      "pillar": "Pillar 2: Digital, Technology & AI Leadership",
       "points": [
-        "Self-Leadership, Servant Leadership & Emotional Intelligence",
-        "Building Leadership through Uncertain Times; Leadership & Communication",
-        "Employee Counseling, Coaching & Mentoring for Leadership Development",
-        "Leading Innovation",
-        "Leading Start-ups",
-        "Conflict Management & Negotiation"
+        "Driving Enterprise-Wide Digital Strategy & Priorities",
+        "Redesigning Processes, Customer Journeys & Workflows",
+        "Orchestrating Cross-Functional Change & Alignment",
+        "Capability Building & Value Realization",
+        "Agile & DevOps Frameworks"
       ]
     },
     {
-      "title": "Employee Wellness & Mental Well-Being",
-      "week": "",
+      "title": "AI & GenAI Strategy for CTOs",
+      "id": "ai-genai-strategy-ctos",
+      "pillar": "Pillar 2: Digital, Technology & AI Leadership",
       "points": [
-        "Future of Work: Post-Pandemic Perspectives",
-        "Understanding & Managing Stress in the Workplace",
-        "Mental Health & Well-Being"
+        "Identifying High-Value AI & GenAI Use Cases",
+        "Building an Enterprise AI Adoption Roadmap",
+        "Ensuring Responsible, Risk-Aware AI Deployment",
+        "Capability Building for AI-Ready Organizations",
+        "Introduction to Agentic AI"
       ]
     },
     {
-      "title": "Diversity, Equity, & Inclusion",
-      "week": "",
+      "title": "Cybersecurity, Privacy & Digital Resilience",
+      "id": "cybersecurity-privacy-digital-resilience",
+      "pillar": "Pillar 2: Digital, Technology & AI Leadership",
       "points": [
-        "Relevance in the Present Time & Context",
-        "Diversity: A Strong Business Case",
-        "Types: Cultural, Racial, Religious, Age, Sex, Sexual Orientation, Physical, Mental, Caste, Regional",
-        "Psychological Foundations",
-        "Leading a Diverse Workforce",
-        "Team Diversity",
-        "Diversity at the Top: Diverse Leadership Styles",
-        "Fostering a Culture that Embraces and Leverages Diversity"
+        "Enterprise Cybersecurity Leadership",
+        "Threat Detection & Incident Response",
+        "Data Privacy & Regulatory Compliance",
+        "Secure-by-Design Engineering"
       ]
     },
     {
-      "title": "Future of Industrial Relations & New Labor Laws",
-      "week": "",
-      "points": ["Labour Laws", "HR Compliance", "New Policies"]
+      "title": "Technology Governance, Risk & Compliance",
+      "id": "technology-governance-risk-compliance",
+      "pillar": "Pillar 3: Tech Governance & Cybersecurity for CTOs",
+      "points": [
+        "IT Governance Frameworks",
+        "Technology Risk Management",
+        "Resilience & Regulatory Governance",
+        "Board-Level Reporting & Audit Readiness"
+      ]
     },
     {
-      "title": "Campus Immersion",
-      "week": "",
+      "title": "Innovation, R&D & Technology Foresight",
+      "id": "innovation-rd-technology-foresight",
+      "pillar": "Pillar 4: Innovation & Influence Leadership for CTOs",
       "points": [
-        "Critical Concepts of Marketing",
-        "Role of HR as a Business Growth Enabler",
-        "Understanding the Business Landscape",
-        "Capstone Project"
+        "CTO-Led Innovation & New Product Development",
+        "Design Thinking",
+        "Pilot → Prototype → Scale Innovation Models",
+        "Gamification",
+        "Governance for Innovation & Knowledge Management"
+      ]
+    },
+    {
+      "title": "Building & Scaling High-Performance Tech Teams",
+      "id": "building-scaling-high-performance-tech-teams",
+      "pillar": "Pillar 4: Innovation & Influence Leadership for CTOs",
+      "points": [
+        "Modern Engineering Org Design (Platform Teams, Pods)",
+        "Talent Strategy: Hiring, Upskilling & Retention",
+        "Culture of Ownership, Innovation & Excellence",
+        "Performance Management"
+      ]
+    },
+    {
+      "title": "Strategic Communication & Boardroom Influence",
+      "id": "strategic-communication-boardroom-influence",
+      "pillar": "Pillar 4: Innovation & Influence Leadership for CTOs",
+      "points": [
+        "Executive Presence for Technology Leaders",
+        "Storytelling with Data (Non-Technical Narratives)",
+        "Boardroom Communication for Tech Strategy"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "id": "capstone-project",
+      "special": "1",
+      "points": [
+        "CTO participants craft a business-aligned technology strategy that accelerates growth and operational excellence. They define priorities across modernization, platforms, data, and AI, map capability gaps, and design an execution roadmap with clear KPIs and ROI. The blueprint is presented to a mock board for alignment, challenge, and strategic endorsement."
       ]
     }
   ],

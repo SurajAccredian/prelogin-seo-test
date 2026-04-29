@@ -1,5 +1,21 @@
 [
   {
+    "university_name": "SP Jain School of Global Management",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "program_name": "Professional Certificate in AI for Leaders",
+    "category": "artificial intelligence",
+    "start_date": "21st Jun 2026",
+    "status": "New Launch"
+  },
+  {
+    "university_name": "SP Jain School of Global Management",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "program_name": "Executive Program in Leadership with AI",
+    "category": "artificial intelligence",
+    "start_date": "21st Jun 2026",
+    "status": "New Launch"
+  },
+  {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Senior Management Program",
@@ -229,7 +245,7 @@
     "program_name": "Global Senior Leadership Program",
     "category": "senior management",
     "start_date": "28 Mar 2026",
-    "status": "admission closed"
+    "status": "New Launch"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -245,7 +261,7 @@
     "program_name": "Executive Development Program in Strategy & Leadership",
     "category": "strategy & leadership",
     "start_date": "05 Jul 2026",
-    "status": "Coming Soon"
+    "status": "New Launch"
   },
   {
     "university_name": "IIM Visakhapatnam",

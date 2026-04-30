@@ -412,13 +412,17 @@ const Hero = () => {
                   ? "max-w-[120px]"
                   : data.short_university_name?.toLowerCase() === "iim-ranchi"
                     ? "max-w-[60px]"   // ← adjust this value to your liking
-                    : "max-w-[100px]"
+                    : data.short_university_name?.toLowerCase() === "iim-amritsar"
+                      ? "max-w-[250px]"  // ← adjust this value to your liking
+                      : "max-w-[100px]"
                   }`}
               >
                 <img
-                  className={`${data.short_university_name?.toLowerCase() !== "iim-trichy"
-                    ? "w-full h-full"
-                    : "w-[300px] h-[35px]"
+                  className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
+                    ? "w-[400px] h-[55px]"
+                    : data?.short_university_name?.toLowerCase() !== "iim-trichy"
+                      ? "w-full h-full"
+                      : "w-[300px] h-[35px]"
                     } rounded`}
                   src={data?.university_logo}
                   alt="university"

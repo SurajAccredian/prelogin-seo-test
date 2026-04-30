@@ -8,7 +8,7 @@
   "contact": "9810184424",
   "university_name": "IIM Amritsar",
   "short_university_name": "iitg",
-  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v1.webp",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v2.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-amritsar-cover-v2.webp",
   "start_date": "22 Sept 2024",
   "duration": "8 months",
@@ -123,11 +123,7 @@
     "campus-immersion",
     "engaging-simulations"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "fill the application form",
     "application review",
@@ -315,7 +311,7 @@
     "programId": "executive-program-in-strategic-management",
     "points": [
       "80+ Hours of Live Classes",
-      
+
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
       "2-days Optional Campus Immersion"
@@ -361,9 +357,7 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": [
-              "The duration of the program is 8 months."
-            ]
+            "content": ["The duration of the program is 8 months."]
           }
         ]
       },

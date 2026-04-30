@@ -29,7 +29,7 @@ const universities = [
   },
   {
     name: "IIM Amritsar",
-    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v1.webp",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v2.webp",
   },
   {
     name: "XLRI Delhi | NCR",

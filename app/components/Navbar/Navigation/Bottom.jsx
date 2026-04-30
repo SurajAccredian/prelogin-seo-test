@@ -121,7 +121,9 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
                 <div
                   className={`${data.short_university_name?.toLowerCase() === "iim-ranchi"
                     ? "max-w-[70px]"   // ← adjust to your liking
-                    : "max-w-[120px]"
+                    : data.short_university_name?.toLowerCase() === "iim-amritsar"
+                      ? "max-w-[170px]"  // ← adjust this value to your liking
+                      : "max-w-[120px]"
                     } flex-shrink-0 rounded-md`}
                 >
                   <img

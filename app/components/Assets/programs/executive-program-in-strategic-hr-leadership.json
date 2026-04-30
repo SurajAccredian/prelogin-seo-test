@@ -10,11 +10,11 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "8 Feb 2026",
+  "start_date": "28 Jun 2026",
   "duration": "6 Months",
   "required_years_experience": 5,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -373,7 +373,7 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP%20Jain%20-%20Strategic%20HR%20Leadership%20Program-Brochure.pdf",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Strategic-HR-Leadership-Program-Brochure.pdf",
     "source": "SPJ Executive Program in Strategic HR Leadership Brochure",
     "campaign_name": "EPSHRL-SPJ-6 Months"
   }

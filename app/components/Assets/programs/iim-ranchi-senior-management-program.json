@@ -352,15 +352,15 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 19667
+        "emi": 22767
       },
       {
         "months": 18,
-        "emi": 13636
+        "emi": 15729
       },
       {
         "months": 24,
-        "emi": 10596
+        "emi": 12184
       }
     ],
     "total": 260000

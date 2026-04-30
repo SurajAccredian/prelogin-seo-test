@@ -8,7 +8,7 @@
   "contact": "9810184424",
   "university_name": "IIM Amritsar",
   "short_university_name": "iim-amritsar",
-  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v1.webp",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v2.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-amritsar-cover-v2.webp",
   "start_date": "26 Jul 2026",
   "duration": "10 months",
@@ -289,18 +289,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 18431
+        "emi": 13010
       },
       {
         "months": 18,
-        "emi": 12733
+        "emi": 8988
       },
       {
         "months": 24,
-        "emi": 9863
+        "emi": 6962
       }
     ],
-    "total": 210000
+    "total": 160000
   },
   "faq": {
     "programId": "executive-program-in-strategic-management",

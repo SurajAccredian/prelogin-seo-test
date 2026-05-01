@@ -289,18 +289,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 13010
+        "emi": 18431
       },
       {
         "months": 18,
-        "emi": 8988
+        "emi": 12733
       },
       {
         "months": 24,
-        "emi": 6962
+        "emi": 9863
       }
     ],
-    "total": 160000
+    "total": 210000
   },
   "faq": {
     "programId": "executive-program-in-strategic-management",

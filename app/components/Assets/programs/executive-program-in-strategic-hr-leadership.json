@@ -284,18 +284,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11926
+        "emi": 13010
       },
       {
         "months": 18,
-        "emi": 8239
+        "emi": 8988
       },
       {
         "months": 24,
-        "emi": 6382
+        "emi": 6962
       }
     ],
-    "total": 150000
+    "total": 160000
   },
   "faq": {
     "programId": "executive-program-in-strategic-hr-leadership",

@@ -10,7 +10,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "21 Jun 2026",
+  "start_date": "28 Jun 2026",
   "duration": "4 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -116,38 +116,48 @@
       ]
     },
     {
+      "title": "Applied Machine Learning for Executives",
+      "id": "applied-machine-learning-executives",
+      "points": [
+        "Intro to Machine Learning Models",
+        "Model Diagnostics",
+        "Data Driven Decision Making",
+        "Data Visualization and Digital Storytelling"
+      ]
+    },
+    {
       "title": "Generative AI for Leaders",
       "id": "generative-ai-for-leaders",
       "points": [
         "GenAI Models and Enterprise Ecosystem",
         "Business Applications and Workflow Integration",
         "Prompting for Business Outcomes",
-        "Deployment, Scaling, and Risk Considerations"
+        "Deployment Considerations"
       ]
     },
     {
-      "title": "AI Strategy, ROI & Roadmapping",
-      "id": "ai-strategy-roi-roadmapping",
+      "title": "AI Strategy & Digital Transformation",
+      "id": "ai-strategy-digital-transformation",
       "points": [
+        "Digital Transformation Frameworks and Strategy",
+        "Digital & AI Tools and Techniques",
         "AI Strategy and Business Alignment",
-        "High-Impact Use Case Prioritization",
-        "AI Execution Roadmaps and Operating Models",
-        "ROI, Value Realization, and Investment Decisions"
+        "AI Execution Roadmaps and Operating Models"
       ]
     },
     {
-      "title": "Building AI Products & Solutions (No Code)",
-      "id": "building-ai-products-solutions",
+      "title": "AI Business Models & Growth Strategy",
+      "id": "ai-business-models-growth-strategy",
       "points": [
-        "Identifying AI Product Opportunities",
-        "Designing AI Solutions and Workflows",
-        "Building MVPs with No-Code Tools",
-        "Testing, Iteration, and Scaling Solutions"
+        "AI-Native Business Models and Value Creation",
+        "Pricing, Monetization, and Revenue Strategies",
+        "Unit Economics and Margin Structures",
+        "Scaling AI-Driven Business Models"
       ]
     },
     {
       "title": "Capstone Project",
-      "id": "capstone-project-1",
+      "id": "capstone-project",
       "special": "1",
       "points": [
         "Participants identify a high-impact business problem and design an AI-enabled solution using strategy, product, and no-code tools. They define use cases, build a working prototype, evaluate ROI and business value, and present an implementation roadmap covering adoption, risks, and scalability, demonstrating how AI can drive measurable outcomes in real organizational contexts."
@@ -247,7 +257,7 @@
         "emi": 5744
       }
     ],
-    "total": 129000
+    "total": 130000
   },
   "faq": {
     "programId": "professional-certificate-in-ai-for-leaders",

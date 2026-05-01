@@ -38,7 +38,7 @@
     },
     {
       "title": "modules",
-      "text": 8
+      "text": 9
     },
     {
       "title": "capstone project",
@@ -116,33 +116,43 @@
       ]
     },
     {
+      "title": "Machine Learning and Digital Storytelling",
+      "id": "machine-learning-digital-storytelling",
+      "points": [
+        "Intro to Machine Learning Models",
+        "Model Diagnostics",
+        "Data Driven Decision Making",
+        "Data Visualization and Digital Storytelling"
+      ]
+    },
+    {
       "title": "Generative AI for Leaders",
       "id": "generative-ai-for-leaders",
       "points": [
         "GenAI Models and Enterprise Ecosystem",
         "Business Applications and Workflow Integration",
         "Prompting for Business Outcomes",
-        "Deployment, Scaling, and Risk Considerations"
+        "Deployment Considerations"
       ]
     },
     {
-      "title": "AI Strategy, ROI & Roadmapping",
-      "id": "ai-strategy-roi-roadmapping",
+      "title": "Digital Transformation and AI Strategy",
+      "id": "digital-transformation-ai-strategy",
       "points": [
+        "Digital Transformation Frameworks and Strategy",
+        "Various Tools and Techniques",
         "AI Strategy and Business Alignment",
-        "High-Impact Use Case Prioritization",
-        "AI Execution Roadmaps and Operating Models",
-        "ROI, Value Realization, and Investment Decisions"
+        "AI Execution Roadmaps and Operating Models"
       ]
     },
     {
-      "title": "Building AI Products & Solutions (No Code)",
-      "id": "building-ai-products-solutions",
+      "title": "AI Business Models & GTM Strategy",
+      "id": "ai-business-models-gtm-strategy",
       "points": [
-        "Identifying AI Product Opportunities",
-        "Designing AI Solutions and Workflows",
-        "Building MVPs with No-Code Tools",
-        "Testing, Iteration, and Scaling Solutions"
+        "AI-Native Business Models and Value Creation",
+        "Pricing, Monetization, and Revenue Strategies",
+        "Unit Economics and Market Structures",
+        "Scaling AI-Driven Business Models"
       ]
     },
     {
@@ -154,33 +164,25 @@
       ]
     },
     {
-      "title": "AI Business Models & GTM Strategy",
-      "id": "ai-business-models-gtm-strategy",
+      "title": "Building AI Products & Solutions (No Code)",
+      "id": "building-ai-products-solutions-no-code",
       "points": [
-        "AI-Native Business Models and Value Creation",
-        "Pricing, Monetization, and Revenue Strategies",
-        "Unit Economics and Margin Structures",
-        "Scaling AI-Driven Business Models"
+        "Identifying AI Product Opportunities",
+        "Designing AI Solutions and Workflows",
+        "Building MVPs with No-Code Tools",
+        "Testing, Iteration, and Scaling Solutions"
       ]
     },
     {
-      "title": "Applied AI in Business Functions",
-      "id": "applied-ai-business-functions",
+      "title": "Applied AI in Business Functions, KPI and ROI",
+      "id": "applied-ai-business-functions-kpi-roi",
       "points": [
         "AI in Marketing, Sales & Customer Experience",
         "AI in Operations & Supply Chain Transformation",
         "AI in HR, Finance & Enterprise Functions",
-        "Cross-Functional Value Creation with AI"
-      ]
-    },
-    {
-      "title": "AI Governance, Risk & Responsible AI",
-      "id": "ai-governance-risk-responsible",
-      "points": [
-        "Responsible AI Principles & Frameworks",
-        "Risk, Compliance & Regulatory Considerations",
-        "Bias, Explainability & Trust in AI Systems",
-        "Enterprise AI Governance Models"
+        "Cross-Functional Value Creation with AI",
+        "AI Based KPI for Function",
+        "Measuring and Optimizing ROI"
       ]
     },
     {
@@ -190,7 +192,18 @@
         "AI Agents and Autonomous Workflows",
         "Enterprise Use Cases and Applications",
         "Designing Agentic Processes & Workflows",
-        "AI-Native Organizations and Autonomous Operations"
+        "Agentic AI Commerce"
+      ]
+    },
+    {
+      "title": "Enterprise AI Considerations: Scalability, Consistency, Governance, Risk & Responsible AI",
+      "id": "enterprise-ai-scalability-governance-risk",
+      "points": [
+        "Building for Scalability and Consistency",
+        "Responsible AI Principles & Frameworks",
+        "Risk, Compliance & Regulatory Considerations",
+        "Bias, Explainability & Trust in AI Systems",
+        "Enterprise AI Governance Models"
       ]
     },
     {
@@ -300,18 +313,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 13986
+        "emi": 13010
       },
       {
         "months": 18,
-        "emi": 9662
+        "emi": 8988
       },
       {
         "months": 24,
-        "emi": 7485
+        "emi": 6962
       }
     ],
-    "total": 169000
+    "total": 160000
   },
   "faq": {
     "programId": "sp-jain-executive-program-in-leadership-with-ai",

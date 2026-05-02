@@ -8,7 +8,7 @@ import {
   MdOutlineAssignmentTurnedIn,
   MdOutlineSpaceDashboard,
 } from "react-icons/md";
-import { LuPackagePlus } from "react-icons/lu";
+import { LuNotebookPen, LuPackagePlus } from "react-icons/lu";
 import { programActions } from "../../../store/reducers/program";
 import { useDispatch } from "react-redux";
 import { GiStack } from "react-icons/gi";
@@ -22,11 +22,6 @@ import { Blocks, BookCopy, SquareLibrary } from "lucide-react";
 
 // ── Add more program IDs here as needed ──
 const ADMISSION_CLOSED_IDS = [
-  "iimv-executive-program-in-leadership-with-ai",
-  "executive-program-in-generative-ai-for-business-leaders",
-  "chief-executive-officer-program",
-  "senior-management-program",
-  "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
 ];
 
 
@@ -54,6 +49,7 @@ const FeatureIcons = {
   term: <MdOutlineSpaceDashboard className="w-full h-full" />,
   assignments: <FaTasks className="w-full h-full" />,
   "campus immersion": <FaUniversity className="w-full h-full" />,
+  "masterclasses": <LuNotebookPen className="w-full h-full" />,
   "campus immersions": <FaUniversity className="w-full h-full" />,
   "immersion at iimv": <FaUniversity className="w-full h-full" />,
   "campus immersion (opt.)": <FaUniversity className="w-full h-full" />,

@@ -1,13 +1,5 @@
 [
   {
-    "university_name": "I3C-IIT JAMMU",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-jammu-short-logo.webp",
-    "program_name": "Executive Program in Leadership with AI",
-    "category": "artificial intelligence",
-    "start_date": "21st Jun 2026",
-    "status": "New Launch"
-  },
-  {
     "university_name": "SP Jain School of Global Management",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in AI for Leaders",
@@ -133,7 +125,7 @@
     "program_name": "Executive Program in Generative AI for Business Leaders",
     "category": "artificial intelligence",
     "start_date": "9 May 2026",
-    "status": "admission closed"
+    "status": "New Launch"
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -157,7 +149,7 @@
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
     "category": "strategy & leadership",
     "start_date": "10 May 2026",
-    "status": "admission closed"
+    "status": "New Launch"
   },
   {
     "university_name": "XLRI",
@@ -173,7 +165,7 @@
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
     "start_date": "06 May 2026",
-    "status": "admission closed"
+    "status": "New Launch"
   },
   {
     "university_name": "IIM Lucknow",
@@ -205,7 +197,7 @@
     "program_name": "Chief Executive Officer Program (The CEO Program)",
     "category": "cxo leadership",
     "start_date": "19 Apr 2026",
-    "status": "admission closed"
+    "status": "New Launch"
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -309,7 +301,7 @@
     "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "10 May 2026",
-    "status": "admission closed"
+    "status": "New Launch"
   },
   {
     "university_name": "IIM Visakhapatnam",

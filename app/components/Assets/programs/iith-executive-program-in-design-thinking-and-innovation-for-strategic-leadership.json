@@ -64,13 +64,13 @@
         "title": "program snapshot",
         "points": [
           "5 Modules - Applied Innovation, Experience Design & Strategic Leadership",
-          "Learn From The Esteemed IIT Hyderabad Faculty",
+          "Program Directors: Dr. Nakul Parameswar | Dr. Jayshree Patnaik",
+          "Learn From The Esteemed Department of Entrepreneurship and Management, IIT Hyderabad Faculty",
+          "Certification From Department of Entrepreneurship and Management, IIT Hyderabad",
           "Duration: 6 Months | Weekend Online",
-          "Certification From IIT Hyderabad",
           "Live Instructor Led Classes",
           "Capstone Project",
-          "EMI upto 24 months",
-          "Career Assistance by Accredian"
+          "EMI upto 24 months"
         ]
       }
     ],
@@ -82,6 +82,7 @@
     "curriculum",
     "unique points",
     "certificate",
+    "faculty",
     "top companies",
     "extra achievements",
     "program fee",
@@ -169,7 +170,7 @@
   ],
   "curriculum_type": "module",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-long-logo.webp",
-  "university_name": "IIT Hyderabad",
+  "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-universityi-image-v2.webp",
   "admission_process": [
     "personalized discussion",

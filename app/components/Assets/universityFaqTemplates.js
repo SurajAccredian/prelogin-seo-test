@@ -2696,9 +2696,9 @@ export const universityFaqTemplates = {
                 title: "Program Overview",
                 questions: [
                     {
-                        title: "What is the IIT Hyderabad Professional Certificate Program in Strategic Project Management about?",
+                        title: "What is the Department of Entrepreneurship and Management, IIT Hyderabad Professional Certificate Program in Strategic Project Management about?",
                         content: [
-                            "The Professional Certificate Program in Strategic Project Management is a 6-month program offered by IIT Hyderabad, in collaboration with Accredian. It is designed to equip learners with core project management skills, hands-on exposure to tools, and practical learning experiences, with a focus on emerging areas like Generative AI."
+                            "The Professional Certificate Program in Strategic Project Management is a 6-month program offered by Department of Entrepreneurship and Management, IIT Hyderabad, in collaboration with Accredian. It is designed to equip learners with core project management skills, hands-on exposure to tools, and practical learning experiences, with a focus on emerging areas like Generative AI."
                         ]
                     },
                     {
@@ -2746,9 +2746,9 @@ export const universityFaqTemplates = {
                 title: "Certification & Recognition",
                 questions: [
                     {
-                        title: "Will I receive a certificate from IIT Hyderabad after completing the program?",
+                        title: "Will I receive a certificate from Department of Entrepreneurship and Management, IIT Hyderabad after completing the program?",
                         content: [
-                            "Yes. Participants will receive a Completion Certificate from IIT Hyderabad, upon fulfilling the requirements.",
+                            "Yes. Participants will receive a Completion Certificate from Department of Entrepreneurship and Management, IIT Hyderabad, upon fulfilling the requirements.",
                             "",
                             "- **Completion Certificate will be issued only if:** Attendance is 70% and above",
                             "- **Participation Certificate will be issued if:** Attendance is below 70% (no Completion Certificate in this case)"
@@ -2757,17 +2757,17 @@ export const universityFaqTemplates = {
                     {
                         title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
                         content: [
-                            "This is a professional certificate program recognized by employers and issued by IIT Hyderabad."
+                            "This is a professional certificate program recognized by employers and issued by Department of Entrepreneurship and Management, IIT Hyderabad."
                         ]
                     },
                     {
-                        title: "Will I get any alumni benefits or networking opportunities with IIT Hyderabad?",
+                        title: "Will I get any alumni benefits or networking opportunities with Department of Entrepreneurship and Management, IIT Hyderabad?",
                         content: [
-                            "No, IIT Hyderabad alumni status will not be conferred. However, learners can network with peers and industry experts during the program."
+                            "No, Department of Entrepreneurship and Management, IIT Hyderabad alumni status will not be conferred. However, learners can network with peers and industry experts during the program."
                         ]
                     },
                     {
-                        title: "Will I receive a physical or digital batch ID or an official email from IIT Hyderabad confirming my enrollment?",
+                        title: "Will I receive a physical or digital batch ID or an official email from Department of Entrepreneurship and Management, IIT Hyderabad confirming my enrollment?",
                         content: [
                             "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
                         ]
@@ -2780,7 +2780,7 @@ export const universityFaqTemplates = {
                     {
                         title: "Who will be teaching the program?",
                         content: [
-                            "The program is taught by top IIT Hyderabad faculty, with Master Class sessions led by industry experts."
+                            "The program is taught by top Department of Entrepreneurship and Management, IIT Hyderabad faculty, with Master Class sessions led by industry experts."
                         ]
                     },
                     {
@@ -2854,13 +2854,13 @@ export const universityFaqTemplates = {
                 title: "Campus Immersion & Logistics",
                 questions: [
                     {
-                        title: "What does the IIT Hyderabad campus immersion include, and how is it scheduled?",
+                        title: "What does the Department of Entrepreneurship and Management, IIT Hyderabad campus immersion include, and how is it scheduled?",
                         content: [
-                            "A 2-day campus immersion at IIT Hyderabad is available at an additional cost of ₹6,000 + GST for both days.",
+                            "A 2-day campus immersion at Department of Entrepreneurship and Management, IIT Hyderabad is available at an additional cost of ₹6,000 + GST for both days.",
                             "",
                             "- **Food and accommodation** are included in the immersion fee",
                             "- **Travel cost** is not included and must be arranged by the participant",
-                            "- IIT Hyderabad will provide prior notice of the schedule so participants can plan travel and work in advance"
+                            "- Department of Entrepreneurship and Management, IIT Hyderabad will provide prior notice of the schedule so participants can plan travel and work in advance"
                         ]
                     }
                 ]
@@ -2871,7 +2871,7 @@ export const universityFaqTemplates = {
                     {
                         title: "Why choose this program over others?",
                         content: [
-                            "This program combines IIT Hyderabad's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                            "This program combines Department of Entrepreneurship and Management, IIT Hyderabad's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
                         ]
                     },
                     {
@@ -2897,9 +2897,9 @@ export const universityFaqTemplates = {
                 title: "Program Overview",
                 questions: [
                     {
-                        title: "What is the IIT Hyderabad Executive Certification Program in Design Thinking & Innovation for Strategic Leadership about?",
+                        title: "What is the Department of Entrepreneurship and Management, IIT Hyderabad Executive Certification Program in Design Thinking & Innovation for Strategic Leadership about?",
                         content: [
-                            "The Executive Certification Program in Design Thinking & Innovation for Strategic Leadership is a 6-month program offered by IIT Hyderabad in collaboration with Accredian. It is designed to equip learners with core Design Thinking skills, hands-on exposure to innovation frameworks, and practical learning experiences, with a focus on driving strategic leadership and creative problem-solving in real-world business scenarios."
+                            "The Executive Certification Program in Design Thinking & Innovation for Strategic Leadership is a 6-month program offered by Department of Entrepreneurship and Management, IIT Hyderabad in collaboration with Accredian. It is designed to equip learners with core Design Thinking skills, hands-on exposure to innovation frameworks, and practical learning experiences, with a focus on driving strategic leadership and creative problem-solving in real-world business scenarios."
                         ]
                     },
                     {
@@ -2947,9 +2947,9 @@ export const universityFaqTemplates = {
                 title: "Certification & Recognition",
                 questions: [
                     {
-                        title: "Will I receive a certificate from IIT Hyderabad after completing the program?",
+                        title: "Will I receive a certificate from Department of Entrepreneurship and Management, IIT Hyderabad after completing the program?",
                         content: [
-                            "Yes. Participants will receive a Completion Certificate from IIT Hyderabad, upon fulfilling the requirements.",
+                            "Yes. Participants will receive a Completion Certificate from Department of Entrepreneurship and Management, IIT Hyderabad, upon fulfilling the requirements.",
                             "",
                             "- **Completion Certificate will be issued only if:** Attendance is 70% and above",
                             "- **Participation Certificate will be issued if:** Attendance is below 70% (no Completion Certificate in this case)"
@@ -2958,17 +2958,17 @@ export const universityFaqTemplates = {
                     {
                         title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
                         content: [
-                            "This is an executive certificate program recognized by employers and issued by IIT Hyderabad."
+                            "This is an executive certificate program recognized by employers and issued by Department of Entrepreneurship and Management, IIT Hyderabad."
                         ]
                     },
                     {
-                        title: "Will I get any alumni benefits or networking opportunities with IIT Hyderabad?",
+                        title: "Will I get any alumni benefits or networking opportunities with Department of Entrepreneurship and Management, IIT Hyderabad?",
                         content: [
-                            "No, IIT Hyderabad alumni status will not be conferred. However, learners can network with peers and industry experts during the program."
+                            "No, Department of Entrepreneurship and Management, IIT Hyderabad alumni status will not be conferred. However, learners can network with peers and industry experts during the program."
                         ]
                     },
                     {
-                        title: "Will I receive a physical or digital batch ID or an official email from IIT Hyderabad confirming my enrollment?",
+                        title: "Will I receive a physical or digital batch ID or an official email from Department of Entrepreneurship and Management, IIT Hyderabad confirming my enrollment?",
                         content: [
                             "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
                         ]
@@ -2981,7 +2981,7 @@ export const universityFaqTemplates = {
                     {
                         title: "Who will be teaching the program?",
                         content: [
-                            "The program is taught by top IIT Hyderabad faculty, with Master Class sessions led by industry experts."
+                            "The program is taught by top Department of Entrepreneurship and Management, IIT Hyderabad faculty, with Master Class sessions led by industry experts."
                         ]
                     },
                     {
@@ -3055,13 +3055,13 @@ export const universityFaqTemplates = {
                 title: "Campus Immersion & Logistics",
                 questions: [
                     {
-                        title: "What does the IIT Hyderabad campus immersion include, and how is it scheduled?",
+                        title: "What does the Department of Entrepreneurship and Management, IIT Hyderabad campus immersion include, and how is it scheduled?",
                         content: [
-                            "A 2-day campus immersion at IIT Hyderabad is available at an additional cost of ₹6,000 + GST for both days.",
+                            "A 2-day campus immersion at Department of Entrepreneurship and Management, IIT Hyderabad is available at an additional cost of ₹6,000 + GST for both days.",
                             "",
                             "- **Food and accommodation** are included in the immersion fee",
                             "- **Travel cost** is not included and must be arranged by the participant",
-                            "- IIT Hyderabad will provide prior notice of the schedule so participants can plan travel and work in advance"
+                            "- Department of Entrepreneurship and Management, IIT Hyderabad will provide prior notice of the schedule so participants can plan travel and work in advance"
                         ]
                     }
                 ]
@@ -3072,7 +3072,7 @@ export const universityFaqTemplates = {
                     {
                         title: "Why choose this program over others?",
                         content: [
-                            "This program combines IIT Hyderabad's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                            "This program combines Department of Entrepreneurship and Management, IIT Hyderabad's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
                         ]
                     },
                     {

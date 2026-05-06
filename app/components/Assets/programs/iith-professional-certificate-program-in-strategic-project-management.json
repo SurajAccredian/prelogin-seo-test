@@ -64,13 +64,13 @@
         "title": "program snapshot",
         "points": [
           "8 Modules - Project Planning, Risk Management, And Project Governance",
-          "Learn From Esteemed IIT Hyderabad Faculty",
+          "Program Directors: Dr. Lohithaksha M. Maiyar | Dr. Puram Praveen",
+          "Certification From Department of Entrepreneurship and Management, IIT Hyderabad",
+          "Learn From Esteemed Department of Entrepreneurship and Management, IIT Hyderabad Faculty",
           "Duration: 6 Months | Weekend Online",
-          "Certification From IIT Hyderabad",
           "Live Instructor Led Classes",
           "Capstone Project",
-          "EMI Upto 24 Months",
-          "Career Assistance By Accredian"
+          "EMI Upto 24 Months"
         ]
       }
     ],
@@ -82,6 +82,7 @@
     "curriculum",
     "unique points",
     "certificate",
+    "faculty",
     "top companies",
     "extra achievements",
     "program fee",
@@ -202,7 +203,7 @@
   ],
   "curriculum_type": "module",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-long-logo.webp",
-  "university_name": "IIT Hyderabad",
+  "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-universityi-image-v2.webp",
   "admission_process": [
     "personalized discussion",

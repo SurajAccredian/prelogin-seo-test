@@ -120,7 +120,7 @@ export default function Navbar() {
       // Case: Only one record AND category = 44
       if (
         enrollmentDetails.length === 1 &&
-        enrollmentDetails[0].category == 44
+        [44, 59].includes(enrollmentDetails[0].category)
       ) {
         setPgdmDashboardStatus(true);
       }

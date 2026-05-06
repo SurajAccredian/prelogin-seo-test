@@ -93,8 +93,11 @@ export default function AccodionMyAccount() {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
       // Case: Only one record AND category = 44
-      if (enrollmentDetails.length === 1 && enrollmentDetails[0].category == 44) {
-        setPgdmDashboardStatus(true); // or whatever you want to set
+      if (
+        enrollmentDetails.length === 1 &&
+        [44, 59].includes(enrollmentDetails[0].category)
+      ) {
+        setPgdmDashboardStatus(true);
       }
     }
   }, [isCookie]);

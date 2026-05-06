@@ -9,11 +9,6 @@ import { allowedIds } from "../../Assets/constants";
 
 // ── Add more program IDs here as needed ──
 const ADMISSION_CLOSED_IDS = [
-  "iimv-executive-program-in-leadership-with-ai",
-  "executive-program-in-generative-ai-for-business-leaders",
-  "chief-executive-officer-program",
-  "senior-management-program",
-  "executive-program-in-strategy-leadership-and-innovation-in-ai-era"
 ];
 
 

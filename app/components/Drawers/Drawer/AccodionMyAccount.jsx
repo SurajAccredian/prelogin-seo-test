@@ -80,6 +80,7 @@ export default function AccodionMyAccount() {
     document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, "$1")
   );
   const [pgdmDashboardStatus, setPgdmDashboardStatus] = useState(false);
+  const [hideAppTracker, setHideAppTracker] = useState(false);
 
   useEffect(() => {
     if (!isCookie) {
@@ -93,11 +94,13 @@ export default function AccodionMyAccount() {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
       // Case: Only one record AND category = 44
-      if (
-        enrollmentDetails.length === 1 &&
-        [44, 59].includes(enrollmentDetails[0].category)
-      ) {
-        setPgdmDashboardStatus(true);
+      if (enrollmentDetails.length === 1) {
+        if (enrollmentDetails[0].category === 44) {
+          setPgdmDashboardStatus(true);
+        }
+        if (enrollmentDetails[0].category === 59) {
+          setHideAppTracker(true);
+        }
       }
     }
   }, [isCookie]);
@@ -111,18 +114,21 @@ export default function AccodionMyAccount() {
     return process.env.NEXT_PUBLIC_NEW_DASHBOARD_BASE_URL
   };
 
-  const sections = !pgdmDashboardStatus ? [
-    {
-      label: "Application Tracker",
-      href: `${getBaseUrl()}/?tab=my-applications`,
-      img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myApplication.svg",
-    },
-    {
+  const sections = [];
+  if (!pgdmDashboardStatus) {
+    if (!hideAppTracker) {
+      sections.push({
+        label: "Application Tracker",
+        href: `${getBaseUrl()}/?tab=my-applications`,
+        img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myApplication.svg",
+      });
+    }
+    sections.push({
       label: "Dashboard",
       href: `${getBaseUrl()}/Dashboard`,
       img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
-    },
-  ] : [];
+    });
+  }
 
   return (
     <div className="w-full flex flex-col pt-3">

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState, useMemo } from 'react'
 import { IoIosArrowForward, IoMdCheckmarkCircleOutline } from 'react-icons/io';
 import { useSelector } from 'react-redux'
 
@@ -10,11 +10,30 @@ const Overview = () => {
   const { data } = useSelector(state => state.program);
 
 
-  const [activeTab, setActiveTab] = useState("who should join");
+  const overviewContent = useMemo(() => {
+    if (!data?.overview?.content) return [];
+    let content = [...data.overview.content];
+    if (data?.short_university_name?.toLowerCase() === "iith") {
+      const snapshotIndex = content.findIndex(item => item.title.toLowerCase() === "program snapshot");
+      if (snapshotIndex > 0) {
+        const snapshotItem = content.splice(snapshotIndex, 1)[0];
+        content.unshift(snapshotItem);
+      }
+    }
+    return content;
+  }, [data]);
+
+  const [activeTab, setActiveTab] = useState("");
   const [points, setPoints] = useState({});
   const [isScrolled, setIsScrolled] = useState(false);
 
-
+  useEffect(() => {
+    if (overviewContent.length > 0) {
+      if (!activeTab || !overviewContent.some(c => c.title === activeTab)) {
+        setActiveTab(overviewContent[0].title);
+      }
+    }
+  }, [data?.id, overviewContent, activeTab]);
 
   const handleOverviewData = (data) => {
     try {
@@ -29,11 +48,13 @@ const Overview = () => {
 
   useEffect(() => {
     try {
-      setPoints(data?.overview?.content.find(val => val.title === activeTab));
+      if (activeTab && overviewContent.length > 0) {
+        setPoints(overviewContent.find(val => val.title === activeTab));
+      }
     } catch (error) {
       console.error("Error setting points:", error);
     }
-  }, [data, activeTab]);
+  }, [overviewContent, activeTab]);
 
 
   // const handleChange = (title) => {
@@ -117,7 +138,7 @@ const Overview = () => {
               </button>
             )}
             <div ref={scrollContainer} className="md:max-w-sm no-scrollbar md:px-4 py-2 flex flex-row md:flex-col items-center gap-4 md:gap-6 max-w-[90vw] overflow-x-auto relative">
-              {data?.overview && data?.overview.content.map((val, index) => {
+              {overviewContent.map((val, index) => {
                 return (
                   <div onClick={() => handleOverviewData(val)} key={index} className={`w-full max-w-[280px] rounded-md ${activeTab === val.title ? "drop-shadow-xl bg-white border" : "border border-neutral-300"} px-4 py-4 text-center cursor-pointer`}>
                     <h1 className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab === val.title ? " text-universal" : "text-neutral-500"} capitalize`}>

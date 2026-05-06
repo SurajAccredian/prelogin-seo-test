@@ -55,6 +55,7 @@ export default function Navbar() {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [width, setWidth] = useState(0);
   const [pgdmDashboardStatus, setPgdmDashboardStatus] = useState(false);
+  const [hideAppTracker, setHideAppTracker] = useState(false);
 
   const handleResize = () => {
     setWidth(window.innerWidth);
@@ -118,11 +119,13 @@ export default function Navbar() {
         localStorage.getItem("enrollment") || "[]",
       );
       // Case: Only one record AND category = 44
-      if (
-        enrollmentDetails.length === 1 &&
-        [44, 59].includes(enrollmentDetails[0].category)
-      ) {
-        setPgdmDashboardStatus(true);
+      if (enrollmentDetails.length === 1) {
+        if (enrollmentDetails[0].category === 44) {
+          setPgdmDashboardStatus(true);
+        }
+        if (enrollmentDetails[0].category === 59) {
+          setHideAppTracker(true);
+        }
       }
     }
   }, [isCookie]);
@@ -287,14 +290,16 @@ export default function Navbar() {
                     <PopoverContent top={3} className="pop-content-user">
                       {!pgdmDashboardStatus && (
                         <>
-                          <a
-                            href={`${getBaseUrl()}/?tab=my-applications`}
-                            className="py-2 px-4 hover:text-universal hover:bg-universal/15 rounded-md cursor-pointer w-full"
-                          >
-                            <h2 className="font-medium capitalize">
-                              Application Tracker
-                            </h2>
-                          </a>
+                          {!hideAppTracker && (
+                            <a
+                              href={`${getBaseUrl()}/?tab=my-applications`}
+                              className="py-2 px-4 hover:text-universal hover:bg-universal/15 rounded-md cursor-pointer w-full"
+                            >
+                              <h2 className="font-medium capitalize">
+                                Application Tracker
+                              </h2>
+                            </a>
+                          )}
 
                           <a
                             href={`${getBaseUrl()}/Dashboard`}

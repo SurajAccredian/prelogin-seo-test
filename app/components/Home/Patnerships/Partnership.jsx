@@ -36,7 +36,7 @@ const universities = [
     logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
   },
   {
-    name: "IIT Hyderabad",
+    name: "Department of Entrepreneurship and Management, IIT Hyderabad",
     logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-long-logo.webp",
   }
 ];

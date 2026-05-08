@@ -22,25 +22,16 @@ const Ordinary = ({
   const hasPoints =
     Array.isArray(curriculum?.points) && curriculum.points.length > 0;
 
-  if (!hasPoints) {
-    // 👉 Render just the header layout if no points
+  if (!hasPoints || type === "masterclass") {
+    // 👉 Render just the header layout if no points or if it's a masterclass
     return (
       <div
         key={index}
-        className="w-full flex items-center justify-between gap-2 border-b p-4"
+        className="w-full flex flex-col justify-center gap-1 border-b p-4 px-6"
         style={{ paddingLeft: level === 0 ? "1.5rem" : "0.5rem" }}
       >
         <div className="flex items-center gap-2">
           <h1 className="text-sm md:text-base font-semibold">
-            {/* {level === 0 && (
-              <span className="font-bold">
-                {type === "term"
-                  ? "Term"
-                  : type === "pillar"
-                  ? "Pillar"
-                  : "Module"}: {" "}
-              </span>
-            )} */}
             {curriculum?.title}
           </h1>
           {curriculum?.week && (
@@ -54,6 +45,8 @@ const Ordinary = ({
     );
   }
 
+  const panelId = id ? `${id}-${level}` : `panel${index}-${level}`;
+
   return (
     <Accordion
       key={index}
@@ -64,8 +57,8 @@ const Ordinary = ({
         },
         padding: `0px ${level === 0 ? "1.5rem" : "0.5rem"}`,
       }}
-      expanded={expanded[`panel${index}-${level}`] || false}
-      onChange={handleChange(`panel${index}-${level}`)}
+      expanded={expanded[panelId] || false}
+      onChange={handleChange(panelId)}
       // expanded={expanded[panelId] || false}
       // onChange={handleChangeInner}
     >
@@ -73,7 +66,7 @@ const Ordinary = ({
         <div className="w-full flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <h1 className="text-sm md:text-base font-semibold">
-              {level === 0 && (
+              {level === 0 && type !== "masterclass" && (
                 <span className="font-bold">
                   {type === "term"
                     ? "Term"
@@ -119,6 +112,7 @@ const Ordinary = ({
                   handleChange={handleChange}
                   index={i + 1}
                   level={level + 1}
+                  id={id}
                 />
               );
             } else {

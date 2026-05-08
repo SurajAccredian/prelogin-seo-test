@@ -38,6 +38,14 @@ const universities = [
   {
     name: "Department of Entrepreneurship and Management, IIT Hyderabad",
     logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-long-logo.webp",
+  },
+  {
+    name: "IIM Ranchi",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  },
+  {
+    name: "I3C-IIT JAMMU",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-jammu-logo.webp",
   }
 ];
 

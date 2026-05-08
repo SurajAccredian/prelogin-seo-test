@@ -2660,5 +2660,94 @@
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
       "Tools/Framework Covered in the Program": "15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc."
     }
+  },
+
+  {
+    "title": "Advanced Certificate in AI for Leaders",
+    "id": "iit-jammu-advanced-certificate-in-ai-for-leaders-months",
+    "data": {
+      "Institute Name": "I3C-IIT JAMMU",
+      "Program Name": "Advanced Certificate in AI for Leaders",
+      "Duration of the Program": "5 Months",
+      "Program Terms/Modules": "5 Modules",
+      "Live Session Hours": "60+ Hours",
+      "Capstone Project": "1 Capstone Project upon Modules Completion",
+      "Campus Immersion": "NA",
+      "Campus Immersion Fee": "NA",
+      "Program Faculty": [
+        "Classes By Industry Experts",
+        "Master Class By I3C-IIT JAMMU Faculty"
+      ],
+      "Alumni Status": "NA",
+      "Certificates": "Completion Certificate issued by I3C-IIT JAMMU",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian"
+    }
+  },
+  {
+    "title": "Advanced Certificate in Generative AI for Leaders",
+    "id": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders-5months",
+    "data": {
+      "Institute Name": "I3C-IIT JAMMU",
+      "Program Name": "Advanced Certificate in Generative AI for Leaders",
+      "Duration of the Program": "5 Months",
+      "Program Terms/Modules": "5 Modules",
+      "Live Session Hours": "60+ Hours",
+      "Capstone Project": "1 Capstone Project upon Modules Completion",
+      "Campus Immersion": "NA",
+      "Campus Immersion Fee": "NA",
+      "Program Faculty": [
+        "Classes By Industry Experts",
+        "Master Class By I3C-IIT JAMMU Faculty"
+      ],
+      "Alumni Status": "NA",
+      "Certificates": "Completion Certificate issued by I3C-IIT JAMMU",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian"
+    }
+  },
+  {
+    "title": "Executive Program in Generative AI & Agentic AI for Business Leaders",
+    "id": "iit-jammu-executive-program-in-generative-ai-agentic-ai-for-business-leaders-8months",
+    "data": {
+      "Institute Name": "I3C-IIT JAMMU",
+      "Program Name": "Executive Program in Generative AI & Agentic AI for Business Leaders",
+      "Duration of the Program": "8 Months",
+      "Program Terms/Modules": "9 Modules",
+      "Live Session Hours": "96+ Hours",
+      "Capstone Project": "1 Capstone Project upon Modules Completion",
+      "Campus Immersion": "3 Day Campus Immersion",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": [
+        "Classes By Industry Experts",
+        "Master Class By I3C-IIT JAMMU Faculty"
+      ],
+      "Alumni Status": "NA",
+      "Certificates": "Completion Certificate issued by I3C-IIT JAMMU",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian"
+    }
+  },
+  {
+    "title": "Executive Program in Leadership with AI",
+    "id": "iit-jammu-executive-program-in-leadership-with-ai-8months",
+    "data": {
+      "Institute Name": "I3C-IIT JAMMU",
+      "Program Name": "Executive Program in Leadership with AI",
+      "Duration of the Program": "8 Months",
+      "Program Terms/Modules": "8 Modules",
+      "Live Session Hours": "96+ Hours",
+      "Capstone Project": "1 Capstone Project upon Modules Completion",
+      "Campus Immersion": "3 Day Campus Immersion",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": [
+        "Classes By Industry Experts",
+        "Master Class By I3C-IIT JAMMU Faculty"
+      ],
+      "Alumni Status": "NA",
+      "Certificates": "Completion Certificate issued by I3C-IIT JAMMU",
+      "physical ID card": "No Physical ID card to be provided",
+      "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian"
+    }
   }
 ]

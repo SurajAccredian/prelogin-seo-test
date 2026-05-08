@@ -61,7 +61,7 @@ export const categoriesWithContacts = [
   { category: "business management", contact: "+91 9810184424" },
   { category: "artificial intelligence", contact: "+91 9211285411" },
   { category: "cybersecurity", contact: "+91 9211285411" },
-  { category: "PG Diploma", contact: "+91 9818329799" },
+  { category: "PG Diploma", contact: "+91 8130897175" },
   { category: "design thinking", contact: "+91 9818329799" },
 ];
 

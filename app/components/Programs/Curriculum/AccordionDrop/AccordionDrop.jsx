@@ -42,7 +42,9 @@ export default function AccordionFilter({
   };
 
   useEffect(() => {
-    if (openAll && data?.id !== "global-senior-leadership-program") {
+    const isSplit = curriculum && !Array.isArray(curriculum) && curriculum.coreModules;
+
+    if (openAll && !isSplit) {
       const newExpanded = {};
       curriculum.forEach((curriculum, index) => {
         newExpanded[`panel${index}-0`] = true;
@@ -51,16 +53,27 @@ export default function AccordionFilter({
       setExpanded(newExpanded);
     }
 
-    if (openAll && data?.id === "global-senior-leadership-program") {
+    if (openAll && isSplit) {
       const newExpanded = {};
       curriculum.coreModules.forEach((curriculum, index) => {
         newExpanded[`panel${index}-0`] = true;
       });
 
+      Object.entries(curriculum)
+        .slice(1)
+        .forEach(([key, modules]) => {
+          newExpanded[key] = true;
+          modules.forEach((module, i) => {
+            if (typeof module === "object") {
+              newExpanded[`${key}-${i}-0`] = true;
+            }
+          });
+        });
+
       setExpanded(newExpanded);
     }
 
-    if (openAll === false && data?.id === "global-senior-leadership-program") {
+    if (openAll === false && isSplit) {
       const newExpanded = {};
       curriculum.coreModules.forEach((curriculum, index) => {
         newExpanded[`panel${index}`] = false;
@@ -74,7 +87,7 @@ export default function AccordionFilter({
       setExpanded(newExpanded);
     }
 
-    if (openAll === false && data?.id !== "global-senior-leadership-program") {
+    if (openAll === false && !isSplit) {
       const newExpanded = {};
       curriculum.forEach((curriculum, index) => {
         newExpanded[`panel${index}`] = false;
@@ -83,6 +96,8 @@ export default function AccordionFilter({
       setExpanded(newExpanded);
     }
   }, [openAll, curriculum]);
+
+  const isSplit = curriculum && !Array.isArray(curriculum) && curriculum.coreModules;
 
   let termIndex = 1;
   let specialIndex = 1;
@@ -96,10 +111,12 @@ export default function AccordionFilter({
 
   return (
     <>
-      {data?.id === "global-senior-leadership-program" ? (
+      {isSplit ? (
         <>
           <div className="sm:text-2xl text-xl text-universal p-4 pt-0 font-bold font-circular">
-            Core Modules
+            {data?.id === "global-senior-leadership-program"
+              ? "Core Modules"
+              : "Curriculum"}
           </div>
           <AccordionGroup
             disableDivider
@@ -144,7 +161,9 @@ export default function AccordionFilter({
           </AccordionGroup>
 
           <div className="sm:text-2xl text-xl text-universal p-4 pt-6 font-bold font-circular">
-            Specialization Modules*
+            {data?.id === "global-senior-leadership-program"
+              ? "Specialization Modules*"
+              : "Masterclasses"}
           </div>
 
           <AccordionGroup
@@ -165,87 +184,109 @@ export default function AccordionFilter({
               },
             }}
           >
-            {Object.entries(curriculum)
-              .slice(1)
-              .map(([index, modules]) => {
-                return (
-                  <div key={index}>
-                    <Accordion
-                      key={index}
-                      sx={{
-                        "&:hover": {
-                          backgroundColor: "",
-                          boxShadow: "none",
-                        },
-                      }}
-                      expanded={expanded[index]}
-                      onChange={handleChange(index)}
-                      // expanded={expanded[panelId] || false}
-                      // onChange={handleChangeInner}
-                    >
-                      <AccordionSummary expandIcon={<ExpandMore />}>
-                        <div className="w-full flex items-center justify-between gap-2">
-                          <div className="flex items-center gap-2">
-                            <h1 className="text-sm md:text-base font-semibold">
-                              {index.split("-").join(" ")}
-                            </h1>
-                          </div>
+            {data?.id !== "global-senior-leadership-program" ? (
+              Object.entries(curriculum)
+                .slice(1)
+                .map(([index, modules]) =>
+                  modules.map((point, i) => (
+                    <Ordinary
+                      key={i}
+                      curriculum={point}
+                      expanded={expanded}
+                      handleChange={handleChange}
+                      index={i + 1}
+                      id={`${index}-${i}`}
+                      type="masterclass"
+                    />
+                  ))
+                )
+            ) : (
+              Object.entries(curriculum)
+                .slice(1)
+                .map(([index, modules]) => {
+                  return (
+                    <div key={index}>
+                      <Accordion
+                        key={index}
+                        sx={{
+                          "&:hover": {
+                            backgroundColor: "",
+                            boxShadow: "none",
+                          },
+                        }}
+                        expanded={expanded[index]}
+                        onChange={handleChange(index)}
+                        // expanded={expanded[panelId] || false}
+                        // onChange={handleChangeInner}
+                      >
+                        <AccordionSummary expandIcon={<ExpandMore />}>
+                          <div className="w-full flex items-center justify-between gap-2">
+                            <div className="flex items-center gap-2">
+                              <h1 className="text-sm md:text-base font-semibold">
+                                {index.split("-").join(" ")}
+                              </h1>
+                            </div>
 
-                          <h4 className="max-md:hidden text-nowrap font-circular">
-                            {modules.length - 1} Modules
-                          </h4>
-                        </div>
-                      </AccordionSummary>
-                      <AccordionDetails>
-                        <Stepper orientation="vertical">
-                          {modules.map((point, i) => {
-                            // const pointId = `${id}-panel${index}-${i}`;
-                            if (typeof point === "object") {
-                              return (
-                                <Ordinary
-                                  curriculum={point}
-                                  expanded={expanded}
-                                  handleChange={handleChange}
-                                  index={i + 1}
-                                />
-                              );
-                            } else {
-                              return (
-                                <Step
-                                  key={index}
-                                  sx={{
-                                    "& .MuiStepLabel-root .Mui-active": {
+                            <h4 className="max-md:hidden text-nowrap font-circular">
+                              {modules.length} Modules
+                            </h4>
+                          </div>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                          <Stepper orientation="vertical">
+                            {modules.map((point, i) => {
+                              // const pointId = `${id}-panel${index}-${i}`;
+                              if (typeof point === "object") {
+                                return (
+                                  <Ordinary
+                                    curriculum={point}
+                                    expanded={expanded}
+                                    handleChange={handleChange}
+                                    index={i + 1}
+                                    id={`${index}-${i}`}
+                                    type={type}
+                                  />
+                                );
+                              } else {
+                                return (
+                                  <Step
+                                    key={index}
+                                    sx={{
+                                      "& .MuiStepLabel-root .Mui-active": {
+                                        color: "#1A73E8",
+                                      },
                                       color: "#1A73E8",
-                                    },
-                                    color: "#1A73E8",
-                                  }}
-                                >
-                                  <StepLabel StepIconComponent={BlueStepIcon}>
-                                    <h1 className="text-sm font-medium">
-                                      {point}
-                                    </h1>
-                                  </StepLabel>
-                                </Step>
-                              );
-                            }
-                          })}
-                        </Stepper>
-                      </AccordionDetails>
-                      <div className="w-full border-b" />
-                    </Accordion>
-                  </div>
-                );
-              })}
+                                    }}
+                                  >
+                                    <StepLabel StepIconComponent={BlueStepIcon}>
+                                      <h1 className="text-sm font-medium">
+                                        {point}
+                                      </h1>
+                                    </StepLabel>
+                                  </Step>
+                                );
+                              }
+                            })}
+                          </Stepper>
+                        </AccordionDetails>
+                        <div className="w-full border-b" />
+                      </Accordion>
+                    </div>
+                  );
+                })
+            )}
           </AccordionGroup>
 
-          <div>
-            <p
-              className={`italic p-3  pl-0 font-medium text-sm mt-2 text-gray-500`}
-            >
-              *Participants will select only one elective specialization module,
-              each concluding with a Capstone Project.
-            </p>
-          </div>
+          {data?.id === "global-senior-leadership-program" && (
+            <div>
+              <p
+                className={`italic p-3  pl-0 font-medium text-sm mt-2 text-gray-500`}
+              >
+                *Participants will select only one elective specialization module,
+                each concluding with a Capstone Project.
+              </p>
+            </div>
+          )}
         </>
       ) : (
         <AccordionGroup

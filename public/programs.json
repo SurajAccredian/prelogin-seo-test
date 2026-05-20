@@ -1,5 +1,13 @@
 [
   {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "Executive Program in Leadership with AI",
+    "category": "artificial intelligence",
+    "start_date": "26 Jul 2026",
+    "status": "New Launch"
+  },
+  {
     "university_name": "I3C-IIT JAMMU",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
     "program_name": "Advanced Certificate in AI for Leaders",

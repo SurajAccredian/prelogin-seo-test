@@ -8,14 +8,6 @@
     "status": "New Launch"
   },
   {
-    "university_name": "IIM Kashipur",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
-    "program_name": "Chief Operations Officer Program (The COO Program)",
-    "category": "cxo leadership",
-    "start_date": "19 Sep 2026",
-    "status": "New Launch"
-  },
-  {
     "university_name": "I3C-IIT JAMMU",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
     "program_name": "Advanced Certificate in AI for Leaders",

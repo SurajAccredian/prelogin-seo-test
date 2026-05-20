@@ -2749,5 +2749,32 @@
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian"
     }
+  },
+  {
+    "title": "Executive Program in Leadership with AI",
+    "id": "iimr-executive-program-in-leadership-with-ai-8months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "Executive Program in Leadership with AI",
+      "Duration of the Program": "8 Months",
+      "Program Terms/Modules": "9 Modules",
+      "Live Session Hours": "96+ hours",
+      "Capstone Project": "1 Capstone Project upon Program Completion",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "alumni status": "Optional Executive Alumni Status at an additional cost of INR 10,000 + GST.",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+        "Tools/Framework Covered in the Program": "8+ Tools Perplexity, ChatGPT, Lovable, Gemini, Claude, Gamma, NotebookLM, Leonardo.AI etc."
+    }
   }
 ]

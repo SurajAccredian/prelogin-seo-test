@@ -1,4 +1,67 @@
 [
+    {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iim-ranchi-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+     "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iim-ranchi-executive-program-in-leadership-with-ai-Brochure.pdf",
+    "source": "IIM Ranchi Executive Program in Leadership with AI Brochure",
+    "campaign_name": "EPLA-IIMR-8 Months"
+  },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "26 Jul 2026",
+    "contact": "9810184424"
+  },
+  {
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+  "university_name": "IIM Kashipur",
+  "program_name": "Chief Operations Officer Program (The COO Program)",
+  "duration": "12 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+  "batch_type": "Online",
+  "id": "chief-operations-officer-program-the-coo-program",
+  "category": "cxo leadership",
+  "tags": [
+    "New Launch",
+    "Instructor led",
+    "Online",
+    "Best Selling"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
+    "source": "IIM-KASHIPUR Chief Operations Officer Program (The COO Program) Brochure",
+    "campaign_name": "IIM-KASHIPUR-CTO-12 Months"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "19 Sep 2026",
+  "contact": ""
+},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",

@@ -112,20 +112,20 @@ export default function Navbar() {
   //   }
   // }, [authenticated])
 
-  useEffect(() => {
-    if (isCookie) {
-      const enrollmentDetails = JSON.parse(
-        localStorage.getItem("enrollment") || "[]",
-      );
-      // Case: Only one record AND category = 44
-      if (
-        enrollmentDetails.length === 1 &&
-        [44].includes(enrollmentDetails[0].category)
-      ) {
-        setPgdmDashboardStatus(true);
-      }
-    }
-  }, [isCookie]);
+  // useEffect(() => {
+  //   if (isCookie) {
+  //     const enrollmentDetails = JSON.parse(
+  //       localStorage.getItem("enrollment") || "[]",
+  //     );
+  //     // Case: Only one record AND category = 44
+  //     if (
+  //       enrollmentDetails.length === 1 &&
+  //       [44].includes(enrollmentDetails[0].category)
+  //     ) {
+  //       setPgdmDashboardStatus(false);
+  //     }
+  //   }
+  // }, [isCookie]);
 
   useEffect(() => {
     const url = new URL(window.location.href);

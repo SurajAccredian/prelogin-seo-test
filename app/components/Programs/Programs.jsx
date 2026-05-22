@@ -1,57 +1,153 @@
 "use client";
 
-import { useParams } from "next/navigation";
-// import { ProgramWrapper } from "../Wrappers";
+import { useParams, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { programActions } from "../../store/reducers/program";
-import { useSelector } from "react-redux";
-// import { ExtraPoints, Hero, Transition, Billing, CTA, Admission, FAQ, USP, Curriculum, Companies, Certificate, Projects, Related, Info, Overview, Faculty, Tools } from "./"
+import axios from "axios";
+import toast from "react-hot-toast";
 
 import "./Programs.css";
-// import Line from "./generals/line";
 import NotFound from "../NotFound/NotFound";
 import GetBrochure from "../Modals/call-to-actions/get-brochure";
 import EnrollNow from "../Modals/call-to-actions/enroll-now";
 import SkeletonWL from "../Skeleton/Withoutlogin";
 import Wrapper from "./wrapper";
 
+const API_BASE_URL = "https://internal-dash.accredian.com/api/v1/automations/preview";
+
 const Programs = () => {
   const dispatch = useDispatch();
   const { id } = useParams();
-  const { data, state, brochureState, enrollState } = useSelector(state => state.program);
+  const searchParams = useSearchParams();
+  const { data, state, brochureState, enrollState } = useSelector((state) => state.program);
+
+  const isPreviewMode = searchParams.get("preview") === "true";
+  const previewId = searchParams.get("previewId");
 
   useEffect(() => {
+    console.log("Program ID from URL:", id);
+    console.log("Is Preview Mode:", isPreviewMode);
+    if (isPreviewMode && previewId) {
+      dispatch(programActions.setState("pending"));
+      console.log("Fetching preview data for ID:", previewId);
+      axios
+        .get(`${API_BASE_URL}/${previewId}`)
+        .then((response) => {
+          const previewData = response.data.data;
+          dispatch(programActions.setData(previewData));
+          dispatch(programActions.setState("success"));
+
+          toast.success("Preview loaded!", {
+            position: "top-right",
+            duration: 3000,
+          });
+        })
+        .catch((error) => {
+          dispatch(programActions.setData(null));
+          dispatch(programActions.setState("failed"));
+
+          const status = error.response?.status;
+          const message = error.response?.data?.message || error.message;
+
+          if (status === 410) {
+            toast.error("Preview has expired. Please generate a new preview.", {
+              position: "top-right",
+              duration: 5000,
+            });
+          } else if (status === 404) {
+            toast.error("Preview not found. This preview may have been deleted.", {
+              position: "top-right",
+              duration: 5000,
+            });
+          } else {
+            toast.error(message || "Failed to load preview. Please try again.", {
+              position: "top-right",
+              duration: 5000,
+            });
+          }
+        });
+
+      return;
+    }
+
     const fetchFileData = async () => {
       try {
+        dispatch(programActions.setState("pending"));
         const { default: file } = await import(`./../Assets/programs/${id}.json`);
         dispatch(programActions.setData(file));
         dispatch(programActions.setState("success"));
       } catch (error) {
-        console.error('Error loading file:', error);
+        console.error("Error loading file:", error);
         dispatch(programActions.setData(null));
         dispatch(programActions.setState("failed"));
       }
     };
 
     fetchFileData();
-  }, [id, dispatch]);
+  }, [id, isPreviewMode, previewId, dispatch]);
 
   return (
     <>
       {state === "pending" ? (
         <SkeletonWL />
       ) : state === "success" && data ? (
-        <Wrapper data={data} />
+        <>
+          {isPreviewMode && (
+            <div
+              style={{
+                position: "sticky",
+                top: 0,
+                zIndex: 50,
+                background: "linear-gradient(to right, #2563eb, #3b82f6)",
+                padding: "8px 16px",
+                textAlign: "center",
+                color: "white",
+                boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+              }}
+            >
+              <div
+                style={{
+                  maxWidth: "1200px",
+                  margin: "0 auto",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                }}
+              >
+                <svg
+                  style={{ width: "20px", height: "20px" }}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                  />
+                </svg>
+                <span style={{ fontSize: "14px", fontWeight: "500" }}>
+                  Preview Mode — This is a temporary preview and not the live program page
+                </span>
+              </div>
+            </div>
+          )}
+          <Wrapper data={data} />
+        </>
       ) : (
         <NotFound />
       )}
-      {brochureState && (
-        <GetBrochure open={brochureState} />
-      )}
-      {enrollState && (
-        <EnrollNow open={enrollState} />
-      )}
+      {brochureState && <GetBrochure open={brochureState} />}
+      {enrollState && <EnrollNow open={enrollState} />}
     </>
   );
 };

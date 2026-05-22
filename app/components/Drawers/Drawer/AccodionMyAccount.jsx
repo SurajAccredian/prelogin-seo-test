@@ -89,18 +89,18 @@ export default function AccodionMyAccount() {
   }, [isCookie]);
 
 
-  useEffect(() => {
-    if (isCookie) {
-      const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      // Case: Only one record AND category = 44
-      if (
-        enrollmentDetails.length === 1 &&
-        [44].includes(enrollmentDetails[0].category)
-      ) {
-        setPgdmDashboardStatus(true);
-      }
-    }
-  }, [isCookie]);
+  // useEffect(() => {
+  //   if (isCookie) {
+  //     // const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
+  //     // // Case: Only one record AND category = 44
+  //     // if (
+  //     //   enrollmentDetails.length === 1 &&
+  //     //   [44].includes(enrollmentDetails[0].category)
+  //     // ) {
+  //     //   setPgdmDashboardStatus(false);
+  //     // }
+  //   }
+  // }, [isCookie]);
 
 
 

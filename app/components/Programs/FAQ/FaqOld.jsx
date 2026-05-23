@@ -17,7 +17,7 @@ const FaqOld = ({ data }) => {
   };
 
   useEffect(() => {
-    if (data?.faq.points) {
+    if (data?.faq?.points) {
       const contents = data?.faq?.points.find(val => val.title.toLowerCase() === activeTab.toLowerCase());
       setPoints(contents.content);
       setIsOpen(points[0]?.title);
@@ -75,7 +75,7 @@ const FaqOld = ({ data }) => {
               </button>
             )}
             <div ref={scrollContainer} className="no-scrollbar md:max-w-sm md:px-4 py-2 flex flex-row md:flex-col items-center gap-4 md:gap-6 max-w-[90vw] overflow-x-auto">
-              {data?.faq.points && data?.faq.points.map((val, index) => {
+              {data?.faq?.points && data?.faq?.points.map((val, index) => {
                 return (
                   <div onClick={() => handleOverviewData(val)} key={index} className={`w-full max-w-[280px] rounded-md ${activeTab.toLowerCase() === val.title.toLowerCase() ? "drop-shadow-lg md:drop-shadow-xl bg-white border" : "border-2 border-neutral-300"} px-4 py-4 text-center cursor-pointer`}>
                     <h1 className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab.toLowerCase() === val.title.toLowerCase() ? " text-universal" : "text-neutral-500"} capitalize`}>

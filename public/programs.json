@@ -1,11 +1,23 @@
 [
   {
+    "university_name": "IIM Kashipur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+    "program_name": "Chief Operating Officer Program (The COO Program)",
+    "category": "cxo leadership",
+    "start_date": "19 Sep 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-kashipur-chief-operating-officer-program",
+    "id": "iim-kashipur-chief-operating-officer-program"
+  },
+  {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
     "start_date": "26 Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-ranchi-executive-program-in-leadership-with-ai",
+    "id": "iim-ranchi-executive-program-in-leadership-with-ai"
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -13,7 +25,9 @@
     "program_name": "Advanced Certificate in AI for Leaders",
     "category": "artificial intelligence",
     "start_date": "26th Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iit-jammu-advanced-certificate-in-ai-for-leaders",
+    "id": "iit-jammu-advanced-certificate-in-ai-for-leaders"
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -21,7 +35,9 @@
     "program_name": "Advanced Certificate in Generative AI for Leaders",
     "category": "artificial intelligence",
     "start_date": "26th Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iit-jammu-advanced-certificate-in-generative-ai-for-leaders",
+    "id": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders"
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -29,7 +45,9 @@
     "program_name": "Executive Program in Generative AI & Agentic AI for Business Leaders",
     "category": "artificial intelligence",
     "start_date": "26th Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
+    "id": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders"
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -37,7 +55,9 @@
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
     "start_date": "26th Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iit-jammu-executive-program-in-leadership-with-ai",
+    "id": "iit-jammu-executive-program-in-leadership-with-ai"
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -45,7 +65,9 @@
     "program_name": "Professional Certificate in AI for Leaders",
     "category": "artificial intelligence",
     "start_date": "21st Jun 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/professional-certificate-in-ai-for-leaders",
+    "id": "professional-certificate-in-ai-for-leaders"
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -53,7 +75,9 @@
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
     "start_date": "21st Jun 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/sp-jain-executive-program-in-leadership-with-ai",
+    "id": "sp-jain-executive-program-in-leadership-with-ai"
   },
   {
     "university_name": "IIM Ranchi",
@@ -61,7 +85,9 @@
     "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "26 Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-ranchi-senior-management-program",
+    "id": "iim-ranchi-senior-management-program"
   },
   {
     "university_name": "IIM Amritsar",
@@ -69,7 +95,9 @@
     "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "26 Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iima-senior-management-program",
+    "id": "iima-senior-management-program"
   },
   {
     "university_name": "XLRI",
@@ -77,7 +105,9 @@
     "program_name": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
     "category": "cxo leadership",
     "start_date": "26 July 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme"
   },
   {
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
@@ -85,7 +115,9 @@
     "program_name": "Executive Program in Design Thinking & Innovation for Strategic Leadership",
     "category": "design thinking",
     "start_date": "28 Jun 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
+    "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
   },
   {
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
@@ -93,7 +125,9 @@
     "program_name": "Professional Certificate Program in Strategic Project Management",
     "category": "project management",
     "start_date": "28 Jun 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management",
+    "id": "iith-professional-certificate-program-in-strategic-project-management"
   },
   {
     "university_name": "IIM Lucknow",
@@ -101,7 +135,9 @@
     "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
     "category": "cxo leadership",
     "start_date": "28 Jun 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+    "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program"
   },
   {
     "university_name": "IIM Lucknow",
@@ -109,7 +145,9 @@
     "program_name": "Executive Program in Strategic Project Management & Leadership",
     "category": "project management",
     "start_date": "30 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iiml-executive-program-in-strategic-project-management-leadership",
+    "id": "iiml-executive-program-in-strategic-project-management-leadership"
   },
   {
     "university_name": "XLRI",
@@ -117,7 +155,9 @@
     "program_name": "Executive Development Program in Global Senior Management",
     "category": "senior management",
     "start_date": "7 June 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-development-program-in-global-senior-management",
+    "id": "executive-development-program-in-global-senior-management"
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -125,7 +165,9 @@
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "category": "artificial intelligence",
     "start_date": "28th Jun 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
+    "id": "executive-program-in-generative-ai-for-leaders"
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -133,7 +175,9 @@
     "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
     "start_date": "22th Feb 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
+    "id": "professional-certificate-in-applied-generative-ai"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -141,7 +185,9 @@
     "program_name": "Chief Human Resource Officer Programme",
     "category": "Human Resource",
     "start_date": "22 Feb 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/chief-human-resource-officer-programme",
+    "id": "chief-human-resource-officer-programme"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -149,7 +195,9 @@
     "program_name": "Chief Human Resource Officer Programme",
     "category": "cxo leadership",
     "start_date": "22 Feb 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/chief-human-resource-officer-programme",
+    "id": "chief-human-resource-officer-programme"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -157,7 +205,9 @@
     "program_name": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
     "category": "PG Diploma",
     "start_date": "24 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives",
+    "id": "post-graduate-diploma-in-management-for-working-executives"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -165,7 +215,9 @@
     "program_name": "Executive Program in Generative AI for Business Leaders",
     "category": "artificial intelligence",
     "start_date": "9 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders",
+    "id": "executive-program-in-generative-ai-for-business-leaders"
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -173,7 +225,9 @@
     "program_name": "Executive Program in Strategic HR Leadership",
     "category": "Human Resource",
     "start_date": "8th Feb 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-strategic-hr-leadership",
+    "id": "executive-program-in-strategic-hr-leadership"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -181,7 +235,9 @@
     "program_name": "Post Graduate Certificate in Strategic Project Management & Leadership",
     "category": "project management",
     "start_date": "18 Jan 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership",
+    "id": "pg-certificate-in-strategic-project-management-and-leadership"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -189,7 +245,9 @@
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
     "category": "strategy & leadership",
     "start_date": "10 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era",
+    "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era"
   },
   {
     "university_name": "XLRI",
@@ -197,7 +255,9 @@
     "program_name": "Executive Development Program in Strategic HR Leadership",
     "category": "Human Resource",
     "start_date": "28 June 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-development-program-strategic-hr-leadership",
+    "id": "executive-development-program-strategic-hr-leadership"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -205,7 +265,9 @@
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
     "start_date": "06 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai",
+    "id": "iimv-executive-program-in-leadership-with-ai"
   },
   {
     "university_name": "IIM Lucknow",
@@ -213,7 +275,9 @@
     "program_name": "Executive General Management Program",
     "category": "general management",
     "start_date": "30 Nov 2025",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/executive-general-management-program",
+    "id": "executive-general-management-program"
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -221,7 +285,9 @@
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
     "category": "cxo leadership",
     "start_date": "16 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-trichy-chief-technology-officer-programme",
+    "id": "iim-trichy-chief-technology-officer-programme"
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -229,7 +295,9 @@
     "program_name": "Accelerated Senior Management Programme",
     "category": "senior management",
     "start_date": "26 Oct 2025",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/accelerated-senior-management-program",
+    "id": "accelerated-senior-management-program"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -237,7 +305,9 @@
     "program_name": "Chief Executive Officer Program (The CEO Program)",
     "category": "cxo leadership",
     "start_date": "19 Apr 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/chief-executive-officer-program",
+    "id": "chief-executive-officer-program"
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -245,7 +315,9 @@
     "program_name": "Advanced Certificate Program in AI for Leaders",
     "category": "artificial intelligence",
     "start_date": "11 Jan 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/advanced-certificate-program-in-ai-for-leaders",
+    "id": "advanced-certificate-program-in-ai-for-leaders"
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -253,7 +325,9 @@
     "program_name": "Professional Certificate Program in Leadership with AI",
     "category": "artificial intelligence",
     "start_date": "11 Jan 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai",
+    "id": "professional-certificate-program-in-leadership-with-ai"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -261,7 +335,9 @@
     "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
     "category": "cxo leadership",
     "start_date": "22 Feb 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program",
+    "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -269,7 +345,9 @@
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
     "category": "cxo leadership",
     "start_date": "17 May 2025",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/chief-technology-officer-programme",
+    "id": "chief-technology-officer-programme"
   },
   {
     "university_name": "XLRI",
@@ -277,7 +355,9 @@
     "program_name": "Executive Development Programme in Digital HR Leadership and People Analytics",
     "category": "Human Resource",
     "start_date": "15 Feb 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/executive-development-program-in-digital-hr-leadership-and-people-analytics",
+    "id": "executive-development-program-in-digital-hr-leadership-and-people-analytics"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -285,7 +365,9 @@
     "program_name": "Global Senior Leadership Program",
     "category": "senior management",
     "start_date": "28 Mar 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/global-senior-leadership-program",
+    "id": "global-senior-leadership-program"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -293,7 +375,9 @@
     "program_name": "Executive Program in Business Management",
     "category": "business management",
     "start_date": "25 May 2025",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/executive-program-in-business-management",
+    "id": "executive-program-in-business-management"
   },
   {
     "university_name": "XLRI",
@@ -301,7 +385,9 @@
     "program_name": "Executive Development Program in Strategy & Leadership",
     "category": "strategy & leadership",
     "start_date": "05 Jul 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-strategy-leadership",
+    "id": "executive-program-in-strategy-leadership"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -309,7 +395,9 @@
     "program_name": "Chief Financial Officer Programme",
     "category": "cxo leadership",
     "start_date": "21 Jun 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/chief-financial-officer-programme",
+    "id": "chief-financial-officer-programme"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -317,7 +405,9 @@
     "program_name": "Chief Financial Officer Programme",
     "category": "finance",
     "start_date": "21 Jun 2026",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/chief-financial-officer-programme",
+    "id": "chief-financial-officer-programme"
   },
   {
     "university_name": "XLRI",
@@ -325,7 +415,9 @@
     "program_name": "Executive Development Program in General Management",
     "category": "general management",
     "start_date": "29 Mar 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-general-management",
+    "id": "executive-program-in-general-management"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -333,7 +425,9 @@
     "program_name": "PG Certificate Program in Investment Banking & Capital Markets",
     "category": "finance",
     "start_date": "2 Feb 2025",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/pg-certificate-program-in-investment-banking",
+    "id": "pg-certificate-program-in-investment-banking"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -341,7 +435,9 @@
     "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "10 May 2026",
-    "status": "New Launch"
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/senior-management-program",
+    "id": "senior-management-program"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -349,6 +445,8 @@
     "program_name": "Post Graduate Certificate in FinTech, Blockchain & Risk Management",
     "category": "finance",
     "start_date": "20 Oct 2024",
-    "status": "admission closed"
+    "status": "admission closed",
+    "url": "https://accredian.com/programs/fintech-blockchain-program",
+    "id": "fintech-blockchain-program"
   }
 ]

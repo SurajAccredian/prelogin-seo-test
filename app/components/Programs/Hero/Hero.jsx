@@ -164,12 +164,13 @@ const Hero = () => {
               <div className="bg-white rounded-md px-3 py-1 inline-block mb-3">
                 <div
                   className={`${data.short_university_name?.toLowerCase() === "iim-trichy"
-                    ? "max-w-[300px]"
+                    ? "max-w-[150px]"
                     : data.short_university_name?.toLowerCase() === "iiml"
                       ? "max-w-[200px]"
-                      : data.short_university_name?.toLowerCase() === "iim-ranchi"
-                        ? "max-w-[70px]"   // ← adjust this value to your liking
-                        : "max-w-[120px]"
+                      : data.short_university_name?.toLowerCase() === "iim-kashipur"
+                        ? "max-w-[200px]" : data.short_university_name?.toLowerCase() === "iim-ranchi"
+                          ? "max-w-[70px]"   // ← adjust this value to your liking
+                          : "max-w-[120px]"
                     } flex-shrink-0 rounded-md`}
                 >
                   <img
@@ -404,8 +405,8 @@ const Hero = () => {
             <div className="py-2 px-4 bg-white flex items-center md:justify-between justify-center border-b drop-shadow-none md:drop-shadow-md">
               <div
                 className={`${data.short_university_name?.toLowerCase() === "iim-trichy"
-                  ? "max-w-[120px]"
-                  : data.short_university_name?.toLowerCase() === "iim-ranchi"
+                  ? "max-w-[250px]"
+                  : data.short_university_name?.toLowerCase() === "iim-kashipur" ? "max-w-[250px]" : data.short_university_name?.toLowerCase() === "iim-ranchi"
                     ? "max-w-[60px]"   // ← adjust this value to your liking
                     : data.short_university_name?.toLowerCase() === "iim-amritsar"
                       ? "max-w-[250px]"  // ← adjust this value to your liking
@@ -415,7 +416,7 @@ const Hero = () => {
                 <img
                   className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
                     ? "w-[400px] h-[55px]"
-                    : data?.short_university_name?.toLowerCase() !== "iim-trichy"
+                    :  data?.short_university_name?.toLowerCase() !== "iim-trichy"
                       ? "w-full h-full"
                       : "w-[300px] h-[35px]"
                     } rounded`}

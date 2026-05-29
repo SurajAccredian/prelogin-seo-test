@@ -46,6 +46,10 @@ const universities = [
   {
     name: "I3C-IIT JAMMU",
     logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-jammu-logo.webp",
+  },
+  {
+    name: "IIM Kashipur",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-logo.webp",
   }
 ];
 

@@ -251,7 +251,7 @@
     }
   ],
   "billing": {
-    "total": 260000,
+    "total": 290000,
     "points": [
       "144+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
@@ -260,15 +260,15 @@
     ],
     "monthly_emi": [
       {
-        "emi": 22767,
+        "emi": 26019,
         "months": 12
       },
       {
-        "emi": 15729,
+        "emi": 17976,
         "months": 18
       },
       {
-        "emi": 12184,
+        "emi": 13924,
         "months": 24
       }
     ]
@@ -285,10 +285,10 @@
     "program fee"
   ],
   "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
-      "source": "IIM-KASHIPUR Chief Operating Officer Program (The COO Program) Brochure",
-      "campaign_name": "IIM-KASHIPUR-CTO-12 Months"
-    },
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
+    "source": "IIM-KASHIPUR Chief Operating Officer Program (The COO Program) Brochure",
+    "campaign_name": "IIM-KASHIPUR-CTO-12 Months"
+  },
 
   "tools": [
     {

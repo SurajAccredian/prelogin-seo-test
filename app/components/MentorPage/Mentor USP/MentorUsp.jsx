@@ -31,7 +31,7 @@ const MentorUsp = () => {
             {mentorOverview.unique_points.includes("Best Industry Pay") && (
               <div className="USP-card-bg-image py-4 md:py-6 px-3 md:px-5 bg-white rounded-lg flex flex-col items-center text-center md:max-w-sm md:min-h-[18rem] drop-shadow-2xl border cursor-context-menu overflow-hidden">
                 <div className="w-16 h-16 mt-4 text-blue-600 flex-shrink-0">
-                  <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/pay.svg" alt="" className="w-full h-full" />
+                  <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/pay.svg" alt="Best industry pay" className="w-full h-full" />
                 </div>
                 <h1 className="text-lg font-semibold mt-4">
                   Best Industry Pay
@@ -44,7 +44,7 @@ const MentorUsp = () => {
             {mentorOverview.unique_points.includes("Flexible Scheduling") && (
               <div className="USP-card-bg-image w-full  py-4 md:py-6 px-3 md:px-5 bg-white rounded-lg flex flex-col items-center text-center md:max-w-sm md:min-h-[18rem] drop-shadow-2xl border cursor-context-menu overflow-hidden">
                 <div className="w-16 h-16 mt-4 text-blue-600 flex-shrink-0">
-                  <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/calendarImg.svg" alt="" className="w-full h-full" />
+                  <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/calendarImg.svg" alt="Flexible scheduling" className="w-full h-full" />
                 </div>
                 <h1 className="text-lg font-semibold mt-4">
                   Flexible Scheduling
@@ -57,7 +57,7 @@ const MentorUsp = () => {
             {mentorOverview.unique_points.includes("Personal Development") && (
               <div className="USP-card-bg-image py-4 md:py-6 px-3 md:px-5 bg-white rounded-lg flex flex-col items-center text-center md:max-w-sm md:min-h-[18rem] drop-shadow-2xl border cursor-context-menu overflow-hidden">
                 <div className="w-16 h-16 mt-4 text-blue-600 flex-shrink-0">
-                  <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/docImage.svg" alt="" className="w-full h-full" />
+                  <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/docImage.svg" alt="Impactful work" className="w-full h-full" />
                 </div>
                 <h1 className="text-lg font-semibold mt-4">
                   Impactful Work
@@ -72,7 +72,7 @@ const MentorUsp = () => {
             ) && (
                 <div className="USP-card-bg-image py-4 md:py-6 px-3 md:px-5 bg-white rounded-lg flex flex-col items-center text-center md:max-w-sm md:min-h-[18rem] drop-shadow-2xl border cursor-context-menu overflow-hidden">
                   <div className="w-16 h-16 mt-4 text-blue-600 flex-shrink-0">
-                    <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/meeting.svg" className="w-full h-full" alt="" />
+                    <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/meeting.svg" className="w-full h-full" alt="Global student engagement" />
                   </div>
                   <h1 className="text-lg font-semibold mt-4">
                     Global Student Engagement

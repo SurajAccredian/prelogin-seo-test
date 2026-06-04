@@ -1,0 +1,304 @@
+{
+  "id": "iimr-executive-program-in-strategy-leadership",
+  "category": "61",
+  "vertical": "Strategy & Leadership",
+  "title": "Executive Program in Strategy & Leadership",
+  "description": "Embark on an 11 month learning journey in executive leadership, business strategies, and analytics.",
+  "short_title": "Strategy & Leadership",
+  "contact": "",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
+  "start_date": "30 Aug 2026",
+  "duration": "11 Months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "132+",
+      "title": "hours"
+    },
+    {
+      "text": "14",
+      "title": "modules"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "3",
+      "title": "simulations"
+    },
+    {
+      "title": "campus immersion",
+      "text": "3 Days"
+    }
+  ],
+  "domain": "Strategy & Leadership",
+  "overview": {
+    "programId": "iimr-executive-program-in-strategy-leadership",
+    "content": [
+      {
+        "title": "Who Should Join?",
+        "points": [
+          "Senior Executives: Develop strategic thinking to lead organizational change",
+          "Directors & Division Heads: Align goals with strategic planning and cross-functional collaboration",
+          "Senior Managers: Drive competitive initiatives and strengthen leadership capabilities",
+          "Entrepreneurs: Refine strategic vision for sustainable growth",
+          "Public & Social Sector Leaders: Implement strategic initiatives for institutional advancement"
+        ]
+      },
+      {
+        "title": "Job Opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Strategy Officer (CSO)",
+          "Chief Innovation Officer (CIO)",
+          "Director of Strategy",
+          "Vice President of Operations",
+          "Senior Leadership Consultant",
+          "Business Transformation Manager",
+          "Organizational Development Manager",
+          "Change Management Specialist",
+          "Leadership Development Coach"
+        ]
+      },
+      {
+        "title": "Program Snapshot",
+        "points": [
+          "14 Modules: Leadership Principles, Strategic Thinking and Management",
+          "Learn from esteemed IIM Ranchi faculty",
+          "Duration: 11 Months | Weekend Online Format",
+          "Certification from IIM Ranchi",
+          "Live Instructor-Led Classes",
+          "Executive Alumni Status",
+          "Strategy, Boardroom Leadership, and Innovation Simulations",
+          "Campus Immersion: One 3-Day Campus Immersion at IIM Ranchi",
+          "Career Counseling by Accredian",
+          "EMI up to 24 Months"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "capstone-project",
+    "campus-immersion",
+    "alumni-status"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Personalized Discussion",
+    "Schedule a One-on-One Consultation with Program Advisors",
+    "Application Review",
+    "Qualify for the Program Following the Review",
+    "Start Learning",
+    "Congratulations, You're In! It's Time to Embark on Your Journey"
+  ],
+  "curriculum": [
+    {
+      "title": "Strategic Leader’s Mindset",
+      "points": [
+        "Systems Thinking and First-Principles Thinking",
+        "Decision Making under Uncertainty",
+        "Problem Framing and Hypothesis Thinking",
+        "Leading with Strategic Perspective"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Corporate and Business Strategy",
+      "points": [
+        "Industry and Competitive Analysis",
+        "Strategic Positioning and Trade-offs",
+        "Business Model Design",
+        "Sustaining Competitive Advantage"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Acumen for Strategic Leaders",
+      "points": [
+        "Understanding P&L and Key Metrics",
+        "Revenue, Margins and Cost Structures",
+        "Capital Allocation and Investment Decisions",
+        "Linking Strategy to Financial Outcomes"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Growth Strategy and Market Expansion",
+      "points": [
+        "Growth Levers and Expansion Strategy",
+        "Market Entry and Scaling Decisions",
+        "Expanding into New Markets",
+        "Strategic Partnerships and Alliances"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategy Execution, Change & Transformation",
+      "points": [
+        "Translating Strategy into Execution Roadmaps",
+        "Enterprise Change and Transformation Leadership",
+        "Execution Governance, OKRs and Performance Cadence",
+        "Scaling Transformation and Driving Adoption"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leadership, Executive Presence & Influence",
+      "points": [
+        "Executive Presence and Leadership Credibility",
+        "Influencing Senior Stakeholders and Decision Makers",
+        "Leadership Communication and Persuasion",
+        "Leading with Authority under Pressure and Ambiguity"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Communication, Negotiation and Storytelling",
+      "points": [
+        "Leadership Communication Frameworks",
+        "Storytelling with Data and Insight",
+        "Negotiation and Persuasion Skills",
+        "Communicating Complex Ideas Clearly"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Building and Leading High-Performance Organizations",
+      "points": [
+        "Organizational Design and Operating Models",
+        "Decision Rights and Accountability Systems",
+        "Leading High-Impact Teams",
+        "Driving Organizational Effectiveness"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Influence and Stakeholder Management",
+      "points": [
+        "Engaging Boards and Senior Stakeholders",
+        "Managing Power and Organizational Dynamics",
+        "Strategic Alignment Across Stakeholders",
+        "Driving Decisions at the Top"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Risk & Crisis Leadership",
+      "points": [
+        "Risk Identification and Mitigation",
+        "Leading in Crisis and Uncertainty",
+        "Rapid Decision-Making Frameworks",
+        "Business Continuity and Recovery"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Innovation and Business Model Reinvention",
+      "points": [
+        "Innovation Strategy and Value Creation",
+        "Business Model Innovation and Reinvention",
+        "Disruption and Competitive Response",
+        "Scaling New Business Models"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Global and Growth Strategy",
+      "points": [
+        "Global Expansion and Market Entry",
+        "Scaling Across Geographies",
+        "Strategic Partnerships and Alliances",
+        "Managing Global Operations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital Strategy and Data-Driven Decision Making",
+      "points": [
+        "Digital Business Models and Strategy",
+        "Data-Driven Decision Making",
+        "Building Digital Capabilities",
+        "Leveraging Technology for Advantage"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI and Generative AI for Strategic Leaders",
+      "points": [
+        "AI Fundamentals and Business Applications",
+        "Generative AI Use Cases",
+        "Integrating AI into Strategy and Operations",
+        "Leading AI Adoption"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+            "special": "1",
+      "points": [
+        "The capstone project for Strategy & Leadership Program will challenge participants to synthesize their acquired knowledge by tackling a complex, real world business scenario requiring strategic analysis, decision making and leadership skills participants would have gained during the program."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 260000,
+    "points": [
+      "132+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 22767,
+        "months": 12
+      },
+      {
+        "emi": 15729,
+        "months": 18
+      },
+      {
+        "emi": 12184,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee"
+  ],
+  "brochure": {
+    "pdf": "",
+    "source": "IIM-RANCHI Executive Program in Strategy & Leadership Brochure",
+    "campaign_name": "IIM-RANCHI-EPSL"
+  },
+  "faculty": [],
+  "tools": []
+}

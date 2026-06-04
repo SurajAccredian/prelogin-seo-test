@@ -1,6 +1,62 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Strategy & Leadership",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-executive-program-in-strategy-leadership",
+    "category": "strategy & leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "",
+      "source": "IIM-RANCHI Executive Program in Strategy & Leadership Brochure",
+      "campaign_name": "IIM-RANCHI-EPSL"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": ""
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "duration": "7 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
+      "source": "IIM-RANCHI Executive Program in Generative AI & Agentic AI for Leaders Brochure",
+      "campaign_name": "IIM-RANCHI-EPGA&AIL"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "9 Aug 2026",
+    "contact": ""
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
     "university_name": "IIM Kashipur",
     "program_name": "Chief Operating Officer Program (The COO Program)",
@@ -1047,7 +1103,7 @@
     "contact": "9810184424"
   },
   {
-    "status": "admission closed",
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
     "university_name": "E&ICT Academy IIT Kanpur",
     "program_name": "Advanced Certificate Program in AI for Leaders",
@@ -1077,11 +1133,11 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "11 Jan 2026",
+    "start_date": "09 Aug 2026",
     "contact": "9211285411"
   },
   {
-    "status": "admission closed",
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
     "university_name": "E&ICT Academy IIT Kanpur",
     "program_name": "Professional Certificate Program in Leadership with AI",
@@ -1111,7 +1167,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "11 Jan 2026",
+    "start_date": "09 Aug 2026",
     "contact": "9211285411"
   },
   {

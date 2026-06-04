@@ -2803,5 +2803,60 @@
       "Certificates": "Completion Certificate from IIM Kashipur",
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
+  },
+
+  {
+    "title": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders-7months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "Executive Program in Generative AI & Agentic AI for Leaders",
+      "Duration of the Program": "7 Months",
+      "Program Terms/Modules": "8 Modules",
+      "Live Session Hours": "84+ hours",
+      "Capstone Project": "1 Capstone Project upon Program Completion",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+      ],
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "8+ Tools Perplexity, ChatGPT, Lovable, Gemini, Claude, Gamma, NotebookLM, Leonardo.AI etc."
+    }
+  },
+
+  {
+    "title": "Executive Program in Strategy & Leadership",
+    "id": "iimr-executive-program-in-strategy-leadership-11months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "Executive Program in Strategy & Leadership",
+      "Duration of the Program": "11 Months",
+      "Program Terms/Modules": "14 Modules",
+      "Live Session Hours": "132+ hours",
+      "Capstone Project": "1 Capstone Project upon Program Completion",
+      "Campus Immersion": "One Campus Immersions of 3 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+      ],
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
   }
 ]

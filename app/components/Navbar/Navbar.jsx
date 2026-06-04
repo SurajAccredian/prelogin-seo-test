@@ -324,7 +324,7 @@ export default function Navbar() {
                         <img
                           src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp"
                           className="w-[240px]"
-                          alt=""
+                          alt="Refer and earn banner"
                         />
                       </a>
                     </PopoverContent>

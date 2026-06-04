@@ -421,7 +421,7 @@ const Hero = () => {
                       : "w-[300px] h-[35px]"
                     } rounded`}
                   src={data?.university_logo}
-                  alt="university"
+                  alt={data?.university_name}
                 />
               </div>
               <div

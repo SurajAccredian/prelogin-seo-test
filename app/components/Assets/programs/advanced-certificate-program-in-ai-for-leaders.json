@@ -15,7 +15,7 @@
       "type": "ordinary"
     }
   ],
-  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v2.svg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v3.webp",
   "university_name": "E&ICT Academy IIT Kanpur",
   "short_university_name": "iitk",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
@@ -45,14 +45,14 @@
       "count": 5
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v1.webp",
-  "start_date": "11 Jan 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
+  "start_date": "09 Aug 2026",
   "id": "advanced-certificate-program-in-ai-for-leaders",
   "duration": "5 Months",
   "required_years_experience": 0,
   "timings": "weekends only",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "overview": {
     "programId": "advanced-certificate-program-in-ai-for-leaders",
     "content": [
@@ -365,5 +365,5 @@
     "source": "IITK Advanced Certificate Program in AI for Leaders Brochure",
     "campaign_name": "ACPAIL-IITK-5 Months"
   },
-  "external_enroll": "https://eicta.iitk.ac.in/courses/advanced-certificate-program-in-ai-for-leaders"
+  "external_enroll": "https://www.eicta.iitk.ac.in/courses/advanced-certificate-program-in-ai-for-leaders"
 }

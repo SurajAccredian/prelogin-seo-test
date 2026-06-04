@@ -15,7 +15,7 @@
       "type": "ordinary"
     }
   ],
-  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v2.svg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v3.webp",
   "university_name": "E&ICT Academy IIT Kanpur",
   "short_university_name": "iitk",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
@@ -46,14 +46,14 @@
     }
   ],
   "domain": "module",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v1.webp",
-  "start_date": "11 Jan 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
+  "start_date": "09 Aug 2026",
   "id": "professional-certificate-program-in-leadership-with-ai",
   "duration": "8 Months",
   "required_years_experience": 0,
   "timings": "weekends only",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "overview": {
     "programId": "professional-certificate-program-in-leadership-with-ai",
     "content": [
@@ -407,5 +407,5 @@
     "source": "IITK Professional Certificate Program in Leadership with AI Brochure",
     "campaign_name": "PCPLAI-IITK-8 Months"
   },
-  "external_enroll": "https://eicta.iitk.ac.in/courses/professional-certificate-program-in-leadership-with-ai"
+  "external_enroll": "https://www.eicta.iitk.ac.in/courses/professional-certificate-program-in-leadership-with-ai"
 }

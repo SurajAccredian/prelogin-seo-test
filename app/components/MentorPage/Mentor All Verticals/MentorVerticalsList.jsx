@@ -126,7 +126,7 @@ function MentorverticalListsList() {
                       <img
                         src={val.image}
                         className="verticalListImage"
-                        alt=""
+                        alt={val?.name}
                       />
                       <h1
                         title={val?.name}

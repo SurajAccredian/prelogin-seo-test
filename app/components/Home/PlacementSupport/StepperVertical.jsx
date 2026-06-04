@@ -33,7 +33,7 @@ export default function StepperVertical() {
             <img
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps2.webp"
-              alt="career launchpad"
+              alt="Interview preparation"
             />
           </div>
           <div className="w-[1px] h-full min-h-10 md:min-h-16 bg-slate-500" />
@@ -56,7 +56,7 @@ export default function StepperVertical() {
             <img
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps3.webp"
-              alt="career launchpad"
+              alt="Mentor session"
             />
           </div>
           <div className="w-[1px] h-full bg-slate-500" />

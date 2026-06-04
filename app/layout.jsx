@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
             width="1"
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=181911999105692&ev=PageView&noscript=1"
-            alt=""
+            alt="Facebook tracking pixel"
           />
         </noscript>
         <noscript>
@@ -87,7 +87,7 @@ export default function RootLayout({ children }) {
             height="1"
             width="1"
             style={{ display: "none" }}
-            alt=""
+            alt="LinkedIn tracking pixel"
             src="https://px.ads.linkedin.com/collect/?pid=3021458&fmt=gif"
           />
         </noscript>

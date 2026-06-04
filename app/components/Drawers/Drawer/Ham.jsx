@@ -73,7 +73,7 @@ export default function Ham({
           </div>
           <div>
             <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/referandearn`} target="_blank" rel="noreferrer">
-              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="" />
+              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="Refer and earn banner" />
             </a>
           </div>
           {loginStatus && (

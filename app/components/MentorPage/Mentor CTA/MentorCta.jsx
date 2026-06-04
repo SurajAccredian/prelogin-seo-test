@@ -22,7 +22,7 @@ const MentorCta = () => {
               <img
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hanshake.svg"
                 className="w-full h-full text-universal"
-                alt=""
+                alt="Handshake"
               />
               {/* <RiCustomerService2Fill className="w-full h-full text-universal" /> */}
             </div>

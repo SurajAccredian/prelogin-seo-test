@@ -885,7 +885,7 @@ function LoginModal({ open }) {
               >
                 <img
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/loginModalImage.svg"
-                  alt="Description"
+                  alt="Login illustration"
                   style={{ width: "100%", height: "auto", borderRadius: "8px" }}
                 />
               </Box>

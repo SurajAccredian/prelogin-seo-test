@@ -145,7 +145,7 @@ export default function AccodionMyAccount() {
               className="w-full text-neutral-700 hover:text-universal"
             >
               <div className="flex items-center gap-2">
-                <img src={section.img} alt="" className="w-5 h-5" />
+                <img src={section.img} alt={section.label} className="w-5 h-5" />
                 {section.label}
               </div>
             </a>

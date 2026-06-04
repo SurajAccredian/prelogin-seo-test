@@ -1,5 +1,25 @@
 [
   {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "Executive Program in Strategy & Leadership",
+    "category": "strategy & leadership",
+    "start_date": "30 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iimr-executive-program-in-strategy-leadership",
+    "id": "iimr-executive-program-in-strategy-leadership"
+  },
+  {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "category": "artificial intelligence",
+    "start_date": "9 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+    "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders"
+  },
+  {
     "university_name": "IIM Kashipur",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
     "program_name": "Chief Operating Officer Program (The COO Program)",
@@ -314,8 +334,8 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
     "program_name": "Advanced Certificate Program in AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "11 Jan 2026",
-    "status": "admission closed",
+    "start_date": "09 Aug 2026",
+    "status": "New Launch",
     "url": "https://accredian.com/programs/advanced-certificate-program-in-ai-for-leaders",
     "id": "advanced-certificate-program-in-ai-for-leaders"
   },
@@ -324,8 +344,8 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
     "program_name": "Professional Certificate Program in Leadership with AI",
     "category": "artificial intelligence",
-    "start_date": "11 Jan 2026",
-    "status": "admission closed",
+    "start_date": "09 Aug 2026",
+    "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai",
     "id": "professional-certificate-program-in-leadership-with-ai"
   },

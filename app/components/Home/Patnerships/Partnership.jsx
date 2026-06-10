@@ -17,7 +17,7 @@ const universities = [
   },
   {
     name: "IIT Kanpur",
-    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iitk-logo-615x340.webp",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v3.webp",
   },
   {
     name: "IIM Tiruchirappalli",

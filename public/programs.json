@@ -2,6 +2,26 @@
   {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "Executive Program in Strategic HR Leadership",
+    "category": "human resource",
+    "start_date": "30 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iimr-executive-program-in-strategic-hr-leadership",
+    "id": "iimr-executive-program-in-strategic-hr-leadership"
+  },
+  {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "Chief Human Resource Officer Programme (The CHRO Program)",
+    "category": "cxo leadership",
+    "start_date": "30 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iimr-chief-human-resource-officer-programme-the-chro-program",
+    "id": "iimr-chief-human-resource-officer-programme-the-chro-program"
+  },
+  {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Executive Program in Strategy & Leadership",
     "category": "strategy & leadership",
     "start_date": "30 Aug 2026",
@@ -184,7 +204,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "28th Jun 2026",
+    "start_date": "08th Aug 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
     "id": "executive-program-in-generative-ai-for-leaders"
@@ -194,7 +214,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
-    "start_date": "22th Feb 2026",
+    "start_date": "08th Aug 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
     "id": "professional-certificate-in-applied-generative-ai"

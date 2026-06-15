@@ -13,12 +13,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://accredian.com/programs/chief-human-resource-officer-programme-the-chro-program</loc>
-        <lastmod>2026-06-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://accredian.com/programs/chief-technology-officer-program</loc>
         <lastmod>2026-06-15</lastmod>
         <changefreq>monthly</changefreq>
@@ -44,6 +38,18 @@
     </url>
     <url>
         <loc>https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program</loc>
+        <lastmod>2026-06-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program</loc>
+        <lastmod>2026-06-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/programs/iimr-chief-human-resource-officer-programme-the-chro-program</loc>
         <lastmod>2026-06-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

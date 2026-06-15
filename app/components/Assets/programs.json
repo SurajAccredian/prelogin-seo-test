@@ -3,6 +3,62 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Strategic HR Leadership",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-executive-program-in-strategic-hr-leadership",
+    "category": "human resource",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategic-HR-Leadership.pdf",
+      "source": "IIM-RANCHI Executive Program in Strategic HR Leadership Brochure",
+      "campaign_name": "IIM-RANCHI-SHRL"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "8851827093"
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Chief Human Resource Officer Programme (The CHRO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-chief-human-resource-officer-programme-the-chro-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
+      "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
+      "campaign_name": "IIM-RANCHI-CHRO"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "8851827093"
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
     "program_name": "Executive Program in Strategy & Leadership",
     "duration": "11 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
@@ -25,7 +81,7 @@
       "refreeBonus": "₹3,000"
     },
     "start_date": "30 Aug 2026",
-    "contact": ""
+    "contact": "8851827093"
   },
   {
     "status": "New Launch",
@@ -53,7 +109,7 @@
       "refreeBonus": "₹3,000"
     },
     "start_date": "9 Aug 2026",
-    "contact": ""
+    "contact": "8851827093"
   },
   {
     "status": "New Launch",

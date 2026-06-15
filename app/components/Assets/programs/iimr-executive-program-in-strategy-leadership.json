@@ -5,7 +5,7 @@
   "title": "Executive Program in Strategy & Leadership",
   "description": "Embark on an 11 month learning journey in executive leadership, business strategies, and analytics.",
   "short_title": "Strategy & Leadership",
-  "contact": "",
+  "contact": "8851827093",
   "university_name": "IIM Ranchi",
   "short_university_name": "iim-ranchi",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
@@ -98,11 +98,7 @@
     "campus-immersion",
     "alumni-status"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "Personalized Discussion",
     "Schedule a One-on-One Consultation with Program Advisors",
@@ -254,7 +250,7 @@
     },
     {
       "title": "Capstone Project",
-            "special": "1",
+      "special": "1",
       "points": [
         "The capstone project for Strategy & Leadership Program will challenge participants to synthesize their acquired knowledge by tackling a complex, real world business scenario requiring strategic analysis, decision making and leadership skills participants would have gained during the program."
       ],

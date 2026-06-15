@@ -1,5 +1,25 @@
 [
   {
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
+    "program_name": "Professional Certificate Program in Strategic Project Management & Leadership",
+    "category": "project management",
+    "start_date": "16 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/professional-certificate-program-in-strategic-project-management-and-leadership",
+    "id": "professional-certificate-program-in-strategic-project-management-and-leadership"
+  },
+  {
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
+    "program_name": "Advanced Certificate Program in Strategic Project Management",
+    "category": "project management",
+    "start_date": "16 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/advanced-certificate-program-in-strategic-project-management",
+    "id": "advanced-certificate-program-in-strategic-project-management"
+  },
+  {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Executive Program in Strategic HR Leadership",

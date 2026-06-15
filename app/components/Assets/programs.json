@@ -1,6 +1,74 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Professional Certificate Program in Strategic Project Management & Leadership",
+    "duration": "8 Months",
+    "batch_type": "Online",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-blue.webp",
+    "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
+    "category": "project management",
+    "tags": [
+      "Strategic Thinking",
+      "Product Vision and Mission",
+      "Competitor Analysis and Market research",
+      "Business Model Canvas and Value Proposition",
+      "Product Strategy and Roadmap"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-11.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Professional-Certificate-Program-in-Strategic-Project-Management-&-Leadership.pdf",
+      "source": "IITK Professional Certificate Program in Strategic Project Management & Leadership Brochure",
+      "campaign_name": "PCPSPMTL-IITK-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "16 Aug 2026",
+    "contact": "9211285411"
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Advanced Certificate Program in Strategic Project Management",
+    "duration": "5 Months",
+    "batch_type": "Online",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-blue.webp",
+    "id": "advanced-certificate-program-in-strategic-project-management",
+    "category": "project management",
+    "tags": [
+      "Strategic Thinking",
+      "Product Vision and Mission",
+      "Competitor Analysis and Market research",
+      "Business Model Canvas and Value Proposition",
+      "Product Strategy and Roadmap"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-11.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-in-Strategic-Project-Management.pdf",
+      "source": "IITK Advanced Certificate Program in Strategic Project Management Brochure",
+      "campaign_name": "ACPSPMT-IITk-5 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "16 Aug 2026",
+    "contact": "9211285411"
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "university_name": "IIM Ranchi",
     "program_name": "Executive Program in Strategic HR Leadership",

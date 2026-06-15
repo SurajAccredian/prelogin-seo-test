@@ -5,7 +5,7 @@
   "title": "Executive Program in Generative AI & Agentic AI for Leaders",
   "description": "Embark on a 7 months learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
-  "contact": "",
+  "contact": "8851827093",
   "university_name": "IIM Ranchi",
   "short_university_name": "iim-ranchi",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
@@ -99,11 +99,7 @@
     "certificate",
     "alumni-status-opt"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "Personalized Discussion",
     "Application Review",
@@ -192,7 +188,7 @@
     },
     {
       "title": "Capstone Project",
-        "special": "1",
+      "special": "1",
       "points": [
         "Identify a high-impact business function within your organization and redesign it using Generative AI and Agentic AI. Define the use case, build a prototype (no-code/low-code), integrate workflows or agents and evaluate ROI, risks, and scalability. Present a transformation roadmap demonstrating measurable impact on productivity, decision-making and business outcomes."
       ],

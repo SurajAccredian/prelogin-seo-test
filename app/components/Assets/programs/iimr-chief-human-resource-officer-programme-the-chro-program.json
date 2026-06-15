@@ -1,0 +1,297 @@
+{
+  "id": "iimr-chief-human-resource-officer-programme-the-chro-program",
+  "category": "63",
+  "vertical": "CXO Leadership",
+  "title": "Chief Human Resource Officer Programme (The CHRO Program)",
+  "description": "Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
+  "short_title": "Chief Human Resource Officer",
+  "contact": "8851827093",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
+  "start_date": "30 Aug 2026",
+  "duration": "12 Months",
+  "required_years_experience": 7,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "144+",
+      "title": "hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "14",
+      "title": "modules"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "3 Days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "3",
+      "title": "simulations"
+    }
+  ],
+  "domain": "CXO Leadership",
+  "overview": {
+    "programId": "iimr-chief-human-resource-officer-programme-the-chro-program",
+    "content": [
+      {
+        "title": "Who Should Join",
+        "points": [
+          "Senior HR Professionals: Enhance strategic leadership skills",
+          "HR Directors: Transition into the CHRO role",
+          "HR Business Partners: Influence organizational strategy and transformation",
+          "Talent Leaders: Develop advanced people management capabilities",
+          "HR Consultants: Expand knowledge in strategic HR planning",
+          "Business Leaders: Build robust HR systems for success"
+        ]
+      },
+      {
+        "title": "Job Opportunities",
+        "points": [
+          "Chief Human Resources Officer (CHRO)",
+          "HR Director",
+          "Vice President of Human Resources",
+          "Global HR Head",
+          "Talent Management Leader",
+          "HR Business Partner",
+          "HR Consultant",
+          "Strategic HR Advisor",
+          "HR Transformation Lead"
+        ]
+      },
+      {
+        "title": "Program Snapshot",
+        "points": [
+          "14 Modules – Talent Acquisition, Leadership Development, and HR Analytics",
+          "Learn from IIM Ranchi Faculty & Top Industry Professionals",
+          "Duration: 12 Months | Weekend Online",
+          "CXO Coaching",
+          "Live Faculty-Led Classes",
+          "IIM Ranchi Executive Alumni Status",
+          "EMI up to 24 Months",
+          "Career Assistance by Accredian",
+          "One-on-One Career Mentorship Sessions",
+          "Campus Immersion: 3-Days at IIM Ranchi"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "campus-immersion-opt",
+    "alumni-status",
+    "CXO-coaching-sessions",
+    "engaging-simulations"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "start learning"
+  ],
+  "curriculum": [
+    {
+      "title": "The Modern CHRO Role",
+      "points": [
+        "Evolving CHRO Mandate and Business Impact",
+        "Partnering with CEO and Board",
+        "Balancing Growth, Cost, and Talent Priorities",
+        "Leading HR as an Enterprise Function"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic HR Leadership and Planning",
+      "points": [
+        "Aligning HR Strategy with Business Strategy",
+        "Setting Strategic Priorities and Roadmaps",
+        "Workforce Implications of Business Decisions",
+        "Driving Measurable Business Outcomes and KPIs"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Influence and Executive Communication",
+      "points": [
+        "Executive Presence and Communication",
+        "Influencing CXOs and Business Leaders",
+        "Storytelling with Data, Metrics, and Insights",
+        "Managing Stakeholders and Expectations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Organizational Design and Operating Models",
+      "points": [
+        "Organization Structure and Operating Models",
+        "Decision Rights, Governance, and Accountability",
+        "Spans, Layers, and Workforce Efficiency Ratios",
+        "Designing Agile and Scalable Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Talent Strategy and Workforce Planning",
+      "points": [
+        "Strategic Workforce Planning and Scenarios",
+        "Skills-Based Workforce and Capability Building",
+        "Build vs Buy vs Borrow Talent Models",
+        "Employer Value Proposition and Talent Supply Strategy"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leadership Development and Succession Strategy",
+      "points": [
+        "Leadership Pipeline and Critical Roles",
+        "Succession Planning and Leadership Continuity",
+        "High-Potential Identification and Acceleration",
+        "Capability Building, Reskilling, and Future Skills"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Performance, Rewards and Executive Compensation",
+      "points": [
+        "Performance Management Systems, KPIs, and OKRs",
+        "Linking Performance to Business Outcomes and ROI",
+        "Executive Compensation, ESOPs, and Incentive Design",
+        "Pay-for-Performance and Retention Strategy"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Culture, Engagement and Employee Experience",
+      "points": [
+        "Culture as a Driver of Performance and Productivity",
+        "Employee Experience and Journey Mapping",
+        "Engagement, Retention, and Workforce Productivity Drivers"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Change Leadership and Business Transformation",
+      "points": [
+        "Business Drivers of Change",
+        "Strategies to Manage Change",
+        "CHRO as Transformation Partner",
+        "Executive Communication and Stakeholder Alignment",
+        "Embedding Change into Business Culture"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Diversity, Equity and Inclusion (DEI)",
+      "points": [
+        "DEI Strategy and Business Impact",
+        "Inclusive Leadership and Bias Reduction",
+        "Diverse Leadership Pipelines and Representation Metrics",
+        "Measuring DEI Outcomes and Accountability"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Governance, Risk and Legal for CHROs",
+      "points": [
+        "HR Governance and Policy Frameworks",
+        "Labour Laws and Regulatory Compliance",
+        "Workforce Risks (Attrition, Skills, and Leadership Gaps)",
+        "Ethics, Conduct, and Organizational Integrity"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Leadership for CHROs",
+      "points": [
+        "HR Governance and Policy Frameworks",
+        "Labour Laws and Regulatory Compliance",
+        "Workforce Risks (Attrition, Skills, and Leadership Gaps)",
+        "Ethics, Conduct, and Organizational Integrity"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital HR and People Analytics",
+      "points": [
+        "HR Tech Stack, Platforms, and Digital Systems",
+        "Descriptive, Predictive, and Prescriptive Analytics",
+        "People Analytics, Dashboards, and Workforce Insights",
+        "Data-Driven Workforce Planning and Decision-Making"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI and Generative AI for CHROs",
+      "points": [
+        "AI Fundamentals and Business Applications",
+        "Generative AI Use Cases across HR Functions",
+        "Integrating AI into HR Workflows and Decision-Making",
+        "Building AI Capability and Adoption within HR Teams"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Project: Capstone Project",
+      "special": "1",
+      "points": [
+        "Design an enterprise-wide people strategy aligned with organizational growth and transformation goals. Develop recommendations across talent, culture, workforce transformation, and HR technology while leveraging technologies and AI-driven insights. Present a boardroom-ready roadmap that enables sustainable business performance, strengthens organizational capability, and positions HR as a strategic driver of enterprise value. "
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 250000,
+    "points": [
+      "140+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 21683
+      },
+      {
+        "months": 18,
+        "emi": 14980
+      },
+      {
+        "months": 24,
+        "emi": 11604
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-iimr-chief-human-resource-officer-programme-the-chro-program.pdf",
+    "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
+    "campaign_name": "IIM-RANCHI-CHRO"
+  },
+  "faculty": [],
+  "tools": []
+}

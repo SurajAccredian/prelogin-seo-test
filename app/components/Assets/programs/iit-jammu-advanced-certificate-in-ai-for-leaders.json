@@ -110,7 +110,7 @@
   "curriculum": {
     "coreModules": [
       {
-        "title": "AI Foundations for Business Leaders",
+        "title": "AI Foundations for Leaders",
         "id": "ai-foundations-business-leaders",
         "sessions": 3,
         "points": [
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "title": "Generative AI for Business Transformation",
+        "title": "Generative AI for Leaders",
         "id": "generative-ai-business-transformation",
         "sessions": 3,
         "points": [
@@ -143,25 +143,25 @@
         ]
       },
       {
-        "title": "AI Strategy, Roadmapping & ROI",
+        "title": "AI Strategy & Transformation",
         "id": "ai-strategy-roadmapping-roi",
         "sessions": 4,
         "points": [
-          "Identifying High-Impact AI Opportunities and Use Cases",
-          "Prioritizing AI Initiatives and Investment Portfolios",
-          "Evaluating ROI and Building AI Business Cases",
-          "Aligning AI Strategy with Enterprise Business Strategy"
+          "Identifying High-Impact AI Opportunities",
+          "AI Business Case Development & ROI Assessment",
+          "AI Adoption, Change Management & Workforce Transformation",
+          "Building an AI Transformation Roadmap"
         ]
       },
       {
-        "title": "Leading AI Transformation & Workforce Change",
+        "title": "Building AI Assistants & Copilots",
         "id": "leading-ai-transformation-workforce-change",
         "sessions": 2,
         "points": [
-          "Defining the Enterprise AI Mandate",
-          "Governance, Ownership & Decision Rights",
-          "Talent Strategy & Workforce Reconfiguration",
-          "Driving Adoption & Cultural Change"
+          "Designing team-specific AI assistants",
+          "Creating knowledge assistants",
+          "AI copilots for daily management",
+          "Deploying and improving AI assistants"
         ]
       },
       {
@@ -309,18 +309,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11926
+        "emi": 9758
       },
       {
         "months": 18,
-        "emi": 8239
+        "emi": 6741
       },
       {
         "months": 24,
-        "emi": 6382
+        "emi": 5222
       }
     ],
-    "total": 140000
+    "total": 120000
   },
   "faq": {
     "programId": "iit-jammu-advanced-certificate-in-ai-for-leaders",

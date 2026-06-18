@@ -317,7 +317,7 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
     "university_name": "I3C-IIT JAMMU",
-    "program_name": "Executive Program in Generative AI & Agentic AI for Business Leaders",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "duration": "8 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
     "batch_type": "Online",
@@ -336,7 +336,7 @@
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders-Brochure.pdf",
-      "source": "IIT Jammu Executive Program in Generative AI & Agentic AI for Business Leaders Brochure",
+      "source": "IIT Jammu Executive Program in Generative AI & Agentic AI for Leaders Brochure",
       "campaign_name": "IITJ-GenAI-AgenticAI-8 Months"
     },
     "enrolled": {

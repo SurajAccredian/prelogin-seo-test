@@ -115,7 +115,7 @@
   "curriculum": {
     "coreModules": [
       {
-        "title": "AI Foundations for Business Leaders",
+        "title": "AI Foundations for Leaders",
         "id": "ai-foundations-business-leaders",
         "points": [
           "Foundations of Artificial Intelligence, Machine Learning and Automation",
@@ -125,7 +125,7 @@
         ]
       },
       {
-        "title": "Generative AI for Business Transformation",
+        "title": "Generative AI for  Transformation",
         "id": "generative-ai-business-transformation",
         "points": [
           "Foundations of Generative AI and Large Language Models",
@@ -145,23 +145,23 @@
         ]
       },
       {
-        "title": "AI Strategy, Roadmapping & ROI",
+        "title": "AI Strategy & Transformation",
         "id": "ai-strategy-roadmapping-roi",
         "points": [
-          "Identifying High-Impact AI Opportunities and Use Cases",
-          "Prioritizing AI Initiatives and Investment Portfolios",
-          "Evaluating ROI and Building AI Business Cases",
-          "Aligning AI Strategy with Enterprise Business Strategy"
+          "Identifying High-Impact AI Opportunities",
+          "AI Business Case Development & ROI Assessment",
+          "AI Adoption, Change Management & Workforce Transformation",
+          "Building an AI Transformation Roadmap"
         ]
       },
       {
-        "title": "Leading AI Transformation & Workforce Change",
+        "title": "Building AI Assistants & Copilots",
         "id": "leading-ai-transformation-workforce-change",
         "points": [
-          "Defining the Enterprise AI Mandate",
-          "Governance, Ownership & Decision Rights",
-          "Talent Strategy & Workforce Reconfiguration",
-          "Driving Adoption & Cultural Change"
+          "Designing team-specific AI assistants",
+          "Creating knowledge assistants",
+          "AI copilots for daily management",
+          "Deploying and improving AI assistants"
         ]
       },
       {
@@ -173,7 +173,7 @@
         ]
       },
       {
-        "title": "Building AI Products and Services (No-Code AI)",
+        "title": "Designing AI Products and Services (No-Code AI)",
         "id": "building-ai-products-services-no-code",
         "points": [
           "Designing AI Products and MVPs for Business Use Cases",
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Responsible AI, Governance and Risk Management",
+        "title": "Workflow Automation with AI",
         "id": "responsible-ai-governance-risk-management",
         "points": [
-          "Responsible AI Principles and Governance Frameworks",
-          "Bias, Fairness, Transparency and Explainability",
-          "Regulatory Compliance and Ethical AI Practices",
-          "Managing AI Risks, Security and Accountability"
+          "Fundamentals of workflow automation",
+          "AI-powered business processes",
+          "Designing automated workflows",
+          "Human-AI collaboration systems"
         ]
       },
       {
@@ -366,18 +366,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 15178
+        "emi": 13010
       },
       {
         "months": 18,
-        "emi": 10486
+        "emi": 8988
       },
       {
         "months": 24,
-        "emi": 8123
+        "emi": 6962
       }
     ],
-    "total": 180000
+    "total": 160000
   },
   "faq": {
     "programId": "iit-jammu-executive-program-in-leadership-with-ai",

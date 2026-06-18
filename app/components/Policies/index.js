@@ -7,3 +7,4 @@ export const Referral = lazyComponent(() => import("./Referral"));
 export const Refund = lazyComponent(() => import("./Refund"));
 export const Cancellation = lazyComponent(() => import("./Cancellation"));
 export const CookiePolicy = lazyComponent(() => import("./CookiePolicy"));
+export const AccountDeletion = lazyComponent(() => import("./AccountDeletion"));

@@ -297,18 +297,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11926
+        "emi": 9758
       },
       {
         "months": 18,
-        "emi": 8239
+        "emi": 6741
       },
       {
         "months": 24,
-        "emi": 6382
+        "emi": 5222
       }
     ],
-    "total": 140000
+    "total": 120000
   },
   "faq": {
     "programId": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders",

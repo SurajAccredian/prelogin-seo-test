@@ -2,7 +2,7 @@
   "category": "57",
   "id": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
   "vertical": "artificial intelligence",
-  "title": "Executive Program in Generative AI & Agentic AI for Business Leaders",
+  "title": "Executive Program in Generative AI & Agentic AI for Leaders",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "8851827093",
@@ -388,18 +388,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 15178
+        "emi": 13010
       },
       {
         "months": 18,
-        "emi": 10486
+        "emi": 8988
       },
       {
         "months": 24,
-        "emi": 8123
+        "emi": 6962
       }
     ],
-    "total": 180000
+    "total": 160000
   },
   "faq": {
     "programId": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
@@ -434,7 +434,7 @@
         "title": "Why IIM Visakhapatnam",
         "content": [
           {
-            "title": "How is the IIM Visakhapatnam's Executive Program in Generative AI & Agentic AI for Business Leaders different?",
+            "title": "How is the IIM Visakhapatnam's Executive Program in Generative AI & Agentic AI for Leaders different?",
             "content": [
               "### Three things that make this program world class:",
               "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Senior Management concepts.",
@@ -470,7 +470,7 @@
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders-Brochure.pdf",
-    "source": "IIT Jammu Executive Program in Generative AI & Agentic AI for Business Leaders Brochure",
+    "source": "IIT Jammu Executive Program in Generative AI & Agentic AI for Leaders Brochure",
     "campaign_name": "IITJ-GenAI-AgenticAI-8 Months"
   }
 }

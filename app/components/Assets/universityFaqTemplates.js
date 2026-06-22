@@ -3229,7 +3229,7 @@ export const universityFaqTemplates = {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
                             "- The program fee is ₹2,42,500 + GST.",
-                            "- 12 Months No-Cost EMI available. Standard EMI options are available for more than 12 months (with additional interest charges)."
+                            "- 12 Months EMI available. Standard EMI options are available for more than 12 months (with additional interest charges)."
                         ]
                     },
                     {

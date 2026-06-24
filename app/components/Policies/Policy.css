@@ -76,6 +76,7 @@
 }
 
 @media (min-width: 768px) {
+
   .policy-inner h1,
   .policy-inner h2 {
     font-size: 18px;
@@ -104,5 +105,15 @@
   #num-list {
     padding: 0 30px;
     list-style: decimal !important;
+  }
+}
+
+.policy-page-container {
+  /* Default styles */
+}
+
+@media (max-width: 767px) {
+  .policy-page-container {
+    padding-top: 80px !important;
   }
 }

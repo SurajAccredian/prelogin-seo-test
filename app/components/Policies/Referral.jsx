@@ -15,7 +15,7 @@ const Terms = () => {
 
   return (
     <Wrapper>
-      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular">
+      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
         <div className="max-w-[85rem] w-full py-8">
           {/* upper section */}
           <h1 className="lg:mt-0 mt-6 text-xl text-neutral-700 font-semibold text-center">

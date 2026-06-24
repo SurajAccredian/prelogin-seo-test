@@ -31,7 +31,7 @@ const Admission = () => {
 
   return (
     <Wrapper>
-      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular">
+      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
         <div className="max-w-[85rem] w-full py-8">
           {/* upper section */}
           <div className="w-full flex md:gap-4 xl:gap-12">

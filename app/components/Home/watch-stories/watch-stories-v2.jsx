@@ -68,10 +68,10 @@ const WatchStoriesV2 = () => {
         <h4 className="text-sm text-gray-600 font-medium">
           Meet our <span className="text-blue-600">Alumni</span>
         </h4>
-        <h1 className="text-3xl md:text-4xl mt-2 font-bold">
+        <h2 className="text-3xl md:text-4xl mt-2 font-bold">
           Get to Know Our <span className="text-blue-600">Successful</span>{" "}
           Graduates
-        </h1>
+        </h2>
       </div>
 
       {/* 3D Carousel Container */}

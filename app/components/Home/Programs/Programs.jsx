@@ -151,10 +151,10 @@ const Programs = () => {
             <h4 className="text-sm sm:text-base text-darkBlue font-medium max-sm:max-w-[300px] capitalize tracking-wide">
               Checkout our courses
             </h4>
-            <h1 className="text-2xl sm:text-3xl lg:text-[44px] mt-1 sm:mt-2 font-medium leading-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-[44px] mt-1 sm:mt-2 font-medium leading-tight">
               Unlock Your Potential with{" "}
               <span className="text-universal">World-Class</span> Programs
-            </h1>
+            </h2>
           </div>
           <Link
             href="/programs"

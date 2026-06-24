@@ -149,9 +149,9 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                       onMouseEnter={() => setSideTab(vertical.category)}
                     >
                       <div className="flex items-center gap-2">
-                        <h1 className="text-[16px] capitalize leading-none">
+                        <span className="text-[16px] capitalize leading-none">
                           {vertical.category}
-                        </h1>
+                        </span>
                       </div>
                       <div className="w-6 h-6 flex-shrink-0 p-1 flex items-center justify-center">
                         <HiOutlineArrowNarrowRight className="w-full h-full" />
@@ -173,9 +173,9 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                       onMouseEnter={() => setSideTab("Management")}
                     >
                       <div className="flex items-center gap-2">
-                        <h1 className="text-[16px] capitalize leading-none">
+                        <span className="text-[16px] capitalize leading-none">
                           Management
-                        </h1>
+                        </span>
                       </div>
                       <div className="w-6 h-6 flex-shrink-0 p-1 flex items-center justify-center">
                         <HiOutlineArrowNarrowRight className="w-full h-full" />
@@ -193,13 +193,13 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
             {/* Programs Grid */}
             <div className="w-full">
               <div className="flex flex-col gap-2 mx-2">
-                <h1 className="font-bold text-xl capitalize leading-none">
+                <h2 className="font-bold text-xl capitalize leading-none">
                   {sideTab === "cxo leadership"
                     ? "CXO Leadership"
                     : sideTab === "pg diploma"
                       ? "PG Diploma"
                       : sideTab}
-                </h1>
+                </h2>
 
                 {isManagementView && (
                   <div className="flex items-center gap-4 mt-2 border-b border-gray-200">

@@ -98,14 +98,14 @@ const NavigationTop = ({ show, data, setCurrentSection, currentSection }) => {
                     : "border-white"
                     }`}
                 >
-                  <h1
+                  <span
                     className={`text-nowrap capitalize font-medium text-sm md:text-base ${currentSection === section
                       ? "text-universal"
                       : "text-black"
                       }`}
                   >
                     {section}
-                  </h1>
+                  </span>
                 </div>
               </a>
             ))}

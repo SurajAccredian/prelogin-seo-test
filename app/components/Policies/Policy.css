@@ -1,4 +1,5 @@
-.policy-inner h1 {
+.policy-inner h1,
+.policy-inner h2 {
   font-size: 16px;
   font-weight: 700;
   color: #525252;
@@ -75,7 +76,8 @@
 }
 
 @media (min-width: 768px) {
-  .policy-inner h1 {
+  .policy-inner h1,
+  .policy-inner h2 {
     font-size: 18px;
   }
 

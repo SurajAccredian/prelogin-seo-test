@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from 'react'
 
 import "./Policy.css"
@@ -24,24 +25,24 @@ const Privacy = () => {
             </p>
             <p>
               Please read the details below to understand the process and conditions for requesting a refund.</p>
-            <h1>Cooling-off Period</h1>
+            <h2>Cooling-off Period</h2>
             <p>One notable feature of the programs is the 7-day cooling-off period, which begins from
               the day of payment of the full fee or the first installment, allowing students to reassess the suitability of the
               program according to their career goals and vision. Students can raise a refund request within this cooling-off
               period. Any requests received within this window will be considered for further evaluation.</p>
-            <h1>Evaluation Process</h1>
+            <h2>Evaluation Process</h2>
             <p>Refund requests submitted within the cooling-off period will be forwarded to the
               institute&rsquo;s team for final approval. Approval will be based on the proposed solution offered by the
               institute to address the reasons provided for raising the refund request.</p>
-            <h1>Approval Timeframe</h1>
+            <h2>Approval Timeframe</h2>
             <p>The final approval process may take approximately 14-15 days from the date the refund
               request is raised. Students are kindly requested to exercise patience during this period as the institute
               carefully evaluates their requests.</p>
-            <h1>Request Submission</h1>
+            <h2>Request Submission</h2>
             <p>To initiate a refund request, students should send an email to
               admissions@accredian.com. The date of the request will be considered as the date when the email is sent to the
               provided address.</p>
-            <h1>Processing and Notification</h1>
+            <h2>Processing and Notification</h2>
             <ol>
               <li>Processing Time:&nbsp;Once approved, the
                 refund process may take up to 7-10 business days, depending on the payment gateway and bank procedures.
@@ -49,11 +50,11 @@ const Privacy = () => {
               <li>Notification:&nbsp;Students will receive a
                 confirmation email once the refund has been initiated.</li>
             </ol>
-            <h1>Mode of Refund</h1>
+            <h2>Mode of Refund</h2>
             <p>Refunds will be sent according to the mode of payment chosen by the students. For
               example, if the fees were paid via UPI, the refund will be initiated via UPI. However, this may vary on a
               case-by-case basis.</p>
-            <h1>Important Considerations</h1>
+            <h2>Important Considerations</h2>
             <ol>
               <li>It is the sole responsibility of the student enrolling in a Program
                 to verify the accuracy and evaluate the suitability and relevance of the enrolled Program. Transfer of

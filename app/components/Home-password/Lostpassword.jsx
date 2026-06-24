@@ -109,6 +109,7 @@ const Lostpassword = () => {
               >
                 <Box>
                   <Typography
+                    component="h1"
                     mb={2}
                     fontWeight="bold"
                     fontSize={25}

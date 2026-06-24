@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from 'react'
 
 import "./Policy.css"
@@ -23,28 +24,28 @@ const Privacy = () => {
             <p>
               At Accredian, we strive to provide a seamless learning experience for all our students. We understand that circumstances may change, and you may need to cancel your enrollment in a program. Please note that this policy applies only to  program fees; application fees are <b>non-refundable.</b>
             </p>
-            <h1>Cooling-off Period</h1>
+            <h2>Cooling-off Period</h2>
             <p>
               We offer a 7-day cooling-off period from the date of enrollment. During this period,
               you may cancel your enrollment and receive a full refund of the program fees paid, no questions asked.
             </p>
-            <h1>How to Cancel</h1>
+            <h2>How to Cancel</h2>
             <p>
               To initiate a cancellation, please send an email to <a class="c6" href="mailto:admissions@accredian.com">admissions@accredian.com</a>&nbsp;within the cooling-off period. The date of your cancellation request will be considered as the
               date when the email is sent to the provided address.
             </p>
-            <h1>Evaluation and Approval</h1>
+            <h2>Evaluation and Approval</h2>
             <p>
               Cancellation requests submitted within the cooling-off period will be promptly reviewed
               by our team. Approval will be based on the reasons provided for cancellation and any proposed solutions
               offered.
             </p>
-            <h1>Refund Process</h1>
+            <h2>Refund Process</h2>
             <p>
               Once your cancellation request is approved, refunds will be processed in accordance
               with the Refund Policy.
             </p>
-            <h1>Important Notes</h1>
+            <h2>Important Notes</h2>
             <ol>
               <li>Non-Transferable Enrollment:&nbsp;Enrollments
                 in programs are non-transferable to other individuals or to different programs or batches.</li>

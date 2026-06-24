@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import Wrapper from "../Wrapper/HomePageWrapper";
 import { POLICIES } from "../Assets/admission-policies";
@@ -30,29 +31,29 @@ const Admission = () => {
 
   return (
     <Wrapper>
-      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular">
+      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
         <div className="max-w-[85rem] w-full py-8">
           {/* upper section */}
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] lg:block hidden">
               <div className="w-full xl:px-5 rounded">
-                <h1 className="text-lg font-semibold text-neutral-600">
+                <h2 className="text-lg font-semibold text-neutral-600">
                   Admission Policies
-                </h1>
+                </h2>
               </div>
             </div>
             <div className="flex-1">
               <div className="lg:hidden flex justify-between items-center">
-                <h1 className="text-xl md:text-2xl font-semibold">
+                <h2 className="text-xl md:text-2xl font-semibold">
                   Admission Policies
-                </h1>
+                </h2>
                 <button
                   onClick={() => onOpen()}
                   className="px-4 py-2 bg-universal/10 rounded-md lg:hidden flex items-center gap-1"
                   title={"Select Policies"}
                 >
                   <TiDocumentText className="text-neutral-700" size={20} />
-                  <h1 className="text-nowrap truncate">Select Policies</h1>
+                  <span className="text-nowrap truncate">Select Policies</span>
                 </button>
               </div>
               <h1 className="lg:mt-0 mt-6 text-xl text-neutral-700 text-start font-semibold lg:text-center">
@@ -75,7 +76,7 @@ const Admission = () => {
                       } px-3 py-2  mt-2 cursor-pointer flex items-center justify-between gap-4`}
                       key={index}
                     >
-                      <h1 className="font-medium text-base">{policy.title}</h1>
+                      <span className="font-medium text-base">{policy.title}</span>
                       <div className="w-5 h-5 flex-shrink-0">
                         <svg
                           className="w-full h-full"

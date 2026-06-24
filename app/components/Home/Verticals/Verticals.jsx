@@ -30,10 +30,10 @@ const Verticals = () => {
               <h4 className="text-base capitalize text-darkBlue font-medium max-sm:max-w-[300px]">
                 Verticals
               </h4>
-              <h1 className="text-3xl lg:text-[44px] mt-2 font-medium capitalize">
+              <h2 className="text-3xl lg:text-[44px] mt-2 font-medium capitalize">
                 Browse interested
                 <span className="text-universal"> verticals</span>
-              </h1>
+              </h2>
             </div>
           </div>
 
@@ -61,9 +61,9 @@ const Verticals = () => {
                         <val.icon className="w-full h-full text-universal"></val.icon>
                       </div>
                       <div className="">
-                        <h1 className="text-lg font-medium capitalize">
+                        <h3 className="text-lg font-medium capitalize">
                           {val.category}
-                        </h1>
+                        </h3>
                         <h4 className="text-gray-500">
                           {categorizedPrograms[vertical]?.length}{" "}
                           {categorizedPrograms[vertical]?.length === 1
@@ -101,9 +101,9 @@ const Verticals = () => {
                       <val.icon className="w-5 h-5 text-universal" />
                     </div>
                     <div className="flex flex-col">
-                      <h1 className="text-[16px] md:text-sm font-semibold capitalize text-gray-900">
+                      <h3 className="text-[16px] md:text-sm font-semibold capitalize text-gray-900">
                         {val.category}
-                      </h1>
+                      </h3>
                       <h4 className="text-gray-500 text-xs">
                         {categorizedPrograms[vertical]?.length}{" "}
                         {categorizedPrograms[vertical]?.length === 1

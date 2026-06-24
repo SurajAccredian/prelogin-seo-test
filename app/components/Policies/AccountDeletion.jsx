@@ -17,7 +17,7 @@ const AccountDeletion = () => {
 
   return (
     <HomePageWrapper>
-      <div className='w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular'>
+      <div className='w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container'>
         <div className='max-w-[85rem] w-full py-8'>
           {/* upper section */}
           <h1 className='lg:mt-0 mt-6 text-xl text-neutral-700 font-semibold text-center'>Account Deletion Policy</h1>
@@ -25,17 +25,17 @@ const AccountDeletion = () => {
             <p>
               To request deletion of your Accredian account, email <a href="mailto:academics@accredian.com">academics@accredian.com</a> from your registered email address.
             </p>
-            <h1>Data deleted:</h1>
+            <h2>Data deleted:</h2>
             <ol>
               <li>Profile information</li>
               <li>Learning progress</li>
               <li>Event registrations</li>
             </ol>
-            <h1>Data retained:</h1>
+            <h2>Data retained:</h2>
             <ol>
               <li>Financial and invoice records as required by law</li>
             </ol>
-            <h1>Processing Time</h1>
+            <h2>Processing Time</h2>
             <p>
               Requests are processed within 30 days.
             </p>

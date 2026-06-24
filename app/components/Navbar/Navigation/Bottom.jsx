@@ -71,9 +71,9 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
 
             {/* ── CHANGE: For admission closed programs, replace "Next cohort" with "Admission Deadline → Closed" ── */}
             <div className="">
-              <h1 className="text-neutral-600 text-xs font-semibold">
+              <p className="text-neutral-600 text-xs font-semibold">
                 {isAdmissionClosedProgram ? "Admission Deadline" : "Next cohort"}
-              </h1>
+              </p>
               <h4 className="text-base font-semibold text-universal text-nowrap">
                 {isAdmissionClosedProgram
                   ? "Closed"
@@ -84,17 +84,17 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
             </div>
 
             <div className="">
-              <h1 className="text-neutral-600 text-xs font-semibold">
+              <p className="text-neutral-600 text-xs font-semibold">
                 Duration
-              </h1>
+              </p>
               <h4 className="text-base font-semibold text-universal text-nowrap">
                 {data?.duration}
               </h4>
             </div>
             <div className="">
-              <h1 className="text-neutral-600 text-xs font-semibold">
+              <p className="text-neutral-600 text-xs font-semibold">
                 Sessions
-              </h1>
+              </p>
               <h4 className="text-base font-semibold text-universal text-nowrap capitalize">
                 {data?.type} | {data?.timings}
               </h4>
@@ -102,16 +102,16 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
           </div>
           <div className="flex-[0.4] flex items-center justify-center">
             {data?.enrollments === "active" && (
-              <h1 className="text-neutral-700 text-lg font-semibold flex items-center italic">
+              <p className="text-neutral-700 text-lg font-semibold flex items-center italic">
                 Hurry! <FcFlashOn /> Only Few Seats Available
-              </h1>
+              </p>
             )}
           </div>
           <div className="flex-[0.3] flex items-center gap-4 justify-between">
             <div>
-              <h1 className="text-neutral-600 text-sm font-semibold">
+              <p className="text-neutral-600 text-sm font-semibold">
                 Accredited by
-              </h1>
+              </p>
               <div className="flex items-center justify-center gap-2 mt-3">
                 <div
                   className={`${data.short_university_name?.toLowerCase() === "iim-ranchi"
@@ -131,7 +131,7 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
                         ? "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
                         : data?.university_logo
                     }
-                    alt="university"
+                    alt={data?.university_name}
                   />
                 </div>
                 {/* <div className="max-w-[120px] flex-shrink-0 rounded-md bg-black">
@@ -196,17 +196,17 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
         <div className="w-full max-w-[85rem] lg:hidden block">
           <div className="w-full flex justify-center md:justify-between items-center mb-2">
             {data?.enrollments === "active" && (
-              <h1 className="text-neutral-700 text-sm font-semibold flex items-center italic">
+              <p className="text-neutral-700 text-sm font-semibold flex items-center italic">
                 Hurry! <FcFlashOn /> Only 1 Seat Available
-              </h1>
+              </p>
             )}
             <div className="hidden md:flex gap-4">
 
               {/* ── CHANGE: For admission closed programs, replace "Next cohort" with "Admission Deadline → Closed" on tablet ── */}
               <div className="">
-                <h1 className="text-neutral-600 text-xs font-semibold">
+                <p className="text-neutral-600 text-xs font-semibold">
                   {isAdmissionClosedProgram ? "Admission Deadline" : "Next cohort"}
-                </h1>
+                </p>
                 <h4 className="text-sm font-semibold text-universal text-nowrap">
                   {isAdmissionClosedProgram
                     ? "Closed"
@@ -217,17 +217,17 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
               </div>
 
               <div className="">
-                <h1 className="text-neutral-600 text-xs font-semibold">
+                <p className="text-neutral-600 text-xs font-semibold">
                   Duration
-                </h1>
+                </p>
                 <h4 className="text-sm font-semibold text-universal text-nowrap">
                   {data?.duration}
                 </h4>
               </div>
               <div className="">
-                <h1 className="text-neutral-600 text-xs font-semibold">
+                <p className="text-neutral-600 text-xs font-semibold">
                   Sessions
-                </h1>
+                </p>
                 <h4 className="text-sm font-semibold text-universal text-nowrap capitalize">
                   {data?.type} | {data?.timings}
                 </h4>

@@ -96,7 +96,7 @@ export default function Career() {
                   <Grid size={6}>
                     <Typography
                       variant="h4"
-                      component="div"
+                      component="h1"
                       sx={{
                         color: "#fff",
                         textDecoration: "none",
@@ -704,7 +704,7 @@ export default function Career() {
             <Box sx={{ py: 5 }}>
               <Typography
                 variant="h4"
-                component="div"
+                component="h1"
                 sx={{
                   color: "#fff",
                   textDecoration: "none",

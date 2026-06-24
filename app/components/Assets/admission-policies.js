@@ -934,8 +934,41 @@ The institute reserves the right to revoke a student’s access to the dashboard
         The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.
       </li>
     </ol>
-    <h2>Refund Policy</h2>
-    <p>Please refer to the EICTA Refund Policy here: <a href="https://www.eicta.iitk.ac.in/refund-policy" target="_blank" rel="noopener noreferrer">https://www.eicta.iitk.ac.in/refund-policy</a></p>
+    <h1>Refund Policy</h1>
+    <ol>
+      <li>
+        <p>
+          One notable feature of the programs is the 7-day cooling-off period, which begins from the day of payment of the full fee or the first installment, allowing students to reassess the suitability of the program according to their career goals and vision. The purpose of this cooling-off period is as follows:
+        </p>
+        <ol>
+          <li>
+            <strong>Cooling-off Period: </strong>
+            Students can raise a refund request within a cooling-off period of 7 days. Any requests received within this window will be considered for further evaluation.
+          </li>
+          <li>
+            <strong>Evaluation Process:</strong>
+            Refund requests submitted within the cooling-off period will be forwarded to the SP Jain School of Global Management team for final approval. Approval will be based on the proposed solution offered by the institute to address the reasons provided for raising the refund request.
+          </li>
+          <li>
+            <strong>Approval Timeframe:</strong>
+            Please note that the final approval process may take approximately 14-15 days from the date the refund request is raised. Students are kindly requested to exercise patience during this period as the institute carefully evaluates their requests.
+          </li>
+          <li>
+            <strong>Request Submission:</strong>
+            To initiate a refund request, students should send an email to admissions@accredian.com. The date of the request will be considered as the date when the email is sent to the provided address.
+          </li>
+        </ol>
+      </li>
+      <li>
+        It is the sole responsibility of the student enrolling in a Program to verify the accuracy and evaluate the suitability and relevance of the enrolled Program. Transfer of enrollment to other programs or batches is NOT possible.
+      </li>
+      <li>
+        If a student chooses to upgrade to another program where the already paid fee is adjusted in the upgraded program fee, it should be noted that they will not be eligible for either a refund or a cooling-off period, as upgrading to another program is solely at the student's discretion.
+      </li>
+      <p>
+        After the 7-day cooling-off period, no refunds will be processed regardless of whether the program has started or not.
+      </p>
+    </ol>
     <h1>Discontinuation Policy</h1>
     <ol>
       <li>
@@ -1109,36 +1142,8 @@ The institute reserves the right to revoke a student’s access to the dashboard
                   program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of
                   physical certificates rests solely with the institute, and Accredian does not have a role in this process.</span>
                 </p>
-                <h1>Refund Policy</h1>
-                <ol start="1">
-                  <li className="c7 li-bullet-1"><span>One notable feature of the programs is the 7-day cooling-off period, which begins from the day of payment of the full fee or the first installment, allowing students to reassess the suitability of the program according to their career goals and vision. The purpose of this cooling-off period is as follows:</span></li>
-                </ol>
-                <ol className="c4 lst-kix_8zblc4pe8ps2-2 start" start="1">
-                  <li className="c20 li-bullet-1"><span className="c2 c25"><strong>Cooling-off Period:</strong> Students can raise a refund request within a
-                    cooling-off period of 7 days. Any requests received within this window will be considered for further
-                    evaluation.</span></li>
-                  <li className="c20 li-bullet-2"><span><strong>Evaluation Process:</strong> Refund requests submitted within the cooling-off
-                    period will be forwarded to the E&amp;ICT Academy IITK team for final approval</span><span>. Approval
-                      will be based on the proposed solution offered by the institute to address the reasons provided for raising the
-                      refund request.</span></li>
-                  <li className="c20 li-bullet-1"><span><strong>Approval Timeframe:</strong> Please note that the final approval process may
-                    take approximately 14-15 days from the date the refund request is raised. Students are kindly requested to
-                    exercise patience during this period as the institute carefully evaluates their requests.</span></li>
-                  <li className="c20 li-bullet-2"><span><strong>Request Submission:</strong> To initiate a refund request, students should send
-                    an email to admissions@accredian.com. The date of the request will be considered as the date when the email is
-                    sent to the provided address.</span></li>
-                </ol>
-                <ol className="c4 lst-kix_8zblc4pe8ps2-1" start="2">
-                  <li className="c6 li-bullet-1"><span>It is the sole responsibility of the student enrolling in a Program to
-                    verify the accuracy and evaluate the suitability and relevance of the enrolled Program. Transfer of enrollment
-                    to other programs or batches is NOT possible.</span></li>
-                  <li className="c6 li-bullet-2"><span>&nbsp;If a student chooses to upgrade to another program where the
-                    already paid fee is adjusted in the upgraded program fee, it should be noted that they will not be eligible for
-                    either a refund or a cooling-off period, as upgrading to another program is solely at the student&#39;s
-                    discretion.</span></li>
-                  <li className="c6 li-bullet-1"><span>After the 7-day cooling-off period, no refunds will be processed
-                    regardless of whether the program has started or not.</span></li>
-                </ol>
+                <h2>Refund Policy</h2>
+                <p>Please refer to the EICTA Refund Policy here: <a href="https://www.eicta.iitk.ac.in/refund-policy" target="_blank" rel="noopener noreferrer">https://www.eicta.iitk.ac.in/refund-policy</a></p>
                 <h1>Discontinuation Policy</h1>
                 <ol>
                   <li>

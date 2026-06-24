@@ -41,11 +41,11 @@ const Stats = () => {
       className="w-full flex justify-center items-center font-circular px-4 py-8 md:py-16 bg-white mt-6"
     >
       <div className="max-w-6xl w-full rounded-2xl py-[54px] px-8 bg-white shadow-md border-t-2 ">
-        <h1 className="text-3xl md:text-4xl font-medium text-center">
+        <h2 className="text-3xl md:text-4xl font-medium text-center">
           A Legacy of{" "}
           <span className="text-universal">Excellence & Impact</span> You Can
           Count On!
-        </h1>
+        </h2>
         <div className="flex flex-col md:flex-row justify-center gap-0 mt-4 md:mt-8">
           <div className="text-center flex flex-col items-center px-4 py-6 md:py-0 md:px-8 border-b md:border-b-0 md:border-r border-blue-300">
             <div className="flex  items-center gap-2 justify-center h-12">
@@ -55,10 +55,10 @@ const Stats = () => {
               </h2>
             </div>
             <h3 className="text-sm mt-3 font-medium">Highest Salary Hike</h3>
-            <h1 className="mt-2 text-sm hidden md:block text-neutral-500 max-w-[260px]">
+            <p className="mt-2 text-sm hidden md:block text-neutral-500 max-w-[260px]">
               Experience substantial salary growth with our competitive
               compensation packages.
-            </h1>
+            </p>
           </div>
           <div className="text-center flex flex-col items-center px-4 py-6 md:py-0 md:px-8 border-b md:border-b-0 md:border-r border-blue-300">
             <div className="flex items-center gap-2 justify-center h-12">
@@ -68,10 +68,10 @@ const Stats = () => {
               </h2>
             </div>
             <h3 className="text-sm mt-3 font-medium">Average Salary Hike</h3>
-            <h1 className="mt-2 text-sm hidden md:block text-neutral-500 max-w-[260px]">
+            <p className="mt-2 text-sm hidden md:block text-neutral-500 max-w-[260px]">
               Unlock consistent salary growth through our rewarding career
               paths.
-            </h1>
+            </p>
           </div>
           <div className="text-center flex flex-col items-center px-4 py-6 md:py-0 md:px-8">
             <div className="flex items-center gap-2 justify-center h-12">
@@ -81,10 +81,10 @@ const Stats = () => {
               </h2>
             </div>
             <h3 className="text-sm mt-3 font-medium">Positive Career Impact</h3>
-            <h1 className="mt-2 text-sm hidden md:block text-neutral-500 max-w-[260px]">
+            <p className="mt-2 text-sm hidden md:block text-neutral-500 max-w-[260px]">
               Elevate your career trajectory with positive, impactful
               opportunities.
-            </h1>
+            </p>
           </div>
         </div>
       </div>

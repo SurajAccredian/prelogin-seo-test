@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 
 import "./Policy.css";
@@ -14,20 +15,20 @@ const Terms = () => {
 
   return (
     <Wrapper>
-      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular">
+      <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
         <div className="max-w-[85rem] w-full py-8">
           {/* upper section */}
           <h1 className="lg:mt-0 mt-6 text-xl text-neutral-700 font-semibold text-center">
             Referral Policy
           </h1>
           <div className="policy-inner w-full py-0 md:py-2 lg:py-4 mt-4">
-            <h1>Accredian Referral Policy</h1>
+            <h2>Accredian Referral Policy</h2>
             <p>
               At Accredian, we appreciate the support and recommendations of our
               students and community members. To express our gratitude, we have
               introduced a referral program to reward referrers.
             </p>
-            <h1>Referral Bonus:</h1>
+            <h2>Referral Bonus:</h2>
             <p>
               Upon successful completion of the admission process by the
               referred individual, the referrer will receive a referral bonus of
@@ -39,7 +40,7 @@ const Terms = () => {
               applicable slab bonuses will be provided accordingly. Please refer
               to the table for a detailed breakdown.
             </p> */}
-            <h1>How It Works:</h1>
+            <h2>How It Works:</h2>
             <ol id="num-list">
               <li>
                 <strong>Referral Submission:</strong> Referrals can be submitted
@@ -81,7 +82,7 @@ const Terms = () => {
                 </ol>
               </li>
             </ol>
-            <h1>Terms and Conditions:</h1>
+            <h2>Terms and Conditions:</h2>
             <ol>
               <li>
                 Referral bonus eligibility is contingent upon the successful
@@ -104,7 +105,7 @@ const Terms = () => {
                 criteria.
               </li>
             </ol>
-            <h1>Effective Date:</h1>
+            <h2>Effective Date:</h2>
             <p>
               This referral policy is effective for referrals received on or
               after 23rd Jan, 2025.

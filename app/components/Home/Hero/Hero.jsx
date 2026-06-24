@@ -147,19 +147,19 @@ const Hero = () => {
                     <div className="mobile-content-inner">
                       {/* Main Title */}
                       <div className="w-full capitalize flex flex-col gap-1 items-center">
-                        <h1 className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
-                          {index === 0 ? (
-                            <>
-                              Level up your career with{" "}
-                              <span className="text-blue-600">india's</span>{" "}
-                              <span className="text-blue-600">
-                                Top Institutes
-                              </span>
-                            </>
-                          ) : (
-                            slide.title
-                          )}
-                        </h1>
+                        {index === 0 ? (
+                          <h1 className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
+                            Level up your career with{" "}
+                            <span className="text-blue-600">india's</span>{" "}
+                            <span className="text-blue-600">
+                              Top Institutes
+                            </span>
+                          </h1>
+                        ) : (
+                          <h2 className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
+                            {slide.title}
+                          </h2>
+                        )}
                       </div>
 
                       {/* Description */}
@@ -252,20 +252,20 @@ const Hero = () => {
                       <div className="hero-content-left flex flex-col gap-4 sm:gap-6 md:items-start items-center w-full md:w-[800px] px-4 sm:px-6 md:px-8 lg:px-10">
                         {/* Main Title */}
                         <div className="w-full flex flex-col gap-1 sm:gap-2 md:items-start items-center ">
-                          <h1 className="hero-title text-center capitalize mb-0 md:text-start font-bold leading-tight text-gray-900">
-                            {index === 0 ? (
-                              <>
-                                Level up your career with{" "}
-                                <span className="text-blue-600">india's</span>{" "}
-                                <br />
-                                <span className="text-blue-600">
-                                  Top Institutes
-                                </span>
-                              </>
-                            ) : (
-                              slide.title
-                            )}
-                          </h1>
+                          {index === 0 ? (
+                            <h1 className="hero-title text-center capitalize mb-0 md:text-start font-bold leading-tight text-gray-900">
+                              Level up your career with{" "}
+                              <span className="text-blue-600">india's</span>{" "}
+                              <br />
+                              <span className="text-blue-600">
+                                Top Institutes
+                              </span>
+                            </h1>
+                          ) : (
+                            <h2 className="hero-title text-center capitalize mb-0 md:text-start font-bold leading-tight text-gray-900">
+                              {slide.title}
+                            </h2>
+                          )}
                         </div>
 
                         {/* Description */}

@@ -1,0 +1,297 @@
+{
+  "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+  "category": "51",
+  "vertical": "cxo leadership",
+  "title": "Chief Human Resources Officer Programme (The CHRO Program)",
+  "description": "Embark on a 10 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
+  "short_title": "Chief Human Resources Officer",
+  "contact": "8851827093",
+  "university_name": "IIM Lucknow",
+  "short_university_name": "iiml",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IITG_Latest_Dummy_Certificate__6_.webp",
+  "start_date": "30 Aug 2026",
+  "duration": "10 Months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "type": "ordinary",
+      "title": "online"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor Led"
+    },
+    {
+      "type": "ordinary",
+      "title": "new launch"
+    }
+  ],
+  "key_features": [
+    {
+      "text": "126+",
+      "title": "class hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "14",
+      "title": "modules"
+    },
+    {
+      "text": "3 Day",
+      "title": "campus immersion"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    }
+  ],
+  "domain": "CXO Leadership",
+  "overview": {
+    "programId": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Senior HR Professionals: Enhance strategic leadership skills",
+          "HR Directors: Transition into the CHRO role",
+          "HR Business Partners: Influence organizational strategy and transformation",
+          "Talent Leaders: Develop advanced people management capabilities",
+          "HR Consultants: Expand knowledge in strategic HR planning",
+          "Business Leaders: Build robust HR systems for success"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Human Resources Officer (CHRO)",
+          "HR Director",
+          "Vice President of Human Resources",
+          "Global HR Head",
+          "Talent Management Leader",
+          "HR Business Partner",
+          "HR Consultant",
+          "Strategic HR Advisor",
+          "HR Transformation Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "14 Modules- Talent Acquisition, Leadership Development, and HR Analytics",
+          "Learn From Esteemed IIM Lucknow Faculty",
+          "Duration: 10 Months | Weekend Online",
+          "Certification From IIM Lucknow",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 24 Months",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "alumni-status-opt",
+    "capstone-project"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "Personalized Discussion",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "The Modern CHRO",
+      "points": [
+        "The Modern CHRO Mandate",
+        "HR as a Strategic Business Partner",
+        "Setting the Enterprise People Agenda"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic HR Leadership",
+      "points": [
+        "Aligning HR Strategy with Business Strategy",
+        "Human Capital as Competitive Advantage",
+        "Enterprise HR Strategy Architecture",
+        "Leading HR at Enterprise Scale"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Business Excellence for CHROs",
+      "points": [
+        "Understanding Business Models & Value Creation",
+        "Cross-Functional Leadership & Collaboration",
+        "Driving Business Impact through HR"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Organization Design & Change Leadership",
+      "points": [
+        "Designing High-Performance Organizations",
+        "Organizational Structures & Operating Models",
+        "Leading Enterprise Transformation and Restructuring",
+        "Change Leadership and Organizational Alignment"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Talent Strategy & Workforce Planning",
+      "points": [
+        "Strategic Workforce Planning",
+        "Talent Acquisition Strategy & Employer Branding",
+        "Skills-Based Workforce Strategy",
+        "Building Sustainable Talent Advantage"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leadership Development & Succession Planning",
+      "points": [
+        "Leadership Pipeline Architecture",
+        "Executive Development Systems",
+        "Succession Planning & CEO Pipeline Governance",
+        "High-Potential Talent Development"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Performance, Rewards & Executive Compensation",
+      "points": [
+        "Strategic Performance Management Systems",
+        "Incentive & Rewards Strategy",
+        "Executive Compensation Governance",
+        "Pay Equity & Reward Architecture"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Culture & Employee Experience Strategy",
+      "points": [
+        "Understanding Self",
+        "Developing Organizational Culture for Performance",
+        "Managing Diversity",
+        "Workforce Engagement & Wellbeing Strategy",
+        "Purpose-Driven Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Leadership for CHROs",
+      "points": [
+        "Understanding Financial Statements",
+        "Workforce Economics & Productivity",
+        "Capital Allocation & Talent Investments",
+        "Linking Talent Strategy to Business Performance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Marketing",
+      "points": ["Customer Management", "Brand Management"],
+      "modules": []
+    },
+    {
+      "title": "Supply Chain and Operational Excellence",
+      "points": [
+        "Foundations of Operations Management",
+        "Inventory Management",
+        "Total Quality Management – Tools & Frameworks",
+        "Lean Management Concepts"
+      ],
+      "modules": []
+    },
+    {
+      "title": "The Global CHRO: Workforce Strategy & Compliance",
+      "points": [
+        "Global Workforce Strategy",
+        "Cross-Cultural Leadership & Talent Mobility",
+        "Labor Laws & Regulatory Compliance",
+        "Industrial Relations & Workforce Governance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital HR & People Analytics",
+      "points": [
+        "HR Technology Strategy & Digital HR Platforms",
+        "Strategic People Analytics & Workforce Intelligence",
+        "Data-Driven HR Decision Making",
+        "Leading Digital Transformation in HR"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI & Generative AI for CHROs",
+      "points": [
+        "AI Applications in HR Functions",
+        "Generative AI for Talent and HR Operations",
+        "Intelligent Automation of HR Processes",
+        "Responsible AI & Governance in HR"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": 1,
+      "points": [
+        "As a Chief Human Resources Officer you must design an Enterprise People & Workforce Transformation Blueprint that defines your people strategy, workforce transformation priorities, leadership development framework, organizational culture initiatives, talent operating model, employee experience roadmap, and governance framework. The project must deliver a board-ready people strategy deck, workforce value creation plan, and a 12–18 month organizational transformation roadmap."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 400000,
+    "points": [
+      "126+ Hours of Live Classes",
+      "Quick Query Resolution",
+      "6 Career Sessions by Accredian"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 42281,
+        "months": 12
+      },
+      {
+        "emi": 29210,
+        "months": 18
+      },
+      {
+        "emi": 22627,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
+    "source": "IIML Chief Human Resources Officer Programme (The CHRO Program) Brochure",
+    "campaign_name": "IIML-Chief Human Resources Officer"
+  },
+  "faculty": [],
+  "tools": []
+}

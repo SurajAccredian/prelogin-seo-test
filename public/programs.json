@@ -1,5 +1,16 @@
 [
   {
+    "university_name": "IIM Lucknow",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "category": "cxo leadership",
+    "start_date": "30 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program",
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "duration": "10 Months"
+  },
+  {
     "university_name": "E&ICT Academy IIT Kanpur",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round.webp",
     "program_name": "Professional Certificate Program in Strategic Project Management & Leadership",

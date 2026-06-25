@@ -319,17 +319,6 @@
     "duration": "7 Months"
   },
   {
-    "university_name": "SP Jain School of Global Management",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
-    "program_name": "Executive Program in Strategic HR Leadership",
-    "category": "Human Resource",
-    "start_date": "8th Feb 2026",
-    "status": "New Launch",
-    "url": "https://accredian.com/programs/executive-program-in-strategic-hr-leadership",
-    "id": "executive-program-in-strategic-hr-leadership",
-    "duration": "6 Months"
-  },
-  {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "program_name": "Post Graduate Certificate in Strategic Project Management & Leadership",

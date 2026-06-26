@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import ReferModal from "../../Modals/ReferModal/Prelogin-Refer-Modal"
 import "../refer.css";

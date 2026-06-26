@@ -211,7 +211,7 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
     "university_name": "IIM Kashipur",
-    "program_name": "Chief Operating Officer Program (The COO Program)",
+    "program_name": "Chief Operations Officer Program (The COO Program)",
     "duration": "12 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
     "batch_type": "Online",
@@ -221,8 +221,8 @@
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
-      "source": "IIM-KASHIPUR Chief Operating Officer Program (The COO Program) Brochure",
-      "campaign_name": "IIM-KASHIPUR-CTO-12 Months"
+      "source": "IIM-KASHIPUR Chief Operations Officer Program (The COO Program) Brochure",
+      "campaign_name": "IIM-KASHIPUR-COO-12 Months"
     },
     "enrolled": {
       "referrerBonus": "₹3,000",

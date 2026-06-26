@@ -170,7 +170,7 @@ const AppLanding = () => {
                 <p className="text-slate-400 text-xs uppercase tracking-wider font-semibold mt-1">Partner Institutions</p>
               </div>
               <div>
-                <p className="text-3xl font-black text-slate-900">320+</p>
+                <p className="text-3xl font-black text-slate-900">20K+</p>
                 <p className="text-slate-400 text-xs uppercase tracking-wider font-semibold mt-1">Alumni Network</p>
               </div>
             </div>

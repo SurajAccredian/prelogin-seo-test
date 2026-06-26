@@ -39,10 +39,6 @@
     {
       "text": "3 Days",
       "title": "campus immersion"
-    },
-    {
-      "text": "3",
-      "title": "simulations"
     }
   ],
   "domain": "CXO Leadership",
@@ -96,7 +92,7 @@
     "campus-immersion-opt",
     "alumni-status",
     "CXO-coaching-sessions",
-    "engaging-simulations"
+    "capstone-project"
   ],
   "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
@@ -264,16 +260,16 @@
     ],
     "monthly_emi": [
       {
-        "months": 12,
-        "emi": 21683
+        "emi": 21683,
+        "months": 12
       },
       {
-        "months": 18,
-        "emi": 14980
+        "emi": 14980,
+        "months": 18
       },
       {
-        "months": 24,
-        "emi": 11604
+        "emi": 11604,
+        "months": 24
       }
     ]
   },

@@ -122,10 +122,10 @@ const AppSupport = () => {
                 <p className="text-slate-400 text-xs mb-4 flex-grow">Direct helpline / WhatsApp chat</p>
                 <div className="space-y-1">
                   <a
-                    href="tel:+07969547220"
+                    href="tel:+917969547220"
                     className="block text-sm font-bold text-slate-800 hover:text-blue-600 transition-colors"
                   >
-                    +91 07969547220
+                    +91 7969547220
                   </a>
                   <a
                     href="https://wa.me/917619555873"

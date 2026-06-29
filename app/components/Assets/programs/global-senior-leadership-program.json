@@ -10,11 +10,11 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
-  "start_date": "28 Mar 2026",
+  "start_date": "28 Sep 2026",
   "duration": "12 Months",
   "required_years_experience": 10,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -131,15 +131,15 @@
         "points": [
           "Executive Leadership in Global Organizations",
           "Leadership Communication, Influence & Negotiation",
-          "Global Economics & Managing Geopolitical Risks"
+          "Geoeconomics for CXOs",
+          "Corporate Strategy & Business Growth"
         ]
       },
       {
-        "title": "Leading Global Organizations",
+        "title": "Leading High Performing Teams & Organizations",
         "week": "",
         "id": "corporate---business-strategy",
         "points": [
-          "Corporate Strategy & Business Growth",
           "Finance for Senior Leaders",
           "HR Strategy for Senior Leaders",
           "Marketing Strategy in Global Markets",
@@ -256,18 +256,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 33434
+        "emi": 34417
       },
       {
         "months": 18,
-        "emi": 23181
+        "emi": 23863
       },
       {
         "months": 24,
-        "emi": 18013
+        "emi": 18542
       }
     ],
-    "total": 390000
+    "total": 400000
   },
   "faq": {
     "programId": "global-senior-leadership-program",

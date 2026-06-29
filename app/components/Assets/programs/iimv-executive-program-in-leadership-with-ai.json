@@ -10,11 +10,11 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "02 May 2026",
+  "start_date": "13 Sep 2026",
   "required_years_experience": 5,
   "duration": "10 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -303,22 +303,22 @@
     "monthly_emi": [
       {
         "months": 9,
-        "emi": 25468
+        "emi": 27796
       },
       {
         "months": 12,
-        "emi": 19667
+        "emi": 19864
       },
       {
         "months": 18,
-        "emi": 13636
+        "emi": 13772
       },
       {
         "months": 24,
-        "emi": 10596
+        "emi": 10702
       }
     ],
-    "total": 240000
+    "total": 242000
   },
   "faq": {
     "programId": "iimv-executive-program-in-leadership-with-ai",

@@ -32,7 +32,7 @@
       "Program Terms/Modules": "15 Modules",
       "Live Session Hours": "132+ hours",
       "Capstone Project": "1 Capstone Project",
-      "Campus Immersion": "2 Campus Immersions of 2 days each",
+      "Campus Immersion": "One Campus Immersion of 3 Days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "XLRI Faculty",
       "Program Highlights": [
@@ -1577,7 +1577,7 @@
       "Program Terms/Modules": "14 Modules",
       "Live Session Hours": "132+ hours",
       "Capstone Project": "1 Capstone Project upon Terms Completion",
-      "Campus Immersion": "One Campus Immersion of 3 days",
+      "Campus Immersion": "2 Campus Immersions of 2 days each",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": " XLRI Faculty and Industry Experts",
       "Program Highlights": [
@@ -2938,6 +2938,26 @@
       ],
       "Minimum Attendance Required": "Minimum Attendance Required: 75%",
       "Certificates": "Completion Certificate issued by IIM Lucknow",
+      "physical ID card": "No Physical ID card to be provided"
+    }
+  },
+  {
+    "title": "Executive Certificate Programme in Leadership with AI",
+    "id": "iimt-executive-certificate-programme-in-leadership-with-ai-8-months",
+
+    "data": {
+      "Institute Name": "IIM Tiruchirappalli",
+      "Program Name": "Executive Certificate Programme in Leadership with AI",
+      "Duration of the Program": "8 Months",
+      "Program Terms/Modules": "10 Modules",
+      "Live Session Hours": "96+ Hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "NA",
+      "Campus Immersion Fee": "NA",
+      "Program Faculty": "IIM Tiruchirappalli Faculty  ",
+      "Minimum Attendance Required": "Minimum Attendance Required: 70%",
+      "Certificates": "Completion Certificate issued by IIM Tiruchirappalli",
+      "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
       "physical ID card": "No Physical ID card to be provided"
     }
   }

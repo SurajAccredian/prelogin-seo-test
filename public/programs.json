@@ -1,16 +1,5 @@
 [
   {
-    "university_name": "IIM Tiruchirappalli",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
-    "program_name": "Executive Certificate Programme in Leadership with AI",
-    "category": "artificial intelligence",
-    "start_date": "30 Aug 2026",
-    "status": "New Launch",
-    "url": "https://accredian.com/programs/iim-trichy-executive-certificate-programme-in-leadership-with-ai",
-    "id": "iim-trichy-executive-certificate-programme-in-leadership-with-ai",
-    "duration": "8 Months"
-  },
-  {
     "university_name": "IIM Lucknow",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
     "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
@@ -257,7 +246,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Program in Global Senior Management",
     "category": "senior management",
-    "start_date": "7 June 2026",
+    "start_date": "28 June 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-in-global-senior-management",
     "id": "executive-development-program-in-global-senior-management",
@@ -356,7 +345,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Program in Strategic HR Leadership",
     "category": "Human Resource",
-    "start_date": "05 July 2026",
+    "start_date": "12 July 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-strategic-hr-leadership",
     "id": "executive-development-program-strategic-hr-leadership",

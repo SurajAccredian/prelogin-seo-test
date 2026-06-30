@@ -2942,15 +2942,15 @@
     }
   },
   {
-    "title": "Executive Certificate Programme in Leadership with AI",
-    "id": "iimt-executive-certificate-programme-in-leadership-with-ai-8-months",
+    "title": "Certificate Programme in Leadership with AI",
+    "id": "iimt-certificate-programme-in-leadership-with-ai-8-months",
 
     "data": {
       "Institute Name": "IIM Tiruchirappalli",
-      "Program Name": "Executive Certificate Programme in Leadership with AI",
+      "Program Name": "Certificate Programme in Leadership with AI",
       "Duration of the Program": "8 Months",
       "Program Terms/Modules": "10 Modules",
-      "Live Session Hours": "96+ Hours",
+      "Live Session Hours": "90 Hours",
       "Capstone Project": "1 Capstone Project",
       "Campus Immersion": "NA",
       "Campus Immersion Fee": "NA",
@@ -2958,7 +2958,8 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Tiruchirappalli",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "physical ID card": "No Physical ID card to be provided"
+      "physical ID card": "No Physical ID card to be provided",
+      "Tools/Framework Covered in the Program": "Gemini, ChatGPT, Gamma, Notebook LM, Lovable, Claude, Perplexity."
     }
   }
 ]

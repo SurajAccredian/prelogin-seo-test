@@ -19,19 +19,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Accredian",
-  keywords: "data science course India, AI ML certification, AI ML courses in india, top AI ML programs, product management program IIT, IIM executive program, online data science certification, career transition data science, IIT Kanpur data science, IIM Lucknow executive program, XLRI HR program, best data science courses in India, online professional certifications, IIM certification for working professionals, IIT artificial intelligence course, management courses for senior executives, data analytics course with placement, best AI ML courses for beginners",
+  title: {
+    template: "%s | Accredian",
+    default: "Accredian | Professional Certification Programs from IITs & IIMs",
+  },
+  description:
+    "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
+  keywords:
+    "data science course India, AI ML certification, AI ML courses in india, top AI ML programs, product management program IIT, IIM executive program, online data science certification, career transition data science, IIT Kanpur data science, IIM Lucknow executive program, XLRI HR program, best data science courses in India, online professional certifications, IIM certification for working professionals, IIT artificial intelligence course, management courses for senior executives, data analytics course with placement, best AI ML courses for beginners",
   openGraph: {
     type: "website",
     siteName: "Accredian",
     title: "Accredian | Programs from IITs, XLRI, SP Jain & IIMs",
+    description:
+      "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
     url: "https://accredian.com",
-    images: ["https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"]
+    images: [
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@accredianedu",
-  }
+  },
 };
 
 const structuredData = {

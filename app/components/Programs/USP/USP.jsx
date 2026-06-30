@@ -215,6 +215,19 @@ const USP = () => {
                 </div>
               </div>
             )}
+            {data?.unique_points?.includes("iimt-mentoring-session") && (
+              <div className="USP-card-bg-image py-4 md:py-6 px-3 md:px-5 bg-white rounded-lg flex md:flex-col items-center md:text-center text-left md:max-w-sm md:min-h-[17rem] drop-shadow-2xl border md:border-l-0 border-l-4 border-l-blue-500 cursor-context-menu overflow-hidden gap-3 md:gap-0">
+                <div className="w-12 h-12 md:w-16 md:h-16 md:mt-4 text-blue-600 flex-shrink-0 rounded-full md:rounded-none bg-blue-50 md:bg-transparent flex items-center justify-center md:block">
+                  <FaChalkboardTeacher className="w-6 h-6 md:w-full md:h-full" />
+                </div>
+                <div className="flex flex-col md:block">
+                  <h1 className="text-base md:text-lg font-semibold md:mt-4">Career Session</h1>
+                  <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
+                    Guided mentoring sessions for career clarity & transitions, by Accredian
+                  </h4>
+                </div>
+              </div>
+            )}
             {data?.unique_points?.includes("CXO-coaching-sessions") && (
               <div className="USP-card-bg-image py-4 md:py-6 px-3 md:px-5 bg-white rounded-lg flex md:flex-col items-center md:text-center text-left md:max-w-sm md:min-h-[17rem] drop-shadow-2xl border md:border-l-0 border-l-4 border-l-blue-500 cursor-context-menu overflow-hidden gap-3 md:gap-0">
                 <div className="w-12 h-12 md:w-16 md:h-16 md:mt-4 text-blue-600 flex-shrink-0 rounded-full md:rounded-none bg-blue-50 md:bg-transparent flex items-center justify-center md:block">

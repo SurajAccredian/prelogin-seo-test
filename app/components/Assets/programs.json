@@ -1,6 +1,34 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+    "university_name": "IIM Tiruchirappalli",
+    "program_name": "Certificate Programme in Leadership with AI",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+    "batch_type": "Online",
+    "id": "iimt-certificate-programme-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMTRICHY-Certificate-Programme-In-Leadership-With-AI.pdf",
+      "source": "IIM-TRICHY Executive Certificate Programme in Leadership with AI Brochure",
+      "campaign_name": "IIM-TRICHY-Artificial Intelligence"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": ""
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
     "university_name": "IIM Lucknow",
     "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",

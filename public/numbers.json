@@ -1,5 +1,20 @@
 [
   {
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "contact": "8851827093"
+  },
+  {
+    "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
+    "program_name": "Professional Certificate Program in Strategic Project Management & Leadership",
+    "contact": "9211285411"
+  },
+  {
+    "id": "advanced-certificate-program-in-strategic-project-management",
+    "program_name": "Advanced Certificate Program in Strategic Project Management",
+    "contact": "9211285411"
+  },
+  {
     "id": "iimr-executive-program-in-strategic-hr-leadership",
     "program_name": "Executive Program in Strategic HR Leadership",
     "contact": "8851827093"
@@ -21,7 +36,7 @@
   },
   {
     "id": "iim-kashipur-chief-operating-officer-program",
-    "program_name": "Chief Operating Officer Program (The COO Program)",
+    "program_name": "Chief Operations Officer Program (The COO Program)",
     "contact": "8851827093"
   },
   {
@@ -41,7 +56,7 @@
   },
   {
     "id": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
-    "program_name": "Executive Program in Generative AI & Agentic AI for Business Leaders",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "contact": "9358719988"
   },
   {
@@ -128,11 +143,6 @@
     "id": "executive-program-in-generative-ai-for-business-leaders",
     "program_name": "Executive Program in Generative AI for Business Leaders",
     "contact": "7678385465"
-  },
-  {
-    "id": "executive-program-in-strategic-hr-leadership",
-    "program_name": "Executive Program in Strategic HR Leadership",
-    "contact": "9211285411"
   },
   {
     "id": "pg-certificate-in-strategic-project-management-and-leadership",

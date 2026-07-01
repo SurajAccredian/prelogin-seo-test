@@ -1,3 +1,4 @@
+"use client";
 
 import Wrapper from "../Wrapper/HomePageWrapper";
 import MentorHero from "./Hero Section/MentorHero";

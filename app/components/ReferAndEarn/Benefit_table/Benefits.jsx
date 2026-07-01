@@ -1,3 +1,5 @@
+"use client";
+
 import { Coins, FastForward, Infinity } from "lucide-react";
 import { useSelector } from "react-redux";
 

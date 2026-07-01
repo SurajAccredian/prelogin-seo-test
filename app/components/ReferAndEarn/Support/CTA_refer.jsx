@@ -1,3 +1,5 @@
+"use client";
+
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
 import { useState } from "react";

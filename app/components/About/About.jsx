@@ -388,7 +388,7 @@ export default function About() {
           }}
         >
           <Box sx={{ py: 20 }}>
-            <Typography component="h1" sx={{ color: "#7c98cd", textAlign: "center", fontSize: "28px" }}>our vision</Typography>
+            <Typography component="div" sx={{ color: "#7c98cd", textAlign: "center", fontSize: "28px" }}>our vision</Typography>
             <Typography sx={{ color: "#fff", textAlign: "center", fontSize: "30px", fontWeight: "bold", marginBottom: "0rem!important", lineHeight: 1.3 }}>
               Empower every professional to reach their highest potential through world-class learning.
             </Typography>

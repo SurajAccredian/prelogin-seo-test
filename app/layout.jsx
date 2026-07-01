@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: {
     template: "%s | Accredian",
-    default: "Accredian | Professional Certification Programs from IITs & IIMs",
+    default: "Accredian",
   },
   description:
     "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     siteName: "Accredian",
-    title: "Accredian | Programs from IITs, XLRI, SP Jain & IIMs",
+    title: "Accredian",
     description:
       "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
     url: "https://accredian.com",

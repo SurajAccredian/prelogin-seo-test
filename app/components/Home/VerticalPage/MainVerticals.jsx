@@ -1,3 +1,5 @@
+"use client";
+
 import { useParams } from "next/navigation";
 // import { ProgramWrapper } from "../Wrappers";
 import { useEffect } from "react";

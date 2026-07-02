@@ -359,18 +359,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 28320
+        "emi": 28419
       },
       {
         "months": 18,
-        "emi": 19636
+        "emi": 19704
       },
       {
         "months": 24,
-        "emi": 15258
+        "emi": 15311
       }
     ],
-    "total": 348000
+    "total": 349000
   },
   "faq": {
     "programId": "senior-management-program",

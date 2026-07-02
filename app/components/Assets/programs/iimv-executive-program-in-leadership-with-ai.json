@@ -303,22 +303,22 @@
     "monthly_emi": [
       {
         "months": 9,
-        "emi": 27796
+        "emi": 28189
       },
       {
         "months": 12,
-        "emi": 19864
+        "emi": 20159
       },
       {
         "months": 18,
-        "emi": 13772
+        "emi": 13977
       },
       {
         "months": 24,
-        "emi": 10702
+        "emi": 10861
       }
     ],
-    "total": 242000
+    "total": 245000
   },
   "faq": {
     "programId": "iimv-executive-program-in-leadership-with-ai",

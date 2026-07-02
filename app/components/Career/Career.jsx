@@ -704,7 +704,7 @@ export default function Career() {
             <Box sx={{ py: 5 }}>
               <Typography
                 variant="h4"
-                component="h1"
+                component="div"
                 sx={{
                   color: "#fff",
                   textDecoration: "none",

@@ -184,7 +184,8 @@ const CustomEnrollNowButton = ({
   //     "pg-certificate-program-in-data-science-ai",
   //   ].includes(data.id);
 
-  const isCustomDisabled = enrollText === "" && data?.enroll_button_disabled;
+  const displayEnrollText = (enrollText === "" || enrollText === "Enroll Now") ? (data?.enroll_button_text || text) : enrollText;
+  const isCustomDisabled = (enrollText === "" || enrollText === "Enroll Now") && data?.enroll_button_disabled;
   const finalDisabled = enrollLoderState || isCustomDisabled;
   
   let finalClassName = className;
@@ -210,7 +211,7 @@ const CustomEnrollNowButton = ({
         />
       ) : (
         <>
-          {enrollText === "" ? (data?.enroll_button_text || text) : enrollText}
+          {displayEnrollText}
           {arrowVisible && <IoIosArrowForward />}
         </>
       )}

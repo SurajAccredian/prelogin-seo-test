@@ -1,4 +1,36 @@
 [
+    {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+    "batch_type": "Online",
+    "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Digital-&-AI-Officer-Programme-Brochure.pdf",
+      "source": "IIML-Chief-Digital-&-AI-Officer-Programme-(The-CDAIO-Program)-Brochure",
+      "campaign_name": "CD&AOP(CP-iiml-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "28 Jun 2026",
+    "contact": "9810184424"
+  },
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
@@ -686,38 +718,6 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
     "university_name": "IIM Lucknow",
-    "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
-    "duration": "11 Months",
-    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
-    "batch_type": "Online",
-    "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
-    "category": "cxo leadership",
-    "tags": [
-      "technology strategy",
-      "tech risk management",
-      "strategic communication"
-    ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
-    "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Digital-&-AI-Officer-Programme-Brochure.pdf",
-      "source": "IIML-Chief-Digital-&-AI-Officer-Programme-(The-CDAIO-Program)-Brochure",
-      "campaign_name": "CD&AOP(CP-iiml-11 Months"
-    },
-    "enrolled": {
-      "referrerBonus": "₹5,000",
-      "refreeBonus": "₹5,000"
-    },
-    "notEnrolled": {
-      "referrerBonus": "₹5,000",
-      "refreeBonus": "₹5,000"
-    },
-    "start_date": "28 Jun 2026",
-    "contact": "9810184424"
-  },
-  {
-    "status": "New Launch",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
-    "university_name": "IIM Lucknow",
     "program_name": "Executive Program in Strategic Project Management & Leadership",
     "duration": "10 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
@@ -1315,7 +1315,7 @@
     "contact": "9211285411"
   },
   {
-    "status": "admission closed",
+    "status": "Batch Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
@@ -1347,7 +1347,7 @@
     "contact": "7619555873"
   },
   {
-    "status": "admission closed",
+    "status": "Batch Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Chief Technology Officer Programme (The CTO Program)",

@@ -14,7 +14,9 @@
   "duration": "11 Months",
   "required_years_experience": 10,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
+  "enroll_button_text": "Batch Coming Soon",
+  "enroll_button_disabled": true,
   "timings": "weekends only",
   "tags": [
     {

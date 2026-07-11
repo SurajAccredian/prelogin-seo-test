@@ -1,5 +1,16 @@
 [
   {
+    "university_name": "IIM Lucknow",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
+    "category": "cxo leadership",
+    "start_date": "28 Jun 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+    "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+    "duration": "11 Months"
+  },
+  {
     "university_name": "IIM Tiruchirappalli",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
     "program_name": "Certificate Programme in Leadership with AI",
@@ -233,17 +244,6 @@
   {
     "university_name": "IIM Lucknow",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
-    "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
-    "category": "cxo leadership",
-    "start_date": "28 Jun 2026",
-    "status": "New Launch",
-    "url": "https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program",
-    "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
-    "duration": "11 Months"
-  },
-  {
-    "university_name": "IIM Lucknow",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
     "program_name": "Executive Program in Strategic Project Management & Leadership",
     "category": "project management",
     "start_date": "30 May 2026",
@@ -445,7 +445,7 @@
     "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
     "category": "cxo leadership",
     "start_date": "22 Feb 2026",
-    "status": "admission closed",
+    "status": "Batch Coming Soon",
     "url": "https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program",
     "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
     "duration": "11 Months"
@@ -456,7 +456,7 @@
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
     "category": "cxo leadership",
     "start_date": "17 May 2025",
-    "status": "admission closed",
+    "status": "Batch Coming Soon",
     "url": "https://accredian.com/programs/chief-technology-officer-programme",
     "id": "chief-technology-officer-programme",
     "duration": "11 Months"

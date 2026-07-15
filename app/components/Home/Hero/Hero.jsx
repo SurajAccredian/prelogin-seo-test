@@ -73,6 +73,18 @@ const Hero = () => {
       backgroundImage:
         "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-3-compressed.webp",
     },
+    {
+      id: 4,
+      title: "Master Microsoft Copilot. For Free.",
+      subtitle:
+        "Automate the busywork with Microsoft Copilot - free to start!",
+      bulletPoints: [],
+      buttonText: "Explore Course",
+      backgroundImage:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-4-compressed-v3.jpg",
+      mobileBackgroundImage:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-4-compressed-v3-mobile-v2.png",
+    },
   ];
 
   const universityImages = [
@@ -110,7 +122,7 @@ const Hero = () => {
           spaceBetween={0}
           loop={true}
           autoplay={{
-            delay: 4000,
+            delay: 5000,
           }}
           slidesPerView={1}
           speed={800}
@@ -139,7 +151,7 @@ const Hero = () => {
                   {/* Top Image Section */}
                   <div
                     className="mobile-hero-image lazy-bg"
-                    data-bg={slide.backgroundImage}
+                    data-bg={slide.mobileBackgroundImage || slide.backgroundImage}
                   />
 
                   {/* Overlapping Content Card */}
@@ -211,24 +223,37 @@ const Hero = () => {
 
                       {/* CTA Buttons */}
                       <div className="mobile-buttons-container">
-
                         <button
                           className="mobile-secondary-button"
                           onClick={() => {
-                            window.location.href = "#courses";
+                            if (slide.id === 4) {
+                              window.location.href = "/free-courses/transform-business-workflows-with-generative-ai";
+                            } else {
+                              window.location.href = "#courses";
+                            }
                           }}
-                          title="Explore Programs"
+                          title={slide.id === 4 ? "Start Learning Free" : "Explore Programs"}
                         >
                           {slide.buttonText}{" "}
-                          <MoveRight className="inline ml-2  mt-1 w-4 h-4" />
+                          <MoveRight className="inline ml-2 mt-1 w-4 h-4" />
                         </button>
                         <button
                           className="mobile-primary-button"
-                          onClick={handleClickOpenRcb}
-                          title="Talk to Expert"
+                          onClick={() => {
+                            if (slide.id === 4) {
+                              window.location.href = "/free-courses/transform-business-workflows-with-generative-ai#curriculum";
+                            } else {
+                              handleClickOpenRcb();
+                            }
+                          }}
+                          title={slide.id === 4 ? "See What You'll Learn" : "Talk to Expert"}
                         >
-                          Talk to Expert{" "}
-                          <MoveRight className="inline  mb-1 mt-1 ml-2 w-4 h-4" />
+                          {slide.id === 4 ? "See What You'll Learn" : "Talk to Expert"}{" "}
+                          {slide.id === 4 ? (
+                            <MoveRight className="inline mb-1 mt-1 ml-2 w-4 h-4" />
+                          ) : (
+                            <MoveRight className="inline mb-1 mt-1 ml-2 w-4 h-4" />
+                          )}
                         </button>
                       </div>
                     </div>
@@ -318,22 +343,35 @@ const Hero = () => {
                           <button
                             className="hero-primary-button w-full sm:w-auto text-nowrap font-bold border-2 border-blue-600 rounded-lg text-black transition-all duration-300 shadow-xl hover:shadow-xl transform hover:scale-105"
                             onClick={() => {
-                              window.location.href = "#courses";
+                              if (slide.id === 4) {
+                                window.location.href = "/free-courses/transform-business-workflows-with-generative-ai";
+                              } else {
+                                window.location.href = "#courses";
+                              }
                             }}
-                            title="Explore Programs"
+                            title={slide.id === 4 ? "Start Learning Free" : "Explore Programs"}
                           >
                             {slide.buttonText}{" "}
                             <MoveRight className="inline ml-2 w-4 h-4 sm:w-5 sm:h-5" />
                           </button>
                           <button
                             className=" w-full hero-secondary-button sm:w-auto text-nowrap font-bold border-2 border-blue-600 bg-blue-600 hover:bg-blue-700 rounded-lg text-white transition-all duration-300 shadow-xl hover:shadow-xl transform hover:scale-105"
-                            onClick={handleClickOpenRcb}
-                            title="Talk to Expert"
+                            onClick={() => {
+                              if (slide.id === 4) {
+                                window.location.href = "/free-courses/transform-business-workflows-with-generative-ai#curriculum";
+                              } else {
+                                handleClickOpenRcb();
+                              }
+                            }}
+                            title={slide.id === 4 ? "See What You'll Learn" : "Talk to Expert"}
                           >
-                            Talk to Expert{" "}
-                            <PhoneCall className="inline mb-1 ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                            {slide.id === 4 ? "See What You'll Learn" : "Talk to Expert"}{" "}
+                            {slide.id === 4 ? (
+                              <MoveRight className="inline mb-1 ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                            ) : (
+                              <PhoneCall className="inline mb-1 ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                            )}
                           </button>
-
                         </div>
                       </div>
 

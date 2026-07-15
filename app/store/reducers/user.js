@@ -6,7 +6,9 @@ const initialState = {
   authType: null,
   redirectUrl: null,
   category: null,
+  isfreeCourse: false,
   loginType: "user",
+  program_id: null,
   openLoginDrawerState: false,
   authenticated: false,
 };
@@ -29,6 +31,13 @@ const userSlice = createSlice({
       action,
     ) => {
       state.category = action.payload;
+    },
+    setLoginOpenFromFreeProgramPage: (
+      state,
+      action,
+    ) => {
+      state.isfreeCourse = action.payload?.isFreeCourse;
+      state.program_id = action.payload?.program_id;
     },
     setDrawerState: (state, action) => {
       state.openLoginDrawerState = action.payload;

@@ -42,7 +42,7 @@ const Verticals = () => {
             <div className="w-full max-w-[76rem] flex justify-center items-center gap-4 mt-4 flex-wrap">
               {sortedStreams.map((val, index) => {
                 let vertical = val.category.toLowerCase();
-                if (vertical === "pg diploma" || vertical === "design thinking" || vertical === "digital transformation" || vertical === "product management") {
+                if (vertical === "pg diploma" || vertical === "design thinking" || vertical === "digital transformation" || vertical === "product management" || vertical == "microsoft" || vertical == "free courses") {
                   return null;
                 }
                 return (

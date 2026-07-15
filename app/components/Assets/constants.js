@@ -17,6 +17,8 @@ import { IconType } from "react-icons";
 
 // ✅ All data below is IDENTICAL to original — zero changes
 export const STREAMS = [
+  { category: "Microsoft", icon: GoProjectRoadmap, order: -2 },
+  { category: "Free Courses", icon: GoProjectRoadmap, order: -1 },
   { category: "PG Diploma", icon: GoProjectRoadmap, order: 1 },
   { category: "design thinking", icon: GoProjectRoadmap, order: 2 },
   { category: "product management", icon: GoProjectRoadmap, order: 8 },
@@ -63,6 +65,8 @@ export const categoriesWithContacts = [
   { category: "cybersecurity", contact: "+91 9211285411" },
   { category: "PG Diploma", contact: "+91 8130897175" },
   { category: "design thinking", contact: "+91 9818329799" },
+  { category: "Microsoft", contact: "+91 9818329799" },
+  { category: "Free Courses", contact: "+91 9818329799" },
 ];
 
 export const REFER_BAR_LINK = [

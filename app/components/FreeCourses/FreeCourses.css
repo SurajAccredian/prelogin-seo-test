@@ -1,0 +1,1499 @@
+.free-courses {
+  /* Brand colors scoped to free-courses container */
+  --accredian-primary: #1A73E8;
+  --accredian-primary-hover: #1557B0;
+  --accredian-border: #E2E8F0;
+  --accredian-text-on-primary: #FFFFFF;
+  --accredian-text-heading: #0F172A;
+  --accredian-text-body: #475569;
+  --accredian-text-muted: #94A3B8;
+  --accredian-success: #16A34A;
+  --accredian-bg-subtle: #F8FAFC;
+  --accredian-bg-tint: #E6F1FB;
+  --accredian-free-bg: #F0FDF4;
+  --accredian-free-border: #BBF7D0;
+  --accredian-free-text: #15803D;
+  --accredian-navy: #0B1E3D;
+  --accredian-navy-line: rgba(255,255,255,0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-card: 0 4px 16px rgba(15, 23, 42, 0.08);
+  --shadow-float: 0 8px 30px rgba(15, 23, 42, 0.14);
+  --container-width: 85rem;
+  --section-pad-y: 80px;
+  --section-pad-y-mobile: 48px;
+
+  width: 100%;
+  color: var(--accredian-text-body);
+  background: #FFFFFF;
+  line-height: 1.6;
+  font-family: "Circular", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.free-courses h1,
+.free-courses h2,
+.free-courses h3,
+.free-courses h4 {
+  color: var(--accredian-text-heading);
+  font-weight: 700;
+  margin: 0;
+}
+
+.free-courses p {
+  margin: 0;
+}
+
+.free-courses .container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 1280px) {
+  .free-courses .container {
+    padding: 0 48px;
+  }
+}
+
+.free-courses .section {
+  padding: var(--section-pad-y) 0;
+}
+
+.free-courses .section-compact {
+  padding: 40px 0;
+}
+
+.free-courses .section-alt {
+  background: var(--accredian-bg-subtle);
+}
+
+.free-courses .section-head {
+  max-width: 640px;
+  margin: 0 0 40px;
+}
+
+.free-courses .section-head.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.free-courses .eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accredian-primary);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.free-courses .section-head h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.free-courses .section-head p {
+  font-size: 16px;
+  color: var(--accredian-text-body);
+}
+
+/* Custom buttons */
+.free-courses .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: var(--radius-sm);
+  font-size: 15px;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+  white-space: normal;
+  text-align: center;
+}
+
+.free-courses .btn:active {
+  transform: scale(0.98);
+}
+
+.free-courses .btn-primary {
+  background: var(--accredian-primary);
+  color: var(--accredian-text-on-primary);
+}
+
+.free-courses .btn-primary:hover {
+  background: var(--accredian-primary-hover);
+}
+
+.free-courses .btn-secondary {
+  background: transparent;
+  color: var(--accredian-primary);
+  border-color: var(--accredian-primary);
+}
+
+.free-courses .btn-secondary:hover {
+  background: var(--accredian-bg-tint);
+}
+
+.free-courses .btn-disabled {
+  opacity: 0.55 !important;
+  cursor: not-allowed !important;
+  background: #E2E8F0 !important;
+  color: #94A3B8 !important;
+  border-color: #CBD5E1 !important;
+}
+
+.free-courses .btn-block {
+  width: 100%;
+}
+
+.free-courses .btn-twoline {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  padding: 10px 22px;
+  line-height: 1.3;
+  min-width: 216px;
+}
+
+.free-courses .btn-twoline .btn-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.free-courses .btn-twoline .btn-sub {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.free-courses .btn-secondary.btn-twoline .btn-sub {
+  opacity: 0.75;
+}
+
+.free-courses .is-hidden {
+  display: none !important;
+}
+
+.free-courses .cta-pricing-note {
+  font-size: 13px;
+  color: var(--accredian-text-muted);
+  margin-top: 4px;
+}
+
+.free-courses .cta-pricing-note strong {
+  color: var(--accredian-text-heading);
+  font-weight: 600;
+}
+
+/* ==========================================
+   HERO
+   ========================================== */
+.free-courses .hero {
+  padding: 0;
+  overflow: hidden;
+}
+
+.free-courses .hero-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.free-courses .hero-content {
+  order: 1;
+  padding: 48px 16px 40px;
+  max-width: 640px;
+}
+
+.free-courses .hero-visual {
+  order: 2;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.free-courses .hero-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.free-courses .partner-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 8px;
+  background: var(--accredian-bg-tint);
+  color: var(--accredian-primary);
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.free-courses .hero h1 {
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+}
+
+.free-courses .hero-code {
+  font-size: 14px;
+  color: var(--accredian-text-muted);
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.free-courses .hero-desc {
+  font-size: 16px;
+  color: var(--accredian-text-body);
+  margin-bottom: 24px;
+}
+
+.free-courses .meta-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 24px;
+  margin-bottom: 28px;
+  padding: 18px 0;
+  border-top: 1px solid var(--accredian-border);
+  border-bottom: 1px solid var(--accredian-border);
+}
+
+.free-courses .meta-label {
+  font-size: 12px;
+  color: var(--accredian-text-muted);
+  margin-bottom: 4px;
+  display: block;
+}
+
+.free-courses .meta-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accredian-text-heading);
+}
+
+.free-courses .hero-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .free-courses .hero-ctas {
+    flex-direction: row;
+  }
+  .free-courses .meta-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .free-courses .hero-inner {
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 560px;
+  }
+  .free-courses .hero-content {
+    order: 1;
+    flex: 0 0 auto;
+    width: 46%;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 40px;
+    padding-left: max(16px, calc((100vw - var(--container-width)) / 2));
+  }
+  .free-courses .hero-visual {
+    order: 2;
+    flex: 1;
+    aspect-ratio: auto;
+    align-self: stretch;
+  }
+  .free-courses .hero h1 {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .free-courses .hero-content {
+    padding-left: max(48px, calc((100vw - var(--container-width)) / 2));
+  }
+}
+
+/* ==========================================
+   HOW IT WORKS (Steps grid)
+   ========================================== */
+.free-courses .steps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.free-courses .step-card {
+  background: #FFFFFF;
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.free-courses .step-card.step-paid {
+  border-color: var(--accredian-primary);
+  background: var(--accredian-bg-tint);
+}
+
+.free-courses .step-card-number {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--accredian-bg-tint);
+  color: var(--accredian-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.free-courses .step-card.step-paid .step-card-number {
+  background: var(--accredian-primary);
+  color: #FFFFFF;
+}
+
+.free-courses .step-card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.free-courses .step-card-title-row h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.free-courses .step-tag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.free-courses .step-tag.free {
+  background: var(--accredian-free-bg);
+  color: var(--accredian-free-text);
+  border: 1px solid var(--accredian-free-border);
+}
+
+.free-courses .step-tag.paid {
+  background: var(--accredian-primary);
+  color: #FFFFFF;
+}
+
+.free-courses .step-card p {
+  font-size: 13.5px;
+  color: var(--accredian-text-body);
+}
+
+@media (min-width: 640px) {
+  .free-courses .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .free-courses .steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+/* ==========================================
+   WHAT YOU'LL LEARN
+   ========================================== */
+.free-courses .icon-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  flex-shrink: 0;
+}
+
+.free-courses .icon-badge svg {
+  width: 22px;
+  height: 22px;
+}
+
+.free-courses .icon-badge.tint-blue {
+  background: var(--accredian-bg-tint);
+  color: var(--accredian-primary);
+}
+
+.free-courses .icon-badge.tint-green {
+  background: #EAF3DE;
+  color: var(--accredian-success);
+}
+
+.free-courses .learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.free-courses .learn-card {
+  background: #FFFFFF;
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+
+.free-courses .learn-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+.free-courses .learn-card p {
+  font-size: 13.5px;
+  color: var(--accredian-text-body);
+  line-height: 1.5;
+}
+
+@media (min-width: 640px) {
+  .free-courses .learn-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ==========================================
+   WHO SHOULD JOIN
+   ========================================== */
+.free-courses .audience-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+  background: var(--accredian-border);
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.free-courses .audience-item {
+  background: #FFFFFF;
+  padding: 24px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.free-courses .audience-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accredian-bg-tint);
+  color: var(--accredian-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.free-courses .audience-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.free-courses .audience-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.free-courses .audience-item p {
+  font-size: 14px;
+  color: var(--accredian-text-body);
+}
+
+@media (min-width: 640px) {
+  .free-courses .audience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ==========================================
+   WHY THIS COURSE (USPs Navy panel)
+   ========================================== */
+.free-courses .why-panel {
+  background: var(--accredian-navy);
+  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  color: #FFFFFF;
+}
+
+.free-courses .why-panel .section-head {
+  margin-bottom: 28px;
+}
+
+.free-courses .why-panel .section-head .eyebrow {
+  color: #93C5FD;
+}
+
+.free-courses .why-panel .section-head h2 {
+  color: #FFFFFF;
+}
+
+.free-courses .why-panel .section-head p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.free-courses .why-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.free-courses .why-item {
+  display: flex;
+  gap: 14px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--accredian-navy-line);
+}
+
+.free-courses .why-item:last-child {
+  border-bottom: none;
+}
+
+.free-courses .why-item-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #93C5FD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.free-courses .why-item-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.free-courses .why-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #FFFFFF;
+}
+
+.free-courses .why-item p {
+  font-size: 13.5px;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .free-courses .why-panel {
+    padding: 44px;
+  }
+  .free-courses .why-list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+  }
+  .free-courses .why-item {
+    border-bottom: 1px solid var(--accredian-navy-line);
+  }
+  .free-courses .why-item:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+}
+
+/* ==========================================
+   CURRICULUM MODULES
+   ========================================== */
+.free-courses .curriculum-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.free-courses .module {
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #FFFFFF;
+}
+
+.free-courses .module-summary-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 18px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.free-courses .module-summary-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--accredian-text-heading);
+}
+
+.free-courses .module-summary-btn .chevron {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+  color: var(--accredian-text-muted);
+}
+
+.free-courses .module.open .module-summary-btn .chevron {
+  transform: rotate(180deg);
+}
+
+.free-courses .module-summary-btn .module-meta {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--accredian-text-muted);
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.free-courses .topics {
+  padding: 4px 20px 18px 52px;
+  border-top: 1px solid var(--accredian-border);
+  background-color: var(--accredian-bg-subtle);
+}
+
+.free-courses .topic {
+  padding: 10px 0;
+  font-size: 14px;
+  color: var(--accredian-text-body);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.free-courses .topic svg {
+  width: 16px;
+  height: 16px;
+  color: var(--accredian-text-muted);
+  flex-shrink: 0;
+}
+
+.free-courses .preview-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accredian-primary);
+  background: var(--accredian-bg-tint);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  margin-left: auto;
+}
+
+/* ==========================================
+   INSTRUCTOR (Compact design)
+   ========================================== */
+.free-courses .instructor-card-compact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-lg);
+  padding: 18px 24px;
+  max-width: 420px;
+}
+
+.free-courses .instructor-photo-compact {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.free-courses .instructor-photo-compact img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.free-courses .instructor-eyebrow {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accredian-text-muted);
+  margin-bottom: 2px;
+}
+
+.free-courses .instructor-name-compact {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* ==========================================
+   INSTRUCTOR (Full card design)
+   ========================================== */
+.free-courses .instructor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+
+.free-courses .instructor-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.free-courses .instructor-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.free-courses .instructor-name {
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+.free-courses .instructor-title {
+  font-size: 14px;
+  color: var(--accredian-primary);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.free-courses .instructor-facts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.free-courses .instructor-fact {
+  font-size: 13px;
+}
+
+.free-courses .instructor-fact strong {
+  color: var(--accredian-text-heading);
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.free-courses .instructor-bio {
+  font-size: 14px;
+  color: var(--accredian-text-body);
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .free-courses .instructor-card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .free-courses .instructor-photo {
+    width: 132px;
+    height: 132px;
+  }
+  .free-courses .instructor-facts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+  }
+}
+
+/* ==========================================
+   CERTIFICATION COMPARISON (Free vs Paid Cert)
+   ========================================== */
+.free-courses .cert-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.free-courses .cert-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  background: #FFFFFF;
+  border: 2px solid var(--accredian-border);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.free-courses .cert-card:hover {
+  border-color: var(--accredian-primary);
+  box-shadow: var(--shadow-card);
+}
+
+.free-courses .cert-card.cert-free {
+}
+
+.free-courses .cert-card.cert-paid {
+  position: relative;
+}
+
+.free-courses .cert-card-eyebrow {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+}
+
+.free-courses .cert-free .cert-card-eyebrow {
+  background: var(--accredian-free-bg);
+  color: var(--accredian-free-text);
+  border: 1px solid var(--accredian-free-border);
+}
+
+.free-courses .cert-paid .cert-card-eyebrow {
+  background: var(--accredian-primary);
+  color: #FFFFFF;
+}
+
+.free-courses .cert-card h3 {
+  font-size: 20px;
+}
+
+.free-courses .cert-card .cert-price {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--accredian-text-heading);
+}
+
+.free-courses .cert-card .cert-price span {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accredian-text-muted);
+}
+
+.free-courses .cert-badge-visual {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--accredian-border);
+  background: var(--accredian-bg-subtle);
+}
+
+.free-courses .cert-badge-visual img {
+  width: 100%;
+  display: block;
+}
+
+.free-courses .cert-badge-caption {
+  display: block;
+  font-size: 11px;
+  color: var(--accredian-text-muted);
+  text-align: center;
+  padding: 6px 8px;
+  background: #FFFFFF;
+  border-top: 1px solid var(--accredian-border);
+}
+
+.free-courses .cert-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.free-courses .cert-card li {
+  font-size: 14px;
+  color: var(--accredian-text-body);
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.free-courses .cert-card li svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.free-courses .cert-free li svg {
+  color: var(--accredian-free-text);
+}
+
+.free-courses .cert-paid li svg {
+  color: var(--accredian-primary);
+}
+
+.free-courses .cert-card .btn {
+  margin-top: 4px;
+  align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+  .free-courses .cert-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+/* ==========================================
+   SNAPSHOT GRID
+   ========================================== */
+.free-courses .snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.free-courses .snapshot-item {
+  background: #FFFFFF;
+  padding: 16px 20px;
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.free-courses .snapshot-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  border-color: #cbd5e1;
+}
+
+.free-courses .snapshot-icon-wrapper {
+  background: #eff6ff;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.free-courses .snapshot-text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.free-courses .snapshot-item .meta-label {
+  margin-bottom: 2px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--accredian-text-muted);
+}
+
+.free-courses .snapshot-item .meta-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accredian-text-heading);
+}
+
+@media (min-width: 768px) {
+  .free-courses .snapshot-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+/* ==========================================
+   FAQ ACCORDION
+   ========================================== */
+.free-courses .faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--accredian-border);
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.free-courses .faq-item {
+  background: #FFFFFF;
+}
+
+.free-courses .faq-item-summary-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 18px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+}
+
+.free-courses .faq-item-summary-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--accredian-text-heading);
+}
+
+.free-courses .faq-item-summary-btn .chevron {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+  color: var(--accredian-text-muted);
+}
+
+.free-courses .faq-item[open] .faq-item-summary-btn .chevron {
+  transform: rotate(180deg);
+}
+
+.free-courses .faq-answer {
+  padding: 0 20px 18px;
+  font-size: 14px;
+  color: var(--accredian-text-body);
+}
+
+/* ==========================================
+   RELATED COURSES (Horizontal scroll list)
+   ========================================== */
+.free-courses .related-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scroll-snap-type: x mandatory;
+}
+
+.free-courses .related-card {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  background: #FFFFFF;
+  border: 1px solid var(--accredian-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.free-courses .related-card .icon-badge {
+  margin-bottom: 0;
+}
+
+.free-courses .related-card h3 {
+  font-size: 15px;
+}
+
+.free-courses .related-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accredian-text-heading);
+}
+
+.free-courses .related-price-sub {
+  font-size: 12px;
+  color: var(--accredian-text-muted);
+  margin-top: -4px;
+}
+
+.free-courses .related-card .btn {
+  padding: 10px 16px;
+  font-size: 13px;
+  margin-top: auto;
+}
+
+/* ==========================================
+   STICKY exam PURCHASE card
+   ========================================== */
+.free-courses .sticky-purchase-mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  border-top: 1px solid var(--accredian-border);
+  box-shadow: var(--shadow-float);
+  padding: 12px 16px;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.free-courses .sticky-price-block {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.free-courses .sticky-price-block .price-now {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accredian-text-heading);
+}
+
+.free-courses .sticky-price-block .price-label {
+  font-size: 11px;
+  color: var(--accredian-text-muted);
+}
+
+.free-courses .sticky-purchase-mobile .btn {
+  flex: 1;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.free-courses .sticky-purchase-desktop-bar {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .free-courses .sticky-purchase-mobile {
+    display: none;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.05), 0 -2px 4px -1px rgba(0, 0, 0, 0.03);
+    padding: 14px 24px;
+    z-index: 99;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .free-courses .sticky-purchase-desktop-bar.show {
+    transform: translateY(0);
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-family: var(--font-circular), sans-serif;
+    max-w: 85rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .params-section {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .param-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .param-label {
+    font-size: 11px;
+    color: #6b7280;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .param-value {
+    font-size: 14px;
+    color: #3b82f6;
+    font-weight: 700;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .border-lr {
+    border-left: 1px solid #e5e7eb;
+    border-right: 1px solid #e5e7eb;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .badge-callout {
+    font-size: 14px;
+    color: #1f2937;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .action-section {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .partner-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .partner-label {
+    font-size: 9px;
+    color: #6b7280;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .partner-value {
+    font-size: 14px;
+    color: #1f2937;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .microsoft-logo {
+    width: 14px;
+    height: 14px;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .btn {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #3b82f6;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+  }
+
+  .free-courses .sticky-purchase-desktop-bar .btn:hover {
+    background: #2563eb;
+  }
+}
+
+/* ==========================================
+   EXAM INTEREST MODAL
+   ========================================== */
+.exam-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.exam-modal {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 24px 64px rgba(15, 23, 42, 0.2);
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: examModalIn 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes examModalIn {
+  from { opacity: 0; transform: translateY(24px) scale(0.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.exam-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 24px 24px 0;
+}
+
+.exam-modal-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accredian-primary);
+  background: var(--accredian-bg-tint);
+  padding: 3px 10px;
+  border-radius: 100px;
+  margin-bottom: 6px;
+}
+
+.exam-modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accredian-text-heading);
+  line-height: 1.25;
+  margin: 0;
+}
+
+.exam-modal-close {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: var(--accredian-bg-subtle);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--accredian-text-muted);
+  transition: background 0.15s, color 0.15s;
+}
+
+.exam-modal-close:hover {
+  background: var(--accredian-border);
+  color: var(--accredian-text-heading);
+}
+
+.exam-modal-close svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Acknowledgement body */
+.exam-modal-ack-body {
+  padding: 20px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.exam-modal-ack-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--accredian-bg-tint);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accredian-primary);
+}
+
+.exam-modal-ack-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.exam-modal-course-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accredian-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.exam-modal-ack-text {
+  font-size: 14px;
+  color: var(--accredian-text-body);
+  line-height: 1.65;
+  margin: 0;
+  max-width: 360px;
+}
+
+.exam-modal-price {
+  color: var(--accredian-text-heading);
+  font-weight: 700;
+}
+
+.exam-modal-ack-points {
+  width: 100%;
+  background: var(--accredian-bg-subtle);
+  border: 1px solid var(--accredian-border);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.exam-modal-ack-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--accredian-text-body);
+  line-height: 1.5;
+}
+
+.exam-modal-ack-point svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: #16a34a;
+}
+
+.exam-modal-ack-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.btn.btn-ghost {
+  background: transparent;
+  border: none;
+  color: var(--accredian-text-muted);
+  font-size: 13px;
+  padding: 8px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.btn.btn-ghost:hover {
+  color: var(--accredian-text-heading);
+}
+

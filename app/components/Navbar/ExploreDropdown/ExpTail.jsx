@@ -225,7 +225,7 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                   const val = item;
                   return (
                     <a
-                      href={`/programs/${val.id}`}
+                      href={val.category.toLowerCase() === "free courses" || val.category.toLowerCase() === "microsoft" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
                       className="w-[95%]"
                       key={index}
                       type="div"

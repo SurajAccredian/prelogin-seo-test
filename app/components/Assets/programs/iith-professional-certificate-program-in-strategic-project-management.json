@@ -185,7 +185,7 @@
   "start_date": "13 June 2026",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/IITH-PCPSPMT-Program.png",
   "description": "Embark on a 6 month learning journey in Project Planning, Risk Management, and Project Governance.",
-  "enrollments": "active",
+  "enrollments": "inactive",
   "short_title": "Strategic Project Management",
   "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "key_features": [

@@ -111,18 +111,113 @@ export default function AccodionMyAccount() {
     return process.env.NEXT_PUBLIC_NEW_DASHBOARD_BASE_URL
   };
 
-  const sections = !pgdmDashboardStatus ? [
-    {
-      label: "Application Tracker",
-      href: `${getBaseUrl()}/?tab=my-applications`,
-      img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myApplication.svg",
-    },
-    {
-      label: "Dashboard",
-      href: `${getBaseUrl()}/Dashboard`,
-      img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
-    },
-  ] : [];
+  const decodeJwt = (token) => {
+    try {
+      const base64Url = token.split(".")[1];
+      const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+      const jsonPayload = decodeURIComponent(
+        window.atob(base64)
+          .split("")
+          .map((c) => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2))
+          .join("")
+      );
+      return JSON.parse(jsonPayload);
+    } catch (e) {
+      console.error("Error decoding JWT token:", e);
+      return null;
+    }
+  };
+
+  const handleAccessFreeCourses = async (e) => {
+    e.preventDefault();
+
+    const token = isCookie || localStorage.getItem("token");
+    let email = localStorage.getItem("email");
+    let firstname = "";
+    let lastname = "";
+
+    if (token) {
+      const decoded = decodeJwt(token);
+      if (decoded?.data) {
+        email = decoded.data.email || email;
+        firstname = decoded.data.firstname || "";
+        lastname = decoded.data.userlastname || decoded.data.lastname || "";
+      }
+    }
+
+    if (!firstname && !lastname) {
+      const name = localStorage.getItem("name") || "";
+      const nameParts = name.trim().split(/\s+/);
+      firstname = nameParts[0] || "";
+      lastname = nameParts.slice(1).join(" ") || "";
+    }
+
+    if (!email) {
+      console.error("No email found to fetch Thinkific URL");
+      return;
+    }
+
+    try {
+      const { fetchThinkificUrl } = await import("../../../services/auth.service");
+      const url = await fetchThinkificUrl({ email, firstname, lastname });
+      if (url) {
+        window.open(url, "_blank", "noopener,noreferrer");
+      }
+    } catch (err) {
+      console.error("Error fetching Thinkific URL on-the-fly in drawer:", err);
+    }
+  };
+
+  useEffect(() => {
+    if (isCookie) {
+      const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
+      const has66 = enrollmentDetails && enrollmentDetails.some(item => Number(item.category) === 66);
+      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
+
+      if (isOnly66) {
+        setSections([
+          {
+            label: "Access Free Courses",
+            href: "#",
+            onClick: handleAccessFreeCourses,
+            img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
+          }
+        ]);
+      } else if (has66) {
+        setSections([
+          {
+            label: "Application Tracker",
+            href: `${getBaseUrl()}/?tab=my-applications`,
+            img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myApplication.svg",
+          },
+          {
+            label: "Dashboard",
+            href: `${getBaseUrl()}/Dashboard`,
+            img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
+          },
+          {
+            label: "Access Free Courses",
+            href: "#",
+            onClick: handleAccessFreeCourses,
+            img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
+          }
+        ]);
+      } else {
+        setSections(!pgdmDashboardStatus ? [
+          {
+            label: "Application Tracker",
+            href: `${getBaseUrl()}/?tab=my-applications`,
+            img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myApplication.svg",
+          },
+          {
+            label: "Dashboard",
+            href: `${getBaseUrl()}/Dashboard`,
+            img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
+          },
+        ] : []);
+      }
+    }
+  }, [isCookie, pgdmDashboardStatus]);
 
   return (
     <div className="w-full flex flex-col pt-3">
@@ -142,6 +237,7 @@ export default function AccodionMyAccount() {
             > */}
             <a
               href={section.href}
+              onClick={section.onClick}
               className="w-full text-neutral-700 hover:text-universal"
             >
               <div className="flex items-center gap-2">

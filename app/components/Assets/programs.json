@@ -1,5 +1,5 @@
 [
-    {
+  {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
     "university_name": "IIM Lucknow",
@@ -58,6 +58,34 @@
     },
     "start_date": "30 Aug 2026",
     "contact": ""
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "batch_type": "Online",
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "category": "human resource",
+    "tags": ["online", "Instructor Led", "new launch"],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
+      "source": "IIML Chief Human Resources Officer Programme (The CHRO Program) Brochure",
+      "campaign_name": "IIML-Chief Human Resources Officer"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "8851827093"
   },
   {
     "status": "New Launch",
@@ -271,7 +299,7 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
     "university_name": "IIM Kashipur",
-    "program_name": "Chief Operations Officer Program (The COO Program)",
+    "program_name": "Chief Operating Officer Program (The COO Program)",
     "duration": "12 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
     "batch_type": "Online",
@@ -281,7 +309,7 @@
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
-      "source": "IIM-KASHIPUR Chief Operations Officer Program (The COO Program) Brochure",
+      "source": "IIM-KASHIPUR Chief Operating Officer Program (The COO Program) Brochure",
       "campaign_name": "IIM-KASHIPUR-COO-12 Months"
     },
     "enrolled": {
@@ -651,7 +679,7 @@
     "contact": "9289224842"
   },
   {
-    "status": "New Launch",
+    "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
     "program_name": "Executive Program in Design Thinking & Innovation for Strategic Leadership",
@@ -683,7 +711,7 @@
     "contact": "9810184424"
   },
   {
-    "status": "New Launch",
+    "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
     "program_name": "Professional Certificate Program in Strategic Project Management",
@@ -817,7 +845,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "08th Aug 2026",
+    "start_date": "22nd Sep 2026",
     "contact": "9358719988"
   },
   {
@@ -854,7 +882,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "08th Aug 2026",
+    "start_date": "22nd Sep 2026",
     "contact": "9358719988"
   },
   {
@@ -1315,7 +1343,7 @@
     "contact": "9211285411"
   },
   {
-    "status": "Batch Coming Soon",
+    "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
@@ -1347,7 +1375,7 @@
     "contact": "7619555873"
   },
   {
-    "status": "Batch Coming Soon",
+    "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
@@ -1692,5 +1720,31 @@
     },
     "start_date": "20 Oct 2024",
     "contact": "8826567425"
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-logo.png",
+    "university_name": "Microsoft",
+    "program_name": "Transform Business Workflows with Generative AI",
+    "duration": "9 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-business-workflows-with-generative-ai",
+    "category": "microsoft",
+    "tags": ["Generative AI", "Productivity", "Microsoft 365"],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image.webp"
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-logo.png",
+    "university_name": "Microsoft",
+    "program_name": "Transform Business Workflows with Generative AI",
+    "duration": "9 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-business-workflows-with-generative-ai",
+    "category": "free courses",
+    "tags": ["Generative AI", "Productivity", "Microsoft 365"],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image.webp"
   }
 ]

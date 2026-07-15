@@ -3,6 +3,8 @@ import { TbLogin2 } from "react-icons/tb";
 import AccordionHam from "./AccodionHam";
 import AccodionMyAccount from "./AccodionMyAccount";
 import { X } from "lucide-react";
+import { useState, useEffect } from "react";
+
 export default function Ham({
   isOpen,
   setIsOpen,
@@ -10,6 +12,17 @@ export default function Ham({
   LogOut,
   onLoginClick,
 }) {
+  const [onlyCategory66, setOnlyCategory66] = useState(false);
+
+  useEffect(() => {
+    if (loginStatus) {
+      const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
+      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
+      setOnlyCategory66(isOnly66);
+    } else {
+      setOnlyCategory66(false);
+    }
+  }, [loginStatus]);
   const toggleDrawer = (open) => (event) => {
     if (
       event.type === "keydown" &&
@@ -71,11 +84,13 @@ export default function Ham({
               </div>
             )}
           </div>
-          <div>
-            <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/referandearn`} target="_blank" rel="noreferrer">
-              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="Refer and earn banner" />
-            </a>
-          </div>
+          {!onlyCategory66 && (
+            <div>
+              <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/referandearn`} target="_blank" rel="noreferrer">
+                <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="Refer and earn banner" />
+              </a>
+            </div>
+          )}
           {loginStatus && (
             <>
               <button

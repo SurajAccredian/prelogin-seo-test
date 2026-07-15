@@ -213,7 +213,7 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
 
                 const val = item;
                 return (
-                  <a href={`/programs/${val.id}`} className="w-full" key={index} type="div">
+                  <a href={val.category.toLowerCase() === "free courses" || val.category.toLowerCase() === "microsoft" ? `/free-courses/${val.id}` : `/programs/${val.id}`} className="w-full" key={index} type="div">
                     <div className="relative flex mb-4 flex-col px-2 py-2 h-full min-h-[120px] transition-all duration-300 cursor-pointer overflow-hidden group bg-card rounded hover:bg-accent/5 hover:bg-blue-500/5 shadow-sm border border-transparent hover:border-gray-100">
                       {/* Blue Line */}
                       <div className="absolute top-0 left-0 h-[3px] bg-[#1a73e8] w-0 transition-all duration-300 ease-out group-hover:w-full"></div>

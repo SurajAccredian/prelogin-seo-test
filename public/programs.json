@@ -25,6 +25,17 @@
     "university_name": "IIM Lucknow",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
     "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "category": "human resource",
+    "start_date": "30 Aug 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program",
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "duration": "10 Months"
+  },
+  {
+    "university_name": "IIM Lucknow",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
     "category": "cxo leadership",
     "start_date": "30 Aug 2026",
     "status": "New Launch",
@@ -101,7 +112,7 @@
   {
     "university_name": "IIM Kashipur",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
-    "program_name": "Chief Operations Officer Program (The COO Program)",
+    "program_name": "Chief Operating Officer Program (The COO Program)",
     "category": "cxo leadership",
     "start_date": "30 Aug 2026",
     "status": "New Launch",
@@ -225,7 +236,7 @@
     "program_name": "Executive Program in Design Thinking & Innovation for Strategic Leadership",
     "category": "design thinking",
     "start_date": "28 Jun 2026",
-    "status": "New Launch",
+    "status": "admission closed",
     "url": "https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "duration": "6 Months"
@@ -236,7 +247,7 @@
     "program_name": "Professional Certificate Program in Strategic Project Management",
     "category": "project management",
     "start_date": "28 Jun 2026",
-    "status": "New Launch",
+    "status": "admission closed",
     "url": "https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management",
     "id": "iith-professional-certificate-program-in-strategic-project-management",
     "duration": "6 Months"
@@ -268,7 +279,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "08th Aug 2026",
+    "start_date": "22nd Sep 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
     "id": "executive-program-in-generative-ai-for-leaders",
@@ -279,7 +290,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
-    "start_date": "08th Aug 2026",
+    "start_date": "22nd Sep 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
     "id": "professional-certificate-in-applied-generative-ai",
@@ -445,7 +456,7 @@
     "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
     "category": "cxo leadership",
     "start_date": "22 Feb 2026",
-    "status": "Batch Coming Soon",
+    "status": "admission closed",
     "url": "https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program",
     "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
     "duration": "11 Months"
@@ -456,7 +467,7 @@
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
     "category": "cxo leadership",
     "start_date": "17 May 2025",
-    "status": "Batch Coming Soon",
+    "status": "admission closed",
     "url": "https://accredian.com/programs/chief-technology-officer-programme",
     "id": "chief-technology-officer-programme",
     "duration": "11 Months"
@@ -570,5 +581,25 @@
     "url": "https://accredian.com/programs/fintech-blockchain-program",
     "id": "fintech-blockchain-program",
     "duration": "11 Months"
+  },
+  {
+    "university_name": "Microsoft",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-logo.png",
+    "program_name": "Transform Business Workflows with Generative AI",
+    "category": "microsoft",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
+    "id": "transform-business-workflows-with-generative-ai",
+    "duration": "9 Hours"
+  },
+  {
+    "university_name": "Microsoft",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-logo.png",
+    "program_name": "Transform Business Workflows with Generative AI",
+    "category": "free courses",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
+    "id": "transform-business-workflows-with-generative-ai",
+    "duration": "9 Hours"
   }
 ]

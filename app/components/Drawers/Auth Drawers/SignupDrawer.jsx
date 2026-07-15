@@ -24,7 +24,9 @@ import {
   verifyEmail,
   verifyOtp,
   createUser,
+  enrollFreeCourseUser,
   generateUserLoginOtp,
+  fetchThinkificUrl,
 } from '../../../services/auth.service';
 import { createApplicationStepTracker } from '../../../services/program.service';
 import { encodeBase64 } from '../../../helpers/encodeTrackerId';
@@ -50,7 +52,7 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
   });
 
   const dispatch = useDispatch();
-  const { authType, redirectUrl, category } = useSelector(state => state.user);
+  const { authType, redirectUrl, category, isfreeCourse, program_id } = useSelector(state => state.user);
 
   const {
     register,
@@ -204,6 +206,74 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
         }
 
         dispatch(userActions.setAuthenticatedState(true));
+        if (isfreeCourse) {
+          // Standard signup succeeded, now enroll them in the free course
+          try {
+            const finalProgramId = program_id || localStorage.getItem('freeCourseProgram');
+            const finalCategoryId = localStorage.getItem('freeCourseCategory');
+            const finalBatchId = localStorage.getItem('freeCourseBatch');
+            const finalCourseTitle = localStorage.getItem('freeCourseTitle');
+
+            // if (!finalProgramId || !finalCategoryId || !finalBatchId || !finalCourseTitle) {
+            //   toast.error("Course configuration is missing. Please refresh the page and try again.", { position: "top-right" });
+            //   handleClose();
+            //   return;
+            // }
+
+            const user_id = myDecodedToken?.data?.user_id || myDecodedToken?.data?.id;
+            const firstname = myDecodedToken?.data?.firstname || 'Learner';
+            const lastname = myDecodedToken?.data?.userlastname || myDecodedToken?.data?.lastname || '';
+            const email = myDecodedToken?.data?.email;
+
+            if (!user_id || !email) {
+              toast.error("Invalid user profile details. Please try again.", { position: "top-right" });
+              handleClose();
+              return;
+            }
+
+            const enrollRes = await enrollFreeCourseUser({
+              user_id,
+              firstname,
+              lastname,
+              email,
+              program_id: finalProgramId,
+              category_id: finalCategoryId,
+              batch_id: finalBatchId,
+              course_name: finalCourseTitle,
+              dashboard_link: process.env.NEXT_PUBLIC_DASHBOARD_BASE_URL || "https://accredian.com",
+            });
+            if (enrollRes?.enrollmentDetails?.length > 0) {
+              localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
+              localStorage.setItem("enrollmentStatus", "true");
+            }
+          } catch (enrollErr) {
+            console.error("Failed to auto-enroll new user in drawer:", enrollErr);
+          }
+
+          let thinkificRedirectUrl = "";
+          try {
+            const email = myDecodedToken.data.email;
+            const firstname = myDecodedToken.data.firstname;
+            const lastname = myDecodedToken.data.lastname || '';
+            thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
+            if (thinkificRedirectUrl) {
+              localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
+            }
+          } catch (err) {
+            console.error("Failed to fetch Thinkific redirect URL:", err);
+            toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
+          }
+
+          // Open the dashboard in a new tab and close the drawer
+          setTimeout(() => {
+            if (thinkificRedirectUrl) {
+              window.open(thinkificRedirectUrl, "_blank");
+            }
+            window.location.reload();
+          }, 1000);
+          return;
+        }
+
         console.log(category)
         if (category) {
           const universityName = localStorage.getItem('university_shortName');

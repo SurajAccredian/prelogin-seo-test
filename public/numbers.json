@@ -14,6 +14,11 @@
     "contact": "8851827093"
   },
   {
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "contact": "8851827093"
+  },
+  {
     "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
     "program_name": "Professional Certificate Program in Strategic Project Management & Leadership",
     "contact": "9211285411"
@@ -257,5 +262,13 @@
     "id": "fintech-blockchain-program",
     "program_name": "Post Graduate Certificate in FinTech, Blockchain & Risk Management",
     "contact": "8826567425"
+  },
+  {
+    "id": "transform-business-workflows-with-generative-ai",
+    "program_name": "Transform Business Workflows with Generative AI"
+  },
+  {
+    "id": "transform-business-workflows-with-generative-ai",
+    "program_name": "Transform Business Workflows with Generative AI"
   }
 ]

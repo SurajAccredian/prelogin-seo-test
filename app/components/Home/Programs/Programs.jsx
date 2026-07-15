@@ -31,11 +31,14 @@ const UNIVERSITY_BACKGROUNDS = {
 
 // Popular program IDs
 const POPULAR_PROGRAM_IDS = [
-  "post-graduate-diploma-in-management-for-working-executives",
-  "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
-  "chief-financial-officer-programme",
-  "pg-certificate-in-strategic-project-management-and-leadership",
-  "chief-human-resource-officer-programme",
+  "transform-business-workflows-with-generative-ai",
+  "executive-program-in-generative-ai-for-leaders",
+  "professional-certificate-in-applied-generative-ai",
+  "iimv-executive-program-in-leadership-with-ai",
+  "sp-jain-executive-program-in-leadership-with-ai",
+  "global-senior-leadership-program",
+  "senior-management-program",
+  "iim-ranchi-senior-management-program",
 ];
 
 const Programs = () => {
@@ -389,15 +392,15 @@ export const ProgramCard = ({ program, handleOpen }) => {
         <div className="absolute inset-0 bg-gradient-to-br from-universal/60 to-universal/30" />
       </div>
 
-      {program.status && (
+      {(program.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
         <span
-          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md capitalize ${program.status.toLowerCase() === "admission closed" ||
-            program.status.toLowerCase() === "admissions closed"
-            ? "bg-red-500"
+          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${(program.status?.toLowerCase() === "admission closed" ||
+            program.status?.toLowerCase() === "admissions closed")
+            ? "bg-red-500 capitalize"
             : "bg-green-500"
-            }`}
+            } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
         >
-          {program.status}
+          {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : program.status}
         </span>
       )}
 

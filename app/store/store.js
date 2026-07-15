@@ -2,6 +2,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { programReducers } from "./reducers/program";
 import { userReducers } from "./reducers/user";
+import { freeCourseReducers } from "./reducers/freeCourse";
 
 const initialState = {
   user: {
@@ -24,12 +25,19 @@ const initialState = {
     trackerId: null,
     enrollLoderState: false,
   },
+  freeCourse: {
+    data: null,
+    state: "pending",
+    isEnrolled: false,
+    enrollLoader: false,
+  },
 };
 
 const store = configureStore({
   reducer: {
     program: programReducers,
     user: userReducers,
+    freeCourse: freeCourseReducers,
   },
   preloadedState: initialState,
 });

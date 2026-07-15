@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Grid, Typography, Button, Box, Container } from "@mui/material";
 import Link from "next/link";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
@@ -26,6 +27,9 @@ import FloatingChatWidget from "../bot/FloatingChatWidget";
 
 
 const Footer = () => {
+  const pathname = usePathname();
+  const isFreeCoursePage = pathname && pathname.includes("/free-courses/");
+  const isStickyBottomActive = pathname && (pathname.includes("/free-courses/") || pathname.includes("/programs/"));
   const [isOpen, setIsOpen] = useState(false);
   const [isChatBotOpen, setIsChatBotOpen] = useState(false);
   const [categorizedPrograms, setCategorizedPrograms] = useState([]);
@@ -842,7 +846,7 @@ const Footer = () => {
       </Box>
 
       {/* ✅ Custom Floating Action Button — replaces react-floating-button-menu */}
-      <div className="fixed bottom-6 right-6 z-[99] flex flex-col items-center gap-3">
+      <div className={`fixed right-6 z-[99] flex flex-col items-center gap-3 transition-all duration-300 ${isStickyBottomActive ? "bottom-[88px]" : "bottom-6"}`}>
         {/* Child buttons — slide up when open */}
         <div
           className="flex flex-col items-center gap-3 transition-all duration-300"

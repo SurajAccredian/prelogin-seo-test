@@ -76,7 +76,6 @@ const Certification = ({ data }) => {
               src={certification.free_badge.image || "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.png"}
               alt="Completion Badge Mockup"
             />
-            <span className="cert-badge-caption">Reference design &mdash; final artwork to be confirmed</span>
           </div>
 
           <ul>
@@ -107,7 +106,6 @@ const Certification = ({ data }) => {
               src={certification.paid_cert.image || "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.png"}
               alt="Official Certification Mockup"
             />
-            <span className="cert-badge-caption">Reference design &mdash; final certificate to be confirmed</span>
           </div>
 
           <ul>

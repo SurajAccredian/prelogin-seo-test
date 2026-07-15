@@ -252,9 +252,8 @@ function MasterForm() {
               <form onSubmit={handleSubmit(handleNext)}>
                 <div className="mb-4">
                   <input
-                    className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2 ${
-                      errors["name"] ? "border-rose-500 focus:border-rose-500" : "border-neutral-300 focus:border-blue-500"
-                    }`}
+                    className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2 ${errors["name"] ? "border-rose-500 focus:border-rose-500" : "border-neutral-300 focus:border-blue-500"
+                      }`}
                     {...register("name", { required: { value: true, message: "Name is required" } })}
                     id="name"
                     type="text"
@@ -269,9 +268,8 @@ function MasterForm() {
                   )}
 
                   <input
-                    className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2 ${
-                      errors["email"] ? "border-rose-500 focus:border-rose-500" : "border-neutral-300 focus:border-blue-500"
-                    }`}
+                    className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2 ${errors["email"] ? "border-rose-500 focus:border-rose-500" : "border-neutral-300 focus:border-blue-500"
+                      }`}
                     {...register("email", {
                       required: { value: true, message: "Email is required" },
                       pattern: {
@@ -328,13 +326,12 @@ function MasterForm() {
                     onChange={(e) => handleOtpChange(index, e.target.value)}
                     onKeyDown={(e) => handleKeyDown(index, e)}
                     maxLength="1"
-                    className={`w-1/6 p-3 font-semibold text-md border-2 mr-2 rounded-lg text-center outline-none transition pl-2 mt-2 ${
-                      digit.length === 0 ? "border-neutral-300" : "border-blue-500"
-                    } ${otpInvalid ? "border-rose-600 shake" : ""} ${otpVerified ? "border-green-600 shake" : ""}`}
+                    className={`w-1/6 p-3 font-semibold text-md border-2 mr-2 rounded-lg text-center outline-none transition pl-2 mt-2 ${digit.length === 0 ? "border-neutral-300" : "border-blue-500"
+                      } ${otpInvalid ? "border-rose-600 shake" : ""} ${otpVerified ? "border-green-600 shake" : ""}`}
                   />
                 ))}
               </div>
-              
+
               {otpInvalidMessage && (
                 <div className="text-red-500 text-[12px] w-full flex items-center gap-1 mt-1 pl-2">
                   <span className="mt-[-1px]"><IoWarning /></span>

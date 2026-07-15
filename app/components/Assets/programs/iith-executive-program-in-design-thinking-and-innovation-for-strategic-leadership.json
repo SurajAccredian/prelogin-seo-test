@@ -152,7 +152,7 @@
   "start_date": "13 June 2026",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/IITH-ECPDTISL-Program-v2.png",
   "description": "Embark on a 6 month learning journey in Applied Innovation, Experience Design & Strategic Leadership.",
-  "enrollments": "active",
+  "enrollments": "inactive",
   "short_title": "Design Thinking",
   "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "key_features": [

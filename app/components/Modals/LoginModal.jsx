@@ -21,6 +21,9 @@ import {
   verifyEmail,
   verifyOtp,
   verifyPassword,
+  enrollFreeCourseUser,
+  checkFreeCourseEnrollment,
+  fetchThinkificUrl,
 } from "../../services/auth.service";
 import {
   createApplicationStepTracker,
@@ -49,7 +52,7 @@ function LoginModal({ open }) {
   const [resetPasswordText, setResetPasswordText] = useState("");
   const dispatch = useDispatch();
 
-  const { authType, redirectUrl, category, loginType, authenticated } =
+  const { authType, redirectUrl, category, isfreeCourse, program_id, loginType, authenticated } =
     useSelector((state) => state.user);
   console.log("Category in Login Modal:", authType);
   useEffect(() => {
@@ -379,12 +382,103 @@ function LoginModal({ open }) {
     setOtp(["", "", "", ""]);
   };
 
+  const handleFreeCoursePostLogin = async (response, auth_type) => {
+    try {
+      const finalProgramId = program_id || localStorage.getItem('freeCourseProgram');
+      const finalCategoryId = localStorage.getItem('freeCourseCategory');
+      const finalBatchId = localStorage.getItem('freeCourseBatch');
+      const finalCourseTitle = localStorage.getItem('freeCourseTitle');
+
+      // if (!finalProgramId || !finalCategoryId || !finalBatchId || !finalCourseTitle) {
+      //   toast.error("Course configuration is missing. Please refresh the page and try again.", { position: "top-right" });
+      //   return;
+      // }
+
+      const myDecodedToken = decodeToken(response.token);
+      const user_id = myDecodedToken?.data?.user_id || myDecodedToken?.data?.id;
+      const firstname = myDecodedToken?.data?.firstname || 'Learner';
+      const lastname = myDecodedToken?.data?.userlastname || myDecodedToken?.data?.lastname || '';
+      const email = myDecodedToken?.data?.email;
+
+      if (!user_id || !email) {
+        toast.error("Invalid user profile details. Please try again.", { position: "top-right" });
+        return;
+      }
+
+      const statusRes = await checkFreeCourseEnrollment({
+        user_id,
+        program_id: finalProgramId,
+      });
+
+      if (statusRes?.enrolled && statusRes?.enrollmentDetails?.length > 0) {
+        localStorage.setItem("enrollment", JSON.stringify(statusRes.enrollmentDetails));
+        localStorage.setItem("enrollmentStatus", "true");
+
+        let thinkificRedirectUrl = "";
+        try {
+          thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
+          if (thinkificRedirectUrl) {
+            localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
+          }
+        } catch (err) {
+          console.error("Failed to fetch Thinkific redirect URL:", err);
+          toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
+        }
+
+        setTimeout(() => {
+          if (thinkificRedirectUrl) {
+            window.open(thinkificRedirectUrl, "_blank");
+          }
+          window.location.reload();
+        }, 1000);
+      } else {
+        const enrollRes = await enrollFreeCourseUser({
+          user_id,
+          firstname,
+          lastname,
+          email,
+          program_id: finalProgramId,
+          category_id: finalCategoryId,
+          batch_id: finalBatchId,
+          course_name: finalCourseTitle,
+          dashboard_link: process.env.NEXT_PUBLIC_DASHBOARD_BASE_URL || "https://accredian.com",
+        });
+
+        if (enrollRes?.enrollmentDetails?.length > 0) {
+          localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
+          localStorage.setItem("enrollmentStatus", "true");
+        }
+
+        let thinkificRedirectUrl = "";
+        try {
+          thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
+          if (thinkificRedirectUrl) {
+            localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
+          }
+        } catch (err) {
+          console.error("Failed to fetch Thinkific redirect URL:", err);
+          toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
+        }
+
+        setTimeout(() => {
+          if (thinkificRedirectUrl) {
+            window.open(thinkificRedirectUrl, "_blank");
+          }
+          window.location.reload();
+        }, 1000);
+      }
+    } catch (err) {
+      console.error("Failed to check/enroll user on login:", err);
+      toast.error("Failed to verify program enrollment. Please try again.", { position: "top-right" });
+    }
+  };
+
   // Function for setting the token in local storage
   const setLoginDetails = (response) => {
     console.log("Local storage response")
     console.log(response)
     setCookie("token", response.token, 12, "accredian.com");
-    // setCookie("token", response.token, 12, "localhost");
+    // setCookie("token", response.token, 12, "accredian.com");
     const myDecodedToken = decodeToken(response.token);
     const isMyTokenExpired = isExpired(response.token);
     // console.log(myDecodedToken);
@@ -462,6 +556,11 @@ function LoginModal({ open }) {
           window.clarity("set", "uid", String(userId));
         }
         dispatch(userActions.setAuthenticatedState(true));
+
+        if (isfreeCourse) {
+          handleFreeCoursePostLogin(response, auth_type);
+          return;
+        }
 
         // If the user is logging from the program page then using his cateogry we find out that his steptacker details if his step tracker exists then we redirect him to that portal or else we create it and then redirect him to that portal
         if (category) {
@@ -637,7 +736,7 @@ function LoginModal({ open }) {
           window.clarity("set", "user_type", "enrolled");
         }
         if (auth_type === "existingUser") {
-          // setCookie("token", response.token, 12, "localhost");
+          // setCookie("token", response.token, 12, "accredian.com");
           // const myDecodedToken = decodeToken(response.token);
           // const isMyTokenExpired = isExpired(response.token);
           // console.log(myDecodedToken);
@@ -664,6 +763,11 @@ function LoginModal({ open }) {
             // window.clarity("set", "app", "website");
             window.clarity("identify", String(userId));
             window.clarity("set", "uid", String(userId));
+          }
+
+          if (isfreeCourse) {
+            handleFreeCoursePostLogin(response, auth_type);
+            return;
           }
 
           // If the user is logging from the program page then using his cateogry we find out that his steptacker details if his step tracker exists then we redirect him to that portal or else we create it and then redirect him to that portal

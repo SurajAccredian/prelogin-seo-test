@@ -788,7 +788,7 @@ const Footer = () => {
                                     className="pb-2 text-gray-400"
                                   >
                                     <Link
-                                      href={`/programs/${program.id}`}
+                                      href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                                       prefetch={false}
                                       style={{ textDecoration: "none" }}
                                     >

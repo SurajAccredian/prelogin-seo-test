@@ -80,6 +80,7 @@ export default function AccodionMyAccount() {
     document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, "$1")
   );
   const [pgdmDashboardStatus, setPgdmDashboardStatus] = useState(false);
+  const [sections, setSections] = useState([]);
 
   useEffect(() => {
     if (!isCookie) {

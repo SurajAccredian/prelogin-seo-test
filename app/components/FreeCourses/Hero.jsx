@@ -147,7 +147,7 @@ const Hero = ({ data }) => {
 
         <div className="hero-visual">
           <img
-            src={data.hero_image || "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image.webp"}
+            src={data.hero_image || "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"}
             alt="Course Visual representation"
           />
         </div>

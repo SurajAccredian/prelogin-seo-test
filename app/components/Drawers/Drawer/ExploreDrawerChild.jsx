@@ -36,7 +36,13 @@ const ExploreDrawerChild = ({ innerIsOpen, innerOnClose, streamWithTab, handleCl
                 <div className='w-full flex flex-wrap mt-4 py-2 max-h-[70vh] px-1 overflow-y-scroll gap-4 custom-scrollbar'>
                   {categorizedPrograms &&
                     categorizedPrograms[streamWithTab.toLowerCase()]?.map((val, index) => (
-                      <a onClick={handleCloseAll} href={`/programs/${val.id}`} className='w-full' key={index} type='div'>
+                      <a
+                        onClick={handleCloseAll}
+                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
+                        className='w-full'
+                        key={index}
+                        type='div'
+                      >
                         <div className="relative flex flex-col px-6 py-4 w-full h-full transition-all duration-300 cursor-pointer overflow-hidden group bg-card rounded hover:bg-accent/5 hover:bg-blue-500/5">
                           {/* Blue Line */}
                           <div className="absolute top-0 left-0 h-[3px] bg-[#1a73e8] w-0 transition-all duration-300 ease-out group-hover:w-full"></div>

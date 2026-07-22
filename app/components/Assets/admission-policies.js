@@ -1640,5 +1640,303 @@ In the case of program discontinuation, affected students may transfer to other 
     </ol>
     These consequences serve to uphold the integrity of IIML, and ensure fair treatment of all applicants and enrolled students.
     `,
+  },
+  {
+    title: "IIM Ranchi",
+    tab: "iim-ranchi-policy",
+    body: `<h1>Registration Fees/ Application Fees</h1>
+    <ol>
+      <li>The registration fee is your seat reservation fee paid for the IIMR program. This fee is non-refundable and will get adjusted against the final fee payable by the student.</li>
+      <li>Students must confirm their admission within 5 days of paying the registration fee. To confirm their registration, they can either pay the full fee or make a partial payment.</li>
+      <li>If a student does not confirm their admission within 5 days, their seat will be released to another candidate, and the registration fee will be forfeited.</li>
+    </ol>
+    <h1>Basic Requirements</h1>
+    <p>
+      To ensure the best course experience, students should use a latest processor (i3/i5/i7) with a clock speed of 2.0GHz and have a minimum of 4GB RAM, though 8GB is recommended (applicable for technical courses).The students should ensure they have a high-speed uninterrupted internet connection to attend live sessions and access course resources without any hassle.
+    </p>
+    <h1>Class Timings & Schedule</h1>
+    <ol>
+      <li>Sessions will be conducted according to the schedule provided in advance to all participants before the commencement of each module. While the institution's sincere intention is to complete the entire course within the specified timeframe, unforeseen circumstances beyond its control may necessitate adjustments to the course schedule.</li>
+      <li>Although IIMR endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IIMR will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees.</li>
+    </ol>
+    <h1>Tools</h1>
+    <p>
+      Open-source tools will be utilized for teaching course topics. Premium tools will only be used if a trial version is available. Students can practice with the tool using the trial version, and neither Accredian nor IIMR will provide a subscription for the tool.
+    </p>
+    <h1>LMS Access: Duration and Limitations</h1>
+    <ol>
+      <li>The Learning Management System (LMS) serves as a comprehensive platform where students can access all program content and study materials.</li>
+      <li>It is designed to facilitate an engaging and interactive learning experience, enhancing understanding through various features.</li>
+      <li>Students will have access to the LMS and its content for up to 1 year post program completion.</li>
+      <li>This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter.</li>
+    </ol>
+    <p>Please note that lifetime access is <strong>not</strong> provided.</p>
+    <h1>Query Resolution</h1>
+    <ol>
+      <li>The daily operating hours for query resolution are from 10:00 AM to 7:00 PM, Monday through Saturday, with a turnaround time of 24-operating hours. While Accredian endeavors to resolve queries within the stipulated 24-hour window, occasional delays may occur due to high traffic.</li>
+      <li>Please note that Tuesdays are designated as the academic team's weekly day off, during which operations are suspended.</li>
+    </ol>
+    <h1>Student Loan Facility</h1>
+    <ol>
+      <li>In the event of any issues arising with loan/credit facilities availed by students from third-party providers such as EarlySalary, Eduvanz, Propelld, Avanse, etc., it is expected that the third-party loan provider and the student directly engage with each other to resolve any disputes. Neither Accredian nor IIMR should be held accountable for any issues that may arise with the loan partner.</li>
+      <li>The EMI plan agreed upon with the third-party loan provider will continue as per the terms discussed during the enrollment period with the third-party loan provider.</li>
+    </ol>
+    <h1>Faculty Allocation</h1>
+    <ol>
+      <li>All faculty members are highly experienced in their respective industries and have mastered their domains. Different faculties are assigned for different terms/modules, and the details will be communicated to students prior to the start of every module.</li>
+      <li>IIMR and Accredian hold the authority to change and assign the faculty members according to organizational needs, faculty availability, and program enhancements.</li>
+      <li>To protect intellectual property rights, course materials developed and shared by the faculty are not available for direct download. Students will still have access to these essential resources via the designated Learning Management System (LMS).</li>
+    </ol>
+    <h1>Issuance of Certificate</h1>
+    <p>
+      Certificates from IIMR will be issued only in the name of the student who has enrolled in the program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.
+    </p>
+    <h1>Refund Policy</h1>
+    <ol>
+      <li>Students may request a refund up to the cut-off date specified for the programme. The cut-off date shall be at least 14 days prior to batch inauguration.</li>
+      <li>Refund requests received before the cut-off date will be processed after deduction of a refund processing fee of INR 5,000. Applicable taxes paid at the time of enrolment are non-refundable.</li>
+      <li>In the event of cancellation of the programme, students will receive a full refund of the programme fee, including applicable taxes.</li>
+      <li>If the commencement of the programme is postponed by more than one month from the originally announced start date, students may request a full refund, including applicable taxes.</li>
+      <li>Refund requests received after the cut-off date but before commencement of the programme may be considered on a case-by-case basis. If approved, a deduction of 40% of the academic fee will apply. Applicable taxes are non-refundable.</li>
+      <li>No refund requests will be entertained after commencement of the programme.</li>
+      <li>Approved refunds will be processed within 14 business days from the date of approval.</li>
+    </ol>
+    <h1>Deferment Policy</h1>
+    <ol>
+      <li>Students may request deferment to a subsequent batch or another eligible programme, subject to approval, by submitting the request at least 15 working days prior to batch inauguration.</li>
+      <li>Approved deferment requests before batch inauguration will require payment of an administrative fee of INR 5,000 + applicable GST.</li>
+      <li>Requests for deferment after commencement of the programme will require re-registration upon payment of a re-registration fee of INR 25,000 + applicable GST.</li>
+      <li>Fees already paid will be adjusted against the deferred batch or approved alternate programme, subject to applicable programme fee differences, if any.</li>
+    </ol>
+    <h1>Discontinuation Policy</h1>
+    <ol>
+      <li>Accredian reserves the right to discontinue any program at any time at its discretion, based on factors such as adherence to market standards, affiliations with third-party institutes, and program viability. Advanced notice of program discontinuation will be communicated to all relevant stakeholders, including faculty and students, in accordance with IIMR's policy.</li>
+      <li>In the case of program discontinuation, affected students may transfer to other available programs within Accredian's and IIMR’s portfolio, subject to feasibility and any necessary fee adjustments. In the event that this cannot be done, further measures will be taken according to IIMR's policy on an individual basis.</li>
+      <li>Accredian and IIM Ranchi reserve the right to cancel or terminate a participant’s enrolment at any stage of the program without prior notice on grounds including, but not limited to, misconduct, non-compliance with program policies, violation of the program’s terms and conditions, failure to meet academic requirements, disruption of the learning environment, persistent misalignment with program objectives, or any conduct deemed detrimental to the interests of the program, its faculty, or fellow participants. In such instances, any fees paid shall be non-refundable and will stand forfeited.</li>
+    </ol>
+    <h1>Accredian’s Intellectual Property Rights</h1>
+    <ol>
+      <li>All information and data shared with Accredian's product users are considered content, encompassing pre-reads, presentations, post-reads, session recordings, videos, graphics, interactive materials, and other materials.</li>
+      <li>The programs and all related services provided are owned and operated by Accredian and its licensors. The content available on the platform for every program, including videos, quizzes, assignments, case studies, presentations, readings, projects, activities, illustrations, graphics, and all other resources, belong to Accredian and/or its affiliates or licensors. They are protected by the copyright and other proprietary intellectual property rights under the applicable laws.</li>
+      <li>Additionally, elements of the website, platform, program, and Accredian’s content are protected under the applicable laws. They may not be copied, downloaded, reproduced, shared, or distributed in any way, whole or in part, without written consent from Accredian. Accredian reserves the right to make downloadable content available at its discretion.</li>
+      <li>Users accessing the platform and program resources agree not to: (a) Reproduce, duplicate, copy, sell, or exploit for any commercial purpose; (b) use Accredian’s name, trademarks, service marks, content, or any other material in connection with, or to transmit, any unsolicited communications or emails or for any other unauthorized purpose.</li>
+    </ol>
+    <h1>Third-Party Intellectual Property</h1>
+    <ol>
+      <li>Accredian respects third-party intellectual property rights, including copyrights and trademarks, and actively supports their protections. Accredian is committed to promptly addressing notices of alleged intellectual property (IP) infringement. Upon receiving proper notification of such infringement, Accredian's response will involve swiftly removing or disabling access to the material that is claimed to be infringing.</li>
+      <li>Accredian shall not be held liable for the unauthorized use of any third-party IP by the users. The users who engage in such unauthorized use or infringe any IP available on the Platform shall fully indemnify and hold Accredian harmless against any and all claims that may arise as a result of such use.</li>
+      <li>If a user believes that their product or other work has been misrepresented or used in a way that constitutes copyright infringement, or their intellectual property rights have been otherwise violated, they should provide Accredian with the following information:
+        <ol style="list-style-type: lower-alpha;">
+          <li>An electronic or physical signature of the person duly authorized to act on behalf of the owner of the product, work, or other intellectual property,</li>
+          <li>A description of the product, work, or other intellectual property that they claim has been misrepresented or infringed.</li>
+          <li>A detailed description of the location on the Platform/Program where the material they claim is misrepresenting or infringing their product, work, or other intellectual property can be found.</li>
+          <li>Contact details including address, telephone number, and email address.</li>
+          <li>A statement by them that they have a good faith belief that the disputed use is not authorized by the owner of the product, work, copyright, or intellectual property, or its agent, or applicable law; and</li>
+          <li>A statement by them, made under the penalty of perjury, that the aforementioned information in their notice is accurate and that they are the product, work, copyright, or intellectual property owner or authorized to act on such owner's behalf.</li>
+        </ol>
+      </li>
+    </ol>
+    <h1>Falsification and Omission of Information</h1>
+    <ol>
+      <li>Rejection of Application: Failure to provide accurate information regarding students' education qualifications and/or personal details shall result in the immediate rejection of the enrollment application, with no refund of the application fee.</li>
+      <li>Termination of Enrollment: Should any inaccuracies or omissions in students' educational qualifications or personal details be discovered at any point before, during, or after the enrollment process, IIMR reserves the right to terminate enrollment. Under these circumstances, no refunds for application or program fees will be issued. This termination will lead to the revocation of academic and course privileges, as well as access to the LMS, course materials, and any other benefits or resources.</li>
+      <li>Cancellation of Certificates or Degrees: In cases where falsification or omission of provided information is discovered, IIMR reserves the right to revoke any earned marks, certificates or degrees.</li>
+      <li>Blacklisting: Individuals found to have engaged in dishonest practices, including falsification or omission of information before, during, or after the enrollment process, may be blacklisted. This action prevents them from future enrollment or employment opportunities within IIMR.</li>
+    </ol>
+    <p>These consequences serve to uphold the integrity of IIMR, and ensure fair treatment of all applicants and enrolled students.</p>`
+  },
+  {
+    title: "IIM Amritsar",
+    tab: "iim-amritsar-policy",
+    body: `<h1>Registration Fees/ Application Fees</h1>
+    <ol>
+      <li>The registration fee is your seat reservation fee paid for the IIM Amritsar program. This fee is non-refundable and will get adjusted against the final fee payable by the student.</li>
+      <li>Students must confirm their admission within 5 days of paying the registration fee. To confirm their registration, they can either pay the full fee or make a partial payment.</li>
+      <li>If a student does not confirm their admission within 5 days, their seat will be released to another candidate, and the registration fee will be forfeited.</li>
+    </ol>
+    <h1>Basic Requirements</h1>
+    <p>
+      To ensure the best course experience, students should use a latest processor (i3/i5/i7) with a clock speed of 2.0GHz and have a minimum of 4GB RAM, though 8GB is recommended (applicable for technical courses).The students should ensure they have a high-speed uninterrupted internet connection to attend live sessions and access course resources without any hassle.
+    </p>
+    <h1>Class Timings & Schedule</h1>
+    <ol>
+      <li>Sessions will be conducted according to the schedule provided in advance to all participants before the commencement of each module. While the institution's sincere intention is to complete the entire course within the specified timeframe, unforeseen circumstances beyond its control may necessitate adjustments to the course schedule.</li>
+      <li>Although IIM Amritsar endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IIM Amritsar will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees.</li>
+    </ol>
+    <h1>Tools</h1>
+    <p>
+      Open-source tools will be utilized for teaching course topics. Premium tools will only be used if a trial version is available. Students can practice with the tool using the trial version, and neither Accredian nor IIM Amritsar will provide a subscription for the tool.
+    </p>
+    <h1>LMS Access: Duration and Limitations</h1>
+    <ol>
+      <li>The Learning Management System (LMS) serves as a comprehensive platform where students can access all program content and study materials.</li>
+      <li>It is designed to facilitate an engaging and interactive learning experience, enhancing understanding through various features.</li>
+      <li>Students will have access to the LMS and its content for up to 3 years from the batch start date.</li>
+      <li>This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter.</li>
+    </ol>
+    <p>Please note that lifetime access is <strong>not</strong> provided.</p>
+    <h1>Query resolution</h1>
+    <ol>
+      <li>The daily operating hours for query resolution are from 10:00 AM to 7:00 PM, Monday through Saturday, with a turnaround time of 24-operating hours. While Accredian endeavors to resolve queries within the stipulated 24-hour window, occasional delays may occur due to high traffic.</li>
+      <li>Please note that Tuesdays are designated as the academic team's weekly day off, during which operations are suspended.</li>
+    </ol>
+    <h1>Student Loan Facility</h1>
+    <ol>
+      <li>In the event of any issues arising with loan/credit facilities availed by students from third-party providers such as EarlySalary, Eduvanz, Propelld, Avanse, etc., it is expected that the third-party loan provider and the student directly engage with each other to resolve any disputes. Neither Accredian nor IIM Amritsar should be held accountable for any issues that may arise with the loan partner.</li>
+      <li>The EMI plan agreed upon with the third-party loan provider will continue as per the terms discussed during the enrollment period with the third-party loan provider.</li>
+    </ol>
+    <h1>Faculty Allocation</h1>
+    <ol>
+      <li>All faculty members are highly experienced in their respective industries and have mastered their domains. Different faculties are assigned for different terms/modules, and the details will be communicated to students prior to the start of every module.</li>
+      <li>IIM Amritsar and Accredian hold the authority to change and assign the faculty members according to organizational needs, faculty availability, and program enhancements.</li>
+      <li>To protect intellectual property rights, course materials developed and shared by the faculty are not available for direct download. Students will still have access to these essential resources via the designated Learning Management System (LMS).</li>
+    </ol>
+    <h1>Issuance of Certificate</h1>
+    <p>
+      Certificates from IIM Amritsar will be issued only in the name of the student who has enrolled in the program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.
+    </p>
+    <h1>Refund Policy</h1>
+    <p>Please note the following refund terms applicable to the program:</p>
+    <ol>
+      <li><strong>Application Fee:</strong> The application fee is <strong>non-refundable</strong> under all circumstances.</li>
+      <li><strong>Refund Requests Before Program Commencement:</strong> If you wish to withdraw from the program and request a refund, you must submit a written request to the program office <strong>at least seven (7) days prior to the program commencement date</strong>.</li>
+      <li><strong>No Refund After Program Inauguration:</strong> Once the program has been inaugurated, <strong>no refund requests will be entertained or processed</strong>, irrespective of the reason for withdrawal.</li>
+      <li>Participants are advised to carefully evaluate the suitability of the program before completing their enrollment and making the fee payment.</li>
+      <li>Approved refunds will be processed within 14 business days from the date of approval.</li>
+    </ol>
+    <h1>Discontinuation Policy</h1>
+    <ol>
+      <li>Accredian reserves the right to discontinue any program at any time at its discretion, based on factors such as adherence to market standards, affiliations with third-party institutes, and program viability. Advanced notice of program discontinuation will be communicated to all relevant stakeholders, including faculty and students, in accordance with IIM Amritsar's policy.</li>
+      <li>In the case of program discontinuation, affected students may transfer to other available programs within Accredian's and IIM Amritsar’s portfolio, subject to feasibility and any necessary fee adjustments. In the event that this cannot be done, further measures will be taken according to IIM Amritsar's policy on an individual basis.</li>
+      <li>Accredian and IIM Amritsar reserve the right to cancel or terminate a participant’s enrolment at any stage of the program without prior notice on grounds including, but not limited to, misconduct, non-compliance with program policies, violation of the program’s terms and conditions, failure to meet academic requirements, disruption of the learning environment, persistent misalignment with program objectives, or any conduct deemed detrimental to the interests of the program, its faculty, or fellow participants. In such instances, any fees paid shall be non-refundable and will stand forfeited.</li>
+    </ol>
+    <h1>Accredian’s Intellectual Property Rights</h1>
+    <ol>
+      <li>All information and data shared with Accredian's product users are considered content, encompassing pre-reads, presentations, post-reads, session recordings, videos, graphics, interactive materials, and other materials.</li>
+      <li>The programs and all related services provided are owned and operated by Accredian and its licensors. The content available on the platform for every program, including videos, quizzes, assignments, case studies, presentations, readings, projects, activities, illustrations, graphics, and all other resources, belong to Accredian and/or its affiliates or licensors. They are protected by the copyright and other proprietary intellectual property rights under the applicable laws.</li>
+      <li>Additionally, elements of the website, platform, program, and Accredian’s content are protected under the applicable laws. They may not be copied, downloaded, reproduced, shared, or distributed in any way, whole or in part, without written consent from Accredian. Accredian reserves the right to make downloadable content available at its discretion.</li>
+      <li>Users accessing the platform and program resources agree not to: (a) Reproduce, duplicate, copy, sell, or exploit for any commercial purpose; (b) use Accredian’s name, trademarks, service marks, content, or any other material in connection with, or to transmit, any unsolicited communications or emails or for any other unauthorized purpose.</li>
+    </ol>
+    <h1>Third- Party Intellectual property</h1>
+    <ol>
+      <li>Accredian respects third-party intellectual property rights, including copyrights and trademarks, and actively supports their protections. Accredian is committed to promptly addressing notices of alleged intellectual property (IP) infringement. Upon receiving proper notification of such infringement, Accredian's response will involve swiftly removing or disabling access to the material that is claimed to be infringing.</li>
+      <li>Accredian shall not be held liable for the unauthorized use of any third-party IP by the users. The users who engage in such unauthorized use or infringe any IP available on the Platform shall fully indemnify and hold Accredian harmless against any and all claims that may arise as a result of such use.</li>
+      <li>If a user believes that their product or other work has been misrepresented or used in a way that constitutes copyright infringement, or their intellectual property rights have been otherwise violated, they should provide Accredian with the following information:
+        <ol style="list-style-type: lower-alpha;">
+          <li>An electronic or physical signature of the person duly authorized to act on behalf of the owner of the product, work, or other intellectual property,</li>
+          <li>A description of the product, work, or other intellectual property that they claim has been misrepresented or infringed.</li>
+          <li>A detailed description of the location on the Platform/Program where the material they claim is misrepresenting or infringing their product, work, or other intellectual property can be found.</li>
+          <li>Contact details including address, telephone number, and email address.</li>
+          <li>A statement by them that they have a good faith belief that the disputed use is not authorized by the owner of the product, work, copyright, or intellectual property, or its agent, or applicable law; and</li>
+          <li>A statement by them, made under the penalty of perjury, that the aforementioned information in their notice is accurate and that they are the product, work, copyright, or intellectual property owner or authorized to act on such owner's behalf.</li>
+        </ol>
+      </li>
+    </ol>
+    <h1>Falsification and Omission of Information</h1>
+    <ol>
+      <li>Rejection of Application: Failure to provide accurate information regarding students' education qualifications and/or personal details shall result in the immediate rejection of the enrollment application, with no refund of the application fee.</li>
+      <li>Termination of Enrollment: Should any inaccuracies or omissions in students' educational qualifications or personal details be discovered at any point before, during, or after the enrollment process, IIM Amritsar reserves the right to terminate enrollment. Under these circumstances, no refunds for application or program fees will be issued. This termination will lead to the revocation of academic and course privileges, as well as access to the LMS, course materials, and any other benefits or resources.</li>
+      <li>Cancellation of Certificates or Degrees: In cases where falsification or omission of provided information is discovered, IIM Amritsar reserves the right to revoke any earned marks, certificates or degrees.</li>
+      <li>Blacklisting: Individuals found to have engaged in dishonest practices, including falsification or omission of information before, during, or after the enrollment process, may be blacklisted. This action prevents them from future enrollment or employment opportunities within IIM Amritsar.</li>
+    </ol>
+    <p>These consequences serve to uphold the integrity of IIM Amritsar, and ensure fair treatment of all applicants and enrolled students.</p>`
+  },
+  {
+    title: "IIT Jammu",
+    tab: "iit-jammu-policy",
+    body: `<h1>Registration Fees/ Application Fees</h1>
+    <ol>
+      <li>The registration fee is your seat reservation fee paid for the IITJ program. This fee is non-refundable and will get adjusted against the final fee payable by the student.</li>
+      <li>Students must confirm their admission within 5 days of paying the registration fee. To confirm their registration, they can either pay the full fee or make a partial payment.</li>
+      <li>If a student does not confirm their admission within 5 days, their seat will be released to another candidate, and the registration fee will be forfeited.</li>
+    </ol>
+    <h1>Basic Requirements</h1>
+    <p>
+      To ensure the best course experience, students should use a latest processor (i3/i5/i7) with a clock speed of 2.0GHz and have a minimum of 4GB RAM, though 8GB is recommended (applicable for technical courses).The students should ensure they have a high-speed uninterrupted internet connection to attend live sessions and access course resources without any hassle.
+    </p>
+    <h1>Class Timings & Schedule</h1>
+    <ol>
+      <li>Sessions will be conducted according to the schedule provided in advance to all participants before the commencement of each module. While the institution's sincere intention is to complete the entire course within the specified timeframe, unforeseen circumstances beyond its control may necessitate adjustments to the course schedule.</li>
+      <li>Although IITJ endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IITJ will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees.</li>
+    </ol>
+    <h1>Tools</h1>
+    <p>
+      Open-source tools will be utilized for teaching course topics. Premium tools will only be used if a trial version is available. Students can practice with the tool using the trial version, and neither Accredian nor IITJ will provide a subscription for the tool.
+    </p>
+    <h1>LMS Access: Duration and Limitations</h1>
+    <ol>
+      <li>The Learning Management System (LMS) serves as a comprehensive platform where students can access all program content and study materials.</li>
+      <li>It is designed to facilitate an engaging and interactive learning experience, enhancing understanding through various features.</li>
+      <li>Students will have access to the LMS and its content for up to 3 years from the batch start date.</li>
+      <li>This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter.</li>
+    </ol>
+    <p>Please note that lifetime access is <strong>not</strong> provided.</p>
+    <h1>Query resolution</h1>
+    <ol>
+      <li>The daily operating hours for query resolution are from 10:00 AM to 7:00 PM, Monday through Saturday, with a turnaround time of 24-operating hours. While Accredian endeavors to resolve queries within the stipulated 24-hour window, occasional delays may occur due to high traffic.</li>
+      <li>Please note that Tuesdays are designated as the academic team's weekly day off, during which operations are suspended.</li>
+    </ol>
+    <h1>Student Loan Facility</h1>
+    <ol>
+      <li>In the event of any issues arising with loan/credit facilities availed by students from third-party providers such as EarlySalary, Eduvanz, Propelld, Avanse, etc., it is expected that the third-party loan provider and the student directly engage with each other to resolve any disputes. Neither Accredian nor IITJ should be held accountable for any issues that may arise with the loan partner.</li>
+      <li>The EMI plan agreed upon with the third-party loan provider will continue as per the terms discussed during the enrollment period with the third-party loan provider.</li>
+    </ol>
+    <h1>Faculty Allocation</h1>
+    <ol>
+      <li>All faculty members are highly experienced in their respective industries and have mastered their domains. Different faculties are assigned for different terms/modules, and the details will be communicated to students prior to the start of every module.</li>
+      <li>IITJ and Accredian hold the authority to change and assign the faculty members according to organizational needs, faculty availability, and program enhancements.</li>
+      <li>To protect intellectual property rights, course materials developed and shared by the faculty are not available for direct download. Students will still have access to these essential resources via the designated Learning Management System (LMS).</li>
+    </ol>
+    <h1>Issuance of Certificate</h1>
+    <p>
+      Certificates from IITJ will be issued only in the name of the student who has enrolled in the program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.
+    </p>
+    <h1>Refund Policy</h1>
+    <p>One notable feature of the program is that participants are provided with a defined refund window before the commencement of the batch, allowing them to reassess the suitability of the program based on their career goals and professional aspirations. The refund policy is as follows:</p>
+    <ol>
+      <li><strong>Registration/Application Fee:</strong> The registration/application fee serves as a seat reservation fee and is strictly <strong>non-refundable</strong> under all circumstances. However, if admission is confirmed within <strong>5 days</strong> of payment, the registration fee will be adjusted against the total program fee. If admission is not confirmed within this 5-day period, the reserved seat will be released, and the registration fee will be forfeited.</li>
+      <li><strong>Refund Before the Cut-off Date:</strong> Participants may request to withdraw from the program and seek a refund up to the specified cut-off date, which is <strong>at least 14 days prior to the batch inauguration</strong>. Approved refund requests submitted within this period will be processed after deducting a <strong>processing fee of INR 5,000</strong>. All applicable taxes paid at the time of enrollment are <strong>non-refundable</strong>.</li>
+      <li><strong>Refund Requests After the Cut-off Date:</strong> Refund requests submitted after the cut-off date but before the official commencement of the program may be considered on a <strong>case-by-case basis</strong>. If approved, a deduction of <strong>40% of the academic fee</strong> will apply. Applicable taxes paid at the time of enrollment will remain <strong>non-refundable</strong>.</li>
+      <li><strong>No Refund After Program Commencement:</strong> Once the program has commenced, <strong>no refund requests will be entertained or processed</strong>, irrespective of the reason for withdrawal.</li>
+      <li><strong>Exceptional Circumstances:</strong> In the event that the institute cancels the program or postpones the commencement of the program by <strong>more than one month</strong> from the originally scheduled start date, participants may request a <strong>full refund</strong>, including all applicable taxes paid.</li>
+      <li><strong>Refund Processing Timeline:</strong> All approved refund requests will be processed within <strong>14 business days</strong> from the official date of approval.</li>
+    </ol>
+    <p>It is the sole responsibility of the participant enrolling in the program to carefully review the program details and evaluate its suitability before completing the enrollment process.</p>
+    <h1>Discontinuation Policy</h1>
+    <ol>
+      <li>Accredian reserves the right to discontinue any program at any time at its discretion, based on factors such as adherence to market standards, affiliations with third-party institutes, and program viability. Advanced notice of program discontinuation will be communicated to all relevant stakeholders, including faculty and students, in accordance with IITJ's policy.</li>
+      <li>In the case of program discontinuation, affected students may transfer to other available programs within Accredian's and IITJ’s portfolio, subject to feasibility and any necessary fee adjustments. In the event that this cannot be done, further measures will be taken according to IITJ's policy on an individual basis.</li>
+      <li>Accredian and IIT Jammu reserve the right to cancel or terminate a participant’s enrolment at any stage of the program without prior notice on grounds including, but not limited to, misconduct, non-compliance with program policies, violation of the program’s terms and conditions, failure to meet academic requirements, disruption of the learning environment, persistent misalignment with program objectives, or any conduct deemed detrimental to the interests of the program, its faculty, or fellow participants. In such instances, any fees paid shall be non-refundable and will stand forfeited.</li>
+    </ol>
+    <h1>Accredian’s Intellectual Property Rights</h1>
+    <ol>
+      <li>All information and data shared with Accredian's product users are considered content, encompassing pre-reads, presentations, post-reads, session recordings, videos, graphics, interactive materials, and other materials.</li>
+      <li>The programs and all related services provided are owned and operated by Accredian and its licensors. The content available on the platform for every program, including videos, quizzes, assignments, case studies, presentations, readings, projects, activities, illustrations, graphics, and all other resources, belong to Accredian and/or its affiliates or licensors. They are protected by the copyright and other proprietary intellectual property rights under the applicable laws.</li>
+      <li>Additionally, elements of the website, platform, program, and Accredian’s content are protected under the applicable laws. They may not be copied, downloaded, reproduced, shared, or distributed in any way, whole or in part, without written consent from Accredian. Accredian reserves the right to make downloadable content available at its discretion.</li>
+      <li>Users accessing the platform and program resources agree not to: (a) Reproduce, duplicate, copy, sell, or exploit for any commercial purpose; (b) use Accredian’s name, trademarks, service marks, content, or any other material in connection with, or to transmit, any unsolicited communications or emails or for any other unauthorized purpose.</li>
+    </ol>
+    <h1>Third- Party Intellectual property</h1>
+    <ol>
+      <li>Accredian respects third-party intellectual property rights, including copyrights and trademarks, and actively supports their protections. Accredian is committed to promptly addressing notices of alleged intellectual property (IP) infringement. Upon receiving proper notification of such infringement, Accredian's response will involve swiftly removing or disabling access to the material that is claimed to be infringing.</li>
+      <li>Accredian shall not be held liable for the unauthorized use of any third-party IP by the users. The users who engage in such unauthorized use or infringe any IP available on the Platform shall fully indemnify and hold Accredian harmless against any and all claims that may arise as a result of such use.</li>
+      <li>If a user believes that their product or other work has been misrepresented or used in a way that constitutes copyright infringement, or their intellectual property rights have been otherwise violated, they should provide Accredian with the following information:
+        <ol style="list-style-type: lower-alpha;">
+          <li>An electronic or physical signature of the person duly authorized to act on behalf of the owner of the product, work, or other intellectual property,</li>
+          <li>A description of the product, work, or other intellectual property that they claim has been misrepresented or infringed.</li>
+          <li>A detailed description of the location on the Platform/Program where the material they claim is misrepresenting or infringing their product, work, or other intellectual property can be found.</li>
+          <li>Contact details including address, telephone number, and email address.</li>
+          <li>A statement by them that they have a good faith belief that the disputed use is not authorized by the owner of the product, work, copyright, or intellectual property, or its agent, or applicable law; and</li>
+          <li>A statement by them, made under the penalty of perjury, that the aforementioned information in their notice is accurate and that they are the product, work, copyright, or intellectual property owner or authorized to act on such owner's behalf.</li>
+        </ol>
+      </li>
+    </ol>
+    <h1>Falsification and Omission of Information</h1>
+    <ol>
+      <li>Rejection of Application: Failure to provide accurate information regarding students' education qualifications and/or personal details shall result in the immediate rejection of the enrollment application, with no refund of the application fee.</li>
+      <li>Termination of Enrollment: Should any inaccuracies or omissions in students' educational qualifications or personal details be discovered at any point before, during, or after the enrollment process, IITJ reserves the right to terminate enrollment. Under these circumstances, no refunds for application or program fees will be issued. This termination will lead to the revocation of academic and course privileges, as well as access to the LMS, course materials, and any other benefits or resources.</li>
+      <li>Cancellation of Certificates or Degrees: In cases where falsification or omission of provided information is discovered, IITJ reserves the right to revoke any earned marks, certificates or degrees.</li>
+      <li>Blacklisting: Individuals found to have engaged in dishonest practices, including falsification or omission of information before, during, or after the enrollment process, may be blacklisted. This action prevents them from future enrollment or employment opportunities within IITJ.</li>
+    </ol>
+    <p>These consequences serve to uphold the integrity of IITJ, and ensure fair treatment of all applicants and enrolled students.</p>`
   }
 ];

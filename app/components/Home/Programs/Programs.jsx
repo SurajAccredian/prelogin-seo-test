@@ -77,6 +77,9 @@ const Programs = () => {
       new Map(filtered.map((program) => [program.id, program])).values(),
     );
 
+    // Sort by order of POPULAR_PROGRAM_IDS
+    unique.sort((a, b) => POPULAR_PROGRAM_IDS.indexOf(a.id) - POPULAR_PROGRAM_IDS.indexOf(b.id));
+
     return unique;
   };
 
@@ -442,9 +445,14 @@ export const ProgramCard = ({ program, handleOpen }) => {
         {/* Buttons - pushed to bottom */}
         <div className="flex flex-col md:flex-row gap-2 sm:gap-3 mt-auto">
           <button
-            onClick={() =>
-              window.open(`http://accredian.com/programs/${program.id}`)
-            }
+            onClick={() => {
+              const isFreeCourse =
+                program.category?.toLowerCase() === "free courses" ||
+                program.category?.toLowerCase() === "microsoft" ||
+                program.id === "transform-business-workflows-with-generative-ai";
+              const path = isFreeCourse ? "free-courses" : "programs";
+              window.open(`http://accredian.com/${path}/${program.id}`);
+            }}
             className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide"
           >
             <span className="text-[12px]">Explore</span>

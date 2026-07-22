@@ -54,7 +54,7 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen }) => {
         </div>
 
         <div className="flex items-center w-full gap-2 mt-4">
-          <Link href={`/programs/${program.id}`} className="px-2 py-2.5 flex-1 text-sm font-semibold border border-neutral-300 rounded-lg text-center">
+          <Link href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`} className="px-2 py-2.5 flex-1 text-sm font-semibold border border-neutral-300 rounded-lg text-center">
             View Program
           </Link>
           <button

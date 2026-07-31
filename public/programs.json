@@ -1,5 +1,16 @@
 [
   {
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
+    "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
+    "category": "design thinking",
+    "start_date": "27 Sep 2026",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/advanced-certificate-program-in-design-thinking-innovation-with-ai",
+    "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+    "duration": "5 Months"
+  },
+  {
     "university_name": "IIM Lucknow",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
     "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",

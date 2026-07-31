@@ -1,6 +1,38 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
+    "duration": "5 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
+    "batch_type": "Online",
+    "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+    "category": "design thinking",
+    "tags": [
+      "online",
+      "Instructor Led",
+      "new launch"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-In-Design-Thinking-Innovation-With-AI.pdf",
+      "source": "IITK Professional Certificate Program in Design Thinking Brochure",
+      "campaign_name": "IITK-Design Thinking"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "27 Sep 2026",
+    "contact": "9211285411"
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
     "university_name": "IIM Lucknow",
     "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
@@ -69,7 +101,11 @@
     "batch_type": "Online",
     "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
     "category": "human resource",
-    "tags": ["online", "Instructor Led", "new launch"],
+    "tags": [
+      "online",
+      "Instructor Led",
+      "new launch"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
@@ -97,7 +133,11 @@
     "batch_type": "Online",
     "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
     "category": "cxo leadership",
-    "tags": ["online", "Instructor Led", "new launch"],
+    "tags": [
+      "online",
+      "Instructor Led",
+      "new launch"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
@@ -305,7 +345,12 @@
     "batch_type": "Online",
     "id": "iim-kashipur-chief-operating-officer-program",
     "category": "cxo leadership",
-    "tags": ["New Launch", "Instructor led", "Online", "Best Selling"],
+    "tags": [
+      "New Launch",
+      "Instructor led",
+      "Online",
+      "Best Selling"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
@@ -428,7 +473,6 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988"
   },
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
@@ -466,7 +510,6 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988"
   },
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
@@ -504,7 +547,6 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988"
   },
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
@@ -579,7 +621,6 @@
     "start_date": "21st Jun 2026",
     "contact": "9358719988"
   },
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
@@ -774,7 +815,6 @@
     "start_date": "30 May 2026",
     "contact": "9810184424"
   },
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
@@ -1013,7 +1053,6 @@
     "start_date": "9 May 2026",
     "contact": "7678385465"
   },
-
   {
     "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
@@ -1452,7 +1491,12 @@
     "batch_type": "Online",
     "id": "global-senior-leadership-program",
     "category": "senior management",
-    "tags": ["Global Market Strategy", "Finance", "Operations", "HR Strategy"],
+    "tags": [
+      "Global Market Strategy",
+      "Finance",
+      "Operations",
+      "HR Strategy"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Global-Senior-Leadership-Program.pdf",
@@ -1480,7 +1524,9 @@
     "batch_type": "Online",
     "id": "executive-program-in-business-management",
     "category": "business management",
-    "tags": ["Management, Strategic Thinking, Leadership"],
+    "tags": [
+      "Management, Strategic Thinking, Leadership"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-21.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Business-Management.pdf",
@@ -1576,7 +1622,11 @@
     "batch_type": "Online",
     "id": "chief-financial-officer-programme",
     "category": "finance",
-    "tags": ["FinTech Ecosystem", "Lending Technology", "Blockchain & Crypto"],
+    "tags": [
+      "FinTech Ecosystem",
+      "Lending Technology",
+      "Blockchain & Crypto"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-21.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Financial-Officer-Programme.pdf",
@@ -1640,7 +1690,11 @@
     "batch_type": "Online",
     "id": "pg-certificate-program-in-investment-banking",
     "category": "finance",
-    "tags": ["FinTech Ecosystem", "Lending Technology", "Blockchain & Crypto"],
+    "tags": [
+      "FinTech Ecosystem",
+      "Lending Technology",
+      "Blockchain & Crypto"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/fintech.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Investment-Banking-Capital-Markets.pdf",
@@ -1703,7 +1757,11 @@
     "batch_type": "Online",
     "id": "fintech-blockchain-program",
     "category": "finance",
-    "tags": ["FinTech Ecosystem", "Lending Technology", "Blockchain & Crypto"],
+    "tags": [
+      "FinTech Ecosystem",
+      "Lending Technology",
+      "Blockchain & Crypto"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/fintech.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Fintech-Blockchain-and-Risk-Management.pdf",
@@ -1731,7 +1789,11 @@
     "batch_type": "Online",
     "id": "transform-business-workflows-with-generative-ai",
     "category": "microsoft",
-    "tags": ["Generative AI", "Productivity", "Microsoft 365"],
+    "tags": [
+      "Generative AI",
+      "Productivity",
+      "Microsoft 365"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
   },
   {
@@ -1744,7 +1806,11 @@
     "batch_type": "Online",
     "id": "transform-business-workflows-with-generative-ai",
     "category": "free courses",
-    "tags": ["Generative AI", "Productivity", "Microsoft 365"],
+    "tags": [
+      "Generative AI",
+      "Productivity",
+      "Microsoft 365"
+    ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
   }
 ]

@@ -1,0 +1,238 @@
+{
+  "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+  "category": "65",
+  "category_id": 65,
+  "vertical": "Design Thinking",
+  "title": "Advanced Certificate Program in Design Thinking & Innovation with AI",
+  "description": "Embark on a 5 month learning journey in Design Thinking, Applied Innovation & Creative Problem Solving. ",
+  "short_title": "Design Thinking",
+  "contact": "9211285411",
+  "university_name": "E&ICT Academy IIT Kanpur",
+  "short_university_name": "iitk",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v2.svg",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/iit-kanpur-certificate-v2.webp",
+  "start_date": "27 Sep 2026",
+  "duration": "5 Months",
+  "required_years_experience": 1,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "ordinary"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "key_features": [
+    {
+      "text": "60+",
+      "title": "hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "4",
+      "title": "career sessions"
+    },
+    {
+      "text": "5",
+      "title": "core modules"
+    },
+    {
+      "text": "5+",
+      "title": "tools"
+    }
+  ],
+  "domain": "Design Thinking",
+  "overview": {
+    "programId": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Innovation Professionals: Build structured innovation and problem-solving skills.",
+          "Early-Career Managers: Solve business challenges using design thinking.",
+          "Aspiring Entrepreneurs: Create customer-centric products and business models.",
+          "Business & Strategy Professionals: Apply design thinking for strategic solutions.",
+          "Product & Operations Professionals: Drive user-centric innovation.",
+          "Young Professionals: Lead innovation and organizational transformation."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Innovation Manager",
+          "Design Thinking Consultant",
+          "Product Innovation Manager",
+          "Strategic Innovation Lead",
+          "Customer Experience (CX) Manager",
+          "Business Transformation Manager",
+          "Product Strategy Manager",
+          "Innovation Program Lead",
+          "Service Design Manager",
+          "Strategy & Innovation Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "5 Modules – Design Thinking, AI Innovation & Problem Solving",
+          "Learn From Top Industry Professionals",
+          "Duration: 5 Months | Weekend Online",
+          "Certification From E&ICT, IIT Kanpur",
+          "Capstone Project",
+          "EMI up to 24 Months",
+          "Career Assistance by Accredian",
+          "Live Instructor Led Classes"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "capstone-project",
+    "certificate",
+    "mentoring-session",
+    "case-based-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Design Thinking & Human-Centered Innovation",
+      "points": [
+        "• Design thinking principles and mindsets",
+        "• Human-centered problem solving",
+        "• Navigating ambiguity and complexity",
+        "• Strategic challenge framing"
+      ]
+    },
+    {
+      "title": "Customer Discovery & AI-Powered Insights",
+      "points": [
+        "• Empathy research and contextual inquiry",
+        "• Jobs-to-be-Done framework",
+        "• AI-powered customer intelligence",
+        "• Insight synthesis and opportunity prioritization"
+      ]
+    },
+    {
+      "title": "AI-Augmented Ideation & Creative Problem Solving",
+      "points": [
+        "• Divergent and convergent thinking",
+        "• Generative AI for ideation and reframing",
+        "• Concept generation and idea prioritization",
+        "• Storyboarding, storytelling, and communicating ideas"
+      ]
+    },
+    {
+      "title": "Prototyping, Experimentation & Validation",
+      "points": [
+        "• Rapid prototyping methods",
+        "• AI-assisted prototype development",
+        "• Assumption and hypothesis testing",
+        "• User testing, MVPs, and feedback loops"
+      ]
+    },
+    {
+      "title": "Product, Service & Experience Design",
+      "points": [
+        "• Product and service design principles",
+        "• Value proposition design",
+        "• Customer journeys and experience design",
+        "• Service blueprinting and experience orchestration"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will identify a real-world customer or business challenge and apply design thinking to create an innovative product, service, or experience. The project will integrate customer discovery, AI-powered insights, creative problem solving, storytelling, rapid prototyping, experimentation, and validation. Final presentations will demonstrate customer relevance, solution desirability, practical feasibility, differentiated value, and measurable potential for business or user impact."
+      ]
+    }
+  ],
+  "billing": {
+    "total": 150000,
+    "points": [
+      "60+ Hours of Live Classes",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 11926,
+        "months": 12
+      },
+      {
+        "emi": 8239,
+        "months": 18
+      },
+      {
+        "emi": 6382,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-In-Design-Thinking-Innovation-With-AI.pdf",
+    "source": "IITK Professional Certificate Program in Design Thinking Brochure",
+    "campaign_name": "IITK-Design Thinking"
+  },
+  "faculty": [],
+  "tools": [
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    },
+    {
+      "title": "Lovable",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/lovable.svg"
+    },
+    {
+      "title": "Claude AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    },
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    }
+  ],
+  "external_enroll": "https://www.eicta.iitk.ac.in/courses/design-thinking-innovation-course"
+}

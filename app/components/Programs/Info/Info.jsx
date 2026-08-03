@@ -32,6 +32,7 @@ const FeatureIcons = {
   hours: <RiLiveLine className="w-full h-full" />,
   "class hours": <RiLiveLine className="w-full h-full" />,
   "career sessions": <FaChalkboardTeacher className="w-full h-full" />,
+  "career sessions by accredian": <FaChalkboardTeacher className="w-full h-full" />,
   projects: <MdOutlineAssignmentTurnedIn className="w-full h-full" />,
   project: <MdOutlineAssignmentTurnedIn className="w-full h-full" />,
   "capstone project": <MdOutlineAssignmentTurnedIn className="w-full h-full" />,

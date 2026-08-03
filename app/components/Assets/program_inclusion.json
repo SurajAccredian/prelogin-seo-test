@@ -2,7 +2,6 @@
   {
     "title": "Executive Development Program in General Management",
     "id": "xlri-epgm",
-
     "data": {
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Development Program in General Management",
@@ -13,7 +12,10 @@
       "Campus Immersion": "Two Campus Immersion of 2 days each",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "XLRI Professors and Industry Experts",
-      "Program Highlights": ["Board Room Simulation", "Management Hackathon"],
+      "Program Highlights": [
+        "Board Room Simulation",
+        "Management Hackathon"
+      ],
       "Alumni Status": "Yes, Executive Alumni Status at an additional fee of INR 20,000 + GST. This one-time fee, payable directly to XLRI upon program completion, grants lifetime membership to the Executive Education Alumni Status, including access to the Executive Alumni Directory.",
       "Minimum Attendance Required": "Minimum Attendance - 75% // Project Participation + Assessments are mandatory",
       "Certificates": "Completion Certificate from XLRI Delhi-NCR",
@@ -24,7 +26,6 @@
   {
     "title": "Executive Program in Strategy & Leadership",
     "id": "xlri-epsl",
-
     "data": {
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Program in Strategy & Leadership",
@@ -54,7 +55,6 @@
   {
     "title": "XLRI Delhi-NCR EPPM",
     "id": "xlri-eppm",
-
     "data": {
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Program in Product Management",
@@ -79,7 +79,6 @@
   {
     "title": "Executive Program in Business Management",
     "id": "iimv-bm",
-
     "data": {
       "Institute Name": "IIM Visakhapatnam",
       "Program Name": "Executive Program in Business Management",
@@ -112,13 +111,15 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Visakhapatnam",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": ["Excel", "Power BI"]
+      "Tools/Framework Covered in the Program": [
+        "Excel",
+        "Power BI"
+      ]
     }
   },
   {
     "title": "IIM-V SPM",
     "id": "iimv-spm",
-
     "data": {
       "Institute Name": "IIM Visakhapatnam",
       "Program Name": "PG Certificate Program in Strategic Product Management",
@@ -159,7 +160,6 @@
   {
     "title": "SP Jain Global DT",
     "id": "spjain-dt",
-
     "data": {
       "Institute Name": "SP JAIN's School of Global Management",
       "Program Name": "Executive Program in Digital Leadership for Business Transformation",
@@ -191,7 +191,6 @@
   {
     "title": "IIM Visakhapatnam Senior Management Program",
     "id": "iimv-sm",
-
     "data": {
       "Institute Name": "IIM Visakhapatnam",
       "Program Name": "Senior Management Program",
@@ -232,7 +231,6 @@
   {
     "title": "Advanced Certification in Product Management",
     "id": "iitg-pm-cpm",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Advanced Certification in Product Management",
@@ -264,7 +262,6 @@
   {
     "title": "Executive Program in Product Management",
     "id": "iitg-pm-eppm",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Product Management",
@@ -297,7 +294,6 @@
   {
     "title": "Executive Program in Data Driven Product Management",
     "id": "iitg-pm-epdpm",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Data Driven Product Management",
@@ -331,7 +327,6 @@
   {
     "title": "Executive Program in Product Management and Data Science",
     "id": "iitg-pm-eppmds",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Product Management and Data Science",
@@ -362,7 +357,6 @@
   {
     "title": "Executive Program in Product Management and Digital Transformation",
     "id": "iitg-pm-eppmdt",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Product Management and Digital Transformation",
@@ -397,7 +391,6 @@
   {
     "title": "Executive Program in Product Management and Business Analytics",
     "id": "iitg-pm-eppmba",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Product Management and Business Analytics",
@@ -427,7 +420,6 @@
   {
     "title": "Executive Program in Product Management and Project Management",
     "id": "iitg-pm-eppmt",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Product Management and Project Management",
@@ -443,7 +435,6 @@
         "Comprehensive Learning Experience: Immerse yourself in diverse case studies and hands-on real-world projects to gain practical expertise and industry-relevant skills."
       ],
       "alumni status": "Alumni Status from E&ICT Academy, IIT Guwahati upon program completion.",
-
       "minimum attendance required": [
         "Minimum Attendance Requirement: 70%",
         "Attendance below 70%: Participation Certificate only",
@@ -463,7 +454,6 @@
   {
     "title": "IIM Visakhapatnam Fintech & Blockchain",
     "id": "iimv-ft",
-
     "data": {
       "Program Name": "PG Certificate Program in FinTech, Blockchain & Risk Management",
       "Duration of the Program": "11 Months",
@@ -492,13 +482,16 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Visakhapatnam",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": ["Excel", "Python", "Solidity"]
+      "Tools/Framework Covered in the Program": [
+        "Excel",
+        "Python",
+        "Solidity"
+      ]
     }
   },
   {
     "title": "IIM Visakhapatnam Executive Program in Strategic Management",
     "id": "iimv-stmg",
-
     "data": {
       "Program Name": "Executive Program in Strategic Management",
       "Duration of the Program": "12 Months",
@@ -532,7 +525,6 @@
   {
     "title": "Professional Certificate Program in Product Management",
     "id": "iit-kanpur-pcppm",
-
     "data": {
       "Institute Name": "E&ICT, IIT Kanpur",
       "Program Name": "Professional Certificate Program in Product Management",
@@ -565,7 +557,6 @@
   {
     "title": "Professional Certificate Program in Digital Transformation",
     "id": "iit-g-dt",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Professional Certificate Program in Digital Transformation",
@@ -586,7 +577,6 @@
         "Attendance below 70%: Participation Certificate only",
         "Attendance of 70% or above: Completion Certificate"
       ],
-
       "certificates": "One Certificate of Completion from E&ICT IITG and Accredian",
       "physical copy of program completion certificate": "NA",
       "industry immersion sessions": "Yes",
@@ -600,7 +590,6 @@
   {
     "title": "Executive Program in Data Science and Digital Transformation",
     "id": "iitg-epdsdt",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Data Science and Digital Transformation",
@@ -632,7 +621,6 @@
   {
     "title": "Executive Program in Analytics and Digital Transformation",
     "id": "iitg-epbadt",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Analytics and Digital Transformation",
@@ -660,7 +648,6 @@
   {
     "title": "Executive Program in Data Science and Product Management",
     "id": "iitg-epdspm",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Data Science and Product Management",
@@ -697,7 +684,6 @@
   {
     "title": "Professional Certificate Program in Business Analytics for Managers",
     "id": "iitg-pcpba",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Professional Certificate Program in Business Analytics for Managers",
@@ -727,7 +713,6 @@
   {
     "title": "Professional Certificate Program in Data Science",
     "id": "iitg-pcpds",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Professional Certificate Program in Data Science",
@@ -760,7 +745,6 @@
   {
     "title": "Executive Program in Digital Transformation & AI for Leaders",
     "id": "executive-program-in-DTAI-for-leaders-11-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Digital Transformation & AI for Leaders",
@@ -795,7 +779,6 @@
   {
     "title": "Executive Program in Project Management and Digital Transformation",
     "id": "executive-program-in-project-management-and-digital-transformation-12-months-v1",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Project Management and Digital Transformation",
@@ -831,7 +814,6 @@
   {
     "title": "Executive Program in Business Analytics & AI for Leaders",
     "id": "executive-program-in-business-analytics-and-ai-for-leaders-11-months",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Business Analytics & AI for Leaders",
@@ -861,7 +843,6 @@
   {
     "title": "Executive Program in Business Analytics and Project Management",
     "id": "executive-program-in-analytics-and-project-management-12-months",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Business Analytics and Project Management",
@@ -893,7 +874,6 @@
   {
     "title": "Executive Program in Data Science and Project Management",
     "id": "iitg-ds-edspmt",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Data Science and Project Management",
@@ -925,7 +905,6 @@
   {
     "title": "Executive Program in Business Analytics and Product Management",
     "id": "executive-program-in-analytics-and-product-management-11-months",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Business Analytics and Product Management",
@@ -953,7 +932,6 @@
   {
     "title": "Professional Certificate Program in Project Management",
     "id": "professional-certificate-program-in-project-management-6-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Professional Certificate Program in Project Management",
@@ -986,7 +964,6 @@
   {
     "title": "Professional Certificate Program in Fintech",
     "id": "professional-certificate-program-in-fintech-6-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Professional Certificate Program in Fintech",
@@ -1017,7 +994,6 @@
   {
     "title": "Executive Program in Fintech & Innovation",
     "id": "executive-program-in-fintech-10-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Fintech & Innovation",
@@ -1049,7 +1025,6 @@
   {
     "title": "Executive Program in Project Management & AI for Leaders",
     "id": "executive-program-in-project-management-ai-for-leaders-11-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Project Management & AI for Leaders",
@@ -1086,7 +1061,6 @@
   {
     "title": "Executive Program in Product Management & AI for Leaders",
     "id": "executive-program-in-product-management-ai-for-leaders-11-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Product Management & AI for Leaders",
@@ -1122,7 +1096,6 @@
   {
     "title": "Chief Marketing & Growth Officer Programme - CMO Programme",
     "id": "chief-marketing-growth-officer-programme-11-months",
-
     "data": {
       "institute name": "XLRI",
       "program name": "Chief Marketing & Growth Officer Programme - CMO Programme",
@@ -1155,7 +1128,6 @@
   {
     "title": "Chief Human Resource Officer Program",
     "id": "chief-human-resource-officer-program-12-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Chief Human Resource Officer Program",
@@ -1197,7 +1169,6 @@
   {
     "title": "PG Certificate Program in Investment Banking & Capital Markets",
     "id": "pg-certificate-program-in-investment-banking-capital-markets-11-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "PG Certificate Program in Investment Banking & Capital Markets",
@@ -1238,7 +1209,6 @@
   {
     "title": "Executive Program in Digital Tranformation & Innovation",
     "id": "executive-program-in-digital-tranformation-innovation-10-months",
-
     "data": {
       "Institute Name": "E&ICT Academy, IIT Guwahati",
       "Program Name": "Executive Program in Digital Tranformation & Innovation",
@@ -1269,7 +1239,6 @@
   {
     "title": "Executive Program in Fintech & Product Management",
     "id": "executive-program-in-fintech-product-management-11-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Fintech & Product Management",
@@ -1299,11 +1268,9 @@
       "tools/framework covered in the program": "15+ Tools: Excel, Solidity, Remix, Vulcan, OpenVAS, Social Searcher, Survey Monkey, Aha, Confluence, Mural, Uizard, Figma, Marvel App, Jira, Trello"
     }
   },
-
   {
     "title": "Executive Program in Fintech & Project Management",
     "id": "executive-program-in-fintech-project-management-12-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Fintech & Project Management",
@@ -1333,11 +1300,9 @@
       "tools/framework covered in the program": "10+ Tools: Excel, Solidity, Remix, Vulcan, OpenVAS, Trello, Jira, Confluence, Microsoft Project, Toggl"
     }
   },
-
   {
     "title": "Executive Program in Fintech & Digital Transformation",
     "id": "executive-program-in-fintech-digital-transformation-12-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Fintech & Digital Transformation",
@@ -1367,11 +1332,9 @@
       "tools/framework covered in the program": "10+ Tools: Excel, Solidity, Remix, Vulcan, OpenVAS, Confluence, Miro, Hotjar, Bubble.io, Retool, BigML, Thirdweb"
     }
   },
-
   {
     "title": "Executive Program in Fintech & AI for Leaders",
     "id": "executive-program-in-fintech-ai-for-leaders-11-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Fintech & AI for Leaders",
@@ -1403,11 +1366,9 @@
       ]
     }
   },
-
   {
     "title": "Chief Financial Officer Programme",
     "id": "chief-financial-officer-programme-12-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Chief Financial Officer Programme",
@@ -1440,7 +1401,6 @@
   {
     "title": "Post Graduate Certificate Program in Data Science",
     "id": "pg-certificate-program-in-data-science-6-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Post Graduate Certificate Program in Data Science",
@@ -1457,7 +1417,6 @@
         "Connect with a diverse cohort of peers and industry leaders worldwide."
       ],
       "alumni status": "Alumni Status from E&ICT Academy, IIT Guwahati upon program completion.",
-
       "physical copy of program completion certificate": "NA",
       "minimum attendance required": [
         "Minimum Attendance Requirement: 70%",
@@ -1470,11 +1429,9 @@
       "tools covered": "5+ Tools: Numpy, Python, Pandas, Seaborn, Jupyter, Colab, Matplotlib, Scikit learn"
     }
   },
-
   {
     "title": "Post Graduate Certificate Program in Data Science & Artificial Intelligence ",
     "id": "pg-certificate-program-in-data-science-ai-10-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Post Graduate Certificate Program in Data Science & Artificial Intelligence ",
@@ -1507,11 +1464,9 @@
       ]
     }
   },
-
   {
     "title": "Post Graduate Certificate Program in AI for Leaders",
     "id": "pg-certificate-program-in-ai-for-leaders-5-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Post Graduate Certificate Program in AI for Leaders",
@@ -1529,7 +1484,6 @@
         "Connect with a diverse cohort of peers and industry leaders worldwide."
       ],
       "alumni status": "E&ICT IITG Executive Alumni Status on program completion",
-
       "minimum attendance required": "Minimum Attendance Required: 70%",
       "certificates": "Certificate of Completion from E&ICT Academy, IIT Guwahati",
       "Industry Immersion Sessions": "Industry Immersion Sessions by Accredian",
@@ -1540,7 +1494,6 @@
   {
     "title": "Executive Program in Leadership with AI",
     "id": "executive-program-in-leadership-with-ai-8-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Executive Program in Leadership with AI",
@@ -1558,7 +1511,6 @@
         "Connect with a diverse cohort of peers and industry leaders worldwide."
       ],
       "alumni status": "E&ICT IITG Executive Alumni Status on program completion",
-
       "minimum attendance required": "Minimum Attendance Required: 70%",
       "certificates": "Certificate of Completion from E&ICT Academy, IIT Guwahati",
       "Industry Immersion Sessions": "Industry Immersion Sessions by Accredian",
@@ -1569,7 +1521,6 @@
   {
     "title": "Executive Devlopment Program in Strategy & Leadership",
     "id": "xlri-epsl-11-months",
-
     "data": {
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Devlopment Program in Strategy & Leadership",
@@ -1591,11 +1542,9 @@
       "Tools/Framework Covered in the Program": "Balanced Scorecard, Scenario Planning, PESTLE & SWOT/TOWS Analysis"
     }
   },
-
   {
     "title": "Executive Development Program in Strategic HR Leadership",
     "id": "xlri-epshrl-10-months",
-
     "data": {
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Development Program in Strategic HR Leadership",
@@ -1617,11 +1566,9 @@
       "Tools/Framework Covered in the Program": "NA"
     }
   },
-
   {
     "title": "Post Graduate Certificate Program in Cybersecurity for Leaders",
     "id": "post-graduate-certificate-program-in-cybersecurity-for-leaders-5months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Post Graduate Certificate Program in Cybersecurity for Leaders",
@@ -1650,11 +1597,9 @@
       "tools covered": "10+ Tools: Nmap, Wireshark, Metasploit, Miro, Jira, Cyberbit, ThreatConnect, CrowdStrike, Splunk, Darktrace, okta"
     }
   },
-
   {
     "title": "Professional Certificate in Generative AI for Business",
     "id": "professional-certificate-in-generative-ai-for-business-5-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Professional Certificate in Generative AI for Business",
@@ -1672,7 +1617,6 @@
         "Connect with a diverse cohort of peers and industry leaders worldwide."
       ],
       "alumni status": "E&ICT IITG Executive Alumni Status on program completion",
-
       "minimum attendance required": "Minimum Attendance Required: 70%",
       "certificates": "Certificate of Completion from E&ICT Academy, IIT Guwahati",
       "Industry Immersion Sessions": "Industry Immersion Sessions by Accredian",
@@ -1680,11 +1624,9 @@
       "tools/framework covered in the program": "10+ Tools: ChatGPT, DALL·E, Midjourney, Gemini, Perplexity, Claude, OpenAI Playground, Promptist, PromptHero, Hugging Face, RunwayML, Voiceflow, Landbot, Make, Bubble, Webflow, Langflow, Tidio AI, Hiver, Synthesia, Firecrawl, Jasper.ai, Copy.ai, Intercom, Cursor, v0, Replit, ElevenLabs, Murf, Bolt, GitHub Copilot, Gamma, Presentations.ai, NotebookLM, Bardeen, DeepSeek"
     }
   },
-
   {
     "title": "Executive Development Programme in Digital HR Leadership and People Analytics",
     "id": "xlri-epdhrl-10-months",
-
     "data": {
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Development Programme in Digital HR Leadership and People Analytics",
@@ -1707,11 +1649,9 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Global Senior Leadership Program",
     "id": "global-senior-leadership-12-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Global Senior Leadership Program",
@@ -1747,11 +1687,9 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Chief Technology Officer Program (The CTO Program)",
     "id": "iitg-ctop-10-months",
-
     "data": {
       "institute name": "E&ICT Academy, IIT Guwahati",
       "program name": "Chief Technology Officer Program (The CTO Program)",
@@ -1772,18 +1710,15 @@
         "Transformative Simulations"
       ],
       "alumni status": "Alumni Status from E&ICT Academy, IIT Guwahati upon program completion.",
-
       "minimum attendance required": "Minimum Attendance Required: 70%",
       "certificates": "Certificate of Completion from E&ICT Academy, IIT Guwahati",
       "Industry Immersion Sessions": "Industry Immersion Sessions by Accredian",
       "career assistance sessions": "6 Career Assistance Sessions by Accredian along with access to Accredian Career Support Library"
     }
   },
-
   {
     "title": "Chief Technology Officer Programme",
     "id": "chief-technology-officer-programme-11-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Chief Technology Officer Programme",
@@ -1823,7 +1758,6 @@
   {
     "title": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
     "id": "cdaio-program-11months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
@@ -1862,7 +1796,6 @@
   {
     "title": "Advanced Certificate Program in AI for Leaders",
     "id": "advanced-certificate-program-in-leadership-with-ai-5-months",
-
     "data": {
       "Institute Name": "E&ICT, IIT Kanpur",
       "Program Name": "Advanced Certificate Program in AI for Leaders",
@@ -1892,11 +1825,9 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Professional Certificate Program in Leadership with AI",
     "id": "professional-certificate-program-in-ai-for-leaders-8-months",
-
     "data": {
       "Institute Name": "E&ICT, IIT Kanpur",
       "Program Name": "Professional Certificate Program in Leadership with AI",
@@ -1929,7 +1860,6 @@
   {
     "title": "Chief Executive Officer Program (The CEO Program)",
     "id": "ceo-program-11-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Chief Executive Officer Program (The CEO Program)",
@@ -1970,7 +1900,6 @@
   {
     "title": "Accelerated Senior Management Programme",
     "id": "iimt-accelerated-senior-management-programme-10-months",
-
     "data": {
       "Institute Name": "IIM Tiruchirappalli",
       "Program Name": "Accelerated Senior Management Programme",
@@ -1990,7 +1919,6 @@
   {
     "title": "Chief Technology Officer Programme (The CTO Program)",
     "id": "iimt-chief-technology-officer-programme-10-months",
-
     "data": {
       "Institute Name": "IIM Tiruchirappalli",
       "Program Name": "Chief Technology Officer Programme (The CTO Program)",
@@ -2018,7 +1946,6 @@
   {
     "title": "Executive Program in Leadership with AI",
     "id": "executive-program-in-leadership-with-ai-10-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Executive Program in Leadership with AI",
@@ -2052,7 +1979,6 @@
   {
     "title": "Executive Program in Strategy, Leadership and Innovation in AI Era",
     "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era-11-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
@@ -2083,11 +2009,9 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Executive Program in Project Management",
     "id": "executive-program-in-project-management-6-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Executive Program in Project Management",
@@ -2108,11 +2032,9 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Post Graduate Certificate in Strategic Project Management & Leadership",
     "id": "post-graduate-certificate-in-strategic-project-management-&-leadership-10-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Post Graduate Certificate in Strategic Project Management & Leadership",
@@ -2148,7 +2070,6 @@
   {
     "title": "Executive Program in Generative AI for Business Leaders",
     "id": "executive-program-in-generative-ai-for-business-leaders-7-months",
-
     "data": {
       "institute name": "IIM Visakhapatnam",
       "program name": "Executive Program in Generative AI for Business Leaders",
@@ -2205,7 +2126,6 @@
       "Tools/Framework Covered in the Program": "8+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Invideo, Nano banana, Excel etc."
     }
   },
-
   {
     "title": "Executive Program in Generative AI for Leaders",
     "id": "executive-program-in-generative-ai-for-leaders-6-months",
@@ -2226,7 +2146,6 @@
       "Tools/Framework Covered in the Program": "50+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
     }
   },
-
   {
     "title": "Executive Program in Generative AI & Agentic AI for Leaders",
     "id": "executive-program-in-generative-ai-for-leaders-7-months",
@@ -2247,7 +2166,6 @@
       "Tools/Framework Covered in the Program": "50+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
     }
   },
-
   {
     "title": "Professional Certificate in Applied Generative AI",
     "id": "professional-certificate-in-applied-generative-ai-4-months",
@@ -2268,7 +2186,6 @@
       "Tools/Framework Covered in the Program": "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
     }
   },
-
   {
     "title": "Professional Certificate in Generative AI for Business Transformation ",
     "id": "professional-certificate-in-generative-ai-for-business-transformation-4-months",
@@ -2289,7 +2206,6 @@
       "Tools/Framework Covered in the Program": "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
     }
   },
-
   {
     "title": "Executive Program in Strategic Project Management & Leadership ",
     "id": "executive-program-in-strategic-project-management-and-leadership-6-months",
@@ -2310,11 +2226,9 @@
       "Tools/Framework Covered in the Program": "Project Plan 365, Trello, Jira, Gamma, ChatGPT, Claude, etc"
     }
   },
-
   {
     "title": "Advanced Certificate Program in Strategic Project Management",
     "id": "advanced-certificate-program-in-strategic-project-management-5months",
-
     "data": {
       "Institute Name": "E&ICT, IIT Kanpur",
       "Program Name": "Advanced Certificate Program in Strategic Project Management",
@@ -2344,11 +2258,9 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Professional Certificate Program in Strategic Project Management & Leadership ",
     "id": "professional-certificate-program-in-strategic-project-management-&-leadership-8months",
-
     "data": {
       "Institute Name": "E&ICT, IIT Kanpur",
       "Program Name": "Professional Certificate Program in Strategic Project Management & Leadership ",
@@ -2381,7 +2293,6 @@
   {
     "title": "Executive Development Program in Global Senior Management",
     "id": "xlri-executive-development-program-in-global-senior-management-11-months",
-
     "data": {
       "Institute Name": "XLRI Jamshedpur",
       "Program Name": "Executive Development Program in Global Senior Management",
@@ -2424,7 +2335,6 @@
       "Campus Immersion": "One Campus Immersions of 3 Days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "IIM Lucknow Faculty",
-
       "Alumni Status": "Executive Alumni Status from IIM Lucknow- Optional at an additional cost of INR 10,000 + GST",
       "Benefits of Alumni Status": [
         "Access to the IIM Lucknow Campus Library (on-site access) T&C apply",
@@ -2452,7 +2362,6 @@
       "Campus Immersion": "One Campus Immersions of 3 Days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "IIM Lucknow Faculty",
-
       "Alumni Status": "Executive Alumni Status from IIM Lucknow- Optional at an additional cost of INR 10,000 + GST",
       "Benefits of Alumni Status": [
         "Access to the IIM Lucknow Campus Library (on-site access) T&C apply",
@@ -2544,16 +2453,13 @@
         "Lifetime Membership: Alumni receive lifetime regular alumni status.",
         "Alumni ID & Email: Each alumnus is provided with an exclusive alumni ID card and personalized alumni email ID.",
         "Alumni Portal: Lifetime access to a dedicated online portal for networking, updates, and institute-related information.",
-
         "On-Campus Engagement",
         "Library Access: On-site access to the IIMV library, subject to the institute’s prevailing terms and conditions.",
         "Annual Homecoming (Sanshrey): Invitation to the annual alumni meet on campus to reconnect with batchmates and faculty.",
-
         "Professional & Network Development",
         "Mentorship & Knowledge Sharing: Opportunities to mentor current students and participate in knowledge-sharing webinars.",
         "Industry Insights: Access to the “Know it from Alum” series featuring successful alumni sharing their professional experiences.",
         "Professional & Social Network: Connection to a strong community of professionals for career development and collaboration.",
-
         "Networking Events",
         "City Chapter Meets (V-Unite): Pan-India alumni events to network and discuss institutional initiatives.",
         "Professional Events: Invitations to IIMV workshops, seminars, and conferences, often available at discounted rates for alumni."
@@ -2661,7 +2567,6 @@
       "Tools/Framework Covered in the Program": "15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc."
     }
   },
-
   {
     "title": "Advanced Certificate in AI for Leaders",
     "id": "iit-jammu-advanced-certificate-in-ai-for-leaders-months",
@@ -2804,7 +2709,6 @@
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
   },
-
   {
     "title": "Executive Program in Generative AI & Agentic AI for Leaders",
     "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders-7months",
@@ -2832,7 +2736,6 @@
       "Tools/Framework Covered in the Program": "8+ Tools Perplexity, ChatGPT, Lovable, Gemini, Claude, Gamma, NotebookLM, Leonardo.AI etc."
     }
   },
-
   {
     "title": "Executive Program in Strategy & Leadership",
     "id": "iimr-executive-program-in-strategy-leadership-11months",
@@ -2926,7 +2829,6 @@
       "Campus Immersion": "One Campus Immersions of 3 Days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "IIM Lucknow Faculty",
-
       "Alumni Status": "Executive Alumni Status from IIM Lucknow- Optional at an additional cost of INR 10,000 + GST",
       "Benefits of Alumni Status": [
         "Access to the IIM Lucknow Campus Library (on-site access) T&C apply",
@@ -2944,7 +2846,6 @@
   {
     "title": "Certificate Programme in Leadership with AI",
     "id": "iimt-certificate-programme-in-leadership-with-ai-8-months",
-
     "data": {
       "Institute Name": "IIM Tiruchirappalli",
       "Program Name": "Certificate Programme in Leadership with AI",
@@ -2956,10 +2857,43 @@
       "Campus Immersion Fee": "NA",
       "Program Faculty": "IIM Tiruchirappalli Faculty  ",
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
+      "Minimum Assessment Score Required": "Minimum Assessment Score Required: 35%",
       "Certificates": "Completion Certificate issued by IIM Tiruchirappalli",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
       "physical ID card": "No Physical ID card to be provided",
       "Tools/Framework Covered in the Program": "Gemini, ChatGPT, Gamma, Notebook LM, Lovable, Claude, Perplexity."
+    }
+  },
+  {
+    "title": "Advanced Certificate Program in Design Thinking & Innovation with AI",
+    "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai-5-months",
+    "data": {
+      "Institute Name": "E&ICT, IIT Kanpur",
+      "Program Name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
+      "Program Faculty": "Industry Experts",
+      "Duration of the Program": "5 Months",
+      "Alumni Status": "NA",
+      "Certificates": "Completion Certificate from E&ICT, IIT Kanpur",
+      "physical copy of program completion certificate": "NA",
+      "Campus Immersion": "No",
+      "Campus Immersion Fee": "NA",
+      "Program Terms/Pillars/Modules": "5 Modules",
+      "Live Session Hours": "60+ Hours",
+      "Capstone Project": "One Capstone Project",
+      "Program Highlights": [
+        "Learn from industry pioneers at top companies.",
+        "Hands-on experience for Practical learning throughout all the terms.",
+        "Capstone Project.",
+        "Work on real-world case studies."
+      ],
+      "Minimum Attendance Required": "Minimum Attendance Required: 70%",
+      "Industry Immersion Sessions": "Industry Immersion Sessions by Accredian",
+      "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
+      "Tools and Framework Covered": [
+        "4+ Tools",
+        "Gemini, Lovable, Claude, ChatGPT, Figma"
+      ],
+      "physical ID card": "No Physical ID card to be provided"
     }
   }
 ]

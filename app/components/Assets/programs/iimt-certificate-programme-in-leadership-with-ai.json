@@ -11,7 +11,7 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-V-v2.webp",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/iimt_certificate.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/iimt_certificate_v2.jpg",
   "start_date": "30 Aug 2026",
   "duration": "8 Months",
   "required_years_experience": 3,
@@ -30,12 +30,12 @@
   ],
   "key_features": [
     {
-      "text": "93",
+      "text": "90",
       "title": "hours"
     },
     {
       "text": "6",
-      "title": "career sessions"
+      "title": "career sessions by Accredian"
     },
     {
       "text": "1",
@@ -46,7 +46,7 @@
       "title": "modules"
     },
     {
-      "text": "3",
+      "text": "1",
       "title": "simulations"
     }
   ],
@@ -217,7 +217,7 @@
   "billing": {
     "total": 209000,
     "points": [
-      "93+ Hours of Live Classes",
+      "90 Hours of Live Classes",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"

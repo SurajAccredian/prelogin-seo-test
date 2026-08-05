@@ -3,41 +3,26 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from "../../store/reducers/user";
-import ExamInterestModal from "./ExamInterestModal";
+import { useRouter } from "next/navigation";
+import { Base64 } from "js-base64";
 import CustomFreeCourseButton from "./CustomFreeCourseButton";
 
-const PENDING_KEY = "pendingExamModal";
+// Same key used in Hero.jsx
+const PENDING_KEY = "pendingPaymentRedirect";
 
 const Certification = ({ data }) => {
   const dispatch = useDispatch();
+  const router = useRouter();
   const { authenticated } = useSelector((state) => state.user);
   const { certification } = data;
   const [width, setWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1024);
-  const [examModalOpen, setExamModalOpen] = useState(false);
+  const [isEnrolled, setIsEnrolled] = useState(false);
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  // Auto-open after login if flag is set
-  useEffect(() => {
-    if (authenticated && localStorage.getItem(PENDING_KEY) === "true") {
-      localStorage.removeItem(PENDING_KEY);
-      setExamModalOpen(true);
-    }
-  }, [authenticated]);
-
-  const [isInterestSubmitted, setIsInterestSubmitted] = useState(false);
-  const [isEnrolled, setIsEnrolled] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && data.program_id) {
-      const submitted = localStorage.getItem("exam_interest_submitted_" + data.program_id) === "true";
-      setIsInterestSubmitted(submitted);
-    }
-  }, [data.program_id]);
 
   useEffect(() => {
     if (authenticated) {
@@ -57,8 +42,17 @@ const Certification = ({ data }) => {
 
   const handleInterestClick = (e) => {
     e.preventDefault();
-    if (isInterestSubmitted) return;
-    setExamModalOpen(true);
+    if (!authenticated) {
+      if (width <= 768) {
+        dispatch(userActions.setDrawerState(true));
+      } else {
+        dispatch(userActions.openLoginModal("login"));
+      }
+      localStorage.setItem(PENDING_KEY, data.program_id.toString());
+      return;
+    }
+    const encryptedId = Base64.encode(data.program_id.toString());
+    router.push("/course/payment/" + encryptedId);
   };
 
   if (!certification) return null;
@@ -119,65 +113,38 @@ const Certification = ({ data }) => {
             ))}
           </ul>
 
-          {isEnrolled ? (
-            <p className="cert-price">
-              &#8377;{data.exam_amount} + GST <span style={{ fontWeight: 500, color: "var(--accredian-text-muted)", fontSize: "13px" }}>(indicative)</span>
-            </p>
-          ) : (
-            <p className="cert-price" style={{ minHeight: "24px" }}></p>
-          )}
+          <p className="cert-price">
+            &#8377;{data.exam_amount} + GST <span style={{ fontWeight: 500, color: "var(--accredian-text-muted)", fontSize: "13px" }}>(indicative)</span>
+          </p>
 
-          <button
-            onClick={handleInterestClick}
-            className={`btn btn-secondary btn-block`}
-            disabled={isInterestSubmitted}
-            data-action="open-interest-form"
-            style={
-              isInterestSubmitted
-                ? {
-                  background: "#F0FDF4",
-                  borderColor: "#16A34A",
-                  color: "#16A34A",
-                  cursor: "not-allowed",
-                  opacity: 1,
-                  padding: "8px 16px",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "2px",
-                  minHeight: "48px"
-                }
-                : {}
-            }
-          >
-            {isInterestSubmitted ? (
-              <>
-                <div style={{ display: "flex", alignItems: "center", gap: "6px", fontWeight: 600 }}>
-                  <svg fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                  </svg>
-                  <span>Interest Registered</span>
-                </div>
-                <span style={{ fontSize: "11px", color: "#15803D", fontStyle: "italic", fontWeight: 400, textTransform: "none" }}>
-                  We'll let you know
-                </span>
-              </>
-            ) : (
+          {isEnrolled ? (
+            <button
+              className="btn btn-secondary btn-block"
+              disabled
+              style={{
+                background: "#F0FDF4",
+                borderColor: "#16A34A",
+                color: "#16A34A",
+                cursor: "not-allowed",
+                opacity: 1,
+              }}
+            >
               <span style={{ textTransform: "none" }}>
-                Interested in getting <strong className="font-bold">Microsoft certified?</strong>
+                You are enrolled
               </span>
-            )}
-          </button>
+            </button>
+          ) : (
+            <button
+              onClick={handleInterestClick}
+              className={`btn btn-secondary btn-block`}
+            >
+              <span style={{ textTransform: "none" }}>
+                Get Certified
+              </span>
+            </button>
+          )}
         </div>
       </div>
-
-      <ExamInterestModal
-        isOpen={examModalOpen}
-        onClose={() => setExamModalOpen(false)}
-        courseTitle={data.title || null}
-        programId={data.program_id}
-      />
     </>
   );
 };

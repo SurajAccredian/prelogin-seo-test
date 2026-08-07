@@ -52,8 +52,17 @@ const FreeCourses = () => {
     if (!data) return; // wait for course data to load first
 
     const checkStatus = async () => {
-      const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
+      const cookieToken =
+        typeof document !== "undefined"
+          ? document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, "$1")
+          : "";
+      const token =
+        cookieToken || (typeof window !== "undefined" ? localStorage.getItem("token") : null);
       if (!token) return; // not logged in — nothing to do here
+
+      if (typeof window !== "undefined" && !localStorage.getItem("token")) {
+        localStorage.setItem("token", token); // keep localStorage in sync for other code paths
+      }
 
       try {
         // Mark as authenticated in Redux so Hero/Cert/Sticky checks are ready

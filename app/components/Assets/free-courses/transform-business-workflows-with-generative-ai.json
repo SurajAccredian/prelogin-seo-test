@@ -42,9 +42,15 @@
     },
     {
       "number": 5,
-      "title": "Register interest in certification",
+      "title": "Take the certification exam",
       "type": "paid",
-      "description": "Optional. Tell us you're interested and we'll notify you as soon as the certification exam opens — no payment today."
+      "description": "Pay when you're ready. You'll receive a proctored exam voucher via Pearson VUE."
+    },
+    {
+      "number": 6,
+      "title": "Get officially certified",
+      "type": "paid_final",
+      "description": "Pass the exam and receive your official certification."
     }
   ],
   "what_you_will_learn": [

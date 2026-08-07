@@ -64,9 +64,23 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
   // Sort streams and prepare for insertion
   const sortedStreams = STREAMS.slice()
     .filter(
-      (val) => !MANAGEMENT_SUBCATEGORIES.includes(val.category.toLowerCase()),
+      (val) =>
+        !MANAGEMENT_SUBCATEGORIES.includes(val.category.toLowerCase()) &&
+        val.category.toLowerCase() !== "free courses",
     )
     .sort((a, b) => a.order - b.order);
+
+  // Move Microsoft to right after PG Diploma
+  const microsoftIndex = sortedStreams.findIndex(
+    (val) => val.category.toLowerCase() === "microsoft",
+  );
+  if (microsoftIndex !== -1) {
+    const [microsoftStream] = sortedStreams.splice(microsoftIndex, 1);
+    const pgDiplomaIndex = sortedStreams.findIndex(
+      (val) => val.category.toLowerCase() === "pg diploma",
+    );
+    sortedStreams.splice(pgDiplomaIndex + 1, 0, microsoftStream);
+  }
 
   // Insert management vertical at position 4 (index 3)
   const getVerticalsList = () => {
@@ -84,9 +98,6 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
         });
       }
     });
-
-    // Sort by order
-    verticals.sort((a, b) => a.order - b.order);
 
     // Insert management vertical at position 4 (index 3)
     if (hasManagementPrograms) {

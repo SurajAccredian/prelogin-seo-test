@@ -963,7 +963,7 @@ function LoginModal({ open }) {
           aria-describedby="modal-description"
           onClose={loading ? null : handleClose}
         >
-          <div class="font-circular font-normal max-w-[90%] w-[840px] relative flex flex-row justify-center items-center outline-none border-none h-full mx-auto ">
+          <div className="font-circular font-normal max-w-[90%] w-[840px] relative flex flex-row justify-center items-center outline-none border-none h-full mx-auto ">
             <div className=" relative  bg-white flex justify-center items-center  rounded-2xl w-full outline-none border-none">
               <div className=" absolute py-2 w-full text-center  flex items-center justify-end top-0 right-2 ">
                 <button

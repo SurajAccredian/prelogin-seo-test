@@ -18,14 +18,28 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
   const [managementSubcategories, setManagementSubcategories] = useState([]);
   const [selectedManagementSubcategory, setSelectedManagementSubcategory] = useState("");
 
-  const sortedStreams = STREAMS.slice().sort((a, b) => a.order - b.order);
-
   // Define management subcategories
   const MANAGEMENT_SUBCATEGORIES = [
     "senior management",
     "general management",
     "business management"
   ];
+
+  const sortedStreams = STREAMS.slice()
+    .filter((val) => val.category.toLowerCase() !== "free courses")
+    .sort((a, b) => a.order - b.order);
+
+  // Move Microsoft to right after PG Diploma
+  const microsoftIndex = sortedStreams.findIndex(
+    (val) => val.category.toLowerCase() === "microsoft",
+  );
+  if (microsoftIndex !== -1) {
+    const [microsoftStream] = sortedStreams.splice(microsoftIndex, 1);
+    const pgDiplomaIndex = sortedStreams.findIndex(
+      (val) => val.category.toLowerCase() === "pg diploma",
+    );
+    sortedStreams.splice(pgDiplomaIndex + 1, 0, microsoftStream);
+  }
 
   useEffect(() => {
     const fetchPrograms = groupProgramsByCategory(programs)
@@ -69,9 +83,6 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
         });
       }
     });
-
-    // Sort by order
-    verticals.sort((a, b) => a.order - b.order);
 
     // Insert management vertical at position 4 (index 3)
     if (hasManagementPrograms) {

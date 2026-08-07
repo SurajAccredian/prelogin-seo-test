@@ -7,7 +7,7 @@ import { Base64 } from "js-base64";
 import toast from "react-hot-toast";
 import Head from "next/head";
 import Script from "next/script";
-import Navbar from "../../../components/Navbar/Navbar";
+import MainNavbar from "../../../components/Navbar/MainNavbar";
 import Footer from "../../../components/Footer/Footer";
 import { FaCheckCircle, FaShieldAlt, FaAward, FaMicrosoft } from "react-icons/fa";
 
@@ -122,7 +122,7 @@ export default function PaymentPage() {
       }
 
       const options = {
-        key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID || "rzp_test_KAHiAuZT84j7ih", // fallback to test key from .env if needed
+        key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID, // fallback to test key from .env if needed
         amount: orderData.order.amount,
         currency: orderData.order.currency,
         name: "Accredian",
@@ -197,8 +197,8 @@ export default function PaymentPage() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
-      <Navbar />
-      
+      <MainNavbar />
+
       <main className="flex-grow flex items-center justify-center py-6 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Background decorative elements */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">

@@ -90,8 +90,8 @@ const StickyPurchase = ({ data }) => {
             className="btn btn-primary"
           />
           {isEnrolled ? (
-            <button className="btn btn-secondary" disabled style={{ opacity: 0.7, cursor: "not-allowed", border: "1px solid var(--accredian-border)", background: "#fff", color: "#1f2937" }}>
-              You are enrolled
+            <button className="btn btn-secondary" disabled style={{ cursor: "not-allowed", border: "1px solid #16A34A", background: "#F0FDF4", color: "#16A34A" }}>
+              Payment Received
             </button>
           ) : (
             <button onClick={handleInterestClick} className="btn btn-secondary" style={{ border: "1px solid var(--accredian-border)", background: "#fff", color: "#1f2937" }}>

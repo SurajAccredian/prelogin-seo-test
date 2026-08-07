@@ -130,7 +130,7 @@ const Certification = ({ data }) => {
               }}
             >
               <span style={{ textTransform: "none" }}>
-                You are enrolled
+                Payment Received
               </span>
             </button>
           ) : (

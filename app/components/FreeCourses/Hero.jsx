@@ -124,9 +124,15 @@ const Hero = ({ data }) => {
               <button
                 className={`btn btn-secondary btn-twoline`}
                 disabled
-                style={{ opacity: 0.7, cursor: "not-allowed" }}
+                style={{
+                  background: "#F0FDF4",
+                  borderColor: "#16A34A",
+                  color: "#16A34A",
+                  cursor: "not-allowed",
+                  opacity: 1,
+                }}
               >
-                <span className="btn-title">You are enrolled</span>
+                <span className="btn-title">Payment Received</span>
                 <span className="btn-sub">&#8377;{data.exam_amount} + GST</span>
               </button>
             ) : (

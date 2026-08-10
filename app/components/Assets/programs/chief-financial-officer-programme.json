@@ -2,7 +2,7 @@
   "category": "24",
   "id": "chief-financial-officer-programme",
   "vertical": "cxo leadership",
-  "title": "Chief Financial Officer Programme",
+  "title": "Chief Financial Officer (CFO) Programme",
   "description": "Embark on a 12 month learning journey in Financial Leadership, Corporate Governance, and Digital Leadership.",
   "short_title": "Chief Financial Officer ",
   "contact": "9289224842",
@@ -261,7 +261,18 @@
       "special": "1",
       "id": "capstone-project",
       "points": [
-        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies. Develop a strategic market entry plan & an implementation roadmap with key milestones. Define performance metrics to measure success. Present the plan to a panel, explaining key components & recommendations."
+        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies." ,
+        "Develop a strategic market entry plan & an implementation roadmap with key milestones. Define performance metrics to measure success. Present the plan to a panel, explaining key components & recommendations.",
+        "Develop a plan for a potential M & A deal. Evaluate synergy, access deal structure, negotiation, due diligence and post-merger integration."
+      ]
+    },
+
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your CEO program with an exclusive CXO coaching. Delivered by seasoned coaches, this specialized coaching offers invaluable insights into senior management, equipping aspiring leaders with strategic acumen. Prepare for executive roles with firsthand knowledge and guidance from top tier executives."
       ]
     }
   ],

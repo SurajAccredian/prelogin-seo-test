@@ -1,10 +1,21 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { userActions } from "../../store/reducers/user";
+import { useRouter } from "next/navigation";
+import { Base64 } from "js-base64";
 import CustomFreeCourseButton from "./CustomFreeCourseButton";
+
+const PENDING_KEY = "pendingPaymentRedirect";
 
 const StickyPurchase = ({ data }) => {
   const [showBottom, setShowBottom] = useState(false);
+  const dispatch = useDispatch();
+  const router = useRouter();
+  const { authenticated } = useSelector((state) => state.user);
+  const [width, setWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1024);
+  const [isEnrolled, setIsEnrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,61 +25,84 @@ const StickyPurchase = ({ data }) => {
         setShowBottom(false);
       }
     };
+    const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
+
+  useEffect(() => {
+    if (authenticated) {
+      try {
+        const enrollments = JSON.parse(localStorage.getItem("enrollment") || "[]");
+        const enrolled = enrollments.some(
+          (e) => Number(e.program_id) === Number(data.program_id)
+        );
+        setIsEnrolled(enrolled);
+      } catch (err) {
+        console.error("Error parsing enrollment details:", err);
+      }
+    } else {
+      setIsEnrolled(false);
+    }
+  }, [authenticated, data.program_id]);
+
+  const handleInterestClick = (e) => {
+    e.preventDefault();
+    if (!authenticated) {
+      if (width <= 768) {
+        dispatch(userActions.setDrawerState(true));
+      } else {
+        dispatch(userActions.openLoginModal("login"));
+      }
+      localStorage.setItem(PENDING_KEY, data.program_id.toString());
+      return;
+    }
+    const encryptedId = Base64.encode(data.program_id.toString());
+    router.push("/course/payment/" + encryptedId);
+  };
 
   return (
     <>
-      {/* Desktop Sticky Purchase Bottom Bar */}
-      <div className={`sticky-purchase-desktop-bar ${showBottom ? "show" : ""}`}>
-        <div className="bar-container">
-          {/* Left section: Parameters */}
-          <div className="params-section">
-            <div className="param-item">
-              <span className="param-label">Duration</span>
-              <span className="param-value">{data.duration || "9 Hours"}</span>
-            </div>
-            <div className="param-item border-lr">
-              <span className="param-label">Delivery</span>
-              <span className="param-value">{data.delivery || "Self-Paced"}</span>
-            </div>
-            <div className="param-item">
-              <span className="param-label">Level</span>
-              <span className="param-value">{data.level || "Beginner"}</span>
-            </div>
+      {/* Desktop Sticky Purchase Floating Card */}
+      <div 
+        className="sticky-purchase-floating-card" 
+        style={{ 
+          opacity: showBottom ? 1 : 0, 
+          transition: 'opacity 0.3s ease', 
+          pointerEvents: showBottom ? 'auto' : 'none' 
+        }}
+      >
+        <h4>{data.title}</h4>
+        <div>
+          <div className="price-label" style={{ marginBottom: "2px" }}>Free to learn</div>
+          <div className="price-now" style={{ fontSize: "16px", fontWeight: "700" }}>
+            Certify for &#8377;{data.exam_amount} <span style={{ fontSize: "12px", color: "var(--accredian-text-muted)", fontWeight: "400" }}>+ GST</span>
           </div>
-
-          {/* Middle section: Badge Callout */}
-          <div className="badge-callout">
-            <span>✨ Earn your free Microsoft completion badge.</span>
-          </div>
-
-          {/* Right section: Partner & Button */}
-          <div className="action-section">
-            <div className="partner-info">
-              <span className="partner-label">AUTHORIZED PARTNER</span>
-              <span className="partner-value">
-                <svg className="microsoft-logo" viewBox="0 0 23 23" fill="none">
-                  <rect width="10.5" height="10.5" fill="#F25022"/>
-                  <rect x="11.5" width="10.5" height="10.5" fill="#7FBA00"/>
-                  <rect y="11.5" width="10.5" height="10.5" fill="#00A4EF"/>
-                  <rect x="11.5" y="11.5" width="10.5" height="10.5" fill="#FFB900"/>
-                </svg>
-                Microsoft
-              </span>
-            </div>
-            <CustomFreeCourseButton
-              data={data}
-              text="Start Learning Free"
-              className="btn btn-primary"
-            />
-          </div>
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+          <CustomFreeCourseButton
+            data={data}
+            text="Start Learning Free"
+            className="btn btn-primary"
+          />
+          {isEnrolled ? (
+            <button className="btn btn-secondary" disabled style={{ cursor: "not-allowed", border: "1px solid #16A34A", background: "#F0FDF4", color: "#16A34A" }}>
+              Payment Received
+            </button>
+          ) : (
+            <button onClick={handleInterestClick} className="btn btn-secondary" style={{ border: "1px solid var(--accredian-border)", background: "#fff", color: "#1f2937" }}>
+              Get Certified
+            </button>
+          )}
         </div>
       </div>
 
       {/* Mobile Sticky Bottom Bar */}
-      <div className="sticky-purchase-mobile">
+      <div className="sticky-purchase-mobile" style={{ transform: showBottom ? 'translateY(0)' : 'translateY(100%)', transition: 'transform 0.3s ease' }}>
         <div className="sticky-price-block">
           <div className="price-now" style={{ fontSize: "14px" }}>
             Free to learn

@@ -3,17 +3,20 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from "../../store/reducers/user";
-import ExamInterestModal from "./ExamInterestModal";
+import { decodeToken } from "react-jwt";
+import { useRouter } from "next/navigation";
+import { Base64 } from "js-base64";
 import CustomFreeCourseButton from "./CustomFreeCourseButton";
 
-// Key used to signal "open exam modal after login"
-const PENDING_KEY = "pendingExamModal";
+// Key used to signal "redirect to payment after login"
+const PENDING_KEY = "pendingPaymentRedirect";
 
 const Hero = ({ data }) => {
   const dispatch = useDispatch();
+  const router = useRouter();
   const { authenticated } = useSelector((state) => state.user);
   const [width, setWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1024);
-  const [examModalOpen, setExamModalOpen] = useState(false);
+  const [isEnrolled, setIsEnrolled] = useState(false);
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
@@ -21,27 +24,53 @@ const Hero = ({ data }) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // When the user becomes authenticated, check if we need to open the exam modal
+  // When the user becomes authenticated, check if we need to redirect to payment
   useEffect(() => {
-    if (authenticated && localStorage.getItem(PENDING_KEY) === "true") {
+    if (authenticated && localStorage.getItem(PENDING_KEY) === data?.program_id?.toString()) {
       localStorage.removeItem(PENDING_KEY);
-      setExamModalOpen(true);
+      const encryptedId = Base64.encode(data.program_id.toString());
+      router.push("/course/payment/" + encryptedId);
     }
-  }, [authenticated]);
+  }, [authenticated, data?.program_id, router]);
 
-  const [isInterestSubmitted, setIsInterestSubmitted] = useState(false);
-
+  // Check if user is already enrolled
   useEffect(() => {
-    if (typeof window !== "undefined" && data.program_id) {
-      const submitted = localStorage.getItem("exam_interest_submitted_" + data.program_id) === "true";
-      setIsInterestSubmitted(submitted);
+    if (authenticated) {
+      const token = localStorage.getItem("token");
+      if (token && data?.program_id) {
+        try {
+          const decoded = decodeToken(token);
+          if (decoded?.data?.user_id) {
+            const BACKEND_URL = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5001";
+            fetch(`${BACKEND_URL}/api/certification-payment/check-enrollment?user_id=${decoded.data.user_id}&program_id=${data.program_id}`)
+              .then(res => res.json())
+              .then(resData => {
+                if (resData.success && resData.isEnrolled) {
+                  setIsEnrolled(true);
+                }
+              })
+              .catch(err => console.error("Error checking enrollment", err));
+          }
+        } catch (e) {
+          console.error("Token decode error", e);
+        }
+      }
     }
-  }, [data.program_id]);
+  }, [authenticated, data?.program_id]);
 
   const handleInterestClick = (e) => {
     e.preventDefault();
-    if (isInterestSubmitted) return;
-    setExamModalOpen(true);
+    if (!authenticated) {
+      if (width <= 768) {
+        dispatch(userActions.setDrawerState(true));
+      } else {
+        dispatch(userActions.openLoginModal("login"));
+      }
+      localStorage.setItem(PENDING_KEY, data.program_id.toString());
+      return;
+    }
+    const encryptedId = Base64.encode(data.program_id.toString());
+    router.push("/course/payment/" + encryptedId);
   };
 
   return (
@@ -91,53 +120,30 @@ const Hero = ({ data }) => {
               subText="Earn a badge"
               className="btn btn-primary btn-twoline"
             />
-            <button
-              onClick={handleInterestClick}
-              className={`btn btn-secondary btn-twoline`}
-              disabled={isInterestSubmitted}
-              data-action="open-interest-form"
-              style={
-                isInterestSubmitted
-                  ? {
-                    background: "#F0FDF4",
-                    borderColor: "#16A34A",
-                    color: "#16A34A",
-                    cursor: "not-allowed",
-                    opacity: 1,
-                    padding: "8px 16px",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: "2px",
-                    minHeight: "56px"
-                  }
-                  : {}
-              }
-            >
-              {isInterestSubmitted ? (
-                <>
-                  <span className="btn-title" style={{ textTransform: "none", display: "flex", alignItems: "center", gap: "6px", fontWeight: 600 }}>
-                    <svg fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                    <span>Interest Registered</span>
-                  </span>
-                  <span style={{ fontSize: "11px", color: "#15803D", fontStyle: "italic", fontWeight: 400, textTransform: "none", display: "block", marginTop: "2px" }}>
-                    We'll let you know
-                  </span>
-                </>
-              ) : (
-                <>
-                  <span className="btn-title" style={{ textTransform: "none" }}>
-                    Interested in getting <strong className="font-bold"></strong>
-                  </span>
-                  <span className="btn-sub">
-                    Microsoft certified?
-                  </span>
-                </>
-              )}
-            </button>
+            {isEnrolled ? (
+              <button
+                className={`btn btn-secondary btn-twoline`}
+                disabled
+                style={{
+                  background: "#F0FDF4",
+                  borderColor: "#16A34A",
+                  color: "#16A34A",
+                  cursor: "not-allowed",
+                  opacity: 1,
+                }}
+              >
+                <span className="btn-title">Payment Received</span>
+                <span className="btn-sub">&#8377;{data.exam_amount} + GST</span>
+              </button>
+            ) : (
+              <button
+                onClick={handleInterestClick}
+                className={`btn btn-secondary btn-twoline`}
+              >
+                <span className="btn-title">Get Certified</span>
+                <span className="btn-sub">&#8377;{data.exam_amount} + GST</span>
+              </button>
+            )}
           </div>
 
           <p className="cta-pricing-note">
@@ -152,13 +158,6 @@ const Hero = ({ data }) => {
           />
         </div>
       </div>
-
-      <ExamInterestModal
-        isOpen={examModalOpen}
-        onClose={() => setExamModalOpen(false)}
-        courseTitle={data.title || null}
-        programId={data.program_id}
-      />
     </section>
   );
 };

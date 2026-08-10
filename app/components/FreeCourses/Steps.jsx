@@ -14,11 +14,11 @@ const Steps = ({ data }) => {
             <div className="step-card-title-row">
               <h3>{step.title}</h3>
               {step.type === "free" && (
-                <span className="step-tag free">Free</span>
+                <span className="step-tag free">FREE</span>
               )}
               {step.type === "paid" && (
                 <span className="step-tag paid">
-                  &#8377;{data.exam_amount} + GST (indicative)
+                  &#8377;{data.exam_amount} + GST
                 </span>
               )}
             </div>

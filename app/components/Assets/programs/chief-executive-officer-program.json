@@ -10,11 +10,11 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
-  "start_date": "25 Oct 2026",
+  "start_date": "19 Apr 2026",
   "duration": "11 months",
-  "required_years_experience": 8,
+  "required_years_experience": 10,
   "type": "online",
-  "enrollments": "active",
+  "enrollments": "inactive",
   "timings": "weekends only",
   "tags": [
     {
@@ -33,8 +33,12 @@
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
   "key_features": [
     {
+      "title": "int. immersion in dubai",
+      "text": "3-Days (opt)"
+    },
+    {
       "title": "hours",
-      "count": 144
+      "count": 132
     },
     {
       "title": "career sessions",
@@ -42,11 +46,7 @@
     },
     {
       "title": "modules",
-      "text": 13
-    },
-    {
-      "title": "CXO coaching",
-      "text": 2
+      "text": 12
     },
     {
       "title": "simulations",
@@ -58,6 +58,7 @@
     }
   ],
   "domain": "pillar",
+  "campusImmersionCost": "65000",
   "overview": {
     "programId": "chief-executive-officer-program",
     "content": [
@@ -98,7 +99,7 @@
           "Capstone Project",
           "No Cost EMI Upto 12 Months",
           "Career Assistance By Accredian",
-          "3 Transformative Simulations",
+          "One On One Career Mentorship Sessions",
           "Campus Immersions: One Campus Immersion of 3 days"
         ]
       }
@@ -135,8 +136,7 @@
         "Competitive Advantage & Industry Analysis",
         "Scenario Planning & Risk Management",
         "Strategic Goal Setting & Performance Management",
-        "Strategic Execution & Resource Allocation",
-        "Strategy Simulation"
+        "Strategic Execution & Resource Allocation"
       ]
     },
     {
@@ -156,8 +156,7 @@
         "Board–CEO Dynamics & Strategic Alignment",
         "Governance for Performance & Risk Oversight",
         "Board Composition, Committees & Effectiveness",
-        "Influencing Board Decisions & Securing Alignment",
-        "Boardroom Simulation"
+        "Influencing Board Decisions & Securing Alignment"
       ]
     },
     {
@@ -170,26 +169,24 @@
         "Evaluating and Executing M&A Opportunities"
       ]
     },
-    
-    {
-      "title": "People Leadership for CEOs",
-      "id": "6",
-      "points": [
-        "Designing High‑Performance Organizational Structures",
-        "Aligning People Strategy with Business Goals",
-        "Corporate Culture Development & Management",
-        "Executive Talent Acquisition & Development Strategies"
-      ]
-    },
-
     {
       "title": "Operational Excellence & Leadership",
-      "id": "7",
+      "id": "6",
       "points": [
         "Lean Six Sigma & Process Optimization Techniques",
         "Data-Driven Decision Making for Operations",
         "Supply Chain Management & Optimization",
         "Building a Culture of Continuous Improvement"
+      ]
+    },
+    {
+      "title": "People Leadership for CEOs",
+      "id": "7",
+      "points": [
+        "Designing High‑Performance Organizational Structures",
+        "Aligning People Strategy with Business Goals",
+        "Corporate Culture Development & Management",
+        "Executive Talent Acquisition & Development Strategies"
       ]
     },
     {
@@ -202,43 +199,29 @@
         "Cybersecurity as a CEO Priority"
       ]
     },
-    
-    {
-      "title": "Data & Analytics Leadership",
-      "id": "9",
-      "points": [
-        "Data-Driven Decision Making Under Uncertainty",
-        "Descriptive Analytics",
-        "Diagnostic Analytics",
-        "Predictive Analytics"
-      ]
-    },
-
     {
       "title": "Revenue Growth Strategies",
-      "id": "10",
+      "id": "9",
       "points": [
         "Market Opportunity Analysis & Expansion Strategy",
-        "Monetization Strategies & Pricing for Profitability",
-        "Deciding Distribution Channel",
-        "Promotion Strategy",
-        "Measuring Customer Response",
-        "Growth Response"
+        "Business Model Innovation for Growth",
+        "Strategic Partnerships & Ecosystem Development",
+        "Monetization Strategies & Pricing for Profitability"
       ]
     },
     {
       "title": "New Product Development & Innovation",
-      "id": "11",
+      "id": "10",
       "points": [
         "Innovation Strategy & Product Vision",
         "From Concept to Prototype: Product Development Lifecycle",
-        "Product Design",
+        "Go‑to‑Market Strategy & Commercialization",
         "Scaling & Sustaining Product Success"
       ]
     },
     {
       "title": "AI & Generative AI for CEOs",
-      "id": "12",
+      "id": "11",
       "points": [
         "AI Vision, Strategy & Enterprise Integration",
         "High‑Value AI & Generative AI Use Cases",
@@ -248,7 +231,7 @@
     },
     {
       "title": "Digital Transformation Strategy",
-      "id": "13",
+      "id": "12",
       "points": [
         "Digital Business Models & Value Creation",
         "Digital Transformation Strategy & Roadmapping",
@@ -263,30 +246,19 @@
       "points": [
         "Participants will create a strategic transformation plan for a simulated enterprise, integrating insights from the program’s four pillars: Strategic Leadership, Leading Organizations & Functions, Growth, Innovation & Product Leadership, and AI & Digital Leadership. The project will culminate in a board‑level presentation, defending decisions under real‑world market, operational, and stakeholder pressures."
       ]
-    },
-
-    
-    {
-      "title": "CXO Coaching",
-      "special": "2",
-      "id": "cxo-coaching",
-      "points": [
-        "Elevate your CEO program with an exclusive CXO coaching. Delivered by seasoned coaches, this specialized coaching offers invaluable insights into senior management, equipping aspiring leaders with strategic acumen. Prepare for executive roles with firsthand knowledge and guidance from top-tier executives."
-      ]
     }
   ],
   "faculty": [
-    
     {
-      "name": "Dr. Amit Shankar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
       "position": "Program Director",
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
     {
-      "name": "Dr. Sushil Kumar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
       "position": "Program Co-Director",
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
@@ -344,7 +316,7 @@
   "billing": {
     "programId": "chief-executive-officer-program",
     "points": [
-      "144+ Hours of Live Classes",
+      "132+ Hours of Live Classes",
 
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -353,18 +325,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 28419
+        "emi": 28025
       },
       {
         "months": 18,
-        "emi": 19704
+        "emi": 19431
       },
       {
         "months": 24,
-        "emi": 15311
+        "emi": 15099
       }
     ],
-    "total": 349000
+    "total": 350000
   },
   "faq": {
     "programId": "chief-executive-officer-program",

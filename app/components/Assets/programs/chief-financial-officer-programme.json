@@ -10,15 +10,15 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "25 Oct 2026",
+  "start_date": "21 Jun 2026",
   "duration": "12 months",
   "required_years_experience": 8,
   "type": "online",
-  "enrollments": "active",
+  "enrollments": "inactive",
   "timings": "weekends only",
   "tags": [
     {
-      "title": "best selling",
+      "title": "new launch",
       "type": "main"
     },
     {
@@ -34,7 +34,7 @@
   "key_features": [
     {
       "title": "hours",
-      "count": 144
+      "count": 135
     },
     {
       "title": "career sessions",
@@ -43,6 +43,10 @@
     {
       "title": "modules",
       "text": 12
+    },
+    {
+      "title": "simulations",
+      "text": 3
     },
     {
       "title": "capstone project",
@@ -92,7 +96,7 @@
           "Certification from IIM Visakhapatnam",
           "Live Instructor led classes",
           "Executive Alumni Status",
-          "2 CXO Coaching Sessions",
+          "Financial Strategy, M&A, and Financial Analytics Simulations",
           "Campus Immersions: One Campus Immersion of 3 days",
           "Career Assistance by Accredian",
           "No Cost EMI up to 12 months"
@@ -142,8 +146,17 @@
       ]
     },
     {
-      "title": "Global Economics & Financial Markets",
+      "title": "Critical Thinking & Decision Making",
       "id": "3",
+      "points": [
+        "Creative Problem Solving for Decision Making",
+        "Unraveling Mental Models for Critical Thinking",
+        "Identifying & Appreciating Behavioral Biases in Decision Making"
+      ]
+    },
+    {
+      "title": "Global Economics & Financial Markets",
+      "id": "4",
       "points": [
         "Economic Indicators & Their Implications",
         "Economic Cycles & Business Strategy",
@@ -153,7 +166,7 @@
     },
     {
       "title": "Financial Planning & Analysis for CFOs",
-      "id": "4",
+      "id": "5",
       "points": [
         "Budgeting, Forecasting, & Variance Analysis",
         "Building Financial Models",
@@ -162,6 +175,7 @@
         "Understanding Financial Performance & Growth Drivers of Organizations",
         "Managing Working Capital & Working Capital Funding",
         "Cost-Benefit Analysis for Business Decisions",
+        "Risk Assessment & Management",
         "Preparing & Evaluating Business Plans",
         "Preparing an Investor Pitch for Funding"
       ]
@@ -169,30 +183,28 @@
 
     {
       "title": "Strategic Finance",
-      "id": "5",
+      "id": "6",
       "points": [
         "Capital Allocation & Resource Management",
         "Capital Structure & Financing Decisions",
         "Raising Capital - Equity, Debt, Hybrid, IPOs & Private Placements",
-        "Financial Restructuring & Turnaround Strategies",
-        "Corporate Tax Planning and Management"
+        "Financial Restructuring & Turnaround Strategies"
       ]
     },
     {
       "title": "Mergers & Acquisitions",
-      "id": "6",
+      "id": "7",
       "points": [
         "Strategic Fit & Target Selection",
         "Valuation & Financial Modeling in M&A",
         "Negotiation & Deal Structuring",
-        "Post-Merger Financial Integration & Synergy Realization",
-        "Buy & Sell Side Role Play"
+        "Post-Merger Financial Integration & Synergy Realization"
       ]
     },
 
     {
       "title": "Financial Risk Management for CFOs",
-      "id": "7",
+      "id": "8",
       "points": [
         "Identifying & Assessing Financial Risks",
         "Market, Credit & Operational Risk Management",
@@ -202,7 +214,7 @@
     },
     {
       "title": "Corporate Governance & Regulatory Compliance",
-      "id": "8",
+      "id": "9",
       "points": [
         "Board Structure & Responsibilities",
         "Corporate Ethics & Accountability",
@@ -212,7 +224,7 @@
     },
     {
       "title": "Fintech for CFOs",
-      "id": "9",
+      "id": "10",
       "points": [
         "Blockchain Technology & Its Impact on Financial Services",
         "The Role of Artificial Intelligence in Fraud Detection",
@@ -222,7 +234,7 @@
     },
     {
       "title": "AI & Digital Transformation for CFOs",
-      "id": "10",
+      "id": "11",
       "points": [
         "Leveraging AI for Financial Forecasting & Planning",
         "Implementing Digital Tools in Financial Planning",
@@ -230,24 +242,15 @@
         "Case Studies on Successful Digital Transformation in Finance"
       ]
     },
-    
     {
-      "title": "Critical Thinking & Decision Making",
-      "id": "11",
-      "points": [
-        "Creative Problem Solving for Decision Making",
-        "Unraveling Mental Models for Critical Thinking",
-        "Identifying & Appreciating Behavioral Biases in Decision Making"
-      ]
-    },
-
-    {
-      "title": "Data Driven Decision Making",
+      "title": "Data Driven Decision Making for CFO",
       "id": "12",
       "points": [
-        "Data Driven Decision Making for CFO",
+        "Dashboard Creation",
         "Hypothesis Testing",
-        "Regression & Logistic Regression",
+        "Regression",
+        "Logistic Regression",
+        "Bootstrapping",
         "Introduction to Machine Learning Tools in Financial Decision Making",
         "Using Machine Learning Techniques for Working Capital Decisions"
       ]
@@ -258,18 +261,7 @@
       "special": "1",
       "id": "capstone-project",
       "points": [
-        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies." ,
-        "Develop a strategic market entry plan & an implementation roadmap with key milestones. Define performance metrics to measure success. Present the plan to a panel, explaining key components & recommendations.",
-        "Develop a plan for a potential M & A deal. Evaluate synergy, access deal structure, negotiation, due diligence and post-merger integration."
-      ]
-    },
-
-    {
-      "title": "CXO Coaching",
-      "special": "2",
-      "id": "cxo-coaching",
-      "points": [
-        "Elevate your CEO program with an exclusive CXO coaching. Delivered by seasoned CXOs, this specialized coaching offers invaluable insights into senior management, equipping aspiring leaders with strategic acumen. Prepare for executive roles with firsthand knowledge and guidance from top tier executives."
+        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies. Develop a strategic market entry plan & an implementation roadmap with key milestones. Define performance metrics to measure success. Present the plan to a panel, explaining key components & recommendations."
       ]
     }
   ],
@@ -292,10 +284,10 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
     {
-      "name": "Dr. Vikas Sangwan",
+      "name": "Prof. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
       "position": "Program Co-Director",
       "organization": "IIMV",
-      "image": "https://www.iimv.ac.in/storage/FacultyDetails/details_profile_picture_1769666546697af7f2544d2.jpg",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
 
@@ -332,7 +324,7 @@
   "billing": {
     "programId": "chief-financial-officer-programme",
     "points": [
-      "144+ Hours of Live Classes",
+      "135+ Hours of Live Classes",
 
       "2+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
@@ -342,18 +334,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 28419
+        "emi": 28025
       },
       {
         "months": 18,
-        "emi": 19704
+        "emi": 19431
       },
       {
         "months": 24,
-        "emi": 15311
+        "emi": 15099
       }
     ],
-    "total": 349000
+    "total": 340000
   },
   "faq": {
     "programId": "chief-financial-officer-programme",

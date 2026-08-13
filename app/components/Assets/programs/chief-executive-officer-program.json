@@ -14,7 +14,7 @@
   "duration": "11 months",
   "required_years_experience": 8,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -111,7 +111,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -170,7 +174,6 @@
         "Evaluating and Executing M&A Opportunities"
       ]
     },
-    
     {
       "title": "People Leadership for CEOs",
       "id": "6",
@@ -181,7 +184,6 @@
         "Executive Talent Acquisition & Development Strategies"
       ]
     },
-
     {
       "title": "Operational Excellence & Leadership",
       "id": "7",
@@ -202,7 +204,6 @@
         "Cybersecurity as a CEO Priority"
       ]
     },
-    
     {
       "title": "Data & Analytics Leadership",
       "id": "9",
@@ -213,7 +214,6 @@
         "Predictive Analytics"
       ]
     },
-
     {
       "title": "Revenue Growth Strategies",
       "id": "10",
@@ -264,8 +264,6 @@
         "Participants will create a strategic transformation plan for a simulated enterprise, integrating insights from the program’s four pillars: Strategic Leadership, Leading Organizations & Functions, Growth, Innovation & Product Leadership, and AI & Digital Leadership. The project will culminate in a board‑level presentation, defending decisions under real‑world market, operational, and stakeholder pressures."
       ]
     },
-
-    
     {
       "title": "CXO Coaching",
       "special": "2",
@@ -276,7 +274,6 @@
     }
   ],
   "faculty": [
-    
     {
       "name": "Dr. Amit Shankar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
@@ -345,7 +342,6 @@
     "programId": "chief-executive-officer-program",
     "points": [
       "144+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -391,7 +387,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

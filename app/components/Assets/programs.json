@@ -1249,8 +1249,6 @@
     "start_date": "16 May 2026",
     "contact": "8851827093"
   },
-
-
   {
     "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
@@ -1284,7 +1282,7 @@
     "contact": "8882597163"
   },
   {
-    "status": "admission closed",
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Chief Executive Officer Program (The CEO Program)",

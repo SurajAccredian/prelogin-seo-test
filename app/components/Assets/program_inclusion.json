@@ -1366,6 +1366,7 @@
       ]
     }
   },
+  
   {
     "title": "Chief Financial Officer Programme",
     "id": "chief-financial-officer-programme-12-months",
@@ -1383,6 +1384,38 @@
       "alumni status": "Executive Alumni Status from IIM Visakhapatnam awarded upon program completion",
       "benefits of alumni status": [
         "Batch and Individual Email IDs",
+        "Executive Alumni Identity Card",
+        "Monthly access to IIM(V)ibes and IIMV Newsletter",
+        "Invitation and news about eminent talks, workshops, seminars, and conferences at the institute to grow professional and social networks.",
+        "Access to IIMV Alumni group on LinkedIn, exposing you to a great networking opportunity",
+        "Access to IIM Visakhapatnam's Executive Alumni Network",
+        "Access to Library Resources and Campus Visits",
+        "Alumni City Meetups"
+      ],
+      "minimum attendance required": "Minimum Attendance Required: 70%",
+      "certificates": "Completion Certificate issued by IIM Visakhapatnam",
+      "career assistance sessions": "6 Career Assistance Sessions by Accredian",
+      "tools/framework covered in the program": "Excel, Power BI",
+      "physical ID card": "No Physical ID card to be provided"
+    }
+  },
+  {
+    "title": "Chief Financial Officer Programme",
+    "id": "chief-financial-officer-programme",
+    "data": {
+      "institute name": "IIM Visakhapatnam",
+      "program name": "Chief Financial Officer Programme",
+      "duration": "12 Months",
+      "Program Terms/Modules": "12 Modules",
+      "live session hours": "144+ Hours",
+      "capstone project": "1 Capstone Project upon Program Completion",
+      "campus immersion available": "Yes",
+      "campus immersion duration": "One Campus Immersion of 3 days",
+      "campus immersion fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "program faculty": "IIM Visakhapatnam Faculty and Industry Experts",
+      "alumni status": "Executive Alumni Status from IIM Visakhapatnam awarded upon program completion",
+      "benefits of alumni status": [
+        "Cohort and Individual Email IDs",
         "Executive Alumni Identity Card",
         "Monthly access to IIM(V)ibes and IIMV Newsletter",
         "Invitation and news about eminent talks, workshops, seminars, and conferences at the institute to grow professional and social networks.",
@@ -1857,6 +1890,7 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
+  
   {
     "title": "Chief Executive Officer Program (The CEO Program)",
     "id": "ceo-program-11-months",
@@ -1883,6 +1917,37 @@
       "alumni status": "Executive Alumni Status from IIM Visakhapatnam awarded upon program completion",
       "benefits of alumni status": [
         "Batch and Individual Email IDs",
+        "Executive Alumni Identity Card",
+        "Monthly access to IIM(V)ibes and IIMV Newsletter",
+        "Invitation and news about eminent talks, workshops, seminars and conferences at the institute to grow professional and social networks.",
+        "Access to IIMV Alumni group on linkedin exposing you to a great networking opportunity",
+        "Access to IIM Visakhapatnam's Executive Alumni Network",
+        "Access to Library Resources and Campus Visits",
+        "Alumni City Meetups"
+      ],
+      "minimum attendance required": "Minimum Attendance Required: 70%",
+      "certificates": "Completion Certificate issued by IIM Visakhapatnam",
+      "career assistance sessions": "6 Career Assistance Sessions by Accredian",
+      "physical ID card": "No Physical ID card to be provided"
+    }
+  },
+  {
+    "title": "Chief Executive Officer Program (The CEO Program)",
+    "id": "chief-executive-officer-program",
+    "data": {
+      "institute name": "IIM Visakhapatnam",
+      "program name": "Chief Executive Officer Program (The CEO Program)",
+      "duration": "11 Months",
+      "Program Terms/Modules": "13 Modules",
+      "live session hours": "144+ Hours",
+      "capstone project": "One capstone project",
+      "campus immersion available": "Yes",
+      "campus immersion duration": "3 Day Campus Immersion at IIM Visakhapatnam",
+      "campus immersion fee": "Food and lodging (only stay included in Double Occupancy Rooms); Travel Expenses Not Included",
+      "program faculty": "IIM Visakhapatnam Faculty and Industry Experts",
+      "alumni status": "Executive Alumni Status from IIM Visakhapatnam awarded upon program completion",
+      "benefits of alumni status": [
+        "Cohort and Individual Email IDs",
         "Executive Alumni Identity Card",
         "Monthly access to IIM(V)ibes and IIMV Newsletter",
         "Invitation and news about eminent talks, workshops, seminars and conferences at the institute to grow professional and social networks.",

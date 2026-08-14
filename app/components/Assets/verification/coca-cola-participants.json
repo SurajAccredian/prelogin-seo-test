@@ -1,0 +1,21 @@
+{
+  "workshop": "AI Capability Building with Microsoft Copilot",
+  "issuer": "Accredian",
+  "date": "19 Aug 2026",
+  "hours": "2 Days",
+  "pdfBaseUrl": "https://storage.googleapis.com/accredian-assets/External_Assests/Coca-cola-certificates/",
+  "participants": [
+    { "id": "CC-AI-2026-001", "name": "Arjun Krishan Puri", "role": "Participant" },
+    { "id": "CC-AI-2026-002", "name": "Neha Ahuja Bhutani", "role": "Participant" },
+    { "id": "CC-AI-2026-003", "name": "Aditi Shukla", "role": "Participant" },
+    { "id": "CC-AI-2026-004", "name": "Vandana Singh", "role": "Participant" },
+    { "id": "CC-AI-2026-005", "name": "Sanchit Jain", "role": "Participant" },
+    { "id": "CC-AI-2026-006", "name": "Srijan Virmani", "role": "Participant" },
+    { "id": "CC-AI-2026-007", "name": "Smriti Maurya", "role": "Participant" },
+    { "id": "CC-AI-2026-008", "name": "Prapti Sahni Kapoor", "role": "Participant" },
+    { "id": "CC-AI-2026-009", "name": "Shreya Aggarwal", "role": "Participant" },
+    { "id": "CC-AI-2026-010", "name": "Sahiba Gambhir", "role": "Participant" },
+    { "id": "CC-AI-2026-011", "name": "Richa Khandelwal", "role": "Participant" },
+    { "id": "CC-AI-2026-012", "name": "Neelakshi Sharma", "role": "Participant" }
+  ]
+}

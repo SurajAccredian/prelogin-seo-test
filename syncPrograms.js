@@ -30,7 +30,7 @@ console.log(`Found ${programs.length} programs in src JSON`);
 
 // Pick only selected fields
 const filteredPrograms = programs.map(
-  ({ university_name, university_image, program_name, category, start_date, status, id, duration }) => ({
+  ({ university_name, university_image, program_name, category, start_date, status, id, duration, program_fee }) => ({
     university_name,
     university_image,
     program_name,
@@ -40,6 +40,7 @@ const filteredPrograms = programs.map(
     url: `https://accredian.com/programs/${id}`,
     id,
     duration,
+    program_fee,
   })
 );
 

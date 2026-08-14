@@ -1732,6 +1732,34 @@
     "program_fee": 260000
   },
   {
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+  "university_name": "IIM Visakhapatnam",
+  "program_name": "PG Certificate Program in Family Business Management",
+  "duration": "12 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+  "batch_type": "Online",
+  "id": "pg-certificate-program-in-family-business-management",
+  "category": "business management",
+  "tags": [],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-In-Family-Business-Management.pdf",
+    "source": "IIMV PG Certificate Program in Family Business Management Brochure",
+    "campaign_name": "IIMV-Family Business Management"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "25 Oct 2026",
+  "contact": ""
+},
+  {
     "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",

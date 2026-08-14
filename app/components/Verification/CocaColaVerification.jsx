@@ -30,13 +30,14 @@ const CocaColaVerification = () => {
       )
     : null;
 
-  const handleDownloadPdf = () => {
-    const pdfUrl =
-      participant?.pdfUrl ||
-      (workshopData?.pdfBaseUrl && participant?.id
-        ? `${workshopData.pdfBaseUrl}${participant.id}.pdf`
-        : null);
+  // Compute PDF download URL
+  const pdfUrl =
+    participant?.pdfUrl ||
+    (workshopData?.pdfBaseUrl && participant?.id
+      ? `${workshopData.pdfBaseUrl}${participant.id}.pdf`
+      : null);
 
+  const handleDownloadPdf = () => {
     if (pdfUrl) {
       window.open(pdfUrl, "_blank", "noopener,noreferrer");
     } else {
@@ -239,13 +240,26 @@ const CocaColaVerification = () => {
             </div>
 
             {/* Download Certificate PDF Button */}
-            <button
-              onClick={handleDownloadPdf}
-              className="w-full mt-8 py-3.5 px-6 rounded-xl font-bold text-sm sm:text-base bg-[#1A73E8] hover:bg-[#1557B0] text-white transition-all shadow-md shadow-blue-500/20 active:scale-[0.99] flex items-center justify-center gap-2.5 cursor-pointer"
-            >
-              <Download className="w-5 h-5" />
-              <span>Download certificate (PDF)</span>
-            </button>
+            {pdfUrl ? (
+              <a
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                download={`${participant.id}.pdf`}
+                className="w-full mt-8 py-3.5 px-6 rounded-xl font-bold text-sm sm:text-base bg-[#1A73E8] hover:bg-[#1557B0] text-white transition-all shadow-md shadow-blue-500/20 active:scale-[0.99] flex items-center justify-center gap-2.5 cursor-pointer text-center"
+              >
+                <Download className="w-5 h-5" />
+                <span>Download certificate (PDF)</span>
+              </a>
+            ) : (
+              <button
+                onClick={handleDownloadPdf}
+                className="w-full mt-8 py-3.5 px-6 rounded-xl font-bold text-sm sm:text-base bg-[#1A73E8] hover:bg-[#1557B0] text-white transition-all shadow-md shadow-blue-500/20 active:scale-[0.99] flex items-center justify-center gap-2.5 cursor-pointer"
+              >
+                <Download className="w-5 h-5" />
+                <span>Download certificate (PDF)</span>
+              </button>
+            )}
           </div>
 
           {/* Footer Explanation Note */}

@@ -108,6 +108,10 @@
   }
 }
 
+.policy-inner {
+  overscroll-behavior: contain;
+}
+
 .policy-page-container {
   /* Default styles */
 }

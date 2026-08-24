@@ -65,7 +65,10 @@ const Admission = () => {
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] py-2 lg:block hidden">
               <div className="w-full xl:px-5 rounded">
-                <div className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar">
+                <div
+                  className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar"
+                  data-lenis-prevent
+                >
                   {POLICIES.map((policy, index) => (
                     <Link
                       href={`/policies/${policy.tab}`}
@@ -99,7 +102,10 @@ const Admission = () => {
               </div>
             </div>
             <div className="flex-1">
-              <div className="policy-inner w-full py-0 md:py-2 lg:py-8 mt-4 lg:overflow-y-auto custom-scrollbar lg:max-h-[65vh] lg:px-4">
+              <div
+                className="policy-inner w-full py-0 md:py-2 lg:py-8 mt-4 lg:overflow-y-auto custom-scrollbar lg:max-h-[65vh] lg:px-4"
+                data-lenis-prevent
+              >
                 {policyWithTab && parse(policyWithTab?.body)}
               </div>
               <p className="mt-10">

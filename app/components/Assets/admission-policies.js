@@ -464,10 +464,7 @@ Accredian and E&ICT Academy IIT Guwahati reserve the right to cancel or terminat
         Sessions will be conducted according to the schedule provided in advance to all participants before the commencement of each module. While the institution's sincere intention is to complete the entire course within the specified timeframe, unforeseen circumstances beyond its control may necessitate adjustments to the course schedule.
       </li>
       <li>
-        Although IIMV endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IIMV will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees. Any additional costs incurred due to delays will be borne by IIMV.
-      </li>
-      <li>
-       Career Assistance Sessions will be conducted <strong>towards the conclusion of the program</strong>. By this stage, students will have established a solid foundation, thereby maximizing the efficacy of these sessions as they prepare to embark on their professional journeys. During the sessions, students will be provided valuable guidance on resume building, interview techniques, job search strategies, and career planning. We encourage all participants to take full advantage of these sessions to enhance their career readiness.
+        Although IIMV endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IIMV will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees.
       </li>
     </ol>
     <h1>Tools</h1>
@@ -478,7 +475,7 @@ Accredian and E&ICT Academy IIT Guwahati reserve the right to cancel or terminat
     <ol>
     <li>The Learning Management System (LMS) serves as a comprehensive platform where students can access all program content and study materials.</li>
     <li>It is designed to facilitate an engaging and interactive learning experience, enhancing understanding through various features.</li>
-    <li>Students will have unlimited access to the LMS and its content for up to <strong>three years</strong> from the start date of the program.</li>
+    <li>Students will have access to the LMS and its content for up to <strong>3 Years from Batch Start</strong>.</li>
     <li>This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter.</li>    </ol>
     <p>Please note that lifetime access is <strong>not</strong> provided.</p>
     <h1>Query Resolution</h1>
@@ -528,40 +525,99 @@ The institute reserves the right to revoke a student’s access to the dashboard
       Certificates from IIMV will be issued only in the name of the student who has enrolled in the program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.
     </p>
     <h1>Refund Policy</h1>
-    <ol>
-      <li>
-        <p>
-          One notable feature of the programs is the 7-day cooling-off period, which begins from the day of payment of the full fee or the first installment, allowing students to reassess the suitability of the program according to their career goals and vision. The purpose of this cooling-off period is as follows:
-        </p>
-        <ol>
-        <li>
-          <strong>Cooling-off Period: </strong>
-          Students can raise a refund request within a cooling-off period of 7 days. Any requests received within this window will be considered for further evaluation.
-        </li>
-          <li>
-            <strong>Evaluation Process:</strong>
-            Refund requests submitted within the cooling-off period will be forwarded to the IIMV team for final approval. Approval will be based on the proposed solution offered by the institute to address the reasons provided for raising the refund request.
-          </li>
-          <li>
-            <strong>Approval Timeframe:</strong>
-            Please note that the final approval process may take approximately 14-15 days from the date the refund request is raised. Students are kindly requested to exercise patience during this period as the institute carefully evaluates their requests.
-          </li>
-          <li>
-            <strong>Request Submission:</strong>
-            To initiate a refund request, students should send an email to admissions@accredian.com. The date of the request will be considered as the date when the email is sent to the provided address.
-          </li>
-        </ol>
-      </li>
-      <li>
-        It is the sole responsibility of the student enrolling in a Program to verify the accuracy and evaluate the suitability and relevance of the enrolled Program. Transfer of enrollment to other programs or batches is NOT possible.
-      </li>
-      <li>
-        If a student chooses to upgrade to another program where the already paid fee is adjusted in the upgraded program fee, it should be noted that they will not be eligible for either a refund or a cooling-off period, as upgrading to another program is solely at the student's discretion.
-      </li>
-      <p>
-        After the 7-day cooling-off period, no refunds will be processed regardless of whether the program has started or not.
-      </p>
-    </ol>
+<ol>
+  <li>
+    <strong>General Position on Refunds –</strong>
+    As a general rule, the Course Fee paid is non-refundable. Refunds shall be governed by the provisions set out below, and any exception shall be considered solely at the discretion of the Institute under extraordinary and exceptional circumstances.
+  </li>
+
+  <li>
+    <strong>Refund Requests Prior to Programme Inauguration –</strong>
+    A student who withdraws at least ten (10) calendar days prior to the Programme Inauguration Date shall be eligible for a refund of the Programme Fee paid, after deduction of Administrative Charges equivalent to the Application Fee. The Application Fee paid at the time of enrolment shall remain non-refundable under all circumstances.
+  </li>
+
+  <li>
+    <strong>Application Fee –</strong>
+    The Application Fee paid by the student shall not be refunded under any circumstances.
+  </li>
+
+  <li>
+    <strong>Course Material Fee –</strong>
+    Where course materials have already been shared with the student prior to withdrawal, the corresponding fee attributable to such course materials shall be non-refundable.
+  </li>
+
+  <li>
+    <strong>Campus Immersion Component –</strong>
+    Where a programme includes a campus immersion component and the student has paid the prescribed immersion fee in full by the stipulated due date but is unable to attend the campus immersion physically due to personal reasons, the student may attend the immersion in online mode, provided such a facility is available. No refund, whether partial or full, shall be admissible in respect of the campus immersion fee under any circumstances.
+  </li>
+
+  <li>
+    <strong>No Refunds Post-Commencement –</strong>
+    Normally, no refund shall be permissible where a student withdraws on or after the Programme Inauguration Date.
+  </li>
+
+  <li>
+    <strong>Cancellation of Enrolment or Termination –</strong>
+    No refund shall be permissible under any circumstances if the student's enrolment is cancelled, or if the student is terminated from the programme by the Institute at any stage, irrespective of the grounds for such cancellation or termination.
+  </li>
+
+  <li>
+    <strong>Exceptional Circumstances –</strong>
+    Notwithstanding anything contained herein, the Institute reserves the right to consider exceptions to this policy under extraordinary and exceptional circumstances that are duly justified and supported by appropriate documentary evidence. Any such request shall be considered only upon compliance with the prescribed process.
+  </li>
+
+  <li>
+    <strong>Processing Timeline –</strong>
+    Eligible refunds, after adjustment of any applicable dues, shall normally be processed within thirty (30) calendar days from the receipt of complete and correct documentation from Accredian, to the satisfaction of the Institute.
+  </li>
+
+  <li>
+    <strong>Mode of Refund –</strong>
+    Approved refunds shall be remitted directly by IIM Visakhapatnam to the student's designated bank account.
+  </li>
+
+  <li>
+    <strong>Submission of Requests –</strong>
+    All refund requests must be submitted in writing to iimv@accredian.com.
+  </li>
+</ol>
+
+<h1>Withdrawal Policy</h1>
+
+<p>
+  Participants seeking withdrawal from a program should submit a formal written request to the Service Provider by mail and Speed Post. The request should include the following details of the participant:
+</p>
+
+<ol>
+  <li>Full name</li>
+  <li>Copy of Aadhar Card</li>
+  <li>Copy of PAN Card</li>
+  <li>Title of the Program</li>
+  <li>Batch No.</li>
+  <li>Program Inauguration Date</li>
+  <li>
+    Fee Payment Details (Date, Amount and Mode of payment; supported by documentary evidence)
+  </li>
+  <li>Reason for withdrawal</li>
+  <li>
+    Supporting documentation (For example, in the event of medical reasons, supporting documentation shall include certification from a competent Government Medical Authority)
+  </li>
+  <li>
+    A copy of a cancelled specimen cheque or an authenticated bank statement, for the Institute to gather the bank details (Account No., Account type, Branch Name, Bank Name, IFSC Code)
+  </li>
+</ol>
+
+<p>
+  <strong>Consequences of Withdrawal –</strong>
+  Participants withdrawing from the program at any stage (irrespective of the duration of their enrolment in the program or attendance) shall not be eligible for any:
+</p>
+
+<ol>
+  <li>Certificate of Participation or Completion</li>
+  <li>Academic credit, transcript, grade card, mark sheet etc.</li>
+  <li>Alumni status</li>
+  <li>Any other facility or benefit.</li>
+</ol>
     <h1>Discontinuation Policy</h1>
     <ol>
     <li>    

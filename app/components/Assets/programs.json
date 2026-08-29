@@ -255,7 +255,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "30 Aug 2026",
+    "start_date": "10 Jan 2027",
     "contact": "8851827093",
     "program_fee": 220000
   },
@@ -313,7 +313,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "30 Aug 2026",
+    "start_date": "13 Sep 2026",
     "contact": "8851827093",
     "program_fee": 260000
   },
@@ -641,7 +641,7 @@
     "program_fee": 160000
   },
   {
-    "status": "New Launch",
+    "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "university_name": "IIM Ranchi",
     "program_name": "Senior Management Program",
@@ -1255,7 +1255,7 @@
     "program_fee": 425000
   },
   {
-    "status": "New Launch",
+    "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
     "university_name": "IIM Tiruchirappalli",
     "program_name": "Chief Technology Officer Programme (The CTO Program)",

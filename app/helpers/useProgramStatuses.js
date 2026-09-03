@@ -3,18 +3,6 @@
 import { useState, useEffect } from "react";
 import { getBulkProgramRegistrationStatus } from "../services/program.service";
 
-// Known static slug to PID mappings for quick client-side resolution
-const SLUG_TO_PID_MAP = {
-  "iim-trichy-chief-technology-officer-programme": 123,
-  "iiml-chief-human-resource-officer-programme-the-chro-program": 163,
-  "iimr-chief-human-resource-officer-programme-the-chro-program": 162,
-  "iimv-executive-program-in-leadership-with-ai": 173,
-  "pg-certificate-program-in-family-business-management": 171,
-  "global-senior-leadership-program": 172,
-  "chief-financial-officer-programme": 170,
-  "advanced-certificate-program-in-design-thinking-innovation-with-ai": 168,
-};
-
 // In-memory module-level cache for client side to prevent duplicate API requests
 let globalStatuses = null;
 let inFlightPromise = null;
@@ -73,8 +61,7 @@ export function resolveProgramStatus(program, statuses = globalStatuses) {
 /**
  * Fetches all DB program statuses in a single bulk request via program.service.
  * Deduplicates in-flight requests and caches globally in the browser.
- */
-async function fetchBulkStatuses() {
+ */async function fetchBulkStatuses() {
   if (globalStatuses) return globalStatuses;
   if (inFlightPromise) return inFlightPromise;
 
@@ -82,23 +69,22 @@ async function fetchBulkStatuses() {
     try {
       const response = await getBulkProgramRegistrationStatus();
       const resData = response?.data || response || {};
-      const byPid = resData.byPid || {};
-      const bySlug = {};
 
-      for (const [slug, pid] of Object.entries(SLUG_TO_PID_MAP)) {
-        if (byPid[pid]) {
-          bySlug[slug] = byPid[pid];
-        }
-      }
+      const byPid = resData.byPid || {};
+      const bySlug = resData.bySlug || {};
 
       globalStatuses = { byPid, bySlug };
     } catch (err) {
-      console.warn("[useProgramStatuses] Failed to fetch bulk program statuses:", err.message);
+      console.warn(
+        "[useProgramStatuses] Failed to fetch bulk program statuses:",
+        err.message
+      );
       globalStatuses = { byPid: {}, bySlug: {} };
     } finally {
       inFlightPromise = null;
       listeners.forEach((listener) => listener(globalStatuses));
     }
+
     return globalStatuses;
   })();
 

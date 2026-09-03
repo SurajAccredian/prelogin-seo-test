@@ -1,11 +1,6 @@
 import fs from "fs";
 import path from "path";
 
-// Static fallback mappings if any file is missing explicit pid property
-const STATIC_SLUG_TO_PID_FALLBACK = {
-  "iim-trichy-chief-technology-officer-programme": 123,
-};
-
 let cachedSlugToPidMap = null;
 let cachedPidToSlugMap = null;
 
@@ -18,13 +13,8 @@ function initProgramPidMaps() {
     return { slugToPidMap: cachedSlugToPidMap, pidToSlugMap: cachedPidToSlugMap };
   }
 
-  const slugToPidMap = { ...STATIC_SLUG_TO_PID_FALLBACK };
+  const slugToPidMap = {};
   const pidToSlugMap = {};
-
-  // Populate from static fallbacks first
-  for (const [slug, pid] of Object.entries(STATIC_SLUG_TO_PID_FALLBACK)) {
-    pidToSlugMap[pid] = slug;
-  }
 
   try {
     const programsDir = path.join(process.cwd(), "app/components/Assets/programs");

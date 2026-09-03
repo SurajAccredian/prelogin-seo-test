@@ -1,6 +1,7 @@
 {
   "category": "56",
   "id": "iim-ranchi-senior-management-program",
+  "pid": 146,
   "vertical": "senior management",
   "title": "Senior Management Program",
   "description": "Embark on a 12 month learning journey in executive leadership, operations, business strategies, and analytics.",
@@ -108,7 +109,11 @@
     "experiential-learning",
     "strategic-leadership"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -390,7 +395,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

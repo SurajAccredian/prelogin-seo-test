@@ -1,6 +1,7 @@
 {
   "category": "47",
   "id": "professional-certificate-in-ai-for-leaders",
+  "pid": 147,
   "vertical": "artificial intelligence",
   "title": "Professional Certificate in AI for Leaders",
   "description": "Embark on a 4-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.",
@@ -97,13 +98,16 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "AI Foundations for Business Leaders",
@@ -164,7 +168,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Selvan Dorairaj",
@@ -290,7 +293,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 4 Months."]
+            "content": [
+              "The duration of the program is 4 Months."
+            ]
           }
         ]
       },

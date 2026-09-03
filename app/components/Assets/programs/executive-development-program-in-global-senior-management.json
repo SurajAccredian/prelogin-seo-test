@@ -1,6 +1,7 @@
 {
   "category": "21",
   "id": "executive-development-program-in-global-senior-management",
+  "pid": 141,
   "vertical": "senior management",
   "title": "Executive Development Program in Global Senior Management",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
@@ -120,7 +121,11 @@
     "CXO-coaching-sessions",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -182,7 +187,6 @@
         "Cross Cultural Management"
       ]
     },
-
     {
       "title": "Marketing & Customer Growth Strategy",
       "week": "",
@@ -194,7 +198,6 @@
         "Data-Driven Marketing & Customer Insights"
       ]
     },
-
     {
       "title": "Global Operations & Supply Chain Leadership",
       "week": "",
@@ -375,7 +378,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

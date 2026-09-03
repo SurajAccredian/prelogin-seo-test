@@ -1,6 +1,7 @@
 {
   "category": "44",
   "id": "post-graduate-diploma-in-management-for-working-executives",
+  "pid": 127,
   "vertical": "PG Diploma",
   "title": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
   "description": "Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.",
@@ -111,7 +112,11 @@
     "convocation-ceremony",
     "iimv-diploma"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "online test (MAST) and personal interview",
@@ -158,7 +163,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "M Chandrasekhar Director",
@@ -308,7 +312,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

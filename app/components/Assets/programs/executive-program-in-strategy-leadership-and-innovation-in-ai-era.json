@@ -1,6 +1,7 @@
 {
   "category": "42",
   "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
+  "pid": 125,
   "vertical": "strategy & leadership",
   "title": "Executive Program in Strategy, Leadership and Innovation in AI Era",
   "description": "Embark on an 11 month learning journey in executive leadership, operations, business strategies, and analytics.",
@@ -110,7 +111,11 @@
     "exclusive-merchandise",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -269,7 +274,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Dr. Sushil Kumar",
@@ -336,7 +340,6 @@
     "programId": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
     "points": [
       "132+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -382,7 +385,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

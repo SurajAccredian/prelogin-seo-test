@@ -1,6 +1,7 @@
 {
   "category": "57",
   "id": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders",
+  "pid": 154,
   "vertical": "artificial intelligence",
   "title": "Advanced Certificate in Generative AI for Leaders",
   "description": "Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.",
@@ -105,7 +106,11 @@
     "experiential-learning",
     "leadership-driven-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -335,7 +340,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },

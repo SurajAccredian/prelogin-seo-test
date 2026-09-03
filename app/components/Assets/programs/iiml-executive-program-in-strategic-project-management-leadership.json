@@ -1,9 +1,19 @@
 {
   "id": "iiml-executive-program-in-strategic-project-management-leadership",
+  "pid": 137,
   "tags": [
-    { "type": "main", "title": "best selling" },
-    { "type": "ordinary", "title": "Instructor led" },
-    { "type": "ordinary", "title": "Online" }
+    {
+      "type": "main",
+      "title": "best selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
   ],
   "type": "online",
   "title": "Executive Program in Strategic Project Management & Leadership",
@@ -17,9 +27,18 @@
     ],
     "programId": "iiml-executive-program-in-strategic-project-management-leadership",
     "monthly_emi": [
-      { "emi": "22078 - 22634", "months": 12 },
-      { "emi": "15342 - 15800", "months": 18 },
-      { "emi": "11974 - 12428", "months": 24 }
+      {
+        "emi": "22078 - 22634",
+        "months": 12
+      },
+      {
+        "emi": "15342 - 15800",
+        "months": 18
+      },
+      {
+        "emi": "11974 - 12428",
+        "months": 24
+      }
     ]
   },
   "contact": "8882597163",
@@ -198,12 +217,28 @@
   "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
   "enrollments": "active",
   "short_title": "project management",
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "key_features": [
-    { "text": "126", "title": "class hours" },
-    { "text": "10", "title": "modules" },
-    { "text": "3 days", "title": "campus immersion" },
-    { "text": "1", "title": "capstone project" }
+    {
+      "text": "126",
+      "title": "class hours"
+    },
+    {
+      "text": "10",
+      "title": "modules"
+    },
+    {
+      "text": "3 days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    }
   ],
   "unique_points": [
     "certificate",

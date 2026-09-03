@@ -1,6 +1,7 @@
 {
   "category": "34",
   "id": "executive-development-program-strategic-hr-leadership",
+  "pid": 104,
   "vertical": "Human Resource",
   "title": "Executive Development Program in Strategic HR Leadership",
   "description": "Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.",
@@ -114,7 +115,11 @@
     "experiential-learning",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -228,7 +233,11 @@
     {
       "title": "Future of Industrial Relations & New Labor Laws",
       "week": "",
-      "points": ["Labour Laws", "HR Compliance", "New Policies"]
+      "points": [
+        "Labour Laws",
+        "HR Compliance",
+        "New Policies"
+      ]
     },
     {
       "title": "Campus Immersion",
@@ -263,7 +272,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
       "name": "Dr. Keith C. D’Souza",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Keith%20C.%20D%E2%80%99Souza.webp",
@@ -278,7 +286,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
       "name": "Dr Narasimhan Rajkumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Narsimha%20Rao.webp",
@@ -286,7 +293,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
       "name": "Dr. Paramjyot Singh",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Paramjyot%20Singh.webp",
@@ -294,7 +300,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
       "name": "Dr. Snigdha Pattnaik",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Dr.%20Snigdha%20Pattnaik.webp",
@@ -302,7 +307,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
       "name": "Prof. RatanKK",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Prof.%20RatanKK.webp",
@@ -310,7 +314,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gutsgo.webp"
     },
-
     {
       "name": "Ramesh Soundararajan",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Ramesh%20Soundararajan.webp",
@@ -318,7 +321,6 @@
       "organization": "XLRI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
     },
-
     {
       "name": "Santosh Thangavelu",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-hr-Faculty/Santosh%20Thangavelu.webp",
@@ -331,7 +333,6 @@
     "programId": "executive-development-program-strategic-hr-leadership",
     "points": [
       "120 Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -385,7 +386,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

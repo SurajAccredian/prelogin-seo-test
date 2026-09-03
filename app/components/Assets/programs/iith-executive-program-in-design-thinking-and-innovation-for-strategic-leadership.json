@@ -1,9 +1,19 @@
 {
   "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
+  "pid": 140,
   "tags": [
-    { "type": "main", "title": "best selling" },
-    { "type": "ordinary", "title": "Instructor led" },
-    { "type": "ordinary", "title": "Online" }
+    {
+      "type": "main",
+      "title": "best selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
   ],
   "type": "online",
   "title": "Executive Certification Program in Design Thinking & Innovation for Strategic Leadership",
@@ -18,9 +28,18 @@
     ],
     "programId": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "monthly_emi": [
-      { "emi": 15070, "months": 12 },
-      { "emi": 10411, "months": 18 },
-      { "emi": 8065, "months": 24 }
+      {
+        "emi": 15070,
+        "months": 12
+      },
+      {
+        "emi": 10411,
+        "months": 18
+      },
+      {
+        "emi": 8065,
+        "months": 24
+      }
     ]
   },
   "contact": "8882597163",
@@ -154,13 +173,32 @@
   "description": "Embark on a 6 month learning journey in Applied Innovation, Experience Design & Strategic Leadership.",
   "enrollments": "inactive",
   "short_title": "Design Thinking",
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "key_features": [
-    { "text": "5", "title": "modules" },
-    { "text": "72+", "title": "class hours" },
-    { "text": "1", "title": "capstone project" },
-    { "text": "2 day", "title": "campus immersion (opt.)" },
-    { "text": "4", "title": "career sessions" }
+    {
+      "text": "5",
+      "title": "modules"
+    },
+    {
+      "text": "72+",
+      "title": "class hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "2 day",
+      "title": "campus immersion (opt.)"
+    },
+    {
+      "text": "4",
+      "title": "career sessions"
+    }
   ],
   "unique_points": [
     "capstone-project",

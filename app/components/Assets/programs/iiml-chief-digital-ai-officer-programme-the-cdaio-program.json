@@ -1,9 +1,19 @@
 {
   "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+  "pid": 138,
   "tags": [
-    { "type": "main", "title": "best selling" },
-    { "type": "ordinary", "title": "Instructor led" },
-    { "type": "ordinary", "title": "Online" }
+    {
+      "type": "main",
+      "title": "best selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
   ],
   "type": "online",
   "title": "Chief Digital & AI Officer Programme (The CDAIO Program)",
@@ -17,9 +27,18 @@
     ],
     "programId": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
     "monthly_emi": [
-      { "emi": "41196 - 42234", "months": 12 },
-      { "emi": "28627 - 29483", "months": 18 },
-      { "emi": "22342 - 23191", "months": 24 }
+      {
+        "emi": "41196 - 42234",
+        "months": 12
+      },
+      {
+        "emi": "28627 - 29483",
+        "months": 18
+      },
+      {
+        "emi": "22342 - 23191",
+        "months": 24
+      }
     ]
   },
   "contact": "8882597163",
@@ -221,12 +240,28 @@
   "description": "Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.",
   "enrollments": "active",
   "short_title": "Chief Digital & AI Officer",
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "key_features": [
-    { "text": "12", "title": "modules" },
-    { "text": "126", "title": "class hours" },
-    { "text": "1", "title": "capstone project" },
-    { "text": "3 days", "title": "campus immersion" }
+    {
+      "text": "12",
+      "title": "modules"
+    },
+    {
+      "text": "126",
+      "title": "class hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "3 days",
+      "title": "campus immersion"
+    }
   ],
   "unique_points": [
     "capstone-project",

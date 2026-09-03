@@ -1,9 +1,19 @@
 {
   "id": "iith-professional-certificate-program-in-strategic-project-management",
+  "pid": 139,
   "tags": [
-    { "type": "main", "title": "best selling" },
-    { "type": "ordinary", "title": "Instructor led" },
-    { "type": "ordinary", "title": "Online" }
+    {
+      "type": "main",
+      "title": "best selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
   ],
   "type": "online",
   "title": "Professional Certificate Program in Strategic Project Management",
@@ -18,9 +28,18 @@
     ],
     "programId": "iith-professional-certificate-program-in-strategic-project-management",
     "monthly_emi": [
-      { "emi": 15720, "months": 12 },
-      { "emi": 10861, "months": 18 },
-      { "emi": 8413, "months": 24 }
+      {
+        "emi": 15720,
+        "months": 12
+      },
+      {
+        "emi": 10861,
+        "months": 18
+      },
+      {
+        "emi": 8413,
+        "months": 24
+      }
     ]
   },
   "contact": "8882597163",
@@ -187,13 +206,32 @@
   "description": "Embark on a 6 month learning journey in Project Planning, Risk Management, and Project Governance.",
   "enrollments": "inactive",
   "short_title": "Strategic Project Management",
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "key_features": [
-    { "text": "8", "title": "modules" },
-    { "text": "72+", "title": "class hours" },
-    { "text": "1", "title": "capstone project" },
-    { "text": "2 day", "title": "campus immersion (opt.)" },
-    { "text": "4", "title": "career sessions" }
+    {
+      "text": "8",
+      "title": "modules"
+    },
+    {
+      "text": "72+",
+      "title": "class hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "2 day",
+      "title": "campus immersion (opt.)"
+    },
+    {
+      "text": "4",
+      "title": "career sessions"
+    }
   ],
   "unique_points": [
     "capstone-project",

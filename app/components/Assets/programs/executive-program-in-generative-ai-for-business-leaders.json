@@ -1,6 +1,7 @@
 {
   "category": "41",
   "id": "executive-program-in-generative-ai-for-business-leaders",
+  "pid": 131,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Generative AI for Business Leaders",
   "description": "Embark on a 7 month learning journey in GenAI Models, Prompt Engineering, and No Code GenAI Tools.",
@@ -112,7 +113,11 @@
     "exclusive-merchandise",
     "alumni-status-opt"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -200,7 +205,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Abhishek Srivastava",
@@ -353,7 +357,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

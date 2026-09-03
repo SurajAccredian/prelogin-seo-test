@@ -1,5 +1,6 @@
 {
   "id": "iimr-executive-program-in-strategic-hr-leadership",
+  "pid": 161,
   "category": "62",
   "vertical": "Human Resource",
   "title": "Executive Program in Strategic HR Leadership",
@@ -97,7 +98,11 @@
     "capstone-project",
     "certificate"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",

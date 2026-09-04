@@ -8,7 +8,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/advanced-certificate-program-in-design-thinking-innovation-with-ai",
     "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
-    "duration": "5 Months"
+    "duration": "5 Months",
+    "program_fee": 150000
   },
   {
     "university_name": "IIM Lucknow",
@@ -19,7 +20,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program",
     "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 452500
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -30,7 +32,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimt-certificate-programme-in-leadership-with-ai",
     "id": "iimt-certificate-programme-in-leadership-with-ai",
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "program_fee": 209000
   },
   {
     "university_name": "IIM Lucknow",
@@ -52,7 +55,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program",
     "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 400000
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -63,7 +67,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-program-in-strategic-project-management-and-leadership",
     "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "program_fee": 180000
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -74,18 +79,20 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/advanced-certificate-program-in-strategic-project-management",
     "id": "advanced-certificate-program-in-strategic-project-management",
-    "duration": "5 Months"
+    "duration": "5 Months",
+    "program_fee": 140000
   },
   {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Executive Program in Strategic HR Leadership",
     "category": "human resource",
-    "start_date": "30 Aug 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimr-executive-program-in-strategic-hr-leadership",
     "id": "iimr-executive-program-in-strategic-hr-leadership",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 220000
   },
   {
     "university_name": "IIM Ranchi",
@@ -96,18 +103,20 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimr-chief-human-resource-officer-programme-the-chro-program",
     "id": "iimr-chief-human-resource-officer-programme-the-chro-program",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 250000
   },
   {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Executive Program in Strategy & Leadership",
     "category": "strategy & leadership",
-    "start_date": "30 Aug 2026",
+    "start_date": "13 Sep 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimr-executive-program-in-strategy-leadership",
     "id": "iimr-executive-program-in-strategy-leadership",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 260000
   },
   {
     "university_name": "IIM Ranchi",
@@ -118,7 +127,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
     "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
-    "duration": "7 Months"
+    "duration": "7 Months",
+    "program_fee": 180000
   },
   {
     "university_name": "IIM Kashipur",
@@ -129,7 +139,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iim-kashipur-chief-operating-officer-program",
     "id": "iim-kashipur-chief-operating-officer-program",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 290000
   },
   {
     "university_name": "IIM Ranchi",
@@ -140,7 +151,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iim-ranchi-executive-program-in-leadership-with-ai",
     "id": "iim-ranchi-executive-program-in-leadership-with-ai",
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "program_fee": 199000
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -151,7 +163,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iit-jammu-advanced-certificate-in-ai-for-leaders",
     "id": "iit-jammu-advanced-certificate-in-ai-for-leaders",
-    "duration": "5 Months"
+    "duration": "5 Months",
+    "program_fee": 120000
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -162,7 +175,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iit-jammu-advanced-certificate-in-generative-ai-for-leaders",
     "id": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders",
-    "duration": "5 Months"
+    "duration": "5 Months",
+    "program_fee": 120000
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -173,7 +187,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
     "id": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "program_fee": 160000
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -184,7 +199,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iit-jammu-executive-program-in-leadership-with-ai",
     "id": "iit-jammu-executive-program-in-leadership-with-ai",
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "program_fee": 160000
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -195,7 +211,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-ai-for-leaders",
     "id": "professional-certificate-in-ai-for-leaders",
-    "duration": "4 Months"
+    "duration": "4 Months",
+    "program_fee": 130000
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -206,7 +223,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/sp-jain-executive-program-in-leadership-with-ai",
     "id": "sp-jain-executive-program-in-leadership-with-ai",
-    "duration": "7 Months"
+    "duration": "7 Months",
+    "program_fee": 160000
   },
   {
     "university_name": "IIM Ranchi",
@@ -214,10 +232,11 @@
     "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "26 Jul 2026",
-    "status": "New Launch",
+    "status": "admission closed",
     "url": "https://accredian.com/programs/iim-ranchi-senior-management-program",
     "id": "iim-ranchi-senior-management-program",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 260000
   },
   {
     "university_name": "IIM Amritsar",
@@ -228,7 +247,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iima-senior-management-program",
     "id": "iima-senior-management-program",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 210000
   },
   {
     "university_name": "XLRI",
@@ -239,7 +259,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
     "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 330000
   },
   {
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
@@ -250,7 +271,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
-    "duration": "6 Months"
+    "duration": "6 Months",
+    "program_fee": 179000
   },
   {
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
@@ -261,7 +283,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management",
     "id": "iith-professional-certificate-program-in-strategic-project-management",
-    "duration": "6 Months"
+    "duration": "6 Months",
+    "program_fee": 180000
   },
   {
     "university_name": "IIM Lucknow",
@@ -272,7 +295,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iiml-executive-program-in-strategic-project-management-leadership",
     "id": "iiml-executive-program-in-strategic-project-management-leadership",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 242500
   },
   {
     "university_name": "XLRI",
@@ -283,7 +307,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-in-global-senior-management",
     "id": "executive-development-program-in-global-senior-management",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 400000
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -294,7 +319,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
     "id": "executive-program-in-generative-ai-for-leaders",
-    "duration": "7 Months"
+    "duration": "7 Months",
+    "program_fee": 160000
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -305,7 +331,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
     "id": "professional-certificate-in-applied-generative-ai",
-    "duration": "4 Months"
+    "duration": "4 Months",
+    "program_fee": 130000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -316,7 +343,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/chief-human-resource-officer-programme",
     "id": "chief-human-resource-officer-programme",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 250000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -327,7 +355,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/chief-human-resource-officer-programme",
     "id": "chief-human-resource-officer-programme",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 250000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -338,7 +367,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives",
     "id": "post-graduate-diploma-in-management-for-working-executives",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 484300
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -349,7 +379,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders",
     "id": "executive-program-in-generative-ai-for-business-leaders",
-    "duration": "7 Months"
+    "duration": "7 Months",
+    "program_fee": 180000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -360,7 +391,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership",
     "id": "pg-certificate-in-strategic-project-management-and-leadership",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 210000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -371,7 +403,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era",
     "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 300000
   },
   {
     "university_name": "XLRI",
@@ -382,7 +415,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-strategic-hr-leadership",
     "id": "executive-development-program-strategic-hr-leadership",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 240000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -393,7 +427,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai",
     "id": "iimv-executive-program-in-leadership-with-ai",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 245000
   },
   {
     "university_name": "IIM Lucknow",
@@ -404,7 +439,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/executive-general-management-program",
     "id": "executive-general-management-program",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 425000
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -412,10 +448,11 @@
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
     "category": "cxo leadership",
     "start_date": "16 May 2026",
-    "status": "New Launch",
+    "status": "admission closed",
     "url": "https://accredian.com/programs/iim-trichy-chief-technology-officer-programme",
     "id": "iim-trichy-chief-technology-officer-programme",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 290000
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -426,7 +463,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/accelerated-senior-management-program",
     "id": "accelerated-senior-management-program",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 290000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -434,10 +472,11 @@
     "program_name": "Chief Executive Officer Program (The CEO Program)",
     "category": "cxo leadership",
     "start_date": "19 Apr 2026",
-    "status": "admission closed",
+    "status": "New Launch",
     "url": "https://accredian.com/programs/chief-executive-officer-program",
     "id": "chief-executive-officer-program",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 349000
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -448,7 +487,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/advanced-certificate-program-in-ai-for-leaders",
     "id": "advanced-certificate-program-in-ai-for-leaders",
-    "duration": "5 Months"
+    "duration": "5 Months",
+    "program_fee": 140000
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -459,7 +499,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai",
     "id": "professional-certificate-program-in-leadership-with-ai",
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "program_fee": 180000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -470,7 +511,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program",
     "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 350000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -481,7 +523,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/chief-technology-officer-programme",
     "id": "chief-technology-officer-programme",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 350000
   },
   {
     "university_name": "XLRI",
@@ -492,7 +535,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-in-digital-hr-leadership-and-people-analytics",
     "id": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
-    "duration": "10 Months"
+    "duration": "10 Months",
+    "program_fee": 240000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -503,7 +547,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/global-senior-leadership-program",
     "id": "global-senior-leadership-program",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 400000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -514,7 +559,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/executive-program-in-business-management",
     "id": "executive-program-in-business-management",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 270000
   },
   {
     "university_name": "XLRI",
@@ -525,7 +571,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-strategy-leadership",
     "id": "executive-program-in-strategy-leadership",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 280000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -533,10 +580,11 @@
     "program_name": "Chief Financial Officer Programme",
     "category": "cxo leadership",
     "start_date": "21 Jun 2026",
-    "status": "admission closed",
+    "status": "New Launch",
     "url": "https://accredian.com/programs/chief-financial-officer-programme",
     "id": "chief-financial-officer-programme",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 349000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -544,10 +592,11 @@
     "program_name": "Chief Financial Officer Programme",
     "category": "finance",
     "start_date": "21 Jun 2026",
-    "status": "admission closed",
+    "status": "New Launch",
     "url": "https://accredian.com/programs/chief-financial-officer-programme",
     "id": "chief-financial-officer-programme",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 349000
   },
   {
     "university_name": "XLRI",
@@ -558,7 +607,19 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-general-management",
     "id": "executive-program-in-general-management",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 260000
+  },
+  {
+    "university_name": "IIM Visakhapatnam",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+    "program_name": "PG Certificate Program in Family Business Management",
+    "category": "business management",
+    "start_date": "17 Jan 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/pg-certificate-program-in-family-business-management",
+    "id": "pg-certificate-program-in-family-business-management",
+    "duration": "12 Months"
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -569,7 +630,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/pg-certificate-program-in-investment-banking",
     "id": "pg-certificate-program-in-investment-banking",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 270000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -580,7 +642,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/senior-management-program",
     "id": "senior-management-program",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "program_fee": 349000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -591,7 +654,8 @@
     "status": "admission closed",
     "url": "https://accredian.com/programs/fintech-blockchain-program",
     "id": "fintech-blockchain-program",
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "program_fee": 260000
   },
   {
     "university_name": "Microsoft",

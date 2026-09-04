@@ -1,0 +1,289 @@
+{
+  "id": "pg-certificate-program-in-family-business-management",
+  "category": "18",
+  "category_id": null,
+  "vertical": "Management",
+  "title": "PG Certificate Program in Family Business Management",
+  "description": "Embark on a 12-month learning journey in strategic, governance, financial, and digital capabilities to lead and scale family enterprises.",
+  "short_title": "Family Business Management",
+  "contact": "",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/iimv_certificate.webp",
+  "start_date": "17 Jan 2027",
+  "duration": "12 Months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "144+",
+      "title": "hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "2 Days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "13",
+      "title": "modules"
+    }
+  ],
+  "domain": "Management",
+  "overview": {
+    "programId": "pg-certificate-program-in-family-business-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Next-Gen Leaders: Build leadership capabilities and prepare to lead the family business into its next chapter",
+          "Family Business Leaders: Drive growth, professionalisation, and long-term transformation",
+          "Family Entrepreneurs: Identify new opportunities, foster innovation, and scale the enterprise",
+          "Family Office Leaders: Strengthen wealth stewardship, governance, and strategic investment decision-making",
+          "Professional CXOs: Navigate family-business dynamics while driving strategic and operational excellence",
+          "Future CEOs: Develop the strategic, financial, and leadership capabilities to lead the next phase of growth"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Family Business CEO / COO / CFO",
+          "Managing Director",
+          "Family Business General Manager",
+          "Next-Gen Business Leader",
+          "Family Enterprise Director",
+          "Family Office Executive",
+          "Head of Family Business Strategy",
+          "Business Growth Leader",
+          "Succession & Governance Leader",
+          "Family Enterprise Advisor"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 Pillars: Enterprise Foundation, Business Strategy, Legacy & Succession, and Global Expansion",
+          "Learn from Esteemed IIM Visakhapatnam Faculty and Leading Industry Professionals",
+          "Duration: 12 Months | Weekend Online Format",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor-Led Classes",
+          "Executive Alumni Status",
+          "1 Capstone Project",
+          "EMI Available for up to 24 Months",
+          "Career Assistance Sessions by Accredian",
+          "One 2-Day Campus Immersion at IIM Visakhapatnam"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "exclusive-merchandise",
+    "alumni-status"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundations of Family Business Leadership",
+      "points": [
+        "• Family–Business–Ownership System",
+        "• Characteristics and Dynamics of Family Firms",
+        "• Evolution Across Generations",
+        "• Sources of Long-Term Competitive Advantage"
+      ]
+    },
+    {
+      "title": "Family Governance, Decision & Conflict Management",
+      "points": [
+        "• Family Governance Structures and Forums",
+        "• Family Constitutions and Governance Frameworks",
+        "• Decision-Making in Family Enterprises",
+        "• Managing Family Conflict and Alignment",
+        "• Legal Aspects of Family Business"
+      ]
+    },
+    {
+      "title": "Board Governance for Family Firms",
+      "points": [
+        "• Role of Boards in Family Enterprises",
+        "• Board Composition and Independent Directors",
+        "• Board–Family–Management Dynamics",
+        "• Governance Best Practices for Family Businesses"
+      ]
+    },
+    {
+      "title": "Ownership Strategy & Family Wealth Stewardship",
+      "points": [
+        "• Ownership Structures and Control Mechanisms",
+        "• Shareholder Agreements and Alignment",
+        "• Family Capital Allocation and Investment Strategy",
+        "• Family Offices and Wealth Governance"
+      ]
+    },
+    {
+      "title": "Strategic Growth for Family Enterprises",
+      "points": [
+        "• Strategy for Operational Excellence",
+        "• Growth Strategy for Family Businesses",
+        "• Diversification and Portfolio Expansion",
+        "• Customer and Market Expansion Strategies",
+        "• Competing in Dynamic Markets",
+        "• Pricing Decision",
+        "• Promotion and Branding in Digital Era"
+      ]
+    },
+    {
+      "title": "Professionalizing the Family Business",
+      "points": [
+        "• Role of Professional CEOs and Leadership Teams",
+        "• Building Institutional Management Systems",
+        "• Governance vs Family Influence",
+        "• Building High-Performance Organizations"
+      ]
+    },
+    {
+      "title": "Financial Strategy for Family Firms",
+      "points": [
+        "• Capital Allocation and Funding Growth",
+        "• Valuation of Family Businesses",
+        "• Managing Debt, Equity and Strategic Investors",
+        "• Balancing Growth with Ownership Control"
+      ]
+    },
+    {
+      "title": "Data Strategy for family Business",
+      "points": [
+        "• Data-Driven Decision Making for Business Leaders",
+        "• Descriptive, Diagnostic and Predictive Analytics for making better decision"
+      ]
+    },
+    {
+      "title": "AI & Digital Transformation in Family Businesses",
+      "points": [
+        "• Strategic Impact of AI on Family Enterprises",
+        "• AI Opportunities Across Business Functions",
+        "• Leading Technology Transformation in Legacy Firms"
+      ]
+    },
+    {
+      "title": "Innovation & New Business Creation",
+      "points": [
+        "• Essentials of Out-of-Box thinking for new venture creation/new business launches",
+        "• Building an Innovation Culture Across Generations",
+        "• Entrepreneurial Renewal in Family Firms",
+        "• Creating Business Continuity Plan"
+      ]
+    },
+    {
+      "title": "Scaling and Global Expansion",
+      "points": [
+        "• Scaling Family Enterprises",
+        "• International Expansion Strategy",
+        "• Global Supply Chains with Partnerships and Ecosystem Development",
+        "• Managing Cross-Border Operations",
+        "• Managing Quality of services"
+      ]
+    },
+    {
+      "title": "Succession Planning & Leadership Transition",
+      "points": [
+        "• Succession Models and Leadership Pathways",
+        "• Preparing Next-Generation Leaders",
+        "• Founder Transition Challenges",
+        "• Leadership Identity and Credibility"
+      ]
+    },
+    {
+      "title": "Legacy, Values & Long-Term Stewardship",
+      "points": [
+        "• Stewardship Mindset Across Generations",
+        "• Family Values, Purpose and Culture",
+        "• Responsible Ownership Across Generations",
+        "• Sustaining Multi-Generational Enterprises"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants develop a comprehensive transformation roadmap for their own or a selected family business. The capstone integrates strategy, governance, ownership, innovation, and succession planning to address real organizational challenges. Participants present actionable recommendations to strengthen long-term growth, professionalization, and multi-generational continuity of the family enterprise"
+      ]
+    }
+  ],
+  "billing": {
+    "total": 349000,
+    "points": [
+      "144+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 28419,
+        "months": 12
+      },
+      {
+        "emi": 19704,
+        "months": 18
+      },
+      {
+        "emi": 15311,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-In-Family-Business-Management.pdf",
+    "source": "IIMV PG Certificate Program in Family Business Management Brochure",
+    "campaign_name": "IIMV-Family Business Management"
+  },
+  "faculty": [],
+  "tools": [
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    }
+  ]
+}

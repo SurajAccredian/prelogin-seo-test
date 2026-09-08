@@ -4761,7 +4761,7 @@ export const universityFaqTemplates = {
                             "",
                             "- **Participation Certificate:** will not be issued.",
                             "",
-                            "**Note**: Completion and Participation Certificates are provided in digital format only (no physical copy)."
+                            "**Note**: Physical certificates applicable for campus immersion participants subject to minimum attendance."
                         ],
                     },
                     {

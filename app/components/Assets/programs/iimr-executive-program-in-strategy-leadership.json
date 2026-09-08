@@ -1,5 +1,6 @@
 {
   "id": "iimr-executive-program-in-strategy-leadership",
+  "pid": 159,
   "category": "61",
   "vertical": "Strategy & Leadership",
   "title": "Executive Program in Strategy & Leadership",
@@ -98,7 +99,11 @@
     "campus-immersion",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Personalized Discussion",
     "Schedule a One-on-One Consultation with Program Advisors",

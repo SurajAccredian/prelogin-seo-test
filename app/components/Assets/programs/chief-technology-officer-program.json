@@ -1,6 +1,7 @@
 {
   "category": "37",
   "id": "chief-technology-officer-program",
+  "pid": 111,
   "vertical": "cxo leadership",
   "title": "Chief Technology Officer Program (The CTO Program)",
   "description": "Embark on a 10 month learning journey in tech leadership, digital transformation & GenAI.",
@@ -225,7 +226,6 @@
         "Incident Response & Crisis Leadership"
       ]
     },
-
     {
       "title": "Capstone Project",
       "special": "1",
@@ -300,7 +300,6 @@
       "title": "mural",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mural.webp"
     },
-
     {
       "title": "python",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
@@ -322,7 +321,6 @@
     "programId": "chief-technology-officer-program",
     "points": [
       "120+ Hours of Live Classes",
-      
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -406,7 +404,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Chief Technology Officer Program different?",

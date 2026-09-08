@@ -1,6 +1,7 @@
 {
   "category": "31",
   "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
+  "pid": 117,
   "vertical": "cxo leadership",
   "title": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
   "description": "Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.",
@@ -114,7 +115,11 @@
     "campus-immersion",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -285,7 +290,6 @@
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. Sushil Kumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
@@ -307,7 +311,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. MV Anuradha",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
@@ -351,7 +354,6 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
   ],
-
   "tools": [
     {
       "title": "Aha!",
@@ -378,12 +380,10 @@
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/notion.svg"
     }
   ],
-
   "billing": {
     "programId": "pg-certificate-program-in-chief-digital-and-ai-officer-program ",
     "points": [
       "132+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -438,10 +438,11 @@
               "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
             ]
           },
-
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

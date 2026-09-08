@@ -1,6 +1,7 @@
 {
   "category": "34",
   "id": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
+  "pid": 110,
   "vertical": "Human Resource",
   "title": "Executive Development Programme in Digital HR Leadership and People Analytics",
   "description": "Embark on a 10 month learning journey in HR Analytics, Digital Leadership, and GenAI.",
@@ -109,7 +110,11 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -164,7 +169,6 @@
         "Analyzing Attrition Data with Power BI"
       ]
     },
-
     {
       "title": "People Analytics & Digital HR",
       "week": "",
@@ -178,7 +182,6 @@
         "Using Design Thinking for People Engagement II"
       ]
     },
-
     {
       "title": "Visualization & Storytelling for HR Leaders",
       "week": "",
@@ -189,7 +192,6 @@
         "Visualizing Qualitative Data, Advanced Charts"
       ]
     },
-
     {
       "title": "Transforming HR Value Chain Through Analytics",
       "week": "",
@@ -279,7 +281,6 @@
     "programId": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
     "points": [
       "120+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -333,7 +334,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

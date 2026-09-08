@@ -1,6 +1,7 @@
 {
   "category": "24",
   "id": "pg-certificate-program-in-investment-banking",
+  "pid": 91,
   "vertical": "finance",
   "title": "PG Certificate Program in Investment Banking & Capital Markets",
   "description": "Embark on a 12 month learning journey in M&A Strategy, Capital Markets, and Private Equity.",
@@ -108,7 +109,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -299,7 +304,6 @@
     "programId": "pg-certificate-program-in-investment-banking",
     "points": [
       "130+ Hours of Live Classes",
-
       "3 Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -346,7 +350,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

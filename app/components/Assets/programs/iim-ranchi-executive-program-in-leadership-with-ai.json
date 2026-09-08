@@ -1,6 +1,7 @@
 {
   "category": "58",
   "id": "iim-ranchi-executive-program-in-leadership-with-ai",
+  "pid": 157,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
@@ -106,7 +107,11 @@
     "experiential-learning",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -369,7 +374,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },

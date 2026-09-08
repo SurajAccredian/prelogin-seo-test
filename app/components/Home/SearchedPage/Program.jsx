@@ -2,11 +2,18 @@
 import React from "react";
 import { CiViewTimeline } from "react-icons/ci";
 import Link from "next/link";
+import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 
 // allowedIds from constants - empty array as per original
 const allowedIds = [];
 
-const Program = ({ program, setBrotureDownloadInfo, setOpen }) => {
+const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus }) => {
+  const defaultStatus = useProgramStatuses();
+  const statusResolver = getProgramStatus || defaultStatus.getProgramStatus;
+  const resolved = statusResolver
+    ? statusResolver(program)
+    : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
+
   const handleOpen = (program) => {
     setBrotureDownloadInfo(program);
     setOpen(true);
@@ -15,10 +22,10 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen }) => {
   return (
     <div className="w-full lg:max-w-[325px] rounded-2xl overflow-hidden bg-white drop-shadow flex flex-col relative">
       <div className="w-full h-32 flex items-center justify-center bg-blue-50 relative">
-        {program.status && (
+        {resolved.status && (
           <div className="absolute top-2 right-2 z-10">
-            <div className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md ${program.status.toLowerCase() === "admission closed" ? "bg-red-500" : "bg-green-500"}`}>
-              {program.status}
+            <div className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md ${resolved.isAdmissionClosed ? "bg-red-500" : "bg-green-500"}`}>
+              {resolved.status}
             </div>
           </div>
         )}
@@ -59,7 +66,7 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen }) => {
           </Link>
           <button
             onClick={() => handleOpen(program)}
-            disabled={program?.status == "admission closed" || allowedIds.includes(program?.id)}
+            disabled={resolved.isAdmissionClosed || allowedIds.includes(program?.id)}
             className="px-2 py-2.5 flex-1 disabled:bg-gray-400 cursor-pointer disabled:cursor-not-allowed text-sm font-semibold bg-universal text-white rounded-lg"
           >
             Get Brochure

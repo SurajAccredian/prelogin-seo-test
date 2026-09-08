@@ -1,6 +1,7 @@
 {
   "category": "13",
   "id": "executive-general-management-program",
+  "pid": 126,
   "vertical": "general management",
   "title": "Executive General Management Program",
   "description": "Embark on an 11 month learning journey in Strategy, Finance, and Digital Transformation.",
@@ -9,7 +10,6 @@
   "university_name": "IIM Lucknow",
   "short_university_name": "iiml",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
-
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
   "start_date": "30 Nov 2025",
   "duration": "11 months",
@@ -42,7 +42,6 @@
       "title": "modules",
       "text": 17
     },
-
     {
       "title": "campus immersions",
       "text": "10 Day"
@@ -101,7 +100,11 @@
     "experiential-learning",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -327,7 +330,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

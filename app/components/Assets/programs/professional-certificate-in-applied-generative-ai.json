@@ -1,6 +1,7 @@
 {
   "category": "47",
   "id": "professional-certificate-in-applied-generative-ai",
+  "pid": 145,
   "vertical": "artificial intelligence",
   "title": "Professional Certificate in Generative AI for Business Transformation",
   "description": "Embark on a 4-month learning journey in GenAI Tools, Workflow Automation, & Real-World Enterprise Use Cases.",
@@ -101,13 +102,16 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Generative AI Foundations For Leaders",
@@ -160,7 +164,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Selvan Dorairaj",
@@ -302,7 +305,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 4 Months."]
+            "content": [
+              "The duration of the program is 4 Months."
+            ]
           }
         ]
       },

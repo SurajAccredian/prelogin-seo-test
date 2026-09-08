@@ -391,7 +391,13 @@ const shouldRenderQuestion = (question, templateData) => {
     // Campus immersion questions
     if (questionTitle.includes('is there a campus immersion') || 
         questionTitle.includes('campus immersion include')) {
-        return templateData.campusImmersionDuration !== null;
+        const hasDynamicImmersionPlaceholder = question.content?.some(item => 
+            item.includes('{campusImmersion')
+        );
+        if (hasDynamicImmersionPlaceholder) {
+            return templateData.campusImmersionDuration !== null;
+        }
+        return true;
     }
     
     // International immersion questions

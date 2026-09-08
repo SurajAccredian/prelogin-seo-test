@@ -13,7 +13,7 @@ const VALID_TAG_REGEX = /^program-status-\d+$/;
  * @returns {{ authenticated: boolean, error?: string }}
  */
 function authenticateRevalidationRequest(request, querySecret = null, bodySecret = null) {
-  const configuredSecret = process.env.REVALIDATION_SECRET 
+  const configuredSecret = process.env.NEXT_PUBLIC_REVALIDATION_SECRET
 
   // If a secret is configured in the environment, enforce authentication
   if (configuredSecret && configuredSecret.trim() !== "") {

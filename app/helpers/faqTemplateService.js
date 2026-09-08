@@ -391,7 +391,13 @@ const shouldRenderQuestion = (question, templateData) => {
     // Campus immersion questions
     if (questionTitle.includes('is there a campus immersion') || 
         questionTitle.includes('campus immersion include')) {
-        return templateData.campusImmersionDuration !== null;
+        const hasDynamicImmersionPlaceholder = question.content?.some(item => 
+            item.includes('{campusImmersion')
+        );
+        if (hasDynamicImmersionPlaceholder) {
+            return templateData.campusImmersionDuration !== null;
+        }
+        return true;
     }
     
     // International immersion questions
@@ -424,8 +430,68 @@ const hasNullValues = (content, data) => {
 export const generateFAQFromTemplate = (programData) => {
     console.log("Program Data:", programData.required_years_experience); // Debugging line    
         
-    const universityCode = programData.id == "executive-program-in-generative-ai-for-business-leaders" || programData.id == "chief-human-resource-officer-programme" ? "iimv-v2" : programData.id == "post-graduate-diploma-in-management-for-working-executives"  ? "iimv-diploma" : programData.id == 'executive-general-management-program' ? "iiml_egmp" : programData.id == "executive-program-in-strategic-hr-leadership" ?"spj_hr" : programData.id == "executive-program-in-strategic-project-management-and-leadership" ? "spj_pm"  : programData.id == "executive-program-in-generative-ai-for-leaders" ? "spj_genai" : programData.id == "professional-certificate-in-applied-generative-ai" ? "spj_applied_genai" : programData.id == "iith-professional-certificate-program-in-strategic-project-management" ? "iith_strategic_project_management" : programData.id == "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" ? "iith_design_thinking_innovation" : programData.id == "iiml-executive-program-in-strategic-project-management-leadership" ? "iiml_strategic_project_management_leadership" : programData.id == "iiml-chief-digital-ai-officer-programme-the-cdaio-program" ? "iiml_chief_digital_ai_officer_programme" : programData.id == "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme" ? "xlri_cto_program" : programData.id == "iim-ranchi-senior-management-program" ? "iimr_senior_management_program" : 'iitk';
+    const universityCode =
+    programData.id == "executive-program-in-generative-ai-for-business-leaders" || programData.id == "chief-human-resource-officer-programme"
+        ? "iimv-v2"
+        : programData.id == "post-graduate-diploma-in-management-for-working-executives"
+        ? "iimv-diploma"
+        : programData.id == "executive-general-management-program"
+        ? "iiml_egmp"
+        : programData.id == "executive-program-in-strategic-hr-leadership"
+        ? "spj_hr"
+        : programData.id == "executive-program-in-strategic-project-management-and-leadership"
+        ? "spj_pm"
+        : programData.id == "executive-program-in-generative-ai-for-leaders"
+        ? "spj_genai"
+        : programData.id == "professional-certificate-in-applied-generative-ai"
+        ? "spj_applied_genai"
+        : programData.id == "iith-professional-certificate-program-in-strategic-project-management"
+        ? "iith_strategic_project_management"
+        : programData.id == "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
+        ? "iith_design_thinking_innovation"
+        : programData.id == "iiml-executive-program-in-strategic-project-management-leadership"
+        ? "iiml_strategic_project_management_leadership"
+        : programData.id == "iiml-chief-digital-ai-officer-programme-the-cdaio-program"
+        ? "iiml_chief_digital_ai_officer_programme"
+        : programData.id == "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme"
+        ? "xlri_cto_program"
+        : programData.id == "iim-ranchi-senior-management-program"
+        ? "iimr_senior_management_program"
 
+        // Newly added FAQ template mappings
+        : programData.id == "iima-senior-management-program"
+        ? "iim_amritsar_smp"
+        : programData.id == "iiml-chief-human-resource-officer-programme-the-chro-program"
+        ? "iiml_chro"
+        : programData.id == "iit-jammu-executive-program-in-leadership-with-ai"
+        ? "iit_jammu_leadership_ai"
+        : programData.id == "iim-kashipur-chief-operating-officer-program"
+        ? "iim_kashipur_coo"
+        : programData.id == "iimr-chief-human-resource-officer-programme-the-chro-program"
+        ? "iim_ranchi_chro"
+        : programData.id == "iim-ranchi-executive-program-in-leadership-with-ai"
+        ? "iim_ranchi_leadership_ai"
+        : programData.id == "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders"
+        ? "iim_ranchi_genai_agentic_ai"
+        : programData.id == "iimr-executive-program-in-strategic-hr-leadership"
+        ? "iim_ranchi_strategic_hr"
+        : programData.id == "iimr-executive-program-in-strategy-leadership"
+        ? "iim_ranchi_strategy_leadership"
+        : programData.id == "iimt-certificate-programme-in-leadership-with-ai"
+        ? "iim_trichy_leadership_ai"
+        : programData.id == "iit-jammu-advanced-certificate-in-ai-for-leaders"
+        ? "iit_jammu_ai_leaders"
+        : programData.id == "iit-jammu-advanced-certificate-in-generative-ai-for-leaders"
+        ? "iit_jammu_genai_leaders"
+        : programData.id == "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders"
+        ? "iit_jammu_genai_agentic_ai"
+        : programData.id == "professional-certificate-in-ai-for-leaders"
+        ? "spj_ai_leaders"
+        : programData.id == "sp-jain-executive-program-in-leadership-with-ai"
+        ? "spj_leadership_ai"
+
+        : 'iitk';
+        
     const template = universityFaqTemplates[universityCode];
     console.log(template)
     if (!template) {

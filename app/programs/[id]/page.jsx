@@ -89,7 +89,6 @@ export default async function ProgramPage({ params }) {
   // 3. Live registration status fetch via Next.js Data Cache (if PID exists and fetch is enabled)
   if (pid && ENABLE_BACKEND_FETCH) {
     const backendUrl =
-      process.env.BACKEND_API_URL ||
       (process.env.NODE_ENV === "production"
         ? process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5000"
         : "http://localhost:5000");

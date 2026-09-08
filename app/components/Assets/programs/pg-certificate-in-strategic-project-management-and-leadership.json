@@ -1,6 +1,7 @@
 {
   "category": "45",
   "id": "pg-certificate-in-strategic-project-management-and-leadership",
+  "pid": 129,
   "vertical": "project management",
   "title": "Post Graduate Certificate in Strategic Project Management & Leadership",
   "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
@@ -48,7 +49,6 @@
       "title": "capstone project",
       "text": 2
     },
-
     {
       "title": "campus immersion (opt.)",
       "text": "2 Day"
@@ -112,13 +112,16 @@
     "exclusive-merchandise",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Foundations of Strategic Project Management",
@@ -257,7 +260,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Aalok Kumar",
@@ -266,7 +268,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Prof. Rohit Titiyal",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rohit-titiyal.webp",
@@ -296,7 +297,6 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
   ],
-
   "billing": {
     "programId": "pg-certificate-in-strategic-project-management-and-leadership",
     "points": [
@@ -346,7 +346,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

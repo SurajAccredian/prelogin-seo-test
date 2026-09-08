@@ -1,6 +1,7 @@
 {
   "category": "32",
   "id": "chief-human-resource-officer-programme",
+  "pid": 90,
   "vertical": "Human Resource",
   "title": "Chief Human Resource Officer Programme",
   "description": "Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
@@ -109,7 +110,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -303,7 +308,6 @@
     "programId": "chief-human-resource-officer-programme",
     "points": [
       "140+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -349,7 +353,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

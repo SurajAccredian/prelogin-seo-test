@@ -1,5 +1,6 @@
 {
   "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+  "pid": 160,
   "category": "58",
   "vertical": "artificial intelligence",
   "title": "Executive Program in Generative AI & Agentic AI for Leaders",
@@ -99,7 +100,11 @@
     "certificate",
     "alumni-status-opt"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Personalized Discussion",
     "Application Review",

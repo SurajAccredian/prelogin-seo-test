@@ -48,6 +48,7 @@
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
   "start_date": "08 Aug 2026",
   "id": "advanced-certificate-program-in-ai-for-leaders",
+  "pid": 118,
   "duration": "5 Months",
   "required_years_experience": 0,
   "timings": "weekends only",
@@ -185,12 +186,15 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
     }
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "billing": {
     "programId": "advanced-certificate-program-in-ai-for-leaders",
     "points": [
       "60+ Hours of Live Classes",
-
       "10+ Tools and Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -224,7 +228,6 @@
               "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
             ]
           },
-
           {
             "title": "What is the minimum system configuration required?",
             "content": [
@@ -311,7 +314,6 @@
     "leadership-driven-learning",
     "case-based-learning"
   ],
-
   "tools": [
     {
       "title": "python",

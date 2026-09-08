@@ -1,6 +1,7 @@
 {
   "category": "22",
   "id": "senior-management-program",
+  "pid": 69,
   "vertical": "senior management",
   "title": "Senior Management Program",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
@@ -112,7 +113,11 @@
     "exclusive-merchandise",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -212,7 +217,6 @@
         "Global Risk Management"
       ]
     },
-
     {
       "title": "Growth Strategies for Senior Leaders",
       "week": "3 weeks",
@@ -351,7 +355,6 @@
     "programId": "senior-management-program",
     "points": [
       "144+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -397,7 +400,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

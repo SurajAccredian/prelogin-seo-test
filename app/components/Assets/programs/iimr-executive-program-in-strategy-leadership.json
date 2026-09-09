@@ -12,8 +12,8 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
-  "start_date": "13 Sep 2026",
+   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+   "start_date": "13 Sep 2026",
   "duration": "11 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -298,7 +298,7 @@
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategy-Leadership.pdf",
-    "source": "IIM-RANCHI Executive Program in Strategy & Leadership Brochure",
+     "source": "IIM-RANCHI Executive Program in Strategy & Leadership Brochure",
     "campaign_name": "IIM-RANCHI-EPSL"
   },
   "faculty": [],

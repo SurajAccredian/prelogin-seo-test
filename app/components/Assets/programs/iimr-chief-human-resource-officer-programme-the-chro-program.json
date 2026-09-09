@@ -12,7 +12,7 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
   "start_date": "30 Aug 2026",
   "duration": "12 Months",
   "required_years_experience": 7,
@@ -286,7 +286,7 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-iimr-chief-human-resource-officer-programme-the-chro-program.pdf",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
     "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
     "campaign_name": "IIM-RANCHI-CHRO"
   },

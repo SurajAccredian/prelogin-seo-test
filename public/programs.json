@@ -442,6 +442,28 @@
     "program_fee": 300000
   },
   {
+    "university_name": "IIM Sirmaur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
+    "category": "strategy & leadership",
+    "start_date": "10 Jan 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-strategy-leadership-innovation-in-ai-era-iimsirmaur",
+    "id": "executive-program-in-strategy-leadership-innovation-in-ai-era-iimsirmaur",
+    "duration": "8 Months"
+  },
+  {
+    "university_name": "IIM Sirmaur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "program_name": "Executive Program in Leadership with AI",
+    "category": "artificial intelligence",
+    "start_date": "10 January 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-leadership-with-ai-iim-sirmaur",
+    "id": "executive-program-in-leadership-with-ai-iim-sirmaur",
+    "duration": "6 Months"
+  },
+  {
     "university_name": "XLRI",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Program in Strategic HR Leadership",

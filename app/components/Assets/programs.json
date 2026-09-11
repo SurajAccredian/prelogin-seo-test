@@ -67,6 +67,40 @@
     "program_fee": 452500,
     "pid": 138
   },
+  
+{
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "university_name": "IIM Sirmaur",
+  "program_name": "Executive Program in Leadership with AI",
+  "duration": "6 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "batch_type": "Online",
+  "id": "iims-executive-program-in-leadership-with-ai",
+  "category": "artificial intelligence",
+  "tags": [
+    "Best Selling",
+    "Instructor Led",
+    "Online"
+  ],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "9358719988"
+},
+
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
@@ -1219,40 +1253,6 @@
   "start_date": "10 Jan 2027",
   "contact": "8851827093"
 },
-
-{
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-  "university_name": "IIM Sirmaur",
-  "program_name": "Executive Program in Leadership with AI",
-  "duration": "6 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-  "batch_type": "Online",
-  "id": "iims-executive-program-in-leadership-with-ai",
-  "category": "artificial intelligence",
-  "tags": [
-    "Best Selling",
-    "Instructor Led",
-    "Online"
-  ],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
-    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
-    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
-  },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "10 Jan 2027",
-  "contact": "9358719988"
-},
-
 
   {
     "status": "New Launch",

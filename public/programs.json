@@ -26,6 +26,17 @@
     "program_fee": 452500
   },
   {
+    "university_name": "IIM Sirmaur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "program_name": "Executive Program in Leadership with AI",
+    "category": "artificial intelligence",
+    "start_date": "10 Jan 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iims-executive-program-in-leadership-with-ai",
+    "id": "iims-executive-program-in-leadership-with-ai",
+    "duration": "6 Months"
+  },
+  {
     "university_name": "IIM Tiruchirappalli",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
     "program_name": "Certificate Programme in Leadership with AI",
@@ -451,17 +462,6 @@
     "url": "https://accredian.com/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
     "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
     "duration": "8 Months"
-  },
-  {
-    "university_name": "IIM Sirmaur",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-    "program_name": "Executive Program in Leadership with AI",
-    "category": "artificial intelligence",
-    "start_date": "10 Jan 2027",
-    "status": "New Launch",
-    "url": "https://accredian.com/programs/iims-executive-program-in-leadership-with-ai",
-    "id": "iims-executive-program-in-leadership-with-ai",
-    "duration": "6 Months"
   },
   {
     "university_name": "XLRI",

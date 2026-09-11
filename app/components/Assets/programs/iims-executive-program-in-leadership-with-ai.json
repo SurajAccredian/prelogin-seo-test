@@ -1,0 +1,277 @@
+{
+  "id": "iims-executive-program-in-leadership-with-ai",
+  "category": "68",
+  "vertical": "artificial intelligence",
+  "title": "Executive Program in Leadership with AI",
+  "description": "Embark on a 6-month learning journey in Leadership with AI to drive organizational transformation for future ready businesses.",
+  "short_title": "Artificial Intelligence",
+  "contact": "9358719988",
+  "university_name": "IIM Sirmaur",
+  "short_university_name": "iim-sirmaur",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM_Sirmaur_Cerificate_2.webp",
+  "start_date": "10 Jan 2027",
+  "duration": "6 Months",
+  "required_years_experience": 2,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "type": "ordinary",
+      "title": "Best Selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor Led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
+  ],
+  "key_features": [
+    {
+      "text": "70+",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "7",
+      "title": "modules"
+    },
+    {
+      "text": "2 Days",
+      "title": "campus immersion"
+    }
+  ],
+  "domain": "artificial intelligence",
+  "overview": {
+    "programId": "iims-executive-program-in-leadership-with-ai",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives: Refine leadership and drive organizational change.",
+          "C-Suite Leaders: Stay abreast of industry trends and foster innovation.",
+          "Directors: Deepen strategic decision-making skills.",
+          "Entrepreneurs: Scale operations and explore new markets.",
+          "Project Managers: Lead large-scale projects with strategic impact.",
+          "Sector Leaders: Apply advanced business principles for effectiveness.",
+          "Business & Functional Heads: Identify high-impact AI use cases and drive AI adoption across functions.",
+          "Digital & Transformation Leaders: Scale AI initiatives and reimagine business processes for enterprise-wide transformation.",
+          "Strategy Product & Innovation Leaders: Develop AI-powered products services and new business models."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Executives",
+          "C-Suite Leaders",
+          "Directors",
+          "Entrepreneurs",
+          "Project Managers",
+          "Sector Leaders",
+          "AI Strategy Leaders",
+          "Program Managers"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "7 Modules - Machine Learning, AI Strategy, & GenAI.",
+          "Learn from top IIM Sirmaur faculty",
+          "Duration: 6 Months | Weekend Online",
+          "Certification from IIM Sirmaur",
+          "Live Instructor-Led Classes",
+          "EMI up to 24 months",
+          "Placement Support & Assistance by Accredian",
+          "1:1 Career Mentorship Sessions by Accredian"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "capstone-project",
+    "mentoring-session",
+    "leadership-driven-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "AI Foundations for Leaders",
+      "points": [
+        "AI, Machine Learning, Generative AI and Agentic AI Fundamentals",
+        "Understanding LLMs and Modern AI Systems",
+        "AI Capabilities, Limitations and Trade-offs",
+        "AI Trends Reshaping Industries and Business Models",
+        "How AI Systems Work?: From Data to Decisions"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Generative AI for Leaders",
+      "points": [
+        "Generative AI Foundations for Leaders",
+        "Generative AI Tools and Enterprise Applications",
+        "Enterprise AI Copilots and Assistants",
+        "AI-Powered Productivity, Research and Decision Support",
+        "Human–GenAI Collaboration, Hands-on with GenAI tools"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI Applications Across Business Functions",
+      "points": [
+        "AI in Marketing and Growth",
+        "AI in Sales and Customer Experience",
+        "AI in HR, Finance and Operations",
+        "Cross-Functional AI Transformation Cases"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Building AI-Powered Products and Services",
+      "points": [
+        "AI Product Thinking and Opportunity Discovery",
+        "Designing AI-Powered User Experiences",
+        "Rapid Prototyping and MVP Development",
+        "Launching, Testing and Scaling AI Solutions"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI Strategy, Business Models and Growth",
+      "points": [
+        "Aligning AI Strategy with Business Strategy",
+        "Identifying and Prioritizing High-Impact AI Use Cases",
+        "Evaluating AI Investments, ROI and Value Realization",
+        "AI-Driven Business Models and Growth Strategies"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Business Transformation with Agentic AI",
+      "points": [
+        "Foundations of Agentic AI Systems",
+        "Autonomous Agents and Workflows",
+        "Multi-Agent Enterprise Applications",
+        "Reimagining Business Processes with Agents"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leading AI Transformation and Change",
+      "points": [
+        "Building AI-Ready Teams and Culture",
+        "Leading Change in the AI Era",
+        "AI Governance, Risk and Responsible AI",
+        "Scaling AI Across the Enterprise",
+        "Driving Change: Mindset, Culture & Executive Alignment and Address human and cultural barriers to change, Ethical AI"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "id": "capstone-project",
+      "special": "1",
+      "points": [
+        "Apply the concepts learned throughout the program to develop an AI transformation roadmap for a business, function, or industry. Identify high-impact use cases, design AI-powered solutions, evaluate business value and ROI, explore agentic AI opportunities, and create an implementation plan covering technology, people, governance, and change management to drive measurable business outcomes."
+       ]
+    }
+  ],
+  "billing": {
+    "total": 189000,
+    "points": [
+      "70+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 16154,
+        "months": 12
+      },
+      {
+        "emi": 11160,
+        "months": 18
+      },
+      {
+        "emi": 8645,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+  },
+  "faculty": [
+    {
+      "name": "Dr. Rahul Bodhi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/RB.webp",
+      "position": "Assistant Professor (OB & HRM)",
+      "organization": "IIM Sirmaur",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
+    },
+    {
+      "name": "Dr. Alekh Gour",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Dr._Alekh_Gour.webp",
+      "position": "Associate Professor (IT)",
+      "organization": "IIM Sirmaur",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "NotbookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notbooklm.webp"
+    },
+    {
+      "title": "Gamma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
+    },
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    }
+  ]
+}

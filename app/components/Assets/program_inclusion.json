@@ -2991,5 +2991,49 @@
       ],
       "physical ID card": "No Physical ID card to be provided"
     }
+  },
+
+  {
+    "title": "Executive Programme in Strategy Leadership & Innovation in AI Era",
+    "id": "executive-program-in-strategy-leadership-innovation-in-ai-era-iimsirmaur-8-months",
+    "data": {
+      "Institute Name": "IIM Sirmaur",
+      "Program Name": "Executive Programme in Strategy Leadership & Innovation in AI Era",
+      "Duration of the Program": "8 Months",
+      "Program Terms/Modules": "9 Modules",
+      "Live Session Hours": "96+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Sirmaur Faculty",
+      "alumni status": "Optional Executive Alumni Status at an additional cost of INR 10,000 + GST for IIM Sirmaur Executive Alumni Status membership. The status is granted upon program completion.",
+      "Minimum Attendance Required": "Minimum Attendance - 75%",
+      "Certificates": "Completion Certificate from IIM Sirmaur",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "4+ Tools: ChatGPT, Gamma, NotebookLM, PowerBI"
+    }
+  },
+   
+  {
+    "title": "Executive Program in Leadership with AI",
+    "id": "executive-program-in-leadership-with-ai-iim-sirmaur-6-months",
+    "data": {
+      "Institute Name": "IIM Sirmaur",
+      "Program Name": "Executive Program in Leadership with AI",
+      "Duration of the Program": "6 Months",
+      "Program Terms/Modules": "7 Modules",
+      "Live Session Hours": "70 hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Sirmaur Faculty",
+      "alumni status": "NA",
+      "Minimum Attendance Required": "Minimum Attendance - 75%",
+      "Certificates": "Completion Certificate from IIM Sirmaur",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "4+ Tools: ChatGPT, Gamma, NotebookLM, Gemini"
+    }
   }
 ]

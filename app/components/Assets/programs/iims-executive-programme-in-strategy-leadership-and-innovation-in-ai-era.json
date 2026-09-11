@@ -8,7 +8,7 @@
   "contact": "admissions@accredian.com",
   "university_name": "IIM Sirmaur",
   "short_university_name": "indian-institute-of-management-sirmaur",
-  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SLAI.webp",
@@ -60,7 +60,7 @@
   ],
   "domain": "Strategy & Leadership",
   "overview": {
-    "programId": "executive-program-in-strategy-leadership-innovation-in-ai-era-iimsirmaur",
+    "programId": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
     "content": [
       {
         "title": "who should join",
@@ -266,21 +266,21 @@
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Untitled_design-2.webp",
       "position": "Assistant Professor",
       "organization": "IIM Sirmaur",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp"
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
     },
     {
       "name": "Dr. Shashi Kant Srivastava",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Shahsi.webp",
       "position": "Associate Professor",
       "organization": "IIM Sirmaur",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp"
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
     },
     {
       "name": "Prof. Vikas Kumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/1617191279_6_.webp",
       "position": "Associate Professor (Marketing Management)",
       "organization": "IIM Sirmaur",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp"
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
     }
   ],
   "tools": [

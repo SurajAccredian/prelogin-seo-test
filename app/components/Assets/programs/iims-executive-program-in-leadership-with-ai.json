@@ -8,7 +8,7 @@
   "contact": "admissions@accredian.com",
   "university_name": "IIM Sirmaur",
   "short_university_name": "indian-institute-of-management-sirmaur",
-  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM_Sirmaur_Cerificate_2.webp",
@@ -56,7 +56,7 @@
   ],
   "domain": "artificial intelligence",
   "overview": {
-    "programId": "executive-program-in-leadership-with-ai-iim-sirmaur",
+    "programId": "iims-executive-program-in-leadership-with-ai",
     "content": [
       {
         "title": "who should join",
@@ -246,14 +246,14 @@
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/RB.webp",
       "position": "Assistant Professor (OB & HRM)",
       "organization": "IIM Sirmaur",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp"
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
     },
     {
       "name": "Dr. Alekh Gour",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Dr._Alekh_Gour.webp",
       "position": "Associate Professor (IT)",
       "organization": "IIM Sirmaur",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/logo_copy__1_.webp"
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
     }
   ],
   "tools": [

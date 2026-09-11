@@ -3,7 +3,7 @@
   "category": "68",
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
-  "description": "Embark on a 6-month learning journey in Leadership with AI to drive organizational transformation for future ready businesses.",
+  "description": "Embark on a 6-month learning journey in executive leadership, business strategy, and analytics.",
   "short_title": "Artificial Intelligence",
   "contact": "9358719988",
   "university_name": "IIM Sirmaur",
@@ -52,6 +52,10 @@
     {
       "text": "2 Days",
       "title": "campus immersion"
+    },
+    {
+      "text": "4",
+      "title": "tools"
     }
   ],
   "domain": "artificial intelligence",

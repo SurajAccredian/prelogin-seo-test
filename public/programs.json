@@ -362,6 +362,17 @@
     "program_fee": 160000
   },
   {
+    "university_name": "IITM Pravartak",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+    "program_name": "Executive Program in Technology Leadership & Innovation",
+    "category": "strategy & leadership",
+    "start_date": "10 Jan 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/executive-program-in-technology-leadership-innovation",
+    "id": "executive-program-in-technology-leadership-innovation",
+    "duration": "9 Months"
+  },
+  {
     "university_name": "SP Jain School of Global Management",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in Generative AI for Business Transformation",

@@ -1,0 +1,263 @@
+{
+  "id": "executive-program-in-technology-leadership-innovation",
+  "category": "67",
+  "vertical": "strategy & leadership",
+  "title": "Executive Program in Technology Leadership & Innovation",
+  "description": "Embark on a 9 month learning journey to lead innovation, leverage emerging technologies, and drive business growth.",
+  "short_title": "Technology Leadership",
+  "contact": "8882597163",
+  "university_name": "IITM Pravartak",
+  "short_university_name": "iitm-pravartak",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IITM_Campus_image__1_.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT_Pravartak_Accredian_sample_2.webp",
+  "start_date": "10 Jan 2027",
+  "duration": "9 Months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "100",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "2 Days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "9",
+      "title": "modules"
+    }
+  ],
+  "domain": "Strategy & Leadership",
+  "overview": {
+    "programId": "executive-program-in-technology-leadership-innovation",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Senior Technology Executives: Lead digital transformation and technology-driven business strategy",
+          "Technology Directors & Engineering Leaders: Align innovation with business goals and lead high-performing teams",
+          "Senior Managers & Technical Professionals: Strengthen leadership to drive innovation and scale technology initiatives",
+          "Founders & Entrepreneurs: Build and grow technology-led, future-ready businesses",
+          "Innovation & Digital Transformation Leaders: Accelerate organizational transformation through emerging technologies"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Technology Officer (CTO)",
+          "Chief Information Officer (CIO)",
+          "Chief Digital Officer (CDO)",
+          "Chief Innovation Officer (CIO)",
+          "Vice President of Engineering",
+          "Vice President of Technology",
+          "Head of Digital Transformation",
+          "Technology Program Manager",
+          "Technology Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "9 Modules: Strategic Leadership, Emerging Technologies and Innovation Frameworks",
+          "Campus Immersion: One 2-Day Campus Immersion at IIT Madras",
+          "Certification from IITM Pravartak",
+          "Career Counseling by Accredian",
+          "Duration: 9 Months | Weekend Online Format ",
+          "Live Instructor-Led Classes",
+          "Capstone Project",
+          "EMI up to 24 Months"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "capstone-project",
+    "strategic-leadership"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "The Modern Enterprise Technology Leader",
+      "points": [
+        "Evolving Role of Enterprise Technology Leaders",
+        "CTO vs CIO vs CDO Power Dynamics",
+        "Technology Leadership Mindset in Volatile Environments",
+        "Decision-Making Under High Uncertainty"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Communication & Boardroom Influence",
+      "points": [
+        "Presenting Technology Strategy to Boards",
+        "Influencing CEOs, CFOs, COOs, and Business Leaders",
+        "Political Navigation in Enterprise Transformation",
+        "Executive Presence and Strategic Storytelling"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Technology Strategy & Competitive Advantage",
+      "points": [
+        "Translating Business Strategy into Technology Architecture",
+        "Building Technology Moats Through Platforms, Data, and Ecosystems",
+        "Build vs Buy vs Partner vs Acquire: Strategic Technology Decisions",
+        "Avoiding Over-Engineering and Innovation Theatre"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Finance for Technology Leaders",
+      "points": [
+        "Technology Portfolio Prioritization and Governance",
+        "CapEx vs OpEx Decision Frameworks for Technology Investments",
+        "Evaluating ROI Across Platforms, Products, and Infrastructure",
+        "Balancing Cost Optimization with Innovation Investments"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Enterprise Technology & Digital Architecture",
+      "points": [
+        "Enterprise Architecture as a Strategic Capability",
+        "Platform Architecture and API Ecosystems",
+        "Data, Cloud, and Integration Architecture Decisions",
+        "Balancing Standardization and Organizational Agility"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leading Digital Transformation at Scale",
+      "points": [
+        "Digital Transformation Operating Models",
+        "Business–Technology Integration at Scale",
+        "Scaling Change Across Functions and Geographies",
+        "Avoiding Transformation Fatigue and Failure"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI & Generative AI Strategy",
+      "points": [
+        "Enterprise AI and Generative AI Portfolio Strategy",
+        "AI Operating Models and Governance Frameworks",
+        "The Economics of AI-Driven Productivity",
+        "Human–AI Collaboration at Scale"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Innovation Systems & Technology-Led Growth",
+      "points": [
+        "Innovation Spectrum: From Incremental Improvements to Disruptive Transformation",
+        "Venture-Style Innovation Funding Within Enterprises",
+        "From Experimentation to Scalable Competitive Advantage",
+        "Technology as a Strategic Growth Engine"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Product Thinking & Platform Leadership",
+      "points": [
+        "Product vs Project Operating Philosophy",
+        "Platform Ecosystems and the API Economy",
+        "Customer-Centric Digital Experience Design",
+        "Scaling Digital Products Across the Enterprise"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will design a board-ready enterprise technology strategy for a real or simulated organization. The project integrates technology investment decisions, digital architecture choices, AI adoption strategy, innovation roadmap, and organizational design. Learners will present transformation priorities, value cases, risk governance, and execution model—demonstrating readiness to lead enterprise-wide technology-driven growth at the C-suite level."
+      ]
+    }
+  ],
+  "billing": {
+    "total": 220000,
+    "points": [
+      "100 Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 18431,
+        "months": 12
+      },
+      {
+        "emi": 12733,
+        "months": 18
+      },
+      {
+        "emi": 9863,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "tools",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITMADRASPRAVARTAK-Executive-Program-In-Technology-Leadership-Innovation.pdf",
+    "source": "IIT-MADRAS-PRAVARTAK Executive Program in Technology Leadership & Innovation Brochure",
+    "campaign_name": "IIT-MADRAS-PRAVARTAK-Technology Leadership"
+  },
+  "faculty": [],
+  "tools": [
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "miro",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "Claude AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    }
+  ]
+}

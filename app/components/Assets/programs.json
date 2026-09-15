@@ -67,6 +67,41 @@
     "program_fee": 452500,
     "pid": 138
   },
+  
+{
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "university_name": "IIM Sirmaur",
+  "program_name": "Executive Program in Leadership with AI",
+  "duration": "6 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "batch_type": "Online",
+  "id": "iims-executive-program-in-leadership-with-ai",
+  "category": "artificial intelligence",
+  "tags": [
+    "Best Selling",
+    "Instructor Led",
+    "Online"
+  ],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "9358719988",
+  "pid": 177
+},
+
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
@@ -280,7 +315,7 @@
     "tags": [],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf", 
       "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
       "campaign_name": "IIM-RANCHI-CHRO"
     },
@@ -420,7 +455,7 @@
       "referrerBonus": "₹5,000",
       "refreeBonus": "₹5,000"
     },
-    "start_date": "26 Jul 2026",
+    "start_date": "15 Nov 2026",
     "contact": "9810184424",
     "program_fee": 199000,
     "pid": 157
@@ -941,7 +976,34 @@
     "contact": "9358719988",
     "program_fee": 160000,
     "pid": 144
+  },{
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+  "university_name": "IITM Pravartak",
+  "program_name": "Executive Program in Technology Leadership & Innovation",
+  "duration": "9 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+  "batch_type": "Online",
+  "id": "executive-program-in-technology-leadership-innovation",
+  "category": "strategy & leadership",
+  "tags": [],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITMADRASPRAVARTAK-Executive-Program-In-Technology-Leadership-Innovation.pdf",
+    "source": "IIT-MADRAS-PRAVARTAK Executive Program in Technology Leadership & Innovation Brochure",
+    "campaign_name": "IIT-MADRAS-PRAVARTAK-Technology Leadership"
   },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "8882597163"
+},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
@@ -1185,6 +1247,42 @@
     "program_fee": 300000,
     "pid": 125
   },
+
+
+  {
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "university_name": "IIM Sirmaur",
+  "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
+  "duration": "8 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "batch_type": "Online",
+  "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
+  "category": "strategy & leadership",
+  "tags": [
+    "Instructor Led",
+    "Best Selling",
+    "New"
+  ],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Strategy-Leadership-Innovation-In-AI-Era.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Strategy Leadership & Innovation in AI Era Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Strategy & Leadership-8 Months"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "8851827093",
+  "pid": 176
+},
+
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",

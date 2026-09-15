@@ -490,6 +490,11 @@ export const generateFAQFromTemplate = (programData) => {
         : programData.id == "sp-jain-executive-program-in-leadership-with-ai"
         ? "spj_leadership_ai"
 
+        : programData.id == "iims-executive-program-in-leadership-with-ai"
+        ? "iim_sirmaur_leadership_ai"
+        : programData.id == "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era"
+        ? "iim_sirmaur_strategy_leadership_innovation_ai"
+
         : 'iitk';
         
     const template = universityFaqTemplates[universityCode];

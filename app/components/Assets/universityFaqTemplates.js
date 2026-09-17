@@ -60,7 +60,7 @@ export const universityFaqTemplates = {
                         content: [
                             "Yes. Participants will receive a Completion Certificate from {instituteName}, upon fulfilling the requirements.",
                             "",
-                            "- **Completion Certificate will be issued only ifs**",
+                            "- **Completion Certificate will be issued only if**",
                             "attendance is 70% or above.",
                             "",
                             "- **Participation Certificate** will be issued if attendance is below 70% **(no Completion Certificate)**.",
@@ -754,9 +754,9 @@ export const universityFaqTemplates = {
                         content: [
                             "Yes. Participants will receive a Completion Certificate from IIM Visakhapatnam upon fulfilling the requirements.",
                             "",
-                            "- **Completion Certificate will be issued only if** Attendance is 70% or above, along with a 50% score in the overall assessment.",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% or above, along with a 50% score in the overall assessment.",
                             "",
-                            "- **Participation Certificate will be issued if** Attendance is below 70% (no Completion Certificate in this case)",
+                            "- **Participation Certificate will be issued if:** Attendance is below 70% (no Completion Certificate in this case)",
                             "",
                             "- **Physical Copy of Program Completion Certificate:** Applicable for campus immersion participants, subject to minimum attendance."
                         ]
@@ -5161,7 +5161,7 @@ export const universityFaqTemplates = {
                             "",
                             "- **Participation Certificate:** will not be issued.",
                             "",
-                            "**Note**: Completion and Participation Certificates are provided in digital format only (no physical copy)."
+                            "**Note**: Completion and Participation Certificates are provided in digital format only (no physical copy).  However Physical certificates will be provided to campus immersion participants only, subject to minimum attendance."
                         ],
                     },
                     {
@@ -7496,7 +7496,7 @@ export const universityFaqTemplates = {
             }
         ]
     },
-        iim_sirmaur_leadership_ai: {
+    iim_sirmaur_leadership_ai: {
         templateId: "iim_sirmaur_leadership_ai_standard",
         sections: [
             {

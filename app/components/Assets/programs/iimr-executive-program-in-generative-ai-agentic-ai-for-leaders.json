@@ -201,7 +201,7 @@
     }
   ],
   "billing": {
-    "total": 189000,
+    "total": 180000,
     "points": [
       "84+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
@@ -210,16 +210,16 @@
     ],
     "monthly_emi": [
       {
-        "emi": 16154,
-        "months": 12
+        "months": 12,
+        "emi": 15178
       },
       {
-        "emi": 11160,
-        "months": 18
+        "months": 18,
+        "emi": 10486
       },
       {
-        "emi": 8645,
-        "months": 24
+        "months": 24,
+        "emi": 8123
       }
     ]
   },
@@ -237,6 +237,7 @@
   ],
   "brochure": {
    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
+   
     "source": "IIM-RANCHI Executive Program in Generative AI & Agentic AI for Leaders Brochure",
     "campaign_name": "IIM-RANCHI-EPGA&AIL"
   },

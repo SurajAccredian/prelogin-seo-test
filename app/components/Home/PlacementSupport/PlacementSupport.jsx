@@ -17,7 +17,7 @@ const PlacementSupport = () => {
           <div className="flex-1 md:py-0 py-16 hidden lg:flex justify-center">
             <div className="relative w-full sm:w-[70%] md:w-[45vw] 3xl:w-[42rem]">
               <img
-                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/laptopscreen.webp"
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dashboard-accredian.webp"
                 alt="placement_laptop"
                 className="w-full"
               />

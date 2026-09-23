@@ -64,9 +64,9 @@ function AccountDrawer({ isOpen, onClose }) {
               className={`w-full rounded-md drop-shadow-md flex items-center justify-between gap-3 px-4 py-2.5 bg-white text-black cursor-pointer`}
             >
               <div className="flex items-center gap-2">
-                <h1 className="font-semibold text-nowrap text-sm capitalize">
+                <span className="font-semibold text-nowrap text-sm capitalize">
                   My Applications
-                </h1>
+                </span>
               </div>
               <div className="w-5 h-5">
                 <svg
@@ -90,9 +90,9 @@ function AccountDrawer({ isOpen, onClose }) {
               className={`w-full rounded-md drop-shadow-md flex items-center justify-between gap-3 px-4 py-2.5 bg-white text-black cursor-pointer`}
             >
               <div className="flex items-center gap-2">
-                <h1 className="font-semibold text-nowrap text-sm capitalize">
+                <span className="font-semibold text-nowrap text-sm capitalize">
                   My Courses
-                </h1>
+                </span>
               </div>
               <div className="w-5 h-5">
                 <svg
@@ -116,9 +116,9 @@ function AccountDrawer({ isOpen, onClose }) {
               className={`w-full rounded-md drop-shadow-md flex items-center justify-between gap-3 px-4 py-2.5 bg-red-500 text-white cursor-pointer`}
             >
               <div className="flex items-center gap-2">
-                <h1 className="font-semibold text-nowrap text-sm capitalize">
+                <span className="font-semibold text-nowrap text-sm capitalize">
                   Logout
-                </h1>
+                </span>
               </div>
             </div>
           </div>

@@ -48,7 +48,7 @@ function MentorverticalListsList() {
                   Explore Our
                   <span className="text-universal capitalize"> Verticals</span>
                 </h4>
-                <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+                <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                   {/* Lead Innovation in
                     <span className="text-universal"> Key Domains</span>{" "} */}
                   A Diverse Range of
@@ -56,7 +56,7 @@ function MentorverticalListsList() {
                     {" "}
                     Expertise
                   </span>
-                </h1>
+                </h2>
               </div>
             </div>
           </div>
@@ -128,12 +128,12 @@ function MentorverticalListsList() {
                         className="verticalListImage"
                         alt={val?.name}
                       />
-                      <h1
+                      <h3
                         title={val?.name}
                         className="text-md text-center font-bold text-slate-700 max-w-[280px] whitespace-normal break-words "
                       >
                         {val?.name}
-                      </h1>
+                      </h3>
                     </div>
                     {/* {val?.points?.map((point, pointIndex) => (
                       <div

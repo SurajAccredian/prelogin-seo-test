@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import "react-phone-input-2/lib/material.css";
 import {
   Grid,
@@ -72,7 +72,7 @@ const dropdown = [
   { value: "Finance", label: "Finance" },
 ];
 
-const CareerTransition = (props) => {
+const CareerTransitionInner = (props) => {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -371,4 +371,11 @@ const CareerTransition = (props) => {
   );
 };
 
-export default CareerTransition;
+export default function CareerTransition(props) {
+  if (!props.open) return null;
+  return (
+    <Suspense fallback={null}>
+      <CareerTransitionInner {...props} />
+    </Suspense>
+  );
+}

@@ -8,9 +8,5 @@ export const metadata = {
 };
 
 export default function WhyAccredianPage() {
-  return (
-    <Suspense fallback={null}>
-      <WhyAccredian />
-    </Suspense>
-  );
+  return <WhyAccredian />;
 }

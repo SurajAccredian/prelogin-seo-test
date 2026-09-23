@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import TextField from "@mui/material/TextField";
 import "react-phone-input-2/lib/material.css";
 import {
@@ -69,7 +69,7 @@ const options = {
   },
 };
 
-const Brochure = (props) => {
+const BrochureInner = (props) => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
   
@@ -375,4 +375,12 @@ const Brochure = (props) => {
     </>
   );
 };
-export default Brochure;
+
+export default function Brochure(props) {
+  if (!props.open) return null;
+  return (
+    <Suspense fallback={null}>
+      <BrochureInner {...props} />
+    </Suspense>
+  );
+}

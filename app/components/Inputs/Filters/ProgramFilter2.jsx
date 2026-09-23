@@ -21,9 +21,9 @@ const ProgramFilter2 = ({ title, categories, onFilterChange, className, checked 
                 </div>
               </label>
             </div>
-            <h1 className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700 md:text-base text-sm`}>
+            <p className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700 md:text-base text-sm`}>
               {category.toLowerCase() === "cxo leadership" ? "CXO Leadership" : category.toLowerCase() === "data science & ai" ? "Data Science & AI" : category.toLowerCase() === "pg diploma" ? "PG Diploma" : category}
-            </h1>
+            </p>
           </div>
         ))}
       </div>

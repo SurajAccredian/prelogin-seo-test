@@ -88,7 +88,7 @@ const Related = () => {
       <div className='w-full flex justify-center'>
         <div className='w-full max-w-[85rem] relative'>
           <div className='mt-2 w-full flex items-center'>
-            <h1 className='text-xl capitalize font-semibold'>Related Programs</h1>
+            <h2 className='text-xl capitalize font-semibold'>Related Programs</h2>
           </div>
         </div>
       </div>

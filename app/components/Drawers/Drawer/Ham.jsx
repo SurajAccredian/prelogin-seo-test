@@ -66,7 +66,7 @@ export default function Ham({
                 >
                   <div className="flex justify-center items-center gap-2 w-full text-center">
                     <TbLogin2 />
-                    <h1 className="font-semibold text-center text-xl">Login</h1>
+                    <span className="font-semibold text-center text-xl">Login</span>
                   </div>
                 </div>
                 {/* <a

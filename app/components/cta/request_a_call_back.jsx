@@ -250,7 +250,7 @@ function RctaInner(props) {
                       <CiPhone className="w-full h-full text-universal" />
                     </div>
                     <div className="flex items-center gap-2">
-                      <h1 className="font-medium text-gray-800">To Inquire</h1>
+                      <p className="font-medium text-gray-800">To Inquire</p>
                       <span className="text-gray-600">-</span>
                       <a
                         href={`tel:${ENQUIRY_NUMBER}`}
@@ -459,9 +459,9 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                   <div className="mt-8 flex md:hidden flex-col items-center gap-4 w-full">
                     <div className="flex items-center gap-2 w-full">
                       <div className="flex-[0.45] border border-neutral-200" />
-                      <h1 className="flex-[0.1] text-sm font-medium text-gray-400 text-center uppercase tracking-wider">
+                      <p className="flex-[0.1] text-sm font-medium text-gray-400 text-center uppercase tracking-wider">
                         or
-                      </h1>
+                      </p>
                       <div className="flex-[0.45] border border-neutral-200" />
                     </div>
                     <div className="w-full flex justify-center items-center gap-4 bg-blue-50 border border-blue-200 py-3 px-4 rounded-lg">
@@ -469,7 +469,7 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                         <CiPhone className="w-full h-full text-universal" />
                       </div>
                       <div className="flex items-center gap-2">
-                        <h1 className="font-medium text-gray-800">To Inquire</h1>
+                        <p className="font-medium text-gray-800">To Inquire</p>
                         <span className="text-gray-400">-</span>
                         <a
                           href={`tel:${ENQUIRY_NUMBER}`}
@@ -491,6 +491,7 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
 }
 
 export default function Rcta(props) {
+  if (!props.open) return null;
   return (
     <React.Suspense fallback={null}>
       <RctaInner {...props} />

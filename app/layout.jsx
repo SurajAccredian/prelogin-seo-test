@@ -73,6 +73,20 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
+      <head>
+        {/* LeadSquared Tracking Code Start */}
+        <script
+          type="text/javascript"
+          src="https://web-in21.mxradon.com/t/Tracker.js"
+        />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `pidTracker('58946');`,
+          }}
+        />
+        {/* LeadSquared Tracking Code End */}
+      </head>
       <body className="" suppressHydrationWarning>
         <noscript>
           <iframe

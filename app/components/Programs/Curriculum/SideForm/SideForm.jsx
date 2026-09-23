@@ -5,7 +5,7 @@ import { IoWarning } from "react-icons/io5";
 import PhoneInput from "react-phone-input-2";
 import { useMutation } from "@tanstack/react-query";
 import { useSelector } from "react-redux";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Swal from "sweetalert2";
 import { getCta } from "../../../../services/program.service";
@@ -17,22 +17,9 @@ import "react-phone-input-2/lib/style.css";
 const SideForm = () => {
   const { data } = useSelector((state) => state.program);
 
-  const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
     pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source =
-    searchParams.get("utm_source") == undefined
-      ? "null"
-      : searchParams.get("utm_source");
-  const utm_medium =
-    searchParams.get("utm_medium") == undefined
-      ? "null"
-      : searchParams.get("utm_medium");
-  const utm_campaign =
-    searchParams.get("utm_campaign") == undefined
-      ? "null"
-      : searchParams.get("utm_campaign");
 
   const {
     register,
@@ -68,8 +55,6 @@ const SideForm = () => {
         Swal.fire({
           title: "Oops!",
           text: "We are facing server issue, please try again in sometime.",
-          icon: "Warning",
-          confirmButtonText: "OK",
         });
       }
     },
@@ -87,6 +72,16 @@ const SideForm = () => {
 
   const submitForm = (body) => {
     const { name, contact, email, query } = body;
+
+    let utm_source = "null";
+    let utm_medium = "null";
+    let utm_campaign = "null";
+    if (typeof window !== "undefined") {
+      const searchParams = new URLSearchParams(window.location.search);
+      utm_source = searchParams.get("utm_source") || "null";
+      utm_medium = searchParams.get("utm_medium") || "null";
+      utm_campaign = searchParams.get("utm_campaign") || "null";
+    }
 
     const payload = {
       phone: contact,
@@ -109,9 +104,9 @@ const SideForm = () => {
     <div className="request-brochure p-6 bg-white border drop-shadow rounded-lg w-full max-w-[400px] h-fit flex flex-col justify-between">
       <div className="w-full flex flex-col items-center">
         {/* upper heading */}
-        <h1 className="text-xl font-semibold text-neutral-800">
+        <h3 className="text-xl font-semibold text-neutral-800">
           Request more information
-        </h1>
+        </h3>
         {/* request form */}
         <form
           className="w-full h-full min-h-[24rem] flex flex-col justify-between"

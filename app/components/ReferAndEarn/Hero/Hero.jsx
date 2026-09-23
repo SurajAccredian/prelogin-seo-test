@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <ReferModal open={modalOpen} setOpen={setModalOpen} />
+      {modalOpen && <ReferModal open={modalOpen} setOpen={setModalOpen} />}
     </div>
   );
 };

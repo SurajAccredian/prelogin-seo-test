@@ -21,9 +21,9 @@ const CTA = () => {
             </div>
           </div>
           <div className="md:text-start text-center">
-            <h1 className="text-2xl md:text-3xl font-semibold text-white">
+            <h2 className="text-2xl md:text-3xl font-semibold text-white">
               Achieve the Career Growth You Deserve
-            </h1>
+            </h2>
             {/* <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100">Share your details to receive expert insights from our program team!</h4> */}
             <h4 className="text-base hidden sm:block md:text-lg mt-2 max-w-xl font-medium text-neutral-100">
               Join thousands of professionals who have transformed their careers
@@ -39,7 +39,7 @@ const CTA = () => {
           <IoIosArrowForward />
         </button>
       </div>
-      <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
+      {isModalOpen && <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />}
     </div>
   );
 };

@@ -14,9 +14,9 @@ const Process = () => {
   return (
     <div className="w-full xl:px-12 px-4 py-4 md:py-6 lg:py-8 bg-lightBackground md:my-12 my-4">
       <div className="flex flex-col items-center justify-center gap-4 md:gap-6 lg:gap-8">
-        <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center font-circular">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center font-circular">
           How Do I <span className="text-universal">Refer?</span>
-        </h1>
+        </h2>
         <div className="w-full md:w-9/12 lg:10/12 hidden md:flex items-center justify-center">
           <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/ref-process-horizontal-v2.svg" alt="How to refer" />
         </div>
@@ -32,7 +32,7 @@ const Process = () => {
           </a>
         </div>
       </div>
-      <ReferModal open={modalOpen} setOpen={setModalOpen} />
+      {modalOpen && <ReferModal open={modalOpen} setOpen={setModalOpen} />}
     </div>
   );
 };

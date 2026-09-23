@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import { IoIosClose } from "react-icons/io";
-import React, { useCallback, useRef, useState } from "react";
+import React, { Suspense, useCallback, useRef, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { IoWarning } from "react-icons/io5";
 import PhoneInput from "react-phone-input-2";
@@ -17,7 +17,7 @@ import { HashLoader } from "../../Loaders";
 import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
 
-export default function CtaModal({ open, setOpen }) {
+function CtaModalInner({ open, setOpen }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
@@ -378,7 +378,7 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                         <CiPhone className="w-full h-full" />
                       </div>
                       <div className="flex items-center gap-2">
-                        <h1 className="font-medium">To Inquire</h1>
+                        <p className="font-medium">To Inquire</p>
                         <span>-</span>
                         <a
                           href={`tel:${open?.contact}`}
@@ -398,5 +398,14 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
         </Fade>
       </Modal>
     </div>
+  );
+}
+
+export default function CtaModal({ open, setOpen }) {
+  if (!open) return null;
+  return (
+    <Suspense fallback={null}>
+      <CtaModalInner open={open} setOpen={setOpen} />
+    </Suspense>
   );
 }

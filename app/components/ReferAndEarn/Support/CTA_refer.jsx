@@ -27,9 +27,9 @@ const CTA_refer = () => {
             </div>
           </div>
           <div className="md:text-start text-center">
-            <h1 className="text-2xl md:text-3xl font-semibold text-white font-circular">
+            <h2 className="text-2xl md:text-3xl font-semibold text-white font-circular">
               Have questions about referrals?
-            </h1>
+            </h2>
             <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100 font-circular">
               Get expert guidance today!
             </h4>
@@ -43,7 +43,7 @@ const CTA_refer = () => {
           <IoIosArrowForward />
         </button>
       </div>
-      <Rcta open={cta} handleClose={RcbhandleClose} />
+      {cta && <Rcta open={cta} handleClose={RcbhandleClose} />}
     </div>
   );
 };

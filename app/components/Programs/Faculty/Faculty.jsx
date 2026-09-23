@@ -49,13 +49,13 @@ const Faculty = () => {
                 </span>{" "}
                 Faculty{" "}
               </h4>
-              <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+              <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                 Top <span className="text-universal">
                   Faculty
                   {/* {data?.id == 'post-graduate-diploma-in-management-for-working-executives' ? "Academicians" :"Industry Experts"} */}
                   </span> For
                 The Guidance & Success
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

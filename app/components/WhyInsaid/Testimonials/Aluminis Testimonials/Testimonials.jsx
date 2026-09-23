@@ -21,10 +21,10 @@ const Testimonials = () => {
         <h4 className="text-base font-medium">
           Success Stories That Speak Volumes
         </h4>
-        <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+        <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
           From <span className="text-universal"> Learners </span> to{" "}
           <span className="text-universal"> Leaders </span>
-        </h1>
+        </h2>
       </div>
       <div className="w-full max-w-[86rem] flex justify-center lg:justify-normal">
         <div className="w-full max-w-[90vw] lg:max-w-[60rem] xl:max-w-[78rem]">
@@ -92,7 +92,7 @@ const Testimonials = () => {
                       />
                     </div>
                     <div className="">
-                      <h1 className="text-lg font-medium">{val.name}</h1>
+                      <p className="text-lg font-medium">{val.name}</p>
                       <h4 className="font-extralight text-neutral-500">
                         {val.designation}
                       </h4>

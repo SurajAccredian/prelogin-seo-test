@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import { IoIosClose } from "react-icons/io";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { IoWarning } from "react-icons/io5";
 import PhoneInput from "react-phone-input-2";
@@ -20,7 +20,7 @@ import { useDispatch } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import ReCAPTCHA from "react-google-recaptcha";
 
-export default function GetBrochure({ open }) {
+function GetBrochureInner({ open }) {
   const { data } = useSelector((state) => state.program);
   const dispatch = useDispatch();
 
@@ -329,5 +329,14 @@ ${errors["email"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
         </Fade>
       </Modal>
     </div>
+  );
+}
+
+export default function GetBrochure({ open }) {
+  if (!open) return null;
+  return (
+    <Suspense fallback={null}>
+      <GetBrochureInner open={open} />
+    </Suspense>
   );
 }

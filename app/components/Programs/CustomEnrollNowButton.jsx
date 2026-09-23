@@ -19,7 +19,9 @@ const CustomEnrollNowButton = ({
   text,
   ...props
 }) => {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 1200
+  );
   const handleResize = () => {
     setWidth(window.innerWidth);
   };

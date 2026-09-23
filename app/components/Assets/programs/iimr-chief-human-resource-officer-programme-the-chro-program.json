@@ -262,7 +262,7 @@
   ],
 
   "billing": {
-    "total": 250000,
+    "total": 260000,
     "points": [
       "140+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
@@ -271,15 +271,15 @@
     ],
     "monthly_emi": [
       {
-        "emi": 21683,
+        "emi": 22932,
         "months": 12
       },
       {
-        "emi": 14980,
+        "emi": 15843,
         "months": 18
       },
       {
-        "emi": 11604,
+        "emi": 12272,
         "months": 24
       }
     ]

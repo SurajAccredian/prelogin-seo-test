@@ -249,10 +249,20 @@
         "Design an enterprise-wide people strategy aligned with organizational growth and transformation goals. Develop recommendations across talent, culture, workforce transformation, and HR technology while leveraging technologies and AI-driven insights. Present a boardroom-ready roadmap that enables sustainable business performance, strengthens organizational capability, and positions HR as a strategic driver of enterprise value. "
       ],
       "modules": []
+    },
+    
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your Chief Human Resource Officer (CHRO) Programme experience with exclusive CXO coaching. This specialized coaching offers invaluable insights into strategic HR leadership, boardroom influence, and enterprise transformation. Prepare for executive HR and enterprise leadership roles through firsthand guidance from experienced industry leaders."
+      ]
     }
   ],
+
   "billing": {
-    "total": 250000,
+    "total": 260000,
     "points": [
       "140+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
@@ -261,15 +271,15 @@
     ],
     "monthly_emi": [
       {
-        "emi": 21683,
+        "emi": 22932,
         "months": 12
       },
       {
-        "emi": 14980,
+        "emi": 15843,
         "months": 18
       },
       {
-        "emi": 11604,
+        "emi": 12272,
         "months": 24
       }
     ]

@@ -3773,7 +3773,7 @@ export const universityFaqTemplates = {
                     {
                         title: "Will I get any alumni benefits or networking opportunities with IIMR?",
                         content: [
-                            "Yes. Participants will receive IIMR Executive Alumni Status. It is included in the program fees."
+                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
                         ]
                     },
                     {

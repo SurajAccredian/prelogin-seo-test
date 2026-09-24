@@ -90,7 +90,7 @@
   },
   "curriculum_type": "module",
   "unique_points": [
-    "campus-immersion-opt",
+    "campus-immersion",
     "alumni-status",
     "CXO-coaching-sessions",
     "capstone-project"
@@ -243,7 +243,7 @@
       "modules": []
     },
     {
-      "title": "Project: Capstone Project",
+      "title": "Capstone Project",
       "special": "1",
       "points": [
         "Design an enterprise-wide people strategy aligned with organizational growth and transformation goals. Develop recommendations across talent, culture, workforce transformation, and HR technology while leveraging technologies and AI-driven insights. Present a boardroom-ready roadmap that enables sustainable business performance, strengthens organizational capability, and positions HR as a strategic driver of enterprise value. "
@@ -264,22 +264,22 @@
   "billing": {
     "total": 260000,
     "points": [
-      "140+ Hours of Live Classes",
+      "144+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
     ],
     "monthly_emi": [
       {
-        "emi": 22932,
+        "emi": 22767,
         "months": 12
       },
       {
-        "emi": 15843,
+        "emi": 15729,
         "months": 18
       },
       {
-        "emi": 12272,
+        "emi": 12184,
         "months": 24
       }
     ]

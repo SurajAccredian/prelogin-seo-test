@@ -17,24 +17,6 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { sortPrograms } from "../../../helpers/common.helpers";
 import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 
-const UrlParamsSync = () => {
-  const searchParams = useSearchParams();
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    const urlCategories = searchParams.get("verticals")?.split(",").filter(Boolean) || [];
-    const urlTags = searchParams.get("tags")?.split(",").filter(Boolean) || [];
-    if (urlCategories.length > 0) {
-      dispatch(programActions.setCheckedCategories(urlCategories));
-    }
-    if (urlTags.length > 0) {
-      dispatch(programActions.setCheckedTags(urlTags));
-    }
-  }, [searchParams, dispatch]);
-
-  return null;
-};
-
 const SearchedPageInner = () => {
   const dispatch = useDispatch();
   const { checkedCategories, checkedTags } = useSelector((state) => state.program);
@@ -50,19 +32,25 @@ const SearchedPageInner = () => {
   const categories = [...new Set(PROGRAMS.map((item) => item.category.toLocaleLowerCase()))];
   const tags = [...new Set(PROGRAMS.flatMap((item) => item.tags))];
 
+  const searchParams = useSearchParams();
   const router = useRouter();
 
   const handleClose = () => setOpen(false);
 
+  const parseUrlParams = () => {
+    const urlCategories = searchParams.get("verticals")?.split(",") || [];
+    const urlTags = searchParams.get("tags")?.split(",") || [];
+    dispatch(programActions.setCheckedCategories(urlCategories));
+    dispatch(programActions.setCheckedTags(urlTags));
+  };
+
   const handleClickOpenFilterDrawer = () => onOpen();
 
   const updateUrlParams = () => {
-    if (typeof window === "undefined") return;
     const params = new URLSearchParams();
     if (checkedCategories.length > 0) params.set("verticals", checkedCategories.join(","));
     if (checkedTags.length > 0) params.set("tags", checkedTags.join(","));
-    const query = params.toString();
-    router.replace(`/programs${query ? `?${query}` : ""}`, { scroll: false });
+    router.replace(`/programs?${params.toString()}`, { scroll: false });
   };
 
   const handleCategoryChange = (event) => {
@@ -101,15 +89,13 @@ const SearchedPageInner = () => {
   };
 
   useEffect(() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }, []);
+  useEffect(() => { parseUrlParams(); }, [searchParams]);
   useEffect(() => { updateUrlParams(); }, [checkedCategories, checkedTags]);
 
   const sortedPrograms = sortPrograms([...(filteredArray.length > 0 ? filteredArray : PROGRAMS)]);
 
   return (
     <>
-      <Suspense fallback={null}>
-        <UrlParamsSync />
-      </Suspense>
       <HomePageWrapper>
         <div className="search-page w-full min-h-screen py-16 flex justify-center font-circular xl:px-12 px-4">
           <div className="max-w-[85rem] w-full">
@@ -189,7 +175,7 @@ const SearchedPageInner = () => {
         isOpen={isOpen}
       />
 
-      {brotureDownloadInfo && open && (
+      {brotureDownloadInfo && (
         <DownloadBrochure
           open={open}
           handleClose={handleClose}
@@ -205,5 +191,9 @@ const SearchedPageInner = () => {
 };
 
 export default function SearchedPage() {
-  return <SearchedPageInner />;
+  return (
+    <Suspense fallback={null}>
+      <SearchedPageInner />
+    </Suspense>
+  );
 }

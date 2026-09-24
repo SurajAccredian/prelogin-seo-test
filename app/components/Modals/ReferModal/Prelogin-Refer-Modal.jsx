@@ -7,7 +7,7 @@ import {
   InputAdornment,
 } from "@mui/material";
 import axios from "axios";
-import React, { Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import ClearIcon from "@mui/icons-material/Clear";
 import toast, { Toaster } from "react-hot-toast";
@@ -128,7 +128,7 @@ const responsiveStyle = {
   },
 };
 
-const ReferModalContent = ({ open, setOpen }) => {
+const ReferModal = ({ open, setOpen }) => {
   const searchParams = useSearchParams();
   const myParam = searchParams ? searchParams.get("utm_source") : null;
 
@@ -775,11 +775,4 @@ const ReferModalContent = ({ open, setOpen }) => {
   );
 };
 
-export default function ReferModal({ open, setOpen }) {
-  if (!open) return null;
-  return (
-    <Suspense fallback={null}>
-      <ReferModalContent open={open} setOpen={setOpen} />
-    </Suspense>
-  );
-}
+export default ReferModal;

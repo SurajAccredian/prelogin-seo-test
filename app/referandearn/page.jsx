@@ -8,5 +8,9 @@ export const metadata = {
 };
 
 export default function ReferAndEarnPage() {
-  return <Refer />;
+  return (
+    <Suspense fallback={<div className="min-h-screen"></div>}>
+      <Refer />
+    </Suspense>
+  );
 }

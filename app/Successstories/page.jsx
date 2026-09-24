@@ -8,5 +8,9 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <SuccessStories />;
+  return (
+    <Suspense fallback={null}>
+      <SuccessStories />
+    </Suspense>
+  );
 }

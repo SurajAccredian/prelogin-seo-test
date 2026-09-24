@@ -112,7 +112,7 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
 
   return (
     <Drawer
-      anchor="right"
+      anchor="left"
       open={isOpen}
       onClose={onClose}
       PaperProps={{

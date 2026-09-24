@@ -261,6 +261,17 @@
   {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "CTO & AI Leadership Program",
+    "category": "",
+    "start_date": "31 Jan 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/cto-ai-leadership-program",
+    "id": "cto-ai-leadership-program",
+    "duration": "12 Months"
+  },
+  {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "26 Jul 2026",

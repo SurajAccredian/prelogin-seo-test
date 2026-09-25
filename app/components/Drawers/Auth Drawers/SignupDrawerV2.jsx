@@ -102,7 +102,7 @@ function SignupDrawer({ open, email, handleClose }) {
         localStorage.setItem("enrollmentStatus", false);
         console.log(response);
         const auth_type = response.auth_type;
-        setCookie("token", response.token, 12, "accredian.com");
+        setCookie("token", response.token, 12, "localhost");
         const myDecodedToken = decodeToken(response.token);
         const isMyTokenExpired = isExpired(response.token);
         console.log(myDecodedToken);

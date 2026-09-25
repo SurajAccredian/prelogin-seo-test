@@ -85,7 +85,7 @@ const Resetpassword = () => {
 
     try {
       const result = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD}/change-password`,
+        `http://localhost:5001/change-password`,
         JSON.stringify(sandData),
         {
           headers: {

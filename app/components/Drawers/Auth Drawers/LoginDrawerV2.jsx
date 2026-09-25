@@ -348,8 +348,8 @@ const LoginDrawer = ({ isOpen, onClose }) => {
   // The otp is verfied of the user
 
   const setLoginDetails = (response) => {
-    setCookie("token", response.token, 12, "accredian.com");
-    // setCookie("token", response.token, 12, "accredian.com");
+    setCookie("token", response.token, 12, "localhost");
+    // setCookie("token", response.token, 12, "localhost");
     const myDecodedToken = decodeToken(response.token);
     const isMyTokenExpired = isExpired(response.token);
     // console.log(myDecodedToken);
@@ -584,7 +584,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
         const auth_type = response.auth_type;
         // If existing user then token is set and he is logged in directlly
         if (auth_type === "existingUser") {
-          // setCookie("token", response.token, 12, "accredian.com");
+          // setCookie("token", response.token, 12, "localhost");
           // const myDecodedToken = decodeToken(response.token);
           // const isMyTokenExpired = isExpired(response.token);
           // console.log(myDecodedToken);

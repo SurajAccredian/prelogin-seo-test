@@ -179,7 +179,7 @@ function MasterForm() {
         const auth_type = response.auth_type;
         if (auth_type === "existingUser") {
           setEnrollmentDetails(response);
-          setCookie("token", response.token, 12, "accredian.com");
+          setCookie("token", response.token, 12, "localhost");
           const myDecodedToken = decodeToken(response.token);
           const isMyTokenExpired = isExpired(response.token);
           setTokenexp(isMyTokenExpired);

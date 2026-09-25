@@ -8,7 +8,6 @@ import QueryProvider from "./store/QueryProvider";
 import AnalyticsProvider from "./components/AnalyticsProvider";
 import SmoothScroll from "./components/SmoothScroll";
 import { Toaster } from "react-hot-toast";
-import Script from "next/script";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -75,16 +74,6 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <body className="" suppressHydrationWarning>
-          {/* LeadSquared Tracking Code Start */}
-        <Script
-  src="https://web-in21.mxradon.com/t/Tracker.js"
-  strategy="afterInteractive"
-/>
-
-<Script id="leadsquared-tracker" strategy="afterInteractive">
-  {`pidTracker('58946');`}
-</Script>
-        {/* LeadSquared Tracking Code End */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-W2HX5GJ"

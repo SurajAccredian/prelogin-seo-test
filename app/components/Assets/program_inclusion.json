@@ -2847,6 +2847,7 @@
       "Live Session Hours": "84+ hours",
       "Capstone Project": "1 Capstone Project upon Program Completion",
       "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Simulations": "2 Transformative Simulations",
       "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
       "Program Faculty": "IIM Ranchi Faculty",
       "Benefits of Alumni Status": [
@@ -2856,9 +2857,10 @@
         "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
         "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
       ],
-      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "alumni status": "Executive Alumni Status from IIM Visakhapatnam at an additional cost of INR 10,000 + GST, awarded upon program completion",
       "Minimum Attendance Required": "Minimum Attendance - 70%",
       "Certificates": "Completion Certificate from IIM Ranchi",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
       "Career Assistance Sessions": "6 Sessions by Accredian",
       "Tools/Framework Covered in the Program": "8+ Tools Perplexity, ChatGPT, Lovable, Gemini, Claude, Gamma, NotebookLM, Leonardo.AI etc."
     }

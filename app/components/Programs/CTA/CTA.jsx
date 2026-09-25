@@ -27,7 +27,7 @@ const CTA = () => {
             </div>
           </div>
           <div className="text-start">
-            <h1 className="text-2xl md:text-3xl font-semibold text-white max-md:hidden">Want to delve deeper into the program?</h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-white max-md:hidden">Want to delve deeper into the program?</h2>
             {/* <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100">Share your details to receive expert insights from our program team!</h4> */}
             <h4 className="text-lg md:mt-2 max-w-xl font-medium text-neutral-100">Connect with an expert for clear program insights!</h4>
           </div>

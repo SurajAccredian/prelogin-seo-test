@@ -13,7 +13,7 @@
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
-   "start_date": "9 Aug 2026",
+   "start_date": "29 Nov 2026",
   "duration": "7 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -38,7 +38,7 @@
       "title": "campus immersion"
     },
     {
-      "text": "3",
+      "text": "2",
       "title": "simulations"
     },
     {
@@ -86,7 +86,7 @@
           "Live Instructor-Led Classes",
           "One Campus Immersion of 2 Days",
           "1 Capstone Project",
-          "3 Transformative Simulations",
+          "2 Transformative Simulations",
           "EMI up to 24 Months",
           "1:1 Career Mentorship Sessions"
         ]
@@ -210,16 +210,16 @@
     ],
     "monthly_emi": [
       {
-        "emi": 15178,
-        "months": 12
+        "months": 12,
+        "emi": 15178
       },
       {
-        "emi": 10486,
-        "months": 18
+        "months": 18,
+        "emi": 10486
       },
       {
-        "emi": 8123,
-        "months": 24
+        "months": 24,
+        "emi": 8123
       }
     ]
   },
@@ -237,6 +237,7 @@
   ],
   "brochure": {
    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
+   
     "source": "IIM-RANCHI Executive Program in Generative AI & Agentic AI for Leaders Brochure",
     "campaign_name": "IIM-RANCHI-EPGA&AIL"
   },

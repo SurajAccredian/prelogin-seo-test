@@ -431,10 +431,10 @@ export const generateFAQFromTemplate = (programData) => {
     console.log("Program Data:", programData.required_years_experience); // Debugging line    
         
     const universityCode =
-    programData.id == "executive-program-in-generative-ai-for-business-leaders" || programData.id == "chief-human-resource-officer-programme"
-        ? "iimv-v2"
-        : programData.id == "post-graduate-diploma-in-management-for-working-executives"
+    programData.id == "post-graduate-diploma-in-management-for-working-executives"
         ? "iimv-diploma"
+        : programData.short_university_name?.toLowerCase() === "iimv"
+        ? "iimv-v2"
         : programData.id == "executive-general-management-program"
         ? "iiml_egmp"
         : programData.id == "executive-program-in-strategic-hr-leadership"
@@ -491,6 +491,11 @@ export const generateFAQFromTemplate = (programData) => {
         ? "spj_leadership_ai"
         : programData.id == "iimr-cto-ai-leadership-program"
         ? "iim_ranchi_cto_ai_leadership"
+
+        : programData.id == "iims-executive-program-in-leadership-with-ai"
+        ? "iim_sirmaur_leadership_ai"
+        : programData.id == "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era"
+        ? "iim_sirmaur_strategy_leadership_innovation_ai"
 
         : 'iitk';
         

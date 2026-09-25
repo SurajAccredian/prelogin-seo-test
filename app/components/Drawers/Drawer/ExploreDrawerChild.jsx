@@ -32,7 +32,7 @@ const ExploreDrawerChild = ({ innerIsOpen, innerOnClose, streamWithTab, handleCl
             </div>
             {streamWithTab && (
               <>
-                <h1 className='font-bold text-2xl capitalize mt-2 mx-1'>{streamWithTab}</h1>
+                <h2 className='font-bold text-2xl capitalize mt-2 mx-1'>{streamWithTab}</h2>
                 <div className='w-full flex flex-wrap mt-4 py-2 max-h-[70vh] px-1 overflow-y-scroll gap-4 custom-scrollbar'>
                   {categorizedPrograms &&
                     categorizedPrograms[streamWithTab.toLowerCase()]?.map((val, index) => (

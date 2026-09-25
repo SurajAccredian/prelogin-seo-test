@@ -37,26 +37,26 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
           <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md">
             <img loading="lazy" title={program.university_name} src={program.university_image} className="w-full h-full object-contain rounded-sm" alt={program.university_name} />
           </div>
-          <h1 title={program.university_name} className="text-center font-medium text-xs text-neutral-500 cursor-context-menu">
+          <p title={program.university_name} className="text-center font-medium text-xs text-neutral-500 cursor-context-menu">
             {program.university_name}
-          </h1>
+          </p>
         </div>
         <div className="w-full border-b border-neutral-300 mt-4" />
       </div>
 
       <div className="w-full flex-1 flex flex-col justify-between px-4 pt-2 pb-4 cursor-context-menu">
-        <h1 className="font-semibold">{program.program_name}</h1>
+        <h2 className="font-semibold">{program.program_name}</h2>
         <div className="w-full">
-          <h2 className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu" title={program.tags?.join(", ")}>
+          <p className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu" title={program.tags?.join(", ")}>
             <span className="text-black">Core skills - </span>
             {program.tags?.join(", ")}
-          </h2>
+          </p>
           <div className="flex items-center gap-2">
             <CiViewTimeline className="text-2xl text-universal/90" strokeWidth={0.5} />
-            <h1 className="text-base font-medium capitalize">
+            <p className="text-base font-medium capitalize">
               {program.duration} -{" "}
               <span title={program.batch_type}>{program.batch_type}</span>
-            </h1>
+            </p>
           </div>
         </div>
 

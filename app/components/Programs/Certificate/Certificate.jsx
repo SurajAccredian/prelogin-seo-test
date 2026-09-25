@@ -50,11 +50,11 @@ const Certificate = () => {
             Get certified in{" "}
             <span className="text-universal">{data?.short_title}</span> Program
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Earn A Recognized{" "}
             <span className="text-universal">{data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "Diploma" : "Certification"}</span> to Boost your
             Career
-          </h1>
+          </h2>
         </div>
         {Array.isArray(data?.certificate) ? (
           <>
@@ -113,20 +113,20 @@ const Certificate = () => {
                 </div>
               </div>
               <div className="px-4 max-w-3xl lg:max-w-2xl w-full md:text-start text-center">
-                <h1 className="text-lg md:text-2xl font-semibold text-neutral-800">
+                <h3 className="text-lg md:text-2xl font-semibold text-neutral-800">
                   Share your{" "}
                   <span className="text-universal">Achievements</span> and
                   Unlock New Opportunities
-                </h1>
+                </h3>
                 <div className="flex flex-col max-md:items-center gap-4 md:gap-8 mt-4 md:mt-6">
                   <div className="flex gap-2">
                     <div className="w-5 md:w-6 h-5 md:h-6 flex-shrink-0 mt-[2px]">
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
                     <div className="">
-                      <h1 className="text-base md:text-xl font-semibold text-neutral-800">
+                      <h3 className="text-base md:text-xl font-semibold text-neutral-800">
                         Worldwide Recognition
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-lg mt-2 text-neutral-700 max-md:hidden">
                         Acquire a globally recognized {data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "diploma" : "certification"}, opening
                         doors to opportunities worldwide.
@@ -138,9 +138,9 @@ const Certificate = () => {
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
                     <div className="">
-                      <h1 className="text-base md:text-xl font-semibold text-neutral-800">
+                      <h3 className="text-base md:text-xl font-semibold text-neutral-800">
                         Top College Endorsement
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-lg mt-2 text-neutral-700 max-md:hidden">
                         Earn a prestigious {data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "diploma" : "certification"} from a top-tier
                         college, validating your expertise.
@@ -152,9 +152,9 @@ const Certificate = () => {
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
                     <div className="">
-                      <h1 className="text-base md:text-xl font-semibold text-neutral-800">
+                      <h3 className="text-base md:text-xl font-semibold text-neutral-800">
                         Lifetime Validity Assurance
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-lg mt-2 text-neutral-700 max-md:hidden">
                         Enjoy the assurance of lifetime validity with your
                         esteemed college {data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "diploma" : "certification"}, ensuring your
@@ -189,20 +189,20 @@ const Certificate = () => {
                 />
               </div>
               <div className="px-4 max-w-3xl lg:max-w-2xl w-full md:text-start text-center">
-                <h1 className="text-lg md:text-2xl font-semibold text-neutral-800">
+                <h3 className="text-lg md:text-2xl font-semibold text-neutral-800">
                   Share your{" "}
                   <span className="text-universal">Achievements</span> and
                   Unlock New Opportunities
-                </h1>
+                </h3>
                 <div className="flex flex-col max-md:items-center gap-4 md:gap-8 mt-4 md:mt-6">
                   <div className="flex gap-2">
                     <div className="w-5 md:w-6 h-5 md:h-6 flex-shrink-0 mt-[2px]">
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
                     <div className="">
-                      <h1 className="text-base md:text-xl font-semibold text-neutral-800">
+                      <h3 className="text-base md:text-xl font-semibold text-neutral-800">
                         Worldwide Recognition
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-lg mt-2 text-neutral-700 max-md:hidden">
                         Acquire a globally recognized {data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "diploma" : "certification"}, opening
                         doors to opportunities worldwide.
@@ -214,9 +214,9 @@ const Certificate = () => {
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
                     <div className="">
-                      <h1 className="text-base md:text-xl font-semibold text-neutral-800">
+                      <h3 className="text-base md:text-xl font-semibold text-neutral-800">
                         Top College Endorsement
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-lg mt-2 text-neutral-700 max-md:hidden">
                         Earn a prestigious {data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "diploma" : "certification"} from a top-tier
                         college, validating your expertise.
@@ -228,9 +228,9 @@ const Certificate = () => {
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
                     <div className="">
-                      <h1 className="text-base md:text-xl font-semibold text-neutral-800">
+                      <h3 className="text-base md:text-xl font-semibold text-neutral-800">
                         Lifetime Validity Assurance
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-lg mt-2 text-neutral-700 max-md:hidden">
                         Enjoy the assurance of lifetime validity with your
                         esteemed college {data?.id === "post-graduate-diploma-in-management-for-working-executives" ? "diploma" : "certification"}, ensuring your

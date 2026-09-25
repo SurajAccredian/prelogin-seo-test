@@ -47,11 +47,11 @@
   ],
   "domain": "module",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
-  "start_date": "08 Aug 2026",
+  "start_date": "29 Nov 2026",
   "id": "professional-certificate-program-in-leadership-with-ai",
   "pid": 119,
   "duration": "8 Months",
-  "required_years_experience": 0,
+  "required_years_experience": 1,
   "timings": "weekends only",
   "type": "online",
   "enrollments": "active",
@@ -245,18 +245,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 15178
+        "emi": 16154
       },
       {
         "months": 18,
-        "emi": 10486
+        "emi": 11160
       },
       {
         "months": 24,
-        "emi": 8123
+        "emi": 8645
       }
     ],
-    "total": 180000
+    "total": 189000
   },
   "faq": {
     "programId": "professional-certificate-program-in-leadership-with-ai",

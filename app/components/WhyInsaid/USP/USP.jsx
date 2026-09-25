@@ -78,9 +78,9 @@ const USP = () => {
           <h4 className="text-base font-medium">
             Redefining Professional Education
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Why Learners <span className="text-universal"> Trust </span> Us
-          </h1>
+          </h2>
         </div>
 
         {/* ── CHANGED: single relative wrapper that contains both buttons + swiper ── */}
@@ -124,9 +124,9 @@ const USP = () => {
                       {usp.icon}
                     </div>
                     <div className="flex flex-col items-start text-center md:text-start">
-                      <h1 className="text-lg font-semibold mt-4">
+                      <h3 className="text-lg font-semibold mt-4">
                         {usp.title}
-                      </h1>
+                      </h3>
                       <h4 className="text-neutral-600 font-medium mt-2 text-[15px] max-md:hidden">
                         {usp.description}
                       </h4>

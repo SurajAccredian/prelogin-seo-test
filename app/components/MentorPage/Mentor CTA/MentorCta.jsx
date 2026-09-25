@@ -28,9 +28,9 @@ const MentorCta = () => {
             </div>
           </div>
           <div className="md:text-start text-center">
-            <h1 className="text-2xl md:text-3xl font-semibold text-white font-circular">
+            <h2 className="text-2xl md:text-3xl font-semibold text-white font-circular">
               Join Us in Revolutionizing Education
-            </h1>
+            </h2>
             <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100 font-circular">
               Apply Now to Shape the Future
             </h4>

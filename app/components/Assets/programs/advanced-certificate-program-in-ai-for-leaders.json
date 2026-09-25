@@ -46,11 +46,11 @@
     }
   ],
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
-  "start_date": "08 Aug 2026",
+  "start_date": "29 Nov 2026",
   "id": "advanced-certificate-program-in-ai-for-leaders",
   "pid": 118,
   "duration": "5 Months",
-  "required_years_experience": 0,
+  "required_years_experience": 1,
   "timings": "weekends only",
   "type": "online",
   "enrollments": "active",
@@ -203,18 +203,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11926
+        "emi": 12902
       },
       {
         "months": 18,
-        "emi": 8239
+        "emi": 8913
       },
       {
         "months": 24,
-        "emi": 6382
+        "emi": 6904
       }
     ],
-    "total": 140000
+    "total": 159000
   },
   "faq": {
     "programId": "advanced-certificate-program-in-ai-for-leaders",

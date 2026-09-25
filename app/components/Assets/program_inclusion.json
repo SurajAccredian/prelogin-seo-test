@@ -2623,6 +2623,37 @@
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
   },
+  
+  {
+    "title": "CTO & AI Leadership Program",
+    "id": "iimr-cto-ai-leadership-program-12months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "CTO & AI Leadership Program",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "13 Modules",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 3 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Alumni Status Fee": "Included in Program Fees",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% fee waiver on Open MDP programs offered by IIM Ranchi",
+        "Access to Soft copy of Alumni ID cards"
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "physical copy of program completion certificate":"Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
+  },
+
   {
     "title": "Professional Certificate in AI for Leaders",
     "id": "sp-jain-professional-certificate-in-ai-for-leaders-4-months",

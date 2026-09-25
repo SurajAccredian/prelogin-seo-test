@@ -491,7 +491,6 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
 }
 
 export default function Rcta(props) {
-  if (!props.open) return null;
   return (
     <React.Suspense fallback={null}>
       <RctaInner {...props} />

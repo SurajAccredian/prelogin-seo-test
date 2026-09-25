@@ -43,7 +43,7 @@ const CTA_refer = () => {
           <IoIosArrowForward />
         </button>
       </div>
-      {cta && <Rcta open={cta} handleClose={RcbhandleClose} />}
+       <Rcta open={cta} handleClose={RcbhandleClose} />
     </div>
   );
 };

@@ -30,12 +30,10 @@ const IIMV_PROGRAM_ID = "iimv-executive-program-in-leadership-with-ai";
 
 const Hero = () => {
   const pathname = usePathname();
-  const { data, enrollLoderState } = useSelector((state) => state.program);
-  if (typeof window !== "undefined" && data?.short_university_name) {
-    localStorage.setItem("university_shortName", data.short_university_name);
-  }
-  const isNewProgram = data?.tags?.find((tag) => tag.title === "new launch");
-  const isMain = data?.tags?.find((tag) => tag.type === "main");
+   const { data, enrollLoderState } = useSelector((state) => state.program);
+  localStorage.setItem("university_shortName", data.short_university_name);
+  const isNewProgram = data?.tags.find((tag) => tag.title === "new launch");
+  const isMain = data?.tags.find((tag) => tag.type === "main");
   const dispatch = useDispatch();
 
   // Check if the current program is the IIMV program

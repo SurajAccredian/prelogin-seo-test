@@ -32,7 +32,7 @@ const Process = () => {
           </a>
         </div>
       </div>
-      {modalOpen && <ReferModal open={modalOpen} setOpen={setModalOpen} />}
+        <ReferModal open={modalOpen} setOpen={setModalOpen} />
     </div>
   );
 };

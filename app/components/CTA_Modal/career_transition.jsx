@@ -370,3 +370,5 @@ const CareerTransition = (props) => {
     </>
   );
 };
+
+export default CareerTransition;

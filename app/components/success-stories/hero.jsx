@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {open && <CareerTransition open={open} handleClose={handleClose} />}
+      <CareerTransition open={open} handleClose={handleClose} />
     </>
   )
 }

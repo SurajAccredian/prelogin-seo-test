@@ -39,7 +39,7 @@ const CTA = () => {
           <IoIosArrowForward />
         </button>
       </div>
-      {isModalOpen && <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />}
+      <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
     </div>
   );
 };

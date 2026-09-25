@@ -160,13 +160,13 @@ const Hero = () => {
                       {/* Main Title */}
                       <div className="w-full capitalize flex flex-col gap-1 items-center">
                         {index === 0 ? (
-                          <h1 className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
+                          <p className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
                             Level up your career with{" "}
                             <span className="text-blue-600">india's</span>{" "}
                             <span className="text-blue-600">
                               Top Institutes
                             </span>
-                          </h1>
+                          </p>
                         ) : (
                           <h2 className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
                             {slide.title}

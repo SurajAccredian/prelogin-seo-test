@@ -21,9 +21,9 @@ const PolicyDrawer = ({ isOpen, onClose, id }) => {
             >
               {POLICIES.map((policy, index) => (
                 <Link href={`/policies/${policy.tab}`} prefetch={false} className={`w-full ${id === policy.tab ? "bg-universal drop-shadow text-white rounded" : "border-b border-dashed border-universal text-neutral-600"} px-3 py-2  mt-2 cursor-pointer flex items-center justify-between gap-4`} key={index} onClick={() => onClose()}>
-                  <h1 className='font-medium text-base'>
+                  <span className='font-medium text-base'>
                     {policy.title}
-                  </h1>
+                  </span>
                   <div className='w-5 h-5 flex-shrink-0'>
                     <svg className='w-full h-full' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M9 6L15 12L9 18" stroke={id === policy.tab ? "#fff" : "#1A73E8"} strokeWidth="1.3" />

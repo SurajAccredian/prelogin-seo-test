@@ -44,7 +44,7 @@ export default function AccordionHam() {
               >
                 <div className="w-full flex items-center justify-between text-xl xl:hidden">
                   <div className="flex items-center gap-2">
-                    <h1 className="font-medium">{acc.label}</h1>
+                    <span className="font-medium">{acc.label}</span>
                   </div>
                   <div className="text-lg">
                     <MdKeyboardArrowDown
@@ -81,9 +81,9 @@ export default function AccordionHam() {
                               >
                                 <div className="w-full flex items-center justify-between text-lg xl:hidden">
                                   <div className="flex items-center gap-2">
-                                    <h1 className="font-medium">
+                                    <span className="font-medium">
                                       {child.label}
-                                    </h1>
+                                    </span>
                                   </div>
                                   <div className="text-lg">
                                     <MdKeyboardArrowDown
@@ -164,12 +164,12 @@ export default function AccordionHam() {
                     rel="noreferrer"
                     className="flex items-center gap-2"
                   >
-                    <h1 className="font-semibold">{acc.label}</h1>
+                    <span className="font-semibold">{acc.label}</span>
                   </a>
                 ) : (
                   <Link href={acc.href} prefetch={false}>
                     <div className="flex items-center gap-2">
-                      <h1 className="font-semibold">{acc.label}</h1>
+                      <span className="font-semibold">{acc.label}</span>
                     </div>
                   </Link>
                 )}

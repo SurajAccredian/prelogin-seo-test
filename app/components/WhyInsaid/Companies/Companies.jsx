@@ -12,10 +12,10 @@ const Companies = () => {
             <h4 className="text-base font-medium">
               Hands-On Learning with Industry Experts
             </h4>
-            <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+            <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
               Learn from <span className="text-universal">Experts,</span> at the World’s
               <span className="text-universal"> Top </span> Companies
-            </h1>
+            </h2>
           </div>
           <div className="w-full hidden md:flex justify-center mt-12">
             <img

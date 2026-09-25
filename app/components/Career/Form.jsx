@@ -113,9 +113,9 @@ const Form = () => {
       <div className="w-full max-w-[85rem] mx-auto mt-4 pb-16 font-circular">
         <div className="request-brochure p-6 bg-white rounded-lg w-full max-w-4xl mx-auto h-fit flex flex-col justify-between">
           <div className="w-full flex flex-col items-center">
-            <h1 className="text-xl font-semibold text-neutral-800">
+            <h2 className="text-xl font-semibold text-neutral-800">
               Start Your Journey with Accredian
-            </h1>
+            </h2>
             <form
               className="w-full h-full min-h-[24rem] flex flex-col justify-between mt-4"
               onSubmit={handleSubmit(submitForm)}
@@ -388,9 +388,9 @@ const Form = () => {
                           </svg>
                         </div>
                       )}
-                      <h1 className={`text-base font-medium ${errors?.resume?.message ? "text-red-500" : !errors?.resume?.message && fileName ? "text-green-500" : "text-slate-400/90"}`}>
+                      <span className={`text-base font-medium ${errors?.resume?.message ? "text-red-500" : !errors?.resume?.message && fileName ? "text-green-500" : "text-slate-400/90"}`}>
                         {fileName && !errors?.resume?.message ? "Resume uploaded successfully" : "Upload your resume"}
-                      </h1>
+                      </span>
                     </div>
                     <div>
                       {fileName && !errors?.resume?.message ? (

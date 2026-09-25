@@ -51,9 +51,9 @@ const MentorOverview = () => {
           <h4 className="text-base font-medium">
             Discover the Key Differences and Their  <span className="text-universal capitalize">Impact on the Learning Journey</span>
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Understanding The  <span className="text-universal">Roles:</span> Instructor &  Mentor
-          </h1>
+          </h2>
         </div>
         {/* Side section in rows */}
         <div className="flex gap-4 mt-6 md:mt-12 md:flex-row flex-col">
@@ -77,12 +77,12 @@ const MentorOverview = () => {
                   className={`w-full max-w-[280px] rounded-md ${activeTab === val.title ? "drop-shadow-xl bg-white border" : "border border-neutral-300"
                     } px-4 py-4 text-center cursor-pointer`}
                 >
-                  <h1
+                  <h3
                     className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab === val.title ? "text-universal" : "text-neutral-500"
                       } capitalize`}
                   >
                     {val.title}
-                  </h1>
+                  </h3>
                 </div>
               ))}
             </div>
@@ -100,7 +100,7 @@ const MentorOverview = () => {
                   <div className="w-5 lg:w-6 h-5 lg:h-6 flex-shrink-0 mt-[2px]">
                     <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                   </div>
-                  <h1 className="text-sm lg:text-lg font-medium capitalize">{point}</h1>
+                  <p className="text-sm lg:text-lg font-medium capitalize">{point}</p>
                 </div>
               ))}
             </div>

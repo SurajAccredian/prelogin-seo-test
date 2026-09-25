@@ -50,7 +50,7 @@ const Projects = () => {
           <div className="w-full flex items-center justify-between">
             <div className='md:text-start text-center'>
               <h4 className="text-base font-medium">Discover our exciting <span className='text-universal'>{data?.short_title}</span> challenges.</h4>
-              <h1 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>Explore Innovative <span className='text-universal'>Projects</span> and drive <span className='text-universal'>impactful</span> results</h1>
+              <h2 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>Explore Innovative <span className='text-universal'>Projects</span> and drive <span className='text-universal'>impactful</span> results</h2>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                       <div className='w-full flex gap-2 justify-between items-center mt-2'>
                         <div className='flex gap-2 items-center'>
                           <div className='px-4 py-2 rounded-xl bg-neutral-100 border border-neutral-300'>
-                            <h1 className='font-semibold text-xs'>{val?.skills[0]}</h1>
+                            <span className='font-semibold text-xs'>{val?.skills[0]}</span>
                           </div>
                           <div className='w-9 h-9 text-xs font-semibold flex-shrink-0 rounded-full border border-neutral-300 flex items-center justify-center'>
                             +{val?.skills.length - 1}

@@ -30,14 +30,14 @@ const Special = ({ curriculum, index, expanded, handleChange, level = 0 }) => {
       <AccordionSummary>
         <div className='w-full flex items-center justify-between'>
           <div className='flex items-center gap-2'>
-            <h1 className='text-sm md:text-base font-semibold'>
+            <h3 className='text-sm md:text-base font-semibold'>
               <span className='font-bold'>Project {index}</span> : {" "}
               {curriculum?.title}
-            </h1>
-            <h1 className='text-xs text-nowrap font-medium max-md:hidden'>
+            </h3>
+            <span className='text-xs text-nowrap font-medium max-md:hidden'>
               <span className='text-orange-500 mr-2'>•</span>
               Featured
-            </h1>
+            </span>
           </div>
         </div>
       </AccordionSummary>
@@ -53,7 +53,7 @@ const Special = ({ curriculum, index, expanded, handleChange, level = 0 }) => {
               }}
             >
               <StepLabel StepIconComponent={BlueStepIcon}>
-                <h1 className='text-sm font-medium'>{point}</h1>
+                <p className='text-sm font-medium'>{point}</p>
               </StepLabel>
             </Step>
           ))}

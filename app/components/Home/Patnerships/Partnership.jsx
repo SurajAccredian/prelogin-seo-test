@@ -63,12 +63,12 @@ function Partnership() {
       <div className="w-full max-w-[80rem] h-full flex flex-col gap-8">
         <div className="flex flex-col gap-4 items-center text-center">
           <div className="space-y-3 sm:space-y-4">
-            <h1 className="capitalize  ml-6 text-center text-3xl lg:text-[36px] font-medium leading-tight tracking-tight">
+            <p className="capitalize  ml-6 text-center text-3xl lg:text-[36px] font-medium leading-tight tracking-tight">
               Real-World Learning Powered by{" "}
               <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
                 Leading Institutions
               </span>
-            </h1>
+            </p>
             <div className="h-1 sm:h-1.5 w-12 sm:w-16 md:w-20 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full mx-auto"></div>
           </div>
         </div>

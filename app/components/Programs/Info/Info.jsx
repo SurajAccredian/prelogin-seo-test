@@ -91,10 +91,10 @@ const Info = () => {
                 {FeatureIcons[feature.title.toLowerCase()]}
               </div>
               <div className="flex-1 min-w-0">
-                <h1 className="text-lg text-slate-800 font-semibold leading-tight break-words">
+                <p className="text-lg text-slate-800 font-semibold leading-tight break-words">
                   {feature.count && `${feature.count}+`}
                   {feature.text && `${feature.text}`}
-                </h1>
+                </p>
                 <h4 className="text-xs font-medium text-neutral-600 mt-1 capitalize break-words">
                   {feature.title}
                 </h4>
@@ -109,12 +109,12 @@ const Info = () => {
               {FeatureIcons[feature.title.toLowerCase()]}
             </div>
             <div>
-              <h1 className="text-lg md:text-2xl text-slate-800 font-semibold">
+              <p className="text-lg md:text-2xl text-slate-800 font-semibold">
                 {feature.count && `${feature.count}+`}
-              </h1>
-              <h1 className="text-lg md:text-2xl text-slate-800 font-semibold">
+              </p>
+              <p className="text-lg md:text-2xl text-slate-800 font-semibold">
                 {feature.text && `${feature.text}`}
-              </h1>
+              </p>
               <h4 className="text-xs md:text-base font-medium text-neutral-600 text-nowrap capitalize">
                 {feature.title}
               </h4>
@@ -131,19 +131,19 @@ const Info = () => {
     <div className="info second-bg-grad w-full flex justify-center xl:px-12 px-4 py-6 md:py-12  border-t overflow-x-hidden">
       <div className="w-full max-w-[85rem]">
         <div className="w-full flex flex-col items-center">
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             {/* Our Unique <span className="text-universal">Educational</span> Suite */}
             Program <span className="text-universal">USPs</span> at a Glance
-          </h1>
+          </h2>
         </div>
         <div className="w-full flex gap-4 mt-3 md:mt-10 lg:flex-row flex-col max-lg:items-center">
           <div className="flex-[0.5] flex flex-col justify-between">
             <div className="mx-auto">
-              <h1 className="md:block hidden lg:text-start text-center text-lg md:text-3xl font-semibold text-slate-800 max-w-2xl">
+              <h3 className="md:block hidden lg:text-start text-center text-lg md:text-3xl font-semibold text-slate-800 max-w-2xl">
                 Get to Know Our Program,{" "}
                 <span className="text-universal">Essential Facts</span> for Your
                 Consideration<span className="inline-block">*</span>
-              </h1>
+              </h3>
               <h4 className="md:hidden block lg:text-start text-center text-black font-medium text-lg mb-3 md:text-base  md:mt-4">
                 <span className="text-universal">Key Information</span><span className="">*</span> for Your Evaluation
               </h4>
@@ -153,13 +153,13 @@ const Info = () => {
                 <BiSolidTimer className="text-universal" size={35} />
                 <div>
                   {/* ── CHANGE: Show "Coming Soon" for admission closed programs instead of date ── */}
-                  <h1 className="font-semibold text-nowrap">
+                  <p className="font-semibold text-nowrap">
                     {isAdmissionClosedProgram
                       ? "Coming Soon"
                       : data?.enrollments == "inactive"
                         ? "Coming Soon"
                         : data?.start_date}
-                  </h1>
+                  </p>
                 </div>
               </button>
               {data?.enrollments === "active" ? (

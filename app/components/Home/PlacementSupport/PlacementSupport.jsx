@@ -7,9 +7,9 @@ const PlacementSupport = () => {
         <h4 className="text-base text-darkBlue font-medium max-sm:max-w-[300px]">
           Unified dashboard, guaranteed interview success
         </h4>
-        <h1 className="text-3xl md:text-[44px] mt-2 font-medium capitalize">
+        <h2 className="text-3xl md:text-[44px] mt-2 font-medium capitalize">
           Receive expert placement assistance
-        </h1>
+        </h2>
         <div className="w-full flex py-4 mt-4 md:flex-row flex-col">
           <div className="flex-1">
             <StepperVertical />

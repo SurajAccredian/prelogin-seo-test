@@ -345,9 +345,9 @@ function MentorForm() {
               <span className="text-universal">Your Path to Joining </span>Is
               Just a Few Clicks Away.
             </h2>
-            <h1 className="text-2xl  mt-2 font-semibold capitalize">
+            <h3 className="text-2xl  mt-2 font-semibold capitalize">
               Get Started Today!
-            </h1>
+            </h3>
           </div>
 
           <div className="flex justify-between items-center mb-4">
@@ -663,9 +663,9 @@ function MentorForm() {
                           />
                         </div>
                         <div className="ml-3">
-                          <h1 className="text-base font-semibold">
+                          <span className="text-base font-semibold">
                             {role.label}
-                          </h1>
+                          </span>
                           <span className="text-gray-400 font-medium mt-2 text-[14px]">
                             {role.description}
                           </span>
@@ -887,7 +887,7 @@ function MentorForm() {
                             </svg>
                           </div>
                         )}
-                        <h1
+                        <span
                           className={`text-base ${
                             fileError
                               ? "text-red-500"
@@ -899,7 +899,7 @@ function MentorForm() {
                           {fileName && !fileError
                             ? "Resume uploaded successfully"
                             : "Upload your resume"}
-                        </h1>
+                        </span>
                       </div>
                       <div className="">
                         {" "}

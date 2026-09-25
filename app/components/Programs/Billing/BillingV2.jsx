@@ -56,10 +56,10 @@ const BillingV2 = () => {
       <div className="w-full max-w-[85rem]">
         <div className="w-full md:text-start text-center">
           <h4 className="text-base font-medium">Make Your Investment Count!</h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Program <span className="text-universal">Fees</span> and Highlights:
             An Overview
-          </h1>
+          </h2>
         </div>
 
         {/* Mobile View - Exact Design */}
@@ -78,9 +78,9 @@ const BillingV2 = () => {
                 <p className="text-xs font-medium uppercase tracking-wide opacity-90">
                   STARTS AT
                 </p>
-                <h1 className="text-4xl font-bold mt-1">
+                <p className="text-4xl font-bold mt-1">
                   &#x20B9;{smallestEmi}
-                </h1>
+                </p>
                 <p className="text-sm mt-1 opacity-90">per month</p>
 
                 <div className="mt-4 pt-4 border-t border-white/20">
@@ -170,16 +170,16 @@ const BillingV2 = () => {
         {/* Desktop View - Original Layout */}
         <div className="w-full hidden md:flex max-md:items-center gap-4 lg:flex-row flex-col md:gap-8 mt-8 md:mt-12">
           <div className="w-full lg:max-w-sm border border-neutral-300 rounded-xl bg-white px-6 py-6">
-            <h1 className="text-lg md:text-xl font-semibold">
+            <h3 className="text-lg md:text-xl font-semibold">
               Key Program Highlights
-            </h1>
+            </h3>
             <div className="w-full mt-4 flex flex-col gap-3 md:gap-4">
               {data?.billing?.points.map((point, index) => (
                 <div key={index} className="w-full flex gap-4 items-start">
                   <div className="md:w-6 md:h-6 h-5 w-5 flex-shrink-0 mt-[2px]">
                     <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                   </div>
-                  <h1 className="text-base md:text-lg font-medium">{point}</h1>
+                  <p className="text-base md:text-lg font-medium">{point}</p>
                 </div>
               ))}
             </div>
@@ -187,9 +187,9 @@ const BillingV2 = () => {
           <div className="flex w-full">
             <div className="billing-grad w-full border overflow-hidden bg-universal rounded-xl flex items-center justify-between md:flex-row flex-col p-2 md:p-[2px]">
               <div className="w-full md:flex-[0.6] h-full bg-white md:text-start text-center py-12 md:py-24 px-6 md:px-12 rounded-xl border border-universal">
-                <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold ">
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold ">
                   Starts at Just &#x20B9; {smallestEmi}/month
-                </h1>
+                </h3>
                 <h4 className="text-base md:text-lg mt-2 max-w-xl font-semibold md:font-medium text-neutral-600">
                   Program Fee: &#x20B9;{" "}
                   {data?.id ==

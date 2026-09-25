@@ -57,10 +57,10 @@ const Billing = () => {
       <div className="w-full max-w-[85rem] mx-auto">
         <div className="w-full md:text-start text-center">
           <h4 className="text-base font-medium">Make Your Investment Count!</h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Program <span className="text-universal">Fees</span> and Highlights:
             An Overview
-          </h1>
+          </h2>
         </div>
 
         {/* Mobile View - Exact same as original */}
@@ -77,9 +77,9 @@ const Billing = () => {
                 <p className="text-xs font-medium uppercase tracking-wide opacity-90">
                   STARTS AT
                 </p>
-                <h1 className="text-4xl font-bold mt-1">
+                <p className="text-4xl font-bold mt-1">
                   ₹{smallestEmi}
-                </h1>
+                </p>
                 <p className="text-sm mt-1 opacity-90">per month</p>
                 <div className="mt-4 pt-4 border-t border-white/20">
                   <p className="text-xs font-medium opacity-90">Total Fee</p>
@@ -207,9 +207,9 @@ const Billing = () => {
             <div className="relative flex flex-col h-full pt-12">
               <div className="mb-5 text-center">
                 <p className="text-xl font-semibold text-slate-900 mb-1">Starting at Just</p>
-                <h1 className="text-4xl font-bold text-slate-900 leading-tight">
+                <p className="text-4xl font-bold text-slate-900 leading-tight">
                   ₹{smallestEmi}
-                </h1>
+                </p>
                 <p className="text-base mt-0.5 text-slate-700 font-semibold">per month</p>
                 <button
                   onClick={handleBillingsOpen}

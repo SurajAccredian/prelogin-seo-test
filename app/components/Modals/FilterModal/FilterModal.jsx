@@ -36,7 +36,7 @@ export default function FilterModal({ open, setOpen, categories, handleChange, s
           <div className="w-[90vw] md:w-[80vw] max-h-[70vh] xl:w-[60vw] bg-white rounded-lg px-4 py-4 flex flex-col justify-between">
             <div className="w-full">
               <div className="w-full flex justify-between px-3">
-                <h1 className="text-3xl font-medium">Select {title}</h1>
+                <h3 className="text-3xl font-medium">Select {title}</h3>
                 <button className="py-2 text-universal font-medium" onClick={handleClose}>
                   <IoCloseSharp className="text-lg" />
                 </button>

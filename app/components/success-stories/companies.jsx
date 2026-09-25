@@ -7,10 +7,10 @@ const Companies = () => {
       <div className="w-full max-w-[85rem]">
         <div className="w-full text-center">
           <h4 className="text-base font-medium">A Track Record of Success</h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Our <span className="text-universal">Students</span> Thrive in{" "}
             <span className="text-universal">Top-tier</span> Professions
-          </h1>
+          </h2>
         </div>
         <div className="w-full flex justify-center mt-12">
           <img

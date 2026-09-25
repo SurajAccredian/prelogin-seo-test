@@ -132,9 +132,9 @@ const Intro = () => {
               <h4 className="text-sm sm:text-base text-darkBlue font-medium max-sm:max-w-[300px] capitalize tracking-wide">
                 Customized Learning Solutions
               </h4>
-              <h1 className="text-2xl sm:text-3xl lg:text-[44px] mt-1 sm:mt-2 font-medium leading-tight">
+              <h2 className="text-2xl sm:text-3xl lg:text-[44px] mt-1 sm:mt-2 font-medium leading-tight">
                 Career Growth Through Experience
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

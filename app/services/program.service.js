@@ -11,6 +11,16 @@ export const getCta = async (body) => {
   }
 };
 
+export const getBrochureCta = async (body) => {
+  try {
+    const data = await api.post(`/cta/get-brochure`, body);
+
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
+
 export const programSignUp = async (body) => {
   try {
     const { data } = await api.post(`/payment-signup`, body);

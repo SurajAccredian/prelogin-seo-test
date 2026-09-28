@@ -15,8 +15,8 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
     : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
 
   const handleOpen = (program) => {
-    setBrotureDownloadInfo(program);
-    setOpen(true);
+    if (setBrotureDownloadInfo) setBrotureDownloadInfo(program);
+    if (setOpen) setOpen(true);
   };
 
   return (
@@ -67,9 +67,23 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
           <button
             onClick={() => handleOpen(program)}
             disabled={resolved.isAdmissionClosed || allowedIds.includes(program?.id)}
-            className="px-2 py-2.5 flex-1 disabled:bg-gray-400 cursor-pointer disabled:cursor-not-allowed text-sm font-semibold bg-universal text-white rounded-lg"
+            className="px-2 py-2.5 flex-1 border border-neutral-300 bg-white hover:bg-neutral-50 text-neutral-800 hover:text-universal text-xs md:text-sm font-semibold rounded-lg flex items-center justify-center gap-1.5 transition uppercase tracking-wide cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            Get Brochure
+            <span>BROCHURE</span>
+            <svg
+              className="w-4 h-4 flex-shrink-0"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
           </button>
         </div>
       </div>

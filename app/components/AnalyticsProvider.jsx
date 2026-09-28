@@ -3,9 +3,13 @@
 import Script from "next/script";
 import { useEffect } from "react";
 import posthog from "posthog-js";
+import { getInitialUTMData } from "../helpers/utm.helpers";
 
 export default function AnalyticsProvider({ children }) {
   useEffect(() => {
+    // Capture and persist first-touch UTM parameters / referrer fallback in sessionStorage
+    getInitialUTMData();
+
     // PostHog initialization
     posthog.init(
       process.env.NEXT_PUBLIC_POSTHOG_API_KEY || "phc_NZdN6nmco27sEhbueOjTabH2ozM8Hq8BJ3l4qH5vUob",

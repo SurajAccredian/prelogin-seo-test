@@ -5,7 +5,7 @@ import PROGRAMS from "../../../Assets/constants/programs.json";
 import { useEffect, useState } from "react";
 import { CiViewTimeline } from "react-icons/ci";
 import Wrapper from "../../Wrappers/Wrapper";
-import Brochure from "../../../pages/demo/CTA_Modal/download_brochure";
+import Brochure from "../../CTA_Modal/download_brochure";
 const VerticalDetail = () => {
   const [categorizedPrograms, setCategorizedPrograms] = useState([]);
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);
@@ -126,10 +126,24 @@ const VerticalDetail = () => {
                         View Program
                       </a>
                       <button
-                        className="px-2 py-2.5 flex-1 text-sm font-semibold bg-universal text-white rounded-lg"
+                        className="px-2 py-2.5 flex-1 border border-neutral-300 bg-white hover:bg-neutral-50 text-neutral-800 hover:text-universal text-xs md:text-sm font-semibold rounded-lg flex items-center justify-center gap-1.5 transition uppercase tracking-wide cursor-pointer"
                         onClick={() => handleOpen(val)}
                       >
-                        Get Brochure
+                        <span>BROCHURE</span>
+                        <svg
+                          className="w-4 h-4 flex-shrink-0"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                          />
+                        </svg>
                       </button>
                     </div>
                   </div>
@@ -139,15 +153,15 @@ const VerticalDetail = () => {
           </div>
         </div>
       </div>
-      {open && (
+      {open && brotureDownloadInfo && (
         <Brochure
           open={open}
           handleClose={handleClose}
-          source={brotureDownloadInfo.brochure.source}
-          campaign_name={brotureDownloadInfo.brochure.campaign_name}
-          program={brotureDownloadInfo.category}
-          pdf={brotureDownloadInfo.brochure.pdf}
-          image={brotureDownloadInfo.brochureHeader}
+          source={brotureDownloadInfo?.brochure?.source}
+          campaign_name={brotureDownloadInfo?.brochure?.campaign_name}
+          program={brotureDownloadInfo?.category}
+          pdf={brotureDownloadInfo?.brochure?.pdf}
+          image={brotureDownloadInfo?.brochureHeader}
         />
       )}
     </>

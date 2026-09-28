@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="flex-1 flex flex-col gap-3 md:items-start items-center justify-between">
             <div className="w-full flex flex-col md:items-start items-center">
               <h1 className="text-center cursor-context-menu md:text-start text-4xl lg:text-7xl font-bold max-w-lg xl:max-w-[700px]">Alumni Achievements:</h1>
-              <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4">Inspiring Journeys to Success</h1>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4">Inspiring Journeys to Success</h2>
               <p className="max-w-sm mt-4 lg:max-w-[630px] font-semibold text-sm md:text-start text-center md:text-base lg:text-[20px] text-paleBlack">Hear how our alumni transformed their careers and see the results that speak for themselves.</p>
             </div>
             <div className="flex items-center gap-4 md:justify-start justify-center mt-6 font-circular">

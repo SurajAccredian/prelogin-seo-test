@@ -68,9 +68,9 @@ const Admission = () => {
             Our Admissions Process is Simple - <br className="md:hidden" /> No
             hassle, Do it all online.
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Structured <span className="text-universal">Admission</span> Process
-          </h1>
+          </h2>
         </div>
         <div className="w-full flex md:flex-row flex-col mt-8 md:mt-12 gap-4 md:gap-8">
           <div className="admission-card-bg-image w-full border py-6 md:py-12 px-4 md:px-8 rounded-lg">
@@ -88,9 +88,9 @@ const Admission = () => {
                 {filteredSteps.map((step, index) => (
                   <div key={index} className="flex gap-2 md:gap-4">
                     <div className="font-extrabold text-2xl text-universal/60 max-w-10 min-w-8 w-full">
-                      <h1 className="text-2xl font-extrabold text-universal/60 leading-none">
+                      <span className="text-2xl font-extrabold text-universal/60 leading-none">
                         0{index + 1}
-                      </h1>
+                      </span>
                     </div>
                     <div className="flex flex-col items-center">
                       <div className="p-1.5 flex-shrink-0 bg-universal/25 rounded-full flex justify-center items-center">
@@ -109,9 +109,9 @@ const Admission = () => {
                           : "mb-2"
                         }`}
                     >
-                      <h1 className="font-semibold text-lg text-neutral-800 capitalize">
+                      <h3 className="font-semibold text-lg text-neutral-800 capitalize">
                         {step.title}
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-base leading-tight mt-2 text-neutral-600 ">
                         {step.description}
                       </h4>
@@ -128,9 +128,9 @@ const Admission = () => {
                 <FcPositiveDynamic className="w-full h-full" />
               </div>
               <div className="flex-1 text-left">
-                <h1 className="text-base font-semibold leading-tight">
+                <p className="text-base font-semibold leading-tight">
                   Every submission is given thoughtful consideration!
-                </h1>
+                </p>
               </div>
             </div>
 
@@ -139,9 +139,9 @@ const Admission = () => {
               <div className="w-20 h-20 flex-shrink-0 mx-auto">
                 <FcPositiveDynamic className="w-full h-full" />
               </div>
-              <h1 className="text-xl md:text-2xl font-semibold mt-2">
+              <h3 className="text-xl md:text-2xl font-semibold mt-2">
                 Every submission is given thoughtful consideration!
-              </h1>
+              </h3>
             </div>
 
             {/* Text visible only on desktop */}

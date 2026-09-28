@@ -171,9 +171,9 @@ const SideForm = () => {
     <div className="request-brochure p-6 bg-white border drop-shadow rounded-lg w-full max-w-[400px] h-fit flex flex-col justify-between">
       <div className="w-full flex flex-col items-center">
         {/* upper heading */}
-        <h1 className="text-xl font-semibold text-neutral-800">
+        <h3 className="text-xl font-semibold text-neutral-800">
           Request more information
-        </h1>
+        </h3>
         {/* request form */}
         <form
           className="w-full h-full min-h-[24rem] flex flex-col justify-between"

@@ -107,9 +107,9 @@ const Benefits = () => {
       id="benefitsSection"
       className="flex flex-col justify-center items-center relative w-full xl:px-12 px-0 my-5"
     >
-      <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center font-circular">
+      <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center font-circular">
         What are the <span className="text-universal">Referral Benefits?</span>
-      </h1>
+      </h2>
       <div className="upper-panel w-full max-w-[85rem] flex justify-between lg:justify-end items-center pt-5 md:pt-6">
         <div className="lg:hidden px-4 sm:px-5 lg:px-5 xl:px-1 font-circular">
           {/* MUI dropdown component */}

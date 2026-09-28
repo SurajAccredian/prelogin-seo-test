@@ -166,6 +166,18 @@ export default function AnalyticsProvider({ children }) {
           }, 2000);
         `}
       </Script>
+
+      {/* LeadSquared Tracking Script */}
+      <Script
+        id="leadsquared-tracker"
+        src="https://web-in21.mxradon.com/t/Tracker.js"
+        strategy="afterInteractive"
+        onReady={() => {
+          if (typeof window !== "undefined" && typeof window.pidTracker === "function") {
+            window.pidTracker("58946");
+          }
+        }}
+      />
       {children}
     </>
   );

@@ -55,10 +55,10 @@ const Transition = () => {
               </h4>
 
 
-              <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+              <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                 Our Top Career{" "}
                 <span className="text-universal">Transitions</span>
-              </h1>
+              </h2>
             </div>
           </div>
         </div>
@@ -117,9 +117,9 @@ const Transition = () => {
                         />
                       </div>
                       <div>
-                        <h1 className="text-lg font-semibold">
+                        <h3 className="text-lg font-semibold">
                           {transition.name}
-                        </h1>
+                        </h3>
                         {transition.experience && (
                           <h4 className="text-xs md:text-sm font-medium text-neutral-500">
                             {transition.experience} Years of Experience
@@ -148,12 +148,12 @@ const Transition = () => {
                     {/* companies div */}
                     <div className="w-full lg:flex-[0.5] min-h-32 border rounded-xl py-3 px-4 text-center flex flex-col justify-between items-center">
                       <div className="w-full min-h-20 ">
-                        <h1 className="font-medium text-sm text-neutral-500">
+                        <p className="font-medium text-sm text-neutral-500">
                           From
-                        </h1>
-                        <h1 className="text-base mt-2 text-neutral-700 font-medium">
+                        </p>
+                        <p className="text-base mt-2 text-neutral-700 font-medium">
                           {transition?.from?.role}
-                        </h1>
+                        </p>
                       </div>
                       <div className="w-full max-w-28 min-h-12 mt-2 flex flex-col justify-center items-center">
                         <img
@@ -168,12 +168,12 @@ const Transition = () => {
                     </div>
                     <div className="w-full lg:flex-[0.5] min-h-32 border rounded-xl py-3 px-4 text-center flex flex-col justify-between items-center">
                       <div className="w-full min-h-20">
-                        <h1 className="font-medium text-sm text-neutral-500">
+                        <p className="font-medium text-sm text-neutral-500">
                           To
-                        </h1>
-                        <h1 className="text-base mt-2 text-neutral-700 font-medium">
+                        </p>
+                        <p className="text-base mt-2 text-neutral-700 font-medium">
                           {transition?.to?.role}
-                        </h1>
+                        </p>
                       </div>
                       <div className="w-full max-w-28 min-h-12 mt-2 flex flex-col justify-center items-center">
                         <img

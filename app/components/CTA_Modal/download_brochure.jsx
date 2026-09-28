@@ -67,12 +67,11 @@ function BootstrapDialogTitle(props) {
 const Brochure = (props) => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
-  
+
   const searchParams = useSearchParams();
   const pathname = usePathname();
-  
+
   var ctapage = pathname === "/" ? "homepage" : pathname.replace("/", "");
-  
   const campaign_name = props?.campaign_name !== undefined ? props.campaign_name : null;
 
   const [loader, setLoader] = useState(false);

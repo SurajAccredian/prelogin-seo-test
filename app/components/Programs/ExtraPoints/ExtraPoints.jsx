@@ -108,7 +108,7 @@ const ExtraPoints = () => {
       <div className="w-full max-w-[85rem]">
         <div className="w-full md:text-start text-center">
           <h4 className="text-base font-medium">What added benefits does this program offer?</h4>
-          <h1 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'><span className='text-universal'>Additional</span> Program Resources</h1>
+          <h2 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'><span className='text-universal'>Additional</span> Program Resources</h2>
         </div>
         <div className="flex gap-4 mt-8 md:mt-12 md:flex-row flex-col">
           <div className="w-full md:flex-[0.3] relative">
@@ -137,9 +137,9 @@ const ExtraPoints = () => {
                     key={index}
                     className={`w-full max-w-[280px] rounded-md ${activeTab === val.title ? "drop-shadow-xl bg-white border" : "border border-neutral-300"} px-4 py-3 lg:py-4 text-center cursor-pointer`}
                   >
-                    <h1 className={`text-xs max-md:text-nowrap lg:text-lg font-semibold ${activeTab === val.title ? " text-universal" : "text-neutral-500"} capitalize`}>
+                    <p className={`text-xs max-md:text-nowrap lg:text-lg font-semibold ${activeTab === val.title ? " text-universal" : "text-neutral-500"} capitalize`}>
                       {val.title}
-                    </h1>
+                    </p>
                   </div>
                 );
               })}
@@ -156,9 +156,9 @@ const ExtraPoints = () => {
                   <div className='w-5 lg:w-6 h-5 lg:h-6 flex-shrink-0 mt-[2px]'>
                     <IoMdCheckmarkCircleOutline className='w-full h-full text-green-500' />
                   </div>
-                  <h1 className="text-sm lg:text-lg font-medium">
+                  <p className="text-sm lg:text-lg font-medium">
                     {parseTextWithBold(point)}
-                  </h1>
+                  </p>
                 </div>
               ))}
             </div>

@@ -21,10 +21,10 @@ const Curriculum = () => {
               Our <span className="text-universal">{data?.short_title}</span>{" "}
               Coursework
             </h4>
-            <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+            <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
               Explore our Comprehensive Program{" "}
               <span className="text-universal">Curriculum</span>
-            </h1>
+            </h2>
           </div>
         </div>
 

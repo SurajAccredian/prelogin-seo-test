@@ -30,7 +30,7 @@ const IIMV_PROGRAM_ID = "iimv-executive-program-in-leadership-with-ai";
 
 const Hero = () => {
   const pathname = usePathname();
-  const { data, enrollLoderState } = useSelector((state) => state.program);
+   const { data, enrollLoderState } = useSelector((state) => state.program);
   localStorage.setItem("university_shortName", data.short_university_name);
   const isNewProgram = data?.tags.find((tag) => tag.title === "new launch");
   const isMain = data?.tags.find((tag) => tag.type === "main");
@@ -182,7 +182,7 @@ const Hero = () => {
               </div>
 
 
-              <h1 className="text-2xl font-semibold mt-1">{data?.title}</h1>
+              <h2 className="text-2xl font-semibold mt-1">{data?.title}</h2>
               <h4 className="text-base font-normal mt-4 text-white/90">
                 {data?.description}
               </h4>
@@ -199,7 +199,7 @@ const Hero = () => {
                     }}
                     className="rounded-md px-2 py-1 w-fit text-center drop-shadow-md"
                   >
-                    <h1
+                    <span
                       style={{
                         color: `${getColorAndBgColor(tag.title.toLowerCase()).color
                           }`,
@@ -207,7 +207,7 @@ const Hero = () => {
                       className="text-nowrap font-semibold text-[10px] capitalize"
                     >
                       {tag.title}
-                    </h1>
+                    </span>
                   </div>
                 ))}
               </div>
@@ -217,9 +217,9 @@ const Hero = () => {
 
           {/* Desktop Title/Description */}
           <div className="hidden lg:block lg:text-start text-center">
-            <h1 className="text-neutral-500 text-xl md:text-2xl font-semibold">
+            <h2 className="text-neutral-500 text-xl md:text-2xl font-semibold">
               {data?.university_name}
-            </h1>
+            </h2>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mt-2">
               {data?.title}
             </h1>
@@ -238,9 +238,9 @@ const Hero = () => {
                 <BiSolidTimer className="w-full h-full text-green-500" />
               </div>
               <div className="text-center sm:text-start">
-                <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
+                <p className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
                   {isAdmissionClosedProgram ? "Number of Hours" : "Next Cohort"}
-                </h1>
+                </p>
                 <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
                   {isAdmissionClosedProgram
                     ? `${data?.key_features?.find(f => f.title === "hours")?.count ?? "120"}+ Hours`
@@ -258,7 +258,7 @@ const Hero = () => {
                   <MdOutlineHourglassTop className="w-full h-full text-green-500" />
                 </div>
                 <div className="text-center sm:text-start">
-                  <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
+                  <p className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
                     {isAdmissionClosedProgram
                       ? "Admission Deadline"
                       : (() => {
@@ -266,7 +266,7 @@ const Hero = () => {
                           ? "Cohort Status"
                           : "Admission Deadline";
                       })()}
-                  </h1>
+                  </p>
                   <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
                     {isAdmissionClosedProgram
                       ? "Closed"
@@ -290,9 +290,9 @@ const Hero = () => {
                 <IoCalendarNumberOutline className="w-full h-full text-green-500" />
               </div>
               <div className="text-center sm:text-start">
-                <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
+                <p className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
                   Duration
-                </h1>
+                </p>
                 <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
                   {data?.duration}
                 </h4>
@@ -345,7 +345,6 @@ const Hero = () => {
           </div>
 
 
-          {/* Message Section */}
           {isMain && data?.enrollments !== "inactive" && (
             <div className="lg:text-start text-center flex max-lg:justify-center">
               {isNewProgram ? (
@@ -384,7 +383,7 @@ const Hero = () => {
                 }}
                 className="rounded-md px-2 py-1 w-fit text-center drop-shadow-md"
               >
-                <h1
+                <span
                   style={{
                     color: `${getColorAndBgColor(tag.title.toLowerCase()).color
                       }`,
@@ -392,7 +391,7 @@ const Hero = () => {
                   className="text-nowrap font-semibold text-xs capitalize"
                 >
                   {tag.title}
-                </h1>
+                </span>
               </div>
             ))}
           </div>
@@ -448,9 +447,9 @@ const Hero = () => {
                   <div className="w-12 h-12 flex-shrink-0 bg-universal rounded-full animate-pulse">
                     <FaCirclePlay className="w-full h-full text-white" />
                   </div>
-                  <h1 className="text-white text-sm font-semibold mt-4">
+                  <p className="text-white text-sm font-semibold mt-4">
                     Watch Program Video
-                  </h1>
+                  </p>
                 </div>
               )}
             </div>

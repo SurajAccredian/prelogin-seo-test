@@ -50,10 +50,10 @@ const FacultyMentor = () => {
                   Team of Experts
                 </span>{" "}
               </h4>
-              <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+              <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                 Shaping The{" "}
                 <span className="text-universal">Future Of Education</span> With Innovation
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

@@ -72,14 +72,14 @@ const options = {
 const Brochure = (props) => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
-  
+
   const searchParams = useSearchParams();
   const pathname = usePathname();
-  
+
   var ctapage = pathname === "/" ? "homepage" : pathname.replace("/", "");
   var utm_source = searchParams.get("utm_source") == null ? "null" : searchParams.get("utm_source");
   var utm_medium = searchParams.get("utm_medium") == null ? "null" : searchParams.get("utm_medium");
-  
+
   const campaign_name = props?.campaign_name !== undefined ? props.campaign_name : null;
 
   const [loader, setLoader] = useState(false);
@@ -125,9 +125,9 @@ const Brochure = (props) => {
         form_id: "brochure",
         type: "CTA",
       };
-      
+
       const endpoint = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD;
-      
+
       axios
         .post(
           `${endpoint}/common_publish/commonPublish`,

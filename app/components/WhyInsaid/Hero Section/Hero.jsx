@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
+    <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
     </>
   );
 };

@@ -489,6 +489,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "spj_ai_leaders"
         : programData.id == "sp-jain-executive-program-in-leadership-with-ai"
         ? "spj_leadership_ai"
+        : programData.id == "iimr-cto-ai-leadership-program"
+        ? "iim_ranchi_cto_ai_leadership"
 
         : programData.id == "iims-executive-program-in-leadership-with-ai"
         ? "iim_sirmaur_leadership_ai"

@@ -16,7 +16,10 @@ const Steps = ({ data }) => {
               {step.type === "free" && (
                 <span className="step-tag free">FREE</span>
               )}
-              {step.type === "paid" && (
+              {step.type === "included" && (
+                <span className="step-tag free">INCLUDED</span>
+              )}
+              {step.type === "paid" && data.exam_amount && (
                 <span className="step-tag paid">
                   &#8377;{data.exam_amount} + GST
                 </span>

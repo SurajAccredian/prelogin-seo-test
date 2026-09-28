@@ -38,7 +38,7 @@ const ExploreDrawerChild = ({ innerIsOpen, innerOnClose, streamWithTab, handleCl
                     categorizedPrograms[streamWithTab.toLowerCase()]?.map((val, index) => (
                       <a
                         onClick={handleCloseAll}
-                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
+                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" || val.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
                         className='w-full'
                         key={index}
                         type='div'

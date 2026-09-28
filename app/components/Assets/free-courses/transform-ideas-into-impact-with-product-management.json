@@ -190,6 +190,10 @@
       "value": "Self-Paced Videos + Module Quizzes"
     },
     {
+      "label": "Certificate",
+      "value": "Included on Successful Completion"
+    },
+    {
       "label": "Modules",
       "value": "6"
     },
@@ -204,10 +208,6 @@
     {
       "label": "Language",
       "value": "English"
-    },
-    {
-      "label": "Certificate",
-      "value": "Included on Successful Completion"
     }
   ],
   "faq": [

@@ -114,7 +114,7 @@ export default function Navbar() {
 
       const is66 = enrollmentDetails &&
   enrollmentDetails.some(
-    item => Number(item.category) === 66 || Number(item.category) === 70
+    item => Number(item.category) === 66 || Number(item.category) === 71
   );
      setHasCategory66(is66);
 
@@ -123,7 +123,7 @@ const isOnly66 =
   enrollmentDetails.length === 1 &&
   (
     Number(enrollmentDetails[0].category) === 66 ||
-    Number(enrollmentDetails[0].category) === 70
+    Number(enrollmentDetails[0].category) === 71
   );
   setOnlyCategory66(isOnly66);
    

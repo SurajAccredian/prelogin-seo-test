@@ -52,7 +52,7 @@ const MobileProgramFooter = ({
             categorizedPrograms[category].map((program, innerIndex) => (
               <Link
                 key={innerIndex}
-                href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                 prefetch={false}
                 style={{
                   display: "block",

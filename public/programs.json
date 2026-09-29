@@ -778,5 +778,25 @@
     "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
     "id": "transform-business-workflows-with-generative-ai",
     "duration": "9 Hours"
+  },
+  {
+    "university_name": "Accredian",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "category": "product management",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "duration": "2.5 Hours"
+  },
+  {
+    "university_name": "Accredian",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "category": "free courses",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "duration": "2.5 Hours"
   }
 ]

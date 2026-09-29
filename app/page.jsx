@@ -1,9 +1,9 @@
 import Home from "./components/Home/Home";
 
 export const metadata = {
-  title: "Accredian",
+  title: "Accredian | India's Leading Upskilling Platform",
   description:
-    "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
+    "Learn from top IIMs, IITs and XLRI through industry-relevant programs in AI, leadership, strategy and more. Build skills that move your career forward.",
 };
 
 export default function Page() {

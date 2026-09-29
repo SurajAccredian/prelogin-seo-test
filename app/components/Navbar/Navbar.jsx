@@ -111,13 +111,23 @@ export default function Navbar() {
   useEffect(() => {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      const is66 = enrollmentDetails && enrollmentDetails.some(item => Number(item.category) === 66);
-      setHasCategory66(is66);
 
-      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
-      setOnlyCategory66(isOnly66);
+      const is66 = enrollmentDetails &&
+  enrollmentDetails.some(
+    item => Number(item.category) === 66 || Number(item.category) === 71
+  );
+     setHasCategory66(is66);
 
-      if (is66) {
+const isOnly66 =
+  enrollmentDetails &&
+  enrollmentDetails.length === 1 &&
+  (
+    Number(enrollmentDetails[0].category) === 66 ||
+    Number(enrollmentDetails[0].category) === 71
+  );
+  setOnlyCategory66(isOnly66);
+   
+  if (is66) {
         const token = isCookie || localStorage.getItem("token");
         let email = localStorage.getItem("email");
         let firstname = "";

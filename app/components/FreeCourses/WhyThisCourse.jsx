@@ -32,11 +32,20 @@ const getWhyIcon = (idx) => {
 };
 
 const WhyThisCourse = ({ data }) => {
+  const isMicrosoftCourse =
+    data?.id === "transform-business-workflows-with-generative-ai" ||
+    Boolean(data?.partner_name?.toLowerCase()?.includes("microsoft")) ||
+    Boolean(data?.certification?.paid_cert);
+
   return (
     <div className="why-panel">
       <div className="section-head">
         <span className="eyebrow">Why this course</span>
-        <h2>Built on real Microsoft credentials, not just marketing claims</h2>
+        <h2>
+          {isMicrosoftCourse
+            ? "Built on real Microsoft credentials, not just marketing claims"
+            : "Practical, industry-aligned skills built for real impact"}
+        </h2>
       </div>
 
       <div className="why-list">

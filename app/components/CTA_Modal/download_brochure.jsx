@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import "react-phone-input-2/lib/material.css";
 import {
@@ -23,8 +23,10 @@ import "./phone-input.css";
 import Swal from "sweetalert2";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+import { detectBrowserLocation } from "../../helpers/location.helpers";
+import { getStoredUTMData } from "../../helpers/utm.helpers";
+import { getBrochureCta } from "../../services/program.service";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -62,13 +64,6 @@ function BootstrapDialogTitle(props) {
   );
 }
 
-const options = {
-  headers: {
-    "Access-Control-Allow-Origin": "*",
-    "Content-Type": "application/json",
-  },
-};
-
 const Brochure = (props) => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
@@ -77,22 +72,82 @@ const Brochure = (props) => {
   const pathname = usePathname();
 
   var ctapage = pathname === "/" ? "homepage" : pathname.replace("/", "");
-  var utm_source = searchParams.get("utm_source") == null ? "null" : searchParams.get("utm_source");
-  var utm_medium = searchParams.get("utm_medium") == null ? "null" : searchParams.get("utm_medium");
-
   const campaign_name = props?.campaign_name !== undefined ? props.campaign_name : null;
 
   const [loader, setLoader] = useState(false);
   const [number, setNumber] = useState("");
+  const [locationStatus, setLocationStatus] = useState("idle"); // 'idle' | 'detecting' | 'detected' | 'fallback'
+  const [detectedLocation, setDetectedLocation] = useState({ city: "", state: "", country: "" });
+  const [showManualLocation, setShowManualLocation] = useState(false);
+
   const [cta, setCta] = useState({
     mobile: "",
     name: "",
     newemail: "",
+    city: "",
+    state: "",
+    country: "",
+    fbc_field: "",
+    fbp_field: "",
+    ip_field: "",
     ctapage: "",
     utm_source: "",
     utm_medium: "",
     utm_campaign: "",
+    utm_content: "",
+    utm_adset: "",
+    utm_ad: "",
+    utm_term: "",
+    utm_format: "",
   });
+
+  // Automatically populate first-touch UTM attribution from sessionStorage / URL on open
+  useEffect(() => {
+    if (props.open) {
+      const utmData = getStoredUTMData();
+      setCta((prev) => ({
+        ...prev,
+        utm_source: utmData.utm_source || "",
+        utm_medium: utmData.utm_medium || "",
+        utm_campaign: utmData.utm_campaign || "",
+        utm_content: utmData.utm_content || "",
+        utm_adset: utmData.utm_adset || "",
+        utm_ad: utmData.utm_ad || "",
+        utm_term: utmData.utm_term || "",
+        utm_format: utmData.utm_format || "",
+      }));
+    }
+  }, [props.open]);
+
+  // Automatically request browser geolocation & reverse geocode via OpenStreetMap Nominatim
+  useEffect(() => {
+    let isMounted = true;
+    if (props.open) {
+      detectBrowserLocation().then((res) => {
+        if (!isMounted) return;
+        if (res.success && res.data && (res.data.city || res.data.state || res.data.country)) {
+          setLocationStatus("detected");
+          setDetectedLocation(res.data);
+          setCta((prev) => ({
+            ...prev,
+            city: res.data.city || "",
+            state: res.data.state || "",
+            country: res.data.country || "",
+          }));
+          setShowManualLocation(false);
+        } else {
+          setLocationStatus("fallback");
+          setShowManualLocation(true);
+        }
+      });
+    } else {
+      setShowManualLocation(false);
+      setDetectedLocation({ city: "", state: "", country: "" });
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, [props.open]);
 
   const onCaptchChange = (value) => {
     setCaptchaVerified(true);
@@ -108,68 +163,100 @@ const Brochure = (props) => {
   const LoaderOpen = () => {
     setLoader(true);
   };
-  const submitForm = (e) => {
+
+  const submitForm = async (e) => {
     e.preventDefault();
     if (number.length > 2) {
       LoaderOpen();
+
+      const finalCity = (cta.city || detectedLocation.city || "").trim();
+      const finalState = (cta.state || detectedLocation.state || "").trim();
+      const finalCountry = (cta.country || detectedLocation.country || "").trim();
+      const utmData = getStoredUTMData();
+
       const sendRcbctaData = {
         phone: number,
         name: cta.name,
         email: cta.newemail,
+        city: finalCity,
+        state: finalState,
+        country: finalCountry,
+        fbc_field: cta.fbc_field || "",
+        fbp_field: cta.fbp_field || "",
+        ip_field: cta.ip_field || "",
         program: props.program,
         source: props.source,
         page: ctapage,
-        utm_source: utm_source,
-        utm_medium: utm_medium,
-        utm_campaign: campaign_name,
+        utm_source: cta.utm_source || utmData.utm_source || "",
+        utm_medium: cta.utm_medium || utmData.utm_medium || "",
+        utm_campaign: cta.utm_campaign || utmData.utm_campaign || "",
+        utm_content: cta.utm_content || utmData.utm_content || "",
+        utm_adset: cta.utm_adset || utmData.utm_adset || "",
+        utm_ad: cta.utm_ad || utmData.utm_ad || "",
+        utm_term: cta.utm_term || utmData.utm_term || "",
+        utm_format: cta.utm_format || utmData.utm_format || "",
+        campaign_name,
         form_id: "brochure",
         type: "CTA",
       };
+      
+      try {
+        const result = await getBrochureCta(sendRcbctaData);
+        LoaderClose();
+        props.handleClose();
 
-      const endpoint = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD;
+        if (result?.data?.status == "200" || result?.status === 200) {
+          Swal.fire({
+            title: "Thank You",
+            text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",
+            icon: "success",
+            confirmButtonText: "OK",
+          }).then((conf) => {
+            if (conf.isConfirmed) {
+              if (props.pdf) window.open(props.pdf, "_blank");
+            }
+          });
 
-      axios
-        .post(
-          `${endpoint}/common_publish/commonPublish`,
-          JSON.stringify(sendRcbctaData),
-          options
-        )
-        .then((result) => {
-          LoaderClose();
-          props.handleClose();
-
-          if (result.data.status == "200") {
-            Swal.fire({
-              title: "Thank You",
-              text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",
-              icon: "success",
-              confirmButtonText: "OK",
-            }).then((conf) => {
-              if (conf.isConfirmed) {
-                if (window) window.open(props.pdf, "_blank");
-              }
-            });
-
-            setCta({
-              mobile: "",
-              name: "",
-              newemail: "",
-              ctapage: "",
-              utm_source: "",
-              utm_medium: "",
-              utm_campaign: "",
-            });
-            setNumber("");
-            setCaptchaVerified(false);
-          } else {
-            Swal.fire({
-              title: "Oops!",
-              text: "We are facing server issue, please try again in sometime.",
-              icon: "warning",
-              confirmButtonText: "OK",
-            });
-          }
+          setCta({
+            mobile: "",
+            name: "",
+            newemail: "",
+            city: "",
+            state: "",
+            country: "",
+            fbc_field: "",
+            fbp_field: "",
+            ip_field: "",
+            ctapage: "",
+            utm_source: "",
+            utm_medium: "",
+            utm_campaign: "",
+            utm_content: "",
+            utm_adset: "",
+            utm_ad: "",
+            utm_term: "",
+            utm_format: "",
+          });
+          setNumber("");
+          setCaptchaVerified(false);
+        } else {
+          Swal.fire({
+            title: "Oops!",
+            text: "We are facing server issue, please try again in sometime.",
+            icon: "warning",
+            confirmButtonText: "OK",
+          });
+        }
+      } catch (err) {
+        LoaderClose();
+        console.error("Brochure submission error:", err);
+        Swal.fire({
+          title: "Oops!",
+          text: "We are facing server issue, please try again in sometime.",
+          icon: "warning",
+          confirmButtonText: "OK",
         });
+      }
     } else {
       toast.error("Please enter a valid mobile number", {
         position: "top-right",
@@ -266,6 +353,17 @@ const Brochure = (props) => {
               </Box>
               <Box sx={{ mx: 3 }}>
                 <form onSubmit={submitForm}>
+                  <input type="hidden" id="fbc_field" name="fbc_field" value={cta.fbc_field || ""} />
+                  <input type="hidden" id="fbp_field" name="fbp_field" value={cta.fbp_field || ""} />
+                  <input type="hidden" id="ip_field" name="ip_field" value={cta.ip_field || ""} />
+                  <input type="hidden" id="utm_source" name="utm_source" value={cta.utm_source || ""} />
+                  <input type="hidden" id="utm_medium" name="utm_medium" value={cta.utm_medium || ""} />
+                  <input type="hidden" id="utm_campaign" name="utm_campaign" value={cta.utm_campaign || ""} />
+                  <input type="hidden" id="utm_content" name="utm_content" value={cta.utm_content || ""} />
+                  <input type="hidden" id="utm_adset" name="utm_adset" value={cta.utm_adset || ""} />
+                  <input type="hidden" id="utm_ad" name="utm_ad" value={cta.utm_ad || ""} />
+                  <input type="hidden" id="utm_term" name="utm_term" value={cta.utm_term || ""} />
+                  <input type="hidden" id="utm_format" name="utm_format" value={cta.utm_format || ""} />
                   <Box sx={{ pb: 2 }}>
                     <TextField
                       id="standard-basic-name"
@@ -305,6 +403,87 @@ const Brochure = (props) => {
                       value={number}
                       onChange={setNumber}
                     />
+
+                    {/* Location Capture: Auto-detected or Manual fallback */}
+                    {locationStatus === "detected" && !showManualLocation && (
+                      <Box sx={{ mt: 1.5, mb: 1, p: 1.5, bgcolor: "#f0f7ff", borderRadius: 1.5, border: "1px solid #cce3ff" }}>
+                        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                          <Typography sx={{ fontSize: "12px", color: "#1e3a8a", fontWeight: 500, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                            📍 {[detectedLocation.city, detectedLocation.state, detectedLocation.country].filter(Boolean).join(", ")}
+                          </Typography>
+                          <Typography
+                            component="span"
+                            onClick={() => setShowManualLocation(true)}
+                            sx={{ fontSize: "12px", color: "#0039e6", cursor: "pointer", textDecoration: "underline", ml: 1, whiteSpace: "nowrap" }}
+                          >
+                            Edit
+                          </Typography>
+                        </Box>
+                        <Typography sx={{ fontSize: "10px", color: "#888", mt: 0.5 }}>
+                          Location data © OpenStreetMap contributors
+                        </Typography>
+                      </Box>
+                    )}
+
+                    {(showManualLocation || locationStatus === "fallback") && (
+                      <Box sx={{ mt: 1.5, mb: 1, pt: 1, borderTop: "1px solid #eee" }}>
+                        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mb: 1 }}>
+                          <Typography sx={{ fontSize: "12px", fontWeight: 500, color: "#555" }}>
+                            Location Details
+                          </Typography>
+                          {locationStatus === "detected" && (
+                            <Typography
+                              component="span"
+                              onClick={() => setShowManualLocation(false)}
+                              sx={{ fontSize: "11px", color: "#0039e6", cursor: "pointer", textDecoration: "underline" }}
+                            >
+                              Use auto-detected
+                            </Typography>
+                          )}
+                        </Box>
+                        <Grid container spacing={1}>
+                          <Grid item xs={6}>
+                            <TextField
+                              id="standard-basic-city"
+                              label="City *"
+                              name="city"
+                              size="small"
+                              onChange={ctahandleChange}
+                              value={cta.city}
+                              fullWidth
+                              required
+                            />
+                          </Grid>
+                          <Grid item xs={6}>
+                            <TextField
+                              id="standard-basic-state"
+                              label="State *"
+                              name="state"
+                              size="small"
+                              onChange={ctahandleChange}
+                              value={cta.state}
+                              fullWidth
+                              required
+                            />
+                          </Grid>
+                          <Grid item xs={12}>
+                            <TextField
+                              id="standard-basic-country"
+                              label="Country *"
+                              name="country"
+                              size="small"
+                              onChange={ctahandleChange}
+                              value={cta.country}
+                              fullWidth
+                              required
+                            />
+                          </Grid>
+                        </Grid>
+                        <Typography sx={{ fontSize: "10px", color: "#888", mt: 0.5 }}>
+                          Location data © OpenStreetMap contributors
+                        </Typography>
+                      </Box>
+                    )}
 
                     <div className="pt-3">
                       <ReCAPTCHA

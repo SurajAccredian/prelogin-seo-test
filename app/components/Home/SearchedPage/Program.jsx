@@ -15,8 +15,8 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
     : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
 
   const handleOpen = (program) => {
-    setBrotureDownloadInfo(program);
-    setOpen(true);
+    if (setBrotureDownloadInfo) setBrotureDownloadInfo(program);
+    if (setOpen) setOpen(true);
   };
 
   return (
@@ -64,7 +64,7 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
           <Link href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`} className="px-2 py-2.5 flex-1 text-sm font-semibold border border-neutral-300 rounded-lg text-center">
             View Program
           </Link>
-          <button
+           <button
             onClick={() => handleOpen(program)}
             disabled={resolved.isAdmissionClosed || allowedIds.includes(program?.id)}
             className="px-2 py-2.5 flex-1 disabled:bg-gray-400 cursor-pointer disabled:cursor-not-allowed text-sm font-semibold bg-universal text-white rounded-lg"

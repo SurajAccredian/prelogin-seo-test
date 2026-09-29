@@ -5,7 +5,7 @@ import PROGRAMS from "../../../Assets/constants/programs.json";
 import { useEffect, useState } from "react";
 import { CiViewTimeline } from "react-icons/ci";
 import Wrapper from "../../Wrappers/Wrapper";
-import Brochure from "../../../pages/demo/CTA_Modal/download_brochure";
+import Brochure from "../../CTA_Modal/download_brochure";
 const VerticalDetail = () => {
   const [categorizedPrograms, setCategorizedPrograms] = useState([]);
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);
@@ -139,15 +139,15 @@ const VerticalDetail = () => {
           </div>
         </div>
       </div>
-      {open && (
+      {open && brotureDownloadInfo && (
         <Brochure
           open={open}
           handleClose={handleClose}
-          source={brotureDownloadInfo.brochure.source}
-          campaign_name={brotureDownloadInfo.brochure.campaign_name}
-          program={brotureDownloadInfo.category}
-          pdf={brotureDownloadInfo.brochure.pdf}
-          image={brotureDownloadInfo.brochureHeader}
+          source={brotureDownloadInfo?.brochure?.source}
+          campaign_name={brotureDownloadInfo?.brochure?.campaign_name}
+          program={brotureDownloadInfo?.category}
+          pdf={brotureDownloadInfo?.brochure?.pdf}
+          image={brotureDownloadInfo?.brochureHeader}
         />
       )}
     </>

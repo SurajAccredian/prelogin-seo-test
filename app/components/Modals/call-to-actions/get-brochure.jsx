@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import { IoIosClose } from "react-icons/io";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { IoWarning } from "react-icons/io5";
 import PhoneInput from "react-phone-input-2";
@@ -14,11 +14,15 @@ import { useSelector } from "react-redux";
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import Swal from "sweetalert2";
-import { getCta } from "../../../services/program.service";
+import { getBrochureCta } from "../../../services/program.service";
 import { HashLoader } from "../../Loaders";
 import { useDispatch } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import ReCAPTCHA from "react-google-recaptcha";
+import { detectBrowserLocation } from "../../../helpers/location.helpers";
+import { getStoredUTMData } from "../../../helpers/utm.helpers";
+import { getFbc, getFbp } from "../../../helpers/cookie.helpers";
+import { fetchClientIp } from "../../../helpers/ip.helpers";
 
 export default function GetBrochure({ open }) {
   const { data } = useSelector((state) => state.program);
@@ -28,39 +32,101 @@ export default function GetBrochure({ open }) {
   const pathname = usePathname();
   const currentPage =
     pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source =
-    searchParams.get("utm_source") == undefined
-      ? "null"
-      : searchParams.get("utm_source");
-  const utm_medium =
-    searchParams.get("utm_medium") == undefined
-      ? "null"
-      : searchParams.get("utm_medium");
   const campaign_name =
     open?.brochure?.campaign_name !== undefined
       ? open.brochure.campaign_name
       : null;
+
+  const [locationStatus, setLocationStatus] = useState("idle"); // 'idle' | 'detecting' | 'detected' | 'fallback'
+  const [detectedLocation, setDetectedLocation] = useState({ city: "", state: "", country: "" });
+  const [showManualLocation, setShowManualLocation] = useState(false);
+  const [userIp, setUserIp] = useState("");
 
   const {
     register,
     handleSubmit,
     control,
     reset,
+    setValue,
     formState: { errors },
   } = useForm({
     defaultValues: {
       name: "",
       email: "",
       contact: "",
+      city: "",
+      state: "",
+      country: "",
+      fbc_field: "",
+      fbp_field: "",
+      ip_field: "",
+      utm_source: "",
+      utm_medium: "",
+      utm_campaign: "",
+      utm_content: "",
+      utm_adset: "",
+      utm_ad: "",
+      utm_term: "",
+      utm_format: "",
     },
     mode: "onChange",
   });
+
+  // Automatically populate first-touch UTM attribution from sessionStorage / URL
+  useEffect(() => {
+    if (open) {
+      const utmData = getStoredUTMData();
+      setValue("utm_source", utmData.utm_source || "");
+      setValue("utm_medium", utmData.utm_medium || "");
+      setValue("utm_campaign", utmData.utm_campaign || "");
+      setValue("utm_content", utmData.utm_content || "");
+      setValue("utm_adset", utmData.utm_adset || "");
+      setValue("utm_ad", utmData.utm_ad || "");
+      setValue("utm_term", utmData.utm_term || "");
+      setValue("utm_format", utmData.utm_format || "");
+      setValue("fbc_field", getFbc());
+      setValue("fbp_field", getFbp());
+      fetchClientIp().then((ip) => {
+        if (ip) {
+          setUserIp(ip);
+          setValue("ip_field", ip);
+        }
+      });
+    }
+  }, [open, setValue]);
+
+  // Automatically request browser geolocation & reverse geocode via OpenStreetMap Nominatim
+  useEffect(() => {
+    let isMounted = true;
+    if (open) {
+      detectBrowserLocation().then((res) => {
+        if (!isMounted) return;
+        if (res.success && res.data && (res.data.city || res.data.state || res.data.country)) {
+          setLocationStatus("detected");
+          setDetectedLocation(res.data);
+          setValue("city", res.data.city || "");
+          setValue("state", res.data.state || "");
+          setValue("country", res.data.country || "");
+          setShowManualLocation(false);
+        } else {
+          setLocationStatus("fallback");
+          setShowManualLocation(true);
+        }
+      });
+    } else {
+      setShowManualLocation(false);
+      setDetectedLocation({ city: "", state: "", country: "" });
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, [open, setValue]);
 
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
 
   const { mutate, isPending } = useMutation({
-    mutationFn: (body) => getCta(body),
+    mutationFn: (body) => getBrochureCta(body),
     onSuccess: (result) => {
       if (result.data.status == "200") {
         Swal.fire({
@@ -92,18 +158,35 @@ export default function GetBrochure({ open }) {
   });
 
   const submitForm = (body) => {
-    const { name, contact, email } = body;
+    const { name, contact, email, city, state, country, fbc_field, fbp_field, ip_field } = body;
+    const utmData = getStoredUTMData();
+
+    const finalCity = (city || detectedLocation.city || "").trim();
+    const finalState = (state || detectedLocation.state || "").trim();
+    const finalCountry = (country || detectedLocation.country || "").trim();
 
     const payload = {
       phone: contact,
       name,
       email,
-      program: data.vertical,
-      source: data?.brochure?.source,
+      city: finalCity,
+      state: finalState,
+      country: finalCountry,
+      fbc_field: fbc_field || getFbc(),
+      fbp_field: fbp_field || getFbp(),
+      ip_field: userIp || ip_field || "",
+      program: open?.vertical || open?.category || open?.program_name || data?.vertical || data?.category || "Explore Programs",
+      source: "Get Brochure",
       page: currentPage,
-      utm_source,
-      utm_medium,
-      utm_campaign: campaign_name,
+      utm_source: body.utm_source || utmData.utm_source || "Direct",
+      utm_medium: body.utm_medium || utmData.utm_medium || "website-organic",
+      utm_campaign: body.utm_campaign || utmData.utm_campaign || "",
+      utm_content: body.utm_content || utmData.utm_content || "",
+      utm_adset: body.utm_adset || utmData.utm_adset || "",
+      utm_ad: body.utm_ad || utmData.utm_ad || "",
+      utm_term: body.utm_term || utmData.utm_term || "",
+      utm_format: body.utm_format || utmData.utm_format || "",
+      campaign_name,
       form_id: "brochure",
       type: "CTA",
     };
@@ -169,7 +252,7 @@ export default function GetBrochure({ open }) {
                     />
                   </div>
                 </div>
-                <div className="flex-1 md:flex-[0.5] flex flex-col items-center">
+                <div className="flex-1 md:flex-[0.55] flex flex-col items-center">
                   {/* upper heading */}
                   <h1 className="text-sm font-medium text-neutral-600 text-center">
                     Grab the brochure to get further details about the program.
@@ -179,11 +262,22 @@ export default function GetBrochure({ open }) {
                     className={`w-full h-full flex flex-col justify-between mt-2`}
                     onSubmit={handleSubmit(submitForm)}
                   >
+                    <input type="hidden" id="fbc_field" {...register("fbc_field")} />
+                    <input type="hidden" id="fbp_field" {...register("fbp_field")} />
+                    <input type="hidden" id="ip_field" {...register("ip_field")} />
+                    <input type="hidden" id="utm_source" {...register("utm_source")} />
+                    <input type="hidden" id="utm_medium" {...register("utm_medium")} />
+                    <input type="hidden" id="utm_campaign" {...register("utm_campaign")} />
+                    <input type="hidden" id="utm_content" {...register("utm_content")} />
+                    <input type="hidden" id="utm_adset" {...register("utm_adset")} />
+                    <input type="hidden" id="utm_ad" {...register("utm_ad")} />
+                    <input type="hidden" id="utm_term" {...register("utm_term")} />
+                    <input type="hidden" id="utm_format" {...register("utm_format")} />
                     <div className="w-full">
                       {/* name */}
                       <div className="relative">
                         <input
-                          className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2
+                          className={`w-full px-4 py-2.5 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-1
 ${errors["name"] ? "border-rose-500" : "border-neutral-300"} 
 ${errors["name"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                           {...register("name", {
@@ -290,6 +384,97 @@ ${errors["email"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                           </div>
                         )}
                       </div>
+
+                      {/* Location Capture: Auto-detected state or Manual fallback/editable fields */}
+                      {locationStatus === "detecting" && (
+                        <div className="mt-3 p-2 bg-neutral-50 border border-neutral-200 rounded-lg flex items-center gap-2 text-xs text-neutral-500 animate-pulse">
+                          <span>📍</span>
+                          <span>Detecting location...</span>
+                        </div>
+                      )}
+
+                      {locationStatus === "detected" && !showManualLocation && (
+                        <div className="mt-3">
+                          <div className="p-2.5 bg-blue-50/70 border border-blue-100 rounded-lg flex items-center justify-between text-xs">
+                            <div className="flex items-center gap-1.5 text-neutral-700 truncate pr-2">
+                              <span className="text-blue-600 text-sm">📍</span>
+                              <span className="font-medium truncate">
+                                {[detectedLocation.city, detectedLocation.state, detectedLocation.country].filter(Boolean).join(", ")}
+                              </span>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => setShowManualLocation(true)}
+                              className="text-universal hover:underline font-medium text-xs whitespace-nowrap cursor-pointer"
+                            >
+                              Edit
+                            </button>
+                          </div>
+                          <p className="text-[10px] text-neutral-400 mt-0.5 pl-1">Location data © OpenStreetMap contributors</p>
+                        </div>
+                      )}
+
+                      {(showManualLocation || locationStatus === "fallback") && (
+                        <div className="mt-3 pt-2 border-t border-neutral-100">
+                          <div className="flex items-center justify-between mb-1.5">
+                            <label className="text-xs font-medium text-neutral-600">Location Details</label>
+                            {locationStatus === "detected" && (
+                              <button
+                                type="button"
+                                onClick={() => setShowManualLocation(false)}
+                                className="text-[11px] text-universal hover:underline cursor-pointer"
+                              >
+                                Use auto-detected
+                              </button>
+                            )}
+                          </div>
+                          <div className="grid grid-cols-2 gap-2">
+                            <div className="relative">
+                              <input
+                                className={`w-full px-2 py-1.5 text-xs bg-white border-b-2 outline-none transition ${
+                                  errors["city"] ? "border-rose-500" : "border-neutral-300"
+                                } focus:border-blue-500`}
+                                {...register("city", { required: "City required" })}
+                                id="city"
+                                type="text"
+                                placeholder="City (Required)"
+                              />
+                              {errors.city?.message && (
+                                <p className="text-red-500 text-[10px] mt-0.5">{errors.city?.message}</p>
+                              )}
+                            </div>
+                            <div className="relative">
+                              <input
+                                className={`w-full px-2 py-1.5 text-xs bg-white border-b-2 outline-none transition ${
+                                  errors["state"] ? "border-rose-500" : "border-neutral-300"
+                                } focus:border-blue-500`}
+                                {...register("state", { required: "State required" })}
+                                id="state"
+                                type="text"
+                                placeholder="State (Required)"
+                              />
+                              {errors.state?.message && (
+                                <p className="text-red-500 text-[10px] mt-0.5">{errors.state?.message}</p>
+                              )}
+                            </div>
+                          </div>
+                          <div className="relative mt-1.5">
+                            <input
+                              className={`w-full px-2 py-1.5 text-xs bg-white border-b-2 outline-none transition ${
+                                errors["country"] ? "border-rose-500" : "border-neutral-300"
+                              } focus:border-blue-500`}
+                              {...register("country", { required: "Country required" })}
+                              id="country"
+                              type="text"
+                              placeholder="Country (Required)"
+                            />
+                            {errors.country?.message && (
+                              <p className="text-red-500 text-[10px] mt-0.5">{errors.country?.message}</p>
+                            )}
+                          </div>
+                          <p className="text-[10px] text-neutral-400 mt-1 pl-1">Location data © OpenStreetMap contributors</p>
+                        </div>
+                      )}
                     </div>
                     <div className="w-full mt-6">
                       {/* policy */}

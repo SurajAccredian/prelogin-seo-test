@@ -24,18 +24,18 @@ export const metadata = {
     default: "Accredian",
   },
   description:
-    "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
+    "Learn from top IIMs, IITs and XLRI through industry-relevant programs in AI, leadership, strategy and more. Build skills that move your career forward.",
   keywords:
     "data science course India, AI ML certification, AI ML courses in india, top AI ML programs, product management program IIT, IIM executive program, online data science certification, career transition data science, IIT Kanpur data science, IIM Lucknow executive program, XLRI HR program, best data science courses in India, online professional certifications, IIM certification for working professionals, IIT artificial intelligence course, management courses for senior executives, data analytics course with placement, best AI ML courses for beginners",
   openGraph: {
     type: "website",
     siteName: "Accredian",
-    title: "Accredian",
+    title: "Accredian | Build Skills for What's Next",
     description:
-      "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
+      "Courses by top IIMs, IITs, XLRI and many more in AI, leadership, strategy and more. Find the right path to your next career move.",
     url: "https://accredian.com",
     images: [
-      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian-logo-image-v2.webp",
     ],
   },
   twitter: {

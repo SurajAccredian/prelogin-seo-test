@@ -229,7 +229,7 @@ const VerticalDetail = () => {
                           </a>
                           <button
                             onClick={() => handleDownloadBrochure(program)}
-                            disabled={
+                                disabled={
                               resolved.isAdmissionClosed || allowedIds.includes(program?.id)
                             }
                             className="px-2 py-2.5 flex-1 disabled:bg-gray-400  text-sm font-semibold bg-universal text-white rounded-lg"

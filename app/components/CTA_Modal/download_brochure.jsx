@@ -26,6 +26,8 @@ import "react-toastify/dist/ReactToastify.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import { detectBrowserLocation } from "../../helpers/location.helpers";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
+import { getFbc, getFbp } from "../../helpers/cookie.helpers";
+import { fetchClientIp } from "../../helpers/ip.helpers";
 import { getBrochureCta } from "../../services/program.service";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
@@ -79,6 +81,7 @@ const Brochure = (props) => {
   const [locationStatus, setLocationStatus] = useState("idle"); // 'idle' | 'detecting' | 'detected' | 'fallback'
   const [detectedLocation, setDetectedLocation] = useState({ city: "", state: "", country: "" });
   const [showManualLocation, setShowManualLocation] = useState(false);
+  const [userIp, setUserIp] = useState("");
 
   const [cta, setCta] = useState({
     mobile: "",
@@ -115,7 +118,15 @@ const Brochure = (props) => {
         utm_ad: utmData.utm_ad || "",
         utm_term: utmData.utm_term || "",
         utm_format: utmData.utm_format || "",
+        fbc_field: getFbc(),
+        fbp_field: getFbp(),
       }));
+      fetchClientIp().then((ip) => {
+        if (ip) {
+          setUserIp(ip);
+          setCta((prev) => ({ ...prev, ip_field: ip }));
+        }
+      });
     }
   }, [props.open]);
 
@@ -181,11 +192,11 @@ const Brochure = (props) => {
         city: finalCity,
         state: finalState,
         country: finalCountry,
-        fbc_field: cta.fbc_field || "",
-        fbp_field: cta.fbp_field || "",
-        ip_field: cta.ip_field || "",
+        fbc_field: cta.fbc_field || getFbc(),
+        fbp_field: cta.fbp_field || getFbp(),
+        ip_field: userIp || cta.ip_field || "",
         program: props.program,
-        source: props.source,
+        source: "Download Brochure",
         page: ctapage,
         utm_source: cta.utm_source || utmData.utm_source || "Direct",
         utm_medium: cta.utm_medium || utmData.utm_medium || "website-organic",

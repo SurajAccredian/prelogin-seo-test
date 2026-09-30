@@ -21,6 +21,8 @@ import { programActions } from "../../../store/reducers/program";
 import ReCAPTCHA from "react-google-recaptcha";
 import { detectBrowserLocation } from "../../../helpers/location.helpers";
 import { getStoredUTMData } from "../../../helpers/utm.helpers";
+import { getFbc, getFbp } from "../../../helpers/cookie.helpers";
+import { fetchClientIp } from "../../../helpers/ip.helpers";
 
 export default function GetBrochure({ open }) {
   const { data } = useSelector((state) => state.program);
@@ -38,6 +40,7 @@ export default function GetBrochure({ open }) {
   const [locationStatus, setLocationStatus] = useState("idle"); // 'idle' | 'detecting' | 'detected' | 'fallback'
   const [detectedLocation, setDetectedLocation] = useState({ city: "", state: "", country: "" });
   const [showManualLocation, setShowManualLocation] = useState(false);
+  const [userIp, setUserIp] = useState("");
 
   const {
     register,
@@ -81,6 +84,14 @@ export default function GetBrochure({ open }) {
       setValue("utm_ad", utmData.utm_ad || "");
       setValue("utm_term", utmData.utm_term || "");
       setValue("utm_format", utmData.utm_format || "");
+      setValue("fbc_field", getFbc());
+      setValue("fbp_field", getFbp());
+      fetchClientIp().then((ip) => {
+        if (ip) {
+          setUserIp(ip);
+          setValue("ip_field", ip);
+        }
+      });
     }
   }, [open, setValue]);
 
@@ -161,11 +172,11 @@ export default function GetBrochure({ open }) {
       city: finalCity,
       state: finalState,
       country: finalCountry,
-      fbc_field: fbc_field || "",
-      fbp_field: fbp_field || "",
-      ip_field: ip_field || "",
+      fbc_field: fbc_field || getFbc(),
+      fbp_field: fbp_field || getFbp(),
+      ip_field: userIp || ip_field || "",
       program: open?.vertical || open?.category || open?.program_name || data?.vertical || data?.category || "Explore Programs",
-      source: open?.brochure?.source || data?.brochure?.source || "Get Brochure",
+      source: "Get Brochure",
       page: currentPage,
       utm_source: body.utm_source || utmData.utm_source || "Direct",
       utm_medium: body.utm_medium || utmData.utm_medium || "website-organic",

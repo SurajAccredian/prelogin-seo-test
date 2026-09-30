@@ -14,6 +14,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { allowedIds } from "../../../Assets/constants";
 import { detectBrowserLocation } from "../../../../helpers/location.helpers";
 import { getStoredUTMData } from "../../../../helpers/utm.helpers";
+import { getFbc, getFbp } from "../../../../helpers/cookie.helpers";
+import { fetchClientIp } from "../../../../helpers/ip.helpers";
 import "react-phone-input-2/lib/style.css";
 
 const SideForm = () => {
@@ -27,6 +29,7 @@ const SideForm = () => {
   const [locationStatus, setLocationStatus] = useState("idle"); // 'idle' | 'detecting' | 'detected' | 'fallback'
   const [detectedLocation, setDetectedLocation] = useState({ city: "", state: "", country: "" });
   const [showManualLocation, setShowManualLocation] = useState(false);
+  const [userIp, setUserIp] = useState("");
 
   const {
     register,
@@ -70,6 +73,14 @@ const SideForm = () => {
     setValue("utm_ad", utmData.utm_ad || "");
     setValue("utm_term", utmData.utm_term || "");
     setValue("utm_format", utmData.utm_format || "");
+    setValue("fbc_field", getFbc());
+    setValue("fbp_field", getFbp());
+    fetchClientIp().then((ip) => {
+      if (ip) {
+        setUserIp(ip);
+        setValue("ip_field", ip);
+      }
+    });
   }, [setValue]);
 
   // Automatically request browser geolocation on mount
@@ -146,11 +157,11 @@ const SideForm = () => {
       city: finalCity,
       state: finalState,
       country: finalCountry,
-      fbc_field: fbc_field || "",
-      fbp_field: fbp_field || "",
-      ip_field: ip_field || "",
+      fbc_field: fbc_field || getFbc(),
+      fbp_field: fbp_field || getFbp(),
+      ip_field: userIp || ip_field || "",
       program: data?.vertical,
-      source: data?.brochure?.source,
+      source: "Get Brochure",
       page: currentPage,
       utm_source: body.utm_source || utmData.utm_source || "Direct",
       utm_medium: body.utm_medium || utmData.utm_medium || "website-organic",

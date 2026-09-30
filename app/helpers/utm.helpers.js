@@ -38,13 +38,13 @@ const STORAGE_KEY = "utm_data";
  */
 export function getFallbackFromReferrer() {
   if (typeof window === "undefined" || typeof document === "undefined") {
-    return { utm_source: "direct", utm_medium: "none" };
+    return { utm_source: "Direct", utm_medium: "website-organic" };
   }
 
   const ref = document.referrer ? document.referrer.toLowerCase() : "";
 
   if (!ref) {
-    return { utm_source: "direct", utm_medium: "none" };
+    return { utm_source: "Direct", utm_medium: "website-organic" };
   }
   if (ref.indexOf("google.") !== -1) {
     return { utm_source: "google", utm_medium: "organic-search" };
@@ -152,8 +152,8 @@ export function getInitialUTMData() {
     // 3. Fallback to documented referrer rules if neither URL nor sessionStorage exists
     const fallback = getFallbackFromReferrer();
     const fallbackData = {
-      utm_source: fallback.utm_source || "direct",
-      utm_medium: fallback.utm_medium || "none",
+      utm_source: fallback.utm_source || "Direct",
+      utm_medium: fallback.utm_medium || "website-organic",
       utm_campaign: "",
       utm_content: "",
       utm_adset: "",

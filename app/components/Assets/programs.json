@@ -2075,5 +2075,41 @@
       "Microsoft 365"
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
+  },
+
+   
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "university_name": "Accredian",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "duration": "2.5 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "category": "product management",
+    "tags": [
+      "Product Management",
+      "Productivity",
+      "free course"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp"
+  }, 
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "university_name": "Accredian",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "duration": "2.5 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "category": "free courses",
+    "tags": [
+      "Product Management",
+      "Productivity",
+      "free course"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp"
   }
 ]

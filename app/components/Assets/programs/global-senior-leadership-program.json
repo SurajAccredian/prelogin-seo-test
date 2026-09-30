@@ -4,6 +4,7 @@
   "pid": 172,
   "vertical": "senior management",
   "title": "Global Senior Leadership Program",
+  "seo_title": "Global Senior Leadership Program",
   "description": "Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.",
   "short_title": "Global Senior Leadership",
   "contact": "9810184424",
@@ -117,7 +118,11 @@
     "international-immersion",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -151,7 +156,10 @@
         "title": "Innovation & Transformation Leadership",
         "week": "",
         "id": "corporate---business-strategy",
-        "points": ["Digital Transformation & Innovation", "Leadership with AI"]
+        "points": [
+          "Digital Transformation & Innovation",
+          "Leadership with AI"
+        ]
       }
     ],
     "Chief-Executive-Officer": [
@@ -179,7 +187,6 @@
       "Executive Presence, Leadership & C-Suite Strategy",
       "Capstone Project"
     ],
-
     "Chief-Financial-Officer": [
       "Strategic Financial Leadership for CFOs",
       "Financial Planning & Analysis (FP&A) Leadership",
@@ -220,7 +227,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. Sushil Kumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
@@ -228,7 +234,6 @@
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Prof. PRS Sharma",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
@@ -240,7 +245,6 @@
       "name": "Prof. Vijay Bhaskar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/vijaya-bhaskar.webp",
       "position": "Dr B R Ambedkar Chair Professor",
-
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
@@ -249,7 +253,6 @@
     "programId": "global-senior-leadership-program",
     "points": [
       "144+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -304,10 +307,11 @@
               "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
             ]
           },
-
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

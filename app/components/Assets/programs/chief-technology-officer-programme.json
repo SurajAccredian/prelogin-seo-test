@@ -1,10 +1,10 @@
 {
   "category": "31",
-  
   "pid": 112,
   "id": "chief-technology-officer-programme",
   "vertical": "cxo leadership",
   "title": "Chief Technology Officer Programme (The CTO Program)",
+  "seo_title": "Chief Technology Officer Programme (The CTO Program)",
   "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
   "short_title": "Chief Technology Officer",
   "contact": "8851827093",
@@ -117,7 +117,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -173,7 +177,6 @@
         "Governance Models & Modernization Strategies"
       ]
     },
-
     {
       "title": "Digital Transformation & Emerging Technologies",
       "id": "6",
@@ -194,7 +197,6 @@
         "Driving Tech-Lead Value Creation, Not Just Operational Efficiency"
       ]
     },
-
     {
       "title": "Data Science, Analytics & GenAI for CTOs",
       "id": "8",
@@ -264,7 +266,6 @@
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Prof. Rishi Raj",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rishi-raj.webp",
@@ -277,7 +278,6 @@
     "programId": "chief-technology-officer-programme",
     "points": [
       "132+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -332,10 +332,11 @@
               "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
             ]
           },
-
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

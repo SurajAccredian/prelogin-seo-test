@@ -4,6 +4,7 @@
   "category": "51",
   "vertical": "cxo leadership",
   "title": "Chief Human Resources Officer Programme (The CHRO Program)",
+  "seo_title": "Chief Human Resources Officer Programme (The CHRO Program)",
   "description": "Embark on a 10 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
   "short_title": "Chief Human Resources Officer",
   "contact": "8851827093",
@@ -106,7 +107,11 @@
     "alumni-status-opt",
     "capstone-project"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Personalized Discussion",
     "Application Review",
@@ -204,7 +209,10 @@
     },
     {
       "title": "Strategic Marketing",
-      "points": ["Customer Management", "Brand Management"],
+      "points": [
+        "Customer Management",
+        "Brand Management"
+      ],
       "modules": []
     },
     {

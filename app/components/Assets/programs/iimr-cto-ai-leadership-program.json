@@ -3,6 +3,7 @@
   "category": "63",
   "vertical": "CXO Leadership",
   "title": "CTO & AI Leadership Program",
+  "seo_title": "CTO & AI Leadership Program",
   "description": "Embark on a 12 month learning journey in Strategic Leadership, Technology, AI & Governance",
   "short_title": "CTO & AI",
   "contact": "9810184424",
@@ -237,17 +238,15 @@
         "Building Trust, Transparency & Accountability in AI"
       ],
       "modules": []
-    }
-    ,
+    },
     {
       "title": "Capstone Project",
       "special": "1",
       "points": [
-       "Develop a comprehensive technology and AI transformation strategy for a real-world organization. Diagnose its technology, data, digital and AI maturity; identify strategic opportunities; prioritize initiatives; define the target architecture and operating model; build an investment roadmap; assess risks and governance requirements; and present an executive-level implementation roadmap demonstrating measurable business impact."
+        "Develop a comprehensive technology and AI transformation strategy for a real-world organization. Diagnose its technology, data, digital and AI maturity; identify strategic opportunities; prioritize initiatives; define the target architecture and operating model; build an investment roadmap; assess risks and governance requirements; and present an executive-level implementation roadmap demonstrating measurable business impact."
       ],
       "modules": []
     },
-    
     {
       "title": "CXO Coaching",
       "special": "2",

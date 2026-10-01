@@ -1,0 +1,300 @@
+{
+  "id": "iimr-cto-ai-leadership-program",
+  "category": "63",
+  "vertical": "CXO Leadership",
+  "title": "CTO & AI Leadership Program",
+  "description": "Embark on a 12 month learning journey in Strategic Leadership, Technology, AI & Governance",
+  "short_title": "CTO & AI",
+  "contact": "9810184424",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1_.webp",
+  "start_date": "31 Jan 2027",
+  "duration": "12 Months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "144+",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "3-Days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "13",
+      "title": "modules"
+    }
+  ],
+  "domain": "CXO Leadership",
+  "overview": {
+    "programId": "cto-ai-leadership-program",
+    "content": [
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Technology Officer (CTO)",
+          "Vice President of Engineering",
+          "Head of Technology",
+          "Director of Technology",
+          "Chief Digital Officer (CDO)",
+          "Chief Information Officer (CIO)",
+          "Technology Strategy Consultant",
+          "Product & Technology Leader",
+          "Digital Transformation Leader",
+          "Technical Co-Founder",
+          "Innovation Head",
+          "Enterprise Architect"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 pillars - Strategic Technology & AI Leadership ",
+          "Learn from esteemed IIM Ranchi faculty",
+          "Duration: 12 Months | Weekend Online",
+          "Certification From IIM Ranchi",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI Upto 24 Months",
+          "Career Assistance by Accredian",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      },
+      {
+        "title": "Who should join",
+        "points": [
+          "Current CTOs: Sharpen strategic, financial, and innovation capabilities.",
+          "Senior Tech Leaders (VPs, Heads of Tech): Prepare for C-suite responsibilities.",
+          "Product & Tech Leaders: Align technology strategies with business outcomes.",
+          "IT Directors & Managers: Transition from execution to strategic leadership.",
+          "Tech Founders: Scale tech-led businesses effectively.",
+          "Consultants: Deepen enterprise technology expertise.",
+          "Aspiring CTOs: Step into senior technology leadership roles."
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "capstone-project",
+    "campus-immersion",
+    "alumni-status"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "The Modern CTO in the AI Era",
+      "points": [
+        "Evolving Role of the Modern CTO",
+        "Technology Leadership in the AI Era",
+        "Building Technology-Driven Business Advantage",
+        "Leading Technology, Data & AI Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Leadership & Strategic Decision Making",
+      "points": [
+        "Executive Presence & Boardroom Influence",
+        "Strategic Decision-Making Under Uncertainty",
+        "Communicating Technology Strategy to the Board",
+        "Stakeholder Management & Executive Influence"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Technology & AI Strategy for CTOs",
+      "points": [
+        "Defining Technology & AI Vision",
+        "Technology Portfolio Prioritization & Trade-offs",
+        "Technology & AI Strategy Alignment with Business Strategy",
+        "Building the Enterprise Technology & AI Roadmap"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Finance for Technology & AI Leaders",
+      "points": [
+        "Technology Investment & Budget Strategy",
+        "Capex, Opex & Technology Economics",
+        "Technology & AI Business Cases, ROI & TCO",
+        "Technology Investment Governance & Capital Allocation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Product, Technology & Market Alignment",
+      "points": [
+        "Product & Technology Strategy Alignment",
+        "Customer-Centric Technology Development",
+        "Product Portfolio & Roadmap Prioritization",
+        "Agile, DevOps & Engineering Excellence"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Data & Analytics Strategy for CTOs",
+      "points": [
+        "Enterprise Data Strategy & Architecture",
+        "Data Governance, Quality & Accessibility",
+        "Analytics & Data-Driven Decision-Making",
+        "Building an AI-Ready Data Foundation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital Transformation & Emerging Technologies",
+      "points": [
+        "Digital Strategy & Transformation Roadmaps",
+        "Digital Business Models & Platform Thinking",
+        "Leading Enterprise-Wide Digital Transformation",
+        "Emerging Technologies & Strategic Foresight"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI & Generative AI Strategy",
+      "points": [
+        "AI & Generative AI Landscape",
+        "Enterprise AI Use Cases & Opportunity Prioritization",
+        "AI Capability, Talent & Technology Strategy",
+        "Building the Enterprise AI Strategy & Roadmap"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Agentic AI & Autonomous Enterprises",
+      "points": [
+        "From Generative AI to Agentic AI",
+        "AI Agent Architecture & Intelligent Workflows",
+        "Enterprise Automation & Human-AI Collaboration",
+        "Autonomous & Agentic Business Processes"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI-Driven Product Innovation",
+      "points": [
+        "Identifying AI-Driven Product Opportunities",
+        "AI-Native Product Strategy & Design",
+        "Building, Scaling & Commercializing AI Products",
+        "AI Product Lifecycle & Market Strategy"
+      ],
+      "modules": []
+    },
+    {
+      "title": "GTM Strategies for CTOs",
+      "points": [
+        "Technology Product Positioning & GTM Strategy",
+        "Technology Commercialization & Market Entry",
+        "Enterprise Technology Adoption & Scaling",
+        "Strategic Technology Partnerships & Ecosystems"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Cybersecurity, Tech Risk Leadership",
+      "points": [
+        "Cybersecurity Strategy & Enterprise Risk",
+        "Cloud, Third-Party & Technology Supply-Chain Risks",
+        "Cyber Resilience & Business Continuity",
+        "Technology Risk, Resilience & Accountability"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI Governance & Responsible AI",
+      "points": [
+        "AI Governance & Responsible AI",
+        "Data Privacy,  Security & Intellectual Property",
+        "AI Risk, Compliance & Regulatory Considerations",
+        "Building Trust, Transparency & Accountability in AI"
+      ],
+      "modules": []
+    }
+    ,
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "points": [
+       "Develop a comprehensive technology and AI transformation strategy for a real-world organization. Diagnose its technology, data, digital and AI maturity; identify strategic opportunities; prioritize initiatives; define the target architecture and operating model; build an investment roadmap; assess risks and governance requirements; and present an executive-level implementation roadmap demonstrating measurable business impact."
+      ],
+      "modules": []
+    },
+    
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Participants will attend 2 CXO coaching sessions focused on elevating strategic leadership skills, enhancing decision-making, building stakeholder influence, navigating complex business challenges, and developing the leadership capabilities required to drive technology, AI and enterprise-wide transformation."
+      ]
+    }
+  ],
+  "billing": {
+    "total": 260000,
+    "points": [
+      "144+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 22767,
+        "months": 12
+      },
+      {
+        "emi": 15729,
+        "months": 18
+      },
+      {
+        "emi": 12184,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-CTO-AI-Leadership-Program.pdf",
+    "source": "IIM-RANCHI CTO & AI Leadership Programme Brochure",
+    "campaign_name": "IIM-RANCHI-Chief Technology Officer"
+  },
+  "faculty": [],
+  "tools": []
+}

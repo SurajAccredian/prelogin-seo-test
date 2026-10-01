@@ -1,6 +1,7 @@
 {
   "category": "39",
   "id": "accelerated-senior-management-program",
+  "pid": 121,
   "vertical": "senior management",
   "title": "Accelerated Senior Management Programme",
   "description": "Embark on a 10 month learning journey in Strategic Leadership, AI and GenAI Strategy.",
@@ -107,7 +108,11 @@
     "certificate",
     "strategic-leadership"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -242,7 +247,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Dr. Amit Shankar",
@@ -322,7 +326,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

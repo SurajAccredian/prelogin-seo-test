@@ -91,10 +91,10 @@ const Related = () => {
     <div className="related w-full xl:px-12 px-4">
       <div className="w-full text-center">
         <h4 className="text-base font-medium">Choose the Right Program</h4>
-        <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+        <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
           Explore Our
           <span className="text-universal"> Career-Accelerating</span> Programs
-        </h1>
+        </h2>
       </div>
       <div className="w-full flex mt-6 justify-center">
         <div className="w-full max-w-[85rem] flex justify-center gap-2 relative">
@@ -160,41 +160,41 @@ const Related = () => {
                           />
                         </div>
 
-                        <h1
+                        <p
                           title={program.university_name}
                           className="text-center font-medium text-xs text-neutral-500 cursor-context-menu"
                         >
                           {program.university_name}
-                        </h1>
+                        </p>
                       </div>
                       <div className="w-full border-b border-neutral-300 mt-4" />
                     </div>
                     <div className="w-full flex-1 flex flex-col justify-between px-4 pt-2 pb-4 cursor-context-menu">
-                      <h1 className="font-semibold">{program.program_name}</h1>
+                      <h3 className="font-semibold">{program.program_name}</h3>
                       <div className="w-full">
-                        <h2
+                        <p
                           className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu"
                           title={program.tags?.join(", ")}
                         >
                           <span className="text-black">Core skills - </span>
                           {program.tags?.join(", ")}
-                        </h2>
+                        </p>
                         <div className="flex items-center gap-2">
                           <CiViewTimeline
                             className="text-2xl text-universal/90"
                             strokeWidth={0.5}
                           />
-                          <h1 className="text-base font-medium capitalize">
+                          <p className="text-base font-medium capitalize">
                             {program.duration} -{" "}
                             <span title={program.batch_type}>
                               {program.batch_type}
                             </span>
-                          </h1>
+                          </p>
                         </div>
                       </div>
                       <div className="flex items-center w-full gap-2 mt-4">
                         <a
-                          href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                          href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                           className="px-2 py-2.5 flex-1 text-sm font-semibold border bg-universal text-white border-neutral-300 rounded-lg text-center"
                         >
                           View Program

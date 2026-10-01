@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import PROGRAMS from "../../Assets/programs.json";
 import Brochure from "../../CTA_Modal/download_brochure";
+import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 // import { useScrollBoundary } from "../../../helpers/useScrollBoundary";
 // import { useConditionalScrollPrevention } from "../../../helpers/useConditionalScrollPrevention";
 import { TrendingUp } from "lucide-react"; // Icon for Popular Courses
@@ -46,6 +47,7 @@ const Programs = () => {
   // const { containerRef, hasOverflow } = useConditionalScrollPrevention();
   const dispatch = useDispatch();
   const { checkedCategories } = useSelector((state) => state.program);
+  const { getProgramStatus } = useProgramStatuses();
   const [selectedVertical, setSelectedVertical] = useState("popular");
   const [expandedMobileCategory, setExpandedMobileCategory] =
     useState("popular");
@@ -215,6 +217,7 @@ const Programs = () => {
                       key={program.id || index}
                       program={program}
                       handleOpen={handleOpen}
+                      getProgramStatus={getProgramStatus}
                     />
                   ))}
                 </div>
@@ -237,6 +240,7 @@ const Programs = () => {
                 onToggle={() => toggleMobileCategory(vertical.category)}
                 programs={categoryPrograms}
                 handleOpen={handleOpen}
+                getProgramStatus={getProgramStatus}
               />
             );
           })}
@@ -374,8 +378,14 @@ const SidebarDesktop = ({
   );
 };
 
-// Program Card Component (unchanged)
-export const ProgramCard = ({ program, handleOpen }) => {
+// Program Card Component
+export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
+  const hookStatus = useProgramStatuses();
+  const statusResolver = getProgramStatus || hookStatus.getProgramStatus;
+  const resolved = statusResolver
+    ? statusResolver(program)
+    : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
+
   const backgroundImage =
     UNIVERSITY_BACKGROUNDS[program.university_name] || program.cover_image;
 
@@ -395,15 +405,15 @@ export const ProgramCard = ({ program, handleOpen }) => {
         <div className="absolute inset-0 bg-gradient-to-br from-universal/60 to-universal/30" />
       </div>
 
-      {(program.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
+      {(resolved.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
         <span
-          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${(program.status?.toLowerCase() === "admission closed" ||
-            program.status?.toLowerCase() === "admissions closed")
-            ? "bg-red-500 capitalize"
-            : "bg-green-500"
-            } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
+          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${
+            resolved.isAdmissionClosed
+              ? "bg-red-500 capitalize"
+              : "bg-green-500"
+          } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
         >
-          {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : program.status}
+          {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : resolved.status}
         </span>
       )}
 
@@ -449,7 +459,8 @@ export const ProgramCard = ({ program, handleOpen }) => {
               const isFreeCourse =
                 program.category?.toLowerCase() === "free courses" ||
                 program.category?.toLowerCase() === "microsoft" ||
-                program.id === "transform-business-workflows-with-generative-ai";
+                program.id === "transform-business-workflows-with-generative-ai" ||
+                program.id === "transform-ideas-into-impact-with-product-management";
               const path = isFreeCourse ? "free-courses" : "programs";
               window.open(`http://accredian.com/${path}/${program.id}`);
             }}
@@ -498,13 +509,14 @@ export const ProgramCard = ({ program, handleOpen }) => {
   );
 };
 
-// Mobile Category Item with Horizontal Scroll (unchanged)
+// Mobile Category Item with Horizontal Scroll
 const MobileCategoryItem = ({
   vertical,
   isExpanded,
   onToggle,
   programs,
   handleOpen,
+  getProgramStatus,
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const scrollContainerRef = useRef(null);
@@ -601,7 +613,11 @@ const MobileCategoryItem = ({
                 key={program.id || index}
                 className="flex-shrink-0 w-[85%] snap-start"
               >
-                <ProgramCard program={program} handleOpen={handleOpen} />
+                <ProgramCard
+                  program={program}
+                  handleOpen={handleOpen}
+                  getProgramStatus={getProgramStatus}
+                />
               </div>
             ))}
           </div>

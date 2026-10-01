@@ -22,9 +22,9 @@ const ProgramFilters = ({ title, categories, onFilterChange, checked, setModalOp
                 </div>
               </label>
             </div>
-            <h1 className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700`}>
+            <p className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700`}>
               {category.toLowerCase() === "cxo leadership" ? "CXO Leadership" : category.toLowerCase() === "data science & ai" ? "Data Science & AI" : category.toLowerCase() === "pg diploma" ? "PG Diploma" : category}
-            </h1>
+            </p>
           </div>
         ))}
         {categories.slice(0, 4).map((category) => (
@@ -42,9 +42,9 @@ const ProgramFilters = ({ title, categories, onFilterChange, checked, setModalOp
                 </div>
               </label>
             </div>
-            <h1 className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700`}>
+            <p className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700`}>
               {category.toLowerCase() === "data science & ai" ? "Data Science & AI" : category.toLowerCase() === "pg diploma" ? "PG Diploma" : category}
-            </h1>
+            </p>
           </div>
         ))}
         <div className="flex items-center gap-2">

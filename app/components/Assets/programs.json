@@ -30,7 +30,8 @@
     },
     "start_date": "27 Sep 2026",
     "contact": "9211285411",
-    "program_fee": 150000
+    "program_fee": 150000,
+    "pid": 168
   },
   {
     "status": "New Launch",
@@ -63,8 +64,44 @@
     },
     "start_date": "28 Jun 2026",
     "contact": "9810184424",
-    "program_fee": 452500
+    "program_fee": 452500,
+    "pid": 138
   },
+  
+{
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "university_name": "IIM Sirmaur",
+  "program_name": "Executive Program in Leadership with AI",
+  "duration": "6 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "batch_type": "Online",
+  "id": "iims-executive-program-in-leadership-with-ai",
+  "category": "artificial intelligence",
+  "tags": [
+    "Best Selling",
+    "Instructor Led",
+    "Online"
+  ],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "9358719988",
+  "pid": 177
+},
+
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
@@ -92,7 +129,8 @@
     },
     "start_date": "30 Aug 2026",
     "contact": "",
-    "program_fee": 209000
+    "program_fee": 209000,
+    "pid": 164
   },
   {
     "status": "New Launch",
@@ -125,7 +163,8 @@
     },
     "start_date": "20 Sep 2026",
     "contact": "8851827093",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "pid": 163
   },
   {
     "status": "New Launch",
@@ -158,7 +197,8 @@
     },
     "start_date": "20 Sep 2026",
     "contact": "8851827093",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "pid": 163
   },
   {
     "status": "New Launch",
@@ -193,7 +233,8 @@
     },
     "start_date": "30 Aug 2026",
     "contact": "9211285411",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "pid": 136
   },
   {
     "status": "New Launch",
@@ -228,7 +269,8 @@
     },
     "start_date": "30 Aug 2026",
     "contact": "9211285411",
-    "program_fee": 140000
+    "program_fee": 140000,
+    "pid": 135
   },
   {
     "status": "New Launch",
@@ -257,7 +299,8 @@
     },
     "start_date": "10 Jan 2027",
     "contact": "8851827093",
-    "program_fee": 220000
+    "program_fee": 220000,
+    "pid": 161
   },
   {
     "status": "New Launch",
@@ -272,7 +315,7 @@
     "tags": [],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf", 
       "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
       "campaign_name": "IIM-RANCHI-CHRO"
     },
@@ -284,9 +327,10 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "30 Aug 2026",
+    "start_date": "17 Jan 2027",
     "contact": "8851827093",
-    "program_fee": 250000
+    "program_fee": 250000,
+    "pid": 162
   },
   {
     "status": "New Launch",
@@ -313,9 +357,10 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "13 Sep 2026",
+    "start_date": "24 Jan 2027",
     "contact": "8851827093",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "pid": 159
   },
   {
     "status": "New Launch",
@@ -342,9 +387,10 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "9 Aug 2026",
+    "start_date": "29 Nov 2026",
     "contact": "8851827093",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "pid": 160
   },
   {
     "status": "New Launch",
@@ -378,7 +424,8 @@
     },
     "start_date": "30 Aug 2026",
     "contact": "8851827093",
-    "program_fee": 290000
+    "program_fee": 290000,
+    "pid": 158
   },
   {
     "status": "New Launch",
@@ -408,9 +455,10 @@
       "referrerBonus": "₹5,000",
       "refreeBonus": "₹5,000"
     },
-    "start_date": "26 Jul 2026",
+    "start_date": "15 Nov 2026",
     "contact": "9810184424",
-    "program_fee": 199000
+    "program_fee": 199000,
+    "pid": 157
   },
   {
     "status": "New Launch",
@@ -448,7 +496,8 @@
     },
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
-    "program_fee": 120000
+    "program_fee": 120000,
+    "pid": 155
   },
   {
     "status": "New Launch",
@@ -486,7 +535,8 @@
     },
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
-    "program_fee": 120000
+    "program_fee": 120000,
+    "pid": 154
   },
   {
     "status": "New Launch",
@@ -524,7 +574,8 @@
     },
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
-    "program_fee": 160000
+    "program_fee": 160000,
+    "pid": 153
   },
   {
     "status": "New Launch",
@@ -562,7 +613,8 @@
     },
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
-    "program_fee": 160000
+    "program_fee": 160000,
+    "pid": 156
   },
   {
     "status": "New Launch",
@@ -600,7 +652,8 @@
     },
     "start_date": "21st Jun 2026",
     "contact": "9358719988",
-    "program_fee": 130000
+    "program_fee": 130000,
+    "pid": 147
   },
   {
     "status": "New Launch",
@@ -638,10 +691,11 @@
     },
     "start_date": "21st Jun 2026",
     "contact": "9358719988",
-    "program_fee": 160000
+    "program_fee": 160000,
+    "pid": 148
   },
   {
-    "status": "admission closed",
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "university_name": "IIM Ranchi",
     "program_name": "Senior Management Program",
@@ -668,10 +722,39 @@
       "referrerBonus": "₹5,000",
       "refreeBonus": "₹5,000"
     },
-    "start_date": "26 Jul 2026",
+    "start_date": "24 Jan 2027",
     "contact": "9810184424",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "pid": 146
   },
+  {
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_name": "IIM Ranchi",
+  "program_name": "CTO & AI Leadership Program",
+  "duration": "12 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "batch_type": "Online",
+  "id": "iimr-cto-ai-leadership-program",
+  "category": "cxo leadership",
+  "tags": [],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-CTO-AI-Leadership-Program.pdf",
+    "source": "IIM-RANCHI CTO & AI Leadership Programme Brochure",
+    "campaign_name": "IIM-RANCHI-Chief Technology Officer"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "31 Jan 2027",
+  "contact": "9810184424"
+},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp",
@@ -702,7 +785,8 @@
     },
     "start_date": "26 Jul 2026",
     "contact": "9810184424",
-    "program_fee": 210000
+    "program_fee": 210000,
+    "pid": 142
   },
   {
     "status": "New Launch",
@@ -739,7 +823,8 @@
     },
     "start_date": "26 July 2026",
     "contact": "9289224842",
-    "program_fee": 330000
+    "program_fee": 330000,
+    "pid": 150
   },
   {
     "status": "admission closed",
@@ -772,7 +857,8 @@
     },
     "start_date": "28 Jun 2026",
     "contact": "9810184424",
-    "program_fee": 179000
+    "program_fee": 179000,
+    "pid": 140
   },
   {
     "status": "admission closed",
@@ -805,7 +891,8 @@
     },
     "start_date": "28 Jun 2026",
     "contact": "9810184424",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "pid": 139
   },
   {
     "status": "New Launch",
@@ -838,7 +925,8 @@
     },
     "start_date": "30 May 2026",
     "contact": "9810184424",
-    "program_fee": 242500
+    "program_fee": 242500,
+    "pid": 137
   },
   {
     "status": "New Launch",
@@ -875,7 +963,8 @@
     },
     "start_date": "28 June 2026",
     "contact": "9810184424",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "pid": 141
   },
   {
     "status": "New Launch",
@@ -1013,7 +1102,8 @@
     },
     "start_date": "22 Feb 2026",
     "contact": "9115924967",
-    "program_fee": 250000
+    "program_fee": 250000,
+    "pid": 90
   },
   {
     "status": "admission closed",
@@ -1046,7 +1136,8 @@
     },
     "start_date": "22 Feb 2026",
     "contact": "9115924967",
-    "program_fee": 250000
+    "program_fee": 250000,
+    "pid": 90
   },
   {
     "status": "admission closed",
@@ -1079,7 +1170,8 @@
     },
     "start_date": "24 May 2026",
     "contact": "8130897175",
-    "program_fee": 484300
+    "program_fee": 484300,
+    "pid": 127
   },
   {
     "status": "admission closed",
@@ -1112,7 +1204,8 @@
     },
     "start_date": "9 May 2026",
     "contact": "7678385465",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "pid": 131
   },
   {
     "status": "admission closed",
@@ -1145,7 +1238,8 @@
     },
     "start_date": "18 Jan 2026",
     "contact": "8851827093",
-    "program_fee": 210000
+    "program_fee": 210000,
+    "pid": 129
   },
   {
     "status": "admission closed",
@@ -1178,8 +1272,45 @@
     },
     "start_date": "10 May 2026",
     "contact": "8851827093",
-    "program_fee": 300000
+    "program_fee": 300000,
+    "pid": 125
   },
+
+
+  {
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "university_name": "IIM Sirmaur",
+  "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
+  "duration": "8 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+  "batch_type": "Online",
+  "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
+  "category": "strategy & leadership",
+  "tags": [
+    "Instructor Led",
+    "Best Selling",
+    "New"
+  ],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Strategy-Leadership-Innovation-In-AI-Era.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Strategy Leadership & Innovation in AI Era Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Strategy & Leadership-8 Months"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "8851827093",
+  "pid": 176
+},
+
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
@@ -1215,7 +1346,8 @@
     },
     "start_date": "12 July 2026",
     "contact": "9289224842",
-    "program_fee": 240000
+    "program_fee": 240000,
+    "pid": 104
   },
   {
     "status": "New Launch",
@@ -1248,7 +1380,8 @@
     },
     "start_date": "13 Sep 2026",
     "contact": "7678385465",
-    "program_fee": 245000
+    "program_fee": 245000,
+    "pid": 173
   },
   {
     "status": "admission closed",
@@ -1281,7 +1414,8 @@
     },
     "start_date": "30 Nov 2025",
     "contact": "9810184424",
-    "program_fee": 425000
+    "program_fee": 425000,
+    "pid": 126
   },
   {
     "status": "admission closed",
@@ -1314,7 +1448,8 @@
     },
     "start_date": "16 May 2026",
     "contact": "8851827093",
-    "program_fee": 290000
+    "program_fee": 290000,
+    "pid": 123
   },
   {
     "status": "admission closed",
@@ -1347,7 +1482,8 @@
     },
     "start_date": "26 Oct 2025",
     "contact": "8882597163",
-    "program_fee": 290000
+    "program_fee": 290000,
+    "pid": 121
   },
   {
     "status": "New Launch",
@@ -1380,7 +1516,8 @@
     },
     "start_date": "19 Apr 2026",
     "contact": "9810184424",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "pid": 120
   },
   {
     "status": "New Launch",
@@ -1413,9 +1550,10 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "08 Aug 2026",
+    "start_date": "29 Nov 2026",
     "contact": "9211285411",
-    "program_fee": 140000
+    "program_fee": 140000,
+    "pid": 118
   },
   {
     "status": "New Launch",
@@ -1448,9 +1586,10 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "08 Aug 2026",
+    "start_date": "29 Nov 2026",
     "contact": "9211285411",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "pid": 119
   },
   {
     "status": "admission closed",
@@ -1483,7 +1622,8 @@
     },
     "start_date": "22 Feb 2026",
     "contact": "7619555873",
-    "program_fee": 350000
+    "program_fee": 350000,
+    "pid": 117
   },
   {
     "status": "admission closed",
@@ -1516,7 +1656,8 @@
     },
     "start_date": "17 May 2025",
     "contact": "8851827093",
-    "program_fee": 350000
+    "program_fee": 350000,
+    "pid": 112
   },
   {
     "status": "New Launch",
@@ -1553,7 +1694,8 @@
     },
     "start_date": "30 Aug 2026",
     "contact": "8826567425",
-    "program_fee": 240000
+    "program_fee": 240000,
+    "pid": 110
   },
   {
     "status": "New Launch",
@@ -1587,7 +1729,8 @@
     },
     "start_date": "27 Sep 2026",
     "contact": "9810184424",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "pid": 172
   },
   {
     "status": "admission closed",
@@ -1618,7 +1761,8 @@
     },
     "start_date": "25 May 2025",
     "contact": "8595709940",
-    "program_fee": 270000
+    "program_fee": 270000,
+    "pid": 63
   },
   {
     "status": "New Launch",
@@ -1655,7 +1799,8 @@
     },
     "start_date": "05 Jul 2026",
     "contact": "8882597163",
-    "program_fee": 280000
+    "program_fee": 280000,
+    "pid": 105
   },
   {
     "status": "New Launch",
@@ -1688,7 +1833,8 @@
     },
     "start_date": "21 Jun 2026",
     "contact": "9289224842",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "pid": 170
   },
   {
     "status": "New Launch",
@@ -1721,7 +1867,8 @@
     },
     "start_date": "21 Jun 2026",
     "contact": "9289224842",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "pid": 170
   },
   {
     "status": "New Launch",
@@ -1758,36 +1905,38 @@
     },
     "start_date": "29 Mar 2026",
     "contact": "8882597163",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "pid": 103
   },
   {
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
-  "university_name": "IIM Visakhapatnam",
-  "program_name": "PG Certificate Program in Family Business Management",
-  "duration": "12 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
-  "batch_type": "Online",
-  "id": "pg-certificate-program-in-family-business-management",
-  "category": "business management",
-  "tags": [],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-In-Family-Business-Management.pdf",
-    "source": "IIMV PG Certificate Program in Family Business Management Brochure",
-    "campaign_name": "IIMV-Family Business Management"
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "PG Certificate Program in Family Business Management",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+    "batch_type": "Online",
+    "id": "pg-certificate-program-in-family-business-management",
+    "category": "business management",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-In-Family-Business-Management.pdf",
+      "source": "IIMV PG Certificate Program in Family Business Management Brochure",
+      "campaign_name": "IIMV-Family Business Management"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "17 Jan 2027",
+    "contact": "",
+    "pid": 171
   },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "17 Jan 2027",
-  "contact": ""
-},
   {
     "status": "admission closed",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
@@ -1819,7 +1968,8 @@
     },
     "start_date": "2 Feb 2025",
     "contact": "9810184424",
-    "program_fee": 270000
+    "program_fee": 270000,
+    "pid": 91
   },
   {
     "status": "New Launch",
@@ -1855,7 +2005,8 @@
     },
     "start_date": "27 Sep 2026",
     "contact": "8851827093",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "pid": 69
   },
   {
     "status": "admission closed",
@@ -1888,7 +2039,8 @@
     },
     "start_date": "20 Oct 2024",
     "contact": "8826567425",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "pid": 72
   },
   {
     "status": "New Launch",
@@ -1923,5 +2075,41 @@
       "Microsoft 365"
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
+  },
+
+   
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "university_name": "Accredian",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "duration": "2.5 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "category": "product management",
+    "tags": [
+      "Product Management",
+      "Productivity",
+      "free course"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp"
+  }, 
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "university_name": "Accredian",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "duration": "2.5 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "category": "free courses",
+    "tags": [
+      "Product Management",
+      "Productivity",
+      "free course"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp"
   }
 ]

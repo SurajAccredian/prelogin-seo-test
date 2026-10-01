@@ -63,9 +63,9 @@ const FaqOld = ({ data }) => {
     <div id="FAQs" className="w-full flex justify-center py-6 md:py-12 xl:px-12 px-4">
       <div className="w-full max-w-[85rem]">
         <div className="w-full">
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Frequently Asked <span className="text-universal">Questions</span>
-          </h1>
+          </h2>
         </div>
         <div className="flex gap-4 mt-8 md:mt-12 md:flex-row flex-col">
           <div className="w-full md:flex-[0.3] relative">
@@ -78,9 +78,9 @@ const FaqOld = ({ data }) => {
               {data?.faq?.points && data?.faq?.points.map((val, index) => {
                 return (
                   <div onClick={() => handleOverviewData(val)} key={index} className={`w-full max-w-[280px] rounded-md ${activeTab.toLowerCase() === val.title.toLowerCase() ? "drop-shadow-lg md:drop-shadow-xl bg-white border" : "border-2 border-neutral-300"} px-4 py-4 text-center cursor-pointer`}>
-                    <h1 className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab.toLowerCase() === val.title.toLowerCase() ? " text-universal" : "text-neutral-500"} capitalize`}>
+                    <p className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab.toLowerCase() === val.title.toLowerCase() ? " text-universal" : "text-neutral-500"} capitalize`}>
                       {val.title}
-                    </h1>
+                    </p>
                   </div>
                 );
               })}
@@ -115,7 +115,7 @@ const FaqOld = ({ data }) => {
                   }}
                 >
                   <div className="flex items-center gap-2 py-2 px-2">
-                    <h1 className={`text-lg font-semibold w-full h-full ${isOpen === point.title ? "text-universal" : ""}`}>{point?.title}</h1>
+                    <h3 className={`text-lg font-semibold w-full h-full ${isOpen === point.title ? "text-universal" : ""}`}>{point?.title}</h3>
                   </div>
                 </AccordionSummary>
                 <AccordionDetails
@@ -131,7 +131,7 @@ const FaqOld = ({ data }) => {
                             <a {...props} className="text-blue-500 hover:underline" />
                           ),
                           h1: ({ node, ...props }) => (
-                            <h1 {...props} className="text-2xl font-bold mb-2" />
+                            <h3 {...props} className="text-2xl font-bold mb-2" />
                           ),
                           h2: ({ node, ...props }) => (
                             <h2 {...props} className="text-base font-semibold mt-4 mb-2" />

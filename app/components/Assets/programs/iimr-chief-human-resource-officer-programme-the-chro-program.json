@@ -1,5 +1,6 @@
 {
   "id": "iimr-chief-human-resource-officer-programme-the-chro-program",
+  "pid": 162,
   "category": "63",
   "vertical": "CXO Leadership",
   "title": "Chief Human Resource Officer Programme (The CHRO Program)",
@@ -11,8 +12,8 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
-  "start_date": "30 Aug 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+  "start_date": "17 Jan 2027",
   "duration": "12 Months",
   "required_years_experience": 7,
   "type": "online",
@@ -89,7 +90,7 @@
   },
   "curriculum_type": "module",
   "unique_points": [
-    "campus-immersion-opt",
+    "campus-immersion",
     "alumni-status",
     "CXO-coaching-sessions",
     "capstone-project"
@@ -242,33 +243,43 @@
       "modules": []
     },
     {
-      "title": "Project: Capstone Project",
+      "title": "Capstone Project",
       "special": "1",
       "points": [
         "Design an enterprise-wide people strategy aligned with organizational growth and transformation goals. Develop recommendations across talent, culture, workforce transformation, and HR technology while leveraging technologies and AI-driven insights. Present a boardroom-ready roadmap that enables sustainable business performance, strengthens organizational capability, and positions HR as a strategic driver of enterprise value. "
       ],
       "modules": []
+    },
+    
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your Chief Human Resource Officer (CHRO) Programme experience with exclusive CXO coaching. This specialized coaching offers invaluable insights into strategic HR leadership, boardroom influence, and enterprise transformation. Prepare for executive HR and enterprise leadership roles through firsthand guidance from experienced industry leaders."
+      ]
     }
   ],
+
   "billing": {
-    "total": 250000,
+    "total": 260000,
     "points": [
-      "140+ Hours of Live Classes",
+      "144+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
     ],
     "monthly_emi": [
       {
-        "emi": 21683,
+        "emi": 22767,
         "months": 12
       },
       {
-        "emi": 14980,
+        "emi": 15729,
         "months": 18
       },
       {
-        "emi": 11604,
+        "emi": 12184,
         "months": 24
       }
     ]
@@ -281,10 +292,11 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-iimr-chief-human-resource-officer-programme-the-chro-program.pdf",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
     "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
     "campaign_name": "IIM-RANCHI-CHRO"
   },

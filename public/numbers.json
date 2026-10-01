@@ -10,6 +10,11 @@
     "contact": "9810184424"
   },
   {
+    "id": "iims-executive-program-in-leadership-with-ai",
+    "program_name": "Executive Program in Leadership with AI",
+    "contact": "9358719988"
+  },
+  {
     "id": "iimt-certificate-programme-in-leadership-with-ai",
     "program_name": "Certificate Programme in Leadership with AI"
   },
@@ -99,6 +104,11 @@
     "contact": "9810184424"
   },
   {
+    "id": "iimr-cto-ai-leadership-program",
+    "program_name": "CTO & AI Leadership Program",
+    "contact": "9810184424"
+  },
+  {
     "id": "iima-senior-management-program",
     "program_name": "Senior Management Program",
     "contact": "9810184424"
@@ -171,6 +181,11 @@
   {
     "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
+    "contact": "8851827093"
+  },
+  {
+    "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
+    "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
     "contact": "8851827093"
   },
   {
@@ -284,5 +299,13 @@
   {
     "id": "transform-business-workflows-with-generative-ai",
     "program_name": "Transform Business Workflows with Generative AI"
+  },
+  {
+    "id": "transform-ideas-into-impact-with-product-management",
+    "program_name": "Transform Ideas into Impact with Product Management"
+  },
+  {
+    "id": "transform-ideas-into-impact-with-product-management",
+    "program_name": "Transform Ideas into Impact with Product Management"
   }
 ]

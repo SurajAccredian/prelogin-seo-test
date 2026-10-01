@@ -25,12 +25,14 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { useParams } from "next/navigation";
 import { allowedIds } from "../../../Assets/constants";
+import { useProgramStatuses } from "../../../../helpers/useProgramStatuses";
 
 SwiperCore.use([EffectCoverflow, Navigation, Autoplay]);
 
 const VerticalDetail = () => {
   const { data } = useSelector((state) => state.program);
   const dispatch = useDispatch();
+  const { getProgramStatus } = useProgramStatuses();
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
   const [verticalPrograms, setVerticalPrograms] = useState([]);
@@ -146,21 +148,22 @@ const VerticalDetail = () => {
                   },
                 }}
               >
-                {categorizedPrograms.map((program, index) => (
+                {categorizedPrograms.map((program, index) => {
+                  const resolved = getProgramStatus ? getProgramStatus(program) : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
+                  return (
                   <SwiperSlide key={index} className="py-4">
                     <div className="w-full lg:max-w-[400px] min-h-[420px] rounded-2xl overflow-hidden bg-white drop-shadow-md border flex flex-col relative">
                       <div className="w-full h-32 flex items-center justify-center bg-blue-50 relative">
                         {/* Status Badge at Top-Right */}
-                        {program.status && (
+                        {resolved.status && (
                           <div className="absolute top-2 right-2 z-10">
                             <div
-                              className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md ${program.status.toLowerCase() ===
-                                "admission closed"
+                              className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md ${resolved.isAdmissionClosed
                                 ? "bg-red-500"
                                 : "bg-green-500"
                                 }`}
                             >
-                              {program.status}
+                              {resolved.status}
                             </div>
                           </div>
                         )}
@@ -219,18 +222,15 @@ const VerticalDetail = () => {
                         </div>
                         <div className="flex items-center w-full gap-2 mt-4">
                           <a
-                            href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                            href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                             className="px-2 py-2.5 flex-1 text-sm font-semibold border border-neutral-300 rounded-lg text-center"
                           >
                             View Program
                           </a>
                           <button
                             onClick={() => handleDownloadBrochure(program)}
-                            disabled={
-                              program?.status == "admission closed"
-                                ? true
-                                : false
-                                || allowedIds.includes(program?.id)
+                                disabled={
+                              resolved.isAdmissionClosed || allowedIds.includes(program?.id)
                             }
                             className="px-2 py-2.5 flex-1 disabled:bg-gray-400  text-sm font-semibold bg-universal text-white rounded-lg"
                           >
@@ -240,7 +240,8 @@ const VerticalDetail = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-                ))}
+                );
+                })}
               </Swiper>
               <div ref={paginationRef} className="swiper-pagination"></div>
             </div>
@@ -254,18 +255,20 @@ const VerticalDetail = () => {
         <div className="w-full flex justify-center">
           <div className="w-full max-w-[85rem] flex justify-center gap-2 relative">
             <div className="w-full flex gap-10 flex-wrap justify-center items-center ">
-              {categorizedPrograms.map((program, index) => (
+              {categorizedPrograms.map((program, index) => {
+                const resolved = getProgramStatus ? getProgramStatus(program) : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
+                return (
                 <div className="w-full lg:max-w-[400px] min-h-[420px] rounded-2xl overflow-hidden bg-white drop-shadow-md border flex flex-col relative">
                   <div className="w-full h-32 flex items-center justify-center bg-blue-50">
-                    {program.status && (
+                    {resolved.status && (
                       <div className="absolute top-2 right-2 z-10">
                         <div
-                          className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md ${program.status.toLowerCase() === "admission closed"
+                          className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md ${resolved.isAdmissionClosed
                             ? "bg-red-500"
                             : "bg-green-500"
                             }`}
                         >
-                          {program.status}
+                          {resolved.status}
                         </div>
                       </div>
                     )}
@@ -319,7 +322,7 @@ const VerticalDetail = () => {
                     </div>
                     <div className="flex items-center w-full gap-2 mt-4">
                       <a
-                        href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                        href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                         className="px-2 py-2.5 flex-1 text-sm font-semibold border border-neutral-300 rounded-lg text-center"
                       >
                         View Program
@@ -327,7 +330,7 @@ const VerticalDetail = () => {
                       <button
                         onClick={() => handleDownloadBrochure(program)}
                         disabled={
-                          program?.status == "admission closed" ? true : false
+                          resolved.isAdmissionClosed || allowedIds.includes(program?.id)
                         }
                         className="disabled:bg-[#AFAFAF]  disabled:border disabled:border-slate-300 px-2 py-2.5 flex-1 text-sm font-semibold bg-universal text-white rounded-lg"
                       >
@@ -336,7 +339,8 @@ const VerticalDetail = () => {
                     </div>
                   </div>
                 </div>
-              ))}
+              );
+              })}
             </div>
           </div>
         </div>

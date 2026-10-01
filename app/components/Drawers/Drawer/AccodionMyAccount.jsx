@@ -172,8 +172,8 @@ export default function AccodionMyAccount() {
   useEffect(() => {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      const has66 = enrollmentDetails && enrollmentDetails.some(item => Number(item.category) === 66);
-      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
+      const has66 = enrollmentDetails && enrollmentDetails.some(item => Number(item.category) === 66 || Number(item.category) === 71 );
+      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && (Number(enrollmentDetails[0].category) === 66 || Number(enrollmentDetails[0].category) === 71);
 
       if (isOnly66) {
         setSections([

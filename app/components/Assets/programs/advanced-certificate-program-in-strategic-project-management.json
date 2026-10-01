@@ -1,6 +1,7 @@
 {
   "category": "49",
   "id": "advanced-certificate-program-in-strategic-project-management",
+  "pid": 135,
   "vertical": "project management",
   "title": "Advanced Certificate Program in Strategic Project Management",
   "description": "Embark on a 5 month learning journey in Project Planning, Risk Management, and Project Procurement.",
@@ -105,7 +106,6 @@
   },
   "curriculum_type": "term",
   "domain": "term",
-
   "unique_points": [
     "certificate",
     "add-ons",

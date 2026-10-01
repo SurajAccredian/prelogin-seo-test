@@ -35,7 +35,7 @@ const FilterPageDrawer = ({ isOpen, onClose, categories, tags, onTagsChange, onC
                 <AccordionSummary aria-controls="panel1d-content" className="accordion-summary">
                   <div className="w-full flex items-center justify-between text-lg lg:hidden">
                     <div className="flex items-center gap-2">
-                      <h1 className="font-semibold">Verticals</h1>
+                      <p className="font-semibold">Verticals</p>
                     </div>
                     <div className="text-lg">
                       <MdKeyboardArrowDown size={20} className={`${expanded === "Verticals" ? "rotate-0" : "rotate-90"} transition-all duration-150`} />
@@ -50,7 +50,7 @@ const FilterPageDrawer = ({ isOpen, onClose, categories, tags, onTagsChange, onC
                 <AccordionSummary aria-controls="panel1d-content" className="accordion-summary">
                   <div className="w-full flex items-center justify-between text-lg lg:hidden">
                     <div className="flex items-center gap-2">
-                      <h1 className="font-semibold">Skills</h1>
+                      <p className="font-semibold">Skills</p>
                     </div>
                     <div className="text-lg">
                       <MdKeyboardArrowDown size={20} className={`${expanded === "Skills" ? "rotate-0" : "rotate-90"} transition-all duration-150`} />

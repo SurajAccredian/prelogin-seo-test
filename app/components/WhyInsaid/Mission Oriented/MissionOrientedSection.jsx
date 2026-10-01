@@ -43,10 +43,10 @@ export default function MissionOriented() {
             <h4 className="text-base font-medium">
               Built for Growth. Designed for Change.
             </h4>
-            <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+            <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
               Empowering Ambitious <span className="text-universal">  Professionals</span>
               
-            </h1>
+            </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 mt-12">
             {items.map((item, idx) => (

@@ -1,5 +1,6 @@
 {
   "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+  "pid": 163,
   "category": "51",
   "vertical": "cxo leadership",
   "title": "Chief Human Resources Officer Programme (The CHRO Program)",
@@ -285,7 +286,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",

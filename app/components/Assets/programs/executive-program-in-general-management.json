@@ -1,6 +1,7 @@
 {
   "category": "13",
   "id": "executive-program-in-general-management",
+  "pid": 103,
   "vertical": "general management",
   "title": "Executive Development Program in General Management",
   "description": "Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status.",
@@ -113,7 +114,11 @@
     "experiential-learning",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -325,7 +330,6 @@
     "programId": "executive-program-in-general-management",
     "points": [
       "130+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "20+ Frameworks Covered",
       "Quick Query Resolution",
@@ -380,7 +384,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

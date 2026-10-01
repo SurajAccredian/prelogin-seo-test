@@ -1,6 +1,7 @@
 {
   "category": "55",
   "id": "iima-senior-management-program",
+  "pid": 142,
   "vertical": "senior management",
   "title": "Senior Management Program",
   "description": "Embark on a 10 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.",
@@ -108,7 +109,11 @@
     "strategic-leadership",
     "experiential-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "fill the application form",
     "application review",
@@ -327,7 +332,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },
@@ -367,7 +374,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMA-Senior-Management-Program.pdf",

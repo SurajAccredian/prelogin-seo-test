@@ -40,12 +40,12 @@ const MentorInfo = () => {
           </div>
 
           <div className="sm:ml-0 flex-1">
-            <h1 className="text-lg md:text-2xl text-slate-800 font-semibold break-words">
+            <p className="text-lg md:text-2xl text-slate-800 font-semibold break-words">
               {feature.count && `${feature.count}+`}
-            </h1>
-            <h1 className="text-lg md:text-2xl text-slate-800 font-semibold break-words">
+            </p>
+            <p className="text-lg md:text-2xl text-slate-800 font-semibold break-words">
               {feature.text && `${feature.text}`}
-            </h1>
+            </p>
             <h4 className="text-xs md:text-base font-medium text-neutral-600 whitespace-normal capitalize">
               {feature.title}
             </h4>
@@ -61,10 +61,10 @@ const MentorInfo = () => {
     <div className="info second-bg-grad w-full flex justify-center xl:px-12 px-4 py-8 md:py-12 mt-4">
       <div className="w-full max-w-[85rem]">
         <div className="w-full flex flex-col items-center">
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Transforming Careers with
             <span className="text-universal"> Proven Excellence</span>
-          </h1>
+          </h2>
         </div>
         <div className="flex-[0.5] grid grid-cols-2 md:grid-cols-2 mt-10 lg:grid-cols-4 gap-4">
           {mentorOverview?.key_features?.map((feature, index) => (

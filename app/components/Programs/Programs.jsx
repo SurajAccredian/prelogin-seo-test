@@ -16,7 +16,7 @@ import Wrapper from "./wrapper";
 
 const API_BASE_URL = "https://internal-dash.accredian.com/api/v1/automations/preview";
 
-const Programs = () => {
+const Programs = ({ initialProgramData = null }) => {
   const dispatch = useDispatch();
   const { id } = useParams();
   const searchParams = useSearchParams();
@@ -25,9 +25,13 @@ const Programs = () => {
   const isPreviewMode = searchParams.get("preview") === "true";
   const previewId = searchParams.get("previewId");
 
+  console.log(`[Programs] RENDER — state="${state}", hasData=${Boolean(data)}`);
+
   useEffect(() => {
-    console.log("Program ID from URL:", id);
-    console.log("Is Preview Mode:", isPreviewMode);
+    console.log(
+      `[Programs] EFFECT ENTER: id="${id}", isPreviewMode=${isPreviewMode}, previewId="${previewId || 'none'}", hasInitialData=${Boolean(initialProgramData)}, reduxState="${state}", hasData=${Boolean(data)}`
+    );
+
     if (isPreviewMode && previewId) {
       dispatch(programActions.setState("pending"));
       console.log("Fetching preview data for ID:", previewId);
@@ -68,30 +72,35 @@ const Programs = () => {
           }
         });
 
+      console.log(`[Programs] EFFECT EXIT — preview`);
       return;
     }
 
-    const fetchFileData = async () => {
-      try {
-        dispatch(programActions.setState("pending"));
-        const { default: file } = await import(`./../Assets/programs/${id}.json`);
-        dispatch(programActions.setData(file));
-        dispatch(programActions.setState("success"));
-      } catch (error) {
-        console.error("Error loading file:", error);
-        dispatch(programActions.setData(null));
-        dispatch(programActions.setState("failed"));
-      }
-    };
+    if (initialProgramData) {
+      console.log(
+        `[Programs Client] Initializing Redux store with server program data: slug="${initialProgramData.id}", enrollments="${initialProgramData.enrollments}", registration_status="${initialProgramData.registration_status || 'N/A'}"`
+      );
+      dispatch(programActions.setData(initialProgramData));
+      dispatch(programActions.setState("success"));
+      console.log(`[Programs] EFFECT EXIT — initialProgramData`);
+      return;
+    }
 
-    fetchFileData();
-  }, [id, isPreviewMode, previewId, dispatch]);
+    // Invalid slug or missing data outside preview mode -> trigger NotFound
+    dispatch(programActions.setData(null));
+    dispatch(programActions.setState("failed"));
+    console.log(`[Programs] EFFECT EXIT — invalid/no data`);
+  }, [id, isPreviewMode, previewId, initialProgramData, dispatch]);
 
-  return (
-    <>
-      {state === "pending" ? (
-        <SkeletonWL />
-      ) : state === "success" && data ? (
+  const renderContent = () => {
+    if (state === "pending" || !data) {
+      console.log(`[Programs] RENDERING Skeleton (state="${state}", hasData=${Boolean(data)})`);
+      return <SkeletonWL />;
+    }
+
+    if (state === "success" && data) {
+      console.log(`[Programs] RENDERING Wrapper (slug="${data.id}", enrollments="${data.enrollments}")`);
+      return (
         <>
           {isPreviewMode && (
             <div
@@ -143,9 +152,16 @@ const Programs = () => {
           )}
           <Wrapper data={data} />
         </>
-      ) : (
-        <NotFound />
-      )}
+      );
+    }
+
+    console.log(`[Programs] RENDERING NotFound (state="${state}", hasData=${Boolean(data)})`);
+    return <NotFound />;
+  };
+
+  return (
+    <>
+      {renderContent()}
       {brochureState && <GetBrochure open={brochureState} />}
       {enrollState && <EnrollNow open={enrollState} />}
     </>

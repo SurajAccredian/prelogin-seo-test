@@ -64,9 +64,9 @@ const FaqTemplateVersion = ({ data }) => {
     <div id="FAQs" className="w-full flex justify-center py-6 md:py-12 xl:px-12 px-4">
       <div className="w-full max-w-[80rem]">
         <div className="w-full text-center mb-10">
-          <h1 className="text-4xl font-bold text-gray-800 tracking-wider">
+          <h2 className="text-4xl font-bold text-gray-800 tracking-wider">
             Frequently Asked <span className="text-universal">Questions</span>
-          </h1>
+          </h2>
           {/* <p className="text-gray-600 mt-2">
             Showing {visibleQuestions.length} of {allQuestions.length} questions
           </p> */}
@@ -123,7 +123,7 @@ const FaqTemplateVersion = ({ data }) => {
                                 <a {...props} className="text-universal underline" target="_blank" rel="noopener noreferrer" />
                               ),
                               h1: ({ node, ...props }) => (
-                                <h1 {...props} className="text-2xl font-bold mb-2" />
+                                <h3 {...props} className="text-2xl font-bold mb-2" />
                               ),
                               h2: ({ node, ...props }) => (
                                 <h2 {...props} className="text-base font-semibold mt-4 mb-2" />

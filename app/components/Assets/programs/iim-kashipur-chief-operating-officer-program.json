@@ -1,5 +1,6 @@
 {
   "id": "iim-kashipur-chief-operating-officer-program",
+  "pid": 158,
   "category": 60,
   "vertical": "cxo leadership",
   "title": "Chief Operating Officer Program (The COO Program)",
@@ -282,7 +283,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",

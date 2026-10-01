@@ -127,7 +127,7 @@ const Overview = () => {
       <div className="w-full max-w-[85rem]">
         <div className="w-full md:text-start text-center">
           <h4 className="text-base font-medium">Key Features of this <span className='text-universal capitalize'>{data?.short_title}</span> Program</h4>
-          <h1 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>What <span className="text-universal">benefits</span> you'll get with this Program</h1>
+          <h2 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>What <span className="text-universal">benefits</span> you'll get with this Program</h2>
         </div>
         {/* side section in rows */}
         <div className="flex gap-4 mt-6 md:mt-12 md:flex-row flex-col">
@@ -141,9 +141,9 @@ const Overview = () => {
               {overviewContent.map((val, index) => {
                 return (
                   <div onClick={() => handleOverviewData(val)} key={index} className={`w-full max-w-[280px] rounded-md ${activeTab === val.title ? "drop-shadow-xl bg-white border" : "border border-neutral-300"} px-4 py-4 text-center cursor-pointer`}>
-                    <h1 className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab === val.title ? " text-universal" : "text-neutral-500"} capitalize`}>
+                    <p className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab === val.title ? " text-universal" : "text-neutral-500"} capitalize`}>
                       {val.title}
-                    </h1>
+                    </p>
                   </div>
                 )
               })}
@@ -166,7 +166,7 @@ const Overview = () => {
                       <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                     </div>
 
-                    <h1 className="text-sm lg:text-lg font-medium capitalize">
+                    <p className="text-sm lg:text-lg font-medium capitalize">
                       {hasColon ? (
                         <>
                           <span className="font-semibold">{parts[0]}:</span>
@@ -177,7 +177,7 @@ const Overview = () => {
                       ) : (
                         point
                       )}
-                    </h1>
+                    </p>
                   </div>
                 );
               })}

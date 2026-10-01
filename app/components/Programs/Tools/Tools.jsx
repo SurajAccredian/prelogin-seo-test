@@ -9,7 +9,7 @@ const Tools = () => {
     <div id="tools" className='tools w-full overflow-hidden flex flex-col items-center py-12 xl:px-12 px-4'>
       <div className="w-full max-w-[85rem] text-center">
         <h4 className="text-base font-medium">Key <span className="text-universal">{data?.short_title}</span> tools</h4>
-        <h1 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>Essential <span className="text-universal">Tools</span> For Unlocking <span className="text-universal">Growth</span></h1>
+        <h2 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>Essential <span className="text-universal">Tools</span> For Unlocking <span className="text-universal">Growth</span></h2>
       </div>
       <div className="w-full max-w-[85rem] hidden md:flex flex-wrap justify-center gap-4 mt-12">
         {data?.tools?.map((tool, index) => (

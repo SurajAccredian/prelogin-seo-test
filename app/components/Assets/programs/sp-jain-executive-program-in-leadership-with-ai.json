@@ -1,6 +1,7 @@
 {
   "category": "47",
   "id": "sp-jain-executive-program-in-leadership-with-ai",
+  "pid": 148,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
   "description": "Embark on a 7-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.",
@@ -99,13 +100,16 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "AI Foundations for Business Leaders",
@@ -217,7 +221,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Selvan Dorairaj",
@@ -359,7 +362,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 6 Months."]
+            "content": [
+              "The duration of the program is 6 Months."
+            ]
           }
         ]
       },
@@ -400,7 +405,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Executive-Program-in-Leadership-with-AI-Brochure.pdf",

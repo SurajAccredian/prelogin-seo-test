@@ -1,6 +1,7 @@
 {
   "category": "57",
   "id": "iit-jammu-executive-program-in-leadership-with-ai",
+  "pid": 156,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
@@ -106,7 +107,11 @@
     "experiential-learning",
     "leadership-driven-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -404,7 +409,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },
@@ -444,7 +451,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-leadership-with-ai-Brochure.pdf",

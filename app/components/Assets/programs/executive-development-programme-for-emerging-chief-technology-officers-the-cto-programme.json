@@ -1,6 +1,7 @@
 {
   "category": "34",
   "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+  "pid": 150,
   "vertical": "cxo",
   "title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
   "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
@@ -113,7 +114,11 @@
     "experiential-learning",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -375,7 +380,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

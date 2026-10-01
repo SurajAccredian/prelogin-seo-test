@@ -21,7 +21,7 @@ const ProgramAccordionFilters = ({ title, categories, onFilterChange, checked })
               </div>
             </label>
           </div>
-          <h1 className="font-medium capitalize text-neutral-700">{category}</h1>
+          <p className="font-medium capitalize text-neutral-700">{category}</p>
         </div>
       ))}
       {categories.slice(0, nextSet).map((category) => (
@@ -37,9 +37,9 @@ const ProgramAccordionFilters = ({ title, categories, onFilterChange, checked })
               </div>
             </label>
           </div>
-          <h1 className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700`}>
+          <p className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700`}>
             {category.toLowerCase() === "cxo leadership" ? "CXO Leadership" : category.toLowerCase() === "data science & ai" ? "Data Science & AI" : category.toLowerCase() === "pg diploma" ? "PG Diploma" : category}
-          </h1>
+          </p>
         </div>
       ))}
       {nextSet <= categories.length && (

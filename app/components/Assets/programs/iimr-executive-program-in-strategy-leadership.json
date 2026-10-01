@@ -1,5 +1,6 @@
 {
   "id": "iimr-executive-program-in-strategy-leadership",
+  "pid": 159,
   "category": "61",
   "vertical": "Strategy & Leadership",
   "title": "Executive Program in Strategy & Leadership",
@@ -11,8 +12,8 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
-  "start_date": "13 Sep 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+  "start_date": "24 Jan 2027",
   "duration": "11 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -98,7 +99,11 @@
     "campus-immersion",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Personalized Discussion",
     "Schedule a One-on-One Consultation with Program Advisors",
@@ -267,16 +272,16 @@
     ],
     "monthly_emi": [
       {
-        "emi": 22767,
-        "months": 12
+        "months": 12,
+        "emi": 22767
       },
       {
-        "emi": 15729,
-        "months": 18
+        "months": 18,
+        "emi": 15729
       },
       {
-        "emi": 12184,
-        "months": 24
+        "months": 24,
+        "emi": 12184
       }
     ]
   },
@@ -288,7 +293,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategy-Leadership.pdf",

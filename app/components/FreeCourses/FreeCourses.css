@@ -973,6 +973,16 @@
     grid-template-columns: 1fr 1fr;
     align-items: start;
   }
+  .free-courses .cert-grid.single-cert {
+    grid-template-columns: 1fr;
+    max-width: 580px;
+    margin: 0 auto;
+  }
+}
+
+.free-courses .cert-grid.single-cert {
+  max-width: 580px;
+  margin: 0 auto;
 }
 
 /* ==========================================

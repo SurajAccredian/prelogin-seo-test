@@ -8,8 +8,10 @@ import programs from "../../Assets/programs.json";
 import { Clock, MapPin } from "lucide-react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Rcta from "../../cta/request_a_call_back";
+import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 
 const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
+  const { getProgramStatus } = useProgramStatuses();
   const [categorizedPrograms, setCategorizedPrograms] = useState([]);
   const [sideTab, setSideTab] = useState("pg diploma");
   const [cta, setCta] = useState(false);
@@ -236,7 +238,7 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                   const val = item;
                   return (
                     <a
-                      href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
+                      href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" || val.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
                       className="w-[95%]"
                       key={index}
                       type="div"
@@ -278,15 +280,20 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                               </div>
                             )}
                           </div>
-                          <span
-                            className={`px-3 py-1 rounded-full text-xs ${
-                              val.status.toLowerCase() === "admission closed"
-                                ? "bg-red-100 text-red-500"
-                                : "text-[#3366ff] bg-[#e8f0ff]"
-                            } whitespace-nowrap capitalize`}
-                          >
-                            {val.status}
-                          </span>
+                          {(() => {
+                            const resolved = getProgramStatus ? getProgramStatus(val) : { status: val.status, isAdmissionClosed: val.status?.toLowerCase() === "admission closed" };
+                            return (
+                              <span
+                                className={`px-3 py-1 rounded-full text-xs ${
+                                  resolved.isAdmissionClosed
+                                    ? "bg-red-100 text-red-500"
+                                    : "text-[#3366ff] bg-[#e8f0ff]"
+                                } whitespace-nowrap capitalize`}
+                              >
+                                {resolved.status}
+                              </span>
+                            );
+                          })()}
                         </div>
                       </div>
                     </a>

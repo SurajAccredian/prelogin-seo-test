@@ -32,13 +32,13 @@ const ExploreDrawerChild = ({ innerIsOpen, innerOnClose, streamWithTab, handleCl
             </div>
             {streamWithTab && (
               <>
-                <h1 className='font-bold text-2xl capitalize mt-2 mx-1'>{streamWithTab}</h1>
+                <h2 className='font-bold text-2xl capitalize mt-2 mx-1'>{streamWithTab}</h2>
                 <div className='w-full flex flex-wrap mt-4 py-2 max-h-[70vh] px-1 overflow-y-scroll gap-4 custom-scrollbar'>
                   {categorizedPrograms &&
                     categorizedPrograms[streamWithTab.toLowerCase()]?.map((val, index) => (
                       <a
                         onClick={handleCloseAll}
-                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
+                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" || val.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
                         className='w-full'
                         key={index}
                         type='div'

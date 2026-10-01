@@ -15,10 +15,12 @@ import FilterPageDrawer from "../../Drawers/FilterPageDrawer/FilterPageDrawer";
 import DownloadBrochure from "../../CTA_Modal/download_brochure";
 import { useSearchParams, useRouter } from "next/navigation";
 import { sortPrograms } from "../../../helpers/common.helpers";
+import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 
 const SearchedPageInner = () => {
   const dispatch = useDispatch();
   const { checkedCategories, checkedTags } = useSelector((state) => state.program);
+  const { getProgramStatus } = useProgramStatuses();
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const [modalCategory, setModalCategory] = useState(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -138,7 +140,13 @@ const SearchedPageInner = () => {
                 </div>
                 <div className="w-full grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-4 py-8">
                   {sortedPrograms.map((program, index) => (
-                    <Program program={program} key={index} setBrotureDownloadInfo={setBrotureDownloadInfo} setOpen={setOpen} />
+                    <Program
+                      program={program}
+                      key={index}
+                      setBrotureDownloadInfo={setBrotureDownloadInfo}
+                      setOpen={setOpen}
+                      getProgramStatus={getProgramStatus}
+                    />
                   ))}
                 </div>
               </div>

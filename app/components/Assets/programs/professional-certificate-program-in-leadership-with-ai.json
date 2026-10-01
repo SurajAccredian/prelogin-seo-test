@@ -47,10 +47,11 @@
   ],
   "domain": "module",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
-  "start_date": "08 Aug 2026",
+  "start_date": "29 Nov 2026",
   "id": "professional-certificate-program-in-leadership-with-ai",
+  "pid": 119,
   "duration": "8 Months",
-  "required_years_experience": 0,
+  "required_years_experience": 1,
   "timings": "weekends only",
   "type": "online",
   "enrollments": "active",
@@ -168,7 +169,6 @@
         "Testing, Iterating, and Scaling AI Solutions in the Enterprise"
       ]
     },
-
     {
       "title": "Leading AI Transformation & Change",
       "id": "product-launch---marketing",
@@ -179,7 +179,6 @@
         "AI Adoption Playbook: Communication, Resistance, Scaling"
       ]
     },
-
     {
       "title": "Agentic AI & Autonomous AI",
       "id": "product-launch---marketing",
@@ -229,12 +228,15 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
     }
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "billing": {
     "programId": "professional-certificate-program-in-leadership-with-ai",
     "points": [
       "96+ Class Hours",
-
       "10+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -243,18 +245,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 15178
+        "emi": 16154
       },
       {
         "months": 18,
-        "emi": 10486
+        "emi": 11160
       },
       {
         "months": 24,
-        "emi": 8123
+        "emi": 8645
       }
     ],
-    "total": 180000
+    "total": 189000
   },
   "faq": {
     "programId": "professional-certificate-program-in-leadership-with-ai",

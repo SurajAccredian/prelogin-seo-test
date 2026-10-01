@@ -1,6 +1,7 @@
 {
   "category": "18",
   "id": "executive-program-in-business-management",
+  "pid": 63,
   "vertical": "business management",
   "title": "Executive Program in Business Management",
   "description": "Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status",
@@ -108,7 +109,11 @@
     "engaging-simulations",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -254,7 +259,9 @@
       "title": "Capstone Project",
       "week": "1 week",
       "id": "capstone-project--1-week",
-      "points": ["Strategic Business Transformation Project"]
+      "points": [
+        "Strategic Business Transformation Project"
+      ]
     }
   ],
   "faculty": [
@@ -326,7 +333,6 @@
     "programId": "executive-program-in-business-management",
     "points": [
       "150+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -372,7 +378,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

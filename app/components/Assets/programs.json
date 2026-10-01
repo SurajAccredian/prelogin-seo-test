@@ -911,10 +911,38 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "22nd Aug 2026",
+    "start_date": "10 Jan 2027",
     "contact": "9358719988",
-    "program_fee": 160000
+    "program_fee": 169000,
+    "pid": 144
+  },{
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+  "university_name": "IITM Pravartak",
+  "program_name": "Executive Program in Technology Leadership & Innovation",
+  "duration": "9 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+  "batch_type": "Online",
+  "id": "executive-program-in-technology-leadership-innovation",
+  "category": "strategy & leadership",
+  "tags": [],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITMADRASPRAVARTAK-Executive-Program-In-Technology-Leadership-Innovation.pdf",
+    "source": "IIT-MADRAS-PRAVARTAK Executive Program in Technology Leadership & Innovation Brochure",
+    "campaign_name": "IIT-MADRAS-PRAVARTAK-Technology Leadership"
   },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "10 Jan 2027",
+  "contact": "8882597163"
+},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
@@ -949,9 +977,10 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "22nd Sep 2026",
+    "start_date": "10 Jan 2027",
     "contact": "9358719988",
-    "program_fee": 130000
+    "program_fee": 139000,
+    "pid": 145
   },
   {
     "status": "admission closed",

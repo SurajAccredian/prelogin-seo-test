@@ -51,7 +51,7 @@ const Stats = () => {
             <div className="flex  items-center gap-2 justify-center h-12">
               {/* <AiOutlineRise className='text-4xl' /> */}
               <h2 className="text-4xl font-medium text-universal">
-                <span className="start-from-zero">150</span>%
+                <span className="start-from-zero">80</span>%
               </h2>
             </div>
             <h3 className="text-sm mt-3 font-medium">Highest Salary Hike</h3>

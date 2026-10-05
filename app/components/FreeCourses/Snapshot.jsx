@@ -1,5 +1,5 @@
 import React from "react";
-import { Key, Clock, Tv, Grid, BookOpen, Globe, Award, Wrench } from "lucide-react";
+import { Key, Clock, Tv, Grid, BookOpen, Globe, Award, Wrench, CheckCircle } from "lucide-react";
 
 const getIcon = (label) => {
   switch (label?.toLowerCase()) {
@@ -13,6 +13,10 @@ const getIcon = (label) => {
       return <Grid className="w-5 h-5 text-[#1a73e8]" />;
     case "lessons":
       return <BookOpen className="w-5 h-5 text-[#1a73e8]" />;
+    case "assessments":
+      return <CheckCircle className="w-5 h-5 text-[#1a73e8]" />;
+    case "certificate":
+      return <Award className="w-5 h-5 text-[#1a73e8]" />;
     case "language":
       return <Globe className="w-5 h-5 text-[#1a73e8]" />;
     case "prerequisites":

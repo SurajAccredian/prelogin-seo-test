@@ -5,7 +5,7 @@ import PROGRAMS from "../../../Assets/constants/programs.json";
 import { useEffect, useState } from "react";
 import { CiViewTimeline } from "react-icons/ci";
 import Wrapper from "../../Wrappers/Wrapper";
-import Brochure from "../../../pages/demo/CTA_Modal/download_brochure";
+import Brochure from "../../CTA_Modal/download_brochure";
 const VerticalDetail = () => {
   const [categorizedPrograms, setCategorizedPrograms] = useState([]);
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);
@@ -120,7 +120,7 @@ const VerticalDetail = () => {
                     </div>
                     <div className="flex items-center w-full gap-2 mt-4">
                       <a
-                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
+                        href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" || val.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
                         className="px-2 py-2.5 flex-1 text-sm font-semibold border border-neutral-300 rounded-lg text-center"
                       >
                         View Program
@@ -139,15 +139,15 @@ const VerticalDetail = () => {
           </div>
         </div>
       </div>
-      {open && (
+      {open && brotureDownloadInfo && (
         <Brochure
           open={open}
           handleClose={handleClose}
-          source={brotureDownloadInfo.brochure.source}
-          campaign_name={brotureDownloadInfo.brochure.campaign_name}
-          program={brotureDownloadInfo.category}
-          pdf={brotureDownloadInfo.brochure.pdf}
-          image={brotureDownloadInfo.brochureHeader}
+          source={brotureDownloadInfo?.brochure?.source}
+          campaign_name={brotureDownloadInfo?.brochure?.campaign_name}
+          program={brotureDownloadInfo?.category}
+          pdf={brotureDownloadInfo?.brochure?.pdf}
+          image={brotureDownloadInfo?.brochureHeader}
         />
       )}
     </>

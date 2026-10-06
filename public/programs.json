@@ -365,13 +365,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "22nd Aug 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
     "id": "executive-program-in-generative-ai-for-leaders",
     "pid": 144,
     "duration": "7 Months",
-    "program_fee": 160000
+    "program_fee": 169000
   },
   {
     "university_name": "IITM Pravartak",
@@ -389,13 +389,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
-    "start_date": "22nd Sep 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
     "id": "professional-certificate-in-applied-generative-ai",
     "pid": 145,
     "duration": "4 Months",
-    "program_fee": 130000
+    "program_fee": 139000
   },
   {
     "university_name": "IIM Visakhapatnam",

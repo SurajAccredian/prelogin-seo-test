@@ -11,7 +11,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "22 Aug 2026",
+  "start_date": "10 Jan 2027",
   "duration": "7 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -90,7 +90,8 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
         ]
       }
     ]
@@ -324,18 +325,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 13010
+        "emi": 13986
       },
       {
         "months": 18,
-        "emi": 8988
+        "emi": 9662
       },
       {
         "months": 24,
-        "emi": 6962
+        "emi": 7485
       }
     ],
-    "total": 160000
+    "total": 169000
   },
   "faq": {
     "programId": "executive-program-in-generative-ai-for-leaders",

@@ -11,7 +11,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "22 Sep 2026",
+  "start_date": "10 Jan 2027",
   "duration": "4 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -90,7 +90,8 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
         ]
       }
     ]
@@ -100,7 +101,8 @@
     "certificate",
     "alumni-status",
     "experiential-learning",
-    "mentoring-session"
+    "mentoring-session",
+    "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
   ],
   "extra_points": [
     "Technical Support",
@@ -120,14 +122,14 @@
         "Understanding The New AI Paradigm",
         "Core Models Explained Simply",
         "Disruption Landscape: Opportunities & Risks",
-        "Leader’s Role In AI Adoption (TechRadar, Impact Radar, Maturity Assessment)"
+        "Leader’s Role In AI Adoption"
       ]
     },
     {
       "title": "Generative AI Tools, Workflows & Applied Practice",
       "id": "genai-tools-workflows",
       "points": [
-        "Hands-On With Top GenAI Platforms (ChatGPT, Claude, Gemini, MidJourney, Runway)",
+        "Hands-On With Top GenAI Platforms",
         "Prompt Design & Applied Use Cases",
         "RAG, Finetuning, MCP, & Multimodal Workflows",
         "Human–AI Collaboration In Day-To-Day Business"
@@ -261,18 +263,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 10842
+        "emi": 11817
       },
       {
         "months": 18,
-        "emi": 7490
+        "emi": 8164
       },
       {
         "months": 24,
-        "emi": 5802
+        "emi": 6324
       }
     ],
-    "total": 130000
+    "total": 139000
   },
   "faq": {
     "programId": "professional-certificate-in-applied-generative-ai",

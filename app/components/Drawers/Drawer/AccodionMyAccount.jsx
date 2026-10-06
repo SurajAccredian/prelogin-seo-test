@@ -169,7 +169,7 @@ export default function AccodionMyAccount() {
     }
   };
 
-const FREE_COURSE_CATEGORIES = [66, 70, 71];
+const FREE_COURSE_CATEGORIES = [66, 71];
 const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));
 
   useEffect(() => {

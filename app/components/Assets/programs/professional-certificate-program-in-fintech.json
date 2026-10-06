@@ -3,6 +3,7 @@
   "id": "professional-certificate-program-in-fintech",
   "vertical": "finance",
   "title": "Professional Certificate Program in Fintech",
+  "seo_title": "Professional Certificate Program in Fintech",
   "description": "Embark on a 6 month learning journey in Fintech Ecosystem, Digital Payments, and Blockchain.",
   "short_title": "Fintech",
   "contact": "8826567425",
@@ -128,7 +129,6 @@
     "Eligibility Test",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Introduction to FinTech",
@@ -200,7 +200,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Harihara",
       "position": "Senior Program Manager",
@@ -332,7 +331,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Professional Certificate Program in Fintech different?",

@@ -13,15 +13,17 @@ export async function generateMetadata({ params }) {
       `${id}.json`
     );
     const data = JSON.parse(readFileSync(filePath, "utf8"));
-    const title = `${data.title} | ${data.university_name}`;
+    const title = data.seo_title || data.title;
     const description =
       data.description ||
       `Explore the ${data.title} offered by ${data.university_name} at Accredian. ${data.duration ? `${data.duration} online program.` : ""}`;
     return {
-      title,
+      title: {
+        absolute: title,
+      },
       description,
       openGraph: {
-        title,
+        title: title,
         description,
         images: data.university_image
           ? [data.university_image]
@@ -32,7 +34,9 @@ export async function generateMetadata({ params }) {
     };
   } catch {
     return {
-      title: "Professional Certification Program",
+      title: {
+        absolute: "Professional Certification Program | Accredian",
+      },
       description:
         "Explore professional certification programs from top IITs, IIMs, and business schools at Accredian.",
     };

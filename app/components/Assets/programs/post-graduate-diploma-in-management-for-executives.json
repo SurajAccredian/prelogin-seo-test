@@ -3,6 +3,7 @@
   "id": "senior-management-program",
   "vertical": "senior management",
   "title": "Senior Management Program",
+  "seo_title": "Senior Management Program",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Senior Management",
   "contact": "8826565087",
@@ -355,7 +356,6 @@
     "programId": "senior-management-program",
     "points": [
       "140+ Hours of Live Classes",
-      
       "3 Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",

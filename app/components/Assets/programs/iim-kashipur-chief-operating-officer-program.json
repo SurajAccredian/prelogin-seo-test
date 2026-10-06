@@ -4,6 +4,7 @@
   "category": 60,
   "vertical": "cxo leadership",
   "title": "Chief Operating Officer Program (The COO Program)",
+  "seo_title": "Chief Operating Officer Program (The COO Program)",
   "description": "Embark on an 12 month learning journey in operations strategy, cross-functional leadership & strategic communication.",
   "short_title": "COO",
   "contact": "8851827093",
@@ -109,7 +110,11 @@
     "CXO-coaching-sessions",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",

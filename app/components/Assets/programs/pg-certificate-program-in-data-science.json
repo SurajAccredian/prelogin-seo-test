@@ -3,6 +3,7 @@
   "id": "pg-certificate-program-in-data-science",
   "vertical": "data science",
   "title": "Post Graduate Certificate Program in Data Science",
+  "seo_title": "Post Graduate Certificate Program in Data Science",
   "description": "Embark on a 6 month learning journey in Python Foundation, Data Visualization, and Machine Learning.",
   "short_title": "Data Science",
   "contact": "9358719988",
@@ -245,7 +246,6 @@
     "programId": "pg-certificate-program-in-data-science",
     "points": [
       "72+ Class Hours",
-      
       "5+ Tools and Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -330,7 +330,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How is the Post Graduate Certificate Program in Data Science program different?",

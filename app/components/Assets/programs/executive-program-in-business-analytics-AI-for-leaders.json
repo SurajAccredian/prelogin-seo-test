@@ -3,6 +3,7 @@
   "id": "executive-program-in-business-analytics-AI-for-leaders",
   "vertical": "business analytics",
   "title": "Executive Program in Business Analytics & AI for Leaders",
+  "seo_title": "Executive Program in Business Analytics & AI for Leaders",
   "description": "Embark on a 10-term learning journey in Excel Modelling, Marketing Analytics, NLP, and Generative AI.",
   "short_title": "Business Analytics",
   "contact": "9971109528",
@@ -100,7 +101,6 @@
           "Duration: 11 Months | Weekend Online",
           "Certification From E&ICT, IIT Guwahati",
           "Live Instructor Led Classes",
-
           "Capstone Project",
           "No Cost EMI Upto 12 Months",
           "Career Assistance by Accredian",
@@ -279,7 +279,6 @@
       "organization": "Jio",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
     },
-
     {
       "name": "Pratul Gupta",
       "position": "Product Manager",
@@ -355,7 +354,6 @@
     "programId": "executive-program-in-business-analytics-AI-for-leaders",
     "points": [
       "150+ Hours of Live Classes",
-      
       "15+ Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -432,7 +430,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Business Analytics & AI for Leaders different?",

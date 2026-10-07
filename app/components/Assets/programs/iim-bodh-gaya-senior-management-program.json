@@ -1,0 +1,310 @@
+{
+  "id": "iim-bodh-gaya-senior-management-program",
+  "pid": 181,
+  "category": "72",
+  "vertical": "Senior Management ",
+  "title": "Senior Management Program ",
+  "description": "Embark on an 11-month learning journey in executive leadership, operations, business strategy, and analytics.",
+  "short_title": "Senior Management",
+  "contact": "9810184424",
+  "university_name": "IIM Bodh Gaya",
+  "short_university_name": "indian-institute-of-management-bodh-gaya",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idC1YzIonZ_logos__1_.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-2.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certi.__1_.webp",
+  "start_date": "24 Jan 2027 ",
+  "duration": "11 Months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "132+",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "13",
+      "title": "modules"
+    },
+    {
+      "text": "2 Days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "3",
+      "title": "simulations"
+    }
+  ],
+  "domain": "Senior Management ",
+  "overview": {
+    "programId": "senior-management-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives: Refine leadership and drive organizational change.",
+          "Managers: Master strategies for dynamic business challenges.",
+          "Directors: Deepen strategic decision-making and governance skills.",
+          "Entrepreneurs: Scale operations and explore new markets.",
+          "Division Heads: Integrate departments with corporate objectives.",
+          "Sector Leaders (Healthcare,Edu,Govt): Apply advanced business principles for efficiency."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Financial Officer (CFO)",
+          "Chief Marketing Officer (CMO)",
+          "Senior Vice President (SVP)",
+          "General Manager",
+          "Executive Director",
+          "Vice President of Sales",
+          "Director of Strategy / Operations"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "13 Modules - Executive Leadership,Functional Leadership,Business Strategies,and Analytics",
+          "Learn from esteemed IIM Bodh Gaya faculty and top industry professionals.",
+          "Duration: 11 months | Weekend Online",
+          "Certification from IIM Bodh Gaya",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "Career Assistance by Accredian",
+          "One Campus Immersion of 2 Days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "CXO-coaching-sessions",
+    "alumni-status"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Strategic Thinking & Executive Decision-Making",
+      "points": [
+        "Enterprise strategic thinking",
+        "Decision-making under ambiguity",
+        "Strategic prioritization and trade-offs",
+        "Executive judgment and business scenarios"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Mindful Leadership & Executive Presence",
+      "points": [
+        "Self-Awareness & Mindful Leadership",
+        "Emotional Intelligence & Executive Presence",
+        "Leading with Clarity, Composure & Purpose",
+        "Conscious Decision-Making & Ethical Leadership"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Corporate Strategy for Senior Leaders",
+      "points": [
+        "Corporate strategy and strategic choices",
+        "Industry and competitive analysis",
+        "Competitive positioning and differentiation",
+        "Sustainable advantage and value creation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Leadership & Corporate Governance",
+      "points": [
+        "Board dynamics and effectiveness",
+        "Corporate governance and ethical leadership",
+        "Fiduciary responsibilities and stakeholder management",
+        "Board-level decision-making and oversight"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Finance for Senior Leaders",
+      "points": [
+        "Financial statements and business performance",
+        "P&L management and profitability",
+        "Capital allocation and investment decisions",
+        "Valuation and enterprise value creation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Marketing, Customer & Brand Leadership",
+      "points": [
+        "Customer insights and segmentation",
+        "Brand positioning and value proposition",
+        "Data-driven marketing and customer analytics",
+        "Go-to-market strategy and customer experience"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Operations & Supply Chain Excellence",
+      "points": [
+        "Operating models and process excellence",
+        "Supply chain strategy and resilience",
+        "Productivity and performance management",
+        "Operational efficiency and execution"
+      ],
+      "modules": []
+    },
+    {
+      "title": "People Leadership & High-Performance Culture",
+      "points": [
+        "Talent strategy and leadership pipeline",
+        "Succession planning and talent development",
+        "Organizational culture and performance",
+        "Building high-performance teams"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Risk, Compliance & Crisis Leadership",
+      "points": [
+        "Enterprise Risk & Risk Appetite",
+        "Compliance, Controls & Regulatory Frameworks",
+        "Crisis Management & Scenario Planning",
+        "Business Continuity & Organizational Resilience"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Growth Strategies for CXOs",
+      "points": [
+        "Identifying new growth opportunities",
+        "Growth engines and market expansion",
+        "Business model innovation and diversification",
+        "Scaling revenue and profitability"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital Transformation & Innovation",
+      "points": [
+        "Digital Business Models & Strategy",
+        "Transformation Roadmaps & Technology Adoption",
+        "Design Thinking & Customer-Centric Innovation",
+        "New Product Development & Experimentation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Analytics for Senior Leaders",
+      "points": [
+        "Data-driven strategic decision-making",
+        "Business intelligence and executive dashboards",
+        "Performance analytics and forecasting",
+        "Translating data into business insights"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI Leadership for Business Leaders",
+      "points": [
+        "Generative AI and enterprise applications",
+        "AI strategy and business use cases",
+        "AI-enabled productivity and transformation",
+        "Responsible AI and future workforce"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "points": [
+        "Participants apply concepts from strategy, finance, operations, marketing, people, growth, digital transformation, analytics and AI to solve a real-world enterprise challenge. They develop a comprehensive strategic initiative, build the business case, assess risks and implementation requirements, and present their recommendations to a simulated executive board for critical evaluation and strategic defense."
+      ],
+      "modules": []
+    },
+    {
+      "title": "CXO Coaching",
+      "points": [],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 230000,
+    "points": [
+      "132+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 18192,
+        "months": 12
+      },
+      {
+        "emi": 12613,
+        "months": 18
+      },
+      {
+        "emi": 9801,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
+  },
+  "faculty": [
+    {
+      "name": "Vinita S. Sahay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Vinita-Sahay-400x480.webp",
+      "position": "Professor",
+      "organization": "IIM Bodh Gaya",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp"
+    },
+    {
+      "name": "Molla Ramizur Rahman",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Molla-Ramizur-Rahman-1-400x480.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Bodh Gaya",
+      "organization_image": ""
+    }
+  ],
+  "tools": []
+}

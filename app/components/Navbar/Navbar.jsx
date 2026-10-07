@@ -50,6 +50,9 @@ export const shouldUseNewDashboard = () => {
   return status;
 };
 
+const FREE_COURSE_CATEGORIES = [66, 71];
+const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));
+
 export default function Navbar() {
   const [isOpenHam, setIsOpenHam] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
@@ -88,8 +91,9 @@ export default function Navbar() {
   }, []);
 
   const [thinkificUrl, setThinkificUrl] = useState("");
-  const [hasCategory66, setHasCategory66] = useState(false);
-  const [onlyCategory66, setOnlyCategory66] = useState(false);
+  const [hasFreeCourse, setHasFreeCourse] = useState(false);
+  const [hasOtherEnrollment, setHasOtherEnrollment] = useState(false);
+  const [onlyFreeCourse, setOnlyFreeCourse] = useState(false);
 
   const decodeJwt = (token) => {
     try {
@@ -112,22 +116,20 @@ export default function Navbar() {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
 
-      const is66 = enrollmentDetails &&
-  enrollmentDetails.some(
-    item => Number(item.category) === 66 || Number(item.category) === 71
-  );
-     setHasCategory66(is66);
+      const hasFree = Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+        item => isFreeCourseCategory(item.category || item.category_id)
+      );
+      setHasFreeCourse(hasFree);
 
-const isOnly66 =
-  enrollmentDetails &&
-  enrollmentDetails.length === 1 &&
-  (
-    Number(enrollmentDetails[0].category) === 66 ||
-    Number(enrollmentDetails[0].category) === 71
-  );
-  setOnlyCategory66(isOnly66);
-   
-  if (is66) {
+      const hasOther = Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+        item => !isFreeCourseCategory(item.category || item.category_id)
+      );
+      setHasOtherEnrollment(hasOther);
+
+      const isOnlyFree = hasFree && !hasOther;
+      setOnlyFreeCourse(isOnlyFree);
+
+      if (hasFree) {
         const token = isCookie || localStorage.getItem("token");
         let email = localStorage.getItem("email");
         let firstname = "";
@@ -307,7 +309,7 @@ const isOnly66 =
     // setUserInfo("");
     // navigate(`/Login`);
     // navigate('/')
-    window.location.href = (process.env.NEXT_PUBLIC_BASE_URL || "/");
+    window.location.reload();
   };
 
   // Get the appropriate base URL
@@ -407,15 +409,14 @@ const isOnly66 =
                       </div>
                     </PopoverTrigger>
                     <PopoverContent top={3} className="pop-content-user">
-                      {/* 1. Only Free Course Enrollment */}
-                      {onlyCategory66 && (
+                      {/* 1. Only Free Course Enrollment(s) */}
+                      {onlyFreeCourse && (
                         <>
                           <a
                             href="#"
                             onClick={handleAccessFreeCourses}
                             className="py-2 px-4 hover:text-universal hover:bg-universal/15 rounded-md cursor-pointer w-full flex items-center gap-2"
                           >
-
                             <h2 className="font-medium capitalize">
                               Access Free Courses
                             </h2>
@@ -423,8 +424,8 @@ const isOnly66 =
                         </>
                       )}
 
-                      {/* 2. Both Types of Enrollments */}
-                      {hasCategory66 && !onlyCategory66 && (
+                      {/* 2. Both Free Course AND Other/Paid Enrollments */}
+                      {hasFreeCourse && hasOtherEnrollment && (
                         <>
                           <a
                             href={`${getBaseUrl()}/?tab=my-applications`}
@@ -456,8 +457,8 @@ const isOnly66 =
                         </>
                       )}
 
-                      {/* 3. Standard Enrollments Only */}
-                      {!hasCategory66 && !pgdmDashboardStatus && (
+                      {/* 3. Standard / Paid Enrollments Only */}
+                      {!hasFreeCourse && !pgdmDashboardStatus && (
                         <>
                           <a
                             href={`${getBaseUrl()}/?tab=my-applications`}
@@ -487,7 +488,7 @@ const isOnly66 =
                         <h2 className="font-medium capitalize">Logout</h2>
                       </button>
 
-                      {!hasCategory66 && (
+                      {!hasFreeCourse && (
                         <a
                           href={`${(process.env.NEXT_PUBLIC_BASE_URL || "/")}/referandearn`}
                           target="_blank"

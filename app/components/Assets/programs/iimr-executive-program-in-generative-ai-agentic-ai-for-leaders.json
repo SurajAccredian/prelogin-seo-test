@@ -4,6 +4,7 @@
   "category": "58",
   "vertical": "artificial intelligence",
   "title": "Executive Program in Generative AI & Agentic AI for Leaders",
+  "seo_title": "GenAI & Agentic AI Leadership Course | IIM Ranchi",
   "description": "Embark on a 7 months learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "8851827093",
@@ -13,7 +14,7 @@
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
-   "start_date": "29 Nov 2026",
+  "start_date": "29 Nov 2026",
   "duration": "7 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -236,8 +237,7 @@
     "FAQs"
   ],
   "brochure": {
-   "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
-   
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
     "source": "IIM-RANCHI Executive Program in Generative AI & Agentic AI for Leaders Brochure",
     "campaign_name": "IIM-RANCHI-EPGA&AIL"
   },

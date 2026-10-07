@@ -16,6 +16,7 @@ import { verifyEmail, verifyOtp, createUser, enrollFreeCourseUser, generateUserL
 import { userActions } from '../../store/reducers/user';
 import { createApplicationStepTracker } from '../../services/program.service';
 import { encodeBase64 } from '../../helpers/encodeTrackerId';
+import { mergeEnrollmentDetails } from '../../helpers/enrollment.helpers';
 import CryptoJS from "crypto-js";
 import { CircleCheck } from 'lucide-react';
 
@@ -153,18 +154,19 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
   };
 
   const handleCreateAccount = async () => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     try {
       setLoading(true);
-      await createUserAccount();
+      await createUserAccount(newTab);
     } catch (error) {
       toast.error('Failed to create account. Please try again.', { position: 'top-right' });
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   // Create user account
-  const createUserAccount = async () => {
+  const createUserAccount = async (newTab = null) => {
     try {
       // Get fresh form values directly from React Hook Form
       const formData = getValues();
@@ -233,8 +235,7 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
               dashboard_link: process.env.NEXT_PUBLIC_DASHBOARD_BASE_URL || "https://accredian.com",
             });
             if (enrollRes?.enrollmentDetails?.length > 0) {
-              localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
-              localStorage.setItem("enrollmentStatus", "true");
+              mergeEnrollmentDetails(enrollRes.enrollmentDetails);
             }
           } catch (enrollErr) {
             console.error("Failed to auto-enroll new user:", enrollErr);
@@ -254,13 +255,15 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
             toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
           }
 
-          // Open the dashboard in a new tab and close the modal
-          setTimeout(() => {
-            if (thinkificRedirectUrl) {
-              window.open(thinkificRedirectUrl, "_blank");
-            }
-            window.location.reload();
-          }, 1000);
+          if (thinkificRedirectUrl && newTab) {
+            newTab.location.href = thinkificRedirectUrl;
+          } else if (newTab && !newTab.closed) {
+            newTab.close();
+          }
+
+          setLoading(false);
+          handleClose();
+          window.location.reload();
           return;
         }
 
@@ -295,6 +298,9 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
         }
       }
     } catch (error) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       console.log("Error creating account:", error);
       if (error.response) {
         const { status, data } = error.response;

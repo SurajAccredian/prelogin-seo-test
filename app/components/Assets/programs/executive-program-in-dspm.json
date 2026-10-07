@@ -3,6 +3,7 @@
   "id": "executive-program-in-dspm",
   "vertical": "data science",
   "title": "Executive Program in  Data Science and Product Management",
+  "seo_title": "Data Science & Product Management Course | IIT Guwahati",
   "description": "Embark on an 11-term learning journey in Data Science, Machine Learning, and Product Management.",
   "short_title": "Data Science",
   "contact": "9079653292",
@@ -275,9 +276,9 @@
     }
   ],
   "faculty": [
-     {
+    {
       "name": "Deepesh",
- "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
       "position": "Senior Faculty",
       "organization": "Accredian",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
@@ -296,7 +297,6 @@
       "organization": "IIT Guwahati",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
     },
-
     {
       "name": "Shailendra",
       "position": "Ex-Vice President of Product",
@@ -399,7 +399,6 @@
     "programId": "executive-program-in-dspm",
     "points": [
       "150+ Hours of Live Classes",
-      
       "50+ Tools & Frameworks Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -482,7 +481,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How is the Executive Program in Data Science & Product Management program different?",

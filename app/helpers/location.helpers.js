@@ -2,7 +2,7 @@ import api from "../services/server";
 
 const HOST =
   process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
-  "http://localhost:5000";
+  "http://localhost:5001";
 
 /**
  * Requests browser coordinates via navigator.geolocation and calls our

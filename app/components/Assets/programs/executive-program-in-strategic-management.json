@@ -3,6 +3,7 @@
   "id": "executive-program-in-strategic-management",
   "vertical": "strategic & leadership",
   "title": "Executive Program in Strategic Management",
+  "seo_title": "Executive Program in Strategic Management",
   "description": "Embark on an 8 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.",
   "short_title": "Strategic Management",
   "contact": "9810184424",
@@ -123,7 +124,11 @@
     "campus-immersion",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "fill the application form",
     "application review",
@@ -311,7 +316,6 @@
     "programId": "executive-program-in-strategic-management",
     "points": [
       "80+ Hours of Live Classes",
-
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
       "2-days Optional Campus Immersion"
@@ -357,7 +361,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },

@@ -4,6 +4,7 @@
   "category": "69",
   "vertical": "strategy & leadership",
   "title": "Executive Program in Strategy Leadership & Innovation in AI Era",
+  "seo_title": "Executive Program in Strategy Leadership & Innovation in AI Era",
   "description": "Embark on an 8-month learning journey in executive leadership, business strategy, and analytics.",
   "short_title": "Strategy & Leadership",
   "contact": "8851827093",
@@ -218,8 +219,8 @@
       "id": "capstone-project",
       "special": "1",
       "points": [
-       "Develop an integrated growth and transformation strategy for a business, function, or organization. Apply frameworks from strategy, finance, leadership, digital transformation, innovation and AI to address a real-world business challenge. Present strategic recommendations, implementation priorities, stakeholder considerations, and a roadmap for execution, demonstrating enterprise-wide leadership and long-term value creation."
-     ]
+        "Develop an integrated growth and transformation strategy for a business, function, or organization. Apply frameworks from strategy, finance, leadership, digital transformation, innovation and AI to address a real-world business challenge. Present strategic recommendations, implementation priorities, stakeholder considerations, and a roadmap for execution, demonstrating enterprise-wide leadership and long-term value creation."
+      ]
     }
   ],
   "billing": {

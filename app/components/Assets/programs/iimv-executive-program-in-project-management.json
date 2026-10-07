@@ -3,6 +3,7 @@
   "id": "iimv-executive-program-in-project-management",
   "vertical": "project management",
   "title": "Executive Program in Project Management",
+  "seo_title": "Executive Program in Project Management",
   "description": "Embark on a 6 month learning journey in Project Planning, Risk Management, and Project Procurement.",
   "short_title": "Project Management",
   "contact": "8851827093",
@@ -103,7 +104,7 @@
     ]
   },
   "domain": "term",
-    "isAlumniStatus": "no",
+  "isAlumniStatus": "no",
   "curriculum_type": "module",
   "unique_points": [
     "certificate",
@@ -111,13 +112,16 @@
     "experiential-learning",
     "capstone-project"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Foundations of Strategic Project Management",
@@ -188,7 +192,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Aalok Kumar",
@@ -197,7 +200,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Prof. Rohit Titiyal",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rohit-titiyal.webp",
@@ -227,7 +229,6 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
   ],
-
   "billing": {
     "programId": "iimv-executive-program-in-project-management",
     "points": [
@@ -277,7 +278,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

@@ -3,6 +3,7 @@
   "id": "executive-program-in-project-management-and-digital-transformation",
   "vertical": "project management",
   "title": "Executive Program in Project Management and Digital Transformation",
+  "seo_title": "Executive Program in Project Management and Digital Transformation",
   "description": "Embark on an 11-term learning journey in Project Management, Project Evaluation, Digital Strategy, and AI/ML Analytics.",
   "short_title": "Project Management",
   "contact": "9818329799",
@@ -134,17 +135,26 @@
     {
       "title": "Project Management Fundamentals",
       "id": "introduction-to-project-management",
-      "points": ["Introduction to Project Management", "Project Initiation"]
+      "points": [
+        "Introduction to Project Management",
+        "Project Initiation"
+      ]
     },
     {
       "title": "Project Planning & Execution",
       "id": "project-planning-execution",
-      "points": ["Project Planning", "Project Execution"]
+      "points": [
+        "Project Planning",
+        "Project Execution"
+      ]
     },
     {
       "title": "Risk Management & Agile Project Management",
       "id": "risk-management-agile-project-management",
-      "points": ["Project Risk Management", "Agile Project Management"]
+      "points": [
+        "Project Risk Management",
+        "Agile Project Management"
+      ]
     },
     {
       "title": "Contract, Procurement, Closure",
@@ -335,7 +345,6 @@
     "programId": "executive-program-in-project-management-and-digital-transformation",
     "points": [
       "144+ Hours of Live Classes",
-      
       "15+ Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -418,7 +427,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Project Management and Digital Transformation different?",

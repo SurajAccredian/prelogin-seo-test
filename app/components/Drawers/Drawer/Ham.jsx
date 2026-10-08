@@ -6,6 +6,9 @@ import { X } from "lucide-react";
 import { useState, useEffect } from "react";
 import GlobalSearch from "../../Navbar/GlobalSearch/GlobalSearch";
 
+const FREE_COURSE_CATEGORIES = [66, 71];
+const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));
+
 export default function Ham({
   isOpen,
   setIsOpen,
@@ -13,17 +16,20 @@ export default function Ham({
   LogOut,
   onLoginClick,
 }) {
-  const [onlyCategory66, setOnlyCategory66] = useState(false);
-
-  useEffect(() => {
-    if (loginStatus) {
-      const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
-      setOnlyCategory66(isOnly66);
-    } else {
-      setOnlyCategory66(false);
-    }
-  }, [loginStatus]);
+  const hasFreeCourse = Boolean(
+    loginStatus &&
+    typeof window !== "undefined" &&
+    (() => {
+      try {
+        const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
+        return Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+          item => isFreeCourseCategory(item.category || item.category_id)
+        );
+      } catch {
+        return false;
+      }
+    })()
+  );
   const toggleDrawer = (open) => (event) => {
     if (
       event.type === "keydown" &&
@@ -88,7 +94,7 @@ export default function Ham({
               </div>
             )}
           </div>
-          {!onlyCategory66 && (
+          {!hasFreeCourse && (
             <div>
               <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/referandearn`} target="_blank" rel="noreferrer">
                 <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="Refer and earn banner" />

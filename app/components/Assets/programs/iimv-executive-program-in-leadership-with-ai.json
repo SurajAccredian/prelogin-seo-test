@@ -4,6 +4,7 @@
   "pid": 173,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
+  "seo_title": "Leadership with AI Course | IIM Visakhapatnam - Accredian",
   "description": "Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial intelligence",
   "contact": "7678385465",
@@ -107,7 +108,11 @@
     "exclusive-merchandise",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -204,7 +209,6 @@
         "AI in Finance, Risk & Compliance"
       ]
     },
-
     {
       "title": "Leading AI Transformation & Change Management",
       "id": "growth-strategies-for-senior-leaders",
@@ -215,7 +219,6 @@
         "Governance, Incentives & Execution Discipline"
       ]
     },
-
     {
       "title": "Capstone Project",
       "special": "1",
@@ -295,7 +298,6 @@
     "programId": "iimv-executive-program-in-leadership-with-ai",
     "points": [
       "120+ Hours of Live Classes",
-
       "7+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -346,7 +348,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

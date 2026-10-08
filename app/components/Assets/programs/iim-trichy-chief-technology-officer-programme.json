@@ -4,6 +4,7 @@
   "pid": 123,
   "vertical": "cxo leadership",
   "title": "Chief Technology Officer Programme (The CTO Program)",
+  "seo_title": "Chief Technology Officer Programme (The CTO Program)",
   "description": "Embark on a 10 month learning journey in Strategic Leadership, Technology, Innovation & Governance",
   "short_title": "Chief Technology Officer",
   "contact": "8851827093",
@@ -112,7 +113,11 @@
     "certificate",
     "strategic-leadership"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -231,7 +236,6 @@
         "Building a Cyber-Resilient Organization"
       ]
     },
-
     {
       "title": "Capstone Project",
       "special": "1",
@@ -241,7 +245,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Dr. Amit Shankar",
@@ -258,12 +261,10 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
     }
   ],
-
   "billing": {
     "programId": "iim-trichy-chief-technology-officer-programme",
     "points": [
       "115+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -309,7 +310,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },

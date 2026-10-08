@@ -4,6 +4,7 @@
   "pid": 148,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
+  "seo_title": "Executive Program in Leadership with AI",
   "description": "Embark on a 7-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.",
   "short_title": "Artificial intelligence",
   "contact": "9358719988",
@@ -86,7 +87,9 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+       
         ]
       }
     ]
@@ -140,31 +143,23 @@
       ]
     },
     {
-      "title": "Digital Transformation and AI Strategy",
+      "title": " AI Strategy & Digital Transformation",
       "id": "digital-transformation-ai-strategy",
       "points": [
         "Digital Transformation Frameworks and Strategy",
-        "Various Tools and Techniques",
+        "Digital & AI Tools & Techniques",
         "AI Strategy and Business Alignment",
         "AI Execution Roadmaps and Operating Models"
       ]
     },
     {
-      "title": "AI Business Models & GTM Strategy",
+      "title": "AI Business Models & Growth Strategy",
       "id": "ai-business-models-gtm-strategy",
       "points": [
         "AI-Native Business Models and Value Creation",
         "Pricing, Monetization, and Revenue Strategies",
-        "Unit Economics and Market Structures",
+        "Unit Economics & Margin Structures",
         "Scaling AI-Driven Business Models"
-      ]
-    },
-    {
-      "title": "Capstone Project",
-      "id": "capstone-project-1",
-      "special": "1",
-      "points": [
-        "Participants identify a high-impact business problem and design an AI-enabled solution using strategy, product, and no-code tools. They define use cases, build a working prototype, evaluate ROI and business value, and present an implementation roadmap covering adoption, risks, and scalability, demonstrating how AI can drive measurable outcomes in real organizational contexts."
       ]
     },
     {
@@ -178,7 +173,7 @@
       ]
     },
     {
-      "title": "Applied AI in Business Functions, KPI and ROI",
+      "title": "Business Transformation with AI",
       "id": "applied-ai-business-functions-kpi-roi",
       "points": [
         "AI in Marketing, Sales & Customer Experience",
@@ -200,7 +195,7 @@
       ]
     },
     {
-      "title": "Enterprise AI Considerations: Scalability, Consistency, Governance, Risk & Responsible AI",
+      "title": "Enterprise AI: Scalability, Governance & Risk",
       "id": "enterprise-ai-scalability-governance-risk",
       "points": [
         "Building for Scalability and Consistency",
@@ -208,6 +203,14 @@
         "Risk, Compliance & Regulatory Considerations",
         "Bias, Explainability & Trust in AI Systems",
         "Enterprise AI Governance Models"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "id": "capstone-project-1",
+      "special": "1",
+      "points": [
+        "Participants identify a high-impact business problem and design an AI-enabled solution using strategy, product, and no-code tools. They define use cases, build a working prototype, evaluate ROI and business value, and present an implementation roadmap covering adoption, risks, and scalability, demonstrating how AI can drive measurable outcomes in real organizational contexts."
       ]
     },
     {

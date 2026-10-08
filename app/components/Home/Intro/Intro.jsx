@@ -74,7 +74,6 @@ const Intro = () => {
       const cards = cardsRef.current.filter(Boolean);
       if (!cards.length || !containerRef.current) return;
 
-      ScrollTrigger.getAll().forEach((st) => st.kill());
       gsap.set(cards, { clearProps: "all" });
 
       const vh = window.innerHeight;

@@ -4,6 +4,7 @@
   "pid": 147,
   "vertical": "artificial intelligence",
   "title": "Professional Certificate in AI for Leaders",
+  "seo_title": "Professional Certificate in AI for Leaders",
   "description": "Embark on a 4-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.",
   "short_title": "Artificial intelligence",
   "contact": "9358719988",
@@ -86,7 +87,8 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
         ]
       }
     ]
@@ -147,16 +149,6 @@
         "Digital & AI Tools and Techniques",
         "AI Strategy and Business Alignment",
         "AI Execution Roadmaps and Operating Models"
-      ]
-    },
-    {
-      "title": "AI Business Models & Growth Strategy",
-      "id": "ai-business-models-growth-strategy",
-      "points": [
-        "AI-Native Business Models and Value Creation",
-        "Pricing, Monetization, and Revenue Strategies",
-        "Unit Economics and Margin Structures",
-        "Scaling AI-Driven Business Models"
       ]
     },
     {
@@ -249,15 +241,15 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 10733
+        "emi": 10842
       },
       {
         "months": 18,
-        "emi": 7415
+        "emi": 7490
       },
       {
         "months": 24,
-        "emi": 5744
+        "emi": 5802
       }
     ],
     "total": 130000

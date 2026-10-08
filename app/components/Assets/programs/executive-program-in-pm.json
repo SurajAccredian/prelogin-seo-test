@@ -3,6 +3,7 @@
   "id": "executive-program-in-pm",
   "vertical": "product management",
   "title": "Executive Program in Product Management",
+  "seo_title": "Product Management Course | IIT Guwahati - Accredian",
   "description": "Embark on an 8-term learning journey in Product Strategy, Growth, and Monetization.",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -311,7 +312,6 @@
       "title": "trello",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
     },
-
     {
       "title": "open AI",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
@@ -321,7 +321,6 @@
     "programId": "executive-program-in-pm",
     "points": [
       "96+ Hours of Live Classes",
-      
       "25+ Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",

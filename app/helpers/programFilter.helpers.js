@@ -81,8 +81,23 @@ export const getProgramExperience = (program) => {
 /**
  * Formats display labels for filter options.
  */
+
 export const formatFilterLabel = (groupTitle, value) => {
   if (!value) return "";
+  const vLower = value.toLowerCase().trim(); 
+
+  // Area of Interest formatting
+  if (groupTitle === "Area of Interest") {
+    if (vLower === "artificial intelligence") {
+      return "Artificial Intelligence & Generative AI";
+    }
+    if (vLower === "cxo leadership") {
+      return "CXO Leadership";
+    }
+    if (vLower === "pg diploma") {
+      return "PG Diploma";
+    }
+  }
 
   // Generic Title Case
   return value
@@ -90,6 +105,7 @@ export const formatFilterLabel = (groupTitle, value) => {
     .map((w) => (w.length > 0 ? w.charAt(0).toUpperCase() + w.slice(1) : ""))
     .join(" ");
 };
+
 
 /**
  * Checks if a program matches selected Area of Interest filters.
@@ -192,28 +208,28 @@ export const matchesCareerLevel = (program, selectedCareerLevels) => {
  */
 export const matchesProgramSearch = (program, searchQuery) => {
   if (!searchQuery || !searchQuery.trim()) return true;
-  const q = searchQuery.toLowerCase().trim();
+  const normalizedQuery = searchQuery.toLowerCase().trim();
 
-  const pName = program?.program_name?.toLowerCase() || "";
-  const uName = program?.university_name?.toLowerCase() || "";
-  const cat = program?.category?.toLowerCase() || "";
-  const pId = program?.id?.toLowerCase() || "";
-  const tags = (program?.tags || []).map((t) => t.toLowerCase());
+  const programName = program?.program_name?.toLowerCase() || "";
+  const universityName = program?.university_name?.toLowerCase() || "";
+  const category = program?.category?.toLowerCase() || "";
+  const programId = program?.id?.toLowerCase() || "";
+  const programTags = (program?.tags || []).map((t) => t.toLowerCase());
 
   // Direct substring match on any program field
   if (
-    pName.includes(q) ||
-    uName.includes(q) ||
-    cat.includes(q) ||
-    pId.includes(q) ||
-    tags.some((t) => t.includes(q))
+    programName.includes(normalizedQuery) ||
+    universityName.includes(normalizedQuery) ||
+    category.includes(normalizedQuery) ||
+    programId.includes(normalizedQuery) ||
+    programTags.some((t) => t.includes(normalizedQuery))
   ) {
     return true;
   }
 
   // Multi-term support (e.g. if user types words separated by space or &)
-  const cleanQ = q.replace(/[&,+\-/]/g, " ").trim();
-  if (cleanQ !== q) {
+  const cleanQ = normalizedQuery.replace(/[&,+\-/]/g, " ").trim();
+  if (cleanQ !== normalizedQuery) {
     const terms = cleanQ
       .split(/\s+/)
       .filter(
@@ -222,7 +238,7 @@ export const matchesProgramSearch = (program, searchQuery) => {
           !["and", "with", "for", "the", "in", "of"].includes(t)
       );
     if (terms.length > 0) {
-      const allText = `${pName} ${uName} ${cat} ${pId} ${tags.join(" ")}`;
+      const allText = `${programName} ${universityName} ${category} ${programId} ${programTags.join(" ")}`;
       return terms.some((term) => allText.includes(term));
     }
   }

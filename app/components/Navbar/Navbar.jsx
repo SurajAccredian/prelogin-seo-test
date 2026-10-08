@@ -368,7 +368,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-3 flex justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
+      <div className="nav-3 flex flex-col items-center justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
         <div className="nav-3-inner">
           <div className="nav-3-left">
             <Link href={"/"} prefetch={false} style={{ textDecoration: "none" }}>
@@ -550,6 +550,10 @@ export default function Navbar() {
               onClick={() => setIsOpenHam(!isOpenHam)}
             />
           </div>
+        </div>
+        {/* Mobile / Tablet Second Row: Full-width Global Search */}
+        <div className="w-full md:hidden pt-2 pb-1 max-w-[85rem]">
+          <GlobalSearch className="!max-w-full w-full" />
         </div>
       </div>
       <Ham

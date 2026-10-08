@@ -786,6 +786,7 @@
     "batch_type": "Online",
     "id": "iima-senior-management-program",
     "category": "senior management",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "tags": [
       "technology strategy",
       "tech risk management",

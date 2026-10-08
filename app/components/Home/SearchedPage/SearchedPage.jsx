@@ -408,7 +408,7 @@ const SearchedPageInner = () => {
   return (
     <>
       <HomePageWrapper>
-        <div className="search-page w-full min-h-screen pt-28 pb-8 md:py-8 flex justify-center font-circular xl:px-12 px-4">
+        <div className="search-page w-full min-h-screen pt-24 pb-8 md:py-8 flex justify-center font-circular xl:px-12 px-4">
           <div className="max-w-[85rem] w-full">
             <div className="w-full flex gap-6">
               {/* Desktop Left Sidebar: Single bordered/rounded card with clear dividers */}

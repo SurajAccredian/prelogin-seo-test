@@ -79,7 +79,7 @@
   animation: searchDropdownFadeIn 0.16s ease-out;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .global-search-dropdown {
     min-width: 100%;
     max-width: 100%;

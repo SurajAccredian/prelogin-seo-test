@@ -35,31 +35,31 @@ export const sortVerticalProgramsByStatus = (
 // Calculates search match quality for relevance ranking
 export const getSearchRelevanceScore = (program, searchQuery) => {
   if (!searchQuery || !searchQuery.trim()) return 0;
-  const q = searchQuery.toLowerCase().trim();
+  const normalizedQuery = searchQuery.toLowerCase().trim();
   const name = program?.program_name?.toLowerCase() || "";
-  const cat = program?.category?.toLowerCase() || "";
+  const category = program?.category?.toLowerCase() || "";
   const uni = program?.university_name?.toLowerCase() || "";
-  const tags = (program?.tags || []).map((t) => t.toLowerCase());
+  const programTags = (program?.tags || []).map((t) => t.toLowerCase());
 
   // Exact program name match
-  if (name === q) return 100;
-  if (name.startsWith(q)) return 80;
+  if (name === normalizedQuery) return 100;
+  if (name.startsWith(normalizedQuery)) return 80;
 
   // Word boundary match in program name (e.g. searching "HR", "AI", "MBA")
   const words = name.split(/[\s,–—\-_/:]+/);
-  if (words.some((w) => w === q)) return 75;
-  if (name.includes(q)) return 60;
+  if (words.some((w) => w === normalizedQuery)) return 75;
+  if (name.includes(normalizedQuery)) return 60;
 
   // Category match
-  if (cat === q) return 50;
-  if (cat.includes(q)) return 40;
+  if (category === normalizedQuery) return 50;
+  if (category.includes(normalizedQuery)) return 40;
 
   // Tag match
-  if (tags.some((t) => t === q)) return 35;
-  if (tags.some((t) => t.includes(q))) return 25;
+  if (programTags.some((t) => t === normalizedQuery)) return 35;
+  if (programTags.some((t) => t.includes(normalizedQuery))) return 25;
 
   // University match
-  if (uni.includes(q)) return 15;
+  if (uni.includes(normalizedQuery)) return 15;
 
   return 1;
 };

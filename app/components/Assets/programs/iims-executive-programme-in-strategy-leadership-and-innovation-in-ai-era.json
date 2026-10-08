@@ -251,6 +251,7 @@
     "curriculum",
     "tools",
     "unique points",
+    "faculty",
     "certificate",
     "top companies",
     "extra achievements",
@@ -265,8 +266,8 @@
   "faculty": [
     {
       "name": "Dr. Sanjay Singh",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Untitled_design-2.webp",
-      "position": "Assistant Professor",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Dr._Sanjay_Singh.webp",
+      "position": "Program Director",
       "organization": "IIM Sirmaur",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iims-university%20logo.webp"
     },

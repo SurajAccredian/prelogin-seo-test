@@ -4,6 +4,7 @@ import AccordionHam from "./AccodionHam";
 import AccodionMyAccount from "./AccodionMyAccount";
 import { X } from "lucide-react";
 import { useState, useEffect } from "react";
+import GlobalSearch from "../../Navbar/GlobalSearch/GlobalSearch";
 
 export default function Ham({
   isOpen,
@@ -54,6 +55,9 @@ export default function Ham({
                 onClick={() => setIsOpen(false)}
                 className="cursor-pointer"
               />
+            </div>
+            <div className="w-full mb-4">
+              <GlobalSearch className="!max-w-full" />
             </div>
             {loginStatus && <AccodionMyAccount />}
             <AccordionHam />

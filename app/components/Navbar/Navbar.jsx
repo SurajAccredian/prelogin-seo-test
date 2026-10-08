@@ -22,6 +22,7 @@ import { useRouter } from "next/navigation";
 import Ham from "../Drawers/Drawer/Ham";
 import ExploreDrawer from "../Drawers/Drawer/ExploreDrawer";
 import Authdrawer from "../Drawers/Auth Drawers/Authdrawer";
+import GlobalSearch from "./GlobalSearch/GlobalSearch";
 
 export const shouldUseNewDashboard = () => {
   const enrollmentStatus = localStorage.getItem("enrollmentStatus");
@@ -381,6 +382,9 @@ const isOnly66 =
               </div>
             </Link>
             <ExploreDropDown />
+            <div className="hidden md:flex justify-center flex-1 max-w-[320px] lg:max-w-[360px] xl:max-w-[400px] rounded-md">
+              <GlobalSearch />
+            </div>
           </div>
           <div className="nav-3-right">
             <div className="nav-3-right-inner">

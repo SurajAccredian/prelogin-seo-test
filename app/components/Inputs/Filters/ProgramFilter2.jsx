@@ -1,8 +1,15 @@
 "use client";
 import React from "react";
 import "./ProgramFilters.css";
+import { formatFilterLabel } from "../../../helpers/programFilter.helpers";
 
-const ProgramFilter2 = ({ title, categories, onFilterChange, className, checked }) => {
+const ProgramFilter2 = ({
+  title,
+  categories = [],
+  onFilterChange,
+  className = "",
+  checked = [],
+}) => {
   return (
     <div className={`bg-white w-full max-h-[240px] custom-scrollbar overflow-y-auto mt-4 ${className}`}>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -11,7 +18,13 @@ const ProgramFilter2 = ({ title, categories, onFilterChange, className, checked 
             <div className="relative flex-shrink-0 w-7 h-7 flex items-center justify-center">
               <label className="cbx">
                 <div className="checkmark">
-                  <input id="cbx" onChange={onFilterChange} type="checkbox" value={category} checked={checked.includes(category)} />
+                  <input
+                    id="cbx"
+                    onChange={onFilterChange}
+                    type="checkbox"
+                    value={category}
+                    checked={checked?.includes(category)}
+                  />
                   <div className="flip">
                     <div className="front"></div>
                     <div className="back">
@@ -21,8 +34,8 @@ const ProgramFilter2 = ({ title, categories, onFilterChange, className, checked 
                 </div>
               </label>
             </div>
-            <p className={`font-medium ${category.toLowerCase() === "cxo" ? "uppercase" : "capitalize"} text-neutral-700 md:text-base text-sm`}>
-              {category.toLowerCase() === "cxo leadership" ? "CXO Leadership" : category.toLowerCase() === "data science & ai" ? "Data Science & AI" : category.toLowerCase() === "pg diploma" ? "PG Diploma" : category}
+            <p className="font-medium capitalize text-neutral-700 md:text-base text-sm">
+              {formatFilterLabel(title, category)}
             </p>
           </div>
         ))}

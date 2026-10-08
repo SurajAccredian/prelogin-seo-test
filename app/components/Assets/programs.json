@@ -707,7 +707,7 @@
   "tags": [],
   "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
   "brochure": {
-    "pdf": "",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTBODHGAYA-Senior-Management-Program.pdf",
     "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
     "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
   },

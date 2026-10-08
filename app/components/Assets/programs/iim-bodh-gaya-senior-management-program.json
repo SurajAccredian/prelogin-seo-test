@@ -8,7 +8,7 @@
   "short_title": "Senior Management",
   "contact": "9810184424",
   "university_name": "IIM Bodh Gaya",
-  "short_university_name": "indian-institute-of-management-bodh-gaya",
+  "short_university_name": "iimbg",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idC1YzIonZ_logos__1_.webp",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-2.webp",
@@ -286,7 +286,7 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTBODHGAYA-Senior-Management-Program.pdf",
     "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
     "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
   },

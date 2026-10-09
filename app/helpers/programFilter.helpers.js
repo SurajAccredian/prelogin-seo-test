@@ -144,16 +144,16 @@ export const matchesDuration = (program, selectedDurations) => {
 
   return selectedDurations.some((bucket) => {
     const bLower = bucket.toLowerCase();
-    if (bLower.includes("upto 4") || bLower.includes("up to 4")) {
+    if (bLower.includes("upto 4")) {
       return months <= 4;
     }
-    if (bLower.includes("4–6") || bLower.includes("4-6")) {
+    if (bLower.includes("4–6")) {
       return months >= 4 && months <= 6;
     }
-    if (bLower.includes("6–9") || bLower.includes("6-9")) {
+    if (bLower.includes("6–9")) {
       return months >= 6 && months <= 9;
     }
-    if (bLower.includes("9–12") || bLower.includes("9-12")) {
+    if (bLower.includes("9–12")) {
       return months >= 9 && months <= 12;
     }
     return false;
@@ -187,13 +187,13 @@ export const matchesCareerLevel = (program, selectedCareerLevels) => {
 
   return selectedCareerLevels.some((level) => {
     const lLower = level.toLowerCase();
-    if (lLower.includes("0–2") || lLower.includes("0-2")) {
+    if (lLower.includes("0–2")) {
       return exp >= 0 && exp < 2;
     }
-    if (lLower.includes("2–5") || lLower.includes("2-5")) {
+    if (lLower.includes("2–5")) {
       return exp >= 2 && exp < 5;
     }
-    if (lLower.includes("5–8") || lLower.includes("5-8")) {
+    if (lLower.includes("5–8")) {
       return exp >= 5 && exp < 8;
     }
     if (lLower.includes("8+")) {

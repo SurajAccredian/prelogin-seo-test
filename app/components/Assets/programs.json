@@ -695,6 +695,35 @@
     "pid": 148
   },
   {
+  "status": "New Launch",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+  "university_name": "IIM Bodh Gaya",
+  "program_name": "Senior Management Program ",
+  "duration": "11 Months",
+  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+  "batch_type": "Online",
+  "id": "iim-bodh-gaya-senior-management-program",
+  "category": "senior management",
+  "tags": [],
+  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTBODHGAYA-Senior-Management-Program.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
+  },
+  "enrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "notEnrolled": {
+    "referrerBonus": "₹3,000",
+    "refreeBonus": "₹3,000"
+  },
+  "start_date": "24 Jan 2027 ",
+  "contact": "9810184424",
+  "pid": 181
+},
+  {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "university_name": "IIM Ranchi",

@@ -50,6 +50,10 @@ const universities = [
   {
     name: "IIM Kashipur",
     logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-logo.webp",
+  },
+  {
+    name: "IIM Sirmaur",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
   }
 ];
 

@@ -279,6 +279,19 @@
     "required_years_experience": 5
   },
   {
+    "university_name": "IIM Bodh Gaya",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+    "program_name": "Senior Management Program ",
+    "category": "senior management",
+    "start_date": "24 Jan 2027 ",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-bodh-gaya-senior-management-program",
+    "id": "iim-bodh-gaya-senior-management-program",
+    "pid": 181,
+    "duration": "11 Months",
+    "required_years_experience": 5
+  },
+  {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Senior Management Program",

@@ -217,7 +217,7 @@ export default function About() {
     <Grid container spacing={4} justifyContent="center" alignItems="stretch" sx={{ mb: 6 }}>
       {[
         { value: "2018", label: "Year of Inception", color: "#c2e76b" },
-        { value: "10K+", label: "Professionals Trained", color: "#002e5e" },
+        { value: "18K+", label: "Professionals Trained", color: "#002e5e" },
         { value: "2M+", label: "Class Hours Delivered", color: "#00acd7" },
       ].map((stat, idx) => (
         <Grid 
@@ -487,7 +487,7 @@ export default function About() {
     <Grid container spacing={4} justifyContent="center" alignItems="stretch" sx={{ mb: 6 }}>
       {[
         { value: "2018", label: "Year of Inception", color: "#c2e76b" },
-        { value: "10K+", label: "Professionals Trained", color: "#002e5e" },
+        { value: "18K+", label: "Professionals Trained", color: "#002e5e" },
         { value: "2M+", label: "Class Hours Delivered", color: "#00acd7" },
       ].map((stat, idx) => (
         <Grid 

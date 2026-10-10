@@ -3,6 +3,7 @@
   "id": "executive-program-in-digital-transformation",
   "vertical": "digital transformation",
   "title": "Executive Program in Digital Leadership for Business Transformation",
+  "seo_title": "Executive Program in Digital Leadership for Business Transformation",
   "description": "Elevate your organization's growth with insights into digital leadership and business transformation strategies from a top-tier institution with Executive Alumni Status",
   "short_title": "Digital Transformation",
   "contact": "9358719988",
@@ -106,7 +107,11 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -436,7 +441,6 @@
     "programId": "executive-program-in-digital-transformation",
     "points": [
       "72+ Hours of Live Classes",
-
       "5+ Tools & Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -489,7 +493,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 6 Months."]
+            "content": [
+              "The duration of the program is 6 Months."
+            ]
           }
         ]
       },

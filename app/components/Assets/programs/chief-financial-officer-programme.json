@@ -4,6 +4,7 @@
   "pid": 170,
   "vertical": "cxo leadership",
   "title": "Chief Financial Officer (CFO) Programme",
+  "seo_title": "Chief Financial Officer Course | IIM Visakhapatnam",
   "description": "Embark on a 12 month learning journey in Financial Leadership, Corporate Governance, and Digital Leadership.",
   "short_title": "Chief Financial Officer ",
   "contact": "9289224842",
@@ -108,7 +109,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -167,7 +172,6 @@
         "Preparing an Investor Pitch for Funding"
       ]
     },
-
     {
       "title": "Strategic Finance",
       "id": "5",
@@ -190,7 +194,6 @@
         "Buy & Sell Side Role Play"
       ]
     },
-
     {
       "title": "Financial Risk Management for CFOs",
       "id": "7",
@@ -231,7 +234,6 @@
         "Case Studies on Successful Digital Transformation in Finance"
       ]
     },
-    
     {
       "title": "Critical Thinking & Decision Making",
       "id": "11",
@@ -241,7 +243,6 @@
         "Identifying & Appreciating Behavioral Biases in Decision Making"
       ]
     },
-
     {
       "title": "Data Driven Decision Making",
       "id": "12",
@@ -253,18 +254,16 @@
         "Using Machine Learning Techniques for Working Capital Decisions"
       ]
     },
-
     {
       "title": "Capstone Project",
       "special": "1",
       "id": "capstone-project",
       "points": [
-        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies." ,
+        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies.",
         "Develop a strategic market entry plan & an implementation roadmap with key milestones. Define performance metrics to measure success. Present the plan to a panel, explaining key components & recommendations.",
         "Develop a plan for a potential M & A deal. Evaluate synergy, access deal structure, negotiation, due diligence and post-merger integration."
       ]
     },
-
     {
       "title": "CXO Coaching",
       "special": "2",
@@ -299,7 +298,6 @@
       "image": "https://www.iimv.ac.in/storage/FacultyDetails/details_profile_picture_1769666546697af7f2544d2.jpg",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. Sushil Kumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
@@ -325,7 +323,6 @@
       "name": "Prof. Vijay Bhaskar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/vijaya-bhaskar.webp",
       "position": "Dr B R Ambedkar Chair Professor",
-
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
@@ -334,7 +331,6 @@
     "programId": "chief-financial-officer-programme",
     "points": [
       "144+ Hours of Live Classes",
-
       "2+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -390,10 +386,11 @@
               "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
             ]
           },
-
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },

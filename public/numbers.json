@@ -99,8 +99,18 @@
     "contact": "9358719988"
   },
   {
+    "id": "iim-bodh-gaya-senior-management-program",
+    "program_name": "Senior Management Program ",
+    "contact": "9810184424"
+  },
+  {
     "id": "iim-ranchi-senior-management-program",
     "program_name": "Senior Management Program",
+    "contact": "9810184424"
+  },
+  {
+    "id": "iimr-cto-ai-leadership-program",
+    "program_name": "CTO & AI Leadership Program",
     "contact": "9810184424"
   },
   {
@@ -294,5 +304,13 @@
   {
     "id": "transform-business-workflows-with-generative-ai",
     "program_name": "Transform Business Workflows with Generative AI"
+  },
+  {
+    "id": "transform-ideas-into-impact-with-product-management",
+    "program_name": "Transform Ideas into Impact with Product Management"
+  },
+  {
+    "id": "transform-ideas-into-impact-with-product-management",
+    "program_name": "Transform Ideas into Impact with Product Management"
   }
 ]

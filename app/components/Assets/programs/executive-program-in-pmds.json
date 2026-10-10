@@ -3,6 +3,7 @@
   "id": "executive-program-in-pmds",
   "vertical": "product management",
   "title": "Executive Program in Product Management and Data Science",
+  "seo_title": "Product Management & Data Science Course | IIT Guwahati",
   "description": "Embark on a 10-term learning journey in Product Management, Python Basics, and Machine Learning.",
   "short_title": "Product Management",
   "contact": "8882597163",
@@ -10,7 +11,6 @@
   "short_university_name": "iitg",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/program-page-banner-image/iita.webp",
-
   "start_date": "16 Feb 2025",
   "duration": "11 Months",
   "required_years_experience": 0,
@@ -305,7 +305,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Nishkam Verma",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
@@ -327,7 +326,6 @@
       "organization": "IIT Guwahati",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
     },
-
     {
       "name": "Subhodeep Dey",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
@@ -372,17 +370,14 @@
       "title": "numpy",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/numpy.svg"
     },
-
     {
       "title": "pandas",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Pandas.svg"
     },
-
     {
       "title": "seaborn",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/seaborn.webp"
     },
-
     {
       "title": "colab",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
@@ -400,7 +395,6 @@
     "programId": "executive-program-in-pmds",
     "points": [
       "130+ Hours of Live Classes",
-      
       "10 Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -483,7 +477,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Product Management and Data Science different?",

@@ -169,13 +169,21 @@ export default function AccodionMyAccount() {
     }
   };
 
+const FREE_COURSE_CATEGORIES = [66, 71];
+const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));
+
   useEffect(() => {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      const has66 = enrollmentDetails && enrollmentDetails.some(item => Number(item.category) === 66);
-      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
+      const hasFreeCourse = Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+        item => isFreeCourseCategory(item.category || item.category_id)
+      );
+      const hasOtherEnrollment = Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+        item => !isFreeCourseCategory(item.category || item.category_id)
+      );
+      const onlyFreeCourses = hasFreeCourse && !hasOtherEnrollment;
 
-      if (isOnly66) {
+      if (onlyFreeCourses) {
         setSections([
           {
             label: "Access Free Courses",
@@ -184,7 +192,7 @@ export default function AccodionMyAccount() {
             img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/myCourses.svg",
           }
         ]);
-      } else if (has66) {
+      } else if (hasFreeCourse && hasOtherEnrollment) {
         setSections([
           {
             label: "Application Tracker",

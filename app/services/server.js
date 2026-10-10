@@ -1,7 +1,8 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const HOST = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD;
+const HOST = "http://localhost:5001"
+// process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD;
 //   process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
 //   "https://accredian-backend-v1-image-7dra35jwyq-uc.a.run.app";
 // "https://accredian-backend-v1-image-7dra35jwyq-uc.a.run.app";

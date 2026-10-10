@@ -238,7 +238,7 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                   const val = item;
                   return (
                     <a
-                      href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
+                      href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" || val.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${val.id}` : `/programs/${val.id}`}
                       className="w-[95%]"
                       key={index}
                       type="div"

@@ -7,6 +7,7 @@ import { freeCourseActions } from "../../store/reducers/freeCourse";
 import { userActions } from "../../store/reducers/user";
 import { checkFreeCourseEnrollment } from "../../services/auth.service";
 import { decodeToken } from "react-jwt";
+import { mergeEnrollmentDetails } from "../../helpers/enrollment.helpers";
 
 import "./FreeCourses.css";
 import NotFound from "../NotFound/NotFound";
@@ -78,9 +79,8 @@ const FreeCourses = () => {
         });
 
         if (response?.enrolled && response?.enrollmentDetails?.length > 0) {
-          // Write to localStorage — this triggers the isEnrolled useEffects in all three CTAs
-          localStorage.setItem("enrollment", JSON.stringify(response.enrollmentDetails));
-          localStorage.setItem("enrollmentStatus", "true");
+          // Merge into localStorage — preserves all other enrollments
+          mergeEnrollmentDetails(response.enrollmentDetails);
 
           // Re-dispatch authenticated so the isEnrolled useEffects re-run with fresh localStorage
           dispatch(userActions.setAuthenticatedState(true));

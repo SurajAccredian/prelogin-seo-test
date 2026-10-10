@@ -3,6 +3,7 @@
   "id": "executive-program-in-business-analytics-and-product-management",
   "vertical": "business analytics",
   "title": "Executive Program in Business Analytics & Product Management",
+  "seo_title": "Executive Program in Business Analytics & Product Management",
   "description": "Embark on a 10-term learning journey in Data Management, Data Visualization, Product Strategy, and Product Launch.",
   "short_title": "Business Analytics",
   "contact": "9971109528",
@@ -360,7 +361,6 @@
     "programId": "executive-program-in-business-analytics-and-product-management",
     "points": [
       "150+ Hours of Live Classes",
-      
       "15+ Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -437,7 +437,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Business Analytics & Product Management different?",

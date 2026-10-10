@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import { Power0, Power2, gsap } from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import { AiOutlineRise } from "react-icons/ai";
 // import { SiAcclaim } from "react-icons/si";
@@ -13,10 +13,9 @@ const Stats = () => {
     const cx_stats = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: ".start-from-zero",
-          start: "top 95%",
-          end: "top 20%",
-          toggleActions: "play reset play reset",
+          trigger: showStats.current,
+          start: "top 90%",
+          once: true,
         },
       });
       tl.from(".start-from-zero", {
@@ -51,7 +50,7 @@ const Stats = () => {
             <div className="flex  items-center gap-2 justify-center h-12">
               {/* <AiOutlineRise className='text-4xl' /> */}
               <h2 className="text-4xl font-medium text-universal">
-                <span className="start-from-zero">150</span>%
+                <span className="start-from-zero">80</span>%
               </h2>
             </div>
             <h3 className="text-sm mt-3 font-medium">Highest Salary Hike</h3>

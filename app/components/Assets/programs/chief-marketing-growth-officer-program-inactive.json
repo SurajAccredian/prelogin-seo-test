@@ -3,6 +3,7 @@
   "id": "chief-marketing-growth-officer-program-inactive",
   "vertical": "general management",
   "title": "Senior Executive Development Program in Sales & Marketing Leadership – The CMO Program",
+  "seo_title": "Senior Executive Development Program in Sales & Marketing Leadership – The CMO Program",
   "description": "Embark on an 11 Month learning journey in  Marketing Strategy, Product Marketing, C-Suite Leadership, and Price Management.",
   "short_title": "Chief Marketing Officer",
   "contact": "8130897175",
@@ -114,7 +115,11 @@
     "experiential-learning",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -334,7 +339,6 @@
     "programId": "chief-marketing-growth-officer-program",
     "points": [
       "145+ Hours of Live Classes",
-      
       "6 Career Sessions by Accredian",
       "20+ Frameworks Covered",
       "1 Capstone Project",
@@ -387,7 +391,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },

@@ -2,6 +2,7 @@
   "id": "executive-program-in-business-management",
   "vertical": "artificial intelligence",
   "title": "Executive Program in AI for Leaders",
+  "seo_title": "Executive Program in AI for Leaders",
   "description": "Master AI fundamentals, strategies for integration, and innovation at one of India's premier business schools, and attain Executive Alumni status.",
   "university_name": "IIM Amritsar",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
@@ -331,7 +332,6 @@
     "programId": "executive-program-in-business-management",
     "points": [
       "150+ Hours of Live Classes",
-      
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"

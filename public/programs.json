@@ -259,6 +259,18 @@
     "program_fee": 160000
   },
   {
+    "university_name": "IIM Bodh Gaya",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+    "program_name": "Senior Management Program ",
+    "category": "senior management",
+    "start_date": "24 Jan 2027 ",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-bodh-gaya-senior-management-program",
+    "id": "iim-bodh-gaya-senior-management-program",
+    "pid": 181,
+    "duration": "11 Months"
+  },
+  {
     "university_name": "IIM Ranchi",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
     "program_name": "Senior Management Program",
@@ -270,6 +282,17 @@
     "pid": 146,
     "duration": "12 Months",
     "program_fee": 260000
+  },
+  {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "CTO & AI Leadership Program",
+    "category": "cxo leadership",
+    "start_date": "31 Jan 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iimr-cto-ai-leadership-program",
+    "id": "iimr-cto-ai-leadership-program",
+    "duration": "12 Months"
   },
   {
     "university_name": "IIM Amritsar",
@@ -354,13 +377,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "22nd Aug 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
     "id": "executive-program-in-generative-ai-for-leaders",
     "pid": 144,
     "duration": "7 Months",
-    "program_fee": 160000
+    "program_fee": 169000
   },
   {
     "university_name": "IITM Pravartak",
@@ -378,13 +401,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
-    "start_date": "22nd Sep 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
     "id": "professional-certificate-in-applied-generative-ai",
     "pid": 145,
     "duration": "4 Months",
-    "program_fee": 130000
+    "program_fee": 139000
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -767,5 +790,25 @@
     "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
     "id": "transform-business-workflows-with-generative-ai",
     "duration": "9 Hours"
+  },
+  {
+    "university_name": "Accredian",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "category": "product management",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "duration": "2.5 Hours"
+  },
+  {
+    "university_name": "Accredian",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "category": "free courses",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "duration": "2.5 Hours"
   }
 ]

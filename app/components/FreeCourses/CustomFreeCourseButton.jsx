@@ -6,6 +6,7 @@ import { userActions } from "../../store/reducers/user";
 import { enrollFreeCourseUser, fetchThinkificUrl } from "../../services/auth.service";
 import { decodeToken } from "react-jwt";
 import toast from "react-hot-toast";
+import { mergeEnrollmentDetails } from "../../helpers/enrollment.helpers";
 
 const CustomFreeCourseButton = ({ data, text, subText, className }) => {
   const dispatch = useDispatch();
@@ -14,7 +15,7 @@ const CustomFreeCourseButton = ({ data, text, subText, className }) => {
   const [isEnrolled, setIsEnrolled] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleThinkificRedirect = async () => {
+  const handleThinkificRedirect = async (newTab = null) => {
     try {
       const token = localStorage.getItem("token");
       if (!token) {
@@ -33,7 +34,12 @@ const CustomFreeCourseButton = ({ data, text, subText, className }) => {
 
       const url = await fetchThinkificUrl({ email, firstname, lastname });
       if (url) {
-        window.open(url, "_blank");
+        localStorage.setItem("thinkificUrl", url);
+
+        if (newTab) {
+          newTab.location.href = url;
+        }
+
         window.location.reload();
       } else {
         toast.error("Unable to generate course redirect URL. Please try again.", { position: "top-right" });
@@ -71,10 +77,12 @@ const CustomFreeCourseButton = ({ data, text, subText, className }) => {
     if (loading) return;
 
     if (isEnrolled) {
+      const newTab = typeof window !== "undefined" ? window.open("", "_blank") : null;
       setLoading(true);
-      await handleThinkificRedirect();
+      await handleThinkificRedirect(newTab);
       setLoading(false);
     } else if (authenticated) {
+      const newTab = typeof window !== "undefined" ? window.open("", "_blank") : null;
       setLoading(true);
       try {
         const token = localStorage.getItem("token");
@@ -109,11 +117,10 @@ const CustomFreeCourseButton = ({ data, text, subText, className }) => {
         });
 
         if (response?.enrollmentDetails?.length > 0) {
-          localStorage.setItem("enrollment", JSON.stringify(response.enrollmentDetails));
-          localStorage.setItem("enrollmentStatus", "true");
+          mergeEnrollmentDetails(response.enrollmentDetails);
           setIsEnrolled(true);
           toast.success("Successfully enrolled in the course!", { position: "top-right" });
-          await handleThinkificRedirect();
+          await handleThinkificRedirect(newTab);
         }
       } catch (err) {
         toast.error("Failed to enroll. Please try again.", { position: "top-right" });

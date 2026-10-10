@@ -3,6 +3,7 @@
   "id": "executive-program-in-pm-and-dt",
   "vertical": "product management",
   "title": "Executive Program in Product Management and Digital Transformation",
+  "seo_title": "Product Mgmt & Digital Transformation Course | IIT Guwahati",
   "description": "Embark on an 11-term learning journey in UI/UX, Digital Strategy, Design Thinking.",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -329,7 +330,6 @@
       "title": "figma",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
     },
-
     {
       "title": "confluence",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
@@ -367,7 +367,6 @@
     "programId": "executive-program-in-pm-and-dt",
     "points": [
       "132+ Hours of Live Classes",
-      
       "25+ Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",

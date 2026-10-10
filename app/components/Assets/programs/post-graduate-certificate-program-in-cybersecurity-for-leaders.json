@@ -3,6 +3,7 @@
   "id": "post-graduate-certificate-program-in-cybersecurity-for-leaders",
   "vertical": "cybersecurity",
   "title": "Post Graduate Certificate Program in Cybersecurity for Leaders",
+  "seo_title": "Post Graduate Certificate Program in Cybersecurity for Leaders",
   "description": "Embark on a 6-term learning journey in strategic cybersecurity, IR planning, and AI & GenAI threats.",
   "short_title": "Cybersecurity",
   "contact": "9818329799",
@@ -176,7 +177,10 @@
     {
       "title": " AI & GenAI for CyberSecurity",
       "id": "6",
-      "points": ["AI-Driven Cyber Threats", "Leveraging AI for Cyber Defense"]
+      "points": [
+        "AI-Driven Cyber Threats",
+        "Leveraging AI for Cyber Defense"
+      ]
     },
     {
       "title": "Capstone Project",
@@ -291,7 +295,6 @@
     "programId": "post-graduate-certificate-program-in-cybersecurity-for-leaders",
     "points": [
       "72+ Hours of Live Classes",
-      
       "10+ Tools and Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -356,7 +359,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Post Graduate Certificate Program in Cybersecurity for Leaders different?",

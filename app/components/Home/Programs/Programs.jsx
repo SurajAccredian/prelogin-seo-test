@@ -459,7 +459,8 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
               const isFreeCourse =
                 program.category?.toLowerCase() === "free courses" ||
                 program.category?.toLowerCase() === "microsoft" ||
-                program.id === "transform-business-workflows-with-generative-ai";
+                program.id === "transform-business-workflows-with-generative-ai" ||
+                program.id === "transform-ideas-into-impact-with-product-management";
               const path = isFreeCourse ? "free-courses" : "programs";
               window.open(`http://accredian.com/${path}/${program.id}`);
             }}

@@ -973,6 +973,16 @@
     grid-template-columns: 1fr 1fr;
     align-items: start;
   }
+  .free-courses .cert-grid.single-cert {
+    grid-template-columns: 1fr;
+    max-width: 580px;
+    margin: 0 auto;
+  }
+}
+
+.free-courses .cert-grid.single-cert {
+  max-width: 580px;
+  margin: 0 auto;
 }
 
 /* ==========================================
@@ -980,7 +990,7 @@
    ========================================== */
 .free-courses .snapshot-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 16px;
 }
 
@@ -992,6 +1002,7 @@
   display: flex;
   align-items: flex-start;
   gap: 12px;
+  min-width: 0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
   transition: all 0.2s ease-in-out;
 }
@@ -1016,6 +1027,7 @@
 .free-courses .snapshot-text-wrapper {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .free-courses .snapshot-item .meta-label {
@@ -1031,6 +1043,12 @@
   font-size: 14px;
   font-weight: 700;
   color: var(--accredian-text-heading);
+}
+
+@media (min-width: 640px) {
+  .free-courses .snapshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 768px) {

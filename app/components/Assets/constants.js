@@ -97,7 +97,7 @@ export const NAV_ITEMS = [
     children: [
       { label: "Career", href: "/Career" },
       { label: "Why Accredian", href: "/whyaccredian" },
-      { label: "Vision & Mission", href: "/About" },
+      { label: "Vision & Mission", href: "/about" },
       { label: "Contact Us", href: "/contact-us" },
     ],
   },

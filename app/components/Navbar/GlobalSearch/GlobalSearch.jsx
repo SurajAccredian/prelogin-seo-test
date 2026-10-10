@@ -5,12 +5,9 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import { Search, ArrowRight, MoveUpRight, ArrowUpDown } from "lucide-react";
 import PROGRAMS from "../../Assets/programs.json";
-import {
-  TRENDING_SEARCHES,
-  SUGGESTED_FALLBACK_SEARCHES,
-} from "../../Assets/popularSearches";
 import { matchesProgramSearch } from "../../../helpers/programFilter.helpers";
 import "./GlobalSearch.css";
+import { SUGGESTED_FALLBACK_SEARCHES, TRENDING_SEARCHES } from "../../Assets/constants";
 
 /**
  * Returns the correct detail page URL for a given program.

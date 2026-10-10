@@ -19,7 +19,6 @@ const ProgramFilter2 = ({
               <label className="cbx">
                 <div className="checkmark">
                   <input
-                    id="cbx"
                     onChange={onFilterChange}
                     type="checkbox"
                     value={category}

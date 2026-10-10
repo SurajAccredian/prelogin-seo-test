@@ -3,7 +3,6 @@ import { TbLogin2 } from "react-icons/tb";
 import AccordionHam from "./AccodionHam";
 import AccodionMyAccount from "./AccodionMyAccount";
 import { X } from "lucide-react";
-import { useState, useEffect } from "react";
 
 const FREE_COURSE_CATEGORIES = [66, 71];
 const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));

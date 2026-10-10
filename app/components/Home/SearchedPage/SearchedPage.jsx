@@ -43,9 +43,9 @@ const parseUrlFilterParams = (searchParams) => {
   }
 
   const categories =
-    (searchParams.get("interest"))?.split(",").filter(Boolean) || [];
+    (searchParams.get("interest") || searchParams.get("verticals"))?.split(",").filter(Boolean) || [];
   const tags =
-    (searchParams.get("skills"))?.split(",").filter(Boolean) || [];
+    (searchParams.get("skills") || searchParams.get("tags"))?.split(",").filter(Boolean) || [];
   const durations =
     searchParams.get("duration")?.split(",").filter(Boolean) || [];
   const institutes =

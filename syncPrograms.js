@@ -9,90 +9,139 @@ const srcFile = path.join(rootDir, "app/components/Assets/programs.json");
 const individualProgramsDir = path.join(rootDir, "app/components/Assets/programs");
 const publicFile = path.join(rootDir, "public/programs.json");
 
-console.log("Reading from:", srcFile);
-console.log("Reading individual programs from:", individualProgramsDir);
-console.log("Writing to:", publicFile);
-
-// Load src JSON
-let programs;
-try {
-  programs = JSON.parse(fs.readFileSync(srcFile, "utf-8"));
-  console.log("Loaded programs.json successfully ✅");
-} catch (err) {
-  console.error("❌ Failed to parse programs.json:", err.message);
-  process.exit(1);
+/**
+ * Validates required_years_experience.
+ * - Accepts valid non-negative integers (e.g. 0, 1, 5, 10).
+ * - Converts valid numeric strings (e.g. "5", "0") to numbers.
+ * - Rejects negative numbers, decimals, non-numeric strings, and other invalid values.
+ */
+function validateExperience(exp) {
+  if (typeof exp === "number") {
+    if (Number.isInteger(exp) && exp >= 0) {
+      return { valid: true, value: exp };
+    }
+    return { valid: false, reason: "Must be a non-negative integer (no negative numbers or decimals)" };
+  }
+  if (typeof exp === "string") {
+    const trimmed = exp.trim();
+    if (/^\d+$/.test(trimmed)) {
+      const num = Number(trimmed);
+      if (Number.isSafeInteger(num)) {
+        return { valid: true, value: num };
+      }
+    }
+    return { valid: false, reason: "Must be a numeric string representing a non-negative integer" };
+  }
+  return { valid: false, reason: `Invalid type "${typeof exp}" (expected integer or numeric string)` };
 }
 
-// Ensure it's an array
-if (!Array.isArray(programs)) {
-  console.error("❌ Expected an array but got:", typeof programs, programs);
-  process.exit(1);
-}
-console.log(`Found ${programs.length} programs in src JSON`);
+function runSync() {
+  console.log("Reading from:", srcFile);
+  console.log("Reading individual programs from:", individualProgramsDir);
+  console.log("Writing to:", publicFile);
 
-// 1. Sync required_years_experience from individual JSON files
-let matchedCount = 0;
-let preservedCount = 0;
-let missingExpCount = 0;
+  // Load src JSON
+  let programs;
+  try {
+    programs = JSON.parse(fs.readFileSync(srcFile, "utf-8"));
+    console.log("Loaded programs.json successfully ✅");
+  } catch (err) {
+    console.error("❌ Failed to parse programs.json:", err.message);
+    process.exit(1);
+  }
 
-for (const program of programs) {
-  const individualFilePath = path.join(individualProgramsDir, `${program.id}.json`);
+  // Ensure it's an array
+  if (!Array.isArray(programs)) {
+    console.error("❌ Expected an array but got:", typeof programs, programs);
+    process.exit(1);
+  }
+  console.log(`Found ${programs.length} programs in src JSON`);
 
-  if (fs.existsSync(individualFilePath)) {
-    try {
-      const individualData = JSON.parse(fs.readFileSync(individualFilePath, "utf-8"));
-      const exp = individualData.required_years_experience;
+  // 1. Sync required_years_experience from individual JSON files
+  let matchedCount = 0;
+  let preservedCount = 0;
+  const validationErrors = [];
 
-      if (exp !== undefined && exp !== null && exp !== "") {
-        matchedCount++;
-        const parsedExp = typeof exp === "number" ? exp : Number(exp);
-        program.required_years_experience = isNaN(parsedExp) ? exp : parsedExp;
-      } else {
-        missingExpCount++;
-        console.warn(
-          `⚠️ [syncPrograms] "${program.id}.json" exists but is missing "required_years_experience". Preserving existing value (${program.required_years_experience ?? "none"}).`
+  for (const program of programs) {
+    const individualFilePath = path.join(individualProgramsDir, `${program.id}.json`);
+
+    if (fs.existsSync(individualFilePath)) {
+      try {
+        const individualData = JSON.parse(fs.readFileSync(individualFilePath, "utf-8"));
+        const exp = individualData.required_years_experience;
+
+        if (exp === undefined || exp === null || (typeof exp === "string" && exp.trim() === "")) {
+          validationErrors.push(
+            `Program "${program.id}" in "${program.id}.json": missing "required_years_experience" (got ${JSON.stringify(exp)})`
+          );
+          continue;
+        }
+
+        const result = validateExperience(exp);
+        if (result.valid) {
+          matchedCount++;
+          program.required_years_experience = result.value;
+        } else {
+          validationErrors.push(
+            `Program "${program.id}" in "${program.id}.json": invalid "required_years_experience" value ${JSON.stringify(exp)} (${result.reason})`
+          );
+        }
+      } catch (readErr) {
+        validationErrors.push(
+          `Program "${program.id}": failed to parse "${program.id}.json" (${readErr.message})`
         );
       }
-    } catch (readErr) {
-      console.error(`❌ [syncPrograms] Failed to parse "${program.id}.json":`, readErr.message);
-    }
-  } else {
-    preservedCount++;
-    // Preserve existing value for programs without individual JSON (e.g. free courses)
-    if (program.required_years_experience === undefined) {
-      program.required_years_experience = 0;
+    } else {
+      preservedCount++;
+      // Preserve existing value for programs without individual JSON (e.g. free courses)
+      if (program.required_years_experience === undefined) {
+        program.required_years_experience = 0;
+      }
     }
   }
+
+  if (validationErrors.length > 0) {
+    console.error(`\n❌ [syncPrograms] Validation failed with ${validationErrors.length} error(s):`);
+    validationErrors.forEach((err) => console.error(`  - ${err}`));
+    console.error("\nAborting sync to prevent invalid data from being saved.");
+    process.exit(1);
+  }
+
+  console.log(`Sync summary: ${matchedCount} matched & synced, ${preservedCount} unmatched/preserved, 0 errors.`);
+
+  // Save updated programs.json
+  fs.writeFileSync(srcFile, JSON.stringify(programs, null, 2) + "\n");
+  console.log("✅ Updated app/components/Assets/programs.json with synced experience values");
+
+  // Pick only selected fields for public/programs.json
+  const filteredPrograms = programs.map(
+    ({ university_name, university_image, program_name, category, start_date, status, id, pid, duration, program_fee, required_years_experience }) => ({
+      university_name,
+      university_image,
+      program_name,
+      category,
+      start_date,
+      status,
+      url: `https://accredian.com/programs/${id}`,
+      id,
+      pid,
+      duration,
+      program_fee,
+      required_years_experience,
+    })
+  );
+
+  // Debug sample
+  console.log("Sample filtered program:", filteredPrograms[0]);
+
+  // Write filtered JSON to public
+  fs.writeFileSync(publicFile, JSON.stringify(filteredPrograms, null, 2) + "\n");
+
+  console.log("✅ Synced filtered programs.json to public");
 }
 
-console.log(`Sync summary: ${matchedCount} matched & synced, ${preservedCount} unmatched/preserved, ${missingExpCount} warnings.`);
+if (require.main === module) {
+  runSync();
+}
 
-// Save updated programs.json
-fs.writeFileSync(srcFile, JSON.stringify(programs, null, 2) + "\n");
-console.log("✅ Updated app/components/Assets/programs.json with synced experience values");
-
-// Pick only selected fields for public/programs.json
-const filteredPrograms = programs.map(
-  ({ university_name, university_image, program_name, category, start_date, status, id, pid, duration, program_fee, required_years_experience }) => ({
-    university_name,
-    university_image,
-    program_name,
-    category,
-    start_date,
-    status,
-    url: `https://accredian.com/programs/${id}`,
-    id,
-    pid,
-    duration,
-    program_fee,
-    required_years_experience,
-  })
-);
-
-// Debug sample
-console.log("Sample filtered program:", filteredPrograms[0]);
-
-// Write filtered JSON to public
-fs.writeFileSync(publicFile, JSON.stringify(filteredPrograms, null, 2) + "\n");
-
-console.log("✅ Synced filtered programs.json to public");
+module.exports = { validateExperience, runSync };

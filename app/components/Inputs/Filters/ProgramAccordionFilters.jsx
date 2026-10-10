@@ -21,7 +21,7 @@ const ProgramAccordionFilters = ({
           <div className="relative w-7 h-7 flex items-center justify-center">
             <label className="cbx">
               <div className="checkmark">
-                <input id="cbx" onChange={onFilterChange} type="checkbox" value={category} checked={checked?.includes(category)} />
+                <input onChange={onFilterChange} type="checkbox" value={category} checked={checked?.includes(category)} />
                 <div className="flip">
                   <div className="front"></div>
                   <div className="back"><svg viewBox="0 0 16 14" height="14" width="16"><path d="M2 8.5L6 12.5L14 1.5"></path></svg></div>
@@ -44,7 +44,7 @@ const ProgramAccordionFilters = ({
           <div className="relative w-7 h-7 flex items-center justify-center flex-shrink-0">
             <label className="cbx">
               <div className="checkmark">
-                <input id="cbx" onChange={onFilterChange} type="checkbox" value={category} checked={checked?.includes(category)} />
+                <input onChange={onFilterChange} type="checkbox" value={category} checked={checked?.includes(category)} />
                 <div className="flip">
                   <div className="front"></div>
                   <div className="back"><svg viewBox="0 0 16 14" height="14" width="16"><path d="M2 8.5L6 12.5L14 1.5"></path></svg></div>

@@ -28,7 +28,6 @@
   height: 100%;
 }
 
-#cbx,
 .checkmark input {
   display: none;
 }
@@ -42,7 +41,6 @@
   height: 13px;
 }
 
-#cbx:checked+.flip,
 .checkmark input:checked+.flip,
 .checkmark input:checked~.flip {
   transform: rotateY(180deg);

@@ -35,20 +35,12 @@ export default function Navbar3({ userInfo }) {
         <Strip />
         <Navbar />
       </div>
-      {/* skeleton */}
-      <div className='w-full md:hidden block z-20'
-      >
+      {/* skeleton for mobile fixed header document-flow spacing */}
+      <div className='w-full md:hidden block pointer-events-none invisible' aria-hidden="true">
         {/* <Strip user={userInfo} /> */}
-        <div
-          className="nav-3"
-        >
-          <div className='nav-3-inner px-4'>
-            <div className='nav-3-left'>
-              <div className='max-w-[125px] w-full'>
-                {/* <img className='w-full' alt='logo' src='https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp' /> */}
-              </div>
-            </div>
-          </div>
+        <div className="nav-3 flex flex-col items-center justify-center py-[0.6rem] w-full px-4">
+          <div className="nav-3-inner min-h-[60px]" />
+          <div className="w-full pt-2 pb-1 h-[48px]" />
         </div>
       </div>
     </>

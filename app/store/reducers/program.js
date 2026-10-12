@@ -1,9 +1,12 @@
-// store/reducers/program.ts
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+// store/reducers/program.js
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   checkedTags: [],
   checkedCategories: [],
+  checkedDurations: [],
+  checkedInstitutes: [],
+  checkedCareerLevels: [],
   data: null,
   state: "pending",
   brochureState: false,
@@ -18,10 +21,26 @@ const programSlice = createSlice({
   initialState,
   reducers: {
     setCheckedCategories: (state, action) => {
-      state.checkedCategories = action.payload;
+      state.checkedCategories = action.payload || [];
     },
     setCheckedTags: (state, action) => {
-      state.checkedTags = action.payload;
+      state.checkedTags = action.payload || [];
+    },
+    setCheckedDurations: (state, action) => {
+      state.checkedDurations = action.payload || [];
+    },
+    setCheckedInstitutes: (state, action) => {
+      state.checkedInstitutes = action.payload || [];
+    },
+    setCheckedCareerLevels: (state, action) => {
+      state.checkedCareerLevels = action.payload || [];
+    },
+    clearAllFilters: (state) => {
+      state.checkedCategories = [];
+      state.checkedTags = [];
+      state.checkedDurations = [];
+      state.checkedInstitutes = [];
+      state.checkedCareerLevels = [];
     },
     setData: (state, action) => {
       state.data = action.payload;

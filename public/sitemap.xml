@@ -80,6 +80,10 @@
         <loc>https://accredian.com/sitemaps/sitemap-programs-strategic-management.xml</loc>
         <lastmod>2026-10-10</lastmod>
     </sitemap>
+    <sitemap>
+        <loc>https://accredian.com/sitemaps/sitemap-programs.xml</loc>
+        <lastmod>2026-10-10</lastmod>
+    </sitemap>
 <sitemap>
         <loc>https://accredian.com/sitemaps/sitemap-static.xml</loc>
         <lastmod>2026-10-09</lastmod>

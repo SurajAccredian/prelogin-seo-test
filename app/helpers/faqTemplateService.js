@@ -496,8 +496,11 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iim_sirmaur_leadership_ai"
         : programData.id == "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era"
         ? "iim_sirmaur_strategy_leadership_innovation_ai"
-
+        : programData.id == "iim-bodh-gaya-senior-management-program"
+        ? "iim_bodh_gaya_smp"
+        
         : 'iitk';
+        
         
     const template = universityFaqTemplates[universityCode];
     console.log(template)

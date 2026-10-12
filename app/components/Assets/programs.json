@@ -31,7 +31,8 @@
     "start_date": "27 Sep 2026",
     "contact": "9211285411",
     "program_fee": 150000,
-    "pid": 168
+    "pid": 168,
+    "required_years_experience": 1
   },
   {
     "status": "New Launch",
@@ -65,43 +66,43 @@
     "start_date": "28 Jun 2026",
     "contact": "8851827053",
     "program_fee": 452500,
-    "pid": 138
+    "pid": 138,
+    "required_years_experience": 7
   },
-  
-{
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-  "university_name": "IIM Sirmaur",
-  "program_name": "Executive Program in Leadership with AI",
-  "duration": "6 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-  "batch_type": "Online",
-  "id": "iims-executive-program-in-leadership-with-ai",
-  "category": "artificial intelligence",
-  "tags": [
-    "Best Selling",
-    "Instructor Led",
-    "Online"
-  ],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
-    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
-    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "university_name": "IIM Sirmaur",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "6 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "batch_type": "Online",
+    "id": "iims-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Best Selling",
+      "Instructor Led",
+      "Online"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "9358719988",
+    "pid": 177,
+    "required_years_experience": 2
   },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "10 Jan 2027",
-  "contact": "9358719988",
-  "pid": 177
-},
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
@@ -130,7 +131,8 @@
     "start_date": "30 Aug 2026",
     "contact": "",
     "program_fee": 209000,
-    "pid": 164
+    "pid": 164,
+    "required_years_experience": 3
   },
   {
     "status": "New Launch",
@@ -164,7 +166,8 @@
     "start_date": "20 Sep 2026",
     "contact": "8851827093",
     "program_fee": 400000,
-    "pid": 163
+    "pid": 163,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -198,7 +201,8 @@
     "start_date": "20 Sep 2026",
     "contact": "8851827093",
     "program_fee": 400000,
-    "pid": 163
+    "pid": 163,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -234,7 +238,8 @@
     "start_date": "30 Aug 2026",
     "contact": "9211285411",
     "program_fee": 180000,
-    "pid": 136
+    "pid": 136,
+    "required_years_experience": 0
   },
   {
     "status": "New Launch",
@@ -270,7 +275,8 @@
     "start_date": "30 Aug 2026",
     "contact": "9211285411",
     "program_fee": 140000,
-    "pid": 135
+    "pid": 135,
+    "required_years_experience": 0
   },
   {
     "status": "New Launch",
@@ -300,7 +306,8 @@
     "start_date": "10 Jan 2027",
     "contact": "8851827093",
     "program_fee": 220000,
-    "pid": 161
+    "pid": 161,
+    "required_years_experience": 3
   },
   {
     "status": "New Launch",
@@ -315,7 +322,7 @@
     "tags": [],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf", 
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
       "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
       "campaign_name": "IIM-RANCHI-CHRO"
     },
@@ -330,7 +337,8 @@
     "start_date": "17 Jan 2027",
     "contact": "8851827093",
     "program_fee": 250000,
-    "pid": 162
+    "pid": 162,
+    "required_years_experience": 7
   },
   {
     "status": "New Launch",
@@ -360,7 +368,8 @@
     "start_date": "24 Jan 2027",
     "contact": "8851827093",
     "program_fee": 260000,
-    "pid": 159
+    "pid": 159,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -390,7 +399,8 @@
     "start_date": "29 Nov 2026",
     "contact": "8851827093",
     "program_fee": 180000,
-    "pid": 160
+    "pid": 160,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -425,7 +435,8 @@
     "start_date": "30 Aug 2026",
     "contact": "8851827093",
     "program_fee": 290000,
-    "pid": 158
+    "pid": 158,
+    "required_years_experience": 10
   },
   {
     "status": "New Launch",
@@ -442,6 +453,7 @@
       "tech risk management",
       "strategic communication"
     ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iim-ranchi-executive-program-in-leadership-with-ai-Brochure.pdf",
       "source": "IIM Ranchi Executive Program in Leadership with AI Brochure",
@@ -458,7 +470,8 @@
     "start_date": "15 Nov 2026",
     "contact": "8851827053",
     "program_fee": 199000,
-    "pid": 157
+    "pid": 157,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -497,7 +510,8 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
     "program_fee": 120000,
-    "pid": 155
+    "pid": 155,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -536,7 +550,8 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
     "program_fee": 120000,
-    "pid": 154
+    "pid": 154,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -575,7 +590,8 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
     "program_fee": 160000,
-    "pid": 153
+    "pid": 153,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -614,7 +630,8 @@
     "start_date": "26th Jul 2026",
     "contact": "9358719988",
     "program_fee": 160000,
-    "pid": 156
+    "pid": 156,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -653,7 +670,8 @@
     "start_date": "21st Jun 2026",
     "contact": "9358719988",
     "program_fee": 130000,
-    "pid": 147
+    "pid": 147,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -692,37 +710,39 @@
     "start_date": "21st Jun 2026",
     "contact": "9358719988",
     "program_fee": 160000,
-    "pid": 148
+    "pid": 148,
+    "required_years_experience": 5
   },
   {
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
-  "university_name": "IIM Bodh Gaya",
-  "program_name": "Senior Management Program ",
-  "duration": "11 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
-  "batch_type": "Online",
-  "id": "iim-bodh-gaya-senior-management-program",
-  "category": "senior management",
-  "tags": [],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTBODHGAYA-Senior-Management-Program.pdf",
-    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
-    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+    "university_name": "IIM Bodh Gaya",
+    "program_name": "Senior Management Program ",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+    "batch_type": "Online",
+    "id": "iim-bodh-gaya-senior-management-program",
+    "category": "senior management",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTBODHGAYA-Senior-Management-Program.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "24 Jan 2027 ",
+    "contact": "8851827093",
+    "pid": 181,
+    "required_years_experience": 5
   },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "24 Jan 2027 ",
-  "contact": "8851827093",
-  "pid": 181
-},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
@@ -738,6 +758,7 @@
       "tech risk management",
       "strategic communication"
     ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIM-Ranchi-Senior-Management-Program-Brochure.pdf",
       "source": "IIM Ranchi Senior Management Brochure",
@@ -754,36 +775,38 @@
     "start_date": "24 Jan 2027",
     "contact": "8851827053",
     "program_fee": 260000,
-    "pid": 146
+    "pid": 146,
+    "required_years_experience": 10
   },
   {
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
-  "university_name": "IIM Ranchi",
-  "program_name": "CTO & AI Leadership Program",
-  "duration": "12 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
-  "batch_type": "Online",
-  "id": "iimr-cto-ai-leadership-program",
-  "category": "cxo leadership",
-  "tags": [],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-CTO-AI-Leadership-Program.pdf",
-    "source": "IIM-RANCHI CTO & AI Leadership Programme Brochure",
-    "campaign_name": "IIM-RANCHI-Chief Technology Officer"
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "CTO & AI Leadership Program",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-cto-ai-leadership-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-CTO-AI-Leadership-Program.pdf",
+      "source": "IIM-RANCHI CTO & AI Leadership Programme Brochure",
+      "campaign_name": "IIM-RANCHI-Chief Technology Officer"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "31 Jan 2027",
+    "contact": "8851827053",
+    "required_years_experience": 5
   },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "31 Jan 2027",
-  "contact": "8851827053"
-},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp",
@@ -794,6 +817,7 @@
     "batch_type": "Online",
     "id": "iima-senior-management-program",
     "category": "senior management",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "tags": [
       "technology strategy",
       "tech risk management",
@@ -815,7 +839,8 @@
     "start_date": "26 Jul 2026",
     "contact": "8851827053",
     "program_fee": 210000,
-    "pid": 142
+    "pid": 142,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -853,7 +878,8 @@
     "start_date": "26 July 2026",
     "contact": "9289224842",
     "program_fee": 330000,
-    "pid": 150
+    "pid": 150,
+    "required_years_experience": 8
   },
   {
     "status": "admission closed",
@@ -887,7 +913,8 @@
     "start_date": "28 Jun 2026",
     "contact": "8851827053",
     "program_fee": 179000,
-    "pid": 140
+    "pid": 140,
+    "required_years_experience": 1
   },
   {
     "status": "admission closed",
@@ -921,7 +948,8 @@
     "start_date": "28 Jun 2026",
     "contact": "8851827053",
     "program_fee": 180000,
-    "pid": 139
+    "pid": 139,
+    "required_years_experience": 1
   },
   {
     "status": "New Launch",
@@ -955,7 +983,8 @@
     "start_date": "30 May 2026",
     "contact": "8851827053",
     "program_fee": 242500,
-    "pid": 137
+    "pid": 137,
+    "required_years_experience": 1
   },
   {
     "status": "New Launch",
@@ -993,7 +1022,8 @@
     "start_date": "28 June 2026",
     "contact": "8851827053",
     "program_fee": 400000,
-    "pid": 141
+    "pid": 141,
+    "required_years_experience": 10
   },
   {
     "status": "New Launch",
@@ -1032,35 +1062,38 @@
     "start_date": "10 Jan 2027",
     "contact": "9358719988",
     "program_fee": 169000,
-    "pid": 144
-  },{
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
-  "university_name": "IITM Pravartak",
-  "program_name": "Executive Program in Technology Leadership & Innovation",
-  "duration": "9 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
-  "batch_type": "Online",
-  "id": "executive-program-in-technology-leadership-innovation",
-  "category": "strategy & leadership",
-  "tags": [],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITMADRASPRAVARTAK-Executive-Program-In-Technology-Leadership-Innovation.pdf",
-    "source": "IIT-MADRAS-PRAVARTAK Executive Program in Technology Leadership & Innovation Brochure",
-    "campaign_name": "IIT-MADRAS-PRAVARTAK-Technology Leadership"
+    "pid": 144,
+    "required_years_experience": 5
   },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+    "university_name": "IITM Pravartak",
+    "program_name": "Executive Program in Technology Leadership & Innovation",
+    "duration": "9 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+    "batch_type": "Online",
+    "id": "executive-program-in-technology-leadership-innovation",
+    "category": "strategy & leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITMADRASPRAVARTAK-Executive-Program-In-Technology-Leadership-Innovation.pdf",
+      "source": "IIT-MADRAS-PRAVARTAK Executive Program in Technology Leadership & Innovation Brochure",
+      "campaign_name": "IIT-MADRAS-PRAVARTAK-Technology Leadership"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "8882597163",
+    "required_years_experience": 5
   },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "10 Jan 2027",
-  "contact": "8882597163"
-},
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
@@ -1098,7 +1131,8 @@
     "start_date": "10 Jan 2027",
     "contact": "9358719988",
     "program_fee": 139000,
-    "pid": 145
+    "pid": 145,
+    "required_years_experience": 5
   },
   {
     "status": "admission closed",
@@ -1132,7 +1166,8 @@
     "start_date": "22 Feb 2026",
     "contact": "9115924967",
     "program_fee": 250000,
-    "pid": 90
+    "pid": 90,
+    "required_years_experience": 10
   },
   {
     "status": "admission closed",
@@ -1166,7 +1201,8 @@
     "start_date": "22 Feb 2026",
     "contact": "9115924967",
     "program_fee": 250000,
-    "pid": 90
+    "pid": 90,
+    "required_years_experience": 10
   },
   {
     "status": "admission closed",
@@ -1200,7 +1236,8 @@
     "start_date": "24 May 2026",
     "contact": "8130897175",
     "program_fee": 484300,
-    "pid": 127
+    "pid": 127,
+    "required_years_experience": 3
   },
   {
     "status": "admission closed",
@@ -1234,7 +1271,8 @@
     "start_date": "9 May 2026",
     "contact": "7678385465",
     "program_fee": 180000,
-    "pid": 131
+    "pid": 131,
+    "required_years_experience": 5
   },
   {
     "status": "admission closed",
@@ -1268,7 +1306,8 @@
     "start_date": "18 Jan 2026",
     "contact": "8851827093",
     "program_fee": 210000,
-    "pid": 129
+    "pid": 129,
+    "required_years_experience": 5
   },
   {
     "status": "admission closed",
@@ -1302,44 +1341,43 @@
     "start_date": "10 May 2026",
     "contact": "8851827093",
     "program_fee": 300000,
-    "pid": 125
+    "pid": 125,
+    "required_years_experience": 5
   },
-
-
   {
-  "status": "New Launch",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-  "university_name": "IIM Sirmaur",
-  "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
-  "duration": "8 Months",
-  "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
-  "batch_type": "Online",
-  "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
-  "category": "strategy & leadership",
-  "tags": [
-    "Instructor Led",
-    "Best Selling",
-    "New"
-  ],
-  "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-  "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Strategy-Leadership-Innovation-In-AI-Era.pdf",
-    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Strategy Leadership & Innovation in AI Era Brochure",
-    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Strategy & Leadership-8 Months"
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "university_name": "IIM Sirmaur",
+    "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "batch_type": "Online",
+    "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
+    "category": "strategy & leadership",
+    "tags": [
+      "Instructor Led",
+      "Best Selling",
+      "New"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Strategy-Leadership-Innovation-In-AI-Era.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Strategy Leadership & Innovation in AI Era Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Strategy & Leadership-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "8851827093",
+    "pid": 176,
+    "required_years_experience": 3
   },
-  "enrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "notEnrolled": {
-    "referrerBonus": "₹3,000",
-    "refreeBonus": "₹3,000"
-  },
-  "start_date": "10 Jan 2027",
-  "contact": "8851827093",
-  "pid": 176
-},
-
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
@@ -1376,7 +1414,8 @@
     "start_date": "12 July 2026",
     "contact": "9289224842",
     "program_fee": 240000,
-    "pid": 104
+    "pid": 104,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -1410,7 +1449,8 @@
     "start_date": "13 Sep 2026",
     "contact": "7678385465",
     "program_fee": 245000,
-    "pid": 173
+    "pid": 173,
+    "required_years_experience": 5
   },
   {
     "status": "admission closed",
@@ -1444,7 +1484,8 @@
     "start_date": "30 Nov 2025",
     "contact": "8851827053",
     "program_fee": 425000,
-    "pid": 126
+    "pid": 126,
+    "required_years_experience": 1
   },
   {
     "status": "admission closed",
@@ -1478,7 +1519,8 @@
     "start_date": "16 May 2026",
     "contact": "8851827093",
     "program_fee": 290000,
-    "pid": 123
+    "pid": 123,
+    "required_years_experience": 10
   },
   {
     "status": "admission closed",
@@ -1512,7 +1554,8 @@
     "start_date": "26 Oct 2025",
     "contact": "8882597163",
     "program_fee": 290000,
-    "pid": 121
+    "pid": 121,
+    "required_years_experience": 10
   },
   {
     "status": "New Launch",
@@ -1546,7 +1589,8 @@
     "start_date": "19 Apr 2026",
     "contact": "8851827053",
     "program_fee": 349000,
-    "pid": 120
+    "pid": 120,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -1582,7 +1626,8 @@
     "start_date": "29 Nov 2026",
     "contact": "9211285411",
     "program_fee": 140000,
-    "pid": 118
+    "pid": 118,
+    "required_years_experience": 1
   },
   {
     "status": "New Launch",
@@ -1618,7 +1663,8 @@
     "start_date": "29 Nov 2026",
     "contact": "9211285411",
     "program_fee": 180000,
-    "pid": 119
+    "pid": 119,
+    "required_years_experience": 1
   },
   {
     "status": "admission closed",
@@ -1652,7 +1698,8 @@
     "start_date": "22 Feb 2026",
     "contact": "7619555873",
     "program_fee": 350000,
-    "pid": 117
+    "pid": 117,
+    "required_years_experience": 10
   },
   {
     "status": "admission closed",
@@ -1686,7 +1733,8 @@
     "start_date": "17 May 2025",
     "contact": "8851827093",
     "program_fee": 350000,
-    "pid": 112
+    "pid": 112,
+    "required_years_experience": 10
   },
   {
     "status": "New Launch",
@@ -1724,7 +1772,8 @@
     "start_date": "30 Aug 2026",
     "contact": "8826567425",
     "program_fee": 240000,
-    "pid": 110
+    "pid": 110,
+    "required_years_experience": 3
   },
   {
     "status": "New Launch",
@@ -1759,7 +1808,8 @@
     "start_date": "27 Sep 2026",
     "contact": "8851827053",
     "program_fee": 400000,
-    "pid": 172
+    "pid": 172,
+    "required_years_experience": 10
   },
   {
     "status": "admission closed",
@@ -1791,7 +1841,8 @@
     "start_date": "25 May 2025",
     "contact": "8595709940",
     "program_fee": 270000,
-    "pid": 63
+    "pid": 63,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -1829,7 +1880,8 @@
     "start_date": "05 Jul 2026",
     "contact": "8882597163",
     "program_fee": 280000,
-    "pid": 105
+    "pid": 105,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -1863,7 +1915,8 @@
     "start_date": "21 Jun 2026",
     "contact": "9289224842",
     "program_fee": 349000,
-    "pid": 170
+    "pid": 170,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -1897,7 +1950,8 @@
     "start_date": "21 Jun 2026",
     "contact": "9289224842",
     "program_fee": 349000,
-    "pid": 170
+    "pid": 170,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -1935,7 +1989,8 @@
     "start_date": "29 Mar 2026",
     "contact": "8882597163",
     "program_fee": 260000,
-    "pid": 103
+    "pid": 103,
+    "required_years_experience": 5
   },
   {
     "status": "New Launch",
@@ -1964,7 +2019,8 @@
     },
     "start_date": "17 Jan 2027",
     "contact": "",
-    "pid": 171
+    "pid": 171,
+    "required_years_experience": 8
   },
   {
     "status": "admission closed",
@@ -1998,7 +2054,8 @@
     "start_date": "2 Feb 2025",
     "contact": "8851827053",
     "program_fee": 270000,
-    "pid": 91
+    "pid": 91,
+    "required_years_experience": 0
   },
   {
     "status": "New Launch",
@@ -2035,7 +2092,8 @@
     "start_date": "27 Sep 2026",
     "contact": "8851827093",
     "program_fee": 349000,
-    "pid": 69
+    "pid": 69,
+    "required_years_experience": 10
   },
   {
     "status": "admission closed",
@@ -2069,7 +2127,8 @@
     "start_date": "20 Oct 2024",
     "contact": "8826567425",
     "program_fee": 260000,
-    "pid": 72
+    "pid": 72,
+    "required_years_experience": 3
   },
   {
     "status": "New Launch",
@@ -2086,7 +2145,8 @@
       "Productivity",
       "Microsoft 365"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "required_years_experience": 0
   },
   {
     "status": "New Launch",
@@ -2103,10 +2163,9 @@
       "Productivity",
       "Microsoft 365"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "required_years_experience": 0
   },
-
-   
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
@@ -2122,8 +2181,9 @@
       "Productivity",
       "free course"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp"
-  }, 
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
+    "required_years_experience": 0
+  },
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
@@ -2139,6 +2199,7 @@
       "Productivity",
       "free course"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp"
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
+    "required_years_experience": 0
   }
 ]

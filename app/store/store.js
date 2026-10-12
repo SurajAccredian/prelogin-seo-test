@@ -17,6 +17,9 @@ const initialState = {
   program: {
     checkedTags: [],
     checkedCategories: [],
+    checkedDurations: [],
+    checkedInstitutes: [],
+    checkedCareerLevels: [],
     data: null,
     state: "pending",
     brochureState: false,

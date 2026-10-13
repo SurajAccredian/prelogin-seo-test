@@ -4,6 +4,9 @@ export const metadata = {
   title: "Accredian Mobile App | Your IIT & IIM Program in Your Pocket",
   description:
     "Download the Accredian mobile app. Join live faculty-led classes, access learning resources and course materials offline, and track your program progress seamlessly on your mobile device.",
+  alternates: {
+    canonical: "/app",
+  },
 };
 
 export default function AppLandingPage() {

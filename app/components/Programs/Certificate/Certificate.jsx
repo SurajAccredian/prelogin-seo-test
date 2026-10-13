@@ -15,8 +15,9 @@ import "swiper/css/navigation";
 import "swiper/css";
 import "./certificate.css";
 SwiperCore.use([Navigation, Autoplay]);
-const Certificate = () => {
-  const { data } = useSelector((state) => state.program);
+const Certificate = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
   const [isOpen, setIsCertificateModalOpen] = useState(false);
   const [isShowLarge, setIsShowLarge] = useState(null);
   const paginationRef = useRef(null);

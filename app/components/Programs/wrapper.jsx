@@ -1,3 +1,5 @@
+"use client";
+
 import ProgramWrapper from "../Wrapper/ProgramWrapper";
 import Admission from "./Admission/Admission";
 import Billing from "./Billing/Billing";
@@ -27,52 +29,52 @@ const Wrapper = ({ data }) => {
       case "overview":
         return (
           <>
-            <Info />
+            <Info data={data} />
             <Line />
-            <Overview />
+            <Overview data={data} />
             <Line />
           </>
         );
       case "curriculum":
-        return <Curriculum />;
+        return <Curriculum data={data} />;
       case "tools":
         return (
           <>
             <Line />
-            <Tools />
+            <Tools data={data} />
           </>
         );
       case "unique points":
-        return <USP />;
+        return <USP data={data} />;
       case "faculty":
-        return <Faculty />;
+        return <Faculty data={data} />;
       case "projects":
-        return <Projects />;
+        return <Projects data={data} />;
       case "certificate":
         return (
           <>
-            <Certificate />
+            <Certificate data={data} />
             <Line />
           </>
         );
       case "top companies":
-        return <Companies />;
+        return <Companies data={data} />;
       case "career transition":
-        return <Transition />;
+        return <Transition data={data} />;
       case "extra achievements":
-        return <ExtraPoints />;
+        return <ExtraPoints data={data} />;
       case "program fee":
         return (
           <>
             <Line />
-            <Billing />
+            <Billing data={data} />
             <Line />
-            <Admission />
+            <Admission data={data} />
             <Line />
           </>
         );
       case "FAQs":
-        return <FAQ />;
+        return <FAQ data={data} />;
       default:
         return null;
     }
@@ -83,7 +85,7 @@ const Wrapper = ({ data }) => {
     <FraudNotificationStrip />
     <ProgramWrapper>
       <div className="programs w-full min-h-screen flex justify-center flex-col items-center font-circular">
-        <Hero />
+        <Hero data={data} />
         <div className="w-full">
           {data && data?.sections?.map((section, index) => (
             <div key={index}>
@@ -91,8 +93,8 @@ const Wrapper = ({ data }) => {
             </div>
           ))}
           <Line />
-          <Related />
-          <CTA />
+          <Related data={data} />
+          <CTA data={data} />
         </div>
       </div>
     </ProgramWrapper>

@@ -11,8 +11,9 @@ import { IoBagHandleSharp } from "react-icons/io5";
 import { FaGraduationCap } from "react-icons/fa6";
 import { LuPackagePlus } from "react-icons/lu";
 import { BookHeadphones, BookOpenText, ShieldQuestion } from "lucide-react";
-const WhyAccredian = () => {
-  const { data } = useSelector((state) => state.program);
+const WhyAccredian = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
 
   return (
     <div

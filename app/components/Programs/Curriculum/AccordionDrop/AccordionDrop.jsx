@@ -22,9 +22,11 @@ export default function AccordionFilter({
   setOpenAll,
   curriculum = [],
   type = "modules",
+  data: propData,
 }) {
   const [expanded, setExpanded] = useState({});
-  const { data } = useSelector((state) => state.program);
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded((prevExpanded) => {

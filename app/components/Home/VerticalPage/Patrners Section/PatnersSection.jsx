@@ -4,8 +4,9 @@ import { useSelector } from "react-redux";
 
 import Patners from "./Patners.css";
 
-const Partners = () => {
-  const { data } = useSelector((state) => state.program);
+const Partners = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
   const universitiesURL = {
     iitg: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
     iimv: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",

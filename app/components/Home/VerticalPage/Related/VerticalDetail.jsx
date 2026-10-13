@@ -29,16 +29,29 @@ import { useProgramStatuses } from "../../../../helpers/useProgramStatuses";
 
 SwiperCore.use([EffectCoverflow, Navigation, Autoplay]);
 
-const VerticalDetail = () => {
-  const { data } = useSelector((state) => state.program);
+const VerticalDetail = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
   const dispatch = useDispatch();
   const { getProgramStatus } = useProgramStatuses();
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
   const [verticalPrograms, setVerticalPrograms] = useState([]);
   const [swiper, setSwiper] = useState(null);
-  const { category } = useParams();
-  const [categorizedPrograms, setCategorizedPrograms] = useState([]);
+  const params = useParams();
+  const category = params?.category;
+
+  const getFiltered = (cat) => {
+    if (!cat) return [];
+    const catStr = Array.isArray(cat) ? cat[0] : String(cat);
+    const sanitized = catStr.replace(/-/g, " ").toLowerCase();
+    return PROGRAMS.filter(
+      (program) =>
+        program.category?.toLowerCase() === sanitized
+    );
+  };
+
+  const [categorizedPrograms, setCategorizedPrograms] = useState(() => getFiltered(category));
   useEffect(() => {
     if (swiper) {
       swiper.el.onmouseover = () => {
@@ -51,14 +64,7 @@ const VerticalDetail = () => {
   }, [swiper]);
 
   useEffect(() => {
-    // Filter programs based on the category from URL
-    const sanitizedCategory = category.replace(/-/g, " ").toLowerCase();
-    const filteredPrograms = PROGRAMS.filter(
-      (program) =>
-        program.category.toLowerCase() === sanitizedCategory.toLowerCase()
-    );
-
-    setCategorizedPrograms(filteredPrograms);
+    setCategorizedPrograms(getFiltered(category));
   }, [category]);
 
   // console.log(categorizedPrograms)

@@ -158,7 +158,7 @@ const Intro = () => {
                   if (el) cardsRef.current[index] = el;
                 }}
               >
-                <div className="relative w-full h-full bg-[#D4E5FC">
+                <div className="relative w-full h-full bg-[#D4E5FC]">
                   <div className="absolute inset-0 flex flex-col md:flex-row">
                     {/* Text Content */}
                     <div className="w-full pt-32 md:pt-0 md:w-1/2 flex items-center justify-center px-6 sm:px-8 lg:px-12 py-8 bg-[#D4E5FC] z-10">

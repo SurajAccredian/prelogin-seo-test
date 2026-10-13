@@ -3,9 +3,11 @@ import Rcta from "../../../cta/request_a_call_back";
 import HeroCss from "./Hero.css";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { useSelector } from "react-redux";
-const Hero = () => {
+const Hero = ({ data: propData }) => {
   const [cta, setCta] = useState(false);
-  const { data } = useSelector((state) => state.program);
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram?.data;
+  if (!data) return null;
   const handleClickOpenRcb = () => {
     setCta(true);
   };

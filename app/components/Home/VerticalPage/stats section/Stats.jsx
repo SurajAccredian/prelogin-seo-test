@@ -1,7 +1,11 @@
 import { useSelector } from "react-redux";
 
-const Stats = () => {
-  const { data } = useSelector((state) => state.program);
+const Stats = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
+
+  if (!data?.stats) return null;
+
   return (
     <div
       id="stats"

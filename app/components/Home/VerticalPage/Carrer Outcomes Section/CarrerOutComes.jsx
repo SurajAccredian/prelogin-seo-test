@@ -13,8 +13,9 @@ import "./CarrerOutComes.css";
 import { useSelector } from "react-redux";
 import Disclaimer from "../../../Programs/Disclaimer";
 
-const CarrerOutComes = () => {
-  const { data } = useSelector((state) => state.program);
+const CarrerOutComes = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
 
   return (
     <div

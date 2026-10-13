@@ -1,4 +1,5 @@
 import "./hero.css";
+import Image from "next/image";
 import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -6,30 +7,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { MoveRight, PhoneCall } from "lucide-react";
-import { useEffect } from "react";
 import RctaABTesting from "../../cta/request_a_call_back";
 
 const Hero = () => {
-  useEffect(() => {
-    const lazyBackgrounds = document.querySelectorAll(".lazy-bg");
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const bg = entry.target.getAttribute("data-bg");
-          if (bg) {
-            entry.target.style.backgroundImage = `url(${bg})`;
-            entry.target.classList.remove("lazy-bg");
-            observer.unobserve(entry.target);
-          }
-        }
-      });
-    });
-
-    lazyBackgrounds.forEach((bg) => observer.observe(bg));
-
-    return () => observer.disconnect();
-  }, []);
   const [cta, setCta] = useState(false);
   const swiperRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
@@ -149,10 +129,16 @@ const Hero = () => {
                 {/* Mobile Layout */}
                 <div className="mobile-hero-layout">
                   {/* Top Image Section */}
-                  <div
-                    className="mobile-hero-image lazy-bg"
-                    data-bg={slide.mobileBackgroundImage || slide.backgroundImage}
-                  />
+                  <div className="mobile-hero-image overflow-hidden relative">
+                    <Image
+                      src={slide.mobileBackgroundImage || slide.backgroundImage}
+                      alt={slide.title}
+                      fill
+                      priority={index === 0}
+                      sizes="100vw"
+                      className="object-cover"
+                    />
+                  </div>
 
                   {/* Overlapping Content Card */}
                   <div className="mobile-content-card">
@@ -263,10 +249,16 @@ const Hero = () => {
                 {/* Desktop/Tablet Layout */}
                 <div className="desktop-hero-layout">
                   {/* Desktop Background Image - Right Side */}
-                  <div
-                    className="hero-background-desktop lazy-bg"
-                    data-bg={slide.backgroundImage}
-                  />
+                  <div className="hero-background-desktop overflow-hidden relative">
+                    <Image
+                      src={slide.backgroundImage}
+                      alt={slide.title}
+                      fill
+                      priority={index === 0}
+                      sizes="(max-width: 1024px) 100vw, 60vw"
+                      className="object-cover object-left"
+                    />
+                  </div>
 
                   {/* Gradient Overlays */}
                   <div className="hero-gradient-overlay" />

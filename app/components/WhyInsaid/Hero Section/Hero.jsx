@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Image from "next/image";
 import "./whyaccredian.css";
 import CtaModal from "../CTA/CtaModal";
 import { CircleCheck } from "lucide-react";
@@ -57,10 +58,13 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex w-full sm:w-1/2 sm:justify-end sm:items-end justify-center">
-            <img
+            <Image
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/whyAccredianHeader-v2-updated.webp"
-              alt="headerImage"
-              className="sm:w-full sm:h-full h-[80%] w-[80%]"
+              alt="Why Accredian Header"
+              width={600}
+              height={500}
+              priority
+              className="sm:w-full sm:h-full h-[80%] w-[80%] object-contain"
             />
           </div>
         </div>

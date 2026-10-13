@@ -22,8 +22,9 @@ import { FileCog, ScrollText, Trophy } from "lucide-react";
 import { GiDiploma } from "react-icons/gi";
 import { FcDiploma1 } from "react-icons/fc";
 
-const USP = () => {
-  const { data } = useSelector((state) => state.program);
+const USP = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   return (
     <div

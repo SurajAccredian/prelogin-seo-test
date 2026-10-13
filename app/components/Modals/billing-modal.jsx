@@ -61,7 +61,7 @@ export default function BillingModal({ open, setOpen }) {
                         Months
                       </th>
                       <th className="border border-neutral-200 px-4 py-2">
-                        {data.id === "executive-general-management-program"
+                        {data?.id === "executive-general-management-program"
                           ? "EMI (Range)"
                           : "EMI"}
                       </th>

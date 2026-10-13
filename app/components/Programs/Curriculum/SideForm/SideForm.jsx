@@ -18,8 +18,9 @@ import { getFbc, getFbp } from "../../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../../helpers/ip.helpers";
 import "react-phone-input-2/lib/style.css";
 
-const SideForm = () => {
-  const { data } = useSelector((state) => state.program);
+const SideForm = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   const searchParams = useSearchParams();
   const pathname = usePathname();

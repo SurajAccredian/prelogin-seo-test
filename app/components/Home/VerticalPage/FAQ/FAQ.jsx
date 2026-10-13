@@ -5,8 +5,9 @@ import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { IoIosArrowForward } from "react-icons/io";
 
-const FAQ = () => {
-  const { data } = useSelector((state) => state.program);
+const FAQ = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
   const [activeTab, setActiveTab] = useState("General Program Information");
   const [isOpen, setIsOpen] = useState(null);
   const [points, setPoints] = useState([]);
@@ -18,7 +19,7 @@ const FAQ = () => {
   };
 
   useEffect(() => {
-    if (data?.faq.points) {
+    if (data?.faq?.points) {
       const contents = data?.faq?.points.find(
         (val) => val.title.toLowerCase() === activeTab.toLowerCase()
       );

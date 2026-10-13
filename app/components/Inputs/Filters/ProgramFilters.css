@@ -1,39 +1,55 @@
 .cbx {
   -webkit-perspective: 20;
   perspective: 20;
-  position: absolute;
-  margin: -12px;
-  border: 2px solid #e8e8eb;
-  background: #e8e8eb;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid #d1d5db;
+  background: #ffffff;
   border-radius: 4px;
-  transform: translate3d(0, 0, 0);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
 }
 
-.search-page .cbx:hover {
+.search-page .cbx:hover,
+.group:hover .cbx {
   border-color: #0b76ef;
+}
+
+.checkmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.checkmark input {
+  display: none;
 }
 
 .flip {
   display: block;
-  transition: all 0.4s ease;
+  transition: all 0.25s ease;
   transform-style: preserve-3d;
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
 }
 
-#cbx {
-  display: none;
-}
-
-#cbx:checked+.cbx {
-  border-color: #0b76ef;
-}
-
-#cbx:checked+.flip {
+.checkmark input:checked+.flip,
+.checkmark input:checked~.flip {
   transform: rotateY(180deg);
+}
+
+.checkmark:has(input:checked),
+.cbx:has(input:checked) {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
 }
 
 .front,
@@ -42,13 +58,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
   border-radius: 2px;
 }
 
 .front {
-  background: #fff;
+  background: transparent;
   z-index: 1;
 }
 
@@ -57,16 +73,16 @@
   background: #0b76ef;
   text-align: center;
   color: #fff;
-  line-height: 20px;
-  box-shadow: 0 0 0 1px #0b76ef;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .back svg {
-  margin-top: 3px;
-  margin-left: 3px;
   fill: none;
-  width: 70%;
-  height: 70%;
+  width: 10px;
+  height: 10px;
 }
 
 .back svg path {
@@ -75,3 +91,4 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+

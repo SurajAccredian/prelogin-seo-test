@@ -208,7 +208,7 @@ const Footer = () => {
                 </Typography>
                 <ul className="footer-body-content">
                   <li className="pt-4">
-                    <Link href="/About" prefetch={false} style={{ textDecoration: "none" }}>
+                    <Link href="/about" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",

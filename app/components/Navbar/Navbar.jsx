@@ -22,6 +22,7 @@ import { useRouter } from "next/navigation";
 import Ham from "../Drawers/Drawer/Ham";
 import ExploreDrawer from "../Drawers/Drawer/ExploreDrawer";
 import Authdrawer from "../Drawers/Auth Drawers/Authdrawer";
+import GlobalSearch from "./GlobalSearch/GlobalSearch";
 
 export const shouldUseNewDashboard = () => {
   const enrollmentStatus = localStorage.getItem("enrollmentStatus");
@@ -367,7 +368,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-3 flex justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
+      <div className="nav-3 flex flex-col items-center justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
         <div className="nav-3-inner">
           <div className="nav-3-left">
             <Link href={"/"} prefetch={false} style={{ textDecoration: "none" }}>
@@ -383,6 +384,9 @@ export default function Navbar() {
               </div>
             </Link>
             <ExploreDropDown />
+            <div className="hidden md:flex justify-center flex-1 max-w-[320px] lg:max-w-[360px] xl:max-w-[400px] rounded-md">
+              <GlobalSearch />
+            </div>
           </div>
           <div className="nav-3-right">
             <div className="nav-3-right-inner">
@@ -546,6 +550,10 @@ export default function Navbar() {
               onClick={() => setIsOpenHam(!isOpenHam)}
             />
           </div>
+        </div>
+        {/* Mobile / Tablet Second Row: Full-width Global Search */}
+        <div className="w-full md:hidden pt-2 pb-1 max-w-[85rem]">
+          <GlobalSearch className="!max-w-full w-full" />
         </div>
       </div>
       <Ham

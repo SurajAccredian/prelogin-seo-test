@@ -10,7 +10,8 @@
     "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
     "pid": 168,
     "duration": "5 Months",
-    "program_fee": 150000
+    "program_fee": 150000,
+    "required_years_experience": 1
   },
   {
     "university_name": "IIM Lucknow",
@@ -23,7 +24,8 @@
     "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
     "pid": 138,
     "duration": "11 Months",
-    "program_fee": 452500
+    "program_fee": 452500,
+    "required_years_experience": 7
   },
   {
     "university_name": "IIM Sirmaur",
@@ -35,7 +37,8 @@
     "url": "https://accredian.com/programs/iims-executive-program-in-leadership-with-ai",
     "id": "iims-executive-program-in-leadership-with-ai",
     "pid": 177,
-    "duration": "6 Months"
+    "duration": "6 Months",
+    "required_years_experience": 2
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -48,7 +51,8 @@
     "id": "iimt-certificate-programme-in-leadership-with-ai",
     "pid": 164,
     "duration": "8 Months",
-    "program_fee": 209000
+    "program_fee": 209000,
+    "required_years_experience": 3
   },
   {
     "university_name": "IIM Lucknow",
@@ -61,7 +65,8 @@
     "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
     "pid": 163,
     "duration": "10 Months",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "required_years_experience": 8
   },
   {
     "university_name": "IIM Lucknow",
@@ -74,7 +79,8 @@
     "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
     "pid": 163,
     "duration": "10 Months",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "required_years_experience": 8
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -87,7 +93,8 @@
     "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
     "pid": 136,
     "duration": "8 Months",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "required_years_experience": 0
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -100,7 +107,8 @@
     "id": "advanced-certificate-program-in-strategic-project-management",
     "pid": 135,
     "duration": "5 Months",
-    "program_fee": 140000
+    "program_fee": 140000,
+    "required_years_experience": 0
   },
   {
     "university_name": "IIM Ranchi",
@@ -113,7 +121,8 @@
     "id": "iimr-executive-program-in-strategic-hr-leadership",
     "pid": 161,
     "duration": "10 Months",
-    "program_fee": 220000
+    "program_fee": 220000,
+    "required_years_experience": 3
   },
   {
     "university_name": "IIM Ranchi",
@@ -126,7 +135,8 @@
     "id": "iimr-chief-human-resource-officer-programme-the-chro-program",
     "pid": 162,
     "duration": "12 Months",
-    "program_fee": 250000
+    "program_fee": 250000,
+    "required_years_experience": 7
   },
   {
     "university_name": "IIM Ranchi",
@@ -139,7 +149,8 @@
     "id": "iimr-executive-program-in-strategy-leadership",
     "pid": 159,
     "duration": "11 Months",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Ranchi",
@@ -152,7 +163,8 @@
     "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
     "pid": 160,
     "duration": "7 Months",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Kashipur",
@@ -165,7 +177,8 @@
     "id": "iim-kashipur-chief-operating-officer-program",
     "pid": 158,
     "duration": "12 Months",
-    "program_fee": 290000
+    "program_fee": 290000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Ranchi",
@@ -178,7 +191,8 @@
     "id": "iim-ranchi-executive-program-in-leadership-with-ai",
     "pid": 157,
     "duration": "8 Months",
-    "program_fee": 199000
+    "program_fee": 199000,
+    "required_years_experience": 5
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -191,7 +205,8 @@
     "id": "iit-jammu-advanced-certificate-in-ai-for-leaders",
     "pid": 155,
     "duration": "5 Months",
-    "program_fee": 120000
+    "program_fee": 120000,
+    "required_years_experience": 5
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -204,7 +219,8 @@
     "id": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders",
     "pid": 154,
     "duration": "5 Months",
-    "program_fee": 120000
+    "program_fee": 120000,
+    "required_years_experience": 5
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -217,7 +233,8 @@
     "id": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
     "pid": 153,
     "duration": "8 Months",
-    "program_fee": 160000
+    "program_fee": 160000,
+    "required_years_experience": 5
   },
   {
     "university_name": "I3C-IIT JAMMU",
@@ -230,7 +247,8 @@
     "id": "iit-jammu-executive-program-in-leadership-with-ai",
     "pid": 156,
     "duration": "8 Months",
-    "program_fee": 160000
+    "program_fee": 160000,
+    "required_years_experience": 5
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -243,7 +261,8 @@
     "id": "professional-certificate-in-ai-for-leaders",
     "pid": 147,
     "duration": "4 Months",
-    "program_fee": 130000
+    "program_fee": 130000,
+    "required_years_experience": 5
   },
   {
     "university_name": "SP Jain School of Global Management",
@@ -256,7 +275,8 @@
     "id": "sp-jain-executive-program-in-leadership-with-ai",
     "pid": 148,
     "duration": "7 Months",
-    "program_fee": 160000
+    "program_fee": 160000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Bodh Gaya",
@@ -268,7 +288,8 @@
     "url": "https://accredian.com/programs/iim-bodh-gaya-senior-management-program",
     "id": "iim-bodh-gaya-senior-management-program",
     "pid": 181,
-    "duration": "11 Months"
+    "duration": "11 Months",
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Ranchi",
@@ -281,7 +302,8 @@
     "id": "iim-ranchi-senior-management-program",
     "pid": 146,
     "duration": "12 Months",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Ranchi",
@@ -292,7 +314,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimr-cto-ai-leadership-program",
     "id": "iimr-cto-ai-leadership-program",
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Amritsar",
@@ -305,7 +328,8 @@
     "id": "iima-senior-management-program",
     "pid": 142,
     "duration": "10 Months",
-    "program_fee": 210000
+    "program_fee": 210000,
+    "required_years_experience": 5
   },
   {
     "university_name": "XLRI",
@@ -318,7 +342,8 @@
     "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
     "pid": 150,
     "duration": "11 Months",
-    "program_fee": 330000
+    "program_fee": 330000,
+    "required_years_experience": 8
   },
   {
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
@@ -331,7 +356,8 @@
     "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "pid": 140,
     "duration": "6 Months",
-    "program_fee": 179000
+    "program_fee": 179000,
+    "required_years_experience": 1
   },
   {
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
@@ -344,7 +370,8 @@
     "id": "iith-professional-certificate-program-in-strategic-project-management",
     "pid": 139,
     "duration": "6 Months",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "required_years_experience": 1
   },
   {
     "university_name": "IIM Lucknow",
@@ -357,7 +384,8 @@
     "id": "iiml-executive-program-in-strategic-project-management-leadership",
     "pid": 137,
     "duration": "10 Months",
-    "program_fee": 242500
+    "program_fee": 242500,
+    "required_years_experience": 1
   },
   {
     "university_name": "XLRI",
@@ -370,20 +398,22 @@
     "id": "executive-development-program-in-global-senior-management",
     "pid": 141,
     "duration": "11 Months",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "required_years_experience": 10
   },
   {
     "university_name": "SP Jain School of Global Management",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "10 Jan 2027",
+    "start_date": "13 Dec 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-generative-ai-for-leaders",
     "id": "executive-program-in-generative-ai-for-leaders",
     "pid": 144,
     "duration": "7 Months",
-    "program_fee": 169000
+    "program_fee": 169000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IITM Pravartak",
@@ -394,20 +424,22 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-program-in-technology-leadership-innovation",
     "id": "executive-program-in-technology-leadership-innovation",
-    "duration": "9 Months"
+    "duration": "9 Months",
+    "required_years_experience": 5
   },
   {
     "university_name": "SP Jain School of Global Management",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in Generative AI for Business Transformation",
     "category": "artificial intelligence",
-    "start_date": "10 Jan 2027",
+    "start_date": "13 Dec 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-applied-generative-ai",
     "id": "professional-certificate-in-applied-generative-ai",
     "pid": 145,
     "duration": "4 Months",
-    "program_fee": 139000
+    "program_fee": 139000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -420,7 +452,8 @@
     "id": "chief-human-resource-officer-programme",
     "pid": 90,
     "duration": "12 Months",
-    "program_fee": 250000
+    "program_fee": 250000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -433,7 +466,8 @@
     "id": "chief-human-resource-officer-programme",
     "pid": 90,
     "duration": "12 Months",
-    "program_fee": 250000
+    "program_fee": 250000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -446,7 +480,8 @@
     "id": "post-graduate-diploma-in-management-for-working-executives",
     "pid": 127,
     "duration": "12 Months",
-    "program_fee": 484300
+    "program_fee": 484300,
+    "required_years_experience": 3
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -459,20 +494,22 @@
     "id": "executive-program-in-generative-ai-for-business-leaders",
     "pid": 131,
     "duration": "7 Months",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "program_name": "Post Graduate Certificate in Strategic Project Management & Leadership",
     "category": "project management",
-    "start_date": "18 Jan 2026",
+    "start_date": "7 Mar 2027",
     "status": "admission closed",
     "url": "https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership",
     "id": "pg-certificate-in-strategic-project-management-and-leadership",
     "pid": 129,
     "duration": "10 Months",
-    "program_fee": 210000
+    "program_fee": 209000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -485,7 +522,8 @@
     "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
     "pid": 125,
     "duration": "11 Months",
-    "program_fee": 300000
+    "program_fee": 300000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Sirmaur",
@@ -497,7 +535,8 @@
     "url": "https://accredian.com/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
     "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
     "pid": 176,
-    "duration": "8 Months"
+    "duration": "8 Months",
+    "required_years_experience": 3
   },
   {
     "university_name": "XLRI",
@@ -510,20 +549,22 @@
     "id": "executive-development-program-strategic-hr-leadership",
     "pid": 104,
     "duration": "10 Months",
-    "program_fee": 240000
+    "program_fee": 240000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
-    "start_date": "13 Sep 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai",
     "id": "iimv-executive-program-in-leadership-with-ai",
     "pid": 173,
     "duration": "10 Months",
-    "program_fee": 245000
+    "program_fee": 245000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Lucknow",
@@ -536,7 +577,8 @@
     "id": "executive-general-management-program",
     "pid": 126,
     "duration": "11 Months",
-    "program_fee": 425000
+    "program_fee": 425000,
+    "required_years_experience": 1
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -549,7 +591,8 @@
     "id": "iim-trichy-chief-technology-officer-programme",
     "pid": 123,
     "duration": "10 Months",
-    "program_fee": 290000
+    "program_fee": 290000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Tiruchirappalli",
@@ -562,7 +605,8 @@
     "id": "accelerated-senior-management-program",
     "pid": 121,
     "duration": "10 Months",
-    "program_fee": 290000
+    "program_fee": 290000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -575,7 +619,8 @@
     "id": "chief-executive-officer-program",
     "pid": 120,
     "duration": "11 Months",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "required_years_experience": 8
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -588,7 +633,8 @@
     "id": "advanced-certificate-program-in-ai-for-leaders",
     "pid": 118,
     "duration": "5 Months",
-    "program_fee": 140000
+    "program_fee": 140000,
+    "required_years_experience": 1
   },
   {
     "university_name": "E&ICT Academy IIT Kanpur",
@@ -601,7 +647,8 @@
     "id": "professional-certificate-program-in-leadership-with-ai",
     "pid": 119,
     "duration": "8 Months",
-    "program_fee": 180000
+    "program_fee": 180000,
+    "required_years_experience": 1
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -614,7 +661,8 @@
     "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
     "pid": 117,
     "duration": "11 Months",
-    "program_fee": 350000
+    "program_fee": 350000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -627,7 +675,8 @@
     "id": "chief-technology-officer-programme",
     "pid": 112,
     "duration": "11 Months",
-    "program_fee": 350000
+    "program_fee": 350000,
+    "required_years_experience": 10
   },
   {
     "university_name": "XLRI",
@@ -640,7 +689,8 @@
     "id": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
     "pid": 110,
     "duration": "10 Months",
-    "program_fee": 240000
+    "program_fee": 240000,
+    "required_years_experience": 3
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -653,7 +703,8 @@
     "id": "global-senior-leadership-program",
     "pid": 172,
     "duration": "12 Months",
-    "program_fee": 400000
+    "program_fee": 400000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -666,7 +717,8 @@
     "id": "executive-program-in-business-management",
     "pid": 63,
     "duration": "12 Months",
-    "program_fee": 270000
+    "program_fee": 270000,
+    "required_years_experience": 5
   },
   {
     "university_name": "XLRI",
@@ -679,7 +731,8 @@
     "id": "executive-program-in-strategy-leadership",
     "pid": 105,
     "duration": "11 Months",
-    "program_fee": 280000
+    "program_fee": 280000,
+    "required_years_experience": 8
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -692,7 +745,8 @@
     "id": "chief-financial-officer-programme",
     "pid": 170,
     "duration": "12 Months",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "required_years_experience": 8
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -705,7 +759,8 @@
     "id": "chief-financial-officer-programme",
     "pid": 170,
     "duration": "12 Months",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "required_years_experience": 8
   },
   {
     "university_name": "XLRI",
@@ -718,7 +773,8 @@
     "id": "executive-program-in-general-management",
     "pid": 103,
     "duration": "11 Months",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "required_years_experience": 5
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -730,7 +786,8 @@
     "url": "https://accredian.com/programs/pg-certificate-program-in-family-business-management",
     "id": "pg-certificate-program-in-family-business-management",
     "pid": 171,
-    "duration": "12 Months"
+    "duration": "12 Months",
+    "required_years_experience": 8
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -743,20 +800,22 @@
     "id": "pg-certificate-program-in-investment-banking",
     "pid": 91,
     "duration": "12 Months",
-    "program_fee": 270000
+    "program_fee": 270000,
+    "required_years_experience": 0
   },
   {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "program_name": "Senior Management Program",
     "category": "senior management",
-    "start_date": "27 Sep 2026",
+    "start_date": "10 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/senior-management-program",
     "id": "senior-management-program",
     "pid": 69,
     "duration": "12 Months",
-    "program_fee": 349000
+    "program_fee": 349000,
+    "required_years_experience": 10
   },
   {
     "university_name": "IIM Visakhapatnam",
@@ -769,7 +828,8 @@
     "id": "fintech-blockchain-program",
     "pid": 72,
     "duration": "11 Months",
-    "program_fee": 260000
+    "program_fee": 260000,
+    "required_years_experience": 3
   },
   {
     "university_name": "Microsoft",
@@ -779,7 +839,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
     "id": "transform-business-workflows-with-generative-ai",
-    "duration": "9 Hours"
+    "duration": "9 Hours",
+    "required_years_experience": 0
   },
   {
     "university_name": "Microsoft",
@@ -789,7 +850,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
     "id": "transform-business-workflows-with-generative-ai",
-    "duration": "9 Hours"
+    "duration": "9 Hours",
+    "required_years_experience": 0
   },
   {
     "university_name": "Accredian",
@@ -799,7 +861,8 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
     "id": "transform-ideas-into-impact-with-product-management",
-    "duration": "2.5 Hours"
+    "duration": "2.5 Hours",
+    "required_years_experience": 0
   },
   {
     "university_name": "Accredian",
@@ -809,6 +872,7 @@
     "status": "New Launch",
     "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
     "id": "transform-ideas-into-impact-with-product-management",
-    "duration": "2.5 Hours"
+    "duration": "2.5 Hours",
+    "required_years_experience": 0
   }
 ]

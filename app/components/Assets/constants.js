@@ -50,17 +50,17 @@ export const VERTICALS = [
 
 export const categoriesWithContacts = [
   { category: "human resource", contact: "+91 8851827093" },
-  { category: "cxo leadership", contact: "+91 9810184424" },
+  { category: "cxo leadership", contact: "+91 8851827053" },
   { category: "finance", contact: "+91 9289224842" },
   { category: "product management", contact: "+91 7619555873" },
-  { category: "general management", contact: "+91 9810184424" },
+  { category: "general management", contact: "+91 8851827053" },
   { category: "digital transformation", contact: "+91 7619555873" },
   { category: "data science", contact: "+91 7619555873" },
   { category: "project management", contact: "+91 9818329799" },
-  { category: "strategic management", contact: "+91 9810184424" },
+  { category: "strategic management", contact: "+91 8851827053" },
   { category: "senior management", contact: "+91 7678385465" },
   { category: "strategy & leadership", contact: "+91 8882597163" },
-  { category: "business management", contact: "+91 9810184424" },
+  { category: "business management", contact: "+91 8851827053" },
   { category: "artificial intelligence", contact: "+91 9211285411" },
   { category: "cybersecurity", contact: "+91 9211285411" },
   { category: "PG Diploma", contact: "+91 8130897175" },
@@ -97,7 +97,7 @@ export const NAV_ITEMS = [
     children: [
       { label: "Career", href: "/Career" },
       { label: "Why Accredian", href: "/whyaccredian" },
-      { label: "Vision & Mission", href: "/About" },
+      { label: "Vision & Mission", href: "/about" },
       { label: "Contact Us", href: "/contact-us" },
     ],
   },
@@ -216,3 +216,27 @@ export const TESTIMONIALS = [
       "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo10.webp",
   },
 ];
+
+/**
+ * Configurable list of popular and trending searches shown in the Global Search dropdown.
+ * Maps display labels to actual existing program categories and keywords in programs.json.
+ */
+
+export const TRENDING_SEARCHES = [
+  { label: "Artificial Intelligence & GenAI", value: "Artificial Intelligence" },
+  { label: "Leadership & Management", value: "Leadership" },
+  { label: "Strategy", value: "Strategy" },
+  { label: "Digital Transformation", value: "Digital Transformation" },
+  { label: "Product Management", value: "Product Management" },
+  { label: "Technology", value: "Technology" },
+];
+
+export const SUGGESTED_FALLBACK_SEARCHES = [
+  "Artificial Intelligence",
+  "Leadership",
+  "Product Management",
+  "Digital Transformation",
+  "Strategy",
+  "Technology",
+];
+

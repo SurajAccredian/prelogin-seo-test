@@ -7,14 +7,14 @@
   "seo_title": "Global Senior Leadership Program",
   "description": "Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.",
   "short_title": "Global Senior Leadership",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "IIM Visakhapatnam",
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
   "start_date": "27 Sep 2026",
   "duration": "12 Months",
-  "required_years_experience": 10,
+  "required_years_experience": 5,
   "type": "online",
   "enrollments": "active",
   "timings": "weekends only",
@@ -131,7 +131,7 @@
   "curriculum": {
     "coreModules": [
       {
-        "title": "Strategic Leadership for Senior Leaders",
+        "title": "Leadership and Strategy for Global Leaders",
         "week": "",
         "id": "competitive-strategy-for-leaders",
         "points": [
@@ -142,7 +142,7 @@
         ]
       },
       {
-        "title": "Leading High Performing Teams & Organizations",
+        "title": "Leading Teams for Strategic Impact",
         "week": "",
         "id": "corporate---business-strategy",
         "points": [
@@ -153,7 +153,7 @@
         ]
       },
       {
-        "title": "Innovation & Transformation Leadership",
+        "title": "Innovation & Transformation",
         "week": "",
         "id": "corporate---business-strategy",
         "points": [
@@ -164,7 +164,7 @@
     ],
     "Chief-Executive-Officer": [
       "Critical Thinking & Strategic Decision Making for CEOs",
-      "Leading High-Performance Executive Teams",
+      "Leading a High-Performance Executive Team",
       "Growth Strategies for CEOs",
       "Scaling Organizations & Leading High-Growth Companies",
       "Financial Acumen & Shareholder Value Creation",
@@ -192,7 +192,6 @@
       "Financial Planning & Analysis (FP&A) Leadership",
       "Capital Budgeting & Investment Appraisal",
       "M&A Strategy & Execution",
-      "CFO’s Role in Digital Transformation & Automation",
       "Investor Relations & Stakeholder Communication",
       "Capstone Project"
     ],

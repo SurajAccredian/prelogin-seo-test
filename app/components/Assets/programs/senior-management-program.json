@@ -12,7 +12,7 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "27 Sep 2026",
+  "start_date": "10 Jan 2027",
   "required_years_experience": 10,
   "duration": "12 months",
   "type": "online",
@@ -142,7 +142,8 @@
       "points": [
         "Strategic Thinking & Planning",
         "Competitive Analysis & Industry Dynamics",
-        "Strategic Implementation & Change Management"
+        "Strategic Implementation & Change Management",
+        "Sustainable Business Strategies"
       ]
     },
     {
@@ -150,9 +151,10 @@
       "week": "3 weeks",
       "id": "corporate-governance---corporate-social-responsibility",
       "points": [
-        "Principles of Corporate Governance",
-        "Role of the Board in Corporate Governance",
-        "Integrating CSR into Business Strategy"
+        "Sustainability & Environmental, Social, & Governance",
+        "Ethics in Corporate Governance",
+        "Measuring CSR Impact",
+        "Stakeholder Engagement & Communication"
       ]
     },
     {
@@ -189,23 +191,23 @@
       ]
     },
     {
-      "title": "Strategic HR Leadership",
+      "title": "Advanced Organizational Behavior",
       "week": "5 weeks",
       "id": "strategic--hr-leadership",
       "points": [
-        "Aligning HR Strategy with Business Goals",
         "Leadership Development & Succession Planning",
         "Organizational Culture & Change Management",
-        "Conflict Resolution & Negotiation in Organizations"
+        "Diversity & Inclusion in the Workplace",
+        "Psychological Aspects of Leadership"
       ]
     },
     {
-      "title": "Legal & Business Laws for Senior Leaders",
+      "title": "Negotiations & Conflict Resolution",
       "week": "2 weeks",
       "id": "legal-business-laws-for-senior-leaders",
       "points": [
-        "Corporate & Business Laws for Senior Leaders",
-        "Intellectual Property Rights (IPR) Management"
+        "Negotiation Strategies & Tactics",
+        "Conflict Resolution Strategies"
       ]
     },
     {
@@ -219,14 +221,14 @@
       ]
     },
     {
-      "title": "Growth Strategies for Senior Leaders",
+      "title": "Technology & Innovation Management",
       "week": "3 weeks",
       "id": "growth-strategies-for-senior-leaders",
       "points": [
-        "Revenue Growth Strategy",
-        "Customer Growth Strategy",
-        "Marketing Growth Strategy",
-        "Product Growth Strategy"
+        "Digital Transformation Strategy",
+        "Cybersecurity & Risk Management",
+        "Blockchain Technology & Its Use Cases",
+        "Artificial Intelligence for 21st Century Leaders"
       ]
     },
     {
@@ -241,13 +243,14 @@
       ]
     },
     {
-      "title": "Leadership with AI",
+      "title": "Growth Strategies for Senior Leaders",
       "week": "3 weeks",
       "id": "growth-strategies-for-senior-leaders",
       "points": [
-        "Digital Transformation Strategy",
-        "AI Strategy for Leadership",
-        "Strategic Implementation of AI"
+        "Revenue Growth Strategy",
+        "Customer Growth Strategy",
+        "Marketing Growth Strategy",
+        "Product Growth Strategy"
       ]
     },
     {
@@ -256,6 +259,14 @@
       "id": "capstone-project",
       "points": [
         "The culminating project within the Senior Management Program entails a challenging capstone experience, compelling participants to integrate their acquired knowledge. This involves addressing an intricate real-world business scenario, necessitating the application of strategic analysis, decision-making, & leadership skills honed throughout the program."
+      ]
+    },
+    {
+      "title": "CXO Leadership Accelerator",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your Senior Management Program with an exclusive CXO coaching. Delivered by seasoned CXOs, this specialized coaching offers invaluable insights into senior management, equipping aspiring leaders with strategic acumen. Prepare for executive roles with firsthand knowledge and guidance from top-tier executives."
       ]
     }
   ],

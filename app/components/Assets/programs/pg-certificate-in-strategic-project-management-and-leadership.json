@@ -12,7 +12,7 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "18 Jan 2026",
+  "start_date": "7 Mar 2027",
   "required_years_experience": 5,
   "duration": "10 months",
   "type": "online",
@@ -130,7 +130,7 @@
       "points": [
         "Intro to Strategic Project Management",
         "Linking Projects to Organizational Strategy",
-        "Project Life Cycle Models & Methodologies",
+        "Program vs. portfolio vs. project management",
         "Role of Project Leader in Value Creation"
       ]
     },
@@ -140,7 +140,7 @@
       "points": [
         "Defining Scope & Creating WBS",
         "Advanced Scheduling Techniques (CPM, PERT, Agile Sprints)",
-        "Budgeting, Cost Estimation Techniques & Control Techniques",
+        "Budgeting, cost estimation techniques & Earned Value Management (EVM)",
         "Financial Metrics for Projects: ROI, NPV, Cost-Benefit Analysis"
       ]
     },
@@ -155,13 +155,13 @@
       ]
     },
     {
-      "title": "Communication & Stakeholder Engagement",
+      "title": "Communication, Influence & Stakeholder Leadership",
       "id": "communication-stakeholder-engagement",
       "points": [
-        "Stakeholder Analysis & Influence Strategies",
-        "Executive Communication Frameworks",
-        "Conflict Resolution & Negotiation Skills",
-        "Dashboards, Reporting & Effective Storytelling with Data"
+        "Stakeholder mapping and engagement strategies",
+        "Influencing without authority in complex organizations",
+        "Executive communication frameworks & board-level reporting",
+        "Negotiation & conflict resolution for project leaders"
       ]
     },
     {
@@ -169,8 +169,8 @@
       "id": "governance-procurement-compliance",
       "points": [
         "Governance Models for Large-Scale Projects",
-        "Project Procurement Planning",
-        "Contract Management, Vendor Negotiations & SLAs",
+        "Procurement & vendor management best practices",
+        "Contracting strategies (fixed, agile, hybrid)",
         "Ethics, Compliance & Sustainability in Project Leadership"
       ]
     },
@@ -309,18 +309,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 16717
+        "emi": 18322
       },
       {
         "months": 18,
-        "emi": 11591
+        "emi": 12658
       },
       {
         "months": 24,
-        "emi": 9007
+        "emi": 9805
       }
     ],
-    "total": 210000
+    "total": 209000
   },
   "faq": {
     "programId": "pg-certificate-in-strategic-project-management-and-leadership",

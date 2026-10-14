@@ -96,8 +96,4 @@
         <loc>https://accredian.com/sitemaps/sitemap-policies.xml</loc>
         <lastmod>2025-02-12</lastmod>
     </sitemap>
-    <sitemap>
-        <loc>https://accredian.com/sitemaps/sitemap-faqs.xml</loc>
-        <lastmod>2025-02-12</lastmod>
-    </sitemap>
-    </sitemapindex>
+</sitemapindex>

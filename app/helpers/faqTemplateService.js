@@ -498,7 +498,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iim_sirmaur_strategy_leadership_innovation_ai"
         : programData.id == "iim-bodh-gaya-senior-management-program"
         ? "iim_bodh_gaya_smp"
-        
+        : programData.id == "executive-program-in-technology-leadership-innovation"
+        ? "iitm_pravartak_tech_leadership"
         : 'iitk';
         
         

@@ -20,6 +20,7 @@ const FAQ = () => {
     data?.short_university_name === 'iit-jammu' ||
     data?.short_university_name === 'iim-sirmaur' ||
     data?.short_university_name === 'iimbg' ||
+    data?.short_university_name === 'iitm-pravartak' ||
     data?.id == 'executive-program-in-strategic-hr-leadership' ||
     data?.id == 'executive-program-in-strategic-project-management-and-leadership' ||
     data?.id == 'executive-program-in-generative-ai-for-leaders' ||

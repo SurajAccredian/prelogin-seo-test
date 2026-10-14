@@ -6513,7 +6513,7 @@ export const universityFaqTemplates = {
                         content: [
                             "Structured across 9 months comprising 09 modules, covering all core aspects of Strategic Leadership, Technology Strategy, Digital Transformation, Enterprise Technology & Digital Architecture, AI & Generative AI Strategy, Innovation Systems, and Product & Platform Leadership.",
                             "- **Duration:** 9 months",
-                            "- **Learning Format:** 108+ hours of live online sessions, with study materials available for 3 years from the program completion date.",
+                            "- **Learning Format:** 100 hours of live online sessions, with study materials available for 3 years from the program completion date.",
                             "- **Class Timings:** Conducted on weekends",
                             "- **Flexibility:** Recordings & study materials available"
                         ],

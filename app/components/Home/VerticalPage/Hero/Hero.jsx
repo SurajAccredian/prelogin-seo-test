@@ -28,24 +28,14 @@ const Hero = ({ data: propData }) => {
       <div className="">
         <div className="max-w-full   relative bg-blue-50 flex flex-row justify-center md:flex-row  md:justify-evenly gap-0 sm:gap-4 md:gap-8 lg:gap-12 px-0 overflow-visible vertical-hero-card">
           <div className="vertical-main-section flex flex-col justify-center items-center md:items-start gap-2 md:gap-6 p-6 lg:gap-5 md:ps-8 lg:ps-8">
-            <h1 className="vertical-text text-center hidden md:inline-block md:text-start cursor-context-menu text-2xl md:text-[10px] lg:text-6xl font-bold pt-2 capitalize px-8 sm:px-0 font-circular">
-              <span className="inline-block whitespace-nowrap mb-2">
-                Transform Your Career {data.short_title === "CXO" ? "as" : "in"}
-              </span>
-              <br />
-              <span className="inlie-block text-universal">
-                {" "}
-                {data.short_title}{" "}
-              </span>
-            </h1>
-
-            <h1 className="vertical-text md:hidden inline-block text-center cursor-context-menu text-2xl md:text-[10px] lg:text-6xl font-bold pt-2 capitalize sm:px-0 font-circular">
+            <h1 className="vertical-text text-center md:text-start cursor-context-menu text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold pt-2 capitalize px-4 sm:px-0 font-circular">
               <span className="inline-block mb-2">
-                Transform Your Career {data.short_title === "CXO" ? "as" : "in"}{" "}
-                <span className="text-universal">{data.short_title}</span>
+                Transform Your Career {data.short_title === "CXO" ? "as" : "in"}
+              </span>{" "}
+              <br className="hidden md:inline" />
+              <span className="inline-block text-universal">
+                {data.short_title}
               </span>
-              <br />
-              {/* <span className="inlie-block">  </span> */}
             </h1>
             <p className="font-medium text-center sm:text-left md:font-normal text-sm md:text-xl md:max-w-[500px] lg:text-xl text-paleBlack  mx-auto md:mx-0 font-circular">
               {data.description}
@@ -100,7 +90,7 @@ const Hero = ({ data: propData }) => {
             <img
               className="vertical-image-size w-[580px] h-[420px] "
               src={data?.image}
-              alt="vertical"
+              alt={data?.title ? `${data.title} - Accredian Executive Programs` : "Accredian Executive Programs"}
             />
             {/* <img
               src={verticalHeader}

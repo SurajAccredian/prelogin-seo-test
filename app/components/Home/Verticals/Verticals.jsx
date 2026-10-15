@@ -38,7 +38,7 @@ const Verticals = () => {
                 return (
                   <Link
                     key={index}
-                    href={`/course/${val.category.replace(/ /g, "-")}`}
+                    href={`/course/${val.category.toLowerCase().replace(/\s*&\s*/g, "-and-").replace(/\s+/g, "-")}`}
                     className="max-w-[330px] hover:bg-gray-100 hover:transition ease-in-out hover:shadow-xl w-full bg-white px-8 py-4 rounded-xl drop-shadow font-dmSans flex flex-col justify-between cursor-pointer group no-underline text-inherit"
                   >
                     <div className="flex items-center gap-4">
@@ -74,7 +74,7 @@ const Verticals = () => {
                 return (
                   <Link
                     key={index}
-                    href={`/course/${val.category.replace(/ /g, "-")}`}
+                    href={`/course/${val.category.toLowerCase().replace(/\s*&\s*/g, "-and-").replace(/\s+/g, "-")}`}
                     className="w-full bg-white px-3 py-2.5 rounded-lg shadow-sm border border-l-4 border-l-blue-500 flex items-center gap-3 cursor-pointer active:bg-gray-50 transition-colors no-underline text-inherit"
                   >
                     <div className="w-9 h-9 flex-shrink-0 rounded-full bg-blue-50 flex items-center justify-center">

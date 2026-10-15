@@ -24,10 +24,10 @@ const WhyAccredian = ({ data: propData }) => {
         <h4 className="text-base font-medium">
           The <span className="text-universal"> Accredian Advantage</span>
         </h4>
-        <h1 className="text-2xl md:text-3xl mt-2 font-semibold ">
+        <h2 className="text-2xl md:text-3xl mt-2 font-semibold ">
           Transformative{" "}
           <span className="text-universal">Features of Our Programs</span>{" "}
-        </h1>
+        </h2>
       </div>
       <div className="w-full md:max-w-[75rem] grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center sm:items-center gap-4 mt-12">
         {data?.whyaccredian?.includes("campus immersion") && (

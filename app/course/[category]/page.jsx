@@ -4,12 +4,21 @@ import Wrapper from "../../components/Home/VerticalPage/wrapper";
 
 function getCategoryData(category) {
   if (!category) return null;
-  const sanitized = decodeURIComponent(category)
-    .replace(/-?&-?/g, " and ")
-    .replace(/-/g, " ")
-    .toLowerCase()
-    .trim();
-  return verticalsData[sanitized] || null;
+  const raw = decodeURIComponent(category).toLowerCase().trim();
+
+  // 1. Try direct replacement of hyphens to spaces
+  const withSpaces = raw.replace(/-/g, " ").trim();
+  if (verticalsData[withSpaces]) return verticalsData[withSpaces];
+
+  // 2. Try with & replaced by "and"
+  const withAnd = withSpaces.replace(/\s*&\s*/g, " and ").replace(/\s+/g, " ").trim();
+  if (verticalsData[withAnd]) return verticalsData[withAnd];
+
+  // 3. Try with "and" replaced by "&"
+  const withAmp = withSpaces.replace(/\band\b/g, "&").replace(/\s+/g, " ").trim();
+  if (verticalsData[withAmp]) return verticalsData[withAmp];
+
+  return null;
 }
 
 export async function generateMetadata({ params }) {

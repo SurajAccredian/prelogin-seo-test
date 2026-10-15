@@ -199,7 +199,7 @@ const Intro = () => {
                       <div className="w-full max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl h-auto">
                         <img
                           src={isMobile ? mobileImages[index] : desktopImages[index]}
-                          alt={`Section ${index + 1}`}
+                          alt={section.title ? `${section.title} - Accredian Pedagogy` : `Accredian Executive Pedagogy ${index + 1}`}
                           className="w-full h-auto"
                           loading={index === 0 ? "eager" : "lazy"}
                           style={{

@@ -81,17 +81,33 @@ const Hero = () => {
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp"
   ];
 
+  const universityNames = [
+    "IIM Visakhapatnam",
+    "IIM Tiruchirappalli",
+    "IIT Kanpur",
+    "IIM Lucknow",
+    "IIM Amritsar",
+    "XLRI Delhi NCR",
+    "SP Jain School of Global Management",
+    "IIT Jammu",
+    "IIM Ranchi",
+    "IIM Kashipur"
+  ];
+
   const duplicatedUniversityImages = [...universityImages, ...universityImages];
 
   const universityImagesComponent = duplicatedUniversityImages.map(
-    (imageUrl, index) => (
-      <img
-        key={index}
-        src={imageUrl}
-        alt={`University ${index + 1}`}
-        className="university-image shadow-lg p-1"
-      />
-    )
+    (imageUrl, index) => {
+      const name = universityNames[index % universityNames.length] || `Partner University ${index + 1}`;
+      return (
+        <img
+          key={index}
+          src={imageUrl}
+          alt={`${name} - Accredian Partner Institution`}
+          className="university-image shadow-lg p-1"
+        />
+      );
+    }
   );
   return (
     <div className="hero-wrapper">
@@ -127,7 +143,7 @@ const Hero = () => {
             <SwiperSlide key={slide.id}>
               <div className="hero-slide">
                 {/* Mobile Layout */}
-                <div className="mobile-hero-layout">
+                <div className="mobile-hero-layout" aria-hidden="true">
                   {/* Top Image Section */}
                   <div className="mobile-hero-image overflow-hidden relative">
                     <Image

@@ -1,6 +1,8 @@
 import { Play, Quote, ArrowLeft, ArrowRight } from "lucide-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import { BLUR_DATA_URL } from "../../Assets/constants";
 import "./watch-stories-v2.css";
 import SUCCESS_STORIES from "../../Assets/watch-success-stories.json";
 import WatchSuccessStoriesModal from "../../Modals/watch-success-stories";
@@ -120,10 +122,16 @@ const WatchStoriesV2 = () => {
                 <div className="card-wrapper rounded-xl border-2 border-gray-200 overflow-hidden shadow-lg bg-white group">
                   {/* Video Section with Play Button */}
                   <div className="relative w-full aspect-video overflow-hidden bg-gray-900">
-                    <img
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    <Image
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
                       src={alumni.banner}
                       alt={alumni.name}
+                      fill
+                      sizes="(max-width: 768px) 90vw, 33vw"
+                      quality={75}
+                      loading="lazy"
+                      placeholder="blur"
+                      blurDataURL={BLUR_DATA_URL}
                     />
 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none" />

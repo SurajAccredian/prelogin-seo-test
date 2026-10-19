@@ -15,8 +15,9 @@ import "swiper/css/navigation";
 import "swiper/css";
 import "./certificate.css";
 SwiperCore.use([Navigation, Autoplay]);
-const Certificate = () => {
-  const { data } = useSelector((state) => state.program);
+const Certificate = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
   const [isOpen, setIsCertificateModalOpen] = useState(false);
   const [isShowLarge, setIsShowLarge] = useState(null);
   const paginationRef = useRef(null);
@@ -98,7 +99,7 @@ const Certificate = () => {
                                 : ""
                                 }`}
                               src={val}
-                              alt="certificate"
+                              alt={`${data?.title || data?.program_name || "Program"} Certificate - ${data?.university_name || "Accredian"}`}
                             />
                           </div>
                         </SwiperSlide>
@@ -185,7 +186,7 @@ const Certificate = () => {
                     : ""
                     }`}
                   src={data?.certificate}
-                  alt="certificate"
+                  alt={`${data?.title || data?.program_name || "Program"} Certificate - ${data?.university_name || "Accredian"}`}
                 />
               </div>
               <div className="px-4 max-w-3xl lg:max-w-2xl w-full md:text-start text-center">

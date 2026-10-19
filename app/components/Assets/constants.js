@@ -88,14 +88,14 @@ export const NAV_ITEMS = [
     icon: GrResources,
     children: [
       { label: "Blog", redirect: true, href: "https://blog.accredian.com/" },
-      { label: "Success Stories", href: "/Successstories" },
+      { label: "Success Stories", href: "/successstories" },
     ],
   },
   {
     label: "About Us",
     icon: TbInfoSquareRounded,
     children: [
-      { label: "Career", href: "/Career" },
+      { label: "Career", href: "/career" },
       { label: "Why Accredian", href: "/whyaccredian" },
       { label: "Vision & Mission", href: "/about" },
       { label: "Contact Us", href: "/contact-us" },
@@ -105,7 +105,7 @@ export const NAV_ITEMS = [
     label: "More",
     icon: TbInfoSquareRounded,
     children: [
-      { label: "Become a Trainer", icon: GrAnnounce, href: "/Career/mentor" },
+      { label: "Become a Trainer", icon: GrAnnounce, href: "/career/mentor" },
       { label: "Refer & Earn", icon: GrAnnounce, href: "/referandearn" },
     ],
   },
@@ -240,3 +240,6 @@ export const SUGGESTED_FALLBACK_SEARCHES = [
   "Technology",
 ];
 
+// Shared blur placeholder for next/image (flat #F3F4F6 8x5 SVG)
+export const BLUR_DATA_URL =
+  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjUiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjUiIGZpbGw9IiNGM0Y0RjYiLz48L3N2Zz4=";

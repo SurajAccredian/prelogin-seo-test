@@ -17,14 +17,18 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 SwiperCore.use([Navigation, Autoplay, Keyboard])
 
-const Projects = () => {
-
-  const { data } = useSelector(state => state.program)
+const Projects = ({ data: propData }) => {
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
 
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
   const [swiper, setSwiper] = useState(null);
-  const [activeProject, setActiveProject] = useState(null)
+  const [activeProject, setActiveProject] = useState(null);
+
+  if (!data?.projects || data.projects.length === 0) {
+    return null;
+  }
 
   useEffect(() => {
     if (swiper) {

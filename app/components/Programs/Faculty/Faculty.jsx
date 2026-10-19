@@ -16,19 +16,17 @@ import { useSelector } from "react-redux";
 
 SwiperCore.use([Navigation, Autoplay]);
 
-const Faculty = () => {
+const Faculty = ({ data: propData }) => {
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
   const [swiper, setSwiper] = useState(null);
 
-  // useEffect(() => {
-  //   if (swiper) {
-  //     swiper.el.onmouseover = () => { swiper.autoplay.stop(); };
-  //     swiper.el.onmouseout = () => { swiper.autoplay.start(); };
-  //   }
-  // }, [swiper]);
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
-  const { data } = useSelector((state) => state.program);
+  if (!data?.faculty || data.faculty.length === 0) {
+    return null;
+  }
 
   useEffect(() => {
     if (swiper && swiperContainerRef.current && paginationRef.current) {

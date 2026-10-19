@@ -5,8 +5,9 @@ import FaqOld from "./FaqOld";
 
 
 // app/components/Programs/FAQ/FAQ.jsx
-const FAQ = () => {
-  const { data } = useSelector(state => state.program);
+const FAQ = ({ data: propData }) => {
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
 
   if (
     data?.short_university_name === 'iimv' ||

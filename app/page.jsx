@@ -4,6 +4,9 @@ export const metadata = {
   title: "Accredian | India's Leading Upskilling Platform",
   description:
     "Learn from top IIMs, IITs and XLRI through industry-relevant programs in AI, leadership, strategy and more. Build skills that move your career forward.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function Page() {

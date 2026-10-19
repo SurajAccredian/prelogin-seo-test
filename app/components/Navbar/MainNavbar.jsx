@@ -26,7 +26,7 @@ export default function Navbar3({ userInfo }) {
 
   return (
     <>
-      <div className='w-full fixed md:sticky top-0 z-20 bg-white transition-all duration-300 font-circular'
+      <div id="site-header" className='w-full fixed md:sticky top-0 z-20 bg-white transition-all duration-300 font-circular'
         style={{
           transform: `translateY(0)`,
           filter: show ? "drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06))" : "drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06))",

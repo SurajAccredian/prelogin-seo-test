@@ -308,7 +308,7 @@ function MentorForm() {
         toast.success(response.data.feedback, { position: "top-right" });
         setTimeout(() => {
           setFormSubmit(false);
-          window.location.href = "/Career/mentor";
+          window.location.href = "/career/mentor";
         }, 1000);
       }
     } catch (error) {
@@ -322,7 +322,7 @@ function MentorForm() {
         );
       }
       setTimeout(() => {
-        window.location.href = "/Career/mentor";
+        window.location.href = "/career/mentor";
         setFormSubmit(false);
       }, 1000);
     } finally {

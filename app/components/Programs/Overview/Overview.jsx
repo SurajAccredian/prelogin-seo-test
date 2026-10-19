@@ -4,11 +4,9 @@ import { useSelector } from 'react-redux'
 
 
 
-const Overview = () => {
-
-
-  const { data } = useSelector(state => state.program);
-
+const Overview = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   const overviewContent = useMemo(() => {
     if (!data?.overview?.content) return [];
@@ -23,14 +21,15 @@ const Overview = () => {
     return content;
   }, [data]);
 
-  const [activeTab, setActiveTab] = useState("");
-  const [points, setPoints] = useState({});
+  const [activeTab, setActiveTab] = useState(overviewContent[0]?.title || "");
+  const [points, setPoints] = useState(overviewContent[0] || {});
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     if (overviewContent.length > 0) {
       if (!activeTab || !overviewContent.some(c => c.title === activeTab)) {
         setActiveTab(overviewContent[0].title);
+        setPoints(overviewContent[0]);
       }
     }
   }, [data?.id, overviewContent, activeTab]);
@@ -121,6 +120,23 @@ const Overview = () => {
     }
   }, []);
 
+
+  if (!overviewContent || overviewContent.length === 0) {
+    return (
+      <div id="overview" className="w-full flex justify-center xl:px-12 px-4 py-8 md:py-12">
+        <div className="w-full max-w-[85rem] animate-pulse">
+          <div className="w-full md:text-start text-center">
+            <div className="h-4 w-48 bg-slate-200 rounded mx-auto md:mx-0 mb-3" />
+            <div className="h-8 w-80 bg-slate-200 rounded mx-auto md:mx-0 mb-6" />
+          </div>
+          <div className="flex gap-4 mt-6 md:mt-12 md:flex-row flex-col">
+            <div className="w-full md:w-72 h-44 bg-slate-100 rounded-lg border border-slate-200" />
+            <div className="flex-1 h-44 bg-slate-100 rounded-lg border border-slate-200" />
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div id="overview" className="w-full flex justify-center xl:px-12 px-4 py-8 md:py-12">

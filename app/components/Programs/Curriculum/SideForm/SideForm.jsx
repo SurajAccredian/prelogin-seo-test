@@ -18,8 +18,9 @@ import { getFbc, getFbp } from "../../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../../helpers/ip.helpers";
 import "react-phone-input-2/lib/style.css";
 
-const SideForm = () => {
-  const { data } = useSelector((state) => state.program);
+const SideFormContent = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   const searchParams = useSearchParams();
   const pathname = usePathname();
@@ -83,11 +84,11 @@ const SideForm = () => {
     });
   }, [setValue]);
 
-  // Automatically request browser geolocation on mount
-  useEffect(() => {
-    let isMounted = true;
+  // Request browser geolocation on first interaction with the form, not on page load
+  const requestLocation = () => {
+    if (locationStatus !== "idle") return;
+    setLocationStatus("detecting");
     detectBrowserLocation().then((res) => {
-      if (!isMounted) return;
       if (res.success && res.data && (res.data.city || res.data.state || res.data.country)) {
         setLocationStatus("detected");
         setDetectedLocation(res.data);
@@ -100,10 +101,7 @@ const SideForm = () => {
         setShowManualLocation(true);
       }
     });
-    return () => {
-      isMounted = false;
-    };
-  }, [setValue]);
+  };
 
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const { mutate, isPending } = useMutation({
@@ -189,6 +187,7 @@ const SideForm = () => {
         <form
           className="w-full h-full min-h-[24rem] flex flex-col justify-between"
           onSubmit={handleSubmit(submitForm)}
+          onFocus={requestLocation}
         >
           <input type="hidden" id="fbc_field" {...register("fbc_field")} />
           <input type="hidden" id="fbp_field" {...register("fbp_field")} />
@@ -481,4 +480,10 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
   );
 };
 
-export default SideForm;
+export default function SideForm(props) {
+  return (
+    <React.Suspense fallback={null}>
+      <SideFormContent {...props} />
+    </React.Suspense>
+  );
+}

@@ -72,7 +72,7 @@ const dropdown = [
   { value: "Finance", label: "Finance" },
 ];
 
-const CareerTransition = (props) => {
+const CareerTransitionContent = (props) => {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -371,4 +371,10 @@ const CareerTransition = (props) => {
   );
 };
 
-export default CareerTransition;
+export default function CareerTransition(props) {
+  return (
+    <React.Suspense fallback={null}>
+      <CareerTransitionContent {...props} />
+    </React.Suspense>
+  );
+}

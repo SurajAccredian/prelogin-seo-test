@@ -40,11 +40,12 @@ const EXTRA_POINTS_CONTENT = [
   }
 ]
 
-const ExtraPoints = () => {
+const ExtraPoints = ({ data: propData }) => {
 
-  const { data } = useSelector(state => state.program)
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
   const [activeTab, setActiveTab] = useState("Technical Support")
-  const [points, setPoints] = useState([])
+  const [points, setPoints] = useState(EXTRA_POINTS_CONTENT[0].points)
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleOverviewData = (data) => {

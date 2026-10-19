@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import ProgramWrapper from "../Wrapper/ProgramWrapper";
 import Hero from "./Hero";

@@ -10,59 +10,13 @@ import Hero from "./Hero/Hero";
 import Stats from "./Stats/Stats";
 import Partnership from "./Patnerships/Partnership";
 
-const Programs = dynamic(() => import("./Programs/Programs"), { ssr: false });
-const Verticals = dynamic(() => import("./Verticals/Verticals"), {
-  ssr: false,
-});
-const Intro = dynamic(() => import("./Intro/Intro"), { ssr: false });
-const PlacementSupport = dynamic(
-  () => import("./PlacementSupport/PlacementSupport"),
-  { ssr: false },
-);
-const InfoNew = dynamic(() => import("./Info/InfoNew"), { ssr: false });
-const WatchStoriesV2 = dynamic(
-  () => import("./watch-stories/watch-stories-v2"),
-  { ssr: false },
-);
-const CTA = dynamic(() => import("./CTA/CTA"), { ssr: false });
-
-/* -------------------------------------- 
-   LazyComponent → only loads when visible
-   ✅ IDENTICAL logic — IntersectionObserver unchanged
---------------------------------------- */
-
-
-const LazyComponent = ({ children }) => {
-  const ref = React.useRef(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    let observer;
-
-    if (ref.current) {
-      observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              setVisible(true);
-              observer.disconnect();
-            }
-          });
-        },
-        {
-          rootMargin: "2000px", // Eagerly load way before viewport to stop footer flashing
-          threshold: 0,
-        },
-      );
-
-      observer.observe(ref.current);
-    }
-
-    return () => observer && observer.disconnect();
-  }, []);
-
-  return <div ref={ref} className={!visible ? "min-h-[100vh]" : ""}>{visible ? children : null}</div>;
-};
+import Programs from "./Programs/Programs";
+import Verticals from "./Verticals/Verticals";
+import CareerGrowth from "./CareerGrowth/CareerGrowth";
+import PlacementSupport from "./PlacementSupport/PlacementSupport";
+import InfoNew from "./Info/InfoNew";
+import WatchStoriesV2 from "./watch-stories/watch-stories-v2";
+import CTA from "./CTA/CTA";
 
 /* -------------------------------------- 
    HOME COMPONENT
@@ -88,44 +42,15 @@ const Home = () => {
         {/* {variant === "control" ? <HeroV1 /> : <HeroV2 />} */}
         <Hero />
         <div className="overflow-x-hidden">
-          {/* ✅ Suspense fallback preserved — wraps all dynamic components */}
-          <Suspense fallback={<div>Loading...</div>}>
-            <Stats />
-            <Partnership />
-
-            {/* <LazyComponent> */}
-            {/* <UpdateNotification /> */}
-            {/* </LazyComponent> */}
-
-            <LazyComponent>
-              <Programs />
-            </LazyComponent>
-
-            <LazyComponent>
-              <Verticals />
-            </LazyComponent>
-
-            <LazyComponent>
-              <Intro />
-            </LazyComponent>
-
-            <LazyComponent>
-              <PlacementSupport />
-            </LazyComponent>
-
-            <LazyComponent>
-              <InfoNew />
-            </LazyComponent>
-
-            <LazyComponent>
-              <WatchStoriesV2 />
-            </LazyComponent>
-
-            <LazyComponent>
-              {/* <Testimonials /> */}
-              <CTA />
-            </LazyComponent>
-          </Suspense>
+          <Stats />
+          <Partnership />
+          <Programs />
+          <Verticals />
+          <CareerGrowth />
+          <PlacementSupport />
+          <InfoNew />
+          <WatchStoriesV2 />
+          <CTA />
         </div>
       </Wrapper>
 

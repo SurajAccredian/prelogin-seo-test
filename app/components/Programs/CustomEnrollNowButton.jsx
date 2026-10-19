@@ -19,9 +19,13 @@ const CustomEnrollNowButton = ({
   text,
   ...props
 }) => {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 1024
+  );
   const handleResize = () => {
-    setWidth(window.innerWidth);
+    if (typeof window !== "undefined") {
+      setWidth(window.innerWidth);
+    }
   };
 
   useEffect(() => {
@@ -187,7 +191,7 @@ const CustomEnrollNowButton = ({
   const displayEnrollText = (enrollText === "" || enrollText === "Enroll Now") ? (data?.enroll_button_text || text) : enrollText;
   const isCustomDisabled = (enrollText === "" || enrollText === "Enroll Now") && data?.enroll_button_disabled;
   const finalDisabled = enrollLoderState || isCustomDisabled;
-  
+
   let finalClassName = className;
   if (isCustomDisabled) {
     finalClassName = className

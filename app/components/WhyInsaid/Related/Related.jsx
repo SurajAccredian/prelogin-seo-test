@@ -146,7 +146,7 @@ const Related = () => {
                       <img
                         className="w-full h-full object-cover"
                         src={program.cover_image}
-                        alt="cover images"
+                        alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
                       />
                     </div>
                     <div className="w-full pt-4 pb-2 px-4">

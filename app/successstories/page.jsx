@@ -5,12 +5,11 @@ export const metadata = {
   title: "Success Stories",
   description:
     "Read inspiring career transformation stories from Accredian alumni. See how our programs helped professionals land roles at top companies like Google, Amazon, Microsoft and more.",
+  alternates: {
+    canonical: "/successstories",
+  },
 };
 
 export default function Page() {
-  return (
-    <Suspense fallback={null}>
-      <SuccessStories />
-    </Suspense>
-  );
+  return <SuccessStories />;
 }

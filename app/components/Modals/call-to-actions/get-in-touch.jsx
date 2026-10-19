@@ -17,7 +17,7 @@ import { HashLoader } from "../../Loaders";
 import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
 
-export default function CtaModal({ open, setOpen }) {
+function CtaModalContent({ open, setOpen }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
@@ -398,5 +398,14 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
         </Fade>
       </Modal>
     </div>
+  );
+}
+
+export default function CtaModal(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <CtaModalContent {...props} />
+    </React.Suspense>
   );
 }

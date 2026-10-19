@@ -24,7 +24,7 @@ import { getStoredUTMData } from "../../../helpers/utm.helpers";
 import { getFbc, getFbp } from "../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../helpers/ip.helpers";
 
-export default function GetBrochure({ open }) {
+function GetBrochureContent({ open }) {
   const { data } = useSelector((state) => state.program);
   const dispatch = useDispatch();
 
@@ -514,5 +514,14 @@ ${errors["email"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
         </Fade>
       </Modal>
     </div>
+  );
+}
+
+export default function GetBrochure(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <GetBrochureContent {...props} />
+    </React.Suspense>
   );
 }

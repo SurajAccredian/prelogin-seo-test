@@ -1,3 +1,5 @@
+import { generateFAQFromTemplate } from "../../helpers/faqTemplateService";
+
 export function ProgramJsonLd({ programData }) {
   if (!programData) return null;
 
@@ -42,23 +44,93 @@ export function ProgramJsonLd({ programData }) {
   };
 
   // 2. FAQPage Schema
-  const rawFaqs = programData.faqs || programData.faq || [];
+  let faqsList = [];
+  const usesTemplate =
+    programData?.short_university_name === "iimv" ||
+    programData?.short_university_name === "iitk" ||
+    programData?.short_university_name === "xlri" ||
+    programData?.short_university_name === "iiml" ||
+    programData?.short_university_name === "iim-trichy" ||
+    programData?.short_university_name === "iim-amritsar" ||
+    programData?.short_university_name === "iim-kashipur" ||
+    programData?.short_university_name === "iim-ranchi" ||
+    programData?.short_university_name === "iit-jammu" ||
+    programData?.short_university_name === "iim-sirmaur" ||
+    programData?.short_university_name === "iimbg" ||
+    programData?.id === "executive-program-in-strategic-hr-leadership" ||
+    programData?.id === "executive-program-in-strategic-project-management-and-leadership" ||
+    programData?.id === "executive-program-in-generative-ai-for-leaders" ||
+    programData?.id === "professional-certificate-in-applied-generative-ai" ||
+    programData?.id === "professional-certificate-in-ai-for-leaders" ||
+    programData?.id === "sp-jain-executive-program-in-leadership-with-ai" ||
+    programData?.id === "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme" ||
+    programData?.id === "iith-professional-certificate-program-in-strategic-project-management" ||
+    programData?.id === "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" ||
+    programData?.id === "iiml-executive-program-in-strategic-project-management-leadership" ||
+    programData?.id === "iiml-chief-digital-ai-officer-programme-the-cdaio-program";
+
+  if (usesTemplate) {
+    try {
+      const generated = generateFAQFromTemplate(programData);
+      const points = generated?.points || generated?.sections || [];
+      points.forEach((cat) => {
+        const items = cat.content || cat.questions || [];
+        if (Array.isArray(items)) {
+          items.forEach((q) => {
+            const questionTitle = q.title || q.question;
+            if (questionTitle) {
+              const ans = Array.isArray(q.content)
+                ? q.content.join(" ")
+                : String(q.content || q.answer || "");
+              faqsList.push({ name: questionTitle, text: ans });
+            }
+          });
+        }
+      });
+    } catch {
+      // fallback
+    }
+  }
+
+  if (faqsList.length === 0) {
+    const rawFaqs = programData.faqs || programData.faq || [];
+    if (Array.isArray(rawFaqs) && rawFaqs.length > 0) {
+      faqsList = rawFaqs.filter((f) => f.question || f.title).map((f) => ({
+        name: f.question || f.title,
+        text: typeof f.answer === "string" ? f.answer : f.description || "",
+      }));
+    } else if (rawFaqs && typeof rawFaqs === "object" && Array.isArray(rawFaqs.points)) {
+      rawFaqs.points.forEach((cat) => {
+        const items = cat.content || cat.questions || [];
+        if (Array.isArray(items)) {
+          items.forEach((q) => {
+            const questionTitle = q.title || q.question;
+            if (questionTitle) {
+              const ans = Array.isArray(q.content)
+                ? q.content.join(" ")
+                : String(q.content || q.answer || "");
+              faqsList.push({ name: questionTitle, text: ans });
+            }
+          });
+        }
+      });
+    }
+  }
+
   const faqSchema =
-    Array.isArray(rawFaqs) && rawFaqs.length > 0
+    faqsList.length > 0
       ? {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: rawFaqs
-          .filter((f) => f.question || f.title)
-          .map((f) => ({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqsList.slice(0, 10).map((f) => ({
             "@type": "Question",
-            name: f.question || f.title,
+            name: f.name,
             acceptedAnswer: {
               "@type": "Answer",
-              text: typeof f.answer === "string" ? f.answer : f.description || "",
+              text: f.text,
             },
           })),
-      }
+        }
       : null;
 
   // 3. BreadcrumbList Schema

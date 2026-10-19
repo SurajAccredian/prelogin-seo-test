@@ -99,7 +99,7 @@ const Certificate = ({ data: propData }) => {
                                 : ""
                                 }`}
                               src={val}
-                              alt="certificate"
+                              alt={`${data?.title || data?.program_name || "Program"} Certificate - ${data?.university_name || "Accredian"}`}
                             />
                           </div>
                         </SwiperSlide>
@@ -186,7 +186,7 @@ const Certificate = ({ data: propData }) => {
                     : ""
                     }`}
                   src={data?.certificate}
-                  alt="certificate"
+                  alt={`${data?.title || data?.program_name || "Program"} Certificate - ${data?.university_name || "Accredian"}`}
                 />
               </div>
               <div className="px-4 max-w-3xl lg:max-w-2xl w-full md:text-start text-center">

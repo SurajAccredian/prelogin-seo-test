@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useSearchParams } from "next/navigation";
 import { programActions } from "../../store/reducers/program";
 import GetBrochure from "../Modals/call-to-actions/get-brochure";
 import EnrollNow from "../Modals/call-to-actions/enroll-now";
 
-export default function ProgramClientSync({ initialProgramData }) {
+function ProgramClientSyncInner({ initialProgramData }) {
   const dispatch = useDispatch();
   const searchParams = useSearchParams();
   const { brochureState, enrollState } = useSelector(
@@ -58,5 +58,13 @@ export default function ProgramClientSync({ initialProgramData }) {
       {brochureState && <GetBrochure open={brochureState} />}
       {enrollState && <EnrollNow open={enrollState} />}
     </>
+  );
+}
+
+export default function ProgramClientSync(props) {
+  return (
+    <React.Suspense fallback={null}>
+      <ProgramClientSyncInner {...props} />
+    </React.Suspense>
   );
 }

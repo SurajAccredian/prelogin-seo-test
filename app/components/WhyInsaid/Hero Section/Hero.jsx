@@ -69,7 +69,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
+      <React.Suspense fallback={null}>
+        <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
+      </React.Suspense>
     </>
   );
 };

@@ -18,7 +18,7 @@ import { getFbc, getFbp } from "../../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../../helpers/ip.helpers";
 import "react-phone-input-2/lib/style.css";
 
-const SideForm = ({ data: propData }) => {
+const SideFormContent = ({ data: propData }) => {
   const reduxProgram = useSelector((state) => state.program);
   const data = propData || reduxProgram.data;
 
@@ -482,4 +482,10 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
   );
 };
 
-export default SideForm;
+export default function SideForm(props) {
+  return (
+    <React.Suspense fallback={null}>
+      <SideFormContent {...props} />
+    </React.Suspense>
+  );
+}

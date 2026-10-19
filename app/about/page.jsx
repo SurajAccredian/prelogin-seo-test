@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Learn about Accredian's mission to deliver world-class professional education. We partner with IITs, IIMs, XLRI & SP Jain to offer career-transforming certification programs for working professionals.",
   alternates: {
-    canonical: "/About",
+    canonical: "/about",
   },
 };
 

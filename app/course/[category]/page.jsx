@@ -52,6 +52,77 @@ export async function generateMetadata({ params }) {
   };
 }
 
+import PROGRAMS from "../../components/Assets/programs.json";
+
+function getCategorySchema(category, data) {
+  const readable = decodeURIComponent(category)
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+
+  const normalize = (s) =>
+    String(s || "")
+      .toLowerCase()
+      .replace(/-/g, " ")
+      .replace(/\s*&\s*/g, " and ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const targetNorm = normalize(data?.short_id || data?.vertical || data?.short_title || category);
+  const matchingPrograms = PROGRAMS.filter((p) => normalize(p.category) === targetNorm);
+
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://accredian.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Courses",
+        "item": "https://accredian.com/programs"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": readable,
+        "item": `https://accredian.com/course/${category}`
+      }
+    ]
+  };
+
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `${readable} Programs`,
+    "description": data?.description || `Explore ${readable} programs`,
+    "numberOfItems": matchingPrograms.length,
+    "itemListElement": matchingPrograms.map((p, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "name": p.program_name,
+      "url": `https://accredian.com/programs/${p.id}`
+    }))
+  };
+
+  return [breadcrumbs, itemList];
+}
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const slugs = new Set();
+  for (const k of Object.keys(verticalsData)) {
+    slugs.add(k.replace(/\s*&\s*/g, "-and-").replace(/\s+/g, "-"));
+    slugs.add(k.replace(/\s+/g, "-"));
+  }
+  return [...slugs].map((category) => ({ category }));
+}
+
 export default async function CourseCategoryPage({ params }) {
   const { category } = await params;
   const data = getCategoryData(category);
@@ -60,5 +131,18 @@ export default async function CourseCategoryPage({ params }) {
     notFound();
   }
 
-  return <Wrapper data={data} />;
+  const schemas = getCategorySchema(category, data);
+
+  return (
+    <>
+      {schemas.map((s, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
+        />
+      ))}
+      <Wrapper data={data} />
+    </>
+  );
 }

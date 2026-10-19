@@ -42,18 +42,15 @@ const Home = () => {
         {/* {variant === "control" ? <HeroV1 /> : <HeroV2 />} */}
         <Hero />
         <div className="overflow-x-hidden">
-          {/* ✅ Suspense fallback preserved — wraps sections */}
-          <Suspense fallback={<div>Loading...</div>}>
-            <Stats />
-            <Partnership />
-            <Programs />
-            <Verticals />
-            <Intro />
-            <PlacementSupport />
-            <InfoNew />
-            <WatchStoriesV2 />
-            <CTA />
-          </Suspense>
+          <Stats />
+          <Partnership />
+          <Programs />
+          <Verticals />
+          <Intro />
+          <PlacementSupport />
+          <InfoNew />
+          <WatchStoriesV2 />
+          <CTA />
         </div>
       </Wrapper>
 

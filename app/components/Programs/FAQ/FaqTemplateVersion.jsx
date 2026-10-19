@@ -6,10 +6,9 @@ import { generateFAQFromTemplate } from "../../../helpers/faqTemplateService";
 
 const FaqTemplateVersion = ({ data }) => {
   const [expandedQuestion, setExpandedQuestion] = useState(null);
-  const [faqData, setFaqData] = useState(null);
+  const [faqData, setFaqData] = useState(() => (data ? generateFAQFromTemplate(data) : null));
   const [visibleCount, setVisibleCount] = useState(10);
   const [showAll, setShowAll] = useState(false);
-
 
   useEffect(() => {
     if (data) {
@@ -45,17 +44,15 @@ const FaqTemplateVersion = ({ data }) => {
     }))
   ) || [];
 
-  const displayCount = showAll ? allQuestions.length : visibleCount;
-  const visibleQuestions = allQuestions.slice(0, displayCount);
-  const hasMore = displayCount < allQuestions.length;
-  const remainingCount = allQuestions.length - displayCount;
+  const hasMore = visibleCount < allQuestions.length;
+  const remainingCount = allQuestions.length - visibleCount;
 
-  // Group visible questions by category
-  const groupedQuestions = visibleQuestions.reduce((acc, question) => {
+  // Group all questions by category
+  const groupedQuestions = allQuestions.reduce((acc, question, index) => {
     if (!acc[question.categoryTitle]) {
       acc[question.categoryTitle] = [];
     }
-    acc[question.categoryTitle].push(question);
+    acc[question.categoryTitle].push({ ...question, overallIndex: index });
     return acc;
   }, {});
 
@@ -85,10 +82,12 @@ const FaqTemplateVersion = ({ data }) => {
               </div>
 
               {/* Questions for this category */}
-              {questions.map((question, questionIndex) => (
+              {questions.map((question, questionIndex) => {
+                const isHidden = !showAll && question.overallIndex >= visibleCount;
+                return (
                 <div
                   key={questionIndex}
-                  className="border-b border-gray-200 last:border-b-0 font-sans"
+                  className={`border-b border-gray-200 last:border-b-0 font-sans ${isHidden ? "hidden" : "block"}`}
                 >
                   <div className="w-full py-4 px-5 md:px-6 flex justify-between items-start hover:bg-gray-50 transition-colors duration-200 group relative cursor-pointer">
                     <div className="flex items-center gap-3 w-full pr-12">
@@ -113,40 +112,39 @@ const FaqTemplateVersion = ({ data }) => {
                   </div>
 
 
-                  {expandedQuestion === question.title && (
-                    <div className="px-5 md:px-6 pb-5 pt-1 bg-gray-50">
-                      <div className="text-gray-600 text-sm leading-relaxed">
-                        {question?.content && (
-                          <ReactMarkdown
-                            components={{
-                              a: ({ node, ...props }) => (
-                                <a {...props} className="text-universal underline" target="_blank" rel="noopener noreferrer" />
-                              ),
-                              h1: ({ node, ...props }) => (
-                                <h3 {...props} className="text-2xl font-bold mb-2" />
-                              ),
-                              h2: ({ node, ...props }) => (
-                                <h2 {...props} className="text-base font-semibold mt-4 mb-2" />
-                              ),
-                              ul: ({ node, ...props }) => (
-                                <ul {...props} className="list-disc ml-6 space-y-1" />
-                              ),
-                              li: ({ node, ...props }) => (
-                                <li {...props} className="mt-1" />
-                              ),
-                            }}
-                          >
-                            {question?.content.join("\n")}
-                          </ReactMarkdown>
-                        )}
-                      </div>
+                  <div className={`px-5 md:px-6 pb-5 pt-1 bg-gray-50 ${expandedQuestion === question.title ? "block" : "hidden"}`}>
+                    <div className="text-gray-600 text-sm leading-relaxed">
+                      {question?.content && (
+                        <ReactMarkdown
+                          components={{
+                            a: ({ node, ...props }) => (
+                              <a {...props} className="text-universal underline" target="_blank" rel="noopener noreferrer" />
+                            ),
+                            h1: ({ node, ...props }) => (
+                              <h3 {...props} className="text-2xl font-bold mb-2" />
+                            ),
+                            h2: ({ node, ...props }) => (
+                              <h2 {...props} className="text-base font-semibold mt-4 mb-2" />
+                            ),
+                            ul: ({ node, ...props }) => (
+                              <ul {...props} className="list-disc ml-6 space-y-1" />
+                            ),
+                            li: ({ node, ...props }) => (
+                              <li {...props} className="mt-1" />
+                            ),
+                          }}
+                        >
+                          {question?.content.join("\n")}
+                        </ReactMarkdown>
+                      )}
                     </div>
-                  )}
+                  </div>
                 </div>
-              ))}
-            </div>
-          ))}
-        </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
 
         {/* Compact Button Section */}
         <div className="w-full flex flex-col items-center gap-3 mt-6">

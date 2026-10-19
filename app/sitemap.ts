@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/whyaccredian",
     "/Successstories",
     "/referandearn",
-    "/About",
+    "/about",
     "/Career",
     "/Career/mentor",
     "/contact-us",

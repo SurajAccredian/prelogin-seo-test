@@ -37,6 +37,8 @@ const Companies = () => {
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Alumni-Section-Images/Verizon.webp",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Alumni-Section-Images/bajajcapital.webp",
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Alumni-Section-Images/pine-labs-logo-png_seeklogo-461867.webp"
+  ];
+
   const getCompanyName = (url) => {
     try {
       const filename = url.split("/").pop().replace(/\.(webp|png|svg|jpg)/gi, "");

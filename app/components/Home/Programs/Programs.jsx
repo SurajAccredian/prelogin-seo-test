@@ -40,6 +40,20 @@ const POPULAR_PROGRAM_IDS = [
   "global-senior-leadership-program",
   "senior-management-program",
   "iim-ranchi-senior-management-program",
+  "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+  "iiml-chief-human-resource-officer-programme-the-chro-program",
+  "iims-executive-program-in-leadership-with-ai",
+  "iimt-certificate-programme-in-leadership-with-ai",
+  "professional-certificate-program-in-strategic-project-management-and-leadership",
+  "iimr-executive-program-in-strategic-hr-leadership",
+  "iim-kashipur-chief-operating-officer-program",
+  "iit-jammu-advanced-certificate-in-ai-for-leaders",
+  "professional-certificate-in-ai-for-leaders",
+  "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+  "chief-technology-officer-programme",
+  "executive-development-program-in-global-senior-management",
+  "pg-certificate-program-in-data-science-ai",
+  "advanced-certificate-program-in-strategic-project-management",
 ];
 
 const Programs = () => {
@@ -454,33 +468,35 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
 
         {/* Buttons - pushed to bottom */}
         <div className="flex flex-col md:flex-row gap-2 sm:gap-3 mt-auto">
-          <button
-            onClick={() => {
-              const isFreeCourse =
-                program.category?.toLowerCase() === "free courses" ||
-                program.category?.toLowerCase() === "microsoft" ||
-                program.id === "transform-business-workflows-with-generative-ai" ||
-                program.id === "transform-ideas-into-impact-with-product-management";
-              const path = isFreeCourse ? "free-courses" : "programs";
-              window.open(`http://accredian.com/${path}/${program.id}`);
-            }}
-            className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide"
-          >
-            <span className="text-[12px]">Explore</span>
-            <svg
-              className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2.5}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
-          </button>
+          {(() => {
+            const isFreeCourse =
+              program.category?.toLowerCase() === "free courses" ||
+              program.category?.toLowerCase() === "microsoft" ||
+              program.id === "transform-business-workflows-with-generative-ai" ||
+              program.id === "transform-ideas-into-impact-with-product-management";
+            const path = isFreeCourse ? "free-courses" : "programs";
+            return (
+              <Link
+                href={`/${path}/${program.id}`}
+                className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide no-underline"
+              >
+                <span className="text-[12px]">Explore</span>
+                <svg
+                  className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2.5}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </Link>
+            );
+          })()}
 
           {program.brochure?.pdf && (
             <button

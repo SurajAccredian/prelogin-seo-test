@@ -61,6 +61,20 @@ export async function generateMetadata({ params }) {
   };
 }
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const programsDir = path.join(
+    process.cwd(),
+    "app/components/Assets/programs"
+  );
+  if (!fs.existsSync(programsDir)) return [];
+  const files = fs.readdirSync(programsDir);
+  return files
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => ({ id: f.replace(/\.json$/, "") }));
+}
+
 const ENABLE_BACKEND_FETCH = true;
 
 export default async function ProgramPage({ params }) {
@@ -75,9 +89,10 @@ export default async function ProgramPage({ params }) {
   const pid = programData.pid || getPidBySlug(id);
   if (pid && ENABLE_BACKEND_FETCH) {
     const backendUrl =
-      process.env.NODE_ENV === "production"
-        ? process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5000"
-        : "http://localhost:5000";
+      process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
+      (process.env.NODE_ENV === "production"
+        ? "https://api.accredian.com"
+        : "http://localhost:5000");
 
     try {
       const response = await fetch(`${backendUrl}/program/${pid}/registration-status`, {

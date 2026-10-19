@@ -49,8 +49,11 @@ export default function PaymentPage() {
               phone: decoded.data.mobile || "",
             });
 
-            // Check if already enrolled
-            const BACKEND_URL = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5001";
+            const BACKEND_URL =
+              process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
+              (process.env.NODE_ENV === "production"
+                ? "https://accredian-backend-v1-image-7dra35jwyq-uc.a.run.app"
+                : "http://localhost:5001");
             fetch(`${BACKEND_URL}/api/certification-payment/check-enrollment?user_id=${decoded.data.user_id}&program_id=${decodedId}`)
               .then(res => res.json())
               .then(resData => {
@@ -101,7 +104,11 @@ export default function PaymentPage() {
         return;
       }
 
-      const BACKEND_URL = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5001";
+      const BACKEND_URL =
+        process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
+        (process.env.NODE_ENV === "production"
+          ? "https://accredian-backend-v1-image-7dra35jwyq-uc.a.run.app"
+          : "http://localhost:5001");
 
       const orderResponse = await fetch(`${BACKEND_URL}/api/certification-payment/create-order`, {
         method: "POST",

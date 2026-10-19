@@ -49,6 +49,20 @@ export async function generateMetadata({ params }) {
   };
 }
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const dir = path.join(
+    process.cwd(),
+    "app/components/Assets/free-courses"
+  );
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir);
+  return files
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => ({ id: f.replace(/\.json$/, "") }));
+}
+
 export default async function FreeCoursePage({ params }) {
   const { id } = await params;
   const data = getFreeCourseData(id);

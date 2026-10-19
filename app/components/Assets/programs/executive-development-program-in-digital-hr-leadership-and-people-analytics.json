@@ -4,7 +4,7 @@
   "pid": 110,
   "vertical": "Human Resource",
   "title": "Executive Development Programme in Digital HR Leadership and People Analytics",
-  "seo_title": "Digital HR Leadership & People Analytics Course | XLRI",
+  "seo_title": "XLRI Digital HR Leadership & People Analytics",
   "description": "Embark on a 10 month learning journey in HR Analytics, Digital Leadership, and GenAI.",
   "short_title": "Human Resource",
   "contact": "8826567425",
@@ -385,5 +385,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/Executive-Development-Programme-in-Digital-HR-Leadership-and-People-Analytics.pdf",
     "source": "XLRI Executive Development Programme in Digital HR Leadership and People Analytics Brochure",
     "campaign_name": "EDPSHR-XLRI-10 Months"
-  }
+  },
+  "og_title": "XLRI - Executive Development Programme in Digital HR Leadership and People Analytics",
+  "meta_description": "Learn data-driven HR practices, people analytics, and digital workforce management tools in XLRI Jamshedpur's practical executive program.",
+  "keywords": "XLRI People Analytics course, Digital HR course XLRI, HR analytics program for managers, data driven HR certification XLRI"
 }

@@ -3,7 +3,7 @@
   "category": "67",
   "vertical": "strategy & leadership",
   "title": "Executive Program in Technology Leadership & Innovation",
-  "seo_title": "Executive Program in Technology Leadership & Innovation",
+  "seo_title": "IITM Pravartak Tech Leadership & Innovation",
   "description": "Embark on a 9 month learning journey to lead innovation, leverage emerging technologies, and drive business growth.",
   "short_title": "Technology Leadership",
   "contact": "8882597163",
@@ -260,5 +260,8 @@
       "title": "Claude AI",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
     }
-  ]
+  ],
+  "og_title": "IITM Pravartak - Executive Program in Technology Leadership & Innovation",
+  "meta_description": "Learn to commercialize new tech, drive R&D innovation, and manage technology strategy in IITM Pravartak's online executive program.",
+  "keywords": "IITM Pravartak Technology Leadership, IIT Madras tech leadership program, technology innovation course IIT, CTO executive program IIT"
 }

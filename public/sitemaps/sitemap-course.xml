@@ -1,111 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://accredian.com/course/CFO</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/product-management</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/strategy-&amp;-leadership</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/General-Management</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/Human-Resource</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/finance</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/senior-management</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/project-management</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/digital-Transformation</loc>
-        <lastmod>2025-02-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/course/data-science</loc>
-        <lastmod>2026-10-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://accredian.com/course/artificial-intelligence</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://accredian.com/course/business-management</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/cfo</loc>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://accredian.com/course/cxo-leadership</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://accredian.com/course/cybersecurity</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/data-science</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/digital-transformation</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/finance</loc>
+        <lastmod>2026-10-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/general-management</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/human-resource</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/product-management</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/project-management</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/senior-management</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://accredian.com/course/strategy-&amp;-leadership</loc>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://accredian.com/free-courses/transform-business-workflows-with-generative-ai</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-10-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://accredian.com/free-courses/transform-ideas-into-impact-with-product-management</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-10-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/professional-courses</loc>
-        <lastmod>2026-10-07</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://accredian.com/professional-courses/iim-courses</loc>
-        <lastmod>2026-10-07</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
     </url>
 </urlset>

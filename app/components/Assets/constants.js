@@ -88,14 +88,14 @@ export const NAV_ITEMS = [
     icon: GrResources,
     children: [
       { label: "Blog", redirect: true, href: "https://blog.accredian.com/" },
-      { label: "Success Stories", href: "/Successstories" },
+      { label: "Success Stories", href: "/successstories" },
     ],
   },
   {
     label: "About Us",
     icon: TbInfoSquareRounded,
     children: [
-      { label: "Career", href: "/Career" },
+      { label: "Career", href: "/career" },
       { label: "Why Accredian", href: "/whyaccredian" },
       { label: "Vision & Mission", href: "/about" },
       { label: "Contact Us", href: "/contact-us" },
@@ -105,7 +105,7 @@ export const NAV_ITEMS = [
     label: "More",
     icon: TbInfoSquareRounded,
     children: [
-      { label: "Become a Trainer", icon: GrAnnounce, href: "/Career/mentor" },
+      { label: "Become a Trainer", icon: GrAnnounce, href: "/career/mentor" },
       { label: "Refer & Earn", icon: GrAnnounce, href: "/referandearn" },
     ],
   },

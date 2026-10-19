@@ -13,35 +13,60 @@ export async function generateMetadata({ params }) {
       `${id}.json`
     );
     const data = JSON.parse(readFileSync(filePath, "utf8"));
-    const title = data.seo_title || data.title;
+    const rawTitle = (data.seo_title || data.title || "")
+      .replace(/\s*[-|]\s*Accredian$/i, "")
+      .trim();
+    const title = rawTitle;
+
     const description =
+      data.meta_description ||
       data.description ||
       `Explore the ${data.title} offered by ${data.university_name} at Accredian. ${data.duration ? `${data.duration} online program.` : ""}`;
+
+    const ogTitle = data.og_title || rawTitle;
+    const keywords = data.keywords || undefined;
+    const canonicalUrl = `https://accredian.com/programs/${id}`;
+    const ogImage = data.university_image
+      ? [data.university_image]
+      : data.university_logo
+      ? [data.university_logo]
+      : [];
+
     return {
-      title: {
-        absolute: title,
-      },
+      title,
       description,
+      keywords,
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
-        title: title,
+        title: ogTitle,
         description,
-        images: data.university_image
-          ? [data.university_image]
-          : data.university_logo
-          ? [data.university_logo]
-          : [],
+        url: canonicalUrl,
+        siteName: "Accredian",
+        images: ogImage,
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        site: "@accredianedu",
+        title: ogTitle,
+        description,
+        images: ogImage,
       },
     };
   } catch {
     return {
-      title: {
-        absolute: "Professional Certification Program | Accredian",
-      },
+      title: "Professional Certification Program",
       description:
         "Explore professional certification programs from top IITs, IIMs, and business schools at Accredian.",
+      alternates: {
+        canonical: `https://accredian.com/programs/${id}`,
+      },
     };
   }
 }
+
 
 import { getPidBySlug } from "../../lib/program-pid-resolver";
 

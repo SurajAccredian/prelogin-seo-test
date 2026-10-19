@@ -162,7 +162,7 @@ function MentorverticalListsList() {
       <div className="flex justify-center mb-5">
         <button className="w-full text-center max-w-[200px]  mt-4 rounded-lg bg-universal text-white text-base font-semibold flex items-center justify-center gap-1">
           <a
-            href="/Career/mentor/application"
+            href="/career/mentor/application"
             target="_blank"
             className="h-full w-full px-4 py-3"
           >

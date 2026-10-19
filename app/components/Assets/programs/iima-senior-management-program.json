@@ -4,7 +4,7 @@
   "pid": 142,
   "vertical": "senior management",
   "title": "Senior Management Program",
-  "seo_title": "Senior Management Program",
+  "seo_title": "IIM Amritsar Senior Management Program SMP",
   "description": "Embark on a 10 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.",
   "short_title": "Senior Management",
   "contact": "8851827053",
@@ -382,5 +382,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMA-Senior-Management-Program.pdf",
     "source": "IIMA Senior Management Program Brochure",
     "campaign_name": "SMP-IIMA-10 Months"
-  }
+  },
+  "og_title": "IIM Amritsar - Senior Management Program",
+  "meta_description": "Accelerate your career, build business strategy expertise, and manage large teams in IIM Amritsar's online Senior Management Program.",
+  "keywords": "IIM Amritsar Senior Management Program, IIM Amritsar SMP, executive management course IIM, senior leadership program"
 }

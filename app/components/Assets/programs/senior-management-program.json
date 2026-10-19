@@ -4,7 +4,7 @@
   "pid": 69,
   "vertical": "senior management",
   "title": "Senior Management Program",
-  "seo_title": "Senior Management Program",
+  "seo_title": "IIM Visakhapatnam Senior Management Program SMP",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Senior Management",
   "contact": "8851827093",
@@ -462,5 +462,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Senior-Management-Program.pdf",
     "source": "IIMV Senior Management Brochure",
     "campaign_name": "SMP-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIM Visakhapatnam - Senior Management Program",
+  "meta_description": "Master business strategy, corporate finance, and team leadership to step into senior executive roles with IIM Visakhapatnam's SMP.",
+  "keywords": "IIM Visakhapatnam Senior Management Program, IIM Vizag SMP, senior management certificate online IIM"
 }

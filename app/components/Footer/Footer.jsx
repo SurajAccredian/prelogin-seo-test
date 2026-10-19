@@ -222,7 +222,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="pt-4">
-                    <Link href="/Career" prefetch={false} style={{ textDecoration: "none" }}>
+                    <Link href="/career" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",

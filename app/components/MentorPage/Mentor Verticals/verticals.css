@@ -1,0 +1,96 @@
+.vertical .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vertical .swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.vertical .swiper-pagination {
+  bottom: -20%;
+}
+
+.vertical .custom-prev1::after,
+.vertical .custom-prev1::before,
+.vertical .custom-next1::after,
+.vertical .custom-next1::before {
+content: none;
+}
+
+
+.vertical .custom-prev1::after,
+.vertical .custom-prev1::before {
+content: none !important;
+} 
+
+.vertical .swiper-button-prev.custom-prev1,
+.vertical .swiper-button-next.custom-next1 {
+position: absolute;
+top: 50%;
+/* transform: translateY(-50%); */
+color: #000 !important;
+/* Change this to the color you want */
+z-index: 10;
+/* Increase this value if the buttons are behind other elements */
+}
+
+.vertical .swiper-button-prev.custom-prev1 {
+left: 0;
+}
+
+.vertical .swiper-button-next.custom-next1 {
+right: 0;
+}
+
+.vertical .swiper-pagination{
+  bottom: -20%;
+}
+
+
+
+.vertical .vertical-bg {
+  background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/shapes.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: top right;
+  width: 650px;
+  height: 290px;
+}
+
+.swiper-button-prev.custom-prev1,
+.swiper-button-next.custom-next1 {
+  display: none;
+  /* Hide by default */
+}
+
+/* CSS media query for desktop screens */
+@media screen and (min-width: 1024px) {
+
+  .swiper-button-prev.custom-prev1,
+  .swiper-button-next.custom-next1 {
+    display: block;
+    /* Show on desktop screens */
+  }
+}

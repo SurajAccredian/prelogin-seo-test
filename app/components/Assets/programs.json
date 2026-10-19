@@ -1,0 +1,2205 @@
+[
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
+    "duration": "5 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
+    "batch_type": "Online",
+    "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+    "category": "design thinking",
+    "tags": [
+      "online",
+      "Instructor Led",
+      "new launch"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-In-Design-Thinking-Innovation-With-AI.pdf",
+      "source": "IITK Professional Certificate Program in Design Thinking Brochure",
+      "campaign_name": "IITK-Design Thinking"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "27 Sep 2026",
+    "contact": "9211285411",
+    "program_fee": 150000,
+    "pid": 168,
+    "required_years_experience": 1
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+    "batch_type": "Online",
+    "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Digital-&-AI-Officer-Programme-Brochure.pdf",
+      "source": "IIML-Chief-Digital-&-AI-Officer-Programme-(The-CDAIO-Program)-Brochure",
+      "campaign_name": "CD&AOP(CP-iiml-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "28 Jun 2026",
+    "contact": "8851827053",
+    "program_fee": 452500,
+    "pid": 138,
+    "required_years_experience": 7
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "university_name": "IIM Sirmaur",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "6 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "batch_type": "Online",
+    "id": "iims-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Best Selling",
+      "Instructor Led",
+      "Online"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Artificial Intelligence-7 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "9358719988",
+    "pid": 177,
+    "required_years_experience": 2
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+    "university_name": "IIM Tiruchirappalli",
+    "program_name": "Certificate Programme in Leadership with AI",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+    "batch_type": "Online",
+    "id": "iimt-certificate-programme-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMTRICHY-Certificate-Programme-In-Leadership-With-AI.pdf",
+      "source": "IIM-TRICHY Executive Certificate Programme in Leadership with AI Brochure",
+      "campaign_name": "IIM-TRICHY-Artificial Intelligence"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "",
+    "program_fee": 209000,
+    "pid": 164,
+    "required_years_experience": 3
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "batch_type": "Online",
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "category": "human resource",
+    "tags": [
+      "online",
+      "Instructor Led",
+      "new launch"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
+      "source": "IIML Chief Human Resources Officer Programme (The CHRO Program) Brochure",
+      "campaign_name": "IIML-Chief Human Resources Officer"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "20 Sep 2026",
+    "contact": "8851827093",
+    "program_fee": 400000,
+    "pid": 163,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
+    "batch_type": "Online",
+    "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+    "category": "cxo leadership",
+    "tags": [
+      "online",
+      "Instructor Led",
+      "new launch"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
+      "source": "IIML Chief Human Resources Officer Programme (The CHRO Program) Brochure",
+      "campaign_name": "IIML-Chief Human Resources Officer"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "20 Sep 2026",
+    "contact": "8851827093",
+    "program_fee": 400000,
+    "pid": 163,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round-v2.png",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Professional Certificate Program in Strategic Project Management & Leadership",
+    "duration": "8 Months",
+    "batch_type": "Online",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-blue.webp",
+    "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
+    "category": "project management",
+    "tags": [
+      "Strategic Thinking",
+      "Product Vision and Mission",
+      "Competitor Analysis and Market research",
+      "Business Model Canvas and Value Proposition",
+      "Product Strategy and Roadmap"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-11.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Professional-Certificate-Program-in-Strategic-Project-Management-&-Leadership.pdf",
+      "source": "IITK Professional Certificate Program in Strategic Project Management & Leadership Brochure",
+      "campaign_name": "PCPSPMTL-IITK-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "9211285411",
+    "program_fee": 180000,
+    "pid": 136,
+    "required_years_experience": 0
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round-v2.png",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Advanced Certificate Program in Strategic Project Management",
+    "duration": "5 Months",
+    "batch_type": "Online",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-blue.webp",
+    "id": "advanced-certificate-program-in-strategic-project-management",
+    "category": "project management",
+    "tags": [
+      "Strategic Thinking",
+      "Product Vision and Mission",
+      "Competitor Analysis and Market research",
+      "Business Model Canvas and Value Proposition",
+      "Product Strategy and Roadmap"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-11.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-in-Strategic-Project-Management.pdf",
+      "source": "IITK Advanced Certificate Program in Strategic Project Management Brochure",
+      "campaign_name": "ACPSPMT-IITk-5 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "9211285411",
+    "program_fee": 140000,
+    "pid": 135,
+    "required_years_experience": 0
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Strategic HR Leadership",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-executive-program-in-strategic-hr-leadership",
+    "category": "human resource",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategic-HR-Leadership.pdf",
+      "source": "IIM-RANCHI Executive Program in Strategic HR Leadership Brochure",
+      "campaign_name": "IIM-RANCHI-SHRL"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "8851827093",
+    "program_fee": 220000,
+    "pid": 161,
+    "required_years_experience": 3
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Chief Human Resource Officer Programme (The CHRO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-chief-human-resource-officer-programme-the-chro-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Chief-Human-Resource-Officer-Programme-The-CHRO-Program.pdf",
+      "source": "IIM-RANCHI Chief Human Resource Officer Programme (The CHRO Program) Brochure",
+      "campaign_name": "IIM-RANCHI-CHRO"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "17 Jan 2027",
+    "contact": "8851827093",
+    "program_fee": 250000,
+    "pid": 162,
+    "required_years_experience": 7
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Strategy & Leadership",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-executive-program-in-strategy-leadership",
+    "category": "strategy & leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategy-Leadership.pdf",
+      "source": "IIM-RANCHI Executive Program in Strategy & Leadership Brochure",
+      "campaign_name": "IIM-RANCHI-EPSL"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "24 Jan 2027",
+    "contact": "8851827093",
+    "program_fee": 260000,
+    "pid": 159,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "duration": "7 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
+      "source": "IIM-RANCHI Executive Program in Generative AI & Agentic AI for Leaders Brochure",
+      "campaign_name": "IIM-RANCHI-EPGA&AIL"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "29 Nov 2026",
+    "contact": "8851827093",
+    "program_fee": 180000,
+    "pid": 160,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+    "university_name": "IIM Kashipur",
+    "program_name": "Chief Operating Officer Program (The COO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iim-kashipur-chief-operating-officer-program",
+    "category": "cxo leadership",
+    "tags": [
+      "New Launch",
+      "Instructor led",
+      "Online",
+      "Best Selling"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
+      "source": "IIM-KASHIPUR Chief Operating Officer Program (The COO Program) Brochure",
+      "campaign_name": "IIM-KASHIPUR-COO-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "8851827093",
+    "program_fee": 290000,
+    "pid": 158,
+    "required_years_experience": 10
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iim-ranchi-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iim-ranchi-executive-program-in-leadership-with-ai-Brochure.pdf",
+      "source": "IIM Ranchi Executive Program in Leadership with AI Brochure",
+      "campaign_name": "EPLA-IIMR-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "15 Nov 2026",
+    "contact": "8851827053",
+    "program_fee": 199000,
+    "pid": 157,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "university_name": "I3C-IIT JAMMU",
+    "program_name": "Advanced Certificate in AI for Leaders",
+    "duration": "5 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iit-jammu-advanced-certificate-in-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-advanced-certificate-in-ai-for-leaders-Brochure.pdf",
+      "source": "IIT Jammu Advanced Certificate in AI for Leaders Brochure",
+      "campaign_name": "IITJ-Advanced-Certificate-in-AI-for-Leaders-5-Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "26th Jul 2026",
+    "contact": "9358719988",
+    "program_fee": 120000,
+    "pid": 155,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "university_name": "I3C-IIT JAMMU",
+    "program_name": "Advanced Certificate in Generative AI for Leaders",
+    "duration": "5 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iit-jammu-advanced-certificate-in-generative-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-advanced-certificate-in-generative-ai-for-leaders-Brochure.pdf",
+      "source": "IIT Jammu Advanced Certificate in Generative AI for Leaders Brochure",
+      "campaign_name": "IITJ-ACGAIL-5-Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "26th Jul 2026",
+    "contact": "9358719988",
+    "program_fee": 120000,
+    "pid": 154,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "university_name": "I3C-IIT JAMMU",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders-Brochure.pdf",
+      "source": "IIT Jammu Executive Program in Generative AI & Agentic AI for Leaders Brochure",
+      "campaign_name": "IITJ-GenAI-AgenticAI-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "26th Jul 2026",
+    "contact": "9358719988",
+    "program_fee": 160000,
+    "pid": 153,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "university_name": "I3C-IIT JAMMU",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iit-jammu-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-leadership-with-ai-Brochure.pdf",
+      "source": "IIT Jammu Executive Program in Leadership with AI Brochure",
+      "campaign_name": "IITJ-EPLA-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "26th Jul 2026",
+    "contact": "9358719988",
+    "program_fee": 160000,
+    "pid": 156,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "university_name": "SP Jain School of Global Management",
+    "program_name": "Professional Certificate in AI for Leaders",
+    "duration": "4 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
+    "batch_type": "Online",
+    "id": "professional-certificate-in-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Professional-Certificate-in-AI-for-Leaders-Brochure.pdf",
+      "source": "SPJ Professional Certificate in AI for Leaders Brochure",
+      "campaign_name": "PCAIL-SPJ-4 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "21st Jun 2026",
+    "contact": "9358719988",
+    "program_fee": 130000,
+    "pid": 147,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "university_name": "SP Jain School of Global Management",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "7 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
+    "batch_type": "Online",
+    "id": "sp-jain-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Executive-Program-in-Leadership-with-AI-Brochure.pdf",
+      "source": "SPJ Executive Program in Leadership with AI Brochure",
+      "campaign_name": "EPLAI-SPJ-7 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "21st Jun 2026",
+    "contact": "9358719988",
+    "program_fee": 160000,
+    "pid": 148,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+    "university_name": "IIM Bodh Gaya",
+    "program_name": "Senior Management Program ",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
+    "batch_type": "Online",
+    "id": "iim-bodh-gaya-senior-management-program",
+    "category": "senior management",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTBODHGAYA-Senior-Management-Program.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA Senior Management Program Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-BODH-GAYA-SMP"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "24 Jan 2027 ",
+    "contact": "8851827093",
+    "pid": 181,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "Senior Management Program",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iim-ranchi-senior-management-program",
+    "category": "senior management",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIM-Ranchi-Senior-Management-Program-Brochure.pdf",
+      "source": "IIM Ranchi Senior Management Brochure",
+      "campaign_name": "SMP-IIMR-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "24 Jan 2027",
+    "contact": "8851827053",
+    "program_fee": 260000,
+    "pid": 146,
+    "required_years_experience": 10
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "CTO & AI Leadership Program",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iimr-cto-ai-leadership-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-CTO-AI-Leadership-Program.pdf",
+      "source": "IIM-RANCHI CTO & AI Leadership Programme Brochure",
+      "campaign_name": "IIM-RANCHI-Chief Technology Officer"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "31 Jan 2027",
+    "contact": "8851827053",
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp",
+    "university_name": "IIM Amritsar",
+    "program_name": "Senior Management Program",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp",
+    "batch_type": "Online",
+    "id": "iima-senior-management-program",
+    "category": "senior management",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMA-Senior-Management-Program.pdf",
+      "source": "IIMA Senior Management Program Brochure",
+      "campaign_name": "SMP-IIMA-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "26 Jul 2026",
+    "contact": "8851827053",
+    "program_fee": 210000,
+    "pid": 142,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
+    "university_name": "XLRI",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri.png",
+    "program_name": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+    "duration": "11 Months",
+    "batch_type": "Online",
+    "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "category": "cxo leadership",
+    "tags": [
+      "Stakeholder Management",
+      "Global Marketing Strategies",
+      "Digital Marketing Optimization",
+      "Cross-Functional Collaboration",
+      "Performance Metrics & KPIs",
+      "Customer Relationship Management (CRM)",
+      "Ethical Marketing Practices"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-12.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRIJ-Executive-Development-Programme-or-Emerging-Chief-Technology-Officers.pdf",
+      "source": "XLRI Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) Brochure",
+      "campaign_name": "EDPSHR-XLRI-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "26 July 2026",
+    "contact": "9289224842",
+    "program_fee": 330000,
+    "pid": 150,
+    "required_years_experience": 8
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
+    "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
+    "program_name": "Executive Program in Design Thinking & Innovation for Strategic Leadership",
+    "duration": "6 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
+    "category": "design thinking",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITH-Executive-Program-in-Design-Thinking-and-Innovation-for-Strategic-Leadership.pdf",
+      "source": "IITH Executive Program in Design Thinking & Innovation for Strategic Leadership Brochure",
+      "campaign_name": "DTIP-IITH-6 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "28 Jun 2026",
+    "contact": "8851827053",
+    "program_fee": 179000,
+    "pid": 140,
+    "required_years_experience": 1
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
+    "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
+    "program_name": "Professional Certificate Program in Strategic Project Management",
+    "duration": "6 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
+    "batch_type": "Online",
+    "id": "iith-professional-certificate-program-in-strategic-project-management",
+    "category": "project management",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITH-Professional-Certificate-Program-in-Strategic-Project-Management.pdf",
+      "source": "IITH Professional Certificate Program in Strategic Project Management Brochure",
+      "campaign_name": "PCPSPMT-IITH-6 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "28 Jun 2026",
+    "contact": "8851827053",
+    "program_fee": 180000,
+    "pid": 139,
+    "required_years_experience": 1
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Executive Program in Strategic Project Management & Leadership",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+    "batch_type": "Online",
+    "id": "iiml-executive-program-in-strategic-project-management-leadership",
+    "category": "project management",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Executive-Program-in-Strategic-Project-Management-Leadership.pdf",
+      "source": "IIML Executive Program in Strategic Project Management & Leadership Brochure",
+      "campaign_name": "EPISPM&L-iiml-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "30 May 2026",
+    "contact": "8851827053",
+    "program_fee": 242500,
+    "pid": 137,
+    "required_years_experience": 1
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
+    "university_name": "XLRI",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri.png",
+    "program_name": "Executive Development Program in Global Senior Management",
+    "duration": "11 Months",
+    "batch_type": "Online",
+    "id": "executive-development-program-in-global-senior-management",
+    "category": "senior management",
+    "tags": [
+      "Stakeholder Management",
+      "Global Marketing Strategies",
+      "Digital Marketing Optimization",
+      "Cross-Functional Collaboration",
+      "Performance Metrics & KPIs",
+      "Customer Relationship Management (CRM)",
+      "Ethical Marketing Practices"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-12.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Global-Senior-Management.pdf",
+      "source": "Executive Development Program in Global Senior Management Brochure",
+      "campaign_name": "GSM-XLRI-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "28 June 2026",
+    "contact": "8851827053",
+    "program_fee": 400000,
+    "pid": 141,
+    "required_years_experience": 10
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "university_name": "SP Jain School of Global Management",
+    "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
+    "duration": "7 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
+    "batch_type": "Online",
+    "id": "executive-program-in-generative-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Executive-Program-in-Generative-AI-and-Agentic-AI-for-Leaders-Brochure.pdf",
+      "source": "SPJ Executive Program in Generative AI & Agentic AI for Leaders Brochure",
+      "campaign_name": "EPGAIL-SPJ-6 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "13 Dec 2026",
+    "contact": "9358719988",
+    "program_fee": 169000,
+    "pid": 144,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+    "university_name": "IITM Pravartak",
+    "program_name": "Executive Program in Technology Leadership & Innovation",
+    "duration": "9 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image__3_.webp",
+    "batch_type": "Online",
+    "id": "executive-program-in-technology-leadership-innovation",
+    "category": "strategy & leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITMADRASPRAVARTAK-Executive-Program-In-Technology-Leadership-Innovation.pdf",
+      "source": "IIT-MADRAS-PRAVARTAK Executive Program in Technology Leadership & Innovation Brochure",
+      "campaign_name": "IIT-MADRAS-PRAVARTAK-Technology Leadership"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "8882597163",
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
+    "university_name": "SP Jain School of Global Management",
+    "program_name": "Professional Certificate in Generative AI for Business Transformation",
+    "duration": "4 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
+    "batch_type": "Online",
+    "id": "professional-certificate-in-applied-generative-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Digital Strategy",
+      "Digital Business Model",
+      "Product Monetization",
+      "Blockchain",
+      "IoT",
+      "Cybersecurity",
+      "Agile",
+      "Digital Governance"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Professional-Certificate-in-Generative-AI-for-Business-Transformation-Brochure.pdf",
+      "source": "SPJ Professional Certificate in Generative AI for Business Transformation Brochure",
+      "campaign_name": "PCAGAI-SPJ-4 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "13 Dec 2026",
+    "contact": "9358719988",
+    "program_fee": 139000,
+    "pid": 145,
+    "required_years_experience": 5
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Chief Human Resource Officer Programme",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "chief-human-resource-officer-programme",
+    "category": "Human Resource",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-chief-human-resource-officer-programme.pdf",
+      "source": "IIMV Human Resource Brochure",
+      "campaign_name": "CHRO-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "22 Feb 2026",
+    "contact": "9115924967",
+    "program_fee": 250000,
+    "pid": 90,
+    "required_years_experience": 10
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Chief Human Resource Officer Programme",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "chief-human-resource-officer-programme",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-chief-human-resource-officer-programme.pdf",
+      "source": "IIMV Human Resource Brochure",
+      "campaign_name": "CHRO-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "22 Feb 2026",
+    "contact": "9115924967",
+    "program_fee": 250000,
+    "pid": 90,
+    "required_years_experience": 10
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "post-graduate-diploma-in-management-for-working-executives",
+    "category": "PG Diploma",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-post-graduate-diploma-in-management-for-working-executives.pdf",
+      "source": "IIMV Post Graduate Diploma in Management for Working Executives (PGDMEx) Brochure",
+      "campaign_name": "PGDMEx-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "24 May 2026",
+    "contact": "8130897175",
+    "program_fee": 484300,
+    "pid": 127,
+    "required_years_experience": 3
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Executive Program in Generative AI for Business Leaders",
+    "duration": "7 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "executive-program-in-generative-ai-for-business-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-generative-ai-for-business-leaders.pdf",
+      "source": "IIMV Executive Program in Generative AI for Business Leaders Brochure",
+      "campaign_name": "EPGAIBL-IIMV-7 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "9 May 2026",
+    "contact": "7678385465",
+    "program_fee": 180000,
+    "pid": 131,
+    "required_years_experience": 5
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Post Graduate Certificate in Strategic Project Management & Leadership",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "pg-certificate-in-strategic-project-management-and-leadership",
+    "category": "project management",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-pg-certificate-in-strategic-project-management-and-leadership.pdf",
+      "source": "IIMV Post Graduate Certificate in Strategic Project Management & Leadership Brochure",
+      "campaign_name": "PGCSPML-IIMV-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "7 Mar 2027",
+    "contact": "8851827093",
+    "program_fee": 209000,
+    "pid": 129,
+    "required_years_experience": 5
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
+    "category": "strategy & leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-strategy-leadership-and-innovation-in-ai-era.pdf",
+      "source": "IIMV Executive Program in Strategy, Leadership and Innovation in AI Era Brochure",
+      "campaign_name": "EPSLAI-IIMV-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "10 May 2026",
+    "contact": "8851827093",
+    "program_fee": 300000,
+    "pid": 125,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "university_name": "IIM Sirmaur",
+    "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
+    "duration": "8 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
+    "batch_type": "Online",
+    "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
+    "category": "strategy & leadership",
+    "tags": [
+      "Instructor Led",
+      "Best Selling",
+      "New"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Strategy-Leadership-Innovation-In-AI-Era.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Strategy Leadership & Innovation in AI Era Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR-Strategy & Leadership-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "8851827093",
+    "pid": 176,
+    "required_years_experience": 3
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
+    "university_name": "XLRI",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri.png",
+    "program_name": "Executive Development Program in Strategic HR Leadership",
+    "duration": "10 Months",
+    "batch_type": "Online",
+    "id": "executive-development-program-strategic-hr-leadership",
+    "category": "Human Resource",
+    "tags": [
+      "Stakeholder Management",
+      "Global Marketing Strategies",
+      "Digital Marketing Optimization",
+      "Cross-Functional Collaboration",
+      "Performance Metrics & KPIs",
+      "Customer Relationship Management (CRM)",
+      "Ethical Marketing Practices"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-12.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Strategic-HR-Leadership.pdf",
+      "source": "XLRI Executive Development Program in Strategic HR Leadership Brochure",
+      "campaign_name": "EDPSHR-XLRI-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "12 July 2026",
+    "contact": "9289224842",
+    "program_fee": 240000,
+    "pid": 104,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Executive Program in Leadership with AI",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "iimv-executive-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-leadership-with-ai-brochure.pdf",
+      "source": "IIMV Executive Program in Leadership with AI Brochure",
+      "campaign_name": "EPLAI-IIMV-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "7678385465",
+    "program_fee": 245000,
+    "pid": 173,
+    "required_years_experience": 5
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_name": "IIM Lucknow",
+    "program_name": "Executive General Management Program",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+    "batch_type": "Online",
+    "id": "executive-general-management-program",
+    "category": "general management",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Executive-General-Management-Program.pdf",
+      "source": "IIML Executive General Management Program Brochure",
+      "campaign_name": "GM-IIML-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "30 Nov 2025",
+    "contact": "8851827053",
+    "program_fee": 425000,
+    "pid": 126,
+    "required_years_experience": 1
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+    "university_name": "IIM Tiruchirappalli",
+    "program_name": "Chief Technology Officer Programme (The CTO Program)",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-V-v2.webp",
+    "batch_type": "Online",
+    "id": "iim-trichy-chief-technology-officer-programme",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMT-chief-technology-officer-programme.pdf",
+      "source": "IIMT Chief Technology Officer Programme (The CTO Program) Brochure",
+      "campaign_name": "IIMT-CTO-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "16 May 2026",
+    "contact": "8851827093",
+    "program_fee": 290000,
+    "pid": 123,
+    "required_years_experience": 10
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+    "university_name": "IIM Tiruchirappalli",
+    "program_name": "Accelerated Senior Management Programme",
+    "duration": "10 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-V-v2.webp",
+    "batch_type": "Online",
+    "id": "accelerated-senior-management-program",
+    "category": "senior management",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMT-Accelerated-Senior-Management-Program.pdf",
+      "source": "IIMT Accelerated Senior Management Program Brochure",
+      "campaign_name": "SMP-IIMT-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "26 Oct 2025",
+    "contact": "8882597163",
+    "program_fee": 290000,
+    "pid": 121,
+    "required_years_experience": 10
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Chief Executive Officer Program (The CEO Program)",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "chief-executive-officer-program",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Executive-Officer-Programme.pdf",
+      "source": "IIMV Chief Executive Officer Programme Brochure",
+      "campaign_name": "IIMV-CEO-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "19 Apr 2026",
+    "contact": "8851827053",
+    "program_fee": 349000,
+    "pid": 120,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round-v2.png",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Advanced Certificate Program in AI for Leaders",
+    "duration": "5 Months",
+    "batch_type": "Online",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-blue.webp",
+    "id": "advanced-certificate-program-in-ai-for-leaders",
+    "category": "artificial intelligence",
+    "tags": [
+      "Strategic Thinking",
+      "Product Vision and Mission",
+      "Competitor Analysis and Market research",
+      "Business Model Canvas and Value Proposition",
+      "Product Strategy and Roadmap"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-11.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-In-AI-For-Leaders.pdf",
+      "source": "IITK Advanced Certificate Program in AI for Leaders Brochure",
+      "campaign_name": "ACPAIL-IITK-5 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "29 Nov 2026",
+    "contact": "9211285411",
+    "program_fee": 140000,
+    "pid": 118,
+    "required_years_experience": 1
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-round-v2.png",
+    "university_name": "E&ICT Academy IIT Kanpur",
+    "program_name": "Professional Certificate Program in Leadership with AI",
+    "duration": "8 Months",
+    "batch_type": "Online",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-blue.webp",
+    "id": "professional-certificate-program-in-leadership-with-ai",
+    "category": "artificial intelligence",
+    "tags": [
+      "Strategic Thinking",
+      "Product Vision and Mission",
+      "Competitor Analysis and Market research",
+      "Business Model Canvas and Value Proposition",
+      "Product Strategy and Roadmap"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-11.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Professional-Certificate-Program-In-Leadership-With-AI.pdf",
+      "source": "IITK Professional Certificate Program in Leadership with AI Brochure",
+      "campaign_name": "PCPLAI-IITK-8 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "29 Nov 2026",
+    "contact": "9211285411",
+    "program_fee": 180000,
+    "pid": 119,
+    "required_years_experience": 1
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Chief-Digital-and-AI-Officer-Program.pdf",
+      "source": "IIMV PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program) Brochure",
+      "campaign_name": "IIMV-CDAIO-11-Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "22 Feb 2026",
+    "contact": "7619555873",
+    "program_fee": 350000,
+    "pid": 117,
+    "required_years_experience": 10
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Chief Technology Officer Programme (The CTO Program)",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "chief-technology-officer-programme",
+    "category": "cxo leadership",
+    "tags": [
+      "technology strategy",
+      "tech risk management",
+      "strategic communication"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Technology-Officer-Programme.pdf",
+      "source": "IIMV Chief Technology Officer Programme Brochure",
+      "campaign_name": "IIMV-CTOP-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "17 May 2025",
+    "contact": "8851827093",
+    "program_fee": 350000,
+    "pid": 112,
+    "required_years_experience": 10
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
+    "university_name": "XLRI",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri.png",
+    "program_name": "Executive Development Programme in Digital HR Leadership and People Analytics",
+    "duration": "10 Months",
+    "batch_type": "Online",
+    "id": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
+    "category": "Human Resource",
+    "tags": [
+      "Stakeholder Management",
+      "Global Marketing Strategies",
+      "Digital Marketing Optimization",
+      "Cross-Functional Collaboration",
+      "Performance Metrics & KPIs",
+      "Customer Relationship Management (CRM)",
+      "Ethical Marketing Practices"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-12.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/Executive-Development-Programme-in-Digital-HR-Leadership-and-People-Analytics.pdf",
+      "source": "XLRI Executive Development Programme in Digital HR Leadership and People Analytics Brochure",
+      "campaign_name": "EDPSHR-XLRI-10 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "30 Aug 2026",
+    "contact": "8826567425",
+    "program_fee": 240000,
+    "pid": 110,
+    "required_years_experience": 3
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Global Senior Leadership Program",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "global-senior-leadership-program",
+    "category": "senior management",
+    "tags": [
+      "Global Market Strategy",
+      "Finance",
+      "Operations",
+      "HR Strategy"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Global-Senior-Leadership-Program.pdf",
+      "source": "IIMV Global Senior Leadership Program Brochure",
+      "campaign_name": "GSL-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "27 Sep 2026",
+    "contact": "8851827053",
+    "program_fee": 400000,
+    "pid": 172,
+    "required_years_experience": 5
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Executive Program in Business Management",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "executive-program-in-business-management",
+    "category": "business management",
+    "tags": [
+      "Management, Strategic Thinking, Leadership"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-21.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Business-Management.pdf",
+      "source": "Business Management brochure",
+      "campaign_name": "BM-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "25 May 2025",
+    "contact": "8595709940",
+    "program_fee": 270000,
+    "pid": 63,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
+    "university_name": "XLRI",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri.png",
+    "program_name": "Executive Development Program in Strategy & Leadership",
+    "duration": "11 Months",
+    "batch_type": "Online",
+    "id": "executive-program-in-strategy-leadership",
+    "category": "strategy & leadership",
+    "tags": [
+      "Stakeholder Management",
+      "Global Marketing Strategies",
+      "Digital Marketing Optimization",
+      "Cross-Functional Collaboration",
+      "Performance Metrics & KPIs",
+      "Customer Relationship Management (CRM)",
+      "Ethical Marketing Practices"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-12.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Strategy-and-Leadership.pdf",
+      "source": "Executive Development Program in Strategy & Leadership Brochure",
+      "campaign_name": "S&L-XLRI-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "05 Jul 2026",
+    "contact": "8882597163",
+    "program_fee": 280000,
+    "pid": 105,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Chief Financial Officer Programme",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "chief-financial-officer-programme",
+    "category": "cxo leadership",
+    "tags": [
+      "Financial Leadership",
+      "Corporate Governance",
+      "Digital Leadership"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-21.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Financial-Officer-Programme.pdf",
+      "source": "IIMV Chief Financial Officer Programme Brochure",
+      "campaign_name": "CFO-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "21 Jun 2026",
+    "contact": "9289224842",
+    "program_fee": 349000,
+    "pid": 170,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Chief Financial Officer Programme",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "chief-financial-officer-programme",
+    "category": "finance",
+    "tags": [
+      "FinTech Ecosystem",
+      "Lending Technology",
+      "Blockchain & Crypto"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-21.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Financial-Officer-Programme.pdf",
+      "source": "IIMV Chief Financial Officer Programme Brochure",
+      "campaign_name": "CFO-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "21 Jun 2026",
+    "contact": "9289224842",
+    "program_fee": 349000,
+    "pid": 170,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
+    "university_name": "XLRI",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri.png",
+    "program_name": "Executive Development Program in General Management",
+    "duration": "11 Months",
+    "batch_type": "Online",
+    "id": "executive-program-in-general-management",
+    "category": "general management",
+    "tags": [
+      "Stakeholder Management",
+      "Global Marketing Strategies",
+      "Digital Marketing Optimization",
+      "Cross-Functional Collaboration",
+      "Performance Metrics & KPIs",
+      "Customer Relationship Management (CRM)",
+      "Ethical Marketing Practices"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-12.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-General-Management.pdf",
+      "source": "XLRI General Management Brochure",
+      "campaign_name": "GM-XLRI-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "29 Mar 2026",
+    "contact": "8882597163",
+    "program_fee": 260000,
+    "pid": 103,
+    "required_years_experience": 5
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "PG Certificate Program in Family Business Management",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
+    "batch_type": "Online",
+    "id": "pg-certificate-program-in-family-business-management",
+    "category": "business management",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-In-Family-Business-Management.pdf",
+      "source": "IIMV PG Certificate Program in Family Business Management Brochure",
+      "campaign_name": "IIMV-Family Business Management"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "17 Jan 2027",
+    "contact": "",
+    "pid": 171,
+    "required_years_experience": 8
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "PG Certificate Program in Investment Banking & Capital Markets",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "pg-certificate-program-in-investment-banking",
+    "category": "finance",
+    "tags": [
+      "FinTech Ecosystem",
+      "Lending Technology",
+      "Blockchain & Crypto"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/fintech.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Investment-Banking-Capital-Markets.pdf",
+      "source": "IIMV Investment Banking & Capital Markets Brochure",
+      "campaign_name": "IB-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "Upto ₹3,000",
+      "refreeBonus": "Upto ₹3,000"
+    },
+    "start_date": "2 Feb 2025",
+    "contact": "8851827053",
+    "program_fee": 270000,
+    "pid": 91,
+    "required_years_experience": 0
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Senior Management Program",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "senior-management-program",
+    "category": "senior management",
+    "tags": [
+      "Executive Leadership",
+      "Functional Leadership",
+      "Organizational Behavior",
+      "Technology Management",
+      "Decision Analytics",
+      "Growth Strategy"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Senior-Management-Program.pdf",
+      "source": "IIMV Senior Management Brochure",
+      "campaign_name": "SMP-IIMV-12 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "10 Jan 2027",
+    "contact": "8851827093",
+    "program_fee": 349000,
+    "pid": 69,
+    "required_years_experience": 10
+  },
+  {
+    "status": "admission closed",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "university_name": "IIM Visakhapatnam",
+    "program_name": "Post Graduate Certificate in FinTech, Blockchain & Risk Management",
+    "duration": "11 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "batch_type": "Online",
+    "id": "fintech-blockchain-program",
+    "category": "finance",
+    "tags": [
+      "FinTech Ecosystem",
+      "Lending Technology",
+      "Blockchain & Crypto"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/fintech.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Fintech-Blockchain-and-Risk-Management.pdf",
+      "source": "IIMV Fintech, Blockchain & Risk Management Brochure",
+      "campaign_name": "FT-IIMV-11 Months"
+    },
+    "enrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹5,000",
+      "refreeBonus": "₹5,000"
+    },
+    "start_date": "20 Oct 2024",
+    "contact": "8826567425",
+    "program_fee": 260000,
+    "pid": 72,
+    "required_years_experience": 3
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-logo.png",
+    "university_name": "Microsoft",
+    "program_name": "Transform Business Workflows with Generative AI",
+    "duration": "9 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-business-workflows-with-generative-ai",
+    "category": "microsoft",
+    "tags": [
+      "Generative AI",
+      "Productivity",
+      "Microsoft 365"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "required_years_experience": 0
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-logo.png",
+    "university_name": "Microsoft",
+    "program_name": "Transform Business Workflows with Generative AI",
+    "duration": "9 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-business-workflows-with-generative-ai",
+    "category": "free courses",
+    "tags": [
+      "Generative AI",
+      "Productivity",
+      "Microsoft 365"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "required_years_experience": 0
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "university_name": "Accredian",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "duration": "2.5 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "category": "product management",
+    "tags": [
+      "Product Management",
+      "Productivity",
+      "free course"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
+    "required_years_experience": 0
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+    "university_name": "Accredian",
+    "program_name": "Transform Ideas into Impact with Product Management",
+    "duration": "2.5 Hours",
+    "brochureHeader": "",
+    "batch_type": "Online",
+    "id": "transform-ideas-into-impact-with-product-management",
+    "category": "free courses",
+    "tags": [
+      "Product Management",
+      "Productivity",
+      "free course"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
+    "required_years_experience": 0
+  }
+]

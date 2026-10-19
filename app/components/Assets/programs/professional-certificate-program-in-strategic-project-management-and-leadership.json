@@ -1,0 +1,449 @@
+{
+  "category": "49",
+  "id": "professional-certificate-program-in-strategic-project-management-and-leadership",
+  "pid": 136,
+  "vertical": "project management",
+  "title": "Professional Certificate Program in Strategic Project Management & Leadership ",
+  "seo_title": "Professional Certificate Program in Strategic Project Management & Leadership ",
+  "description": "Embark on an 8 month learning journey in Project Planning, Risk Management, and Project Procurement.",
+  "short_title": "Project Management",
+  "contact": "9818329799",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iit-kanpur-logo-v3.webp",
+  "university_name": "E&ICT Academy IIT Kanpur",
+  "short_university_name": "iitk",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
+  "start_date": "30 Aug 2026",
+  "duration": "8 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "active",
+  "external_enroll": "https://www.eicta.iitk.ac.in/payment/professional-project-management-leadership-program?mode=ONLINE",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 96
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "text": 10
+    },
+    {
+      "title": "capstone project",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "case studies",
+      "count": 7
+    }
+  ],
+  "overview": {
+    "programId": "professional-certificate-program-in-strategic-project-management-and-leadership",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring & Current Project Managers: Gain skills to lead projects effectively.",
+          "Team Leaders: Improve planning and execution capabilities.",
+          "Functional Managers (Ops, IT, Marketing): Streamline project workflows and align with business goals.",
+          "Entrepreneurs: Oversee initiatives and startups efficiently.",
+          "Consultants: Adopt structured methodologies for client projects.",
+          "Business Analysts: Transition into project management roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Program Manager",
+          "Project Consultant",
+          "Operations Manager",
+          "Risk Manager",
+          "Change Management Specialist",
+          "IT Project Manager",
+          "Construction Project Manager",
+          "Marketing Project Manager",
+          "Product Manager",
+          "Strategic Project Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Modules - Project Planning, Risk Management, and Project Procurement",
+          "Learn From The Top Industry Professionals",
+          "Duration: 8 Months | Weekend Online",
+          "Live Instructor Led Classes",
+          "Certification From E&ICT, IIT Kanpur",
+          "Capstone Project",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "add-ons",
+    "mentoring-session",
+    "experiential-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundations Of Strategic Project Management",
+      "id": "1",
+      "points": [
+        "Strategy–Execution Alignment Models",
+        "Enterprise Value Logic & Outcome Thinking",
+        "Operating Models & Project Mandates",
+        "Leadership Mindsets For Complexity & Scale"
+      ]
+    },
+    {
+      "title": "Strategic Project Planning & Alignment",
+      "id": "2",
+      "points": [
+        "Strategic Scoping & Requirement Clarity",
+        "Work Breakdown Structures & Dependency Mapping",
+        "Integrated Planning Pathways & Milestone Logic",
+        "Alignment With Business Objectives & Success Criteria"
+      ]
+    },
+    {
+      "title": "Execution Excellence & Adaptive Delivery Leadership",
+      "id": "3",
+      "points": [
+        "Hybrid & Agile Delivery Frameworks (Scrum, Kanban, SAFe)",
+        "Flow-Based Execution & Throughput Optimisation",
+        "Delivery Performance & Variance Control",
+        "Adaptive Leadership & Change Handling"
+      ]
+    },
+    {
+      "title": "Risk, Quality & Governance Leadership",
+      "id": "4",
+      "points": [
+        "Enterprise Risk Frameworks & Heat Maps",
+        "Quality Assurance, Control & Stage-Gate Reviews",
+        "Governance Structures & Decision Rights",
+        "Compliance & Assurance Mechanisms"
+      ]
+    },
+    {
+      "title": "Financials, Cost & Contract Strategy",
+      "id": "5",
+      "points": [
+        "Business Case Development (ROI, IRR, NPV, Payback)",
+        "Cost Modelling, Budgeting & Earned Value Management (EVM)",
+        "Contract Strategy, Structures & Risk Allocation",
+        "Vendor Performance Governance & Escalation"
+      ]
+    },
+    {
+      "title": "Leadership, Influence & Communication",
+      "id": "6",
+      "points": [
+        "Stakeholder Mapping & Engagement",
+        "Negotiation Strategies For High-Stakes Situations",
+        "Executive Communication & Decision Storytelling",
+        "Leading Cross-Functional Collaboration"
+      ]
+    },
+    {
+      "title": "Capstone",
+      "special": "1",
+      "id": "minor-project",
+      "points": [
+        "Design & lead a strategic transformation project for a mid-size enterprise facing execution delays, scope creep, and rising delivery costs. Build a value-aligned project charter, define scope and work structures, create an adaptive execution plan, model strategic and operational risks, establish governance controls, and design a commercial and contract strategy that protects value and accelerates delivery."
+      ]
+    },
+    {
+      "title": "Leading Large Scale Projects",
+      "id": "1",
+      "points": [
+        "Structuring & Governing Large Project Environments",
+        "Managing Scale, Complexity & Stakeholder Dynamics",
+        "Delivery Performance At Scale",
+        "Crisis Leadership, Escalation & Recovery Strategies"
+      ]
+    },
+    {
+      "title": "Program & Portfolio Leadership",
+      "id": "2",
+      "points": [
+        "Portfolio Governance & Investment Logic",
+        "Multi-Project Interdependency Management",
+        "Resource Allocation, Prioritisation & Trade-Offs",
+        "Program Structuring, Benefits & Value Realisation"
+      ]
+    },
+    {
+      "title": "Generative AI For Project Leaders",
+      "id": "3",
+      "points": [
+        "GenAI Use Cases Across Project Lifecycles",
+        "Workflow Automation, Copilots & Intelligent Assistants",
+        "AI-Enhanced Documentation, Reporting & Risk Sensing",
+        "Enhancing Decision-Making With GenAI Insights"
+      ]
+    },
+    {
+      "title": "Analytics & Decision Intelligence",
+      "id": "4",
+      "points": [
+        "Metrics, KPIs & Strategic Performance Dashboards",
+        "Forecasting, Predictive Analytics & Risk Modelling",
+        "Data-Driven Decision Frameworks & Scenario Planning",
+        "Insights, Visualisation & Portfolio Reporting"
+      ]
+    },
+    {
+      "title": "Capstone",
+      "special": "1",
+      "id": "minor-project",
+      "points": [
+        "Lead a high-stakes, enterprise-wide strategic project facing complexity, stakeholder misalignment, delivery uncertainty, & value leakage. Develop a strategic charter, scope architecture, & adaptive execution plan; build a risk, governance, & compliance framework; design commercial & vendor strategy; apply influence playbooks; deploy GenAI for forecasting & decision support; & create portfolio-aligned dashboards that demonstrate measurable value realization."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Anand Lokhande",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-anand-lokhande.webp",
+      "position": "Co-Founder",
+      "organization": "Imagilytica Leadership Consulting",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/imagilytica-v1.webp"
+    },
+    {
+      "name": "Neeraj Garg",
+      "position": "VP Digital Solutions",
+      "organization": "Axis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Neeraj Garg.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/axis-bank.webp"
+    },
+    {
+      "name": "Dr. Preeti Adhav",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-preeti.webp",
+      "position": "Founder & CEO",
+      "organization": "Monks - learning lab",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/monks-learning-labs.webp"
+    },
+    {
+      "name": "Jaideep Butta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/jaideep-butta.webp",
+      "position": "Sr. Product Line Manager",
+      "organization": "Shell",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/shell.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "toggle",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/togll.svg"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "Microsoft Project",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-project.webp"
+    },
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    },
+    {
+      "title": "miro",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "open AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+    {
+      "title": "Click Up",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/click-up.webp"
+    }
+  ],
+  "billing": {
+    "programId": "professional-certificate-program-in-strategic-project-management-and-leadership",
+    "points": [
+      "96+ Hours of Live Classes",
+      "10+ Tools Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 15178
+      },
+      {
+        "months": 18,
+        "emi": 10486
+      },
+      {
+        "months": 24,
+        "emi": 8123
+      }
+    ],
+    "total": 180000
+  },
+  "faq": {
+    "programId": "professional-certificate-program-in-strategic-project-management-and-leadership",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Project Management required for program enrollment?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Professional Certificate Program in Project Management you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Project Management concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Professional Certificate Program in Project Management?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 6 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Professional Certificate Program in Project Management different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Project Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Professional-Certificate-Program-in-Strategic-Project-Management-&-Leadership.pdf",
+    "source": "IITK Professional Certificate Program in Strategic Project Management & Leadership Brochure",
+    "campaign_name": "PCPSPMTL-IITK-8 Months"
+  }
+}

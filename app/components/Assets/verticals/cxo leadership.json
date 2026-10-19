@@ -1,0 +1,132 @@
+{
+  "category": "4",
+  "id": "CXO",
+  "short_id": "cxo leadership",
+  "vertical": "cxo leadership",
+  "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/cxo-leadership-v2.svg",
+  "title": "Transform Your Career as CXO",
+  "short_title": "CXO Leadership",
+  "description": "Master advanced management strategies and accelerate your path to CXO Leadership.",
+  "contact": "8826567425",
+  "type": "verticalPage",
+  "stats": [
+    {
+      "title": "professionals trained in C-Suite Leadership.",
+      "text": "200+"
+    },
+    {
+      "title": "salary increase reported after program completion.",
+      "text": "30%"
+    },
+    {
+      "title": "industries represented by our participants.",
+      "text": "15+"
+    }
+  ],
+
+  "patners": ["iimv","iim-trichy"],
+
+  "unique_points": [
+    "gain practical exp",
+    "accelerate your career",
+    "unlock-oppertunittes",
+    "expand-network"
+  ],
+
+  "whyaccredian": [
+    "campus immersion",
+    "carrer assistance sessions",
+    "online classes",
+    "certificate",
+    "doubt clearing",
+    "student support",
+    "CXO-coaching-sessions",
+    "simulation"
+  ],
+
+  "faq": {
+    "programId": "finance",
+    "points": [
+      {
+        "title": "General Program Information",
+        "content": [
+          {
+            "title": "What are the key highlights of the CXO Leadership programs?",
+            "content": [
+              "Our programs feature expert-led sessions, real-world case studies, hands-on projects, and certification from renowned institutes in the country."
+            ]
+          },
+
+          {
+            "title": "Are these programs suitable for beginners?",
+            "content": [
+              "CXO Leadership programs are designed for professionals with prior experience, aiming to further develop their leadership and strategic skills."
+            ]
+          },
+          {
+            "title": "Are there any prerequisites for enrolling in the CXO Leadership programs?",
+            "content": [
+              "While there are no strict prerequisites, it is recommended that participants have significant experience in leadership or management roles to fully benefit from the program."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Program Structure & Delivery",
+        "content": [
+          {
+            "title": " Do I get access to course materials after the program ends?",
+            "content": [
+              "Yes, participants have access to course materials and session recordings via the LMS for a specified period."
+            ]
+          },
+          {
+            "title": "Are the programs offered online or in a hybrid format?",
+            "content": [
+              "The programs are delivered 100% live online, offering flexibility and interactive learning experiences."
+            ]
+          },
+          {
+            "title": "What is the duration of these programs?",
+            "content": [
+              "Program durations typically range from 6 months to a year, depending on the institute."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Program Requirements & Enrollment",
+        "content": [
+          {
+            "title": "Are there any prerequisites for enrolling in these programs?",
+            "content": [
+              "Some programs may require prior experience, while others are open to all professionals."
+            ]
+          },
+          {
+            "title": "Can I enroll in multiple programs simultaneously?",
+            "content": [
+              "Yes, but it is recommended to speak with our advisors to manage workloads effectively and align the programs with your goals."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Certification & Career Outcomes",
+        "content": [
+          {
+            "title": "Will I receive a certificate after completing the program?",
+            "content": ["Yes, you will receive a certificate of completion."]
+          },
+          {
+            "title": "How will these programs help in my career advancement?",
+            "content": [
+              "The programs equip you with practical skills, industry knowledge, and credentials to enhance your career prospects as a CXO."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": ["stats", "courses", "why accredian", "unique points", "FAQs"]
+}

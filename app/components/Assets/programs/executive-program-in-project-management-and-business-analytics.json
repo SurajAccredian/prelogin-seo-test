@@ -1,0 +1,473 @@
+{
+  "category": "4",
+  "id": "executive-program-in-project-management-and-business-analytics",
+  "vertical": "product management",
+  "title": "Executive Program in Project Management and Business Analytics",
+  "seo_title": "Project Mgmt & Business Analytics Course | IIT Guwahati",
+  "description": "Embark on a 10-term learning journey in Project Management, Project Evaluation, Data Visualization, & Marketing Analytics.",
+  "short_title": "Project Management",
+  "contact": "7012957331",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "22 Sept 2024",
+  "duration": "12 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-PIBA-12-Months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 170
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "text": 30
+    },
+    {
+      "title": "case studies",
+      "text": 5
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "capstone projects",
+      "text": 2
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-project-management-and-business-analytics",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Project Managers looking to enhance their skills in managing data-driven projects.",
+          "Product Managers Balancing Customer Needs With Business Goals For Impactful Solutions.",
+          "Product Leaders Guiding Product Strategy And Fostering Innovation Across Teams.",
+          "Product Owners Driving Agile Product Delivery And Team Collaboration.",
+          "Business Analysts aiming to deepen their understanding of project management techniques.",
+          "Data Analysts seeking to apply project management principles to their analytics work.",
+          "Operations Managers wanting to leverage analytics for process improvement and efficiency.",
+          "Marketing Managers looking to use data insights to drive marketing projects.",
+          "Financial Analysts interested in managing projects that involve financial data and analysis.",
+          "Consultants who provide advice on project management and data analytics strategies.",
+          "Product Managers aiming to use data analytics to guide product development and project planning.",
+          "Supply Chain Managers seeking to optimize logistics and operations through data analytics.",
+          "HR Professionals wanting to manage analytics projects related to human resources and talent management.",
+          "Entrepreneurs and Start-up Founders looking to implement data-driven decision-making in their projects."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Project Manager",
+          "Business Analyst",
+          "Data Analyst",
+          "Data Scientist",
+          "Operations Manager",
+          "Product Manager",
+          "Program Manager",
+          "Marketing Analyst",
+          "Financial Analyst",
+          "IT Project Manager",
+          "Consultant",
+          "Supply Chain Manager",
+          "Market Research Analyst",
+          "Risk Analyst",
+          "Strategy Consultant"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - Project Management, Project Evaluation, Data Visualization",
+          "Learn from the top industry professionals",
+          "Duration: 12 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Capstone Projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "2 Days Campus Immersion"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "alumni-status-iit",
+    "experiential-learning",
+    "campus-immersion"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Project Management Fundamentals",
+      "id": "project-management-fundamentals",
+      "points": [
+        "Introduction to Project Management",
+        "Project Initiation"
+      ]
+    },
+    {
+      "title": "Project Initiation",
+      "id": "project-planning-execution",
+      "points": [
+        "Project Planning",
+        "Project Execution"
+      ]
+    },
+    {
+      "title": "Risk Management & Agile Project Management",
+      "id": "risk-management-agile-project-management",
+      "points": [
+        "Project Risk Management",
+        "Agile Project Management"
+      ]
+    },
+    {
+      "title": "Contract, Procurement, Closure",
+      "id": "contract-procurement-closure",
+      "points": [
+        "Project Procurement & Contract Management",
+        "Project Closure & Evaluation"
+      ]
+    },
+    {
+      "title": "Project Leadership & Advanced Topics",
+      "id": "project-leadership-advanced-topics",
+      "points": [
+        "Leadership & Soft Skills for Project Managers",
+        "Advanced Topics in Project Management"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "The Capstone Project involves applying knowledge to a real-world scenario, either individually or in teams, enhancing preparation for Project Management Institute (PMI) & other certifications."
+      ]
+    },
+    {
+      "title": "Foundation of Business Analytics",
+      "id": "foundation-of-business-analytics",
+      "points": [
+        "Introduction to Business Analytics",
+        "Data Analytics Fundamentals for Managers",
+        "Descriptive Analytics",
+        "Inferential Statistics for Decision Making"
+      ]
+    },
+    {
+      "title": "Data Management & SQL for Business Insights",
+      "id": "data-management-sql-for-business-insights",
+      "points": [
+        "Data Management for Business",
+        "SQL Fundamentals for Business Analysis",
+        "Data Querying Fundamentals",
+        "Advanced SQL for Managers"
+      ]
+    },
+    {
+      "title": "Business Decision Data Modeling",
+      "id": "business-decision-data-modeling",
+      "points": [
+        "Extracting Business Insights from Data",
+        "Decision Making Techniques Using Excel",
+        "Business Reporting with Excel Pivot Tables",
+        "Excel Modelling for Business Solutions"
+      ]
+    },
+    {
+      "title": "Data Visualization & Story Telling",
+      "id": "data-visualization-story-telling",
+      "points": [
+        "Data Visualization & Storytelling Basics",
+        "Advanced Power BI for Strategic Business Insights",
+        "Real Time Insights & Data Integrity for Managers",
+        "Building Reports for Business Insights"
+      ]
+    },
+    {
+      "title": "Applied Managerial Analytics",
+      "id": "applied-managerial-analytics",
+      "points": [
+        "Business Analytics in BFSI",
+        "Analytics for Marketing & Telecommunications",
+        "Analytics in Healthcare & Manufacturing",
+        "E-commerce & Supply Chain Analytics"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "minor-capstone-project",
+      "points": [
+        "Experience a real world simulation of a company problem that needs to be solved using Business Analytics. Work with a team of Business Analysts who are working towards solving this Business Problem."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Dr. Anand Lokhande",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-anand-lokhande.webp",
+      "position": "Co-Founder",
+      "organization": "Imagilytica Leadership Consulting",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/imagilytica-v1.webp"
+    },
+    {
+      "name": "Harihara Subramanian R",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/harihara-subramanian-r%20.webp",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Dr. Preeti Adhav",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-preeti.webp",
+      "position": "Founder & CEO",
+      "organization": "Monks - learning lab",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/monks-learning-labs.webp"
+    },
+    {
+      "name": "Jaideep Butta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/jaideep-butta.webp",
+      "position": "Sr. Product Line Manager",
+      "organization": "Shell",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/shell.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "SQL",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/sql.webp"
+    },
+    {
+      "title": "toggle",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/togll.svg"
+    },
+    {
+      "title": "mixpanel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mix-panel.svg"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-project-management-&-business-analytics",
+    "points": [
+      "170+ Hours of Live Classes",
+      "10+ Tools & Frameworks Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-project-management-and-business-analytics",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior project management experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Project Management and Business Analytics you will have access to more than 5 case studies and 2 Capstone Projects to provide a better understanding of the real-world applications of projects management concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Project Management and Business Analytics?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is for 4-5 weeks approximately. And the overall duration of Executive Program in Project Management and Business Analytics is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Project Management and Business Analytics different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Project Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-executive-program-in-project-management-and-business-analytics-5-months-v1.pdf",
+    "source": "product management brochure",
+    "campaign_name": "ACPM-IIT-5 Months"
+  }
+}

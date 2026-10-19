@@ -1,0 +1,65 @@
+[
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/1.webp",
+    "review": "“Accredian helped me to learn from basic terms of Analytics to building my own project”",
+    "name": "Arjun Saran Das",
+    "designation": "Senior Vice President",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/HSBC.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/2.webp",
+    "review": "“Accredian classes and doubt clearing sessions have been extremely helpful to scale me up”",
+    "name": "Sanjib Kumar Jena",
+    "designation": "Data Scientist",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/ibm.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/3.webp",
+    "review": "“All the faculty members at Accredian have excellent teaching and mentoring skills.”",
+    "name": "Bhupesh Singh Mahara",
+    "designation": "Software Engineer",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/tcs.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/4.webp",
+    "review": "“The program has been really helpful and overall the program is very in-depth and practical.”",
+    "name": "Rohith Gopal",
+    "designation": "Manager - Data Analytics",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/pwc.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/5.webp",
+    "review": "“Accredian has been instrumental in my Data Science journey. I have learnt a lot and have upskilled myself.”",
+    "name": "Arun Vighnesh",
+    "designation": "Project Engineer",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/wipro.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/6.webp",
+    "review": "“Among the faculty, Deepesh and Suchit are my favorites. Loved the way of teaching and making every concepts easier to understand.”",
+    "name": "Varsha Rani",
+    "designation": "Assistant Manager",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/tc.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/7.webp",
+    "review": "“Accredian program is one of the sole contributors to my success.”",
+    "name": "Sohomjit Ganguly",
+    "designation": "Data Science Consultant",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/tcs.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/8.webp",
+    "review": "“When a thought process is clear, the course will always reflect that and it did.”",
+    "name": "Santosh Dogra",
+    "designation": "Head - Digital Sales",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/Edelweiss.webp"
+  },
+  {
+    "alumni_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/9.webp",
+    "review": "“Accredian’s program helped me in achieving my career transition. Two key factors are faculty and the portal.”",
+    "name": "Vinay K. Panday",
+    "designation": "Analytics Team Manager",
+    "company_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/kantarworldpanel.webp"
+  }
+]

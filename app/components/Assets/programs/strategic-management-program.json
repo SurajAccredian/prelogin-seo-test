@@ -1,0 +1,407 @@
+{
+  "category": "25",
+  "id": "strategic-management-program",
+  "vertical": "strategic management",
+  "title": "Executive Program in Strategic Management",
+  "seo_title": "Executive Program in Strategic Management",
+  "description": "Master business strategies, change management, and digital leadership at one of India’s premier business schools, and attain Executive Alumni status",
+  "short_title": "Strategic Management",
+  "contact": "8595709940",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "8th Sept 2024",
+  "duration": "12 months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 140
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "tools",
+      "text": 2
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "overview": {
+    "programId": "strategic-management-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives developing strategic thinking skills to lead organizational change effectively.",
+          "Senior managers enhancing leadership capabilities to drive strategic competitive initiatives.",
+          "Directors aligning organizational goals with strategic planning for success.",
+          "C-suite professionals fostering innovation and guiding organizations through dynamic markets.",
+          "High-potential leaders preparing for top leadership roles through succession planning.",
+          "Division heads enhancing cross-functional collaboration and leading strategic objectives.",
+          "Entrepreneurs refining strategic vision and building leadership for sustainable growth.",
+          "Nonprofit leaders developing strategies for mission alignment and organizational sustainability.",
+          "Government officials implementing strategic initiatives for public sector efficiency.",
+          "Education administrators leading strategic initiatives for institutional advancement.",
+          "Healthcare executives developing strategies to improve patient care and performance."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Financial Officer (CFO)",
+          "Chief Strategy Officer (CSO)",
+          "Chief Innovation Officer (CIO)",
+          "Director of Strategy",
+          "Vice President of Operations",
+          "Senior Leadership Consultant",
+          "Organizational Development Manager",
+          "Change Management Specialist",
+          "Business Transformation Manager",
+          "Leadership Development Coach"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules - Business Strategies, Change Management, and Digital Leadership",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 12 months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "Strategic Planning, Strategy Execution, and Innovation Simulation",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "3 days Campus Immersions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "mentoring-session",
+    "engaging-simulations"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundations of Strategic Management",
+      "week": "4 weeks",
+      "id": "foundations-of-strategic-management",
+      "points": [
+        "Introduction to Strategic Management",
+        "Strategic Intent & Mission Development",
+        "Environmental Scanning & Analysis",
+        "External & Internal Analysis"
+      ]
+    },
+    {
+      "title": "Corporate Strategy Formulation",
+      "week": "4 weeks",
+      "id": "corporate-strategy-formulation",
+      "points": [
+        "Corporate-Level Strategy & Diversification",
+        "Portfolio Analysis & Management",
+        "Vertical Integration Strategies",
+        "Mergers, Acquisitions, & Alliances"
+      ]
+    },
+    {
+      "title": "Business Strategy Formulation",
+      "week": "4 weeks",
+      "id": "business-strategy-formulation",
+      "points": [
+        "Industry & Competitive Analysis",
+        "Competitive Advantage & Positioning",
+        "Market Segmentation & Targeting",
+        "Product & Service Differentiation",
+        "Pricing & Revenue Models"
+      ]
+    },
+    {
+      "title": "Functional Strategies",
+      "week": "5 weeks",
+      "id": "functional-strategies",
+      "points": [
+        "Finance Strategies",
+        "Marketing Strategies",
+        "Operations Strategies",
+        "Human Resources Strategies"
+      ]
+    },
+    {
+      "title": "Strategy Execution & Change Management",
+      "week": "4 weeks",
+      "id": "strategy-execution---change-management",
+      "points": [
+        "Strategy Cascading & Alignment",
+        "Resource Allocation & Budgeting",
+        "Change Leadership & Organizational Culture",
+        "Project Management & Execution"
+      ]
+    },
+    {
+      "title": "Strategy Evaluation & Control",
+      "week": "4 weeks",
+      "id": "strategy-evaluation---control",
+      "points": [
+        "Performance Metrics & Key Performance Indicators (KPIs)",
+        "Balanced Scorecard Implementation",
+        "Strategic Audit Processes",
+        "Continuous Monitoring & Feedback Mechanisms"
+      ]
+    },
+    {
+      "title": "Strategic Communication for Leaders",
+      "week": "4 weeks",
+      "id": "strategic-communication-for-leaders",
+      "points": [
+        "Crafting Compelling Vision Statements",
+        "Stakeholder Engagement Strategies",
+        "Communication Strategies for Successful Change",
+        "Storytelling for Influence"
+      ]
+    },
+    {
+      "title": "Ethics, Governance & Sustainability",
+      "week": "3 weeks",
+      "id": "ethics--governance---sustainability",
+      "points": [
+        "Corporate Social Responsibility (CSR) & Ethical Leadership",
+        "Corporate Governance & Compliance",
+        "Sustainability Strategy & Environmental Ethics"
+      ]
+    },
+    {
+      "title": "Strategic Risk Management",
+      "week": "3 weeks",
+      "id": "strategic-risk-management",
+      "points": [
+        "Identifying & Assessing Strategic Risks",
+        "Mitigating & Managing Strategic Risks",
+        "Integrating Risk Management into Strategic Planning",
+        "Crisis Management & Resilience"
+      ]
+    },
+    {
+      "title": "Digital Transformation for Strategic Leaders",
+      "week": "4 weeks",
+      "id": "digital-transformation-for-strategic-leaders",
+      "points": [
+        "Digital Transformation Strategies",
+        "Data-Driven Decision Making",
+        "Leading in the Digital Age",
+        "Ethical & Social Implications of Digital Leadership",
+        "Fundamentals of AI & its Applications in Business",
+        "AI & Strategic Decision-Making",
+        "Building an AI-Driven Culture & Team",
+        "AI Strategy & Business Transformation"
+      ]
+    },
+    {
+      "title": "Business Model Innovation & Design Thinking",
+      "week": "3 weeks",
+      "id": "business-model-innovation---design-thinking",
+      "points": [
+        "Design Thinking & Innovation",
+        "Fostering an Innovative Culture",
+        "Strategies for Developing & Implementing Innovation",
+        "Measuring & Leading Innovation in the Digital Age"
+      ]
+    },
+    {
+      "title": "Analytics for Strategic Leaders",
+      "week": "4 weeks",
+      "id": "analytics-for-strategic-leaders",
+      "points": [
+        "Data-Driven Decision Making",
+        "Predictive Analytics: Shaping Future Strategies",
+        "Mastering Business Insights with PowerBI",
+        "Strategic Dashboards for InBusiness Verticals"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. Deepika Gupta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/deepika-gupta-v1.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Joysula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    }
+  ],
+  "billing": {
+    "programId": "strategic-management-program",
+    "points": [
+      "140+ Hours of Live Classes",
+      "2 Tools Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 22617
+      },
+      {
+        "months": 18,
+        "emi": 15681
+      },
+      {
+        "months": 24,
+        "emi": 12185
+      }
+    ],
+    "total": 290000
+  },
+  "faq": {
+    "programId": "strategic-management-program",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Strategic Management required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for mid-level professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with foundational industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Strategic Management program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Strategic Management concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Vizag-Strategic-Management-v1.pdf",
+    "source": "IIMV Strategic Management brochure",
+    "campaign_name": "EPSM-IIMV-12 Months"
+  }
+}

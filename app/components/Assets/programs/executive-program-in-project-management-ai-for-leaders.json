@@ -1,0 +1,467 @@
+{
+  "category": "28",
+  "id": "executive-program-in-project-management-ai-for-leaders",
+  "vertical": "project management",
+  "title": "Executive Program in Project Management & AI for Leaders",
+  "seo_title": "Executive Program in Project Management & AI for Leaders",
+  "description": "Embark on a 10-term learning journey in Project Planning, Project Leadership, AI Strategy and Generative AI",
+  "short_title": "Project Management",
+  "contact": "9818329799",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "4 Oct 2025",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-PMTAI-11-Months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "career sessions",
+      "count": 6
+    },
+    {
+      "title": "modules",
+      "count": 28
+    },
+    {
+      "title": "capstone projects",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 15
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-project-management-ai-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring Project Managers seeking AI insights for competitive project management.",
+          "Business Leaders and Executives exploring AI's impact on operations and delivery.",
+          "IT Professionals and Engineers enhancing project skills with AI applications.",
+          "Data Scientists and Analysts broadening project management for AI leadership.",
+          "Consultants updating on AI trends in project management practices.",
+          "Entrepreneurs optimizing processes using AI for startups and small businesses.",
+          "Operations Managers streamlining workflows and productivity using AI tools.",
+          "Product Managers incorporating AI to enhance product development and innovation.",
+          "HR Professionals utilizing AI for workforce planning and talent management."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "AI Project Manager",
+          "Technology Consultant",
+          "Data Science Project Manager",
+          "Product Manager",
+          "Business Analyst",
+          "Operations Manager",
+          "Innovation Manager",
+          "Program Manager",
+          "IT Project Manager",
+          "Change Management Specialist"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - Project Planning, Project Leadership, AI Strategy and Generative AI",
+          "Learn From The Top Industry Professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Project Management Fundamentals",
+      "id": "1",
+      "points": [
+        "Introduction to Project Management",
+        "Project Initiation"
+      ]
+    },
+    {
+      "title": "Project Planning & Execution",
+      "id": "2",
+      "points": [
+        "Project Planning",
+        "Project Execution"
+      ]
+    },
+    {
+      "title": "Risk Management & Agile Project Management",
+      "id": "3",
+      "points": [
+        "Project Risk Management",
+        "Agile Project Management"
+      ]
+    },
+    {
+      "title": "Contract, Procurement, Closure",
+      "id": "4",
+      "points": [
+        "Project Procurement and Contract Management",
+        "Project Closure and Evaluation"
+      ]
+    },
+    {
+      "title": "Project Leadership & Advanced Topics",
+      "id": "5",
+      "points": [
+        "Leadership and Soft Skills for Project Managers",
+        "Advanced Topics in Project Management"
+      ]
+    },
+    {
+      "title": "Project Management Capstone",
+      "special": "1",
+      "id": "1",
+      "points": [
+        "In this capstone project, you’ll develop a Project Management Excellence Framework for an organization. You’ll assess current project management practices, identify gaps,and benchmark against industry standards. The final deliverable is a comprehensive roadmap with actionable recommendations to enhance project management practices and support continuous improvement efforts."
+      ]
+    },
+    {
+      "title": "Introduction to AI for Leaders",
+      "id": "6",
+      "points": [
+        "Introduction to AI & Machine Learning",
+        "Data Basics & Quality Management",
+        "AI's Impact on Strategy & Business Model",
+        "AI Trends & Business Applications"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning & AI",
+      "id": "7",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Building AI Strategy & Teams",
+      "id": "8",
+      "points": [
+        "Building AI Strategy",
+        "Building AI roadmap",
+        "AI Leadership & Team Building",
+        "AI Change Management"
+      ]
+    },
+    {
+      "title": "AI Business Models & Market Disruption",
+      "id": "9",
+      "points": [
+        "Types of AI Business Models: Product, Service, Platform",
+        "Implementing AI in Traditional Businesses",
+        "Future of AI"
+      ]
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "id": "10",
+      "points": [
+        "Introduction to Generative AI",
+        "GenAI Business Models & Monetization",
+        "Enterprise GenAI: Model Selection & Data Strategy"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Capstone",
+      "special": "1",
+      "id": "1",
+      "points": [
+        "Developing a Strategic Framework for Implementing Generative AI in Business Operations Participants will develop a strategic framework for integrating AI, including Generative AI, into an organization that is looking to adopt AI. The project will begin with an assessment of existing processes and challenges to identify opportunities for value addition through Generative AI. Students will craft an AI strategy and outline a detailed implementation roadmap, addressing steps, potential risks, and mitigation strategies. The final deliverable will include a report and presentation that describe the strategic framework, supported by data and case studies, highlighting anticipated benefits for operational efficiency and competitive positioning."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Dr. Anand Lokhande",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-anand-lokhande.webp",
+      "position": "Co-Founder",
+      "organization": "Imagilytica Leadership Consulting",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/imagilytica-v1.webp"
+    },
+    {
+      "name": "Harihara Subramanian R",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/harihara-subramanian-r%20.webp",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Dr. Preeti Adhav",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/dr-preeti.webp",
+      "position": "Founder & CEO",
+      "organization": "Monks - learning lab",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/monks-learning-labs.webp"
+    },
+    {
+      "name": "Jaideep Butta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/jaideep-butta.webp",
+      "position": "Sr. Product Line Manager",
+      "organization": "Shell",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/shell.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "Microsoft Project",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-project.webp"
+    },
+    {
+      "title": "toggle",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/togll.svg"
+    },
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
+    },
+    {
+      "title": "keras",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/keras.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-project-management-ai-for-leaders",
+    "points": [
+      "132+ Hours of Live Classes",
+      "15+ Tools & Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-project-management-ai-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Project Management & AI experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Project Management & AI for Leaders you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Project Management & AI concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Project Management & AI for Leaders?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 11 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Project Management & AI for Leaders different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Project Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-PMT-AI-for-Leaders.pdf",
+    "source": "IITG Project Management & AI for Leaders Brochure",
+    "campaign_name": "PMTAI-IITG-11 Months"
+  }
+}

@@ -1,0 +1,48 @@
+ .certificate .custom-prev-certificate::after,
+ .certificate .custom-prev-certificate::before,
+ .certificate .custom-next-certificate::after,
+ .certificate .custom-next-certificate::before {
+     content: none;
+ }
+
+
+ .certificate .custom-prev-certificate::after,
+ .certificate .custom-prev-certificate::before {
+     content: none !important;
+ }
+
+ .certificate .swiper-button-prev.custom-prev-certificate,
+ .certificate .swiper-button-next.custom-next-certificate {
+     position: absolute;
+     top: 50%;
+     /* transform: translateY(-50%); */
+     color: #000 !important;
+     /* Change this to the color you want */
+     z-index: 10;
+     /* Increase this value if the buttons are behind other elements */
+ }
+
+ .certificate .swiper-button-prev.custom-prev-certificate {
+     left: 0;
+ }
+
+ .certificate .swiper-button-next.custom-next-certificate {
+     right: 0;
+ }
+
+
+ .certificate .swiper-button-prev.custom-prev-certificate,
+ .certificate .swiper-button-next.custom-next-certificate {
+     display: block;
+     /* Hide by default */
+ }
+
+ /* CSS media query for desktop screens */
+ @media screen and (min-width: 1024px) {
+
+     .certificate .swiper-button-prev.custom-prev-certificate,
+     .certificate .swiper-button-next.custom-next-certificate {
+         display: block;
+         /* Show on desktop screens */
+     }
+ }

@@ -1,0 +1,406 @@
+{
+  "category": "57",
+  "id": "iit-jammu-advanced-certificate-in-ai-for-leaders",
+  "pid": 155,
+  "vertical": "artificial intelligence",
+  "title": "Advanced Certificate in AI for Leaders",
+  "seo_title": "AI for Leaders Course | IIT Jammu - Accredian",
+  "description": "Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.",
+  "short_title": "Artificial Intelligence",
+  "contact": "8851827093",
+  "university_name": "I3C-IIT JAMMU",
+  "short_university_name": "iit-jammu",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-jammu-logo.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+  "start_date": "26 Jul 2026",
+  "required_years_experience": 5,
+  "duration": "5 months",
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-Jammu/iit-jammu-certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 60
+    },
+    {
+      "title": "career sessions",
+      "text": 4
+    },
+    {
+      "title": "modules",
+      "text": 5
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "masterclasses",
+      "text": "4"
+    }
+  ],
+  "overview": {
+    "programId": "iit-jammu-advanced-certificate-in-ai-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives: Refine leadership and drive organizational change.",
+          "C-Suite Leaders: Stay abreast of industry trends and foster innovation.",
+          "Directors: Deepen strategic decision-making skills.",
+          "Entrepreneurs: Scale operations and explore new markets.",
+          "Project Managers: Lead large-scale projects with strategic impact.",
+          "Sector Leaders: Apply advanced business principles for effectiveness."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Executives",
+          "C-Suite Leaders",
+          "Directors",
+          "Entrepreneurs",
+          "Project Managers",
+          "Sector Leaders"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "5 Modules - executive leadership, operations, business strategies, and analytics.",
+          "Learn from top IIT Jammu faculty",
+          "Duration: 5 Months | Weekend Online",
+          "Certification from IIT Jammu",
+          "Live Instructor-Led Classes",
+          "1 Capstone Projects",
+          "EMI up to 24 months",
+          "Placement Support & Assistance",
+          "1:1 Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "capstone-project",
+    "certificate",
+    "experiential-learning",
+    "leadership-driven-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": {
+    "coreModules": [
+      {
+        "title": "AI Foundations for Leaders",
+        "id": "ai-foundations-business-leaders",
+        "sessions": 3,
+        "points": [
+          "Foundations of Artificial Intelligence, Machine Learning and Automation",
+          "Key AI Technologies, Models and Capabilities",
+          "AI Limitations, Risks and Practical Realities",
+          "Business Implications of AI Across Industries"
+        ]
+      },
+      {
+        "title": "Generative AI for Leaders",
+        "id": "generative-ai-business-transformation",
+        "sessions": 3,
+        "points": [
+          "Foundations of Generative AI and Large Language Models",
+          "Enterprise Applications of Generative AI",
+          "Generative AI for Productivity and Knowledge Work",
+          "Strategic Impact of Generative AI on Business Models"
+        ]
+      },
+      {
+        "title": "Applying AI in Business Functions",
+        "id": "applying-ai-business-functions",
+        "sessions": 3,
+        "points": [
+          "AI in Marketing, Sales and Customer Insights",
+          "AI in Operations and Supply Chains",
+          "AI in Finance, Risk and Decision Intelligence",
+          "AI in HR, Talent and Customer Experience"
+        ]
+      },
+      {
+        "title": "AI Strategy & Transformation",
+        "id": "ai-strategy-roadmapping-roi",
+        "sessions": 4,
+        "points": [
+          "Identifying High-Impact AI Opportunities",
+          "AI Business Case Development & ROI Assessment",
+          "AI Adoption, Change Management & Workforce Transformation",
+          "Building an AI Transformation Roadmap"
+        ]
+      },
+      {
+        "title": "Building AI Assistants & Copilots",
+        "id": "leading-ai-transformation-workforce-change",
+        "sessions": 2,
+        "points": [
+          "Designing team-specific AI assistants",
+          "Creating knowledge assistants",
+          "AI copilots for daily management",
+          "Deploying and improving AI assistants"
+        ]
+      },
+      {
+        "title": "Capstone Project",
+        "id": "capstone-project-1",
+        "special": "1",
+        "sessions": 2,
+        "points": [
+          "Participants will develop an AI adoption and transformation plan for their organization or industry. The capstone involves identifying strategic AI opportunities across business functions, evaluating business impact and ROI, and creating an enterprise AI roadmap. Participants will also outline leadership actions, governance structures, and workforce strategies required to successfully implement AI initiatives and drive organization-wide adoption."
+        ]
+      }
+    ],
+    "Masterclasses": [
+      {
+        "title": "Data to Decision: How leaders gather data based insights",
+        "sessions": 1,
+        "points": [
+          "Outcome: How leaders translate raw data into actionable strategies"
+        ]
+      },
+      {
+        "title": "Machine Learning in Industry - Popular Algorithms",
+        "sessions": 2,
+        "points": [
+          "Outcome: Understand practical ML techniques for business use"
+        ]
+      },
+      {
+        "title": "Transformer Revolution: Decoding LLMs",
+        "sessions": 2,
+        "points": [
+          "Outcome: Understand transformer architecture powering modern large language models"
+        ]
+      },
+      {
+        "title": "AI Innovation Factories / AI in Business Value Chain",
+        "sessions": 1,
+        "points": [
+          "Outcome: Drive innovation across organizational AI value chains"
+        ]
+      }
+    ]
+  },
+  "faculty": [
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Happy Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. MV Anuradha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. PRS Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Md. Shameem Jawed",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shameem-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Ashmita Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Ashmita-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Bishakha Majumdar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Bisakha-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Kalyan K",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/kalyan-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "R",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/R-language-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "iit-jammu-advanced-certificate-in-ai-for-leaders",
+    "points": [
+      "60+ Hours of Live Classes",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 9758
+      },
+      {
+        "months": 18,
+        "emi": 6741
+      },
+      {
+        "months": 24,
+        "emi": 5222
+      }
+    ],
+    "total": 120000
+  },
+  "faq": {
+    "programId": "iit-jammu-advanced-certificate-in-ai-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Senior Management required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 8 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Advanced Certificate in AI for Leaders different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Senior Management concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-advanced-certificate-in-ai-for-leaders-Brochure.pdf",
+    "source": "IIT Jammu Advanced Certificate in AI for Leaders Brochure",
+    "campaign_name": "IITJ-Advanced-Certificate-in-AI-for-Leaders-5-Months"
+  }
+}

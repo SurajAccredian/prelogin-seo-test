@@ -1,0 +1,495 @@
+{
+  "category": "4",
+  "id": "executive-program-in-product-management-ai-for-leaders",
+  "vertical": "product management",
+  "title": "Executive Program in Product Management & AI for Leaders",
+  "seo_title": "Product Management & AI for Leaders Course | IIT Guwahati",
+  "description": "Embark on a 10-term learning journey in Product Planning, Design Thinking, AI Strategy and Generative AI.",
+  "short_title": "Product Management",
+  "contact": "8851827093",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "4 Oct 2025",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-PMAI-11-Months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 37
+    },
+    {
+      "title": "capstone projects",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 15
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-product-management-ai-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring product managers seeking foundational skills for career launch.",
+          "Product Managers Balancing Customer Needs With Business Goals For Impactful Solutions.",
+          "Product Leaders Guiding Product Strategy And Fostering Innovation Across Teams.",
+          "Product Owners Driving Agile Product Delivery And Team Collaboration.",
+          "Experienced professionals transitioning into product management roles.",
+          "Project managers focusing on product development and management.",
+          "Business analysts enhancing strategic product management skills.",
+          "Marketing professionals integrating strategies with product management.",
+          "Entrepreneurs managing product lifecycles and startup innovations.",
+          "Technology professionals understanding product development's business aspects.",
+          "Designers expanding roles to include product strategy management.",
+          "Social scientists focused on applying data science to societal issues and policies.",
+          "Educators and researchers desiring to embed data science in teaching and study.",
+          "Entrepreneurs planning to utilize data science for creating new market innovations."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Product Manager",
+          "Associate Product Manager",
+          "Product Owner",
+          "Technical Product Manager",
+          "Senior Product Manager",
+          "Director of Product Management",
+          "Product Marketing Manager",
+          "Data Architect",
+          "Statistician",
+          "Digital Product Manager",
+          "Quantitative Analyst",
+          "AI Research Scientist",
+          "Data Visualization Specialist",
+          "Predictive Modeler"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - Product Planning, Design Thinking, AI Strategy and Generative AI",
+          "Learn From The Top Industry Professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "alumni-status-iit"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Introduction to Product Management",
+      "id": "1",
+      "points": [
+        "Roles & Responsibilities of a PM",
+        "User Research for PMs",
+        "Market Research for PMs",
+        "Competitive Analysis for PMs"
+      ]
+    },
+    {
+      "title": "Product Strategy & Roadmap",
+      "id": "2",
+      "points": [
+        "Product Planning Cycle",
+        "Product Vision & Mission",
+        "Product Strategy & Product Goals",
+        "Product Backlog & Roadmap"
+      ]
+    },
+    {
+      "title": "Design Thinking & UI/UX",
+      "id": "3",
+      "points": [
+        "Design Thinking for PMs",
+        "Building MVP - Artefacts, Persona Mapping & PRDs",
+        "UI/UX for PMs",
+        "Mockups, Wireframes & Prototypes"
+      ]
+    },
+    {
+      "title": "Product Engineering",
+      "id": "4",
+      "points": [
+        "Engineering for Product Managers",
+        "Microservices & Cloud Services",
+        "Waterfall & Agile Methodology",
+        "Understanding Scrum & Kanban"
+      ]
+    },
+    {
+      "title": "Product Marketing & Launch",
+      "id": "5",
+      "points": [
+        "Product Launch & A/B Testing",
+        "Data Driven Product Marketing & Consumer Behaviour",
+        "Marketing Ninja Challenge"
+      ]
+    },
+    {
+      "title": "Design Discovery",
+      "special": "1",
+      "id": "project--design-discovery",
+      "points": [
+        "Design Discovery requires one to apply design thinking concepts to create human-centred and action-oriented solutions. As a PM practitioner you will be competing with the best to solve a complex challenge."
+      ]
+    },
+    {
+      "title": "Introduction to AI for Leaders",
+      "id": "introduction-to-ai-for-leaders",
+      "points": [
+        "Introduction to AI & Machine Learning",
+        "Data Basics & Quality Management",
+        "AI's Impact on Strategy & Business Model",
+        "AI Trends & Business Applications"
+      ]
+    },
+    {
+      "title": "Applied Machine Learning & AI",
+      "id": "applied-machine-learning-ai",
+      "points": [
+        "Supervised Learning Techniques",
+        "Unsupervised Learning Techniques",
+        "Introduction to Neural Networks & Deep Learning",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "title": "Building AI Strategy & Teams",
+      "id": "building-ai-strategy-teams",
+      "points": [
+        "Building AI Strategy",
+        "Building AI Roadmap",
+        "AI Leadership & Team Building",
+        "AI Change Management"
+      ]
+    },
+    {
+      "title": "AI Business Models & Market Disruption",
+      "id": "ai-business-models-market-disruption",
+      "points": [
+        "Types of AI Business Models: Product, Service, Platform",
+        "Implementing AI in Traditional Businesses",
+        "Future of AI"
+      ]
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "id": "generative-ai-for-business-leaders",
+      "points": [
+        "Introduction to Generative AI",
+        "GenAI Business Models & Monetization",
+        "Enterprise GenAI: Model Selection & Data Strategy"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Capstone",
+      "special": "2",
+      "id": "project--design-discovery",
+      "points": [
+        "Developing a Strategic Framework for Implementing Generative AI in Business Operations Participants will develop a strategic framework for integrating AI, including Generative AI, into an organization that is looking to adopt AI. The project will begin with an assessment of existing processes and challenges to identify opportunities for value addition through Generative AI. Students will craft an AI strategy and outline a detailed implementation roadmap, addressing steps, potential risks, and mitigation strategies. The final deliverable will include a report and presentation that describe the strategic framework, supported by data and case studies, highlighting anticipated benefits for operational efficiency and competitive positioning."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    },
+    {
+      "name": "Neelmani Gupta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/neelmani-gupta-v1.webp",
+      "position": "Head Data Scientist",
+      "organization": "Gojek",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/gojek.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "mural",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mural.webp"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    },
+    {
+      "title": "tensorflow",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
+    },
+    {
+      "title": "keras",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/keras.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-product-management-ai-for-leaders",
+    "points": [
+      "132+ Hours of Live Classes",
+      "30+ Tools & Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-product-management-ai-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Product Management & AI experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Product Management & AI for Leaders you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of Product Management and AI concepts."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Product Management & AI for Leaders?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 11 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Product Management & AI for Leaders different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Product Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-PMAI-for-Leaders.pdf",
+    "source": "IITG Product Management & AI for Leaders Brochure",
+    "campaign_name": "PMAI-IITG-11 Months"
+  }
+}

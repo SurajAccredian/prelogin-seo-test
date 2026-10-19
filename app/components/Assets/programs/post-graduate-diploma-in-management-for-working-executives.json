@@ -1,0 +1,366 @@
+{
+  "category": "44",
+  "id": "post-graduate-diploma-in-management-for-working-executives",
+  "pid": 127,
+  "vertical": "PG Diploma",
+  "title": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
+  "seo_title": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
+  "description": "Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.",
+  "short_title": "PG Diploma",
+  "contact": "8130897175",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "24 May 2026",
+  "required_years_experience": 3,
+  "duration": "12 months",
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv-pgdmex-certificate-v2.svg",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 480
+    },
+    {
+      "title": "credits",
+      "count": 40
+    },
+    {
+      "title": "courses",
+      "count": 42
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "subject areas",
+      "count": 11
+    },
+    {
+      "title": "campus immersion",
+      "text": "3 Days"
+    }
+  ],
+  "overview": {
+    "programId": "post-graduate-diploma-in-management-for-working-executives",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Mid-Level Managers: Transition into strategic, cross-functional leadership roles.",
+          "Functional Leaders (Finance, Marketing, Product, Ops): Master data-driven strategy and expand management expertise.",
+          "Early-Career Professionals: Build foundational management and analytics skills.",
+          "Entrepreneurs: Scale ventures by mastering finance, operations, and strategy.",
+          "Consultants: Enhance managerial skills to influence key business decisions.",
+          "Career Switchers: Pivot into management using strategic frameworks.",
+          "Aspiring Senior Leaders: Develop strategic vision for organizational impact."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Consultant / Management Consultant",
+          "Operations Manager",
+          "Project Manager",
+          "Product Manager",
+          "Marketing Manager",
+          "Sales Manager / Key Account Manager",
+          "Finance Manager / Financial Analyst",
+          "Human Resources Manager",
+          "Supply Chain Manager",
+          "Entrepreneur / Startup Founder"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "42 Courses - Functional Management, Strategic Management and Business Transformation",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 12 months | Weekend Online",
+          "PG Diploma from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "IIM Visakhapatnam Alumni Status",
+          "EMI upto 24 months",
+          "Harvard Business Review Case Studies",
+          "60 hour capstone project",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "iimv-alumni-status",
+    "campus-immersion",
+    "convocation-ceremony",
+    "iimv-diploma"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "online test (MAST) and personal interview",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundational",
+      "id": "strategic-management",
+      "points": [
+        "Managerial Economics",
+        "Business Statistics with spreadsheet",
+        "Marketing Management",
+        "Managerial Accounting",
+        "Micro OB (OB-1): Leadership & People Dynamics",
+        "Business Communication - I",
+        "Information Systems & Business Transformation"
+      ]
+    },
+    {
+      "title": "Intermediate",
+      "id": "economics-social-sciences",
+      "points": [
+        "Corporate Finance",
+        "Macroeconomics",
+        "Optimization Techniques for Business",
+        "Marketing Management",
+        "Macro OB (OB-2): Organization Design & Culture",
+        "Business Communication & Strategic Negotiation- Il",
+        "Entrepreneurship & Business Growth"
+      ]
+    },
+    {
+      "title": "Final",
+      "id": "decision-sciences",
+      "points": [
+        "Strategic Management",
+        "Operations & Supply Chain Management",
+        "Project Management",
+        "Research for Marketing Decisions",
+        "Applications of Al, Analytics & Emerging Technologies in Business",
+        "Global Business & ESG",
+        "New Venture Creation"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "M Chandrasekhar Director",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/m_chandrasekhar.webp",
+      "position": "Director, IIM Visakhapatnam",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Happy Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. MV Anuradha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. PRS Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Md. Shameem Jawed",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shameem-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Ashmita Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Ashmita-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Bishakha Majumdar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Bisakha-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Kalyan K",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/kalyan-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "R",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/R-language-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "post-graduate-diploma-in-management-for-working-executives",
+    "points": [
+      "480+ Hours of Live Classes",
+      "One Capstone Project",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": "43017.19"
+      },
+      {
+        "months": 18,
+        "emi": "29892.19"
+      },
+      {
+        "months": 24,
+        "emi": "23329.69"
+      }
+    ],
+    "total": 484300
+  },
+  "faq": {
+    "programId": "post-graduate-diploma-in-management-for-working-executives",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Senior Management required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Senior Management program different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Senior Management concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-post-graduate-diploma-in-management-for-working-executives.pdf",
+    "source": "IIMV Post Graduate Diploma in Management for Working Executives (PGDMEx) Brochure",
+    "campaign_name": "PGDMEx-IIMV-12 Months"
+  }
+}

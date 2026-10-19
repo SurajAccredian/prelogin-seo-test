@@ -1,0 +1,275 @@
+{
+  "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+  "pid": 160,
+  "category": "58",
+  "vertical": "artificial intelligence",
+  "title": "Executive Program in Generative AI & Agentic AI for Leaders",
+  "seo_title": "GenAI & Agentic AI Leadership Course | IIM Ranchi",
+  "description": "Embark on a 7 months learning journey in Machine Learning, AI Strategy, and GenAI.",
+  "short_title": "Artificial Intelligence",
+  "contact": "8851827093",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+  "start_date": "29 Nov 2026",
+  "duration": "7 Months",
+  "required_years_experience": 5,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "84+",
+      "title": "hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "8",
+      "title": "modules"
+    },
+    {
+      "text": "2 Days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "2",
+      "title": "simulations"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    }
+  ],
+  "domain": "artificial intelligence",
+  "overview": {
+    "programId": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+    "content": [
+      {
+        "title": "Who Should Join",
+        "points": [
+          "Executives: Refine leadership and drive organizational change",
+          "C-Suite Leaders: Stay abreast of industry trends and foster innovation",
+          "Directors: Deepen strategic decision-making skills",
+          "Entrepreneurs: Scale operations and explore new markets",
+          "Project Managers: Lead large-scale projects with strategic impact",
+          "Sector Leaders: Apply advanced business principles for effectiveness"
+        ]
+      },
+      {
+        "title": "Job Opportunities",
+        "points": [
+          "AI Innovation Strategist",
+          "AI Operations Manager",
+          "AI Product Manager",
+          "Digital Transformation Manager",
+          "AI Ethics and Compliance Officer",
+          "Data Strategist",
+          "AI Solutions Architect",
+          "Automation Specialist",
+          "Business Intelligence Analyst",
+          "GenAI Transformation Manager"
+        ]
+      },
+      {
+        "title": "Program Snapshot",
+        "points": [
+          "8 Modules - Machine Learning, AI Strategy, and GenAI",
+          "Learn from top IIM Ranchi faculty",
+          "Duration: 7 Months | Weekend Online",
+          "Certification from IIM Ranchi",
+          "Live Instructor-Led Classes",
+          "One Campus Immersion of 2 Days",
+          "1 Capstone Project",
+          "2 Transformative Simulations",
+          "EMI up to 24 Months",
+          "1:1 Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "capstone-project",
+    "campus-immersion",
+    "certificate",
+    "alumni-status-opt"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Personalized Discussion",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Generative AI Foundations for Leaders",
+      "points": [
+        "Generative AI Concepts, Capabilities & Limitations",
+        "LLMs, Multimodal Systems & Business Relevance",
+        "Industry Disruption & Emerging Trends",
+        "Risks, Ethics & Responsible GenAI"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Applied Generative AI: Tools, Prompting & Workflows",
+      "points": [
+        "Overview of Leading GenAI Tools & Platforms",
+        "Prompt Engineering for Business Use Cases",
+        "Designing Effective Workflows with GenAI",
+        "Human–AI Collaboration & Productivity Techniques"
+      ],
+      "modules": []
+    },
+    {
+      "title": "GenAI Strategy, Roadmapping & ROI",
+      "points": [
+        "Identifying High-Impact GenAI Opportunities",
+        "Use Case Prioritization & Value Mapping",
+        "ROI, Cost Structures & Risk Trade-offs",
+        "Aligning GenAI with Business Strategy"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Business Transformation with GenAI",
+      "points": [
+        "Customer, Growth & Experience Transformation",
+        "GenAI in Software Development & Product Engineering",
+        "Analytics, Decision Intelligence & Data Workflows",
+        "End-to-End Process Reinvention"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Building Generative AI Products (No-Code AI)",
+      "points": [
+        "GenAI Product Thinking & Solution Framing",
+        "Designing LLM-Based Workflows & User Experiences",
+        "Prompting, Context Engineering & Output Optimization",
+        "RAG, Automation & Prototyping"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI Agents for Workflow Automation",
+      "points": [
+        "From Generative AI to Workflow-Based AI Agents",
+        "Designing Agent-Driven Business Workflows",
+        "Human–AI Collaboration in Multi-Step Processes",
+        "Measuring Productivity, Quality & Decision Impact"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Agentic AI for Autonomous Organizations",
+      "points": [
+        "From AI Agents to Agentic Business Systems",
+        "Coordinating Multi-Agent Workflows Across Functions",
+        "Defining Boundaries: Autonomy, Control & Oversight",
+        "Enterprise Use Cases & Emerging Operating Models"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leading GenAI Transformation",
+      "points": [
+        "AI Operating Models & Organizational Design",
+        "Governance, Risk & Responsible AI (Embedded)",
+        "Change Management & Workforce Transformation",
+        "Scaling GenAI & Agentic Systems"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "points": [
+        "Identify a high-impact business function within your organization and redesign it using Generative AI and Agentic AI. Define the use case, build a prototype (no-code/low-code), integrate workflows or agents and evaluate ROI, risks, and scalability. Present a transformation roadmap demonstrating measurable impact on productivity, decision-making and business outcomes."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 180000,
+    "points": [
+      "84+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 15178
+      },
+      {
+        "months": 18,
+        "emi": 10486
+      },
+      {
+        "months": 24,
+        "emi": 8123
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
+    "source": "IIM-RANCHI Executive Program in Generative AI & Agentic AI for Leaders Brochure",
+    "campaign_name": "IIM-RANCHI-EPGA&AIL"
+  },
+  "faculty": [],
+  "tools": [
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    },
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "Claude AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    },
+    {
+      "title": "Perplexity",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/perplexity.svg"
+    },
+    {
+      "title": "Lovable",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/lovable.svg"
+    },
+    {
+      "title": "Gamma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
+    },
+    {
+      "title": "NotbookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notbooklm.webp"
+    }
+  ]
+}

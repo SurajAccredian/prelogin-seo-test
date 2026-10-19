@@ -1,0 +1,406 @@
+{
+  "category": "36",
+  "id": "post-graduate-certificate-program-in-cybersecurity-for-leaders",
+  "vertical": "cybersecurity",
+  "title": "Post Graduate Certificate Program in Cybersecurity for Leaders",
+  "seo_title": "Post Graduate Certificate Program in Cybersecurity for Leaders",
+  "description": "Embark on a 6-term learning journey in strategic cybersecurity, IR planning, and AI & GenAI threats.",
+  "short_title": "Cybersecurity",
+  "contact": "9818329799",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "27 July 2025",
+  "duration": "6 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IIT-G-PGCPCL.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 72
+    },
+    {
+      "title": "career sessions",
+      "text": 4
+    },
+    {
+      "title": "modules",
+      "text": 19
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "case studies",
+      "count": 5
+    }
+  ],
+  "overview": {
+    "programId": "post-graduate-certificate-program-in-cybersecurity-for-leaders",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Mid-to-Senior Managers looking to integrate cybersecurity best practices into their teams and projects.",
+          "Business Unit Leaders wanting to ensure cybersecurity is embedded in strategic decision-making.",
+          "IT Directors & Senior IT Managers aiming to bridge the gap between technical teams and executive leadership.",
+          "Risk & Compliance Managers seeking to strengthen their organization’s security posture and regulatory compliance.",
+          "Operations Leaders looking to implement cybersecurity measures into business continuity planning.",
+          "Finance & Accounting Leaders wanting to mitigate risks related to fraud, phishing, and financial cyber threats.",
+          "Legal & Compliance Professionals aiming to stay ahead of cybersecurity regulations and incident response.",
+          "HR & People Managers seeking to drive cybersecurity awareness and prevent insider threats.",
+          "Government & Public Sector Leaders wanting to shape cybersecurity policies and protect critical infrastructure.",
+          "Healthcare, Energy, and Finance Leaders looking to safeguard sensitive data and manage industry-specific cyber risks.",
+          "CEOs & Founders wanting to understand cyber risks that impact business strategy and reputation.",
+          "Board Directors wanting to make informed decisions about cybersecurity investments and compliance."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Information Security Officer (CISO)",
+          "Cybersecurity Director/Manager",
+          "Security Operations Manager",
+          "Risk & Compliance Manager",
+          "IT Security Manager",
+          "Cybersecurity Analyst",
+          "Security Architect",
+          "Cloud Security Engineer",
+          "Threat Intelligence Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "6 Terms - strategic cybersecurity, IR planning, and AI & GenAI threats",
+          "Learn From The Top Industry Professionals",
+          "Duration: 6 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "add-ons",
+    "alumni-status-iit",
+    "experiential-learning",
+    "certificate"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Cybersecurity Foundations for Leaders",
+      "id": "1",
+      "points": [
+        "Understanding Cybersecurity Basics",
+        "Key Concepts, Terminology & Principles",
+        "Business Impact of Cybersecurity"
+      ]
+    },
+    {
+      "title": "Cybersecurity Strategy & Governance",
+      "id": "2",
+      "points": [
+        "Cybersecurity Governance: Roles, Responsibilities & Structures",
+        "Building a Cybersecurity Strategy",
+        "Cybersecurity Policy, Standards & Controls",
+        "Board-Level Cyber Oversight"
+      ]
+    },
+    {
+      "title": "Risk Management & Compliance",
+      "id": "3",
+      "points": [
+        "Cyber Risk Management Frameworks",
+        "Third-Party and Supply Chain Risk",
+        "Compliance Landscape",
+        "Internal Audit & Cyber Maturity Assessments"
+      ]
+    },
+    {
+      "title": "Cyber Crisis Leadership & Incident Response",
+      "id": "4",
+      "points": [
+        "Incident Response Planning",
+        "Communicating During a Cyber Crisis",
+        "Lessons from High-Profile Breaches",
+        "Post-Breach Recovery & Resilience"
+      ]
+    },
+    {
+      "title": "Emerging Threats & Technologies",
+      "id": "5",
+      "points": [
+        "Understanding Emerging Threats",
+        "Technology & Innovation in Cybersecurity"
+      ]
+    },
+    {
+      "title": " AI & GenAI for CyberSecurity",
+      "id": "6",
+      "points": [
+        "AI-Driven Cyber Threats",
+        "Leveraging AI for Cyber Defense"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-product",
+      "points": [
+        "Develop a comprehensive cybersecurity strategy for a simulated organization, conduct a detailed risk assessment, identify vulnerabilities, and propose mitigation measures. Create a board-level report outlining business impact, compliance alignment, budget considerations, and an incident response plan. Ensure the strategy addresses emerging threats, regulatory requirements, and long-term resilience to safeguard critical assets and maintain operational continuity."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Asad Abrar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Asad%20Abrar.svg",
+      "position": "Ex-Group Product Manager",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Meesho_logo.svg"
+    },
+    {
+      "name": "Harihara",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Rajib Roy",
+      "position": "Product Manager",
+      "organization": "Walmart Global Tech India",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Rajib-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Walmart.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku Chakraborty",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    }
+  ],
+  "tools": [
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "miro",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
+    },
+    {
+      "title": "Cyberbit",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Cyberbit.webp"
+    },
+    {
+      "title": "Metasploit",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Metasploit.webp"
+    },
+    {
+      "title": "Wireshark",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Wireshark.webp"
+    },
+    {
+      "title": "Nmap",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/nmap.webp"
+    },
+    {
+      "title": "ThreatConnect",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/ThreatConnect.webp"
+    },
+    {
+      "title": "CrowdStrike",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/crowdstrike.webp"
+    },
+    {
+      "title": "Splunk",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Splunk.webp"
+    },
+    {
+      "title": "Darktrace",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/darktrace.webp"
+    }
+  ],
+  "billing": {
+    "programId": "post-graduate-certificate-program-in-cybersecurity-for-leaders",
+    "points": [
+      "72+ Hours of Live Classes",
+      "10+ Tools and Frameworks Covered",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 10817
+      },
+      {
+        "months": 18,
+        "emi": 7500
+      },
+      {
+        "months": 24,
+        "emi": 5828
+      }
+    ],
+    "total": 140000
+  },
+  "faq": {
+    "programId": "post-graduate-certificate-program-in-cybersecurity-for-leaders",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              " In Post Graduate Certificate Program in Cybersecurity for Leaders you will have access to multiple case studies and Capstone Project to provide a better understanding of the real-world applications of Cybersecurity concepts."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is for 4-5 weeks approximately. And the overall duration of the program is 6 Months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Post Graduate Certificate Program in Cybersecurity for Leaders different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Cybersecurity concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Post-Graduate-Certificate-Program-in-Cybersecurity-for-Leaders.pdf",
+    "source": "IITG Cybersecurity for Leaders Brochure",
+    "campaign_name": "CSL-IITG-6 Months"
+  }
+}

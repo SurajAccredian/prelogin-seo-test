@@ -1,0 +1,466 @@
+{
+  "category": "11",
+  "id": "executive-program-in-analytics-&-digital-transformation",
+  "vertical": "business analytics",
+  "title": "Executive Program in Analytics & Digital Transformation",
+  "seo_title": "Executive Program in Analytics & Digital Transformation",
+  "description": "Embark on an 10-term learning journey Digital Strategy, Analytics, Agile Methodologies, and Digital Leadership.",
+  "short_title": "Analytics & Digital Transformation",
+  "contact": "9996005613",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "22 Sept 2024",
+  "duration": "12 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IIT-G-BADT-Certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 140
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "text": 40
+    },
+    {
+      "title": "capstone project",
+      "text": 2
+    },
+    {
+      "title": "tools",
+      "count": 15
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-Day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-analytics-&-digital-transformation",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring Data Analysts and Scientists interested in data, patterns, insights.",
+          "Project managers integrating digital technologies to enhance project effectiveness and outcomes.",
+          "Business Professionals who are managers seeking data-driven business decisions.",
+          "Career Switchers transitioning to roles centered around data and analytics.",
+          "Marketing professionals using digital tools for targeted campaigns and engagement strategies.",
+          "Recent Graduates from business, economics, computer science, engineering disciplines.",
+          "IT professionals aiming to master digital solutions and lead transformation projects.",
+          "Entrepreneurs leveraging data for growth, efficiency, and business success.",
+          "IT and Engineering Professionals managing and integrating business data better.",
+          "Consultants providing clients with data-driven insights and tailored solutions.",
+          "Academics and Researchers using data analysis in research and teaching.",
+          "Individuals with an Analytical Mindset, curiosity, and problem-solving skills.",
+          "Business leaders seeking to innovate and drive change through digital technologies.",
+          "Operations managers optimizing processes and efficiency with digital transformation initiatives."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Digital Transformation Consultant",
+          "Digital Strategy Manager",
+          "Digital Project Manager",
+          "Change Management Specialist",
+          "Digital Marketing Manager",
+          "Digital Project Manager",
+          "Customer Experience Manager",
+          "Business Process Analyst",
+          "Data Analytics Manager",
+          "E-commerce Manager",
+          "Data Analyst",
+          "Business Analyst",
+          "Business Intelligence Analyst",
+          "Data Engineer",
+          "Market Research Analyst",
+          "Operations Analyst",
+          "Financial Analyst",
+          "Product Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - Digital Strategy, Digital Business Models, Digital Technology, DT Frameworks & Digital Leadership",
+          "Learn from the top industry professionals and expert sessions by IIT Guwahati Faculty",
+          "Duration: 12 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Capstone project",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "One on one career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "alumni-status-iit",
+    "experiential-learning",
+    "campus-immersion"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundation of Business Analytics",
+      "id": "foundation-of-business-analytics",
+      "points": [
+        "Introduction to Business Analytics",
+        "Data Analytics Fundamentals for Managers",
+        "Descriptive Analytics",
+        "Inferential Statistics for Decision Making"
+      ]
+    },
+    {
+      "title": "Data Management & SQL for Business Insights",
+      "id": "data-management-and-sql-for-business-insights",
+      "points": [
+        "Data Management for Business",
+        "SQL Fundamentals for Business Analysis",
+        "Data Querying Fundamentals",
+        "Advanced SQL for Managers"
+      ]
+    },
+    {
+      "title": "Business Decision Data Modeling",
+      "id": "business-decision-data-modeling",
+      "points": [
+        "Extracting Business Insights from Data",
+        "Decision Making Techniques Using Excel",
+        "Business Reporting with Excel Pivot Tables",
+        "Excel Modelling for Business Solutions"
+      ]
+    },
+    {
+      "title": "Data Visualization & Story Telling",
+      "id": "data-visualization-and-story-telling",
+      "points": [
+        "Data Visualization & Storytelling Basics",
+        "Advanced Power BI for Strategic Business Insights",
+        "Real Time Insights & Data Integrity for Managers",
+        "Building Reports for Business Insights"
+      ]
+    },
+    {
+      "title": "Applied Managerial Analytics",
+      "id": "applied-managerial-analytics",
+      "points": [
+        "Business Analytics in BFSI",
+        "Analytics for Marketing & Telecommunications",
+        "Analytics in Healthcare & Manufacturing",
+        "E-commerce & Supply Chain Analytics"
+      ]
+    },
+    {
+      "title": "Analytics Capstone",
+      "special": "2",
+      "id": "capstone-project",
+      "points": [
+        "This capstone project involves advanced data analysis skills through corporate dataset exploration: data acquisition, transformation, exploratory analysis with statistics and visualization, predictive modeling using supervised learning, prescriptive analytics for strategy, and data storytelling for compelling narratives."
+      ]
+    },
+    {
+      "title": "Digital Strategy & Planning",
+      "id": "digital-strategy-and-planning",
+      "points": [
+        "Digital Disruption in 21st Century",
+        "Strategy Development and Alignment",
+        "Building a Customer-Centric Approach",
+        "Measuring and Optimizing Digital Strategy"
+      ]
+    },
+    {
+      "title": "Digital Business Models and Value Proposition",
+      "id": "digital-business-models-and-value-proposition",
+      "points": [
+        "Digital Business Model Fundamentals",
+        "Value Proposition Development",
+        "Monetizing Digital Business Models",
+        "Digital Ecosystems and Partnerships"
+      ]
+    },
+    {
+      "title": "Digital Technology & Tools",
+      "id": "digital-technology-and-tools",
+      "points": [
+        "Foundations of Digital Technologies",
+        "Cybersecurity and Data Privacy",
+        "AI/ML & IOT Analytics",
+        "Blockchain & Industry 4.0"
+      ]
+    },
+    {
+      "title": "Digital Transformation Frameworks and Implementation",
+      "id": "digital-transformation-frameworks-and-implementation",
+      "points": [
+        "Digital Transformation Models",
+        "Digital Transformation Roadmaps",
+        "Agile Methodologies for Transformation",
+        "Digital Transformation Governance"
+      ]
+    },
+    {
+      "title": "Digital Leadership & Change Management",
+      "id": "digital-leadership-and-change-management",
+      "points": [
+        "Leadership in Digital Transformation",
+        "Change Management Strategies",
+        "Building an Innovation First culture",
+        "Sustaining Digital Success"
+      ]
+    },
+    {
+      "title": "Digital Transformation Capstone",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "In this capstone project, you'll develop a Digital Transformation Roadmap for an organization. You'll assess digital readiness, identify gaps, and benchmark against industry standards. The project includes creating transformation strategies, designing governance structures, identifying digital skills, proposing training programs, and fostering a digital-first culture. You will build a comprehensive roadmap with actionable recommendations and a framework to support ongoing digital transformation efforts."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "SQL",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/sql.webp"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "miro",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "Click Up",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/click-up.webp"
+    },
+    {
+      "title": "Retool",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/retool.webp"
+    },
+    {
+      "title": "bubble.io",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/bubble-io.webp"
+    },
+    {
+      "title": "slack",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/slack.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-analytics-&-digital-transformation",
+    "points": [
+      "140+ Hours of Live Classes",
+      "25+ Tools and Frameworks Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 220000
+  },
+  "faq": {
+    "programId": "executive-program-in-analytics-&-digital-transformation",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to know Programming & Math before enrolling to a program?",
+            "content": [
+              "Background in Programming & Maths is helpful but not mandatory."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Analytics & Digital Transformation you will have access to case studies and Capstone Projects to provide a better understanding of the real-world applications of digital transformation concepts."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Analytics & Digital Transformation?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is approximately 4-5 weeks long. The overall duration of the Executive Program in Analytics & Digital Transformation is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Analytics & Digital Transformation different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Digital Transformation concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-BADT-12-Months-v2.pdf",
+    "source": "analytics & digital transformation brochure",
+    "campaign_name": "BADT-IITG-12 Months"
+  }
+}

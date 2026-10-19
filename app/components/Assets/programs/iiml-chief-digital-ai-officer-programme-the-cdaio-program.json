@@ -1,0 +1,284 @@
+{
+  "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+  "pid": 138,
+  "tags": [
+    {
+      "type": "main",
+      "title": "best selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
+  ],
+  "type": "online",
+  "title": "Chief Digital & AI Officer Programme (The CDAIO Program)",
+  "seo_title": "Chief Digital & AI Officer Course | IIM Lucknow - Accredian",
+  "domain": "module",
+  "billing": {
+    "total": 452500,
+    "points": [
+      "126+ Hours of Live Classes",
+      "Interactive Doubt-Clearing Sessions",
+      "Quick Query Resolution"
+    ],
+    "programId": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+    "monthly_emi": [
+      {
+        "emi": "41196 - 42234",
+        "months": 12
+      },
+      {
+        "emi": "28627 - 29483",
+        "months": 18
+      },
+      {
+        "emi": "22342 - 23191",
+        "months": 24
+      }
+    ]
+  },
+  "contact": "8882597163",
+  "timings": "weekends only",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Digital-&-AI-Officer-Programme-Brochure.pdf",
+    "source": "IIML-Chief-Digital-&-AI-Officer-Programme-(The-CDAIO-Program)-Brochure",
+    "campaign_name": "CD&AOP(CP-iiml-11 Months"
+  },
+  "category": "51",
+  "duration": "11 Months",
+  "overview": {
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Digital C-Suite (CIO, CTO, CDO): Expand expertise in AI and digital transformation.",
+          "Aspiring CDOs & CAIOs: Transition into top-tier digital leadership roles.",
+          "Innovation Leaders: Drive enterprise transformation and AI adoption.",
+          "Technical Leads (Data Science/Eng): Transition from technical roles to strategic leadership.",
+          "Founders & Consultants: Advance digital strategy and enterprise innovation.",
+          "Business Leaders: Modernize operations through transformation."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Digital Officer (CDO)",
+          "Chief AI Officer (CAIO)",
+          "Chief Data & Analytics Officer (CDAO)",
+          "Digital Transformation Leader",
+          "VP/Director of AI Strategy",
+          "VP/Director of Digital Innovation",
+          "Head of Data Science or AI",
+          "Product Head of AI Solutions",
+          "Technology Strategy Consultant",
+          "Enterprise Architect (AI/Digital)"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules - Strategic Leadership, Digital Technologies, and AI Strategy",
+          "Learn from esteemed IIM Lucknow faculty",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From IIM Lucknow",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI upto 24 months"
+        ]
+      }
+    ],
+    "programId": "iiml-chief-digital-ai-officer-programme-the-cdaio-program"
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "vertical": "cxo leadership",
+  "curriculum": [
+    {
+      "id": "1",
+      "title": "The Chief Digital & AI Officer Mandate",
+      "points": [
+        "Enterprise Role Design & Strategic Scope",
+        "Authority, Accountability & Decision Rights",
+        "Value Ownership & Enterprise Impact",
+        "CEO & Board Alignment Frameworks"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Boardroom Influence & Executive Presence",
+      "points": [
+        "Executive Presence & Influence Strategy",
+        "C-Suite Alignment & Power Dynamics",
+        "Board Communication & Narrative Design",
+        "Conflict Resolution & Consensus Building"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Digital Investment, Budgeting & ROI",
+      "points": [
+        "Digital & AI Capital Allocation",
+        "Portfolio Prioritization & Funding Models",
+        "ROI, IRR & Value Realization Frameworks",
+        "CFO Partnership & Financial Stewardship"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Digital & AI Business Models & Platform Strategy",
+      "points": [
+        "Platform Economics & Network Effects",
+        "AI-Driven Revenue Models",
+        "Ecosystem Strategy & Partner Monetization",
+        "Data & API Product Commercialization"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Digital & AI Strategy for Enterprise Growth",
+      "points": [
+        "Enterprise AI Vision & Strategic Blueprints",
+        "AI Roadmapping & Scaling Strategy",
+        "AI Operating Model & Organization Design",
+        "Decision Governance & Execution Architecture"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Data Strategy & Analytics for CDAIOs",
+      "points": [
+        "Enterprise Data Operating Model",
+        "Data-as-a-Product & Monetization Strategy",
+        "Advanced Analytics for Executive Decisions",
+        "Data Governance, Privacy & Trust"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Digital & Technology Architecture",
+      "points": [
+        "Enterprise Technology Modernization Strategy",
+        "Cloud, API & Microservices Architecture",
+        "Scalable AI-Ready Infrastructure Design",
+        "Resilience, Security & Performance Architecture"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Generative & Agentic AI Systems",
+      "points": [
+        "Enterprise GenAI Landscape & Use Cases",
+        "Agentic Workflows & Intelligent Automation",
+        "LLM Strategy: Build vs Buy vs Partner",
+        "Deployment, Monitoring & Scaling Frameworks"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "AI-Driven Customer Experience Strategy",
+      "points": [
+        "Customer Intelligence & Personalization Strategy",
+        "AI-Enabled Journeys & Omnichannel Design",
+        "Customer Data Platforms & Experience Analytics",
+        "CX as a Revenue & Loyalty Engine"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Leading AI Change, Culture & Transformation",
+      "points": [
+        "Enterprise Change Leadership Frameworks",
+        "Transformation Governance & Execution Rigor",
+        "Workforce Enablement & Adoption Strategy",
+        "Performance Alignment & Culture Shift"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Innovation, Ecosystems & Future Growth",
+      "points": [
+        "Innovation Frameworks for CDAIOs",
+        "Innovation Portfolios & Enterprise Growth Bets",
+        "Strategic Alliances, Partnerships & Ecosystem Strategy",
+        "Build–Buy–Partner Strategy Execution"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Digital Governance, Responsible AI & Risk",
+      "points": [
+        "Enterprise AI Governance Frameworks",
+        "Regulatory Compliance & Risk Oversight",
+        "Responsible AI Principles & Controls",
+        "Reputation, Ethics & Enterprise Resilience"
+      ]
+    },
+    {
+      "id": "capstone-project",
+      "title": "Capstone Project",
+      "points": [
+        "As a CDAIO, you must design a Generative AI–Led Enterprise Transformation Blueprint that defines your GenAI strategy, agentic AI use cases, enterprise Copilot landscape, operating model, investment roadmap, customer intelligence transformation, and Responsible AI framework. The project must deliver a board-ready GenAI strategy deck, value realization plan, and a 12–18 month execution roadmap."
+      ],
+      "special": "1"
+    }
+  ],
+  "start_date": "28 June 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIML-certificate/IIML-CDAIO-Program.webp",
+  "description": "Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.",
+  "enrollments": "active",
+  "short_title": "Chief Digital & AI Officer",
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "key_features": [
+    {
+      "text": "12",
+      "title": "modules"
+    },
+    {
+      "text": "126",
+      "title": "class hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "3 days",
+      "title": "campus immersion"
+    }
+  ],
+  "unique_points": [
+    "capstone-project",
+    "campus-immersion",
+    "certificate",
+    "strategic-leadership"
+  ],
+  "curriculum_type": "term",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+  "university_name": "IIM Lucknow",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "short_university_name": "iiml",
+  "required_years_experience": 7
+}

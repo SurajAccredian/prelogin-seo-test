@@ -1,0 +1,416 @@
+{
+  "category": "27",
+  "id": "professional-certificate-program-in-digital-transformation",
+  "vertical": "digital transformation",
+  "title": "Professional Certificate Program in Digital Transformation",
+  "seo_title": "Digital Transformation Course | IIT Guwahati - Accredian",
+  "description": "Embark on a 6 term learning journey Digital Strategy, AI/ML Analytics, Agile Methodologies, and Digital Leadership.",
+  "short_title": "Digital Transformation",
+  "contact": "9358719988",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "23 Aug 2025",
+  "duration": "6 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/professional-certificate-program-in-digital-transformation-6-months.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 72
+    },
+    {
+      "title": "career sessions",
+      "count": 4
+    },
+    {
+      "title": "modules",
+      "text": 18
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "tools",
+      "count": 8
+    },
+    {
+      "title": "assignments",
+      "count": 20
+    }
+  ],
+  "overview": {
+    "programId": "professional-certificate-program-in-digital-transformation",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Business leaders seeking to innovate and drive change through digital technologies.",
+          "IT professionals aiming to master digital solutions and lead transformation projects.",
+          "Project managers integrating digital technologies to enhance project effectiveness and outcomes.",
+          "Marketing professionals using digital tools for targeted campaigns and engagement strategies.",
+          "Operations managers optimizing processes and efficiency with digital transformation initiatives.",
+          "HR professionals implementing digital solutions for enhanced talent management and development.",
+          "Finance professionals utilizing digital technologies for better financial analysis and forecasting.",
+          "Customer service managers enhancing experiences through digital channels and platforms.",
+          "Supply chain managers improving visibility and efficiency with digital solutions.",
+          "Entrepreneurs innovating business models and processes through digital technologies.",
+          "Government officials implementing digital initiatives for public sector modernization.",
+          "Healthcare administrators improving patient care and operational efficiency digitally."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Digital Transformation Consultant",
+          "Digital Strategy Manager",
+          "Digital Project Manager",
+          "Change Management Specialist",
+          "Digital Marketing Manager",
+          "Technology Integration Specialist",
+          "Innovation Manager",
+          "Customer Experience Manager",
+          "Business Process Analyst",
+          "IT Transformation Lead",
+          "Data Analytics Manager",
+          "E-commerce Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "6 Terms - Digital Strategy, Digital Business Models, Digital Technology, DT Frameworks & Digital Leadership",
+          "Learn from the top industry professionals and expert sessions by IIT Guwahati Faculty",
+          "Duration: 6 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Capstone project",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "One on one career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "alumni-status-iit",
+    "experiential-learning",
+    "add-ons"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Digital Disruption & Digital Strategy",
+      "id": "1",
+      "points": [
+        "Introduction to Digital Transformation",
+        "Core Components of Digital Transformation",
+        "Digital Strategy Formulation",
+        "Digital Strategy Frameworks"
+      ]
+    },
+    {
+      "title": "Digital Business Models",
+      "id": "2",
+      "points": [
+        "Digital Business Model Fundamentals",
+        "Value Proposition Development",
+        "Monetizing Digital Business Models",
+        "Digital Ecosystems & Partnerships"
+      ]
+    },
+    {
+      "title": "Digital Technologies",
+      "id": "3",
+      "points": [
+        "Foundations of Digital Technologies",
+        "Cybersecurity & Data Privacy",
+        "AI/ML & IoT Analytics",
+        "Digital Technologies for Industry 4.0"
+      ]
+    },
+    {
+      "title": "Digital Transformation Implementation & Change Management",
+      "id": "4",
+      "points": [
+        "Digital Transformation Roadmaps",
+        "Agile Methodologies for Transformation",
+        "Change Management Strategies"
+      ]
+    },
+    {
+      "title": "Metrics, KPIs & ROI Evaluation",
+      "id": "5",
+      "points": [
+        "Key Metrics & KPIs in Digital Transformation",
+        "Evaluating ROI of Digital Transformation Initiatives"
+      ]
+    },
+    {
+      "title": "Digital Transformation in Action",
+      "id": "6",
+      "points": [
+        "Digital Transformation in Finance & Operations",
+        "Digital Transformation in Sales & Marketing"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Capstone Project allows participants to apply their knowledge to a real-world challenge, integrating digital strategy, business models, and change management. They will create a digital transformation plan, assess digital maturity, and measure success with KPIs and ROI, gaining the skills to lead digital transformation."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Irfan Khalid",
+      "position": "Founder",
+      "organization": "Ai4Education",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/irfan-khalid.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Ai4Education.webp"
+    },
+    {
+      "name": "Jimit Dattani",
+      "position": "Executive Partner",
+      "organization": "Ai4Education",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Jimit-Dattani.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/thoughtworks.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gauravds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premankuds-and-dt.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Arun Prakash",
+      "position": "Associate Director",
+      "organization": "Novartis",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arun-prakash.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/novartis.webp"
+    },
+    {
+      "name": "Arul Francis",
+      "position": "Associate Director",
+      "organization": "AstraZeneca",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/arul-francis.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
+    },
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "solidity",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/solidity.svg"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "slack",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/slack.webp"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "confluence",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
+    }
+  ],
+  "billing": {
+    "programId": "professional-certificate-program-in-digital-transformation",
+    "points": [
+      "72+ Hours of Live Classes",
+      "8+ Tools Covered",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 10817
+      },
+      {
+        "months": 18,
+        "emi": 7500
+      },
+      {
+        "months": 24,
+        "emi": 5828
+      }
+    ],
+    "total": 140000
+  },
+  "faq": {
+    "programId": "professional-certificate-program-in-digital-transformation",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to know Programming & Math before enrolling to a program?",
+            "content": [
+              "Background in Programming & Maths is helpful but not mandatory."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Professional Certificate Program in Digital Transformation you will have access to many case studies from the industries, Capstone Project to provide a better understanding of the real-world applications of digital transformation concepts."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Professional Certificate Program in Digital Transformation?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is approximately 4-5 weeks long. The overall duration of the Professional Certificate Program in Digital Transformation is 6 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Professional Certificate Program in Digital Transformation different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Digital Transformation concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Professional-Certification-Program-in-DT.pdf",
+    "source": "IITG PCP Digital Transformation Brochure",
+    "campaign_name": "PCDT-IITG-6 Month"
+  }
+}

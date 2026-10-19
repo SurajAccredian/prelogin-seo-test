@@ -1,0 +1,439 @@
+{
+  "category": "13",
+  "id": "executive-program-in-general-management",
+  "pid": 103,
+  "vertical": "general management",
+  "title": "Executive Development Program in General Management",
+  "seo_title": "Executive Development Program in General Management",
+  "description": "Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status.",
+  "short_title": "General Management",
+  "contact": "8882597163",
+  "university_name": "XLRI",
+  "short_university_name": "xlri",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
+  "accredited_by": [
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-XLEAD.webp"
+  ],
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/3EWDbcrTyII?si=J02BZQDol8SwfJJ2",
+  "start_date": "29 Mar 2026",
+  "duration": "11 months",
+  "required_years_experience": 5,
+  "type": "online",
+  "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/edpgm.html",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/xlri-certificate/XLRI-CMO-11-Months-v1.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 130
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "simulations",
+      "text": 1
+    },
+    {
+      "title": "frameworks",
+      "count": 20
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-Days"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-general-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          [
+            "Operations Managers: Streamline processes and enhance productivity across departments.",
+            "Mid-Career Professionals: Enhance leadership skills for senior management roles.",
+            "Functional Managers: Integrate strategies with broader business goals.",
+            "Entrepreneurs: Gain a comprehensive foundation in managing growing businesses.",
+            "Project Managers: Develop holistic skills for overseeing strategic projects."
+          ]
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "General Manager",
+          "Operations Manager",
+          "Regional Manager",
+          "Corporate Strategy Manager",
+          "Business Development Manager",
+          "Sales Manager",
+          "Project Manager",
+          "Program Manager",
+          "Business Consultant",
+          "Strategic Planner"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Module - Leadership Principles, Strategic Thinking and Management",
+          "Learn from the top industry professionals and expert sessions by XLRI Faculty",
+          "Duration: 11 months | Weekend Online",
+          "Certification from XLEAD & XLRI",
+          "Live Instructor led classes",
+          "Boardroom Simulation & Hackathons",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "1:1 career mentorship sessions",
+          "Campus Immersions: Two Campus Immersions of Two days each"
+        ]
+      }
+    ]
+  },
+  "domain": "module",
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "engaging-simulations"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Marketing Strategy, Customer Value & Digital Growth",
+      "week": "",
+      "id": "marketing-strategy-customer-value-digital-growth",
+      "points": [
+        "Marketing Strategy & Positioning",
+        "Customer Value, Segmentation & Journey Design",
+        "Digital Marketing, Funnels & Metrics",
+        "Omnichannel, CX & Brand Experience"
+      ]
+    },
+    {
+      "title": "Financial Leadership & Decision Making",
+      "week": "",
+      "id": "financial-leadership-decision-making",
+      "points": [
+        "P&L, Balance Sheet & Cash Flow Analysis",
+        "Cost Structures, Breakeven & Profitability Drivers",
+        "Working Capital & Capital Efficiency",
+        "FCF, ROE/ROCE & Enterprise Valuation"
+      ]
+    },
+    {
+      "title": "Operational Excellence & Integrated Supply Chain",
+      "week": "",
+      "id": "operational-excellence-integrated-supply-chain",
+      "points": [
+        "Operations Planning & Process Design",
+        "Quality Management & Productivity Systems",
+        "Supply Chain Strategy & Optimization",
+        "Digital Supply Chains & Tech-Enabled Operations"
+      ]
+    },
+    {
+      "title": "People Strategy & Organizational Culture",
+      "week": "",
+      "id": "people-strategy-organizational-culture",
+      "points": [
+        "High-Performance Culture & Leadership Behaviors",
+        "Enterprise Collaboration & Alignment",
+        "Performance Accountability & Execution Excellence",
+        "Capability Strategy & Long-Term Organizational Strength"
+      ]
+    },
+    {
+      "title": "Risk Leadership & Business Resilience",
+      "week": "",
+      "id": "risk-leadership-business-resilience",
+      "points": [
+        "Enterprise Risk Types (Market, Financial, Tech, Operational)",
+        "Risk Analytics & Mitigation Frameworks",
+        "Business Continuity & Crisis Management",
+        "Risk Governance, Controls & Compliance"
+      ]
+    },
+    {
+      "title": "Business Strategy & Competitive Advantage",
+      "week": "",
+      "id": "business-strategy-competitive-advantage",
+      "points": [
+        "Strategic Thinking & Executive Decision Making",
+        "Strategy Frameworks & Business Positioning",
+        "The Leadership Compass: Self-Awareness, Ownership & Teamwork"
+      ]
+    },
+    {
+      "title": "Strategic Leadership & Executive Influence",
+      "week": "",
+      "id": "strategic-leadership-executive-influence",
+      "points": [
+        "Leadership Presence & Emotional Intelligence",
+        "Influence, Power & Stakeholder Leadership",
+        "High-Impact Executive Communication",
+        "Strategic Agility & Responsive Leadership"
+      ]
+    },
+    {
+      "title": "Corporate Governance & ESG Leadership",
+      "week": "",
+      "id": "corporate-governance-esg-leadership",
+      "points": [
+        "ESG Principles & Ethical Leadership",
+        "Corporate Governance Frameworks & Board Roles",
+        "Transparency, Compliance & Accountability",
+        "Stakeholder Management & Responsible Decision-Making"
+      ]
+    },
+    {
+      "title": "Analytics & Data-Driven Decision-Making",
+      "week": "",
+      "id": "analytics-data-driven-decision-making",
+      "points": [
+        "Business Statistics & Data Interpretation",
+        "Regression Models for Business Insights",
+        "Dashboards, KPIs & Decision Systems",
+        "Insight Storytelling & Evidence-Based Decisions"
+      ]
+    },
+    {
+      "title": "Generative AI & Agentic AI For Leaders",
+      "week": "",
+      "id": "generative-ai-agentic-ai-for-leaders",
+      "points": [
+        "Generative AI Foundations & Applications",
+        "Agentic AI For Leaders",
+        "Designing High Impact GenAI Solutions",
+        "AI Leadership, Governance & Adoption"
+      ]
+    },
+    {
+      "title": "Enterprise Growth Strategy & Value Creation",
+      "week": "",
+      "id": "enterprise-growth-strategy-value-creation",
+      "points": [
+        "Value Chain & Value Drivers",
+        "Breakaway Strategies & Competitive Differentiation"
+      ]
+    },
+    {
+      "title": "Innovation & Design Thinking",
+      "week": "",
+      "id": "innovation-design-thinking",
+      "points": [
+        "Innovation Mindset & Opportunity Sensing",
+        "Innovation Processes for Business & Customer Value",
+        "Design Thinking Frameworks & Problem Discovery"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Faisal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/faizal-v1.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Malvika",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-malvika-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Rahul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/rahul-v1.webp",
+      "position": "Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Vinit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/vinit-thakur-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Sunil",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-sunil-v1.webp",
+      "position": "Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Vaibhav",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/dr-vaibhav-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Raghu",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Xlri-GM-Faculty/raghu-v1.webp",
+      "position": "CA & Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Asma R Shora",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-asma-r-shora.webp",
+      "position": "Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Ankit",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/dr-ankit.webp",
+      "position": "Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Prof. Gourav Vallabh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/prof-gourav-vallabh.webp",
+      "position": "Professor - Finance",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-general-management",
+    "points": [
+      "130+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "20+ Frameworks Covered",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 23851
+      },
+      {
+        "months": 18,
+        "emi": 16478
+      },
+      {
+        "months": 24,
+        "emi": 12764
+      }
+    ],
+    "total": 260000
+  },
+  "faq": {
+    "programId": "executive-program-in-general-management",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in General Management required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why XLRI",
+        "content": [
+          {
+            "title": "How's the General Management program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Progressive Learning Architecture:** XLRI's proprietary Progressive Learning Architecture ensures that irrespective of the background you are from, you will attain mastery in a step-by-step way.",
+              "- **Theory to Industry Learning Framework:** XLRI's Theory to Industry framework ensures that you are learning every General Management concept in context of real-world industry problems.",
+              "- **Accredian Career Center:**  Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/xlri-delhi-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-General-Management.pdf",
+    "source": "XLRI General Management Brochure",
+    "campaign_name": "GM-XLRI-11 Months"
+  }
+}

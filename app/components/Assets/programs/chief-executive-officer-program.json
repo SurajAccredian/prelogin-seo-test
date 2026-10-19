@@ -1,0 +1,443 @@
+{
+  "category": "31",
+  "id": "chief-executive-officer-program",
+  "pid": 120,
+  "vertical": "cxo leadership",
+  "title": " Chief Executive Officer Program (The CEO Program)",
+  "seo_title": "Chief Executive Officer Course | IIM Visakhapatnam",
+  "description": "Embark on an 11-month learning journey in Strategic Leadership, Organizational Excellence, Innovation & AI.",
+  "short_title": "Chief Executive Officer",
+  "contact": "8851827053",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
+  "start_date": "25 Oct 2026",
+  "duration": "11 months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 144
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 13
+    },
+    {
+      "title": "CXO coaching",
+      "text": 2
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "immersion at IIMV",
+      "text": "3-Days"
+    }
+  ],
+  "domain": "pillar",
+  "overview": {
+    "programId": "chief-executive-officer-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Senior Executives (CXO, SVP): Transition into the CEO role with advanced strategies.",
+          "Current CEOs: Refine leadership skills and adapt to evolving landscapes.",
+          "Founders & Entrepreneurs: Scale business vision and strengthen executive skills.",
+          "High-Potential Leaders: Fast-track movement into CEO positions.",
+          "Strategic Advisors & Consultants: Master CEO-level challenges and best practices.",
+          "Industry Experts: Shift from technical mastery to executive leadership."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Financial Officer (CFO)",
+          "Chief Strategy Officer (CSO)",
+          "Chief Marketing Officer (CMO)",
+          "President",
+          "Managing Director",
+          "Board Member",
+          "Senior Executive Consultant",
+          "Entrepreneur/Founder"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 pillars - Strategic Leadership, Organizational Excellence, Innovation & AI",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 11 Months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance By Accredian",
+          "3 Transformative Simulations",
+          "Campus Immersions: One Campus Immersion of 3 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "alumni-status",
+    "exclusive-merchandise"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Intro to the Modern CEO",
+      "id": "1",
+      "points": [
+        "The CEO as Strategist, Operator & Change Leader",
+        "Influence in the Boardroom & Beyond",
+        "Navigating Disruption, Risk & Global Complexity",
+        "Building a Lasting Enterprise Legacy"
+      ]
+    },
+    {
+      "title": "Strategic Thinking & Planning",
+      "id": "2",
+      "points": [
+        "Competitive Advantage & Industry Analysis",
+        "Scenario Planning & Risk Management",
+        "Strategic Goal Setting & Performance Management",
+        "Strategic Execution & Resource Allocation",
+        "Strategy Simulation"
+      ]
+    },
+    {
+      "title": "Influencing Stakeholders & Building Trust",
+      "id": "3",
+      "points": [
+        "Executive Communication & Storytelling",
+        "Building Trust & Reputation Management",
+        "Negotiation & Dealmaking for CEOs",
+        "Crisis Leadership & Reputation Protection"
+      ]
+    },
+    {
+      "title": "Boardroom Leadership & Corporate Governance",
+      "id": "4",
+      "points": [
+        "Board–CEO Dynamics & Strategic Alignment",
+        "Governance for Performance & Risk Oversight",
+        "Board Composition, Committees & Effectiveness",
+        "Influencing Board Decisions & Securing Alignment",
+        "Boardroom Simulation"
+      ]
+    },
+    {
+      "title": "Financial Leadership for CEOs",
+      "id": "5",
+      "points": [
+        "Financial Statement Interpretation for Strategic Decisions",
+        "Capital Budgeting & Investment Planning",
+        "Optimizing Cash Flow & Capital Structure",
+        "Evaluating and Executing M&A Opportunities"
+      ]
+    },
+    {
+      "title": "People Leadership for CEOs",
+      "id": "6",
+      "points": [
+        "Designing High‑Performance Organizational Structures",
+        "Aligning People Strategy with Business Goals",
+        "Corporate Culture Development & Management",
+        "Executive Talent Acquisition & Development Strategies"
+      ]
+    },
+    {
+      "title": "Operational Excellence & Leadership",
+      "id": "7",
+      "points": [
+        "Lean Six Sigma & Process Optimization Techniques",
+        "Data-Driven Decision Making for Operations",
+        "Supply Chain Management & Optimization",
+        "Building a Culture of Continuous Improvement"
+      ]
+    },
+    {
+      "title": "Risk Management & Mitigation Strategies",
+      "id": "8",
+      "points": [
+        "Enterprise Risk Management Frameworks",
+        "Regulatory & Compliance Oversight",
+        "Business Continuity & Crisis Preparedness",
+        "Cybersecurity as a CEO Priority"
+      ]
+    },
+    {
+      "title": "Data & Analytics Leadership",
+      "id": "9",
+      "points": [
+        "Data-Driven Decision Making Under Uncertainty",
+        "Descriptive Analytics",
+        "Diagnostic Analytics",
+        "Predictive Analytics"
+      ]
+    },
+    {
+      "title": "Revenue Growth Strategies",
+      "id": "10",
+      "points": [
+        "Market Opportunity Analysis & Expansion Strategy",
+        "Monetization Strategies & Pricing for Profitability",
+        "Deciding Distribution Channel",
+        "Promotion Strategy",
+        "Measuring Customer Response",
+        "Growth Response"
+      ]
+    },
+    {
+      "title": "New Product Development & Innovation",
+      "id": "11",
+      "points": [
+        "Innovation Strategy & Product Vision",
+        "From Concept to Prototype: Product Development Lifecycle",
+        "Product Design",
+        "Scaling & Sustaining Product Success"
+      ]
+    },
+    {
+      "title": "AI & Generative AI for CEOs",
+      "id": "12",
+      "points": [
+        "AI Vision, Strategy & Enterprise Integration",
+        "High‑Value AI & Generative AI Use Cases",
+        "Building an AI‑Ready Organization & Workforce",
+        "Measuring AI Impact & ROI"
+      ]
+    },
+    {
+      "title": "Digital Transformation Strategy",
+      "id": "13",
+      "points": [
+        "Digital Business Models & Value Creation",
+        "Digital Transformation Strategy & Roadmapping",
+        "KPIs, Governance & ROI in Transformation",
+        "Leading Culture, People & Change in Digital Era"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will create a strategic transformation plan for a simulated enterprise, integrating insights from the program’s four pillars: Strategic Leadership, Leading Organizations & Functions, Growth, Innovation & Product Leadership, and AI & Digital Leadership. The project will culminate in a board‑level presentation, defending decisions under real‑world market, operational, and stakeholder pressures."
+      ]
+    },
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your CEO program with an exclusive CXO coaching. Delivered by seasoned coaches, this specialized coaching offers invaluable insights into senior management, equipping aspiring leaders with strategic acumen. Prepare for executive roles with firsthand knowledge and guidance from top-tier executives."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Happy Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Joysula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Pooja Kumari",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/pooja-kumari-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Rishi Raj",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rishi-raj.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Chandreie Mukherjee",
+      "image": "  https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/dr-chandreie-mukherjee.svg",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Aalok Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/alok-kr-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "chief-executive-officer-program",
+    "points": [
+      "144+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 28419
+      },
+      {
+        "months": 18,
+        "emi": 19704
+      },
+      {
+        "months": 24,
+        "emi": 15311
+      }
+    ],
+    "total": 349000
+  },
+  "faq": {
+    "programId": "chief-executive-officer-program",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Executive Leadership required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's CEO program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Executive Leadership concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Executive-Officer-Programme.pdf",
+    "source": "IIMV Chief Executive Officer Program Brochure",
+    "campaign_name": "IIMV-CEO-11 Months"
+  }
+}

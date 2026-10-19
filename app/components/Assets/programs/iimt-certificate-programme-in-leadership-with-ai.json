@@ -1,0 +1,294 @@
+{
+  "id": "iimt-certificate-programme-in-leadership-with-ai",
+  "pid": 164,
+  "category": 64,
+  "vertical": "artificial intelligence",
+  "title": "Certificate Programme in Leadership with AI",
+  "seo_title": "Certificate Programme in Leadership with AI",
+  "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
+  "short_title": "Artificial Intelligence",
+  "contact": "",
+  "university_name": "IIM Tiruchirappalli",
+  "short_university_name": "iim-trichy",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-V-v2.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/iimt_certificate_v2.jpg",
+  "start_date": "30 Aug 2026",
+  "duration": "8 Months",
+  "required_years_experience": 3,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "key_features": [
+    {
+      "text": "90",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions by Accredian"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "10",
+      "title": "modules"
+    },
+    {
+      "text": "1",
+      "title": "simulations"
+    }
+  ],
+  "domain": "artificial intelligence",
+  "overview": {
+    "programId": "iimt-certificate-programme-in-leadership-with-ai",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives: Refine leadership and drive organizational change.",
+          "C-Suite Leaders: Stay abreast of industry trends and foster innovation.",
+          "Directors: Deepen strategic decision-making skills.",
+          "Entrepreneurs: Scale operations and explore new markets.",
+          "Project Managers: Lead large-scale projects with strategic impact.",
+          "Sector Leaders: Apply advanced business principles for effectiveness."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Executives",
+          "C-Suite Leaders",
+          "Directors",
+          "Entrepreneurs",
+          "Project Managers",
+          "Sector Leaders"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Modules - Machine Learning, AI Strategy, and GenAI.",
+          "Learn from top IIM Tiruchirappalli faculty",
+          "Duration: 8 Months | Weekend Online",
+          "Certification from IIM Tiruchirappalli",
+          "Live Instructor-Led Classes",
+          "EMI up to 24 months",
+          "Placement Support & Assistance by Accredian",
+          "1:1 Career Mentorship Sessions by Accredian"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "capstone-project",
+    "iimt-mentoring-session",
+    "leadership-driven-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "AI Foundations for Leaders",
+      "points": [
+        "AI Trends, Industry Disruptions",
+        "Key AI Concepts for Leaders",
+        "Machine Learning Overview for Leaders",
+        "Transforming Business with AI"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Generative AI for Business Leaders",
+      "points": [
+        "Generative AI Fundamentals & Emerging Landscape",
+        "GenAI Tools, Platforms - Hands-on Exploration",
+        "Business Applications & Value Creation with GenAI",
+        "Scaling GenAI: Strategy, Governance & Responsible Use"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategy in the AI Era",
+      "points": [
+        "Aligning AI Vision with Corporate Strategy",
+        "Competitive Advantage through AI",
+        "Leading AI Governance & Execution",
+        "AI Strategy Simulation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Designing AI-Driven Business Models",
+      "points": [
+        "AI-Enabled Business Model Innovation",
+        "AI Revenue Models & Platform Strategies",
+        "Ecosystem Partnerships & AI Value Networks",
+        "Scaling & Sustaining AI-Driven Value"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI Product Management",
+      "points": [
+        "Transforming Business Ideas into AI Solutions",
+        "Designing User-Centric AI Experiences",
+        "Prototyping, Testing, and Iterating AI Products",
+        "Scaling & Managing AI Services"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Agentic AI for Workflow Automation",
+      "points": [
+        "Foundations of Agentic AI & Autonomous Systems",
+        "Designing AI Agents for Workflow Automation",
+        "Hands-On Exploration of No-Code/Low-Code Automation Tools",
+        "Strategic, Ethical, and Scaling Considerations for Agentic AI"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI-Driven Change Leadership",
+      "points": [
+        "Shaping the AI Transformation Agenda",
+        "Building AI-Ready Organizational Culture",
+        "Change Management Strategies",
+        "Measuring, Sustaining & Scaling Change"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Talent Transformation for an AI Future",
+      "points": [
+        "AI in HR & Talent Management",
+        "Building & Leading High-Performing AI Teams",
+        "Reskilling & Upskilling for the AI Era",
+        "AI and the Future of Organizational Learning"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Leadership for AI Leaders",
+      "points": [
+        "Strategic Communication for AI Initiatives",
+        "Negotiation Skills for AI Investment and Partnership",
+        "Influencing Stakeholders and Overcoming Resistance",
+        "Storytelling and Framing AI Value Propositions"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Responsible AI: Designing and Deploying Trustworthy AI",
+      "points": [
+        "Fundamentals of Responsible AI & AI Risk Management",
+        "Ensuring Fairness and Bias Mitigation",
+        "Transparency and Explainability in AI",
+        "Ensuring Accountability and Governance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": 1,
+      "points": [
+        "Design a strategic blueprint for introducing Generative AI into an existing or new product/service. This high-impact plan will cover technology assessment, priority use cases, scalable deployment models, governance, talent strategy, change management, and business impact measurement. The focus is on enabling responsible, future-ready AI adoption that transforms the business and delivers sustainable competitive edge."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 209000,
+    "points": [
+      "90 Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 18322,
+        "months": 12
+      },
+      {
+        "emi": 12658,
+        "months": 18
+      },
+      {
+        "emi": 9805,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMTRICHY-Certificate-Programme-In-Leadership-With-AI.pdf",
+    "source": "IIM-TRICHY Executive Certificate Programme in Leadership with AI Brochure",
+    "campaign_name": "IIM-TRICHY-Artificial Intelligence"
+  },
+  "faculty": [],
+  "tools": [
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "Claude AI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    },
+    {
+      "title": "NotbookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notbooklm.webp"
+    },
+    {
+      "title": "Gemini",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Gemini.svg"
+    },
+    {
+      "title": "Perplexity",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/perplexity.svg"
+    },
+    {
+      "title": "Gamma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
+    },
+    {
+      "title": "Lovable",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/lovable.svg"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "category": "34",
+  "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+  "pid": 150,
+  "vertical": "cxo",
+  "title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+  "seo_title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+  "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
+  "short_title": "CXO",
+  "contact": "9289224842",
+  "university_name": "XLRI",
+  "short_university_name": "xlri",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
+  "accredited_by": [
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-XLEAD.webp"
+  ],
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "start_date": "26 Jul 2026",
+  "duration": "11 months",
+  "required_years_experience": 8,
+  "type": "online",
+  "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/cto.html",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/xlri-certificate/XLRI-CMO-11-Months-v1.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 132
+    },
+    {
+      "title": "case studies",
+      "text": 6
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 10
+    },
+    {
+      "title": "campus immersion",
+      "text": "4-Days (2+2)"
+    }
+  ],
+  "overview": {
+    "programId": "xecutive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current CTOs aiming to sharpen strategic, financial, and innovation capabilities.",
+          "Senior Tech Leaders (VPs, Heads of Tech) preparing for C-suite responsibilities.",
+          "Product & Tech Leaders aligning technology strategies with business outcomes.",
+          "IT Directors & Managers transitioning from execution to strategic leadership.",
+          "Tech Founders scaling tech-led businesses effectively.",
+          "Consultants deepening enterprise technology expertise.",
+          "Aspiring CTOs stepping into senior technology leadership roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Technology Officer (CTO)",
+          "Chief Information Officer (CIO)",
+          "Chief Digital Officer (CDO)",
+          "Vice President of Engineering",
+          "Head of Technology",
+          "Director of Technology",
+          "Product & Technology Leader",
+          "Enterprise Architect",
+          "Technology Strategy Consultant",
+          "Digital Transformation Leader"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules- Technology Strategy, Innovation, Leadership, and Business Alignment",
+          "Learn from top XLRI faculty and industry pioneers at leading companies",
+          "Duration: 11 Months | Weekend Online",
+          "Certification From XLRI XLEAD",
+          "Live Instructor Led Classes",
+          "2 Campus Immersions of 2 days each",
+          "1 Capstone Project",
+          "EMI upto 24 months",
+          "Placement Support & Assistance",
+          "1:1 Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "domain": "module",
+  "attendancePercent": 70,
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "engaging-simulations"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "The Role of the Modern CTO",
+      "id": "role-of-modern-cto",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
+      "points": [
+        "Evolution of the CTO Role",
+        "Board & CXO Stakeholder Management",
+        "CTO Accountability & Value Creation"
+      ]
+    },
+    {
+      "title": "Technology Strategy & Business Alignment",
+      "id": "technology-strategy-business-alignment",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
+      "points": [
+        "Technology Strategy Formulation",
+        "Business–Technology Alignment",
+        "Enterprise Architecture",
+        "Strategic Foresight & Scenario Planning"
+      ]
+    },
+    {
+      "title": "Technology Investment, Budgeting & ROI",
+      "id": "technology-investment-budgeting-roi",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
+      "points": [
+        "CapEx vs OpEx Decisions for Technology",
+        "Modeling ROI for Technology Programs",
+        "Architecture-Aware Budgeting"
+      ]
+    },
+    {
+      "title": "Digital & Technology Architecture",
+      "id": "digital-technology-architecture",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
+      "points": [
+        "Modern Data Architecture for Scalability & Risk Reduction",
+        "Analytics, Integrations & Modular Design",
+        "Managing Technical Debt",
+        "Aligning Architecture Choices with Customer & Business Goals",
+        "Cloud & Service Oriented Architecture",
+        "Data Warehouse and Lakehouse Architecture",
+        "IT Service Management"
+      ]
+    },
+    {
+      "title": "Technology-Driven Product Leadership",
+      "id": "technology-driven-product-leadership",
+      "pillar": "Pillar 1: Strategic Leadership for CTOs",
+      "points": [
+        "CTO's Role in Product Strategy",
+        "Platform Thinking & Digital Ecosystems",
+        "Tech-Enabled Business Model Innovation",
+        "Tech-Driven Value Creation (Blockchain, AR/VR etc.)"
+      ]
+    },
+    {
+      "title": "Leading Digital Transformation at Scale",
+      "id": "leading-digital-transformation-scale",
+      "pillar": "Pillar 2: Digital, Technology & AI Leadership",
+      "points": [
+        "Driving Enterprise-Wide Digital Strategy & Priorities",
+        "Redesigning Processes, Customer Journeys & Workflows",
+        "Orchestrating Cross-Functional Change & Alignment",
+        "Capability Building & Value Realization",
+        "Agile & DevOps Frameworks"
+      ]
+    },
+    {
+      "title": "AI & GenAI Strategy for CTOs",
+      "id": "ai-genai-strategy-ctos",
+      "pillar": "Pillar 2: Digital, Technology & AI Leadership",
+      "points": [
+        "Identifying High-Value AI & GenAI Use Cases",
+        "Building an Enterprise AI Adoption Roadmap",
+        "Ensuring Responsible, Risk-Aware AI Deployment",
+        "Capability Building for AI-Ready Organizations",
+        "Introduction to Agentic AI"
+      ]
+    },
+    {
+      "title": "Cybersecurity, Privacy & Digital Resilience",
+      "id": "cybersecurity-privacy-digital-resilience",
+      "pillar": "Pillar 2: Digital, Technology & AI Leadership",
+      "points": [
+        "Enterprise Cybersecurity Leadership",
+        "Threat Detection & Incident Response",
+        "Data Privacy & Regulatory Compliance",
+        "Secure-by-Design Engineering"
+      ]
+    },
+    {
+      "title": "Technology Governance, Risk & Compliance",
+      "id": "technology-governance-risk-compliance",
+      "pillar": "Pillar 3: Tech Governance & Cybersecurity for CTOs",
+      "points": [
+        "IT Governance Frameworks",
+        "Technology Risk Management",
+        "Resilience & Regulatory Governance",
+        "Board-Level Reporting & Audit Readiness"
+      ]
+    },
+    {
+      "title": "Innovation, R&D & Technology Foresight",
+      "id": "innovation-rd-technology-foresight",
+      "pillar": "Pillar 4: Innovation & Influence Leadership for CTOs",
+      "points": [
+        "CTO-Led Innovation & New Product Development",
+        "Design Thinking",
+        "Pilot → Prototype → Scale Innovation Models",
+        "Gamification",
+        "Governance for Innovation & Knowledge Management"
+      ]
+    },
+    {
+      "title": "Building & Scaling High-Performance Tech Teams",
+      "id": "building-scaling-high-performance-tech-teams",
+      "pillar": "Pillar 4: Innovation & Influence Leadership for CTOs",
+      "points": [
+        "Modern Engineering Org Design (Platform Teams, Pods)",
+        "Talent Strategy: Hiring, Upskilling & Retention",
+        "Culture of Ownership, Innovation & Excellence",
+        "Performance Management"
+      ]
+    },
+    {
+      "title": "Strategic Communication & Boardroom Influence",
+      "id": "strategic-communication-boardroom-influence",
+      "pillar": "Pillar 4: Innovation & Influence Leadership for CTOs",
+      "points": [
+        "Executive Presence for Technology Leaders",
+        "Storytelling with Data (Non-Technical Narratives)",
+        "Boardroom Communication for Tech Strategy"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "id": "capstone-project",
+      "special": "1",
+      "points": [
+        "CTO participants craft a business-aligned technology strategy that accelerates growth and operational excellence. They define priorities across modernization, platforms, data, and AI, map capability gaps, and design an execution roadmap with clear KPIs and ROI. The blueprint is presented to a mock board for alignment, challenge, and strategic endorsement."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Saurav Snehvrat",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Saurav-Snehvrat.webp",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Harshit Kumar Singh",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Harshit-Kumar-Singh.png",
+      "position": "Program Director",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Arindam Mondal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Arindam-Mondal.png",
+      "position": "Strategic Management",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Kushal Saha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Kushal-Saha.png",
+      "position": "Information Systems",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Rajeev Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Rajeev-Sharma.png",
+      "position": "Information Systems",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Supriya Kumar De",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Supriya-Kumar-De.png",
+      "position": "Information Systems",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    },
+    {
+      "name": "Dr. Shanthan K",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/XLRI/Dr-Shanthan-K.png",
+      "position": "Visiting Faculty",
+      "organization": "XLRI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/xlri-comp-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "xecutive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "points": [
+      "132+ Hours of Live Classes",
+      "Learn from XLRI faculty and industry pioneers",
+      "Interactive Doubt-Clearing Sessions",
+      "6 Career Sessions by Accredian",
+      "1 Capstone Project",
+      "2 Campus Immersions of 2 days each",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 21683
+      },
+      {
+        "months": 18,
+        "emi": 14980
+      },
+      {
+        "months": 24,
+        "emi": 11604
+      }
+    ],
+    "total": 330000
+  },
+  "faq": {
+    "programId": "xecutive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in HR required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "## Minimum System Requirements for the Program:",
+              "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
+              "- **RAM:** 4GB (8GB recommended for better performance)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "In the Strategic HR Leadership Program, you will work on real-world case studies and Capstone Projects to gain a better understanding of the practical applications of strategic HR and leadership concepts."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 10 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why XLRI",
+        "content": [
+          {
+            "title": "How's the Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) program different?",
+            "content": [
+              "### Three things that make this program world class",
+              "- **Progressive Learning Architecture:** XLRI's proprietary Progressive Learning Architecture ensures that irrespective of the background you are from, you will attain mastery in a step-by-step way.",
+              "- **Theory to Industry Learning Framework:** XLRI's Theory to Industry framework ensures that you are learning every HR Leadership concept in context of real-world industry problems.",
+              "- **Accredian Career Center:**  Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/xlri-delhi-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "R",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/R-language-v1.webp"
+    },
+    {
+      "title": "Google AI Studio",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-ai-studio.webp"
+    },
+    {
+      "title": "Bizagi",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Bizagi.jpg"
+    },
+    {
+      "title": "Tableau",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tableau.png"
+    },
+    {
+      "title": "Claude",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    }
+  ],
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "tools",
+    "certificate",
+    "faculty",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRIJ-Executive-Development-Programme-or-Emerging-Chief-Technology-Officers.pdf",
+    "source": "XLRI Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) Brochure",
+    "campaign_name": "EDPSHR-XLRI-10 Months"
+  }
+}

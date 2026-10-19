@@ -1,0 +1,401 @@
+{
+  "category": "45",
+  "id": "pg-certificate-in-strategic-project-management-and-leadership",
+  "pid": 129,
+  "vertical": "project management",
+  "title": "Post Graduate Certificate in Strategic Project Management & Leadership",
+  "seo_title": "Strategic Project Management Course | IIM Visakhapatnam",
+  "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
+  "short_title": "Project Management",
+  "contact": "8851827093",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "7 Mar 2027",
+  "required_years_experience": 5,
+  "duration": "10 months",
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 120
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "capstone project",
+      "text": 2
+    },
+    {
+      "title": "campus immersion (opt.)",
+      "text": "2 Day"
+    }
+  ],
+  "overview": {
+    "programId": "pg-certificate-in-strategic-project-management-and-leadership",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          [
+            "Aspiring & Current Project Managers: Gain skills to lead projects effectively.",
+            "Team Leaders: Improve planning and execution capabilities.",
+            "Functional Managers (Ops, IT, Marketing): Streamline project workflows and align with business goals.",
+            "Entrepreneurs: Oversee initiatives and startups efficiently.",
+            "Consultants: Adopt structured methodologies for client projects.",
+            "Business Analysts: Transition into project management roles."
+          ]
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Program Manager",
+          "Project Consultant",
+          "Operations Manager",
+          "Risk Manager",
+          "Change Management Specialist",
+          "IT Project Manager",
+          "Construction Project Manager",
+          "Marketing Project Manager",
+          "Product Manager",
+          "Strategic Project Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules - Project Planning, Risk Management, and Project Procurement",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 10 Months | Weekend Online",
+          "Certification From IIM Visakhapatnam",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "1:1 Career Mentorship Sessions by Accredian",
+          "Campus Immersions: One Campus Immersion of 2 days (Opt.)"
+        ]
+      }
+    ]
+  },
+  "domain": "module",
+  "optionalCampusImmersionCost": 10000,
+  "isAlumniStatus": "yes",
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion-opt",
+    "exclusive-merchandise",
+    "alumni-status"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundations of Strategic Project Management",
+      "id": "foundations-of-strategic-project-management",
+      "points": [
+        "Intro to Strategic Project Management",
+        "Linking Projects to Organizational Strategy",
+        "Program vs. portfolio vs. project management",
+        "Role of Project Leader in Value Creation"
+      ]
+    },
+    {
+      "title": "Project Scope, Scheduling & Cost Management",
+      "id": "project-scope-scheduling-cost-management",
+      "points": [
+        "Defining Scope & Creating WBS",
+        "Advanced Scheduling Techniques (CPM, PERT, Agile Sprints)",
+        "Budgeting, cost estimation techniques & Earned Value Management (EVM)",
+        "Financial Metrics for Projects: ROI, NPV, Cost-Benefit Analysis"
+      ]
+    },
+    {
+      "title": "Risk, Quality & Resource Management",
+      "id": "risk-quality-resource-management",
+      "points": [
+        "Risk Identification, Assessment & Prioritization",
+        "Risk Response Strategies & Monitoring",
+        "Quality Management Frameworks (Lean, Six Sigma)",
+        "Resource Allocation, Optimization & Team Capacity Planning"
+      ]
+    },
+    {
+      "title": "Communication, Influence & Stakeholder Leadership",
+      "id": "communication-stakeholder-engagement",
+      "points": [
+        "Stakeholder mapping and engagement strategies",
+        "Influencing without authority in complex organizations",
+        "Executive communication frameworks & board-level reporting",
+        "Negotiation & conflict resolution for project leaders"
+      ]
+    },
+    {
+      "title": "Governance, Procurement & Compliance",
+      "id": "governance-procurement-compliance",
+      "points": [
+        "Governance Models for Large-Scale Projects",
+        "Procurement & vendor management best practices",
+        "Contracting strategies (fixed, agile, hybrid)",
+        "Ethics, Compliance & Sustainability in Project Leadership"
+      ]
+    },
+    {
+      "title": "Project Execution, Monitoring & Closure",
+      "id": "project-execution-monitoring-closure",
+      "points": [
+        "Integrated Project Execution Practices",
+        "Monitoring, KPIs & Dashboards for Performance",
+        "Capturing Lessons Learned & Best Practices",
+        "Project Closure, Audits & Knowledge Transfer"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project-1",
+      "points": [
+        "Participants Will Design & Execute a Comprehensive Project Plan Aligned with Organizational Strategy, Integrating Scope Definition, Scheduling, Budgeting & Risk Management. They Will Apply Stakeholder Engagement, Executive Reporting & Implement Governance & Procurement Strategies. The Project Will Include Stakeholder Engagement, Executive Reporting, Performance Monitoring & a Final Closure Report Capturing Lessons Learned & Measurable Value Delivered."
+      ]
+    },
+    {
+      "title": "Strategic Program & Portfolio Management",
+      "id": "strategic-program-portfolio-management",
+      "points": [
+        "Portfolio Prioritization & Strategic Alignment",
+        "Program Management Frameworks & Best Practices",
+        "Balancing Resources Across Portfolios & Programs",
+        "Value Delivery & Benefits Realization"
+      ]
+    },
+    {
+      "title": "Leading Complex & Large-Scale Projects",
+      "id": "leading-complex-large-scale-projects",
+      "points": [
+        "Complexity & Scale in Mega-Projects",
+        "Leadership & Decision-Making Under Uncertainty",
+        "Cross-Functional & Multi-Vendor Collaboration",
+        "Risk, Resilience & Strategic Impact"
+      ]
+    },
+    {
+      "title": "Leadership & Stakeholder Management",
+      "id": "leadership-stakeholder-management",
+      "points": [
+        "Stakeholder Mapping & Influence Strategies",
+        "Leadership Approaches in Complex Projects",
+        "Communication, Negotiation & Conflict Management",
+        "Sustaining Engagement & Building Trust"
+      ]
+    },
+    {
+      "title": "ESG Leadership in Project Management",
+      "id": "esg-leadership-project-management",
+      "points": [
+        "ESG Strategy & Global Standards",
+        "Integrating ESG into Project Strategy",
+        "Stakeholder Engagement for ESG Success",
+        "Measuring ESG Impact & Value Creation"
+      ]
+    },
+    {
+      "title": "Project Analytics & Data-Driven Project Management",
+      "id": "project-analytics-data-driven-management",
+      "points": [
+        "Introduction to Descriptive, Predictive & Prescriptive Analytics",
+        "Using Analytics for Forecasting Risks, Costs & Schedules",
+        "Dashboards & Visualization Tools for Decision-Making",
+        "Case Studies: Analytics-Driven Project Successes & Failures"
+      ]
+    },
+    {
+      "title": "AI & GenAI for Project Leaders",
+      "id": "ai-genai-project-leaders",
+      "points": [
+        "AI & GenAI Fundamentals for Non-Technical Leaders",
+        "AI Applications in Project Planning & Execution",
+        "Generative AI for Reporting, Documentation & Communication",
+        "Future of Project Leadership with AI"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "2",
+      "id": "capstone-project-2",
+      "points": [
+        "Participants Will Design & Execute a Comprehensive, Enterprise-Aligned Project Integrating Scope, Schedule, Cost, Risk & Quality Frameworks. They Will Apply Governance, Procurement & ESG Strategies, Optimize Resources, Leverage Analytics & AI Tools & Engage Stakeholders Effectively. Deliverables Include a Detailed Project Plan, GenAI-Powered Insights, a Board-Ready Presentation with Performance Monitoring, Lessons Learned & Measurable Organizational Value Delivered."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. Aalok Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/alok-kr-v1.webp",
+      "position": "Program Director",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Rohit Titiyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rohit-titiyal.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "pg-certificate-in-strategic-project-management-and-leadership",
+    "points": [
+      "120+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 18322
+      },
+      {
+        "months": 18,
+        "emi": 12658
+      },
+      {
+        "months": 24,
+        "emi": 9805
+      }
+    ],
+    "total": 209000
+  },
+  "faq": {
+    "programId": "pg-certificate-in-strategic-project-management-and-leadership",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in HR required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for mid-level professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with foundational industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 10 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Post Graduate Certificate in Strategic Project Management & Leadership different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Artificial intelligence  concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-pg-certificate-in-strategic-project-management-and-leadership.pdf",
+    "source": "IIMV Post Graduate Certificate in Strategic Project Management & Leadership Brochure",
+    "campaign_name": "PGCSPML-IIMV-10 Months"
+  }
+}

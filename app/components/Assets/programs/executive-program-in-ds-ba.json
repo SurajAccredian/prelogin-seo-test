@@ -1,0 +1,482 @@
+{
+  "category": "2",
+  "id": "executive-program-in-ds-ba",
+  "vertical": "data science",
+  "title": "Executive Program in Data Science and Business Analytics",
+  "seo_title": "Executive Program in Data Science and Business Analytics",
+  "description": "Embark on an 11-term learning journey in Data Analytics, ML & Business Analytics.",
+  "short_title": "Data Science",
+  "contact": "9079653292",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "start_date": "August 2024",
+  "duration": "11 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/dsba.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 170
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "count": 40
+    },
+    {
+      "title": "Projects",
+      "count": 30
+    },
+    {
+      "title": "tools",
+      "count": 10
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-ds-ba",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring data scientists eager to learn analytics and techniques.",
+          "Business analysts seeking insights through data science and analytics.",
+          "IT professionals interested in data analysis and business intelligence.",
+          "Marketing analysts exploring data-driven strategies for marketing optimization.",
+          "Financial analysts utilizing data science for financial decision-making processes.",
+          "Operations analysts improving processes through data-driven insights and analytics.",
+          "Management consultants leveraging analytics for strategic decision-making and consulting.",
+          "Sales analysts utilizing data insights for sales optimization and forecasting.",
+          "Supply chain analysts optimizing supply chain operations through analytics.",
+          "Market researchers employing data science for market analysis and insights.",
+          "Entrepreneurs utilizing data analytics for business intelligence and decision-making.",
+          "Project managers integrating data analytics into project management for efficiency."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Business Analyst",
+          "Product Manager",
+          "Data Analyst",
+          "Product Analyst",
+          "Business Intelligence Manager",
+          "Marketing Analyst",
+          "Project Manager",
+          "Operations Analyst",
+          "Customer Success Manager",
+          "Strategy Analyst",
+          "UX/UI Analyst",
+          "Product Marketing Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "11 Terms - Data Analytics, ML & Business Analytics",
+          "Learn from the top industry professionals",
+          "Duration: 11 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Capstone projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "2-day campus immersion at IIT Guwahati",
+          "1:1 career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "mentoring-session"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Data Analysis with Python",
+      "week": "4 weeks",
+      "id": "data-analysis-with-python",
+      "points": [
+        "Data Science Fundamentals",
+        "Data Operation with Numpy",
+        "Data Manipulation with Pandas"
+      ]
+    },
+    {
+      "title": "Data Visualization Techniques",
+      "week": "4 weeks",
+      "id": "data-visualization-techniques",
+      "points": [
+        "Introduction to Data Visualization",
+        "Data Visualization using Matplotlib",
+        "Hands-on Pandas for Rapid Visualization",
+        "Seaborn for Data Visualization"
+      ]
+    },
+    {
+      "title": "EDA & Data Storytelling",
+      "week": "4 weeks",
+      "id": "eda---data-storytelling",
+      "points": [
+        "Introduction to Exploratory Data Analysis",
+        "EDA Framework Deep Dive",
+        "Scientific Exploration of Industry Data (Case Study)",
+        "Student Presentations & Insight Delivery"
+      ]
+    },
+    {
+      "title": "Minor Capstone Project",
+      "special": "1",
+      "id": "minor-capstone-project",
+      "points": [
+        "In a simulated environment get to work with a major Telecom company that seeks help from your team of Data Scientists to resolve a major marketing hurdle in front of them. Get a near real world exposure of working on industry problems within data science teams to reach a common end goal of helping customers win"
+      ]
+    },
+    {
+      "title": "Machine Learning Foundation",
+      "week": "4 weeks",
+      "id": "machine-learning-foundation",
+      "points": [
+        "Introduction to Machine Learning",
+        "Linear Regression",
+        "Logistic Regression",
+        "Model Evaluation Techniques"
+      ]
+    },
+    {
+      "title": "Machine Learning Intermediate",
+      "week": "4 weeks",
+      "id": "machine-learning-intermediate",
+      "points": [
+        "Decision Trees",
+        "Random Forests",
+        "Dimensionality Reduction using Principal Component Analysis (PCA)",
+        "Naive Bayes Classifier"
+      ]
+    },
+    {
+      "title": " Machine Learning Advanced",
+      "week": "4 weeks",
+      "id": "term-6--machine-learning-advanced",
+      "points": [
+        "KNN (K- Nearest neighbors)",
+        "K-means Clustering",
+        "Ensemble Learning",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Major Capstone Project",
+      "special": "1",
+      "id": "major-capstone-project",
+      "points": [
+        "Experience a real world simulation of a company Employee Retention Program that needs to be solved using Data Science and Machine Learning.Work with a team of Data Scientists and experience real-world problem solving through Data Science"
+      ]
+    },
+    {
+      "title": " Foundation of Business Analytics",
+      "week": "4 weeks",
+      "id": "term-7--foundation-of-business-analytics",
+      "points": [
+        "Introduction to Business Analytics",
+        "Data Analytics Fundamentals for Business Analysts",
+        "Statistics Basics for Business",
+        "Advanced Business Statistics"
+      ]
+    },
+    {
+      "title": " Excel Mastery for Business Insights",
+      "week": "4 weeks",
+      "id": "term-8--excel-mastery-for-business-insights",
+      "points": [
+        "Excel fundamentals for Business Analysis",
+        "Excel Functions & Conditions",
+        "Excel Pivot Tables & Reporting",
+        "Excel Modelling"
+      ]
+    },
+    {
+      "title": " SQL Essentials for Business Intelligence",
+      "week": "4 weeks",
+      "id": "term-9--sql-essentials-for-business-intelligence",
+      "points": [
+        "Database Basics for Analysts",
+        "SQL Fundamentals for Business Analysis",
+        "SQL Operations",
+        "Advanced SQL"
+      ]
+    },
+    {
+      "title": " Business Analytics with Power BI",
+      "week": "4 weeks",
+      "id": "term-10--business-analytics-with-power-bi",
+      "points": [
+        "Power BI for Business reporting",
+        "Connecting Data Sources",
+        "Data Modelling in Power BI",
+        "Functions in Power BI"
+      ]
+    },
+    {
+      "title": " Applied Industry Analytics: Case Studies",
+      "week": "4 weeks",
+      "id": "term-11--applied-industry-analytics--case-studies",
+      "points": [
+        "Domain Expertise as a Business Analytics Expert",
+        "Marketing and Retail Analytics",
+        "Web and Social Media Analytics",
+        "Supply Chain and Logistics Analysis"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Subhodeep Dey",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
+      "position": "Lead Data Scientist",
+      "organization": "Jio",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "analytics",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-analytics.svg"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "matplotlib",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Matplotlib.svg"
+    },
+    {
+      "title": "seaborn",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/seaborn.webp"
+    },
+    {
+      "title": "pandas",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Pandas.svg"
+    },
+    {
+      "title": "jupyter",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jupyter.svg"
+    },
+    {
+      "title": "python",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
+    },
+    {
+      "title": "numpy",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/numpy.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "colab",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-ds-ba",
+    "points": [
+      "160+ Hours of Live Classes",
+      "30+ Tools Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 11800
+      },
+      {
+        "months": 18,
+        "emi": 8181
+      },
+      {
+        "months": 24,
+        "emi": 6357
+      }
+    ],
+    "total": 200000
+  },
+  "faq": {
+    "programId": "executive-program-in-ds-ba",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Data Science and Business Analytics experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Data Science and Business Analytics you will have access to more than 35 case studies, Capstone Projects to provide a better understanding of the real-world applications of data science and Analytics."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Data Science and Business Analytics ",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "Every term is for 4-5 weeks approximately. And the overall Executive Program in Data Science and Business Analytics duration is 11 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Data Science and Business Analytics program different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Data Science and Business Analytics concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-in-DS-BA-11-months.pdf",
+    "source": "data science and business analytics brochure",
+    "campaign_name": "DSBA-IIT 11 Months"
+  }
+}

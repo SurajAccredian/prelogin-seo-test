@@ -1,0 +1,261 @@
+{
+  "id": "iiml-executive-program-in-strategic-project-management-leadership",
+  "pid": 137,
+  "tags": [
+    {
+      "type": "main",
+      "title": "best selling"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
+  ],
+  "type": "online",
+  "title": "Executive Program in Strategic Project Management & Leadership",
+  "seo_title": "Executive Program in Strategic Project Management & Leadership",
+  "domain": "module",
+  "billing": {
+    "total": 242500,
+    "points": [
+      "126+ Hours of Live Classes",
+      "Interactive Doubt-Clearing Sessions",
+      "Quick Query Resolution"
+    ],
+    "programId": "iiml-executive-program-in-strategic-project-management-leadership",
+    "monthly_emi": [
+      {
+        "emi": "22078 - 22634",
+        "months": 12
+      },
+      {
+        "emi": "15342 - 15800",
+        "months": 18
+      },
+      {
+        "emi": "11974 - 12428",
+        "months": 24
+      }
+    ]
+  },
+  "contact": "8882597163",
+  "timings": "weekends only",
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Executive-Program-in-Strategic-Project-Management-Leadership.pdf",
+    "source": "IIML-Executive-Program-in-Strategic-Project-Management-&-Leadership-Brochure",
+    "campaign_name": "EPISPM&L-iiml-10 Months"
+  },
+  "category": "50",
+  "duration": "10 Months",
+  "overview": {
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Aspiring & Current Project Managers: Gain skills to lead projects effectively.",
+          "Team Leaders: Improve planning and execution capabilities.",
+          "Functional Managers (Ops, IT, Marketing): Streamline project workflows and align with business goals.",
+          "Entrepreneurs: Oversee initiatives and startups efficiently.",
+          "Consultants: Adopt structured methodologies for client projects.",
+          "Business Analysts: Transition into project management roles."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Program Manager",
+          "Project Consultant",
+          "Operations Manager",
+          "Risk Manager",
+          "Change Management Specialist",
+          "IT Project Manager",
+          "Construction Project Manager",
+          "Marketing Project Manager",
+          "Product Manager",
+          "Strategic Project Lead"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Modules - Project Planning, Risk Management, and Project Procurement",
+          "Learn From The Top Industry Professionals",
+          "Duration: 10 Months | Weekend Online",
+          "Certification From IIM Lucknow",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian"
+        ]
+      }
+    ],
+    "programId": "iiml-executive-program-in-strategic-project-management-leadership"
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "vertical": "Project Management",
+  "curriculum": [
+    {
+      "id": "1",
+      "title": "Business Economics for Strategic Decisions",
+      "points": [
+        "Dynamics of Market Demand & Supply",
+        "Cost Structure, Scale Economies, & Learning Curve",
+        "Economics of Multi-Sided Platforms & New Disruptive Business Models",
+        "Sustaining Business in Competitive Market",
+        "Understanding Macroeconomic & Global Business Environment"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Financial Acumen for Project Leaders",
+      "points": [
+        "Financial Fundamentals for Project Leaders",
+        "Project Finance Structures & Use Cases",
+        "NPV, IRR, Payback, & Valuation Challenges",
+        "Risk Modelling & Financial Sensitivity Analysis"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Strategic Project Planning & Resourcing",
+      "points": [
+        "Aligning Project Selection & Procurement with Organisational Strategy",
+        "Project Scope & Planning",
+        "Effective Team Performance Management",
+        "Resource Allocation & Value Creation Strategies",
+        "Basics of Statistics, Optimisation for Analysis"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Project Execution Leadership & Schedule Optimization",
+      "points": [
+        "Gantt Charts & Visual Control Mechanisms",
+        "Network Diagrams & Dependency Management",
+        "Critical Path Analysis – PERT & CPM Techniques",
+        "Fast-Tracking & Crashing Decisions",
+        "Project Closure & Outcome Evaluation",
+        "Advanced Project Scheduling Topics"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Agile Project Management for Delivery Excellence",
+      "points": [
+        "Introduction to Agile",
+        "Scrum Roles, Ceremonies, & Execution Discipline",
+        "User Stories & Backlog Prioritization (with GenAI)",
+        "Agile Metrics, Velocity, & Predictability Tracking"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Digital Product Leadership",
+      "points": [
+        "Product R&D Strategy",
+        "Product Visioning & Marketing Alignment",
+        "Building AI-First Products",
+        "Tooling Ecosystem: Jira, Azure DevOps"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Agile for C-Suite (Program and Portfolio)",
+      "points": [
+        "Agile for Strategy",
+        "Agile Transformation",
+        "Scaled Agile Framework (SAFe) – Scaling Scrum"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Digital, Legal & ESG for Project Leaders",
+      "points": [
+        "Basics of Procurement",
+        "CyberRisk Management in the Digital Age",
+        "General Principles of Contract – Legal Perspective",
+        "ESG & Sustainability – Implications for Projects"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Data & AI Driven Project Management",
+      "points": [
+        "Data Foundations, Project Analytics",
+        "Data-Driven Decision-Making",
+        "AI/ML Foundations",
+        "Generative AI for Project Leaders"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Leadership, Stakeholder Management & Communication",
+      "points": [
+        "Executive Communication",
+        "CXO-Level Storytelling",
+        "Cross-Cultural Communications",
+        "Leading through Stakeholders: Managing Relationships That Matter",
+        "From Differences to Strength: Team Building in a Diverse Workplace"
+      ]
+    }
+  ],
+  "start_date": "31 May 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIML-certificate/IIML-EPSPML-Program.webp",
+  "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
+  "enrollments": "active",
+  "short_title": "project management",
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "key_features": [
+    {
+      "text": "126",
+      "title": "class hours"
+    },
+    {
+      "text": "10",
+      "title": "modules"
+    },
+    {
+      "text": "3 days",
+      "title": "campus immersion"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    }
+  ],
+  "unique_points": [
+    "certificate",
+    "capstone-project",
+    "campus-immersion",
+    "experiential-learning"
+  ],
+  "curriculum_type": "module",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
+  "university_name": "IIM Lucknow",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "short_university_name": "iiml",
+  "required_years_experience": 1
+}

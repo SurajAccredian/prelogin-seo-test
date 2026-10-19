@@ -1,0 +1,513 @@
+{
+  "category": "4",
+  "id": "executive-program-in-pm-ba",
+  "vertical": "product management",
+  "title": "Executive Program in Product Management and Business Analytics",
+  "seo_title": "Product Mgmt & Business Analytics Course | IIT Guwahati",
+  "description": "Embark on a 10-term learning journey in UI/UX, Product Engineering & Business Analytics.",
+  "short_title": "Product Management",
+  "contact": "7012957331",
+  "university_name": "E&ICT Academy IIT Guwahati",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "university_video": "https://www.youtube.com/embed/tvyPhTUIyRU?si=lpgY6bgxVo_UAQHN",
+  "start_date": "25 Aug 2024",
+  "duration": "10 Months",
+  "required_years_experience": 0,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIT-certificate/IITG-PMBA.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 170
+    },
+    {
+      "title": "career sessions",
+      "count": 8
+    },
+    {
+      "title": "modules",
+      "count": 40
+    },
+    {
+      "title": "campus immersion",
+      "text": "2-day"
+    },
+    {
+      "title": "tools",
+      "count": 15
+    },
+    {
+      "title": "case studies",
+      "count": 5
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-pm-ba",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Product managers wanting to integrate analytics into product strategy.",
+          "Product Managers Balancing Customer Needs With Business Goals For Impactful Solutions.",
+          "Product Leaders Guiding Product Strategy And Fostering Innovation Across Teams.",
+          "Product Owners Driving Agile Product Delivery And Team Collaboration.",
+          "Business analysts seeking to specialize in product-driven industries.",
+          "Marketing professionals using analytics to drive product decisions.",
+          "Data analysts aiming to transition into product management roles.",
+          "Entrepreneurs seeking data-driven methods to innovate and manage products.",
+          "Operations managers integrating analytics for better product delivery.",
+          "Sales professionals analyzing market data to inform product positioning.",
+          "IT professionals developing tools for analytics in product management.",
+          "Designers using data to enhance user experience and product design.",
+          "Software developers interested in product lifecycle analytics.",
+          "Quality assurance specialists applying analytics to improve product testing.",
+          "Strategy consultants advising on product strategies based on analytical insights."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Associate Product Manager",
+          "Product Owner",
+          "Technical Product Manager",
+          "Senior Product Manager",
+          "Director of Product Management",
+          "Business Analyst",
+          "Product Manager",
+          "Data Analyst",
+          "Product Analyst",
+          "Business Intelligence Manager",
+          "Marketing Analyst",
+          "Project Manager",
+          "Operations Analyst",
+          "Customer Success Manager",
+          "Strategy Analyst",
+          "UX/UI Analyst",
+          "Product Marketing Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "10 Terms - UI/UX Engineering & Business Analytics",
+          "Learn from the top industry professionals",
+          "Duration: 10 Months | Weekend Online",
+          "Certification from E&ICT, IIT Guwahati",
+          "Live Instructor led classes",
+          "Capstone projects",
+          "No Cost EMI upto 12 months",
+          "Career Assistance by Accredian",
+          "2-day campus immersion at IIT Guwahati",
+          "1:1 career mentorship sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "term",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "experiential-learning",
+    "product-demo-day"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Industry Immersions",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Eligibility Test",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Introduction to Product Management",
+      "week": "4 weeks",
+      "id": "introduction-to-product-management",
+      "points": [
+        "Roles & Responsibilities of a PM",
+        "User Research for PMs",
+        "Market Research for PMs",
+        "Competitive Analysis for PMs"
+      ]
+    },
+    {
+      "title": "Product Strategy & Roadmap",
+      "week": "4 weeks",
+      "id": "product-strategy---roadmap",
+      "points": [
+        "What is Product Planning Cycle?",
+        "Establising Product Vision & Mission",
+        "Formulating Product Strategy & Product Goals",
+        "What is Product Backlog & Roadmap"
+      ]
+    },
+    {
+      "title": "Design Thinking & UI/UX",
+      "week": "4 weeks",
+      "id": "design-thinking---ui-ux",
+      "points": [
+        "Design Thinking & UI/UX",
+        "Building MVP - Artefacts, Persona Mapping & PRDs",
+        "UI/UX for PMs",
+        "Designing Mockups,Wireframes, & Prototypes"
+      ]
+    },
+    {
+      "title": "Product Engineering",
+      "week": "4 weeks",
+      "id": "product-engineering",
+      "points": [
+        "Intoduction to Engineering for Product Managers",
+        "LUnderstanding Microservices & Cloud Services",
+        "Waterfall & Agile Methodology",
+        "Understanding Scrum & Kanban"
+      ]
+    },
+    {
+      "title": "Product Marketing & Launch",
+      "week": "4 weeks",
+      "id": "product-marketing---launch",
+      "points": [
+        "Product Launch & A/B Testing",
+        "Understanding Product Marketing & Consumer Behaviour",
+        "Measuring Brand & Impact of Product Marketing",
+        "Marketing Ninja Challenge"
+      ]
+    },
+    {
+      "title": "Design Discovery",
+      "special": "1",
+      "id": "project--design-discovery",
+      "points": [
+        "Design Discovery requires one to apply design thinking concepts to create human-centred and action-oriented solutions. As a PM practitioner you will be competing with the best to solve a complex challenge."
+      ]
+    },
+    {
+      "title": "Foundation of Business Analytics",
+      "week": "4 weeks",
+      "id": "term-6--foundation-of-business-analytics",
+      "points": [
+        "Introduction to Business Analytics",
+        "Data Analytics Fundamentals for Business Analysts",
+        "Statistics Basics for Business",
+        "Advanced Business Statistics"
+      ]
+    },
+    {
+      "title": "Excel Mastery for Business Insights",
+      "week": "4 weeks",
+      "id": "term-7--excel-mastery-for-business-insights",
+      "points": [
+        "Excel fundamentals for Business Analysis",
+        "Excel Functions & Conditions",
+        "Excel Pivot Tables & Reporting",
+        "Excel Modelling"
+      ]
+    },
+    {
+      "title": "SQL Essentials for Business Intelligence",
+      "week": "4 weeks",
+      "id": "term-8--sql-essentials-for-business-intelligence",
+      "points": [
+        "Database Basics for Analysts",
+        "SQL Fundamentals for Business Analysis",
+        "SQL Operations",
+        "Advanced SQL"
+      ]
+    },
+    {
+      "title": "Business Analytics with Power BI",
+      "week": "4 weeks",
+      "id": "term-9--business-analytics-with-power-bi",
+      "points": [
+        "Power BI for Business reporting",
+        "Connecting Data Sources",
+        "Data Modelling in Power BI",
+        "Functions in Power BI"
+      ]
+    },
+    {
+      "title": "Applied Industry Analytics: Case Studies",
+      "week": "4 weeks",
+      "id": "term-10--applied-industry-analytics--case-studies",
+      "points": [
+        "Business Analytics in BFSI",
+        "Marketing & Telecom Analytics",
+        "Healthcare & Manufacturing Analytics",
+        "Ecommerce & Supply Chain Analytics"
+      ]
+    },
+    {
+      "title": "Business Analytics Capstone",
+      "special": "1",
+      "id": "project--design-discovery",
+      "points": [
+        "This capstone project involves advanced data analysis skills through corporate dataset exploration: data acquisition, transformation, exploratory analysis with statistics and visualization, predictive modeling using supervised learning, prescriptive analytics for strategy, and data storytelling for compelling narratives."
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Shailendra",
+      "position": "Ex-Vice President of Product",
+      "organization": "Change Engine",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
+    },
+    {
+      "name": "Deepesh Wadhwani",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "position": "Director",
+      "organization": "SketchMyHome.AI",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
+    },
+    {
+      "name": "Nishkam Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
+      "position": "Data Scientist",
+      "organization": "American Express",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/american-express.webp"
+    },
+    {
+      "name": "Amit Goyal",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/amit-goyal-v1.webp",
+      "position": "Team Lead - Data Analytics",
+      "organization": "Paytm",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
+    },
+    {
+      "name": "Gaurav Trivedi",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIT Guwahati",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
+    },
+    {
+      "name": "Harihara",
+      "position": "Senior Program Manager",
+      "organization": "Amazon",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Harihara-v1.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/amazon.webp"
+    },
+    {
+      "name": "Gaurav Verma",
+      "position": "Product Manager II",
+      "organization": "Chegg Inc",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Gaurav.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/Chegg%20Inc.webp"
+    },
+    {
+      "name": "Premanku",
+      "position": "Senior Product Manager",
+      "organization": "Atlassian",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Premanku.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/atlassian-v1.webp"
+    },
+    {
+      "name": "Pratul Gupta",
+      "position": "Product Manager",
+      "organization": "Razorpay",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
+    }
+  ],
+  "tools": [
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "SQL",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/sql.webp"
+    },
+    {
+      "title": "Aha!",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/cpm/t1.webp"
+    },
+    {
+      "title": "trello",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/trello.webp"
+    },
+    {
+      "title": "figma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
+    },
+    {
+      "title": "jira",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/jira.webp"
+    },
+    {
+      "title": "hotjar",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
+    },
+    {
+      "title": "survey monkey",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/survey-monkey.webp"
+    },
+    {
+      "title": "mural",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mural.webp"
+    },
+    {
+      "title": "uizard",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/uizard.webp"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-pm-ba",
+    "points": [
+      "170+ Hours of Live Classes",
+      "40+ Tools & Frameworks Covered",
+      "8 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 16717
+      },
+      {
+        "months": 18,
+        "emi": 11591
+      },
+      {
+        "months": 24,
+        "emi": 9007
+      }
+    ],
+    "total": 230000
+  },
+  "faq": {
+    "programId": "executive-program-in-pm-ba",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Do I need to have prior Product Management and Business Analytics experience to enroll in the program?",
+            "content": [
+              "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
+            ]
+          },
+          {
+            "title": "What is the minimum system configuration required?",
+            "content": [
+              "Any latest processor (i3/i5/i7) with 2.0GHz clock speed and RAM 4GB (required), 8GB(recommended)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In Executive Program in Product Management and Business Analytics you will have access to more than 35 case studies, Capstone Projects to provide a better understanding of the real-world applications of product management and business analytics."
+            ]
+          },
+          {
+            "title": "What's the difference between case studies & projects?",
+            "content": [
+              "Case studies are targeted towards concept validation and limited to only a single concept. However, projects are targeted to overall learning and are more of a combination of multiple topics."
+            ]
+          },
+          {
+            "title": "What all topics are covered in the Executive Program in Product Management and Business Analytics?",
+            "content": [
+              "Download our latest program [brochure & curriculum](#curriculum)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend on a regular basis?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 10 months, every term is approximately 4-5 weeks long."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why E&ICT, IIT Guwahati ?",
+        "content": [
+          {
+            "title": "How's the Executive Program in Product Management and Business Analytics different?",
+            "content": [
+              "## This program is distinguished by three key elements:",
+              "- **Iterative Mastery Approach:** IITG's exclusive Iterative Mastery Approach ensures development through a step-by-step methodology, specifically designed to welcome individuals from diverse backgrounds. Whether you're seeking a lateral move in the industry or looking to broaden your skills, our program is tailored to empower you on your unique learning journey.",
+              "- **Versatile Skill Development Model:** IITG's unique framework ensures that every Product Management concept is taught in the context of real-world industry problems. Our program goes beyond theory, emphasizing practical case studies to prepare students for the challenges they'll face in the professional arena.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "Accredian provides career assistance through the Career Launchpad program. Students gain hands-on experience as leaders in their chosen field with rigorous resume and portfolio building sessions. The program also covers creating a strong online presence and developing top-notch interview skills."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iitg-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "career transition",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-PMBA-10-Months-v1.pdf",
+    "source": "product management and business analytics brochure",
+    "campaign_name": "PMBA-IITG 10 Months"
+  }
+}

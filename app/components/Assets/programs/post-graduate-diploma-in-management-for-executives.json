@@ -1,0 +1,457 @@
+{
+  "category": "",
+  "id": "senior-management-program",
+  "vertical": "senior management",
+  "title": "Senior Management Program",
+  "seo_title": "Senior Management Program",
+  "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
+  "short_title": "Senior Management",
+  "contact": "8826565087",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "22 Sept 2024",
+  "required_years_experience": 10,
+  "duration": "12 months",
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 140
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "tools",
+      "text": 3
+    },
+    {
+      "title": "campus immersion",
+      "text": "4-Days"
+    }
+  ],
+  "overview": {
+    "programId": "senior-management-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives refining leadership, driving organizational change, and fostering growth.",
+          "Managers mastering strategies for dynamic business challenges in complex environments.",
+          "Directors deepening strategic decision-making and enhancing corporate governance skills.",
+          "C-suite leaders staying abreast of industry trends and fostering innovation.",
+          "Potential successors preparing for top executive roles and leadership.",
+          "Division heads integrating departments with overall corporate objectives effectively.",
+          "Project managers leading large-scale projects with strategic impact.",
+          "Entrepreneurs scaling operations and exploring new markets in mature businesses.",
+          "Nonprofit leaders applying advanced business principles for organizational effectiveness.",
+          "Government officials bringing efficiency and strategy to public sector management.",
+          "Education leaders applying business principles to run educational institutions effectively.",
+          "Healthcare executives navigating complex systems and improving operational efficiency."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Financial Officer (CFO)",
+          "Chief Marketing Officer (CMO)",
+          "Senior Vice President (SVP)",
+          "General Manager",
+          "Director of Operations",
+          "Director of Finance",
+          "Director of Marketing",
+          "Director of Human Resources",
+          "Executive Director",
+          "Vice President of Sales"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules - Executive Leadership, Functional Leadership, Business Strategies, and Analytics",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 12 months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "Strategy, Negotiation, and Growth Simulations",
+          "EMI upto 24 months",
+          "Career Assistance by Accredian",
+          "Campus Immersion for 4 days"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "exclusive-merchandise",
+    "engaging-simulations"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundations of Executive Leadership",
+      "week": "3 weeks",
+      "id": "foundations-of-executive-leadership",
+      "points": [
+        "Leadership Styles & Models",
+        "Effective Communication for Leaders",
+        "Building High-Performance Teams"
+      ]
+    },
+    {
+      "title": "Strategy for Senior Executives",
+      "week": "4 weeks",
+      "id": "strategy-for-senior-executives",
+      "points": [
+        "Strategic Thinking & Planning",
+        "Competitive Analysis & Industry Dynamics",
+        "Strategic Implementation & Change Management",
+        "Sustainable Business Strategies"
+      ]
+    },
+    {
+      "title": "Corporate Governance & Corporate Social Responsibility",
+      "week": "4 weeks",
+      "id": "corporate-governance---corporate-social-responsibility",
+      "points": [
+        "Sustainability & Environmental, Social, & Governance",
+        "Ethics in Corporate Governance",
+        "Measuring CSR Impact",
+        "Stakeholder Engagement & Communication"
+      ]
+    },
+    {
+      "title": "Finance for Senior Leaders",
+      "week": "5 weeks",
+      "id": "finance-for-senior-leaders",
+      "points": [
+        "Strategic Financial Planning & Forecasting",
+        "Capital Budgeting & Investment Decisions",
+        "Corporate Valuation",
+        "Mergers & Acquisitions (M&A) & Financial Restructuring"
+      ]
+    },
+    {
+      "title": "Strategic Marketing & Brand Management",
+      "week": "4 weeks",
+      "id": "strategic-marketing---brand-management",
+      "points": [
+        "Strategic Brand Positioning",
+        "Integrated Marketing Communications",
+        "Digital Marketing Strategies",
+        "Brand Equity Management"
+      ]
+    },
+    {
+      "title": "Operations & Supply Chain Excellence",
+      "week": "4 weeks",
+      "id": "operations---supply-chain-excellence",
+      "points": [
+        "Lean Operations & Six Sigma",
+        "Supply Chain Optimization",
+        "Logistics & Distribution Management",
+        "Technology in Operations & Supply Chain"
+      ]
+    },
+    {
+      "title": "Advanced Organizational Behavior",
+      "week": "4 weeks",
+      "id": "advanced-organizational-behavior",
+      "points": [
+        "Leadership Development & Succession Planning",
+        "Organizational Culture & Change Management",
+        "Diversity & Inclusion in the Workplace",
+        "Psychological Aspects of Leadership"
+      ]
+    },
+    {
+      "title": "Negotiations & Conflict Resolution",
+      "week": "2 weeks",
+      "id": "negotiations---conflict-resolution",
+      "points": [
+        "Negotiation Strategies & Tactics",
+        "Conflict Resolution Strategies"
+      ]
+    },
+    {
+      "title": "Global Business Strategies",
+      "week": "3 weeks",
+      "id": "global-business-strategies",
+      "points": [
+        "International Business Expansion",
+        "Global Strategic Alliances",
+        "Global Risk Management"
+      ]
+    },
+    {
+      "title": "Technology & Innovation Management",
+      "week": "4 weeks",
+      "id": "technology---innovation-management",
+      "points": [
+        "Digital Transformation Strategy",
+        "Cybersecurity & Risk Management",
+        "Blockchain Technology & its use cases",
+        "Artificial Intelligence for 21st Century Leaders"
+      ]
+    },
+    {
+      "title": "Analytics for Decision-Making",
+      "week": "4 weeks",
+      "id": "analytics-for-decision-making",
+      "points": [
+        "Data-Driven Decision-Making",
+        "Predictive Analytics",
+        "PowerBI for Business Intelligence",
+        "Dashboards for Business Verticals"
+      ]
+    },
+    {
+      "title": "Growth Strategies for Senior Leaders",
+      "week": "2 weeks",
+      "id": "growth-strategies-for-senior-leaders",
+      "points": [
+        "Revenue Growth Strategy",
+        "Customer Growth Strategy",
+        "Marketing Growth Strategy",
+        "Product Growth Strategy"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Happy Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Josyula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. MV Anuradha",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. PRS Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
+      "position": "Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Shalini Agnihotri",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Md. Shameem Jawed",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shameem-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Ashmita Verma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Ashmita-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Bisakha Majumdar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Bisakha-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Kalyan K",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/kalyan-v1.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    },
+    {
+      "title": "R",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/R-language-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "senior-management-program",
+    "points": [
+      "140+ Hours of Live Classes",
+      "3 Tools Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 28025
+      },
+      {
+        "months": 18,
+        "emi": 19431
+      },
+      {
+        "months": 24,
+        "emi": 15099
+      }
+    ],
+    "total": 350000
+  },
+  "faq": {
+    "programId": "senior-management-program",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Senior Management required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's Senior Management program different?",
+            "content": [
+              "### Three things that make this program world class:",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Senior Management concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Accredian Career Center helps you launch a Senior Management career with 100% confidence."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Vizag-Senior-Management.pdf",
+    "source": "IIMV Senior Management brochure",
+    "campaign_name": "SMP-IIMV-12 Months"
+  }
+}

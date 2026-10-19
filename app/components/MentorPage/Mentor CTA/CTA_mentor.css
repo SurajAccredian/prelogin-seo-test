@@ -1,0 +1,8 @@
+.cta-grad {
+    background-image: url(https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/cta-circle.svg);
+    background-repeat: no-repeat;
+    /* background-size: 200px 155px; */
+    background-position: 80% 5%;
+    background-size: 700px 700px;
+    position: relative;
+  }

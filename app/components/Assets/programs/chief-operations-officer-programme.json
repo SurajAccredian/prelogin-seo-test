@@ -1,0 +1,401 @@
+{
+  "category": "25",
+  "id": "chief-operations-officer-programme",
+  "vertical": "strategy & leadership",
+  "title": "Chief Operations Officer Programme",
+  "seo_title": "Chief Operations Officer Programme",
+  "description": "Embark on a 12- month learning journey in Strategic Leadership, Operations Diagnostics, and Digital Leadership.",
+  "short_title": "Chief Operations Officer Programme",
+  "contact": "8595709940",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "10 Nov 2024",
+  "duration": "12 months",
+  "required_years_experience": 10,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "new launch",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 140
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "CXO coaching",
+      "text": 2
+    },
+    {
+      "title": "campus immersion",
+      "text": "4-Days"
+    }
+  ],
+  "overview": {
+    "programId": "chief-operations-officer-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current COOs looking to refine their operational expertise and stay ahead in their field.",
+          "C-Level Executives aiming to transition into a COO role and enhance their strategic and operational decision-making.",
+          "Senior Vice Presidents preparing for promotion to COO by developing advanced operational leadership capabilities.",
+          "Entrepreneurs seeking to scale their business and strengthen operational efficiency and leadership skills.",
+          "High-Potential Managers aspiring to move into COO positions by gaining comprehensive operational insights.",
+          "Industry Experts transitioning from technical roles to executive operations and enhancing their strategic perspective.",
+          "Consultants specializing in operational leadership, seeking to understand COO challenges and best practices.",
+          "Established Executives aiming to update their operational approach and adapt to evolving business landscapes.",
+          "Corporate Strategists looking to deepen their understanding of COO responsibilities and improve operational execution."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Current COOs",
+          "Senior Vice Presidents",
+          "C-Level Executives",
+          "Business Owners/Entrepreneurs",
+          "Operations Directors/Managers",
+          "Corporate Strategists",
+          "Industry Experts",
+          "Business Consultants",
+          "Established Executives"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "12 Modules - Strategic Leadership, Operations Diagnostics, and Digital Leadership",
+          "Learn From The Top Industry Professionals",
+          "Duration: 12 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "alumni-status",
+    "exclusive-merchandise"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Leadership for COOs",
+      "id": "1",
+      "points": [
+        "Roles and Responsibilities of the COO",
+        "Effective Communication and Leadership Skills",
+        "Emotional Intelligence and Leadership"
+      ]
+    },
+    {
+      "title": "Strategic Management for COOs",
+      "id": "2",
+      "points": [
+        "Core Principles of Strategic Management",
+        "Defining Vision and Mission",
+        "Evaluating Industry Landscape",
+        "Corporate Strategy and Business Frameworks",
+        "Aligning operations with business strategy"
+      ]
+    },
+    {
+      "title": "Operational Leadership",
+      "id": "3",
+      "points": [
+        "Lean Management Principles",
+        "Performance Metrics and KPI Development",
+        "Workforce Optimization and Talent Management",
+        "Crisis Management and Business Continuity Planning"
+      ]
+    },
+    {
+      "title": "Operations Diagnostics and Strategy",
+      "id": "4",
+      "points": [
+        "Root Cause Analysis Techniques for COOs",
+        "Operations Audits and Assessments",
+        "Process Mapping and Improvement",
+        "Strategic Alignment of Operations",
+        "Process Improvement Simulation"
+      ]
+    },
+    {
+      "title": "Supply Chain Excellence for COOs",
+      "id": "5",
+      "points": [
+        "Supply Chain Optimization and Management",
+        "Logistics and Distribution Strategies",
+        "Supplier Relationship Management",
+        "Inventory Management and Control"
+      ]
+    },
+    {
+      "title": "Operational and Strategic Finance for COOs",
+      "id": "6",
+      "points": [
+        "Financial Analysis and Reporting for COOs",
+        "Budgeting and Forecasting Techniques",
+        "Cost Management and Reduction Strategies",
+        "Investment Appraisal and Capital Allocation",
+        "Budgeting and Forecasting Simulation"
+      ]
+    },
+    {
+      "title": "Leading Growth Strategy for Manufacturing and Service",
+      "id": "7",
+      "points": [
+        "Market Expansion and Entry Strategies",
+        "Product Development and Innovation",
+        "Scaling Operations for Growth",
+        "Service Excellence and Customer Retention"
+      ]
+    },
+    {
+      "title": "Regulatory and Ethical Considerations for COOs",
+      "id": "8",
+      "points": [
+        "Compliance Management and Risk Mitigation for COOs",
+        "Ethical Decision Making in Operations",
+        "Regulatory Frameworks and Requirements",
+        "Corporate Social Responsibility and Sustainability"
+      ]
+    },
+    {
+      "title": "Advanced Data Analytics for COOs",
+      "id": "9",
+      "points": [
+        "Data-Driven Decision Making for COOs",
+        "Predictive Analytics and Forecasting",
+        "Process Optimization through Data Analysis",
+        "Big Data Tools and Technologies",
+        "Process Optimization Simulation"
+      ]
+    },
+    {
+      "title": "Customer Experience Management and Design Thinking",
+      "id": "10",
+      "points": [
+        "Understanding Customer Needs and Behaviors",
+        "Designing Customer-Centric Processes",
+        "Journey Mapping and Service Blueprinting",
+        "Implementing Design Thinking for Innovation",
+        "Design Thinking Simulation"
+      ]
+    },
+    {
+      "title": "Digital Transformation and Technological Advancement for COOs",
+      "id": "11",
+      "points": [
+        "Digital Strategy and Roadmap Development",
+        "Integrating Digital Technologies in Operations",
+        "Cybersecurity and Data Privacy",
+        "Leveraging Emerging Technologies (IoT, Blockchain, etc.)"
+      ]
+    },
+    {
+      "title": "AI for Business Growth",
+      "id": "12",
+      "points": [
+        "AI Fundamentals and Business Applications",
+        "Implementing AI in Operations",
+        "AI-Driven Decision Making and Automation",
+        "Ethical AI and Governance"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will work in teams to develop and implement a comprehensive operations strategy for a simulated company facing multiple challenges. This capstone project will integrate knowledge and skills acquired from all modules, including leadership, strategic management, operational excellence, finance, supply chain management, and advanced technologies. The project will culminate in a presentation to a panel of experts."
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. Deepika Gupta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/deepika-gupta-v1.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Program Co-Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Joysula Srinivas",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Program Director",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "chief-operations-officer-programme",
+    "points": [
+      "140+ Hours of Live Classes",
+      "3+ Tools Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 22617
+      },
+      {
+        "months": 18,
+        "emi": 15681
+      },
+      {
+        "months": 24,
+        "emi": 12185
+      }
+    ],
+    "total": 380000
+  },
+  "faq": {
+    "programId": "chief-operations-officer-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Operations required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's COO program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 29th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Operational Leadership concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Vizag-Strategic-Management-v1.pdf",
+    "source": "IIMV Strategic Management brochure",
+    "campaign_name": "EPSM-IIMV-12 Months"
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "category": "24",
+  "id": "chief-financial-officer-programme",
+  "pid": 170,
+  "vertical": "cxo leadership",
+  "title": "Chief Financial Officer (CFO) Programme",
+  "seo_title": "Chief Financial Officer Course | IIM Visakhapatnam",
+  "description": "Embark on a 12 month learning journey in Financial Leadership, Corporate Governance, and Digital Leadership.",
+  "short_title": "Chief Financial Officer ",
+  "contact": "9289224842",
+  "university_name": "IIM Visakhapatnam",
+  "short_university_name": "iimv",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
+  "start_date": "25 Oct 2026",
+  "duration": "12 months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 144
+    },
+    {
+      "title": "career sessions",
+      "text": 6
+    },
+    {
+      "title": "modules",
+      "text": 12
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "campus immersion",
+      "text": "3-Days"
+    }
+  ],
+  "domain": "pillar",
+  "overview": {
+    "programId": "chief-financial-officer-programme",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current CFOs: Refine financial leadership and stay ahead of trends.",
+          "Senior Finance Leaders (SVP, Directors, Controllers): Scale influence and prepare for the CFO seat.",
+          "High-Potential Finance Managers: Gain comprehensive insights into financial leadership.",
+          "Strategic Executives: Deepen understanding of CFO responsibilities.",
+          "Financial Consultants: Understand CFO challenges to better serve clients.",
+          "Industry Experts: Shift from technical finance to executive leadership."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Financial Officer (CFO)",
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Risk Officer (CRO)",
+          "Vice President of Finance",
+          "Finance Director",
+          "Corporate Treasurer",
+          "Senior Financial Consultant",
+          "Board Member",
+          "Entrepreneur/Founder"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 Pillars - Financial Leadership, Corporate Governance, and Digital Leadership",
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Duration: 12 months | Weekend Online",
+          "Certification from IIM Visakhapatnam",
+          "Live Instructor led classes",
+          "Executive Alumni Status",
+          "2 CXO Coaching Sessions",
+          "Campus Immersions: One Campus Immersion of 3 days",
+          "Career Assistance by Accredian",
+          "No Cost EMI up to 12 months"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "campus-immersion",
+    "alumni-status",
+    "exclusive-merchandise"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Introduction to Modern CFO Role",
+      "id": "1",
+      "points": [
+        "The Evolving Responsibilities of the Modern CFO",
+        "The Modern CFO as a Strategic Partner",
+        "The Modern CFO as a Value Creator",
+        "Key Skills & Competencies for the Modern CFO"
+      ]
+    },
+    {
+      "title": "Strategic Leadership for CFOs",
+      "id": "2",
+      "points": [
+        "Strategic Leadership for CFOs",
+        "Aligning Financial Strategies with Business Objectives",
+        "Building & Leading High-Performing Teams",
+        "Stakeholder Management & Communication",
+        "Strategy & External Environment Linkages",
+        "Value Chains & Industry Attractiveness",
+        "Capability Building & Sustainable Competitive Advantage",
+        "Competitive Strategies",
+        "Organizational Lifecycle & Growth Strategies",
+        "Controlling & Implementing Strategy",
+        "Strategic Choices for Multi-Business Organizations"
+      ]
+    },
+    {
+      "title": "Global Economics & Financial Markets",
+      "id": "3",
+      "points": [
+        "Economic Indicators & Their Implications",
+        "Economic Cycles & Business Strategy",
+        "Financial Market Structures & Instruments",
+        "Global Financial Markets Trends"
+      ]
+    },
+    {
+      "title": "Financial Planning & Analysis for CFOs",
+      "id": "4",
+      "points": [
+        "Budgeting, Forecasting, & Variance Analysis",
+        "Building Financial Models",
+        "Key Performance Indicators (KPIs) & Financial Metrics",
+        "Scenario Planning & Sensitivity Analysis",
+        "Understanding Financial Performance & Growth Drivers of Organizations",
+        "Managing Working Capital & Working Capital Funding",
+        "Cost-Benefit Analysis for Business Decisions",
+        "Preparing & Evaluating Business Plans",
+        "Preparing an Investor Pitch for Funding"
+      ]
+    },
+    {
+      "title": "Strategic Finance",
+      "id": "5",
+      "points": [
+        "Capital Allocation & Resource Management",
+        "Capital Structure & Financing Decisions",
+        "Raising Capital - Equity, Debt, Hybrid, IPOs & Private Placements",
+        "Financial Restructuring & Turnaround Strategies",
+        "Corporate Tax Planning and Management"
+      ]
+    },
+    {
+      "title": "Mergers & Acquisitions",
+      "id": "6",
+      "points": [
+        "Strategic Fit & Target Selection",
+        "Valuation & Financial Modeling in M&A",
+        "Negotiation & Deal Structuring",
+        "Post-Merger Financial Integration & Synergy Realization",
+        "Buy & Sell Side Role Play"
+      ]
+    },
+    {
+      "title": "Financial Risk Management for CFOs",
+      "id": "7",
+      "points": [
+        "Identifying & Assessing Financial Risks",
+        "Market, Credit & Operational Risk Management",
+        "Derivatives & Hedging Strategies",
+        "Regulatory Environment & Risk Compliance"
+      ]
+    },
+    {
+      "title": "Corporate Governance & Regulatory Compliance",
+      "id": "8",
+      "points": [
+        "Board Structure & Responsibilities",
+        "Corporate Ethics & Accountability",
+        "Regulatory Frameworks & Compliance Standards",
+        "Internal Controls & Audit Functions"
+      ]
+    },
+    {
+      "title": "Fintech for CFOs",
+      "id": "9",
+      "points": [
+        "Blockchain Technology & Its Impact on Financial Services",
+        "The Role of Artificial Intelligence in Fraud Detection",
+        "Digital Banking & the Future of Traditional Banking Models",
+        "RegTech: Navigating Compliance in the Fintech Landscape"
+      ]
+    },
+    {
+      "title": "AI & Digital Transformation for CFOs",
+      "id": "10",
+      "points": [
+        "Leveraging AI for Financial Forecasting & Planning",
+        "Implementing Digital Tools in Financial Planning",
+        "Automating Financial Processes with RPA & AI",
+        "Case Studies on Successful Digital Transformation in Finance"
+      ]
+    },
+    {
+      "title": "Critical Thinking & Decision Making",
+      "id": "11",
+      "points": [
+        "Creative Problem Solving for Decision Making",
+        "Unraveling Mental Models for Critical Thinking",
+        "Identifying & Appreciating Behavioral Biases in Decision Making"
+      ]
+    },
+    {
+      "title": "Data Driven Decision Making",
+      "id": "12",
+      "points": [
+        "Data Driven Decision Making for CFO",
+        "Hypothesis Testing",
+        "Regression & Logistic Regression",
+        "Introduction to Machine Learning Tools in Financial Decision Making",
+        "Using Machine Learning Techniques for Working Capital Decisions"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Develop a comprehensive financial plan for a company planning to enter new international markets. Analyze target markets, create detailed financial forecasts, & propose capital allocation strategies. Assess potential risks & provide mitigation strategies.",
+        "Develop a strategic market entry plan & an implementation roadmap with key milestones. Define performance metrics to measure success. Present the plan to a panel, explaining key components & recommendations.",
+        "Develop a plan for a potential M & A deal. Evaluate synergy, access deal structure, negotiation, due diligence and post-merger integration."
+      ]
+    },
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your CEO program with an exclusive CXO coaching. Delivered by seasoned coaches, this specialized coaching offers invaluable insights into senior management, equipping aspiring leaders with strategic acumen. Prepare for executive roles with firsthand knowledge and guidance from top tier executives."
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. Pooja Kumari",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/pooja-kumari-v1.webp",
+      "position": "Program Director",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Vikas Sangwan",
+      "position": "Program Co-Director",
+      "organization": "IIMV",
+      "image": "https://www.iimv.ac.in/storage/FacultyDetails/details_profile_picture_1769666546697af7f2544d2.jpg",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Sushil Kumar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Dr. Amit Shankar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
+      "position": "Associate Professor",
+      "organization": "IIM Visakhapatnam",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. PRS Sharma",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
+      "position": "Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    },
+    {
+      "name": "Prof. Vijay Bhaskar",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/vijaya-bhaskar.webp",
+      "position": "Dr B R Ambedkar Chair Professor",
+      "organization": "IIMV",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
+    }
+  ],
+  "billing": {
+    "programId": "chief-financial-officer-programme",
+    "points": [
+      "144+ Hours of Live Classes",
+      "2+ Tools and Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 28419
+      },
+      {
+        "months": 18,
+        "emi": 19704
+      },
+      {
+        "months": 24,
+        "emi": 15311
+      }
+    ],
+    "total": 349000
+  },
+  "faq": {
+    "programId": "chief-financial-officer-programme",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Finance required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syllabus & Projects Covered",
+        "content": [
+          {
+            "title": "How many projects can I anticipate working on?",
+            "content": [
+              "In the Chief Financial Officer Programme, you will have access to case studies and Capstone Projects to gain a better understanding of the real-world applications of financial leadership concepts."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 12 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Visakhapatnam",
+        "content": [
+          {
+            "title": "How is the IIM Visakhapatnam's CFO program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Financial Leadership concepts.",
+              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iimv-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Financial-Officer-Programme.pdf",
+    "source": "IIMV Chief Financial Officer Programme Brochure",
+    "campaign_name": "CFO-IIMV-12 Months"
+  }
+}

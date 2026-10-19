@@ -1,0 +1,145 @@
+.testimonials .mySwiper2 .swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #f6f9ff;
+  border-radius: 50%;
+  background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/arrow-white-2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+  position: absolute;
+  top: 56% !important;
+  left: 2% !important;
+  display: none !important;
+  rotate: 180deg;
+  transition: transform 0.2s ease-in-out;
+}
+
+.testimonials .mySwiper2 .swiper-button-next {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #f6f9ff;
+  border-radius: 50%;
+  background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/arrow-white-2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+  position: absolute !important;
+  top: 56% !important;
+  left: 85% !important;
+  display: none !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .testimonials .mySwiper2 .swiper-button-prev {
+    left: 2% !important;
+    display: initial !important;
+  }
+
+  .testimonials .mySwiper2 .swiper-button-next {
+    left: 100% !important;
+    display: initial !important;
+  }
+
+  .testimonials .mySwiper2 {
+    overflow: unset !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .testimonials .mySwiper2 .swiper-button-prev {
+    display: initial !important;
+  }
+
+  .testimonials .mySwiper2 {
+    overflow: unset !important;
+  }
+
+  .testimonials .mySwiper2 .swiper-button-next {
+    left: 90% !important;
+    display: initial !important;
+  }
+}
+
+.testimonials .mySwiper2 .swiper-button-prev:hover {
+  /* transform: translateX(5px); */
+  background-color: #1a73e8;
+  rotate: 180deg;
+  background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/right-arrow-2.webp");
+}
+
+.testimonials .mySwiper2 .swiper-button-next:hover {
+  /* transform: translateX(5px); */
+  background-color: #1a73e8;
+  rotate: 0deg;
+  background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/right-arrow-2.webp");
+}
+
+.testimonials .mySwiper2 .swiper-button-next::after,
+.testimonials .mySwiper2 .swiper-button-prev::after {
+  display: none !important;
+  content: "" !important;
+}
+
+/* Hide the default blue Swiper button color */
+.testimonials .mySwiper2 .swiper-button-next,
+.testimonials .mySwiper2 .swiper-button-prev {
+  color: transparent !important;
+}
+
+.testimonials .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: white;
+  opacity: 1;
+  background: #1a73e894;
+  z-index: 99;
+  transition: all 0.4s ease-in-out;
+}
+
+.testimonials .swiper-pagination-bullet-active {
+  width: 100px;
+  color: #fff;
+  background: rgb(55, 55, 55);
+  border-radius: 200px;
+}
+
+.testimonials .swiper-pagination-horizontal {
+  width: fit-content;
+  height: 28px;
+  /* background-color: #1A73E8; */
+  position: absolute;
+  top: 3%;
+  left: 80%;
+}
+
+.testimonials .mySwiper2 {
+  padding: 0 10px !important;
+  overflow: unset !important;
+}
+
+.image-grad {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.614) 0%,
+    rgba(255, 255, 255, 0.292) 100%
+  );
+}
+
+.program-cover-grad {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  position: absolute;
+  width: 434px;
+  height: 434px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #151e4a;
+  filter: blur(100px);
+}

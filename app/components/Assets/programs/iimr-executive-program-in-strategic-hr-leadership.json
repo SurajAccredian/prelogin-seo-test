@@ -1,0 +1,273 @@
+{
+  "id": "iimr-executive-program-in-strategic-hr-leadership",
+  "pid": 161,
+  "category": "62",
+  "vertical": "Human Resource",
+  "title": "Executive Program in Strategic HR Leadership",
+  "seo_title": "Executive Program in Strategic HR Leadership",
+  "description": "Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.",
+  "short_title": "Human Resource",
+  "contact": "8851827093",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+  "start_date": "10 Jan 2027",
+  "duration": "10 Months",
+  "required_years_experience": 3,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "120+",
+      "title": "hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "11",
+      "title": "modules"
+    },
+    {
+      "text": "2 Days",
+      "title": "campus immersion"
+    }
+  ],
+  "domain": "Human Resource",
+  "overview": {
+    "programId": "iimr-executive-program-in-strategic-hr-leadership",
+    "content": [
+      {
+        "title": "Who Should Join",
+        "points": [
+          "HR Professionals: Transition into Strategic Roles and Decision-Making",
+          "Business Leaders: Align HR Strategies with Organizational Goals",
+          "Mid-Level Practitioners: Broaden Expertise in Workforce Planning and Analytics",
+          "HR Consultants: Deepen Knowledge of Strategic HR Practices",
+          "Cross-Functional Leaders: Collaborate Effectively with HR on Organizational Strategy",
+          "Founders: Develop Robust HR Strategies for Scalability"
+        ]
+      },
+      {
+        "title": "Job Opportunities",
+        "points": [
+          "Chief Human Resources Officer (CHRO)",
+          "HR Director",
+          "Talent Management Head",
+          "Learning and Development Director",
+          "Organizational Development Consultant",
+          "Strategic HR Business Partner",
+          "HR Analytics Lead",
+          "Employee Experience Leader",
+          "Global HR Manager",
+          "Corporate HR Strategy Consultant",
+          "C-Suite Advisor on HR Strategy",
+          "HR Transformation Lead"
+        ]
+      },
+      {
+        "title": "Program Snapshot",
+        "points": [
+          "11 Modules – HRM Strategy, DEI Leadership, and GenAI",
+          "Learn from IIM Ranchi Faculty and Top Industry Professionals",
+          "Duration: 10 Months | Weekend Online",
+          "Optional IIM Ranchi Executive Alumni Status",
+          "Live Faculty-Led Classes",
+          "Capstone Project",
+          "EMI up to 24 Months",
+          "Career Assistance by Accredian",
+          "1:1 Career Mentorship Sessions",
+          "Campus Immersion: 2 Days at IIM Ranchi"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "campus-immersion",
+    "alumni-status-opt",
+    "capstone-project",
+    "certificate"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "personalized discussion",
+    "application review",
+    "start learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Strategic HR Leadership",
+      "points": [
+        "Role of HR in Business Strategy",
+        "Aligning HR with Business Priorities",
+        "Strategic Decision-Making in HR",
+        "Measuring HR Impact and KPIs"
+      ],
+      "modules": []
+    },
+    {
+      "title": "HR Strategy and Workforce Planning",
+      "points": [
+        "Workforce Planning and Forecasting",
+        "Skills and Capability Mapping",
+        "Critical Roles and Talent Segmentation",
+        "Balancing Workforce Supply and Demand"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Organizational Design and Effectiveness",
+      "points": [
+        "Organization Structures and Operating Models",
+        "Designing High-Performance Organizations",
+        "Decision-Making and Accountability Systems",
+        "Improving Organizational Effectiveness"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Business Acumen for HR Leaders",
+      "points": [
+        "Understanding P&L and Business Metrics",
+        "Revenue, Cost, and Productivity Drivers",
+        "Business Trade-Offs and Decision Making",
+        "Linking HR Strategy to Business Outcomes"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Talent Strategy and Acquisition",
+      "points": [
+        "Talent Supply Strategy and Workforce Pipelines",
+        "Employer Value Proposition and Positioning",
+        "Strategic Talent Acquisition Models",
+        "Workforce Planning Integration in Hiring"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Performance and Rewards Management",
+      "points": [
+        "Performance Systems, KPIs, and OKRs",
+        "Linking Performance to Business Outcomes",
+        "Compensation, Incentives, and ESOPs",
+        "Pay-for-Performance and Retention Strategy"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leadership Pipeline and Capability Building",
+      "points": [
+        "Leadership Pipeline and Critical Roles",
+        "Succession Planning and Continuity",
+        "Capability Building and Learning Systems",
+        "Reskilling and Future Skills Development"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Culture, Employee Experience and Retention",
+      "points": [
+        "Culture and Business Performance Linkages",
+        "Employee Experience and Journey Mapping",
+        "Engagement, Retention, and Motivation Drivers",
+        "Building Inclusive and High-Performance Culture"
+      ],
+      "modules": []
+    },
+    {
+      "title": "HR Governance, Risk and Legal",
+      "points": [
+        "HR Policies and Governance Frameworks",
+        "Labour Laws and Regulatory Compliance",
+        "Workforce Risks and Mitigation",
+        "Ethics and Organizational Conduct"
+      ],
+      "modules": []
+    },
+    {
+      "title": "HR Analytics and Data-Driven Decision Making",
+      "points": [
+        "Workforce Metrics and Dashboards",
+        "Descriptive and Predictive Analytics",
+        "Using Data for HR Decisions",
+        "Building Data-Driven HR Capability"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital HR, AI and Generative AI",
+      "points": [
+        "HR Technology Platforms and Digital Systems",
+        "Automation of HR Processes",
+        "AI and Generative AI Use Cases in HR",
+        "Integrating AI into HR Workflows"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "points": [
+        "Develop a comprehensive HR transformation roadmap for an organization by addressing a key people challenge related to talent, engagement, workforce planning, or organizational effectiveness. Apply strategic HR frameworks, analytics, and leadership principles to design actionable solutions that enhance employee experience, strengthen workforce capabilities, and support business objectives while delivering measurable organizational impact."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 220000,
+    "points": [
+      "120+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 18431,
+        "months": 12
+      },
+      {
+        "emi": 12733,
+        "months": 18
+      },
+      {
+        "emi": 9863,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategic-HR-Leadership.pdf",
+    "source": "IIM-RANCHI Executive Program in Strategic HR Leadership Brochure",
+    "campaign_name": "IIM-RANCHI-SHRL"
+  },
+  "faculty": [],
+  "tools": []
+}

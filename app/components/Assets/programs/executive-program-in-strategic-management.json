@@ -1,0 +1,415 @@
+{
+  "category": "28",
+  "id": "executive-program-in-strategic-management",
+  "vertical": "strategic & leadership",
+  "title": "Executive Program in Strategic Management",
+  "seo_title": "Executive Program in Strategic Management",
+  "description": "Embark on an 8 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.",
+  "short_title": "Strategic Management",
+  "contact": "8851827053",
+  "university_name": "IIM Amritsar",
+  "short_university_name": "iitg",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v2.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-amritsar-cover-v2.webp",
+  "start_date": "22 Sept 2024",
+  "duration": "8 months",
+  "required_years_experience": 3,
+  "type": "online",
+  "enrollments": "inactive",
+  "timings": "weekends only",
+  "tags": [
+    {
+      "title": "best selling",
+      "type": "main"
+    },
+    {
+      "title": "Instructor led",
+      "type": "ordinary"
+    },
+    {
+      "title": "Online",
+      "type": "ordinary"
+    }
+  ],
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM-Amritsar/iim-amritsar-certificate.webp",
+  "key_features": [
+    {
+      "title": "hours",
+      "count": 80
+    },
+    {
+      "title": "career sessions",
+      "text": 4
+    },
+    {
+      "title": "modules",
+      "text": 9
+    },
+    {
+      "title": "capstone project",
+      "text": 1
+    },
+    {
+      "title": "simulations",
+      "text": 3
+    },
+    {
+      "title": "campus immersion (opt.)",
+      "text": "2-Days"
+    }
+  ],
+  "overview": {
+    "programId": "executive-program-in-strategic-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Executives seeking to refine leadership skills and drive organizational success effectively.",
+          "Managers aspiring to deepen strategic thinking and foster innovation within teams.",
+          "Entrepreneurs aiming to develop sustainable competitive strategies for business growth.",
+          "Business consultants looking to enhance advisory skills with advanced strategic management knowledge.",
+          "Industry professionals desiring to navigate dynamic business environments with strategic vision.",
+          "Project managers seeking to align projects with organizational goals and optimize resources.",
+          "Mid-career professionals transitioning to roles with increased strategic responsibilities and decision-making.",
+          "Government officials striving to innovate resource allocation and achieve mission objectives efficiently.",
+          "Non-profit leaders aiming to implement strategic initiatives for impactful mission fulfillment.",
+          "MBA students or graduate students in business fields enriching resumes with strategic management expertise.",
+          "Business analysts and consultants aiming to interpret market trends and develop strategic insights.",
+          "Leadership teams and boards of directors fostering strategic alignment and governance practices.",
+          "Any individual interested in mastering strategic decision-making for personal and professional growth."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Strategic Planner",
+          "Management Consultant",
+          "Business Analyst",
+          "Chief Product Officer",
+          "Corporate Strategy Manager",
+          "Operations Manager",
+          "Chief Executive Officer",
+          "Project Manager",
+          "Director of Product",
+          "Marketing Manager",
+          "Financial Analyst",
+          "Product Manager",
+          "Human Resources Manager",
+          "Entrepreneur",
+          "Non-profit Manager",
+          "Government Policy Analyst"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "9 Terms - Strategy Formulation, Strategic leadership, and Change Management.",
+          "Learn From The Top Industry Professionals",
+          "Duration: 8 Months | Weekend Online",
+          "Certification From IIM Amritsar",
+          "Live Instructor Led Classes",
+          "2-Day Campus Immersion At IIM Amritsar (optional)",
+          "Capstone Projects",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "1:1 Career Mentorship Sessions by Accredian"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "alumni-status",
+    "campus-immersion",
+    "engaging-simulations"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "fill the application form",
+    "application review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Foundation of Strategic Management",
+      "id": "foundation-strategic-management",
+      "points": [
+        "Fundamentals of Strategic Management",
+        "Vision and Mission",
+        "Firm and General Environment",
+        "Analysis of Industry Environment",
+        "Analysis of Internal Environment: Resources and Capabilities"
+      ]
+    },
+    {
+      "title": "Strategy Formulation",
+      "id": "strategy-formulation",
+      "points": [
+        "Business Level Strategy and Models",
+        "Managing Portfolio of Businesses",
+        "Diversified Expansion"
+      ]
+    },
+    {
+      "title": "Strategy Implementation and Alignment",
+      "id": "strategy-implementation-alignment",
+      "points": [
+        "Understanding Organizational Structure and Design",
+        "Strategic Alignment Through Organizational Structure",
+        "Building a Future-Proof Organizational Structure",
+        "Measuring the Effectiveness of your Organizational Structure",
+        "Strategy Implementation",
+        "Strategy Simulation"
+      ]
+    },
+    {
+      "title": "Strategy Evaluation and Control",
+      "id": "strategy-evaluation-control",
+      "points": [
+        "Balance Score Card",
+        "Strategy in Changing World",
+        "Measuring Performance to Drive Strategy",
+        "Executive compensation and Strategy",
+        "Board Structure and Decision Making",
+        "Emerging Issues in Corporate Governance",
+        "Strategy for CSR and Sustainability"
+      ]
+    },
+    {
+      "title": "Functional Strategies",
+      "id": "functional-strategies",
+      "points": [
+        "Finance and Strategic Management",
+        "Marketing and Strategic Management",
+        "Operations and Strategic Management"
+      ]
+    },
+    {
+      "title": "Global and Entrepreneurship Strategy",
+      "id": "global-entrepreneurship-strategy",
+      "points": [
+        "Driving Strategy Through Design Thinking",
+        "Introduction to the Field of Entrepreneurship and Dilemma",
+        "Opportunity Recognition",
+        "Creating Business Model and Business Plan",
+        "Managing Entrepreneurial Finances",
+        "Globalization and Strategy",
+        "Risk and Opportunity Analysis in the Context of Globalization",
+        "Decision Making Simulation"
+      ]
+    },
+    {
+      "title": "Strategic Leadership",
+      "id": "strategic-leadership",
+      "points": [
+        "Leadership and Ethical Decision-making",
+        "Personal Crucibles of Leadership",
+        "Leading High-Performing Teams",
+        "Leadership Communication",
+        "Strategic Succession Planning",
+        "Leadership & Team Management Simulation"
+      ]
+    },
+    {
+      "title": "Change Management and Culture",
+      "id": "change-management-culture",
+      "points": [
+        "Change as a Competitive Advantage",
+        "Leading Change and Organizational Transformation",
+        "Stakeholder Management and Engagement",
+        "Managing Resistance to Change",
+        "Organizational Culture as a Strategic Capability",
+        "Changing Org Culture for Implementing New Strategy"
+      ]
+    },
+    {
+      "title": "Strategy in Digital Age",
+      "id": "strategy-digital-age",
+      "points": [
+        "Classical Thinking on Strategic Role of IS",
+        "IT-Driven Strategic Change",
+        "Business Models for Digital Platforms",
+        "Transformation Imperatives in the Digital Era",
+        "Strategic Repositioning in the Ecosystem Economy",
+        "Artificial Intelligence and Competition",
+        "Enterprise Resource Planning (ERP) Systems"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "project--design-discovery",
+      "points": [
+        "Project Planning and Proposal Development",
+        "Strategy Formulation and Recommendation",
+        "Presentation: Demo Day"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Santosh Kumar Tiwari",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/santosh-kumar-tiwari.webp",
+      "position": "Program Director",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    },
+    {
+      "name": "Arun Kumar Kaushik",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/arun-kumar-kaushik.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    },
+    {
+      "name": "Harpreet Kaur",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/harpreet-kaur.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    },
+    {
+      "name": "Nabendu Paul",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/nabendu-paul.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    },
+    {
+      "name": "Pankaj Gupta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/pankaj-gupta.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    },
+    {
+      "name": "Sunil Reddy Kunduru",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/sunil-reddy-kunduru.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    },
+    {
+      "name": "Vartika Dutta",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIM-Amritsar/vartika-dutta.webp",
+      "position": "Assistant Professor",
+      "organization": "IIM Amritsar",
+      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-round-logo.webp"
+    }
+  ],
+  "tools": [
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    },
+    {
+      "title": "excel",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-excel.svg"
+    }
+  ],
+  "billing": {
+    "programId": "executive-program-in-strategic-management",
+    "points": [
+      "80+ Hours of Live Classes",
+      "4 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "2-days Optional Campus Immersion"
+    ],
+    "monthly_emi": [
+      {
+        "months": 12,
+        "emi": 17602
+      },
+      {
+        "months": 18,
+        "emi": 12204
+      },
+      {
+        "months": 24,
+        "emi": 9483
+      }
+    ],
+    "total": 180000
+  },
+  "faq": {
+    "programId": "executive-program-in-strategic-management",
+    "points": [
+      {
+        "title": "Program Pre-Requisites",
+        "content": [
+          {
+            "title": "Is prior experience in Strategic Management required for program enrollment?",
+            "content": [
+              "This program is specifically crafted for mid-level professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with foundational industry experience."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Time Commitment",
+        "content": [
+          {
+            "title": "How much time does one need to spend?",
+            "content": [
+              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
+            ]
+          },
+          {
+            "title": "What is the duration of the program?",
+            "content": [
+              "The duration of the program is 8 months."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Why IIM Amritsar",
+        "content": [
+          {
+            "title": "How is the Strategic Management program different?",
+            "content": [
+              "### Three things that make this program world class :",
+              "- **Progressive Learning Architecture:** IIM Amritsar's proprietary Progressive Learning Architecture ensures that, irrespective of your background, you will attain mastery in a step-by-step manner.",
+              "- **Theory-to-Industry Learning Framework:** IIM Amritsar's Theory-to-Industry framework ensures that you learn every Strategic Management concept in the context of real-world industry problems.",
+              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+            ]
+          },
+          {
+            "title": "Tell me more about Career Assistance?",
+            "content": [
+              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
+            ]
+          },
+          {
+            "title": "What's the refund policy?",
+            "content": [
+              "Go through our Student Policy [link](/policies/iim-amritsar-policy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Amritsar-Strategic-Management.pdf",
+    "source": "IIMA Strategic Management Brochure",
+    "campaign_name": "EPSM-IIMA-8 Months"
+  }
+}

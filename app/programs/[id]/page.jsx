@@ -42,8 +42,7 @@ export async function generateMetadata({ params }) {
     : `${baseTitle} | ${institute} | Accredian`;
   const baseDescription =
     data.description ||
-    `Explore the ${data.title} offered by ${data.university_name} at Accredian. ${
-      data.duration ? `${data.duration} online program.` : ""
+    `Explore the ${data.title} offered by ${data.university_name} at Accredian. ${data.duration ? `${data.duration} online program.` : ""
     }`;
   const description = hasInstitute(baseDescription)
     ? baseDescription
@@ -64,8 +63,8 @@ export async function generateMetadata({ params }) {
       images: data.university_image
         ? [data.university_image]
         : data.university_logo
-        ? [data.university_logo]
-        : [],
+          ? [data.university_logo]
+          : [],
     },
   };
 }
@@ -98,10 +97,7 @@ export default async function ProgramPage({ params }) {
   const pid = programData.pid || getPidBySlug(id);
   if (pid && ENABLE_BACKEND_FETCH) {
     const backendUrl =
-      process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
-      (process.env.NODE_ENV === "production"
-        ? "https://api.accredian.com"
-        : "http://localhost:5000");
+      process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD
 
     try {
       const response = await fetch(`${backendUrl}/program/${pid}/registration-status`, {

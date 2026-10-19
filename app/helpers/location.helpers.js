@@ -1,11 +1,7 @@
 import api from "../services/server";
 
 const HOST =
-  process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
-  (process.env.NODE_ENV === "production"
-    ? "https://accredian-backend-v1-image-7dra35jwyq-uc.a.run.app"
-    : "http://localhost:5001");
-
+  process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD
 /**
  * Requests browser coordinates via navigator.geolocation and calls our
  * backend reverse geocoding endpoint (/location/reverse-geocode).

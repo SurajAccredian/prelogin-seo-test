@@ -9,6 +9,8 @@ export default function StepperVertical() {
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
             <img
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps1.webp"
               alt="career launchpad"
@@ -31,6 +33,8 @@ export default function StepperVertical() {
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
             <img
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps2.webp"
               alt="Interview preparation"
@@ -54,6 +58,8 @@ export default function StepperVertical() {
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
             <img
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps3.webp"
               alt="Mentor session"

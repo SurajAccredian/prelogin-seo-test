@@ -51,8 +51,7 @@ const Hero = ({ data }) => {
           const decoded = decodeToken(token);
           if (decoded?.data?.user_id) {
             const BACKEND_URL =
-              process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD ||
-              "http://localhost:5001";
+              process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD
             fetch(
               `${BACKEND_URL}/api/certification-payment/check-enrollment?user_id=${decoded.data.user_id}&program_id=${data.program_id}`
             )

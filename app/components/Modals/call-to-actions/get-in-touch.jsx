@@ -17,7 +17,7 @@ import { HashLoader } from "../../Loaders";
 import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
 
-export default function CtaModal({ open, setOpen }) {
+function CtaModalContent({ open, setOpen }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
@@ -174,7 +174,7 @@ export default function CtaModal({ open, setOpen }) {
                       <h1 className="font-medium">To Inquire</h1>
                       <span>-</span>
                       <a
-                        href={`tel:${open?.contact}`}
+                        href={`tel:${open?.contact?.replace(/\s/g, "")}`}
                         className="underline font-semibold"
                       >
                         {open?.contact?.substring(0, 5) +
@@ -381,7 +381,7 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                         <h1 className="font-medium">To Inquire</h1>
                         <span>-</span>
                         <a
-                          href={`tel:${open?.contact}`}
+                          href={`tel:${open?.contact?.replace(/\s/g, "")}`}
                           className="underline font-semibold"
                         >
                           {open?.contact?.substring(0, 5) +
@@ -398,5 +398,14 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
         </Fade>
       </Modal>
     </div>
+  );
+}
+
+export default function CtaModal(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <CtaModalContent {...props} />
+    </React.Suspense>
   );
 }

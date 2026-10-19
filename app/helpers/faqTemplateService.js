@@ -308,8 +308,10 @@ const extractEmiDuration = (overviewContent) => {
 
 // Function to generate templte of the FAQ
 const getTemplateData = (programData) => {
-    // Extract dynamic values from your existing program data
-    const baseUrl = window.location.origin || 'https://yourdomain.com';
+    const baseUrl =
+      typeof window !== "undefined" && window.location
+        ? window.location.origin
+        : "https://accredian.com";
     // const policyPath = '/policies/iit-kanpur';
     // const fullPolicyUrl = `${baseUrl}${policyPath}`;
     const universityCode = programData.short_university_name || 'iitk';

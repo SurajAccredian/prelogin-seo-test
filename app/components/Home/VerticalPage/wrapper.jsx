@@ -1,3 +1,5 @@
+"use client";
+
 import ProgramWrapper from "../../Wrapper/ProgramWrapper";
 import CTA from "./CTA/CTA";
 import program from "./Programs.css";
@@ -17,25 +19,25 @@ const Wrapper = ({ data }) => {
         return (
           <>
             {/* <Line /> */}
-            <Stats />
+            <Stats data={data} />
             {/* <Line /> */}
-            <Partners />
+            <Partners data={data} />
             <Line />
-            <VerticalDetail />
+            <VerticalDetail data={data} />
             <Line />
           </>
         );
       case "why accredian":
         return (
           <>
-            <WhyAccredian />
+            <WhyAccredian data={data} />
           </>
         );
       case "unique points":
-        return <CarrerOutComes />;
+        return <CarrerOutComes data={data} />;
 
       case "FAQs":
-        return <FAQ />;
+        return <FAQ data={data} />;
       default:
         return null;
     }
@@ -43,7 +45,7 @@ const Wrapper = ({ data }) => {
 
   return (
     <ProgramWrapper>
-      <Hero />
+      <Hero data={data} />
       <div className="programs w-full min-h-screen flex justify-center flex-col items-center font-circular">
         <div className="w-full">
           {data &&

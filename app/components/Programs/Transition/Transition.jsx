@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState, useMemo } from 'react';
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -12,7 +12,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css';
 
-import { useEffect, useState } from 'react';
 import TRANSITIONS from "../../Assets/transitions.json"
 import { useSelector } from 'react-redux';
 import "./Transition.css"
@@ -20,13 +19,22 @@ import "./Transition.css"
 
 SwiperCore.use([Navigation, Autoplay])
 
-const Transition = () => {
+const Transition = ({ data: propData }) => {
 
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
   const [swiper, setSwiper] = useState(null);
-  const { data } = useSelector(state => state.program)
-  const [transitions, setTransitions] = useState([])
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
+
+  const initialTransitions = React.useMemo(() => {
+    if (data?.vertical && TRANSITIONS) {
+      return TRANSITIONS.filter(item => item.category.includes(data?.vertical));
+    }
+    return [];
+  }, [data?.vertical]);
+
+  const [transitions, setTransitions] = useState(initialTransitions);
 
   useEffect(() => {
     if (data && TRANSITIONS) {

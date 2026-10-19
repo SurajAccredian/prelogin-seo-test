@@ -3,8 +3,7 @@
 
 node syncPrograms.js
 node syncNumbers.js
-node syncSitemaps.js
 git add app/components/Assets/programs.json
 git add public/programs.json
-git add public/sitemaps/
-git add public/sitemap.xml
+git add public/numbers.json
+git add public/category-numbers.json

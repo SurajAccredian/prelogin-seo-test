@@ -3,8 +3,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Calendar, Clock, ArrowRight, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import "./Programs.css";
-import { STREAMS } from "../../Assets/constants";
+import { STREAMS, BLUR_DATA_URL } from "../../Assets/constants";
 import { IoIosArrowDown } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
@@ -40,6 +41,20 @@ const POPULAR_PROGRAM_IDS = [
   "global-senior-leadership-program",
   "senior-management-program",
   "iim-ranchi-senior-management-program",
+  "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+  "iiml-chief-human-resource-officer-programme-the-chro-program",
+  "iims-executive-program-in-leadership-with-ai",
+  "iimt-certificate-programme-in-leadership-with-ai",
+  "professional-certificate-program-in-strategic-project-management-and-leadership",
+  "iimr-executive-program-in-strategic-hr-leadership",
+  "iim-kashipur-chief-operating-officer-program",
+  "iit-jammu-advanced-certificate-in-ai-for-leaders",
+  "professional-certificate-in-ai-for-leaders",
+  "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+  "chief-technology-officer-programme",
+  "executive-development-program-in-global-senior-management",
+  "pg-certificate-program-in-data-science-ai",
+  "advanced-certificate-program-in-strategic-project-management",
 ];
 
 const Programs = () => {
@@ -398,10 +413,17 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
       }}
     >
       {/* Fixed Height Background Image */}
-      <div
-        className="relative h-[80px] md:h-[120px] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
+      <div className="relative h-[80px] md:h-[120px] bg-[#F3F4F6] transition-transform duration-700 group-hover:scale-110">
+        <Image
+          src={backgroundImage}
+          alt={`${program.university_name} Background | ${program.program_name}`}
+          fill
+          sizes="(max-width: 767px) 85vw, (max-width: 1535px) 45vw, 30vw"
+          className="object-cover object-center"
+          placeholder="blur"
+          blurDataURL={BLUR_DATA_URL}
+          quality={70}
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-universal/60 to-universal/30" />
       </div>
 
@@ -422,9 +444,12 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
         {/* University Logo - Half overlapping using negative margin */}
         <div className="relative -mt-[25px] sm:-mt-[30px] mb-2 sm:mb-3 z-10">
           <div className="w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] rounded-lg bg-white shadow-lg p-1.5 sm:p-2 transition-transform duration-500 group-hover:scale-105">
-            <img
+            <Image
               src={program.university_image}
               alt={program.university_name}
+              width={60}
+              height={60}
+              sizes="60px"
               className="w-full h-full object-contain"
             />
           </div>
@@ -454,33 +479,35 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
 
         {/* Buttons - pushed to bottom */}
         <div className="flex flex-col md:flex-row gap-2 sm:gap-3 mt-auto">
-          <button
-            onClick={() => {
-              const isFreeCourse =
-                program.category?.toLowerCase() === "free courses" ||
-                program.category?.toLowerCase() === "microsoft" ||
-                program.id === "transform-business-workflows-with-generative-ai" ||
-                program.id === "transform-ideas-into-impact-with-product-management";
-              const path = isFreeCourse ? "free-courses" : "programs";
-              window.open(`http://accredian.com/${path}/${program.id}`);
-            }}
-            className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide"
-          >
-            <span className="text-[12px]">Explore</span>
-            <svg
-              className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2.5}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
-          </button>
+          {(() => {
+            const isFreeCourse =
+              program.category?.toLowerCase() === "free courses" ||
+              program.category?.toLowerCase() === "microsoft" ||
+              program.id === "transform-business-workflows-with-generative-ai" ||
+              program.id === "transform-ideas-into-impact-with-product-management";
+            const path = isFreeCourse ? "free-courses" : "programs";
+            return (
+              <Link
+                href={`/${path}/${program.id}`}
+                className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide no-underline"
+              >
+                <span className="text-[12px]">Explore</span>
+                <svg
+                  className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2.5}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </Link>
+            );
+          })()}
 
           {program.brochure?.pdf && (
             <button

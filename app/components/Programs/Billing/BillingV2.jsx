@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { IoIosArrowForward, IoMdCheckmarkCircleOutline } from "react-icons/io";
 import CircularProgress from "@mui/material/CircularProgress";
 import "./Billing.css";
@@ -8,28 +8,28 @@ import { programActions } from "../../../store/reducers/program";
 import BillingModal from "../../Modals/billing-modal";
 import CustomEnrollNowButton from "../CustomEnrollNowButton";
 
-const BillingV2 = () => {
-  const { data, enrollLoderState } = useSelector((state) => state.program);
+const BillingV2 = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
+  const enrollLoderState = reduxProgram.enrollLoderState;
   const dispatch = useDispatch();
   const [billings, setBillings] = useState(null);
   const [showAllPoints, setShowAllPoints] = useState(false);
-  const [smallestEmi, setSmallestEmi] = useState(0);
 
-  useEffect(() => {
-    if (data?.billing) {
-      const emiValues = data.billing.monthly_emi.map((item) => {
-        if (typeof item.emi === "number") {
-          return item.emi;
-        } else if (typeof item.emi === "string") {
-          const match = item.emi.match(/\d+/);
-          return match ? parseInt(match[0], 10) : Infinity;
-        }
-        return Infinity;
-      });
+  const smallestEmi = React.useMemo(() => {
+    if (!data?.billing?.monthly_emi?.length) return 0;
+    const emiValues = data.billing.monthly_emi.map((item) => {
+      if (typeof item.emi === "number") {
+        return item.emi;
+      } else if (typeof item.emi === "string") {
+        const match = item.emi.match(/\d+/);
+        return match ? parseInt(match[0], 10) : Infinity;
+      }
+      return Infinity;
+    });
 
-      const minEmi = Math.min(...emiValues);
-      setSmallestEmi(minEmi.toLocaleString("en-IN"));
-    }
+    const minEmi = Math.min(...emiValues);
+    return isFinite(minEmi) ? minEmi.toLocaleString("en-IN") : 0;
   }, [data?.billing]);
 
   const handleEnrollNow = () => {

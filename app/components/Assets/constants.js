@@ -240,3 +240,6 @@ export const SUGGESTED_FALLBACK_SEARCHES = [
   "Technology",
 ];
 
+// Shared blur placeholder for next/image (flat #F3F4F6 8x5 SVG)
+export const BLUR_DATA_URL =
+  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjUiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjUiIGZpbGw9IiNGM0Y0RjYiLz48L3N2Zz4=";

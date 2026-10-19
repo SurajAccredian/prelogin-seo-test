@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { STREAMS } from "../../Assets/constants";
 import {
   groupProgramsByCategory,
@@ -10,14 +10,81 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Rcta from "../../cta/request_a_call_back";
 import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 
+// Computed at module level (pure function of static JSON) so the menu links
+// are part of the server-rendered HTML that crawlers read.
+const MANAGEMENT_SUBCATEGORIES = [
+  "senior management",
+  "general management",
+  "business management",
+];
+
+const CATEGORIZED_PROGRAMS = sortVerticalProgramsByStatus(
+  groupProgramsByCategory(programs),
+);
+
+const MANAGEMENT_AVAILABLE = MANAGEMENT_SUBCATEGORIES.filter(
+  (subcat) => CATEGORIZED_PROGRAMS[subcat]?.length > 0,
+);
+
+const SORTED_STREAMS = STREAMS.slice()
+  .filter(
+    (val) =>
+      !MANAGEMENT_SUBCATEGORIES.includes(val.category.toLowerCase()) &&
+      val.category.toLowerCase() !== "free courses",
+  )
+  .sort((a, b) => a.order - b.order);
+
+// Move Microsoft to right after PG Diploma
+const microsoftIndex = SORTED_STREAMS.findIndex(
+  (val) => val.category.toLowerCase() === "microsoft",
+);
+if (microsoftIndex !== -1) {
+  const [microsoftStream] = SORTED_STREAMS.splice(microsoftIndex, 1);
+  const pgDiplomaIndex = SORTED_STREAMS.findIndex(
+    (val) => val.category.toLowerCase() === "pg diploma",
+  );
+  SORTED_STREAMS.splice(pgDiplomaIndex + 1, 0, microsoftStream);
+}
+
+const VERTICALS_LIST = (() => {
+  const verticals = SORTED_STREAMS.filter(
+    (stream) => CATEGORIZED_PROGRAMS[stream.category.toLowerCase()]?.length > 0,
+  ).map((stream) => ({
+    type: "regular",
+    category: stream.category,
+    order: stream.order,
+  }));
+
+  // Insert management vertical at position 4 (index 3)
+  if (MANAGEMENT_AVAILABLE.length > 0) {
+    verticals.splice(Math.min(3, verticals.length), 0, {
+      type: "management",
+      category: "Management",
+      subcategories: MANAGEMENT_AVAILABLE,
+    });
+  }
+  return verticals;
+})();
+
+// One panel per category / management subcategory. All are rendered in the
+// DOM (inactive ones hidden) so every program link is in the server HTML.
+const PANELS = [
+  ...VERTICALS_LIST.filter((v) => v.type === "regular").map((v) => ({
+    key: v.category.toLowerCase(),
+    programs: CATEGORIZED_PROGRAMS[v.category.toLowerCase()],
+  })),
+  ...MANAGEMENT_AVAILABLE.map((subcat) => ({
+    key: `management:${subcat}`,
+    programs: CATEGORIZED_PROGRAMS[subcat],
+  })),
+];
+
 const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
   const { getProgramStatus } = useProgramStatuses();
-  const [categorizedPrograms, setCategorizedPrograms] = useState([]);
   const [sideTab, setSideTab] = useState("pg diploma");
   const [cta, setCta] = useState(false);
-  const [managementSubcategories, setManagementSubcategories] = useState([]);
   const [selectedManagementSubcategory, setSelectedManagementSubcategory] =
-    useState("");
+    useState(MANAGEMENT_AVAILABLE[0] || "");
 
   const handleClickOpenRcb = () => {
     setCta(true);
@@ -27,112 +94,28 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
     setCta(false);
   };
 
-  // Define management subcategories
-  const MANAGEMENT_SUBCATEGORIES = [
-    "senior management",
-    "general management",
-    "business management",
-  ];
-
-  useEffect(() => {
-    const fetchPrograms = groupProgramsByCategory(programs);
-    const sortedPrograms = sortVerticalProgramsByStatus(fetchPrograms);
-    setCategorizedPrograms(sortedPrograms || []);
-
-    // Filter management subcategories that have programs
-    const availableSubcategories = MANAGEMENT_SUBCATEGORIES.filter((subcat) => {
-      const programs = sortedPrograms[subcat.toLowerCase()];
-      return programs && programs.length > 0;
-    });
-    setManagementSubcategories(availableSubcategories);
-    if (availableSubcategories.length > 0) {
-      setSelectedManagementSubcategory(availableSubcategories[0]);
-    }
-  }, []);
-
-  // Check if current category has 2 or fewer programs
   const isManagementView = sideTab.toLowerCase() === "management";
+  const activePanelKey = isManagementView
+    ? `management:${selectedManagementSubcategory}`
+    : sideTab.toLowerCase();
 
-  // Calculate total programs for the current view
-  const currentProgramsCount = isManagementView
-    ? categorizedPrograms[selectedManagementSubcategory.toLowerCase()]
-        ?.length || 0
-    : categorizedPrograms[sideTab.toLowerCase()]?.length || 0;
+  const currentProgramsCount =
+    PANELS.find((panel) => panel.key === activePanelKey)?.programs.length || 0;
   const showImage = currentProgramsCount <= 2;
 
-  // Check if there are any management programs at all
-  const hasManagementPrograms = managementSubcategories.length > 0;
-
-  // Sort streams and prepare for insertion
-  const sortedStreams = STREAMS.slice()
-    .filter(
-      (val) =>
-        !MANAGEMENT_SUBCATEGORIES.includes(val.category.toLowerCase()) &&
-        val.category.toLowerCase() !== "free courses",
-    )
-    .sort((a, b) => a.order - b.order);
-
-  // Move Microsoft to right after PG Diploma
-  const microsoftIndex = sortedStreams.findIndex(
-    (val) => val.category.toLowerCase() === "microsoft",
-  );
-  if (microsoftIndex !== -1) {
-    const [microsoftStream] = sortedStreams.splice(microsoftIndex, 1);
-    const pgDiplomaIndex = sortedStreams.findIndex(
-      (val) => val.category.toLowerCase() === "pg diploma",
-    );
-    sortedStreams.splice(pgDiplomaIndex + 1, 0, microsoftStream);
-  }
-
-  // Insert management vertical at position 4 (index 3)
-  const getVerticalsList = () => {
-    const verticals = [];
-
-    sortedStreams.forEach((stream) => {
-      // Add regular streams that have programs
-      const programsInCategory =
-        categorizedPrograms[stream.category.toLowerCase()];
-      if (programsInCategory && programsInCategory.length > 0) {
-        verticals.push({
-          type: "regular",
-          category: stream.category,
-          order: stream.order,
-        });
-      }
-    });
-
-    // Insert management vertical at position 4 (index 3)
-    if (hasManagementPrograms) {
-      const insertPosition = Math.min(3, verticals.length);
-      verticals.splice(insertPosition, 0, {
-        type: "management",
-        category: "Management",
-        subcategories: managementSubcategories,
-      });
-    }
-
-    return verticals;
-  };
-
-  const verticalsList = getVerticalsList();
-
-  const displayPrograms = isManagementView
-    ? categorizedPrograms[selectedManagementSubcategory.toLowerCase()] || []
-    : categorizedPrograms[sideTab.toLowerCase()] || [];
+  const verticalsList = VERTICALS_LIST;
+  const managementSubcategories = MANAGEMENT_AVAILABLE;
 
   return (
     <>
+      {/* Opens via CSS group-hover so it works before hydration; state keeps it in sync after. */}
       <div
-        onMouseEnter={() => {
-          setIsDropdownOpen(false);
-        }}
-        className={`absolute top-[100%] left-0 right-0 w-full h-screen flex justify-center items-start bg-black/60 ${
-          isDropdownOpen ? "opacity-100" : "opacity-0"
-        } transition-all duration-150 px-4 xl:px-12`}
-        style={{ visibility: isDropdownOpen ? "visible" : "hidden" }}
+        className={`absolute top-[100%] left-0 right-0 w-full h-screen flex justify-center items-start bg-black/60 pointer-events-none ${
+          isDropdownOpen ? "visible opacity-100" : "invisible opacity-0"
+        } group-hover/courses:visible group-hover/courses:opacity-100 transition-all duration-150 px-4 xl:px-12`}
       >
         <div
-          className="max-w-[85rem] border-t h-[70vh] max-h-[470px] px-2 rounded-b-md overflow-visible bg-white w-full flex relative"
+          className="max-w-[85rem] border-t h-[70vh] max-h-[470px] px-2 rounded-b-md overflow-visible bg-white w-full flex relative pointer-events-auto"
           onMouseEnter={(e) => {
             e.stopPropagation();
             setIsDropdownOpen(true);
@@ -232,8 +215,12 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                   </div>
                 )}
               </div>
-              <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-y-8 gap-x-6 mt-4 px-2 py-2 max-h-[380px] h-[55vh] overflow-y-auto custom-scrollbar items-start">
-                {displayPrograms.map((item, index) => {
+              {PANELS.map((panel) => (
+              <div
+                key={panel.key}
+                className={`${panel.key === activePanelKey ? "grid" : "hidden"} w-full grid-cols-1 lg:grid-cols-3 gap-y-8 gap-x-6 mt-4 px-2 py-2 max-h-[380px] h-[55vh] overflow-y-auto custom-scrollbar items-start`}
+              >
+                {panel.programs.map((item, index) => {
                   // Render program card
                   const val = item;
                   return (
@@ -254,6 +241,8 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                                 src={val.university_image}
                                 alt={val.university_name}
                                 className="w-6 h-6 object-contain flex-shrink-0"
+                                loading="lazy"
+                                decoding="async"
                               />
                               <p className="text-[13px] font-medium text-gray-700">
                                 {val.university_name}
@@ -300,6 +289,7 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                   );
                 })}
               </div>
+              ))}
             </div>
           </div>
 

@@ -1,0 +1,57 @@
+# Files excluded from cloud uploads/builds (Google Cloud Build / Cloud Run source deploys).
+# Anything the `next build` needs (app/, public/, package*.json, next.config.ts,
+# middleware.ts, tsconfig.json, postcss/tailwind/eslint configs) must NOT be listed here.
+
+# VCS and hooks
+.git
+.gitignore
+.gitmodules
+.husky
+
+# Dependencies (reinstalled in the cloud build with `npm ci`)
+node_modules
+.pnp
+.pnp.*
+.yarn
+
+# Build output and caches
+.next
+out
+build
+coverage
+*.tsbuildinfo
+next-env.d.ts
+out.css
+
+# Secrets and local env (inject through the platform instead)
+.env
+.env.*
+*.pem
+
+# Logs and OS/editor junk
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+.claude
+
+# Docs and audit material not needed at runtime
+README.md
+AGENTS.md
+CLAUDE.md
+*.pdf
+Accredian_Technical_SEO_and_GEO_Remediation_Plan.md
+
+# Dev-only scripts (run locally / in CI, not part of the build)
+seo-smoke-test.mjs
+syncNumbers.js
+syncPrograms.js
+syncSitemaps.js
+
+# Container/deploy files themselves
+.cloudignore
+.gcloudignore
+.dockerignore

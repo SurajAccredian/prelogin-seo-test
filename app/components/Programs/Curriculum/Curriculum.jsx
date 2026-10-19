@@ -4,10 +4,22 @@ import { useSelector } from "react-redux";
 import AccordionDrop from "./AccordionDrop/AccordionDrop";
 import SideForm from "./SideForm/SideForm";
 
-const Curriculum = () => {
+const Curriculum = ({ data: propData }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
-  const { data } = useSelector((state) => state.program);
+  if (!data?.curriculum) {
+    return (
+      <div id="curriculum" className="program-accordion w-full flex justify-center py-12 xl:px-12 px-4">
+        <div className="w-full max-w-[85rem] animate-pulse">
+          <div className="h-4 w-48 bg-slate-200 rounded mb-3" />
+          <div className="h-8 w-96 bg-slate-200 rounded mb-8" />
+          <div className="w-full h-64 bg-slate-100 rounded-xl border border-slate-200" />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -54,6 +66,7 @@ const Curriculum = () => {
           >
             <div className="flex-1">
               <AccordionDrop
+                data={data}
                 type={data?.curriculum_type}
                 curriculum={data?.curriculum}
                 openAll={isExpanded}
@@ -61,7 +74,7 @@ const Curriculum = () => {
               />
             </div>
             <div className="flex-[0.5] hidden lg:flex justify-center px-8">
-              <SideForm />
+              <SideForm data={data} />
             </div>
           </div>
         )}

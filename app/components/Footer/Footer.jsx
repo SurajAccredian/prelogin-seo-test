@@ -454,19 +454,6 @@ const Footer = () => {
                         </Typography>
                       </Link>
 
-                      {/* <Link href="/Faq" style={{ textDecoration: "none" }}>
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Master FAQs
-                        </Typography>
-                      </Link> */}
                     </div>
                   </div>
                   {/* <li className="pt-4"> */}
@@ -760,7 +747,7 @@ const Footer = () => {
                           <div
                             className="flex gap-4 cursor-pointer mb-4 text-[12px]"
                             onClick={() =>
-                              (window.location.href = `tel:${matchingContact.contact}`)
+                              (window.location.href = `tel:${matchingContact.contact.replace(/\s/g, "")}`)
                             }
                           >
                             <div className="">

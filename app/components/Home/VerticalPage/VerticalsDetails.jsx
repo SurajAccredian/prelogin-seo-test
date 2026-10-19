@@ -57,10 +57,10 @@ const VerticalDetail = () => {
                 {category}{" "}
                 <span className="">({categorizedPrograms.length})</span>
               </h4>
-              <h1 className="text-3xl lg:text-[44px] mt-2 font-medium capitalize">
+              <h2 className="text-3xl lg:text-[44px] mt-2 font-medium capitalize">
                 {category} programs from
                 <span className="text-universal"> premier institutes </span>
-              </h1>
+              </h2>
             </div>
           </div>
 
@@ -68,13 +68,13 @@ const VerticalDetail = () => {
             {/* <div className="w-full max-w-[90vw] lg:max-w-[60rem] xl:max-w-[78rem]"> */}
             {categorizedPrograms &&
               categorizedPrograms.map((val, index) => (
-                <div className="w-full lg:max-w-[325px] rounded-2xl overflow-hidden bg-white drop-shadow flex flex-col relative">
+                <div key={index} className="w-full lg:max-w-[325px] rounded-2xl overflow-hidden bg-white drop-shadow flex flex-col relative">
                   <div className="w-full h-32 flex items-center justify-center bg-blue-50">
                     <img
                       loading="lazy"
                       className="w-full h-full object-cover"
                       src={val.cover_image}
-                      alt="cover images"
+                      alt={`${val.program_name} - ${val.university_name || "Accredian"}`}
                     />
                   </div>
                   <div className="w-full pt-4 pb-2 px-4">
@@ -88,34 +88,34 @@ const VerticalDetail = () => {
                           alt={val.university_name}
                         />
                       </div>
-                      <h1
+                      <p
                         title={val.university_name}
                         className="text-center font-medium text-xs text-neutral-500 cursor-context-menu"
                       >
                         {val.university_name}
-                      </h1>
+                      </p>
                     </div>
                     <div className="w-full border-b border-neutral-300 mt-4" />
                   </div>
                   <div className="w-full flex-1 flex flex-col justify-between px-4 pt-2 pb-4 cursor-context-menu">
-                    <h1 className="font-semibold">{val.program_name}</h1>
+                    <h3 className="font-semibold text-lg text-gray-900">{val.program_name}</h3>
                     <div className="w-full">
-                      <h2
+                      <h4
                         className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu"
                         title={val.tags?.join(", ")}
                       >
                         <span className="text-black">Core skills - </span>
                         {val.tags?.join(", ")}
-                      </h2>
+                      </h4>
                       <div className="flex items-center gap-2">
                         <CiViewTimeline
                           className="text-2xl text-universal/90"
                           strokeWidth={0.5}
                         />
-                        <h1 className="text-base font-medium capitalize">
+                        <p className="text-base font-medium capitalize">
                           {val.duration} -{" "}
                           <span title={val.batch_type}>{val.batch_type}</span>
-                        </h1>
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-center w-full gap-2 mt-4">

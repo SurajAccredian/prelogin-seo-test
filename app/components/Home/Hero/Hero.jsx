@@ -1,4 +1,5 @@
 import "./hero.css";
+import Image from "next/image";
 import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -6,30 +7,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { MoveRight, PhoneCall } from "lucide-react";
-import { useEffect } from "react";
 import RctaABTesting from "../../cta/request_a_call_back";
+import { BLUR_DATA_URL } from "../../Assets/constants";
 
 const Hero = () => {
-  useEffect(() => {
-    const lazyBackgrounds = document.querySelectorAll(".lazy-bg");
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const bg = entry.target.getAttribute("data-bg");
-          if (bg) {
-            entry.target.style.backgroundImage = `url(${bg})`;
-            entry.target.classList.remove("lazy-bg");
-            observer.unobserve(entry.target);
-          }
-        }
-      });
-    });
-
-    lazyBackgrounds.forEach((bg) => observer.observe(bg));
-
-    return () => observer.disconnect();
-  }, []);
   const [cta, setCta] = useState(false);
   const swiperRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
@@ -101,17 +82,36 @@ const Hero = () => {
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp"
   ];
 
+  const universityNames = [
+    "IIM Visakhapatnam",
+    "IIM Tiruchirappalli",
+    "IIT Kanpur",
+    "IIM Lucknow",
+    "IIM Amritsar",
+    "XLRI Delhi NCR",
+    "SP Jain School of Global Management",
+    "IIT Jammu",
+    "IIM Ranchi",
+    "IIM Kashipur"
+  ];
+
   const duplicatedUniversityImages = [...universityImages, ...universityImages];
 
   const universityImagesComponent = duplicatedUniversityImages.map(
-    (imageUrl, index) => (
-      <img
-        key={index}
-        src={imageUrl}
-        alt={`University ${index + 1}`}
-        className="university-image shadow-lg p-1"
-      />
-    )
+    (imageUrl, index) => {
+      const name = universityNames[index % universityNames.length] || `Partner University ${index + 1}`;
+      return (
+        <Image
+          key={index}
+          src={imageUrl}
+          alt={`${name} - Accredian Partner Institution`}
+          width={70}
+          height={70}
+          sizes="70px"
+          className="university-image shadow-lg p-1"
+        />
+      );
+    }
   );
   return (
     <div className="hero-wrapper">
@@ -147,12 +147,21 @@ const Hero = () => {
             <SwiperSlide key={slide.id}>
               <div className="hero-slide">
                 {/* Mobile Layout */}
-                <div className="mobile-hero-layout">
+                <div className="mobile-hero-layout" aria-hidden="true">
                   {/* Top Image Section */}
-                  <div
-                    className="mobile-hero-image lazy-bg"
-                    data-bg={slide.mobileBackgroundImage || slide.backgroundImage}
-                  />
+                  <div className="mobile-hero-image overflow-hidden relative">
+                    <Image
+                      src={slide.mobileBackgroundImage || slide.backgroundImage}
+                      alt={slide.title}
+                      fill
+                      loading={index === 0 ? "eager" : "lazy"}
+                      fetchPriority={index === 0 ? "high" : "auto"}
+                      sizes="(max-width: 767px) 100vw, 60vw"
+                      placeholder="blur"
+                      blurDataURL={BLUR_DATA_URL}
+                      className="object-cover"
+                    />
+                  </div>
 
                   {/* Overlapping Content Card */}
                   <div className="mobile-content-card">
@@ -263,10 +272,19 @@ const Hero = () => {
                 {/* Desktop/Tablet Layout */}
                 <div className="desktop-hero-layout">
                   {/* Desktop Background Image - Right Side */}
-                  <div
-                    className="hero-background-desktop lazy-bg"
-                    data-bg={slide.backgroundImage}
-                  />
+                  <div className="hero-background-desktop overflow-hidden relative">
+                    <Image
+                      src={slide.backgroundImage}
+                      alt={slide.title}
+                      fill
+                      loading={index === 0 ? "eager" : "lazy"}
+                      fetchPriority={index === 0 ? "high" : "auto"}
+                      sizes="(max-width: 767px) 100vw, 60vw"
+                      placeholder="blur"
+                      blurDataURL={BLUR_DATA_URL}
+                      className="object-cover object-left"
+                    />
+                  </div>
 
                   {/* Gradient Overlays */}
                   <div className="hero-gradient-overlay" />

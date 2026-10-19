@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import workshopData from "../Assets/verification/coca-cola-participants.json";
 
-const CocaColaVerification = () => {
+const CocaColaVerificationContent = () => {
   const searchParams = useSearchParams();
   const certId = searchParams.get("id");
 
@@ -274,4 +274,10 @@ const CocaColaVerification = () => {
   );
 };
 
-export default CocaColaVerification;
+export default function CocaColaVerification(props) {
+  return (
+    <React.Suspense fallback={null}>
+      <CocaColaVerificationContent {...props} />
+    </React.Suspense>
+  );
+}

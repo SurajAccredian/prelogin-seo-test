@@ -29,16 +29,43 @@ import { useProgramStatuses } from "../../../../helpers/useProgramStatuses";
 
 SwiperCore.use([EffectCoverflow, Navigation, Autoplay]);
 
-const VerticalDetail = () => {
-  const { data } = useSelector((state) => state.program);
+const VerticalDetail = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
   const dispatch = useDispatch();
   const { getProgramStatus } = useProgramStatuses();
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
   const [verticalPrograms, setVerticalPrograms] = useState([]);
   const [swiper, setSwiper] = useState(null);
-  const { category } = useParams();
-  const [categorizedPrograms, setCategorizedPrograms] = useState([]);
+  const params = useParams();
+  const category = params?.category;
+
+  const normalizeCategory = (str) =>
+    String(str || "")
+      .toLowerCase()
+      .replace(/-/g, " ")
+      .replace(/\s*&\s*/g, " and ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const getFiltered = (cat, pageData) => {
+    const target =
+      pageData?.short_id ||
+      pageData?.vertical ||
+      pageData?.short_title ||
+      cat;
+    if (!target) return [];
+    const targetStr = Array.isArray(target) ? target[0] : String(target);
+    const targetNorm = normalizeCategory(decodeURIComponent(targetStr));
+    return PROGRAMS.filter(
+      (program) => normalizeCategory(program.category) === targetNorm
+    );
+  };
+
+  const [categorizedPrograms, setCategorizedPrograms] = useState(() =>
+    getFiltered(category, data)
+  );
   useEffect(() => {
     if (swiper) {
       swiper.el.onmouseover = () => {
@@ -51,15 +78,8 @@ const VerticalDetail = () => {
   }, [swiper]);
 
   useEffect(() => {
-    // Filter programs based on the category from URL
-    const sanitizedCategory = category.replace(/-/g, " ").toLowerCase();
-    const filteredPrograms = PROGRAMS.filter(
-      (program) =>
-        program.category.toLowerCase() === sanitizedCategory.toLowerCase()
-    );
-
-    setCategorizedPrograms(filteredPrograms);
-  }, [category]);
+    setCategorizedPrograms(getFiltered(category, data));
+  }, [category, data]);
 
   // console.log(categorizedPrograms)
 
@@ -90,11 +110,11 @@ const VerticalDetail = () => {
                 {data?.short_title} Programs
               </span>
             </h4>
-            <h1 className="text-2xl md:text-3xl mt-2 font-semibold ">
+            <h2 className="text-2xl md:text-3xl mt-2 font-semibold ">
               {data?.short_title}{" "}
               {categorizedPrograms.length > 1 ? "Programs" : "Program"} from
               <span className="text-universal"> premier institutes</span>{" "}
-            </h1>
+            </h2>
           </div>
           {/* 
           <div className="w-full flex md:flex-row flex-col justify-normal md:justify-between lg:gap-8 gap-4 items-start md:items-end">
@@ -173,7 +193,7 @@ const VerticalDetail = () => {
                           loading="lazy"
                           className="w-full h-full object-cover"
                           src={program.cover_image}
-                          alt="cover images"
+                          alt={`${program.program_name} - ${program.university_name || "Accredian"}`}
                         />
                       </div>
                       <div className="w-full pt-4 pb-2 px-4">
@@ -186,38 +206,38 @@ const VerticalDetail = () => {
                               alt={program.university_name}
                             />
                           </div>
-                          <h1
+                          <p
                             title={program.university_name}
                             className="text-center font-medium text-xs text-neutral-500 cursor-context-menu"
                           >
                             {program.university_name}
-                          </h1>
+                          </p>
                         </div>
                         <div className="w-full border-b border-neutral-300 mt-4" />
                       </div>
                       <div className="w-full flex-1 flex flex-col justify-between px-4 pt-2 pb-4 cursor-context-menu">
-                        <h1 className="font-semibold">
+                        <h3 className="font-semibold text-lg text-gray-900">
                           {program.program_name}
-                        </h1>
+                        </h3>
                         <div className="w-full">
-                          <h2
+                          <h4
                             className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu"
                             title={program.tags?.join(", ")}
                           >
                             <span className="text-black">Core skills - </span>
                             {program.tags?.join(", ")}
-                          </h2>
+                          </h4>
                           <div className="flex items-center gap-2">
                             <CiViewTimeline
                               className="text-2xl text-universal/90"
                               strokeWidth={0.5}
                             />
-                            <h1 className="text-base font-medium capitalize">
+                            <p className="text-base font-medium capitalize">
                               {program.duration} -{" "}
                               <span title={program.batch_type}>
                                 {program.batch_type}
                               </span>
-                            </h1>
+                            </p>
                           </div>
                         </div>
                         <div className="flex items-center w-full gap-2 mt-4">
@@ -275,7 +295,7 @@ const VerticalDetail = () => {
                     <img
                       className="w-full h-full object-cover"
                       src={program.cover_image}
-                      alt="cover images"
+                      alt={`${program.program_name} - ${program.university_name || "Accredian"}`}
                     />
                   </div>
                   <div className="w-full pt-4 pb-2 px-4">
@@ -288,36 +308,36 @@ const VerticalDetail = () => {
                           alt={program.university_name}
                         />
                       </div>
-                      <h1
+                      <p
                         title={program.university_name}
                         className="text-center font-medium text-xs text-neutral-500 cursor-context-menu"
                       >
                         {program.university_name}
-                      </h1>
+                      </p>
                     </div>
                     <div className="w-full border-b border-neutral-300 mt-4" />
                   </div>
                   <div className="w-full flex-1 flex flex-col justify-between px-4 pt-2 pb-4 cursor-context-menu">
-                    <h1 className="font-semibold">{program.program_name}</h1>
+                    <h3 className="font-semibold text-lg text-gray-900">{program.program_name}</h3>
                     <div className="w-full">
-                      <h2
+                      <h4
                         className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu"
                         title={program.tags?.join(", ")}
                       >
                         <span className="text-black">Core skills - </span>
                         {program.tags?.join(", ")}
-                      </h2>
+                      </h4>
                       <div className="flex items-center gap-2">
                         <CiViewTimeline
                           className="text-2xl text-universal/90"
                           strokeWidth={0.5}
                         />
-                        <h1 className="text-base font-medium capitalize">
+                        <p className="text-base font-medium capitalize">
                           {program.duration} -{" "}
                           <span title={program.batch_type}>
                             {program.batch_type}
                           </span>
-                        </h1>
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-center w-full gap-2 mt-4">

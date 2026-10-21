@@ -133,6 +133,7 @@ function Partnership() {
                       src={university.logo}
                       alt={university.name}
                       loading="lazy"
+                      decoding="async"
                       className={`w-full object-contain group-hover:scale-105 transition-all duration-300 ${university.name === "IIM Amritsar" ||
                         university.name === "XLRI Delhi | NCR"
                         ? "h-16"

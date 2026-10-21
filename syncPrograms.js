@@ -115,20 +115,30 @@ function runSync() {
 
   // Pick only selected fields for public/programs.json
   const filteredPrograms = programs.map(
-    ({ university_name, university_image, program_name, category, start_date, status, id, pid, duration, program_fee, required_years_experience }) => ({
-      university_name,
-      university_image,
-      program_name,
-      category,
-      start_date,
-      status,
-      url: `https://accredian.com/programs/${id}`,
-      id,
-      pid,
-      duration,
-      program_fee,
-      required_years_experience,
-    })
+    ({ university_name, university_image, program_name, category, start_date, status, id, pid, duration, program_fee, required_years_experience }) => {
+      const isFreeCourse =
+        (category && (category.toLowerCase() === "free courses" || category.toLowerCase() === "microsoft")) ||
+        (id && id.startsWith("transform-"));
+
+      const url = isFreeCourse
+        ? `https://accredian.com/free-courses/${id}`
+        : `https://accredian.com/programs/${id}`;
+
+      return {
+        university_name,
+        university_image,
+        program_name,
+        category,
+        start_date,
+        status,
+        url,
+        id,
+        pid,
+        duration,
+        program_fee,
+        required_years_experience,
+      };
+    }
   );
 
   // Debug sample

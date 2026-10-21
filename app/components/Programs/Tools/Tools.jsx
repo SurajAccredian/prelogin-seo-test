@@ -1,9 +1,13 @@
 import { useSelector } from "react-redux";
 import "./Tools.css"
 
-const Tools = () => {
+const Tools = ({ data: propData }) => {
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
 
-  const { data } = useSelector(state => state.program)
+  if (!data?.tools || data.tools.length === 0) {
+    return null;
+  }
 
   return (
     <div id="tools" className='tools w-full overflow-hidden flex flex-col items-center py-12 xl:px-12 px-4'>

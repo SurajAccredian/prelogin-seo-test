@@ -1,25 +1,16 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { STREAMS } from "../../Assets/constants";
 import "./verticals.css";
 import programs from "../../Assets/programs.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { groupProgramsByCategory } from "../../../helpers/common.helpers";
+import { categorySlug } from "../../../helpers/categorySlug";
 
 const Verticals = () => {
   const sortedStreams = STREAMS.slice().sort((a, b) => a.order - b.order);
-  const [categorizedPrograms, setCategorizedPrograms] = useState([]);
-
-  useEffect(() => {
-    function setData() {
-      const fetchPrograms = groupProgramsByCategory(programs);
-      setCategorizedPrograms(fetchPrograms || []);
-    }
-    setData();
-  }, []);
-
-  const router = useRouter();
+  const [categorizedPrograms] = useState(() => groupProgramsByCategory(programs) || {});
 
   return (
     <>
@@ -46,22 +37,17 @@ const Verticals = () => {
                   return null;
                 }
                 return (
-                  <div
+                  <Link
                     key={index}
-                    className="max-w-[330px] hover:bg-gray-100 hover:transition ease-in-out hover:shadow-xl w-full bg-white px-8 py-4 rounded-xl drop-shadow font-dmSans flex flex-col justify-between cursor-pointer group"
-                    onClick={() =>
-                      window.open(
-                        `${window.location.origin}/course/${val.category.replace(/ /g, "-")}`,
-                        "_blank"
-                      )
-                    }
+                    href={`/course/${categorySlug(val.category)}`}
+                    className="max-w-[330px] hover:bg-gray-100 hover:transition ease-in-out hover:shadow-xl w-full bg-white px-8 py-4 rounded-xl drop-shadow font-dmSans flex flex-col justify-between cursor-pointer group no-underline text-inherit"
                   >
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 relative bg-universal/15 bg-white group-hover:transition ease-in-out group-hover:bg-gray-100">
                         <val.icon className="w-full h-full text-universal"></val.icon>
                       </div>
                       <div className="">
-                        <h3 className="text-lg font-medium capitalize">
+                        <h3 className="text-lg font-medium capitalize text-gray-900">
                           {val.category}
                         </h3>
                         <h4 className="text-gray-500">
@@ -72,7 +58,7 @@ const Verticals = () => {
                         </h4>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 );
               })}
             </div>
@@ -83,19 +69,14 @@ const Verticals = () => {
             <div className="w-full flex flex-col gap-2.5">
               {sortedStreams.map((val, index) => {
                 let vertical = val.category.toLowerCase();
-                if (vertical === "pg diploma") {
+                if (vertical === "pg diploma" || vertical === "design thinking" || vertical == "microsoft" || vertical == "free courses") {
                   return null;
                 }
                 return (
-                  <div
+                  <Link
                     key={index}
-                    className="w-full bg-white px-3 py-2.5 rounded-lg shadow-sm border border-l-4 border-l-blue-500 flex items-center gap-3 cursor-pointer active:bg-gray-50 transition-colors"
-                    onClick={() =>
-                      window.open(
-                        `${window.location.origin}/course/${val.category.replace(/ /g, "-")}`,
-                        "_blank"
-                      )
-                    }
+                    href={`/course/${categorySlug(val.category)}`}
+                    className="w-full bg-white px-3 py-2.5 rounded-lg shadow-sm border border-l-4 border-l-blue-500 flex items-center gap-3 cursor-pointer active:bg-gray-50 transition-colors no-underline text-inherit"
                   >
                     <div className="w-9 h-9 flex-shrink-0 rounded-full bg-blue-50 flex items-center justify-center">
                       <val.icon className="w-5 h-5 text-universal" />
@@ -111,7 +92,7 @@ const Verticals = () => {
                           : "Courses"}
                       </h4>
                     </div>
-                  </div>
+                  </Link>
                 );
               })}
             </div>

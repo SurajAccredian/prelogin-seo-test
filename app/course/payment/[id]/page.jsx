@@ -33,7 +33,7 @@ export default function PaymentPage() {
       try {
         const decodedId = Base64.decode(encryptedId);
         setProgramId(decodedId);
-        
+
         const token = localStorage.getItem("token");
         if (token) {
           const decoded = decodeToken(token);
@@ -41,7 +41,7 @@ export default function PaymentPage() {
             const fname = decoded.data.firstname || "";
             const lname = decoded.data.lastname || decoded.data.userlastname || "";
             const fullName = [fname, lname].filter(Boolean).join(" ");
-            
+
             setUserData({
               id: decoded.data.user_id,
               name: fullName,
@@ -49,8 +49,8 @@ export default function PaymentPage() {
               phone: decoded.data.mobile || "",
             });
 
-            // Check if already enrolled
-            const BACKEND_URL = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5001";
+            const BACKEND_URL =
+              process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD
             fetch(`${BACKEND_URL}/api/certification-payment/check-enrollment?user_id=${decoded.data.user_id}&program_id=${decodedId}`)
               .then(res => res.json())
               .then(resData => {
@@ -101,7 +101,8 @@ export default function PaymentPage() {
         return;
       }
 
-      const BACKEND_URL = process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || "http://localhost:5001";
+      const BACKEND_URL =
+        process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD
 
       const orderResponse = await fetch(`${BACKEND_URL}/api/certification-payment/create-order`, {
         method: "POST",
@@ -112,9 +113,9 @@ export default function PaymentPage() {
           program_id: programId,
         }),
       });
-      
+
       const orderData = await orderResponse.json();
-      
+
       if (!orderResponse.ok || !orderData.success) {
         toast.error("Could not initiate payment");
         setProcessing(false);
@@ -148,7 +149,7 @@ export default function PaymentPage() {
             });
 
             const verifyData = await verifyRes.json();
-            
+
             if (verifyRes.ok && verifyData.success) {
               toast.success("Payment successful! You are enrolled.", { id: "payment-toast" });
               setIsAlreadyEnrolled(true);
@@ -207,22 +208,22 @@ export default function PaymentPage() {
         </div>
 
         <div className="max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           {/* Left Column: Value Proposition */}
           <div className="lg:col-span-7 flex flex-col justify-center h-full pt-8 lg:pr-12">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-semibold mb-6 w-max">
               <FaMicrosoft className="text-blue-600" />
               <span>Official Certification Partner</span>
             </div>
-            
+
             <h1 className="text-3xl lg:text-4xl font-extrabold text-slate-900 leading-tight mb-4 tracking-tight">
               Validate your skills with <span className="text-blue-600 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">Microsoft Certification</span>
             </h1>
-            
+
             <p className="text-base text-slate-600 mb-6 leading-relaxed max-w-2xl">
               Take the final step to officially recognize your expertise. Stand out to employers, increase your earning potential, and advance your career globally.
             </p>
-            
+
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
@@ -233,7 +234,7 @@ export default function PaymentPage() {
                   <p className="text-slate-600 mt-1">Earn a badge trusted and valued by top tech companies worldwide.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center">
                   <FaAward className="text-indigo-600 text-xl" />
@@ -260,9 +261,9 @@ export default function PaymentPage() {
           <div className="lg:col-span-5 relative mt-8 lg:mt-0">
             {/* Decorative ring behind card */}
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl blur opacity-25"></div>
-            
+
             <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-100">
-              
+
               {/* Card Header */}
               <div className="px-6 py-3 bg-slate-50 border-b border-slate-100">
                 <h2 className="text-2xl font-bold text-slate-900">Checkout</h2>
@@ -324,7 +325,7 @@ export default function PaymentPage() {
                         <span className="text-slate-500">GST ({GST_PERCENT}%)</span>
                         <span className="text-slate-900 font-medium">₹{GST_AMOUNT.toFixed(2)}</span>
                       </div>
-                      
+
                       <div className="flex justify-between items-center pt-4 mt-2 border-t-2 border-dashed border-slate-200">
                         <span className="text-lg font-bold text-slate-900">Total</span>
                         <span className="text-2xl font-extrabold text-blue-700">₹{TOTAL_AMOUNT.toFixed(2)}</span>
@@ -335,11 +336,10 @@ export default function PaymentPage() {
                     <button
                       onClick={handlePayment}
                       disabled={processing}
-                      className={`w-full py-3 px-6 rounded-xl text-white font-bold text-lg shadow-lg shadow-blue-500/30 transition-all duration-300 transform flex justify-center items-center ${
-                        processing 
-                          ? "bg-blue-400 cursor-not-allowed scale-100" 
-                          : "bg-blue-600 hover:bg-blue-700 hover:-translate-y-1 hover:shadow-blue-600/40 active:scale-95"
-                      }`}
+                      className={`w-full py-3 px-6 rounded-xl text-white font-bold text-lg shadow-lg shadow-blue-500/30 transition-all duration-300 transform flex justify-center items-center ${processing
+                        ? "bg-blue-400 cursor-not-allowed scale-100"
+                        : "bg-blue-600 hover:bg-blue-700 hover:-translate-y-1 hover:shadow-blue-600/40 active:scale-95"
+                        }`}
                     >
                       {processing ? (
                         <span className="flex items-center justify-center gap-2">
@@ -353,7 +353,7 @@ export default function PaymentPage() {
                         `Pay ₹${TOTAL_AMOUNT.toFixed(2)} Securely`
                       )}
                     </button>
-                    
+
                     <div className="flex items-center justify-center gap-2 mt-3 text-[10px] text-slate-400 font-medium uppercase tracking-wider">
                       <FaShieldAlt />
                       <span>Secured by Razorpay</span>
@@ -363,10 +363,10 @@ export default function PaymentPage() {
               </div>
             </div>
           </div>
-          
+
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );

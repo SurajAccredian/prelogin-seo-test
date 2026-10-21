@@ -4,7 +4,7 @@
   "category": 64,
   "vertical": "artificial intelligence",
   "title": "Certificate Programme in Leadership with AI",
-  "seo_title": "Certificate Programme in Leadership with AI",
+  "seo_title": "IIM Tiruchirappalli Leadership with AI Certificate",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "",
@@ -290,5 +290,8 @@
       "title": "Lovable",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/lovable.svg"
     }
-  ]
+  ],
+  "og_title": "IIM Tiruchirappalli - Certificate Programme in Leadership with AI",
+  "meta_description": "Master AI strategy, improve decision-making, and drive digital growth with IIM Tiruchirappalli's 8-month online certificate program.",
+  "keywords": "IIM Trichy Leadership with AI, IIM Tiruchirappalli AI program, AI certificate for business leaders, executive AI course IIM"
 }

@@ -100,7 +100,7 @@ const Application = () => {
 
             <button className="w-full max-w-[200px] outline-none mt-4 rounded-lg bg-blue-500 text-white text-base font-semibold flex items-center justify-center gap-1">
               <a
-                href="/Career/mentor/application"
+                href="/career/mentor/application"
                 target="_blank"
                 className="h-full w-full px-4 py-3 flex items-center justify-center gap-1"
               >

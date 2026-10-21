@@ -6,9 +6,9 @@ import CtaModal from "../../Modals/call-to-actions/get-in-touch";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 
-const CTA = () => {
-
-  const { data } = useSelector(state => state.program)
+const CTA = ({ data: propData }) => {
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
   const [isModalOpen, setIsModalOpen] = useState(null)
 
   const handleModalOpen = () => {

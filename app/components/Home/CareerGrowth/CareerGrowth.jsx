@@ -1,38 +1,69 @@
 import { useRef, useEffect, useState } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { SiGoogleclassroom } from "react-icons/si";
-import './Intro.css';
+import './CareerGrowth.css';
 import { BriefcaseBusiness, ShieldCheck, Wrench } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
+// Mobile address bar show/hide fires resize; don't rebuild the pin for it
+ScrollTrigger.config({ ignoreMobileResize: true });
 
-const Intro = () => {
+// The header is fixed/sticky and overlays the pinned section, so the pin starts below it
+const getHeaderHeight = () => document.getElementById("site-header")?.offsetHeight || 0;
+
+const images = [
+  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-1-v3.png",
+  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-2-v3.png",
+  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-3-v3.png",
+  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-4-v3.png",
+];
+
+const CareerGrowth = () => {
   const containerRef = useRef(null);
   const cardsRef = useRef([]);
-  const [isMobile, setIsMobile] = useState(false);
+  // Cards 2-4 are clipped below the container, so native lazy loading would only
+  // start when they slide in. Start loading them once the section is near the viewport.
+  const [preload, setPreload] = useState(false);
 
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    const el = containerRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setPreload(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "100% 0px 100% 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
   }, []);
 
-  const desktopImages = [
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-1-v3.png",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-2-v3.png",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-3-v3.png",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-4-v3.png",
-  ];
-
-  const mobileImages = [
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-1-v3.png",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-2-v3.png",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-3-v3.png",
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/animation-section-image-desktop-silder-4-v3.png",
-  ];
+  // Keep the pin position correct when page height changes (Programs accordion, late images)
+  useEffect(() => {
+    let timer;
+    let lastHeight = document.body.offsetHeight;
+    const ro = new ResizeObserver(() => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        const h = document.body.offsetHeight;
+        if (Math.abs(h - lastHeight) > 2) {
+          lastHeight = h;
+          ScrollTrigger.refresh();
+        }
+      }, 200);
+    });
+    ro.observe(document.body);
+    return () => {
+      clearTimeout(timer);
+      ro.disconnect();
+    };
+  }, []);
 
   const sections = [
     {
@@ -76,7 +107,14 @@ const Intro = () => {
 
       gsap.set(cards, { clearProps: "all" });
 
-      const vh = window.innerHeight;
+      // Header height is exposed as a CSS var; the container height is derived from it in CareerGrowth.css
+      const applyOffset = () => {
+        if (containerRef.current) {
+          containerRef.current.style.setProperty("--cg-offset", `${getHeaderHeight()}px`);
+        }
+      };
+      applyOffset();
+      ScrollTrigger.addEventListener("refreshInit", applyOffset);
 
       cards.forEach((card, index) => {
         card.style.position = "absolute";
@@ -93,13 +131,12 @@ const Intro = () => {
         }
       });
 
-      const scrollDistance = vh * 2.5;
-
       const masterTL = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
-          start: "top top",
-          end: `+=${scrollDistance}`,
+          start: () => `top ${getHeaderHeight()}`,
+          // function form so a refresh (rotate/resize) recalculates the distance
+          end: () => `+=${containerRef.current.offsetHeight * 2.5}`,
           pin: true,
           pinSpacing: true,
           scrub: 1,
@@ -118,8 +155,10 @@ const Intro = () => {
           ease: "power2.inOut",
         }, (index - 1) * 0.8);
       });
+
+      return () => ScrollTrigger.removeEventListener("refreshInit", applyOffset);
     },
-    { scope: containerRef, dependencies: [isMobile] }
+    { scope: containerRef, dependencies: [] }
   );
 
   return (
@@ -140,12 +179,8 @@ const Intro = () => {
       </div>
 
       <div
-        className="w-full relative flex items-center justify-center"
+        className="cg-container w-full relative flex items-center justify-center"
         ref={containerRef}
-        style={{
-          height: "100vh",
-          overflow: "hidden"
-        }}
       >
         <div className="cards-wrapper w-full h-full relative">
           {sections.map((section, index) => {
@@ -158,10 +193,10 @@ const Intro = () => {
                   if (el) cardsRef.current[index] = el;
                 }}
               >
-                <div className="relative w-full h-full bg-[#D4E5FC">
-                  <div className="absolute inset-0 flex flex-col md:flex-row">
+                <div className="relative w-full h-full bg-[#D4E5FC]">
+                  <div className="cg-card absolute inset-0">
                     {/* Text Content */}
-                    <div className="w-full pt-32 md:pt-0 md:w-1/2 flex items-center justify-center px-6 sm:px-8 lg:px-12 py-8 bg-[#D4E5FC] z-10">
+                    <div className="cg-text w-full flex items-center justify-center px-6 sm:px-8 lg:px-12 py-4 sm:py-8 bg-[#D4E5FC] z-10">
                       <div className="max-w-xl space-y-4 sm:space-y-6 text-black">
                         <div className="flex items-center gap-2 sm:gap-3 text-black">
                           <IconComponent className="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
@@ -170,7 +205,7 @@ const Intro = () => {
                           </span>
                         </div>
 
-                        <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-[1.15]">
+                        <h2 className="cg-title text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-[1.15]">
                           {(() => {
                             const { title, highlight } = section;
                             const parts = title.split(
@@ -188,26 +223,23 @@ const Intro = () => {
                           })()}
                         </h2>
 
-                        <p className="text-sm sm:text-base lg:text-lg text-black leading-relaxed">
+                        <p className="cg-desc text-sm sm:text-base lg:text-lg text-black leading-relaxed">
                           {section.description}
                         </p>
                       </div>
                     </div>
 
-                    {/* Image Section - INCREASED SIZE */}
-                    <div className="w-full md:w-1/2 relative right-0 top-0 bottom-0 h-full flex justify-center bg-[#D4E5FC] p-2 sm:p-4 lg:p-6">
-                      <div className="w-full max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl h-auto">
-                        <img
-                          src={isMobile ? mobileImages[index] : desktopImages[index]}
-                          alt={`Section ${index + 1}`}
-                          className="w-full h-auto"
-                          loading={index === 0 ? "eager" : "lazy"}
-                          style={{
-                            objectFit: "contain",
-                            objectPosition: "center",
-                            display: "block",
-                            margin: "0 auto",
-                          }}
+                    {/* Image Section: fills the space left by the text so it is never clipped */}
+                    <div className="cg-image bg-[#D4E5FC] p-2 sm:p-4 lg:p-6">
+                      <div className="relative w-full h-full max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl mx-auto">
+                        <Image
+                          src={images[index]}
+                          fill
+                          sizes="(max-width: 767px) 100vw, 50vw"
+                          quality={75}
+                          alt={section.title ? `${section.title} - Accredian Pedagogy` : `Accredian Executive Pedagogy ${index + 1}`}
+                          className="object-contain object-center"
+                          loading={preload ? "eager" : "lazy"}
                         />
                       </div>
                     </div>
@@ -223,4 +255,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default CareerGrowth;

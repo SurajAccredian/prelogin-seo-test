@@ -21,14 +21,14 @@ const Companies = () => {
             <img
               className="w-full max-w-7xl"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/faculty-companies-group.webp"
-              alt="companies"
+              alt="Accredian hiring partner companies and alumni employers"
             />
           </div>
           <div className="w-full flex md:hidden justify-center mt-8">
             <img
               className="w-full max-w-7xl"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/faculty-companies-group-mobile.webp"
-              alt="companies-res"
+              alt="Accredian hiring partner companies and alumni employers"
             />
           </div>
         </div>

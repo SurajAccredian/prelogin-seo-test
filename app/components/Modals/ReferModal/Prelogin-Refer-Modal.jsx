@@ -128,7 +128,7 @@ const responsiveStyle = {
   },
 };
 
-const ReferModal = ({ open, setOpen }) => {
+const ReferModalContent = ({ open, setOpen }) => {
   const searchParams = useSearchParams();
   const myParam = searchParams ? searchParams.get("utm_source") : null;
 
@@ -775,4 +775,11 @@ const ReferModal = ({ open, setOpen }) => {
   );
 };
 
-export default ReferModal;
+export default function ReferModal(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <ReferModalContent {...props} />
+    </React.Suspense>
+  );
+}

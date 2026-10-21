@@ -23,7 +23,7 @@ const mentorHero = () => {
                 ₹10,000
               </span> */}
             </p>
-            <a href="/Career/mentor/application" target="__blank" className="text-sm drop-shadow-xl xl:text-base font-medium xl:px-6 xl:py-2 px-5 py-1.5 bg-universal text-white hover:bg-darkBlue border border-universal rounded-[4px] capitalize cursor-pointer font-circular z-[10]">
+            <a href="/career/mentor/application" target="__blank" className="text-sm drop-shadow-xl xl:text-base font-medium xl:px-6 xl:py-2 px-5 py-1.5 bg-universal text-white hover:bg-darkBlue border border-universal rounded-[4px] capitalize cursor-pointer font-circular z-[10]">
               Become a Trainer
             </a>
           </div>

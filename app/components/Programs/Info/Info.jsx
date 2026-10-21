@@ -61,8 +61,10 @@ const FeatureIcons = {
 };
 
 
-const Info = () => {
-  const { data, enrollLoderState } = useSelector((state) => state.program);
+const Info = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
+  const enrollLoderState = reduxProgram.enrollLoderState;
   const dispatch = useDispatch();
 
   // Check if the current program is in the admission closed list

@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useMemo, useRef, Suspense } from "react";
+import { useEffect, useState, useMemo, useRef, useCallback, Suspense } from "react";
 import PROGRAMS from "../../Assets/programs.json";
 import "../Programs/Programs.css";
 import Program from "./Program";
@@ -66,6 +66,14 @@ const parseUrlFilterParams = (searchParams) => {
   };
 };
 
+function UrlParamsListener({ onUrlChange }) {
+  const searchParams = useSearchParams();
+  useEffect(() => {
+    onUrlChange(searchParams);
+  }, [searchParams, onUrlChange]);
+  return null;
+}
+
 const SearchedPageInner = () => {
   const dispatch = useDispatch();
   const {
@@ -86,9 +94,9 @@ const SearchedPageInner = () => {
   const [filteredArray, setFilteredArray] = useState(PROGRAMS);
   const [sortBy, setSortBy] = useState("relevance");
 
-  const searchParams = useSearchParams();
+  const [urlParams, setUrlParams] = useState(null);
   const router = useRouter();
-  const searchQuery = (searchParams.get("q") || "").trim();
+  const searchQuery = (urlParams?.get("q") || "").trim();
   const isSyncingFromUrlRef = useRef(false);
 
   // Extract available filter options dynamically
@@ -97,7 +105,8 @@ const SearchedPageInner = () => {
   const handleClose = () => setOpen(false);
 
   // Parse URL query parameters into Redux state
-  const parseUrlParams = () => {
+  const parseUrlParams = useCallback((paramsToParse) => {
+    if (!paramsToParse) return;
     isSyncingFromUrlRef.current = true;
     const {
       categories: urlCategories,
@@ -106,7 +115,7 @@ const SearchedPageInner = () => {
       institutes: urlInstitutes,
       careerLevels: urlCareerLevels,
       sort: urlSort,
-    } = parseUrlFilterParams(searchParams);
+    } = parseUrlFilterParams(paramsToParse);
 
     if (!areArraysEqual(urlCategories, checkedCategories)) {
       dispatch(programActions.setCheckedCategories(urlCategories));
@@ -129,12 +138,13 @@ const SearchedPageInner = () => {
     } else {
       setSortBy("relevance");
     }
-  };
+  }, [checkedCategories, checkedTags, checkedDurations, checkedInstitutes, checkedCareerLevels, dispatch]);
 
   const handleClickOpenFilterDrawer = () => onOpen();
 
   // Sync state to URL parameters
   const updateUrlParams = () => {
+    if (!urlParams) return;
     if (isSyncingFromUrlRef.current) {
       isSyncingFromUrlRef.current = false;
       return;
@@ -148,7 +158,7 @@ const SearchedPageInner = () => {
       careerLevels: urlCareerLevels,
       search: urlSearch,
       sort: urlSort,
-    } = parseUrlFilterParams(searchParams);
+    } = parseUrlFilterParams(urlParams);
 
     const isAlreadyInSync =
       areArraysEqual(urlCategories, checkedCategories) &&
@@ -335,8 +345,10 @@ const SearchedPageInner = () => {
   }, []);
 
   useEffect(() => {
-    parseUrlParams();
-  }, [searchParams]);
+    if (urlParams) {
+      parseUrlParams(urlParams);
+    }
+  }, [urlParams, parseUrlParams]);
 
   useEffect(() => {
     updateUrlParams();
@@ -407,9 +419,20 @@ const SearchedPageInner = () => {
 
   return (
     <>
+      <Suspense fallback={null}>
+        <UrlParamsListener onUrlChange={setUrlParams} />
+      </Suspense>
       <HomePageWrapper>
         <div className="search-page w-full min-h-screen pt-24 pb-8 md:py-8 flex justify-center font-circular xl:px-12 px-4">
           <div className="max-w-[85rem] w-full">
+            <div className="mb-4 md:mb-6 pt-2">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
+                Explore Executive Certification Programs
+              </h1>
+              <p className="text-neutral-600 text-sm sm:text-base mt-1.5">
+                Discover world-class certification programs in AI, leadership, strategy and management from leading IIMs, IITs & XLRI.
+              </p>
+            </div>
             <div className="w-full flex gap-6">
               {/* Desktop Left Sidebar: Single bordered/rounded card with clear dividers */}
               <div className="flex-[0.3] min-w-[260px] max-w-[320px] py-4 hidden lg:block">
@@ -700,9 +723,5 @@ const SearchedPageInner = () => {
 };
 
 export default function SearchedPage() {
-  return (
-    <Suspense fallback={null}>
-      <SearchedPageInner />
-    </Suspense>
-  );
+  return <SearchedPageInner />;
 }

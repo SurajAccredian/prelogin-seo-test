@@ -49,7 +49,7 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
             isClosed ? "grayscale contrast-[0.85] opacity-70" : ""
           }`}
           src={program.cover_image}
-          alt="cover images"
+          alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
         />
       </div>
 

@@ -5,7 +5,7 @@ import "./Admission.css";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import CustomEnrollNowButton from "../CustomEnrollNowButton";
 
 const stepsData = [
@@ -39,20 +39,25 @@ const stepsData = [
   },
 ];
 
-const Admission = () => {
-  const { data, enrollLoderState } = useSelector((state) => state.program);
+const Admission = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
+  const enrollLoderState = reduxProgram.enrollLoderState;
   const dispatch = useDispatch();
-  const [filteredSteps, setFilteredSteps] = useState([]);
 
-  useEffect(() => {
-    const filtered_array = stepsData?.filter((step) =>
+  const initialSteps = React.useMemo(() => {
+    return stepsData?.filter((step) =>
       data?.admission_process
         ?.map((item) => item.toLowerCase())
         .includes(step.title.toLowerCase())
-    );
+    ) || [];
+  }, [data?.admission_process]);
 
-    setFilteredSteps(filtered_array);
-  }, [data]);
+  const [filteredSteps, setFilteredSteps] = useState(initialSteps);
+
+  useEffect(() => {
+    setFilteredSteps(initialSteps);
+  }, [initialSteps]);
 
   const handleEnrollNow = () => {
     if (data) {

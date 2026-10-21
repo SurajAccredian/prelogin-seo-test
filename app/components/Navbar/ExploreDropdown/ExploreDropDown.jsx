@@ -9,7 +9,7 @@ const ExploreDropDown = () => {
 
   return (
     <div
-      className="explore-butt-container"
+      className="explore-butt-container group/courses"
       onMouseEnter={() => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
     >

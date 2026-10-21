@@ -4,7 +4,7 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import "./CTA.css";
 import { IoIosArrowForward } from "react-icons/io";
 import CtaModal from "./CtaModal";
-import { useState } from "react";
+import React, { useState } from "react";
 const CTA = () => {
   const [isModalOpen, setIsModalOpen] = useState(null);
   const handleModalOpen = () => {
@@ -39,7 +39,9 @@ const CTA = () => {
           <IoIosArrowForward />
         </button>
       </div>
-      <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
+      <React.Suspense fallback={null}>
+        <CtaModal open={isModalOpen} setOpen={setIsModalOpen} />
+      </React.Suspense>
     </div>
   );
 };

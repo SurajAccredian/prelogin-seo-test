@@ -66,7 +66,7 @@ function BootstrapDialogTitle(props) {
   );
 }
 
-const Brochure = (props) => {
+const BrochureContent = (props) => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
 
@@ -565,4 +565,12 @@ const Brochure = (props) => {
     </>
   );
 };
-export default Brochure;
+
+export default function Brochure(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <BrochureContent {...props} />
+    </React.Suspense>
+  );
+}

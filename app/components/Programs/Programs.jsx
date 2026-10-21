@@ -16,7 +16,9 @@ import Wrapper from "./wrapper";
 
 const API_BASE_URL = "https://internal-dash.accredian.com/api/v1/automations/preview";
 
-const Programs = ({ initialProgramData = null }) => {
+import { Suspense } from "react";
+
+const ProgramsInner = ({ initialProgramData = null }) => {
   const dispatch = useDispatch();
   const { id } = useParams();
   const searchParams = useSearchParams();
@@ -168,4 +170,10 @@ const Programs = ({ initialProgramData = null }) => {
   );
 };
 
-export default Programs;
+export default function Programs(props) {
+  return (
+    <Suspense fallback={null}>
+      <ProgramsInner {...props} />
+    </Suspense>
+  );
+}

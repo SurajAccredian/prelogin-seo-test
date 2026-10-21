@@ -4,7 +4,7 @@
   "pid": 150,
   "vertical": "cxo",
   "title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
-  "seo_title": "Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+  "seo_title": "XLRI Chief Technology Officer CTO Program",
   "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
   "short_title": "CXO",
   "contact": "9289224842",
@@ -458,5 +458,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRIJ-Executive-Development-Programme-or-Emerging-Chief-Technology-Officers.pdf",
     "source": "XLRI Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme) Brochure",
     "campaign_name": "EDPSHR-XLRI-10 Months"
-  }
+  },
+  "og_title": "XLRI - Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)",
+  "meta_description": "Bridge technology leadership and business strategy to transition into Chief Technology Officer roles in XLRI Jamshedpur's CTO program.",
+  "keywords": "XLRI CTO Program, Chief Technology Officer course XLRI, tech leadership course for engineering heads, CTO executive program"
 }

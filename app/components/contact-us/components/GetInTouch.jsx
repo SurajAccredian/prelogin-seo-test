@@ -216,7 +216,7 @@ const GetInTouch = () => {
                                         <p className="text-gray-600 text-lg mb-2 capitalize">
                                             For {item.category === "cxo leadership" ? "CXO Leadership" : item.category}
                                         </p>
-                                        <a href={`tel:${item.contact}`} className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
+                                        <a href={`tel:${item.contact.replace(/\s/g, "")}`} className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
                                             {item.contact}
                                         </a>
                                     </div>

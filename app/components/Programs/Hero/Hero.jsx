@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import { FaCirclePlay } from "react-icons/fa6";
 import { getColorAndBgColor } from "../../../helpers/colors.helpers";
@@ -28,12 +29,20 @@ const ADMISSION_CLOSED_IDS = [
 const IIMV_PROGRAM_ID = "iimv-executive-program-in-leadership-with-ai";
 
 
-const Hero = () => {
+const Hero = ({ data: propData }) => {
   const pathname = usePathname();
-   const { data, enrollLoderState } = useSelector((state) => state.program);
-  localStorage.setItem("university_shortName", data.short_university_name);
-  const isNewProgram = data?.tags.find((tag) => tag.title === "new launch");
-  const isMain = data?.tags.find((tag) => tag.type === "main");
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
+  const enrollLoderState = reduxProgram.enrollLoderState;
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && data?.short_university_name) {
+      localStorage.setItem("university_shortName", data.short_university_name);
+    }
+  }, [data?.short_university_name]);
+
+  const isNewProgram = data?.tags?.find((tag) => tag.title === "new launch");
+  const isMain = data?.tags?.find((tag) => tag.type === "main");
   const dispatch = useDispatch();
 
   // Check if the current program is the IIMV program
@@ -139,17 +148,17 @@ const Hero = () => {
         {/* Left Section - Content */}
         <div className="w-full lg:flex-[0.5]">
           {/* Mobile Background Image Container - Full Width */}
-          <div
-            className="lg:hidden relative min-h-[300px] overflow-hidden mb-6 w-screen left-1/2 -translate-x-1/2"
-            style={{
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(${data?.university_image})`,
-
-
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
+          <div className="lg:hidden relative min-h-[300px] overflow-hidden mb-6 w-screen left-1/2 -translate-x-1/2">
+            {data?.university_image && (
+              <Image
+                src={data.university_image}
+                alt={data?.university_name || "University background"}
+                fill
+                priority
+                sizes="100vw"
+                className="object-cover -z-10 brightness-[0.35]"
+              />
+            )}
             {/* University Name Badge - Top Right */}
             {/* <div className="absolute top-4 right-4 z-20 bg-white text-black px-2 py-1 rounded-md shadow-md">
               <span className="text-[10px] font-semibold">
@@ -433,12 +442,17 @@ const Hero = () => {
             </div>
 
 
-            <div className="w-full h-full relative">
-              <img
-                className="w-full h-full object-cover"
-                src={data?.university_image}
-                alt={data?.university_name}
-              />
+            <div className="w-full h-full relative min-h-[220px]">
+              {data?.university_image && (
+                <Image
+                  className="object-cover"
+                  src={data.university_image}
+                  alt={data?.university_name || "University"}
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
+              )}
               {data?.university_video && (
                 <div
                   onClick={handleVideoOpen}

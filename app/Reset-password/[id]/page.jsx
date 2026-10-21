@@ -1,7 +1,7 @@
 import Resetpassword from "../../components/Home-password/Resetpassword";
 
 export const metadata = {
-  title: "Reset Password | Accredian",
+  title: "Reset Password",
   description:
     "Securely reset your Accredian account password using your reset link.",
 };

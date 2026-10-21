@@ -60,7 +60,7 @@ export default function SubFooter() {
                   <CardMedia
                     component="img"
                     image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/manv.webp"
-                    alt="green iguana"
+                    alt="Accredian Career Guidance & Job Assistance"
                     sx={{
                       width: "172px",
 

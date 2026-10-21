@@ -2271,4 +2271,209 @@ In the case of program discontinuation, affected students may transfer to other 
     </p>
   `,
 },
+
+
+{
+  title: "IIM Bodh Gaya",
+  tab: "iim-bodh-gaya-policy",
+  body: `
+    <h2>Registration Fees/ Application Fees</h2>
+    <ol>
+    <li>The registration fee is your seat reservation fee paid for the IIM Bodh Gaya Programme.. This fee is non-refundable and will get adjusted against the final fee payable by the student.</li>
+    <li>Students must confirm their admission within 5 days of paying the registration fee. To confirm their registration, they can either pay the full fee or make a partial payment.</li>
+    <li>If a student does not confirm their admission within 5 days, their seat will be released to another candidate, and the registration fee will be forfeited.</li>
+    </ol>
+    <h2>Basic Requirements</h2>
+    <p>To ensure the best course experience, students should use a latest processor (i3/i5/i7) with a clock speed of 2.0GHz and have a minimum of 4GB RAM, though 8GB is recommended (applicable for technical courses).The students should ensure they have a high-speed uninterrupted internet connection to attend live sessions and access course resources without any hassle.</p>
+    <h2>Class Timings &amp; Schedule</h2>
+    <ol>
+    <li>Sessions will be conducted according to the schedule provided in advance to all participants before the commencement of each module. While the institution's sincere intention is to complete the entire course within the specified timeframe, unforeseen circumstances beyond its control may necessitate adjustments to the course schedule.</li>
+    <li>Although IIM Bodh Gaya endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IIM Bodh Gaya will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees.</li>
+    </ol>
+    <h2>Tools</h2>
+    <p>Open-source tools will be utilized for teaching course topics. Premium tools will only be used if a trial version is available. Students can practice with the tool using the trial version, and neither Accredian nor IIM Bodh Gaya will provide a subscription for the tool.</p>
+    <h2>LMS Access: Duration and Limitations</h2>
+    <ol>
+    <li>The Learning Management System (LMS) serves as a comprehensive platform where students can access all program content and study materials.</li>
+    <li>It is designed to facilitate an engaging and interactive learning experience, enhancing understanding through various features.</li>
+    <li>Students will have access to the LMS and its content for six (6) months after Programme completion, in non-downloadable form. This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter. Please note that lifetime access is not provided.</li>
+    <li>This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter.</li>
+    <li>Please note that lifetime access is not provided.</li>
+    </ol>
+    <h2>Query resolution</h2>
+    <ol>
+    <li>The daily operating hours for query resolution are from 10:00 AM to 7:00 PM, Monday through Saturday, with a turnaround time of 24-operating hours. While Accredian endeavors to resolve queries within the stipulated 24-hour window, occasional delays may occur due to high traffic.</li>
+    <li>Please note that Tuesdays are designated as the academic team's weekly day off, during which operations are suspended.</li>
+    </ol>
+    <h2>Fee Payment Schedule</h2>
+    <ol>
+    <li>If a student opts for the installment payment option (up to a maximum of 2-3 EMIs) when registering for any program, they are expected to make the installments in consecutive months starting from the first installment date.</li>
+    <li>In exceptional circumstances, students will be granted a grace period of 15 days to settle the fee. Failure to make the payment beyond 15 days will result in a late payment fee of Rs 1,000 per week.</li>
+    <li>The institute reserves the right to revoke a student’s access to the dashboard, along with any associated services and privileges, in the event of non-payment or delayed payment of the full program fee. Continued access is contingent upon timely and complete fee settlement as per the agreed payment schedule.</li>
+    </ol>
+    <h2>Student Loan Facility</h2>
+    <ol>
+    <li>In the event of any issues arising with loan/credit facilities availed by students from third-party providers such as EarlySalary, Eduvanz, Propelld, Avanse, etc., it is expected that the third-party loan provider and the student directly engage with each other to resolve any disputes. Neither Accredian nor IIM Bodh Gaya should be held accountable for any issues that may arise with the loan partner.</li>
+    <li>The EMI plan agreed upon with the third-party loan provider will continue as per the terms discussed during the enrollment period with the third-party loan provider.</li>
+    </ol>
+    <h2>Faculty Allocation</h2>
+    <ol>
+    <li>All faculty members are highly experienced in their respective industries and have mastered their domains. Different faculties are assigned for different terms/modules, and the details will be communicated to students prior to the start of every module.</li>
+    <li>IIM Bodh Gaya and Accredian hold the authority to change and assign the faculty members according to organizational needs, faculty availability, and program enhancements.</li>
+    <li>To protect intellectual property rights, course materials developed and shared by the faculty are not available for direct download. Students will still have access to these essential resources via the designated Learning Management System (LMS).</li>
+    </ol>
+    <h2>Issuance of Certificate</h2>
+    <p>Certificates from IIM Bodh Gaya will be issued only in the name of the student who has enrolled in the program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.</p>
+    <h2>Refund Policy</h2>
+    <ol>
+    <li> <strong>General Position on Refunds –</strong> As a general rule, the Course Fee paid is non-refundable. Refunds shall be governed by the provisions set out below. Any exception shall be considered jointly by the Institute and Accredian, on a case-to-case basis, and their joint decision shall be final and binding on the student.</li>
+    <li> <strong> Refund Requests Prior to Programme Inauguration –</strong> A student who withdraws from the Programme of his/her own accord at any time prior to the Programme Inauguration Date shall not be eligible for a refund of the Course Fee paid. The Application Fee paid at the time of enrolment shall remain non-refundable under all circumstances. Any request arising from extraordinary and exceptional circumstances shall be considered jointly by the Institute and Accredian, on a case-to-case basis, in accordance with Exceptional Circumstances.</li>
+    <li> <strong>Application Fee –</strong> The Application Fee paid by the student shall not be refunded under any circumstances save as provided under Postponement or Cancellation of Programme.</li>
+    <li> <strong>Course Material Fee and Executive Alumni Status Fee –</strong> Where course materials have already been shared with the student prior to withdrawal, the corresponding fee attributable to such course materials shall be non-refundable. The Executive Alumni Status Fee, where paid, shall be non-refundable once the student's name has been included in the Final Participants List submitted to the Institute.</li>
+    <li> <strong>Campus Immersion Component –</strong> Where a programme includes a campus immersion component and the student has paid the prescribed immersion fee in full by the stipulated due date but is unable to attend the campus immersion physically due to personal reasons, the student may attend the immersion in online mode, provided such a facility is available. No refund, whether partial or full, shall be admissible in respect of the campus immersion fee or any campus visit fee under any circumstances, save as provided under Postponement or Cancellation of Programme.</li>
+    <li> <strong>No Refunds Post-Commencement –</strong> Normally, no refund shall be permissible where a student withdraws on or after the Programme Inauguration Date, save as provided under Postponement or Cancellation of Programme.</li>
+    <li> <strong>Cancellation of Enrolment, Termination or Academic Non-Fulfilment –</strong> No refund shall be permissible under any circumstances if the student's enrolment is cancelled, or if the student is terminated from the programme by the Institute at any stage, irrespective of the grounds for such cancellation or termination. Further, no refund shall be permissible where the student fails to achieve the minimum attendance or academic requirement prescribed for the Programme, or does not qualify for the award of the Certificate of Completion.</li>
+    <li> <strong>Exceptional Circumstances –</strong> Notwithstanding anything contained herein, the Institute and Accredian may jointly consider exceptions to this policy under extraordinary and exceptional circumstances that are duly justified and supported by appropriate documentary evidence. Any such request shall be considered only upon compliance with the prescribed process. Where a refund is so approved, it shall be calculated on the Programme Fee in proportion to the percentage of total Programme hours not attended by the student, or by any other mechanism mutually approved by the Institute and Accredian, and applicable taxes shall be adjusted accordingly.</li>
+    <li> <strong>Processing Timeline –</strong>  Eligible refunds, after adjustment of any applicable dues, shall normally be processed within thirty (30) calendar days from the date of joint approval by the Institute and Accredian, upon receipt of complete and correct documentation from the student.</li>
+    <li> <strong>Mode of Refund –</strong> Approved refunds shall be remitted by Accredian directly to the student's designated bank account. The Institute's proportionate share of any such refund shall be adjusted against the revenue share already remitted to the Institute..</li>
+    <li> <strong>Submission of Requests –</strong> All refund requests must be submitted in writing to iimbg@accredian.com .</li>
+    <li> <strong>Repeat of Programme –</strong> A student who is eligible to repeat a Programme shall pay the Course Fee applicable to the batch which he/she joins. Course Fees already paid for the completed Programme shall not be taken into consideration.</li>
+    <li> <strong>Transfer Between Programmes –</strong> No request for transfer from one Programme to another shall be entertained, unless mutually agreed by the Institute and Accredian on a case-to-case basis.</li>
+    <li> <strong>Postponement or Cancellation of Programme –</strong> The Institute and Accredian reserve the right to postpone, reschedule or cancel the Programme if the requisite number of participants have not enrolled, or for any other reason. In the event of cancellation of the Programme, the student shall be entitled to [a full refund of all fees paid / a refund of all fees paid other than the Application Fee / transfer to the next batch at his/her option].</li>
+    </ol>
+    <h2>Discontinuation Policy</h2>
+    <ol>
+    <li>Accredian and IIM Bodh Gaya jointly reserve the right to postpone, reschedule or discontinue a Programme if the requisite number of participants have not enrolled, or for any other reason, in consultation with the Programme Director(s). A Programme shall not be discontinued for convenience once it has commenced. Advance notice of Programme discontinuation will be communicated to all relevant stakeholders, including faculty and students.</li>
+    <li>In the case of Programme discontinuation, affected students may, where mutually agreed by IIM Bodh Gaya and Accredian on a case-to-case basis, be offered a transfer to another IIM Bodh Gaya Programme, subject to feasibility and any necessary fee adjustments. Where a transfer is not possible, the provisions of the Refund Policy on Postponement or Cancellation of Programme shall apply.</li>
+    <li>Accredian and IIM Bodh Gaya reserve the right to cancel or terminate a participant’s enrolment at any stage of the Programme without prior notice on grounds including, but not limited to, misconduct, non-compliance with Programme policies, violation of the Programme’s terms and conditions, failure to meet the minimum attendance or academic requirements, disruption of the learning environment, or any conduct deemed detrimental to the interests of the Programme, IIM Bodh Gaya, its faculty, or fellow participants. In such instances, any fees paid shall be non-refundable and will stand forfeited, in accordance with the Refund Policy.  Accredian’s Intellectual Property Rights</li>
+    </ol>
+    <h2>Accredian’s Intellectual Property Rights</h2>
+    <ol>
+    <li>All information and data shared with Accredian's product users are considered content, encompassing pre-reads, presentations, post-reads, session recordings, videos, graphics, interactive materials, and other materials.</li>
+    <li>The academic content of each Programme, including lectures, session recordings, videos, quizzes, assignments, case studies, presentations, readings, projects, activities, illustrations, graphics and all other learning resources developed and delivered by IIM Bodh Gaya faculty, is the exclusive intellectual property of IIM Bodh Gaya. The platform, and any material developed by Accredian independently of the Programme, belong to Accredian and/or its affiliates or licensors. They are protected by the copyright and other proprietary intellectual property rights under the applicable laws.</li>
+    <li>Additionally, elements of the website, platform, Programme, and all Programme content are protected under the applicable laws. They may not be copied, downloaded, reproduced, shared, or distributed in any way, whole or in part, without prior written consent from IIM Bodh Gaya (for Programme content) or Accredian (for Accredian's own material). Recording, screen-capturing or photographing any session or Programme material by any means is strictly prohibited. Participants will have access to recorded lectures and study materials on the learning platform in non-downloadable form for six (6) months after completion of the Programme.</li>
+    <li>Users accessing the platform and Programme resources agree not to: (a) Reproduce, duplicate, copy, sell, or exploit for any commercial purpose; (b) use Accredian’s or IIM Bodh Gaya’s name, trademarks, service marks, logos, content, or any other material in connection with, or to transmit, any unsolicited communications or emails or for any other unauthorized purpose.</li>
+    </ol>
+    <h2>Third-Party Intellectual Property</h2>
+    <ol>
+    <li>Accredian respects third-party intellectual property rights, including copyrights and trademarks, and actively supports their protections. Accredian is committed to promptly addressing notices of alleged intellectual property (IP) infringement. Upon receiving proper notification of such infringement, Accredian's response will involve swiftly removing or disabling access to the material that is claimed to be infringing. Where a notice relates to Programme content provided by IIM Bodh Gaya, Accredian shall promptly inform IIM Bodh Gaya in writing.</li>
+    <li>Accredian shall not be held liable for the unauthorized use of any third-party IP by the users. The users who engage in such unauthorized use or infringe any IP available on the Platform shall fully indemnify and hold Accredian harmless against any and all claims that may arise as a result of such use.</li>
+    <li>If a user believes that their product or other work has been misrepresented or used in a way that constitutes copyright infringement, or their intellectual property rights have been otherwise violated, they should provide Accredian with the following information:</li>
+    <li>An electronic or physical signature of the person duly authorized to act on behalf of the owner of the product, work, or other intellectual property,</li>
+    <li>A description of the product, work, or other intellectual property that they claim has been misrepresented or infringed.</li>
+    <li>A detailed description of the location on the Platform/Program where the material they claim is misrepresenting or infringing their product, work, or other intellectual property can be found.</li>
+    <li>Contact details including address, telephone number, and email address.</li>
+    <li>A statement by them that they have a good faith belief that the disputed use is not authorized by the owner of the product, work, copyright, or intellectual property, or its agent, or applicable law; and</li>
+    <li>A statement by them, made under the penalty of perjury, that the aforementioned information in their notice is accurate and that they are the product, work, copyright, or intellectual property owner or authorized to act on such owner's behalf.</li>
+    </ol>
+    <h2>Falsification and Omission of Information</h2>
+    <ol>
+    <li>Rejection of Application: Failure to provide accurate information regarding students' education qualifications and/or personal details shall result in the immediate rejection of the enrolment application, with no refund of the application fee.</li>
+    <li>Termination of Enrolment: Should any inaccuracies or omissions in students' educational qualifications or personal details be discovered at any point before, during, or after the enrolment process, IIM Bodh Gaya and Accredian reserve the right to terminate enrolment. Under these circumstances, no refunds for application or Programme fees will be issued. This termination will lead to the revocation of academic and course privileges, as well as access to the LMS, course materials, and any other benefits or resources.</li>
+    <li>Cancellation of Certificates: In cases where falsification or omission of provided information is discovered, IIM Bodh Gaya reserves the right to revoke any earned marks or certificates.
+Blacklisting: Individuals found to have engaged in dishonest practices, including falsification or omission of information before, during, or after the enrolment process, may be blacklisted. This action prevents them from future enrolment in IIM Bodh Gaya Programmes offered through Accredian.</li>
+    <li>These consequences serve to uphold the integrity of IIM Bodh Gaya and its Programmes, and ensure fair treatment of all applicants and enrolled students.</li>
+    </ol>
+    `,
+},
+{
+  title: "IITM Pravartak",
+  tab: "iitm-pravartak-policy",
+  body: `
+    <h2>Registration Fees/ Application Fees</h2>
+    <ol>
+    <li>The registration fee is your seat reservation fee paid for the IITM Pravartak program. This fee is non-refundable and will get adjusted against the final fee payable by the student.</li>
+    <li>Students must confirm their admission within 5 days of paying the registration fee. To confirm their registration, they can either pay the full fee or make a partial payment.</li>
+    <li>If a student does not confirm their admission within 5 days, their seat will be released to another candidate, and the registration fee will be forfeited.</li>
+    </ol>
+    <h2>Basic Requirements</h2>
+    <p>To ensure the best course experience, students should use a latest processor (i3/i5/i7) with a clock speed of 2.0GHz and have a minimum of 4GB RAM, though 8GB is recommended (applicable for technical courses).The students should ensure they have a high-speed uninterrupted internet connection to attend live sessions and access course resources without any hassle.</p>
+    <h2>Class Timings &amp; Schedule</h2>
+    <ol>
+    <li>Sessions will be conducted according to the schedule provided in advance to all participants before the commencement of each module. While the institution's sincere intention is to complete the entire course within the specified timeframe, unforeseen circumstances beyond its control may necessitate adjustments to the course schedule.</li>
+    <li>Although IITM Pravartak endeavors to complete the entire course within the stipulated time frame, unforeseen circumstances may lead to course extensions. Such circumstances, which include but are not limited to the overall pace of learning, session extensions for the benefit of students, instructor-related issues, and similar operational challenges, may require sessions to be prolonged. However, in the event of such extensions, IITM Pravartak will not impose additional charges on students for extra instructor hours, LMS portal access charges, or support fees.</li>
+    </ol>
+    <h2>Tools</h2>
+    <p>Open-source tools will be utilized for teaching course topics. Premium tools will only be used if a trial version is available. Students can practice with the tool using the trial version, and neither Accredian nor IITM Pravartak will provide a subscription for the tool.</p>
+    <h2>LMS Access: Duration and Limitations</h2>
+    <ol>
+    <li>The Learning Management System (LMS) serves as a comprehensive platform where students can access all program content and study materials.</li>
+    <li>It is designed to facilitate an engaging and interactive learning experience, enhancing understanding through various features.</li>
+    <li>Students will have access to the LMS and its content for up to 3 months post course completion</li>
+    <li>This extended access enables students to review and revise materials at their convenience, reinforcing learning and aiding in mastering the subject matter.</li>
+    <li>Please note that lifetime access is not provided.</li>
+    </ol>
+    <h2>Query resolution</h2>
+    <ol>
+    <li>The daily operating hours for query resolution are from 10:00 AM to 7:00 PM, Monday through Saturday, with a turnaround time of 24-operating hours. While Accredian endeavors to resolve queries within the stipulated 24-hour window, occasional delays may occur due to high traffic.</li>
+    <li>Please note that Tuesdays are designated as the academic team's weekly day off, during which operations are suspended.</li>
+    </ol>
+    <h2>Fee Payment Schedule</h2>
+    <ol>
+    <li>If a student opts for the installment payment option (up to a maximum of 2-3 EMIs) when registering for any program, they are expected to make the installments in consecutive months starting from the first installment date.</li>
+    <li>In exceptional circumstances, students will be granted a grace period of 15 days to settle the fee. Failure to make the payment beyond 15 days will result in a late payment fee of Rs 1,000 per week.</li>
+    <li>The institute reserves the right to revoke a student’s access to the dashboard, along with any associated services and privileges, in the event of non-payment or delayed payment of the full program fee. Continued access is contingent upon timely and complete fee settlement as per the agreed payment schedule.</li>
+    </ol>
+    <h2>Student Loan Facility</h2>
+    <ol>
+    <li>In the event of any issues arising with loan/credit facilities availed by students from third-party providers such as EarlySalary, Eduvanz, Propelld, Avanse, etc., it is expected that the third-party loan provider and the student directly engage with each other to resolve any disputes. Neither Accredian nor IITM Pravartak should be held accountable for any issues that may arise with the loan partner.</li>
+    <li>The EMI plan agreed upon with the third-party loan provider will continue as per the terms discussed during the enrollment period with the third-party loan provider.</li>
+    </ol>
+    <h2>Faculty Allocation</h2>
+    <ol>
+    <li>All faculty members are highly experienced in their respective industries and have mastered their domains. Different faculties are assigned for different terms/modules, and the details will be communicated to students prior to the start of every module.</li>
+    <li>IITM Pravartak and Accredian hold the authority to change and assign the faculty members according to organizational needs, faculty availability, and program enhancements.</li>
+    <li>To protect intellectual property rights, course materials developed and shared by the faculty are not available for direct download. Students will still have access to these essential resources via the designated Learning Management System (LMS).</li>
+    </ol>
+    <h2>Issuance of Certificate</h2>
+    <p>Certificates from IITM Pravartak will be issued only in the name of the student who has enrolled in the program. They will not be issued to anyone else under any circumstances. The decision regarding the issuance of physical certificates rests solely with the institute, and Accredian does not have a role in this process.</p>
+    <h2>Refund Policy</h2>
+    <ol>
+    <li> <strong>General Position on Refunds –</strong> As a general rule, the Course Fee paid is non-refundable. Refunds shall be governed by the provisions set out below, and any exception shall be considered solely at the discretion of the Institute under extraordinary and exceptional circumstances.</li>
+    <li> <strong>Refund Requests Prior to Programme Inauguration –</strong> A student who withdraws at least ten (10) calendar days prior to the Programme Inauguration Date shall be eligible for a refund of the Programme Fee paid, after deduction of Administrative Charges equivalent to the Application Fee. The Application Fee paid at the time of enrolment shall remain non-refundable under all circumstances.</li>
+    <li> <strong>Application Fee –</strong> The Application Fee paid by the student shall not be refunded under any circumstances.</li>
+    <li> <strong>Course Material Fee –</strong> Where course materials have already been shared with the student prior to withdrawal, the corresponding fee attributable to such course materials shall be non-refundable.</li>
+    <li> <strong>Campus Immersion Component –</strong> Where a programme includes a campus immersion component and the student has paid the prescribed immersion fee in full by the stipulated due date but is unable to attend the campus immersion physically due to personal reasons, the student may attend the immersion in online mode, provided such a facility is available. No refund, whether partial or full, shall be admissible in respect of the campus immersion fee under any circumstances.</li>
+    <li> <strong>No Refunds Post-Commencement –</strong> Normally, no refund shall be permissible where a student withdraws on or after the Programme Inauguration Date.</li>
+    <li> <strong>Cancellation of Enrolment or Termination –</strong> No refund shall be permissible under any circumstances if the student's enrolment is cancelled, or if the student is terminated from the programme by the Institute at any stage, irrespective of the grounds for such cancellation or termination.</li>
+    <li> <strong>Exceptional Circumstances –</strong> Notwithstanding anything contained herein, the Institute reserves the right to consider exceptions to this policy under extraordinary and exceptional circumstances that are duly justified and supported by appropriate documentary evidence. Any such request shall be considered only upon compliance with the prescribed process.</li>
+    <li> <strong>Processing Timeline –</strong> Eligible refunds, after adjustment of any applicable dues, shall normally be processed within thirty (30) calendar days from the receipt of complete and correct documentation from Accredian, to the satisfaction of the Institute.</li>
+    <li> <strong>Mode of Refund –</strong> Approved refunds shall be remitted directly by IIM Visakhapatnam to the student's designated bank account.</li>
+    <li> <strong>Submission of Requests –</strong> All refund requests must be submitted in writing to iitmpravartak@accredian.com.</li>
+    </ol>
+    <h2>Discontinuation Policy</h2>
+    <ol>
+    <li>Accredian reserves the right to discontinue any program at any time at its discretion, based on factors such as adherence to market standards, affiliations with third-party institutes, and program viability. Advanced notice of program discontinuation will be communicated to all relevant stakeholders, including faculty and students, in accordance with IITM's policy.</li>
+    <li>In the case of program discontinuation, affected students may transfer to other available programs within Accredian's and IITM’s portfolio, subject to feasibility and any necessary fee adjustments. In the event that this cannot be done, further measures will be taken according to IITM's policy on an individual basis.</li>
+    <li>Accredian and IIM Visakhapatnam reserve the right to cancel or terminate a participant’s enrolment at any stage of the program without prior notice on grounds including, but not limited to, misconduct, non-compliance with program policies, violation of the program’s terms and conditions, failure to meet academic requirements, disruption of the learning environment, persistent misalignment with program objectives, or any conduct deemed detrimental to the interests of the program, its faculty, or fellow participants. In such instances, any fees paid shall be non-refundable and will stand forfeited.</li>
+    </ol>
+    <h2>Accredian’s Intellectual Property Rights</h2>
+    <ol>
+    <li>All information and data shared with Accredian's product users are considered content, encompassing pre-reads, presentations, post-reads, session recordings, videos, graphics, interactive materials, and other materials.</li>
+    <li>The programs and all related services provided are owned and operated by Accredian and its licensors. The content available on the platform for every program, including videos, quizzes, assignments, case studies, presentations, readings, projects, activities, illustrations, graphics, and all other resources, belong to Accredian and/or its affiliates or licensors. They are protected by the copyright and other proprietary intellectual property rights under the applicable laws.</li>
+    <li>Additionally, elements of the website, platform, program, and Accredian’s content are protected under the applicable laws. They may not be copied, downloaded, reproduced, shared, or distributed in any way, whole or in part, without written consent from Accredian. Accredian reserves the right to make downloadable content available at its discretion.</li>
+    <li>Users accessing the platform and program resources agree not to: (a) Reproduce, duplicate, copy, sell, or exploit for any commercial purpose; (b) use Accredian’s name, trademarks, service marks, content, or any other material in connection with, or to transmit, any unsolicited communications or emails or for any other unauthorized purpose.</li>
+    </ol>
+    <h2>Third- Party Intellectual property</h2>
+    <ol>
+    <li>Accredian respects third-party intellectual property rights, including copyrights and trademarks, and actively supports their protections. Accredian is committed to promptly addressing notices of alleged intellectual property (IP) infringement. Upon receiving proper notification of such infringement, Accredian's response will involve swiftly removing or disabling access to the material that is claimed to be infringing.</li>
+    <li>Accredian shall not be held liable for the unauthorized use of any third-party IP by the users. The users who engage in such unauthorized use or infringe any IP available on the Platform shall fully indemnify and hold Accredian harmless against any and all claims that may arise as a result of such use.</li>
+    <li>If a user believes that their product or other work has been misrepresented or used in a way that constitutes copyright infringement, or their intellectual property rights have been otherwise violated, they should provide Accredian with the following information:</li>
+    <li>An electronic or physical signature of the person duly authorized to act on behalf of the owner of the product, work, or other intellectual property,</li>
+    <li>A description of the product, work, or other intellectual property that they claim has been misrepresented or infringed.</li>
+    <li>A detailed description of the location on the Platform/Program where the material they claim is misrepresenting or infringing their product, work, or other intellectual property can be found.</li>
+    <li>Contact details including address, telephone number, and email address.</li>
+    <li>A statement by them that they have a good faith belief that the disputed use is not authorized by the owner of the product, work, copyright, or intellectual property, or its agent, or applicable law; and</li>
+    <li>A statement by them, made under the penalty of perjury, that the aforementioned information in their notice is accurate and that they are the product, work, copyright, or intellectual property owner or authorized to act on such owner's behalf.</li>
+    </ol>
+    <h2>Falsification and Omission of Information</h2>
+    <ol>
+    <li>Rejection of Application: Failure to provide accurate information regarding students' education qualifications and/or personal details shall result in the immediate rejection of the enrollment application, with no refund of the application fee.</li>
+    <li>Termination of Enrollment: Should any inaccuracies or omissions in students' educational qualifications or personal details be discovered at any point before, during, or after the enrollment process, IITM Pravartak reserves the right to terminate enrollment. Under these circumstances, no refunds for application or program fees will be issued. This termination will lead to the revocation of academic and course privileges, as well as access to the LMS, course materials, and any other benefits or resources.</li>
+    <li>Cancellation of Certificates or Degrees: In cases where falsification or omission of provided information is discovered, IITM Pravartak reserves the right to revoke any earned marks, certificates or degrees.</li>
+    <li>Blacklisting: Individuals found to have engaged in dishonest practices, including falsification or omission of information before, during, or after the enrollment process, may be blacklisted. This action prevents them from future enrollment or employment opportunities within IITM.</li>
+    <li>These consequences serve to uphold the integrity of IITM, and ensure fair treatment of all applicants and enrolled students.</li>
+    </ol>
+    `,
+},
 ];

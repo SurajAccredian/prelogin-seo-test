@@ -8,6 +8,8 @@ import QueryProvider from "./store/QueryProvider";
 import AnalyticsProvider from "./components/AnalyticsProvider";
 import SmoothScroll from "./components/SmoothScroll";
 import { Toaster } from "react-hot-toast";
+import { JsonLd } from "./components/JsonLd";
+import { sitewideGraph } from "./lib/schema";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -48,50 +50,6 @@ export const metadata = {
   },
 };
 
-const structuredData = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": ["Organization", "EducationalOrganization"],
-      "@id": "https://accredian.com/#organization",
-      "name": "Accredian",
-      "url": "https://accredian.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
-      },
-      "description":
-        "Online executive education company in Gurugram, India, delivering live programs with IIMs, IITs, XLRI and SP Jain.",
-      "foundingDate": "2018",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "4th Floor, Plot No. 250, Udyog Vihar, Phase IV",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122015",
-        "addressCountry": "IN",
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/accredianedu/",
-        "https://www.youtube.com/channel/UCE0L_4ADPU2iyKnDJ0xRzyA",
-        "https://www.instagram.com/accredian_edu",
-        "https://twitter.com/accredianedu",
-        "https://facebook.com/accredianlearn",
-      ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://accredian.com/#website",
-      "url": "https://accredian.com/",
-      "name": "Accredian",
-      "publisher": {
-        "@id": "https://accredian.com/#organization",
-      },
-      "inLanguage": "en-IN",
-    },
-  ],
-};
-
 export default function RootLayout({ children }) {
   return (
     <html
@@ -126,10 +84,7 @@ export default function RootLayout({ children }) {
             src="https://px.ads.linkedin.com/collect/?pid=3021458&fmt=gif"
           />
         </noscript>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <JsonLd data={sitewideGraph()} />
         <SmoothScroll />
         <ReduxProvider>
           <QueryProvider>

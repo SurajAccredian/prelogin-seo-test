@@ -5,7 +5,9 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import Wrapper from "../../components/Programs/wrapper";
 import ProgramClientSync from "../../components/Programs/ProgramClientSync";
-import { ProgramJsonLd } from "../../components/SEO/JsonLd";
+import { JsonLd } from "../../components/JsonLd";
+import { programPageGraph, faqItemsFromSections } from "../../lib/schema";
+import { generateFAQFromTemplate } from "../../helpers/faqTemplateService";
 import { getPidBySlug } from "../../lib/program-pid-resolver";
 
 function getProgramData(id) {
@@ -145,9 +147,37 @@ export default async function ProgramPage({ params }) {
     }
   }
 
+  let faqs = [];
+  try {
+    const templateFaqs = generateFAQFromTemplate(programData);
+    faqs = faqItemsFromSections(templateFaqs);
+  } catch {
+    // If template generation fails, fallback to programData.faq
+  }
+
+  if ((!faqs || faqs.length === 0) && Array.isArray(programData.faq)) {
+    faqs = programData.faq.map((f) => ({
+      question: f.question,
+      answer: f.answer,
+    }));
+  }
+
+  const rawTitle = (programData.seo_title || programData.title || "")
+    .replace(/\s*[-|]\s*Accredian$/i, "")
+    .trim();
+  const institute = programData.university_name;
+  const titleAlreadyIncludesInstitute =
+    !institute ||
+    rawTitle.toLowerCase().includes(institute.toLowerCase());
+  const pageTitle = titleAlreadyIncludesInstitute
+    ? `${rawTitle} | Accredian`
+    : `${rawTitle} | ${institute} | Accredian`;
+
+  const schemaGraph = programPageGraph(programData, { faqs, pageTitle });
+
   return (
     <>
-      <ProgramJsonLd programData={programData} />
+      <JsonLd data={schemaGraph} />
       <Wrapper data={programData} />
       <Suspense fallback={null}>
         <ProgramClientSync initialProgramData={programData} />

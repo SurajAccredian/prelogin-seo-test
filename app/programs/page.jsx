@@ -1,4 +1,7 @@
 import SearchedPage from "../components/Home/SearchedPage/SearchedPage";
+import PROGRAMS from "../components/Assets/programs.json";
+import { JsonLd } from "../components/JsonLd";
+import { programsIndexGraph } from "../lib/schema";
 
 export const metadata = {
   title: "All Programs",
@@ -10,5 +13,22 @@ export const metadata = {
 };
 
 export default function ProgramsPage() {
-  return <SearchedPage />;
+  const programSummaries = (PROGRAMS || []).map((p) => ({
+    id: p.id,
+    title: p.program_name || p.title || "",
+    university_name: p.university_name || "",
+    enrollments: p.status === "admission closed" ? "inactive" : "active",
+  }));
+
+  const schemaGraph = programsIndexGraph({
+    pageTitle: "All Programs | Accredian",
+    programs: programSummaries,
+  });
+
+  return (
+    <>
+      <JsonLd data={schemaGraph} />
+      <SearchedPage />
+    </>
+  );
 }

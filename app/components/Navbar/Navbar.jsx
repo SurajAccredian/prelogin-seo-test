@@ -72,13 +72,10 @@ export default function Navbar() {
     };
   }, []);
 
-  const [isCookie, setIsCookie] = useState(
-    typeof document !== "undefined"
-      ? document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, "$1")
-      : ""
-  );
+  const [isCookie, setIsCookie] = useState("");
   const [filepath, setFilepath] = useState("");
   const [profile_var, setProfile_var] = useState(null);
+  const [userName, setUserName] = useState("");
 
   useEffect(() => {
     setIsCookie(
@@ -89,6 +86,7 @@ export default function Navbar() {
     );
     setFilepath(localStorage.getItem("profileURL") || "");
     setProfile_var(localStorage.getItem("profile"));
+    setUserName(localStorage.getItem("name") || "");
   }, []);
 
   const [thinkificUrl, setThinkificUrl] = useState("");
@@ -408,7 +406,7 @@ export default function Navbar() {
                           src={filepath ? filepath : ""}
                         />
                         <h2 className="font-medium truncate">
-                          {localStorage.getItem("name")}
+                          {userName}
                         </h2>
                       </div>
                     </PopoverTrigger>

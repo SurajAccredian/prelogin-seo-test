@@ -77,17 +77,23 @@ export default function Navbar() {
   const [profile_var, setProfile_var] = useState(null);
   const [userName, setUserName] = useState("");
 
-  useEffect(() => {
-    setIsCookie(
-      document.cookie.replace(
-        /(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/,
-        "$1",
-      ),
-    );
-    setFilepath(localStorage.getItem("profileURL") || "");
-    setProfile_var(localStorage.getItem("profile"));
-    setUserName(localStorage.getItem("name") || "");
-  }, []);
+useEffect(() => {
+  const cookieToken = document.cookie.replace(
+    /(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/,
+    "$1"
+  );
+
+  if (cookieToken) {
+    setIsCookie(cookieToken);
+  } else {
+    setIsCookie("");
+    localStorage.removeItem("token");
+  }
+
+  setFilepath(localStorage.getItem("profileURL") || "");
+  setProfile_var(localStorage.getItem("profile"));
+  setUserName(localStorage.getItem("name") || "");
+}, []);
 
   const [thinkificUrl, setThinkificUrl] = useState("");
   const [hasFreeCourse, setHasFreeCourse] = useState(false);
@@ -176,13 +182,6 @@ export default function Navbar() {
     dispatch(userActions.setLoginOpenFromProgramPage(null));
     dispatch(userActions.openLoginModal("login"));
   };
-
-  useEffect(() => {
-    if (!isCookie) {
-      setIsCookie("");
-      localStorage.removeItem("token");
-    }
-  }, [isCookie]);
 
   // useEffect(()=>{
   //   if (authenticated) {

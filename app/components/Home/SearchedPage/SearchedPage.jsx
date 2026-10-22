@@ -7,7 +7,7 @@ import ProgramFilters from "../../Inputs/Filters/ProgramFilters";
 import HomePageWrapper from "../../Wrapper/HomePageWrapper";
 import FilterModal from "../../Modals/FilterModal/FilterModal";
 import { IoIosClose, IoIosArrowDown } from "react-icons/io";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector, useStore } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import { VscListFilter } from "react-icons/vsc";
 import { useDisclosure } from "@chakra-ui/react";
@@ -66,6 +66,26 @@ const parseUrlFilterParams = (searchParams) => {
   };
 };
 
+const serializeFilterState = ({
+  categories = [],
+  tags = [],
+  durations = [],
+  institutes = [],
+  careerLevels = [],
+  search = "",
+  sort = "relevance",
+}) => {
+  const params = new URLSearchParams();
+  if (categories.length > 0) params.set("interest", categories.join(","));
+  if (tags.length > 0) params.set("skills", tags.join(","));
+  if (durations.length > 0) params.set("duration", durations.join(","));
+  if (institutes.length > 0) params.set("institute", institutes.join(","));
+  if (careerLevels.length > 0) params.set("careerLevel", careerLevels.join(","));
+  if (search) params.set("q", search);
+  if (sort && sort !== "relevance") params.set("sort", sort);
+  return params.toString();
+};
+
 function UrlParamsListener({ onUrlChange }) {
   const searchParams = useSearchParams();
   useEffect(() => {
@@ -76,6 +96,7 @@ function UrlParamsListener({ onUrlChange }) {
 
 const SearchedPageInner = () => {
   const dispatch = useDispatch();
+  const store = useStore();
   const {
     checkedCategories = [],
     checkedTags = [],
@@ -85,19 +106,31 @@ const SearchedPageInner = () => {
   } = useSelector((state) => state.program);
 
   const { getProgramStatus } = useProgramStatuses();
-  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const [modalCategory, setModalCategory] = useState(null);
+  const isFilterModalOpen = Boolean(modalCategory);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);
   const [open, setOpen] = useState(false);
-  const [filteredArray, setFilteredArray] = useState(PROGRAMS);
-  const [sortBy, setSortBy] = useState("relevance");
+  const [selectedSort, setSelectedSort] = useState("relevance");
 
   const [urlParams, setUrlParams] = useState(null);
   const router = useRouter();
   const searchQuery = (urlParams?.get("q") || "").trim();
-  const isSyncingFromUrlRef = useRef(false);
+
+  const urlSort = urlParams?.get("sort");
+  const sortBy =
+    urlSort && ["relevance", "duration_asc", "duration_desc"].includes(urlSort)
+      ? urlSort
+      : selectedSort;
+
+  // Synchronization refs:
+  // 1. Gating flag: ensures initial URL parameters are parsed BEFORE any outgoing sync can overwrite them.
+  const isInitializedFromUrlRef = useRef(false);
+  // 2. Track the latest pushed query string
+  const lastPushedQueryRef = useRef("");
+  // 3. Track in-flight pushed queries to safely handle rapid consecutive clicks and asynchronous router.replace
+  const pendingPushesRef = useRef(new Set());
 
   // Extract available filter options dynamically
   const filterOptions = useMemo(() => getAvailableFilterOptions(PROGRAMS), []);
@@ -105,95 +138,80 @@ const SearchedPageInner = () => {
   const handleClose = () => setOpen(false);
 
   // Parse URL query parameters into Redux state
-  const parseUrlParams = useCallback((paramsToParse) => {
-    if (!paramsToParse) return;
-    isSyncingFromUrlRef.current = true;
-    const {
-      categories: urlCategories,
-      tags: urlTags,
-      durations: urlDurations,
-      institutes: urlInstitutes,
-      careerLevels: urlCareerLevels,
-      sort: urlSort,
-    } = parseUrlFilterParams(paramsToParse);
+  const parseUrlParams = useCallback(
+    (paramsToParse) => {
+      if (!paramsToParse) return;
+      const {
+        categories: urlCategories,
+        tags: urlTags,
+        durations: urlDurations,
+        institutes: urlInstitutes,
+        careerLevels: urlCareerLevels,
+      } = parseUrlFilterParams(paramsToParse);
 
-    if (!areArraysEqual(urlCategories, checkedCategories)) {
-      dispatch(programActions.setCheckedCategories(urlCategories));
-    }
-    if (!areArraysEqual(urlTags, checkedTags)) {
-      dispatch(programActions.setCheckedTags(urlTags));
-    }
-    if (!areArraysEqual(urlDurations, checkedDurations)) {
-      dispatch(programActions.setCheckedDurations(urlDurations));
-    }
-    if (!areArraysEqual(urlInstitutes, checkedInstitutes)) {
-      dispatch(programActions.setCheckedInstitutes(urlInstitutes));
-    }
-    if (!areArraysEqual(urlCareerLevels, checkedCareerLevels)) {
-      dispatch(programActions.setCheckedCareerLevels(urlCareerLevels));
-    }
+      const current = store.getState().program || {};
 
-    if (urlSort && ["relevance", "duration_asc", "duration_desc"].includes(urlSort)) {
-      setSortBy(urlSort);
-    } else {
-      setSortBy("relevance");
-    }
-  }, [checkedCategories, checkedTags, checkedDurations, checkedInstitutes, checkedCareerLevels, dispatch]);
+      if (!areArraysEqual(urlCategories, current.checkedCategories)) {
+        dispatch(programActions.setCheckedCategories(urlCategories));
+      }
+      if (!areArraysEqual(urlTags, current.checkedTags)) {
+        dispatch(programActions.setCheckedTags(urlTags));
+      }
+      if (!areArraysEqual(urlDurations, current.checkedDurations)) {
+        dispatch(programActions.setCheckedDurations(urlDurations));
+      }
+      if (!areArraysEqual(urlInstitutes, current.checkedInstitutes)) {
+        dispatch(programActions.setCheckedInstitutes(urlInstitutes));
+      }
+      if (!areArraysEqual(urlCareerLevels, current.checkedCareerLevels)) {
+        dispatch(programActions.setCheckedCareerLevels(urlCareerLevels));
+      }
+    },
+    [dispatch, store]
+  );
 
   const handleClickOpenFilterDrawer = () => onOpen();
 
-  // Sync state to URL parameters
-  const updateUrlParams = () => {
-    if (!urlParams) return;
-    if (isSyncingFromUrlRef.current) {
-      isSyncingFromUrlRef.current = false;
+  // Sync Redux state to URL parameters
+  const updateUrlParams = useCallback(() => {
+    // DO NOT allow outgoing sync until initial URL parameters have been processed
+    if (!isInitializedFromUrlRef.current || !urlParams) return;
+
+    const targetQueryString = serializeFilterState({
+      categories: checkedCategories,
+      tags: checkedTags,
+      durations: checkedDurations,
+      institutes: checkedInstitutes,
+      careerLevels: checkedCareerLevels,
+      search: searchQuery,
+      sort: sortBy,
+    });
+
+    const currentUrlQueryString = urlParams.toString();
+
+    // Already in sync with browser URL
+    if (targetQueryString === currentUrlQueryString) {
       return;
     }
 
-    const {
-      categories: urlCategories,
-      tags: urlTags,
-      durations: urlDurations,
-      institutes: urlInstitutes,
-      careerLevels: urlCareerLevels,
-      search: urlSearch,
-      sort: urlSort,
-    } = parseUrlFilterParams(urlParams);
+    // Register this query as an in-flight push generated by our filter state
+    pendingPushesRef.current.add(targetQueryString);
+    lastPushedQueryRef.current = targetQueryString;
 
-    const isAlreadyInSync =
-      areArraysEqual(urlCategories, checkedCategories) &&
-      areArraysEqual(urlTags, checkedTags) &&
-      areArraysEqual(urlDurations, checkedDurations) &&
-      areArraysEqual(urlInstitutes, checkedInstitutes) &&
-      areArraysEqual(urlCareerLevels, checkedCareerLevels) &&
-      urlSearch === searchQuery &&
-      urlSort === sortBy;
-
-    if (isAlreadyInSync) {
-      return;
-    }
-
-    const params = new URLSearchParams();
-    if (checkedCategories.length > 0)
-      params.set("interest", checkedCategories.join(","));
-    if (checkedTags.length > 0)
-      params.set("skills", checkedTags.join(","));
-    if (checkedDurations.length > 0)
-      params.set("duration", checkedDurations.join(","));
-    if (checkedInstitutes.length > 0)
-      params.set("institute", checkedInstitutes.join(","));
-    if (checkedCareerLevels.length > 0)
-      params.set("careerLevel", checkedCareerLevels.join(","));
-    if (searchQuery)
-      params.set("q", searchQuery);
-    if (sortBy && sortBy !== "relevance")
-      params.set("sort", sortBy);
-
-    const newQueryString = params.toString();
-    router.replace(`/programs${newQueryString ? `?${newQueryString}` : ""}`, {
+    router.replace(`/programs${targetQueryString ? `?${targetQueryString}` : ""}`, {
       scroll: false,
     });
-  };
+  }, [
+    urlParams,
+    router,
+    checkedCategories,
+    checkedTags,
+    checkedDurations,
+    checkedInstitutes,
+    checkedCareerLevels,
+    searchQuery,
+    sortBy,
+  ]);
 
   // Filter change handlers
   const handleCategoryChange = (event) => {
@@ -254,8 +272,8 @@ const SearchedPageInner = () => {
     );
   };
 
-  // Perform multi-facet filtering
-  useEffect(() => {
+  // Perform multi-facet filtering derived directly during render
+  const filteredArray = useMemo(() => {
     const hasActiveFilters =
       checkedCategories.length > 0 ||
       checkedTags.length > 0 ||
@@ -265,11 +283,10 @@ const SearchedPageInner = () => {
       Boolean(searchQuery);
 
     if (!hasActiveFilters) {
-      setFilteredArray(PROGRAMS);
-      return;
+      return PROGRAMS;
     }
 
-    const results = filterPrograms(PROGRAMS, {
+    return filterPrograms(PROGRAMS, {
       interests: checkedCategories,
       skills: checkedTags,
       durations: checkedDurations,
@@ -277,8 +294,6 @@ const SearchedPageInner = () => {
       careerLevels: checkedCareerLevels,
       searchQuery,
     });
-
-    setFilteredArray(results);
   }, [
     checkedCategories,
     checkedTags,
@@ -287,11 +302,6 @@ const SearchedPageInner = () => {
     checkedCareerLevels,
     searchQuery,
   ]);
-
-  // Open modal when modalCategory is set
-  useEffect(() => {
-    if (modalCategory) setIsFilterModalOpen(true);
-  }, [modalCategory]);
 
   // Individual chip removal
   const handleRemoveCategory = (category) =>
@@ -324,7 +334,7 @@ const SearchedPageInner = () => {
     );
 
   const handleRemoveSearchQuery = () => {
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(urlParams ? urlParams.toString() : "");
     params.delete("q");
     const newQueryString = params.toString();
     router.replace(`/programs${newQueryString ? `?${newQueryString}` : ""}`, {
@@ -334,7 +344,7 @@ const SearchedPageInner = () => {
 
   const handleClearClose = () => {
     dispatch(programActions.clearAllFilters());
-    setSortBy("relevance");
+    setSelectedSort("relevance");
     if (searchQuery) {
       router.replace("/programs", { scroll: false });
     }
@@ -344,15 +354,41 @@ const SearchedPageInner = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
+  // Incoming URL Sync (Initial Load & Genuine External Navigation like Browser Back/Forward)
   useEffect(() => {
-    if (urlParams) {
+    if (!urlParams) return;
+
+    const currentQuery = urlParams.toString();
+
+    // 1. Initial Load: Parse URL params into Redux, mark initialized, and seed tracking
+    if (!isInitializedFromUrlRef.current) {
       parseUrlParams(urlParams);
+      isInitializedFromUrlRef.current = true;
+      lastPushedQueryRef.current = currentQuery;
+      return;
     }
+
+    // 2. Check if this URL update was generated by our own router.replace()
+    if (pendingPushesRef.current.has(currentQuery)) {
+      pendingPushesRef.current.delete(currentQuery);
+      // If this was an older in-flight push and a newer push is already the latest, do not dispatch!
+      if (currentQuery !== lastPushedQueryRef.current) {
+        return;
+      }
+      // Redux is already in sync with the latest push; do not re-dispatch
+      return;
+    }
+
+    // 3. Genuine external navigation (Browser Back, Forward, or Navbar deep-link)
+    lastPushedQueryRef.current = currentQuery;
+    parseUrlParams(urlParams);
   }, [urlParams, parseUrlParams]);
 
+  // Outgoing Redux -> URL Sync
   useEffect(() => {
     updateUrlParams();
   }, [
+    updateUrlParams,
     checkedCategories,
     checkedTags,
     checkedDurations,
@@ -540,7 +576,7 @@ const SearchedPageInner = () => {
                       <select
                         id="program-sort-select"
                         value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value)}
+                        onChange={(e) => setSelectedSort(e.target.value)}
                         className="appearance-none bg-white border border-neutral-300 rounded-lg px-3.5 py-1.5 pr-8 text-sm font-medium text-neutral-800 cursor-pointer hover:border-neutral-400 focus:outline-none focus:ring-2 focus:ring-universal/20 focus:border-universal transition-all shadow-sm"
                       >
                         <option value="relevance">Relevance</option>
@@ -681,7 +717,9 @@ const SearchedPageInner = () => {
       {/* Show More Modal */}
       <FilterModal
         open={isFilterModalOpen}
-        setOpen={setIsFilterModalOpen}
+        setOpen={(isOpen) => {
+          if (!isOpen) setModalCategory(null);
+        }}
         title={modalConfig.title}
         categories={modalConfig.categories}
         checked={modalConfig.checked}

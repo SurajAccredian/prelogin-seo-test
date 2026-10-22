@@ -112,17 +112,24 @@ const SearchedPageInner = () => {
 
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);
   const [open, setOpen] = useState(false);
-  const [selectedSort, setSelectedSort] = useState("relevance");
+  const [sortBy, setSortBy] = useState("relevance");
+  const [prevUrlSort, setPrevUrlSort] = useState(null);
 
   const [urlParams, setUrlParams] = useState(null);
   const router = useRouter();
   const searchQuery = (urlParams?.get("q") || "").trim();
 
-  const urlSort = urlParams?.get("sort");
-  const sortBy =
-    urlSort && ["relevance", "duration_asc", "duration_desc"].includes(urlSort)
-      ? urlSort
-      : selectedSort;
+  // Synchronize from URL only when the URL parameter changes externally
+  const rawUrlSort = urlParams?.get("sort");
+  const urlSort =
+    rawUrlSort && ["relevance", "duration_asc", "duration_desc"].includes(rawUrlSort)
+      ? rawUrlSort
+      : urlParams ? "relevance" : null;
+
+  if (urlSort !== null && urlSort !== prevUrlSort) {
+    setPrevUrlSort(urlSort);
+    setSortBy(urlSort);
+  }
 
   // Synchronization refs:
   // 1. Gating flag: ensures initial URL parameters are parsed BEFORE any outgoing sync can overwrite them.
@@ -344,7 +351,7 @@ const SearchedPageInner = () => {
 
   const handleClearClose = () => {
     dispatch(programActions.clearAllFilters());
-    setSelectedSort("relevance");
+    setSortBy("relevance");
     if (searchQuery) {
       router.replace("/programs", { scroll: false });
     }
@@ -576,7 +583,7 @@ const SearchedPageInner = () => {
                       <select
                         id="program-sort-select"
                         value={sortBy}
-                        onChange={(e) => setSelectedSort(e.target.value)}
+                        onChange={(e) => setSortBy(e.target.value)}
                         className="appearance-none bg-white border border-neutral-300 rounded-lg px-3.5 py-1.5 pr-8 text-sm font-medium text-neutral-800 cursor-pointer hover:border-neutral-400 focus:outline-none focus:ring-2 focus:ring-universal/20 focus:border-universal transition-all shadow-sm"
                       >
                         <option value="relevance">Relevance</option>

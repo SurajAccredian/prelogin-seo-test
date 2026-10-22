@@ -72,28 +72,24 @@ export default function Navbar() {
     };
   }, []);
 
-  const [isCookie, setIsCookie] = useState("");
+  const [isCookie, setIsCookie] = useState(
+    typeof document !== "undefined"
+      ? document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, "$1")
+      : ""
+  );
   const [filepath, setFilepath] = useState("");
   const [profile_var, setProfile_var] = useState(null);
-  const [userName, setUserName] = useState("");
 
-useEffect(() => {
-  const cookieToken = document.cookie.replace(
-    /(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/,
-    "$1"
-  );
-
-  if (cookieToken) {
-    setIsCookie(cookieToken);
-  } else {
-    setIsCookie("");
-    localStorage.removeItem("token");
-  }
-
-  setFilepath(localStorage.getItem("profileURL") || "");
-  setProfile_var(localStorage.getItem("profile"));
-  setUserName(localStorage.getItem("name") || "");
-}, []);
+  useEffect(() => {
+    setIsCookie(
+      document.cookie.replace(
+        /(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/,
+        "$1",
+      ),
+    );
+    setFilepath(localStorage.getItem("profileURL") || "");
+    setProfile_var(localStorage.getItem("profile"));
+  }, []);
 
   const [thinkificUrl, setThinkificUrl] = useState("");
   const [hasFreeCourse, setHasFreeCourse] = useState(false);
@@ -182,6 +178,13 @@ useEffect(() => {
     dispatch(userActions.setLoginOpenFromProgramPage(null));
     dispatch(userActions.openLoginModal("login"));
   };
+
+  useEffect(() => {
+    if (!isCookie) {
+      setIsCookie("");
+      localStorage.removeItem("token");
+    }
+  }, [isCookie]);
 
   // useEffect(()=>{
   //   if (authenticated) {
@@ -405,7 +408,7 @@ useEffect(() => {
                           src={filepath ? filepath : ""}
                         />
                         <h2 className="font-medium truncate">
-                          {userName}
+                          {localStorage.getItem("name")}
                         </h2>
                       </div>
                     </PopoverTrigger>

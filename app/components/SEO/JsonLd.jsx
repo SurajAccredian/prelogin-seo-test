@@ -1,3 +1,6 @@
+/**
+ * @deprecated Use `JsonLd` from `@/components/JsonLd` and `programPageGraph` from `@/lib/schema` instead.
+ */
 import { generateFAQFromTemplate } from "../../helpers/faqTemplateService";
 import { getInstitute } from "../Assets/institutes";
 

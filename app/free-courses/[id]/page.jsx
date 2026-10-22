@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 import Wrapper from "../../components/FreeCourses/wrapper";
+import { JsonLd } from "../../components/JsonLd";
+import { freeCoursePageGraph } from "../../lib/schema";
 
 function getFreeCourseData(id) {
   try {
@@ -113,5 +115,15 @@ export default async function FreeCoursePage({ params }) {
     notFound();
   }
 
-  return <Wrapper data={data} />;
+  const schema = freeCoursePageGraph(data, {
+    pageTitle: data.seo_title ? `${data.seo_title} | Accredian` : undefined,
+    faqs: Array.isArray(data.faq) ? data.faq : undefined,
+  });
+
+  return (
+    <>
+      <JsonLd data={schema} />
+      <Wrapper data={data} />
+    </>
+  );
 }

@@ -54,64 +54,8 @@ export async function generateMetadata({ params }) {
 }
 
 import PROGRAMS from "../../components/Assets/programs.json";
-
-function getCategorySchema(category, data) {
-  const readable = decodeURIComponent(category)
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-
-  const normalize = (s) =>
-    String(s || "")
-      .toLowerCase()
-      .replace(/-/g, " ")
-      .replace(/\s*&\s*/g, " and ")
-      .replace(/\s+/g, " ")
-      .trim();
-
-  const targetNorm = normalize(data?.short_id || data?.vertical || data?.short_title || category);
-  const matchingPrograms = PROGRAMS.filter((p) => normalize(p.category) === targetNorm);
-
-  const breadcrumbs = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://accredian.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Courses",
-        "item": "https://accredian.com/programs"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": readable,
-        "item": `https://accredian.com/course/${categorySlug(decodeURIComponent(category))}`
-      }
-    ]
-  };
-
-  const itemList = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": `${readable} Programs`,
-    "description": data?.description || `Explore ${readable} programs`,
-    "numberOfItems": matchingPrograms.length,
-    "itemListElement": matchingPrograms.map((p, idx) => ({
-      "@type": "ListItem",
-      "position": idx + 1,
-      "name": p.program_name,
-      "url": `https://accredian.com/programs/${p.id}`
-    }))
-  };
-
-  return [breadcrumbs, itemList];
-}
+import { JsonLd } from "../../components/JsonLd";
+import { categoryPageGraph } from "../../lib/schema";
 
 export const dynamicParams = false;
 
@@ -129,17 +73,41 @@ export default async function CourseCategoryPage({ params }) {
     notFound();
   }
 
-  const schemas = getCategorySchema(category, data);
+  const readable = decodeURIComponent(category)
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+
+  const normalize = (s) =>
+    String(s || "")
+      .toLowerCase()
+      .replace(/-/g, " ")
+      .replace(/\s*&\s*/g, " and ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const targetNorm = normalize(data?.short_id || data?.vertical || data?.short_title || category);
+  const matchingPrograms = PROGRAMS
+    .filter((p) => normalize(p.category) === targetNorm)
+    .map((p) => ({
+      id: p.id,
+      title: p.program_name || p.title || "",
+      university_name: p.university_name || "",
+      enrollments: p.status === "admission closed" ? "inactive" : "active",
+    }));
+
+  const slug = categorySlug(decodeURIComponent(category));
+  const pageTitle = `${readable} Programs from IIMs, IITs & XLRI | Accredian`;
+
+  const schemaGraph = categoryPageGraph({
+    slug,
+    name: readable,
+    pageTitle,
+    programs: matchingPrograms,
+  });
 
   return (
     <>
-      {schemas.map((s, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
-        />
-      ))}
+      <JsonLd data={schemaGraph} />
       <Wrapper data={data} />
     </>
   );

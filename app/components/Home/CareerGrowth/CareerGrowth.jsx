@@ -3,6 +3,10 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import { SiGoogleclassroom } from "react-icons/si";
 import './CareerGrowth.css';
 import { BriefcaseBusiness, ShieldCheck, Wrench } from "lucide-react";
@@ -27,6 +31,40 @@ const CareerGrowth = () => {
   // Cards 2-4 are clipped below the container, so native lazy loading would only
   // start when they slide in. Start loading them once the section is near the viewport.
   const [preload, setPreload] = useState(false);
+  // Portrait tablets get an autoplay carousel (the pinned slider leaves empty space on a tall, narrow screen).
+  // Starts false so the server HTML and first client render match; set after mount.
+  const [tabletPortrait, setTabletPortrait] = useState(false);
+  const [reduceMotion, setReduceMotion] = useState(false);
+  const swiperRef = useRef(null);
+
+  useEffect(() => {
+    const tabletMq = window.matchMedia("(min-width: 768px) and (max-width: 1279px) and (orientation: portrait)");
+    const motionMq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => {
+      setTabletPortrait(tabletMq.matches);
+      setReduceMotion(motionMq.matches);
+    };
+    update();
+    tabletMq.addEventListener("change", update);
+    motionMq.addEventListener("change", update);
+    return () => {
+      tabletMq.removeEventListener("change", update);
+      motionMq.removeEventListener("change", update);
+    };
+  }, []);
+
+  // Don't keep autoplaying while the carousel is off-screen
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!tabletPortrait || !el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(([entry]) => {
+      const autoplay = swiperRef.current?.autoplay;
+      if (!autoplay?.running && entry.isIntersecting) autoplay?.start();
+      else if (autoplay?.running && !entry.isIntersecting) autoplay.stop();
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [tabletPortrait]);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -102,6 +140,8 @@ const CareerGrowth = () => {
 
   useGSAP(
     () => {
+      // portrait tablets use the carousel instead of the pinned slider
+      if (tabletPortrait) return;
       const cards = cardsRef.current.filter(Boolean);
       if (!cards.length || !containerRef.current) return;
 
@@ -158,8 +198,64 @@ const CareerGrowth = () => {
 
       return () => ScrollTrigger.removeEventListener("refreshInit", applyOffset);
     },
-    { scope: containerRef, dependencies: [] }
+    { scope: containerRef, dependencies: [tabletPortrait], revertOnUpdate: true }
   );
+
+  const renderCardContent = (section, index) => {
+    const IconComponent = section.Icon;
+    return (
+      <>
+        {/* Text Content */}
+        <div className="cg-text w-full flex items-center justify-center px-6 sm:px-8 lg:px-12 py-4 sm:py-8 bg-[#D4E5FC] z-10">
+          <div className="max-w-xl space-y-4 sm:space-y-6 text-black">
+            <div className="flex items-center gap-2 sm:gap-3 text-black">
+              <IconComponent className="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
+              <span className="text-xs sm:text-lg uppercase">
+                {section.heading}
+              </span>
+            </div>
+
+            <h2 className="cg-title text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-[1.15]">
+              {(() => {
+                const { title, highlight } = section;
+                const parts = title.split(
+                  new RegExp(`(${highlight})`, "i")
+                );
+                return parts.map((part, i) =>
+                  part.toLowerCase() === highlight.toLowerCase() ? (
+                    <span key={i} className="text-universal">
+                      {part}
+                    </span>
+                  ) : (
+                    <span key={i}>{part}</span>
+                  )
+                );
+              })()}
+            </h2>
+
+            <p className="cg-desc text-sm sm:text-base lg:text-lg text-black leading-relaxed">
+              {section.description}
+            </p>
+          </div>
+        </div>
+
+        {/* Image Section: fills the space left by the text so it is never clipped */}
+        <div className="cg-image bg-[#D4E5FC] p-2 sm:p-4 lg:p-6">
+          <div className="relative w-full h-full max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl mx-auto">
+            <Image
+              src={images[index]}
+              fill
+              sizes="(max-width: 767px) 100vw, 50vw"
+              quality={75}
+              alt={section.title ? `${section.title} - Accredian Pedagogy` : `Accredian Executive Pedagogy ${index + 1}`}
+              className="object-contain object-center"
+              loading={preload ? "eager" : "lazy"}
+            />
+          </div>
+        </div>
+      </>
+    );
+  };
 
   return (
     <>
@@ -179,13 +275,37 @@ const CareerGrowth = () => {
       </div>
 
       <div
-        className="cg-container w-full relative flex items-center justify-center"
+        className={`cg-container w-full relative flex items-center justify-center${tabletPortrait ? " cg-container--carousel" : ""}`}
         ref={containerRef}
       >
-        <div className="cards-wrapper w-full h-full relative">
-          {sections.map((section, index) => {
-            const IconComponent = section.Icon;
-            return (
+        {tabletPortrait ? (
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            slidesPerView={1}
+            speed={800}
+            rewind
+            pagination={{ clickable: true }}
+            autoplay={
+              reduceMotion
+                ? false
+                : { delay: 5000, pauseOnMouseEnter: true, disableOnInteraction: false }
+            }
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            className="cg-swiper w-full"
+          >
+            {sections.map((section, index) => (
+              <SwiperSlide key={`slide-${index}`}>
+                <div className="relative w-full bg-[#D4E5FC]">
+                  <div className="cg-card cg-card--slide">
+                    {renderCardContent(section, index)}
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          <div className="cards-wrapper w-full h-full relative">
+            {sections.map((section, index) => (
               <section
                 className=""
                 key={`card-${index}`}
@@ -195,61 +315,13 @@ const CareerGrowth = () => {
               >
                 <div className="relative w-full h-full bg-[#D4E5FC]">
                   <div className="cg-card absolute inset-0">
-                    {/* Text Content */}
-                    <div className="cg-text w-full flex items-center justify-center px-6 sm:px-8 lg:px-12 py-4 sm:py-8 bg-[#D4E5FC] z-10">
-                      <div className="max-w-xl space-y-4 sm:space-y-6 text-black">
-                        <div className="flex items-center gap-2 sm:gap-3 text-black">
-                          <IconComponent className="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
-                          <span className="text-xs sm:text-lg uppercase">
-                            {section.heading}
-                          </span>
-                        </div>
-
-                        <h2 className="cg-title text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-[1.15]">
-                          {(() => {
-                            const { title, highlight } = section;
-                            const parts = title.split(
-                              new RegExp(`(${highlight})`, "i")
-                            );
-                            return parts.map((part, i) =>
-                              part.toLowerCase() === highlight.toLowerCase() ? (
-                                <span key={i} className="text-universal">
-                                  {part}
-                                </span>
-                              ) : (
-                                <span key={i}>{part}</span>
-                              )
-                            );
-                          })()}
-                        </h2>
-
-                        <p className="cg-desc text-sm sm:text-base lg:text-lg text-black leading-relaxed">
-                          {section.description}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Image Section: fills the space left by the text so it is never clipped */}
-                    <div className="cg-image bg-[#D4E5FC] p-2 sm:p-4 lg:p-6">
-                      <div className="relative w-full h-full max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl mx-auto">
-                        <Image
-                          src={images[index]}
-                          fill
-                          sizes="(max-width: 767px) 100vw, 50vw"
-                          quality={75}
-                          alt={section.title ? `${section.title} - Accredian Pedagogy` : `Accredian Executive Pedagogy ${index + 1}`}
-                          className="object-contain object-center"
-                          loading={preload ? "eager" : "lazy"}
-                        />
-                      </div>
-                    </div>
-
+                    {renderCardContent(section, index)}
                   </div>
                 </div>
               </section>
-            );
-          })}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

@@ -1,10 +1,13 @@
+
 import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import Wrapper from "../../components/Programs/wrapper";
 import ProgramClientSync from "../../components/Programs/ProgramClientSync";
-import { ProgramJsonLd } from "../../components/SEO/JsonLd";
+import { JsonLd } from "../../components/JsonLd";
+import { programPageGraph, faqItemsFromSections } from "../../lib/schema";
+import { generateFAQFromTemplate } from "../../helpers/faqTemplateService";
 import { getPidBySlug } from "../../lib/program-pid-resolver";
 
 function getProgramData(id) {
@@ -14,11 +17,11 @@ function getProgramData(id) {
       "app/components/Assets/programs",
       `${id}.json`
     );
-    if (!fs.existsSync(filePath)) {
-      return null;
-    }
+
+    if (!fs.existsSync(filePath)) return null;
+
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
-  } catch (err) {
+  } catch {
     return null;
   }
 }
@@ -27,44 +30,59 @@ export async function generateMetadata({ params }) {
   const { id } = await params;
   const data = getProgramData(id);
 
-  if (!data) {
-    notFound();
-  }
+  if (!data) notFound();
 
-  // Same course name is run by several institutes, so the institute must be in the title/description to keep them unique.
+  const rawTitle = (data.seo_title || data.title || "")
+    .replace(/\s*[-|]\s*Accredian$/i, "")
+    .trim();
+
   const institute = data.university_name;
-  const hasInstitute = (text) =>
-    !institute || text.toLowerCase().includes(institute.toLowerCase());
+  const titleAlreadyIncludesInstitute =
+    !institute ||
+    rawTitle.toLowerCase().includes(institute.toLowerCase());
 
-  const baseTitle = data.seo_title || data.title;
-  const title = hasInstitute(baseTitle)
-    ? data.seo_title || `${baseTitle} | Accredian`
-    : `${baseTitle} | ${institute} | Accredian`;
-  const baseDescription =
+  const title = titleAlreadyIncludesInstitute
+    ? rawTitle
+    : `${rawTitle} | ${institute}`;
+
+  const description =
+    data.meta_description ||
     data.description ||
-    `Explore the ${data.title} offered by ${data.university_name} at Accredian. ${data.duration ? `${data.duration} online program.` : ""
+    `Explore the ${data.title} offered by ${institute || "leading institutes"} at Accredian. ${
+      data.duration ? `${data.duration} online program.` : ""
     }`;
-  const description = hasInstitute(baseDescription)
-    ? baseDescription
-    : `${data.title} by ${institute}. ${baseDescription}`;
+
+  const ogTitle = data.og_title || title;
+  const keywords = data.keywords || undefined;
+  const canonicalUrl = `https://accredian.com/programs/${id}`;
+
+  const ogImage = data.university_image
+    ? [data.university_image]
+    : data.university_logo
+      ? [data.university_logo]
+      : undefined;
 
   return {
-    title: {
-      absolute: title,
-    },
+    title,
     description,
+    keywords,
     alternates: {
-      canonical: `/programs/${id}`,
+      canonical: canonicalUrl,
     },
     openGraph: {
-      title,
+      title: ogTitle,
       description,
-      url: `https://accredian.com/programs/${id}`,
-      images: data.university_image
-        ? [data.university_image]
-        : data.university_logo
-          ? [data.university_logo]
-          : [],
+      url: canonicalUrl,
+      siteName: "Accredian",
+      images: ogImage,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@accredianedu",
+      title: ogTitle,
+      description,
+      images: ogImage,
     },
   };
 }
@@ -76,11 +94,14 @@ export async function generateStaticParams() {
     process.cwd(),
     "app/components/Assets/programs"
   );
+
   if (!fs.existsSync(programsDir)) return [];
+
   const files = fs.readdirSync(programsDir);
+
   return files
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => ({ id: f.replace(/\.json$/, "") }));
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => ({ id: file.replace(/\.json$/, "") }));
 }
 
 const ENABLE_BACKEND_FETCH = true;
@@ -89,41 +110,74 @@ export default async function ProgramPage({ params }) {
   const { id } = await params;
   const programData = getProgramData(id);
 
-  if (!programData) {
-    notFound();
-  }
+  if (!programData) notFound();
 
-  // Live registration status check
+  // Preserve the live registration-status check from the existing page.
   const pid = programData.pid || getPidBySlug(id);
+
   if (pid && ENABLE_BACKEND_FETCH) {
     const backendUrl =
-      process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD
+      process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD;
 
-    try {
-      const response = await fetch(`${backendUrl}/program/${pid}/registration-status`, {
-        next: {
-          tags: [`program-status-${pid}`],
-          revalidate: 3600,
-        },
-        signal: AbortSignal.timeout(2000),
-      });
+    if (backendUrl) {
+      try {
+        const response = await fetch(
+          `${backendUrl}/program/${pid}/registration-status`,
+          {
+            next: {
+              tags: [`program-status-${pid}`],
+              revalidate: 3600,
+            },
+            signal: AbortSignal.timeout(2000),
+          }
+        );
 
-      if (response.ok) {
-        const result = await response.json();
-        const liveStatus = result?.data?.registration_status;
-        if (liveStatus === "active" || liveStatus === "inactive") {
-          programData.registration_status = liveStatus;
-          programData.enrollments = liveStatus;
+        if (response.ok) {
+          const result = await response.json();
+          const liveStatus = result?.data?.registration_status;
+
+          if (liveStatus === "active" || liveStatus === "inactive") {
+            programData.registration_status = liveStatus;
+            programData.enrollments = liveStatus;
+          }
         }
+      } catch {
+        // Fall back to the registration status in the JSON file.
       }
-    } catch {
-      // Fallback silently to static JSON
     }
   }
 
+  let faqs = [];
+  try {
+    const templateFaqs = generateFAQFromTemplate(programData);
+    faqs = faqItemsFromSections(templateFaqs);
+  } catch {
+    // If template generation fails, fallback to programData.faq
+  }
+
+  if ((!faqs || faqs.length === 0) && Array.isArray(programData.faq)) {
+    faqs = programData.faq.map((f) => ({
+      question: f.question,
+      answer: f.answer,
+    }));
+  }
+
+  const rawTitle = (programData.seo_title || programData.title || "")
+    .replace(/\s*[-|]\s*Accredian$/i, "")
+    .trim();
+  const institute = programData.university_name;
+  const titleAlreadyIncludesInstitute =
+    !institute ||
+    rawTitle.toLowerCase().includes(institute.toLowerCase());
+  const pageTitle = titleAlreadyIncludesInstitute
+    ? `${rawTitle} | Accredian`
+    : `${rawTitle} | ${institute} | Accredian`;
+
+  const schemaGraph = programPageGraph(programData, { faqs, pageTitle });
+
   return (
     <>
-      <ProgramJsonLd programData={programData} />
+      <JsonLd data={schemaGraph} />
       <Wrapper data={programData} />
       <Suspense fallback={null}>
         <ProgramClientSync initialProgramData={programData} />

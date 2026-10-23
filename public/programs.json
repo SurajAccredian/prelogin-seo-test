@@ -59,7 +59,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
     "program_name": "Chief Human Resources Officer Programme (The CHRO Program)",
     "category": "human resource",
-    "start_date": "13 Feb 2027",
+    "start_date": "17 Jan 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program",
     "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
@@ -837,7 +837,7 @@
     "program_name": "Transform Business Workflows with Generative AI",
     "category": "microsoft",
     "status": "New Launch",
-    "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
+    "url": "https://accredian.com/free-courses/transform-business-workflows-with-generative-ai",
     "id": "transform-business-workflows-with-generative-ai",
     "duration": "9 Hours",
     "required_years_experience": 0
@@ -848,7 +848,7 @@
     "program_name": "Transform Business Workflows with Generative AI",
     "category": "free courses",
     "status": "New Launch",
-    "url": "https://accredian.com/programs/transform-business-workflows-with-generative-ai",
+    "url": "https://accredian.com/free-courses/transform-business-workflows-with-generative-ai",
     "id": "transform-business-workflows-with-generative-ai",
     "duration": "9 Hours",
     "required_years_experience": 0
@@ -859,7 +859,7 @@
     "program_name": "Transform Ideas into Impact with Product Management",
     "category": "product management",
     "status": "New Launch",
-    "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
+    "url": "https://accredian.com/free-courses/transform-ideas-into-impact-with-product-management",
     "id": "transform-ideas-into-impact-with-product-management",
     "duration": "2.5 Hours",
     "required_years_experience": 0
@@ -870,7 +870,7 @@
     "program_name": "Transform Ideas into Impact with Product Management",
     "category": "free courses",
     "status": "New Launch",
-    "url": "https://accredian.com/programs/transform-ideas-into-impact-with-product-management",
+    "url": "https://accredian.com/free-courses/transform-ideas-into-impact-with-product-management",
     "id": "transform-ideas-into-impact-with-product-management",
     "duration": "2.5 Hours",
     "required_years_experience": 0

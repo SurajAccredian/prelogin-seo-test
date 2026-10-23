@@ -70,7 +70,7 @@
     {
       "title": "Aspiring Product Managers",
       "description": "Professionals looking to build a strong, practical foundation in Product Management and product thinking"
-    }, 
+    },
     {
       "title": "Business professionals",
       "description": "Managers and individual contributors who work with products, customers, or digital initiatives"
@@ -236,8 +236,12 @@
       "answer": "No prior Product Management experience is required. The course is designed to build the concepts progressively."
     },
     {
-      "question":  "Is there a deadline to complete the course?",
-      "answer":"Yes. Your course access will remain active for 60 days from the date of activation. We recommend completing all 6 modules and the required assessments within this period."
+      "question": "Is there a deadline to complete the course?",
+      "answer": "Yes. Your course access will remain active for 60 days from the date of activation. We recommend completing all 6 modules and the required assessments within this period."
     }
-  ]
+  ],
+  "seo_title": "Transform Ideas into Impact Product Management",
+  "og_title": "Accredian - Transform Ideas into Impact with Product Management",
+  "meta_description": "Learn how to validate product ideas, build customer roadmaps, and launch digital products in this free Product Management masterclass.",
+  "keywords": "free product management course, product strategy masterclass online, learn product management free, Accredian free courses"
 }

@@ -15,6 +15,7 @@ const LEGACY_FAQ_REDIRECTS: Record<string, string> = {
   '/Faqs/admissions': '/faq',
   '/Faqs/fee-scholarships': '/faq',
   '/Faq': '/faq',
+  '/Faqs': '/faq',
   '/Faqs/program-pre-requisites': '/faq',
 };
 
@@ -25,7 +26,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const faqRedirect = LEGACY_FAQ_REDIRECTS[pathname];
+  // Normalize path without trailing slash for exact matching
+  const normalizedPath = pathname.length > 1 && pathname.endsWith('/')
+    ? pathname.slice(0, -1)
+    : pathname;
+
+  const faqRedirect = LEGACY_FAQ_REDIRECTS[normalizedPath];
   if (faqRedirect && faqRedirect !== pathname) {
     const url = request.nextUrl.clone();
     url.pathname = faqRedirect;
@@ -53,7 +59,8 @@ export function middleware(request: NextRequest) {
   const target = CASE_REDIRECTS[`/${first}`];
   if (target) {
     const url = request.nextUrl.clone();
-    url.pathname = [target, ...rest].join('/');
+    const cleanRest = rest.filter(Boolean);
+    url.pathname = cleanRest.length ? `${target}/${cleanRest.join('/')}` : target;
     return NextResponse.redirect(url, 308);
   }
   return NextResponse.next();
@@ -61,12 +68,18 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
+    '/Career',
     '/Career/:path*',
     '/Successstories',
+    '/Successstories/:path*',
     '/course/:category',
     '/Lost-password',
+    '/Lost-password/:path*',
+    '/Reset-password',
     '/Reset-password/:path*',
-    '/Faqs/:path*',
     '/Faq',
+    '/Faq/:path*',
+    '/Faqs',
+    '/Faqs/:path*',
   ],
 };

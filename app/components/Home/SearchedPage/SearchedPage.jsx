@@ -113,23 +113,10 @@ const SearchedPageInner = () => {
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);
   const [open, setOpen] = useState(false);
   const [sortBy, setSortBy] = useState("relevance");
-  const [prevUrlSort, setPrevUrlSort] = useState(null);
 
   const [urlParams, setUrlParams] = useState(null);
   const router = useRouter();
   const searchQuery = (urlParams?.get("q") || "").trim();
-
-  // Synchronize from URL only when the URL parameter changes externally
-  const rawUrlSort = urlParams?.get("sort");
-  const urlSort =
-    rawUrlSort && ["relevance", "duration_asc", "duration_desc"].includes(rawUrlSort)
-      ? rawUrlSort
-      : urlParams ? "relevance" : null;
-
-  if (urlSort !== null && urlSort !== prevUrlSort) {
-    setPrevUrlSort(urlSort);
-    setSortBy(urlSort);
-  }
 
   // Synchronization refs:
   // 1. Gating flag: ensures initial URL parameters are parsed BEFORE any outgoing sync can overwrite them.
@@ -154,6 +141,7 @@ const SearchedPageInner = () => {
         durations: urlDurations,
         institutes: urlInstitutes,
         careerLevels: urlCareerLevels,
+        sort: urlSort,
       } = parseUrlFilterParams(paramsToParse);
 
       const current = store.getState().program || {};
@@ -173,6 +161,13 @@ const SearchedPageInner = () => {
       if (!areArraysEqual(urlCareerLevels, current.checkedCareerLevels)) {
         dispatch(programActions.setCheckedCareerLevels(urlCareerLevels));
       }
+
+      const validSort = ["relevance", "duration_asc", "duration_desc"].includes(urlSort)
+        ? urlSort
+        : "relevance";
+      queueMicrotask(() => {
+        setSortBy((prev) => (prev !== validSort ? validSort : prev));
+      });
     },
     [dispatch, store]
   );

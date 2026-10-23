@@ -3,6 +3,8 @@ import parse from "html-react-parser";
 import Link from "next/link";
 import { POLICIES } from "../../components/Assets/admission-policies";
 import HomePageWrapper from "../../components/Wrapper/HomePageWrapper";
+import { JsonLd } from "../../components/JsonLd";
+import { policyPageGraph } from "../../lib/schema";
 import "../../components/Policies/Policy.css";
 
 function getPolicy(id) {
@@ -34,8 +36,17 @@ export default async function AdmissionPolicyPage({ params }) {
     notFound();
   }
 
+  const schema = policyPageGraph({
+    type: "admission",
+    id,
+    title: currentPolicy.title,
+    pageTitle: `${currentPolicy.title} | Accredian Policies`,
+    description: `Read Accredian's ${currentPolicy.title} and eligibility requirements for our professional certification programs.`,
+  });
+
   return (
     <HomePageWrapper>
+      <JsonLd data={schema} />
       <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
         <div className="max-w-[85rem] w-full py-8">
           {/* Upper Section */}
@@ -59,35 +70,38 @@ export default async function AdmissionPolicyPage({ params }) {
             <div className="flex-[0.32] py-2 lg:block hidden">
               <div className="w-full xl:px-5 rounded">
                 <div className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar">
-                  {POLICIES.map((policy, index) => (
-                    <Link
-                      href={`/policies/${policy.tab}`}
-                      className={`w-full ${
-                        id === policy.tab
-                          ? "bg-universal drop-shadow text-white rounded"
-                          : "border-b border-dashed border-universal text-neutral-600"
-                      } px-3 py-2 mt-2 cursor-pointer flex items-center justify-between gap-4`}
-                      key={index}
-                    >
-                      <span className="font-medium text-base">{policy.title}</span>
-                      <div className="w-5 h-5 flex-shrink-0">
-                        <svg
-                          className="w-full h-full"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M9 6L15 12L9 18"
-                            stroke={id === policy.tab ? "#fff" : "#1A73E8"}
-                            strokeWidth="1.3"
-                          />
-                        </svg>
-                      </div>
-                    </Link>
-                  ))}
+                  {POLICIES.map((policy, index) => {
+                    const isActive = currentPolicy.tab === policy.tab;
+                    return (
+                      <Link
+                        href={`/policies/${policy.tab}`}
+                        className={`w-full ${
+                          isActive
+                            ? "bg-universal drop-shadow text-white rounded"
+                            : "border-b border-dashed border-universal text-neutral-600"
+                        } px-3 py-2 mt-2 cursor-pointer flex items-center justify-between gap-4`}
+                        key={index}
+                      >
+                        <span className="font-medium text-base">{policy.title}</span>
+                        <div className="w-5 h-5 flex-shrink-0">
+                          <svg
+                            className="w-full h-full"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 6L15 12L9 18"
+                              stroke={isActive ? "#fff" : "#1A73E8"}
+                              strokeWidth="1.3"
+                            />
+                          </svg>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </div>

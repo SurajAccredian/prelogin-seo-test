@@ -4,6 +4,8 @@ import path from "path";
 import { execFileSync } from "child_process";
 import { verticalsData } from "./components/Assets/verticals";
 import { categorySlug } from "./helpers/categorySlug";
+import { REFUND_POLICIES } from "./components/Assets/refund-policies";
+import { POLICIES } from "./components/Assets/admission-policies";
 
 const BASE_URL = "https://accredian.com";
 
@@ -155,10 +157,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     console.error("Error reading free courses for sitemap:", err);
   }
 
+  // 5. Admission Policy Pages
+  const policyEntries: MetadataRoute.Sitemap = POLICIES.map((p) => ({
+    url: `${BASE_URL}/policies/${p.tab}`,
+    ...withDate(dateOf("app/policies/[id]/page.jsx")),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  // 6. Refund Policy Pages
+  const refundPolicyEntries: MetadataRoute.Sitemap = REFUND_POLICIES.map((p) => ({
+    url: `${BASE_URL}/refund-policies/${p.tab}`,
+    ...withDate(dateOf("app/refund-policies/[id]/page.jsx")),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   return [
     ...staticEntries,
     ...verticalEntries,
     ...programEntries,
     ...freeCourseEntries,
+    ...policyEntries,
+    ...refundPolicyEntries,
   ];
 }

@@ -1193,7 +1193,7 @@ function LoginModal({ open }) {
                           )} */}
                               <button type="button">
                                 <a
-                                  href="/Lost-password"
+                                  href="/lost-password"
                                   target="__blank"
                                   className="w-full"
                                 >

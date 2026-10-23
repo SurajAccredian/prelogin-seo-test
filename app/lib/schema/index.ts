@@ -9,3 +9,4 @@ export * from "./program";
 export * from "./listings";
 export * from "./free-course";
 export * from "./blog";
+export * from "./policy";

@@ -6,10 +6,37 @@ import { categorySlug } from './app/helpers/categorySlug';
 const CASE_REDIRECTS: Record<string, string> = {
   '/Career': '/career',
   '/Successstories': '/successstories',
+  '/Lost-password': '/lost-password',
+  '/Reset-password': '/reset-password',
+};
+
+const LEGACY_FAQ_REDIRECTS: Record<string, string> = {
+  '/Faqs/program': '/faq',
+  '/Faqs/admissions': '/faq',
+  '/Faqs/fee-scholarships': '/faq',
+  '/Faq': '/faq',
+  '/Faqs': '/faq',
+  '/Faqs/program-pre-requisites': '/faq',
 };
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  if (pathname === '/faq') {
+    return NextResponse.next();
+  }
+
+  // Normalize path without trailing slash for exact matching
+  const normalizedPath = pathname.length > 1 && pathname.endsWith('/')
+    ? pathname.slice(0, -1)
+    : pathname;
+
+  const faqRedirect = LEGACY_FAQ_REDIRECTS[normalizedPath];
+  if (faqRedirect && faqRedirect !== pathname) {
+    const url = request.nextUrl.clone();
+    url.pathname = faqRedirect;
+    return NextResponse.redirect(url, 301);
+  }
   // /course/<slug>: send case/"&" variants (e.g. CXO-Leadership, strategy-&-leadership) to the canonical slug
   if (pathname.startsWith('/course/')) {
     const segment = pathname.slice('/course/'.length);
@@ -32,12 +59,27 @@ export function middleware(request: NextRequest) {
   const target = CASE_REDIRECTS[`/${first}`];
   if (target) {
     const url = request.nextUrl.clone();
-    url.pathname = [target, ...rest].join('/');
+    const cleanRest = rest.filter(Boolean);
+    url.pathname = cleanRest.length ? `${target}/${cleanRest.join('/')}` : target;
     return NextResponse.redirect(url, 308);
   }
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: ['/Career/:path*', '/Successstories', '/course/:category'],
+  matcher: [
+    '/Career',
+    '/Career/:path*',
+    '/Successstories',
+    '/Successstories/:path*',
+    '/course/:category',
+    '/Lost-password',
+    '/Lost-password/:path*',
+    '/Reset-password',
+    '/Reset-password/:path*',
+    '/Faq',
+    '/Faq/:path*',
+    '/Faqs',
+    '/Faqs/:path*',
+  ],
 };

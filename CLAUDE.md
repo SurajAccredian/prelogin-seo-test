@@ -25,7 +25,7 @@ Public marketing site for Accredian (accredian.com): executive programs from IIM
 - `app/store/` — Redux Toolkit (`reducers/`) plus React Query (`QueryProvider`). `ReduxProvider`/`QueryProvider`/`AnalyticsProvider` are mounted in `app/layout.jsx`.
 - `app/helpers/` — pure helpers and hooks (UTM, cookies, enrollment, program filtering). Check here before writing a new util.
 - `app/api/revalidate/route.js` — on-demand revalidation for tag `program-status-<pid>`.
-- `middleware.ts` — 308 redirects from legacy capitalised URLs to lowercase (`/Career` → `/career`, `/Successstories` → `/successstories`). Routes are lowercase, except `Lost-password` and `Reset-password` (linked from emails); URL casing matters.
+- `middleware.ts` — 308 redirects from legacy capitalised URLs to lowercase (`/Career` → `/career`, `/Successstories` → `/successstories`, `/Lost-password` → `/lost-password`, `/Reset-password` → `/reset-password`). All routes are now lowercase; URL casing matters.
 - `public/` — static files, `llms.txt`, `llms-full.txt`, generated JSON and sitemaps.
 
 ## Conventions

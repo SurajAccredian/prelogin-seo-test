@@ -20,24 +20,6 @@
   }
 }
 
-/* tablets: cap the card height so there is less empty space above/below the content */
-@media (min-width: 768px) and (max-width: 1279px) {
-  .cg-container {
-    height: min(calc(100svh - var(--cg-offset, 0px)), 460px);
-  }
-  .cg-container .cg-text {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 1279px) {
-  @supports not (height: 100svh) {
-    .cg-container {
-      height: min(calc(100vh - var(--cg-offset, 0px)), 460px);
-    }
-  }
-}
-
 .cg-card {
   display: flex;
   flex-direction: column;
@@ -64,6 +46,19 @@
   .cg-image {
     flex: 0 0 50%;
   }
+}
+
+/* portrait tablets: autoplay carousel instead of the pinned slider (see CareerGrowth.jsx), so the section is only as tall as one card */
+.cg-container--carousel {
+  height: auto;
+}
+.cg-container--carousel .cg-card--slide {
+  position: relative;
+  height: 440px;
+  padding-bottom: 2rem;
+}
+.cg-container--carousel .swiper-pagination-bullet-active {
+  background: #0050a3;
 }
 
 @media (orientation: landscape) and (max-height: 600px) {

@@ -14,6 +14,12 @@ const ProgramFilters = ({
   hasShowMore = true,
 }) => {
   const [isOpen, setIsOpen] = useState(true);
+  const checkedItems = categories.filter((c) => checked?.includes(c));
+  const uncheckedItems = categories.filter((c) => !checked?.includes(c));
+  const visibleUnchecked = hasShowMore
+    ? uncheckedItems.slice(0, Math.max(0, showMoreCount - checkedItems.length))
+    : uncheckedItems;
+  const displayList = [...checkedItems, ...visibleUnchecked];
   const hasMoreItems = hasShowMore && categories.length > showMoreCount;
 
   return (
@@ -34,69 +40,43 @@ const ProgramFilters = ({
       {/* Filter Section Content */}
       {isOpen && (
         <div className="flex flex-col gap-2.5 mt-3.5">
-          {/* Checked items */}
-          {categories.map((category) => (
-            <label
-              className={`${checked?.includes(category) ? "flex" : "hidden"} items-center gap-2.5 cursor-pointer group`}
-              key={`checked-${category}`}
-            >
-              <div className="relative w-5 h-5 flex items-center justify-center flex-shrink-0">
-                <div className="cbx">
-                  <div className="checkmark">
-                    <input
-                      onChange={onFilterChange}
-                      type="checkbox"
-                      value={category}
-                      checked={checked?.includes(category)}
-                    />
-                    <div className="flip">
-                      <div className="front"></div>
-                      <div className="back">
-                        <svg viewBox="0 0 16 14" height="14" width="16">
-                          <path d="M2 8.5L6 12.5L14 1.5"></path>
-                        </svg>
+          {displayList.map((category) => {
+            const isChecked = checked?.includes(category);
+            return (
+              <label
+                className="flex items-center gap-2.5 cursor-pointer group"
+                key={category}
+              >
+                <div className="relative w-5 h-5 flex items-center justify-center flex-shrink-0">
+                  <div
+                    className={`cbx ${
+                      isChecked ? "border-[#0b76ef] bg-[#0b76ef]" : ""
+                    }`}
+                  >
+                    <div className="checkmark">
+                      <input
+                        onChange={onFilterChange}
+                        type="checkbox"
+                        value={category}
+                        checked={isChecked}
+                      />
+                      <div className="flip">
+                        <div className="front"></div>
+                        <div className="back">
+                          <svg viewBox="0 0 16 14" height="14" width="16">
+                            <path d="M2 8.5L6 12.5L14 1.5"></path>
+                          </svg>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <span className="text-sm font-normal text-neutral-700 group-hover:text-neutral-900 transition-colors leading-snug">
-                {formatFilterLabel(title, category)}
-              </span>
-            </label>
-          ))}
-
-          {/* Unchecked items */}
-          {categories.slice(0, showMoreCount).map((category) => (
-            <label
-              className={`${!checked?.includes(category) ? "flex" : "hidden"} items-center gap-2.5 cursor-pointer group`}
-              key={`unchecked-${category}`}
-            >
-              <div className="relative w-5 h-5 flex items-center justify-center flex-shrink-0">
-                <div className="cbx">
-                  <div className="checkmark">
-                    <input
-                      onChange={onFilterChange}
-                      type="checkbox"
-                      value={category}
-                      checked={checked?.includes(category)}
-                    />
-                    <div className="flip">
-                      <div className="front"></div>
-                      <div className="back">
-                        <svg viewBox="0 0 16 14" height="14" width="16">
-                          <path d="M2 8.5L6 12.5L14 1.5"></path>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <span className="text-sm font-normal text-neutral-700 group-hover:text-neutral-900 transition-colors leading-snug">
-                {formatFilterLabel(title, category)}
-              </span>
-            </label>
-          ))}
+                <span className="text-sm font-normal text-neutral-700 group-hover:text-neutral-900 transition-colors leading-snug">
+                  {formatFilterLabel(title, category)}
+                </span>
+              </label>
+            );
+          })}
 
           {/* Show More */}
           {hasMoreItems && (
@@ -105,7 +85,9 @@ const ProgramFilters = ({
                 type="button"
                 onClick={(e) => {
                   e.stopPropagation();
-                  setModalOpen && setModalOpen(title);
+                  if (setModalOpen) {
+                    setModalOpen(title);
+                  }
                 }}
                 className="text-md font-medium flex items-center gap-1 transition-colors capitalize text-universal"
               >

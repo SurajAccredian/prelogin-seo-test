@@ -365,7 +365,7 @@ const Footer = () => {
                       </Link>
 
                       <Link
-                        href={"/terms/refund"}
+                        href={"/refund-policies/accredian-policy"}
                         prefetch={false}
                         style={{ textDecoration: "none" }}
                       >

@@ -3,7 +3,10 @@
 
 node syncPrograms.js
 node syncNumbers.js
+node syncLlms.js
 git add app/components/Assets/programs.json
 git add public/programs.json
 git add public/numbers.json
 git add public/category-numbers.json
+git add public/llms.txt
+git add public/llms-full.txt

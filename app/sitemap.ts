@@ -29,17 +29,25 @@ const STATIC_PAGE_DATES: Record<string, string> = {
   "/account-deletion": "2025-12-01T11:00:15+05:30",
   "/app-privacy-policy": "2025-12-01T11:30:42+05:30",
   "/app-support": "2025-12-01T12:00:50+05:30",
-  // Six Policy Pages
+  // All 14 Policy Pages
   "/policies/accredian-policy": "2026-09-23T16:45:13+05:30",
   "/policies/xlri-delhi-policy": "2026-08-26T17:41:58+05:30",
   "/policies/iimv-policy": "2026-08-26T16:27:35+05:30",
   "/policies/spj-policy": "2026-08-20T14:15:22+05:30",
-  "/policies/iit-kanpur": "2026-08-15T11:30:10+05:30",
-  "/policies/iim-trichy-policy": "2026-08-10T12:05:40+05:30",
+  "/policies/iit-kanpur": "2026-08-18T16:24:45+05:30",
+  "/policies/iim-trichy-policy": "2026-08-04T15:18:27+05:30",
+  "/policies/iim-amritsar-policy": "2026-08-28T15:32:10+05:30",
+  "/policies/iim-bodh-gaya-policy": "2026-10-21T10:07:51+05:30",
+  "/policies/iim-ranchi-policy": "2026-09-05T11:18:42+05:30",
+  "/policies/iimk-policy": "2026-07-25T12:15:38+05:30",
+  "/policies/iiml-policy": "2026-09-10T14:45:19+05:30",
+  "/policies/iit-jammu-policy": "2026-07-15T10:52:14+05:30",
+  "/policies/iitg-policy": "2026-08-12T16:40:25+05:30",
+  "/policies/iitm-pravartak-policy": "2026-10-21T10:08:14+05:30",
 };
 
 const CATEGORY_FALLBACK_DATES: Record<string, string> = {
-  "product-management": "2026-09-28T17:27:48+05:30",
+  "product-management": "2026-09-19T14:18:32+05:30",
   "digital-transformation": "2026-09-15T14:22:10+05:30",
 };
 

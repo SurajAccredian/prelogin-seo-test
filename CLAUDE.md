@@ -12,6 +12,7 @@ Public marketing site for Accredian (accredian.com): executive programs from IIM
 - `npm run build` / `npm start` — production build and serve. Run `build` before calling a change done; there is no test suite.
 - `npm run lint` — ESLint (`eslint-config-next`)
 - `node syncPrograms.js && node syncNumbers.js` — regenerate `public/programs.json`, `public/numbers.json`, `public/category-numbers.json` from `app/components/Assets/programs*`. The husky pre-commit hook runs these and stages the output.
+- `node syncLlms.js` — regenerate `public/llms.txt` and `public/llms-full.txt` from the program catalogue. The pre-commit hook runs it too.
 - `node syncSitemaps.js` — regenerate `public/sitemap.xml` and `public/sitemaps/` from the programs dir.
 - `node seo-smoke-test.mjs <base-url> [--sitemap]` — checks what non-JS crawlers (GPTBot, ClaudeBot) receive. Exits 1 on failure.
 - `.npmrc` sets `legacy-peer-deps=true`; keep it.
@@ -45,4 +46,4 @@ Public marketing site for Accredian (accredian.com): executive programs from IIM
 2. **Simplicity first.** Write the minimum code that solves the problem. No speculative abstractions, configurability, or error handling for impossible cases. If 50 lines would do, don't write 200.
 3. **Surgical changes.** Touch only what the task requires. Match the surrounding style, even if you'd do it differently. Don't refactor, reformat, or rename adjacent code. Remove only the dead code your own change created, and mention other dead code instead of deleting it (e.g. `transitions copy.json`, `out.css`).
 4. **Goal-driven execution.** Turn the task into a verifiable check (build passes, page returns expected HTML via `curl -A GPTBot`, `seo-smoke-test.mjs` passes), then loop until it does. Report what you actually ran and its result.
-5. **Don't hand-edit generated files.** `public/programs.json`, `public/numbers.json`, `public/category-numbers.json`, `public/sitemap.xml` and `public/sitemaps/` are generated. Edit the source in `app/components/Assets/` and run the sync scripts.
+5. **Don't hand-edit generated files.** `public/programs.json`, `public/numbers.json`, `public/category-numbers.json`, `public/llms.txt`, `public/llms-full.txt`, `public/sitemap.xml` and `public/sitemaps/` are generated. Edit the source in `app/components/Assets/` and run the sync scripts.

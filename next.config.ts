@@ -37,6 +37,11 @@ const nextConfig: NextConfig = {
         destination: "/faq",
         statusCode: 301,
       },
+      {
+        source: "/terms/refund",
+        destination: "/refund-policies/accredian-policy",
+        statusCode: 301,
+      },
     ];
   },
 };

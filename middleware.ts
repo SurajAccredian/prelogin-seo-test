@@ -6,10 +6,31 @@ import { categorySlug } from './app/helpers/categorySlug';
 const CASE_REDIRECTS: Record<string, string> = {
   '/Career': '/career',
   '/Successstories': '/successstories',
+  '/Lost-password': '/lost-password',
+  '/Reset-password': '/reset-password',
+};
+
+const LEGACY_FAQ_REDIRECTS: Record<string, string> = {
+  '/Faqs/program': '/faq',
+  '/Faqs/admissions': '/faq',
+  '/Faqs/fee-scholarships': '/faq',
+  '/Faq': '/faq',
+  '/Faqs/program-pre-requisites': '/faq',
 };
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  if (pathname === '/faq') {
+    return NextResponse.next();
+  }
+
+  const faqRedirect = LEGACY_FAQ_REDIRECTS[pathname];
+  if (faqRedirect && faqRedirect !== pathname) {
+    const url = request.nextUrl.clone();
+    url.pathname = faqRedirect;
+    return NextResponse.redirect(url, 301);
+  }
   // /course/<slug>: send case/"&" variants (e.g. CXO-Leadership, strategy-&-leadership) to the canonical slug
   if (pathname.startsWith('/course/')) {
     const segment = pathname.slice('/course/'.length);
@@ -39,5 +60,13 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/Career/:path*', '/Successstories', '/course/:category'],
+  matcher: [
+    '/Career/:path*',
+    '/Successstories',
+    '/course/:category',
+    '/Lost-password',
+    '/Reset-password/:path*',
+    '/Faqs/:path*',
+    '/Faq',
+  ],
 };

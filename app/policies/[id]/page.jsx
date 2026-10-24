@@ -44,6 +44,11 @@ export default async function AdmissionPolicyPage({ params }) {
     description: `Read Accredian's ${currentPolicy.title} and eligibility requirements for our professional certification programs.`,
   });
 
+  const mobilePolicies = [
+    currentPolicy,
+    ...POLICIES.filter((policy) => policy.tab !== currentPolicy.tab),
+  ];
+
   return (
     <HomePageWrapper>
       <JsonLd data={schema} />
@@ -70,7 +75,7 @@ export default async function AdmissionPolicyPage({ params }) {
             className="lg:hidden w-full overflow-x-auto no-scrollbar py-2 mt-4 mb-2 flex items-center gap-2 border-b border-neutral-200"
             data-lenis-prevent
           >
-            {POLICIES.map((policy) => {
+            {mobilePolicies.map((policy) => {
               const isActive = currentPolicy.tab === policy.tab;
               return (
                 <Link

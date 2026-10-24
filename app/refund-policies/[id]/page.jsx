@@ -44,6 +44,11 @@ export default async function RefundPolicyPage({ params }) {
     description: `Read Accredian's ${currentPolicy.title} refund policy, fee terms, and cancellation guidelines for our professional certification programs.`,
   });
 
+  const mobilePolicies = [
+    currentPolicy,
+    ...REFUND_POLICIES.filter((policy) => policy.tab !== currentPolicy.tab),
+  ];
+
   return (
     <HomePageWrapper>
       <JsonLd data={schema} />
@@ -70,7 +75,7 @@ export default async function RefundPolicyPage({ params }) {
             className="lg:hidden w-full overflow-x-auto no-scrollbar py-2 mt-4 mb-2 flex items-center gap-2 border-b border-neutral-200"
             data-lenis-prevent
           >
-            {REFUND_POLICIES.map((policy) => {
+            {mobilePolicies.map((policy) => {
               const isActive = currentPolicy.tab === policy.tab;
               return (
                 <Link

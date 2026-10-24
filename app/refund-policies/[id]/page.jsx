@@ -48,7 +48,7 @@ export default async function RefundPolicyPage({ params }) {
     <HomePageWrapper>
       <JsonLd data={schema} />
       <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
-        <div className="max-w-[85rem] w-full py-8">
+        <div className="max-w-[85rem] w-full  lg:py-8">
           {/* Upper Section */}
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] lg:block hidden">
@@ -59,7 +59,7 @@ export default async function RefundPolicyPage({ params }) {
               </div>
             </div>
             <div className="flex-1">
-              <h1 className="lg:mt-0 mt-6 text-xl text-neutral-700 text-start font-semibold lg:text-center">
+              <h1 className="lg:mt-0 text-xl text-neutral-700 text-start font-semibold lg:text-center">
                 {currentPolicy.title}
               </h1>
             </div>

@@ -3,7 +3,7 @@
   "id": "pg-certificate-program-in-data-science-ai",
   "vertical": "data science",
   "title": "Post Graduate Certificate Program in Data Science & Artificial Intelligence",
-  "seo_title": "Data Science & AI Course | IIT Guwahati - Accredian",
+  "seo_title": "E&ICT IIT Guwahati PG Cert Data Science & AI",
   "description": "Embark on a 10-term learning journey in Data Visualization, Machine Learning, Neural Networks, and GenAI.",
   "short_title": "Data Science",
   "contact": "9818329799",
@@ -477,5 +477,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIT-Post-Graduate-Certificate-Program-in-DSAI.pdf",
     "source": "IITG PG Data Science AI Brochure",
     "campaign_name": "PGDSAI-10 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - PG Cert Data Science & AI",
+  "meta_description": "Master Python data analysis, machine learning models, and artificial intelligence in E&ICT IIT Guwahati's PG Certificate program.",
+  "keywords": "PG certificate data science, data science and AI course, IIT data science course, machine learning certification, best data science course"
 }

@@ -2,7 +2,7 @@
   "id": "executive-program-in-ai-for-leaders",
   "vertical": "artificial intelligence",
   "title": "Executive Program in AI for Leaders",
-  "seo_title": "Executive Program in AI for Leaders",
+  "seo_title": "IIM Amritsar Executive Program in AI for Leaders",
   "description": "Master AI fundamentals, strategies for integration, and innovation at one of India's premier business schools, and attain Executive Alumni status.",
   "university_name": "IIM Amritsar",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
@@ -426,5 +426,8 @@
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIMV-EPBM-B2-Brochure.pdf",
     "source": "business management brochure"
-  }
+  },
+  "og_title": "IIMA - Executive Program in AI for Leaders",
+  "meta_description": "Learn AI strategy, machine learning applications, and data-driven decision making for business in IIM Amritsar's executive program.",
+  "keywords": "best AI course for leaders, AI for executives course, IIM AI program, AI strategy certification, artificial intelligence leadership course"
 }

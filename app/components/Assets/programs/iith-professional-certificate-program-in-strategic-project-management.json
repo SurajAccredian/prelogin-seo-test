@@ -17,7 +17,7 @@
   ],
   "type": "online",
   "title": "Professional Certificate Program in Strategic Project Management",
-  "seo_title": "Professional Certificate Program in Strategic Project Management",
+  "seo_title": "IIT Hyderabad Strategic Project Management",
   "domain": "module",
   "billing": {
     "total": 180000,
@@ -250,5 +250,8 @@
     "Start Learning"
   ],
   "short_university_name": "iith",
-  "required_years_experience": 1
+  "required_years_experience": 1,
+  "og_title": "IIT Hyderabad - Strategic Project Management",
+  "meta_description": "Learn strategic project execution, risk management frameworks, and leadership skills in IIT Hyderabad's professional certificate.",
+  "keywords": "strategic project management, IIT Hyderabad project management, project leadership program, project management certification, executive project management"
 }

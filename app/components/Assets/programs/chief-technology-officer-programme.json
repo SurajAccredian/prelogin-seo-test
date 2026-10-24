@@ -4,7 +4,7 @@
   "id": "chief-technology-officer-programme",
   "vertical": "cxo leadership",
   "title": "Chief Technology Officer Programme (The CTO Program)",
-  "seo_title": "Chief Technology Officer Programme (The CTO Program)",
+  "seo_title": "IIMV Chief Technology Officer CTO Programme",
   "description": "Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.",
   "short_title": "Chief Technology Officer",
   "contact": "8851827093",
@@ -384,5 +384,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Technology-Officer-Programme.pdf",
     "source": "IIMV Chief Technology Officer Programme Brochure",
     "campaign_name": "IIMV-CTOP-11 Months"
-  }
+  },
+  "og_title": "IIMV - Chief Technology Officer Programme",
+  "meta_description": "Lead enterprise technology strategy, digital innovation, and tech governance in IIM Visakhapatnam's Chief Technology Officer Programme.",
+  "keywords": "best CTO program, CTO certification, IIM CTO program, chief technology officer course, tech executive program"
 }

@@ -17,6 +17,8 @@ const LEGACY_FAQ_REDIRECTS: Record<string, string> = {
   '/Faq': '/faq',
   '/Faqs': '/faq',
   '/Faqs/program-pre-requisites': '/faq',
+  '/programs/executive-program-in-business-analytics-AI-for-leaders':
+    '/programs/executive-program-in-business-analytics-ai-for-leaders',
 };
 
 export function middleware(request: NextRequest) {
@@ -81,5 +83,6 @@ export const config = {
     '/Faq/:path*',
     '/Faqs',
     '/Faqs/:path*',
+    '/programs/executive-program-in-business-analytics-AI-for-leaders',
   ],
 };

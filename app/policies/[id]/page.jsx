@@ -76,7 +76,7 @@ export default async function AdmissionPolicyPage({ params }) {
                 <Link
                   key={policy.tab}
                   href={`/policies/${policy.tab}`}
-                  className={`whitespace-nowrap px-3.5 py-1.5 rounded-lg ext-xs font-medium transition-colors ${
+                  className={`whitespace-nowrap px-3.5 py-1.5 rounded-lg text-xs font-medium transition-colors ${
                     isActive
                       ? "bg-universal text-white shadow-sm"
                       : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"

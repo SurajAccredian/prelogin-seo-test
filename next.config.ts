@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**.accredian.com",
       },
+      {
+        protocol: "https",
+        hostname: "api-blog.accredian.com",
+      },
     ],
     formats: ["image/avif", "image/webp"],
     qualities: [70, 75],

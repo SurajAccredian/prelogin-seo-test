@@ -4,7 +4,7 @@
   "pid": 90,
   "vertical": "Human Resource",
   "title": "Chief Human Resource Officer Programme",
-  "seo_title": "Chief Human Resource Officer Programme",
+  "seo_title": "IIMV Chief Human Resource Officer Programme",
   "description": "Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
   "short_title": "Chief Human Resource Officer",
   "contact": "9115924967",
@@ -404,5 +404,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-chief-human-resource-officer-programme.pdf",
     "source": "IIMV Human Resource Brochure",
     "campaign_name": "CHRO-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - Chief Human Resource Officer Programme",
+  "meta_description": "Step into C-suite leadership, build agile workforce strategies, and lead organizational growth in IIM Visakhapatnam's CHRO Programme.",
+  "keywords": "best CHRO program, CHRO certification, IIM CHRO course, chief human resource officer program, HR executive leadership course"
 }

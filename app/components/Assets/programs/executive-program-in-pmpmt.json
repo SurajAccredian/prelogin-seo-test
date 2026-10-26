@@ -3,7 +3,7 @@
   "id": "executive-program-in-pmpmt",
   "vertical": "product management",
   "title": "Executive Program in Product Management and Project Management",
-  "seo_title": "Product & Project Management Course | IIT Guwahati",
+  "seo_title": "E&ICT IIT Guwahati Product & Project Mgmt",
   "description": "Embark on a 10 term learning journey in Design Thinking, UI/UX Engineering, & Project Management",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -470,5 +470,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-PMPMT.pdf",
     "source": "IITG Product Management and Project Management Brochure",
     "campaign_name": "PMPMT-IITG-11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Product & Project Mgmt",
+  "meta_description": "Master product development roadmaps and agile project execution frameworks in E&ICT Academy IIT Guwahati's executive certificate.",
+  "keywords": "product management project management, product owner course, agile product management, IIT product management, project manager to product manager"
 }

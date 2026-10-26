@@ -4,7 +4,7 @@
   "pid": 91,
   "vertical": "finance",
   "title": "PG Certificate Program in Investment Banking & Capital Markets",
-  "seo_title": "PG Certificate Program in Investment Banking & Capital Markets",
+  "seo_title": "IIMV PG Certificate Investment Banking",
   "description": "Embark on a 12 month learning journey in M&A Strategy, Capital Markets, and Private Equity.",
   "short_title": "Investment Banking",
   "contact": "8851827053",
@@ -402,5 +402,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Investment-Banking-Capital-Markets.pdf",
     "source": "IIMV Investment Banking & Capital Markets Brochure",
     "campaign_name": "IB-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate Investment Banking",
+  "meta_description": "Master corporate valuation, equity research, M&A strategy, and capital markets in IIM Visakhapatnam's PG Certificate program.",
+  "keywords": "investment banking course, capital markets course, IIM investment banking, PG certificate investment banking, corporate valuation course"
 }

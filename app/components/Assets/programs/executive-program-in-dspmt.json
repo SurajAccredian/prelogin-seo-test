@@ -3,7 +3,7 @@
   "id": "executive-program-in-dspmt",
   "vertical": "project management",
   "title": "Executive Program in Data Science and Project Management",
-  "seo_title": "Executive Program in Data Science and Project Management",
+  "seo_title": "E&ICT IIT Guwahati Data Science & Project Mgmt",
   "description": "Embark on an 11- term learning journey in Data Analytics, Machine Learning, Project Management.",
   "short_title": "Data Science",
   "contact": "9079653292",
@@ -499,5 +499,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-DSPI-12-months-v1.pdf",
     "source": "Data Science and project management Brochure",
     "campaign_name": "DSPMT-IIT-12 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Data Science & Projects",
+  "meta_description": "Master data science concepts and project management methodology to execute tech projects in E&ICT IIT Guwahati's online program.",
+  "keywords": "data science project management, project manager data analytics, IIT data science course, project management certification, data science for managers"
 }

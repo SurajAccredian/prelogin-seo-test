@@ -4,7 +4,7 @@
   "pid": 129,
   "vertical": "project management",
   "title": "Post Graduate Certificate in Strategic Project Management & Leadership",
-  "seo_title": "Strategic Project Management Course | IIM Visakhapatnam",
+  "seo_title": "IIMV PG Certificate Strategic Project Mgmt",
   "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
   "short_title": "Project Management",
   "contact": "8851827093",
@@ -397,5 +397,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-pg-certificate-in-strategic-project-management-and-leadership.pdf",
     "source": "IIMV Post Graduate Certificate in Strategic Project Management & Leadership Brochure",
     "campaign_name": "PGCSPML-IIMV-10 Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate Strategic Project Mgmt",
+  "meta_description": "Align corporate projects with long-term business goals, manage project risks, and lead delivery teams with IIM Visakhapatnam.",
+  "keywords": "strategic project management course, IIM project management, PG certificate project management, project leadership course, IIM Vizag PM"
 }

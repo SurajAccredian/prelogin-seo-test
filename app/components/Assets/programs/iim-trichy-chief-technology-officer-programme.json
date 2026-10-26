@@ -4,7 +4,7 @@
   "pid": 123,
   "vertical": "cxo leadership",
   "title": "Chief Technology Officer Programme (The CTO Program)",
-  "seo_title": "Chief Technology Officer Programme (The CTO Program)",
+  "seo_title": "IIMT Chief Technology Officer CTO Programme",
   "description": "Embark on a 10 month learning journey in Strategic Leadership, Technology, Innovation & Governance",
   "short_title": "Chief Technology Officer",
   "contact": "8851827093",
@@ -359,5 +359,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMT-chief-technology-officer-programme.pdf",
     "source": "IIMT Chief Technology Officer Programme (The CTO Program) Brochure",
     "campaign_name": "IIMT-CTO-10 Months"
-  }
+  },
+  "og_title": "IIMT - Chief Technology Officer Programme",
+  "meta_description": "Bridge technical architecture, digital strategy, and business vision to excel in CTO roles with IIM Tiruchirappalli's executive program.",
+  "keywords": "best CTO program, CTO certification India, IIM CTO course, chief technology officer program, IIM Trichy CTO"
 }

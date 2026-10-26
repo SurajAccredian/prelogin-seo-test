@@ -6,53 +6,16 @@ import { useSearchParams } from "next/navigation";
 import { programActions } from "../../store/reducers/program";
 import { userActions } from "../../store/reducers/user";
 import universityUrls from "../Assets/category-urls.json";
-import { allowedIds } from "../Assets/constants";
 import { useProgramStatuses } from "../../helpers/useProgramStatuses";
 import GetBrochure from "../Modals/call-to-actions/get-brochure";
 import EnrollNow from "../Modals/call-to-actions/enroll-now";
+import {
+  ENCODED_ACTIONS,
+  decodeAction,
+  buildModalUrl,
+} from "../../helpers/modalUrl.helpers";
 
-// Base64 encoding constants for the modal actions
-const ENCODED_ACTIONS = {
-  brochure: "YnJvY2h1cmU=",
-  enroll: "ZW5yb2xs",
-};
-
-/**
- * Decodes the raw action value from URL (supporting Base64 or plain string fallback)
- */
-function decodeAction(param) {
-  if (!param) return null;
-  const clean = decodeURIComponent(String(param)).trim();
-
-  // Plain-text fallback
-  if (clean.toLowerCase() === "brochure" || clean.toLowerCase() === "enroll") {
-    return clean.toLowerCase();
-  }
-
-  // Base64 decode
-  try {
-    let base64 = clean;
-    const remainder = base64.length % 4;
-    if (remainder > 0) {
-      base64 += "=".repeat(4 - remainder);
-    }
-    const decoded = (
-      typeof atob === "function"
-        ? atob(base64)
-        : Buffer.from(base64, "base64").toString("utf-8")
-    )
-      .trim()
-      .toLowerCase();
-
-    if (decoded === "brochure" || decoded === "enroll") {
-      return decoded;
-    }
-  } catch {
-    // Ignore invalid base64
-  }
-
-  return null;
-}
+export { ENCODED_ACTIONS, decodeAction, buildModalUrl };
 
 function ProgramClientSyncInner({ initialProgramData }) {
   const dispatch = useDispatch();
@@ -66,10 +29,12 @@ function ProgramClientSyncInner({ initialProgramData }) {
   const isPreviewMode = searchParams.get("preview") === "true";
   const previewId = searchParams.get("previewId");
 
-  const hasHandledInitialActionRef = useRef(false);
+  const lastHandledParamRef = useRef(null);
   const wasModalOpenRef = useRef(false);
 
-  // 1. Initial Program Data Sync to Redux
+  // ─────────────────────────────────────────────────────────────
+  // Phase A: Initial Program Data Sync to Redux
+  // ─────────────────────────────────────────────────────────────
   useEffect(() => {
     if (initialProgramData) {
       dispatch(programActions.setData(initialProgramData));
@@ -77,11 +42,12 @@ function ProgramClientSyncInner({ initialProgramData }) {
     }
   }, [initialProgramData, dispatch]);
 
-  // 2. Inbound Shared URL Handling (Decode Base64 action + verify live DB registration status)
+  // ─────────────────────────────────────────────────────────────
+  // Phase B: Inbound Shared URL Handling (URL → Redux) (Items 4 & 5)
+  // Idempotently opens modal once DB status is ready
+  // ─────────────────────────────────────────────────────────────
   useEffect(() => {
-    if (!initialProgramData || hasHandledInitialActionRef.current) {
-      return;
-    }
+    if (!initialProgramData) return;
 
     const rawModalParam =
       searchParams?.get("modal") ||
@@ -91,28 +57,39 @@ function ProgramClientSyncInner({ initialProgramData }) {
           new URLSearchParams(window.location.search).get("action")
         : null);
 
-    if (!rawModalParam) return;
+    if (!rawModalParam) {
+      lastHandledParamRef.current = null;
+      return;
+    }
+
+    if (lastHandledParamRef.current === rawModalParam) {
+      return; // Already processed this parameter
+    }
 
     const action = decodeAction(rawModalParam);
     if (!action) return;
 
-    // Wait until live DB registration status is ready
+    // Gate on DB status readiness
     const hasStatus = !statusLoading || initialProgramData?.registration_status;
     if (!hasStatus) return;
 
-    hasHandledInitialActionRef.current = true;
+    lastHandledParamRef.current = rawModalParam;
 
-    // Verify live DB admission status via bulk/registration-status API
+    // Verify live DB admission status via bulk/registration-status
     const liveStatus = getProgramStatus(initialProgramData);
     const isAdmissionClosed =
       liveStatus?.isAdmissionClosed ||
-      initialProgramData?.registration_status === "inactive" ||
-      allowedIds.includes(initialProgramData?.id);
+      initialProgramData?.registration_status === "inactive";
 
     if (isAdmissionClosed) {
-      // Do not open modal if admission is closed; clean the URL
+      // If admission is closed, clean the modal parameter from the URL
       if (typeof window !== "undefined") {
-        window.history.replaceState({}, "", window.location.pathname);
+        const cleanUrl = buildModalUrl(
+          window.location.pathname,
+          window.location.search,
+          null
+        );
+        window.history.replaceState({}, "", cleanUrl);
       }
       return;
     }
@@ -142,51 +119,53 @@ function ProgramClientSyncInner({ initialProgramData }) {
     }
   }, [initialProgramData, statusLoading, getProgramStatus, searchParams, dispatch]);
 
-  // 3. Address-Bar Sync (Clicking Get Brochure or Enroll Now updates the URL; closing restores it)
+  // ─────────────────────────────────────────────────────────────
+  // Phase C: Outbound Address-Bar Sync (Redux → URL) (Items 2, 3 & 6)
+  // Preserves existing query params when updating the URL
+  // ─────────────────────────────────────────────────────────────
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const currentSearch = window.location.search;
     const isBrochureOpen = Boolean(brochureState);
     const isLoginOpen =
       (authType !== null && authType !== "loginsuccess") ||
       Boolean(openLoginDrawerState);
 
-    if (isBrochureOpen) {
+    const activeAction = isBrochureOpen
+      ? "brochure"
+      : isLoginOpen
+      ? "enroll"
+      : null;
+
+    if (activeAction) {
       wasModalOpenRef.current = true;
-      const targetQuery = `?modal=${ENCODED_ACTIONS.brochure}`;
-      if (currentSearch !== targetQuery) {
-        window.history.pushState(
-          { modal: "brochure" },
-          "",
-          `${window.location.pathname}${targetQuery}`
-        );
-      }
-    } else if (isLoginOpen) {
-      wasModalOpenRef.current = true;
-      const targetQuery = `?modal=${ENCODED_ACTIONS.enroll}`;
-      if (currentSearch !== targetQuery) {
-        window.history.pushState(
-          { modal: "enroll" },
-          "",
-          `${window.location.pathname}${targetQuery}`
-        );
+      const targetUrl = buildModalUrl(
+        window.location.pathname,
+        window.location.search,
+        activeAction
+      );
+      const currentUrl = `${window.location.pathname}${window.location.search}`;
+
+      if (targetUrl !== currentUrl) {
+        window.history.pushState({ modal: activeAction }, "", targetUrl);
       }
     } else {
-      // Only restore normal URL if a modal was previously open and has now closed
+      // Only clean URL if a modal was previously opened and has now closed
       if (wasModalOpenRef.current) {
         wasModalOpenRef.current = false;
-        if (
-          currentSearch.includes("modal=") ||
-          currentSearch.includes("action=")
-        ) {
-          window.history.replaceState({}, "", window.location.pathname);
-        }
+        const cleanUrl = buildModalUrl(
+          window.location.pathname,
+          window.location.search,
+          null
+        );
+        window.history.replaceState({}, "", cleanUrl);
       }
     }
   }, [brochureState, authType, openLoginDrawerState]);
 
-  // 4. Popstate handler for Browser Back/Forward navigation
+  // ─────────────────────────────────────────────────────────────
+  // Phase D: Popstate Recovery (Browser Navigation → Redux)
+  // ─────────────────────────────────────────────────────────────
   useEffect(() => {
     if (typeof window === "undefined") return;
 

@@ -1,5 +1,5 @@
 /**
- * Blog (blog.accredian.com, headless WordPress).
+ * Blog (accredian.com/blog, headless WordPress; migrated from blog.accredian.com).
  *
  * Fixes compared with the current blog markup:
  * - real author (a Person with an author page) instead of a "Person" named "Accredian"
@@ -51,7 +51,7 @@ export interface BlogPostOptions {
   relatedPrograms?: Array<{ slug: string; name: string }>;
 }
 
-export const blogPostUrl = (slug: string): string => `${BLOG_URL}/blog/${slug}`;
+export const blogPostUrl = (slug: string): string => `${BLOG_URL}/${slug}`;
 export const authorPageUrl = (slug: string): string => `${BLOG_URL}/author/${slug}`;
 
 /** WordPress *_gmt values have no timezone; they are UTC, so add "Z". */
@@ -63,7 +63,7 @@ const isRealPerson = (a?: WpAuthorProfile | null): a is WpAuthorProfile =>
   Boolean(a && cleanText(a.name) && !/^(accredian|admin)$/i.test(cleanText(a.name)));
 
 export function blogNode(): JsonLdNode {
-  return { "@type": "Blog", "@id": BLOG_ID, name: "Accredian Blog", url: `${BLOG_URL}/`, publisher: ref(ORG_ID), inLanguage: "en-IN" };
+  return { "@type": "Blog", "@id": BLOG_ID, name: "Accredian Blog", url: BLOG_URL, publisher: ref(ORG_ID), inLanguage: "en-IN" };
 }
 
 export function authorPersonNode(author: WpAuthorProfile): JsonLdNode {
@@ -117,7 +117,7 @@ export function blogPostGraph(post: WpPost, options: BlogPostOptions = {}): Json
       breadcrumb: ref(`${url}#breadcrumb`), inLanguage: "en-IN" },
     article,
     author ? authorPersonNode(author) : null,
-    breadcrumbNode(url, [["Home", `${BLOG_URL}/`], ["Blog", `${BLOG_URL}/blog`], [headline, url]]),
+    breadcrumbNode(url, [["Home", `${SITE_URL}/`], ["Blog", BLOG_URL], [headline, url]]),
   );
 }
 

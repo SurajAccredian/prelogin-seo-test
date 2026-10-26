@@ -84,6 +84,10 @@ export const spotlightGroups = [
   { title: "Professional Background", keys: ["background","software-engineering","digital-marketer","data-analyst","hr","engineering","economist","general-management","business-analyst","teacher-professor","cybersecurity","sales-and-marketing","tech-lead","project-manager","operations","consultant","marketing","fresher","qa","software-developer","etl","testing","entrepreneur","data-scientist","product-manager","tech-support","sales"] },
 ];
 
+// WordPress accounts that are not people (shared/system logins). They get no author link, no author
+// JSON-LD, and their /blog/author/<slug> page is noindex and excluded from the sitemap.
+export const NON_PERSON_AUTHOR_SLUGS = ["admin"];
+
 // WordPress categories behind /blog/success-stories/<key>.
 export const successStoriesMap = {
   ds: { name: "DS Success Stories", slug: "ds_success_stories" },

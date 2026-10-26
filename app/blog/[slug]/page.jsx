@@ -10,6 +10,7 @@ import {
   getMetaTitle,
   formatPostDate,
 } from "../../lib/blog/utils";
+import { NON_PERSON_AUTHOR_SLUGS } from "../../lib/blog/constants";
 import { blogMetadata } from "../../lib/blog/seo";
 import { authorFromGraphQL, imageUrlFromGraphQL, postFromGraphQL, topicsFromGraphQL } from "../../lib/blog/schema";
 import { blogPostGraph } from "../../lib/schema";
@@ -42,7 +43,10 @@ export async function generateMetadata({ params }) {
       type: "article",
       title: `${post.title} | Accredian Blog`,
       publishedTime: post.date,
-      authors: post.author?.node?.name ? [post.author.node.name] : undefined,
+      authors:
+        post.author?.node?.name && !NON_PERSON_AUTHOR_SLUGS.includes(post.author.node.slug)
+          ? [post.author.node.name]
+          : undefined,
       ...(ogImage.length ? { images: ogImage } : {}),
     },
     twitter: {
@@ -63,11 +67,13 @@ export default async function SingleBlogPage({ params }) {
   const imageUrl = fixWordPressUrls(post.featuredImage?.node?.sourceUrl);
   const description = getMetaDescription(post.excerpt, post.content);
   const author = authorFromGraphQL(authorProfile);
+  // Shared accounts like "admin" are not credited or linked (their author page is noindex).
+  const credited = author && !NON_PERSON_AUTHOR_SLUGS.includes(author.slug) ? author : null;
 
   return (
     <article className="pb-24">
       <JsonLd
-        data={blogPostGraph(postFromGraphQL(post, author), {
+        data={blogPostGraph(postFromGraphQL(post, credited), {
           imageUrl: imageUrlFromGraphQL(post),
           topics: topicsFromGraphQL(post),
           description,
@@ -101,18 +107,18 @@ export default async function SingleBlogPage({ params }) {
 
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 py-6 border-y border-gray-200">
             <div className="flex items-center gap-4">
-              {author && (
+              {credited && (
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary-500 to-blue-500 flex items-center justify-center text-white text-lg font-bold shadow-md">
-                  {author.name.charAt(0)}
+                  {credited.name.charAt(0)}
                 </div>
               )}
               <div>
-                {author && (
+                {credited && (
                   <Link
-                    href={`/blog/author/${author.slug}`}
+                    href={`/blog/author/${credited.slug}`}
                     className="font-semibold text-gray-900 hover:text-primary-600 transition-colors"
                   >
-                    {author.name}
+                    {credited.name}
                   </Link>
                 )}
                 <div className="flex items-center gap-2 text-sm text-gray-500 mt-0.5">

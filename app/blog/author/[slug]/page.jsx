@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Linkedin } from "lucide-react";
 import { getAuthorProfile, getAuthorPosts, getAuthorSlugs } from "../../../lib/blog/wordpress";
+import { NON_PERSON_AUTHOR_SLUGS } from "../../../lib/blog/constants";
 import { formatPostDate } from "../../../lib/blog/utils";
 import { blogMetadata } from "../../../lib/blog/seo";
 import { authorFromGraphQL } from "../../../lib/blog/schema";
@@ -11,9 +12,10 @@ import { JsonLd } from "../../../components/JsonLd";
 
 export const revalidate = 60;
 
+// Shared/system accounts (e.g. "admin") are not prerendered, not linked, and not indexed.
 export async function generateStaticParams() {
   const slugs = await getAuthorSlugs();
-  return slugs.map((slug) => ({ slug }));
+  return slugs.filter((slug) => !NON_PERSON_AUTHOR_SLUGS.includes(slug)).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -28,6 +30,7 @@ export async function generateMetadata({ params }) {
     title: `${author.name} | Accredian Blog`,
     description,
     path: `/author/${slug}`,
+    ...(NON_PERSON_AUTHOR_SLUGS.includes(slug) ? { robots: { index: false, follow: true } } : {}),
   });
 }
 
@@ -41,7 +44,7 @@ export default async function AuthorPage({ params }) {
 
   return (
     <div className="pb-24">
-      <JsonLd data={authorPageGraph(author)} />
+      {!NON_PERSON_AUTHOR_SLUGS.includes(slug) && <JsonLd data={authorPageGraph(author)} />}
       <header className="pt-16 pb-12 md:pt-24 md:pb-16 bg-gray-50 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <Link

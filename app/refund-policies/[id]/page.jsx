@@ -44,11 +44,16 @@ export default async function RefundPolicyPage({ params }) {
     description: `Read Accredian's ${currentPolicy.title} refund policy, fee terms, and cancellation guidelines for our professional certification programs.`,
   });
 
+  const mobilePolicies = [
+    currentPolicy,
+    ...REFUND_POLICIES.filter((policy) => policy.tab !== currentPolicy.tab),
+  ];
+
   return (
     <HomePageWrapper>
       <JsonLd data={schema} />
       <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
-        <div className="max-w-[85rem] w-full py-8">
+        <div className="max-w-[85rem] w-full  lg:py-8">
           {/* Upper Section */}
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] lg:block hidden">
@@ -59,17 +64,43 @@ export default async function RefundPolicyPage({ params }) {
               </div>
             </div>
             <div className="flex-1">
-              <h1 className="lg:mt-0 mt-6 text-xl text-neutral-700 text-start font-semibold lg:text-center">
+              <h1 className="lg:mt-0 text-xl text-neutral-700 text-start font-semibold lg:text-center">
                 {currentPolicy.title}
               </h1>
             </div>
+          </div>
+
+          {/* Mobile Navigation */}
+          <div
+            className="lg:hidden w-full overflow-x-auto no-scrollbar py-2 mt-4 mb-2 flex items-center gap-2 border-b border-neutral-200"
+            data-lenis-prevent
+          >
+            {mobilePolicies.map((policy) => {
+              const isActive = currentPolicy.tab === policy.tab;
+              return (
+                <Link
+                  key={policy.tab}
+                  href={`/refund-policies/${policy.tab}`}
+                  className={`whitespace-nowrap px-3.5 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                    isActive
+                      ? "bg-universal text-white shadow-sm"
+                      : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
+                  }`}
+                >
+                  {policy.title}
+                </Link>
+              );
+            })}
           </div>
 
           {/* Body Section */}
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] py-2 lg:block hidden">
               <div className="w-full xl:px-5 rounded">
-                <div className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar">
+                <div
+                  className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar policy-sidebar-scroll overscroll-contain"
+                  data-lenis-prevent
+                >
                   {REFUND_POLICIES.map((policy, index) => {
                     const isActive = currentPolicy.tab === policy.tab;
                     return (

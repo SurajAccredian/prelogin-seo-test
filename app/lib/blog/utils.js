@@ -68,6 +68,16 @@ export function prepareContentHtml(content, fallbackAlt = "") {
   return REWRITE_BLOG_LINKS ? rewriteBlogLinks(html) : html;
 }
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+// "2025-06-18T11:35:19" -> "Jun 18, 2025" (same as the legacy date-fns 'MMM d, yyyy').
+// Reads the date digits directly so the output never depends on the server's timezone.
+export function formatPostDate(value) {
+  const m = typeof value === "string" ? value.match(/^(\d{4})-(\d{2})-(\d{2})/) : null;
+  if (!m) return "";
+  return `${MONTHS[Number(m[2]) - 1]} ${Number(m[3])}, ${m[1]}`;
+}
+
 function altFromSrc(src) {
   const file = src.split(/[?#]/)[0].split("/").pop() ?? "";
   const name = file

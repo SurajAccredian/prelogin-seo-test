@@ -1,3 +1,5 @@
+import { mapLegacyBlogPath } from "./legacy-paths";
+
 export function fixWordPressUrls(content) {
   if (!content) return "";
 
@@ -24,28 +26,8 @@ export function fixWordPressContentImages(content, fallbackAlt = "") {
     .replace(/<img\b[^>]*>/gi, (tag) => ensureImgAlt(tag, fallbackAlt));
 }
 
-// Paths on the old blog host that now live under /blog. Anything else (wp-content media,
-// wp-json, feeds, files with an extension) is left as an absolute link to the old host.
-const PREFIXED_SEGMENTS = new Set(["search", "testimonials", "author", "spotlight", "success-stories"]);
-
-function mapLegacyBlogPath(path) {
-  const trimmed = path.replace(/\/+$/, "");
-  if (trimmed === "") return "/blog";
-
-  const segments = trimmed.split("/").slice(1);
-  const [first, ...rest] = segments;
-
-  if (first === "blog") return rest.length ? trimmed : "/blog/articles";
-  if (first === "category") return rest.length ? `/blog${trimmed}` : "/blog/articles";
-  if (first === "page") return "/blog/articles";
-  if (PREFIXED_SEGMENTS.has(first)) return `/blog${trimmed}`;
-  if (segments.length === 1 && !/\.[a-z0-9]{2,5}$/i.test(first) && !first.startsWith("wp-")) {
-    return `/blog${trimmed}`; // legacy root-level post slug
-  }
-  return null;
-}
-
-// Rewrites absolute links to the old blog host inside post HTML into /blog/... paths.
+// Rewrites absolute links to the old blog host inside post HTML into final /blog/... paths (see
+// legacy-paths.js). Links with no equivalent (wp-content media, feeds, files) stay absolute.
 // Only <a href> values are touched; api-blog.accredian.com URLs (images) are never matched.
 export function rewriteBlogLinks(content) {
   if (!content) return "";

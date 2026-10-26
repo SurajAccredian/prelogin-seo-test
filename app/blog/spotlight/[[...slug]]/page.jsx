@@ -114,7 +114,12 @@ export default async function SpotlightPage({ params, searchParams }) {
               ))}
             </div>
 
-            <Pagination currentPage={page} totalPages={totalPages} basePath={`/blog/spotlight/${slugParts.join("/")}`} />
+            <Pagination
+              currentPage={page}
+              totalPages={totalPages}
+              basePath={`/blog/spotlight/${slugParts.join("/")}`}
+              pathBased={false}
+            />
           </>
         ) : (
           <div className="text-center py-20 bg-gray-50 rounded-3xl border border-gray-100 max-w-3xl mx-auto">

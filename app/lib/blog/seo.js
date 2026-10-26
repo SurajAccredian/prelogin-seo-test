@@ -7,6 +7,9 @@ export const BLOG_HOME_TITLE = "Accredian Blog | Empowering Professionals Across
 export const BLOG_HOME_DESCRIPTION =
   "Expert insights, career advice, and tutorials for Data Science, Product Management, General Management, Business Analytics, and more.";
 
+/** Title for page n of a paginated listing: unchanged on page 1, "<title> - Page n" after that. */
+export const pagedTitle = (title, page) => (page > 1 ? `${title} - Page ${page}` : title);
+
 /** Absolute URL on the canonical origin, e.g. blogUrl("/articles") -> https://accredian.com/blog/articles */
 export const blogUrl = (path = "") => `${BLOG_URL}${path}`;
 

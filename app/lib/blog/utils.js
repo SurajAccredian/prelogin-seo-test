@@ -67,6 +67,14 @@ export function formatPostDate(value, long = false) {
   return `${month} ${Number(m[3])}, ${m[1]}`;
 }
 
+// /page/<n> path segment: strictly a positive integer without leading zeros, else null (caller 404s).
+export function parsePageNumber(value) {
+  return typeof value === "string" && /^[1-9]\d{0,5}$/.test(value) ? Number(value) : null;
+}
+
+// Path-based pagination URL: page 1 is the bare base path, page n>=2 is <base>/page/<n>.
+export const pagePath = (basePath, page) => (page <= 1 ? basePath : `${basePath}/page/${page}`);
+
 // ?page=N: absent/empty/0/non-numeric -> 1 (legacy behaviour); negative or fractional -> null (caller 404s).
 export function parsePageParam(value) {
   const n = Number(value) || 1;

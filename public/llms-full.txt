@@ -432,7 +432,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Professional Certificate Program in Leadership with AI](https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai)
 - **Institution:** E&ICT Academy IIT Kanpur
 - **Duration:** 8 Months
-- **Start date:** 29 Nov 2026
+- **Start date:** 13 Dec 2026
 - **Experience required:** 1+ years
 - **Fee:** INR 1,89,000 + GST
 - **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.

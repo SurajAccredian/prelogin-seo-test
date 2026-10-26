@@ -70,12 +70,25 @@ export function prepareContentHtml(content, fallbackAlt = "") {
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-// "2025-06-18T11:35:19" -> "Jun 18, 2025" (same as the legacy date-fns 'MMM d, yyyy').
-// Reads the date digits directly so the output never depends on the server's timezone.
-export function formatPostDate(value) {
+const MONTHS_LONG = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+// "2025-06-18T11:35:19" -> "Jun 18, 2025" (legacy date-fns 'MMM d, yyyy'), or with long=true
+// "June 18, 2025" ('MMMM d, yyyy'). Reads the date digits directly so the output never depends
+// on the server's timezone.
+export function formatPostDate(value, long = false) {
   const m = typeof value === "string" ? value.match(/^(\d{4})-(\d{2})-(\d{2})/) : null;
   if (!m) return "";
-  return `${MONTHS[Number(m[2]) - 1]} ${Number(m[3])}, ${m[1]}`;
+  const month = (long ? MONTHS_LONG : MONTHS)[Number(m[2]) - 1];
+  return `${month} ${Number(m[3])}, ${m[1]}`;
+}
+
+// ?page=N: absent/empty/0/non-numeric -> 1 (legacy behaviour); negative or fractional -> null (caller 404s).
+export function parsePageParam(value) {
+  const n = Number(value) || 1;
+  return Number.isInteger(n) && n >= 1 ? n : null;
 }
 
 function altFromSrc(src) {

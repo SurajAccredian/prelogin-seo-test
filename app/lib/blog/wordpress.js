@@ -4,7 +4,7 @@ import {
   GET_LATEST_POST_SLUGS,
   GET_POST,
   GET_CATEGORIES_PAGE,
-  GET_CATEGORY_POSTS,
+  GET_CATEGORY_POSTS_PAGE,
   GET_POST_AUTHOR,
   GET_AUTHOR,
   GET_AUTHOR_POSTS,
@@ -40,12 +40,12 @@ export async function fetchGraphQL(query, variables = {}) {
   return json.data;
 }
 
-// Follows pageInfo cursors until the connection is exhausted.
-async function fetchAllNodes(query, pick) {
+// Follows pageInfo cursors until the connection is exhausted (WPGraphQL returns at most 100 per request).
+async function fetchAllNodes(query, pick, variables = {}) {
   const nodes = [];
   let after = null;
   for (let page = 0; page < MAX_PAGES; page++) {
-    const conn = pick(await fetchGraphQL(query, { after }));
+    const conn = pick(await fetchGraphQL(query, { ...variables, after }));
     if (!conn) throw new Error("WPGraphQL connection missing from response");
     nodes.push(...(conn.nodes || []));
     if (!conn.pageInfo?.hasNextPage) return nodes;
@@ -81,11 +81,10 @@ export function getCategories() {
   return fetchAllNodes(GET_CATEGORIES_PAGE, (d) => d.categories);
 }
 
-// An unknown category also comes back as an empty list, so callers must check the slug
-// against getCategories() before treating an empty result as "category exists".
-export async function getCategoryPosts(categorySlug) {
-  const data = await fetchGraphQL(GET_CATEGORY_POSTS, { categoryName: categorySlug });
-  return data.posts?.nodes || [];
+// All posts in a category (cursor-paginated). An unknown category also comes back as an empty list,
+// so callers must check the slug against getCategories() before treating empty as "category exists".
+export function getCategoryPosts(categorySlug) {
+  return fetchAllNodes(GET_CATEGORY_POSTS_PAGE, (d) => d.posts, { categoryName: categorySlug });
 }
 
 function toAuthorProfile(user) {

@@ -53,7 +53,7 @@ export const GET_POST = `
       ${POST_SCHEMA_FIELDS}
       content
       date
-      author { node { name } }
+      author { node { name slug } }
       categories { nodes { name slug } }
     }
   }
@@ -68,9 +68,11 @@ export const GET_CATEGORIES_PAGE = `
   }
 `;
 
-export const GET_CATEGORY_POSTS = `
-  query GetCategoryPosts($categoryName: String!) {
-    posts(where: { categoryName: $categoryName }, first: 100) {
+// One page of a category's posts (cursor pagination: 6 categories have more than 100 posts).
+export const GET_CATEGORY_POSTS_PAGE = `
+  query GetCategoryPostsPage($categoryName: String!, $after: String) {
+    posts(where: { categoryName: $categoryName }, first: 100, after: $after) {
+      pageInfo { hasNextPage endCursor }
       nodes { ${CARD_FIELDS} }
     }
   }

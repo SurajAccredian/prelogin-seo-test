@@ -28,7 +28,6 @@ export const metadata = {
     canonical: "/",
   },
   title: {
-    template: "%s | Accredian",
     default: "Accredian",
   },
   description:

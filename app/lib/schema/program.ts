@@ -59,7 +59,7 @@ export interface ProgramPageOptions {
    * Do NOT pass program.faq: that field holds different questions that are not shown on the page.
    */
   faqs?: FaqItem[];
-  /** The page's <title>. Defaults to "{seo_title} | Accredian". */
+  /** The page's <title>. Defaults to "{seo_title}". */
   pageTitle?: string;
   /** Override "today" (for tests). */
   today?: Date;
@@ -265,7 +265,7 @@ export function programPageGraph(program: AccredianProgram, options: ProgramPage
     offers: offer,
   });
 
-  const pageTitle = options.pageTitle ?? `${cleanText(program.seo_title) || name} | Accredian`;
+  const pageTitle = options.pageTitle ?? (cleanText(program.seo_title) || name);
   const webPage = compact({
     "@type": "ItemPage",
     "@id": `${url}#webpage`,

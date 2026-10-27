@@ -23,6 +23,7 @@ import { detectBrowserLocation } from "../../../helpers/location.helpers";
 import { getStoredUTMData } from "../../../helpers/utm.helpers";
 import { getFbc, getFbp } from "../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../helpers/ip.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../helpers/googleAds.helpers";
 
 function GetBrochureContent({ open }) {
   const { data } = useSelector((state) => state.program);
@@ -129,6 +130,7 @@ function GetBrochureContent({ open }) {
     mutationFn: (body) => getBrochureCta(body),
     onSuccess: (result) => {
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for your interest in our brochure! Our admissions team will get in touch soon to assist you further. Click the button below to view the brochure.",

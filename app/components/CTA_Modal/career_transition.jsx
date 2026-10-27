@@ -23,6 +23,8 @@ import Swal from "sweetalert2";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import { getStoredUTMData } from "../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const RcbDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -105,24 +107,30 @@ const CareerTransitionContent = (props) => {
   };
 
   const ctapage = pathname ? pathname.replace("/", "") : "";
-  const utm_source = searchParams?.get("utm_source") || "null";
-  const utm_medium = searchParams?.get("utm_medium") || "null";
-  const utm_campaign = searchParams?.get("utm_campaign") || "null";
 
   const submitForm = (e) => {
     e.preventDefault();
     if (number && number.length > 2) {
       LoaderOpen();
+      const utmData = getStoredUTMData();
+      const resolvedSource = props.source || "career transition";
+
       const sendRcbctaData = {
         phone: number,
         name: rcb.name,
         email: rcb.newemail,
         program: props.program ? props.program : program,
-        source: "career transition",
+        source: resolvedSource,
         page: ctapage,
-        utm_source,
-        utm_medium,
-        utm_campaign,
+        utm_source: utmData.utm_source || "Direct",
+        utm_medium: utmData.utm_medium || "website-organic",
+        utm_campaign: utmData.utm_campaign || searchParams?.get("utm_campaign") || "",
+        utm_content: utmData.utm_content || "",
+        utm_adset: utmData.utm_adset || "",
+        utm_ad: utmData.utm_ad || "",
+        utm_term: utmData.utm_term || "",
+        utm_format: utmData.utm_format || "",
+        cta_button: resolvedSource,
         form_id: "career_transition",
         type: "CTA",
       };
@@ -138,6 +146,7 @@ const CareerTransitionContent = (props) => {
           if (props.handleClose) props.handleClose();
 
           if (result.data.status === "200" || result.data.status === 200) {
+            trackGoogleAdsLeadConversion();
             Swal.fire({
               title: "Thank You",
               text: "Thank you for downloading the career handbook. Our executive will contact you to provide more information about the course!",

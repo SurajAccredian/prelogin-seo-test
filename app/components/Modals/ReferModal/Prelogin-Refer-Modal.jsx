@@ -24,6 +24,7 @@ import {
 import { decodeToken } from "react-jwt";
 import { groupProgramsByCategory } from "../../../helpers/common.helpers";
 import { Controller, useForm, useWatch } from "react-hook-form";
+import { getStoredUTMData } from "../../../helpers/utm.helpers";
 import { IoWarning } from "react-icons/io5";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
@@ -232,7 +233,7 @@ const ReferModalContent = ({ open, setOpen }) => {
       friend_mobile: data.friendnumber,
       friend_vertical: data.vertical,
       friend_program: data.programname,
-      lead_source: myParam ? myParam : "Website",
+      lead_source: getStoredUTMData().utm_source || "Website",
     };
     // return console.log(request)
 

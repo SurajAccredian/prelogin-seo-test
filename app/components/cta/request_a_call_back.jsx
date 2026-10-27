@@ -19,6 +19,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const streams = Object.keys(groupProgramsByCategory(vertical));
 
@@ -160,6 +161,7 @@ function RctaInner(props) {
         props.handleClose();
 
         if (result.data.status == "200") {
+          trackGoogleAdsLeadConversion();
           if (window) {
             window.open("/cta-thank-you", "_blank");
           }

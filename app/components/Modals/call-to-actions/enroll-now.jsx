@@ -17,6 +17,7 @@ import { HashLoader } from '../../Loaders';
 import { useDispatch } from 'react-redux';
 import { programActions } from '../../../store/reducers/program';
 import urlMapping from "../../Assets/category-urls.json"
+import { trackGoogleAdsLeadConversion } from '../../../helpers/googleAds.helpers';
 
 
 export default function EnrollNow({ open }) {
@@ -60,6 +61,7 @@ export default function EnrollNow({ open }) {
       dispatch(programActions.setEnrollState(null))
       reset("")
       if (result.status == 200) {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Success",
           text: "Welcome! We have emailed you your login details. Please use those login details to continue your application on next page.",
@@ -72,6 +74,7 @@ export default function EnrollNow({ open }) {
         });
       }
       else if (result.status == 302) {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Success",
           text: "Hello! Account with this email already exists. We had emailed you login details when you registered with us last. Please check your email for these details to continue your application on next page.",

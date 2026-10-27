@@ -24,6 +24,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const RcbDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -145,6 +146,7 @@ const CareerTransitionContent = (props) => {
           if (props.handleClose) props.handleClose();
 
           if (result.data.status === "200" || result.data.status === 200) {
+            trackGoogleAdsLeadConversion();
             Swal.fire({
               title: "Thank You",
               text: "Thank you for downloading the career handbook. Our executive will contact you to provide more information about the course!",

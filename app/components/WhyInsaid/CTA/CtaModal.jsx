@@ -19,6 +19,7 @@ import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
 import { STREAMS } from "../../Assets/constants";
 import { getStoredUTMData } from "../../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../helpers/googleAds.helpers";
 export default function CtaModal({ open, setOpen }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
@@ -58,6 +59,7 @@ export default function CtaModal({ open, setOpen }) {
     onSuccess: (result) => {
       setOpen(null);
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for your callback request! Our admission counselor will reach out shortly.",

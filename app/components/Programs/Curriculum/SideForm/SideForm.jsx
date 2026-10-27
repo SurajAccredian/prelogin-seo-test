@@ -16,6 +16,7 @@ import { detectBrowserLocation } from "../../../../helpers/location.helpers";
 import { getStoredUTMData } from "../../../../helpers/utm.helpers";
 import { getFbc, getFbp } from "../../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../../helpers/ip.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../../helpers/googleAds.helpers";
 import "react-phone-input-2/lib/style.css";
 
 const SideFormContent = ({ data: propData }) => {
@@ -108,6 +109,7 @@ const SideFormContent = ({ data: propData }) => {
     mutationFn: (body) => getBrochureCta(body),
     onSuccess: (result) => {
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",

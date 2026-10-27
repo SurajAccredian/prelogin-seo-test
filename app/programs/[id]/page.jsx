@@ -32,18 +32,9 @@ export async function generateMetadata({ params }) {
 
   if (!data) notFound();
 
-  const rawTitle = (data.seo_title || data.title || "")
-    .replace(/\s*[-|]\s*Accredian$/i, "")
-    .trim();
+  const title = (data.seo_title || data.title || "").trim();
 
   const institute = data.university_name;
-  const titleAlreadyIncludesInstitute =
-    !institute ||
-    rawTitle.toLowerCase().includes(institute.toLowerCase());
-
-  const title = titleAlreadyIncludesInstitute
-    ? rawTitle
-    : `${rawTitle} | ${institute}`;
 
   const description =
     data.meta_description ||
@@ -63,7 +54,9 @@ export async function generateMetadata({ params }) {
       : undefined;
 
   return {
-    title,
+    title: {
+      absolute: title,
+    },
     description,
     keywords,
     alternates: {
@@ -162,16 +155,7 @@ export default async function ProgramPage({ params }) {
     }));
   }
 
-  const rawTitle = (programData.seo_title || programData.title || "")
-    .replace(/\s*[-|]\s*Accredian$/i, "")
-    .trim();
-  const institute = programData.university_name;
-  const titleAlreadyIncludesInstitute =
-    !institute ||
-    rawTitle.toLowerCase().includes(institute.toLowerCase());
-  const pageTitle = titleAlreadyIncludesInstitute
-    ? `${rawTitle} | Accredian`
-    : `${rawTitle} | ${institute} | Accredian`;
+  const pageTitle = (programData.seo_title || programData.title || "").trim();
 
   const schemaGraph = programPageGraph(programData, { faqs, pageTitle });
 

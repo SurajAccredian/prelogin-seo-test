@@ -17,6 +17,7 @@ import { HashLoader } from "../../Loaders";
 import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
 import { getStoredUTMData } from "../../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../helpers/googleAds.helpers";
 
 function CtaModalContent({ open, setOpen }) {
   const searchParams = useSearchParams();
@@ -57,6 +58,7 @@ function CtaModalContent({ open, setOpen }) {
     onSuccess: (result) => {
       setOpen(null);
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for your callback request! Our admission counselor will reach out shortly.",

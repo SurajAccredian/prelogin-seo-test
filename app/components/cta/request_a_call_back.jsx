@@ -18,6 +18,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import CircularProgress from "@mui/material/CircularProgress";
 import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
+import { getStoredUTMData } from "../../helpers/utm.helpers";
 
 const streams = Object.keys(groupProgramsByCategory(vertical));
 
@@ -112,9 +113,6 @@ function RctaInner(props) {
   };
 
   const ctapage = pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source = searchParams.get("utm_source") || "null";
-  const utm_medium = searchParams.get("utm_medium") || "null";
-  const utm_campaign = searchParams.get("utm_campaign") || "null";
 
   const submitForm = (e) => {
     e.preventDefault();
@@ -125,17 +123,26 @@ function RctaInner(props) {
 
     LoaderOpen();
 
+    const utmData = getStoredUTMData();
+    const resolvedSource = props.source || "Request Callback Top Bar";
+
     const sendRcbctaData = {
       phone: rcb.mobile,
       name: rcb.name,
       email: rcb.newemail,
       query: rcb.query,
       program: props.program ? props.program : program,
-      source: "Request Callback Top Bar",
+      source: resolvedSource,
       page: ctapage,
-      utm_source: utm_source,
-      utm_medium: utm_medium,
-      utm_campaign: utm_campaign,
+      utm_source: utmData.utm_source || "Direct",
+      utm_medium: utmData.utm_medium || "website-organic",
+      utm_campaign: utmData.utm_campaign || searchParams.get("utm_campaign") || "",
+      utm_content: utmData.utm_content || "",
+      utm_adset: utmData.utm_adset || "",
+      utm_ad: utmData.utm_ad || "",
+      utm_term: utmData.utm_term || "",
+      utm_format: utmData.utm_format || "",
+      cta_button: resolvedSource,
       form_id: "request_callback",
       type: "CTA",
     };

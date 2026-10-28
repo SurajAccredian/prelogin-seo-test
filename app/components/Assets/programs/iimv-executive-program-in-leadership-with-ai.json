@@ -12,7 +12,7 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "13 Sep 2026",
+  "start_date": "10 Jan 2027",
   "required_years_experience": 5,
   "duration": "10 months",
   "type": "online",
@@ -108,11 +108,7 @@
     "exclusive-merchandise",
     "alumni-status"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -348,9 +344,7 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": [
-              "The duration of the program is 10 months."
-            ]
+            "content": ["The duration of the program is 10 months."]
           }
         ]
       },

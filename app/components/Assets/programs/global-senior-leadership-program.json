@@ -12,7 +12,7 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
-  "start_date": "27 Sep 2026",
+  "start_date": "10 Jan 2027",
   "duration": "12 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -118,11 +118,7 @@
     "international-immersion",
     "exclusive-merchandise"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -156,10 +152,7 @@
         "title": "Innovation & Transformation",
         "week": "",
         "id": "corporate---business-strategy",
-        "points": [
-          "Digital Transformation & Innovation",
-          "Leadership with AI"
-        ]
+        "points": ["Digital Transformation & Innovation", "Leadership with AI"]
       }
     ],
     "Chief-Executive-Officer": [
@@ -308,9 +301,7 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": [
-              "The duration of the program is 12 months."
-            ]
+            "content": ["The duration of the program is 12 months."]
           }
         ]
       },

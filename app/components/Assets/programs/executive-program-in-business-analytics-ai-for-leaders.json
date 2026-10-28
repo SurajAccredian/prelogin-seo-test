@@ -1,9 +1,9 @@
 {
   "category": "11",
-  "id": "executive-program-in-business-analytics-AI-for-leaders",
+  "id": "executive-program-in-business-analytics-ai-for-leaders",
   "vertical": "business analytics",
   "title": "Executive Program in Business Analytics & AI for Leaders",
-  "seo_title": "Executive Program in Business Analytics & AI for Leaders",
+  "seo_title": "Business Analytics & AI for Leaders | IIT Guwahati",
   "description": "Embark on a 10-term learning journey in Excel Modelling, Marketing Analytics, NLP, and Generative AI.",
   "short_title": "Business Analytics",
   "contact": "9971109528",
@@ -59,7 +59,7 @@
     }
   ],
   "overview": {
-    "programId": "executive-program-in-business-analytics-AI-for-leaders",
+    "programId": "executive-program-in-business-analytics-ai-for-leaders",
     "content": [
       {
         "title": "who should join",
@@ -351,7 +351,7 @@
     }
   ],
   "billing": {
-    "programId": "executive-program-in-business-analytics-AI-for-leaders",
+    "programId": "executive-program-in-business-analytics-ai-for-leaders",
     "points": [
       "150+ Hours of Live Classes",
       "15+ Tools Covered",
@@ -376,7 +376,7 @@
     "total": 220000
   },
   "faq": {
-    "programId": "executive-program-in-business-analytics-AI-for-leaders",
+    "programId": "executive-program-in-business-analytics-ai-for-leaders",
     "points": [
       {
         "title": "Program Pre-Requisites",
@@ -474,5 +474,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-BAAI-for-Leaders-11-Months-v3.pdf",
     "source": "business analytics and ai brochure",
     "campaign_name": "BAAI-IITG-11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Analytics & AI for Leaders",
+  "meta_description": "Drive data strategy with Executive Program in Business Analytics & AI for Leaders from E&ICT Academy IIT Guwahati leaders. Master enterprise analytics.",
+  "keywords": "Business Analytics course in India, AI for Leaders program, Business Analytics AI certification, AI course for professionals, Business Analytics course IIT Guwahati, online AI for Leaders course, Business Analytics and AI executive education"
 }

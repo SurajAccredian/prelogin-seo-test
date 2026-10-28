@@ -288,7 +288,7 @@ const CareerGrowth = () => {
             autoplay={
               reduceMotion
                 ? false
-                : { delay: 5000, pauseOnMouseEnter: true, disableOnInteraction: false }
+                : { delay: 3000, pauseOnMouseEnter: true, disableOnInteraction: false }
             }
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             className="cg-swiper w-full"

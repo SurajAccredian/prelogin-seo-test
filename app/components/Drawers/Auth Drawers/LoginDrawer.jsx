@@ -1192,7 +1192,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
                               </div>
                             </>
                           )} */}
-                                <a href="/Lost-password" target="__blank">
+                                <a href="/lost-password" target="__blank">
                                   <p className="text-[12px] mt-2">
                                     {resetPasswordText}
                                     <button

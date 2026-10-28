@@ -108,7 +108,8 @@
   }
 }
 
-.policy-inner {
+.policy-inner,
+.policy-sidebar-scroll {
   overscroll-behavior: contain;
 }
 

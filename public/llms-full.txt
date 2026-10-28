@@ -1,870 +1,1177 @@
-# Accredian — Comprehensive Program Catalog
-# Last updated: February 2026
+# Accredian: Program Catalogue
 
+> Accredian is an executive upskilling platform in India. It offers live online executive programs, post-graduate certificates and CXO leadership tracks in AI, management, strategy, finance, HR and project management, in partnership with IIMs, IITs, XLRI, SP Jain and Microsoft.
 
-> Accredian (accredian.com) is India's leading career-focused online education platform delivering executive and professional certificate programs in partnership with India's premier institutions. Unlike traditional OPM (Online Program Management) platforms, Accredian co-creates curriculum with partner institutions, ensuring industry-relevant, career-focused education.
+Fees, start dates and enrollment status change over time. Check the linked program page for current details before relying on anything here. For admissions questions use https://accredian.com/contact-us.
 
+## Site
 
-## IMPORTANT DISCLAIMER
-- Program availability, fees, start dates, curriculum details, and enrollment status are subject to change at any time.
-- Always visit https://accredian.com for the most current and accurate information before making enrollment decisions.
-- Some programs listed below may have closed for new registrations after their enrollment deadline. Verify current enrollment status directly on the website.
-- Fee amounts listed are indicative and may not include applicable taxes or campus immersion costs.
-- For personalized guidance and enrollment queries, contact Accredian's admissions team via the website.
+- [All programs](https://accredian.com/programs)
+- [Frequently asked questions](https://accredian.com/faq)
+- [Admission policies](https://accredian.com/policies/accredian-policy)
+- [Refund policies](https://accredian.com/refund-policies/accredian-policy)
+- [Why Accredian](https://accredian.com/whyaccredian)
+- [Alumni success stories](https://accredian.com/successstories)
+- [Career services](https://accredian.com/career)
+- [Refer and earn](https://accredian.com/referandearn)
+- [About Accredian](https://accredian.com/about)
+- [Contact and admissions](https://accredian.com/contact-us)
 
+## Partner institutions
 
----
+- E&ICT Academy IIT Kanpur
+- IIM Lucknow
+- IIM Sirmaur
+- IIM Tiruchirappalli
+- IIM Ranchi
+- IIM Kashipur
+- I3C-IIT JAMMU
+- SP Jain School of Global Management
+- IIM Bodh Gaya
+- IIM Amritsar
+- XLRI
+- Department of Entrepreneurship and Management, IIT Hyderabad
+- IITM Pravartak
+- IIM Visakhapatnam
+- Microsoft
+- Accredian
 
+## Programs open for admission
 
-## About Accredian
+### [Design Thinking](https://accredian.com/course/design-thinking)
 
+#### [Advanced Certificate Program in Design Thinking & Innovation with AI](https://accredian.com/programs/advanced-certificate-program-in-design-thinking-innovation-with-ai)
+- **Institution:** E&ICT Academy IIT Kanpur
+- **Duration:** 5 Months
+- **Start date:** 27 Sep 2026
+- **Experience required:** 1+ years
+- **Fee:** INR 1,50,000 + GST
+- **Description:** Embark on a 5 month learning journey in Design Thinking, Applied Innovation & Creative Problem Solving. 
+- **Curriculum:**
+  1. Design Thinking & Human-Centered Innovation
+  2. Customer Discovery & AI-Powered Insights
+  3. AI-Augmented Ideation & Creative Problem Solving
+  4. Prototyping, Experimentation & Validation
+  5. Product, Service & Experience Design
+  6. Capstone Project
 
-- **Website:** https://accredian.com
-- **Headquarters:** Gurgaon, India
-- **Founded:** 2018
-- **About:** Education-focused platform specializing in GenAI, Strategy & Leadership, Data Science, AI, Product Management, and Executive Leadership
-- **Business Model:** Career-focused online education with curriculum co-creation alongside partner institutions
-- **Delivery Mode:** 100% Online | Live Instructor-Led Classes | Weekend Schedule (Saturday & Sunday)
-- **Career Support:** Placement assistance, 1:1 career mentorship sessions, resume & portfolio building, interview preparation
-- **Referral Program:**  https://accredian.com/referandearn — Earn rewards by referring peers
+### [CXO Leadership](https://accredian.com/course/cxo-leadership)
 
+#### [Chief Digital & AI Officer Programme (The CDAIO Program)](https://accredian.com/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program)
+- **Institution:** IIM Lucknow
+- **Duration:** 11 Months
+- **Start date:** 28 Jun 2026
+- **Experience required:** 7+ years
+- **Fee:** INR 4,52,500 + GST
+- **Description:** Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.
+- **Curriculum:**
+  1. The Chief Digital & AI Officer Mandate
+  2. Boardroom Influence & Executive Presence
+  3. Digital Investment, Budgeting & ROI
+  4. Digital & AI Business Models & Platform Strategy
+  5. Digital & AI Strategy for Enterprise Growth
+  6. Data Strategy & Analytics for CDAIOs
+  7. Digital & Technology Architecture
+  8. Generative & Agentic AI Systems
+  9. AI-Driven Customer Experience Strategy
+  10. Leading AI Change, Culture & Transformation
+  11. Innovation, Ecosystems & Future Growth
+  12. Digital Governance, Responsible AI & Risk
+  13. Capstone Project
 
-### Partner Institutions
-1. **IIM Visakhapatnam (IIMV)** — Indian Institute of Management Visakhapatnam; largest program portfolio with Accredian spanning CXO, Senior Management, AI, Finance, Project Management, and PG Diploma
-2. **E&ICT Academy, IIT Guwahati (IITG)** — Electronics & ICT Academy at IIT Guwahati; extensive Data Science, Product Management, Business Analytics, AI, Fintech, and Digital Transformation programs
-3. **E&ICT Academy, IIT Kanpur (IITK)** — Electronics & ICT Academy at IIT Kanpur; Project Management and AI programs
-4. **XLRI Jamshedpur** — Xavier School of Management; HR Leadership, General Management, and Senior Management programs
-5. **SP Jain School of Global Management** — GenAI, HR Leadership, and Project Management programs
-6. **IIM Tiruchirappalli (IIM Trichy)** — Indian Institute of Management Tiruchirappalli; CTO Program
-7. **IIM Amritsar** — Indian Institute of Management Amritsar; AI for Leaders program
-8. **IIM Lucknow (IIML)** — Indian Institute of Management Lucknow; General Management program
+#### [Chief Human Resource Officer Programme (The CHRO Program)](https://accredian.com/programs/iimr-chief-human-resource-officer-programme-the-chro-program)
+- **Institution:** IIM Ranchi
+- **Duration:** 12 Months
+- **Start date:** 17 Jan 2027
+- **Experience required:** 7+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.
+- **Curriculum:**
+  1. The Modern CHRO Role
+  2. Strategic HR Leadership and Planning
+  3. Boardroom Influence and Executive Communication
+  4. Organizational Design and Operating Models
+  5. Talent Strategy and Workforce Planning
+  6. Leadership Development and Succession Strategy
+  7. Performance, Rewards and Executive Compensation
+  8. Culture, Engagement and Employee Experience
+  9. Strategic Change Leadership and Business Transformation
+  10. Diversity, Equity and Inclusion (DEI)
+  11. Governance, Risk and Legal for CHROs
+  12. Financial Leadership for CHROs
+  13. Digital HR and People Analytics
+  14. AI and Generative AI for CHROs
+  15. Capstone Project
+  16. CXO Coaching
 
+#### [Chief Operating Officer Program (The COO Program)](https://accredian.com/programs/iim-kashipur-chief-operating-officer-program)
+- **Institution:** IIM Kashipur
+- **Duration:** 12 Months
+- **Start date:** 30 Aug 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 2,90,000 + GST
+- **Description:** Embark on an 12 month learning journey in operations strategy, cross-functional leadership & strategic communication.
+- **Curriculum:**
+  1. The Modern COO Role in the Enterprise
+  2. Strategic Thinking & Business Acumen
+  3. Financial Leadership for COOs
+  4. Revisiting the Key Pillars of Operations Management
+  5. Operations Strategy & Execution Excellence
+  6. Revenue Operations & Customer-Centric Delivery
+  7. Building High-Performance Organizations & Culture
+  8. Global Operations & Supply Chain Resilience
+  9. Risk Compliance & Crisis Leadership
+  10. Digital Transformation & Tech-Enabled Operations
+  11. Analytics & Data-Driven Decision-Making
+  12. Generative AI for COOs
+  13. Capstone Project
 
----
+#### [CTO & AI Leadership Program](https://accredian.com/programs/iimr-cto-ai-leadership-program)
+- **Institution:** IIM Ranchi
+- **Duration:** 12 Months
+- **Start date:** 31 Jan 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Embark on a 12 month learning journey in Strategic Leadership, Technology, AI & Governance
+- **Curriculum:**
+  1. The Modern CTO in the AI Era
+  2. Boardroom Leadership & Strategic Decision Making
+  3. Technology & AI Strategy for CTOs
+  4. Strategic Finance for Technology & AI Leaders
+  5. Product, Technology & Market Alignment
+  6. Data & Analytics Strategy for CTOs
+  7. Digital Transformation & Emerging Technologies
+  8. AI & Generative AI Strategy
+  9. Agentic AI & Autonomous Enterprises
+  10. AI-Driven Product Innovation
+  11. GTM Strategies for CTOs
+  12. Cybersecurity, Tech Risk Leadership
+  13. AI Governance & Responsible AI
+  14. Capstone Project
+  15. CXO Coaching
 
-
-## ACTIVE PROGRAMS — DETAILED CATALOG
-
-
----
-
-
-### CXO LEADERSHIP PROGRAMS
-
-
----
-
+#### [Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)](https://accredian.com/programs/executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme)
+- **Institution:** XLRI
+- **Duration:** 11 Months
+- **Start date:** 26 July 2026
+- **Experience required:** 8+ years
+- **Fee:** INR 3,30,000 + GST
+- **Description:** Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.
+- **Curriculum:**
+  1. The Role of the Modern CTO
+  2. Technology Strategy & Business Alignment
+  3. Technology Investment, Budgeting & ROI
+  4. Digital & Technology Architecture
+  5. Technology-Driven Product Leadership
+  6. Leading Digital Transformation at Scale
+  7. AI & GenAI Strategy for CTOs
+  8. Cybersecurity, Privacy & Digital Resilience
+  9. Technology Governance, Risk & Compliance
+  10. Innovation, R&D & Technology Foresight
+  11. Building & Scaling High-Performance Tech Teams
+  12. Strategic Communication & Boardroom Influence
+  13. Capstone Project
 
 #### [Chief Executive Officer Program (The CEO Program)](https://accredian.com/programs/chief-executive-officer-program)
 - **Institution:** IIM Visakhapatnam
-- **Duration:** 11 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 3,50,000 (EMI options available)
-- **Live Class Hours:** 132+
-- **Modules:** 12
+- **Duration:** 11 Months
+- **Start date:** 19 Apr 2026
+- **Experience required:** 8+ years
+- **Fee:** INR 3,49,000 + GST
 - **Description:** Embark on an 11-month learning journey in Strategic Leadership, Organizational Excellence, Innovation & AI.
 - **Curriculum:**
- 1. Intro to the Modern CEO
- 2. Strategic Thinking & Planning
- 3. Influencing Stakeholders & Building Trust
- 4. Boardroom Leadership & Corporate Governance
- 5. Financial Leadership for CEOs
- 6. Operational Excellence & Leadership
- 7. People Leadership for CEOs
- 8. Risk Management & Mitigation Strategies
- 9. Revenue Growth Strategies
- 10. New Product Development & Innovation
- 11. AI & Generative AI for CEOs
- 12. Digital Transformation Strategy
- 13. Capstone Project
-
-
----
-
+  1. Intro to the Modern CEO
+  2. Strategic Thinking & Planning
+  3. Influencing Stakeholders & Building Trust
+  4. Boardroom Leadership & Corporate Governance
+  5. Financial Leadership for CEOs
+  6. People Leadership for CEOs
+  7. Operational Excellence & Leadership
+  8. Risk Management & Mitigation Strategies
+  9. Data & Analytics Leadership
+  10. Revenue Growth Strategies
+  11. New Product Development & Innovation
+  12. AI & Generative AI for CEOs
+  13. Digital Transformation Strategy
+  14. Capstone Project
+  15. CXO Coaching
 
 #### [Chief Financial Officer Programme](https://accredian.com/programs/chief-financial-officer-programme)
 - **Institution:** IIM Visakhapatnam
-- **Duration:** 12 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 8+ years
-- **Fee:** INR 3,40,000 (EMI options available)
-- **Live Class Hours:** 135+
-- **Modules:** 12
+- **Duration:** 12 Months
+- **Start date:** 21 Jun 2026
+- **Experience required:** 8+ years
+- **Fee:** INR 3,49,000 + GST
 - **Description:** Embark on a 12 month learning journey in Financial Leadership, Corporate Governance, and Digital Leadership.
 - **Curriculum:**
- 1. Introduction to Modern CFO Role
- 2. Strategic Leadership for CFOs
- 3. Critical Thinking & Decision Making
- 4. Global Economics & Financial Markets
- 5. Financial Planning & Analysis for CFOs
- 6. Strategic Finance
- 7. Mergers & Acquisitions
- 8. Financial Risk Management for CFOs
- 9. Corporate Governance & Regulatory Compliance
- 10. Fintech for CFOs
- 11. AI & Digital Transformation for CFOs
- 12. Data Driven Decision Making for CFO
- 13. Capstone Project
-- **Tools:** Power BI, Excel
+  1. Introduction to Modern CFO Role
+  2. Strategic Leadership for CFOs
+  3. Global Economics & Financial Markets
+  4. Financial Planning & Analysis for CFOs
+  5. Strategic Finance
+  6. Mergers & Acquisitions
+  7. Financial Risk Management for CFOs
+  8. Corporate Governance & Regulatory Compliance
+  9. Fintech for CFOs
+  10. AI & Digital Transformation for CFOs
+  11. Critical Thinking & Decision Making
+  12. Data Driven Decision Making
+  13. Capstone Project
+  14. CXO Coaching
 
+### [Artificial Intelligence](https://accredian.com/course/artificial-intelligence)
 
----
-
-
-#### [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 2,50,000 (EMI options available)
-- **Live Class Hours:** 140+
-- **Modules:** 13
-- **Description:** Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.
+#### [Executive Program in Leadership with AI](https://accredian.com/programs/iims-executive-program-in-leadership-with-ai)
+- **Institution:** IIM Sirmaur
+- **Duration:** 6 Months
+- **Start date:** 10 Jan 2027
+- **Experience required:** 2+ years
+- **Fee:** INR 1,89,000 + GST
+- **Description:** Embark on a 6-month learning journey in executive leadership, business strategy, and analytics.
 - **Curriculum:**
- 1. The Modern CHRO
- 2. Strategic Leadership for CHROs
- 3. Organizational Design and Strategy
- 4. Strategic Talent Acquisition and Workforce Planning
- 5. Strategic Employee Engagement and Retention
- 6. Leadership Development & Succession Planning
- 7. Leading Culture & Change
- 8. Compensation & Benefits
- 9. Diversity, Equity, and Inclusion (DEI)
- 10. Legal and Compliance Management
- 11. Financial Acumen for CHROs
- 12. Strategic HR Analytics and Data-Driven Decision Making
- 13. Digital Transformation and Future of Work
- 14. Capstone Project
+  1. AI Foundations for Leaders
+  2. Generative AI for Leaders
+  3. AI Applications Across Business Functions
+  4. Building AI-Powered Products and Services
+  5. AI Strategy, Business Models and Growth
+  6. Business Transformation with Agentic AI
+  7. Leading AI Transformation and Change
+  8. Capstone Project
 
-
----
-
-
-#### [Chief Technology Officer Programme (The CTO Program) — IIM Visakhapatnam](https://accredian.com/programs/chief-technology-officer-programme)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 11 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 3,60,000 (EMI options available)
-- **Live Class Hours:** 132+
-- **Modules:** 9
-- **Description:** Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.
-- **Curriculum:**
- 1. Intro to CTO Role
- 2. Technology Strategy for CTOs
- 3. Cross Functional Leadership for CTOs
- 4. Financial Leadership for CTOs
- 5. Technology Infrastructure & Architecture
- 6. Digital Transformation & Emerging Technologies
- 7. Tech Driven Business Model Innovation
- 8. Data Science, Analytics & GenAI for CTOs
- 9. Tech Governance, Risk & Cybersecurity
- 10. Capstone Project
-
-
----
-
-
-#### [Chief Technology Officer Programme (The CTO Program) — IIM Tiruchirappalli](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme)
+#### [Certificate Programme in Leadership with AI](https://accredian.com/programs/iimt-certificate-programme-in-leadership-with-ai)
 - **Institution:** IIM Tiruchirappalli
-- **Duration:** 10 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 2,90,000 (EMI options available)
-- **Live Class Hours:** 115+
-- **Modules:** 11
-- **Description:** Embark on a 10 month learning journey in Strategic Leadership, Technology, Innovation & Governance.
+- **Duration:** 8 Months
+- **Start date:** 30 Aug 2026
+- **Experience required:** 3+ years
+- **Fee:** INR 2,09,000 + GST
+- **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.
 - **Curriculum:**
- 1. CTO as Strategic Enterprise Leader
- 2. Stakeholder & Cross-Functional Leadership
- 3. Technology Strategy
- 4. Strategic Finance for CTOs
- 5. Product, Technology & Market Alignment
- 6. Digital Transformation Leadership
- 7. AI, Generative AI & Emerging Technologies
- 8. Innovation Leadership for CTOs
- 9. GTM for CTOs
- 10. Technology Governance & Compliance
- 11. Cybersecurity Leadership & Risk Management
- 12. Capstone Project
+  1. AI Foundations for Leaders
+  2. Generative AI for Business Leaders
+  3. Strategy in the AI Era
+  4. Designing AI-Driven Business Models
+  5. AI Product Management
+  6. Agentic AI for Workflow Automation
+  7. AI-Driven Change Leadership
+  8. Talent Transformation for an AI Future
+  9. Strategic Leadership for AI Leaders
+  10. Responsible AI: Designing and Deploying Trustworthy AI
+  11. Capstone Project
 
-
----
-
-
-#### [PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 11 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 3,50,000 (EMI options available)
-- **Live Class Hours:** 132+
-- **Modules:** 14
-- **Description:** Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.
+#### [Executive Program in Generative AI & Agentic AI for Leaders](https://accredian.com/programs/iimr-executive-program-in-generative-ai-agentic-ai-for-leaders)
+- **Institution:** IIM Ranchi
+- **Duration:** 7 Months
+- **Start date:** 29 Nov 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,80,000 + GST
+- **Description:** Embark on a 7 months learning journey in Machine Learning, AI Strategy, and GenAI.
 - **Curriculum:**
- 1. The Role of the Modern CDAIO
- 2. Digital & AI Transformation Strategy
- 3. Digital Business Models & Platform Thinking
- 4. Strategic Finance & Value Realization
- 5. Data Strategy, Governance & Monetization
- 6. AI & Generative AI for Leaders
- 7. Digital & Technology Architecture for Transformation
- 8. Cybersecurity, Responsible AI & Tech Risk
- 9. AI Driven Customer Experience Transformation
- 10. Product Thinking, Design, & Agile Delivery
- 11. Scaling Digital Products & Platforms
- 12. Innovation & Emerging Tech
- 13. Leading Change, Culture & Talent Transformation
- 14. Storytelling, Influence & Boardroom Communication
- 15. Capstone
-- **Tools:** Aha!, Miro, Trello, ChatGPT, Lovable, Notion
+  1. Generative AI Foundations for Leaders
+  2. Applied Generative AI: Tools, Prompting & Workflows
+  3. GenAI Strategy, Roadmapping & ROI
+  4. Business Transformation with GenAI
+  5. Building Generative AI Products (No-Code AI)
+  6. AI Agents for Workflow Automation
+  7. Agentic AI for Autonomous Organizations
+  8. Leading GenAI Transformation
+  9. Capstone Project
 
-
----
-
-
-### AI & GENERATIVE AI PROGRAMS
-
-
----
-
-
-#### [Executive Program in Leadership with AI — IIM Visakhapatnam](https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 10 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 2,40,000 (EMI options available)
-- **Live Class Hours:** 120+
-- **Modules:** 10
-- **Description:** Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.
+#### [Executive Program in Leadership with AI](https://accredian.com/programs/iim-ranchi-executive-program-in-leadership-with-ai)
+- **Institution:** IIM Ranchi
+- **Duration:** 8 Months
+- **Start date:** 15 Nov 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 2,10,000 + GST
+- **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.
 - **Curriculum:**
- 1. AI Fundamentals for Business Leaders
- 2. Applied Machine Learning for Leaders
- 3. Generative AI for Leaders
- 4. Data Strategy for AI Readiness
- 5. AI Strategy, Roadmapping & ROI
- 6. AI Product Thinking & Implementation
- 7. Business Transformation with Agentic AI
- 8. Responsible AI: Governance, Ethics & Compliance
- 9. AI in Business Functions
- 10. Leading AI Transformation & Change Management
- 11. Capstone Project
-- **Tools:** OpenAI, Excel, Lovable, Alteryx, Gemini
+  1. AI Foundations for Business Leaders
+  2. Generative AI for Leaders
+  3. AI Strategy, Use Cases & Value Creation
+  4. AI Business Models & Monetization
+  5. AI Product Strategy & Solution Design
+  6. Applied AI in Business Functions
+  7. AI Risk, Safety & Governance
+  8. Leading AI Transformation
+  9. Agentic AI for Business Applications
+  10. Capstone
 
+#### [Advanced Certificate in AI for Leaders](https://accredian.com/programs/iit-jammu-advanced-certificate-in-ai-for-leaders)
+- **Institution:** I3C-IIT JAMMU
+- **Duration:** 5 Months
+- **Start date:** 26th Jul 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,20,000 + GST
+- **Description:** Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.
 
----
+#### [Advanced Certificate in Generative AI for Leaders](https://accredian.com/programs/iit-jammu-advanced-certificate-in-generative-ai-for-leaders)
+- **Institution:** I3C-IIT JAMMU
+- **Duration:** 5 Months
+- **Start date:** 26th Jul 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,20,000 + GST
+- **Description:** Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.
 
+#### [Executive Program in Generative AI & Agentic AI for Leaders](https://accredian.com/programs/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders)
+- **Institution:** I3C-IIT JAMMU
+- **Duration:** 8 Months
+- **Start date:** 26th Jul 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,60,000 + GST
+- **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.
 
-#### [Executive Program in Generative AI for Business Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 7 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 1,80,000 (EMI options available)
-- **Live Class Hours:** 126+
-- **Modules:** 7
-- **Description:** Embark on a 7 month learning journey in GenAI Models, Prompt Engineering, and No Code GenAI Tools.
-- **Curriculum:**
- 1. Generative AI Foundations For Leaders
- 2. Generative AI For Productivity & Automation
- 3. Generative AI Strategy & Roadmapping
- 4. Building Generative AI Solutions Without Coding
- 5. Business Transformation With Generative AI
- 6. Agentic AI For Autonomous Systems
- 7. Leading GenAI Transformation
- 8. Capstone Project
-- **Tools:** ChatGPT, Claude AI, Lovable, Perplexity, Sora, Gamma, NotebookLM
+#### [Executive Program in Leadership with AI](https://accredian.com/programs/iit-jammu-executive-program-in-leadership-with-ai)
+- **Institution:** I3C-IIT JAMMU
+- **Duration:** 8 Months
+- **Start date:** 26th Jul 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,60,000 + GST
+- **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.
 
-
----
-
-
-#### [Executive Program in Generative AI for Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-leaders)
+#### [Professional Certificate in AI for Leaders](https://accredian.com/programs/professional-certificate-in-ai-for-leaders)
 - **Institution:** SP Jain School of Global Management
-- **Duration:** 6 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 1,50,000 (EMI options available)
-- **Live Class Hours:** 72+
-- **Modules:** 7
-- **Description:** Embark on a 6-month learning journey in GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.
+- **Duration:** 4 Months
+- **Start date:** 21st Jun 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,30,000 + GST
+- **Description:** Embark on a 4-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.
 - **Curriculum:**
- 1. Generative AI Foundations For Leaders
- 2. Generative AI Tools, Workflows & Applied Practice
- 3. Generative AI For Business Functions
- 4. Building Generative AI Solutions (No/Low Code)
- 5. Capstone Project
- 6. Agentic AI For Business Transformation
- 7. GenAI Strategy & Roadmapping
- 8. Leading GenAI Projects & Teams
- 9. Capstone Project
-- **Tools:** ChatGPT, Gemini, Claude AI, Gamma, Hugging Face, Notion, Grok, Replicate, Ollama, TechRadar, NotebookLM
+  1. AI Foundations for Business Leaders
+  2. Applied Machine Learning for Executives
+  3. Generative AI for Leaders
+  4. AI Strategy & Digital Transformation
+  5. Capstone Project
 
-
----
-
-
-#### [Professional Certificate in Applied Generative AI](https://accredian.com/programs/professional-certificate-in-applied-generative-ai)
+#### [Executive Program in Leadership with AI](https://accredian.com/programs/sp-jain-executive-program-in-leadership-with-ai)
 - **Institution:** SP Jain School of Global Management
-- **Duration:** 4 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 1,20,000 (EMI options available)
-- **Live Class Hours:** 48+
-- **Modules:** 4
+- **Duration:** 7 Months
+- **Start date:** 21st Jun 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,60,000 + GST
+- **Description:** Embark on a 7-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.
+- **Curriculum:**
+  1. AI Foundations for Business Leaders
+  2. Machine Learning and Digital Storytelling
+  3. Generative AI for Leaders
+  4.  AI Strategy & Digital Transformation
+  5. AI Business Models & Growth Strategy
+  6. Building AI Products & Solutions (No Code)
+  7. Business Transformation with AI
+  8. Agentic AI & Autonomous Systems
+  9. Enterprise AI: Scalability, Governance & Risk
+  10. Capstone Project
+  11. Capstone Project
+
+#### [Executive Program in Generative AI & Agentic AI for Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-leaders)
+- **Institution:** SP Jain School of Global Management
+- **Duration:** 7 Months
+- **Start date:** 13 Dec 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,69,000 + GST
+- **Description:** Embark on a 7-month learning journey in GenAI Strategy, Applied Tools, & Leadership-Driven Transformation.
+- **Curriculum:**
+  1. Generative AI Foundations For Leaders
+  2. Generative AI Tools, Workflows & Applied Practice
+  3. Generative AI For Business Functions
+  4. Building Generative AI Solutions (No/Low Code)
+  5. Capstone Project
+  6. AI Agents & Workflow Automation
+  7. Agentic AI For Business Transformation
+  8. GenAI Strategy & Roadmapping
+  9. Leading GenAI Projects & Teams
+  10. Capstone Project
+
+#### [Professional Certificate in Generative AI for Business Transformation](https://accredian.com/programs/professional-certificate-in-applied-generative-ai)
+- **Institution:** SP Jain School of Global Management
+- **Duration:** 4 Months
+- **Start date:** 13 Dec 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,39,000 + GST
 - **Description:** Embark on a 4-month learning journey in GenAI Tools, Workflow Automation, & Real-World Enterprise Use Cases.
 - **Curriculum:**
- 1. Generative AI Foundations For Leaders
- 2. Generative AI Tools, Workflows & Applied Practice
- 3. Generative AI For Business Functions
- 4. Building Generative AI Solutions (No/Low Code)
- 5. Capstone Project
-- **Tools:** ChatGPT, Gemini, Claude AI, Gamma, Hugging Face, Notion, Grok, Ollama
+  1. Generative AI Foundations For Leaders
+  2. Generative AI Tools, Workflows & Applied Practice
+  3. Generative AI For Business Functions
+  4. Building Generative AI Solutions (No/Low Code)
+  5. Capstone Project
 
-
----
-
-
-### PROJECT MANAGEMENT PROGRAMS
-
-
----
-
-
-
-
-#### [Executive Program in Project Management](https://accredian.com/programs/iimv-executive-program-in-project-management)
+#### [Executive Program in Leadership with AI](https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai)
 - **Institution:** IIM Visakhapatnam
-- **Duration:** 6 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 3+ years
-- **Fee:** INR 1,50,000 (EMI options available)
-- **Live Class Hours:** 72+
-- **Modules:** 6
-- **Description:** Embark on a 6 month learning journey in Project Planning, Risk Management, and Project Procurement.
+- **Duration:** 10 Months
+- **Start date:** 13 Sep 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 2,45,000 + GST
+- **Description:** Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.
 - **Curriculum:**
- 1. Foundations of Strategic Project Management
- 2. Project Scope, Scheduling & Cost Management
- 3. Risk, Quality & Resource Management
- 4. Communication & Stakeholder Engagement
- 5. Governance, Procurement & Compliance
- 6. Project Execution, Monitoring & Closure
- 7. Capstone Project
+  1. AI Fundamentals for Business Leaders
+  2. Applied Machine Learning for Leaders
+  3. Generative AI for Leaders
+  4. Data Strategy for AI Readiness
+  5. AI Strategy, Roadmapping & ROI
+  6. AI Product Thinking & Implementation
+  7. Business Transformation with Agentic AI
+  8. Responsible AI: Governance, Ethics & Compliance
+  9. AI in Business Functions
+  10. Leading AI Transformation & Change Management
+  11. Capstone Project
 
-
----
-
-
-#### [Executive Program in Strategic Project Management & Leadership](https://accredian.com/programs/executive-program-in-strategic-project-management-and-leadership)
-- **Institution:** SP Jain School of Global Management
-- **Duration:** 6 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 1,25,000 (EMI options available)
-- **Live Class Hours:** 72+
-- **Modules:** 15
-- **Description:** Embark on a 6-month learning journey in Project Planning, Risk Management, and Project Procurement.
+#### [Advanced Certificate Program in AI for Leaders](https://accredian.com/programs/advanced-certificate-program-in-ai-for-leaders)
+- **Institution:** E&ICT Academy IIT Kanpur
+- **Duration:** 5 Months
+- **Start date:** 29 Nov 2026
+- **Experience required:** 1+ years
+- **Fee:** INR 1,59,000 + GST
+- **Description:** Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.
 - **Curriculum:**
- 1. Strategic Project Management Fundamentals
- 2. Project Strategy & Enterprise Alignment
- 3. Requirements, Scope & Quality Governance
- 4. Project Planning & Resource Strategy
- 5. Risk & Procurement Management
- 6. RFP & Contracting Excellence
- 7. Leadership & Execution Excellence
- 8. Managing High-Performance Project Teams
- 9. Monitoring & Control Frameworks
- 10. Project Closure & Hybrid Delivery
- 11. Agile Delivery & Execution
- 12. Change Leadership & Transformation
- 13. Strategic Influence & Communication
- 14. Analytics & Data Driven Decision Making
- 15. GenAI For Project Managers
- 16. Capstone Project
-- **Tools:** Microsoft Project, ChatGPT, Napkin, Project Plan 365
+  1. AI Foundations for Leaders
+  2. Applied Machine Learning for Executives
+  3. Generative AI for Leaders
+  4. AI Strategy & Roadmapping
+  5. Designing AI-Native Business Models
+  6. Capstone Project
 
-
----
-
-
-#### [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 10 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 2,10,000 (EMI options available)
-- **Live Class Hours:** 120+
-- **Modules:** 12
-- **Description:** Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.
+#### [Professional Certificate Program in Leadership with AI](https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai)
+- **Institution:** E&ICT Academy IIT Kanpur
+- **Duration:** 8 Months
+- **Start date:** 13 Dec 2026
+- **Experience required:** 1+ years
+- **Fee:** INR 1,89,000 + GST
+- **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.
 - **Curriculum:**
- 1. Foundations of Strategic Project Management
- 2. Project Scope, Scheduling & Cost Management
- 3. Risk, Quality & Resource Management
- 4. Communication & Stakeholder Engagement
- 5. Governance, Procurement & Compliance
- 6. Project Execution, Monitoring & Closure
- 7. Capstone Project
- 8. Strategic Program & Portfolio Management
- 9. Leading Complex & Large-Scale Projects
- 10. Leadership & Stakeholder Management
- 11. ESG Leadership in Project Management
- 12. Project Analytics & Data-Driven Project Management
- 13. AI & GenAI for Project Leaders
- 14. Capstone Project
+  1. AI Foundations for Leaders
+  2. Applied Machine Learning for Executives
+  3. Generative AI for Leaders
+  4. AI Strategy & Roadmapping
+  5. Designing AI-Native Business Models
+  6. Capstone Project
+  7. Building AI Products( No code AI)
+  8. Leading AI Transformation & Change
+  9. Agentic AI & Autonomous AI
+  10. Capstone Project
 
+### [Human Resource](https://accredian.com/course/human-resource)
 
----
+#### [Chief Human Resources Officer Programme (The CHRO Program)](https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program)
+- **Institution:** IIM Lucknow
+- **Duration:** 10 Months
+- **Start date:** 17 Jan 2027
+- **Experience required:** 8+ years
+- **Fee:** INR 4,00,000 + GST
+- **Description:** Embark on a 10 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.
+- **Curriculum:**
+  1. The Modern CHRO
+  2. Strategic HR Leadership
+  3. Business Excellence for CHROs
+  4. Organization Design & Change Leadership
+  5. Talent Strategy & Workforce Planning
+  6. Leadership Development & Succession Planning
+  7. Performance, Rewards & Executive Compensation
+  8. Culture & Employee Experience Strategy
+  9. Financial Leadership for CHROs
+  10. Strategic Marketing
+  11. Supply Chain and Operational Excellence
+  12. The Global CHRO: Workforce Strategy & Compliance
+  13. Digital HR & People Analytics
+  14. AI & Generative AI for CHROs
+  15. Capstone Project
 
+#### [Executive Program in Strategic HR Leadership](https://accredian.com/programs/iimr-executive-program-in-strategic-hr-leadership)
+- **Institution:** IIM Ranchi
+- **Duration:** 10 Months
+- **Start date:** 10 Jan 2027
+- **Experience required:** 3+ years
+- **Fee:** INR 2,20,000 + GST
+- **Description:** Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.
+- **Curriculum:**
+  1. Strategic HR Leadership
+  2. HR Strategy and Workforce Planning
+  3. Organizational Design and Effectiveness
+  4. Business Acumen for HR Leaders
+  5. Talent Strategy and Acquisition
+  6. Performance and Rewards Management
+  7. Leadership Pipeline and Capability Building
+  8. Culture, Employee Experience and Retention
+  9. HR Governance, Risk and Legal
+  10. HR Analytics and Data-Driven Decision Making
+  11. Digital HR, AI and Generative AI
+  12. Capstone Project
 
-### HR LEADERSHIP PROGRAMS
-
-
----
-
+#### [Executive Development Program in Strategic HR Leadership](https://accredian.com/programs/executive-development-program-strategic-hr-leadership)
+- **Institution:** XLRI
+- **Duration:** 10 Months
+- **Start date:** 12 July 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 2,40,000 + GST
+- **Description:** Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.
+- **Curriculum:**
+  1. Future of Workplace
+  2. Strategic HRM
+  3. Understanding HR Metrics
+  4. Digitalization, AI & HRM
+  5. Motivating Next-Gen Employees
+  6. Leadership
+  7. Employee Wellness & Mental Well-Being
+  8. Diversity, Equity, & Inclusion
+  9. Future of Industrial Relations & New Labor Laws
+  10. Campus Immersion
 
 #### [Executive Development Programme in Digital HR Leadership and People Analytics](https://accredian.com/programs/executive-development-program-in-digital-hr-leadership-and-people-analytics)
-- **Institution:** XLRI Jamshedpur
-- **Duration:** 10 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 3+ years
-- **Fee:** INR 2,40,000 (EMI options available)
-- **Live Class Hours:** 120+
-- **Modules:** 11
+- **Institution:** XLRI
+- **Duration:** 10 Months
+- **Start date:** 30 Aug 2026
+- **Experience required:** 3+ years
+- **Fee:** INR 2,40,000 + GST
 - **Description:** Embark on a 10 month learning journey in HR Analytics, Digital Leadership, and GenAI.
 - **Curriculum:**
- 1. Strategic HR Leadership in Digital Era
- 2. Building Digital HR Strategy
- 3. HR Technology Stack
- 4. Analytical Problem Solving in HR
- 5. HR Analytics & Data Driven Decision Making
- 6. People Analytics & Digital HR
- 7. Visualization & Storytelling for HR Leaders
- 8. Transforming HR Value Chain Through Analytics
- 9. AI & Automation in HR
- 10. GenAI & Emerging Trends in HR
- 11. Transformation & Change Management
+  1. Strategic HR Leadership in Digital Era
+  2. Building Digital HR Strategy
+  3. HR Technology Stack
+  4. Analytical Problem Solving in HR
+  5. HR Analytics & Data Driven Decision Making
+  6. People Analytics & Digital HR
+  7. Visualization & Storytelling for HR Leaders
+  8. Transforming HR Value Chain Through Analytics
+  9. AI & Automation in HR
+  10. GenAI & Emerging Trends in HR
+  11. Transformation & Change Management
 
+### [Project Management](https://accredian.com/course/project-management)
 
-—
-
-
-#### [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 2,50,000 (EMI options available)
-- **Live Class Hours:** 140+
-- **Modules:** 13
-- **Description:** Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.
+#### [Professional Certificate Program in Strategic Project Management & Leadership](https://accredian.com/programs/professional-certificate-program-in-strategic-project-management-and-leadership)
+- **Institution:** E&ICT Academy IIT Kanpur
+- **Duration:** 8 Months
+- **Start date:** 30 Aug 2026
+- **Experience required:** 0+ years
+- **Fee:** INR 1,80,000 + GST
+- **Description:** Embark on an 8 month learning journey in Project Planning, Risk Management, and Project Procurement.
 - **Curriculum:**
- 1. The Modern CHRO
- 2. Strategic Leadership for CHROs
- 3. Organizational Design and Strategy
- 4. Strategic Talent Acquisition and Workforce Planning
- 5. Strategic Employee Engagement and Retention
- 6. Leadership Development & Succession Planning
- 7. Leading Culture & Change
- 8. Compensation & Benefits
- 9. Diversity, Equity, and Inclusion (DEI)
- 10. Legal and Compliance Management
- 11. Financial Acumen for CHROs
- 12. Strategic HR Analytics and Data-Driven Decision Making
- 13. Digital Transformation and Future of Work
- 14. Capstone Project
+  1. Foundations Of Strategic Project Management
+  2. Strategic Project Planning & Alignment
+  3. Execution Excellence & Adaptive Delivery Leadership
+  4. Risk, Quality & Governance Leadership
+  5. Financials, Cost & Contract Strategy
+  6. Leadership, Influence & Communication
+  7. Capstone
+  8. Leading Large Scale Projects
+  9. Program & Portfolio Leadership
+  10. Generative AI For Project Leaders
+  11. Analytics & Decision Intelligence
+  12. Capstone
 
-
-—
-
-
-#### [Executive Program in Strategic HR Leadership](https://accredian.com/programs/executive-program-in-strategic-hr-leadership)
-- **Institution:** SP Jain School of Global Management
-- **Duration:** 6 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 1,50,000 (EMI options available)
-- **Live Class Hours:** 72+
-- **Modules:** 7
-- **Description:** Embark on a 6 month learning journey in HR Leadership, Corporate Governance, and Digitalization & GenAI.
+#### [Advanced Certificate Program in Strategic Project Management](https://accredian.com/programs/advanced-certificate-program-in-strategic-project-management)
+- **Institution:** E&ICT Academy IIT Kanpur
+- **Duration:** 5 Months
+- **Start date:** 30 Aug 2026
+- **Experience required:** 0+ years
+- **Fee:** INR 1,40,000 + GST
+- **Description:** Embark on a 5 month learning journey in Project Planning, Risk Management, and Project Procurement.
 - **Curriculum:**
- 1. The Modern HR Leader
- 2. HR Strategy for Organizational Growth
- 3. Talent Strategy and Workforce Planning
- 4. Performance, Learning, and Leadership Development
- 5. Building High Performance Culture & Organizations
- 6. HR Analytics & Data Driven Decision Making
- 7. AI & Generative AI for HR Leaders
- 8. Capstone Project
-- **Tools:** OpenAI, Gemini, Claude AI, Sora, Nano Banana, Gamma, Perplexity, InVideo
+  1. Foundations Of Strategic Project Management
+  2. Strategic Project Planning & Alignment
+  3. Execution Excellence & Adaptive Delivery Leadership
+  4. Risk, Quality & Governance Leadership
+  5. Financials, Cost & Contract Strategy
+  6. Leadership, Influence & Communication
+  7. Capstone
 
-
----
-
-
-### SENIOR MANAGEMENT PROGRAMS
-
-
----
-
-
-#### [Senior Management Program](https://accredian.com/programs/senior-management-program)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 3,50,000 (EMI options available)
-- **Live Class Hours:** 144+
-- **Modules:** 12
-- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India's premier business schools, and attain Executive Alumni status.
+#### [Executive Program in Strategic Project Management & Leadership](https://accredian.com/programs/iiml-executive-program-in-strategic-project-management-leadership)
+- **Institution:** IIM Lucknow
+- **Duration:** 10 Months
+- **Start date:** 30 May 2026
+- **Experience required:** 1+ years
+- **Fee:** INR 2,42,500 + GST
+- **Description:** Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.
 - **Curriculum:**
- 1. Foundations of Executive Leadership
- 2. Strategy for Senior Executives
- 3. Corporate Governance & Corporate Social Responsibility
- 4. Finance for Senior Leaders
- 5. Strategic Marketing & Brand Management
- 6. Operations & Supply Chain Excellence
- 7. Strategic HR Leadership
- 8. Legal & Business Laws for Senior Leaders
- 9. Global Business Strategies
- 10. Growth Strategies for Senior Leaders
- 11. Analytics for Decision-Making
- 12. Leadership with AI
- 13. Capstone Project
-- **Tools:** Power BI, Excel, R
+  1. Business Economics for Strategic Decisions
+  2. Financial Acumen for Project Leaders
+  3. Strategic Project Planning & Resourcing
+  4. Project Execution Leadership & Schedule Optimization
+  5. Agile Project Management for Delivery Excellence
+  6. Digital Product Leadership
+  7. Agile for C-Suite (Program and Portfolio)
+  8. Digital, Legal & ESG for Project Leaders
+  9. Data & AI Driven Project Management
+  10. Leadership, Stakeholder Management & Communication
 
+### [Strategy & Leadership](https://accredian.com/course/strategy-and-leadership)
 
----
+#### [Executive Program in Strategy & Leadership](https://accredian.com/programs/iimr-executive-program-in-strategy-leadership)
+- **Institution:** IIM Ranchi
+- **Duration:** 11 Months
+- **Start date:** 24 Jan 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Embark on an 11 month learning journey in executive leadership, business strategies, and analytics.
+- **Curriculum:**
+  1. Strategic Leader’s Mindset
+  2. Corporate and Business Strategy
+  3. Financial Acumen for Strategic Leaders
+  4. Growth Strategy and Market Expansion
+  5. Strategy Execution, Change & Transformation
+  6. Leadership, Executive Presence & Influence
+  7. Strategic Communication, Negotiation and Storytelling
+  8. Building and Leading High-Performance Organizations
+  9. Boardroom Influence and Stakeholder Management
+  10. Risk & Crisis Leadership
+  11. Innovation and Business Model Reinvention
+  12. Global and Growth Strategy
+  13. Digital Strategy and Data-Driven Decision Making
+  14. AI and Generative AI for Strategic Leaders
+  15. Capstone Project
 
+#### [Executive Program in Technology Leadership & Innovation](https://accredian.com/programs/executive-program-in-technology-leadership-innovation)
+- **Institution:** IITM Pravartak
+- **Duration:** 9 Months
+- **Start date:** 10 Jan 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 2,20,000 + GST
+- **Description:** Embark on a 9 month learning journey to lead innovation, leverage emerging technologies, and drive business growth.
+- **Curriculum:**
+  1. The Modern Enterprise Technology Leader
+  2. Strategic Communication & Boardroom Influence
+  3. Technology Strategy & Competitive Advantage
+  4. Strategic Finance for Technology Leaders
+  5. Enterprise Technology & Digital Architecture
+  6. Leading Digital Transformation at Scale
+  7. AI & Generative AI Strategy
+  8. Innovation Systems & Technology-Led Growth
+  9. Product Thinking & Platform Leadership
+  10. Capstone Project
+
+#### [Executive Program in Strategy Leadership & Innovation in AI Era](https://accredian.com/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era)
+- **Institution:** IIM Sirmaur
+- **Duration:** 8 Months
+- **Start date:** 10 Jan 2027
+- **Experience required:** 3+ years
+- **Fee:** INR 1,99,000 + GST
+- **Description:** Embark on an 8-month learning journey in executive leadership, business strategy, and analytics.
+- **Curriculum:**
+  1. Strategic Thinking and Executive Decision Making
+  2. Corporate & Business Strategy
+  3. Strategy Execution & Transformation
+  4. Strategic Finance and Value Creation
+  5. Leading High-Performance Organizations
+  6. Stakeholder Leadership and Executive Influence
+  7. Growth Strategy and Business Expansion
+  8. Digital Transformation and Innovation Leadership
+  9. AI Leadership, Applications & Governance
+  10. Capstone Project
+
+#### [Executive Development Program in Strategy & Leadership](https://accredian.com/programs/executive-program-in-strategy-leadership)
+- **Institution:** XLRI
+- **Duration:** 11 Months
+- **Start date:** 05 Jul 2026
+- **Experience required:** 8+ years
+- **Fee:** INR 2,80,000 + GST
+- **Description:** Master Strategic Leadership, Global Expansion, Leadership with AI, and Change Management at one of India’s premier business schools, and attain Executive Alumni status.
+- **Curriculum:**
+  1. Financial Acumen for Leaders
+  2. Competitive Strategy for Leaders
+  3. Corporate & Business Strategy
+  4. Strategy Execution & Change Management
+  5. Global Expansion & International Strategy
+  6. Foundations of Strategic  Leadership
+  7. Leading Organizations & Building Culture
+  8. Strategic Communication for Leaders
+  9. Leading High-Performance Teams
+  10. Decision-Making for Leaders
+  11. Strategic Negotiation for Leaders
+  12. Crisis Management for Leaders
+  13. Global Leadership
+  14. Strategic Leadership in the Digital Age
+  15. Leadership with AI
+  16. Capstone Project
+
+### [Senior Management](https://accredian.com/course/senior-management)
+
+#### [Senior Management Program ](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
+- **Institution:** IIM Bodh Gaya
+- **Duration:** 11 Months
+- **Start date:** 14 Feb 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 2,30,000 + GST
+- **Description:** Embark on an 11-month learning journey in executive leadership, operations, business strategy, and analytics.
+- **Curriculum:**
+  1. Strategic Thinking & Executive Decision-Making
+  2. Mindful Leadership & Executive Presence
+  3. Corporate Strategy for Senior Leaders
+  4. Boardroom Leadership & Corporate Governance
+  5. Strategic Finance for Senior Leaders
+  6. Marketing, Customer & Brand Leadership
+  7. Operations & Supply Chain Excellence
+  8. People Leadership & High-Performance Culture
+  9. Risk, Compliance & Crisis Leadership
+  10. Growth Strategies for CXOs
+  11. Digital Transformation & Innovation
+  12. Analytics for Senior Leaders
+  13. AI Leadership for Business Leaders
+  14. Capstone Project
+  15. CXO Coaching
+
+#### [Senior Management Program](https://accredian.com/programs/iim-ranchi-senior-management-program)
+- **Institution:** IIM Ranchi
+- **Duration:** 12 Months
+- **Start date:** 24 Jan 2027
+- **Experience required:** 10+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Embark on a 12 month learning journey in executive leadership, operations, business strategies, and analytics.
+- **Curriculum:**
+  1. Strategic Thinking Foundations
+  2. Corporate And Business Strategy
+  3. Boardroom Leadership and Communication
+  4. Strategic Finance For Senior Leaders
+  5. Marketing Strategy And Brand Leadership
+  6. Operations And Supply Chain Excellence
+  7. Building High-Performance Organizations And Teams
+  8. Legal, Risk & Compliance For Senior Leaders
+  9. Growth Strategy And Business Expansion
+  10. Global Strategy And Geopolitical Leadership
+  11. Innovation Strategy And Digital Business Leadership
+  12. Analytics For Strategic Decision Making
+  13. AI And Generative AI For Senior Leaders
+  14. Capstone
+  15. CXO Coaching
+
+#### [Senior Management Program](https://accredian.com/programs/iima-senior-management-program)
+- **Institution:** IIM Amritsar
+- **Duration:** 10 Months
+- **Start date:** 26 Jul 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 2,10,000 + GST
+- **Description:** Embark on a 10 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.
+- **Curriculum:**
+  1. Foundations Of Strategic Leadership
+  2. Corporate Strategy For Leaders
+  3. Financial Strategy For Leaders
+  4. Data-Driven Marketing & Customer Leadership
+  5. Next-Gen Supply Chains & Execution Leadership
+  6. People Leadership & High-Performance Culture
+  7. Global Strategy & Geopolitical Leadership
+  8. Digital Transformation & Innovation
+  9. Generative AI For Leaders
+
+#### [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management)
+- **Institution:** XLRI
+- **Duration:** 11 Months
+- **Start date:** 28 June 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 4,00,000 + GST
+- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status
+- **Curriculum:**
+  1. Strategic Leadership in Global Organizations
+  2. Corporate Strategy for Senior Leaders
+  3. Global Macroeconomics & Expansion Strategy
+  4. Strategic Finance for Senior Leaders
+  5. Global Talent & Workforce Leadership
+  6. Marketing & Customer Growth Strategy
+  7. Global Operations & Supply Chain Leadership
+  8. Digital Transformation & Innovation
+  9. AI & GenAI for Leaders
+  10. Boardroom Influence & Executive Decision Making
+  11. Sustainability & ESG Leadership
+  12. Capstone Project
 
 #### [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program)
 - **Institution:** IIM Visakhapatnam
-- **Duration:** 12 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 3,90,000 (EMI options available)
-- **Live Class Hours:** 144+
-- **Modules:** 5
+- **Duration:** 12 Months
+- **Start date:** 27 Sep 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 4,00,000 + GST
 - **Description:** Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.
 
-
----
-
-
-#### [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management)
-- **Institution:** XLRI Jamshedpur
-- **Duration:** 11 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 10+ years
-- **Fee:** INR 4,00,000 (EMI options available)
-- **Live Class Hours:** 132+
-- **Modules:** 11
-- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India's premier business schools, and attain Executive Alumni status.
+#### [Senior Management Program](https://accredian.com/programs/senior-management-program)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 27 Sep 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 3,49,000 + GST
+- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status
 - **Curriculum:**
- 1. Strategic Leadership in Global Organizations
- 2. Corporate Strategy for Senior Leaders
- 3. Global Macroeconomics & Expansion Strategy
- 4. Strategic Finance for Senior Leaders
- 5. Global Talent & Workforce Leadership
- 6. Marketing & Customer Growth Strategy
- 7. Global Operations & Supply Chain Leadership
- 8. Digital Transformation & Innovation
- 9. AI & GenAI for Leaders
- 10. Boardroom Influence & Executive Decision Making
- 11. Sustainability & ESG Leadership
- 12. Capstone Project
-- **Tools:** Power BI, Excel, ChatGPT
+  1. Foundations of Executive Leadership
+  2. Strategy for Senior Executives
+  3. Corporate Governance & Corporate Social Responsibility
+  4. Finance for Senior Leaders
+  5. Strategic Marketing & Brand Management
+  6. Operations & Supply Chain Excellence
+  7. Advanced Organizational Behavior
+  8. Negotiations & Conflict Resolution
+  9. Global Business Strategies
+  10. Technology & Innovation Management
+  11. Analytics for Decision-Making
+  12. Growth Strategies for Senior Leaders
+  13. Capstone Project
+  14. CXO Leadership Accelerator
 
+### [General Management](https://accredian.com/course/general-management)
 
----
+#### [Executive Development Program in General Management](https://accredian.com/programs/executive-program-in-general-management)
+- **Institution:** XLRI
+- **Duration:** 11 Months
+- **Start date:** 29 Mar 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status.
+- **Curriculum:**
+  1. Marketing Strategy, Customer Value & Digital Growth
+  2. Financial Leadership & Decision Making
+  3. Operational Excellence & Integrated Supply Chain
+  4. People Strategy & Organizational Culture
+  5. Risk Leadership & Business Resilience
+  6. Business Strategy & Competitive Advantage
+  7. Strategic Leadership & Executive Influence
+  8. Corporate Governance & ESG Leadership
+  9. Analytics & Data-Driven Decision-Making
+  10. Generative AI & Agentic AI For Leaders
+  11. Enterprise Growth Strategy & Value Creation
+  12. Innovation & Design Thinking
 
+### [Business Management](https://accredian.com/course/business-management)
 
-### STRATEGY & LEADERSHIP PROGRAMS
+#### [PG Certificate Program in Family Business Management](https://accredian.com/programs/pg-certificate-program-in-family-business-management)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 17 Jan 2027
+- **Experience required:** 8+ years
+- **Fee:** INR 3,49,000 + GST
+- **Description:** Embark on a 12-month learning journey in strategic, governance, financial, and digital capabilities to lead and scale family enterprises.
+- **Curriculum:**
+  1. Foundations of Family Business Leadership
+  2. Family Governance, Decision & Conflict Management
+  3. Board Governance for Family Firms
+  4. Ownership Strategy & Family Wealth Stewardship
+  5. Strategic Growth for Family Enterprises
+  6. Professionalizing the Family Business
+  7. Financial Strategy for Family Firms
+  8. Data Strategy for family Business
+  9. AI & Digital Transformation in Family Businesses
+  10. Innovation & New Business Creation
+  11. Scaling and Global Expansion
+  12. Succession Planning & Leadership Transition
+  13. Legacy, Values & Long-Term Stewardship
+  14. Capstone Project
 
+### [Microsoft](https://accredian.com/course/microsoft)
 
----
+#### [Transform Business Workflows with Generative AI](https://accredian.com/programs/transform-business-workflows-with-generative-ai)
+- **Institution:** Microsoft
+- **Duration:** 9 Hours
+- **Start date:** Coming soon
+- **Experience required:** 0+ years
 
+### [Product Management](https://accredian.com/course/product-management)
+
+#### [Transform Ideas into Impact with Product Management](https://accredian.com/programs/transform-ideas-into-impact-with-product-management)
+- **Institution:** Accredian
+- **Duration:** 2.5 Hours
+- **Start date:** Coming soon
+- **Experience required:** 0+ years
+
+## Closed for new admissions
+
+These programs are not taking new registrations. Their pages remain available for reference.
+
+#### [Executive Program in Design Thinking & Innovation for Strategic Leadership](https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership)
+- **Institution:** Department of Entrepreneurship and Management, IIT Hyderabad
+- **Duration:** 6 Months
+- **Start date:** 28 Jun 2026
+- **Experience required:** 1+ years
+- **Fee:** INR 1,79,000 + GST
+- **Description:** Embark on a 6 month learning journey in Applied Innovation, Experience Design & Strategic Leadership.
+- **Curriculum:**
+  1. Design Thinking & Innovation Foundations
+  2. Design Thinking Process & Methods
+  3. Applied Innovation & Experience Design
+  4. Competitive Strategy & Strategic Direction
+  5. Business Models & Value Creation
+  6. Capstone Project
+
+#### [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme)
+- **Institution:** IIM Tiruchirappalli
+- **Duration:** 10 Months
+- **Start date:** 16 May 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 2,90,000 + GST
+- **Description:** Embark on a 10 month learning journey in Strategic Leadership, Technology, Innovation & Governance
+- **Curriculum:**
+  1. CTO as Strategic Enterprise Leader
+  2. Stakeholder & Cross-Functional Leadership
+  3. Technology Strategy
+  4. Strategic Finance for CTOs
+  5. Product, Technology & Market Alignment
+  6. Digital Transformation Leadership
+  7. AI, Generative AI & Emerging Technologies
+  8. Innovation Leadership for CTOs
+  9. GTM for CTOs
+  10. Technology Governance & Compliance
+  11. Cybersecurity Leadership & Risk Management
+  12. Capstone Project
+
+#### [PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 11 Months
+- **Start date:** 22 Feb 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 3,50,000 + GST
+- **Description:** Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.
+- **Curriculum:**
+  1. The Role of the Modern CDAIO
+  2. Digital & AI Transformation Strategy
+  3. Digital Business Models & Platform Thinking
+  4. Strategic Finance & Value Realization
+  5. Data Strategy, Governance & Monetization
+  6. AI & Generative AI for Leaders
+  7. Digital & Technology Architecture for Transformation
+  8. Cybersecurity, Responsible AI & Tech Risk
+  9. AI Driven Customer Experience Transformation
+  10. Product Thinking, Design, & Agile Delivery
+  11. Scaling Digital Products & Platforms
+  12. Innovation & Emerging Tech
+  13. Leading Change, Culture & Talent Transformation
+  14. Storytelling, Influence & Boardroom Communication
+  15. Capstone
+
+#### [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/chief-technology-officer-programme)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 11 Months
+- **Start date:** 17 May 2025
+- **Experience required:** 10+ years
+- **Fee:** INR 3,50,000 + GST
+- **Description:** Embark on an 11 month learning journey in technology strategy, tech risk management & strategic communication.
+- **Curriculum:**
+  1. Intro to CTO Role
+  2. Technology Strategy for CTOs
+  3. Cross Functional Leadership for CTOs
+  4. Financial Leadership for CTOs
+  5. Technology Infrastructure & Architecture
+  6. Digital Transformation & Emerging Technologies
+  7. Tech Driven Business Model Innovation
+  8. Data Science, Analytics & GenAI for CTOs
+  9. Tech Governance, Risk & Cybersecurity
+  10. Capstone Project
+
+#### [Executive Program in Generative AI for Business Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 7 Months
+- **Start date:** 9 May 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 1,80,000 + GST
+- **Description:** Embark on a 7 month learning journey in GenAI Models, Prompt Engineering, and No Code GenAI Tools.
+- **Curriculum:**
+  1. Generative AI Foundations For Leaders
+  2. Generative AI For Productivity & Automation
+  3. Generative AI Strategy & Roadmapping
+  4. Building Generative AI Solutions Without Coding
+  5. Business Transformation With Generative AI
+  6. Agentic AI For Autonomous Systems
+  7. Leading GenAI Transformation
+  8. Capstone Project
+
+#### [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 22 Feb 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 2,50,000 + GST
+- **Description:** Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.
+- **Curriculum:**
+  1. The Modern CHRO
+  2. Strategic Leadership for CHROs
+  3. Organizational Design and Strategy
+  4. Strategic Talent Acquisition and Workforce Planning
+  5. Strategic Employee Engagement and Retention
+  6. Leadership Development & Succession Planning
+  7. Leading Culture & Change
+  8. Compensation & Benefits
+  9. Diversity, Equity, and Inclusion (DEI)
+  10. Legal and Compliance Management
+  11. Financial Acumen for CHROs
+  12. Strategic HR Analytics and Data-Driven Decision Making
+  13. Digital Transformation and Future of Work
+  14. Capstone Project
+
+#### [Professional Certificate Program in Strategic Project Management](https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management)
+- **Institution:** Department of Entrepreneurship and Management, IIT Hyderabad
+- **Duration:** 6 Months
+- **Start date:** 28 Jun 2026
+- **Experience required:** 1+ years
+- **Fee:** INR 1,80,000 + GST
+- **Description:** Embark on a 6 month learning journey in Project Planning, Risk Management, and Project Governance.
+- **Curriculum:**
+  1. Project Management Fundamentals
+  2. Strategic Thinking for Project Leaders
+  3. Project Planning & Scheduling
+  4. Project Execution, Monitoring & Control
+  5. Agile, Hybrid & Adaptive Methodologies
+  6. Analytics & AI in Projects
+  7. Project Portfolio and Stakeholder Leadership
+  8. Customer-Centric Project Leadership
+  9. Large Scale Project Success & Future of Project Management
+  10. Capstone Project
+
+#### [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 10 Months
+- **Start date:** 7 Mar 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 2,09,000 + GST
+- **Description:** Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.
+- **Curriculum:**
+  1. Foundations of Strategic Project Management
+  2. Project Scope, Scheduling & Cost Management
+  3. Risk, Quality & Resource Management
+  4. Communication, Influence & Stakeholder Leadership
+  5. Governance, Procurement & Compliance
+  6. Project Execution, Monitoring & Closure
+  7. Capstone Project
+  8. Strategic Program & Portfolio Management
+  9. Leading Complex & Large-Scale Projects
+  10. Leadership & Stakeholder Management
+  11. ESG Leadership in Project Management
+  12. Project Analytics & Data-Driven Project Management
+  13. AI & GenAI for Project Leaders
+  14. Capstone Project
 
 #### [Executive Program in Strategy, Leadership and Innovation in AI Era](https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era)
 - **Institution:** IIM Visakhapatnam
-- **Duration:** 11 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 3,00,000 (EMI options available)
-- **Live Class Hours:** 132+
-- **Modules:** 13
+- **Duration:** 11 Months
+- **Start date:** 10 May 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 3,00,000 + GST
 - **Description:** Embark on an 11 month learning journey in executive leadership, operations, business strategies, and analytics.
 - **Curriculum:**
- 1. Strategic Thinking Foundations for Leaders
- 2. Corporate & Business Strategy in Disruptive World
- 3. Strategy Execution & Transformation
- 4. Financial Strategy for Leaders
- 5. Growth & Global Strategy
- 6. Strategic Leadership & Executive Influence
- 7. Leading High-Performance Teams & Organizations
- 8. Strategic Communication for Leaders
- 9. Boardroom Influence & Corporate Governance
- 10. Negotiation & Stakeholder Management
- 11. Innovation & Digital Transformation
- 12. Analytics for Strategic Leaders
- 13. AI & Generative AI in Business
- 14. Capstone Project
-- **Tools:** NotebookLM, Power BI, Gamma, ChatGPT
+  1. Strategic Thinking Foundations for Leaders
+  2. Corporate & Business Strategy in Disruptive World
+  3. Strategy Execution & Transformation
+  4. Financial Strategy for Leaders
+  5. Growth & Global Strategy
+  6. Strategic Leadership & Executive Influence
+  7. Leading High-Performance Teams & Organizations
+  8. Strategic Communication for Leaders
+  9. Boardroom Influence & Corporate Governance
+  10. Negotiation & Stakeholder Management
+  11. Innovation & Digital Transformation
+  12. Analytics for Strategic Leaders
+  13. AI & Generative AI in Business
+  14. Capstone Project
 
-
----
-
-
-### GENERAL MANAGEMENT PROGRAMS
-
-
----
-
-
-#### [Executive Development Program in General Management](https://accredian.com/programs/executive-program-in-general-management)
-- **Institution:** XLRI Jamshedpur
-- **Duration:** 11 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 5+ years
-- **Fee:** INR 2,60,000 (EMI options available)
-- **Live Class Hours:** 130+
-- **Modules:** 12
-- **Description:** Master leadership principles, strategic thinking, and management at one of India's premier business schools, and attain Executive Alumni status.
+#### [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program)
+- **Institution:** IIM Tiruchirappalli
+- **Duration:** 10 Months
+- **Start date:** 26 Oct 2025
+- **Experience required:** 10+ years
+- **Fee:** INR 2,90,000 + GST
+- **Description:** Embark on a 10 month learning journey in Strategic Leadership, AI and GenAI Strategy.
 - **Curriculum:**
- 1. Marketing Strategy, Customer Value & Digital Growth
- 2. Financial Leadership & Decision Making
- 3. Operational Excellence & Integrated Supply Chain
- 4. People Strategy & Organizational Culture
- 5. Risk Leadership & Business Resilience
- 6. Business Strategy & Competitive Advantage
- 7. Strategic Leadership & Executive Influence
- 8. Corporate Governance & ESG Leadership
- 9. Analytics & Data-Driven Decision-Making
- 10. Generative AI & Agentic AI For Leaders
- 11. Enterprise Growth Strategy & Value Creation
- 12. Innovation & Design Thinking
-
-
----
-
-
-### PG DIPLOMA PROGRAMS
-
-
----
-
+  1. Strategic Leadership & Executive Influence
+  2. Strategy & Competitive Advantage in a Disruptive World
+  3. Corporate Governance, Risk & ESG
+  4. Global Markets & Strategic Risk
+  5. Financial Acumen for Strategic Leaders
+  6. Operational Excellence & Strategic Execution
+  7. Leading People & Talent in the Age of Transformation
+  8. Customer Strategy & Marketing in the Digital Age
+  9. Product Innovation & Design Thinking
+  10. Strategic Management of Intellectual Property Rights (IPR)
+  11. AI, GenAI for Leaders
+  12. Digital Transformation Strategy
+  13. Capstone Project
 
 #### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
 - **Institution:** IIM Visakhapatnam
-- **Duration:** 12 months
-- **Mode:** Online | Weekends Only
-- **Experience Required:** 3+ years
-- **Fee:** INR 4,80,000 (EMI options available)
-- **Live Class Hours:** 480+
-- **Description:** Master Functional Management, Strategic Management, and Business Transformation at one of India's premier business schools, and attain Alumni Status.
+- **Duration:** 12 Months
+- **Start date:** 24 May 2026
+- **Experience required:** 3+ years
+- **Fee:** INR 4,84,300 + GST
+- **Description:** Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.
 - **Curriculum:**
- 1. Foundational
- 2. Intermediate
- 3. Final
-- **Tools:** Power BI, Excel, R
-
-
----
-
-
-## PREVIOUSLY OFFERED PROGRAMS (No Longer Accepting New Enrollments)
-
-
-The following programs were previously available through Accredian but are no longer accepting new enrollments. They are listed here for historical reference only. Some may be relaunched in the future — please check the website for updates.
-
-
-### HR Programs (Inactive)
-- Executive Development Program in Strategic HR Leadership | XLRI | 10 months | INR 2,40,000
-
-
-### AI Programs (Inactive)
-- Advanced Certificate Program in AI for Leaders | E&ICT Academy IIT Kanpur | 5 months | INR 1,40,000
-- Professional Certificate Program in Leadership with AI | E&ICT Academy IIT Kanpur | 8 months | INR 1,80,000
-- Professional Certificate in Generative AI for Business | E&ICT Academy IIT Guwahati
-
-
-### Business Management (Inactive)
-- Executive Program in Business Management | IIM Visakhapatnam | 12 months | INR 2,70,000
-
-
-### Cybersecurity (Inactive)
-- Post Graduate Certificate Program in Cybersecurity for Leaders | E&ICT Academy IIT Guwahati | 6 months | INR 1,40,000
-
-
-### Data Science Programs (Inactive)
-- Post Graduate Certificate Program in Data Science | E&ICT Academy IIT Guwahati | 6 months | INR 1,20,000
-- Post Graduate Certificate Program in Data Science & AI | E&ICT Academy IIT Guwahati | 10 months | INR 1,80,000
-- Professional Certificate Program in Data Science | E&ICT Academy IIT Guwahati
-- PG Certificate Program in Data Science & Artificial Intelligence | E&ICT Academy IIT Guwahati
-- Advanced Certification in Data Science & ML | E&ICT Academy IIT Guwahati
-- Executive Program in Data Science & AI | E&ICT Academy IIT Guwahati | 12 months | INR 2,50,000
-- Executive Program in Data Science & AI | E&ICT Academy IIT Guwahati | 10 months | INR 2,00,000
-- Certificate in Data Analytics | E&ICT Academy IIT Guwahati | 3 months | INR 50,000
-- Executive Program in Data Science and Business Analytics | E&ICT Academy IIT Guwahati | 11 months | INR 2,00,000
-- Executive Program in Data Science and Digital Transformation | E&ICT Academy IIT Guwahati | 11 months | INR 2,40,000
-- Executive Program in Data Science and Project Management | E&ICT Academy IIT Guwahati | 12 months | INR 2,20,000
-- PGP in Artificial Intelligence | E&ICT Academy IIT Guwahati
-- Advanced Certification in Artificial Intelligence | E&ICT Academy IIT Guwahati | 6 months | INR 9,50,000
-- Executive Program in Machine Learning & Artificial Intelligence | E&ICT Academy IIT Guwahati | 9 months | INR 2,00,000
-
-
-### Digital Transformation Programs (Inactive)
-- Executive Program in Digital Leadership for Business Transformation | SP Jain School of Global Management | 6 months | INR 1,50,000
-- Executive Program in Digital Transformation & AI for Leaders | E&ICT Academy IIT Guwahati | 11 months | INR 2,20,000
-- Executive Program in Digital Transformation & Innovation | E&ICT Academy IIT Guwahati | 10 months | INR 1,90,000
-- Professional Certificate Program in Digital Transformation | E&ICT Academy IIT Guwahati | 6 months | INR 1,40,000
-- Executive Program in Project Management and Digital Transformation | E&ICT Academy IIT Guwahati
-
-
-### Finance & Fintech Programs (Inactive)
-- Executive Program in Fintech & AI for Leaders | E&ICT Academy IIT Guwahati | 11 months | INR 2,20,000
-- Executive Program in Fintech & Digital Transformation | E&ICT Academy IIT Guwahati | 12 months | INR 2,20,000
-- Executive Program in Fintech & Innovation | E&ICT Academy IIT Guwahati | 10 months | INR 1,80,000
-- Executive Program in Fintech & Product Management | E&ICT Academy IIT Guwahati | 11 months | INR 2,20,000
-- Executive Program in Fintech & Project Management | E&ICT Academy IIT Guwahati | 12 months | INR 2,20,000
-- PG Certificate Program in Investment Banking & Capital Markets | IIM Visakhapatnam | 12 months | INR 2,70,000
-- Post Graduate Certificate in FinTech, Blockchain & Risk Management | IIM Visakhapatnam | 11 months | INR 2,60,000
-- Professional Certificate Program in Fintech | E&ICT Academy IIT Guwahati | 6 months | INR 1,40,000
-
-
-### General & Senior Management Programs (Inactive)
-- Executive General Management Program | IIM Lucknow | 12 months | INR 4,00,000
-- Accelerated Senior Management Programme | IIM Tiruchirappalli | 12 months | INR 3,50,000
-- Chief Technology Officer Program | E&ICT Academy IIT Guwahati
-
-
-### Strategic Management Programs (Inactive)
-- Executive Program in Strategic Management | IIM Amritsar | 12 months | INR 2,90,000
-- Executive Program in Strategic Management | IIM Visakhapatnam | 12 months | INR 2,90,000
-- Executive Development Program in Strategy & Leadership | XLRI | 10 months | INR 2,60,000
-
-
-### Project Management Programs (Inactive)
-- Professional Certificate Program in Project Management | E&ICT Academy IIT Guwahati | 6 months | INR 1,40,000
-- Executive Program in Project Management & AI for Leaders | E&ICT Academy IIT Guwahati
-
-
-### Product Management Programs (Inactive)
-- Professional Certificate Program in Product Management | E&ICT Academy IIT Kanpur | 6 months | INR 1,50,000
-- Executive Program in Strategic Product Management & Innovation | IIM Visakhapatnam | 10 months | INR 2,40,000
-- PG Certificate Program in Strategic Product Management | IIM Visakhapatnam
-- Advanced Certification in Product Management | E&ICT Academy IIT Guwahati | 6 months | INR 95,000
-- Advanced Certification in Product Management | E&ICT Academy IIT Guwahati | 5 months | INR 1,20,000
-- Executive Program in Product Management | E&ICT Academy IIT Guwahati | 9 months | INR 2,50,000
-- Executive Program in Product Management | E&ICT Academy IIT Guwahati | 8 months | INR 2,50,000
-- Global Certificate in Product Management | E&ICT Academy IIT Guwahati | 5 months | INR 2,00,000
-- PGP in Product Management | E&ICT Academy IIT Guwahati | 8 months | INR 3,00,000
-- Executive Program in Data Driven Product Management | E&ICT Academy IIT Guwahati | 11 months | INR 2,20,000
-- Executive Program in Product Management and Data Science | E&ICT Academy IIT Guwahati | 11 months | INR 2,20,000
-- Executive Program in Product Management and Business Analytics | E&ICT Academy IIT Guwahati | 10 months | INR 2,20,000
-- Executive Program in Product Management and Digital Transformation | E&ICT Academy IIT Guwahati | 11 months | INR 2,40,000
-- Executive Program in Product Management and Project Management | E&ICT Academy IIT Guwahati | 11 months | INR 2,20,000
-- Executive Program in Product Management & AI for Leaders | E&ICT Academy IIT Guwahati | INR 2,20,000
-- Executive Program in Product Management and AI for Leaders | E&ICT Academy IIT Guwahati | INR 2,20,000
-
-
-### Operations and Supply Chain Programs (Inactive)
-- Executive Program in Operations & Supply Chain Management | SP Jain School of Global Management | 6 Months | INR 1,40,000
----
-
-
-## PROGRAM FEE RANGE SUMMARY
-
-
-| Category | Fee Range (INR) | Duration Range |
-|----------|----------------|----------------|
-| CXO Leadership | 2,50,000 – 3,80,000 | 10–12 months |
-| AI & GenAI | 1,20,000 – 2,90,000 | 4–12 months |
-| Business Analytics | 1,20,000 – 2,20,000 | 6–12 months |
-| Product Management | 1,20,000 – 2,30,000 | 5–12 months |
-| Project Management | 1,25,000 – 2,20,000 | 5–12 months |
-| HR Leadership | 1,50,000 – 2,50,000 | 6–12 months |
-| Senior Management | 3,50,000 – 4,00,000 | 11–12 months |
-| Strategy & Leadership | 3,00,000 | 11 months |
-| General Management | 2,60,000 – 2,95,000 | 11 months |
-| PG Diploma | 4,80,000 | 12 months |
-
-
-**Note:** EMI options are available for all programs (up to 24 months). No-cost EMI may be available for select programs. Check the Accredian website for current EMI plans.
-
-
----
-
-
-## FREQUENTLY ASKED QUESTIONS
-
-
-**Q: Does Accredian offer placement guarantees?**
-
-
-A: Accredian provides comprehensive career assistance including placement support, 1:1 career mentorship, resume building, and interview preparation. Specific placement outcomes vary by program.
-
-
-**Q: Are the programs fully online?**
-
-
-A: Yes, all programs are delivered 100% online with live instructor-led classes on weekends. Some programs include optional campus immersion components (2-3 days).
-
-
-**Q: What certifications do graduates receive?**
-
-
-A: Graduates receive certificates from the respective partner institution (IIM Visakhapatnam, IIT Guwahati, IIT Kanpur, XLRI, SP Jain, IIM Trichy, or IIM Amritsar). Select programs also confer Executive Alumni Status.
-
-
-**Q: What is the typical class schedule?**
-
-
-A: Classes are held on weekends (Saturday and/or Sunday). Daily self-study of approximately 30 minutes is recommended. Detailed schedules are shared in advance.
-
-
-**Q: Are EMI options available?**
-
-
-A: Yes, EMI options ranging from 12 to 24 months are available for all programs. No-cost EMI may be available for select programs.
-
-
-**Q: What is the refund policy?**
-
-
-A: Refund policies vary by partner institution. Please refer to the specific program page or student policy on the Accredian website.
-
-
----
-
-
-## CONTACT & LINKS
-
-
-- **Website:** https://accredian.com
-- **Programs:** https://accredian.com/programs
-- **Referral Program:** https://accredian.com/referandearn
-- **About:** https://accredian.com/about
-- **Blog:** https://blog.accredian.com
-
-
----
-
-
-*This file is provided to help AI systems understand Accredian's program offerings. For the most current and accurate information, always refer to https://accredian.com. Program details, availability, fees, and enrollment status are subject to change without notice.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  1. Foundational
+  2. Intermediate
+  3. Final
+
+#### [Executive General Management Program](https://accredian.com/programs/executive-general-management-program)
+- **Institution:** IIM Lucknow
+- **Duration:** 11 Months
+- **Start date:** 30 Nov 2025
+- **Experience required:** 1+ years
+- **Fee:** INR 4,25,000 + GST
+- **Description:** Embark on an 11 month learning journey in Strategy, Finance, and Digital Transformation.
+- **Curriculum:**
+  1. Foundation of Business Management
+  2. Managerial Economic Insights for Better Decision-Making
+  3. Managerial Communication: Leading with Clarity
+  4. The Dynamics of Individual & Organizational Behavior
+  5. Financial Acumen: Decoding Numbers, Driving Strategy
+  6. Marketing Management: Strategies That Connect & Convert
+  7. Competitive Success Through Strategic Management
+  8. Human Resource Management: The Pulse of Organizational Success
+  9. Managerial Finance Beyond the Balance Sheet
+  10. Business Analytics Turning Data into Decisions
+  11. Operations and Supply Chain Fueling Business Momentum
+  12. Diverse Perspectives Driving Global Success
+  13. Business Governance Leading with Ethics and Impact
+  14. Gen AI and Digital Transformation Driving Tomorrow’s Innovation
+  15. Turning Creativity into Business Success
+  16. Business Turnaround & Change Management
+  17. Sustainability and ESG for Responsible Business Growth
+
+#### [Executive Program in Business Management](https://accredian.com/programs/executive-program-in-business-management)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 25 May 2025
+- **Experience required:** 5+ years
+- **Fee:** INR 2,70,000 + GST
+- **Description:** Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status
+- **Curriculum:**
+  1. Fundamentals of Business Management
+  2. Marketing Management
+  3. Finance and Accounting
+  4. Operation and Supply Chain Management
+  5. Human Resource Management & OB
+  6. Leadership Fundamentals
+  7. Strategic Management
+  8. Enterprise Risk Management
+  9. Business Analytics and Data-driven Decision Making
+  10. Digital Transformation
+  11. Artificial Intelligence for Leaders
+  12. Capstone Project
+
+#### [PG Certificate Program in Investment Banking & Capital Markets](https://accredian.com/programs/pg-certificate-program-in-investment-banking)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 2 Feb 2025
+- **Experience required:** 0+ years
+- **Fee:** INR 2,70,000 + GST
+- **Description:** Embark on a 12 month learning journey in M&A Strategy, Capital Markets, and Private Equity.
+- **Curriculum:**
+  1. Introduction to Investment Banking
+  2. Financial Statement Analysis
+  3. M&A Valuation Techniques
+  4. M&A Strategy & Process
+  5. Equity Capital Markets (ECM)
+  6. Debt Capital Markets (DCM)
+  7. Leveraged Buyouts (LBOs)
+  8. Financial Restructuring
+  9. Securities Sales & Trading
+  10. Private Equity & Venture Capital
+  11. Fintech in Investment Banking
+  12. Capstone Project
+
+#### [Post Graduate Certificate in FinTech, Blockchain & Risk Management](https://accredian.com/programs/fintech-blockchain-program)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 11 Months
+- **Start date:** 20 Oct 2024
+- **Experience required:** 3+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Master fundamentals of FinTech, Blockchain & Business Applications at one of India’s premier business schools, and attain Executive Alumni status
+- **Curriculum:**
+  1. FinTech Ecosystem
+  2. Payment Technology
+  3. Financial Risk Management
+  4. Lending Technology
+  5. Artificial Intelligence/Machine Learning
+  6. Cloud Computing
+  7. Blockchain Technology and Cryptocurrencies
+  8. Data and Cybersecurity Issues
+  9. Regulatory Technology
+  10. Insurance Technology
+  11. Wealth Technology
+  12. FinTech Startups

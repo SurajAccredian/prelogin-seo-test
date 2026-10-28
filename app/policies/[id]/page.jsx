@@ -3,6 +3,8 @@ import parse from "html-react-parser";
 import Link from "next/link";
 import { POLICIES } from "../../components/Assets/admission-policies";
 import HomePageWrapper from "../../components/Wrapper/HomePageWrapper";
+import { JsonLd } from "../../components/JsonLd";
+import { policyPageGraph } from "../../lib/schema";
 import "../../components/Policies/Policy.css";
 
 function getPolicy(id) {
@@ -34,10 +36,24 @@ export default async function AdmissionPolicyPage({ params }) {
     notFound();
   }
 
+  const schema = policyPageGraph({
+    type: "admission",
+    id,
+    title: currentPolicy.title,
+    pageTitle: `${currentPolicy.title} | Accredian Policies`,
+    description: `Read Accredian's ${currentPolicy.title} and eligibility requirements for our professional certification programs.`,
+  });
+
+  const mobilePolicies = [
+    currentPolicy,
+    ...POLICIES.filter((policy) => policy.tab !== currentPolicy.tab),
+  ];
+
   return (
     <HomePageWrapper>
+      <JsonLd data={schema} />
       <div className="w-full min-h-screen flex justify-center xl:px-12 px-4 font-circular policy-page-container">
-        <div className="max-w-[85rem] w-full py-8">
+        <div className="max-w-[85rem] w-full lg:py-8">
           {/* Upper Section */}
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] lg:block hidden">
@@ -48,46 +64,75 @@ export default async function AdmissionPolicyPage({ params }) {
               </div>
             </div>
             <div className="flex-1">
-              <h1 className="lg:mt-0 mt-6 text-xl text-neutral-700 text-start font-semibold lg:text-center">
+              <h1 className="lg:mt-0 text-xl text-neutral-700 text-start font-semibold lg:text-center">
                 {currentPolicy.title}
               </h1>
             </div>
+          </div>
+
+          {/* Mobile Navigation */}
+          <div
+            className="lg:hidden w-full overflow-x-auto no-scrollbar py-2 mt-4 mb-2 flex items-center gap-2 border-b border-neutral-200"
+            data-lenis-prevent
+          >
+            {mobilePolicies.map((policy) => {
+              const isActive = currentPolicy.tab === policy.tab;
+              return (
+                <Link
+                  key={policy.tab}
+                  href={`/policies/${policy.tab}`}
+                  className={`whitespace-nowrap px-3.5 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                    isActive
+                      ? "bg-universal text-white shadow-sm"
+                      : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
+                  }`}
+                >
+                  {policy.title}
+                </Link>
+              );
+            })}
           </div>
 
           {/* Body Section */}
           <div className="w-full flex md:gap-4 xl:gap-12">
             <div className="flex-[0.32] py-2 lg:block hidden">
               <div className="w-full xl:px-5 rounded">
-                <div className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar">
-                  {POLICIES.map((policy, index) => (
-                    <Link
-                      href={`/policies/${policy.tab}`}
-                      className={`w-full ${
-                        id === policy.tab
-                          ? "bg-universal drop-shadow text-white rounded"
-                          : "border-b border-dashed border-universal text-neutral-600"
-                      } px-3 py-2 mt-2 cursor-pointer flex items-center justify-between gap-4`}
-                      key={index}
-                    >
-                      <span className="font-medium text-base">{policy.title}</span>
-                      <div className="w-5 h-5 flex-shrink-0">
-                        <svg
-                          className="w-full h-full"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M9 6L15 12L9 18"
-                            stroke={id === policy.tab ? "#fff" : "#1A73E8"}
-                            strokeWidth="1.3"
-                          />
-                        </svg>
-                      </div>
-                    </Link>
-                  ))}
+                <div
+                  className="flex flex-col gap-1 mt-2 max-h-[60vh] overflow-y-auto custom-scrollbar policy-sidebar-scroll overscroll-contain"
+                  data-lenis-prevent
+                >
+                  {POLICIES.map((policy, index) => {
+                    const isActive = currentPolicy.tab === policy.tab;
+                    return (
+                      <Link
+                        href={`/policies/${policy.tab}`}
+                        className={`w-full ${
+                          isActive
+                            ? "bg-universal drop-shadow text-white rounded"
+                            : "border-b border-dashed border-universal text-neutral-600"
+                        } px-3 py-2 mt-2 cursor-pointer flex items-center justify-between gap-4`}
+                        key={index}
+                      >
+                        <span className="font-medium text-base">{policy.title}</span>
+                        <div className="w-5 h-5 flex-shrink-0">
+                          <svg
+                            className="w-full h-full"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9 6L15 12L9 18"
+                              stroke={isActive ? "#fff" : "#1A73E8"}
+                              strokeWidth="1.3"
+                            />
+                          </svg>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </div>

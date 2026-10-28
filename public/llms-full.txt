@@ -686,7 +686,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Senior Management Program ](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
 - **Institution:** IIM Bodh Gaya
 - **Duration:** 11 Months
-- **Start date:** 24 Jan 2027
+- **Start date:** 14 Feb 2027
 - **Experience required:** 5+ years
 - **Fee:** INR 2,30,000 + GST
 - **Description:** Embark on an 11-month learning journey in executive leadership, operations, business strategy, and analytics.

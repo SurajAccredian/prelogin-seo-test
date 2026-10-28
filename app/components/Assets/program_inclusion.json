@@ -1166,7 +1166,6 @@
       "tools/framework covered in the program": "N.A."
     }
   },
-  
   {
     "title": "PG Certificate Program in Family Business Management",
     "id": "family-business-management-12-months",
@@ -1195,7 +1194,8 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Visakhapatnam",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "physical ID card": "No Physical ID card to be provided"  }
+      "physical ID card": "No Physical ID card to be provided"
+    }
   },
   {
     "title": "PG Certificate Program in Investment Banking & Capital Markets",
@@ -1397,7 +1397,6 @@
       ]
     }
   },
-  
   {
     "title": "Chief Financial Officer Programme",
     "id": "chief-financial-officer-programme-12-months",
@@ -1922,7 +1921,6 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-  
   {
     "title": "Chief Executive Officer Program (The CEO Program)",
     "id": "ceo-program-11-months",
@@ -2260,8 +2258,10 @@
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": ["50+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc.",
-    "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"]
+      "Tools/Framework Covered in the Program": [
+        "50+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2302,8 +2302,10 @@
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": ["25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc.",
-      "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"]
+      "Tools/Framework Covered in the Program": [
+        "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2627,7 +2629,6 @@
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
   },
-  
   {
     "title": "CTO & AI Leadership Program",
     "id": "iimr-cto-ai-leadership-program-12months",
@@ -2653,11 +2654,10 @@
       ],
       "Minimum Attendance Required": "Minimum Attendance - 70%",
       "Certificates": "Completion Certificate from IIM Ranchi",
-      "physical copy of program completion certificate":"Applicable for campus immersion participants subject to minimum attendance",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
   },
-
   {
     "title": "Professional Certificate in AI for Leaders",
     "id": "sp-jain-professional-certificate-in-ai-for-leaders-4-months",
@@ -2675,8 +2675,10 @@
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": ["10+ Tools Chatgpt, Gemini, Claude, Sora etc.",
-    "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"]
+      "Tools/Framework Covered in the Program": [
+        "10+ Tools Chatgpt, Gemini, Claude, Sora etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2696,8 +2698,10 @@
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": ["15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc.",
-    "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"]
+      "Tools/Framework Covered in the Program": [
+        "15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -3031,7 +3035,6 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-
   {
     "title": "Executive Programme in Strategy Leadership & Innovation in AI Era",
     "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era-8-months",
@@ -3060,7 +3063,6 @@
       "Tools/Framework Covered in the Program": "4+ Tools: ChatGPT, Gamma, NotebookLM, PowerBI"
     }
   },
-   
   {
     "title": "Executive Program in Leadership with AI",
     "id": "iims-executive-program-in-leadership-with-ai-6-months",
@@ -3089,7 +3091,6 @@
       "Tools/Framework Covered in the Program": "4+ Tools: ChatGPT, Gamma, NotebookLM, Gemini"
     }
   },
-
   {
     "title": "Executive Program in Technology Leadership & Innovation",
     "id": "executive-program-in-technology-leadership-innovation-9-months",
@@ -3111,8 +3112,6 @@
       "Tools/Framework Covered in the Program": "4+ Tools: Miro, Excel, ChatGPT, Claude"
     }
   },
-
-  
   {
     "title": "Senior Management Program",
     "id": "iim-bodh-gaya-senior-management-program-11-months",
@@ -3121,7 +3120,7 @@
       "Program Name": "Senior Management Program",
       "Duration of the Program": "11 Months",
       "Program Terms/Modules": "13 Modules",
-      "Live Session Hours": "132+ hours",
+      "Live Session Hours": "130+ hours",
       "Capstone Project": "1 Capstone Project",
       "Campus Immersion": "One Campus Immersion of 2 days ",
       "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",

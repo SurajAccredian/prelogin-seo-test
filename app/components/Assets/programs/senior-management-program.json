@@ -4,7 +4,7 @@
   "pid": 69,
   "vertical": "senior management",
   "title": "Senior Management Program",
-  "seo_title": "IIM Visakhapatnam Senior Management Program SMP",
+  "seo_title": "Senior Management Program | IIM Visakhapatnam Course",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Senior Management",
   "contact": "8851827093",
@@ -12,7 +12,7 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "27 Sep 2026",
+  "start_date": "10 Jan 2027",
   "required_years_experience": 10,
   "duration": "12 months",
   "type": "online",
@@ -114,11 +114,7 @@
     "exclusive-merchandise",
     "engaging-simulations"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -412,9 +408,7 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": [
-              "The duration of the program is 12 months."
-            ]
+            "content": ["The duration of the program is 12 months."]
           }
         ]
       },
@@ -464,6 +458,6 @@
     "campaign_name": "SMP-IIMV-12 Months"
   },
   "og_title": "IIM Visakhapatnam - Senior Management Program",
-  "meta_description": "Master business strategy, corporate finance, and team leadership to step into senior executive roles with IIM Visakhapatnam's SMP.",
-  "keywords": "IIM Visakhapatnam Senior Management Program, IIM Vizag SMP, senior management certificate online IIM"
+  "meta_description": "Scale strategic decision-making with the Senior Management Program from IIM Visakhapatnam tailored for senior managers. Drive operational success.",
+  "keywords": "Senior Management Program in India, Senior Management course, Senior Management certification, Senior Management course for professionals, Senior Management Program IIM Visakhapatnam, online Senior Management course, Senior Management executive education"
 }

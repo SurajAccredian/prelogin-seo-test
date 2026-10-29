@@ -35,11 +35,11 @@ export default function AnalyticsProvider({ children }) {
             document.head.appendChild(script);
 
             window.dataLayer = window.dataLayer || [];
-            function gtag() {
+            window.gtag = window.gtag || function () {
               dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-            gtag("config", "G-SWCZ0464KL");
+            };
+            window.gtag("js", new Date());
+            window.gtag("config", "G-SWCZ0464KL");
           }, 2000);
         `}
       </Script>

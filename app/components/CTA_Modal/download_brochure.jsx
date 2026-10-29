@@ -29,6 +29,7 @@ import { getStoredUTMData } from "../../helpers/utm.helpers";
 import { getFbc, getFbp } from "../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../helpers/ip.helpers";
 import { getBrochureCta } from "../../services/program.service";
+import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -217,6 +218,7 @@ const BrochureContent = (props) => {
         props.handleClose();
 
         if (result?.data?.status == "200" || result?.status === 200) {
+          trackGoogleAdsLeadConversion();
           Swal.fire({
             title: "Thank You",
             text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",
@@ -333,29 +335,30 @@ const BrochureContent = (props) => {
             </Grid>
 
             <Grid lg={12} sm={12} md={12} xs={12}>
-              <Box sx={{ mx: 3, mb: 2 }}>
+              <Box sx={{ mx: 3, mb: 1 }}>
                 <Typography
                   variant="h4"
                   component="div"
                   sx={{
-                    fontSize: "22px",
+                    fontSize: "20px",
                     textAlign: "center",
-                    fontWeight: 500,
+                    fontWeight: 600,
                     fontFamily: "'Poppins', sans-serif",
                   }}
                 >
                   Your Brochure is Ready
                 </Typography>
               </Box>
-              <Box sx={{ mx: 3, mb: 3 }}>
+              <Box sx={{ mx: 3, mb: 2 }}>
                 <Typography
                   variant="h4"
                   component="div"
                   sx={{
-                    fontSize: "18px",
+                    fontSize: "14px",
                     textAlign: "center",
                     fontFamily: "'Poppins', sans-serif",
                     color: "#344563",
+                    lineHeight: 1.4,
                   }}
                 >
                   Fill the form to know about Certificate, Faculty, curriculum
@@ -452,8 +455,8 @@ const BrochureContent = (props) => {
                             </Typography>
                           )}
                         </Box>
-                        <Grid container spacing={1}>
-                          <Grid item xs={6}>
+                        <Box sx={{ display: "flex", flexDirection: "column", gap: 1.25, mt: 0.5 }}>
+                          <Box sx={{ display: "flex", gap: 1.25, width: "100%" }}>
                             <TextField
                               id="standard-basic-city"
                               label="City *"
@@ -463,9 +466,8 @@ const BrochureContent = (props) => {
                               value={cta.city}
                               fullWidth
                               required
+                              sx={{ flex: 1 }}
                             />
-                          </Grid>
-                          <Grid item xs={6}>
                             <TextField
                               id="standard-basic-state"
                               label="State *"
@@ -475,47 +477,46 @@ const BrochureContent = (props) => {
                               value={cta.state}
                               fullWidth
                               required
+                              sx={{ flex: 1 }}
                             />
-                          </Grid>
-                          <Grid item xs={12}>
-                            <TextField
-                              id="standard-basic-country"
-                              label="Country *"
-                              name="country"
-                              size="small"
-                              onChange={ctahandleChange}
-                              value={cta.country}
-                              fullWidth
-                              required
-                            />
-                          </Grid>
-                        </Grid>
+                          </Box>
+                          <TextField
+                            id="standard-basic-country"
+                            label="Country *"
+                            name="country"
+                            size="small"
+                            onChange={ctahandleChange}
+                            value={cta.country}
+                            fullWidth
+                            required
+                          />
+                        </Box>
                         <Typography sx={{ fontSize: "10px", color: "#888", mt: 0.5 }}>
                           Location data © OpenStreetMap contributors
                         </Typography>
                       </Box>
                     )}
 
-                    <div className="pt-3">
+                    <div className="pt-2">
                       <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY || process.env.NEXT_PUBLIC_RECAPTCHA_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"}
                         onChange={onCaptchChange}
                       />
                     </div>
                   </Box>
-                  <Box sx={{ pb: 2 }}>
+                  <Box sx={{ pb: 1 }}>
                     <Button
                       variant="contained"
                       sx={{
-                        mb: 2,
+                        mb: 1,
                         backgroundColor: "#0039e6",
                         textTransform: "none",
-                        p: 1,
+                        py: 1.25,
+                        fontWeight: 600,
+                        borderRadius: "6px",
                         "&:hover": {
-                          mb: 2,
-                          backgroundColor: "#0039e6",
+                          backgroundColor: "#002bb8",
                           textTransform: "none",
-                          p: 1,
                         },
                       }}
                       disabled={!captchaVerified}

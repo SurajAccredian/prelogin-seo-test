@@ -13,9 +13,9 @@ const CTA = ({ data: propData }) => {
 
   const handleModalOpen = () => {
     if (data) {
-      setIsModalOpen(data)
+      setIsModalOpen({ ...data, source: "Get in touch" });
     }
-  }
+  };
 
   return (
     <div className='cta flex justify-center w-full py-8 md:py-12 xl:px-12 px-4'>

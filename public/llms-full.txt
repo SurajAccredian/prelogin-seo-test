@@ -432,7 +432,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Professional Certificate Program in Leadership with AI](https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai)
 - **Institution:** E&ICT Academy IIT Kanpur
 - **Duration:** 8 Months
-- **Start date:** 29 Nov 2026
+- **Start date:** 13 Dec 2026
 - **Experience required:** 1+ years
 - **Fee:** INR 1,89,000 + GST
 - **Description:** Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.
@@ -637,6 +637,29 @@ Fees, start dates and enrollment status change over time. Check the linked progr
   9. Product Thinking & Platform Leadership
   10. Capstone Project
 
+#### [Executive Program in Strategy, Leadership and Innovation in AI Era ](https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 11 Months
+- **Start date:** 17 Jan 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 3,00,000 + GST
+- **Description:** Embark on an 11 month learning journey in executive leadership, operations, business strategies, and analytics.
+- **Curriculum:**
+  1. Strategic Thinking Foundations for Leaders
+  2. Corporate & Business Strategy in Disruptive World
+  3. Strategy Execution & Transformation
+  4. Financial Strategy for Leaders
+  5. Growth & Global Strategy Execution
+  6. Innovation & Digital Transformation
+  7. Analytics for Strategic Leaders
+  8. AI & Generative AI in Business
+  9. Strategic Leadership & Executive Influence
+  10. Leading High-Performance Teams & Organizations
+  11. Strategic Communication for Leaders
+  12. Boardroom Influence & Corporate Governance
+  13. Negotiation & Stakeholder Management
+  14. Capstone Project
+
 #### [Executive Program in Strategy Leadership & Innovation in AI Era](https://accredian.com/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era)
 - **Institution:** IIM Sirmaur
 - **Duration:** 8 Months
@@ -686,7 +709,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Senior Management Program ](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
 - **Institution:** IIM Bodh Gaya
 - **Duration:** 11 Months
-- **Start date:** 24 Jan 2027
+- **Start date:** 14 Feb 2027
 - **Experience required:** 5+ years
 - **Fee:** INR 2,30,000 + GST
 - **Description:** Embark on an 11-month learning journey in executive leadership, operations, business strategy, and analytics.
@@ -1028,29 +1051,6 @@ These programs are not taking new registrations. Their pages remain available fo
   11. ESG Leadership in Project Management
   12. Project Analytics & Data-Driven Project Management
   13. AI & GenAI for Project Leaders
-  14. Capstone Project
-
-#### [Executive Program in Strategy, Leadership and Innovation in AI Era](https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 11 Months
-- **Start date:** 10 May 2026
-- **Experience required:** 5+ years
-- **Fee:** INR 3,00,000 + GST
-- **Description:** Embark on an 11 month learning journey in executive leadership, operations, business strategies, and analytics.
-- **Curriculum:**
-  1. Strategic Thinking Foundations for Leaders
-  2. Corporate & Business Strategy in Disruptive World
-  3. Strategy Execution & Transformation
-  4. Financial Strategy for Leaders
-  5. Growth & Global Strategy
-  6. Strategic Leadership & Executive Influence
-  7. Leading High-Performance Teams & Organizations
-  8. Strategic Communication for Leaders
-  9. Boardroom Influence & Corporate Governance
-  10. Negotiation & Stakeholder Management
-  11. Innovation & Digital Transformation
-  12. Analytics for Strategic Leaders
-  13. AI & Generative AI in Business
   14. Capstone Project
 
 #### [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program)

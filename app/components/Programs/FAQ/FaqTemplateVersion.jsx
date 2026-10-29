@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { IoChevronDown, IoChevronUp, IoArrowDown, IoArrowUp } from "react-icons/io5";
 import { generateFAQFromTemplate } from "../../../helpers/faqTemplateService";
@@ -6,16 +6,9 @@ import { generateFAQFromTemplate } from "../../../helpers/faqTemplateService";
 
 const FaqTemplateVersion = ({ data }) => {
   const [expandedQuestion, setExpandedQuestion] = useState(null);
-  const [faqData, setFaqData] = useState(() => (data ? generateFAQFromTemplate(data) : null));
+  const faqData = useMemo(() => (data ? generateFAQFromTemplate(data) : null), [data]);
   const [visibleCount, setVisibleCount] = useState(10);
   const [showAll, setShowAll] = useState(false);
-
-  useEffect(() => {
-    if (data) {
-      const generatedFAQ = generateFAQFromTemplate(data);
-      setFaqData(generatedFAQ);
-    }
-  }, [data]);
 
 
   const handleQuestionChange = (questionTitle) => {
@@ -72,23 +65,25 @@ const FaqTemplateVersion = ({ data }) => {
 
         {/* Single big card container */}
         <div className="w-full bg-white rounded-xl border border-gray-200 shadow-md overflow-hidden">
-          {Object.entries(groupedQuestions).map(([categoryTitle, questions], categoryIndex) => (
-            <div key={categoryIndex} className="w-full">
-              {/* Category header inside the card */}
-              <div className="px-5 md:px-6 py-4 bg-gray-100 border-b-2 border-gray-200">
-                <h2 className="text-lg font-bold text-gray-800">
-                  {categoryTitle}
-                </h2>
-              </div>
+          {Object.entries(groupedQuestions).map(([categoryTitle, questions], categoryIndex) => {
+            const isCategoryHidden = !showAll && questions.every((q) => q.overallIndex >= visibleCount);
+            return (
+              <div key={categoryIndex} className={`w-full ${isCategoryHidden ? "hidden" : "block"}`}>
+                {/* Category header inside the card */}
+                <div className="px-5 md:px-6 py-4 bg-gray-100 border-b-2 border-gray-200">
+                  <h2 className="text-lg font-bold text-gray-800">
+                    {categoryTitle}
+                  </h2>
+                </div>
 
-              {/* Questions for this category */}
-              {questions.map((question, questionIndex) => {
-                const isHidden = !showAll && question.overallIndex >= visibleCount;
-                return (
-                <div
-                  key={questionIndex}
-                  className={`border-b border-gray-200 last:border-b-0 font-sans ${isHidden ? "hidden" : "block"}`}
-                >
+                {/* Questions for this category */}
+                {questions.map((question, questionIndex) => {
+                  const isHidden = !showAll && question.overallIndex >= visibleCount;
+                  return (
+                  <div
+                    key={questionIndex}
+                    className={`border-b border-gray-200 last:border-b-0 font-sans ${isHidden ? "hidden" : "block"}`}
+                  >
                   <div className="w-full py-4 px-5 md:px-6 flex justify-between items-start hover:bg-gray-50 transition-colors duration-200 group relative cursor-pointer">
                     <div className="flex items-center gap-3 w-full pr-12">
                       {/* <span className="rounded-full bg-gray-300 text-gray-600 text-sm font-medium min-w-[24px] h-6 flex items-center justify-center flex-shrink-0 mt-1">
@@ -142,9 +137,10 @@ const FaqTemplateVersion = ({ data }) => {
                 </div>
               );
             })}
-          </div>
-        ))}
-      </div>
+              </div>
+            );
+          })}
+        </div>
 
         {/* Compact Button Section */}
         <div className="w-full flex flex-col items-center gap-3 mt-6">

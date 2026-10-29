@@ -87,7 +87,7 @@ export const NAV_ITEMS = [
     label: "Resources",
     icon: GrResources,
     children: [
-      { label: "Blog", redirect: true, href: "https://blog.accredian.com/" },
+      { label: "Blog", href: "/blog" },
       { label: "Success Stories", href: "/successstories" },
     ],
   },

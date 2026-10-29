@@ -1,9 +1,10 @@
 import { notFound, permanentRedirect } from "next/navigation";
 import { parsePageNumber } from "../../../../../lib/blog/utils";
 import { blogMetadata, pagedTitle } from "../../../../../lib/blog/seo";
+import { HIDDEN_CATEGORY_SLUGS } from "../../../../../lib/blog/constants";
 import CategoryListing, { findCategory, getCategoryTotalPages } from "../../../../../components/Blog/CategoryListing";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Pages 2+ are not prerendered: they render on first request and are then cached (ISR).
 export async function generateStaticParams() {
@@ -23,6 +24,7 @@ export async function generateMetadata({ params }) {
     title: pagedTitle(`${category.name} Archives | Accredian Blog`, page),
     description: `Browse all articles related to ${category.name} from Accredian.`,
     path: `/category/${slug}/page/${page}`,
+    robots: HIDDEN_CATEGORY_SLUGS.includes(slug) ? { index: false, follow: true } : undefined,
   });
 }
 

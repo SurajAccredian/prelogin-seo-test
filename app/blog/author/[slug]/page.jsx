@@ -3,24 +3,24 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Linkedin } from "lucide-react";
 import { getAuthorProfile, getAuthorPosts, getAuthorSlugs } from "../../../lib/blog/wordpress";
-import { NON_PERSON_AUTHOR_SLUGS } from "../../../lib/blog/constants";
+import { isNonPersonAuthor } from "../../../lib/blog/authors";
 import { formatPostDate } from "../../../lib/blog/utils";
 import { blogMetadata } from "../../../lib/blog/seo";
 import { authorFromGraphQL } from "../../../lib/blog/schema";
 import { authorPageGraph } from "../../../lib/schema";
 import { JsonLd } from "../../../components/JsonLd";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
-// Shared/system accounts (e.g. "admin") are not prerendered, not linked, and not indexed.
+// Shared/system accounts (e.g. "admin") have no author page: they are not prerendered and 404.
 export async function generateStaticParams() {
   const slugs = await getAuthorSlugs();
-  return slugs.filter((slug) => !NON_PERSON_AUTHOR_SLUGS.includes(slug)).map((slug) => ({ slug }));
+  return slugs.filter((slug) => !isNonPersonAuthor(slug)).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const author = authorFromGraphQL(await getAuthorProfile(slug));
+  const author = isNonPersonAuthor(slug) ? null : authorFromGraphQL(await getAuthorProfile(slug));
   if (!author) notFound();
 
   const description =
@@ -30,12 +30,12 @@ export async function generateMetadata({ params }) {
     title: `${author.name} | Accredian Blog`,
     description,
     path: `/author/${slug}`,
-    ...(NON_PERSON_AUTHOR_SLUGS.includes(slug) ? { robots: { index: false, follow: true } } : {}),
   });
 }
 
 export default async function AuthorPage({ params }) {
   const { slug } = await params;
+  if (isNonPersonAuthor(slug)) notFound();
   const profile = await getAuthorProfile(slug);
   const author = authorFromGraphQL(profile);
   if (!profile || !author) notFound();
@@ -44,7 +44,7 @@ export default async function AuthorPage({ params }) {
 
   return (
     <div className="pb-24">
-      {!NON_PERSON_AUTHOR_SLUGS.includes(slug) && <JsonLd data={authorPageGraph(author)} />}
+      <JsonLd data={authorPageGraph(author)} />
       <header className="pt-16 pb-12 md:pt-24 md:pb-16 bg-gray-50 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <Link

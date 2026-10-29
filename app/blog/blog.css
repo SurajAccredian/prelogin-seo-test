@@ -1,5 +1,16 @@
 /* Blog-only styles. Imported by app/blog/layout.jsx; everything is scoped under .blog-root. */
 
+/* Main site header lives outside .blog-root; HideMainHeader sets this attribute on <html> while scrolled.
+   Transform only, so the header keeps its layout space and the page doesn't jump. */
+#site-header {
+  transition: transform 0.3s ease;
+  /* Above the sticky blog sub-nav (z-30) so the main header's dropdown menus aren't covered by it. */
+  z-index: 40 !important;
+}
+html[data-blog-scrolled] #site-header {
+  transform: translateY(-100%) !important;
+}
+
 .blog-root {
   font-family: var(--font-blog-sans), Arial, Helvetica, sans-serif;
   @apply antialiased;

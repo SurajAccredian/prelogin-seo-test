@@ -1,0 +1,111 @@
+// Spotlight URL key -> WordPress category (ported verbatim from the legacy blog).
+// Every path segment under /blog/spotlight must be a key here; the LAST segment picks the category,
+// so /blog/spotlight/ds/industry/bfsi and /blog/spotlight/pm/industry/bfsi show the same posts.
+export const spotlightMap = {
+  "0-2-years": {"slug":"0-to-2-years-experience","name":"0 to 2 years experience","description":"Transition stories and insights for early-career professionals."},
+  "0-5-years": {"slug":"0-to-5-years-experience","name":"0 TO 5 YEARS EXPERIENCE","description":"Comprehensive transition stories for early-career professionals (0-5 years)."},
+  "2-7-years": {"slug":"2-to-7-years-experience","name":"2 to 7 Years Experience","description":"Growth paths and success stories for mid-level professionals."},
+  "5-10-years": {"slug":"5-to-10-years-experience","name":"5 TO 10 YEARS EXPERIENCE","description":"Career growth and leadership journeys for mid-to-senior professionals (5-10 years)."},
+  "7-15-years": {"slug":"7-to-15-years-experience","name":"7 to 15 Years Experience","description":"Leadership transitions and executive insights for senior professionals."},
+  "10-15-years": {"slug":"10-to-15-years-experience","name":"10 TO 15 YEARS EXPERIENCE","description":"Strategic leadership and executive transitions for senior professionals (10-15 years)."},
+  "15-plus-years": {"slug":"15-years-experience","name":"15+ years experience","description":"Strategic career shifts and leadership excellence for veteran professionals."},
+  "programmer": {"slug":"programmer","name":"Programmer","description":"How tech professionals are mastering data and product domains."},
+  "non-programmer": {"slug":"non-programmer","name":"Non-Programmer","description":"Breaking barriers: How non-tech professionals transition into data and product."},
+  "top-colleges": {"slug":"top-colleges","name":"Top Colleges","description":"Success stories from alumni of premier global institutions."},
+  "purdue": {"slug":"purdue-university","name":"Purdue University","description":"Success stories and career transitions from Purdue University alumni."},
+  "symbiosis": {"slug":"symbiosis-institute-of-business-management","name":"Symbiosis Institute of Business Management","description":"Career excellence and leadership stories from SIBM alumni."},
+  "manit": {"slug":"manit-bhopal","name":"MANIT, Bhopal","description":"Success stories from the Maulana Azad National Institute of Technology."},
+  "cass": {"slug":"cass-business-school-london","name":"Cass Business School, London","description":"Global business leadership stories from Cass alumni."},
+  "bits-pilani": {"slug":"bits-pilani","name":"BITS Pilani","description":"Technical and leadership excellence from BITS Pilani graduates."},
+  "nit": {"slug":"nit","name":"NIT","description":"Success stories from National Institute of Technology alumni."},
+  "imt-ghaziabad": {"slug":"imt-ghaziabad","name":"IMT Ghaziabad","description":"Management excellence stories from IMT Ghaziabad alumni."},
+  "iim-indore": {"slug":"iim-indore","name":"IIM Indore","description":"Leadership and management journeys from IIM Indore graduates."},
+  "sjmsom": {"slug":"shailesh-j-mehta-school-of-management","name":"Shailesh J. Mehta School of Management","description":"Success stories from SJMSOM alumni."},
+  "iift": {"slug":"indian-institute-of-foreign-trade-new-delhi","name":"IIFT, New Delhi","description":"Global business and trade insights from IIFT alumni."},
+  "iit-kharagpur": {"slug":"iit-kharagpur","name":"IIT Kharagpur","description":"Engineering and career excellence stories from IIT Kharagpur graduates."},
+  "nmims": {"slug":"narsee-monjee-institute-of-management-studies","name":"NMIMS","description":"Success stories from Narsee Monjee Institute of Management Studies alumni."},
+  "industry": {"slug":"industry","name":"Industry","description":"Domain-specific insights and cross-industry transition stories."},
+  "bfsi": {"slug":"bfsi","name":"BFSI","description":"Success stories and career transitions in the Banking, Financial Services, and Insurance sector."},
+  "healthcare": {"slug":"healthcare","name":"Healthcare","description":"Stories of impact and innovation in the Healthcare and Life Sciences industry."},
+  "manufacturing": {"slug":"manufacturing","name":"Manufacturing","description":"Digital transformation and leadership stories from the Manufacturing sector."},
+  "analytics": {"slug":"analytics","name":"Analytics","description":"How analytics professionals are driving data-led decision making."},
+  "technology": {"slug":"technology","name":"Technology","description":"Innovations and career paths within the core Technology industry."},
+  "education": {"slug":"education","name":"Education","description":"Transition stories and insights from the Education and EdTech sector."},
+  "marketing-and-advertising": {"slug":"marketing-and-advertising","name":"Marketing and Advertising","description":"Creative and data-driven success stories from Marketing and Advertising."},
+  "it-ites": {"slug":"it-ites","name":"IT/ITes","description":"Career growth and transformation stories within IT and IT-enabled services."},
+  "energy": {"slug":"energy","name":"Energy","description":"Insights and transitions within the Energy and Utilities sector."},
+  "staffing": {"slug":"staffing","name":"Staffing","description":"Success stories from the Recruitement and Staffing industry."},
+  "consumer-goods": {"slug":"consumer-goods","name":"Consumer Goods","description":"Leadership and management journeys in the FMCG and Consumer Goods sector."},
+  "gaming": {"slug":"gaming","name":"Gaming","description":"Creative and technical success stories from the Gaming industry."},
+  "automation": {"slug":"automation","name":"Automation","description":"Stories of innovation and career shifts in the Automation industry."},
+  "telecom": {"slug":"telecom","name":"Telecom","description":"Success stories and industry insights from the Telecommunications sector."},
+  "retail-ecommerce": {"slug":"retail-ecommerce","name":"Retail/E-Commerce","description":"Success stories and career transitions in the Retail and E-Commerce sector."},
+  "logistics": {"slug":"logistics","name":"Logistics","description":"Operational excellence and career journeys in Logistics and Supply Chain."},
+  "consultation": {"slug":"consultant","name":"Consultation","description":"Career transitions and success stories in the consulting and consultation domain."},
+  "finance": {"slug":"finance","name":"Finance","description":"Success stories and career transitions in the Finance and Banking sector."},
+  "background": {"slug":"professional-background","name":"Professional Background","description":"Transition stories from diverse professional fields into Data Science and Product Management."},
+  "software-engineering": {"slug":"software-developer","name":"Software Engineering","description":"How software engineers are leveraging their technical skills in new domains."},
+  "digital-marketer": {"slug":"digital-marketing","name":"Digital Marketer","description":"Success stories of digital marketing professionals transitioning to data roles."},
+  "data-analyst": {"slug":"data-analyst","name":"Data Analyst","description":"Growth and transition stories from data analysis to advanced data science."},
+  "hr": {"slug":"hr","name":"HR","description":"Transition stories from Human Resources into people analytics and data roles."},
+  "engineering": {"slug":"engineering","name":"Engineering","description":"How engineers from various disciplines are making their mark in tech and data."},
+  "economist": {"slug":"economist","name":"Economist","description":"Analytical journeys of economists transitioning into data science."},
+  "general-management": {"slug":"general-management","name":"General Management","description":"Strategic transitions from general management to product and data leadership."},
+  "business-analyst": {"slug":"business-analyst","name":"Business Analyst","description":"How business analysts are evolving their careers with data science and AI."},
+  "teacher-professor": {"slug":"teacher-professor","name":"Teacher/Professor","description":"Inspiring transitions from academia and teaching into industry roles."},
+  "cybersecurity": {"slug":"cybersecurity","name":"Cybersecurity","description":"Career paths and success stories in the vital field of Cybersecurity."},
+  "sales-and-marketing": {"slug":"sales-and-marketing","name":"Sales and Marketing","description":"Transition stories from the front lines of sales and marketing into data roles."},
+  "tech-lead": {"slug":"tech-lead","name":"Tech Lead","description":"Leadership journeys of tech leads and engineering managers."},
+  "project-manager": {"slug":"project_management","name":"Project Manager","description":"How project managers are transitioning into product management and data leadership."},
+  "operations": {"slug":"operations","name":"Operations","description":"Operational excellence and career growth stories."},
+  "consultant": {"slug":"consultant","name":"Consultant","description":"Success stories from the world of consulting into industry leadership."},
+  "marketing": {"slug":"marketing","name":"Marketing","description":"Strategic marketing transitions and successes."},
+  "fresher": {"slug":"fresher","name":"Fresher","description":"New graduates making their mark in the professional world."},
+  "qa": {"slug":"qa","name":"QA","description":"Quality assurance professionals transitioning into development and data."},
+  "software-developer": {"slug":"software-developer","name":"Software Developer","description":"Carrier growth stories of software developers."},
+  "etl": {"slug":"etl","name":"ETL","description":"Data engineering and ETL professionals' success stories."},
+  "testing": {"slug":"testing","name":"Testing","description":"Success stories from software testing to engineering and data."},
+  "entrepreneur": {"slug":"entrepreneur","name":"Entrepreneur","description":"Stories of innovation and leadership from founders."},
+  "data-scientist": {"slug":"data-scientist","name":"Data Scientist","description":"Expertise and insights from practicing data scientists."},
+  "product-manager": {"slug":"product-manager-2","name":"Product Manager","description":"Success stories of product managers."},
+  "tech-support": {"slug":"tech-support","name":"Tech Support","description":"Support professionals moving into engineering and data roles."},
+  "sales": {"slug":"sales","name":"Sales","description":"Sales professionals' transitions into tech and data."},
+  "pm": {"slug":"product-management","name":"Product Management","description":"Spotlighting excellence in Product Management careers."},
+  "ds": {"slug":"ds-spotlight","name":"Data Science Spotlight","description":"Spotlighting excellence in Data Science careers."},
+};
+
+// Groups for the /blog/spotlight index page (unique keys; the ds/pm path variants share content).
+export const spotlightGroups = [
+  { title: "Spotlights", keys: ["ds","pm"] },
+  { title: "Work Experience", keys: ["0-2-years","0-5-years","2-7-years","5-10-years","7-15-years","10-15-years","15-plus-years"] },
+  { title: "Programmer/Non-Programmer", keys: ["programmer","non-programmer"] },
+  { title: "Top Colleges", keys: ["top-colleges","purdue","symbiosis","manit","cass","bits-pilani","nit","imt-ghaziabad","iim-indore","sjmsom","iift","iit-kharagpur","nmims"] },
+  { title: "Industry", keys: ["industry","bfsi","healthcare","manufacturing","analytics","technology","education","marketing-and-advertising","it-ites","energy","staffing","consumer-goods","gaming","automation","telecom","retail-ecommerce","logistics","consultation","finance"] },
+  { title: "Professional Background", keys: ["background","software-engineering","digital-marketer","data-analyst","hr","engineering","economist","general-management","business-analyst","teacher-professor","cybersecurity","sales-and-marketing","tech-lead","project-manager","operations","consultant","marketing","fresher","qa","software-developer","etl","testing","entrepreneur","data-scientist","product-manager","tech-support","sales"] },
+];
+
+// WordPress accounts that are not people (shared/system logins). They get no author link, no author
+// JSON-LD, and their /blog/author/<slug> page is noindex and excluded from the sitemap.
+export const NON_PERSON_AUTHOR_SLUGS = ["admin"];
+
+// Editorial collections, not topics: kept out of the category strips and the sitemap, and noindex on their own
+// pages (which still load, since posts can link to them).
+export const HIDDEN_CATEGORY_SLUGS = ["topreads", "trendingnow"];
+
+// WordPress mass edits that touched many posts at once (no real content change). A post whose modifiedGmt
+// falls in one of these windows has no trustworthy modification date: its sitemap lastmod and BlogPosting
+// dateModified are omitted, and listing pages ignore it when picking their newest date.
+export const BULK_MODIFIED_WINDOWS = [{ from: "2026-10-22T06:00:00Z", to: "2026-10-22T08:00:00Z" }];
+
+/** True if a WordPress modifiedGmt ("2026-10-22T06:09:36", no timezone = UTC) lies in a bulk-edit window. */
+export function isBulkModified(modifiedGmt) {
+  if (!modifiedGmt) return false;
+  const at = Date.parse(/(Z|[+-]d{2}:d{2})$/.test(modifiedGmt) ? modifiedGmt : `${modifiedGmt}Z`);
+  return BULK_MODIFIED_WINDOWS.some((w) => at >= Date.parse(w.from) && at <= Date.parse(w.to));
+}
+
+// WordPress categories behind /blog/success-stories/<key>.
+export const successStoriesMap = {
+  ds: { name: "DS Success Stories", slug: "ds_success_stories" },
+  pm: { name: "PM Success Stories", slug: "pm_success_stories" },
+};

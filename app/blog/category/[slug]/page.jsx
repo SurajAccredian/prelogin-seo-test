@@ -1,13 +1,14 @@
 import { notFound } from "next/navigation";
 import { getCategories } from "../../../lib/blog/wordpress";
 import { blogMetadata } from "../../../lib/blog/seo";
+import { HIDDEN_CATEGORY_SLUGS } from "../../../lib/blog/constants";
 import CategoryListing, { findCategory } from "../../../components/Blog/CategoryListing";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 export async function generateStaticParams() {
   const categories = await getCategories();
-  return categories.map((cat) => ({ slug: cat.slug }));
+  return categories.filter((cat) => cat.count > 0).map((cat) => ({ slug: cat.slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }) {
     title: `${category.name} Archives | Accredian Blog`,
     description: `Browse all articles related to ${category.name} from Accredian.`,
     path: `/category/${slug}`,
+    robots: HIDDEN_CATEGORY_SLUGS.includes(slug) ? { index: false, follow: true } : undefined,
   });
 }
 

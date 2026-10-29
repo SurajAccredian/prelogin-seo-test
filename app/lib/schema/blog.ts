@@ -10,6 +10,7 @@
  * Needs the WordPress snippet in wordpress/accredian-author-profile.php,
  * which adds an `author_profile` field to every post in the REST API.
  */
+import { isBulkModified } from "../blog/constants";
 import { BLOG_ID, BLOG_URL, ORG_ID, SITE_URL } from "./config";
 import { breadcrumbNode, makeGraph, ref } from "./nodes";
 import { organizationStub } from "./sitewide";
@@ -95,8 +96,12 @@ export function blogPostGraph(post: WpPost, options: BlogPostOptions = {}): Json
     description: stripHtml(post.excerpt?.rendered ?? "") || cleanText(options.description) || undefined,
     image: options.imageUrl,
     datePublished: withTimezone(post.date_gmt),
-    dateModified: withTimezone(post.modified_gmt ?? post.date_gmt),
-    author: author ? ref(`${authorPageUrl(author.slug)}#person`) : ref(ORG_ID),
+    // omitted for posts in a bulk-edit window: their modified date says nothing about the content
+    dateModified: isBulkModified(post.modified_gmt) ? undefined : withTimezone(post.modified_gmt ?? post.date_gmt),
+    // inline name/url for parsers that do not follow @id; the full Person node is still in the graph
+    author: author
+      ? { "@type": "Person", "@id": `${authorPageUrl(author.slug)}#person`, name: cleanText(author.name), url: authorPageUrl(author.slug) }
+      : ref(ORG_ID),
     publisher: ref(ORG_ID),
     isPartOf: ref(BLOG_ID),
     mainEntityOfPage: ref(`${url}#webpage`),

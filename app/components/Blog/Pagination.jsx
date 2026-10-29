@@ -4,12 +4,11 @@ import { pagePath } from "../../lib/blog/utils";
 const WINDOW = 2; // pages shown either side of the current one
 
 // Plain <a> links (no client JS, no prefetch storm across ~124 pages): crawlers and users get real URLs.
-// pathBased: /base, /base/page/2, ...   otherwise: /base, /base?page=2, ... (spotlight keeps ?page=).
-export default function Pagination({ currentPage, totalPages, basePath, pathBased = true }) {
+// Path-based URLs: /base, /base/page/2, /base/page/3, ...
+export default function Pagination({ currentPage, totalPages, basePath }) {
   if (totalPages <= 1) return null;
 
-  const hrefFor = (page) =>
-    pathBased ? pagePath(basePath, page) : page <= 1 ? basePath : `${basePath}?page=${page}`;
+  const hrefFor = (page) => pagePath(basePath, page);
 
   const items = [];
   for (let page = 1; page <= totalPages; page++) {

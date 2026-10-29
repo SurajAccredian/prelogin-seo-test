@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import HomePageWrapper from "../components/Wrapper/HomePageWrapper";
-import BlogSubNav from "../components/Blog/BlogSubNav";
+import BlogNav from "../components/Blog/BlogNav";
+import HideMainHeader from "../components/Blog/HideMainHeader";
 import "./blog.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-blog-sans" });
@@ -11,7 +12,8 @@ export default function BlogLayout({ children }) {
   return (
     <HomePageWrapper>
       <div className={`${inter.variable} blog-root bg-white text-gray-900`}>
-        <BlogSubNav />
+        <HideMainHeader />
+        <BlogNav />
         <main>{children}</main>
       </div>
     </HomePageWrapper>

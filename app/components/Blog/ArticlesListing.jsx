@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getAllPosts, getCategories } from "../../lib/blog/wordpress";
+import { HIDDEN_CATEGORY_SLUGS } from "../../lib/blog/constants";
 import BlogCard from "./BlogCard";
 import Pagination from "./Pagination";
 import CategoryBadge from "./CategoryBadge";
@@ -16,7 +17,7 @@ export async function getArticlesTotalPages() {
 export default async function ArticlesListing({ page }) {
   const [allPosts, categories] = await Promise.all([getAllPosts(), getCategories()]);
   const topCategories = [...categories]
-    .filter((c) => c.count > 0)
+    .filter((c) => c.count > 0 && !HIDDEN_CATEGORY_SLUGS.includes(c.slug))
     .sort((a, b) => (b.count || 0) - (a.count || 0))
     .slice(0, 15);
 

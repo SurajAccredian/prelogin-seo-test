@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { fixWordPressUrls, formatPostDate } from "../../lib/blog/utils";
+import { postByline } from "../../lib/blog/authors";
 
 export default function BlogCard({ post }) {
   const imageUrl = fixWordPressUrls(post.featuredImage?.node?.sourceUrl);
+  const byline = postByline(post);
 
   return (
     <div className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl hover:shadow-primary-500/10 transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
@@ -42,13 +44,15 @@ export default function BlogCard({ post }) {
           dangerouslySetInnerHTML={{ __html: post.excerpt }}
         />
         <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-100">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-primary-500 to-blue-400 flex items-center justify-center text-white text-xs font-bold shadow">
-              {post.author?.node?.name?.charAt(0) || "A"}
+          {byline && (
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-primary-500 to-blue-400 flex items-center justify-center text-white text-xs font-bold shadow">
+                {byline.charAt(0)}
+              </div>
+              <span className="text-sm font-medium text-gray-900">{byline}</span>
             </div>
-            <span className="text-sm font-medium text-gray-900">{post.author?.node?.name || "Author"}</span>
-          </div>
-          <span className="text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded-md">{formatPostDate(post.date)}</span>
+          )}
+          <span className="ml-auto text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded-md">{formatPostDate(post.date)}</span>
         </div>
       </div>
     </div>

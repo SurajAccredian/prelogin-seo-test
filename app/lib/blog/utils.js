@@ -41,13 +41,9 @@ export function rewriteBlogLinks(content) {
   );
 }
 
-// Off until the before/after samples have been reviewed.
-export const REWRITE_BLOG_LINKS = process.env.BLOG_REWRITE_LINKS === "true";
-
-// The one entry point pages use for post body HTML.
+// The one entry point pages use for post body HTML: image fixes, then old-host links -> /blog/... paths.
 export function prepareContentHtml(content, fallbackAlt = "") {
-  const html = fixWordPressContentImages(content, fallbackAlt);
-  return REWRITE_BLOG_LINKS ? rewriteBlogLinks(html) : html;
+  return rewriteBlogLinks(fixWordPressContentImages(content, fallbackAlt));
 }
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];

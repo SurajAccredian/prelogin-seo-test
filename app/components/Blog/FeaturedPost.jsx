@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { fixWordPressUrls, formatPostDate } from "../../lib/blog/utils";
+import { postByline } from "../../lib/blog/authors";
 
 export default function FeaturedPost({ post }) {
   if (!post) return null;
   const imageUrl = fixWordPressUrls(post.featuredImage?.node?.sourceUrl);
+  const byline = postByline(post);
 
   return (
     <div className="group relative rounded-3xl overflow-hidden shadow-2xl bg-gray-900 border border-gray-800 flex flex-col md:flex-row min-h-[400px]">
@@ -54,11 +56,13 @@ export default function FeaturedPost({ post }) {
 
         <div className="mt-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-400 to-indigo-600 flex items-center justify-center text-white font-bold shadow-lg">
-              {post.author?.node?.name?.charAt(0) || "A"}
-            </div>
+            {byline && (
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-400 to-indigo-600 flex items-center justify-center text-white font-bold shadow-lg">
+                {byline.charAt(0)}
+              </div>
+            )}
             <div>
-              <p className="text-sm font-medium text-white">{post.author?.node?.name || "Author"}</p>
+              {byline && <p className="text-sm font-medium text-white">{byline}</p>}
               <p className="text-xs text-gray-400">{formatPostDate(post.date)}</p>
             </div>
           </div>

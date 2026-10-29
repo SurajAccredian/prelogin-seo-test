@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Share2, Facebook, Twitter, Linkedin } from "lucide-react";
-import { getPost, getPosts, getPostAuthorProfile, getLatestPostSlugs } from "../../lib/blog/wordpress";
+import { getPost, getPosts, getAllPosts, toAuthorProfile } from "../../lib/blog/wordpress";
 import {
   fixWordPressUrls,
   prepareContentHtml,
@@ -10,20 +10,20 @@ import {
   getMetaTitle,
   formatPostDate,
 } from "../../lib/blog/utils";
-import { NON_PERSON_AUTHOR_SLUGS } from "../../lib/blog/constants";
+import { isNonPersonAuthor, postByline } from "../../lib/blog/authors";
 import { blogMetadata } from "../../lib/blog/seo";
 import { authorFromGraphQL, imageUrlFromGraphQL, postFromGraphQL, topicsFromGraphQL } from "../../lib/blog/schema";
 import { blogPostGraph } from "../../lib/schema";
 import { JsonLd } from "../../components/JsonLd";
 import BlogCard from "../../components/Blog/BlogCard";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
-// Only the 50 newest posts are prerendered at build; every other slug renders on first request
-// and is then cached (ISR). dynamicParams stays at its default (true) for that reason.
+// Every post is prerendered at build (cursor-paginated slug list); a post published later renders on first
+// request and is then cached (ISR), because dynamicParams stays at its default (true).
 export async function generateStaticParams() {
-  const slugs = await getLatestPostSlugs(50);
-  return slugs.map((slug) => ({ slug }));
+  const posts = await getAllPosts();
+  return posts.map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -44,9 +44,7 @@ export async function generateMetadata({ params }) {
       title: `${post.title} | Accredian Blog`,
       publishedTime: post.date,
       authors:
-        post.author?.node?.name && !NON_PERSON_AUTHOR_SLUGS.includes(post.author.node.slug)
-          ? [post.author.node.name]
-          : undefined,
+        postByline(post) ? [postByline(post)] : undefined,
       ...(ogImage.length ? { images: ogImage } : {}),
     },
     twitter: {
@@ -58,17 +56,19 @@ export async function generateMetadata({ params }) {
 
 export default async function SingleBlogPage({ params }) {
   const { slug } = await params;
-  const post = await getPost(slug);
+  // The two WordPress reads are independent, so they run together. Promise.all rejects on the first failure;
+  // an unknown slug resolves (post null) and 404s. The author comes with the post.
+  const [post, allPosts] = await Promise.all([getPost(slug), getPosts()]);
   if (!post) notFound();
+  const authorProfile = toAuthorProfile(post.author?.node);
 
-  const [allPosts, authorProfile] = await Promise.all([getPosts(), getPostAuthorProfile(post.slug)]);
   const relatedPosts = allPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
   const imageUrl = fixWordPressUrls(post.featuredImage?.node?.sourceUrl);
   const description = getMetaDescription(post.excerpt, post.content);
   const author = authorFromGraphQL(authorProfile);
   // Shared accounts like "admin" are not credited or linked (their author page is noindex).
-  const credited = author && !NON_PERSON_AUTHOR_SLUGS.includes(author.slug) ? author : null;
+  const credited = author && !isNonPersonAuthor(author.slug) ? author : null;
 
   return (
     <article className="pb-24">

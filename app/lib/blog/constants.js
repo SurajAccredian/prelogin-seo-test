@@ -88,6 +88,22 @@ export const spotlightGroups = [
 // JSON-LD, and their /blog/author/<slug> page is noindex and excluded from the sitemap.
 export const NON_PERSON_AUTHOR_SLUGS = ["admin"];
 
+// Editorial collections, not topics: kept out of the category strips and the sitemap, and noindex on their own
+// pages (which still load, since posts can link to them).
+export const HIDDEN_CATEGORY_SLUGS = ["topreads", "trendingnow"];
+
+// WordPress mass edits that touched many posts at once (no real content change). A post whose modifiedGmt
+// falls in one of these windows has no trustworthy modification date: its sitemap lastmod and BlogPosting
+// dateModified are omitted, and listing pages ignore it when picking their newest date.
+export const BULK_MODIFIED_WINDOWS = [{ from: "2026-10-22T06:00:00Z", to: "2026-10-22T08:00:00Z" }];
+
+/** True if a WordPress modifiedGmt ("2026-10-22T06:09:36", no timezone = UTC) lies in a bulk-edit window. */
+export function isBulkModified(modifiedGmt) {
+  if (!modifiedGmt) return false;
+  const at = Date.parse(/(Z|[+-]d{2}:d{2})$/.test(modifiedGmt) ? modifiedGmt : `${modifiedGmt}Z`);
+  return BULK_MODIFIED_WINDOWS.some((w) => at >= Date.parse(w.from) && at <= Date.parse(w.to));
+}
+
 // WordPress categories behind /blog/success-stories/<key>.
 export const successStoriesMap = {
   ds: { name: "DS Success Stories", slug: "ds_success_stories" },

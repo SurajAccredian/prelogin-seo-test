@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { ArrowRight, BookOpen } from "lucide-react";
 import { getPosts, getCategories } from "../lib/blog/wordpress";
+import { HIDDEN_CATEGORY_SLUGS } from "../lib/blog/constants";
 import { blogMetadata, BLOG_HOME_TITLE, BLOG_HOME_DESCRIPTION } from "../lib/blog/seo";
 import BlogCard from "../components/Blog/BlogCard";
 import FeaturedPost from "../components/Blog/FeaturedPost";
 import CategoryBadge from "../components/Blog/CategoryBadge";
 
-export const revalidate = 60; // ISR
+export const revalidate = 3600; // ISR
 
 export const metadata = blogMetadata({
   title: BLOG_HOME_TITLE,
@@ -15,9 +16,9 @@ export const metadata = blogMetadata({
 });
 
 export default async function BlogHome() {
-  const [posts, categories] = await Promise.all([getPosts(), getCategories()]);
+  const [posts, categories] = await Promise.all([getPosts({ revalidate: 3600 }), getCategories()]);
   const topCategories = [...categories]
-    .filter((c) => c.count > 0)
+    .filter((c) => c.count > 0 && !HIDDEN_CATEGORY_SLUGS.includes(c.slug))
     .sort((a, b) => (b.count || 0) - (a.count || 0))
     .slice(0, 10);
 
@@ -27,7 +28,7 @@ export default async function BlogHome() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary-50 to-white pt-20 pb-16 md:pt-32 md:pb-24 overflow-hidden border-b border-gray-100">
+      <section className="relative isolate bg-gradient-to-b from-primary-50 to-white pt-12 pb-16 md:pt-20 md:pb-24 overflow-hidden border-b border-gray-100">
         <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-white to-transparent z-10"></div>
 
         {/* Abstract background shapes */}

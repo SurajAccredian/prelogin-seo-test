@@ -18,7 +18,7 @@ const CARD_FIELDS = `
   date
   excerpt
   featuredImage { node { sourceUrl } }
-  author { node { name } }
+  author { node { name slug } }
   categories { nodes { name slug } }
 `;
 
@@ -41,6 +41,16 @@ export const GET_POSTS_PAGE = `
   }
 `;
 
+// One chunk of WordPress search results (cursor pagination; see searchPosts).
+export const GET_SEARCH_POSTS = `
+  query SearchPosts($search: String!, $first: Int!, $after: String) {
+    posts(first: $first, after: $after, where: { search: $search }) {
+      pageInfo { hasNextPage endCursor }
+      nodes { ${CARD_FIELDS} }
+    }
+  }
+`;
+
 export const GET_LATEST_POST_SLUGS = `
   query GetLatestPostSlugs($first: Int!) {
     posts(first: $first) { nodes { slug } }
@@ -53,7 +63,7 @@ export const GET_POST = `
       ${POST_SCHEMA_FIELDS}
       content
       date
-      author { node { name slug } }
+      author { node { databaseId name slug description avatar { url } } }
       categories { nodes { name slug } }
     }
   }
@@ -79,12 +89,6 @@ export const GET_CATEGORY_POSTS_PAGE = `
 `;
 
 const USER_FIELDS = "databaseId name slug description avatar { url }";
-
-export const GET_POST_AUTHOR = `
-  query PostAuthor($slug: ID!) {
-    post(id: $slug, idType: SLUG) { author { node { ${USER_FIELDS} } } }
-  }
-`;
 
 export const GET_AUTHOR = `
   query AuthorUser($slug: ID!) {

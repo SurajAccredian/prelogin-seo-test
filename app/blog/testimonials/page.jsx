@@ -6,7 +6,7 @@ import { blogBreadcrumbGraph } from "../../lib/blog/schema";
 import { JsonLd } from "../../components/JsonLd";
 import BlogCard from "../../components/Blog/BlogCard";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 export const metadata = blogMetadata({
   title: "Student Testimonials | Accredian Blog",

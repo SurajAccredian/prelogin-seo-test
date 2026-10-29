@@ -250,8 +250,8 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="pt-4">
-                    <a
-                      href="https://blog.accredian.com/"
+                    <Link
+                      href="/blog"
                       style={{ textDecoration: "none" }}
                     >
                       <Typography
@@ -264,7 +264,7 @@ const Footer = () => {
                       >
                         Blog
                       </Typography>
-                    </a>
+                    </Link>
                   </li>
                   {/* <li className="pt-4 pb-4">
                     <Link href="/whyaccredian" prefetch={false} style={{ textDecoration: "none" }}>

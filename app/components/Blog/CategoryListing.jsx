@@ -9,10 +9,12 @@ import Pagination from "./Pagination";
 
 export const CATEGORY_POSTS_PER_PAGE = 9;
 
-// The category (from the full category list) or null. An unknown slug also yields an empty post list,
-// so the slug is checked here first: that is what turns a bad slug into a real 404.
+// The category, or null when the slug is unknown OR the category has no posts (both are a real 404).
+// An unknown slug also yields an empty post list, so the slug is checked against the category list first.
 export async function findCategory(slug) {
-  return (await getCategories()).find((c) => c.slug === slug) || null;
+  const category = (await getCategories()).find((c) => c.slug === slug);
+  if (!category) return null;
+  return (await getCategoryPosts(slug)).length > 0 ? category : null;
 }
 
 export async function getCategoryTotalPages(category) {

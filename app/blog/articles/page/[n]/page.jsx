@@ -3,7 +3,7 @@ import { parsePageNumber } from "../../../../lib/blog/utils";
 import { blogMetadata, pagedTitle } from "../../../../lib/blog/seo";
 import ArticlesListing, { ARTICLES_BASE_PATH, getArticlesTotalPages } from "../../../../components/Blog/ArticlesListing";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Only the first few pages are prerendered; every other page renders on first request and is then
 // cached (ISR). dynamicParams stays at its default (true) for that reason.

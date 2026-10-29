@@ -1,7 +1,7 @@
 import { blogMetadata } from "../../lib/blog/seo";
 import ArticlesListing from "../../components/Blog/ArticlesListing";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 export const metadata = blogMetadata({
   title: "All Blog Posts | Accredian",

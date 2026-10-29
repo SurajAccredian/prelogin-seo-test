@@ -4511,7 +4511,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
                         content: [
-                            "Structured across 12 months comprising 13 modules, covering all core aspects of Enterprise Leadership, Operations Strategy, Execution Excellence, Financial Leadership, Digital Transformation, Analytics, AI, Risk Governance, and Organizational Transformation.",
+                            "Structured across 12 months comprising 12 modules, covering all core aspects of Enterprise Leadership, Operations Strategy, Execution Excellence, Financial Leadership, Digital Transformation, Analytics, AI, Risk Governance, and Organizational Transformation.",
                             "- **Duration:** 12 months",
                             "- **Learning Format:** 144+ hours of live online sessions, with study materials available for 3 months post course completion",
                             "- **Class Timings:** Conducted on weekends",

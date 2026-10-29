@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Default is 60 s. The blog prerenders every post at build and a slow WordPress response must not fail the build
+  // (see TIMEOUT_MS / MAX_ATTEMPTS in app/lib/blog/wordpress.js, whose worst case stays well below this).
+  staticPageGenerationTimeout: 180,
   images: {
     remotePatterns: [
       {
@@ -10,6 +13,14 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "**.accredian.com",
+      },
+      {
+        protocol: "https",
+        hostname: "api-blog.accredian.com",
+      },
+      {
+        protocol: "https",
+        hostname: "secure.gravatar.com",
       },
     ],
     formats: ["image/avif", "image/webp"],

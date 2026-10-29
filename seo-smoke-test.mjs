@@ -20,8 +20,20 @@ const PAGES = [
   { path: '/successstories', minWords: 500 },
   { path: '/referandearn', minWords: 400 },
   { path: '/about', minWords: 300 },
+  // blog (served from /blog): see also the "Blog" section below
+  { path: '/blog', minWords: 300, jsonLd: ['Organization'] },
+  { path: '/blog/articles', minWords: 150, jsonLd: ['Organization'] },
+  { path: '/blog/articles/page/2', minWords: 150, jsonLd: ['Organization'] },
+  { path: '/blog/spotlight', minWords: 150, jsonLd: ['BreadcrumbList'] },
+  { path: '/blog/success-stories', minWords: 100, jsonLd: ['BreadcrumbList'] },
+  { path: '/blog/testimonials', minWords: 100, jsonLd: ['BreadcrumbList'] },
 ];
-const MUST_404 = ['/programs/zz-not-a-real-program', '/course/zz-not-a-real-category', '/free-courses/zz-not-a-real-course'];
+const MUST_404 = [
+  '/programs/zz-not-a-real-program', '/course/zz-not-a-real-category', '/free-courses/zz-not-a-real-course',
+  '/blog/zz-not-a-real-post', '/blog/category/zz-not-a-category', '/blog/author/zz-nobody', '/blog/author/admin',
+  '/blog/spotlight/zz-nope', '/blog/spotlight/finance', '/blog/success-stories/zz', '/blog/articles/page/99999',
+];
+const BLOG_RESERVED = new Set(['articles', 'author', 'category', 'search', 'spotlight', 'success-stories', 'testimonials']);
 const MUST_NOT_404 = ['/Career', '/Successstories']; // legacy capitalised URLs; should be 200 or redirect
 const AI_BOTS = ['GPTBot', 'OAI-SearchBot', 'ClaudeBot', 'PerplexityBot'];
 
@@ -96,6 +108,13 @@ const attr = (html, re) => (html.match(re) || [])[1];
 // ---------------------------------------------------------------- key pages
 const home = await get('/');
 const deployment = attr(home.body, /(dpl_[A-Za-z0-9]+)/) || 'unknown';
+
+// A real blog post, taken from the article listing so the check survives posts being added or removed.
+const blogListing = await get('/blog/articles');
+const blogPostPath = [...blogListing.body.matchAll(/href="(\/blog\/[a-z0-9][^"/?#]*)"/g)]
+  .map((m) => m[1])
+  .find((h) => !BLOG_RESERVED.has(h.split('/')[2]));
+if (blogPostPath) PAGES.push({ path: blogPostPath, minWords: 150, jsonLd: ['BlogPosting', 'BreadcrumbList', 'Organization'] });
 
 for (const p of PAGES) {
   section = p.path;
@@ -195,6 +214,22 @@ const minutes = new Set([...sm.body.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].ma
 check('lastmod values are real dates, not the build time', minutes.size > 10, `${minutes.size} distinct minute(s)`, 'WARN');
 const odd = locs.filter((u) => /[A-Z&]/.test(new URL(u).pathname));
 check('sitemap URLs are lowercase with no "&"', odd.length === 0, `${odd.length}: ${odd.slice(0, 3).map(toBase).join(', ')}`, 'WARN');
+
+// ---------------------------------------------------------------- blog
+section = 'Blog';
+check('a post link was found on /blog/articles', !!blogPostPath, blogPostPath || 'none');
+const blogSearch = await get('/blog/search?q=ai');
+check('/blog/search is noindex', blogSearch.res.status === 200 && /noindex/i.test(attr(blogSearch.body, /<meta[^>]*name="robots"[^>]*content="([^"]*)"/i) || ''),
+  `status ${blogSearch.res.status}`);
+const pageOne = await get('/blog/articles/page/1', 'manual');
+check('/blog/articles/page/1 redirects to /blog/articles', [301, 308].includes(pageOne.res.status) && /\/blog\/articles$/.test(pageOne.res.headers.get('location') || ''),
+  `${pageOne.res.status} ${pageOne.res.headers.get('location') || ''}`);
+check('article listing links to page 2 with a plain <a href>', /<a [^>]*href="\/blog\/articles\/page\/2"/.test(blogListing.body));
+const blogLocs = locs.filter((u) => new URL(u).pathname.startsWith('/blog'));
+check('sitemap lists the blog (≥ 1,000 URLs)', blogLocs.length >= 1000, `${blogLocs.length} blog URLs`);
+check('sitemap has /blog/articles and no /blog/search or /blog/author/admin',
+  blogLocs.some((u) => u.endsWith('/blog/articles')) && !blogLocs.some((u) => /\/blog\/(search|author\/admin)(\/|$)/.test(u)));
+check('robots.txt disallows /blog/search', /disallow:\s*\/blog\/search/i.test(robots.body));
 
 if (CHECK_SITEMAP) {
   section = 'Every sitemap URL';

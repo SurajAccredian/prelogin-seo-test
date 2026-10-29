@@ -107,7 +107,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Chief Operating Officer Program (The COO Program)](https://accredian.com/programs/iim-kashipur-chief-operating-officer-program)
 - **Institution:** IIM Kashipur
 - **Duration:** 12 Months
-- **Start date:** 30 Aug 2026
+- **Start date:** 7 Mar 2027
 - **Experience required:** 10+ years
 - **Fee:** INR 2,90,000 + GST
 - **Description:** Embark on an 12 month learning journey in operations strategy, cross-functional leadership & strategic communication.
@@ -397,7 +397,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Executive Program in Leadership with AI](https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai)
 - **Institution:** IIM Visakhapatnam
 - **Duration:** 10 Months
-- **Start date:** 13 Sep 2026
+- **Start date:** 10 Jan 2027
 - **Experience required:** 5+ years
 - **Fee:** INR 2,45,000 + GST
 - **Description:** Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.
@@ -517,7 +517,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Executive Development Programme in Digital HR Leadership and People Analytics](https://accredian.com/programs/executive-development-program-in-digital-hr-leadership-and-people-analytics)
 - **Institution:** XLRI
 - **Duration:** 10 Months
-- **Start date:** 30 Aug 2026
+- **Start date:** 15 Nov 2026
 - **Experience required:** 3+ years
 - **Fee:** INR 2,40,000 + GST
 - **Description:** Embark on a 10 month learning journey in HR Analytics, Digital Leadership, and GenAI.
@@ -796,7 +796,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program)
 - **Institution:** IIM Visakhapatnam
 - **Duration:** 12 Months
-- **Start date:** 27 Sep 2026
+- **Start date:** 10 Jan 2027
 - **Experience required:** 5+ years
 - **Fee:** INR 4,00,000 + GST
 - **Description:** Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.
@@ -804,7 +804,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 #### [Senior Management Program](https://accredian.com/programs/senior-management-program)
 - **Institution:** IIM Visakhapatnam
 - **Duration:** 12 Months
-- **Start date:** 27 Sep 2026
+- **Start date:** 10 Jan 2027
 - **Experience required:** 10+ years
 - **Fee:** INR 3,49,000 + GST
 - **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status

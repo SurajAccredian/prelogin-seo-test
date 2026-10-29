@@ -36,7 +36,7 @@
   ],
   "key_features": [
     {
-      "text": "144+",
+      "text": "132+",
       "title": "hours"
     },
     {
@@ -281,7 +281,7 @@
   "billing": {
     "total": 300000,
     "points": [
-      "144+ Hours of Live Classes",
+      "132+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution"
     ],
@@ -313,7 +313,7 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Strategy-Leadership-And-Innovation-In-AI-Era.pdf",
     "source": "IIMV Executive Program in Strategy, Leadership and Innovation in AI Era Brochure",
     "campaign_name": "IIMV-Strategy & Leadership"
   },

@@ -38,6 +38,7 @@
     "id": "iims-executive-program-in-leadership-with-ai",
     "pid": 177,
     "duration": "6 Months",
+    "program_fee": 189000,
     "required_years_experience": 2
   },
   {
@@ -178,7 +179,7 @@
     "pid": 158,
     "duration": "12 Months",
     "program_fee": 290000,
-    "required_years_experience": 10
+    "required_years_experience": 8
   },
   {
     "university_name": "IIM Ranchi",
@@ -289,6 +290,7 @@
     "id": "iim-bodh-gaya-senior-management-program",
     "pid": 181,
     "duration": "11 Months",
+    "program_fee": 230000,
     "required_years_experience": 5
   },
   {
@@ -315,6 +317,7 @@
     "url": "https://accredian.com/programs/iimr-cto-ai-leadership-program",
     "id": "iimr-cto-ai-leadership-program",
     "duration": "12 Months",
+    "program_fee": 260000,
     "required_years_experience": 5
   },
   {
@@ -425,6 +428,7 @@
     "url": "https://accredian.com/programs/executive-program-in-technology-leadership-innovation",
     "id": "executive-program-in-technology-leadership-innovation",
     "duration": "9 Months",
+    "program_fee": 220000,
     "required_years_experience": 5
   },
   {
@@ -514,7 +518,7 @@
   {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
-    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era ",
+    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
     "category": "strategy & leadership",
     "start_date": "17 Jan 2027",
     "status": "New Launch",
@@ -536,6 +540,7 @@
     "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
     "pid": 176,
     "duration": "8 Months",
+    "program_fee": 199000,
     "required_years_experience": 3
   },
   {
@@ -787,6 +792,7 @@
     "id": "pg-certificate-program-in-family-business-management",
     "pid": 171,
     "duration": "12 Months",
+    "program_fee": 349000,
     "required_years_experience": 8
   },
   {

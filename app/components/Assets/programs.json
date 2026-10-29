@@ -100,6 +100,7 @@
     },
     "start_date": "10 Jan 2027",
     "contact": "9358719988",
+    "program_fee": 189000,
     "pid": 177,
     "required_years_experience": 2
   },
@@ -436,7 +437,7 @@
     "contact": "8851827093",
     "program_fee": 290000,
     "pid": 158,
-    "required_years_experience": 10
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",
@@ -741,6 +742,7 @@
     "start_date": "14 Feb 2027 ",
     "contact": "8851827093",
     "pid": 181,
+    "program_fee": 230000,
     "required_years_experience": 5
   },
   {
@@ -805,6 +807,7 @@
     },
     "start_date": "31 Jan 2027",
     "contact": "8851827053",
+    "program_fee": 260000,
     "required_years_experience": 5
   },
   {
@@ -1092,6 +1095,7 @@
     },
     "start_date": "10 Jan 2027",
     "contact": "8882597163",
+    "program_fee": 220000,
     "required_years_experience": 5
   },
   {
@@ -1313,7 +1317,7 @@
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "university_name": "IIM Visakhapatnam",
-    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era ",
+    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
     "duration": "11 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
     "batch_type": "Online",
@@ -1375,6 +1379,7 @@
     },
     "start_date": "10 Jan 2027",
     "contact": "8851827093",
+    "program_fee": 199000,
     "pid": 176,
     "required_years_experience": 3
   },
@@ -2019,6 +2024,7 @@
     },
     "start_date": "17 Jan 2027",
     "contact": "",
+    "program_fee": 349000,
     "pid": 171,
     "required_years_experience": 8
   },

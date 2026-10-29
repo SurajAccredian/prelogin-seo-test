@@ -2639,7 +2639,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,30,000 + GST.",
+                            "- The program fee is INR 1,39,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },
@@ -4236,7 +4236,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 4,02,500 + GST.",
+                            "- The program fee is INR 4,00,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },
@@ -4511,7 +4511,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
                         content: [
-                            "Structured across 12 months comprising 13 modules, covering all core aspects of Enterprise Leadership, Operations Strategy, Execution Excellence, Financial Leadership, Digital Transformation, Analytics, AI, Risk Governance, and Organizational Transformation.",
+                            "Structured across 12 months comprising 12 modules, covering all core aspects of Enterprise Leadership, Operations Strategy, Execution Excellence, Financial Leadership, Digital Transformation, Analytics, AI, Risk Governance, and Organizational Transformation.",
                             "- **Duration:** 12 months",
                             "- **Learning Format:** 144+ hours of live online sessions, with study materials available for 3 months post course completion",
                             "- **Class Timings:** Conducted on weekends",
@@ -4836,7 +4836,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 2,50,000 + GST.",
+                            "- The program fee is INR 2,60,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },
@@ -5036,7 +5036,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,99,000 + GST.",
+                            "- The program fee is INR 2,10,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },

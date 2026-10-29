@@ -432,7 +432,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "30 Aug 2026",
+    "start_date": "7 Mar 2027",
     "contact": "8851827093",
     "program_fee": 290000,
     "pid": 158,
@@ -1326,7 +1326,7 @@
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Strategy-Leadership-And-Innovation-In-AI-Era.pdf",
       "source": "IIMV Executive Program in Strategy, Leadership and Innovation in AI Era Brochure",
       "campaign_name": "IIMV-Strategy & Leadership"
     },

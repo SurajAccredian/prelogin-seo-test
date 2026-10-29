@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
-const PRIVATE_ROUTES = ["/api/", "/admin/", "/resource-callback", "/cdn-cgi/"];
+// /blog/search is also noindex; it is blocked here so crawlers don't spend budget on endless queries.
+const PRIVATE_ROUTES = ["/api/", "/admin/", "/resource-callback", "/cdn-cgi/", "/blog/search"];
 
 const AI_AGENTS = [
   "GPTBot",

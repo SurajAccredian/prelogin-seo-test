@@ -13,7 +13,7 @@
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-2.webp",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certi.__1_.webp",
-  "start_date": "24 Jan 2027 ",
+  "start_date": "14 Feb 2027 ",
   "duration": "11 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -22,7 +22,7 @@
   "tags": [],
   "key_features": [
     {
-      "text": "132+",
+      "text": "130+",
       "title": "hours"
     },
     {
@@ -255,7 +255,7 @@
   "billing": {
     "total": 230000,
     "points": [
-      "132+ Hours of Live Classes",
+      "130+ Hours of Live Classes",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution"
     ],

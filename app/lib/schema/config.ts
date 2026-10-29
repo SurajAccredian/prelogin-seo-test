@@ -3,12 +3,14 @@
  * The @id values are permanent identifiers: once live, never change them.
  */
 export const SITE_URL = "https://accredian.com";
-export const BLOG_URL = "https://blog.accredian.com";
+/** The blog is served from accredian.com/blog (migrated from blog.accredian.com). */
+export const BLOG_URL = `${SITE_URL}/blog`;
 
 export const ORG_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 export const LOGO_ID = `${SITE_URL}/#logo`;
-export const BLOG_ID = `${BLOG_URL}/#blog`;
+/** Kept on the old host on purpose: @ids are permanent and need not resolve. */
+export const BLOG_ID = "https://blog.accredian.com/#blog";
 
 export const LOGO_URL =
   "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp";

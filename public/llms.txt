@@ -66,6 +66,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 - [Executive Program in Strategy & Leadership](https://accredian.com/programs/iimr-executive-program-in-strategy-leadership): IIM Ranchi | 11 Months | INR 2,60,000 + GST
 - [Executive Program in Technology Leadership & Innovation](https://accredian.com/programs/executive-program-in-technology-leadership-innovation): IITM Pravartak | 9 Months | INR 2,20,000 + GST
+- [Executive Program in Strategy, Leadership and Innovation in AI Era ](https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era): IIM Visakhapatnam | 11 Months | INR 3,00,000 + GST
 - [Executive Program in Strategy Leadership & Innovation in AI Era](https://accredian.com/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era): IIM Sirmaur | 8 Months | INR 1,99,000 + GST
 - [Executive Development Program in Strategy & Leadership](https://accredian.com/programs/executive-program-in-strategy-leadership): XLRI | 11 Months | INR 2,80,000 + GST
 
@@ -104,7 +105,6 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme): IIM Visakhapatnam
 - [Professional Certificate Program in Strategic Project Management](https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management): Department of Entrepreneurship and Management, IIT Hyderabad
 - [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership): IIM Visakhapatnam
-- [Executive Program in Strategy, Leadership and Innovation in AI Era](https://accredian.com/programs/executive-program-in-strategy-leadership-and-innovation-in-ai-era): IIM Visakhapatnam
 - [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program): IIM Tiruchirappalli
 - [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives): IIM Visakhapatnam
 - [Executive General Management Program](https://accredian.com/programs/executive-general-management-program): IIM Lucknow

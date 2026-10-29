@@ -2,45 +2,74 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { categorySlug } from './app/helpers/categorySlug';
 
-// Legacy capitalised URLs -> lowercase canonical (matched on the first path segment, so /Career/mentor etc. follow)
-const CASE_REDIRECTS: Record<string, string> = {
-  '/Career': '/career',
-  '/Successstories': '/successstories',
-  '/Lost-password': '/lost-password',
-  '/Reset-password': '/reset-password',
-};
-
-const LEGACY_FAQ_REDIRECTS: Record<string, string> = {
-  '/Faqs/program': '/faq',
-  '/Faqs/admissions': '/faq',
-  '/Faqs/fee-scholarships': '/faq',
-  '/Faq': '/faq',
-  '/Faqs': '/faq',
-  '/Faqs/program-pre-requisites': '/faq',
-  '/programs/executive-program-in-business-analytics-AI-for-leaders':
-    '/programs/executive-program-in-business-analytics-ai-for-leaders',
+// Legacy structural redirects: maps old URL structures to new destinations (301)
+const LEGACY_STRUCTURAL_REDIRECTS: Record<string, string> = {
+  '/terms/refund': '/refund-policies/accredian-policy',
 };
 
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+  const { pathname } = request.nextUrl;
 
+  // 1. Exclude Next.js internals, API routes, and static files with extensions
+  if (
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/api') ||
+    /\.[a-zA-Z0-9]+$/.test(pathname)
+  ) {
+    return NextResponse.next();
+  }
+
+  // Exact lowercase match for /faq: early return to avoid redundant checks
   if (pathname === '/faq') {
     return NextResponse.next();
   }
 
-  // Normalize path without trailing slash for exact matching
+  // Normalize path without trailing slash for exact lookup matching
   const normalizedPath = pathname.length > 1 && pathname.endsWith('/')
     ? pathname.slice(0, -1)
     : pathname;
 
-  const faqRedirect = LEGACY_FAQ_REDIRECTS[normalizedPath];
-  if (faqRedirect && faqRedirect !== pathname) {
+  const lowerPath = normalizedPath.toLowerCase();
+
+  // 2. Legacy FAQ redirects: any /faqs or /faqs/* -> /faq (301)
+  if (lowerPath === '/faqs' || lowerPath.startsWith('/faqs/')) {
     const url = request.nextUrl.clone();
-    url.pathname = faqRedirect;
+    url.pathname = '/faq';
     return NextResponse.redirect(url, 301);
   }
-  // /course/<slug>: send case/"&" variants (e.g. CXO-Leadership, strategy-&-leadership) to the canonical slug
-  if (pathname.startsWith('/course/')) {
+
+  // 3. Legacy structural redirects (e.g. /terms/refund -> /refund-policies/accredian-policy) (301)
+  const legacyTarget = LEGACY_STRUCTURAL_REDIRECTS[lowerPath];
+  if (legacyTarget && legacyTarget !== pathname) {
+    const url = request.nextUrl.clone();
+    url.pathname = legacyTarget;
+    return NextResponse.redirect(url, 301);
+  }
+
+  // 4. Token-sensitive routes: /reset-password/:token and /course/payment/:token
+  // The route prefix must be lowercase, but the Base64 token segment MUST preserve exact casing.
+  if (pathname.startsWith('/reset-password/')) {
+    return NextResponse.next();
+  }
+  if (/^\/reset-password\//i.test(pathname)) {
+    const token = pathname.slice('/reset-password/'.length);
+    const url = request.nextUrl.clone();
+    url.pathname = `/reset-password/${token}`;
+    return NextResponse.redirect(url, 308);
+  }
+
+  if (pathname.startsWith('/course/payment/')) {
+    return NextResponse.next();
+  }
+  if (/^\/course\/payment\//i.test(pathname)) {
+    const token = pathname.slice('/course/payment/'.length);
+    const url = request.nextUrl.clone();
+    url.pathname = `/course/payment/${token}`;
+    return NextResponse.redirect(url, 308);
+  }
+
+  // 5. Course category canonicalization (/course/:category)
+  if (lowerPath.startsWith('/course/')) {
     const segment = pathname.slice('/course/'.length);
     if (segment && !segment.includes('/')) {
       let decoded = segment;
@@ -48,41 +77,34 @@ export function middleware(request: NextRequest) {
         decoded = decodeURIComponent(segment);
       } catch {}
       const canonical = categorySlug(decoded);
-      if (canonical !== segment) {
+      const target = `/course/${canonical}`;
+      if (target !== pathname) {
         const url = request.nextUrl.clone();
-        url.pathname = `/course/${canonical}`;
+        url.pathname = target;
         return NextResponse.redirect(url, 308);
       }
     }
-    return NextResponse.next();
   }
 
-  const [, first, ...rest] = pathname.split('/');
-  const target = CASE_REDIRECTS[`/${first}`];
-  if (target) {
+  // 6. Universal uppercase to lowercase normalization (308)
+  if (/[A-Z]/.test(pathname)) {
     const url = request.nextUrl.clone();
-    const cleanRest = rest.filter(Boolean);
-    url.pathname = cleanRest.length ? `${target}/${cleanRest.join('/')}` : target;
+    url.pathname = pathname.toLowerCase();
     return NextResponse.redirect(url, 308);
   }
+
   return NextResponse.next();
 }
 
 export const config = {
   matcher: [
-    '/Career',
-    '/Career/:path*',
-    '/Successstories',
-    '/Successstories/:path*',
-    '/course/:category',
-    '/Lost-password',
-    '/Lost-password/:path*',
-    '/Reset-password',
-    '/Reset-password/:path*',
-    '/Faq',
-    '/Faq/:path*',
-    '/Faqs',
-    '/Faqs/:path*',
-    '/programs/executive-program-in-business-analytics-AI-for-leaders',
+    /*
+     * Match all request paths except:
+     * - API routes (/api/*)
+     * - Next.js internals (/_next/static/*, /_next/image/*)
+     * - Metadata files (favicon.ico, robots.txt, sitemap.xml)
+     * - Static asset files with file extensions
+     */
+    '/((?!api|_next/static|_next/image|favicon\\.ico|robots\\.txt|sitemap\\.xml|.*\\.(?:svg|png|jpg|jpeg|gif|webp|avif|ico|txt|xml|json|pdf|css|js|woff|woff2|ttf|eot)$).*)',
   ],
 };

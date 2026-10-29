@@ -7,8 +7,12 @@ import { categorySlug } from "./helpers/categorySlug";
 import { REFUND_POLICIES } from "./components/Assets/refund-policies";
 import { POLICIES } from "./components/Assets/admission-policies";
 import baselineLastmod from "./components/Assets/sitemap-lastmod.json";
+import { getBlogSitemapEntries } from "./lib/blog/sitemap-entries";
 
 const BASE_URL = "https://accredian.com";
+
+// The blog block reads WordPress (1 h data cache, refreshed on demand by the revalidation webhook).
+export const revalidate = 3600;
 
 // Dates in sitemap-lastmod.json are the frozen first version. Only commits after this
 // cutoff move a page's lastmod, so do not change it.
@@ -189,6 +193,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
+  // 7. Blog (accredian.com/blog). Deliberately not wrapped in try/catch: a WordPress failure must fail the
+  // sitemap, not silently drop the blog from it.
+  const blogEntries = await getBlogSitemapEntries();
+
   return [
     ...staticEntries,
     ...verticalEntries,
@@ -196,5 +204,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...freeCourseEntries,
     ...policyEntries,
     ...refundPolicyEntries,
+    ...blogEntries,
   ];
 }

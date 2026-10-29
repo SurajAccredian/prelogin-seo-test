@@ -432,7 +432,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "30 Aug 2026",
+    "start_date": "7 Mar 2027",
     "contact": "8851827093",
     "program_fee": 290000,
     "pid": 158,
@@ -738,7 +738,7 @@
       "referrerBonus": "₹3,000",
       "refreeBonus": "₹3,000"
     },
-    "start_date": "24 Jan 2027 ",
+    "start_date": "14 Feb 2027 ",
     "contact": "8851827093",
     "pid": 181,
     "required_years_experience": 5
@@ -1310,10 +1310,10 @@
     "required_years_experience": 5
   },
   {
-    "status": "admission closed",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "university_name": "IIM Visakhapatnam",
-    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
+    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era ",
     "duration": "11 Months",
     "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
     "batch_type": "Online",
@@ -1324,21 +1324,21 @@
       "tech risk management",
       "strategic communication"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-strategy-leadership-and-innovation-in-ai-era.pdf",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Strategy-Leadership-And-Innovation-In-AI-Era.pdf",
       "source": "IIMV Executive Program in Strategy, Leadership and Innovation in AI Era Brochure",
-      "campaign_name": "EPSLAI-IIMV-11 Months"
+      "campaign_name": "IIMV-Strategy & Leadership"
     },
     "enrolled": {
-      "referrerBonus": "₹5,000",
-      "refreeBonus": "₹5,000"
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
     },
     "notEnrolled": {
-      "referrerBonus": "₹5,000",
-      "refreeBonus": "₹5,000"
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
     },
-    "start_date": "10 May 2026",
+    "start_date": "17 Jan 2027",
     "contact": "8851827093",
     "program_fee": 300000,
     "pid": 125,
@@ -1446,7 +1446,7 @@
       "referrerBonus": "₹5,000",
       "refreeBonus": "₹5,000"
     },
-    "start_date": "13 Sep 2026",
+    "start_date": "10 Jan 2027",
     "contact": "7678385465",
     "program_fee": 245000,
     "pid": 173,
@@ -1769,7 +1769,7 @@
       "referrerBonus": "Upto ₹3,000",
       "refreeBonus": "Upto ₹3,000"
     },
-    "start_date": "30 Aug 2026",
+    "start_date": "15 Nov 2026",
     "contact": "8826567425",
     "program_fee": 240000,
     "pid": 110,
@@ -1805,7 +1805,7 @@
       "referrerBonus": "₹5,000",
       "refreeBonus": "₹5,000"
     },
-    "start_date": "27 Sep 2026",
+    "start_date": "10 Jan 2027",
     "contact": "8851827053",
     "program_fee": 400000,
     "pid": 172,
@@ -2089,7 +2089,7 @@
       "referrerBonus": "₹5,000",
       "refreeBonus": "₹5,000"
     },
-    "start_date": "27 Sep 2026",
+    "start_date": "10 Jan 2027",
     "contact": "8851827093",
     "program_fee": 349000,
     "pid": 69,

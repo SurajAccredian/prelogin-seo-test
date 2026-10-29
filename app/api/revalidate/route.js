@@ -1,5 +1,6 @@
 import { revalidateTag } from "next/cache";
 import { NextResponse } from "next/server";
+import { BLOG_TAG, handleBlogRevalidation } from "../../lib/blog/revalidate";
 
 // Regex for valid program status tag format: program-status-<numeric-pid>
 const VALID_TAG_REGEX = /^program-status-\d+$/;
@@ -128,6 +129,9 @@ export async function POST(request) {
     const tag = body.tag || searchParams.get("tag");
     const querySecret = searchParams.get("secret") || searchParams.get("token");
     const bodySecret = body.secret || body.token;
+
+    // Blog webhook (WordPress): its own fail-closed, header-only authentication. Program tags continue below.
+    if (tag === BLOG_TAG) return handleBlogRevalidation(request);
 
     console.log(`[NextRevalidate] Incoming POST revalidation request for tag: "${tag || "N/A"}"`);
 

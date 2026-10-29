@@ -1,5 +1,5 @@
 /**
- * Blog (blog.accredian.com, headless WordPress).
+ * Blog (accredian.com/blog, headless WordPress; migrated from blog.accredian.com).
  *
  * Fixes compared with the current blog markup:
  * - real author (a Person with an author page) instead of a "Person" named "Accredian"
@@ -10,6 +10,7 @@
  * Needs the WordPress snippet in wordpress/accredian-author-profile.php,
  * which adds an `author_profile` field to every post in the REST API.
  */
+import { isBulkModified } from "../blog/constants";
 import { BLOG_ID, BLOG_URL, ORG_ID, SITE_URL } from "./config";
 import { breadcrumbNode, makeGraph, ref } from "./nodes";
 import { organizationStub } from "./sitewide";
@@ -51,7 +52,7 @@ export interface BlogPostOptions {
   relatedPrograms?: Array<{ slug: string; name: string }>;
 }
 
-export const blogPostUrl = (slug: string): string => `${BLOG_URL}/blog/${slug}`;
+export const blogPostUrl = (slug: string): string => `${BLOG_URL}/${slug}`;
 export const authorPageUrl = (slug: string): string => `${BLOG_URL}/author/${slug}`;
 
 /** WordPress *_gmt values have no timezone; they are UTC, so add "Z". */
@@ -63,7 +64,7 @@ const isRealPerson = (a?: WpAuthorProfile | null): a is WpAuthorProfile =>
   Boolean(a && cleanText(a.name) && !/^(accredian|admin)$/i.test(cleanText(a.name)));
 
 export function blogNode(): JsonLdNode {
-  return { "@type": "Blog", "@id": BLOG_ID, name: "Accredian Blog", url: `${BLOG_URL}/`, publisher: ref(ORG_ID), inLanguage: "en-IN" };
+  return { "@type": "Blog", "@id": BLOG_ID, name: "Accredian Blog", url: BLOG_URL, publisher: ref(ORG_ID), inLanguage: "en-IN" };
 }
 
 export function authorPersonNode(author: WpAuthorProfile): JsonLdNode {
@@ -95,8 +96,12 @@ export function blogPostGraph(post: WpPost, options: BlogPostOptions = {}): Json
     description: stripHtml(post.excerpt?.rendered ?? "") || cleanText(options.description) || undefined,
     image: options.imageUrl,
     datePublished: withTimezone(post.date_gmt),
-    dateModified: withTimezone(post.modified_gmt ?? post.date_gmt),
-    author: author ? ref(`${authorPageUrl(author.slug)}#person`) : ref(ORG_ID),
+    // omitted for posts in a bulk-edit window: their modified date says nothing about the content
+    dateModified: isBulkModified(post.modified_gmt) ? undefined : withTimezone(post.modified_gmt ?? post.date_gmt),
+    // inline name/url for parsers that do not follow @id; the full Person node is still in the graph
+    author: author
+      ? { "@type": "Person", "@id": `${authorPageUrl(author.slug)}#person`, name: cleanText(author.name), url: authorPageUrl(author.slug) }
+      : ref(ORG_ID),
     publisher: ref(ORG_ID),
     isPartOf: ref(BLOG_ID),
     mainEntityOfPage: ref(`${url}#webpage`),
@@ -117,7 +122,7 @@ export function blogPostGraph(post: WpPost, options: BlogPostOptions = {}): Json
       breadcrumb: ref(`${url}#breadcrumb`), inLanguage: "en-IN" },
     article,
     author ? authorPersonNode(author) : null,
-    breadcrumbNode(url, [["Home", `${BLOG_URL}/`], ["Blog", `${BLOG_URL}/blog`], [headline, url]]),
+    breadcrumbNode(url, [["Home", `${SITE_URL}/`], ["Blog", BLOG_URL], [headline, url]]),
   );
 }
 

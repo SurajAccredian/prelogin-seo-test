@@ -1,6 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { userActions } from "../../store/reducers/user";
+import { freeCourseActions } from "../../store/reducers/freeCourse";
+import { checkFreeCourseEnrollment } from "../../services/auth.service";
+import { decodeToken } from "react-jwt";
+import { mergeEnrollmentDetails } from "../../helpers/enrollment.helpers";
+import "./FreeCourses.css";
 import ProgramWrapper from "../Wrapper/ProgramWrapper";
 import Hero from "./Hero";
 import Steps from "./Steps";
@@ -16,6 +23,61 @@ import Related from "./Related";
 import StickyPurchase from "./StickyPurchase";
 
 const Wrapper = ({ data }) => {
+  const dispatch = useDispatch();
+
+  // Store course metadata for registration/enroll use
+  useEffect(() => {
+    if (data && typeof window !== "undefined") {
+      localStorage.setItem("freeCourseCategory", data.category_id);
+      localStorage.setItem("freeCourseProgram", data.program_id);
+      localStorage.setItem("freeCourseBatch", data.batch_id);
+      localStorage.setItem("freeCourseTitle", data.title);
+      dispatch(freeCourseActions.setData(data));
+      dispatch(freeCourseActions.setState("success"));
+    }
+  }, [data, dispatch]);
+
+  // If the user is already logged in, check their enrollment status
+  useEffect(() => {
+    if (!data) return;
+
+    const checkStatus = async () => {
+      const cookieToken =
+        typeof document !== "undefined"
+          ? document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, "$1")
+          : "";
+      const token =
+        cookieToken || (typeof window !== "undefined" ? localStorage.getItem("token") : null);
+      if (!token) return;
+
+      if (typeof window !== "undefined" && !localStorage.getItem("token")) {
+        localStorage.setItem("token", token);
+      }
+
+      try {
+        dispatch(userActions.setAuthenticatedState(true));
+
+        const decoded = decodeToken(token);
+        const user_id = decoded?.data?.user_id || decoded?.data?.id;
+        if (!user_id) return;
+
+        const response = await checkFreeCourseEnrollment({
+          user_id,
+          program_id: data.program_id,
+        });
+
+        if (response?.enrolled && response?.enrollmentDetails?.length > 0) {
+          mergeEnrollmentDetails(response.enrollmentDetails);
+          dispatch(userActions.setAuthenticatedState(true));
+        }
+      } catch (err) {
+        console.warn("[FreeCourses] enrollment check failed:", err?.message);
+      }
+    };
+
+    checkStatus();
+  }, [data, dispatch]);
+
   const isMicrosoftCourse =
     data?.id === "transform-business-workflows-with-generative-ai" ||
     Boolean(data?.partner_name?.toLowerCase()?.includes("microsoft")) ||

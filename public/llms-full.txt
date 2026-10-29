@@ -683,7 +683,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 ### [Senior Management](https://accredian.com/course/senior-management)
 
-#### [Senior Management Program ](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
+#### [Senior Management Program](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
 - **Institution:** IIM Bodh Gaya
 - **Duration:** 11 Months
 - **Start date:** 24 Jan 2027

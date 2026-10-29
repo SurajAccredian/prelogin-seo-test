@@ -4,7 +4,7 @@
   "pid": 173,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
-  "seo_title": "Executive Program in AI Leadership | IIM Visakhapatnam",
+  "seo_title": "Leadership with AI Program IIMV | Accredian",
   "description": "Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial intelligence",
   "contact": "7678385465",
@@ -108,7 +108,11 @@
     "exclusive-merchandise",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -344,7 +348,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },
@@ -395,6 +401,6 @@
     "campaign_name": "EPLAI-IIMV-10 Months"
   },
   "og_title": "IIM Visakhapatnam - Executive Program in Leadership with AI",
-  "meta_description": "Drive enterprise growth with the Executive Program in Leadership with AI from IIM Visakhapatnam tailored for decision makers. Build technical leadership.",
-  "keywords": "AI Leadership course in India, AI Leadership program, AI Leadership certification, AI Leadership course for professionals, AI Leadership course IIM Visakhapatnam, online AI Leadership course, AI Leadership executive education"
+  "meta_description": "Build skills in strategic AI adoption, digital business strategy and team with IIM Visakhapatnam's 10-month Leadership with AI program for working managers.",
+  "keywords": "leadership with AI IIM Visakhapatnam, IIMV AI executive program, strategic AI leadership course India"
 }

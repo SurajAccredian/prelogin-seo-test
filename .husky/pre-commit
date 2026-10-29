@@ -1,6 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+node validateProgramTitles.js
 node syncPrograms.js
 node syncNumbers.js
 node syncLlms.js

@@ -11,6 +11,7 @@ Public marketing site for Accredian (accredian.com): executive programs from IIM
 - `npm run dev` — dev server on :3000
 - `npm run build` / `npm start` — production build and serve. Run `build` before calling a change done; there is no test suite.
 - `npm run lint` — ESLint (`eslint-config-next`)
+- `npm run check-titles` (or `node validateProgramTitles.js`) — validates all program titles in `app/components/Assets/programs.json` and individual program JSONs for Title Case. The husky pre-commit hook runs this and blocks the commit if any title fails validation without modifying files.
 - `node syncPrograms.js && node syncNumbers.js` — regenerate `public/programs.json`, `public/numbers.json`, `public/category-numbers.json` from `app/components/Assets/programs*`. The husky pre-commit hook runs these and stages the output.
 - `node syncLlms.js` — regenerate `public/llms.txt` and `public/llms-full.txt` from the program catalogue. The pre-commit hook runs it too.
 - `node syncSitemaps.js` — regenerate `public/sitemap.xml` and `public/sitemaps/` from the programs dir.

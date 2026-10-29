@@ -282,7 +282,7 @@
   {
     "university_name": "IIM Bodh Gaya",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idcJsgmseq_logos.webp",
-    "program_name": "Senior Management Program ",
+    "program_name": "Senior Management Program",
     "category": "senior management",
     "start_date": "14 Feb 2027 ",
     "status": "New Launch",
@@ -518,7 +518,7 @@
   {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
-    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era ",
+    "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
     "category": "strategy & leadership",
     "start_date": "17 Jan 2027",
     "status": "New Launch",

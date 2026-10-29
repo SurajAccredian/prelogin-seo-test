@@ -108,23 +108,24 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - **Institution:** IIM Kashipur
 - **Duration:** 12 Months
 - **Start date:** 7 Mar 2027
-- **Experience required:** 10+ years
+- **Experience required:** 8+ years
 - **Fee:** INR 2,90,000 + GST
 - **Description:** Embark on an 12 month learning journey in operations strategy, cross-functional leadership & strategic communication.
 - **Curriculum:**
   1. The Modern COO Role in the Enterprise
   2. Strategic Thinking & Business Acumen
   3. Financial Leadership for COOs
-  4. Revisiting the Key Pillars of Operations Management
+  4. Operations Leadership for COOs
   5. Operations Strategy & Execution Excellence
   6. Revenue Operations & Customer-Centric Delivery
   7. Building High-Performance Organizations & Culture
   8. Global Operations & Supply Chain Resilience
-  9. Risk Compliance & Crisis Leadership
+  9. Risk, Compliance & Crisis Leadership
   10. Digital Transformation & Tech-Enabled Operations
   11. Analytics & Data-Driven Decision-Making
   12. Generative AI for COOs
   13. Capstone Project
+  14. Executive Coaching / CXO Coaching
 
 #### [CTO & AI Leadership Program](https://accredian.com/programs/iimr-cto-ai-leadership-program)
 - **Institution:** IIM Ranchi

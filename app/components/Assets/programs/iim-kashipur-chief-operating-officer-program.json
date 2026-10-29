@@ -16,7 +16,7 @@
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/iimk-chief_operations-officer-program-certificate.webp",
   "start_date": "7 Mar 2027",
   "duration": "12 Months",
-  "required_years_experience": 10,
+  "required_years_experience": 8,
   "type": "online",
   "enrollments": "active",
   "timings": "weekends only",
@@ -96,7 +96,7 @@
           "Certification from IIM Kashipur",
           "Live Instructor-led Classes",
           "Executive Alumni Status",
-          "One 3-Day Campus Immersion",
+          "One Campus Immersion of 3 Days",
           "Career Assistance by Accredian",
           "EMI Options up to 24 Months"
         ]
@@ -128,8 +128,7 @@
         "CEO–COO–CFO–Board alignment and expectations",
         "Role success metrics and performance benchmarks",
         "Transition strategy and first 90 days"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Strategic Thinking & Business Acumen",
@@ -138,8 +137,7 @@
         "Competitive positioning and market analysis",
         "Resource allocation and strategic trade-offs",
         "Aligning operations with enterprise strategy"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Financial Leadership for COOs",
@@ -148,30 +146,28 @@
         "Capex vs Opex and ROI decision-making",
         "Financial storytelling and performance variance",
         "Linking operations to enterprise value creation"
-      ],
-      "modules": []
+      ]
     },
     {
-      "title": "Revisiting the Key Pillars of Operations Management",
+      "title": "Operations Leadership for COOs",
       "points": [
-        "Logistics Aspect in Supply Chain Management, Emerging Logistics Model",
-        "Procurement, Supplier Management (Including Purchasing, Strategic Sourcing and Contracts)",
-        "Warehouse, Storage and Inventory Management",
-        "Industry 4.0 towards Improved Logistics and SCM Solutions",
-        "e-Commerce, Logistics and Supply Chain Management (Strategies, Technology Management Perspective)",
-        "Quality 4.0 and Emerging Trends"
-      ],
-      "modules": []
+        "Logistics aspects in supply chain management and emerging logistics models",
+        "Procurement and supplier management, including purchasing, strategic sourcing and contracts",
+        "Warehouse, storage and inventory management",
+        "Industry 4.0 for improved logistics and SCM solutions",
+        "E-commerce, logistics and supply chain management strategies and technology management",
+        "Quality 4.0 and emerging trends"
+      ]
     },
     {
       "title": "Operations Strategy & Execution Excellence",
       "points": [
-        "Translating strategy into execution roadmaps",
-        "Designing enterprise operating rhythm",
-        "Cross-functional execution alignment",
+        "Strategy-to-execution roadmap design",
+        "Enterprise operating rhythm alignment",
+        "KPI dashboards and predictive metrics",
+        "Performance reviews and continuous improvement",
         "Scaling execution systems and playbooks (Operations Strategy Simulation)"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Revenue Operations & Customer-Centric Delivery",
@@ -180,8 +176,7 @@
         "Customer journey and experience optimization",
         "Delivery operations and service excellence",
         "Cross-functional RevOps integration"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Building High-Performance Organizations & Culture",
@@ -190,8 +185,7 @@
         "Talent strategy and leadership pipelines",
         "Performance culture and accountability systems",
         "Leading change and transformation initiatives"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Global Operations & Supply Chain Resilience",
@@ -199,19 +193,17 @@
         "Global supply chain network design",
         "Risk mapping across geopolitical and climate factors",
         "Resilient logistics and sourcing strategies",
-        "Global S&OP and cross-border coordination"
-      ],
-      "modules": []
+        "Global S&OP and cross-border coordination (Global Expansion Simulation)"
+      ]
     },
     {
-      "title": "Risk Compliance & Crisis Leadership",
+      "title": "Risk, Compliance & Crisis Leadership",
       "points": [
         "Enterprise risk management frameworks",
         "Regulatory compliance and governance systems",
         "Crisis response and business continuity planning",
-        "ESG integration into operations strategy (Risk Leadership Simulation)"
-      ],
-      "modules": []
+        "ESG integration into operations strategy"
+      ]
     },
     {
       "title": "Digital Transformation & Tech-Enabled Operations",
@@ -221,18 +213,16 @@
         "Process digitization and workflow redesign",
         "Leading large-scale digital transformation",
         "Digital twins and applications"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Analytics & Data-Driven Decision-Making",
       "points": [
         "Building a data-driven operating culture",
-        "Predictive vs prescriptive decision systems",
+        "Predictive vs. prescriptive decision systems",
         "Data visualization for executive decision-making",
         "Democratizing data across the enterprise"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Generative AI for COOs",
@@ -241,19 +231,25 @@
         "Generative AI for productivity and decision support",
         "AI-driven process automation and workflows",
         "Scaling AI adoption across the enterprise (AI Strategy Simulation)"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Capstone Project",
       "special": "1",
       "points": [
         "Diagnose current operations and identify inefficiencies",
-        "Define strategy across execution, financial performance, operating model, and technology",
-        "Build KPIs, risk frameworks, and AI integration roadmap",
-        "Deliver a board-ready plan with measurable impact, implementation timeline, and value creation outcomes aligned to business goals"
-      ],
-      "modules": []
+        "Define strategy across execution, financial performance, operating model and technology",
+        "Build KPIs, risk frameworks and an AI integration roadmap",
+        "Deliver a board-ready plan with measurable impact, implementation timeline and value creation outcomes aligned with business goals"
+      ]
+    },
+    {
+      "title": "Executive Coaching / CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Three executive coaching classes delivered by seasoned CXOs, offering insights into senior management, strategic acumen, executive roles and leadership development"
+      ]
     }
   ],
   "billing": {
@@ -266,16 +262,16 @@
     ],
     "monthly_emi": [
       {
-        "months": 12,
-        "emi": 26019
+        "emi": 26019,
+        "months": 12
       },
       {
-        "months": 18,
-        "emi": 17976
+        "emi": 17976,
+        "months": 18
       },
       {
-        "months": 24,
-        "emi": 13924
+        "emi": 13924,
+        "months": 24
       }
     ]
   },
@@ -293,22 +289,26 @@
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Chief-Operations-Officer-Program-The-COO-Program.pdf",
-    "source": "IIM-KASHIPUR Chief Operating Officer Program (The COO Program) Brochure",
+    "source": "IIM-KASHIPUR Chief Operations Officer Program (The COO Program) Brochure",
     "campaign_name": "IIM-KASHIPUR-COO-12 Months"
   },
   "faculty": [],
   "tools": [
     {
-      "title": "NotbookLM",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notbooklm.webp"
+      "title": "NotebookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notebooklm-icon.webp"
     },
     {
-      "title": "Gamma",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
+      "title": "Copilot",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/images__1_.webp"
     },
     {
       "title": "ChatGPT",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "Gamma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
     }
   ],
   "og_title": "IIM Kashipur - Chief Operating Officer Program (The COO Program)",

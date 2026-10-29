@@ -2639,7 +2639,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,30,000 + GST.",
+                            "- The program fee is INR 1,39,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },
@@ -4236,7 +4236,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 4,02,500 + GST.",
+                            "- The program fee is INR 4,00,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },
@@ -4836,7 +4836,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 2,50,000 + GST.",
+                            "- The program fee is INR 2,60,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },
@@ -5036,7 +5036,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,99,000 + GST.",
+                            "- The program fee is INR 2,10,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },

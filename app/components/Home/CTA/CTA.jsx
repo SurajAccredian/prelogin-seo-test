@@ -43,6 +43,7 @@ const CTA = () => {
           </div>
         </div>
         <button
+          data-track="Get Expert Guidance"
           onClick={handleModalOpen}
           className="cta-button w-full md:max-w-[250px] px-4 py-3  rounded-lg text-blue-500 bg-white text-lg md:text-xl font-semibold flex items-center justify-center gap-1"
         >

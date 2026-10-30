@@ -429,11 +429,10 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
 
       {(resolved.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
         <span
-          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${
-            resolved.isAdmissionClosed
+          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${resolved.isAdmissionClosed
               ? "bg-red-500 capitalize"
               : "bg-green-500"
-          } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
+            } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
         >
           {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : resolved.status}
         </span>
@@ -511,6 +510,7 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
 
           {program.brochure?.pdf && (
             <button
+              data-track="Brochure"
               onClick={() => handleOpen(program)}
               className="flex-1 border-2 border-gray-300 hover:border-universal hover:bg-universal/5 py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-1.5 font-semibold sm:text-base text-gray-700 hover:text-universal uppercase tracking-wide"
             >

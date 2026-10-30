@@ -247,6 +247,7 @@ const Hero = () => {
                           <MoveRight className="inline ml-2 mt-1 w-4 h-4" />
                         </button>
                         <button
+                          data-track={slide.id === 4 ? "See What You'll Learn" : "Talk to Expert"}
                           className="mobile-primary-button"
                           onClick={() => {
                             if (slide.id === 4) {
@@ -373,6 +374,7 @@ const Hero = () => {
                             <MoveRight className="inline ml-2 w-4 h-4 sm:w-5 sm:h-5" />
                           </button>
                           <button
+                            data-track={slide.id === 4 ? "See What You'll Learn" : "Talk to Expert"}
                             className=" w-full hero-secondary-button sm:w-auto text-nowrap font-bold border-2 border-blue-600 bg-blue-600 hover:bg-blue-700 rounded-lg text-white transition-all duration-300 shadow-xl hover:shadow-xl transform hover:scale-105"
                             onClick={() => {
                               if (slide.id === 4) {

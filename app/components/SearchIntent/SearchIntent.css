@@ -1,0 +1,61 @@
+/* Search Intent Custom Styles */
+
+.si-wrap {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+  .si-wrap {}
+}
+
+/* Marquee Animation */
+.si-marquee {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.si-track {
+  display: flex;
+  gap: 2.5rem;
+  width: max-content;
+  animation: siScroll 40s linear infinite;
+}
+
+.si-marquee:hover .si-track {
+  animation-play-state: paused;
+}
+
+@keyframes siScroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .si-track {
+    animation: none;
+  }
+}
+
+/* Horizontal Scroll for Success Stories */
+.si-story-scroll {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.75rem;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.si-story-scroll>* {
+  scroll-snap-align: start;
+}
+
+/* Card Badge Placement */
+.si-badge-offset {
+  margin-top: -1.75rem;
+}

@@ -1244,12 +1244,12 @@
     "required_years_experience": 3
   },
   {
-    "status": "admission closed",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Executive Program in Generative AI for Business Leaders",
     "duration": "7 Months",
-    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMV_LOGO.png",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "batch_type": "Online",
     "id": "executive-program-in-generative-ai-for-business-leaders",
     "category": "artificial intelligence",
@@ -1260,19 +1260,19 @@
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/senior-management.webp",
     "brochure": {
-      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-generative-ai-for-business-leaders.pdf",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Generative-AI-For-Business-Leaders.pdf",
       "source": "IIMV Executive Program in Generative AI for Business Leaders Brochure",
-      "campaign_name": "EPGAIBL-IIMV-7 Months"
+      "campaign_name": "IIMV-Artificial intelligence"
     },
     "enrolled": {
-      "referrerBonus": "₹5,000",
-      "refreeBonus": "₹5,000"
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
     },
     "notEnrolled": {
-      "referrerBonus": "₹5,000",
-      "refreeBonus": "₹5,000"
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
     },
-    "start_date": "9 May 2026",
+    "start_date": "31 Jan 2027",
     "contact": "7678385465",
     "program_fee": 180000,
     "pid": 131,

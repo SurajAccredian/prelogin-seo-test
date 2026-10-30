@@ -395,6 +395,23 @@ Fees, start dates and enrollment status change over time. Check the linked progr
   4. Building Generative AI Solutions (No/Low Code)
   5. Capstone Project
 
+#### [Executive Program in Generative AI for Business Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 7 Months
+- **Start date:** 31 Jan 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 1,80,000 + GST
+- **Description:** Embark on a 7 month learning journey in GenAI Models, Prompt Engineering, and No Code GenAI Tools.
+- **Curriculum:**
+  1. Generative AI Foundations for Leaders
+  2. Generative AI for Productivity & Automation
+  3. Building Generative AI Solutions Without Coding
+  4. Agentic AI for Autonomous Systems
+  5. Business Transformation with Generative AI
+  6. Generative AI Strategy & Roadmapping
+  7. Scaling, Governance & The Future of Work
+  8. Capstone Project
+
 #### [Executive Program in Leadership with AI](https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai)
 - **Institution:** IIM Visakhapatnam
 - **Duration:** 10 Months
@@ -971,23 +988,6 @@ These programs are not taking new registrations. Their pages remain available fo
   8. Data Science, Analytics & GenAI for CTOs
   9. Tech Governance, Risk & Cybersecurity
   10. Capstone Project
-
-#### [Executive Program in Generative AI for Business Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 7 Months
-- **Start date:** 9 May 2026
-- **Experience required:** 5+ years
-- **Fee:** INR 1,80,000 + GST
-- **Description:** Embark on a 7 month learning journey in GenAI Models, Prompt Engineering, and No Code GenAI Tools.
-- **Curriculum:**
-  1. Generative AI Foundations For Leaders
-  2. Generative AI For Productivity & Automation
-  3. Generative AI Strategy & Roadmapping
-  4. Building Generative AI Solutions Without Coding
-  5. Business Transformation With Generative AI
-  6. Agentic AI For Autonomous Systems
-  7. Leading GenAI Transformation
-  8. Capstone Project
 
 #### [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme)
 - **Institution:** IIM Visakhapatnam

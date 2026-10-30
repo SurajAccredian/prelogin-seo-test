@@ -45,6 +45,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - [Executive Program in Leadership with AI](https://accredian.com/programs/sp-jain-executive-program-in-leadership-with-ai): SP Jain School of Global Management | 7 Months | INR 1,60,000 + GST
 - [Executive Program in Generative AI & Agentic AI for Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-leaders): SP Jain School of Global Management | 7 Months | INR 1,69,000 + GST
 - [Professional Certificate in Generative AI for Business Transformation](https://accredian.com/programs/professional-certificate-in-applied-generative-ai): SP Jain School of Global Management | 4 Months | INR 1,39,000 + GST
+- [Executive Program in Generative AI for Business Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders): IIM Visakhapatnam | 7 Months | INR 1,80,000 + GST
 - [Executive Program in Leadership with AI](https://accredian.com/programs/iimv-executive-program-in-leadership-with-ai): IIM Visakhapatnam | 10 Months | INR 2,45,000 + GST
 - [Advanced Certificate Program in AI for Leaders](https://accredian.com/programs/advanced-certificate-program-in-ai-for-leaders): E&ICT Academy IIT Kanpur | 5 Months | INR 1,59,000 + GST
 - [Professional Certificate Program in Leadership with AI](https://accredian.com/programs/professional-certificate-program-in-leadership-with-ai): E&ICT Academy IIT Kanpur | 8 Months | INR 1,89,000 + GST
@@ -101,7 +102,6 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme): IIM Tiruchirappalli
 - [PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program): IIM Visakhapatnam
 - [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/chief-technology-officer-programme): IIM Visakhapatnam
-- [Executive Program in Generative AI for Business Leaders](https://accredian.com/programs/executive-program-in-generative-ai-for-business-leaders): IIM Visakhapatnam
 - [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme): IIM Visakhapatnam
 - [Professional Certificate Program in Strategic Project Management](https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management): Department of Entrepreneurship and Management, IIT Hyderabad
 - [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership): IIM Visakhapatnam

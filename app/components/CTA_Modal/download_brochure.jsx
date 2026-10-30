@@ -30,6 +30,7 @@ import { getFbc, getFbp } from "../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../helpers/ip.helpers";
 import { getBrochureCta } from "../../services/program.service";
 import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
+import { trackBrochureLeadSubmit } from "../../helpers/gtm.helpers";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -211,7 +212,7 @@ const BrochureContent = (props) => {
         form_id: "brochure",
         type: "CTA",
       };
-      
+
       try {
         const result = await getBrochureCta(sendRcbctaData);
         LoaderClose();
@@ -219,6 +220,7 @@ const BrochureContent = (props) => {
 
         if (result?.data?.status == "200" || result?.status === 200) {
           trackGoogleAdsLeadConversion();
+          trackBrochureLeadSubmit(sendRcbctaData, pathname);
           Swal.fire({
             title: "Thank You",
             text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",
@@ -519,6 +521,7 @@ const BrochureContent = (props) => {
                           textTransform: "none",
                         },
                       }}
+                      data-track="Download Brochure"
                       disabled={!captchaVerified}
                       fullWidth
                       type="submit"

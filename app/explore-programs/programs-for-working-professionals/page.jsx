@@ -85,7 +85,6 @@ export default function CoursesForWorkingProfessionalsPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="courses-for-working-professionals"
-      pageBadge="Career-Centric Executive Education"
       pageTitle="Executive Programs for Professionals"
       pageDescription="Career growth often comes from broadening your business knowledge and learning to manage new challenges. Strengthen your understanding of management, strategy, leadership, project management and the growing role of AI in business. Gain perspectives that help you connect everyday decisions with wider organisational goals. Through the executive Programs for working professionals, managers and professionals can build relevant skills, take on broader responsibilities and move towards their career aspirations."
       pageMobileDescription="Through the executive Programs for working professionals, managers and professionals can build relevant skills, take on broader responsibilities and move towards their career aspirations."

@@ -85,7 +85,6 @@ export default function ProjectManagementProgrammesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="project-management"
-      pageBadge="Project & Program Leadership"
       pageTitle="Strategic Project Management Programs"
       pageDescription="Successful projects require clear direction, effective planning and the ability to bring people together around shared goals. Develop skills in project planning, execution, resource management, risk assessment and strategic alignment. Learn to manage challenges, make informed decisions and keep projects focused on business outcomes. Through the strategic project management Programs, project managers and team leaders can improve project delivery, strengthen leadership skills and contribute more effectively to organisational goals."
       pageMobileDescription="Through the strategic project management Programs, project managers and team leaders can improve project delivery, strengthen leadership skills and contribute more effectively to organisational goals."

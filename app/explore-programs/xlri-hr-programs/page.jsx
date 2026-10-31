@@ -85,7 +85,6 @@ export default function XLRIHRCoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="xlri-hr"
-      pageBadge="XLRI Executive Education"
       pageTitle="XLRI HR & Leadership Programs"
       pageDescription="Effective HR and leadership practices play a vital role in building strong teams and achieving organisational goals. Develop your understanding of human resource management, people analytics, strategic leadership and organisational development. Gain valuable perspectives on managing talent, improving team performance and aligning people strategies with business priorities. Through the XLRI HR and leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."
       pageMobileDescription="Through the XLRI HR and leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."

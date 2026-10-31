@@ -85,7 +85,6 @@ export default function LeadershipTransitionCoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="leadership-transition"
-      pageBadge="Career Progression & Transition"
       pageTitle="Leadership Transition Programs"
       pageDescription="Moving into a leadership role means learning to guide people, make sound decisions and take responsibility for results. Build your understanding of strategy, management, organisational leadership and technology-driven change. Develop the confidence to handle new responsibilities, support team performance and contribute to wider business goals. Through these programs for transitioning into leadership roles, professionals preparing for leadership positions can strengthen their management skills, broaden their business perspective and take the next step in their careers."
       pageMobileDescription="Through these programs for transitioning into leadership roles, professionals preparing for leadership positions can strengthen their management skills, broaden their business perspective and take the next step in their careers."

@@ -85,7 +85,6 @@ export default function CareerAdvancementCoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="career-advancement"
-      pageBadge="Professional Upskilling & Growth"
       pageTitle="Career Advancement & Upskilling Programs"
       pageDescription="Staying relevant in a changing business environment means continually developing your knowledge and skills. Build expertise in business management, strategy, project management, AI and finance-related areas. Gain fresh perspectives to solve problems, adapt to new demands and identify opportunities for professional growth. Through the programs for career advancement and upskilling, professionals and managers can strengthen their capabilities, expand their career options and prepare for their next professional milestone."
       pageMobileDescription="Through the programs for career advancement and upskilling, professionals and managers can strengthen their capabilities, expand their career options and prepare for their next professional milestone."

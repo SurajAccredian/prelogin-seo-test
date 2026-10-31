@@ -85,7 +85,6 @@ export default function DataScienceProgrammesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="data-science"
-      pageBadge="Data Science & Business Analytics"
       pageTitle="Data Science & Analytics Programs"
       pageDescription="The ability to turn data into meaningful insights is increasingly valuable in business decision-making. Build your knowledge of data science, artificial intelligence, machine learning, business analytics and digital transformation. Learn to interpret data, identify patterns and use evidence to address business challenges. Through the data science and analytics Programs, data professionals and managers can strengthen analytical skills, make better-informed decisions and uncover opportunities for business growth."
       pageMobileDescription="Through the data science and analytics Programs, data professionals and managers can strengthen analytical skills, make better-informed decisions and uncover opportunities for business growth."

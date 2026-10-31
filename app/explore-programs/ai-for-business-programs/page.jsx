@@ -85,7 +85,6 @@ export default function AIBusinessCoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="ai-for-business"
-      pageBadge="Applied AI for Executives & Managers"
       pageTitle="AI Skills for Business Leadership Programs"
       pageDescription="Understanding AI can help professionals identify new opportunities, improve business processes and make better decisions. Develop your knowledge of Generative AI, Agentic AI and the practical application of AI in business and leadership. Learn to recognise where these technologies can add value and how to connect their use with organisational priorities. Through the programs to build AI skills for business, business leaders and managers can develop practical AI capabilities, improve workplace effectiveness and support responsible business innovation."
       pageMobileDescription="Through the programs to build AI skills for business, business leaders and managers can develop practical AI capabilities, improve workplace effectiveness and support responsible business innovation."

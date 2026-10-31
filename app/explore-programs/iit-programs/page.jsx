@@ -85,7 +85,6 @@ export default function IITCoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="iit"
-      pageBadge="IIT Executive Education"
       pageTitle="IIT Certificate Programs"
       pageDescription="Technology and innovation are creating new opportunities for professionals to solve business challenges and drive growth. Develop your understanding of artificial intelligence, data science, project management, product management and design thinking. Gain practical perspectives to connect new ideas with business needs and deliver meaningful results. Through the IIT certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
       pageMobileDescription="Through the IIT certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."

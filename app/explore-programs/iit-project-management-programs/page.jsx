@@ -85,7 +85,6 @@ export default function IITProjectManagementProgrammesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="iit-project-management"
-      pageBadge="IIT Executive Education"
       pageTitle="IIT Project Management Programs"
       pageDescription="Strong project leadership helps organisations turn plans into measurable results. Build your understanding of strategic project planning, execution, risk management and leadership. Learn to coordinate resources, address challenges and keep projects aligned with wider organisational priorities. Through the IIT project management Programs, project managers and professionals can strengthen their project management capabilities, lead teams with confidence and deliver outcomes that support business goals."
       pageMobileDescription="Through the IIT project management Programs, project managers and professionals can strengthen their project management capabilities, lead teams with confidence and deliver outcomes that support business goals."

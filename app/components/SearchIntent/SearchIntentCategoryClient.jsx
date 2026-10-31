@@ -19,7 +19,6 @@ const EXPERIENCE_OPTIONS = ["3–5 yrs", "5–10 yrs", "10+ yrs"];
 
 export default function SearchIntentCategoryClient({
   pageTitle,
-  pageBadge = "Executive Education",
   pageDescription,
   pageMobileDescription,
   mobileDescription,
@@ -209,7 +208,6 @@ export default function SearchIntentCategoryClient({
 
       {/* Main Page Hero */}
       <SearchIntentHero
-        badge={pageBadge}
         title={pageTitle}
         description={pageDescription}
         mobileDescription={pageMobileDescription || mobileDescription}

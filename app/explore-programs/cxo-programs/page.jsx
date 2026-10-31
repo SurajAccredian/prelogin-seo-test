@@ -85,7 +85,6 @@ export default function CXOProgrammesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="cxo"
-      pageBadge="C-Suite & Executive Leadership"
       pageTitle="CXO & Strategic Leadership Programs"
       pageDescription="Long-term business success depends on leaders who can set a clear direction, inspire teams and turn strategy into results. Strengthen your understanding of strategic decision-making, organisational leadership, business transformation and emerging technologies. Develop a broader perspective on managing complexity, guiding change and creating sustainable business value. Through the CXO and strategic leadership Programs, senior executives and future business leaders can sharpen their strategic thinking, strengthen leadership capabilities and prepare to lead organisations through change."
       pageMobileDescription="Through the CXO and strategic leadership Programs, senior executives and future business leaders can sharpen their strategic thinking, strengthen leadership capabilities and prepare to lead organisations through change."

@@ -85,7 +85,6 @@ export default function CSuiteProgrammesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="c-suite"
-      pageBadge="C-Suite Officer Pathways"
       pageTitle="CXO Programs for Leaders"
       pageDescription="Leading at the highest level requires a clear vision, strong business judgement and the ability to turn strategy into action. Build your understanding of organisational strategy, business transformation, technology, people and performance. Develop the perspective to navigate complex decisions, respond to change and create sustainable value. Through the CXO Programs for business leaders, senior executives and aspiring CXOs can strengthen their strategic capabilities, lead with greater confidence and guide their organisations towards long-term success."
       pageMobileDescription="Through the CXO Programs for business leaders, senior executives and aspiring CXOs can strengthen their strategic capabilities, lead with greater confidence and guide their organisations towards long-term success."

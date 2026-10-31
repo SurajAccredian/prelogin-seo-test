@@ -85,7 +85,6 @@ export default function IIMAICoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="iim-ai"
-      pageBadge="IIM AI & Technology Leadership"
       pageTitle="IIM Artificial Intelligence Programs"
       pageDescription="Artificial intelligence is opening new possibilities for business innovation, productivity and strategic growth. Develop your understanding of Generative AI, Agentic AI and AI-enabled leadership through learning opportunities that connect technology with business priorities. Learn how to identify relevant use cases, assess opportunities and support AI adoption within organisations. Through the IIM artificial intelligence Programs, business leaders and senior professionals can build the knowledge to make informed AI decisions, improve processes and lead technology-driven change."
       pageMobileDescription="Through the IIM artificial intelligence Programs, business leaders and senior professionals can build the knowledge to make informed AI decisions, improve processes and lead technology-driven change."

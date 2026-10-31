@@ -85,7 +85,6 @@ export default function AIGenAICoursesPage() {
   return (
     <SearchIntentCategoryClient
       filterKey="ai-genai"
-      pageBadge="AI & GenAI Executive Education"
       pageTitle="Generative AI & Agentic AI Programs"
       pageDescription="Artificial intelligence is reshaping how organisations innovate, make decisions and create value. Build your understanding of Generative AI, Agentic AI and the role of AI in business strategy and leadership. Learn to identify opportunities where AI can improve processes, support decisions and solve business problems. Through the Generative AI and artificial intelligence Programs, business leaders and managers can develop the confidence to apply AI effectively and drive meaningful change within their organisations."
       pageMobileDescription="Through the Generative AI and artificial intelligence Programs, business leaders and managers can develop the confidence to apply AI effectively and drive meaningful change within their organisations."

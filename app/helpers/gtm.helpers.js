@@ -10,10 +10,16 @@ export const trackBrochureLeadSubmit = (payload, pathname = "/") => {
   if (!isHomePage) return;
 
   try {
-    const newId = () =>
-      typeof window.crypto?.randomUUID === "function"
+    const eid = payload?.mx_Event_ID || (
+      (typeof window !== "undefined" && window.crypto?.randomUUID)
         ? window.crypto.randomUUID()
-        : Date.now() + "." + Math.random().toString(36).slice(2, 10);
+        : Date.now() + "." + Math.random().toString(36).slice(2, 10)
+    );
+
+    // Pass eid to the payload so it can be forwarded to LeadSquared
+    if (payload) {
+      payload.mx_Event_ID = eid;
+    }
 
     // Normalize phone number to E.164 (+<country_code><digits>)
     const rawDigits = String(payload.phone || "").replace(/\D/g, "");
@@ -29,7 +35,8 @@ export const trackBrochureLeadSubmit = (payload, pathname = "/") => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: "brochure-lead-submit",
-      event_id: newId(),
+      event_id: eid,
+      mx_Event_ID: eid,
       FirstName: (payload.name || "").trim(),
       EmailAddress: (payload.email || "").trim().toLowerCase(),
       Phone: formattedPhone,
@@ -48,9 +55,10 @@ export const trackBrochureLeadSubmit = (payload, pathname = "/") => {
       mx_Fbp_Facebook_Browser_ID: payload.fbp_field || "",
       mx_Client_IP: payload.ip_field || "",
     });
+
+    return eid;
   } catch (err) {
     // Fail silently to never interrupt user interaction
     console.error("[dataLayer] Failed to push brochure-lead-submit:", err);
   }
 };
-

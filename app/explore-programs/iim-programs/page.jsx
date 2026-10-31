@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "IIM Online Programs for Working Executives | Accredian",
+  title: "Best IIM Online Programs for Working Executives",
   description:
     "Build leadership, management, AI and business expertise through IIM executive and certificate programs designed for ambitious working professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/iim-programs",
   },
   openGraph: {
-    title: "IIM Online Programs for Working Executives | Accredian",
+    title: "Best IIM Online Programs for Working Executives",
     description:
       "Build leadership, management, AI and business expertise through IIM executive and certificate programs designed for ambitious working professionals.",
     url: "https://accredian.com/explore-programs/iim-programs",
@@ -86,7 +86,7 @@ export default function IIMCoursesPage() {
     <SearchIntentCategoryClient
       filterKey="iim"
       pageTitle="IIM Executive & Certificate Programs"
-      pageDescription="Build your knowledge across management, strategy, finance, human resources and emerging business technologies. Gain broader business perspectives to approach challenges with confidence and make informed decisions. A strong understanding of management principles, strategic decision-making and core business functions is essential for effective leadership. Through the IIM certificate Programs, senior managers and business leaders can strengthen their leadership capabilities, improve business performance and prepare for greater responsibilities."
+      pageDescription="Build your knowledge across management, strategy, finance, human resources and emerging business technologies. Gain broader business perspectives to approach challenges with confidence and make informed decisions. A strong understanding of management principles, strategic decision-making and core business functions is essential for effective leadership. Through the Indian Institute of Management Certificate Programs, senior managers and business leaders can strengthen their leadership capabilities, improve business performance and prepare for greater responsibilities."
       pageMobileDescription="Through the IIM certificate Programs, senior managers and business leaders can strengthen their leadership capabilities, improve business performance and prepare for greater responsibilities."
       breadcrumbLabel="IIM Programs"
       faqs={IIM_FAQS}

@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "CXO Programs for Business Leaders & Executives | Accredian",
+  title: "Future-Ready CXO Programs for Business Leaders & Executives",
   description:
     "Prepare for the C-suite with CXO Programs designed for business leaders in CEO, CFO, CTO, CHRO, CMO and COO roles. Gain strategic vision and impact.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/c-suite-programs",
   },
   openGraph: {
-    title: "CXO Programs for Business Leaders & Executives | Accredian",
+    title: "Future-Ready CXO Programs for Business Leaders & Executives",
     description:
       "Prepare for the C-suite with CXO Programs designed for business leaders in CEO, CFO, CTO, CHRO, CMO and COO roles. Gain strategic vision and impact.",
     url: "https://accredian.com/explore-programs/c-suite-programs",

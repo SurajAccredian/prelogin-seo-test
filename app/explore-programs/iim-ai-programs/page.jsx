@@ -86,7 +86,7 @@ export default function IIMAICoursesPage() {
     <SearchIntentCategoryClient
       filterKey="iim-ai"
       pageTitle="IIM Artificial Intelligence Programs"
-      pageDescription="Artificial intelligence is opening new possibilities for business innovation, productivity and strategic growth. Develop your understanding of Generative AI, Agentic AI and AI-enabled leadership through learning opportunities that connect technology with business priorities. Learn how to identify relevant use cases, assess opportunities and support AI adoption within organisations. Through the IIM artificial intelligence Programs, business leaders and senior professionals can build the knowledge to make informed AI decisions, improve processes and lead technology-driven change."
+      pageDescription="Artificial intelligence is opening new possibilities for business innovation, productivity and strategic growth. Develop your understanding of Generative AI, Agentic AI and AI-enabled leadership through learning opportunities that connect technology with business priorities. Learn how to identify relevant use cases, assess opportunities and support AI adoption within organisations. Through the Indian Institute of Management's Artificial Intelligence Programs, business leaders and senior professionals can build the knowledge to make informed AI decisions, improve processes and lead technology-driven change."
       pageMobileDescription="Through the IIM artificial intelligence Programs, business leaders and senior professionals can build the knowledge to make informed AI decisions, improve processes and lead technology-driven change."
       breadcrumbLabel="IIM AI Programs"
       faqs={IIM_AI_FAQS}

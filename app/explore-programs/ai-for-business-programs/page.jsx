@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "Generative AI Courses for Business Leaders | Accredian",
+  title: "Best Generative AI Courses for Working Professionals",
   description:
     "Build practical, in-demand AI skills for business through Generative AI and Agentic AI Programs designed for leaders and busy working professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/ai-for-business-programs",
   },
   openGraph: {
-    title: "Generative AI Courses for Business Leaders | Accredian",
+    title: "Best Generative AI Courses for Working Professionals",
     description:
       "Build practical, in-demand AI skills for business through Generative AI and Agentic AI Programs designed for leaders and busy working professionals.",
     url: "https://accredian.com/explore-programs/ai-for-business-programs",

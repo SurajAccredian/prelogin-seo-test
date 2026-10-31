@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "Career Advancement Programs for Working Professionals",
+  title: "Top Upskilling Courses for Working Professionals",
   description:
     "Accelerate your career growth through top upskilling programs in leadership, AI, data and management designed for experienced working professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/career-advancement-programs",
   },
   openGraph: {
-    title: "Career Advancement Programs for Working Professionals",
+    title: "Top Upskilling Courses for Working Professionals",
     description:
       "Accelerate your career growth through top upskilling programs in leadership, AI, data and management designed for experienced working professionals.",
     url: "https://accredian.com/explore-programs/career-advancement-programs",

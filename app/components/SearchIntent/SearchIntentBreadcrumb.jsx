@@ -27,8 +27,8 @@ export default function SearchIntentBreadcrumb({ items = [] }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <nav aria-label="Breadcrumb" className="w-full bg-white border-b border-neutral-200">
-        <div className="si-wrap py-2.5 sm:py-3.5 flex items-center gap-1.5 sm:gap-2 text-xs md:text-sm text-neutral-500 font-circular overflow-x-auto whitespace-nowrap">
+      <nav aria-label="Breadcrumb" className="w-full bg-white border-b border-neutral-200 relative z-10 mt-[54px] md:mt-0">
+        <div className="si-wrap py-2.5 sm:py-3 flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-neutral-500 font-circular overflow-x-auto whitespace-nowrap [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {items.map((item, index) => {
             const isLast = index === items.length - 1;
             return (

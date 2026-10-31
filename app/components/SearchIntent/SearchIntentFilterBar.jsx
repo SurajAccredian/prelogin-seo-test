@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiSearch, FiRotateCcw, FiFilter, FiX } from "react-icons/fi";
 import { IoIosArrowDown, IoIosClose } from "react-icons/io";
 
@@ -23,6 +23,22 @@ export default function SearchIntentFilterBar({
   shortlistCount = 0,
 }) {
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const [headerHeight, setHeaderHeight] = useState(165);
+
+  useEffect(() => {
+    const updateHeaderHeight = () => {
+      const header = document.getElementById("site-header");
+      if (header) {
+        setHeaderHeight(header.offsetHeight);
+      } else {
+        setHeaderHeight(window.innerWidth >= 1024 ? 138 : 165);
+      }
+    };
+
+    updateHeaderHeight();
+    window.addEventListener("resize", updateHeaderHeight);
+    return () => window.removeEventListener("resize", updateHeaderHeight);
+  }, []);
 
   const activeFacetCount =
     (selectedDomain ? 1 : 0) +
@@ -33,7 +49,13 @@ export default function SearchIntentFilterBar({
   const hasActiveFilters = Boolean(searchQuery || activeFacetCount > 0);
 
   return (
-    <div className="w-full bg-white rounded-xl border border-neutral-200/90 p-3 sm:p-4 shadow-sm font-circular relative lg:sticky lg:top-[138px] z-20">
+    <div
+      className="w-full bg-white rounded-xl border border-neutral-200/90 p-3 sm:p-4 shadow-sm font-circular sticky z-20 transition-all overflow-y-auto"
+      style={{
+        top: `${headerHeight}px`,
+        maxHeight: `calc(100vh - ${headerHeight + 20}px)`,
+      }}
+    >
       {/* =========================================================================
           MOBILE VIEW (< lg)
          ========================================================================= */}
@@ -72,11 +94,10 @@ export default function SearchIntentFilterBar({
             <button
               type="button"
               onClick={() => setIsMobileFilterOpen(!isMobileFilterOpen)}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold transition-colors ${
-                isMobileFilterOpen || activeFacetCount > 0
-                  ? "bg-universal/10 border-universal/30 text-universal"
-                  : "bg-neutral-50 border-neutral-300 text-neutral-700 hover:bg-neutral-100"
-              }`}
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold transition-colors ${isMobileFilterOpen || activeFacetCount > 0
+                ? "bg-universal/10 border-universal/30 text-universal"
+                : "bg-neutral-50 border-neutral-300 text-neutral-700 hover:bg-neutral-100"
+                }`}
               aria-expanded={isMobileFilterOpen}
             >
               <FiFilter className="text-xs" />
@@ -87,9 +108,8 @@ export default function SearchIntentFilterBar({
                 </span>
               )}
               <IoIosArrowDown
-                className={`text-xs transition-transform duration-200 ${
-                  isMobileFilterOpen ? "rotate-180" : ""
-                }`}
+                className={`text-xs transition-transform duration-200 ${isMobileFilterOpen ? "rotate-180" : ""
+                  }`}
               />
             </button>
 

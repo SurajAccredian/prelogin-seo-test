@@ -213,14 +213,17 @@ const BrochureContent = (props) => {
         type: "CTA",
       };
 
+      // 1. Push to dataLayer with eid and stamp sendRcbctaData.mx_Event_ID = eid
+      trackBrochureLeadSubmit(sendRcbctaData, pathname);
+
       try {
+        // 2. Send payload containing the exact same mx_Event_ID to backend
         const result = await getBrochureCta(sendRcbctaData);
         LoaderClose();
         props.handleClose();
 
         if (result?.data?.status == "200" || result?.status === 200) {
           trackGoogleAdsLeadConversion();
-          trackBrochureLeadSubmit(sendRcbctaData, pathname);
           Swal.fire({
             title: "Thank You",
             text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",

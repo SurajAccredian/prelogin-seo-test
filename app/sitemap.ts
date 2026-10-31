@@ -40,24 +40,23 @@ const STATIC_PATHS = [
 ];
 
 const SEARCH_INTENT_PATHS = [
-
-  "/professional-courses/iim-courses",
-  "/professional-courses/iit-courses",
-  "/professional-courses/xlri-courses",
-  "/professional-courses/ai-genai-courses",
-  "/professional-courses/ai-for-business-courses",
-  "/professional-courses/iim-ai-courses",
-  "/professional-courses/cxo-programmes",
-  "/professional-courses/c-suite-programmes",
-  "/professional-courses/senior-leadership-programmes",
-  "/professional-courses/leadership-transition-courses",
-  "/professional-courses/career-advancement-courses",
-  "/professional-courses/courses-for-working-professionals",
-  "/professional-courses/data-science-courses",
-  "/professional-courses/design-thinking-courses",
-  "/professional-courses/project-management-courses",
-  "/professional-courses/iit-project-management-courses",
-  "/professional-courses/xlri-hr-courses",
+  "/explore-programs/iim-programs",
+  "/explore-programs/iit-programs",
+  "/explore-programs/xlri-programs",
+  "/explore-programs/ai-genai-programs",
+  "/explore-programs/ai-for-business-programs",
+  "/explore-programs/iim-ai-programs",
+  "/explore-programs/cxo-programs",
+  "/explore-programs/c-suite-programs",
+  "/explore-programs/senior-leadership-programs",
+  "/explore-programs/leadership-transition-programs",
+  "/explore-programs/career-advancement-programs",
+  "/explore-programs/programs-for-working-professionals",
+  "/explore-programs/data-science-programs",
+  "/explore-programs/design-thinking-programs",
+  "/explore-programs/project-management-programs",
+  "/explore-programs/iit-project-management-programs",
+  "/explore-programs/xlri-hr-programs",
 ];
 
 const baseline = baselineLastmod as Record<string, string>;

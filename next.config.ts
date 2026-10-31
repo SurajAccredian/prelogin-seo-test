@@ -29,6 +29,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/professional-courses/:slug*",
+        destination: "/explore-programs/:slug*",
+        statusCode: 301,
+      },
+      {
         source: "/Faqs/program",
         destination: "/faq",
         statusCode: 301,
@@ -53,6 +58,11 @@ const nextConfig: NextConfig = {
         destination: "/refund-policies/accredian-policy",
         statusCode: 301,
       },
+      {
+        source: "/explore-programs",
+        destination: "/programs",
+        statusCode: 301,
+      }
     ];
   },
 };

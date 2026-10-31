@@ -18,29 +18,29 @@ export default function SearchIntentCTA({
   };
 
   return (
-    <section className="w-full bg-gradient-to-br from-universal to-darkBlue text-white py-16 md:py-20 font-circular">
+    <section className="w-full bg-gradient-to-br from-universal to-darkBlue text-white py-10 sm:py-14 md:py-20 font-circular">
       <div className="si-wrap text-center max-w-3xl">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white leading-tight">
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-white leading-tight">
           {title}
         </h2>
-        <p className="mt-4 text-sm sm:text-base text-blue-100 leading-relaxed max-w-2xl mx-auto">
+        <p className="mt-3 sm:mt-4 text-xs sm:text-sm md:text-base text-blue-100 leading-relaxed max-w-2xl mx-auto">
           {description}
         </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-3.5">
+        <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 w-full max-w-sm sm:max-w-none mx-auto">
           <a
             href={`#${exploreTargetId}`}
             onClick={scrollToExplore}
-            className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-100 text-universal font-bold text-sm inline-flex items-center gap-2 transition-all shadow-md"
+            className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-xl bg-white hover:bg-slate-100 text-universal font-bold text-xs sm:text-sm inline-flex items-center justify-center gap-2 transition-all shadow-md"
           >
             <FiCompass className="text-base" />
-            Explore Programs
+            <span>Explore Programs</span>
           </a>
           <Link
             href={advisorHref}
-            className="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold text-sm inline-flex items-center gap-2 transition-all"
+            className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold text-xs sm:text-sm inline-flex items-center justify-center gap-2 transition-all"
           >
             <FiPhoneCall className="text-base" />
-            Talk to an Advisor
+            <span>Talk to an Advisor</span>
           </Link>
         </div>
       </div>

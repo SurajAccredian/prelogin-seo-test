@@ -5,6 +5,7 @@ import { categorySlug } from './app/helpers/categorySlug';
 // Legacy structural redirects: maps old URL structures to new destinations (301)
 const LEGACY_STRUCTURAL_REDIRECTS: Record<string, string> = {
   '/terms/refund': '/refund-policies/accredian-policy',
+  '/explore-programs': '/programs'
 };
 
 export function middleware(request: NextRequest) {
@@ -75,7 +76,7 @@ export function middleware(request: NextRequest) {
       let decoded = segment;
       try {
         decoded = decodeURIComponent(segment);
-      } catch {}
+      } catch { }
       const canonical = categorySlug(decoded);
       const target = `/course/${canonical}`;
       if (target !== pathname) {

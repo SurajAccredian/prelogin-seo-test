@@ -435,6 +435,8 @@ export const generateFAQFromTemplate = (programData) => {
     const universityCode =
     programData.id == "post-graduate-diploma-in-management-for-working-executives"
         ? "iimv-diploma"
+        : programData.id == "executive-program-in-generative-ai-for-business-leaders"
+        ? "iimv_genai_business_leaders"
         : programData.short_university_name?.toLowerCase() === "iimv"
         ? "iimv-v2"
         : programData.id == "executive-general-management-program"

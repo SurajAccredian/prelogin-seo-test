@@ -19,8 +19,9 @@ const EXPERIENCE_OPTIONS = ["3–5 yrs", "5–10 yrs", "10+ yrs"];
 
 export default function SearchIntentCategoryClient({
   pageTitle,
-  pageBadge = "Executive Education",
   pageDescription,
+  pageMobileDescription,
+  mobileDescription,
   breadcrumbLabel,
   filterKey = null,
   filterConfig = null,
@@ -200,20 +201,20 @@ export default function SearchIntentCategoryClient({
       <SearchIntentBreadcrumb
         items={[
           { label: "Home", href: "/" },
-          { label: "Explore All", href: "/programs" },
+          { label: "Explore Programs", href: "/programs" },
           { label: breadcrumbLabel || pageTitle },
         ]}
       />
 
       {/* Main Page Hero */}
       <SearchIntentHero
-        badge={pageBadge}
         title={pageTitle}
         description={pageDescription}
+        mobileDescription={pageMobileDescription || mobileDescription}
       />
 
       {/* Explore Section */}
-      <main id="explore" className="w-full bg-slate-50/70 py-12 md:py-16 font-circular">
+      <main id="explore" className="w-full bg-slate-50/70 py-8 md:py-14 font-circular">
         <div className="si-wrap">
           <div className="mb-6">
             <h2 className="text-2xl sm:text-3xl font-bold text-neutral-900 tracking-tight">

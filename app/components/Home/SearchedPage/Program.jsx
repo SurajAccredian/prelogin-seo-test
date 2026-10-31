@@ -122,7 +122,7 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
                 ? `/free-courses/${program.id}`
                 : `/programs/${program.id}`
             }
-            className={`px-2 py-2.5 flex-1 text-sm font-semibold border rounded-lg text-center transition-colors ${isClosed
+            className={`px-2 py-2.5 flex-1 text-xs sm:text-sm font-semibold border rounded-lg text-center transition-colors whitespace-nowrap ${isClosed
               ? "border-neutral-300 text-neutral-600 bg-white/80 hover:bg-neutral-100"
               : "border-neutral-300 text-neutral-800 hover:bg-neutral-50"
               }`}
@@ -132,7 +132,7 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
           <button
             onClick={() => handleOpen(program)}
             disabled={isClosed || allowedIds.includes(program?.id)}
-            className="px-2 py-2.5 flex-1 disabled:bg-gray-400 cursor-pointer disabled:cursor-not-allowed text-sm font-semibold bg-universal text-white rounded-lg"
+            className="px-2 py-2.5 flex-1 disabled:bg-gray-400 cursor-pointer disabled:cursor-not-allowed text-xs sm:text-sm font-semibold bg-universal text-white rounded-lg whitespace-nowrap"
           >
             Get Brochure
           </button>

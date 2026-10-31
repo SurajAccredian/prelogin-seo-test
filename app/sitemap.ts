@@ -39,6 +39,26 @@ const STATIC_PATHS = [
   "/app-support",
 ];
 
+const SEARCH_INTENT_PATHS = [
+  "/explore-programs/iim-programs",
+  "/explore-programs/iit-programs",
+  "/explore-programs/xlri-programs",
+  "/explore-programs/ai-genai-programs",
+  "/explore-programs/ai-for-business-programs",
+  "/explore-programs/iim-ai-programs",
+  "/explore-programs/cxo-programs",
+  "/explore-programs/c-suite-programs",
+  "/explore-programs/senior-leadership-programs",
+  "/explore-programs/leadership-transition-programs",
+  "/explore-programs/career-advancement-programs",
+  "/explore-programs/programs-for-working-professionals",
+  "/explore-programs/data-science-programs",
+  "/explore-programs/design-thinking-programs",
+  "/explore-programs/project-management-programs",
+  "/explore-programs/iit-project-management-programs",
+  "/explore-programs/xlri-hr-programs",
+];
+
 const baseline = baselineLastmod as Record<string, string>;
 
 // Latest commit date per file (lowercased repo path) for commits made after the baseline cutoff
@@ -196,9 +216,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 7. Blog (accredian.com/blog). Deliberately not wrapped in try/catch: a WordPress failure must fail the
   // sitemap, not silently drop the blog from it.
   const blogEntries = await getBlogSitemapEntries();
+  // 1b. Search Intent Category Pages
+  const searchIntentEntries: MetadataRoute.Sitemap = SEARCH_INTENT_PATHS.map((p) => {
+    const url = `${BASE_URL}${p}`;
+    return {
+      url,
+      ...withDate(lastmodOf(url, `app${p}/page.jsx`)),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    };
+  });
 
   return [
     ...staticEntries,
+    ...searchIntentEntries,
     ...verticalEntries,
     ...programEntries,
     ...freeCourseEntries,

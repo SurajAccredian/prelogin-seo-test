@@ -468,7 +468,7 @@ const SearchedPageInner = () => {
                 Explore Executive Certification Programs
               </h1>
               <p className="text-neutral-600 text-sm sm:text-base mt-1.5">
-                Discover world-class certification programs in AI, leadership, strategy and management from leading IIMs, IITs & XLRI.
+                Discover world-class certification programs in AI, leadership, strategy and management from leading IIMs, IITs & XLRI and many more.
               </p>
             </div>
             <div className="w-full flex gap-6">

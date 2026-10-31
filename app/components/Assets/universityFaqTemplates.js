@@ -8093,4 +8093,215 @@ export const universityFaqTemplates = {
             }
         ],
     },
+    iimv_genai_business_leaders: {
+        templateId: "iimv_genai_business_leaders_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIM Visakhapatnam Executive Program in Generative AI for Business Leaders Program about?",
+                        content: [
+                            "The Executive Program in Generative AI for Business Leaders is a 7 Months program offered by IIM Visakhapatnam. It is designed to equip learners with core Artificial intelligence skills."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 7 Months comprising 7 modules, covering all core aspects of Artificial intelligence: GenAI Models, Prompt Engineering, and No Code GenAI Tools.",
+                            "- **Duration:** 7 Months",
+                            "- **Learning Format:** 80+ hours of live online sessions, with study materials available for 3 years from the batch start date",
+                            "- **Class Timings:** Conducted on weekends",
+                            "- **Flexibility:** Recordings & study materials available"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in Artificial intelligence to enroll?",
+                        content: [
+                            "Prior Artificial intelligence experience is not mandatory."
+                        ]
+                    },
+                    {
+                        title: "How do I apply?",
+                        content: [
+                            "- Click the **“Enroll Now”** button at the top of the webpage.",
+                            "- Fill the application form and pay the fees.",
+                            "- Selected Candidates will receive Admission Confirmation Letter from the institute."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIM Visakhapatnam after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Visakhapatnam upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% or above, along with a 50% score in the overall assessment.",
+                            "",
+                            "- **Participation Certificate will be issued if:** Attendance is below 70% (no Completion Certificate in this case)",
+                            "",
+                            "- **Physical Copy of Program Completion Certificate:** Applicable for campus immersion participants, subject to minimum attendance."
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is a professional certificate program recognized by employers and issued by IIM Visakhapatnam."
+                        ]
+                    },
+                    {
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Visakhapatnam?",
+                        content: [
+                            "Yes. Participants will receive IIM Visakhapatnam Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIM Visakhapatnam confirming my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by IIM Visakhapatnam Faculty and industry experts with extensive hands-on experience."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, case studies, and  capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, **please note that no placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Graduates can explore roles such as AI Innovation Strategist, AI Operations Manager, AI Product Manager, Digital Transformation Manager, AI Ethics and Compliance Officer, Data Strategist, AI Solutions Architect, Automation Specialist, Business Intelligence Analyst, GenAI Transformation Manager, etc."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is INR 1,80,000 + GST.",
+                            "- Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: [Policy Details](https://accredian.com/policies/iimv-policy)"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "Is there a campus immersion in the program?",
+                        content: [
+                            "Yes, the program has One Campus Immersion of 2 days (Opt.)."
+                        ]
+                    },
+                    {
+                        title: "What does the IIM Visakhapatnam campus immersion include, and how is it scheduled?",
+                        content: [
+                            "Yes. Participants can opt for a 2-day Campus Immersion at IIM Visakhapatnam for an additional fee of INR 15,000 + GST.",
+                            "- Food and accommodation are included in the program fee",
+                            "- Travel cost is not included and must be arranged by the participant",
+                            "- IIM Visakhapatnam will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Visakhapatnam's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in GenAI Models, Prompt Engineering, and No Code GenAI Tools, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
 };

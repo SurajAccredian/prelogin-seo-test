@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "Executive Programs for Working Professionals | Accredian",
+  title: "Best Executive Programs for Working Professionals | Accredian",
   description:
     "Upskill without pausing your career through executive Programs in leadership, management, AI and technology designed for busy working professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/programs-for-working-professionals",
   },
   openGraph: {
-    title: "Executive Programs for Working Professionals | Accredian",
+    title: "Best Executive Programs for Working Professionals | Accredian",
     description:
       "Upskill without pausing your career through executive Programs in leadership, management, AI and technology designed for busy working professionals.",
     url: "https://accredian.com/explore-programs/programs-for-working-professionals",

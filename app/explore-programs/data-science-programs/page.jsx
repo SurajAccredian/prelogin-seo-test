@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "Data Science Programs for Working Professionals",
+  title: "Best Data Science Programs for Working Professionals",
   description:
     "Build data-driven decision-making skills in data science, analytics and AI through expert-led programs designed for ambitious working professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/data-science-programs",
   },
   openGraph: {
-    title: "Data Science Programs for Working Professionals",
+    title: "Best Data Science Programs for Working Professionals",
     description:
       "Build data-driven decision-making skills in data science, analytics and AI through expert-led programs designed for ambitious working professionals.",
     url: "https://accredian.com/explore-programs/data-science-programs",

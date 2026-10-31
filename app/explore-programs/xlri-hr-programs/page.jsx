@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "XLRI HR Programs for Working Professionals",
+  title: "Best XLRI HR Programs for Working Professionals",
   description:
     "Advance your expertise in strategic HR, people analytics and leadership through XLRI Programs designed for experienced HR and business professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/xlri-hr-programs",
   },
   openGraph: {
-    title: "XLRI HR Programs for Working Professionals",
+    title: "Best XLRI HR Programs for Working Professionals",
     description:
       "Advance your expertise in strategic HR, people analytics and leadership through XLRI Programs designed for experienced HR and business professionals.",
     url: "https://accredian.com/explore-programs/xlri-hr-programs",
@@ -86,7 +86,7 @@ export default function XLRIHRCoursesPage() {
     <SearchIntentCategoryClient
       filterKey="xlri-hr"
       pageTitle="XLRI HR & Leadership Programs"
-      pageDescription="Effective HR and leadership practices play a vital role in building strong teams and achieving organisational goals. Develop your understanding of human resource management, people analytics, strategic leadership and organisational development. Gain valuable perspectives on managing talent, improving team performance and aligning people strategies with business priorities. Through the XLRI HR and leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."
+      pageDescription="Effective HR and leadership practices play a vital role in building strong teams and achieving organisational goals. Develop your understanding of human resource management, people analytics, strategic leadership and organisational development. Gain valuable perspectives on managing talent, improving team performance and aligning people strategies with business priorities. Through the XLRI – Xavier School of Management HR and Leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."
       pageMobileDescription="Through the XLRI HR and leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."
       breadcrumbLabel="XLRI HR & Leadership"
       faqs={XLRI_HR_FAQS}

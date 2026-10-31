@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "IIT Executive Programs for Senior Leadership | Accredian",
+  title: "Top IIT Certificate Programs for Working Professionals",
   description:
     "Build future-ready expertise in AI, data science, project management and innovation through top IIT programs designed for experienced professionals.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/iit-programs",
   },
   openGraph: {
-    title: "IIT Executive Programs for Senior Leadership | Accredian",
+    title: "Top IIT Certificate Programs for Working Professionals",
     description:
       "Build future-ready expertise in AI, data science, project management and innovation through top IIT programs designed for experienced professionals.",
     url: "https://accredian.com/explore-programs/iit-programs",
@@ -86,7 +86,7 @@ export default function IITCoursesPage() {
     <SearchIntentCategoryClient
       filterKey="iit"
       pageTitle="IIT Certificate Programs"
-      pageDescription="Technology and innovation are creating new opportunities for professionals to solve business challenges and drive growth. Develop your understanding of artificial intelligence, data science, project management, product management and design thinking. Gain practical perspectives to connect new ideas with business needs and deliver meaningful results. Through the IIT certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
+      pageDescription="Technology and innovation are creating new opportunities for professionals to solve business challenges and drive growth. Develop your understanding of artificial intelligence, data science, project management, product management and design thinking. Gain practical perspectives to connect new ideas with business needs and deliver meaningful results. Through the Indian Institute of Technology Certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
       pageMobileDescription="Through the IIT certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
       breadcrumbLabel="IIT Programs"
       faqs={IIT_FAQS}

@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "Design Thinking and Innovation Programs for Executives",
+  title: "Top Design Thinking and Innovation Programs for Executives",
   description:
     "Strengthen your creative problem-solving and innovation leadership through design thinking programs designed for professionals and business leaders.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/design-thinking-programs",
   },
   openGraph: {
-    title: "Design Thinking and Innovation Programs for Executives",
+    title: "Top Design Thinking and Innovation Programs for Executives",
     description:
       "Strengthen your creative problem-solving and innovation leadership through design thinking programs designed for professionals and business leaders.",
     url: "https://accredian.com/explore-programs/design-thinking-programs",

@@ -2,7 +2,7 @@ import React from "react";
 import SearchIntentCategoryClient from "../../components/SearchIntent/SearchIntentCategoryClient";
 
 export const metadata = {
-  title: "Programs to Transition into Leadership Roles | Accredian",
+  title: "Best Executive Programs to Transition into Leadership Roles",
   description:
     "Step confidently into management and senior leadership with programs designed to build strategic thinking, people leadership and business judgement.",
   keywords:
@@ -11,7 +11,7 @@ export const metadata = {
     canonical: "https://accredian.com/explore-programs/leadership-transition-programs",
   },
   openGraph: {
-    title: "Programs to Transition into Leadership Roles | Accredian",
+    title: "Best Executive Programs to Transition into Leadership Roles",
     description:
       "Step confidently into management and senior leadership with programs designed to build strategic thinking, people leadership and business judgement.",
     url: "https://accredian.com/explore-programs/leadership-transition-programs",

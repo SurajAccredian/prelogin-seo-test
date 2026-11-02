@@ -47,7 +47,7 @@
     }
   ],
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
-  "start_date": "29 Nov 2026",
+  "start_date": "13 Dec 2026",
   "id": "advanced-certificate-program-in-ai-for-leaders",
   "pid": 118,
   "duration": "5 Months",
@@ -187,11 +187,7 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/astra-zeneca.webp"
     }
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "billing": {
     "programId": "advanced-certificate-program-in-ai-for-leaders",
     "points": [

@@ -52,7 +52,6 @@ const SEARCH_INTENT_PATHS = [
   "/explore-programs/leadership-transition-programs",
   "/explore-programs/career-advancement-programs",
   "/explore-programs/programs-for-working-professionals",
-  "/explore-programs/data-science-programs",
   "/explore-programs/design-thinking-programs",
   "/explore-programs/project-management-programs",
   "/explore-programs/iit-project-management-programs",

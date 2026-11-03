@@ -1,51 +1,4 @@
 import PROGRAMS from "../Assets/programs.json";
-import dsAi from "../Assets/programs/pg-certificate-program-in-data-science-ai.json";
-import dsBasic from "../Assets/programs/pg-certificate-program-in-data-science.json";
-import baManagers from "../Assets/programs/professional-certificate-program-in-business-analytics-for-managers.json";
-import dsDt from "../Assets/programs/executive-program-in-ds-and-dt.json";
-import dsPm from "../Assets/programs/executive-program-in-dspm.json";
-import peopleAnalytics from "../Assets/programs/executive-development-program-in-digital-hr-leadership-and-people-analytics.json";
-
-function transformProgram(raw) {
-  return {
-    id: raw.id,
-    program_name: raw.title || raw.program_name,
-    university_name: raw.university_name,
-    university_image:
-      raw.university_logo ||
-      raw.university_image ||
-      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
-    cover_image:
-      raw.cover_image ||
-      raw.university_image ||
-      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
-    brochureHeader: raw.brochureHeader || raw.university_logo || raw.university_image,
-    duration: raw.duration || "9 Months",
-    batch_type: raw.type ? raw.type.charAt(0).toUpperCase() + raw.type.slice(1) : "Online",
-    category: "data science",
-    status: raw.enrollments === "inactive" ? "Admission Closed" : (raw.status || "New Launch"),
-    tags: Array.isArray(raw.tags)
-      ? raw.tags.map((t) => (typeof t === "string" ? t : t.title))
-      : ["Data Science", "Analytics"],
-    brochure: {
-      pdf: raw.brochure?.pdf || "",
-      source: raw.brochure?.source || `${raw.title} Brochure`,
-      campaign_name: raw.id,
-    },
-    program_fee: raw.program_fee,
-    required_years_experience: raw.required_years_experience,
-    url: `/programs/${raw.id}`,
-  };
-}
-
-export const DATA_SCIENCE_PROGRAMS = [
-  transformProgram(dsAi),
-  transformProgram(dsBasic),
-  transformProgram(baManagers),
-  transformProgram(dsDt),
-  transformProgram(dsPm),
-  transformProgram(peopleAnalytics),
-];
 
 export const CATEGORY_PREDICATES = {
   "iim": (p) => {
@@ -81,7 +34,7 @@ export const CATEGORY_PREDICATES = {
     return (
       cat.includes("cxo") ||
       cat.includes("senior management") ||
-      cat.includes("strategy & leadership") 
+      cat.includes("strategy & leadership")
     );
   },
   "project-management": (p) => {
@@ -123,7 +76,7 @@ export const CATEGORY_PREDICATES = {
   "courses-for-working-professionals": (p) => {
     const name = p.program_name?.toLowerCase() || "";
     return (
-      name.includes("executive") 
+      name.includes("executive")
     );
   },
   "senior-leadership": (p) => {
@@ -164,7 +117,7 @@ export const CATEGORY_PREDICATES = {
       )
     );
   },
-  
+
   "career-advancement": (p) => {
     const cat = p.category?.toLowerCase() || "";
     const name = p.program_name?.toLowerCase() || "";
@@ -181,9 +134,6 @@ export const CATEGORY_PREDICATES = {
 };
 
 export function getProgramsByFilterKey(filterKey) {
-  if (filterKey === "data-science") {
-    return DATA_SCIENCE_PROGRAMS;
-  }
   const predicate = CATEGORY_PREDICATES[filterKey];
   if (!predicate) {
     return PROGRAMS;

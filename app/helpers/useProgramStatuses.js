@@ -31,33 +31,16 @@ export function resolveProgramStatus(program, statuses = globalStatuses) {
     (statuses?.bySlug && program.id && statuses.bySlug[program.id]);
 
   if (liveEntry) {
-    const isInactive =
+    const isClosed =
       typeof liveEntry === "object"
         ? liveEntry.registration_status === "inactive" || liveEntry.isActive === false
-        : ["inactive", "admission closed", "admissions closed"].includes(
-            String(liveEntry).toLowerCase().trim()
-          );
+        : liveEntry === "inactive";
 
-    const isActive =
-      typeof liveEntry === "object"
-        ? liveEntry.registration_status === "active" && liveEntry.isActive !== false
-        : String(liveEntry).toLowerCase().trim() === "active";
-
-    if (isInactive) {
-      return {
-        status: "Admission Closed",
-        isAdmissionClosed: true,
-        isLive: true,
-      };
-    }
-
-    if (isActive) {
-      return {
-        status: "New Launch",
-        isAdmissionClosed: false,
-        isLive: true,
-      };
-    }
+    return {
+      status: isClosed ? "Admission Closed" : "New Launch",
+      isAdmissionClosed: isClosed,
+      isLive: true,
+    };
   }
 
   // Fallback to static JSON status

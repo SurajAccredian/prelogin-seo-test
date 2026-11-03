@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { getBulkProgramRegistrationStatus } from "../services/program.service";
+import programsList from "../components/Assets/programs.json";
 
 // In-memory module-level cache for client side to prevent duplicate API requests
 let globalStatuses = null;
@@ -25,24 +26,38 @@ export function resolveProgramStatus(program, statuses = globalStatuses) {
     return { status: "New Launch", isAdmissionClosed: false, isLive: false };
   }
 
-  const liveStatus =
-    (statuses?.bySlug && program.id && statuses.bySlug[program.id]) ||
-    (statuses?.byPid && program.pid && statuses.byPid[program.pid]);
+  const liveEntry =
+    (statuses?.byPid && program.pid && statuses.byPid[program.pid]) ||
+    (statuses?.bySlug && program.id && statuses.bySlug[program.id]);
 
-  if (liveStatus === "active") {
-    return {
-      status: "New Launch",
-      isAdmissionClosed: false,
-      isLive: true,
-    };
-  }
+  if (liveEntry) {
+    const isInactive =
+      typeof liveEntry === "object"
+        ? liveEntry.registration_status === "inactive" || liveEntry.isActive === false
+        : ["inactive", "admission closed", "admissions closed"].includes(
+            String(liveEntry).toLowerCase().trim()
+          );
 
-  if (liveStatus === "inactive") {
-    return {
-      status: "Admission Closed",
-      isAdmissionClosed: true,
-      isLive: true,
-    };
+    const isActive =
+      typeof liveEntry === "object"
+        ? liveEntry.registration_status === "active" && liveEntry.isActive !== false
+        : String(liveEntry).toLowerCase().trim() === "active";
+
+    if (isInactive) {
+      return {
+        status: "Admission Closed",
+        isAdmissionClosed: true,
+        isLive: true,
+      };
+    }
+
+    if (isActive) {
+      return {
+        status: "New Launch",
+        isAdmissionClosed: false,
+        isLive: true,
+      };
+    }
   }
 
   // Fallback to static JSON status
@@ -61,7 +76,8 @@ export function resolveProgramStatus(program, statuses = globalStatuses) {
 /**
  * Fetches all DB program statuses in a single bulk request via program.service.
  * Deduplicates in-flight requests and caches globally in the browser.
- */async function fetchBulkStatuses() {
+ */
+async function fetchBulkStatuses() {
   if (globalStatuses) return globalStatuses;
   if (inFlightPromise) return inFlightPromise;
 
@@ -71,7 +87,16 @@ export function resolveProgramStatus(program, statuses = globalStatuses) {
       const resData = response?.data || response || {};
 
       const byPid = resData.byPid || {};
-      const bySlug = resData.bySlug || {};
+      const bySlug = {};
+
+      // Populate bySlug from programs.json so slug-only lookups succeed
+      if (Array.isArray(programsList)) {
+        for (const prog of programsList) {
+          if (prog.id && prog.pid && byPid[prog.pid]) {
+            bySlug[prog.id] = byPid[prog.pid];
+          }
+        }
+      }
 
       globalStatuses = { byPid, bySlug };
     } catch (err) {

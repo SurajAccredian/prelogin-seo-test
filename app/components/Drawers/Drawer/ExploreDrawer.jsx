@@ -9,10 +9,10 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Clock, MapPin, X } from 'lucide-react';
 import { STREAMS } from '../../Assets/constants';
-
+import { useProgramStatuses } from '../../../helpers/useProgramStatuses';
 
 const ExploreDrawer = ({ isOpen, onClose }) => {
-
+  const { getProgramStatus } = useProgramStatuses();
   const [openAccordion, setOpenAccordion] = useState(false);
   const [categorizedPrograms, setCategorizedPrograms] = useState({});
   const [managementSubcategories, setManagementSubcategories] = useState([]);
@@ -262,14 +262,26 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
                             </div>
                           )}
                         </div>
-                        <span
-                          className={`px-3 py-1 rounded-full text-xs ${val.status.toLowerCase() === "admission closed"
-                            ? "bg-red-100 text-red-500"
-                            : "text-[#3366ff] bg-[#e8f0ff]"
-                            } whitespace-nowrap capitalize`}
-                        >
-                          {val.status}
-                        </span>
+                        {(() => {
+                          const resolved = getProgramStatus
+                            ? getProgramStatus(val)
+                            : {
+                                status: val.status,
+                                isAdmissionClosed:
+                                  val.status?.toLowerCase() === "admission closed",
+                              };
+                          return (
+                            <span
+                              className={`px-3 py-1 rounded-full text-xs ${
+                                resolved.isAdmissionClosed
+                                  ? "bg-red-100 text-red-500"
+                                  : "text-[#3366ff] bg-[#e8f0ff]"
+                              } whitespace-nowrap capitalize`}
+                            >
+                              {resolved.status}
+                            </span>
+                          );
+                        })()}
                       </div>
                     </div>
                   </a>

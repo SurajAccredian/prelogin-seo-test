@@ -314,17 +314,33 @@ const getTemplateData = (programData) => {
         : "https://accredian.com";
     // const policyPath = '/policies/iit-kanpur';
     // const fullPolicyUrl = `${baseUrl}${policyPath}`;
-    const universityCode = programData.short_university_name || 'iitk';
+    const universityCode = (programData.short_university_name || 'iitk').toLowerCase();
     let policyPath;
-    if (universityCode.toLowerCase() === 'xlri') {
+    if (universityCode === 'xlri') {
         policyPath = '/policies/xlri-delhi-policy';
-    } else if(universityCode.toLowerCase() === 'iimv'){ 
-      policyPath = '/policies/iimv-policy'
-    } else if(universityCode.toLowerCase() === 'iim-trichy'){ 
-      policyPath = '/policies/iim-trichy-policy'
-    }else if(universityCode.toLowerCase() === 'spjain'){
+    } else if (universityCode === 'iimv') { 
+        policyPath = '/policies/iimv-policy';
+    } else if (universityCode === 'iim-trichy') { 
+        policyPath = '/policies/iim-trichy-policy';
+    } else if (universityCode === 'spjain') {
         policyPath = '/policies/spj-policy';
-    }else { 
+    } else if (universityCode === 'iim-ranchi' || universityCode === 'iimr') {
+        policyPath = '/policies/iim-ranchi-policy';
+    } else if (universityCode === 'iiml') {
+        policyPath = '/policies/iiml-policy';
+    } else if (universityCode === 'iim-amritsar') {
+        policyPath = '/policies/iim-amritsar-policy';
+    } else if (universityCode === 'iit-jammu') {
+        policyPath = '/policies/iit-jammu-policy';
+    } else if (universityCode === 'iim-kashipur' || universityCode === 'iimk') {
+        policyPath = '/policies/iimk-policy';
+    } else if (universityCode === 'iimbg' || universityCode === 'iim-bodh-gaya') {
+        policyPath = '/policies/iim-bodh-gaya-policy';
+    } else if (universityCode === 'iitm-pravartak') {
+        policyPath = '/policies/iitm-pravartak-policy';
+    } else if (universityCode === 'iitg') {
+        policyPath = '/policies/iitg-policy';
+    } else { 
         policyPath = '/policies/iit-kanpur';
     }
     

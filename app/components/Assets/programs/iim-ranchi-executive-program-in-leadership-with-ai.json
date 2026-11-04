@@ -146,12 +146,11 @@
         "Aligning AI with Business Strategy",
         "Use Case Identification & Prioritization",
         "AI Execution Roadmaps & Operating Models",
-        "AI Economics: ROI & Value Realization",
-        "(AI Strategy Simulation)"
+        "AI Economics: ROI & Value Realization"
       ]
     },
     {
-      "title": "AI Business Models & Monetization",
+      "title": "AI Business Models",
       "id": "ai-business-models-monetization",
       "points": [
         "AI Business Model Design & Innovation",
@@ -177,29 +176,17 @@
         "AI in Marketing: Growth & Personalization",
         "AI in Finance: Forecasting & Decision Intelligence",
         "AI in HR: Talent & Workforce Analytics",
-        "AI in Operations & Supply Chain Systems",
-        "(AI Business Transformation Simulation)"
+        "AI in Operations & Supply Chain Systems"
       ]
     },
     {
-      "title": "AI Risk, Safety & Governance",
+      "title": "AI Risk, Safety, Ethics & Governance",
       "id": "ai-risk-safety-governance",
       "points": [
         "Understanding AI Risks – Bias, Errors & Uncertainty",
         "Data Privacy, Security & Regulatory Considerations",
         "Governance Models – Control, Audit & Accountability",
-        "Responsible AI – Ethics, Oversight & Trust",
-        "(AI Governance Simulation)"
-      ]
-    },
-    {
-      "title": "Leading AI Transformation",
-      "id": "leading-ai-transformation",
-      "points": [
-        "Leading AI-Driven Organizational Change",
-        "AI Talent, Capability & Operating Models",
-        "Driving Adoption Across Business Units",
-        "Measuring Transformation Impact & Value"
+        "Responsible AI – Ethics, Oversight & Trust"
       ]
     },
     {
@@ -210,6 +197,16 @@
         "Business Use Cases of Agentic Systems",
         "Designing Agentic Business Processes",
         "Automated Decision-Making and Coordination"
+      ]
+    },
+    {
+      "title": "Leading AI Transformation & Change",
+      "id": "leading-ai-transformation",
+      "points": [
+        "Building human resource capabilities- reskilling, upskilling",
+        "Leading AI-Driven Organizational Change",
+        "AI Talent, Capability & Operating Models",
+        "Driving Adoption Across Business Units"
       ]
     },
     {
@@ -245,6 +242,14 @@
     {
       "title": "Claude AI",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    },
+    {
+      "title": "NotebookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notebooklm-icon.webp"
+    },
+    {
+      "title": "Leonardo.AI",
+      "icon_url": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/leonardo-ai-logo.webp"
     }
   ],
   "billing": {

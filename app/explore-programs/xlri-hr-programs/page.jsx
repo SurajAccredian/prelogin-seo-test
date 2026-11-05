@@ -87,7 +87,7 @@ export default function XLRIHRCoursesPage() {
       filterKey="xlri-hr"
       pageTitle="XLRI HR & Leadership Programs"
       pageDescription="Effective HR and leadership practices play a vital role in building strong teams and achieving organisational goals. Develop your understanding of human resource management, people analytics, strategic leadership and organisational development. Gain valuable perspectives on managing talent, improving team performance and aligning people strategies with business priorities. Through the XLRI – Xavier School of Management HR and Leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."
-      pageMobileDescription="Through the XLRI HR and leadership Programs, HR professionals, managers and senior leaders can strengthen their leadership skills, make informed people decisions and drive organisational growth."
+      pageMobileDescription="Drive organizational change with XLRI executive programs in Strategic HR Leadership, Digital HR, and People Analytics."
       breadcrumbLabel="XLRI HR & Leadership"
       faqs={XLRI_HR_FAQS}
       ctaTitle="Lead People Strategy with India's Premier HR Institution"

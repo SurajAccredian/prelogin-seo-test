@@ -87,7 +87,7 @@ export default function AIBusinessCoursesPage() {
       filterKey="ai-for-business"
       pageTitle="AI Skills for Business Leadership Programs"
       pageDescription="Understanding AI can help professionals identify new opportunities, improve business processes and make better decisions. Develop your knowledge of Generative AI, Agentic AI and the practical application of AI in business and leadership. Learn to recognise where these technologies can add value and how to connect their use with organisational priorities. Through the programs to build AI skills for business, business leaders and managers can develop practical AI capabilities, improve workplace effectiveness and support responsible business innovation."
-      pageMobileDescription="Through the programs to build AI skills for business, business leaders and managers can develop practical AI capabilities, improve workplace effectiveness and support responsible business innovation."
+      pageMobileDescription="Explore applied AI programs from premier IIMs, IITs, and SP Jain to master Generative AI, Agentic AI, and business transformation."
       breadcrumbLabel="AI Skills for Business"
       faqs={AI_BUSINESS_FAQS}
       ctaTitle="Lead AI-Driven Business Transformation"

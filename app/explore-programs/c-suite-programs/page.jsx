@@ -87,7 +87,7 @@ export default function CSuiteProgrammesPage() {
       filterKey="c-suite"
       pageTitle="CXO Programs for Leaders"
       pageDescription="Leading at the highest level requires a clear vision, strong business judgement and the ability to turn strategy into action. Build your understanding of organisational strategy, business transformation, technology, people and performance. Develop the perspective to navigate complex decisions, respond to change and create sustainable value. Through the CXO Programs for business leaders, senior executives and aspiring CXOs can strengthen their strategic capabilities, lead with greater confidence and guide their organisations towards long-term success."
-      pageMobileDescription="Through the CXO Programs for business leaders, senior executives and aspiring CXOs can strengthen their strategic capabilities, lead with greater confidence and guide their organisations towards long-term success."
+      pageMobileDescription="Advance into CEO, CFO, CTO, CHRO, and CDAIO roles with prestigious executive leadership programs from IIM Lucknow, XLRI, and IIM Ranchi."
       breadcrumbLabel="C-Suite Programs"
       faqs={C_SUITE_FAQS}
       ctaTitle="Prepare for Your Next C-Suite Appointment"

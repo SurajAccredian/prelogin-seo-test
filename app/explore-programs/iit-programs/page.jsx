@@ -4,7 +4,7 @@ import SearchIntentCategoryClient from "../../components/SearchIntent/SearchInte
 export const metadata = {
   title: "Top IIT Certificate Programs for Working Professionals",
   description:
-    "Build future-ready expertise in AI, data science, project management and innovation through top IIT programs designed for experienced professionals.",
+    "Build future-ready expertise in AI, project management, and design thinking through top IIT programs designed for experienced professionals.",
   keywords:
     "IIT courses, IIT online courses, IIT certificate courses, IIT executive courses, IIT AI course, IIT data science course, IIT product management course, IIT project management course, IIT Kanpur certificate program, IIT Guwahati certificate program, IIT Hyderabad program, IIT courses for working professionals",
   alternates: {
@@ -86,12 +86,12 @@ export default function IITCoursesPage() {
     <SearchIntentCategoryClient
       filterKey="iit"
       pageTitle="IIT Certificate Programs"
-      pageDescription="Technology and innovation are creating new opportunities for professionals to solve business challenges and drive growth. Develop your understanding of artificial intelligence, data science, project management, product management and design thinking. Gain practical perspectives to connect new ideas with business needs and deliver meaningful results. Through the Indian Institute of Technology Certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
-      pageMobileDescription="Through the IIT certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
+      pageDescription="Technology and innovation are creating new opportunities for professionals to solve business challenges and drive growth. Develop your understanding of artificial intelligence, generative AI, strategic project management, design thinking and technology leadership. Gain practical perspectives to connect new ideas with business needs and deliver meaningful results. Through the Indian Institute of Technology Certificate Programs, professionals and technology leaders can build skills to lead projects, encourage innovation and advance their careers."
+      pageMobileDescription="Earn high-impact certifications in AI leadership, project management, and design thinking from IIT Kanpur, IIT Jammu, and IITM Pravartak."
       breadcrumbLabel="IIT Programs"
       faqs={IIT_FAQS}
       ctaTitle="Find the Right IIT Program for Your Career"
-      ctaDescription="Compare advanced certifications from E&ICT Academy IIT Kanpur, IIT Guwahati, IIT Hyderabad, and IITM Pravartak."
+      ctaDescription="Compare advanced certifications from E&ICT Academy IIT Kanpur, IIT Jammu, and IITM Pravartak."
     />
   );
 }

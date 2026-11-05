@@ -19,7 +19,6 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 ## Partner institutions
 
-- Indian Institute of Management Raipur
 - E&ICT Academy IIT Kanpur
 - IIM Lucknow
 - IIM Sirmaur
@@ -38,174 +37,6 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - Accredian
 
 ## Programs open for admission
-
-### [Senior Management](https://accredian.com/course/senior-management)
-
-#### [Global Senior Leadership Program](https://accredian.com/programs/iim-raipur-global-senior-leadership-program)
-- **Institution:** Indian Institute of Management Raipur
-- **Duration:** 12
-- **Start date:** 28 Feb 2027
-- **Experience required:** 8+ years
-- **Fee:** INR 3,29,000 + GST
-- **Description:** Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.
-- **Curriculum:**
-  1. Strategic Leadership in Global Organizations
-  2. Boardroom Leadership & Executive Influence
-  3. Geopolitical Strategy, Global Expansion & Macro Risk
-  4. Corporate & Business Strategy for CXOs
-  5. Strategic Finance for Senior Leaders
-  6. People Strategy & Building High Performing Culture
-  7. Customer, Brand & GTM in Global Markets
-  8. Global Operations & Supply Chain Leadership
-  9. Corporate Governance, Risk & Crisis Leadership
-  10. Innovation & Digital Transformation
-  11. AI & Generative AI for Leaders
-  12. CEO Specialization
-  13. Module 1: The Modern CEO
-  14. Module 2: Board, Investor Relations & External Leadership
-  15. Module 3: Strategy, Growth & Expansion for CEOs
-  16. Module 4: Capital Allocation, Finance & Value Creation
-  17. Module 5: Leading High-Performance Organizations & CXO Teams
-  18. CEO Capstone Project
-  19. COO Specialization
-  20. Module 1: The COO as Operational Architect
-  21. Module 2: Operational Strategy & Cross-Functional Leadership
-  22. Module 3: Performance Systems & Execution Discipline
-  23. Module 4: Operational Risk, Resilience & Crisis Leadership
-  24. Module 5: Scaling Operations & Operational Leadership
-  25. COO Capstone Project
-  26. CFO Specialization
-  27. Module 1: The Modern CFO
-  28. Module 2: Financial Strategy & Business Growth
-  29. Module 3: Corporate Finance, M&A & Value Creation
-  30. Module 4: Investor Relations, Governance & Risk
-  31. Module 5: Digital Finance, AI & Transformation
-  32. CFO Capstone
-  33. CTO Specialization
-  34. Module 1: The Modern CTO
-  35. Module 2: Technology & AI Strategy & Business Alignment
-  36. Module 3: Technology & Digital Architecture
-  37. Module 4: AI, Technology Governance & Cyber Risk
-  38. Module 5: Leading & Scaling Technology Organizations
-  39. CTO Capstone Project
-
-#### [Senior Management Program](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
-- **Institution:** IIM Bodh Gaya
-- **Duration:** 11 Months
-- **Start date:** 14 Feb 2027
-- **Experience required:** 5+ years
-- **Fee:** INR 2,30,000 + GST
-- **Description:** Embark on an 11-month learning journey in executive leadership, operations, business strategy, and analytics.
-- **Curriculum:**
-  1. Strategic Thinking & Executive Decision-Making
-  2. Mindful Leadership & Executive Presence
-  3. Corporate Strategy for Senior Leaders
-  4. Boardroom Leadership & Corporate Governance
-  5. Strategic Finance for Senior Leaders
-  6. Marketing, Customer & Brand Leadership
-  7. Operations & Supply Chain Excellence
-  8. People Leadership & High-Performance Culture
-  9. Risk, Compliance & Crisis Leadership
-  10. Growth Strategies for CXOs
-  11. Digital Transformation & Innovation
-  12. Analytics for Senior Leaders
-  13. AI Leadership for Business Leaders
-  14. Capstone Project
-  15. CXO Coaching
-
-#### [Senior Management Program](https://accredian.com/programs/iim-ranchi-senior-management-program)
-- **Institution:** IIM Ranchi
-- **Duration:** 12 Months
-- **Start date:** 24 Jan 2027
-- **Experience required:** 10+ years
-- **Fee:** INR 2,60,000 + GST
-- **Description:** Embark on a 12 month learning journey in executive leadership, operations, business strategies, and analytics.
-- **Curriculum:**
-  1. Strategic Thinking Foundations
-  2. Corporate And Business Strategy
-  3. Boardroom Leadership and Communication
-  4. Strategic Finance For Senior Leaders
-  5. Marketing Strategy And Brand Leadership
-  6. Operations And Supply Chain Excellence
-  7. Building High-Performance Organizations And Teams
-  8. Legal, Risk & Compliance For Senior Leaders
-  9. Growth Strategy And Business Expansion
-  10. Global Strategy And Geopolitical Leadership
-  11. Innovation Strategy And Digital Business Leadership
-  12. Analytics For Strategic Decision Making
-  13. AI And Generative AI For Senior Leaders
-  14. Capstone
-  15. CXO Coaching
-
-#### [Senior Management Program](https://accredian.com/programs/iima-senior-management-program)
-- **Institution:** IIM Amritsar
-- **Duration:** 10 Months
-- **Start date:** 26 Jul 2026
-- **Experience required:** 5+ years
-- **Fee:** INR 2,10,000 + GST
-- **Description:** Embark on a 10 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.
-- **Curriculum:**
-  1. Foundations Of Strategic Leadership
-  2. Corporate Strategy For Leaders
-  3. Financial Strategy For Leaders
-  4. Data-Driven Marketing & Customer Leadership
-  5. Next-Gen Supply Chains & Execution Leadership
-  6. People Leadership & High-Performance Culture
-  7. Global Strategy & Geopolitical Leadership
-  8. Digital Transformation & Innovation
-  9. Generative AI For Leaders
-
-#### [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management)
-- **Institution:** XLRI
-- **Duration:** 11 Months
-- **Start date:** 28 June 2026
-- **Experience required:** 10+ years
-- **Fee:** INR 4,00,000 + GST
-- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status
-- **Curriculum:**
-  1. Strategic Leadership in Global Organizations
-  2. Corporate Strategy for Senior Leaders
-  3. Global Macroeconomics & Expansion Strategy
-  4. Strategic Finance for Senior Leaders
-  5. Global Talent & Workforce Leadership
-  6. Marketing & Customer Growth Strategy
-  7. Global Operations & Supply Chain Leadership
-  8. Digital Transformation & Innovation
-  9. AI & GenAI for Leaders
-  10. Boardroom Influence & Executive Decision Making
-  11. Sustainability & ESG Leadership
-  12. Capstone Project
-
-#### [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 Months
-- **Start date:** 10 Jan 2027
-- **Experience required:** 5+ years
-- **Fee:** INR 4,00,000 + GST
-- **Description:** Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.
-
-#### [Senior Management Program](https://accredian.com/programs/senior-management-program)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 Months
-- **Start date:** 10 Jan 2027
-- **Experience required:** 10+ years
-- **Fee:** INR 3,49,000 + GST
-- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status
-- **Curriculum:**
-  1. Foundations of Executive Leadership
-  2. Strategy for Senior Executives
-  3. Corporate Governance & Corporate Social Responsibility
-  4. Finance for Senior Leaders
-  5. Strategic Marketing & Brand Management
-  6. Operations & Supply Chain Excellence
-  7. Advanced Organizational Behavior
-  8. Negotiations & Conflict Resolution
-  9. Global Business Strategies
-  10. Technology & Innovation Management
-  11. Analytics for Decision-Making
-  12. Growth Strategies for Senior Leaders
-  13. Capstone Project
-  14. CXO Leadership Accelerator
 
 ### [Design Thinking](https://accredian.com/course/design-thinking)
 
@@ -891,6 +722,126 @@ Fees, start dates and enrollment status change over time. Check the linked progr
   15. Leadership with AI
   16. Capstone Project
 
+### [Senior Management](https://accredian.com/course/senior-management)
+
+#### [Senior Management Program](https://accredian.com/programs/iim-bodh-gaya-senior-management-program)
+- **Institution:** IIM Bodh Gaya
+- **Duration:** 11 Months
+- **Start date:** 14 Feb 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 2,30,000 + GST
+- **Description:** Embark on an 11-month learning journey in executive leadership, operations, business strategy, and analytics.
+- **Curriculum:**
+  1. Strategic Thinking & Executive Decision-Making
+  2. Mindful Leadership & Executive Presence
+  3. Corporate Strategy for Senior Leaders
+  4. Boardroom Leadership & Corporate Governance
+  5. Strategic Finance for Senior Leaders
+  6. Marketing, Customer & Brand Leadership
+  7. Operations & Supply Chain Excellence
+  8. People Leadership & High-Performance Culture
+  9. Risk, Compliance & Crisis Leadership
+  10. Growth Strategies for CXOs
+  11. Digital Transformation & Innovation
+  12. Analytics for Senior Leaders
+  13. AI Leadership for Business Leaders
+  14. Capstone Project
+  15. CXO Coaching
+
+#### [Senior Management Program](https://accredian.com/programs/iim-ranchi-senior-management-program)
+- **Institution:** IIM Ranchi
+- **Duration:** 12 Months
+- **Start date:** 24 Jan 2027
+- **Experience required:** 10+ years
+- **Fee:** INR 2,60,000 + GST
+- **Description:** Embark on a 12 month learning journey in executive leadership, operations, business strategies, and analytics.
+- **Curriculum:**
+  1. Strategic Thinking Foundations
+  2. Corporate And Business Strategy
+  3. Boardroom Leadership and Communication
+  4. Strategic Finance For Senior Leaders
+  5. Marketing Strategy And Brand Leadership
+  6. Operations And Supply Chain Excellence
+  7. Building High-Performance Organizations And Teams
+  8. Legal, Risk & Compliance For Senior Leaders
+  9. Growth Strategy And Business Expansion
+  10. Global Strategy And Geopolitical Leadership
+  11. Innovation Strategy And Digital Business Leadership
+  12. Analytics For Strategic Decision Making
+  13. AI And Generative AI For Senior Leaders
+  14. Capstone
+  15. CXO Coaching
+
+#### [Senior Management Program](https://accredian.com/programs/iima-senior-management-program)
+- **Institution:** IIM Amritsar
+- **Duration:** 10 Months
+- **Start date:** 26 Jul 2026
+- **Experience required:** 5+ years
+- **Fee:** INR 2,10,000 + GST
+- **Description:** Embark on a 10 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.
+- **Curriculum:**
+  1. Foundations Of Strategic Leadership
+  2. Corporate Strategy For Leaders
+  3. Financial Strategy For Leaders
+  4. Data-Driven Marketing & Customer Leadership
+  5. Next-Gen Supply Chains & Execution Leadership
+  6. People Leadership & High-Performance Culture
+  7. Global Strategy & Geopolitical Leadership
+  8. Digital Transformation & Innovation
+  9. Generative AI For Leaders
+
+#### [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management)
+- **Institution:** XLRI
+- **Duration:** 11 Months
+- **Start date:** 28 June 2026
+- **Experience required:** 10+ years
+- **Fee:** INR 4,00,000 + GST
+- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status
+- **Curriculum:**
+  1. Strategic Leadership in Global Organizations
+  2. Corporate Strategy for Senior Leaders
+  3. Global Macroeconomics & Expansion Strategy
+  4. Strategic Finance for Senior Leaders
+  5. Global Talent & Workforce Leadership
+  6. Marketing & Customer Growth Strategy
+  7. Global Operations & Supply Chain Leadership
+  8. Digital Transformation & Innovation
+  9. AI & GenAI for Leaders
+  10. Boardroom Influence & Executive Decision Making
+  11. Sustainability & ESG Leadership
+  12. Capstone Project
+
+#### [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 10 Jan 2027
+- **Experience required:** 5+ years
+- **Fee:** INR 4,00,000 + GST
+- **Description:** Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.
+
+#### [Senior Management Program](https://accredian.com/programs/senior-management-program)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 10 Jan 2027
+- **Experience required:** 10+ years
+- **Fee:** INR 3,49,000 + GST
+- **Description:** Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status
+- **Curriculum:**
+  1. Foundations of Executive Leadership
+  2. Strategy for Senior Executives
+  3. Corporate Governance & Corporate Social Responsibility
+  4. Finance for Senior Leaders
+  5. Strategic Marketing & Brand Management
+  6. Operations & Supply Chain Excellence
+  7. Advanced Organizational Behavior
+  8. Negotiations & Conflict Resolution
+  9. Global Business Strategies
+  10. Technology & Innovation Management
+  11. Analytics for Decision-Making
+  12. Growth Strategies for Senior Leaders
+  13. Capstone Project
+  14. CXO Leadership Accelerator
+
 ### [General Management](https://accredian.com/course/general-management)
 
 #### [Executive Development Program in General Management](https://accredian.com/programs/executive-program-in-general-management)
@@ -958,28 +909,6 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 ## Closed for new admissions
 
 These programs are not taking new registrations. Their pages remain available for reference.
-
-#### [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program)
-- **Institution:** IIM Tiruchirappalli
-- **Duration:** 10 Months
-- **Start date:** 26 Oct 2025
-- **Experience required:** 10+ years
-- **Fee:** INR 2,90,000 + GST
-- **Description:** Embark on a 10 month learning journey in Strategic Leadership, AI and GenAI Strategy.
-- **Curriculum:**
-  1. Strategic Leadership & Executive Influence
-  2. Strategy & Competitive Advantage in a Disruptive World
-  3. Corporate Governance, Risk & ESG
-  4. Global Markets & Strategic Risk
-  5. Financial Acumen for Strategic Leaders
-  6. Operational Excellence & Strategic Execution
-  7. Leading People & Talent in the Age of Transformation
-  8. Customer Strategy & Marketing in the Digital Age
-  9. Product Innovation & Design Thinking
-  10. Strategic Management of Intellectual Property Rights (IPR)
-  11. AI, GenAI for Leaders
-  12. Digital Transformation Strategy
-  13. Capstone Project
 
 #### [Executive Program in Design Thinking & Innovation for Strategic Leadership](https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership)
 - **Institution:** Department of Entrepreneurship and Management, IIT Hyderabad
@@ -1124,6 +1053,28 @@ These programs are not taking new registrations. Their pages remain available fo
   12. Project Analytics & Data-Driven Project Management
   13. AI & GenAI for Project Leaders
   14. Capstone Project
+
+#### [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program)
+- **Institution:** IIM Tiruchirappalli
+- **Duration:** 10 Months
+- **Start date:** 26 Oct 2025
+- **Experience required:** 10+ years
+- **Fee:** INR 2,90,000 + GST
+- **Description:** Embark on a 10 month learning journey in Strategic Leadership, AI and GenAI Strategy.
+- **Curriculum:**
+  1. Strategic Leadership & Executive Influence
+  2. Strategy & Competitive Advantage in a Disruptive World
+  3. Corporate Governance, Risk & ESG
+  4. Global Markets & Strategic Risk
+  5. Financial Acumen for Strategic Leaders
+  6. Operational Excellence & Strategic Execution
+  7. Leading People & Talent in the Age of Transformation
+  8. Customer Strategy & Marketing in the Digital Age
+  9. Product Innovation & Design Thinking
+  10. Strategic Management of Intellectual Property Rights (IPR)
+  11. AI, GenAI for Leaders
+  12. Digital Transformation Strategy
+  13. Capstone Project
 
 #### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
 - **Institution:** IIM Visakhapatnam

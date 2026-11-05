@@ -1,5 +1,19 @@
 [
   {
+    "university_name": "Indian Institute of Management Raipur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+    "program_name": "Global Senior Leadership Program",
+    "category": "senior management",
+    "start_date": "28 Feb 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-raipur-global-senior-leadership-program",
+    "id": "iim-raipur-global-senior-leadership-program",
+    "pid": 183,
+    "duration": "12",
+    "program_fee": 329000,
+    "required_years_experience": 8
+  },
+  {
     "university_name": "E&ICT Academy IIT Kanpur",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
     "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",

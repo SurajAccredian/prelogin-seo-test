@@ -3141,5 +3141,24 @@
       "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
       "Career Assistance Sessions": "6 Sessions by Accredian"
     }
+  },
+  {
+    "title": "Global Senior Leadership Program",
+    "id": "iim-raipur-global-senior-leadership-program-12-months",
+    "data": {
+      "Institute Name": "IIM Raipur",
+      "Program Name": "Global Senior Leadership Program",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "Core Modules- 11 ; Specialization (Elective)- 1 of 4 ; 6 Modules each",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project (Per specialization)",
+      "Campus Immersion": "2 Day Campus Immersion",
+      "Campus Immersion Fee": "Campus Immersion Fee included in the Program fees; Boarding, Lodging & Travel details TBD",
+      "Program Faculty": "IIM Raipur Faculty and Industry Experts",
+      "Alumni Status": "Executive Alumni Status from IIM Raipur awarded upon program completion",
+      "Alumni Status Fee": "Included in the Program fees",
+      "Minimum Attendance Required": "Minimum Attendance - 75%",
+      "Certificates": "Completion Certificate from IIM Raipur"
+    }
   }
 ]

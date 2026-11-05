@@ -3771,9 +3771,9 @@ export const universityFaqTemplates = {
                         ]
                     },
                     {
-                        title: "Will I get any alumni benefits or networking opportunities with IIMR?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees."
                         ]
                     },
                     {
@@ -4171,10 +4171,10 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Lucknow ?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Lucknow?",
                         content: [
-                            "No, IIM Lucknow alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
-                        ],
+                            "Yes. Participants will receive IIM Lucknow Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
+                        ]
                     },
                     {
                         title: "Will I receive a physical or digital batch ID or an official email from IIM Lucknow confirming my enrollment?",
@@ -4771,9 +4771,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Ranchi?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees."
                         ],
                     },
                     {
@@ -4971,9 +4971,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Ranchi?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
                         ],
                     },
                     {
@@ -5171,9 +5171,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Ranchi?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
                         ],
                     },
                     {
@@ -5371,9 +5371,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Ranchi?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
                         ],
                     },
                     {
@@ -5571,9 +5571,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Ranchi?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees"
                         ],
                     },
                     {
@@ -6571,9 +6571,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IITM Pravartak?",
+                        title: "Will I get any executive alumni status or networking opportunities with IITM Pravartak?",
                         content: [
-                            "No, IITM Pravartak alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "No, IITM Pravartak executive alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
                         ],
                     },
                     {
@@ -7171,9 +7171,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Sirmaur?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Sirmaur?",
                         content: [
-                            "No, IIM Sirmaur alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Sirmaur Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
                         ],
                     },
                     {
@@ -7371,9 +7371,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Sirmaur?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Sirmaur?",
                         content: [
-                            "No, IIM Sirmaur alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Sirmaur Executive Alumni Status upon program completion, for an additional fee of INR 10,000 + GST."
                         ],
                     },
                     {
@@ -7771,9 +7771,9 @@ export const universityFaqTemplates = {
                         ],
                     },
                     {
-                        title: "Will I get any alumni status or networking opportunities with IIM Ranchi?",
+                        title: "Will I get any executive alumni status or networking opportunities with IIM Ranchi?",
                         content: [
-                            "No, IIM Ranchi alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees."
                         ],
                     },
                     {

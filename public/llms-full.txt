@@ -288,12 +288,12 @@ Fees, start dates and enrollment status change over time. Check the linked progr
   1. AI Foundations for Business Leaders
   2. Generative AI for Leaders
   3. AI Strategy, Use Cases & Value Creation
-  4. AI Business Models & Monetization
+  4. AI Business Models
   5. AI Product Strategy & Solution Design
   6. Applied AI in Business Functions
-  7. AI Risk, Safety & Governance
-  8. Leading AI Transformation
-  9. Agentic AI for Business Applications
+  7. AI Risk, Safety, Ethics & Governance
+  8. Agentic AI for Business Applications
+  9. Leading AI Transformation & Change
   10. Capstone
 
 #### [Advanced Certificate in AI for Leaders](https://accredian.com/programs/iit-jammu-advanced-certificate-in-ai-for-leaders)

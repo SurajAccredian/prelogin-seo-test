@@ -5,7 +5,25 @@ import { categorySlug } from './app/helpers/categorySlug';
 // Legacy structural redirects: maps old URL structures to new destinations (301)
 const LEGACY_STRUCTURAL_REDIRECTS: Record<string, string> = {
   '/terms/refund': '/refund-policies/accredian-policy',
-  '/explore-programs': '/programs'
+  '/explore-programs': '/programs',
+  '/chief-technology-officer-program': '/programs/chief-technology-officer-programme',
+  '/programs/chief-technology-officer-program': '/programs/chief-technology-officer-programme',
+  '/iiml-chief-digital-and-ai-officer-programme-the-cdaio-program': '/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program',
+  '/programs/iiml-chief-digital-and-ai-officer-programme-the-cdaio-program': '/programs/iiml-chief-digital-ai-officer-programme-the-cdaio-program',
+  '/pg-certificate-in-chief-digital-and-ai-officer-program': '/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program',
+  '/programs/pg-certificate-in-chief-digital-and-ai-officer-program': '/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program',
+  '/pg-certificate-program-in-chief-digital-and-ai-officer-program': '/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program',
+  '/executive-program-strategic-hr-leadership': '/programs/executive-program-in-strategic-hr-leadership',
+  '/programs/executive-program-strategic-hr-leadership': '/programs/executive-program-in-strategic-hr-leadership',
+  '/generative-ai-for-leaders': '/programs/executive-program-in-generative-ai-for-leaders',
+  '/programs/generative-ai-for-leaders': '/programs/executive-program-in-generative-ai-for-leaders',
+  '/iimr-executive-program-in-leadership-with-ai': '/programs/iim-ranchi-executive-program-in-leadership-with-ai',
+  '/programs/iimr-executive-program-in-leadership-with-ai': '/programs/iim-ranchi-executive-program-in-leadership-with-ai',
+  '/transform-business-workflows-with-generative-ai': '/free-courses/transform-business-workflows-with-generative-ai',
+  '/programs/transform-business-workflows-with-generative-ai': '/free-courses/transform-business-workflows-with-generative-ai',
+  '/programs/executive-program-in-strategy-leadership-innovation-in-ai-era-iimsirmaur': '/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era',
+  '/programs/executive-program-in-leadership-with-ai-iim-sirmaur': '/programs/iims-executive-program-in-leadership-with-ai',
+  '/programs/chief-marketing-growth-officer-program-inactive': '/programs',
 };
 
 export function middleware(request: NextRequest) {

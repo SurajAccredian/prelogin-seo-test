@@ -37,6 +37,7 @@ const STATIC_PATHS = [
   "/account-deletion",
   "/app-privacy-policy",
   "/app-support",
+  "/faq",
 ];
 
 const SEARCH_INTENT_PATHS = [

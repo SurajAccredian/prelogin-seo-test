@@ -34,16 +34,16 @@
       "title": "career sessions"
     },
     {
-      "title": "int. immersion in dubai",
-      "text": "3-day international immersion in Dubai"
+      "text": "3-day international immersion in Dubai",
+      "title": "int. immersion in dubai"
     },
     {
-      "title": "campus immersion",
-      "text": "2-day campus immersion at IIM Raipur"
+      "text": "2-day campus immersion at IIM Raipur",
+      "title": "campus immersion"
     },
     {
-      "title": "modules",
-      "text": "11 Core Modules"
+      "text": "11 Core Modules",
+      "title": "modules"
     }
   ],
   "domain": "Senior Management ",
@@ -509,7 +509,7 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTRAIPUR-Global-Senior-Leadership-Program.pdf",
     "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR Global Senior Leadership Program Brochure",
     "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR-Global Senior Leadership"
   },

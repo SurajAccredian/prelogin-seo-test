@@ -87,7 +87,7 @@ export default function IIMCoursesPage() {
       filterKey="iim"
       pageTitle="IIM Executive & Certificate Programs"
       pageDescription="Build your knowledge across management, strategy, finance, human resources and emerging business technologies. Gain broader business perspectives to approach challenges with confidence and make informed decisions. A strong understanding of management principles, strategic decision-making and core business functions is essential for effective leadership. Through the Indian Institute of Management Certificate Programs, senior managers and business leaders can strengthen their leadership capabilities, improve business performance and prepare for greater responsibilities."
-      pageMobileDescription="Through the IIM certificate Programs, senior managers and business leaders can strengthen their leadership capabilities, improve business performance and prepare for greater responsibilities."
+      pageMobileDescription="Compare live online executive certifications from top IIMs across AI leadership, CXO pathways, finance, and senior management."
       breadcrumbLabel="IIM Programs"
       faqs={IIM_FAQS}
       ctaTitle="Find the Right IIM Program for Your Career"

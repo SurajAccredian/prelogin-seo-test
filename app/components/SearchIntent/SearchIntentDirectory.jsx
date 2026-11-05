@@ -15,19 +15,7 @@ export default function SearchIntentDirectory({
   getProgramStatus,
   onResetFilters,
 }) {
-  const [isMobile, setIsMobile] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
-
-  // Detect mobile vs desktop view (< 768px is mobile / tablet portrait)
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   // Collapse back whenever programs list changes (e.g. filter/search change)
   useEffect(() => {
@@ -58,12 +46,6 @@ export default function SearchIntentDirectory({
     );
   }
 
-  // 5 programs on mobile, 6 programs on desktop
-  const initialLimit = isMobile ? 5 : 6;
-  const hasMore = programs.length > initialLimit;
-  const visiblePrograms = isExpanded ? programs : programs.slice(0, initialLimit);
-  const additionalCount = Math.max(0, programs.length - initialLimit);
-
   const handleShowLess = () => {
     setIsExpanded(false);
     const directoryEl = document.getElementById("program-directory");
@@ -72,34 +54,62 @@ export default function SearchIntentDirectory({
     }
   };
 
+  const additionalCountMobile = Math.max(0, programs.length - 5);
+  const additionalCountDesktop = Math.max(0, programs.length - 6);
+
   return (
     <div id="program-directory" className="w-full">
-      {/* Responsive grid with active programs first */}
+      {/* Responsive grid with active programs first - SEO-11: all cards rendered in HTML for crawler discovery */}
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 my-4 sm:my-6 font-circular">
-        {visiblePrograms.map((program, index) => (
-          <SearchIntentCard
-            key={`${program.id}-${index}`}
-            program={program}
-            isShortlisted={shortlistedIds.includes(program.id)}
-            onToggleShortlist={onToggleShortlist}
-            onOpenBrochure={onOpenBrochure}
-            setBrotureDownloadInfo={onOpenBrochure}
-            setOpen={setOpen}
-            getProgramStatus={getProgramStatus}
-          />
-        ))}
+        {programs.map((program, index) => {
+          // Visual expansion: cards beyond the initial threshold (5 on mobile, 6 on desktop)
+          // are visually collapsed with CSS until expanded, keeping all <a href> links in server HTML.
+          let visibilityClass = "flex flex-col";
+          if (!isExpanded) {
+            if (index === 5) {
+              visibilityClass = "hidden md:flex md:flex-col";
+            } else if (index >= 6) {
+              visibilityClass = "hidden";
+            }
+          }
+
+          return (
+            <div
+              key={`${program.id}-${index}`}
+              className={`w-full h-full ${visibilityClass}`}
+            >
+              <SearchIntentCard
+                program={program}
+                isShortlisted={shortlistedIds.includes(program.id)}
+                onToggleShortlist={onToggleShortlist}
+                onOpenBrochure={onOpenBrochure}
+                setBrotureDownloadInfo={onOpenBrochure}
+                setOpen={setOpen}
+                getProgramStatus={getProgramStatus}
+              />
+            </div>
+          );
+        })}
       </div>
 
       {/* View More / Show Less Button */}
-      {hasMore && (
-        <div className="flex justify-center items-center mt-6 sm:mt-8 pb-4">
+      {programs.length > 5 && (
+        <div
+          className={`flex justify-center items-center mt-6 sm:mt-8 pb-4 ${programs.length === 6 && !isExpanded ? "md:hidden" : ""
+            }`}
+        >
           {!isExpanded ? (
             <button
               type="button"
               onClick={() => setIsExpanded(true)}
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-universal hover:bg-darkBlue text-white text-sm sm:text-base font-semibold shadow-sm hover:shadow-md transition-all active:scale-[0.98] cursor-pointer"
             >
-              <span>View More ({additionalCount})</span>
+              <span>
+                View More (
+                <span className="inline md:hidden">{additionalCountMobile}</span>
+                <span className="hidden md:inline">{additionalCountDesktop}</span>
+                )
+              </span>
               <IoIosArrowDown className="text-base" />
             </button>
           ) : (

@@ -87,7 +87,7 @@ export default function SeniorLeadershipProgrammesPage() {
       filterKey="senior-leadership"
       pageTitle="Senior Leadership Programs"
       pageDescription="Senior leadership calls for strategic vision, confident decision-making and the ability to guide teams through change. Deepen your understanding of business priorities, organisational leadership and the challenges of managing at a senior level. Gain perspectives to strengthen your judgement, align teams and contribute to long-term business success. Through the leadership Programs for senior professionals, experienced managers and senior leaders can refine their leadership approach, broaden their business outlook and prepare for greater responsibilities."
-      pageMobileDescription="Through the leadership Programs for senior professionals, experienced managers and senior leaders can refine their leadership approach, broaden their business outlook and prepare for greater responsibilities."
+      pageMobileDescription="Prepare for senior executive responsibilities with Senior Management Programs (SMP) from IIM Ranchi, IIM Visakhapatnam, IIM Bodh Gaya, and XLRI."
       breadcrumbLabel="Senior Leadership"
       faqs={SENIOR_LEADERSHIP_FAQS}
       ctaTitle="Elevate to Senior Enterprise Leadership"

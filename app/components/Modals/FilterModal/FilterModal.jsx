@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Modal from "@mui/material/Modal";
 import { Box } from "@mui/material";
 import { IoCloseSharp } from "react-icons/io5";
@@ -19,6 +19,16 @@ export default function FilterModal({
   setModalCategory = undefined,
 }) {
   const dispatch = useDispatch();
+
+  // Lock body scroll while modal is open to prevent background scrolling
+  useEffect(() => {
+    if (!open) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, [open]);
 
   const handleClose = () => {
     setOpen(false);
@@ -57,7 +67,11 @@ export default function FilterModal({
       }}
     >
       <Box sx={{ outline: "none !important" }}>
-        <div className="w-[92vw] sm:w-[85vw] md:w-[75vw] lg:w-[65vw] max-w-[850px] max-h-[85vh] bg-white rounded-2xl p-4 sm:p-6 flex flex-col justify-between shadow-2xl">
+        <div
+          data-lenis-prevent
+          onWheel={(e) => e.stopPropagation()}
+          className="w-[92vw] sm:w-[85vw] md:w-[75vw] lg:w-[65vw] max-w-[850px] max-h-[85vh] bg-white rounded-2xl p-4 sm:p-6 flex flex-col justify-between shadow-2xl overscroll-contain"
+        >
           <div className="w-full flex-1 overflow-hidden flex flex-col">
             <div className="w-full flex justify-between items-center pb-2 border-b border-neutral-200">
               <h3 className="text-xl sm:text-2xl font-semibold text-neutral-900">
@@ -89,7 +103,7 @@ export default function FilterModal({
             )}
 
             {/* Filter checkboxes grid */}
-            <div className="w-full flex-1 overflow-y-auto custom-scrollbar pr-1">
+            <div data-lenis-prevent className="w-full flex-1 overflow-y-auto custom-scrollbar pr-1 overscroll-contain">
               <ProgramFilter2
                 className="mt-2"
                 title={title}

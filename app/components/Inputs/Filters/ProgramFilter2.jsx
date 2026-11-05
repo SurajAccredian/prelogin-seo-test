@@ -11,7 +11,7 @@ const ProgramFilter2 = ({
   checked = [],
 }) => {
   return (
-    <div className={`bg-white w-full max-h-[240px] custom-scrollbar overflow-y-auto mt-4 ${className}`}>
+    <div className={`bg-white w-full mt-2 ${className}`}>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {categories.map((category) => (
           <div className="flex md:items-center gap-2" key={category}>

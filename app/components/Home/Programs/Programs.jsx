@@ -5,7 +5,7 @@ import { Calendar, Clock, ArrowRight, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import "./Programs.css";
-import { STREAMS, BLUR_DATA_URL } from "../../Assets/constants";
+import { STREAMS, BLUR_DATA_URL, UNIVERSITY_BACKGROUNDS } from "../../Assets/constants";
 import { IoIosArrowDown } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
@@ -16,20 +16,7 @@ import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 // import { useConditionalScrollPrevention } from "../../../helpers/useConditionalScrollPrevention";
 import { TrendingUp } from "lucide-react"; // Icon for Popular Courses
 
-// University Background Image Mapping
-const UNIVERSITY_BACKGROUNDS = {
-  "IIM Visakhapatnam":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-bg-v2.webp",
-  "IIM Tiruchirappalli":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
-  XLRI: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
-  "IIM Lucknow":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
-  "SP Jain School of Global Management":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "E&ICT Academy IIT Kanpur":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
-};
+// Shared University Background Image Mapping imported from constants.js
 
 // Popular program IDs
 const POPULAR_PROGRAM_IDS = [

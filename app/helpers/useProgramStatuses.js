@@ -47,10 +47,10 @@ export function resolveProgramStatus(program, statuses = globalStatuses) {
   const staticStatus = program.status || "";
   const isClosed =
     staticStatus.toLowerCase() === "admission closed" ||
-    staticStatus.toLowerCase() === "admissions closed";
+    program.enrollments === "inactive";
 
   return {
-    status: staticStatus || "New Launch",
+    status: isClosed ? "Admission Closed" : (staticStatus || "New Launch"),
     isAdmissionClosed: isClosed,
     isLive: false,
   };

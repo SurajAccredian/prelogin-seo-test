@@ -17,13 +17,13 @@
   "duration": "11 Months",
   "required_years_experience": 10,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "enroll_button_text": "Batch Coming Soon",
   "enroll_button_disabled": true,
   "timings": "weekends only",
   "tags": [
     {
-      "title": "new launch",
+      "title": "coming soon",
       "type": "main"
     },
     {
@@ -495,5 +495,6 @@
   },
   "og_title": "IIMV - PG Certificate CDAIO Program",
   "meta_description": "Build skills in enterprise AI strategy, chief digital officer leadership and tech with IIM Visakhapatnam's 11-month CDAIO Program for digital leaders.",
-  "keywords": "PG certificate chief digital AI officer IIM Visakhapatnam, CDAIO program IIMV, chief digital officer certification"
+  "keywords": "PG certificate chief digital AI officer IIM Visakhapatnam, CDAIO program IIMV, chief digital officer certification",
+  "status": "Coming Soon"
 }

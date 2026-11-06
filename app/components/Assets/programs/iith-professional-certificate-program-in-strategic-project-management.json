@@ -4,7 +4,7 @@
   "tags": [
     {
       "type": "main",
-      "title": "best selling"
+      "title": "coming soon"
     },
     {
       "type": "ordinary",
@@ -205,7 +205,7 @@
   "start_date": "13 June 2026",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/IITH-PCPSPMT-Program.png",
   "description": "Embark on a 6 month learning journey in Project Planning, Risk Management, and Project Governance.",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "short_title": "Strategic Project Management",
   "extra_points": [
     "Technical Support",
@@ -253,5 +253,6 @@
   "required_years_experience": 1,
   "og_title": "IIT Hyderabad - Strategic Project Management",
   "meta_description": "Build strategic project governance with IIT Hyderabad's 6-month Strategic Project Management program for project managers and delivery leads.",
-  "keywords": "strategic project management IIT Hyderabad, project management program IIT Hyderabad, executive project leadership"
+  "keywords": "strategic project management IIT Hyderabad, project management program IIT Hyderabad, executive project leadership",
+  "status": "Coming Soon"
 }

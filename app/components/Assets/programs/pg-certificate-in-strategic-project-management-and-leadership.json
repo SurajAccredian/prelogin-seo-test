@@ -16,11 +16,11 @@
   "required_years_experience": 5,
   "duration": "10 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "timings": "weekends only",
   "tags": [
     {
-      "title": "best selling",
+      "title": "coming soon",
       "type": "main"
     },
     {
@@ -400,5 +400,6 @@
   },
   "og_title": "IIMV - PG Certificate Strategic Project Mgmt",
   "meta_description": "Develop strategic project portfolio management with IIM Visakhapatnam's 10-month PG Certificate Program for project managers and delivery leads.",
-  "keywords": "PG certificate strategic project management IIM Visakhapatnam, IIMV project leadership, executive project management"
+  "keywords": "PG certificate strategic project management IIM Visakhapatnam, IIMV project leadership, executive project management",
+  "status": "Coming Soon"
 }

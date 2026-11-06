@@ -475,6 +475,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iiml_chief_digital_ai_officer_programme"
         : programData.id == "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme"
         ? "xlri_cto_program"
+        : programData.id == "executive-development-program-in-digital-hr-leadership-and-people-analytics"
+        ? "xlri_digital_hr"
         : programData.id == "iim-ranchi-senior-management-program"
         ? "iimr_senior_management_program"
 

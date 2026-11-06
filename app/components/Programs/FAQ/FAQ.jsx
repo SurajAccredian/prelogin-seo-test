@@ -29,6 +29,7 @@ const FAQ = ({ data: propData }) => {
     data?.id == 'professional-certificate-in-ai-for-leaders' ||
     data?.id == 'sp-jain-executive-program-in-leadership-with-ai' ||
     data?.id == 'executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme' ||
+    data?.id == 'executive-development-program-in-digital-hr-leadership-and-people-analytics' ||
     data?.id == "iith-professional-certificate-program-in-strategic-project-management" ||
     data?.id == "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" ||
     data?.id == "iiml-executive-program-in-strategic-project-management-leadership" ||

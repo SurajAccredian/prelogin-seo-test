@@ -12,6 +12,7 @@ import SearchIntentCTA from "./SearchIntentCTA";
 import { sortPrograms } from "../../helpers/common.helpers";
 import { useProgramStatuses } from "../../helpers/useProgramStatuses";
 import { getProgramsByFilterKey } from "./searchIntentFilters";
+import { durationToIso } from "../../lib/schema/text";
 import "./SearchIntent.css";
 // Dynamic imports for below-the-fold and modal components (SEO-23)
 const DownloadBrochure = dynamic(
@@ -198,6 +199,13 @@ export default function SearchIntentCategoryClient({
           sameAs: "https://accredian.com",
         },
         url: `https://accredian.com/programs/${p.id}`,
+        duration: p.duration || undefined,
+        timeRequired: durationToIso(p.duration) || undefined,
+        hasCourseInstance: {
+          "@type": "CourseInstance",
+          courseMode: p.batch_type || "Online",
+          duration: p.duration || undefined,
+        },
       },
     })),
   };

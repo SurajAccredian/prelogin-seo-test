@@ -17,9 +17,44 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - [About Accredian](https://accredian.com/about)
 - [Contact and admissions](https://accredian.com/contact-us)
 
+## [Frequently asked questions](https://accredian.com/faq)
+
+### What is Accredian?
+
+Accredian is a premier executive education and upskilling platform in India. In partnership with top national institutes like IIMs, IITs, XLRI, and technology partners like Microsoft, Accredian delivers live online post-graduate certificates, executive courses, and CXO leadership programs designed to help working professionals transition into high-growth roles.
+
+### Who are Accredian programs designed for?
+
+Accredian programs are specifically built for working professionals—ranging from mid-level managers and technical leads to functional heads, C-suite executives, and business owners—who want to gain role-ready expertise, strategic leadership capabilities, and career progression without disrupting their full-time jobs.
+
+### How do Accredian programs differ from traditional online courses?
+
+Unlike self-paced recording libraries, Accredian offers interactive, live weekend classes taught directly by premier institute faculty and industry practitioners. Learners participate in real-time Q&A, work on hands-on capstone projects, gain access to career support services, and participate in exclusive on-campus immersion(if applicable) modules at top university campuses.
+
+### Who are Accredian's university partners?
+
+Accredian partners with premier institutions including IIM Lucknow, IIM Visakhapatnam, E&ICT Academy IIT Kanpur, I3C IIT Jammu, IIT Hyderabad, IITM Pravartak (IIT Madras), XLRI Jamshedpur, IIM Tiruchirappalli, IIM Ranchi, IIM Kashipur, IIM Sirmaur, IIM Bodh Gaya, IIM Amritsar, SP Jain School of Global Management, and Microsoft.
+
+### What is the professional background and industry diversity of Accredian cohorts?
+
+Cohorts consist of seasoned professionals spanning mid-level management to senior leadership with experience across IT, Software, BFSI, Consulting, Healthcare, Manufacturing, Retail, and many more. This diversity fosters high-level peer discussions, cross-industry perspectives, and executive networking opportunities.
+
+### Are international candidates and non-resident professionals eligible to join Accredian programs?
+
+Yes. Working professionals residing outside India can enroll in all live online programs. International participants receive full access to live weekend sessions, recorded lectures, digital learning materials, and virtual networking opportunities, with program fees payable via international credit cards and cross-border payment gateways.
+
+### Are Accredian executive certificates recognized by employers globally, and are they UGC/AICTE degree programs?
+
+Accredian programs offer executive education certificates in collaboration with premier partner institutes (such as IIMs, IITs, and XLRI); they are specialized skill-building certificate programs rather than UGC/AICTE full-time degree programs. These certificates are widely recognized by top recruiters and global corporations as proof of advanced functional expertise and continuous executive development.
+
+### What programs does Accredian offer?
+
+Accredian offers industry-relevant executive education, advanced certification, and leadership development programs in Artificial Intelligence, Generative & Agentic AI, CXO Leadership (CEO, CTO, CFO, CHRO, COO, CDAIO), Senior Management, Strategy & Leadership, Project Management, Product Management, Finance, Human Resource Leadership, and Design Thinking in premier academic collaboration with India's top institutions.
+
 ## [Design Thinking](https://accredian.com/course/design-thinking)
 
 - [Advanced Certificate Program in Design Thinking & Innovation with AI](https://accredian.com/programs/advanced-certificate-program-in-design-thinking-innovation-with-ai): E&ICT Academy IIT Kanpur | 5 Months | INR 1,50,000 + GST
+- [Executive Program in Design Thinking & Innovation for Strategic Leadership](https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership): Department of Entrepreneurship and Management, IIT Hyderabad | 6 Months | INR 1,79,000 + GST
 
 ## [CXO Leadership](https://accredian.com/course/cxo-leadership)
 
@@ -28,7 +63,9 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - [Chief Operating Officer Program (The COO Program)](https://accredian.com/programs/iim-kashipur-chief-operating-officer-program): IIM Kashipur | 12 Months | INR 2,90,000 + GST
 - [CTO & AI Leadership Program](https://accredian.com/programs/iimr-cto-ai-leadership-program): IIM Ranchi | 12 Months | INR 2,60,000 + GST
 - [Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)](https://accredian.com/programs/executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme): XLRI | 11 Months | INR 3,30,000 + GST
+- [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme): IIM Tiruchirappalli | 10 Months | INR 2,90,000 + GST
 - [Chief Executive Officer Program (The CEO Program)](https://accredian.com/programs/chief-executive-officer-program): IIM Visakhapatnam | 11 Months | INR 3,49,000 + GST
+- [PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program): IIM Visakhapatnam | 11 Months | INR 3,50,000 + GST
 - [Chief Financial Officer Programme](https://accredian.com/programs/chief-financial-officer-programme): IIM Visakhapatnam | 12 Months | INR 3,49,000 + GST
 
 ## [Artificial Intelligence](https://accredian.com/course/artificial-intelligence)
@@ -54,6 +91,7 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 - [Chief Human Resources Officer Programme (The CHRO Program)](https://accredian.com/programs/iiml-chief-human-resource-officer-programme-the-chro-program): IIM Lucknow | 10 Months | INR 4,00,000 + GST
 - [Executive Program in Strategic HR Leadership](https://accredian.com/programs/iimr-executive-program-in-strategic-hr-leadership): IIM Ranchi | 10 Months | INR 2,20,000 + GST
+- [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme): IIM Visakhapatnam | 12 Months | INR 2,50,000 + GST
 - [Executive Development Program in Strategic HR Leadership](https://accredian.com/programs/executive-development-program-strategic-hr-leadership): XLRI | 10 Months | INR 2,40,000 + GST
 - [Executive Development Programme in Digital HR Leadership and People Analytics](https://accredian.com/programs/executive-development-program-in-digital-hr-leadership-and-people-analytics): XLRI | 10 Months | INR 2,40,000 + GST
 
@@ -61,7 +99,9 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 - [Professional Certificate Program in Strategic Project Management & Leadership](https://accredian.com/programs/professional-certificate-program-in-strategic-project-management-and-leadership): E&ICT Academy IIT Kanpur | 8 Months | INR 1,80,000 + GST
 - [Advanced Certificate Program in Strategic Project Management](https://accredian.com/programs/advanced-certificate-program-in-strategic-project-management): E&ICT Academy IIT Kanpur | 5 Months | INR 1,40,000 + GST
+- [Professional Certificate Program in Strategic Project Management](https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management): Department of Entrepreneurship and Management, IIT Hyderabad | 6 Months | INR 1,80,000 + GST
 - [Executive Program in Strategic Project Management & Leadership](https://accredian.com/programs/iiml-executive-program-in-strategic-project-management-leadership): IIM Lucknow | 10 Months | INR 2,42,500 + GST
+- [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership): IIM Visakhapatnam | 10 Months | INR 2,09,000 + GST
 
 ## [Strategy & Leadership](https://accredian.com/course/strategy-and-leadership)
 
@@ -79,6 +119,10 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 - [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management): XLRI | 11 Months | INR 4,00,000 + GST
 - [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program): IIM Visakhapatnam | 12 Months | INR 4,00,000 + GST
 - [Senior Management Program](https://accredian.com/programs/senior-management-program): IIM Visakhapatnam | 12 Months | INR 3,49,000 + GST
+
+## [PG Diploma](https://accredian.com/course/pg-diploma)
+
+- [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives): IIM Visakhapatnam | 12 Months | INR 4,84,300 + GST
 
 ## [General Management](https://accredian.com/course/general-management)
 
@@ -98,15 +142,8 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 ## Closed for new admissions
 
-- [Executive Program in Design Thinking & Innovation for Strategic Leadership](https://accredian.com/programs/iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership): Department of Entrepreneurship and Management, IIT Hyderabad
-- [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme): IIM Tiruchirappalli
-- [PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program): IIM Visakhapatnam
 - [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/chief-technology-officer-programme): IIM Visakhapatnam
-- [Chief Human Resource Officer Programme](https://accredian.com/programs/chief-human-resource-officer-programme): IIM Visakhapatnam
-- [Professional Certificate Program in Strategic Project Management](https://accredian.com/programs/iith-professional-certificate-program-in-strategic-project-management): Department of Entrepreneurship and Management, IIT Hyderabad
-- [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership): IIM Visakhapatnam
 - [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program): IIM Tiruchirappalli
-- [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives): IIM Visakhapatnam
 - [Executive General Management Program](https://accredian.com/programs/executive-general-management-program): IIM Lucknow
 - [Executive Program in Business Management](https://accredian.com/programs/executive-program-in-business-management): IIM Visakhapatnam
 - [PG Certificate Program in Investment Banking & Capital Markets](https://accredian.com/programs/pg-certificate-program-in-investment-banking): IIM Visakhapatnam

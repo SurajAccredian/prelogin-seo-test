@@ -46,6 +46,9 @@ const FeatureIcons = {
   "int. immersion in dubai": (
     <FaEarthAmericas className="w-full h-full" />
   ),
+  "int. immersion in dubai (opt.)": (
+    <FaEarthAmericas className="w-full h-full" />
+  ),
   "specialization modules": <MdFolderSpecial className="w-full h-full" />,
   term: <MdOutlineSpaceDashboard className="w-full h-full" />,
   assignments: <FaTasks className="w-full h-full" />,

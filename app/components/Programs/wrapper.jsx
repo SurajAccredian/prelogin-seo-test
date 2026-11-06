@@ -92,8 +92,12 @@ const Wrapper = ({ data }) => {
               {renderSection(section)}
             </div>
           ))}
-          <Line />
-          <Related data={data} />
+          {data?.id !== "post-graduate-diploma-in-management-hybrid" && (
+            <>
+              <Line />
+              <Related data={data} />
+            </>
+          )}
           <CTA data={data} />
         </div>
       </div>

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import AccordionDrop from "./AccordionDrop/AccordionDrop";
 import SideForm from "./SideForm/SideForm";
+import PGDMHybridCurriculum from "./PGDMHybridCurriculum";
 
 const Curriculum = ({ data: propData }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -21,6 +22,8 @@ const Curriculum = ({ data: propData }) => {
     );
   }
 
+  const isPGDMHybrid = data?.id === "post-graduate-diploma-in-management-hybrid";
+
   return (
     <div
       id="curriculum"
@@ -30,7 +33,7 @@ const Curriculum = ({ data: propData }) => {
         <div className="w-full flex items-center">
           <div className="flex-1 md:text-start text-center">
             <h4 className="text-base font-medium">
-              Our <span className="text-universal">{data?.short_title}</span>{" "}
+              Our <span className="text-universal">{isPGDMHybrid ? "2 Year Hybrid PGDM" : data?.short_title}</span>{" "}
               Coursework
             </h4>
             <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
@@ -64,14 +67,23 @@ const Curriculum = ({ data: propData }) => {
                 "mt-0"
             } flex gap-4`}
           >
-            <div className="flex-1">
-              <AccordionDrop
-                data={data}
-                type={data?.curriculum_type}
-                curriculum={data?.curriculum}
-                openAll={isExpanded}
-                setOpenAll={setIsExpanded}
-              />
+            <div className="flex-1 min-w-0">
+              {isPGDMHybrid ? (
+                <PGDMHybridCurriculum
+                  data={data}
+                  curriculum={data?.curriculum}
+                  openAll={isExpanded}
+                  setOpenAll={setIsExpanded}
+                />
+              ) : (
+                <AccordionDrop
+                  data={data}
+                  type={data?.curriculum_type}
+                  curriculum={data?.curriculum}
+                  openAll={isExpanded}
+                  setOpenAll={setIsExpanded}
+                />
+              )}
             </div>
             <div className="flex-[0.5] hidden lg:flex justify-center px-8">
               <SideForm data={data} />

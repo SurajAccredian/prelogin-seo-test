@@ -27,6 +27,27 @@ export const mainFaq = [
         answer:
           "Yes. Certificates are issued directly by Accredian’s partner institutions (such as IIM Lucknow, IIM Visakhapatnam, E&ICT Academy IIT Kanpur, IIT Hyderabad, XLRI, etc.) upon fulfilling attendance and evaluation criteria. These credentialed certificates validate your skills and are widely recognized by leading enterprise employers across industries.",
       },
+      {
+        id: "about-5",
+        question:
+          "What is the professional background and industry diversity of Accredian cohorts?",
+        answer:
+          "Cohorts consist of seasoned professionals spanning mid-level management to senior leadership with experience across IT, Software, BFSI, Consulting, Healthcare, Manufacturing, Retail, and many more. This diversity fosters high-level peer discussions, cross-industry perspectives, and executive networking opportunities.",
+      },
+      {
+        id: "about-6",
+        question:
+          "Are international candidates and non-resident professionals eligible to join Accredian programs?",
+        answer:
+          "Yes. Working professionals residing outside India can enroll in all live online programs. International participants receive full access to live weekend sessions, recorded lectures, digital learning materials, and virtual networking opportunities, with program fees payable via international credit cards and cross-border payment gateways.",
+      },
+      {
+        id: "about-7",
+        question:
+          "Are Accredian executive certificates recognized by employers globally, and are they UGC/AICTE degree programs?",
+        answer:
+          "Accredian programs offer executive education certificates in collaboration with premier partner institutes (such as IIMs, IITs, and XLRI); they are specialized skill-building certificate programs rather than UGC/AICTE full-time degree programs. These certificates are widely recognized by top recruiters and global corporations as proof of advanced functional expertise and continuous executive development.",
+      },
     ],
   },
   {
@@ -75,6 +96,33 @@ export const mainFaq = [
         answer:
           "Teaching combines live faculty sessions, case studies, peer discussions and, in most programmes, a capstone project; the methods used are listed on each programme page.",
       },
+      {
+        id: "academic-8",
+        question:
+          "Who delivers the live classes, masterclasses, and executive lectures?",
+        answer:
+          "Sessions are delivered by senior faculty members from partner academic institutions (such as IIMs and IITs) and seasoned industry leaders (CXOs, Vice Presidents, and specialized practice leads), combining academic rigor with real-world corporate execution. It may vary as per institute guidelines, check respective program pages to verify.",
+      },
+      {
+        id: "academic-9",
+        question:
+          "What evaluation and assessment criteria are required to graduate?",
+        answer:
+          "Graduation requirements vary by partner institute. Typically, candidates must maintain a minimum live attendance threshold (70% to 75%) and pass continuous evaluation modules, including quizzes, case study submissions, and capstone project assessments as defined on each program page.",
+      },
+      {
+        id: "academic-10",
+        question: "Do graduates receive official institute alumni status?",
+        answer:
+          "Alumni benefits depend on the partner institution and specific executive program. Selected long-duration or diploma programs grant official executive alumni status, portal access, and campus library privileges, while short-term certificate programs issue completion credentials without formal alumni rights. Details are specified on each program's page.",
+      },
+      {
+        id: "academic-11",
+        question:
+          "Can candidates pause their program or request a batch transfer?",
+        answer:
+          "Programs cannot be paused mid-duration. Batch transfers are not permitted as a standard option; however, they may be considered strictly under exceptional circumstances, subject to formal review and written approval from the respective partner university or institution.",
+      },
     ],
   },
   {
@@ -116,6 +164,27 @@ export const mainFaq = [
         question: "What is the refund, cancellation, or deferral policy for enrolled candidates?",
         answer:
           "Accredian maintains transparent admission policies. Each institute has its own refund policy. Candidates are advised to refer to the respective institute’s refund and cancellation policy page on the website for detailed information.",
+      },
+      {
+        id: "support-7",
+        question:
+          "How long do candidates retain access to the learning portal and session recordings?",
+        answer:
+          "Participants receive 24/7 access to the Accredian Learning Portal during the program. Access to live session recordings, and learning materials is strictly governed by the guidelines of each respective partner institution. Availability and access timeframes vary by university—some partner institutions limit recording access to a specific timeframe even while the program is actively running, while others may offer extended post-program access. Please refer to your specific program page for institute-defined portal access and recording policies.",
+      },
+      {
+        id: "support-8",
+        question:
+          "Does Accredian offer corporate sponsorship invoicing or employee referral rewards?",
+        answer:
+          "Yes. For professionals funded by their organizations, Accredian issues formal GST-compliant invoices and receipt documentation for corporate reimbursement. Additionally, Accredian maintains an active candidate referral policy where enrolled students or alumni receive a referral bonus of INR 10,000 for every successfully enrolled colleague.",
+      },
+      {
+        id: "support-9",
+        question:
+          "Does Accredian offer early-bird discounts, merit scholarships, or group enrollment pricing?",
+        answer:
+          "Accredian offers early-bird fee concessions for candidates who complete registration prior to specified cohort deadlines. Merit-based fee waivers or corporate group enrollment discounts may also be available for select programs; details can be confirmed directly with admissions advisors during application process.",
       },
     ],
   },

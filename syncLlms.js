@@ -7,6 +7,7 @@ const rootDir = process.cwd();
 const BASE_URL = "https://accredian.com";
 const programsFile = path.join(rootDir, "app/components/Assets/programs.json");
 const programsDir = path.join(rootDir, "app/components/Assets/programs");
+const faqFile = path.join(rootDir, "app/components/Assets/faq.js");
 const llmsFile = path.join(rootDir, "public/llms.txt");
 const llmsFullFile = path.join(rootDir, "public/llms-full.txt");
 
@@ -132,6 +133,13 @@ const header = (title) => `# ${title}\n\n> ${INTRO}\n\n${NOTICE}\n`;
 const linkList = SITE_LINKS.map(([t, u]) => `- [${t}](${u})`).join("\n");
 const categoryLink = (g) => (g.slug === "free-courses" ? `${BASE_URL}/programs` : `${BASE_URL}/course/${g.slug}`);
 
+let mainFaq = [];
+try {
+  ({ mainFaq = [] } = require(faqFile));
+} catch (err) {
+  console.warn("Failed to load faq.js:", err.message);
+}
+
 // llms.txt: short index
 const indexSections = [];
 for (const g of allGroups) {
@@ -143,9 +151,43 @@ const closedIndex = allGroups.flatMap((g) => g.closed).map((e) => `- [${e.p.prog
 if (closedIndex.length) {
   indexSections.push(`## Closed for new admissions\n\n${closedIndex.join("\n")}`);
 }
-const llms = `${header("Accredian (accredian.com)")}\n## Site\n\n${linkList}\n\n${indexSections.join("\n\n")}\n\n## Optional\n\n- [Full catalogue with curriculum](${BASE_URL}/llms-full.txt)\n`;
+
+// Top 8 curated FAQs for llms.txt (replaces redundant certification question with university partners)
+const LLMS_TXT_FAQ_IDS = [
+  "about-1",     // What is Accredian?
+  "about-2",     // Who are Accredian programs designed for?
+  "about-3",     // How do Accredian programs differ from traditional online courses?
+  "academic-2",  // Who are Accredian's university partners?
+  "about-5",     // What is the professional background and industry diversity of Accredian cohorts?
+  "about-6",     // Are international candidates and non-resident professionals eligible to join Accredian programs?
+  "about-7",     // Are Accredian executive certificates recognized by employers globally, and are they UGC/AICTE degree programs?
+  "academic-1",  // What programs does Accredian offer?
+];
+
+let topFaqBlock = "";
+if (Array.isArray(mainFaq) && mainFaq.length) {
+  const allQuestionsMap = new Map(
+    mainFaq.flatMap((cat) => cat.questions || []).map((q) => [q.id, q])
+  );
+  const top8 = LLMS_TXT_FAQ_IDS.map((id) => allQuestionsMap.get(id)).filter(Boolean);
+  if (top8.length) {
+    const items = top8.map((q) => `### ${q.question.trim()}\n\n${q.answer.trim()}`);
+    topFaqBlock = `## [Frequently asked questions](${BASE_URL}/faq)\n\n${items.join("\n\n")}`;
+  }
+}
+
+const llms = [
+  header("Accredian (accredian.com)").trim(),
+  "## Site\n\n" + linkList,
+  topFaqBlock,
+  indexSections.join("\n\n"),
+  `## Optional\n\n- [Full catalogue with curriculum](${BASE_URL}/llms-full.txt)`,
+]
+  .filter(Boolean)
+  .join("\n\n") + "\n";
 
 // llms-full.txt: expanded catalogue
+
 const institutions = [...new Set(programs.map((p) => p.university_name).filter(Boolean))];
 const fullSections = [];
 for (const g of allGroups) {
@@ -153,11 +195,36 @@ for (const g of allGroups) {
     fullSections.push(`### [${g.name}](${categoryLink(g)})\n\n${g.open.map((e) => fullEntry(e.p, e.detail)).join("\n\n")}`);
   }
 }
+
+// FAQs sourced from the /faq page route (app/components/Assets/faq.js)
+let faqBlock = "";
+if (Array.isArray(mainFaq) && mainFaq.length) {
+  const faqSections = [];
+  for (const cat of mainFaq) {
+    if (!cat.questions || !cat.questions.length) continue;
+    const qas = cat.questions.map((q) => `#### ${q.question.trim()}\n\n${q.answer.trim()}`);
+    faqSections.push(`### ${cat.heading}\n\n${qas.join("\n\n")}`);
+  }
+  if (faqSections.length) {
+    faqBlock = `## [Frequently asked questions](${BASE_URL}/faq)\n\n${faqSections.join("\n\n")}`;
+  }
+}
+
 const closedFull = allGroups.flatMap((g) => g.closed);
 const closedBlock = closedFull.length
-  ? `## Closed for new admissions\n\nThese programs are not taking new registrations. Their pages remain available for reference.\n\n${closedFull.map((e) => fullEntry(e.p, e.detail)).join("\n\n")}\n`
+  ? `## Closed for new admissions\n\nThese programs are not taking new registrations. Their pages remain available for reference.\n\n${closedFull.map((e) => fullEntry(e.p, e.detail)).join("\n\n")}`
   : "";
-const llmsFull = `${header("Accredian: Program Catalogue")}\n## Site\n\n${linkList}\n\n## Partner institutions\n\n${institutions.map((i) => `- ${i}`).join("\n")}\n\n## Programs open for admission\n\n${fullSections.join("\n\n")}\n\n${closedBlock}`;
+
+const llmsFull = [
+  header("Accredian: Program Catalogue").trim(),
+  "## Site\n\n" + linkList,
+  "## Partner institutions\n\n" + institutions.map((i) => `- ${i}`).join("\n"),
+  faqBlock,
+  "## Programs open for admission\n\n" + fullSections.join("\n\n"),
+  closedBlock,
+]
+  .filter(Boolean)
+  .join("\n\n") + "\n";
 
 fs.writeFileSync(llmsFile, llms, "utf8");
 fs.writeFileSync(llmsFullFile, llmsFull, "utf8");

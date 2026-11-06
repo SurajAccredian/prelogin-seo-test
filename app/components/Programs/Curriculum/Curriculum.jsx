@@ -22,7 +22,7 @@ const Curriculum = ({ data: propData }) => {
     );
   }
 
-  const isPGDMHybrid = data?.id === "post-graduate-diploma-in-management-hybrid";
+  const isPGDMHybrid = data?.id === "gim-hybrid-post-graduate-diploma-in-management";
 
   return (
     <div
@@ -60,12 +60,11 @@ const Curriculum = ({ data: propData }) => {
 
         {data && (
           <div
-            className={`w-full ${
-              data?.id === "executive-general-management-program"
+            className={`w-full ${data?.id === "executive-general-management-program"
                 ? "mt-6"
-                : 
+                :
                 "mt-0"
-            } flex gap-4`}
+              } flex gap-4`}
           >
             <div className="flex-1 min-w-0">
               {isPGDMHybrid ? (

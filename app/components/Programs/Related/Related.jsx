@@ -98,7 +98,7 @@ const Related = ({ data: propData }) => {
   }, [swiper]);
 
 
-  if (data?.id === "post-graduate-diploma-in-management-hybrid") {
+  if (data?.id === "gim-hybrid-post-graduate-diploma-in-management") {
     return null;
   }
 

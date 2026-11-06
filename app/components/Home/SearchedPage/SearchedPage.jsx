@@ -116,7 +116,7 @@ const SearchedPageInner = () => {
 
   const [urlParams, setUrlParams] = useState(null);
   const router = useRouter();
-  const searchQuery = (urlParams?.get("q") || "").trim();
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Synchronization refs:
   // 1. Gating flag: ensures initial URL parameters are parsed BEFORE any outgoing sync can overwrite them.
@@ -141,6 +141,7 @@ const SearchedPageInner = () => {
         durations: urlDurations,
         institutes: urlInstitutes,
         careerLevels: urlCareerLevels,
+        search: urlSearch,
         sort: urlSort,
       } = parseUrlFilterParams(paramsToParse);
 
@@ -161,6 +162,8 @@ const SearchedPageInner = () => {
       if (!areArraysEqual(urlCareerLevels, current.checkedCareerLevels)) {
         dispatch(programActions.setCheckedCareerLevels(urlCareerLevels));
       }
+      const parsedSearch = (urlSearch || "").trim();
+      setSearchQuery((prev) => (prev !== parsedSearch ? parsedSearch : prev));
 
       const validSort = ["relevance", "duration_asc", "duration_desc"].includes(urlSort)
         ? urlSort
@@ -336,20 +339,13 @@ const SearchedPageInner = () => {
     );
 
   const handleRemoveSearchQuery = () => {
-    const params = new URLSearchParams(urlParams ? urlParams.toString() : "");
-    params.delete("q");
-    const newQueryString = params.toString();
-    router.replace(`/programs${newQueryString ? `?${newQueryString}` : ""}`, {
-      scroll: false,
-    });
+    setSearchQuery("");
   };
 
   const handleClearClose = () => {
     dispatch(programActions.clearAllFilters());
     setSortBy("relevance");
-    if (searchQuery) {
-      router.replace("/programs", { scroll: false });
-    }
+    setSearchQuery("");
   };
 
   useEffect(() => {

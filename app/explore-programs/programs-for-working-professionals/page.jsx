@@ -87,7 +87,7 @@ export default function CoursesForWorkingProfessionalsPage() {
       filterKey="courses-for-working-professionals"
       pageTitle="Executive Programs for Professionals"
       pageDescription="Career growth often comes from broadening your business knowledge and learning to manage new challenges. Strengthen your understanding of management, strategy, leadership, project management and the growing role of AI in business. Gain perspectives that help you connect everyday decisions with wider organisational goals. Through the executive Programs for working professionals, managers and professionals can build relevant skills, take on broader responsibilities and move towards their career aspirations."
-      pageMobileDescription="Through the executive Programs for working professionals, managers and professionals can build relevant skills, take on broader responsibilities and move towards their career aspirations."
+      pageMobileDescription="Accelerate your career with flexible, live online executive programs from India’s top IIMs, IITs, and XLRI designed for working professionals."
       breadcrumbLabel="For Working Professionals"
       faqs={WORKING_PROF_FAQS}
       ctaTitle="Upskill While Working Full-Time"

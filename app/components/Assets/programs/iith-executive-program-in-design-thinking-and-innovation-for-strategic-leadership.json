@@ -4,7 +4,7 @@
   "tags": [
     {
       "type": "main",
-      "title": "best selling"
+      "title": "coming soon"
     },
     {
       "type": "ordinary",
@@ -172,7 +172,7 @@
   "start_date": "13 June 2026",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/IITH-ECPDTISL-Program-v2.png",
   "description": "Embark on a 6 month learning journey in Applied Innovation, Experience Design & Strategic Leadership.",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "short_title": "Design Thinking",
   "extra_points": [
     "Technical Support",
@@ -220,5 +220,6 @@
   "required_years_experience": 1,
   "og_title": "IIT Hyderabad - Design Thinking & Innovation",
   "meta_description": "Master human-centered innovation with IIT Hyderabad's 6-month Design Thinking & Innovation program for innovation managers and design professionals.",
-  "keywords": "design thinking innovation IIT Hyderabad, strategic leadership design thinking, IIT Hyderabad executive certificate"
+  "keywords": "design thinking innovation IIT Hyderabad, strategic leadership design thinking, IIT Hyderabad executive certificate",
+  "status": "Coming Soon"
 }

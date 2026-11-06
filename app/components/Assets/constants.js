@@ -11,7 +11,6 @@ import { IoCardOutline } from "react-icons/io5";
 import { LiaBrainSolid } from "react-icons/lia";
 import { RiMoneyDollarCircleLine, RiShieldKeyholeLine } from "react-icons/ri";
 import { LuBrainCircuit } from "react-icons/lu";
-import { IconType } from "react-icons";
 
 
 
@@ -243,3 +242,58 @@ export const SUGGESTED_FALLBACK_SEARCHES = [
 // Shared blur placeholder for next/image (flat #F3F4F6 8x5 SVG)
 export const BLUR_DATA_URL =
   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjUiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjUiIGZpbGw9IiNGM0Y0RjYiLz48L3N2Zz4=";
+
+
+// University Background Image Mapping (SEO-04)
+export const UNIVERSITY_BACKGROUNDS = {
+  "IIM Visakhapatnam":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-bg-v2.webp",
+  "IIM Tiruchirappalli":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
+  "IIM Lucknow":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
+  "IIM Ranchi":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "IIM Kashipur":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
+  "IIM Amritsar":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-amritsar-cover-v2.webp",
+  "IIM Bodh Gaya":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-2.webp",
+  "IIM Sirmaur":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
+  XLRI:
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "XLRI | Delhi-NCR":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "SP Jain School of Global Management":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
+  "E&ICT Academy IIT Kanpur":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
+  "E&ICT Academy IIT Guwahati":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "Department of Entrepreneurship and Management, IIT Hyderabad":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-universityi-image-v2.webp",
+  "I3C-IIT JAMMU":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+  "IITM Pravartak":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IITM_Campus_image__1_.webp",
+  Microsoft:
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+  Accredian:
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
+};
+
+export const isPlaceholderCoverImage = (url) => {
+  if (!url) return true;
+  return /img-(11|12|20|21)\.webp/i.test(url);
+};
+
+export const getProgramCoverImage = (program) => {
+  if (!program) return "";
+  const uniBg = UNIVERSITY_BACKGROUNDS[program.university_name];
+  if (isPlaceholderCoverImage(program.cover_image) && uniBg) {
+    return uniBg;
+  }
+  return uniBg || program.cover_image || program.university_image || "";
+};

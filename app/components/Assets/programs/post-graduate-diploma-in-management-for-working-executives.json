@@ -16,7 +16,7 @@
   "required_years_experience": 3,
   "duration": "12 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -365,5 +365,6 @@
   },
   "og_title": "IIMV - Executive PGDM Program (PGDMEx)",
   "meta_description": "Develop general management capabilities, strategic leadership and with IIM Visakhapatnam's 12-month PGDM for Working Executives for working professionals.",
-  "keywords": "PGDM for working executives IIM Visakhapatnam, PGDMEx IIMV, executive MBA IIM Visakhapatnam, top executive PGDM"
+  "keywords": "PGDM for working executives IIM Visakhapatnam, PGDMEx IIMV, executive MBA IIM Visakhapatnam, top executive PGDM",
+  "status": "Coming Soon"
 }

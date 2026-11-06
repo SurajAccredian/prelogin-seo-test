@@ -885,7 +885,7 @@
     "required_years_experience": 8
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
     "program_name": "Executive Program in Design Thinking & Innovation for Strategic Leadership",
@@ -920,7 +920,7 @@
     "required_years_experience": 1
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-short-logo.webp",
     "university_name": "Department of Entrepreneurship and Management, IIT Hyderabad",
     "program_name": "Professional Certificate Program in Strategic Project Management",
@@ -1139,7 +1139,7 @@
     "required_years_experience": 5
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Chief Human Resource Officer Programme",
@@ -1174,7 +1174,7 @@
     "required_years_experience": 10
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Chief Human Resource Officer Programme",
@@ -1209,7 +1209,7 @@
     "required_years_experience": 10
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
@@ -1279,7 +1279,7 @@
     "required_years_experience": 5
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Post Graduate Certificate in Strategic Project Management & Leadership",
@@ -1493,7 +1493,7 @@
     "required_years_experience": 1
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp",
     "university_name": "IIM Tiruchirappalli",
     "program_name": "Chief Technology Officer Programme (The CTO Program)",
@@ -1672,7 +1672,7 @@
     "required_years_experience": 1
   },
   {
-    "status": "admission closed",
+    "status": "Coming Soon",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iimv-brochure-logo.webp",
     "university_name": "IIM Visakhapatnam",
     "program_name": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",

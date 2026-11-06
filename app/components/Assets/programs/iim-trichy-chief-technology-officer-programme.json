@@ -16,11 +16,11 @@
   "duration": "10 months",
   "required_years_experience": 10,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "timings": "weekends only",
   "tags": [
     {
-      "title": "best selling",
+      "title": "coming soon",
       "type": "main"
     },
     {
@@ -362,5 +362,6 @@
   },
   "og_title": "IIMT - Chief Technology Officer Programme",
   "meta_description": "Master strategic technology governance with IIM Trichy's 10-month Chief Technology Officer Programme for technology leaders and engineering managers.",
-  "keywords": "chief technology officer program IIM Trichy, CTO program IIM Trichy, executive CTO leadership program, tech leadership IIM"
+  "keywords": "chief technology officer program IIM Trichy, CTO program IIM Trichy, executive CTO leadership program, tech leadership IIM",
+  "status": "Coming Soon"
 }

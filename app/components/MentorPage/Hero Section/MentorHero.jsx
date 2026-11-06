@@ -30,7 +30,7 @@ const mentorHero = () => {
 
           <img
             className="mentorImage absolute right-[10px] bottom-[-88px] w-[1200px] overflow-hidden "
-            src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorImage.png"
+            src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorImage.webp"
             alt="Mentor"
           />
 

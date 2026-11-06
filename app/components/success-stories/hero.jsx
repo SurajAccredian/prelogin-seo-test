@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="flex-1 md:py-0 py-16 sm:flex hidden justify-center">
             <div className='relative h-fit w-full max-w-xl rounded-lg overflow-hidden p-2 bg-white border drop-shadow-xl'>
-              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/success-stories-hero.webp" alt="hero" className='w-full rounded-md' />
+              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/success-stories-hero2.webp" alt="hero" className='w-full rounded-md' />
             </div>
           </div>
         </div>

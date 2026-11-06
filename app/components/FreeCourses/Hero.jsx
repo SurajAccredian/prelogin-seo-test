@@ -192,7 +192,7 @@ const Hero = ({ data }) => {
           <img
             src={
               data.hero_image ||
-              "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg"
+              "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.webp"
             }
             alt="Course Visual representation"
           />

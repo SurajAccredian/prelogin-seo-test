@@ -1185,7 +1185,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
                         content: [
-                            "Structured across 12 months comprising 42 courses, covering all core aspects of management: finance, operations, organizational behavior, and business transformation.",
+                            "Structured across 12 months comprising 21 courses, covering all core aspects of management: finance, operations, organizational behavior, and business transformation.",
                             "- **Duration:** 12 months",
                             "- **Learning Format:** 480+ hours of live online sessions",
                             "- **Class Timings:** Conducted on weekends",
@@ -1234,7 +1234,7 @@ export const universityFaqTemplates = {
                         content: [
                             "Yes. Participants will receive a Post Graduate Diploma from IIM Visakhapatnam upon fulfilling all program requirements.",
                             "",
-                            "- **Diploma will be awarded only if:** Attendance is 75% or above and the participant achieves a minimum CGPA of 2.75 in the overall assessment."
+                            "- **Diploma will be awarded only if:** Attendance is 75% or above and the participant achieves a minimum CGPA of 2.15 in the overall assessment."
                         ]
                     },
                     {
@@ -1303,7 +1303,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 4,82,500.",
+                            "- The program fee is INR 4,84,300.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },

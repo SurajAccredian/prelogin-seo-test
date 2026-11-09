@@ -1,0 +1,617 @@
+{
+  "id": "senior-management-program",
+  "institute": "iim-ranchi",
+  "meta": {
+    "title": "IIM Ranchi Senior Management Program | Accredian",
+    "description": "12-month IIM Ranchi Senior Management Program for leaders with 10+ years of experience. Live weekend classes, 3-day campus immersion and IIM Ranchi Executive Alumni Status.",
+    "og_title": "IIM Ranchi Senior Management Program | Accredian",
+    "og_description": "Build boardroom-level strategy, finance and leadership capability in 12 months. Talk to an advisor.",
+    "og_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg"
+  },
+  "urgency": {
+    "deadline": "2026-11-15T23:59:59+05:30",
+    "deadline_display": "15 Nov 2026",
+    "next_cohort_date": "24 Jan 2027",
+    "offer_text": "Scholarships open for Jan 2027 cohort",
+    "offer_text_short": "Scholarships open",
+    "popup_delay_ms": 10000
+  },
+  "header": {
+    "logos": [
+      {
+        "src": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+        "alt": "Accredian",
+        "width": 140,
+        "height": 34
+      },
+      {
+        "src": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+        "alt": "IIM Ranchi",
+        "width": 140,
+        "height": 34
+      }
+    ],
+    "cta_text": "Talk to our Advisor"
+  },
+  "hero": {
+    "badge": "Live Online · Weekend Classes · 12 Months",
+    "title_primary": "Lead the enterprise, not just the function.",
+    "title_accent": "IIM Ranchi Senior Management Program",
+    "subtitle": "A 12-month program for senior professionals to master strategy, finance, boardroom leadership and AI-era decision making, taught live by IIM Ranchi faculty.",
+    "facts": [
+      {
+        "title": "IIM Ranchi faculty",
+        "subtitle": "Live, instructor-led sessions",
+        "icon": "faculty"
+      },
+      {
+        "title": "3-day campus immersion",
+        "subtitle": "Stay and meals included",
+        "icon": "campus"
+      },
+      {
+        "title": "Executive Alumni Status",
+        "subtitle": "IIM Ranchi, included in fee",
+        "icon": "alumni"
+      },
+      {
+        "title": "CXO coaching + capstone",
+        "subtitle": "Board-ready transformation plan",
+        "icon": "capstone"
+      }
+    ],
+    "key_dates": [
+      {
+        "label": "Next cohort",
+        "value": "24 Jan 2027"
+      },
+      {
+        "label": "Admission deadline",
+        "value": "15 Nov 2026"
+      },
+      {
+        "label": "Eligibility",
+        "value": "10+ yrs experience"
+      }
+    ],
+    "advisor": {
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/customer-care-indian-hero-section-image-removebg-preview.webp",
+      "heading": "Talk to our Advisor",
+      "subheading": "Free 1:1 consultation on fit, curriculum, fees and EMI options."
+    }
+  },
+  "form_config": {
+    "program_name": "IIM Ranchi Senior Management Program",
+    "button_text": "Talk to our Advisor",
+    "button_popup_text": "Get a Callback",
+    "consent_text": "I agree to be contacted by Accredian via call, WhatsApp, SMS and email about this program.",
+    "form_endpoint": "",
+    "experience_options": [
+      "Less than 5 years",
+      "5 to 10 years",
+      "10 to 15 years",
+      "15 to 20 years",
+      "20+ years"
+    ]
+  },
+  "stats": [
+    {
+      "value": "144+",
+      "label": "Hours of live classes"
+    },
+    {
+      "value": "13",
+      "label": "Modules"
+    },
+    {
+      "value": "3",
+      "label": "Business simulations"
+    },
+    {
+      "value": "1",
+      "label": "Capstone project"
+    },
+    {
+      "value": "6",
+      "label": "Career sessions"
+    },
+    {
+      "value": "3 days",
+      "label": "Campus immersion"
+    }
+  ],
+  "target_audience": {
+    "eyebrow": "Who this is for",
+    "heading": "Built for leaders ready for the next seat",
+    "lead": "Designed for professionals with 10+ years of experience who want to think, decide and lead at the enterprise level.",
+    "cards": [
+      {
+        "title": "Executives",
+        "description": "Refine your leadership and drive organisation-wide change.",
+        "icon": "executive"
+      },
+      {
+        "title": "Managers",
+        "description": "Master strategy for complex and fast-moving business challenges.",
+        "icon": "manager"
+      },
+      {
+        "title": "Directors",
+        "description": "Deepen strategic decision making and governance capability.",
+        "icon": "director"
+      },
+      {
+        "title": "Entrepreneurs",
+        "description": "Scale operations and expand confidently into new markets.",
+        "icon": "entrepreneur"
+      },
+      {
+        "title": "Division heads",
+        "description": "Align departments and P&Ls with corporate objectives.",
+        "icon": "division"
+      },
+      {
+        "title": "Sector leaders",
+        "description": "Healthcare, education and government leaders driving efficiency at scale.",
+        "icon": "sector"
+      }
+    ]
+  },
+  "learning_experience": {
+    "eyebrow": "How you learn",
+    "heading": "Learn with faculty. Grow with a cohort of peers.",
+    "lead": "Every weekend you sit in a live virtual classroom with IIM Ranchi faculty and experienced leaders from across industries, debating real cases and stress-testing your decisions.",
+    "main_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-3-compressed.webp",
+    "sub_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/accredian-hero-section-image-1-v4_1920x1280_v3.webp",
+    "checks": [
+      "Live, interactive sessions, not pre-recorded videos",
+      "Peer cohort of senior professionals with 10+ years of experience",
+      "Case studies, simulations and an enterprise capstone"
+    ]
+  },
+  "curriculum": {
+    "eyebrow": "Curriculum",
+    "heading": "Six leadership pillars. One 12-month journey.",
+    "lead": "13 modules built around the decisions senior leaders actually own, from boardroom strategy and capital allocation to running an AI-ready enterprise.",
+    "journey": [
+      {
+        "step": "1",
+        "title": "Foundations",
+        "subtitle": "Strategic thinking and the senior leader's lens"
+      },
+      {
+        "step": "2",
+        "title": "Live weekend modules",
+        "subtitle": "13 modules across 6 pillars with IIM Ranchi faculty"
+      },
+      {
+        "step": "3",
+        "title": "Simulations",
+        "subtitle": "3 business simulations on high-stakes decisions"
+      },
+      {
+        "step": "4",
+        "title": "Campus immersion",
+        "subtitle": "3 days at IIM Ranchi with faculty and peers"
+      },
+      {
+        "step": "5",
+        "title": "Capstone + CXO coaching",
+        "subtitle": "Board-ready transformation blueprint"
+      },
+      {
+        "step": "6",
+        "title": "Certificate + alumni status",
+        "subtitle": "IIM Ranchi completion certificate",
+        "is_final": true
+      }
+    ],
+    "pillars": [
+      {
+        "id": "strategy-boardroom",
+        "name": "Strategy & Boardroom",
+        "intro": "Set direction for the whole enterprise and carry the board with you.",
+        "outcomes": [
+          "Frame long-term strategy under uncertainty",
+          "Choose where to play and how to win",
+          "Present and defend strategy at board level"
+        ],
+        "module_ids": [1, 2, 3]
+      },
+      {
+        "id": "finance-growth",
+        "name": "Finance & Growth",
+        "intro": "Read the numbers like a CFO and turn capital into growth.",
+        "outcomes": [
+          "Use financial statements to drive strategic calls",
+          "Allocate capital and evaluate investments",
+          "Build expansion, partnership and ecosystem plays"
+        ],
+        "module_ids": [4, 9]
+      },
+      {
+        "id": "markets-operations",
+        "name": "Markets & Operations",
+        "intro": "Connect brand, customer and operating model into a growth engine.",
+        "outcomes": [
+          "Position brands for market leadership",
+          "Design customer value propositions that win",
+          "Scale resilient operations and supply chains"
+        ],
+        "module_ids": [5, 6]
+      },
+      {
+        "id": "people-risk-governance",
+        "name": "People, Risk & Governance",
+        "intro": "Build the organisation and the guardrails that let strategy execute.",
+        "outcomes": [
+          "Design high-performance organisations and teams",
+          "Align talent strategy with business strategy",
+          "Lead enterprise risk, compliance and accountability"
+        ],
+        "module_ids": [7, 8]
+      },
+      {
+        "id": "global-innovation",
+        "name": "Global & Innovation",
+        "intro": "Lead across borders and build innovation into an established firm.",
+        "outcomes": [
+          "Navigate geopolitical and regulatory risk",
+          "Lead cross-cultural, global organisations",
+          "Run innovation systems and new ventures"
+        ],
+        "module_ids": [10, 11]
+      },
+      {
+        "id": "data-ai-leadership",
+        "name": "Data & AI Leadership",
+        "intro": "Make data-driven decisions and lead responsibly in the AI era.",
+        "outcomes": [
+          "Build a data-driven decision culture",
+          "Set enterprise AI and GenAI strategy",
+          "Govern AI risk, ethics and compliance"
+        ],
+        "module_ids": [12, 13]
+      }
+    ],
+    "modules": [
+      {
+        "id": 1,
+        "title": "Strategic Thinking Foundations",
+        "topics": [
+          "Strategic thinking frameworks",
+          "Systems thinking and long-term perspectives",
+          "Industry and competitive landscape analysis",
+          "Strategic decision making under uncertainty"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Corporate and Business Strategy",
+        "topics": [
+          "Corporate vs business strategy",
+          "Strategy formulation and strategic choices",
+          "Competitive advantage and strategic positioning",
+          "Strategy implementation and execution"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Boardroom Leadership and Communication",
+        "topics": [
+          "Boardroom governance and dynamics",
+          "Executive communication and strategic narratives",
+          "Influencing boards and senior stakeholders",
+          "Leadership presence in high-stakes decisions"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Strategic Finance for Senior Leaders",
+        "topics": [
+          "Financial statements for strategic decisions",
+          "Profitability and value driver analysis",
+          "Capital allocation and investment decisions",
+          "Financial leadership for enterprise value"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Marketing Strategy and Brand Leadership",
+        "topics": [
+          "Strategic marketing for competitive advantage",
+          "Brand, positioning and market leadership",
+          "Customer insights and value proposition design",
+          "Marketing as a growth engine"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Operations and Supply Chain Excellence",
+        "topics": [
+          "Operational strategy and competitive advantage",
+          "Supply chain strategy and resilience",
+          "Scaling operations for growth",
+          "Operational excellence in global organisations"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Building High-Performance Organisations and Teams",
+        "topics": [
+          "Designing high-performance organisations",
+          "Leadership culture and talent systems",
+          "Aligning people strategy with business strategy",
+          "Executive leadership and talent development"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Legal, Risk and Compliance for Senior Leaders",
+        "topics": [
+          "Enterprise risk governance for leaders",
+          "Corporate liability and board accountability",
+          "Regulatory strategy in global markets",
+          "Building a culture of compliance"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Growth Strategy and Business Expansion",
+        "topics": [
+          "Market expansion and adjacency strategy",
+          "Platform and ecosystem growth strategies",
+          "Strategic partnerships and alliances",
+          "Investment strategies for growth"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Global Strategy and Geopolitical Leadership",
+        "topics": [
+          "Global market expansion strategy",
+          "Managing geopolitical and regulatory risks",
+          "Cross-cultural leadership in global organisations",
+          "Global competitive strategy"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Innovation Strategy and Digital Business Leadership",
+        "topics": [
+          "Innovation strategy for established firms",
+          "Corporate entrepreneurship and new ventures",
+          "Building innovation systems and culture",
+          "Experimentation and learning organisations"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Analytics for Strategic Decision Making",
+        "topics": [
+          "Data-driven leadership and decision making",
+          "Analytics in strategy and operations",
+          "Building data-driven organisations",
+          "Metrics for strategic performance"
+        ]
+      },
+      {
+        "id": 13,
+        "title": "AI and Generative AI for Senior Leaders",
+        "topics": [
+          "AI strategy and enterprise applications",
+          "Generative AI and executive productivity",
+          "AI-driven business models",
+          "Governing AI risks and responsible AI",
+          "Ethical AI in modern business",
+          "Legal compliance mechanisms for responsible AI use"
+        ]
+      }
+    ],
+    "mid_cta": {
+      "heading": "Want the full syllabus and batch schedule?",
+      "subheading": "Our advisor will walk you through it and check your fit for the cohort.",
+      "button_text": "Talk to our Advisor"
+    }
+  },
+  "signature_experiences": {
+    "eyebrow": "Signature experiences",
+    "heading": "Learning that goes beyond the classroom",
+    "feature": {
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+      "title": "3-day campus immersion at IIM Ranchi",
+      "description": "Learn face to face with faculty and your peer cohort on campus. Food and accommodation are included in the program fee."
+    },
+    "list": [
+      {
+        "title": "Enterprise transformation capstone",
+        "description": "Build a board-ready strategy deck, value creation plan and a 12 to 18 month execution roadmap.",
+        "icon": "capstone"
+      },
+      {
+        "title": "Exclusive CXO coaching",
+        "description": "Practical guidance from experienced coaches to step confidently into executive roles.",
+        "icon": "coaching"
+      },
+      {
+        "title": "3 business simulations",
+        "description": "Make high-stakes decisions in realistic scenarios and see the outcomes play out.",
+        "icon": "simulation"
+      },
+      {
+        "title": "6 career sessions by Accredian",
+        "description": "Resume building, interview preparation and guidance on leadership career paths.",
+        "icon": "career"
+      }
+    ]
+  },
+  "certificate": {
+    "eyebrow": "Certification",
+    "heading": "Earn a certificate from IIM Ranchi",
+    "lead": "Complete the program with 70%+ attendance to receive your completion certificate and join the IIM Ranchi executive alumni network.",
+    "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+    "checks": [
+      "Completion certificate from IIM Ranchi",
+      "IIM Ranchi Executive Alumni Status",
+      "Lifetime validity, shareable on LinkedIn"
+    ],
+    "cta_text": "Talk to our Advisor"
+  },
+  "company_logos": {
+    "heading": "Accredian learners work at",
+    "base_url": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/",
+    "logos": [
+      "Alumni-Section-Images/IBM_logo.svg.webp",
+      "Alumni-Section-Images/Infosys_logo.svg.webp",
+      "Alumni-Companies/jp-morgan.webp",
+      "Alumni-Section-Images/PwC_2025_Logo.svg.webp",
+      "Alumni-Section-Images/Morgan_Stanley_Logo_1.svg.webp",
+      "Alumni-Section-Images/Amazon_logo.webp",
+      "Alumni-Section-Images/Barclays-Logo.webp",
+      "Alumni-Section-Images/Boeing-Logo.webp",
+      "Alumni-Section-Images/Cisco_logo.svg.webp",
+      "Alumni-Section-Images/Gartner-Logo.webp",
+      "Alumni-Section-Images/Philips_logo_new.svg.webp",
+      "Alumni-Section-Images/Verizon.webp",
+      "Alumni-Section-Images/Jio.webp",
+      "Alumni-Section-Images/Saint%20Gobain.webp"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Learner stories",
+    "heading": "Hear from Accredian alumni",
+    "cards": [
+      {
+        "name": "Dilip Kumar Yadav",
+        "role": "Accredian alumnus",
+        "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/dilip-kumar-yadav-success-story.webp",
+        "quote": "Accredian's structured learning and mentorship helped me merge operational expertise with product management, empowering me to lead with confidence."
+      },
+      {
+        "name": "Priya Motwani",
+        "role": "Accredian alumna",
+        "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/priya-motwani-success-story.webp",
+        "quote": "Accredian's real-world projects, expert mentorship, and experienced faculty equipped me with the strategic mindset and technical skills to confidently lead cross-functional product teams."
+      },
+      {
+        "name": "Aditya Gundu",
+        "role": "Accredian alumnus",
+        "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/aditya-gundu-success-story.webp",
+        "quote": "The guidance I got from Accredian was really fantastic which set me on the right path."
+      }
+    ]
+  },
+  "fees": {
+    "eyebrow": "Investment",
+    "heading": "Program fee and payment options",
+    "lead": "Flexible EMI plans available. Ask your advisor about current scholarships and referral benefits.",
+    "emi_starting": "₹12,184",
+    "emi_suffix": "/ month",
+    "total_fee": "₹2,60,000 + GST",
+    "cta_text": "Talk to our Advisor",
+    "disclaimer": "EMI options carry additional interest charges. Refer to the brochure for full terms.",
+    "included_heading": "What's included",
+    "inclusions": [
+      "144+ hours of live classes by IIM Ranchi faculty",
+      "3-day campus immersion with food and stay",
+      "IIM Ranchi Executive Alumni Status",
+      "Capstone project and CXO coaching",
+      "6 career sessions by Accredian",
+      "Session recordings if you miss a class"
+    ]
+  },
+  "admission_process": {
+    "eyebrow": "Admissions",
+    "heading": "A simple, fully online admission process",
+    "steps": [
+      {
+        "step": "STEP 01",
+        "title": "Talk to an advisor",
+        "description": "Schedule a 1:1 consultation to understand the program and your fit."
+      },
+      {
+        "step": "STEP 02",
+        "title": "Application review",
+        "description": "Your profile is reviewed for eligibility and cohort fit."
+      },
+      {
+        "step": "STEP 03",
+        "title": "Start learning",
+        "description": "Confirm your seat and begin with the 24 Jan 2027 cohort."
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQs",
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Who is eligible for this program?",
+        "answer": "A bachelor's degree in any discipline. 10+ years of work experience is preferred. Prior leadership or strategy experience is not mandatory."
+      },
+      {
+        "question": "How much time do I need to commit?",
+        "answer": "Live classes run on weekends. We recommend around 30 minutes of preparation a day. Recordings are available if you miss a session."
+      },
+      {
+        "question": "Will I get a certificate from IIM Ranchi?",
+        "answer": "Yes. You receive a completion certificate from IIM Ranchi on meeting the requirements, including 70% or higher attendance, along with IIM Ranchi Executive Alumni Status."
+      },
+      {
+        "question": "Who teaches the program?",
+        "answer": "The program is taught by IIM Ranchi faculty through live sessions, case studies, simulations and a capstone project."
+      },
+      {
+        "question": "What does the campus immersion include?",
+        "answer": "One 3-day immersion at IIM Ranchi. Food and accommodation are included in the fee. Travel is arranged by the participant, with the schedule shared in advance."
+      },
+      {
+        "question": "Is placement assistance provided?",
+        "answer": "Accredian provides 6 career sessions covering resume building, interview preparation and career path guidance. Placement assistance or guarantees are not part of this program."
+      },
+      {
+        "question": "What is the refund policy?",
+        "answer": "A 7-day cooling-off period applies. Full details are in the program policy."
+      }
+    ]
+  },
+  "final_cta": {
+    "heading": "Admissions for the January cohort close 15 Nov 2026",
+    "lead": "Speak with a program advisor to check your eligibility, understand fees and EMI, and reserve your seat.",
+    "button_text": "Talk to our Advisor"
+  },
+  "footer": {
+    "copyright": "© 2026 Accredian, a brand of FullStack Education Pvt Ltd.",
+    "links": [
+      {
+        "label": "Privacy",
+        "href": "/terms/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      },
+      {
+        "label": "Refund Policy",
+        "href": "/refund-policies/accredian-policy"
+      }
+    ],
+    "warning": "Important: Ignore payment requests on WhatsApp or unofficial sources. Only trust emails ending with @accredian.com. All company names and logos are trademarks of their respective holders and do not imply affiliation or endorsement."
+  },
+  "sections": [
+    "hero",
+    "stats",
+    "target_audience",
+    "learning_experience",
+    "curriculum",
+    "signature_experiences",
+    "certificate",
+    "company_logos",
+    "testimonials",
+    "fees",
+    "admission_process",
+    "faqs",
+    "final_cta"
+  ]
+}
+

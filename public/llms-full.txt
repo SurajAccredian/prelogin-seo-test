@@ -304,6 +304,29 @@ Accredian offers early-bird fee concessions for candidates who complete registra
   12. Strategic Communication & Boardroom Influence
   13. Capstone Project
 
+#### [PG Certificate Program in Chief Financial Officer (The CFO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-financial-officer-the-cfo-program)
+- **Institution:** IIM Ranchi
+- **Duration:** 12 Months
+- **Start date:** 7 Mar 2027
+- **Experience required:** 8+ years
+- **Fee:** INR 2,90,000 + GST
+- **Description:** Embark on a 12 month learning journey in Financial Leadership, Corporate Governance, and Digital Leadership.
+- **Curriculum:**
+  1. The Modern CFO
+  2. Strategic Financial Leadership
+  3. Boardroom Leadership & Executive Communication for CFOs
+  4. Financial Planning & Analysis
+  5. Strategic Finance & Capital Allocation
+  6. Treasury & Working Capital Management
+  7. Financial Reporting & Controllership
+  8. M&A & Strategic Investments
+  9. Financial Governance & Risk Management
+  10. Tax Strategy & International Finance
+  11. Finance Transformation & FinTech
+  12. Financial Analytics & Decision Support
+  13. AI & GenAI for CFOs
+  14. Capstone Project
+
 #### [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme)
 - **Institution:** IIM Tiruchirappalli
 - **Duration:** 10 Months
@@ -715,7 +738,7 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 #### [Executive Development Program in Strategic HR Leadership](https://accredian.com/programs/executive-development-program-strategic-hr-leadership)
 - **Institution:** XLRI
 - **Duration:** 10 Months
-- **Start date:** 12 July 2026
+- **Start date:** 26 Dec 2026
 - **Experience required:** 5+ years
 - **Fee:** INR 2,40,000 + GST
 - **Description:** Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.

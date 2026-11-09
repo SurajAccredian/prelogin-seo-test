@@ -522,6 +522,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iim_bodh_gaya_smp"
         : programData.id == "executive-program-in-technology-leadership-innovation"
         ? "iitm_pravartak_tech_leadership"
+        : programData.id == "iim-ranchi-chief-operating-officer-program" 
+        ? "iim_ranchi_cfo"
         : 'iitk';
         
         

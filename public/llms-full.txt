@@ -326,6 +326,7 @@ Accredian offers early-bird fee concessions for candidates who complete registra
   12. Financial Analytics & Decision Support
   13. AI & GenAI for CFOs
   14. Capstone Project
+  15. CXO Coaching
 
 #### [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme)
 - **Institution:** IIM Tiruchirappalli

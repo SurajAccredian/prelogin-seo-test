@@ -7,11 +7,14 @@ import { ORG_ID, SITE_URL, WEBSITE_ID } from "./config";
 import { breadcrumbNode, faqPageNode, makeGraph, ref } from "./nodes";
 import { programUrl, type AccredianProgram } from "./program";
 import { providerShortName } from "./providers";
-import { cleanText, compact } from "./text";
+import { cleanText, compact, durationToIso } from "./text";
 import type { FaqItem, JsonLdGraph, JsonLdNode } from "./types";
 
 /** The fields a program card needs. Pass the same array the page uses to render its cards. */
-export type ProgramSummary = Pick<AccredianProgram, "id" | "title" | "university_name" | "enrollments">;
+export type ProgramSummary = Pick<AccredianProgram, "id" | "title" | "university_name" | "enrollments"> & {
+  duration?: string;
+  batch_type?: string;
+};
 
 /**
  * ItemList of programs. Each name includes the institute, so five programs called
@@ -25,12 +28,35 @@ export function programListNode(listId: string, name: string, programs: ProgramS
     name,
     numberOfItems: programs.length,
     itemListOrder: "https://schema.org/ItemListUnordered",
-    itemListElement: programs.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      url: programUrl(p.id),
-      name: `${cleanText(p.title)} – ${providerShortName(p.university_name)}`,
-    })),
+    itemListElement: programs.map((p, i) =>
+      compact({
+        "@type": "ListItem",
+        position: i + 1,
+        url: programUrl(p.id),
+        name: `${cleanText(p.title)} – ${providerShortName(p.university_name)}`,
+        duration: p.duration ? cleanText(p.duration) : undefined,
+        item: compact({
+          "@type": "Course",
+          name: cleanText(p.title),
+          url: programUrl(p.id),
+          description: `${cleanText(p.title)} offered in collaboration with ${p.university_name}. Format: ${p.batch_type || "Live Online"}, Duration: ${p.duration ? cleanText(p.duration) : "Flexible"}.`,
+          provider: {
+            "@type": "Organization",
+            name: p.university_name,
+            sameAs: "https://accredian.com",
+          },
+          duration: p.duration ? cleanText(p.duration) : undefined,
+          timeRequired: durationToIso(p.duration),
+          hasCourseInstance: p.duration
+            ? {
+                "@type": "CourseInstance",
+                courseMode: p.batch_type || "Online",
+                duration: cleanText(p.duration),
+              }
+            : undefined,
+        }),
+      }),
+    ),
   };
 }
 

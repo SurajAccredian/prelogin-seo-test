@@ -87,7 +87,7 @@ export default function XLRICoursesPage() {
       filterKey="xlri"
       pageTitle="XLRI Executive Development Programs"
       pageDescription="Effective leadership begins with understanding people, strengthening business decisions and responding well to change. Build your knowledge of human resources, people analytics, general management, technology leadership, sales and marketing. Gain fresh perspectives to improve team performance and align people with business goals. Through the XLRI – Xavier School of Management Executive Development Programs, managers, HR professionals and senior leaders can develop the skills to lead teams effectively and contribute to organisational growth."
-      pageMobileDescription="Through the XLRI executive development programs, managers, HR professionals and senior leaders can develop the skills to lead teams effectively and contribute to organisational growth."
+      pageMobileDescription="Transform your executive leadership with XLRI's accredited programs across HR leadership, emerging CTO, and general management."
       breadcrumbLabel="XLRI Programs"
       faqs={XLRI_FAQS}
       ctaTitle="Find the Right XLRI Program for Your Career"

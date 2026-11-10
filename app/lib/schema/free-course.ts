@@ -67,11 +67,13 @@ export function freeCoursePageGraph(
       isAccessibleForFree: true,
       educationalLevel: cleanText(course.level) || undefined,
       inLanguage: LANGUAGE_CODES[cleanText(course.language).toLowerCase()] ?? "en",
+      duration: cleanText(course.duration) || undefined,
       timeRequired: duration,
       hasCourseInstance: compact({
         "@type": "CourseInstance",
         courseMode: "Online",
         courseWorkload: duration,
+        duration: cleanText(course.duration) || undefined,
         instructor: course.instructor_short ? { "@type": "Person", name: cleanText(course.instructor_short) } : undefined,
       }),
       offers,

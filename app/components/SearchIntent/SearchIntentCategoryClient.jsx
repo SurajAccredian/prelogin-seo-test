@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useMemo } from "react";
+import dynamic from "next/dynamic";
 import PROGRAMS from "../Assets/programs.json";
 import HomePageWrapper from "../Wrapper/HomePageWrapper";
 import SearchIntentBreadcrumb from "./SearchIntentBreadcrumb";
@@ -8,12 +9,24 @@ import SearchIntentFilterBar from "./SearchIntentFilterBar";
 import SearchIntentDirectory from "./SearchIntentDirectory";
 import SearchIntentFAQ from "./SearchIntentFAQ";
 import SearchIntentCTA from "./SearchIntentCTA";
-import DownloadBrochure from "../CTA_Modal/download_brochure";
 import { sortPrograms } from "../../helpers/common.helpers";
 import { useProgramStatuses } from "../../helpers/useProgramStatuses";
 import { getProgramsByFilterKey } from "./searchIntentFilters";
+import { durationToIso } from "../../lib/schema/text";
 import "./SearchIntent.css";
-import InfoNew from "../Home/Info/InfoNew";
+// Dynamic imports for below-the-fold and modal components (SEO-23)
+const DownloadBrochure = dynamic(
+  () => import("../CTA_Modal/download_brochure"),
+  { ssr: false }
+);
+
+const InfoNew = dynamic(
+  () => import("../Home/Info/InfoNew"),
+  {
+    ssr: false,
+    loading: () => <div className="min-h-[160px] bg-blue-50" />,
+  }
+);
 
 const EXPERIENCE_OPTIONS = ["3–5 yrs", "5–10 yrs", "10+ yrs"];
 
@@ -186,6 +199,13 @@ export default function SearchIntentCategoryClient({
           sameAs: "https://accredian.com",
         },
         url: `https://accredian.com/programs/${p.id}`,
+        duration: p.duration || undefined,
+        timeRequired: durationToIso(p.duration) || undefined,
+        hasCourseInstance: {
+          "@type": "CourseInstance",
+          courseMode: p.batch_type || "Online",
+          duration: p.duration || undefined,
+        },
       },
     })),
   };

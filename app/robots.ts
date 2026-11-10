@@ -1,7 +1,15 @@
 import type { MetadataRoute } from "next";
 
 // /blog/search is also noindex; it is blocked here so crawlers don't spend budget on endless queries.
-const PRIVATE_ROUTES = ["/api/", "/admin/", "/resource-callback", "/cdn-cgi/", "/blog/search"];
+// Filter parameter URLs on explore-programs are disallowed to avoid duplicate-URL bloat (SEO-12).
+const PRIVATE_ROUTES = [
+  "/api/",
+  "/admin/",
+  "/resource-callback",
+  "/cdn-cgi/",
+  "/blog/search",
+  "/explore-programs/*?*",
+];
 
 const AI_AGENTS = [
   "GPTBot",

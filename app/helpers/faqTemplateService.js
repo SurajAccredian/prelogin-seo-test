@@ -475,6 +475,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iiml_chief_digital_ai_officer_programme"
         : programData.id == "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme"
         ? "xlri_cto_program"
+        : programData.id == "executive-development-program-in-digital-hr-leadership-and-people-analytics"
+        ? "xlri_digital_hr"
         : programData.id == "iim-ranchi-senior-management-program"
         ? "iimr_senior_management_program"
 
@@ -520,6 +522,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iim_bodh_gaya_smp"
         : programData.id == "executive-program-in-technology-leadership-innovation"
         ? "iitm_pravartak_tech_leadership"
+        : programData.id == "iim-ranchi-chief-operating-officer-program" 
+        ? "iim_ranchi_cfo"
         : 'iitk';
         
         

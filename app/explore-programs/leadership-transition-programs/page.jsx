@@ -87,7 +87,7 @@ export default function LeadershipTransitionCoursesPage() {
       filterKey="leadership-transition"
       pageTitle="Leadership Transition Programs"
       pageDescription="Moving into a leadership role means learning to guide people, make sound decisions and take responsibility for results. Build your understanding of strategy, management, organisational leadership and technology-driven change. Develop the confidence to handle new responsibilities, support team performance and contribute to wider business goals. Through these programs for transitioning into leadership roles, professionals preparing for leadership positions can strengthen their management skills, broaden their business perspective and take the next step in their careers."
-      pageMobileDescription="Through these programs for transitioning into leadership roles, professionals preparing for leadership positions can strengthen their management skills, broaden their business perspective and take the next step in their careers."
+      pageMobileDescription="Transition seamlessly from functional management to strategic leadership with executive programs from premier IIMs and XLRI."
       breadcrumbLabel="Leadership Transition"
       faqs={TRANSITION_FAQS}
       ctaTitle="Step Up from Manager to Enterprise Leader"

@@ -240,6 +240,7 @@ export function programPageGraph(program: AccredianProgram, options: ProgramPage
     audience: audienceTypes.length
       ? { "@type": "EducationalAudience", educationalRole: "professional", audienceType: audienceTypes.join("; ") }
       : undefined,
+    duration: cleanText(program.duration) || undefined,
     timeRequired: durationToIso(program.duration),
     educationalCredentialAwarded: compact({
       "@type": "EducationalOccupationalCredential",
@@ -253,6 +254,7 @@ export function programPageGraph(program: AccredianProgram, options: ProgramPage
       courseMode: courseModeOf(program.type),
       startDate: publishedStartDate,
       courseWorkload: hoursToIso(liveHours(program)),
+      duration: cleanText(program.duration) || undefined,
       courseSchedule: /weekend/i.test(program.timings ?? "")
         ? {
             "@type": "Schedule",

@@ -87,7 +87,7 @@ export default function DesignThinkingProgrammesPage() {
       filterKey="design-thinking"
       pageTitle="Design Thinking & Innovation Programs"
       pageDescription="Innovation starts with understanding problems, questioning assumptions and finding better ways to meet people’s needs. Develop your understanding of design thinking, creative problem-solving and innovation, including the role of AI in developing new solutions. Learn to approach challenges from different perspectives and turn ideas into practical outcomes. Through the design thinking and innovation Programs, professionals and business leaders can build the skills to encourage innovation, improve solutions and create greater business impact."
-      pageMobileDescription="Through the design thinking and innovation Programs, professionals and business leaders can build the skills to encourage innovation, improve solutions and create greater business impact."
+      pageMobileDescription="Master customer-centric innovation, AI integration, and creative problem-solving with IIT Kanpur's Advanced Certificate in Design Thinking."
       breadcrumbLabel="Design Thinking & Innovation"
       faqs={DT_FAQS}
       ctaTitle="Lead Innovation with Design Thinking"

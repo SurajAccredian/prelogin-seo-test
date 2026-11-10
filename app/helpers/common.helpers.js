@@ -86,6 +86,14 @@ export const sortPrograms = (
     const prioA = resolvedA?.isAdmissionClosed ? 4 : (priority[statusA] || 3);
     const prioB = resolvedB?.isAdmissionClosed ? 4 : (priority[statusB] || 3);
 
+    const isClosedA = Boolean(resolvedA?.isAdmissionClosed || prioA === 4);
+    const isClosedB = Boolean(resolvedB?.isAdmissionClosed || prioB === 4);
+
+    // Rule 1: Always list open programs first, closed programs last (SEO-07)
+    if (isClosedA !== isClosedB) {
+      return isClosedA ? 1 : -1;
+    }
+
     // Duration: Shortest to Longest
     if (sortBy === "duration_asc") {
       const durA = parseDurationMonths(a.duration);
@@ -106,15 +114,6 @@ export const sortPrograms = (
       return prioA - prioB;
     }
 
-    // Default: Relevance
-    const isClosedA = resolvedA?.isAdmissionClosed || prioA === 4;
-    const isClosedB = resolvedB?.isAdmissionClosed || prioB === 4;
-
-    // Active programs first, closed programs lower down
-    if (isClosedA !== isClosedB) {
-      return isClosedA ? 1 : -1;
-    }
-
     // When searching, prioritize search match quality
     if (searchQuery && searchQuery.trim()) {
       const scoreA = getSearchRelevanceScore(a, searchQuery);
@@ -132,5 +131,3 @@ export const sortPrograms = (
     return 0;
   });
 };
-
-

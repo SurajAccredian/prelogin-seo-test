@@ -51,6 +51,16 @@ Accredian programs offer executive education certificates in collaboration with 
 
 Accredian offers industry-relevant executive education, advanced certification, and leadership development programs in Artificial Intelligence, Generative & Agentic AI, CXO Leadership (CEO, CTO, CFO, CHRO, COO, CDAIO), Senior Management, Strategy & Leadership, Project Management, Product Management, Finance, Human Resource Leadership, and Design Thinking in premier academic collaboration with India's top institutions.
 
+## [Senior Management](https://accredian.com/course/senior-management)
+
+- [Global Senior Leadership Program](https://accredian.com/programs/iim-raipur-global-senior-leadership-program): Indian Institute of Management Raipur | 12 months | INR 3,29,000 + GST
+- [Senior Management Program](https://accredian.com/programs/iim-bodh-gaya-senior-management-program): IIM Bodh Gaya | 11 Months | INR 2,30,000 + GST
+- [Senior Management Program](https://accredian.com/programs/iim-ranchi-senior-management-program): IIM Ranchi | 12 Months | INR 2,60,000 + GST
+- [Senior Management Program](https://accredian.com/programs/iima-senior-management-program): IIM Amritsar | 10 Months | INR 2,10,000 + GST
+- [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management): XLRI | 11 Months | INR 4,00,000 + GST
+- [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program): IIM Visakhapatnam | 12 Months | INR 4,00,000 + GST
+- [Senior Management Program](https://accredian.com/programs/senior-management-program): IIM Visakhapatnam | 12 Months | INR 3,49,000 + GST
+
 ## [Design Thinking](https://accredian.com/course/design-thinking)
 
 - [Advanced Certificate Program in Design Thinking & Innovation with AI](https://accredian.com/programs/advanced-certificate-program-in-design-thinking-innovation-with-ai): E&ICT Academy IIT Kanpur | 5 Months | INR 1,50,000 + GST
@@ -64,6 +74,7 @@ Accredian offers industry-relevant executive education, advanced certification, 
 - [CTO & AI Leadership Program](https://accredian.com/programs/iimr-cto-ai-leadership-program): IIM Ranchi | 12 Months | INR 2,60,000 + GST
 - [Executive Development Programme for Emerging Chief Technology Officers (The CTO Programme)](https://accredian.com/programs/executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme): XLRI | 11 Months | INR 3,30,000 + GST
 - [PG Certificate Program in Chief Financial Officer (The CFO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-financial-officer-the-cfo-program): IIM Ranchi | 12 Months | INR 2,90,000 + GST
+- [PG Certificate Program in Chief Operating Officer (The COO Program)](https://accredian.com/programs/iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program): IIM Ranchi | 12 Months | INR 2,90,000 + GST
 - [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/iim-trichy-chief-technology-officer-programme): IIM Tiruchirappalli | 10 Months | INR 2,90,000 + GST
 - [Chief Executive Officer Program (The CEO Program)](https://accredian.com/programs/chief-executive-officer-program): IIM Visakhapatnam | 11 Months | INR 3,49,000 + GST
 - [PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)](https://accredian.com/programs/pg-certificate-program-in-chief-digital-and-ai-officer-program): IIM Visakhapatnam | 11 Months | INR 3,50,000 + GST
@@ -112,15 +123,6 @@ Accredian offers industry-relevant executive education, advanced certification, 
 - [Executive Program in Strategy Leadership & Innovation in AI Era](https://accredian.com/programs/iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era): IIM Sirmaur | 8 Months | INR 1,99,000 + GST
 - [Executive Development Program in Strategy & Leadership](https://accredian.com/programs/executive-program-in-strategy-leadership): XLRI | 11 Months | INR 2,80,000 + GST
 
-## [Senior Management](https://accredian.com/course/senior-management)
-
-- [Senior Management Program](https://accredian.com/programs/iim-bodh-gaya-senior-management-program): IIM Bodh Gaya | 11 Months | INR 2,30,000 + GST
-- [Senior Management Program](https://accredian.com/programs/iim-ranchi-senior-management-program): IIM Ranchi | 12 Months | INR 2,60,000 + GST
-- [Senior Management Program](https://accredian.com/programs/iima-senior-management-program): IIM Amritsar | 10 Months | INR 2,10,000 + GST
-- [Executive Development Program in Global Senior Management](https://accredian.com/programs/executive-development-program-in-global-senior-management): XLRI | 11 Months | INR 4,00,000 + GST
-- [Global Senior Leadership Program](https://accredian.com/programs/global-senior-leadership-program): IIM Visakhapatnam | 12 Months | INR 4,00,000 + GST
-- [Senior Management Program](https://accredian.com/programs/senior-management-program): IIM Visakhapatnam | 12 Months | INR 3,49,000 + GST
-
 ## [PG Diploma](https://accredian.com/course/pg-diploma)
 
 - [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives): IIM Visakhapatnam | 12 Months | INR 4,84,300 + GST
@@ -143,8 +145,8 @@ Accredian offers industry-relevant executive education, advanced certification, 
 
 ## Closed for new admissions
 
-- [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/chief-technology-officer-programme): IIM Visakhapatnam
 - [Accelerated Senior Management Programme](https://accredian.com/programs/accelerated-senior-management-program): IIM Tiruchirappalli
+- [Chief Technology Officer Programme (The CTO Program)](https://accredian.com/programs/chief-technology-officer-programme): IIM Visakhapatnam
 - [Executive General Management Program](https://accredian.com/programs/executive-general-management-program): IIM Lucknow
 - [Executive Program in Business Management](https://accredian.com/programs/executive-program-in-business-management): IIM Visakhapatnam
 - [PG Certificate Program in Investment Banking & Capital Markets](https://accredian.com/programs/pg-certificate-program-in-investment-banking): IIM Visakhapatnam

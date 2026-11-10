@@ -524,6 +524,10 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iitm_pravartak_tech_leadership"
         : programData.id == "pg-certificate-program-in-chief-financial-officer-the-cfo-program" 
         ? "iim_ranchi_cfo"
+        : programData.id == "iim-raipur-global-senior-leadership-program" 
+        ? "iim_raipur_gslp"
+        : programData.id == "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program"
+        ? "iim_ranchi_coo"
         : 'iitk';
         
         

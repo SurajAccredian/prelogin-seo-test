@@ -1,6 +1,37 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+    "university_name": "Indian Institute of Management Raipur",
+    "program_name": "Global Senior Leadership Program",
+    "duration": "12 months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+    "batch_type": "Online",
+    "id": "iim-raipur-global-senior-leadership-program",
+    "category": "senior management",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTRAIPUR-Global-Senior-Leadership-Program.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR Global Senior Leadership Program Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR-Global Senior Leadership"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "28 Feb 2027",
+    "contact": "8851827053",
+    "program_fee": 329000,
+    "pid": 183,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
     "university_name": "E&ICT Academy IIT Kanpur",
     "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
@@ -1402,6 +1433,36 @@
     "program_fee": 290000,
     "required_years_experience": 8,
     "pid": 184
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Operating-Officer-The-COO-Program.pdf",
+      "source": "IIM-RANCHI Chief Operating Officer Program Brochure",
+      "campaign_name": "IIM-RANCHI-COO"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "7 Mar 2027",
+    "contact": "8851827093",
+    "program_fee": 290000,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",

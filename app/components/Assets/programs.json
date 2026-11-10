@@ -1368,6 +1368,43 @@
   },
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "PG Certificate Program in Chief Financial Officer (The CFO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "pg-certificate-program-in-chief-financial-officer-the-cfo-program",
+    "category": "cxo leadership",
+    "tags": [
+      "Strategic Financial Leadership",
+      "Corporate Governance & Compliance",
+      "Mergers & Acquisitions (M&A)",
+      "Treasury & Capital Management",
+      "Financial Digital Transformation"
+    ],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "",
+      "source": "IIM-RANCHI Chief Financial Officer Program Brochure",
+      "campaign_name": "IIM-RANCHI-Chief Financial Officer"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "7 Mar 2027",
+    "contact": "9289224842",
+    "program_fee": 290000,
+    "required_years_experience": 8,
+    "pid": 184
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "university_name": "IIM Visakhapatnam",
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
@@ -1471,7 +1508,7 @@
       "referrerBonus": "Upto ₹3,000",
       "refreeBonus": "Upto ₹3,000"
     },
-    "start_date": "12 July 2026",
+    "start_date": "26 Dec 2026",
     "contact": "9289224842",
     "program_fee": 240000,
     "pid": 104,

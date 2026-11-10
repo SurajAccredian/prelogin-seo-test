@@ -98,6 +98,10 @@ const Related = ({ data: propData }) => {
   }, [swiper]);
 
 
+  if (data?.id === "gim-hybrid-post-graduate-diploma-in-management") {
+    return null;
+  }
+
   return (
     <div className='related w-full xl:px-12 px-4 py-6 md:py-12'>
       <div className='w-full flex justify-center'>

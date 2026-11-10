@@ -44,15 +44,15 @@
     },
     {
       "title": "courses",
-      "count": 42
+      "count": 21
     },
     {
       "title": "capstone project",
       "text": 1
     },
     {
-      "title": "subject areas",
-      "count": 11
+      "title": "global immersion (opt.)",
+      "text": "1"
     },
     {
       "title": "campus immersion",
@@ -92,7 +92,7 @@
       {
         "title": "program snapshot",
         "points": [
-          "42 Courses - Functional Management, Strategic Management and Business Transformation",
+          "21 Courses - Functional Management, Strategic Management and Business Transformation",
           "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
           "Duration: 12 months | Weekend Online",
           "PG Diploma from IIM Visakhapatnam",
@@ -100,7 +100,7 @@
           "IIM Visakhapatnam Alumni Status",
           "EMI upto 24 months",
           "Harvard Business Review Case Studies",
-          "60 hour capstone project",
+          "Optional Global Executive Immersion Experience",
           "Campus Immersions: One Campus Immersion of 3 days"
         ]
       }

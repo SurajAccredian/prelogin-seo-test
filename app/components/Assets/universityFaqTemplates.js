@@ -1185,7 +1185,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
                         content: [
-                            "Structured across 12 months comprising 42 courses, covering all core aspects of management: finance, operations, organizational behavior, and business transformation.",
+                            "Structured across 12 months comprising 21 courses, covering all core aspects of management: finance, operations, organizational behavior, and business transformation.",
                             "- **Duration:** 12 months",
                             "- **Learning Format:** 480+ hours of live online sessions",
                             "- **Class Timings:** Conducted on weekends",
@@ -1234,7 +1234,7 @@ export const universityFaqTemplates = {
                         content: [
                             "Yes. Participants will receive a Post Graduate Diploma from IIM Visakhapatnam upon fulfilling all program requirements.",
                             "",
-                            "- **Diploma will be awarded only if:** Attendance is 75% or above and the participant achieves a minimum CGPA of 2.75 in the overall assessment."
+                            "- **Diploma will be awarded only if:** Attendance is 75% or above and the participant achieves a minimum CGPA of 2.15 in the overall assessment."
                         ]
                     },
                     {
@@ -1303,7 +1303,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 4,82,500.",
+                            "- The program fee is INR 4,84,300.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ]
                     },
@@ -7496,206 +7496,7 @@ export const universityFaqTemplates = {
             }
         ]
     },
-    iim_sirmaur_leadership_ai: {
-        templateId: "iim_sirmaur_leadership_ai_standard",
-        sections: [
-            {
-                title: "Program Overview",
-                questions: [
-                    {
-                        title: "What is the IIM Sirmaur Executive Program in Leadership with AI about?",
-                        content: [
-                            "The Executive Program in Leadership with AI is a 6 month program offered by IIM Sirmaur. It is designed to equip learners with core leadership and AI-driven management skills."
-                        ],
-                    },
-                    {
-                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
-                        content: [
-                            "Structured across 6 months comprising 07 modules, covering all core aspects of AI-Driven Leadership, Strategic Decision-Making, Generative AI, AI Strategy, Digital Transformation, Business Innovation, Responsible AI, and AI Governance.",
-                            "- **Duration:** 6 months",
-                            "- **Learning Format:** 70 hours of live online sessions, with study materials available for up to 2 months post program completion",
-                            "- **Class Timings:** Conducted on weekends",
-                            "- **Flexibility:** Recordings & study materials available"
-                        ],
-                    },
-                    {
-                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
-                        content: [
-                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Eligibility & Admissions",
-                questions: [
-                    {
-                        title: "What are the minimum education and work experience requirements?",
-                        content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 2 years is preferred."
-                        ],
-                    },
-                    {
-                        title: "Do I need prior experience in Artificial Intelligence to enroll?",
-                        content: [
-                            "Prior Artificial Intelligence experience is not required."
-                        ],
-                    },
-                    {
-                        title: "How do I apply?",
-                        content: [
-                            "You can apply through the Application Portal {applicationLink}."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Certification & Recognition",
-                questions: [
-                    {
-                        title: "Will I receive a certificate from IIM Sirmaur after completing the program?",
-                        content: [
-                            "Yes. Participants will receive a Completion Certificate from IIM Sirmaur, upon fulfilling the requirements.",
-                            "",
-                            "- **Completion Certificate will be issued only if** the attendance is 75% or above. Attendance alone does not determine the Certificate of Completion, details will be covered during Academic Orientation.",
-                            "",
-                            "- **Participation Certificate** will not be issued.",
-                            "",
-                            "**Note**: Completion and Participation Certificates are provided in digital format only (no physical copy)."
-                        ],
-                    },
-                    {
-                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
-                        content: [
-                            "This is a professional certificate program recognized by employers and issued by IIM Sirmaur."
-                        ],
-                    },
-                    {
-                        title: "Will I get any alumni status or networking opportunities with IIM Sirmaur?",
-                        content: [
-                            "No, IIM Sirmaur alumni status will NOT be conferred. However, learners can network with peers and industry experts during the program."
-                        ],
-                    },
-                    {
-                        title: "Will I receive a physical or digital batch ID or an official email from IIM Sirmaur confirming my enrollment?",
-                        content: [
-                            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Faculty, Learning Experience & Evaluation",
-                questions: [
-                    {
-                        title: "Who will be teaching the program?",
-                        content: [
-                            "The program is taught by IIM Sirmaur Faculty with extensive hands-on experience."
-                        ],
-                    },
-                    {
-                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
-                        content: [
-                            "Learning includes live sessions, hands-on projects, case studies, and capstone projects."
-                        ],
-                    },
-                    {
-                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
-                        content: [
-                            "Doubt resolution is done through live sessions. 1:1 doubt clearing or mentoring is not available."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Career Support & Outcomes",
-                questions: [
-                    {
-                        title: "Do you provide placement assistance or career services?",
-                        content: [
-                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
-                        ],
-                    },
-                    {
-                        title: "What is included in the career assistance sessions?",
-                        content: [
-                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
-                        ],
-                    },
-                    {
-                        title: "What kind of roles or industries can I target after completing this program?",
-                        content: [
-                            "Students can explore roles such as AI Strategy Manager, Digital Transformation Lead, Business Transformation Manager, AI Product Manager, Strategic Planning Manager, and AI Consultant, etc."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Fees, Payments & Policies",
-                questions: [
-                    {
-                        title: "What is the total program fee, and are EMI or installment options available?",
-                        content: [
-                            "- The program fee is INR 1,89,000 + GST.",
-                            "- Standard EMI options are available (with additional interest charges)."
-                        ],
-                    },
-                    {
-                        title: "Are there any scholarships, discounts, or referral benefits?",
-                        content: [
-                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
-                        ],
-                    },
-                    {
-                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
-                        content: [
-                            "A 7-day cooling-off period is applicable. Full details are available at: {policyLink}"
-                        ],
-                    },
-                    {
-                        title: "What happens if I withdraw mid-program?",
-                        content: [
-                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Campus Immersion & Logistics",
-                questions: [
-                    {
-                        title: "Is there a campus immersion in the program?",
-                        content: [
-                            "Yes, the program includes a 2-day campus immersion with food and lodging in double-occupancy rooms. Travel expenses are not included."
-                        ]
-                    }
-                ],
-            },
-            {
-                title: "Why Choose This Program",
-                questions: [
-                    {
-                        title: "Why choose this program over others?",
-                        content: [
-                            "This program combines IIM Sirmaur's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
-                        ],
-                    },
-                    {
-                        title: "What kind of learning outcomes can I expect from this program?",
-                        content: [
-                            "By the end of the program, participants will develop expertise in AI-Driven Leadership, AI Strategy, Generative AI, Digital Transformation, Strategic Decision-Making, AI Product Strategy, Responsible AI, and AI Governance, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
-                        ],
-                    },
-                    {
-                        title: "Can I balance this program alongside my full-time job?",
-                        content: [
-                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
+
     iim_ranchi_cto_ai_leadership: {
         templateId: "iim_ranchi_cto_ai_leadership_standard",
         sections: [
@@ -8305,7 +8106,7 @@ export const universityFaqTemplates = {
         ]
     },
 
-    "xlri_digital_hr": {
+    xlri_digital_hr: {
         templateId: "xlri_digital_hr",
         sections: [
             {
@@ -8514,5 +8315,201 @@ export const universityFaqTemplates = {
             }
         ]
     },
+    iim_ranchi_cfo: {
+        templateId: "iim_ranchi_cfo_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIM Ranchi PG Certificate Program in Chief Financial Officer about?",
+                        content: [
+                            "The PG Certificate Program in Chief Financial Officer is a 12 month program offered by IIM Ranchi. It is designed to equip learners with core Chief Financial Officer skills."
+                        ],
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 12 months comprising 13 modules, covering all core aspects of Strategic Financial Leadership, Financial Reporting, Financial Governance, Risk Management, Finance Transformation and AI & GenAI for CFOs",
+                            "Duration: 12 months",
+                            "Learning Format: 144+ hours of live online sessions, with study materials available for up to 1 year from the program completion date.",
+                            "Class Timings: Conducted on weekends",
+                            "Flexibility: Recordings & study materials available"
+                        ],
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred."
+                        ],
+                    },
+                    {
+                        title: "Do I need prior experience in Executive Leadership to enroll?",
+                        content: [
+                            "Prior Executive Leadership experience is not required."
+                        ],
+                    },
+                    {
+                        title: "How do I apply?",
+                        content: [
+                            "You can apply through the Application Portal Link."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIM Ranchi after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Ranchi, upon fulfilling the requirements.",
+                            "Completion Certificate will be issued only if attendance is 70% or above.",
+                            "Participation Certificate will not be issued.",
+                            "Note: Completion and Participation Certificates are provided in digital format only (no physical copy). However Physical certificates will be provided to campus immersion participants only, subject to minimum attendance."
+                        ],
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is a professional certificate program recognized by employers and issued by IIM Ranchi."
+                        ],
+                    },
+                    {
+                        title: "Will I get any Executive Alumni Status or networking opportunities with IIM Ranchi?",
+                        content: [
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees"
+                        ],
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIM Ranchi confirming my enrollment?",
+                        content: [
+                            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by IIM Ranchi Faculty with extensive hands-on experience."
+                        ],
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, case studies, and capstone projects."
+                        ],
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. 1:1 doubt clearing or mentoring is not available."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
+                        ],
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
+                        ],
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Students can explore roles such as Chief Financial Officer (CFO), Chief Operating Officer (COO), Vice President of Finance, Corporate Treasurer, Chief Risk Officer (CRO), Finance Director, Senior Financial Consultant, Entrepreneur/Founder, etc."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "The program fee is INR 2,90,000 + GST.",
+                            "Standard EMI options are available (with additional interest charges)."
+                        ],
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ],
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: Policy Details"
+                        ],
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "Is there a campus immersion in the program?",
+                        content: [
+                            "Yes, the program includes a 3-day campus immersion with food and lodging in double-occupancy rooms. Travel expenses are not included."
+                        ],
+                    }
+                ],
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Ranchi's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ],
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in strategic financial leadership, financial planning and analysis, financial reporting and controllership, corporate finance, financial governance, risk management, finance transformation, FinTech, AI and GenAI applications in finance, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ],
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ],
+                    }
+                ],
+            }
+        ],
+    },
 };
-universityFaqTemplates["xlri_digital_hr"] = universityFaqTemplates["xlri digital hr"];

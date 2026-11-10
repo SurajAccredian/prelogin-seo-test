@@ -516,6 +516,20 @@
     "required_years_experience": 5
   },
   {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "PG Certificate Program in Chief Financial Officer (The CFO Program)",
+    "category": "cxo leadership",
+    "start_date": "7 Mar 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/pg-certificate-program-in-chief-financial-officer-the-cfo-program",
+    "id": "pg-certificate-program-in-chief-financial-officer-the-cfo-program",
+    "pid": 184,
+    "duration": "12 Months",
+    "program_fee": 290000,
+    "required_years_experience": 8
+  },
+  {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
@@ -548,7 +562,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Program in Strategic HR Leadership",
     "category": "Human Resource",
-    "start_date": "12 July 2026",
+    "start_date": "26 Dec 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-strategic-hr-leadership",
     "id": "executive-development-program-strategic-hr-leadership",

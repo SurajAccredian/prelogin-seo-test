@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
 import "./CTA_mentor.css";
 
@@ -18,11 +19,14 @@ const MentorCta = () => {
       <div className="cta-grad border border-universal w-full max-w-[85rem] py-8 md:py-16 md:px-12 px-6 bg-universal rounded-xl flex items-center md:justify-between md:flex-row flex-col gap-6">
         <div className="flex gap-8 md:flex-row flex-col md:items-start items-center">
           <div className="w-20 h-20 flex-shrink-0 bg-slate-200/35 rounded-xl p-1">
-            <div className="w-full h-full bg-white rounded-xl p-2">
-              <img
+            <div className="w-full h-full bg-white rounded-xl p-2 flex items-center justify-center">
+              <Image
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hanshake.svg"
-                className="w-full h-full text-universal"
+                className="w-full h-full object-contain"
                 alt="Handshake"
+                width={60}
+                height={60}
+                quality={75}
               />
               {/* <RiCustomerService2Fill className="w-full h-full text-universal" /> */}
             </div>

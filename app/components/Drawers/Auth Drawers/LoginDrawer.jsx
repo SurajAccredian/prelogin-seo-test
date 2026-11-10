@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {
   Drawer,
   DrawerBody,
@@ -943,9 +944,12 @@ const LoginDrawer = ({ isOpen, onClose }) => {
           >
             <DrawerCloseButton mx={"4px"} />
             <DrawerHeader mx={"4px"} borderBottom="2px solid #e2e8f0">
-              <img
+              <Image
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                 alt="Company Logo"
+                width={100}
+                height={30}
+                quality={75}
                 style={{ width: "100px", height: "auto" }}
               />
             </DrawerHeader>

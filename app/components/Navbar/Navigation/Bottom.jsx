@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FcFlashOn } from "react-icons/fc";
 import { useDispatch } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
@@ -121,17 +122,21 @@ const NavigationDown = ({ showBottom, data, enrollLoderState }) => {
                       : "max-w-[120px]"
                     } flex-shrink-0 rounded-md`}
                 >
-                  <img
+                  <Image
+                    width={100}
+                    height={56}
+                    quality={75}
+                    sizes="100px"
                     className={`${data.short_university_name?.toLowerCase() === "iim-trichy"
                       ? "w-14 h-14"
                       : "w-full h-full"
-                      } rounded`}
+                      } rounded object-contain`}
                     src={
                       data.short_university_name?.toLowerCase() === "iim-trichy"
                         ? "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-H.webp"
                         : data?.university_logo
                     }
-                    alt={data?.university_name}
+                    alt={data?.university_name || "University logo"}
                   />
                 </div>
                 {/* <div className="max-w-[120px] flex-shrink-0 rounded-md bg-black">

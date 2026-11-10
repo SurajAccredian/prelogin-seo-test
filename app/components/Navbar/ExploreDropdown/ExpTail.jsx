@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { STREAMS } from "../../Assets/constants";
 import {
   groupProgramsByCategory,
@@ -237,13 +238,16 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
                         <div>
                           <div className="mb-3">
                             <div className="flex ml-1 items-center gap-3">
-                              <img
-                                src={val.university_image}
-                                alt={val.university_name}
-                                className="w-6 h-6 object-contain flex-shrink-0"
-                                loading="lazy"
-                                decoding="async"
-                              />
+                              {val.university_image && (
+                                <Image
+                                  src={val.university_image}
+                                  alt={val.university_name || "University logo"}
+                                  width={24}
+                                  height={24}
+                                  quality={75}
+                                  className="w-6 h-6 object-contain flex-shrink-0"
+                                />
+                              )}
                               <p className="text-[13px] font-medium text-gray-700">
                                 {val.university_name}
                               </p>
@@ -324,11 +328,14 @@ const ExpTail = ({ isDropdownOpen, setIsDropdownOpen }) => {
 
                 {/* Right side - Image section */}
                 <div className="relative w-40 bg-universal/5">
-                  <img
+                  <Image
                     src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/customer-care-indian-hero-section-image-removebg-preview.webp"
                     alt="Expert counselor"
+                    width={160}
+                    height={160}
+                    quality={75}
+                    sizes="160px"
                     className="h-full w-full object-cover object-top"
-                    lazyload="true"
                   />
                 </div>
               </div>

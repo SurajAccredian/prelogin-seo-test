@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from "../../store/reducers/user";
 import { decodeToken } from "react-jwt";
@@ -189,12 +190,18 @@ const Hero = ({ data }) => {
         </div>
 
         <div className="hero-visual">
-          <img
+          <Image
             src={
               data.hero_image ||
               "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.webp"
             }
             alt="Course Visual representation"
+            width={600}
+            height={400}
+            priority
+            quality={75}
+            sizes="(max-width: 768px) 100vw, 500px"
+            className="w-full h-auto object-contain"
           />
         </div>
       </div>

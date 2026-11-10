@@ -1,14 +1,18 @@
 
+import Image from "next/image";
+
 const CTAThankYou = () => {
   return (
     <div className="min-h-screen w-full bg-[#16151F] py-12 px-4 xl:px-12">
       <div className="max-w-[85rem] w-full mx-auto flex flex-col gap-4 items-center">
         <div className="w-36 flex-shrink-0">
-          <img
-            className="w-full"
-            // src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/faculty_portal_accredian_cropped_logo.webp"
+          <Image
+            className="w-full h-auto"
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian-white-logo.png"
-            alt="logo"
+            alt="Accredian logo"
+            width={144}
+            height={38}
+            quality={75}
           />
         </div>
         <div className="max-w-4xl w-full px-6 py-16 flex flex-col items-center mt-20 bg-[#252736]">

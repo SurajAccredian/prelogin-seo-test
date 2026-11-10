@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { IoIosClose } from "react-icons/io";
 import { Dialog } from "@mui/material";
 import { styled } from "@mui/material/styles";
@@ -37,11 +38,17 @@ export default function CertificateModal({
             </div>
           </div>
           <div className="bg-white max-h-[80vh] custom-scrollbar overflow-y-auto py-6 px-5 rounded-xl">
-            <img
-              src={showImage}
-              alt="certificate"
-              className="xl:w-[45vw] lg:w-[60vw] md:w-[80vw] 3xl:w-[85rem] w-full"
-            />
+            {showImage && (
+              <Image
+                src={showImage}
+                alt="certificate"
+                width={900}
+                height={650}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 800px"
+                className="xl:w-[45vw] lg:w-[60vw] md:w-[80vw] 3xl:w-[85rem] w-full h-auto object-contain"
+              />
+            )}
           </div>
         </div>
       </CertificateDialog>

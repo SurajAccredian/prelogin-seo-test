@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "./Companies.css";
 
 const Companies = () => {
@@ -73,12 +74,30 @@ const Companies = () => {
             <div className="companies-carousel-track scroll-right-to-left">
               {logosRow1.map((logo, index) => (
                 <div key={`row1-set1-${index}`} className="company-logo-card">
-                  <img src={logo} alt={getCompanyName(logo)} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
               {logosRow1.map((logo, index) => (
                 <div key={`row1-set2-${index}`} className="company-logo-card">
-                  <img src={logo} alt={getCompanyName(logo)} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
             </div>
@@ -89,12 +108,30 @@ const Companies = () => {
             <div className="companies-carousel-track scroll-left-to-right">
               {logosRow2.map((logo, index) => (
                 <div key={`row2-set1-${index}`} className="company-logo-card">
-                  <img src={logo} alt={getCompanyName(logo)} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
               {logosRow2.map((logo, index) => (
                 <div key={`row2-set2-${index}`} className="company-logo-card">
-                  <img src={logo} alt={getCompanyName(logo)} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
             </div>

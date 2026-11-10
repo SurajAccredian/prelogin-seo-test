@@ -193,7 +193,7 @@
     "free_badge": {
       "title": "Completion Badge",
       "price": "Free",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.png",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.webp",
       "points": [
         "Awarded after you finish all 6 course modules",
         "Requires completing Microsoft’s MTM survey (a Microsoft requirement, not optional)",
@@ -204,7 +204,7 @@
     "paid_cert": {
       "title": "Official Certification",
       "price": "₹2,499 + GST",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.png",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.webp",
       "points": [
         "Verified, online-checkable Microsoft credential",
         "Requires passing a proctored certification exam",

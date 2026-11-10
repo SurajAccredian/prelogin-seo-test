@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import "../mentor.css";
 
 const mentorHero = () => {
@@ -28,10 +29,15 @@ const mentorHero = () => {
             </a>
           </div>
 
-          <img
-            className="mentorImage absolute right-[10px] bottom-[-88px] w-[1200px] overflow-hidden "
+          <Image
+            className="mentorImage absolute right-[10px] bottom-[-88px] w-[1200px] overflow-hidden"
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorImage.webp"
             alt="Mentor"
+            width={1200}
+            height={600}
+            priority
+            quality={75}
+            sizes="(max-width: 768px) 100vw, 1200px"
           />
 
           <div className="r-con home-4-container-right md:py-0 py-12 md:flex hidden justify-center ">

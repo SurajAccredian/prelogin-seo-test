@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { IoPlayCircleOutline } from "react-icons/io5";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -77,7 +78,17 @@ const WatchStories = () => {
                 <div className="w-full flex lg:flex-row flex-col gap-5">
                   <div className="rounded-lg bg-white border drop-shadow-sm p-5 cursor-pointer max-w-3xl w-full lg:max-w-xl">
                     <div className="w-full rounded-md overflow-hidden relative">
-                      <img className="w-full" src={alumni.banner} alt="certificate" />
+                      {alumni.banner && (
+                        <Image
+                          className="w-full h-auto"
+                          src={alumni.banner}
+                          alt={alumni.name || "Story banner"}
+                          width={550}
+                          height={310}
+                          quality={75}
+                          sizes="(max-width: 768px) 100vw, 550px"
+                        />
+                      )}
                       <div onClick={() => setVideo(alumni.videoSrc)} className="absolute right-0 left-0 top-0 bottom-0 z-10 flex flex-col items-center justify-center cursor-pointer bg-black/5">
                         <div className="w-12 h-12 flex-shrink-0 bg-white rounded-full">
                           <IoPlayCircleOutline className="w-full h-full text-universal" />

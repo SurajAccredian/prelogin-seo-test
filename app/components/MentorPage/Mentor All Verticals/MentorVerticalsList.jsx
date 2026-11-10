@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -123,11 +124,17 @@ function MentorverticalListsList() {
                 <SwiperSlide key={index} className=" w-full">
                   <div className="verticalList-bg p-5 bg-white text-left flex justify-center  border rounded-lg cursor-context-menu drop-shadow mb-4 mt-4">
                     <div className="flex justify-center items-center gap-4 flex-col">
-                      <img
-                        src={val.image}
-                        className="verticalListImage"
-                        alt={val?.name}
-                      />
+                      {val?.image && (
+                        <Image
+                          src={val.image}
+                          className="verticalListImage object-contain"
+                          alt={val?.name || "Vertical"}
+                          width={60}
+                          height={60}
+                          quality={75}
+                          sizes="60px"
+                        />
+                      )}
                       <h3
                         title={val?.name}
                         className="text-md text-center font-bold text-slate-700 max-w-[280px] whitespace-normal break-words "
@@ -176,7 +183,8 @@ function MentorverticalListsList() {
 
 export default MentorverticalListsList;
 
-// import { Swiper, SwiperSlide } from "swiper/react";
+// import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // // Import Swiper styles
 // import "swiper/css";

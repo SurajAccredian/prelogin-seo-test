@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -67,12 +68,16 @@ const Testimonials = () => {
                   <div className="w-full">
                     <div className="w-full">
                       <div className="max-w-[100px] h-12 w-full">
-                        <img
-                          loading="lazy"
-                          className="w-full h-full object-contain"
-                          src={val.company_logo}
-                          alt={val.name}
-                        />
+                        {val.company_logo && (
+                          <Image
+                            width={100}
+                            height={48}
+                            quality={75}
+                            className="w-full h-full object-contain"
+                            src={val.company_logo}
+                            alt={val.name || "Company logo"}
+                          />
+                        )}
                       </div>
                     </div>
                     <div className="w-full">
@@ -83,13 +88,17 @@ const Testimonials = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-universal/15 overflow-hidden">
-                      <img
-                        loading="lazy"
-                        className="w-full h-full object-contain"
-                        src={val.photo_url}
-                        alt={val.name}
-                      />
+                    <div className="w-12 h-12 rounded-full bg-universal/15 overflow-hidden flex-shrink-0">
+                      {val.photo_url && (
+                        <Image
+                          width={48}
+                          height={48}
+                          quality={75}
+                          className="w-full h-full object-cover"
+                          src={val.photo_url}
+                          alt={val.name || "Alumni photo"}
+                        />
+                      )}
                     </div>
                     <div className="">
                       <p className="text-lg font-medium">{val.name}</p>

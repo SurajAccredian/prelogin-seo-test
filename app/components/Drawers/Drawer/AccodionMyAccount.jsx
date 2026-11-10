@@ -74,6 +74,7 @@
 // }
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function AccodionMyAccount() {
   const [isCookie, setIsCookie] = useState(
@@ -250,7 +251,15 @@ const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat
               className="w-full text-neutral-700 hover:text-universal"
             >
               <div className="flex items-center gap-2">
-                <img src={section.img} alt={section.label} className="w-5 h-5" />
+                {section.img && (
+                  <Image
+                    src={section.img}
+                    alt={section.label || "Section icon"}
+                    width={20}
+                    height={20}
+                    className="w-5 h-5 flex-shrink-0"
+                  />
+                )}
                 {section.label}
               </div>
             </a>

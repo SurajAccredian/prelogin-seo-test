@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -247,10 +248,13 @@ function GetBrochureContent({ open }) {
               <div className="bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[90vw] min-h-[35vh] py-8 px-5 flex gap-2 rounded-xl">
                 <div className="md:block hidden flex-[0.5] h-full items-center">
                   <div className="max-w-sm w-full">
-                    <img
-                      className="w-full"
+                    <Image
                       src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-brochure.webp"
                       alt="get-brochure"
+                      width={384}
+                      height={384}
+                      quality={75}
+                      className="w-full h-auto"
                     />
                   </div>
                 </div>

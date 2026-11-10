@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -129,18 +130,22 @@ function Partnership() {
                 <SwiperSlide key={index}>
                   <div className="group flex items-center justify-center h-24 cursor-pointer">
 
-                    <img
-                      src={university.logo}
-                      alt={university.name}
-                      loading="lazy"
-                      decoding="async"
-                      className={`w-full object-contain group-hover:scale-105 transition-all duration-300 ${university.name === "IIM Amritsar" ||
-                        university.name === "XLRI Delhi | NCR"
-                        ? "h-16"
-                        : "h-full"
-                        }`}
-                      title={university.name}
-                    />
+                    {university.logo && (
+                      <Image
+                        src={university.logo}
+                        alt={university.name || "University logo"}
+                        width={180}
+                        height={70}
+                        quality={75}
+                        sizes="180px"
+                        className={`w-auto object-contain group-hover:scale-105 transition-all duration-300 ${university.name === "IIM Amritsar" ||
+                          university.name === "XLRI Delhi | NCR"
+                          ? "h-16"
+                          : "h-full"
+                          }`}
+                        title={university.name}
+                      />
+                    )}
                   </div>
                 </SwiperSlide>
               ))}

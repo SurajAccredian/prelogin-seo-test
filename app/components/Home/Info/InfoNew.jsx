@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./Info.css";
 
 const InfoNew = () => {
@@ -56,12 +57,28 @@ const InfoNew = () => {
           <div className="logo-carousel logo-carousel-rtl">
             {logosRow1.map((logo, index) => (
               <div key={`row1-1-${index}`} className="logo-item">
-                <img src={logo} alt={getCompanyName(logo)} loading="lazy" decoding="async" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
             {logosRow1.map((logo, index) => (
               <div key={`row1-2-${index}`} className="logo-item">
-                <img src={logo} alt={getCompanyName(logo)} loading="lazy" decoding="async" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
           </div>
@@ -72,12 +89,28 @@ const InfoNew = () => {
           <div className="logo-carousel logo-carousel-rtl">
             {logosRow2.map((logo, index) => (
               <div key={`row2-1-${index}`} className="logo-item">
-                <img src={logo} alt={getCompanyName(logo)} loading="lazy" decoding="async" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
             {logosRow2.map((logo, index) => (
               <div key={`row2-2-${index}`} className="logo-item">
-                <img src={logo} alt={getCompanyName(logo)} loading="lazy" decoding="async" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
           </div>

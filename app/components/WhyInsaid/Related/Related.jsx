@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -135,7 +136,7 @@ const Related = () => {
               {verticalPrograms.map((program, index) => (
                 <SwiperSlide key={index} className="py-4">
                   <div className="w-full lg:max-w-[400px] min-h-[420px] rounded-2xl overflow-hidden bg-white drop-shadow-md border flex flex-col relative">
-                    <div className="w-full h-32 flex items-center justify-center bg-blue-50">
+                    <div className="w-full h-32 flex items-center justify-center bg-blue-50 relative">
                       <div className="absolute top-2 right-2 z-10">
                         <div
                           className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md bg-green-500`}
@@ -143,21 +144,31 @@ const Related = () => {
                           {program.category}
                         </div>
                       </div>
-                      <img
-                        className="w-full h-full object-cover"
-                        src={program.cover_image}
-                        alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
-                      />
+                      {program.cover_image && (
+                        <Image
+                          fill
+                          sizes="(max-width: 768px) 100vw, 400px"
+                          quality={75}
+                          className="object-cover"
+                          src={program.cover_image}
+                          alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
+                        />
+                      )}
                     </div>
                     <div className="w-full pt-4 pb-2 px-4">
                       <div className="w-full flex items-center gap-4">
-                        <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md">
-                          <img
-                            title={program.university_name}
-                            src={program.university_image}
-                            className="w-full h-full object-contain rounded-sm"
-                            alt={program.university_name}
-                          />
+                        <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md relative">
+                          {program.university_image && (
+                            <Image
+                              title={program.university_name}
+                              src={program.university_image}
+                              width={40}
+                              height={40}
+                              quality={75}
+                              className="w-full h-full object-contain rounded-sm"
+                              alt={program.university_name || "University logo"}
+                            />
+                          )}
                         </div>
 
                         <p

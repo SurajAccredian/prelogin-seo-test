@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
@@ -72,7 +73,17 @@ export default function ProjectModal({ open, setOpen }) {
                   <div className='w-full'>
                     <div className='w-full flex items-center justify-between'>
                       <div className='w-20 h-20 3xl:w-[10vw] 3xl:h-[10vw] flex-shrink-0 rounded-md bg-white overflow-hidden'>
-                        <img className='w-full h-full object-contain' src={open?.icon} alt={open?.title} />
+                        {open?.icon && (
+                          <Image
+                            className='w-full h-full object-contain'
+                            src={open.icon}
+                            alt={open?.title || "Project icon"}
+                            width={80}
+                            height={80}
+                            quality={75}
+                            sizes="80px"
+                          />
+                        )}
                       </div>
                     </div>
                     <h4 className='text-neutral-500 mt-2 text-base 3xl:text-[1.2vw]'>{open?.category}</h4>

@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
-import "./Tools.css"
+import Image from "next/image";
+import "./Tools.css";
 
 const Tools = ({ data: propData }) => {
   const reduxProgram = useSelector(state => state.program);
@@ -18,8 +19,16 @@ const Tools = ({ data: propData }) => {
       <div className="w-full max-w-[85rem] hidden md:flex flex-wrap justify-center gap-4 mt-12">
         {data?.tools?.map((tool, index) => (
           <div className="p-5 rounded-2xl bg-white drop-shadow-xl border flex flex-col items-center justify-center min-h-[4rem] max-w-[9rem] w-full" key={index}>
-            <div className="md:w-12 w-8 md:h-12 h-8 flex-shrink-0">
-              <img className="w-full h-full object-contain" src={tool?.icon} alt={tool?.title} />
+            <div className="md:w-12 w-8 md:h-12 h-8 flex-shrink-0 flex items-center justify-center">
+              <Image
+                className="w-full h-full object-contain"
+                src={tool?.icon}
+                alt={tool?.title || "Tool"}
+                width={48}
+                height={48}
+                quality={75}
+                sizes="48px"
+              />
             </div>
             <h4 className="text-sm font-semibold capitalize mt-3 text-nowrap">{tool?.title}</h4>
           </div>
@@ -28,8 +37,16 @@ const Tools = ({ data: propData }) => {
       <div className="w-full max-w-[85rem] md:hidden grid grid-cols-3 justify-center gap-4 mt-12">
         {data?.tools?.slice(0, 9).map((tool, index) => (
           <div className="p-5 rounded-2xl bg-white drop-shadow-xl border flex flex-col items-center justify-center min-h-[4rem] max-w-[9rem] w-full" key={index}>
-            <div className="md:w-12 w-8 md:h-12 h-8 flex-shrink-0">
-              <img className="w-full h-full object-contain" src={tool?.icon} alt={tool?.title} />
+            <div className="md:w-12 w-8 md:h-12 h-8 flex-shrink-0 flex items-center justify-center">
+              <Image
+                className="w-full h-full object-contain"
+                src={tool?.icon}
+                alt={tool?.title || "Tool"}
+                width={48}
+                height={48}
+                quality={75}
+                sizes="48px"
+              />
             </div>
             <h4 className="text-sm font-semibold capitalize mt-3 text-nowrap">{tool?.title}</h4>
           </div>

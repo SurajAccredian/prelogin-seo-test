@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import CareerTransition from "../CTA_Modal/career_transition";
 
 
@@ -31,7 +32,16 @@ const Hero = () => {
           </div>
           <div className="flex-1 md:py-0 py-16 sm:flex hidden justify-center">
             <div className='relative h-fit w-full max-w-xl rounded-lg overflow-hidden p-2 bg-white border drop-shadow-xl'>
-              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/success-stories-hero2.webp" alt="hero" className='w-full rounded-md' />
+              <Image
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/success-stories-hero2.webp"
+                alt="Alumni Achievements"
+                width={600}
+                height={400}
+                priority
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 550px"
+                className="w-full h-auto rounded-md object-contain"
+              />
             </div>
           </div>
         </div>

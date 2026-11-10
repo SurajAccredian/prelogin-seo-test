@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { STREAMS } from "../../../Assets/constants/constants";
 import { groupProgramsByCategory } from "../../../helpers/common.helpers";
@@ -69,24 +70,32 @@ const VerticalDetail = () => {
             {categorizedPrograms &&
               categorizedPrograms.map((val, index) => (
                 <div key={index} className="w-full lg:max-w-[325px] rounded-2xl overflow-hidden bg-white drop-shadow flex flex-col relative">
-                  <div className="w-full h-32 flex items-center justify-center bg-blue-50">
-                    <img
-                      loading="lazy"
-                      className="w-full h-full object-cover"
-                      src={val.cover_image}
-                      alt={`${val.program_name} - ${val.university_name || "Accredian"}`}
-                    />
+                  <div className="w-full h-32 flex items-center justify-center bg-blue-50 relative">
+                    {val.cover_image && (
+                      <Image
+                        fill
+                        sizes="(max-width: 768px) 100vw, 325px"
+                        quality={75}
+                        className="object-cover"
+                        src={val.cover_image}
+                        alt={`${val.program_name} - ${val.university_name || "Accredian"}`}
+                      />
+                    )}
                   </div>
                   <div className="w-full pt-4 pb-2 px-4">
                     <div className="w-full flex items-center gap-4">
-                      <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md">
-                        <img
-                          loading="lazy"
-                          title={val.university_name}
-                          src={val.university_image}
-                          className="w-full h-full object-contain rounded-sm"
-                          alt={val.university_name}
-                        />
+                      <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md relative">
+                        {val.university_image && (
+                          <Image
+                            title={val.university_name}
+                            src={val.university_image}
+                            width={40}
+                            height={40}
+                            quality={75}
+                            className="w-full h-full object-contain rounded-sm"
+                            alt={val.university_name || "University logo"}
+                          />
+                        )}
                       </div>
                       <p
                         title={val.university_name}

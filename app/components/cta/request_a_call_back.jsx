@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -247,10 +248,13 @@ function RctaInner(props) {
                 {/* Left side image section */}
                 <div className="md:flex flex-col items-center justify-between gap-4 hidden flex-[0.5] h-full pt-4">
                   <div className="max-w-sm w-full border-r-[1px] border-neutral-100 pr-4">
-                    <img
-                      className="w-full"
+                    <Image
                       src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
                       alt="get-in-touch"
+                      width={384}
+                      height={384}
+                      quality={75}
+                      className="w-full h-auto"
                     />
                   </div>
                   {/* Enquiry number for desktop */}

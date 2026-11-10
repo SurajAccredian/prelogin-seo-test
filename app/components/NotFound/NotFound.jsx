@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -89,10 +90,13 @@ const NotFound = () => {
       <div className="w-full min-h-[70vh] flex flex-col items-center justify-center bg-white-100 px-6 pb-6 text-center">
 
         <div className="max-w-[100%] max-h-[100%]">
-          <img
+          <Image
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/404.svg"
             alt="404 Not Found"
-            className="object-fill w-full h-full"
+            width={500}
+            height={350}
+            quality={75}
+            className="object-contain w-full h-auto max-w-lg"
           />
         </div>
         <h1 className="text-4xl font-extrabold text-universal mb-6 md:text-5xl">

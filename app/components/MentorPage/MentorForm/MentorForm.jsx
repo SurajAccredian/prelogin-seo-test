@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import CircularProgress from "@mui/material/CircularProgress";
 import "./mentorForm.css";
 import { useState } from "react";
@@ -656,11 +657,16 @@ function MentorForm() {
                     >
                       <div className="flex items-center">
                         <div className="w-12 h-12 text-blue-600 flex-shrink-0">
-                          <img
-                            src={role.image}
-                            alt={role.label}
-                            className="w-full h-full"
-                          />
+                          {role.image && (
+                            <Image
+                              src={role.image}
+                              alt={role.label || "Role icon"}
+                              width={48}
+                              height={48}
+                              quality={75}
+                              className="w-full h-full object-contain"
+                            />
+                          )}
                         </div>
                         <div className="ml-3">
                           <span className="text-base font-semibold">

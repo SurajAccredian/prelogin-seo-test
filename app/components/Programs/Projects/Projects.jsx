@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Navigation, Autoplay, Pagination, Keyboard } from 'swiper/modules';
@@ -105,7 +106,17 @@ const Projects = ({ data: propData }) => {
                   <div className='w-full'>
                     <div className='w-full flex items-center justify-between'>
                       <div className='w-20 h-20 flex-shrink-0 rounded-md bg-white overflow-hidden'>
-                        <img className='w-full h-full object-contain' src={val?.icon} alt={val?.title} />
+                        {val?.icon && (
+                          <Image
+                            className='w-full h-full object-contain'
+                            src={val.icon}
+                            alt={val?.title || "Project icon"}
+                            width={80}
+                            height={80}
+                            quality={75}
+                            sizes="80px"
+                          />
+                        )}
                       </div>
                     </div>
                     <h4 className='text-neutral-500 mt-2 text-base'>{val?.category}</h4>

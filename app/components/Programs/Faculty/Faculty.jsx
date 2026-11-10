@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
@@ -78,11 +79,17 @@ const Faculty = ({ data: propData }) => {
                 >
                   <div className="w-full flex items-center gap-3">
                     <div className="w-24 h-24 flex-shrink-0 overflow-hidden rounded-lg relative z-20">
-                      <img
-                        className="w-full h-full object-cover object-top"
-                        src={val?.image}
-                        alt={val?.name}
-                      />
+                      {val?.image && (
+                        <Image
+                          className="w-full h-full object-cover object-top"
+                          src={val.image}
+                          alt={val?.name || "Faculty"}
+                          width={96}
+                          height={96}
+                          quality={75}
+                          sizes="96px"
+                        />
+                      )}
                     </div>
                     <div className="flex mt-2 flex-col w-full truncate">
                       <h4
@@ -95,11 +102,17 @@ const Faculty = ({ data: propData }) => {
                         className="w-12 h-12 flex-shrink-0 mt-2 rounded-lg overflow-hidden"
                         title={val?.organization}
                       >
-                        <img
-                          className="w-full h-full object-contain"
-                          src={val?.organization_image}
-                          alt={val?.organization}
-                        />
+                        {val?.organization_image && (
+                          <Image
+                            className="w-full h-full object-contain"
+                            src={val.organization_image}
+                            alt={val?.organization || "Organization"}
+                            width={48}
+                            height={48}
+                            quality={75}
+                            sizes="48px"
+                          />
+                        )}
                       </div>
                     </div>
                   </div>
@@ -152,11 +165,17 @@ const Faculty = ({ data: propData }) => {
                   <div className="faculty-bg w-full p-3 bg-white rounded-2xl border cursor-context-menu">
                     <div className="w-full flex items-center gap-3">
                       <div className="w-24 h-24 flex-shrink-0 overflow-hidden rounded-lg relative z-20">
-                        <img
-                          className="w-full h-full object-cover object-top"
-                          src={val?.image}
-                          alt={val?.name}
-                        />
+                        {val?.image && (
+                          <Image
+                            className="w-full h-full object-cover object-top"
+                            src={val.image}
+                            alt={val?.name || "Faculty"}
+                            width={96}
+                            height={96}
+                            quality={75}
+                            sizes="96px"
+                          />
+                        )}
                       </div>
                       <div className="flex mt-2 flex-col w-full truncate">
                         <h4
@@ -169,11 +188,17 @@ const Faculty = ({ data: propData }) => {
                           className="w-12 h-12 flex-shrink-0 mt-2 rounded-lg overflow-hidden"
                           title={val?.organization}
                         >
-                          <img
-                            className="w-full h-full object-contain"
-                            src={val?.organization_image}
-                            alt={val?.organization}
-                          />
+                          {val?.organization_image && (
+                            <Image
+                              className="w-full h-full object-contain"
+                              src={val.organization_image}
+                              alt={val?.organization || "Organization"}
+                              width={48}
+                              height={48}
+                              quality={75}
+                              sizes="48px"
+                            />
+                          )}
                         </div>
                       </div>
                     </div>

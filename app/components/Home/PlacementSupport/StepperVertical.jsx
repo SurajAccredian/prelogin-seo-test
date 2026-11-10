@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function StepperVertical() {
   return (
     <div className="flex flex-col">
@@ -8,12 +10,14 @@ export default function StepperVertical() {
       <div className="flex gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
-            <img
-              loading="lazy"
-              decoding="async"
+            <Image
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps1.webp"
               alt="career launchpad"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
             />
           </div>
           <div className="w-[1px] h-full min-h-10 md:min-h-16 bg-slate-500" />
@@ -32,12 +36,14 @@ export default function StepperVertical() {
       <div className="flex gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
-            <img
-              loading="lazy"
-              decoding="async"
+            <Image
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps2.webp"
               alt="Interview preparation"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
             />
           </div>
           <div className="w-[1px] h-full min-h-10 md:min-h-16 bg-slate-500" />
@@ -57,12 +63,14 @@ export default function StepperVertical() {
       <div className="flex gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
-            <img
-              loading="lazy"
-              decoding="async"
+            <Image
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps3.webp"
               alt="Mentor session"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
             />
           </div>
           <div className="w-[1px] h-full bg-slate-500" />

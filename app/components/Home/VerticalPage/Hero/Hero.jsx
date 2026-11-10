@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import Rcta from "../../../cta/request_a_call_back";
 import HeroCss from "./Hero.css";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
@@ -87,16 +88,18 @@ const Hero = ({ data: propData }) => {
           {/* <div className=" w-full h-full"> */}
           {/* <img classname="" src={verticalHeader} alt="home" /> */}
           <div className="vertical-image-div flex flex-col justify-end mr-10">
-            <img
-              className="vertical-image-size w-[580px] h-[420px] "
-              src={data?.image}
-              alt={data?.title ? `${data.title} - Accredian Executive Programs` : "Accredian Executive Programs"}
-            />
-            {/* <img
-              src={verticalHeader}
-              className="vertical-image-size w-[580px] h-[460px] "
-              alt="vertical"
-            /> */}
+            {data?.image && (
+              <Image
+                className="vertical-image-size w-[580px] h-auto object-contain"
+                src={data.image}
+                alt={data?.title ? `${data.title} - Accredian Executive Programs` : "Accredian Executive Programs"}
+                width={580}
+                height={420}
+                priority
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 580px"
+              />
+            )}
           </div>
           {/* </div> */}
           {/* </div> */}

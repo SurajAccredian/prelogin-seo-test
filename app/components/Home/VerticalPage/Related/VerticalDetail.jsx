@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -189,22 +190,32 @@ const VerticalDetail = ({ data: propData }) => {
                         )}
 
                         {/* Program Image */}
-                        <img
-                          loading="lazy"
-                          className="w-full h-full object-cover"
-                          src={program.cover_image}
-                          alt={`${program.program_name} - ${program.university_name || "Accredian"}`}
-                        />
+                        {program.cover_image && (
+                          <Image
+                            className="object-cover"
+                            src={program.cover_image}
+                            alt={`${program.program_name} - ${program.university_name || "Accredian"}`}
+                            fill
+                            sizes="(max-width: 768px) 100vw, 400px"
+                            quality={75}
+                          />
+                        )}
                       </div>
                       <div className="w-full pt-4 pb-2 px-4">
                         <div className="w-full flex items-center gap-4">
                           <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md">
-                            <img
-                              title={program.university_name}
-                              src={program.university_image}
-                              className="w-full h-full object-contain rounded-sm"
-                              alt={program.university_name}
-                            />
+                            {program.university_image && (
+                              <Image
+                                title={program.university_name}
+                                src={program.university_image}
+                                className="w-full h-full object-contain rounded-sm"
+                                alt={program.university_name || "University"}
+                                width={40}
+                                height={40}
+                                quality={75}
+                                sizes="40px"
+                              />
+                            )}
                           </div>
                           <p
                             title={program.university_name}
@@ -279,7 +290,7 @@ const VerticalDetail = ({ data: propData }) => {
                 const resolved = getProgramStatus ? getProgramStatus(program) : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
                 return (
                 <div className="w-full lg:max-w-[400px] min-h-[420px] rounded-2xl overflow-hidden bg-white drop-shadow-md border flex flex-col relative">
-                  <div className="w-full h-32 flex items-center justify-center bg-blue-50">
+                  <div className="w-full h-32 flex items-center justify-center bg-blue-50 relative">
                     {resolved.status && (
                       <div className="absolute top-2 right-2 z-10">
                         <div
@@ -292,21 +303,32 @@ const VerticalDetail = ({ data: propData }) => {
                         </div>
                       </div>
                     )}
-                    <img
-                      className="w-full h-full object-cover"
-                      src={program.cover_image}
-                      alt={`${program.program_name} - ${program.university_name || "Accredian"}`}
-                    />
+                    {program.cover_image && (
+                      <Image
+                        className="object-cover"
+                        src={program.cover_image}
+                        alt={`${program.program_name} - ${program.university_name || "Accredian"}`}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 400px"
+                        quality={75}
+                      />
+                    )}
                   </div>
                   <div className="w-full pt-4 pb-2 px-4">
                     <div className="w-full flex items-center gap-4">
                       <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md">
-                        <img
-                          title={program.university_name}
-                          src={program.university_image}
-                          className="w-full h-full object-contain rounded-sm"
-                          alt={program.university_name}
-                        />
+                        {program.university_image && (
+                          <Image
+                            title={program.university_name}
+                            src={program.university_image}
+                            className="w-full h-full object-contain rounded-sm"
+                            alt={program.university_name || "University"}
+                            width={40}
+                            height={40}
+                            quality={75}
+                            sizes="40px"
+                          />
+                        )}
                       </div>
                       <p
                         title={program.university_name}

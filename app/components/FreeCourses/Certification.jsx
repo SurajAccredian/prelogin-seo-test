@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from "../../store/reducers/user";
 import { useRouter } from "next/navigation";
@@ -73,12 +74,17 @@ const Certification = ({ data }) => {
           <h3>{certification.free_badge?.title || "Certificate of Completion"}</h3>
 
           <div className="cert-badge-visual">
-            <img
+            <Image
               src={
                 certification.free_badge?.image ||
-                "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.png"
+                "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.webp"
               }
               alt="Certificate Mockup"
+              width={400}
+              height={280}
+              quality={75}
+              sizes="(max-width: 768px) 100vw, 400px"
+              className="w-full h-auto object-contain"
             />
           </div>
 
@@ -107,12 +113,17 @@ const Certification = ({ data }) => {
             <h3>{certification.paid_cert?.title || "Official Certification"}</h3>
 
             <div className="cert-badge-visual">
-              <img
+              <Image
                 src={
                   certification.paid_cert?.image ||
-                  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.png"
+                  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.webp"
                 }
                 alt="Official Certification Mockup"
+                width={400}
+                height={280}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 400px"
+                className="w-full h-auto object-contain"
               />
             </div>
 

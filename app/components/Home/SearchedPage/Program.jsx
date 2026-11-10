@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 import { CiViewTimeline } from "react-icons/ci";
 import Link from "next/link";
 import { resolveProgramStatus } from "../../../helpers/useProgramStatuses";
@@ -86,28 +87,39 @@ const Program = ({ program, setBrotureDownloadInfo, setOpen, getProgramStatus })
             </div>
           </div>
         )}
-        <img
-          loading="lazy"
-          className={`w-full h-full object-cover transition-all duration-200 ${isClosed ? "grayscale contrast-[0.85] opacity-70" : ""
-            }`}
-          src={coverImage}
-          alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
-        />
+        {coverImage && (
+          <Image
+            loading="lazy"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 380px"
+            quality={75}
+            className={`w-full h-full object-cover transition-all duration-200 ${isClosed ? "grayscale contrast-[0.85] opacity-70" : ""
+              }`}
+            src={coverImage}
+            alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
+          />
+        )}
       </div>
 
       <div className="w-full pt-4 pb-2 px-4">
         <div className="w-full flex items-center gap-4">
           <div
-            className={`w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 drop-shadow-md transition-all ${isClosed ? "bg-neutral-100 grayscale opacity-80" : "bg-white"
+            className={`w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 drop-shadow-md transition-all flex items-center justify-center ${isClosed ? "bg-neutral-100 grayscale opacity-80" : "bg-white"
               }`}
           >
-            <img
-              loading="lazy"
-              title={program.university_name}
-              src={program.university_image}
-              className="w-full h-full object-contain rounded-sm"
-              alt={program.university_name}
-            />
+            {program.university_image && (
+              <Image
+                loading="lazy"
+                title={program.university_name}
+                src={program.university_image}
+                alt={program.university_name || "University logo"}
+                width={40}
+                height={40}
+                quality={75}
+                sizes="40px"
+                className="w-full h-full object-contain rounded-sm"
+              />
+            )}
           </div>
           <p
             title={program.university_name}

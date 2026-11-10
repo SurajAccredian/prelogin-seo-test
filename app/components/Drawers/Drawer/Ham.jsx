@@ -1,4 +1,5 @@
 import Drawer from "@mui/material/Drawer";
+import Image from "next/image";
 import { TbLogin2 } from "react-icons/tb";
 import AccordionHam from "./AccodionHam";
 import AccodionMyAccount from "./AccodionMyAccount";
@@ -49,10 +50,13 @@ export default function Ham({
         <div className="w-full bg-white p-4 font-circular flex flex-col overflow-y-auto custom-scrollbar xl:hidden">
           <div className="flex-grow">
             <div className="w-full flex justify-between items-center mt-2 mb-6">
-              <img
+              <Image
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
-                alt="logo"
-                className="max-w-[130px] w-full"
+                alt="Accredian logo"
+                width={130}
+                height={38}
+                quality={75}
+                className="max-w-[130px] w-full h-auto"
               />
 
               <X
@@ -92,7 +96,14 @@ export default function Ham({
           {!hasFreeCourse && (
             <div>
               <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/referandearn`} target="_blank" rel="noreferrer">
-                <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="Refer and earn banner" />
+                <Image
+                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp"
+                  className="w-full h-auto"
+                  alt="Refer and earn banner"
+                  width={280}
+                  height={140}
+                  quality={75}
+                />
               </a>
             </div>
           )}

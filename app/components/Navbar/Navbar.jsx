@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import ExploreDropDown from "./ExploreDropdown/ExploreDropDown";
 import "./Navbar.css";
@@ -373,13 +374,14 @@ export default function Navbar() {
           <div className="nav-3-left">
             <Link href={"/"} prefetch={false} style={{ textDecoration: "none" }}>
               <div className="max-w-[125px] w-full">
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Accredian logo"
-                  width="358"
-                  height="105"
+                  width={125}
+                  height={37}
                   className="w-full h-auto"
-                  loading="lazy"
+                  priority
+                  quality={75}
                 />
               </div>
             </Link>
@@ -498,10 +500,13 @@ export default function Navbar() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
+                          <Image
                             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp"
-                            className="w-[240px]"
+                            className="w-[240px] h-auto"
                             alt="Refer and earn banner"
+                            width={240}
+                            height={120}
+                            quality={75}
                           />
                         </a>
                       )}

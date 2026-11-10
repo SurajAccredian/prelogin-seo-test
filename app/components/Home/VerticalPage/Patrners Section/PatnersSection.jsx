@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import { useSelector } from "react-redux";
 
@@ -56,11 +57,17 @@ const Partners = ({ data: propData }) => {
                 key={index}
                 className="w-[150px] h-[50px] flex justify-center items-center overflow-hidden"
               >
-                <img
-                  className="object-contain w-full h-full"
-                  src={partner.url}
-                  alt={partnerDisplayName}
-                />
+                {partner.url && (
+                  <Image
+                    className="object-contain w-full h-full"
+                    src={partner.url}
+                    alt={partnerDisplayName}
+                    width={150}
+                    height={50}
+                    quality={75}
+                    sizes="150px"
+                  />
+                )}
               </div>
             );
           })}

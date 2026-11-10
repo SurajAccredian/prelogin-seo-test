@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Instructor = ({ data }) => {
   const { instructor } = data;
@@ -7,7 +8,14 @@ const Instructor = ({ data }) => {
   return (
     <div className="instructor-card" data-cms="instructor">
       <div className="instructor-photo">
-        <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/prateek_kumar.webp" alt={instructor.name} />
+        <Image
+          src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/prateek_kumar.webp"
+          alt={instructor.name || "Instructor"}
+          width={140}
+          height={140}
+          quality={75}
+          className="w-full h-full object-cover"
+        />
       </div>
       <div>
         <h3 className="instructor-name" data-cms="instructor.name">{instructor.name}</h3>

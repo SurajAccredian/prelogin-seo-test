@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import {
   Backdrop,
   CircularProgress,
@@ -308,11 +309,15 @@ const ReferModalContent = ({ open, setOpen }) => {
       <DialogContent sx={{ padding: "0px" }}>
         <div className="flex">
           <div className="left-img-sec w-1/2 hidden md:flex items-center justify-center bg-universal">
-            <div className="img-container-refer-modal w-full overflow-hidden">
-              <img
-                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/refer-modal-bg.svg"
+            <div className="img-container-refer-modal w-full overflow-hidden flex items-center justify-center">
+              <Image
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/refer-modal-bg.webp"
                 alt="Refer your friend"
-                className="max-w-[550px] w-full object-cover object-center"
+                width={550}
+                height={550}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 550px"
+                className="max-w-[550px] w-full h-auto object-cover object-center"
               />
             </div>
           </div>

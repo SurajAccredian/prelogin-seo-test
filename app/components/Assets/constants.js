@@ -261,7 +261,7 @@ export const UNIVERSITY_BACKGROUNDS = {
   "IIM Bodh Gaya":
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-2.webp",
   "IIM Sirmaur":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-sirmaur-university-image.webp",
   XLRI:
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
   "XLRI | Delhi-NCR":
@@ -275,11 +275,11 @@ export const UNIVERSITY_BACKGROUNDS = {
   "Department of Entrepreneurship and Management, IIT Hyderabad":
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-universityi-image-v2.webp",
   "I3C-IIT JAMMU":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
   "IITM Pravartak":
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IITM_Campus_image__1_.webp",
   Microsoft:
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.webp",
   Accredian:
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
 };

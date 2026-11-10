@@ -182,11 +182,17 @@ const Hero = ({ data: propData }) => {
                           : "max-w-[120px]"
                     } flex-shrink-0 rounded-md`}
                 >
-                  <img
-                    className="w-full h-full object-contain"
-                    src={data?.university_logo}
-                    alt="university logo"
-                  />
+                  {data?.university_logo && (
+                    <Image
+                      className="w-full h-full object-contain"
+                      src={data.university_logo}
+                      alt={data?.university_name || "University logo"}
+                      width={200}
+                      height={80}
+                      quality={75}
+                      sizes="200px"
+                    />
+                  )}
                 </div>
               </div>
 
@@ -421,16 +427,22 @@ const Hero = ({ data: propData }) => {
                       : "max-w-[100px]"
                   }`}
               >
-                <img
-                  className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
-                    ? "w-[400px] h-[55px]"
-                    :  data?.short_university_name?.toLowerCase() !== "iim-trichy"
-                      ? "w-full h-full"
-                      : "w-[300px] h-[35px]"
-                    } rounded`}
-                  src={data?.university_logo}
-                  alt={data?.university_name}
-                />
+                {data?.university_logo && (
+                  <Image
+                    className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
+                      ? "w-[400px] h-[55px]"
+                      :  data?.short_university_name?.toLowerCase() !== "iim-trichy"
+                        ? "w-full h-full"
+                        : "w-[300px] h-[35px]"
+                      } rounded object-contain`}
+                    src={data.university_logo}
+                    alt={data?.university_name || "University logo"}
+                    width={250}
+                    height={80}
+                    quality={75}
+                    sizes="250px"
+                  />
+                )}
               </div>
               <div
                 onClick={handleShare}
@@ -473,10 +485,14 @@ const Hero = ({ data: propData }) => {
                   <h3 className="text-[10px] sm:text-xs font-semibold text-neutral-600">
                     Powered By
                   </h3>
-                  <img
-                    className="w-full h-full rounded mt-1"
+                  <Image
+                    className="w-full h-auto rounded mt-1 object-contain"
                     src={data?.accredited_by[0]}
                     alt="accredited_logo"
+                    width={120}
+                    height={40}
+                    quality={75}
+                    sizes="120px"
                   />
                 </div>
               </div>

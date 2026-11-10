@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -165,10 +166,13 @@ export default function CtaModal({ open, setOpen }) {
               <div className="bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[90vw] min-h-[35vh] py-5 px-5 flex items-center gap-2 rounded-xl">
                 <div className="md:flex flex-col items-center justify-between gap-2 hidden flex-[0.5]">
                   <div className="max-w-sm w-full">
-                    <img
-                      className="w-full"
+                    <Image
                       src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
                       alt="get-in-touch"
+                      width={384}
+                      height={384}
+                      quality={75}
+                      className="w-full h-auto"
                     />
                   </div>
                   {/* <div className="w-full mt-4 hidden md:flex justify-center items-center gap-4 bg-blue-50 border border-blue-300 py-4 px-4 rounded-lg">

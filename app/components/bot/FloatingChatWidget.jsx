@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import ChatWidget from "./ChatWidget";
 
@@ -91,9 +92,12 @@ export default function FloatingChatWidget({ isOpen = false, setIsChatBotOpen })
             <div style={styles.headerContent}>
               {/* Logo */}
               <div style={styles.logoContainer}>
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Accredian"
+                  width={28}
+                  height={28}
+                  quality={75}
                   style={styles.logo}
                 />
               </div>

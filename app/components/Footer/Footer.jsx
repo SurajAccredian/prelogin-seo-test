@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Grid, Typography, Button, Box, Container } from "@mui/material";
 import Link from "next/link";
@@ -78,13 +79,13 @@ const Footer = () => {
               lg={6}
               sx={{ display: "flex", flexDirection: "column" }}
             >
-              <img
-                style={{ width: "9rem" }}
-                src="	https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredainnew.webp"
+              <Image
+                style={{ width: "9rem", height: "auto" }}
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredainnew.webp"
                 alt="Accredian logo"
-                width="338"
-                height="90"
-                loading="lazy"
+                width={144}
+                height={38}
+                quality={75}
               />
               <div className="flex mt-4">
                 <a

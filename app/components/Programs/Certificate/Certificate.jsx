@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import Image from "next/image";
 
 import React, { useEffect, useRef, useState } from "react";
 import CertificateModal from "../../Modals/certificate-modal";
@@ -92,11 +93,15 @@ const Certificate = ({ data: propData }) => {
                               : ""
                               }`}
                           >
-                            <img
-                              className={`w-full ${data?.id ===
+                            <Image
+                              width={700}
+                              height={500}
+                              sizes="(max-width: 768px) 100vw, 600px"
+                              quality={75}
+                              className={`w-full h-auto ${data?.id ===
                                 "iith-professional-certificate-program-in-strategic-project-management" || data?.id === 'iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership' || data?.id === "iima-senior-management-program"
                                 ? "max-h-[400px] md:max-h-[500px] object-contain"
-                                : ""
+                                : "object-contain"
                                 }`}
                               src={val}
                               alt={`${data?.title || data?.program_name || "Program"} Certificate - ${data?.university_name || "Accredian"}`}
@@ -179,11 +184,15 @@ const Certificate = ({ data: propData }) => {
                   : "lg:max-w-xl"
                   }`}
               >
-                <img
-                  className={`w-full ${data?.id ===
+                <Image
+                  width={700}
+                  height={500}
+                  sizes="(max-width: 768px) 100vw, 600px"
+                  quality={75}
+                  className={`w-full h-auto ${data?.id ===
                     "iith-professional-certificate-program-in-strategic-project-management" || data?.id === "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" || data?.id === "iima-senior-management-program"
                     ? "max-h-[400px] md:max-h-[500px] object-contain"
-                    : ""
+                    : "object-contain"
                     }`}
                   src={data?.certificate}
                   alt={`${data?.title || data?.program_name || "Program"} Certificate - ${data?.university_name || "Accredian"}`}

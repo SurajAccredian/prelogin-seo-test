@@ -1,5 +1,4 @@
 [
-  
   {
     "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
@@ -1434,6 +1433,36 @@
     "program_fee": 290000,
     "required_years_experience": 8,
     "pid": 184
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Operating-Officer-The-COO-Program.pdf",
+      "source": "IIM-RANCHI Chief Operating Officer Program Brochure",
+      "campaign_name": "IIM-RANCHI-COO"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "7 Mar 2027",
+    "contact": "8851827093",
+    "program_fee": 290000,
+    "required_years_experience": 8
   },
   {
     "status": "New Launch",

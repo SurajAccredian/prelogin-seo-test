@@ -63,7 +63,7 @@ const FeatureIcons = {
   frameworks: <GiStack className="w-full h-full" />,
   "case studies": <MdLibraryBooks className="w-full h-full" />,
   simulations: <MdLibraryBooks className="w-full h-full" />,
-  "CXO coaching": <FaPeopleGroup className="w-full h-full" />,
+  "cxo coaching": <FaPeopleGroup className="w-full h-full" />,
 };
 
 

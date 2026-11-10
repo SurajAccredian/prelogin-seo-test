@@ -40,7 +40,7 @@
   "key_features": [
     {
       "title": "hours",
-      "count": 120
+      "count": 126
     },
     {
       "title": "career sessions",
@@ -48,7 +48,7 @@
     },
     {
       "title": "modules",
-      "text": 9
+      "text": 8
     },
     {
       "title": "simulations",
@@ -93,7 +93,7 @@
       {
         "title": "program snapshot",
         "points": [
-          "9 Modules - HRM Strategy, DEI Leadership, and GenAI",
+          "8 Modules - HRM Strategy, DEI Leadership, and GenAI",
           "Learn from the top industry professionals and expert sessions by XLRI Faculty",
           "Duration: 10 months | Weekend Online",
           "Certification from XLEAD & XLRI",
@@ -109,7 +109,7 @@
   },
   "domain": "module",
   "attendancePercent": 70,
-  "curriculum_type": "term",
+  "curriculum_type": "module",
   "unique_points": [
     "certificate",
     "campus-immersion",
@@ -128,34 +128,34 @@
   ],
   "curriculum": [
     {
-      "title": "Future of Workplace",
+      "title": "Future of the workplace - Introduction to new-age HRM",
       "week": "",
       "points": [
-        "Setting the Context for Digital Change in HR",
-        "Developing an Ability to Look into the Future",
-        "Industry 4.0 & the Skilling Challenges",
-        "Impact of Organizational Design on Strategy",
-        "New-Age Organization Design & Structures",
-        "Digital Transformation in Business",
-        "Digital: Future for HR",
-        "Managing the Transformation",
+        "Setting the context for digital change in HR",
+        "Developing an ability to look into the future",
+        "Industry 4.0 and the skilling challenges",
+        "Impact of organizational design on strategy",
+        "New-age organization design and structures",
+        "Digital transformation in business",
+        "Digital: Future of HR",
+        "Managing the transformation",
         "Social Media & Employer Branding",
-        "Impact of Work from Anywhere",
-        "Managing Organization Culture in Hybrid Workmode"
+        "Impact of work from anywhere",
+        "Managing Organisation Culture in Hybrid Workmode - Challenges and Strategies"
       ]
     },
     {
       "title": "Strategic HRM",
       "week": "",
       "points": [
-        "Strategic Staffing & Resource Allocation",
-        "Managing Remote Contractual Workforce",
-        "Talent Management: Attraction, Retention, & Development",
-        "Aligning Business Strategy with Organization Objectives (SHRM Frameworks)",
+        "Strategic staffing and resource allocation",
+        "Managing remote contractual workforce",
+        "Talent management: attraction, retention, and development",
+        "Aligning business strategy with organization objectives (SHRM frameworks)",
         "Change Management",
-        "Building Learning Organizations",
+        "Building learning organizations",
         "Role of HR in Internationalization",
-        "Role of HR in Successful Mergers, Acquisitions & Joint Ventures",
+        "Role of HR in successful mergers, acquisitions and joint ventures",
         "Corporate Governance"
       ]
     },
@@ -163,91 +163,88 @@
       "title": "Understanding HR Metrics",
       "week": "",
       "points": [
-        "Digital Tools for Research",
-        "Employee Persona & Look-alike Audience",
-        "Employer Branding & Case Study Discussions",
-        "Framework for Problem Solving (Define Problem, Collect Data, Build Model, Evaluate & Present Results)",
+        "Framework for Problem Solving - Define Problem, Collect Data, Build the model, Evaluate and Critique the model, Present Results and Benefits, Deploy Model",
         "People Analytics - Basics",
-        "Steps to Workforce Planning (Supply, Demand, Gap & Solution Analysis - Markov Chain, Scatter Plot, Trend Analysis)",
+        "Steps to workforce planning - supply, demand, gap and solution analysis (Markov chain, scatter plot, trend analysis)",
         "Strategic HR Metrics",
-        "Employee Training & Development Analytics",
-        "Talent Engagement Analytics",
+        "Employee training and development analytics",
+        "Talent engagement analytics",
         "HR Scorecards"
       ]
     },
     {
-      "title": "Digitalization, AI & HRM",
+      "title": "Digitalization, AI and HRM",
       "week": "",
       "points": [
-        "Interpreting Data for Actionable Insights",
-        "Behavioral Modeling & Predictive Analytics (Case Discussion)",
-        "GenAI & its Applications in HR Strategy (Planning, Recruitment & Selection)",
-        "GenAI & its Applications in Learning & Development, Performance & Career Management",
-        "Developing Learning Experience Platforms",
-        "Ethical Issues in the Digitalization of HRM"
+        "Interpreting data for actionable insights",
+        "Behavioral Modeling and Predictive analytics - Case Discussion",
+        "AI & HR",
+        "GenAI and its applications in HR strategy & planning and Recruitment & Selection",
+        "Developing learning experience platforms",
+        "Design Thinking for HR Professionals (Parts 1 & 2)"
       ]
     },
     {
-      "title": "Motivating Next-Gen Employees",
+      "title": "Leadership Excellence & People Development",
       "week": "",
       "points": [
-        "Reimagine Careers & Succession Planning",
-        "Performance Management & Appraisal for Next-Gen Employees",
-        "Compensation Management including Rewards & Recognition"
+        "Self-leadership, servant leadership & Emotional Intelligence",
+        "Building Leadership through uncertain times; Leadership and communication",
+        "Conflict Management and Negotiation",
+        "Strategic Leadership Competencies",
+        "Performance management and appraisal for the next-generation employees",
+        "Employee counselling, coaching, and mentoring for leadership development",
+        "Reimagine careers and succession planning"
       ]
     },
     {
-      "title": "Leadership",
+      "title": "Strategy and Leadership for Senior HR Professionals",
       "week": "",
       "points": [
-        "Self-Leadership, Servant Leadership & Emotional Intelligence",
-        "Building Leadership through Uncertain Times; Leadership & Communication",
-        "Employee Counseling, Coaching & Mentoring for Leadership Development",
-        "Leading Innovation",
-        "Leading Start-ups",
-        "Conflict Management & Negotiation"
+        "External environment and its implications for HR and Leadership",
+        "Innovation and its implication for the organization – people, structure, culture",
+        "Role of HR as a Business Growth Enabler",
+        "Understanding the business landscape – competitive advantage, supply demand, value chain, product positioning",
+        "Role of leadership in start-ups – scaling challenges, matching internal scaling with external scaling"
       ]
     },
     {
-      "title": "Employee Wellness & Mental Well-Being",
+      "title": "DEI, Employee wellness and Compensation Management",
       "week": "",
       "points": [
-        "Future of Work: Post-Pandemic Perspectives",
-        "Understanding & Managing Stress in the Workplace",
-        "Mental Health & Well-Being"
+        "Future of work: post-pandemic perspectives",
+        "Understanding and managing stress in the workplace",
+        "Mental health and well-being",
+        "Compensation Management including Rewards & Recognition",
+        "Diversity: Relevance in the present time and context",
+        "Leading a diverse workforce"
       ]
     },
     {
-      "title": "Diversity, Equity, & Inclusion",
+      "title": "Labour Laws and Compliance",
       "week": "",
       "points": [
-        "Relevance in the Present Time & Context",
-        "Diversity: A Strong Business Case",
-        "Types: Cultural, Racial, Religious, Age, Sex, Sexual Orientation, Physical, Mental, Caste, Regional",
-        "Psychological Foundations",
-        "Leading a Diverse Workforce",
-        "Team Diversity",
-        "Diversity at the Top: Diverse Leadership Styles",
-        "Fostering a Culture that Embraces and Leverages Diversity"
-      ]
-    },
-    {
-      "title": "Future of Industrial Relations & New Labor Laws",
-      "week": "",
-      "points": [
-        "Labour Laws",
+        "Labour laws",
         "HR Compliance",
-        "New Policies"
+        "New policies"
       ]
     },
     {
       "title": "Campus Immersion",
       "week": "",
       "points": [
-        "Critical Concepts of Marketing",
-        "Role of HR as a Business Growth Enabler",
-        "Understanding the Business Landscape",
-        "Capstone Project"
+        "Executive CXO Coaching sessions",
+        "Capstone Project Presentations and Valedictory"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "week": "3 Hours",
+      "points": [
+        "The capstone project for the Strategic HR Leadership Program enables participants to apply their knowledge by addressing a complex, real-world business challenge.",
+        "It requires strategic analysis, decision-making, and leadership skills cultivated throughout the program, offering a hands-on opportunity to synthesize learning and demonstrate their expertise in driving impactful solutions to organizational issues.",
+        "Includes a live Capstone Project Discussion session (virtual)."
       ]
     }
   ],
@@ -333,7 +330,7 @@
   "billing": {
     "programId": "executive-development-program-strategic-hr-leadership",
     "points": [
-      "120 Hours of Live Classes",
+      "126 Hours of Live Classes",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"

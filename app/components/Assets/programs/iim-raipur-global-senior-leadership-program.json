@@ -22,27 +22,27 @@
   "tags": [],
   "key_features": [
     {
-      "text": "144+  Hours of Live Classes",
+      "text": "144+",
       "title": "live sessions"
     },
     {
-      "text": "4 Specializations",
+      "text": "4",
       "title": "subject areas"
     },
     {
-      "text": "6 Career Sessions",
+      "text": "6",
       "title": "career sessions"
     },
     {
-      "text": "3-day international immersion in Dubai",
+      "text": "3-day",
       "title": "int. immersion in dubai"
     },
     {
-      "text": "2-day campus immersion at IIM Raipur",
+      "text": "2-day",
       "title": "campus immersion"
     },
     {
-      "text": "11 Core Modules",
+      "text": "11",
       "title": "modules"
     }
   ],
@@ -98,11 +98,7 @@
     "certificate",
     "alumni-status"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "Fill the application form",
     "Application Review",

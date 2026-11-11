@@ -1416,7 +1416,7 @@
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Financial-Officer-The-CFO-Program.pdf",
       "source": "IIM-RANCHI Chief Financial Officer Program Brochure",
       "campaign_name": "IIM-RANCHI-Chief Financial Officer"
     },

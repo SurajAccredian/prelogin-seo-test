@@ -14,14 +14,14 @@ export default function AnalyticsProvider({ children }) {
     saveFbcFallback();
 
     // PostHog initialization
-    posthog.init(
-      process.env.NEXT_PUBLIC_POSTHOG_API_KEY || "phc_NZdN6nmco27sEhbueOjTabH2ozM8Hq8BJ3l4qH5vUob",
-      {
-        api_host:
-          process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
-        person_profiles: "identified_only",
-      }
-    );
+    // posthog.init(
+    //   process.env.NEXT_PUBLIC_POSTHOG_API_KEY || "phc_NZdN6nmco27sEhbueOjTabH2ozM8Hq8BJ3l4qH5vUob",
+    //   {
+    //     api_host:
+    //       process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
+    //     person_profiles: "identified_only",
+    //   }
+    // );
   }, []);
 
   return (
@@ -118,7 +118,7 @@ export default function AnalyticsProvider({ children }) {
         `}
       </Script>
 
-      <Script id="artibot" strategy="afterInteractive">
+      {/* <Script id="artibot" strategy="afterInteractive">
         {`
           setTimeout(function () {
             !(function (t, e) {
@@ -156,7 +156,7 @@ export default function AnalyticsProvider({ children }) {
             })(window, document);
           }, 2000);
         `}
-      </Script>
+      </Script> */}
 
       <Script id="clarity-script" strategy="afterInteractive">
         {`

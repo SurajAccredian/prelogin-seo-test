@@ -19,13 +19,13 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 ## Partner institutions
 
+- IIM Kashipur
 - Indian Institute of Management Raipur
 - E&ICT Academy IIT Kanpur
 - IIM Lucknow
 - IIM Sirmaur
 - IIM Tiruchirappalli
 - IIM Ranchi
-- IIM Kashipur
 - I3C-IIT JAMMU
 - SP Jain School of Global Management
 - IIM Bodh Gaya
@@ -154,6 +154,27 @@ Yes. For professionals funded by their organizations, Accredian issues formal GS
 Accredian offers early-bird fee concessions for candidates who complete registration prior to specified cohort deadlines. Merit-based fee waivers or corporate group enrollment discounts may also be available for select programs; details can be confirmed directly with admissions advisors during application process.
 
 ## Programs open for admission
+
+### [PG Diploma](https://accredian.com/course/pg-diploma)
+
+#### [Executive Post Graduate Diploma Program in Business Management](https://accredian.com/programs/iim-kashipur-executive-post-graduate-diploma-program-in-business-management)
+- **Institution:** IIM Kashipur
+- **Duration:** 14 Months
+- **Start date:** 25 April 2027
+- **Experience required:** 3+ years
+- **Fee:** INR 3,49,999 + GST
+
+#### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 18 Apr 2027
+- **Experience required:** 3+ years
+- **Fee:** INR 4,84,300 + GST
+- **Description:** Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.
+- **Curriculum:**
+  1. Foundational
+  2. Intermediate
+  3. Final
 
 ### [Senior Management](https://accredian.com/course/senior-management)
 
@@ -1180,20 +1201,6 @@ Accredian offers early-bird fee concessions for candidates who complete registra
   14. Strategic Leadership in the Digital Age
   15. Leadership with AI
   16. Capstone Project
-
-### [PG Diploma](https://accredian.com/course/pg-diploma)
-
-#### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 Months
-- **Start date:** 18 Apr 2027
-- **Experience required:** 3+ years
-- **Fee:** INR 4,84,300 + GST
-- **Description:** Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.
-- **Curriculum:**
-  1. Foundational
-  2. Intermediate
-  3. Final
 
 ### [General Management](https://accredian.com/course/general-management)
 

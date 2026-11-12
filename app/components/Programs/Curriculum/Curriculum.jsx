@@ -22,7 +22,16 @@ const Curriculum = ({ data: propData }) => {
     );
   }
 
-  const isPGDMHybrid = data?.id === "gim-hybrid-post-graduate-diploma-in-management";
+  const isCustomCurriculum =
+    data?.id === "gim-hybrid-post-graduate-diploma-in-management" ||
+    data?.id === "iim-kashipur-executive-post-graduate-diploma-program-in-business-management" ||
+    data?.id === "iim-kashipur-executive-post-graduate-diploma-program-in-business-management-program" ||
+    (data?.curriculum && !Array.isArray(data.curriculum) && !data.curriculum.coreModules);
+
+  const courseworkTitle =
+    data?.id === "gim-hybrid-post-graduate-diploma-in-management"
+      ? "2 Year Hybrid PGDM"
+      : data?.short_title?.trim() || "Program";
 
   return (
     <div
@@ -33,7 +42,7 @@ const Curriculum = ({ data: propData }) => {
         <div className="w-full flex items-center">
           <div className="flex-1 md:text-start text-center">
             <h4 className="text-base font-medium">
-              Our <span className="text-universal">{isPGDMHybrid ? "2 Year Hybrid PGDM" : data?.short_title}</span>{" "}
+              Our <span className="text-universal">{courseworkTitle}</span>{" "}
               Coursework
             </h4>
             <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
@@ -67,7 +76,7 @@ const Curriculum = ({ data: propData }) => {
               } flex gap-4`}
           >
             <div className="flex-1 min-w-0">
-              {isPGDMHybrid ? (
+              {isCustomCurriculum ? (
                 <PGDMHybridCurriculum
                   data={data}
                   curriculum={data?.curriculum}

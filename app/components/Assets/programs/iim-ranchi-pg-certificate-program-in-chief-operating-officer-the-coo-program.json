@@ -1,0 +1,305 @@
+{
+  "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+  "category": "63",
+  "pid": 185,
+  "vertical": "CXO Leadership",
+  "title": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+  "description": "Embark on an 12 month learning journey in operations strategy, cross-functional leadership & strategic communication.",
+  "short_title": "COO",
+  "contact": "8851827093",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1_.webp",
+  "start_date": "7 Mar 2027",
+  "duration": "12 Months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "144+",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "14",
+      "title": "modules"
+    },
+    {
+      "text": "2",
+      "title": "CXO coaching"
+    }
+  ],
+  "domain": "CXO Leadership",
+  "overview": {
+    "programId": "pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current COOs seeking strategic and transformational leadership skills",
+          "Senior Operations Leaders preparing for C-suite roles",
+          "Business & Functional Leaders aligning strategy with execution",
+          "Operations Directors & Managers transitioning to enterprise leadership",
+          "Founders & Entrepreneurs scaling business operations",
+          "Consultants strengthening operational transformation expertise",
+          "Aspiring COOs building capabilities for senior leadership roles"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Operating Officer (COO)",
+          "Chief Operations Officer",
+          "Vice President of Operations",
+          "Head of Operations",
+          "Director of Operations",
+          "Business Operations Leader",
+          "Operational Excellence Leader",
+          "Supply Chain & Operations Leader",
+          "Operations Strategy Consultant",
+          "Business Transformation Leader"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 Pillars – Core Operations & Performance Excellence",
+          "Learn from Esteemed IIM Ranchi Faculty",
+          "Duration: 12 Months | Weekend Online",
+          "Certification from IIM Ranchi",
+          "Live Instructor-led Classes",
+          "Executive Alumni Status",
+          "One 3-Day Campus Immersion",
+          "Career Assistance by Accredian",
+          "EMI Options up to 24 Months"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "alumni-status",
+    "campus-immersion",
+    "CXO-coaching-sessions"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Modern COO",
+      "points": [
+        "Evolution of the COO mandate",
+        "COO as enterprise integrator",
+        "CEO–COO partnership and alignment",
+        "Strategy,  execution, and transformation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Operations Leadership",
+      "points": [
+        "Translating strategy into operating priorities",
+        "Aligning resources with strategic priorities",
+        "Leading cross-functional enterprise execution",
+        "Balancing growth, efficiency, and resilience"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Leadership & Executive Influence",
+      "points": [
+        "Executive presence and communication",
+        "Board and stakeholder engagement",
+        "Enterprise-wide influence and alignment",
+        "Leading high-stakes conversations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Enterprise Operating Models & Execution Systems",
+      "points": [
+        "Organization structures and decision rights",
+        "Governance and accountability mechanisms",
+        "KPIs, OKRs,  and enterprise scorecards",
+        "Performance reviews and operating rhythms"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Leadership for COOs",
+      "points": [
+        "P&L leadership and performance drivers",
+        "Working capital and cash efficiency",
+        "Unit economics and profitability levers",
+        "Capital allocation and investment trade-offs"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Operational Excellence & Process Transformation",
+      "points": [
+        "Lean and continuous improvement systems",
+        "Process redesign and simplification",
+        "Bottleneck and constraint management",
+        "Productivity and cost optimization"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Customer-Centric Operations & Service Excellence",
+      "points": [
+        "Customer journey and service design",
+        "Omnichannel service operating models",
+        "Customer experience and service metrics",
+        "Scaling customer operations and support"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Scaling Operations & Global Expansion",
+      "points": [
+        "Scaling operating models and capacity",
+        "Global expansion and market entry",
+        "Operational due diligence for M&A",
+        "Post-merger integration and execution"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Supply Chain & Ecosystem Leadership",
+      "points": [
+        "End-to-end supply chain strategy",
+        "Network, capacity, and sourcing decisions",
+        "Supplier and partner ecosystem management",
+        "Building agile and resilient operations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Risk Leadership & Enterprise Resilience",
+      "points": [
+        "Enterprise and operational risk",
+        "Business continuity and crisis management",
+        "Scenario planning and disruption response",
+        "Building organizational resilience"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Leading High-Performance Organizations",
+      "points": [
+        "Building high-performance leadership teams",
+        "Creating accountability and execution culture",
+        "Strengthening cross-functional collaboration",
+        "Leading change and organizational transformation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Digital Transformation & Technology-Enabled Operations",
+      "points": [
+        "Digital operating models and platforms",
+        "Enterprise automation and workflows",
+        "Technology-led process transformation",
+        "Scaling digital capabilities"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Data, Analytics & Decision Intelligence",
+      "points": [
+        "Data strategy for operational leadership",
+        "Predictive and prescriptive analytics",
+        "Real-time dashboards and control towers",
+        "Data-driven enterprise decision-making"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI, GenAI & Agentic Operations",
+      "points": [
+        "AI use cases across operations",
+        "GenAI for productivity and decisions",
+        "AI agents and intelligent workflows",
+        "Scaling AI responsibly across operations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "points": [
+        "Participants will develop a comprehensive COO transformation blueprint for a real or simulated organization. The project will diagnose critical operational challenges redesign operating priorities improve financial and enterprise performance strengthen execution systems and identify opportunities across scale resilience digital data and AI. Participants will build an implementation roadmap with clear initiatives governance mechanisms performance metrics and measurable business outcomes."
+      ],
+      "modules": []
+    },
+    {
+      "title": "CXO Coaching",
+      "points": [
+        "Elevate your Chief Operating Officer (COO) Program experience with exclusive CXO coaching. Gain in valuable insights into enterprise leadership, strategic execution, operational excellence, and business transformation. Prepare to lead organisation-wide operations and drive sustainable business performance through personalised guidance, practical perspectives, and mentorship from experienced CXO leaders."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 290000,
+    "points": [
+      "144+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 26019,
+        "months": 12
+      },
+      {
+        "emi": 17976,
+        "months": 18
+      },
+      {
+        "emi": 13924,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Operating-Officer-The-COO-Program.pdf",
+    "source": "IIM-RANCHI Chief Operating Officer Program Brochure",
+    "campaign_name": "IIM-RANCHI-COO"
+  },
+  "faculty": [],
+  "tools": []
+}

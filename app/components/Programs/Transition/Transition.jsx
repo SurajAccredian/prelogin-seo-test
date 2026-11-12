@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState, useMemo } from 'react';
+import Image from 'next/image';
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -113,7 +114,17 @@ const Transition = ({ data: propData }) => {
                   <div className='w-full flex items-center gap-4 justify-between relative'>
                     <div className='w-full md:flex-[0.7] flex items-center gap-4'>
                       <div className='w-28 h-28 flex-shrink-0 rounded-full overflow-hidden border'>
-                        <img className='w-full h-full object-cover object-top' src={transition.image} alt={transition.name} />
+                        {transition?.image && (
+                          <Image
+                            className='w-full h-full object-cover object-top'
+                            src={transition.image}
+                            alt={transition?.name || "Transition"}
+                            width={112}
+                            height={112}
+                            quality={75}
+                            sizes="112px"
+                          />
+                        )}
                       </div>
                       <div>
                         <h3 className='text-lg font-semibold'>{transition.name}</h3>
@@ -144,7 +155,17 @@ const Transition = ({ data: propData }) => {
                         <p className='text-base mt-2 text-neutral-700 font-medium'>{transition?.from?.role}</p>
                       </div>
                       <div className='w-full max-w-28 min-h-12 mt-2 flex flex-col justify-center items-center'>
-                        <img className='w-full' src={transition?.from?.logo} alt={transition?.from?.name} />
+                        {transition?.from?.logo && (
+                          <Image
+                            className='w-full h-auto object-contain'
+                            src={transition.from.logo}
+                            alt={transition?.from?.name || "Company"}
+                            width={112}
+                            height={48}
+                            quality={75}
+                            sizes="112px"
+                          />
+                        )}
                       </div>
                     </div>
                     <div className='w-5 h-5 flex-shrink-0'>
@@ -156,7 +177,17 @@ const Transition = ({ data: propData }) => {
                         <p className='text-base mt-2 text-neutral-700 font-medium'>{transition?.to?.role}</p>
                       </div>
                       <div className='w-full max-w-28 min-h-12 mt-2 flex flex-col justify-center items-center'>
-                        <img className='w-full' src={transition?.to?.logo} alt={transition?.to?.name} />
+                        {transition?.to?.logo && (
+                          <Image
+                            className='w-full h-auto object-contain'
+                            src={transition.to.logo}
+                            alt={transition?.to?.name || "Company"}
+                            width={112}
+                            height={48}
+                            quality={75}
+                            sizes="112px"
+                          />
+                        )}
                       </div>
                     </div>
                   </div>

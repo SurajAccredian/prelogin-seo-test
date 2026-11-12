@@ -1,6 +1,37 @@
 [
   {
     "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+    "university_name": "Indian Institute of Management Raipur",
+    "program_name": "Global Senior Leadership Program",
+    "duration": "12 months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+    "batch_type": "Online",
+    "id": "iim-raipur-global-senior-leadership-program",
+    "category": "senior management",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTRAIPUR-Global-Senior-Leadership-Program.pdf",
+      "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR Global Senior Leadership Program Brochure",
+      "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR-Global Senior Leadership"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "28 Feb 2027",
+    "contact": "8851827053",
+    "program_fee": 329000,
+    "pid": 183,
+    "required_years_experience": 8
+  },
+  {
+    "status": "New Launch",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
     "university_name": "E&ICT Academy IIT Kanpur",
     "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
@@ -38,7 +69,7 @@
   },
   {
     "status": "New Launch",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-LOGO-v3.webp",
     "university_name": "IIM Lucknow",
     "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
     "duration": "11 Months",
@@ -90,7 +121,7 @@
       "Data-Informed Strategy",
       "Organizational Agility"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-sirmaur-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Leadership-With-AI.pdf",
       "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Leadership with AI Brochure",
@@ -534,7 +565,7 @@
       "Tech Product Monetization",
       "Enterprise AI Adoption"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-advanced-certificate-in-ai-for-leaders-Brochure.pdf",
       "source": "IIT Jammu Advanced Certificate in AI for Leaders Brochure",
@@ -571,7 +602,7 @@
       "Business Workflow Automation",
       "AI Safety & Risk"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-advanced-certificate-in-generative-ai-for-leaders-Brochure.pdf",
       "source": "IIT Jammu Advanced Certificate in Generative AI for Leaders Brochure",
@@ -608,7 +639,7 @@
       "Strategic AI ROI",
       "Business Model Innovation"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders-Brochure.pdf",
       "source": "IIT Jammu Executive Program in Generative AI & Agentic AI for Leaders Brochure",
@@ -645,7 +676,7 @@
       "Agile Operations",
       "Tech Risk Assessment"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-executive-program-in-leadership-with-ai-Brochure.pdf",
       "source": "IIT Jammu Executive Program in Leadership with AI Brochure",
@@ -999,7 +1030,7 @@
   },
   {
     "status": "New Launch",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-LOGO-v3.webp",
     "university_name": "IIM Lucknow",
     "program_name": "Executive Program in Strategic Project Management & Leadership",
     "duration": "10 Months",
@@ -1385,7 +1416,7 @@
     ],
     "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
     "brochure": {
-      "pdf": "",
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Financial-Officer-The-CFO-Program.pdf",
       "source": "IIM-RANCHI Chief Financial Officer Program Brochure",
       "campaign_name": "IIM-RANCHI-Chief Financial Officer"
     },
@@ -1402,6 +1433,37 @@
     "program_fee": 290000,
     "required_years_experience": 8,
     "pid": 184
+  },
+  {
+    "status": "New Launch",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "university_name": "IIM Ranchi",
+    "program_name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "duration": "12 Months",
+    "brochureHeader": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "batch_type": "Online",
+    "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "category": "cxo leadership",
+    "tags": [],
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/frontend-card-images/img-20.webp",
+    "brochure": {
+      "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Operating-Officer-The-COO-Program.pdf",
+      "source": "IIM-RANCHI Chief Operating Officer Program Brochure",
+      "campaign_name": "IIM-RANCHI-COO"
+    },
+    "enrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "notEnrolled": {
+      "referrerBonus": "₹3,000",
+      "refreeBonus": "₹3,000"
+    },
+    "start_date": "7 Mar 2027",
+    "contact": "8851827093",
+    "program_fee": 290000,
+    "required_years_experience": 8,
+    "pid": 185
   },
   {
     "status": "New Launch",
@@ -1457,7 +1519,7 @@
       "Change Leadership",
       "Digital Disruption Management"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/WhatsApp_Image_2024-07-04_at_20.15.09_11cd86ea.webp",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-sirmaur-university-image.webp",
     "brochure": {
       "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTSIRMAUR-Executive-Program-In-Strategy-Leadership-Innovation-In-AI-Era.pdf",
       "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-SIRMAUR Executive Program in Strategy Leadership & Innovation in AI Era Brochure",
@@ -1508,7 +1570,7 @@
       "referrerBonus": "Upto ₹3,000",
       "refreeBonus": "Upto ₹3,000"
     },
-    "start_date": "26 Dec 2026",
+    "start_date": "20 Dec 2026",
     "contact": "9289224842",
     "program_fee": 240000,
     "pid": 104,
@@ -1553,7 +1615,7 @@
   },
   {
     "status": "admission closed",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-LOGO-v3.webp",
     "university_name": "IIM Lucknow",
     "program_name": "Executive General Management Program",
     "duration": "11 Months",
@@ -2271,7 +2333,7 @@
       "Office Productivity Optimization",
       "Enterprise AI Tools"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.webp",
     "required_years_experience": 0
   },
   {
@@ -2291,7 +2353,7 @@
       "Office Productivity Optimization",
       "Enterprise AI Tools"
     ],
-    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.jpg",
+    "cover_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.webp",
     "required_years_experience": 0
   },
   {

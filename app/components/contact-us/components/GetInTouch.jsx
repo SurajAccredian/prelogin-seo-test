@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { X, ArrowRight } from 'lucide-react';
 import { categoriesWithContacts } from "../../Assets/constants"
 
@@ -151,11 +152,15 @@ const GetInTouch = () => {
                     </div>
 
                     {/* Right Side - Image flush to right/top/bottom edge */}
-                    <div className="hidden md:flex flex-1 min-w-0 overflow-hidden items-center justify-center">
-                        <img
+                    <div className="hidden md:flex flex-1 min-w-0 overflow-hidden items-center justify-center relative min-h-[400px]">
+                        <Image
                             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/contact-us-updated-image-v6.png"
                             alt="Support team"
-                            className="w-full h-full object-contain object-center"
+                            width={600}
+                            height={500}
+                            sizes="(max-width: 1024px) 50vw, 600px"
+                            quality={75}
+                            className="w-full h-auto max-h-[550px] object-contain object-center"
                         />
                     </div>
 

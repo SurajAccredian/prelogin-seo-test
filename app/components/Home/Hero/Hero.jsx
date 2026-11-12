@@ -64,7 +64,7 @@ const Hero = () => {
       backgroundImage:
         "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-4-compressed-v3.jpg",
       mobileBackgroundImage:
-        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-4-compressed-v3-mobile-v2.png",
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/hero-section-image-4-compressed-v3-mobile-v2.webp",
     },
   ];
 

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Box, Modal } from "@mui/material";
 import CryptoJS from "crypto-js";
 
@@ -983,9 +984,12 @@ function LoginModal({ open }) {
                   },
                 }}
               >
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/loginModalImage.svg"
                   alt="Login illustration"
+                  width={400}
+                  height={400}
+                  quality={75}
                   style={{ width: "100%", height: "auto", borderRadius: "8px" }}
                 />
               </Box>
@@ -1009,9 +1013,12 @@ function LoginModal({ open }) {
                     mb: 2,
                   }}
                 >
-                  <img
+                  <Image
                     src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                     alt="Company Logo"
+                    width={150}
+                    height={45}
+                    quality={75}
                     style={{ width: "150px", height: "auto" }}
                   />
                 </Box>

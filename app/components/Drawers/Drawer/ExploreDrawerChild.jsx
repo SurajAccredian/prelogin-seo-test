@@ -1,5 +1,6 @@
 import { Drawer, DrawerBody, DrawerContent, DrawerOverlay } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
+import Image from 'next/image'
 import { IoChevronBackOutline, IoClose } from 'react-icons/io5'
 import { groupProgramsByCategory, sortVerticalProgramsByStatus } from '../../../helpers/common.helpers'
 import programs from "../../../Assets/constants/programs.json"
@@ -50,11 +51,16 @@ const ExploreDrawerChild = ({ innerIsOpen, innerOnClose, streamWithTab, handleCl
                           {/* TOP SECTION */}
                           <div>
                             <div className="flex items-start gap-3 mb-3">
-                              <img
-                                src={val.university_image}
-                                alt={val.university_name}
-                                className="w-12 h-12 object-contain flex-shrink-0"
-                              />
+                              {val.university_image && (
+                                <Image
+                                  src={val.university_image}
+                                  alt={val.university_name || "University logo"}
+                                  width={48}
+                                  height={48}
+                                  quality={75}
+                                  className="w-12 h-12 object-contain flex-shrink-0"
+                                />
+                              )}
 
                               <div>
                                 <p className="text-sm font-medium text-[#9aa0b5]">

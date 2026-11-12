@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 374px){
   .refer-hero-card {
-    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/money-background.svg");
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/money-background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 480px) {
   .refer-hero-card {
-    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/money-background.svg");
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/money-background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .refer-hero-card {
-    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/money-background.svg");
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/money-background.webp");
     height: max-content;
     width:280px;
   }

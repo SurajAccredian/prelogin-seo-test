@@ -1,5 +1,19 @@
 [
   {
+    "university_name": "Indian Institute of Management Raipur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+    "program_name": "Global Senior Leadership Program",
+    "category": "senior management",
+    "start_date": "28 Feb 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-raipur-global-senior-leadership-program",
+    "id": "iim-raipur-global-senior-leadership-program",
+    "pid": 183,
+    "duration": "12 months",
+    "program_fee": 329000,
+    "required_years_experience": 8
+  },
+  {
     "university_name": "E&ICT Academy IIT Kanpur",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/image.webp",
     "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
@@ -15,7 +29,7 @@
   },
   {
     "university_name": "IIM Lucknow",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-LOGO-v3.webp",
     "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
     "category": "cxo leadership",
     "start_date": "28 Jun 2026",
@@ -378,7 +392,7 @@
   },
   {
     "university_name": "IIM Lucknow",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-LOGO-v3.webp",
     "program_name": "Executive Program in Strategic Project Management & Leadership",
     "category": "project management",
     "start_date": "30 May 2026",
@@ -530,6 +544,20 @@
     "required_years_experience": 8
   },
   {
+    "university_name": "IIM Ranchi",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+    "program_name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "category": "cxo leadership",
+    "start_date": "7 Mar 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "pid": 185,
+    "duration": "12 Months",
+    "program_fee": 290000,
+    "required_years_experience": 8
+  },
+  {
     "university_name": "IIM Visakhapatnam",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
@@ -562,7 +590,7 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-logo.jpg",
     "program_name": "Executive Development Program in Strategic HR Leadership",
     "category": "Human Resource",
-    "start_date": "26 Dec 2026",
+    "start_date": "20 Dec 2026",
     "status": "New Launch",
     "url": "https://accredian.com/programs/executive-development-program-strategic-hr-leadership",
     "id": "executive-development-program-strategic-hr-leadership",
@@ -587,7 +615,7 @@
   },
   {
     "university_name": "IIM Lucknow",
-    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v3.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-LOGO-v3.webp",
     "program_name": "Executive General Management Program",
     "category": "general management",
     "start_date": "30 Nov 2025",

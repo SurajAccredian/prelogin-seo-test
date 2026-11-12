@@ -49,7 +49,7 @@
 @media screen and (max-width: 374px) {
   .mentor-hero-card {
     height: 180px;
-    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorMobile.svg");
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorMobile.webp");
     margin-top: 20px;
     width: 100%;
   }
@@ -65,7 +65,7 @@
 
 @media screen and (min-width: 374px) and (max-width: 480px) {
   .mentor-hero-card {
-    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorMobile.svg");
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorMobile.webp");
     height: 180px;
     background-size: 350px 350px;
     margin-top: 20px;
@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .mentor-hero-card {
-    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorMobile.svg");
+    background-image: url("https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/mentorMobile.webp");
     height: max-content;
     background-size: cover;
     background-size: 500px 500px;

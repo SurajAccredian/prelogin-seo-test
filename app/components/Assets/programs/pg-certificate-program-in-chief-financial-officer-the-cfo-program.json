@@ -93,11 +93,7 @@
     "mentoring-session",
     "alumni-status"
   ],
-  "extra_points": [
-    "Technical Support",
-    "Placement Assistance",
-    "Learning Hub"
-  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [
     "Fill the application form",
     "Application Review",
@@ -285,7 +281,7 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Financial-Officer-The-CFO-Program.pdf",
     "source": "IIM-RANCHI Chief Financial Officer Program Brochure",
     "campaign_name": "IIM-RANCHI-Chief Financial Officer"
   },

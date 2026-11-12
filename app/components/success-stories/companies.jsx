@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Companies = () => {
   return (
     <div
@@ -13,10 +15,14 @@ const Companies = () => {
           </h2>
         </div>
         <div className="w-full flex justify-center mt-12">
-          <img
-            className="w-full max-w-4xl"
+          <Image
+            className="w-full max-w-4xl h-auto object-contain"
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/companies-logo-success-stories.svg"
             alt="companies"
+            width={896}
+            height={300}
+            quality={75}
+            sizes="(max-width: 768px) 100vw, 896px"
           />
         </div>
       </div>

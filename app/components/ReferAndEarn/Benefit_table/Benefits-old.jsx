@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import BenefitTable from "../Stream_section/BenefitTable";
 import { Switch } from "@mui/material";
 import { styled } from "@mui/material/styles";
@@ -198,13 +199,16 @@ const Benefits = () => {
                     {vertical_name}
                   </p>
                   <div className="w-2.5">
-                    <img
+                    <Image
                       src={
                         selectedVertical === vertical_name
                           ? "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/right-arrow-2.webp"
                           : "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/arrow-white-2.webp"
                       }
                       alt="Open"
+                      width={10}
+                      height={10}
+                      className="w-2.5 h-auto"
                     />
                   </div>
                 </div>

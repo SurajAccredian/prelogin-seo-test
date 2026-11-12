@@ -1612,8 +1612,8 @@
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Development Program in Strategic HR Leadership",
       "Duration of the Program": "10 Months",
-      "Program Terms/Modules": "10 Modules",
-      "Live Session Hours": "120+ hours",
+      "Program Terms/Modules": "9 Modules",
+      "Live Session Hours": "126+ hours",
       "Capstone Project": "1 Capstone Project",
       "Campus Immersion": "One Campus Immersion of 2 days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
@@ -3167,8 +3167,7 @@
     "Minimum Attendance Required": "Minimum Attendance - 70%",
     "Certificates": "Completion Certificate from IIM Ranchi",
     "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
-    "Career Assistance Sessions": "6 Sessions by Accredian",
-    "Tools/Framework Covered in the Program": "N.A."
+    "Career Assistance Sessions": "6 Sessions by Accredian"
   }
 },
 
@@ -3187,11 +3186,36 @@
     "Program Faculty": "IIM Raipur Faculty and Industry Experts",
     "Alumni Status": "Executive Alumni Status from IIM Raipur awarded upon program completion",
     "Alumni Status Fee": "Included in the Program fees",
-    "Benefits of Alumni Status": [
-      "TBD"
-    ],
     "Minimum Attendance Required": "Minimum Attendance - 75%",
     "Certificates": "Completion Certificate from IIM Raipur"
+  }
+},
+{
+  "title": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+  "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program-12-months",
+  "data": {
+    "Institute Name": "IIM Ranchi",
+    "Program Name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "Duration of the Program": "12 Months",
+    "Program Terms/Modules": "14 Modules",
+    "Live Session Hours": "144+ hours",
+    "Capstone Project": "1 Capstone Project",
+    "Campus Immersion": "3 Day Campus Immersion",
+    "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms); Travel Expenses Not Included",
+    "Program Faculty": "IIM Ranchi Faculty",
+    "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+    "Alumni Status Fee": "Included in Program Fees",
+    "Benefits of Alumni Status": [
+      "Access to IIM Ranchi’s library in physical mode only.",
+      "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+      "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+      "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+      "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+    ],
+    "Minimum Attendance Required": "Minimum Attendance - 70%",
+    "Certificates": "Completion Certificate from IIM Ranchi",
+    "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+    "Career Assistance Sessions": "6 Sessions by Accredian"
   }
 }
 ]

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import { Box, Modal } from '@mui/material';
 import { IoIosClose } from 'react-icons/io';
 import { useState, useEffect } from 'react';
@@ -417,9 +418,14 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
           >
             <div className="absolute inset-0 flex flex-col justify-between">
               <div className="px-6 pt-8 text-slate-800">
-                <img src='https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp'
+                <Image
+                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Company Logo"
-                  className="w-28" />
+                  width={112}
+                  height={34}
+                  quality={75}
+                  className="w-28 h-auto"
+                />
                 <h2 className="mt-2 text-xl font-semibold leading-snug text-slate-900">
                   Designed for Professionals. Built for Impact.
                 </h2>
@@ -428,9 +434,12 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
                 </p>
               </div>
               <div className="flex-1 flex items-center justify-center px-4 pb-4">
-                <img
-                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/signUpModalImage.svg"
+                <Image
+                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/signUpModalImage.webp"
                   alt="Create Account"
+                  width={260}
+                  height={260}
+                  quality={75}
                   className="w-full max-w-[260px] h-auto drop-shadow-[0_14px_30px_rgba(15,23,42,0.18)]"
                 />
               </div>
@@ -450,9 +459,12 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
             <div className="w-full h-full flex flex-col px-5 py-6 sm:px-7 sm:py-7">
               {/* Logo (mobile only) */}
               <div className="mb-3 flex justify-between items-center sm:hidden">
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Company Logo"
+                  width={90}
+                  height={24}
+                  quality={75}
                   className="h-6 w-auto"
                 />
               </div>

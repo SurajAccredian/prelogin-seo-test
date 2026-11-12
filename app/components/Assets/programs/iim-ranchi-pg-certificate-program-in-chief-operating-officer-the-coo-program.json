@@ -254,6 +254,7 @@
     {
       "title": "Capstone Project",
       "special": "1",
+      "id": "capstone-project",
       "points": [
         "Participants will develop a comprehensive COO transformation blueprint for a real or simulated organization. The project will diagnose critical operational challenges redesign operating priorities improve financial and enterprise performance strengthen execution systems and identify opportunities across scale resilience digital data and AI. Participants will build an implementation roadmap with clear initiatives governance mechanisms performance metrics and measurable business outcomes."
       ],
@@ -262,6 +263,7 @@
     {
       "title": "CXO Coaching",
       "special": "2",
+      "id": "cxo-coaching",
       "points": [
         "Elevate your Chief Operating Officer (COO) Program experience with exclusive CXO coaching. Gain in valuable insights into enterprise leadership, strategic execution, operational excellence, and business transformation. Prepare to lead organisation-wide operations and drive sustainable business performance through personalised guidance, practical perspectives, and mentorship from experienced CXO leaders."
       ],

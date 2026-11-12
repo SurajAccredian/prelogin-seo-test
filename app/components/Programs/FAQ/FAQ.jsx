@@ -22,7 +22,7 @@ const FAQ = ({ data: propData }) => {
     data?.short_university_name === 'iim-sirmaur' ||
     data?.short_university_name === 'iimbg' ||
     data?.short_university_name === 'iitm-pravartak' ||
-    data?.short_university_name === 'indian-institute-of-management-raipur'||
+    data?.short_university_name === 'iim-raipur' ||
     data?.id == 'executive-program-in-strategic-hr-leadership' ||
     data?.id == 'executive-program-in-strategic-project-management-and-leadership' ||
     data?.id == 'executive-program-in-generative-ai-for-leaders' ||

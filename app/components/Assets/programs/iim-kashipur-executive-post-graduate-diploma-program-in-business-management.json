@@ -1,7 +1,7 @@
 {
   "id": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
-  "pid": 184,
-  "category": 74,
+  "pid": 186,
+  "category": 75,
   "vertical": "PG Diploma ",
   "title": "Executive Post Graduate Diploma Program in Business Management",
   "description": "Master Functional and Strategic Management through IIM Kashipur’s 14-month Executive Program, and develop the managerial expertise to lead business transformation while attaining IIM Kashipur Executive Alumni Status.",
@@ -95,7 +95,11 @@
     "campus-immersion-opt",
     "case-based-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "Application Review",

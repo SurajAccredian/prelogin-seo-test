@@ -4,7 +4,7 @@ import { JsonLd } from "./components/JsonLd";
 import { homepageGraph, BRAND_FAQS, onlyOpen } from "./lib/schema";
 
 export const metadata = {
-  title: "Accredian | India's Leading Upskilling Platform",
+  title: "Accredian | India’s Leading Upskilling & Learning Platform",
   description:
     "Learn from top IIMs, IITs and XLRI through industry-relevant programs in AI, leadership, strategy and more. Build skills that move your career forward.",
   alternates: {
@@ -23,7 +23,7 @@ export default function Page() {
   ).slice(0, 10);
 
   const schemaGraph = homepageGraph({
-    pageTitle: "Accredian | India's Leading Upskilling Platform",
+    pageTitle: "Accredian | India’s Leading Upskilling & Learning Platform",
     featured: openPrograms,
     faqs: BRAND_FAQS,
   });

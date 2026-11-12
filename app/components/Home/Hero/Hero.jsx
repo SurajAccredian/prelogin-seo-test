@@ -7,8 +7,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { MoveRight, PhoneCall } from "lucide-react";
-import RctaABTesting from "../../cta/request_a_call_back";
+import dynamic from "next/dynamic";
 import { BLUR_DATA_URL } from "../../Assets/constants";
+
+const RctaABTesting = dynamic(() => import("../../cta/request_a_call_back"), { ssr: false });
 
 const Hero = () => {
   const [cta, setCta] = useState(false);
@@ -171,7 +173,7 @@ const Hero = () => {
                         {index === 0 ? (
                           <p className="hero-title-mobile text-center font-bold leading-tight text-gray-900">
                             Level up your career with{" "}
-                            <span className="text-blue-600">india's</span>{" "}
+                            <span className="text-blue-600">india&apos;s</span>{" "}
                             <span className="text-blue-600">
                               Top Institutes
                             </span>
@@ -299,7 +301,7 @@ const Hero = () => {
                           {index === 0 ? (
                             <h1 className="hero-title text-center capitalize mb-0 md:text-start font-bold leading-tight text-gray-900">
                               Level up your career with{" "}
-                              <span className="text-blue-600">india's</span>{" "}
+                              <span className="text-blue-600">india&apos;s</span>{" "}
                               <br />
                               <span className="text-blue-600">
                                 Top Institutes

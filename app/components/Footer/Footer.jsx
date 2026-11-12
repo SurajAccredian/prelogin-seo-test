@@ -1,21 +1,20 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Grid, Typography, Button, Box, Container } from "@mui/material";
+import { Grid, Typography, Button, Box, Container, Tooltip } from "../ui/LayoutPrimitives";
 import Link from "next/link";
-import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-import CallIcon from "@mui/icons-material/Call";
-import Tooltip from "@mui/material/Tooltip";
 import SubFooter from "./SubFooter";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import { MessageSquare as ChatBubbleOutlineIcon, Phone as CallIcon } from "lucide-react";
+import {
+  FaFacebookF as FacebookIcon,
+  FaLinkedinIn as LinkedInIcon,
+  FaTwitter as TwitterIcon,
+  FaInstagram as InstagramIcon,
+  FaYoutube as YouTubeIcon,
+} from "react-icons/fa";
 import "./Footer.css";
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Rcta from "../cta/request_a_call_back";
 import { groupProgramsByCategory } from "../../helpers/common.helpers";
 import programs from "../Assets/programs.json";
@@ -33,7 +32,7 @@ const Footer = () => {
   const isStickyBottomActive = pathname && (pathname.includes("/free-courses/") || pathname.includes("/programs/"));
   const [isOpen, setIsOpen] = useState(false);
   const [isChatBotOpen, setIsChatBotOpen] = useState(false);
-  const [categorizedPrograms, setCategorizedPrograms] = useState([]);
+  const categorizedPrograms = React.useMemo(() => groupProgramsByCategory(programs) || [], []);
   const [cta, setCta] = useState(false);
 
   const handleClickOpenRcb = () => {
@@ -46,11 +45,6 @@ const Footer = () => {
   const handleFreshchatButtonClick = () => {
     window.fcWidget?.open();
   };
-
-  useEffect(() => {
-    const fetchPrograms = groupProgramsByCategory(programs);
-    setCategorizedPrograms(fetchPrograms || []);
-  }, []);
 
   return (
     <>

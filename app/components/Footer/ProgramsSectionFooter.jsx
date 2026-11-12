@@ -1,13 +1,8 @@
 "use client";
 
-import React from "react";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import AddIcon from "@mui/icons-material/Add";
-import { Typography } from "@mui/material";
+import React, { useState } from "react";
 import Link from "next/link";
-import { PhoneForwarded } from "lucide-react";
+import { PhoneForwarded, Plus, Minus } from "lucide-react";
 
 const MobileProgramFooter = ({
   categorizedPrograms,
@@ -15,59 +10,60 @@ const MobileProgramFooter = ({
   index,
   matchingContact,
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <>
-      <Accordion
-        sx={{ backgroundColor: "#1d1d1d", color: "white", boxShadow: "none" }}
+    <div className="bg-[#1d1d1d] text-white border-b border-neutral-800 font-circular">
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full py-3 px-4 flex items-center justify-between text-left transition"
+        aria-expanded={isOpen}
       >
-        <AccordionSummary
-          expandIcon={<AddIcon sx={{ color: "white" }} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography sx={{ textTransform: "capitalize", fontWeight: 600 }}>
+        <div className="flex items-center flex-wrap gap-1">
+          <span className="capitalize font-semibold text-sm sm:text-base">
             {category.toLowerCase() === "cxo leadership"
               ? "CXO Leadership"
               : category.toLowerCase() === "pg diploma"
                 ? "PG Diploma"
                 : category.replace(/(\bai\b)/gi, "AI")}
-          </Typography>
-          {/* Contact number */}
-          <Typography
-            sx={{
-              ml: 1,
-              fontSize: 12,
-              display: "flex",
-              alignItems: "center",
-              gap: 0.5,
-            }}
-          >
+          </span>
+          <span className="ml-1 text-xs text-gray-300 flex items-center gap-1">
             ( <PhoneForwarded size={12} />
             {matchingContact?.contact} )
-          </Typography>
-        </AccordionSummary>
+          </span>
+        </div>
+        <span className="text-white ml-2 flex-shrink-0">
+          {isOpen ? <Minus size={18} /> : <Plus size={18} />}
+        </span>
+      </button>
 
-        <AccordionDetails>
-          {categorizedPrograms && categorizedPrograms[category] &&
+      {isOpen && (
+        <div className="px-4 pb-4 pt-1 space-y-1.5">
+          {categorizedPrograms &&
+            categorizedPrograms[category] &&
             categorizedPrograms[category].map((program, innerIndex) => (
               <Link
                 key={innerIndex}
-                href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                href={
+                  program.category?.toLowerCase() === "free courses" ||
+                  program.category?.toLowerCase() === "microsoft" ||
+                  program.id ===
+                    "transform-business-workflows-with-generative-ai" ||
+                  program.id ===
+                    "transform-ideas-into-impact-with-product-management"
+                    ? `/free-courses/${program.id}`
+                    : `/programs/${program.id}`
+                }
                 prefetch={false}
-                style={{
-                  display: "block",
-                  color: "rgba(255,255,255,0.8)",
-                  fontSize: 13,
-                  textDecoration: "none",
-                  marginBottom: 6,
-                }}
+                className="block text-white/80 hover:text-white text-xs sm:text-[13px] py-1 transition-colors"
               >
                 {program.university_name} - {program.program_name}
               </Link>
             ))}
-        </AccordionDetails>
-      </Accordion>
-    </>
+        </div>
+      )}
+    </div>
   );
 };
 

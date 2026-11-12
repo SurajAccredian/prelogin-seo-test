@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState, useRef } from "react";
+import dynamic from "next/dynamic";
 import { Calendar, Clock, ArrowRight, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,8 +11,8 @@ import { IoIosArrowDown } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import PROGRAMS from "../../Assets/programs.json";
-import Brochure from "../../CTA_Modal/download_brochure";
 import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
+const Brochure = dynamic(() => import("../../CTA_Modal/download_brochure"), { ssr: false });
 // import { useScrollBoundary } from "../../../helpers/useScrollBoundary";
 // import { useConditionalScrollPrevention } from "../../../helpers/useConditionalScrollPrevention";
 import { TrendingUp } from "lucide-react"; // Icon for Popular Courses

@@ -87,6 +87,7 @@ const PGDMHybridCurriculum = ({
       const id = semObj.id || `S${sIdx + 1}`;
       const name = semObj.name || semObj.title || fallbackName;
       const totalCredits = semObj.totalCredits || semObj.total || 0;
+      const totalHours = semObj.totalHours || semObj.total_hours || semObj.totalHrs || 0;
       const blocks = getSemBlocks(semObj);
       const masterClass = semObj.masterClass || null;
 
@@ -94,6 +95,7 @@ const PGDMHybridCurriculum = ({
         id,
         name,
         totalCredits,
+        totalHours,
         blocks,
         masterClass,
         raw: semObj,
@@ -106,7 +108,7 @@ const PGDMHybridCurriculum = ({
           ? y.semesters
           : Object.entries(y.semesters || {}).map(([sKey, sVal]) => ({
             ...sVal,
-            name: sKey,
+            name: sVal.title || sVal.name || sKey,
           }));
 
         return {
@@ -127,7 +129,7 @@ const PGDMHybridCurriculum = ({
         ? yVal.semesters
         : Object.entries(yVal.semesters || {}).map(([sKey, sVal]) => ({
           ...sVal,
-          name: sKey,
+          name: sVal.title || sVal.name || sKey,
         }));
 
       return {
@@ -288,8 +290,9 @@ const PGDMHybridCurriculum = ({
               {y.semesters.map((sem, semIdx) => {
                 const isSemOpen = !!openSemesters[sem.id];
                 const semesterNumber =
+                  sem.raw?.number ||
+                  sem.id.replace(/\D/g, "") ||
                   sem.name?.match(/\d+/)?.[0] ||
-                  sem.id.slice(-1) ||
                   semIdx + 1;
 
                 return (
@@ -381,12 +384,38 @@ const PGDMHybridCurriculum = ({
                                         <span className="w-7 h-7 rounded-lg bg-slate-100 text-slate-500 text-xs font-bold flex items-center justify-center shrink-0">
                                           {String(cIdx + 1).padStart(2, "0")}
                                         </span>
-                                        <span className="text-sm sm:text-[15px] font-medium text-gray-800 flex-1 min-w-0">
-                                          {course.name}
-                                        </span>
-                                        <span className="text-xs font-bold text-universal bg-[#EEF5FF] border border-blue-100 px-2.5 py-0.5 rounded-full shrink-0">
-                                          {course.credits} credits
-                                        </span>
+                                        <div className="flex-1 min-w-0">
+                                          <span className="text-sm sm:text-[15px] font-medium text-gray-800 block">
+                                            {course.name}
+                                          </span>
+                                          {(course.live_hours !== undefined ||
+                                            course.masterclass_hours !== undefined ||
+                                            course.async_hours !== undefined) && (
+                                            <span className="text-xs text-gray-500 block mt-0.5">
+                                              {[
+                                                course.live_hours ? `${course.live_hours} Live hrs` : null,
+                                                course.masterclass_hours
+                                                  ? `${course.masterclass_hours} Masterclass hr${
+                                                      course.masterclass_hours > 1 ? "s" : ""
+                                                    }`
+                                                  : null,
+                                                course.async_hours ? `${course.async_hours} Async hrs` : null,
+                                              ]
+                                                .filter(Boolean)
+                                                .join(" · ")}
+                                            </span>
+                                          )}
+                                        </div>
+                                        <div className="flex items-center gap-2 shrink-0">
+                                          {course.total_hours && (
+                                            <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-600 hidden sm:inline-block">
+                                              {course.total_hours} hrs
+                                            </span>
+                                          )}
+                                          <span className="text-xs font-bold text-universal bg-[#EEF5FF] border border-blue-100 px-2.5 py-0.5 rounded-full shrink-0">
+                                            {course.credits} credits
+                                          </span>
+                                        </div>
                                       </li>
                                     ))}
                                   </ol>
@@ -409,12 +438,19 @@ const PGDMHybridCurriculum = ({
                           </div>
                         )}
 
-                        {/* Semester Total */}
-                        <div className="mt-3.5 flex items-center justify-end gap-1.5 text-sm text-gray-500">
-                          <span>Semester total</span>
-                          <b className="text-gray-900 font-bold text-base">
-                            {sem.totalCredits} credits
-                          </b>
+                        {/* Semester / Term Total */}
+                        <div className="mt-3.5 flex items-center justify-end gap-3 text-sm text-gray-500">
+                          {sem.totalHours ? (
+                            <span>
+                              Total Hours: <b className="text-gray-900 font-bold">{sem.totalHours} hrs</b>
+                            </span>
+                          ) : null}
+                          <span>
+                            {sem.name?.toLowerCase().includes("term") ? "Term" : "Semester"} total:{" "}
+                            <b className="text-gray-900 font-bold text-base">
+                              {sem.totalCredits} credits
+                            </b>
+                          </span>
                         </div>
                       </div>
                     )}
@@ -428,7 +464,7 @@ const PGDMHybridCurriculum = ({
 
       {/* Footnote */}
       <p className="mt-4 text-xs sm:text-sm text-gray-500 italic">
-        Credits are shown per course. Open electives and limited electives are
+        Credits and contact hours are shown per course. Open electives and limited electives (if applicable) are
         chosen as indicated in each section.
       </p>
     </div>

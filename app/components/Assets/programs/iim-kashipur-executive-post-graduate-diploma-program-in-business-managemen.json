@@ -95,7 +95,11 @@
     "campus-immersion-opt",
     "case-based-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "Application Review",

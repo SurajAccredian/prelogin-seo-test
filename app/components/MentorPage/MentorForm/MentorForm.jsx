@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import "./mentorForm.css";
 import { useState } from "react";
 import Select from "react-select";

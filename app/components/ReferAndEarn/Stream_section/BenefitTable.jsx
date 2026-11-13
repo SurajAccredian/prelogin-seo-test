@@ -1,114 +1,51 @@
+"use client";
+
 import React, { useState } from "react";
 import Image from "next/image";
-import { styled } from "@mui/material/styles";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
-import { tableCellClasses } from "@mui/material/TableCell";
-import { Button, Pagination } from "@mui/material";
 import "../refer.css";
 import benefitOnReferral from "../../Assets/programs.json";
 import { groupProgramsByCategory } from "../../../helpers/common.helpers";
 
-// Table cells CSS
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
-  [`&.${tableCellClasses.head}`]: {
-    backgroundColor: "#1A73E859",
-    color: "#1350A0",
-    fontWeight: "600",
-    borderRight: "1px solid gray",
-    borderBottom: 0,
-  },
-  [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
-    borderRight: "1px solid gray",
-    borderBottom: 0,
-  },
-  "&:last-child": {
-    borderRight: 0,
-  },
-}));
-
 const BenefitTable = ({ selectedVertical, enrolled, columnNames }) => {
-  //state for pagination
   const [currentPage, setCurrentPage] = useState(1);
-  //maximum rows allowed per table
   const rowsPerPage = 8;
 
-  //Custom style for paginaion tabs
-  const customStyle = {
-    '& .Mui-selected': {
-      backgroundColor: '#1A73E8!important',
-      color: 'white',
-      '&:hover': {
-        backgroundColor: '#1B66C9!important',
-      }
-    },
-  };
-
-  //Getting all the programs
+  // Getting all the programs
   const programs = groupProgramsByCategory(benefitOnReferral);
 
-  //Filtering the category of programs based on vertical
+  // Filtering the category of programs based on vertical
   const selectedCat = programs[selectedVertical] || [];
+  const totalPages = Math.ceil(selectedCat.length / rowsPerPage);
 
-  //Paginate rows if more than rows per table
+  // Paginate rows if more than rows per table
   const paginatedRows = selectedCat.slice(
     (currentPage - 1) * rowsPerPage,
     currentPage * rowsPerPage
   );
 
-  //Function to handle page change
-  const handlePageChange = (event, value) => {
-    setCurrentPage(value);
-  };
-
   return (
-    <div className="gap-3 w-full h-full h-max">
-      <div className="benefit-table rounded-xl mt-[-13px]">
-        <TableContainer
-          component={Paper}
-          sx={{ borderRadius: "0.375rem", boxShadow: '0px 4px 29.3px 0px #3c3c3c26' }}
-          className="my-4"
-        >
-          <Table
-            sx={{ minWidth: 700, paddingY: "10px" }}
-            aria-label="customized table"
-          >
-            <TableHead>
-              <TableRow>
+    <div className="gap-3 w-full h-full h-max font-circular">
+      <div className="benefit-table rounded-xl mt-[-13px] overflow-hidden shadow-[0px_4px_29.3px_0px_#3c3c3c26] my-4 bg-white">
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[700px] border-collapse text-left">
+            <thead>
+              <tr className="bg-[#1A73E859] text-[#1350A0]">
                 {columnNames.map((column, index) => (
-                  <StyledTableCell
+                  <th
                     key={index}
-                    sx={{ fontFamily: 'circular' }}
-                    align={column === "Programs" ? "left" : "center"}
+                    className={`p-3.5 font-semibold text-sm border-r border-gray-300 last:border-r-0 ${
+                      column === "Programs" ? "text-left" : "text-center"
+                    }`}
                   >
                     {column}
-                  </StyledTableCell>
+                  </th>
                 ))}
-              </TableRow>
-            </TableHead>
-            <TableBody>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-200">
               {paginatedRows.map((row, rowIndex) => (
-                <TableRow key={rowIndex}>
-                  <StyledTableCell
-                    sx={{
-                      maxWidth: "150px",
-                      overflow: "hidden",
-                      wordBreak: "break-word",
-                      "@media (max-width: 600px)": {
-                        maxWidth: "150px",
-                      },
-                      "@media (min-width: 601px)": {
-                        maxWidth: "300px",
-                      },
-                      fontFamily: 'circular',
-                    }}
-                  >
+                <tr key={rowIndex} className="hover:bg-gray-50/50 transition">
+                  <td className="p-3.5 text-sm text-gray-800 border-r border-gray-300 last:border-r-0 max-w-[150px] sm:max-w-[300px] break-words">
                     <span className="flex gap-4 items-start">
                       <Image
                         src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/program-hat.svg"
@@ -119,34 +56,57 @@ const BenefitTable = ({ selectedVertical, enrolled, columnNames }) => {
                       />
                       {row.program_name}
                     </span>
-                  </StyledTableCell>
-                  <StyledTableCell align="center" sx={{ fontFamily: 'circular' }}>
+                  </td>
+                  <td className="p-3.5 text-sm text-gray-800 text-center border-r border-gray-300 last:border-r-0">
                     {enrolled
                       ? row.enrolled.referrerBonus
                       : row.notEnrolled.referrerBonus}
-                  </StyledTableCell>
-                  <StyledTableCell align="center" sx={{ fontFamily: 'circular' }}>
+                  </td>
+                  <td className="p-3.5 text-sm text-gray-800 text-center border-r border-gray-300 last:border-r-0">
                     {enrolled
                       ? row.enrolled.refreeBonus
                       : row.notEnrolled.refreeBonus}
-                  </StyledTableCell>
-                </TableRow>
+                  </td>
+                </tr>
               ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
+            </tbody>
+          </table>
+        </div>
       </div>
-      {/* if rows are greater than row per table then show pagination tabs */}
+
+      {/* Pagination */}
       {selectedCat.length > rowsPerPage && (
-        <div className="pagination w-full flex justify-end">
-          <Pagination
-            shape="rounded"
-            count={Math.ceil(selectedCat.length / rowsPerPage)}
-            page={currentPage}
-            onChange={handlePageChange}
-            // color="primary"
-            sx={customStyle}
-          />
+        <div className="w-full flex justify-end items-center gap-1 mt-3">
+          <button
+            type="button"
+            onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+            disabled={currentPage === 1}
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-100"
+          >
+            &lt;
+          </button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+            <button
+              key={page}
+              type="button"
+              onClick={() => setCurrentPage(page)}
+              className={`w-8 h-8 text-sm rounded font-medium transition ${
+                currentPage === page
+                  ? "bg-[#1A73E8] text-white"
+                  : "hover:bg-gray-100 text-gray-700"
+              }`}
+            >
+              {page}
+            </button>
+          ))}
+          <button
+            type="button"
+            onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+            disabled={currentPage === totalPages}
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-100"
+          >
+            &gt;
+          </button>
         </div>
       )}
     </div>

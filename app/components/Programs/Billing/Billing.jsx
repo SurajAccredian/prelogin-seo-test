@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { IoIosArrowForward, IoMdCheckmarkCircleOutline } from "react-icons/io";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import "./Billing.css";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -146,7 +146,7 @@ const Billing = ({ data: propData }) => {
                         disabled={enrollLoderState}
                         className="w-full px-6 py-4 rounded-lg bg-universal text-white text-lg font-bold flex items-center justify-center gap-1"
                       >
-                        <CircularProgress size={18} sx={{ color: "#fff" }} />
+                        <Loader2 className="w-4 h-4 animate-spin text-white inline-block" />
                       </button>
                     ) : (
                       <CustomEnrollNowButton
@@ -255,7 +255,7 @@ const Billing = ({ data: propData }) => {
                         disabled={enrollLoderState}
                         className="w-full px-5 py-3.5 rounded-lg bg-blue-600 text-white text-base font-bold flex items-center justify-center gap-2 shadow-lg"
                       >
-                        <CircularProgress size={18} sx={{ color: "#fff" }} />
+                        <Loader2 className="w-4 h-4 animate-spin text-white inline-block" />
                       </button>
                     ) : (
                       <CustomEnrollNowButton

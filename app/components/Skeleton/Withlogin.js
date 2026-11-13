@@ -1,20 +1,13 @@
+import React from "react";
 
-import Skeleton from '@mui/material/Skeleton';
-import Stack from '@mui/material/Stack';
-import { Box } from '@mui/material';
 export default function SkeletonL() {
   return (
-    <Stack spacing={1}>
-      {/* For variant="text", adjust the height via font-size */}
-      {/* <Skeleton variant="text" sx={{ fontSize: '1rem' }} /> */}
-      {/* For other variants, adjust the size with `width` and `height` */}
-      {/* <Skeleton variant="circular" width={40} height={40} /> */}
-      <Skeleton style={{ marginBottom: "30px" }} variant="rectangular" width="auto" height={80} />
-      <Box sx={{ display: "flex" }}>
-        <Skeleton style={{ marginLeft: "30px" }} variant="rounded" width={300} height={500} />
-        <Skeleton style={{ marginLeft: "120px" }} variant="rectangular" width="60%" height={500} />
-      </Box>
-
-    </Stack>
+    <div className="flex flex-col space-y-4 w-full">
+      <div className="w-full h-20 bg-gray-200 animate-pulse rounded-md mb-8" />
+      <div className="flex gap-8">
+        <div className="w-[300px] h-[500px] bg-gray-200 animate-pulse rounded-xl" />
+        <div className="flex-1 h-[500px] bg-gray-200 animate-pulse rounded-md" />
+      </div>
+    </div>
   );
 }

@@ -17,10 +17,10 @@ const MobileProgramFooter = ({
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full py-3 px-4 flex items-center justify-between text-left transition"
+        className="w-full py-3.5 flex items-center justify-between text-left transition select-none cursor-pointer gap-2"
         aria-expanded={isOpen}
       >
-        <div className="flex items-center flex-wrap gap-1">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 min-w-0">
           <span className="capitalize font-semibold text-sm sm:text-base">
             {category.toLowerCase() === "cxo leadership"
               ? "CXO Leadership"
@@ -28,41 +28,54 @@ const MobileProgramFooter = ({
                 ? "PG Diploma"
                 : category.replace(/(\bai\b)/gi, "AI")}
           </span>
-          <span className="ml-1 text-xs text-gray-300 flex items-center gap-1">
-            ( <PhoneForwarded size={12} />
-            {matchingContact?.contact} )
-          </span>
+          {matchingContact?.contact && (
+            <span className="whitespace-nowrap text-xs text-gray-300 inline-flex items-center gap-1 flex-shrink-0">
+              ( <PhoneForwarded size={12} className="flex-shrink-0" />
+              <span>{matchingContact.contact}</span> )
+            </span>
+          )}
         </div>
         <span className="text-white ml-2 flex-shrink-0">
-          {isOpen ? <Minus size={18} /> : <Plus size={18} />}
+          <Plus
+            size={18}
+            className={`transition-transform duration-300 ease-in-out ${
+              isOpen ? "rotate-45" : "rotate-0"
+            }`}
+          />
         </span>
       </button>
 
-      {isOpen && (
-        <div className="px-4 pb-4 pt-1 space-y-1.5">
-          {categorizedPrograms &&
-            categorizedPrograms[category] &&
-            categorizedPrograms[category].map((program, innerIndex) => (
-              <Link
-                key={innerIndex}
-                href={
-                  program.category?.toLowerCase() === "free courses" ||
-                  program.category?.toLowerCase() === "microsoft" ||
-                  program.id ===
-                    "transform-business-workflows-with-generative-ai" ||
-                  program.id ===
-                    "transform-ideas-into-impact-with-product-management"
-                    ? `/free-courses/${program.id}`
-                    : `/programs/${program.id}`
-                }
-                prefetch={false}
-                className="block text-white/80 hover:text-white text-xs sm:text-[13px] py-1 transition-colors"
-              >
-                {program.university_name} - {program.program_name}
-              </Link>
-            ))}
+      <div
+        className={`grid transition-all duration-300 ease-in-out ${
+          isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+        }`}
+      >
+        <div className="overflow-hidden">
+          <div className="pb-4 pt-1 pl-3 space-y-1.5">
+            {categorizedPrograms &&
+              categorizedPrograms[category] &&
+              categorizedPrograms[category].map((program, innerIndex) => (
+                <Link
+                  key={innerIndex}
+                  href={
+                    program.category?.toLowerCase() === "free courses" ||
+                    program.category?.toLowerCase() === "microsoft" ||
+                    program.id ===
+                      "transform-business-workflows-with-generative-ai" ||
+                    program.id ===
+                      "transform-ideas-into-impact-with-product-management"
+                      ? `/free-courses/${program.id}`
+                      : `/programs/${program.id}`
+                  }
+                  prefetch={false}
+                  className="block text-white/80 hover:text-white text-xs sm:text-[13px] py-1 transition-colors"
+                >
+                  {program.university_name} - {program.program_name}
+                </Link>
+              ))}
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };

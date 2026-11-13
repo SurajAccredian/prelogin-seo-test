@@ -50,29 +50,8 @@ const Footer = () => {
     <>
       <Box className="footer" sx={{ fontFamily: "circular" }}>
         <Container fixed sx={{ maxWidth: "85rem" }}>
-          <Grid
-            container
-            item
-            lg={12}
-            sx={{
-              marginBottom: "2rem",
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "flex-start",
-              flexDirection: {
-                xs: "column",
-                // sm: "row",
-                md: "row",
-              },
-            }}
-          >
-            <Grid
-              item
-              xs={12}
-              md={6}
-              lg={6}
-              sx={{ display: "flex", flexDirection: "column" }}
-            >
+          <div className="flex flex-col md:flex-row justify-between items-start mb-8 gap-6 md:gap-0">
+            <div className="flex flex-col">
               <Image
                 style={{ width: "9rem", height: "auto" }}
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredainnew.webp"
@@ -81,604 +60,190 @@ const Footer = () => {
                 height={38}
                 quality={75}
               />
-              <div className="flex mt-4">
+              <div className="flex mt-4 gap-4 items-center">
                 <a
                   href="https://facebook.com/accredianlearn"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-white hover:text-blue-400 transition"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <FacebookIcon sx={{ fontSize: "1.7rem" }} />
+                  <FacebookIcon className="text-[1.7rem]" />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/accredianedu/"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-white hover:text-blue-400 transition"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <LinkedInIcon sx={{ ml: 2, fontSize: "1.7rem" }} />
+                  <LinkedInIcon className="text-[1.7rem]" />
                 </a>
                 <a
                   href="https://twitter.com/accredianedu"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-white hover:text-blue-400 transition"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  {" "}
-                  <TwitterIcon sx={{ ml: 2, fontSize: "1.7rem" }} />
+                  <TwitterIcon className="text-[1.7rem]" />
                 </a>
                 <a
                   href="https://www.instagram.com/accredian_edu"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-white hover:text-pink-400 transition"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <InstagramIcon sx={{ ml: 2, fontSize: "1.7rem" }} />
+                  <InstagramIcon className="text-[1.7rem]" />
                 </a>
                 <a
                   href="https://www.youtube.com/channel/UCE0L_4ADPU2iyKnDJ0xRzyA"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-white hover:text-red-500 transition"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <YouTubeIcon sx={{ ml: 2, fontSize: "1.7rem" }} />
+                  <YouTubeIcon className="text-[1.7rem]" />
                 </a>
               </div>
-              {/* <span className="img-head">
-              International School of AI & Data Science
-            </span> */}
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              md={6}
-              lg={6}
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: {
-                  xs: "flex-start",
-                  md: "flex-end",
-                },
-                marginTop: {
-                  xs: "15px",
-                  md: "0px",
-                },
-              }}
-            >
-              <Button
-                sx={{
-                  backgroundColor: "#1A73E8",
-                  color: "#fff",
-                  borderRadius: "6px",
-                  textTransform: "none",
-                  width: {
-                    xs: "250px",
-                    sm: "250px",
-                    md: "250px",
-                  },
-                  marginBottom: "6px",
-                  "&:hover": {
-                    backgroundColor: "#1A73E8",
-                    color: "#fff",
-                    borderRadius: "6px",
-                  },
-                }}
+            </div>
+
+            <div className="flex flex-col items-start md:items-end w-full md:w-auto mt-4 md:mt-0">
+              <button
+                type="button"
                 onClick={handleClickOpenRcb}
+                className="bg-[#1A73E8] text-white rounded-md font-medium text-sm px-6 py-2.5 w-[250px] max-w-full mb-1.5 hover:bg-blue-600 transition cursor-pointer"
               >
                 Schedule 1-on-1 Call Now
-              </Button>
-              <span className="footer-head-right-text">
+              </button>
+              <span className="footer-head-right-text text-sm text-gray-300">
                 Speak with our Learning Advisor
               </span>
-            </Grid>
-          </Grid>
+            </div>
+          </div>
 
           <hr />
 
-          <Grid
-            container
-            lg={12}
-            className="footer-body mb-6"
-            sx={{
-              display: "flex",
-              flexDirection: {
-                xs: "column",
-                sm: "column",
-                md: "row",
-              },
-            }}
-          >
-            <Grid item lg={2} sx={{ mt: 4 }} marginRight={"60px"}>
+          <div className="footer-body mb-6 flex flex-col md:flex-row justify-between gap-6 md:gap-8 lg:gap-14">
+            <div className="w-full md:w-1/5 mt-4">
               <div className="footer-body-head">
-                <Typography
-                  sx={{
-                    color: "#fff",
-                    textDecoration: "none",
-                    marginBottom: "0.2rem!important",
-                    fontSize: "20px",
-                  }}
-                >
+                <p className="text-white text-[20px] font-light mb-3">
                   Accredian
-                </Typography>
-                <ul className="footer-body-content">
-                  <li className="pt-4">
-                    <Link href="/about" prefetch={false} style={{ textDecoration: "none" }}>
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0.2rem!important",
-                          fontSize: "14px",
-                        }}
-                      >
-                        About
-                      </Typography>
+                </p>
+                <ul className="flex flex-col space-y-3 text-sm text-white">
+                  <li>
+                    <Link href="/about" prefetch={false} className="hover:underline">
+                      About
                     </Link>
                   </li>
-                  <li className="pt-4">
-                    <Link href="/career" prefetch={false} style={{ textDecoration: "none" }}>
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0.2rem!important",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Career
-                      </Typography>
+                  <li>
+                    <Link href="/career" prefetch={false} className="hover:underline">
+                      Career
                     </Link>
                   </li>
-                  <li className="pt-4">
-                    <Link href="/contact-us" prefetch={false} style={{ textDecoration: "none" }}>
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0.2rem!important",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Contact Us
-                      </Typography>
+                  <li>
+                    <Link href="/contact-us" prefetch={false} className="hover:underline">
+                      Contact Us
                     </Link>
                   </li>
-                  <li className="pt-4">
-                    <Link
-                      href="/blog"
-                      style={{ textDecoration: "none" }}
-                    >
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0.2rem!important",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Blog
-                      </Typography>
+                  <li>
+                    <Link href="/blog" className="hover:underline">
+                      Blog
                     </Link>
                   </li>
-                  {/* <li className="pt-4 pb-4">
-                    <Link href="/whyaccredian" prefetch={false} style={{ textDecoration: "none" }}>
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0rem!important",
-                          fontSize: "18px",
-                        }}
-                      >
-                        Why Accredian
-                      </Typography>
-                    </Link>
-                  </li> */}
-                  <li className="pt-4">
-                    <a href="/whyaccredian" style={{ textDecoration: "none" }}>
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0.2rem!important",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Why Accredian
-                      </Typography>
+                  <li>
+                    <a href="/whyaccredian" className="hover:underline">
+                      Why Accredian
                     </a>
                   </li>
-
-                  {/* <li>
-                  <Link href="/Gallery" prefetch={false} style={{ textDecoration: "none" }}>
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      Gallery
-                    </Typography>
-                  </Link>
-                </li> */}
                 </ul>
               </div>
-            </Grid>
+            </div>
 
-            <Grid item lg={2.6} sx={{ mt: 4 }} marginRight={"60px"}>
+            <div className="w-full md:w-1/3 mt-4">
               <div className="footer-body-head w-full">
-                <Typography
-                  sx={{
-                    color: "#fff",
-                    textDecoration: "none",
-                    marginBottom: "0.2rem!important",
-                    fontSize: "20px",
-                  }}
-                >
+                <p className="text-white text-[20px] font-light mb-3">
                   Support
-                </Typography>
-                <ul className="footer-body-content">
-                  <div className="flex w-full flex-col md:flex-row gap-1 md:gap-4">
-                    <div className="">
-                      <Link
-                        href={"/policies/accredian-policy"}
-                        prefetch={false}
-                        style={{ textDecoration: "none" }}
-                      >
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Admission Policy
-                        </Typography>
-                      </Link>
-
-                      <Link
-                        href={"/terms/referral"}
-                        prefetch={false}
-                        style={{ textDecoration: "none" }}
-                      >
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Referral Policy
-                        </Typography>
-                      </Link>
-
-                      <Link
-                        href={"/refund-policies/accredian-policy"}
-                        prefetch={false}
-                        style={{ textDecoration: "none" }}
-                      >
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Refund Policy
-                        </Typography>
-                      </Link>
-
-
-                      <Link
-                        href={"/terms/privacy"}
-                        prefetch={false}
-                        style={{ textDecoration: "none" }}
-                      >
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Privacy Policy
-                        </Typography>
-                      </Link>
-
-                      <Link
-                        href={"/terms/cookie-policy"}
-                        prefetch={false}
-                        style={{ textDecoration: "none" }}
-                      >
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Cookie Policy
-                        </Typography>
-                      </Link>
-
-                    </div>
-
-                    <div>
-                      <Link
-                        href={"/terms/cancellation"}
-                        prefetch={false}
-                        style={{ textDecoration: "none" }}
-                      >
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Cancellation Policy
-                        </Typography>
-                      </Link>
-
-                      <Link href={"/terms"} prefetch={false} style={{ textDecoration: "none" }}>
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Terms Of Service
-                        </Typography>
-                      </Link>
-
-                    </div>
-                  </div>
-                  {/* <li className="pt-4"> */}
-                  {/* <div className="flex gap-3"> */}
-                  {/* <div className=""> */}
-
-                  {/* </div> */}
-
-                  {/* <div> */}
-
-                  {/* </div> */}
-                  {/* </div> */}
-
-                  {/* </li> */}
-                  {/* <li className="pt-4"> */}
-
-                  {/* </li> */}
-                  {/* <li className="pt-4"> */}
-
-                  {/* </li> */}
-                  {/* </li> */}
-
-                  {/* <li className="pt-4">
-                    <div className="flex gap-3"></div>
-                  </li> */}
-
-                  {/* <li className="pt-4">
-                    <div className="flex gap-3"></div>
-                  </li> */}
-
-                  {/* <li className="pt-4"></li> */}
-                  {/* <li>
-                  <Link href="/Gallery" prefetch={false} style={{ textDecoration: "none" }}>
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
+                </p>
+                <div className="flex flex-col md:flex-row gap-3 md:gap-8 text-sm text-white">
+                  <div className="flex flex-col space-y-3">
+                    <Link
+                      href="/policies/accredian-policy"
+                      prefetch={false}
+                      className="hover:underline"
                     >
-                      Gallery
-                    </Typography>
-                  </Link>
-                </li> */}
-                </ul>
-              </div>
-            </Grid>
-
-            <Grid item lg={5.5} md={5} sx={{ mt: 4 }} marginRight={"60px"}>
-              <div className="footer-body-head">
-                <Typography
-                  sx={{
-                    color: "#fff",
-                    textDecoration: "none",
-                    marginBottom: "0.2rem!important",
-                    fontSize: "20px",
-                  }}
-                >
-                  Address
-                </Typography>
-
-                <ul className="footer-body-content">
-                  {/* <li className="pt-4">
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      <a
-                        href="mailto:contactus@accredian.com"
-                        style={{ textDecoration: "none", color: "#fff" }}
-                      >
-                        {" "}
-                        Email us : contactus@accredian.com
-                      </a>
-                    </Typography>
-                  </li> */}
-
-                  {/* <li className="pt-4">
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      <a
-                        href="mailto:pm@accredian.com"
-                        style={{ textDecoration: "none", color: "#fff" }}
-                      >
-                        Email us (For Product Management
-                        Queries):pm@accredian.com
-                      </a>
-                    </Typography>
-                  </li>
-                  <li className="pt-4">
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      {" "}
-                      <a
-                        href="tel:+919079653292"
-                        style={{ textDecoration: "none", color: "#fff" }}
-                      >
-                        {" "}
-                        Data Science Admission Helpline:+91 9079653292 (9 AM - 7
-                        PM)
-                      </a>
-                    </Typography>
-                  </li>
-                  <li className="pt-4">
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      {" "}
-                      <a
-                        href="tel:+917619555873"
-                        style={{ textDecoration: "none", color: "#fff" }}
-                      >
-                        {" "}
-                        Product Management Admission Helpline:+91 7619555873
-                      </a>
-                    </Typography>
-                  </li> */}
-                  {/* <li className="pt-4">
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      {" "}
-                      <h1>
-                        Enrolled Student Helpline:{" "}
-                        <a
-                          href="tel:07969547220"
-                          style={{ textDecoration: "none", color: "#fff" }}
-                        >
-                          07969547220
-                        </a>
-                      </h1>
-                    </Typography>
-                  </li> */}
-                  <li className="pt-4">
-                    <Typography
-                      sx={{
-                        color: "#fff",
-                        textDecoration: "none",
-                        marginBottom: "0.2rem!important",
-                        fontSize: "14px",
-                      }}
-                    >
-                      {" "}
-                      Office Address: 4th Floor, 250, Phase IV, Udyog Vihar,
-                      Sector 18, Gurugram, Haryana
-                    </Typography>
-                  </li>
-                </ul>
-                {/* <Typography
-                  sx={{
-                    color: "#fff",
-                    textDecoration: "none",
-                    marginBottom: "0rem!important",
-                    fontSize: "20px",
-                    fontWeight: 300,
-                  }}
-                >
-                  Why Accredian
-                </Typography> */}
-                {/* <ul className="footer-body-content">
-                  <li className="pt-4 pb-4">
-                    <Link href="/whyaccredian" prefetch={false} style={{ textDecoration: "none" }}>
-                      <Typography
-                        sx={{
-                          color: "#fff",
-                          textDecoration: "none",
-                          marginBottom: "0rem!important",
-                          fontSize: "18px",
-                        }}
-                      >
-                        Why Accredian
-                      </Typography>
+                      Admission Policy
                     </Link>
-                  </li>
-                </ul> */}
-                {/* <Typography
-                  sx={{
-                    color: "#fff",
-                    textDecoration: "none",
-                    marginBottom: "0.3rem!important",
-                    fontSize: "20px",
-                    fontWeight: 300,
-                  }}
-                >
-                  Follow Us
-                </Typography> */}
-              </div>
-            </Grid>
-          </Grid>
+                    <Link
+                      href="/terms/referral"
+                      prefetch={false}
+                      className="hover:underline"
+                    >
+                      Referral Policy
+                    </Link>
+                    <Link
+                      href="/refund-policies/accredian-policy"
+                      prefetch={false}
+                      className="hover:underline"
+                    >
+                      Refund Policy
+                    </Link>
+                    <Link
+                      href="/terms/privacy"
+                      prefetch={false}
+                      className="hover:underline"
+                    >
+                      Privacy Policy
+                    </Link>
+                    <Link
+                      href="/terms/cookie-policy"
+                      prefetch={false}
+                      className="hover:underline"
+                    >
+                      Cookie Policy
+                    </Link>
+                  </div>
 
-          <hr />
+                  <div className="flex flex-col space-y-3">
+                    <Link
+                      href="/terms/cancellation"
+                      prefetch={false}
+                      className="hover:underline"
+                    >
+                      Cancellation Policy
+                    </Link>
+                    <Link
+                      href="/terms"
+                      prefetch={false}
+                      className="hover:underline"
+                    >
+                      Terms Of Service
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/5 mt-4">
+              <div className="footer-body-head">
+                <p className="text-white text-[20px] font-light mb-3">
+                  Address
+                </p>
+                <p className="text-sm text-white/90 leading-relaxed max-w-sm">
+                  Office Address: 4th Floor, 250, Phase IV, Udyog Vihar,
+                  Sector 18, Gurugram, Haryana
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <hr className="border-t border-neutral-700 my-6" />
           <div className="block md:hidden">
-            <Grid className="footer-body mt-6">
-              <Typography
-                sx={{
-                  color: "#fff",
-                  textDecoration: "none",
-                  marginBottom: "0.2rem!important",
-                  fontSize: "20px",
-                }}
-              >
+            <div className="footer-body mt-6">
+              <p className="text-white text-[20px] font-light mb-4">
                 Programs
-              </Typography>
+              </p>
               {/* <div className="flex flex-wrap md:grid md:grid-cols-3 gap"> */}
               {Object.keys(categorizedPrograms).map((category, index) => {
                 const matchingContact = categoriesWithContacts.find(
@@ -695,9 +260,7 @@ const Footer = () => {
                   />
                 );
               })}
-              {/* </div> */}
-              {/* ------------------------------------------- */}
-            </Grid>
+            </div>
           </div>
           <div className="mt-4 mb-4"></div>
 
@@ -809,21 +372,12 @@ const Footer = () => {
           </div>
           <div className="mt-4 mb-4"></div>
 
-          <hr />
-          <Box>
-            <Typography
-              sx={{
-                color: "#fff",
-                textAlign: "center",
-                py: 5,
-                marginBottom: "0rem!important",
-                fontSize: "14px",
-              }}
-            >
+          <div className="border-t border-neutral-700 mt-8 py-6 pb-8 md:pb-8 text-center">
+            <p className="text-white/80 text-xs sm:text-sm leading-relaxed px-4">
               © {new Date().getFullYear()} Accredian A Brand of FullStack Education Pvt Ltd. All
               Rights Reserved
-            </Typography>
-          </Box>
+            </p>
+          </div>
         </Container>
       </Box>
 

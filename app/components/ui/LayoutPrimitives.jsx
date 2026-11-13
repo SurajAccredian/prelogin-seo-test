@@ -99,3 +99,21 @@ export function Tooltip({ title, children }) {
   return <span title={title}>{children}</span>;
 }
 
+export function CardMedia({ component: Component = "img", image, src, alt = "", className = "", style, sx, ...props }) {
+  const combinedStyle = {
+    ...(sx?.width ? { width: sx.width } : {}),
+    ...(sx?.height ? { height: sx.height } : {}),
+    ...(sx?.mt ? { marginTop: typeof sx.mt === "number" ? `${sx.mt * 0.25}rem` : sx.mt } : {}),
+    ...(sx?.mb ? { marginBottom: typeof sx.mb === "number" ? `${sx.mb * 0.25}rem` : sx.mb } : {}),
+    ...style,
+  };
+  return <img src={image || src} alt={alt} className={className} style={combinedStyle} {...props} />;
+}
+
+export function ThemeProvider({ children }) {
+  return <>{children}</>;
+}
+
+export function createTheme() {
+  return {};
+}

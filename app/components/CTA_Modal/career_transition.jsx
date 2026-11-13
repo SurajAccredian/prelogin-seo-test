@@ -1,66 +1,15 @@
 "use client";
 import React, { useState } from "react";
 import "react-phone-input-2/lib/material.css";
-import {
-  Grid,
-  Typography,
-  Button,
-  Box,
-  CardMedia,
-  Backdrop,
-  MenuItem,
-  TextField,
-} from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Dialog from "@mui/material/Dialog";
-import DialogTitle from "@mui/material/DialogTitle";
-import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
-import CircularProgress from "@mui/material/CircularProgress";
 import { usePathname, useSearchParams } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
-import Swal from "sweetalert2";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import { Loader2 } from "lucide-react";
+import Modal from "../ui/Modal";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
 import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
-
-const RcbDialog = styled(Dialog)(({ theme }) => ({
-  "& .MuiDialogContent-root": {
-    padding: theme.spacing(2),
-  },
-  "& .MuiDialogActions-root": {
-    padding: theme.spacing(1),
-  },
-  "& .MuiDialog-paper": {
-    maxWidth: "733px",
-  },
-}));
-
-function RcbDialogTitle(props) {
-  const { children, onClose, ...other } = props;
-
-  return (
-    <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
-      {children}
-      {onClose ? (
-        <IconButton
-          aria-label="close"
-          onClick={onClose}
-          sx={{
-            position: "absolute",
-            right: 8,
-            top: 8,
-            color: (theme) => theme.palette.grey[500],
-          }}
-        >
-          <CloseIcon />
-        </IconButton>
-      ) : null}
-    </DialogTitle>
-  );
-}
 
 const dropdown = [
   { value: "Data Science", label: "Data Science" },
@@ -108,7 +57,7 @@ const CareerTransitionContent = (props) => {
 
   const ctapage = pathname ? pathname.replace("/", "") : "";
 
-  const submitForm = (e) => {
+  const submitForm = async (e) => {
     e.preventDefault();
     if (number && number.length > 2) {
       LoaderOpen();
@@ -135,52 +84,54 @@ const CareerTransitionContent = (props) => {
         type: "CTA",
       };
 
-      axios
-        .post(
+      try {
+        const result = await axios.post(
           `${process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD}/common_publish/commonPublish`,
           JSON.stringify(sendRcbctaData),
           options
-        )
-        .then((result) => {
-          LoaderClose();
-          if (props.handleClose) props.handleClose();
+        );
 
-          if (result.data.status === "200" || result.data.status === 200) {
-            trackGoogleAdsLeadConversion();
-            Swal.fire({
-              title: "Thank You",
-              text: "Thank you for downloading the career handbook. Our executive will contact you to provide more information about the course!",
-              icon: "success",
-              confirmButtonText: "OK",
-            }).then((conf) => {
-              if (conf.isConfirmed) {
-                window.open(
-                  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Career-Handbook.pdf",
-                  "_blank"
-                );
-              }
-            });
-            setRcb({ mobile: "", name: "", newemail: "", program: "" });
-            setNumber("");
-            setProgram("");
-          } else {
-            Swal.fire({
-              title: "Oops!",
-              text: "We are facing server issue, please try again in sometime.",
-              icon: "warning",
-              confirmButtonText: "OK",
-            });
-          }
-        })
-        .catch(() => {
-          LoaderClose();
+        LoaderClose();
+        if (props.handleClose) props.handleClose();
+
+        const Swal = (await import("sweetalert2")).default;
+
+        if (result.data.status === "200" || result.data.status === 200) {
+          trackGoogleAdsLeadConversion();
           Swal.fire({
-            title: "Error",
-            text: "Request failed. Please try again later.",
-            icon: "error",
+            title: "Thank You",
+            text: "Thank you for downloading the career handbook. Our executive will contact you to provide more information about the course!",
+            icon: "success",
+            confirmButtonText: "OK",
+          }).then((conf) => {
+            if (conf.isConfirmed) {
+              window.open(
+                "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Career-Handbook.pdf",
+                "_blank"
+              );
+            }
+          });
+          setRcb({ mobile: "", name: "", newemail: "", program: "" });
+          setNumber("");
+          setProgram("");
+        } else {
+          Swal.fire({
+            title: "Oops!",
+            text: "We are facing server issue, please try again in sometime.",
+            icon: "warning",
             confirmButtonText: "OK",
           });
+        }
+      } catch {
+        LoaderClose();
+        const Swal = (await import("sweetalert2")).default;
+        Swal.fire({
+          title: "Error",
+          text: "Request failed. Please try again later.",
+          icon: "error",
+          confirmButtonText: "OK",
         });
+      }
     } else {
       toast.error("Please enter a valid mobile number", {
         position: "top-right",
@@ -196,116 +147,78 @@ const CareerTransitionContent = (props) => {
 
   return (
     <>
-      <RcbDialog
-        onClose={props.handleClose}
-        aria-labelledby="customized-dialog-title"
+      <Modal
         open={props.open}
+        onClose={props.handleClose}
+        showCloseButton={true}
+        maxWidth="max-w-[733px]"
+        className="p-4 sm:p-6"
       >
-        <RcbDialogTitle
-          id="customized-dialog-title"
-          onClose={props.handleClose}
-        />
-        <Box>
-          {/* ✅ MUI v7: no `item` prop, use size={{ }} instead of xs/sm/md/lg */}
-          <Grid container alignItems="center">
+        <div className="relative">
+          {/* Backdrop Loader */}
+          {open && (
+            <div className="absolute inset-0 bg-white/70 backdrop-blur-sm z-50 flex items-center justify-center rounded-xl">
+              <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
+            </div>
+          )}
 
+          <div className="flex flex-col sm:flex-row items-center gap-6">
             {/* Image column — hidden on mobile */}
-            <Grid
-              size={{ lg: 5, md: 5, sm: 5, xs: 12 }}
-              sx={{
-                display: { xs: "none", sm: "flex" },
-                justifyContent: "center",
-                alignItems: "flex-start",
-              }}
-            >
-              <Box sx={{ mx: 2 }}>
-                <CardMedia
-                  component="img"
-                  image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/cta.png"
-                  alt="CTA Image"
-                  sx={{
-                    width: "300px",
-                    height: "350px",
-                    boxShadow: "8px 8px #d6d6d6",
-                    mt: 3,
-                  }}
-                />
-              </Box>
-            </Grid>
+            <div className="hidden sm:flex sm:w-5/12 justify-center items-start">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/cta.png"
+                alt="CTA Image"
+                className="w-[300px] h-[350px] object-cover shadow-[8px_8px_#d6d6d6] mt-3 rounded"
+              />
+            </div>
 
-            {/* Form column — full width on mobile, 7 cols on sm+ */}
-            <Grid size={{ lg: 7, md: 7, sm: 7, xs: 12 }}>
-              <Box sx={{ px: { xs: 2, sm: 3 } }}>
+            {/* Form column */}
+            <div className="w-full sm:w-7/12 px-2 sm:px-3">
+              <div className="mb-2 text-center">
+                <h4 className="text-[22px] font-medium font-poppins text-gray-900">
+                  Download Handbook
+                </h4>
+              </div>
 
-                <Box sx={{ mb: 2 }}>
-                  <Typography
-                    variant="h4"
-                    component="div"
-                    sx={{
-                      fontSize: "22px",
-                      textAlign: "center",
-                      fontWeight: 500,
-                      fontFamily: "'Poppins', sans-serif",
-                    }}
-                  >
-                    Download Handbook
-                  </Typography>
-                </Box>
+              <div className="mb-4 text-center">
+                <p className="text-[18px] font-poppins text-[#344563]">
+                  Fill in the below details to receive your copy
+                </p>
+              </div>
 
-                <Backdrop
-                  sx={{
-                    color: "#fff",
-                    zIndex: (theme) => theme.zIndex.drawer + 1,
-                  }}
-                  open={open}
-                >
-                  <CircularProgress color="inherit" />
-                </Backdrop>
-
-                <Box sx={{ mb: 3 }}>
-                  <Typography
-                    variant="h4"
-                    component="div"
-                    sx={{
-                      fontSize: "18px",
-                      textAlign: "center",
-                      fontFamily: "'Poppins', sans-serif",
-                      color: "#344563",
-                    }}
-                  >
-                    Fill in the below details to receive your copy
-                  </Typography>
-                </Box>
-
-                <form onSubmit={submitForm}>
-                  {/* ✅ All fields use width="100%" — parent px handles spacing */}
-                  <TextField
+              <form onSubmit={submitForm} className="space-y-3">
+                <div>
+                  <input
                     id="name"
-                    label="Name"
-                    sx={{ pb: 1, width: "100%" }}
-                    onChange={rcbhandleChange}
-                    value={rcb.name}
-                    type="text"
                     name="name"
+                    type="text"
                     required
-                  />
-
-                  <TextField
-                    id="newemail"
-                    label="Email"
-                    sx={{ pb: 1, width: "100%" }}
-                    type="email"
-                    name="newemail"
+                    placeholder="Name"
+                    value={rcb.name}
                     onChange={rcbhandleChange}
-                    value={rcb.newemail}
-                    required
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                   />
+                </div>
 
-                  {/* ✅ PhoneInput: width 100% on both container and input */}
+                <div>
+                  <input
+                    id="newemail"
+                    name="newemail"
+                    type="email"
+                    required
+                    placeholder="Email"
+                    value={rcb.newemail}
+                    onChange={rcbhandleChange}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                  />
+                </div>
+
+                <div>
                   <PhoneInput
                     containerClass="career"
                     containerStyle={{ width: "100%" }}
-                    inputStyle={{ width: "100%" }}
+                    inputStyle={{ width: "100%", height: "42px" }}
                     enableSearch={true}
                     country={"in"}
                     inputProps={{
@@ -316,65 +229,47 @@ const CareerTransitionContent = (props) => {
                     value={number}
                     onChange={setNumber}
                   />
+                </div>
 
-                  {!props.program && (
-                    <TextField
+                {!props.program && (
+                  <div>
+                    <select
                       id="program"
-                      select
+                      name="program"
+                      required
                       value={program}
                       onChange={handleChange}
-                      sx={{ mt: 1, width: "100%" }}
-                      name="program"
-                      label="Select the vertical"
-                      required
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
                     >
+                      <option value="" disabled>
+                        Select the vertical
+                      </option>
                       {dropdown.map((ct) => (
-                        <MenuItem
-                          sx={{ height: "30px", p: 2 }}
-                          key={ct.value}
-                          value={ct.value}
-                        >
+                        <option key={ct.value} value={ct.value}>
                           {ct.label}
-                        </MenuItem>
+                        </option>
                       ))}
-                    </TextField>
-                  )}
+                    </select>
+                  </div>
+                )}
 
-                  <Box textAlign="center">
-                    <Button
-                      variant="contained"
-                      type="submit"
-                      sx={{
-                        mb: 2,
-                        mt: 2,
-                        backgroundColor: "#0039e6",
-                        textTransform: "none",
-                        p: 1,
-                        width: "100%",
-                        "&:hover": {
-                          backgroundColor: "#002bb3",
-                        },
-                      }}
-                    >
-                      Download
-                    </Button>
-                  </Box>
-
-                  <Typography
-                    sx={{
-                      fontSize: "0.8rem",
-                      color: "#858e9f",
-                    }}
+                <div className="text-center pt-2">
+                  <button
+                    type="submit"
+                    className="w-full py-2.5 px-4 bg-[#0039e6] hover:bg-[#002bb3] text-white font-medium rounded-md shadow transition-colors text-sm"
                   >
-                    Note: You will receive a call between Mon-Fri from 10am - 6pm.
-                  </Typography>
-                </form>
-              </Box>
-            </Grid>
+                    Download
+                  </button>
+                </div>
 
-          </Grid>
-        </Box>
-      </RcbDialog>
+                <p className="text-[0.8rem] text-[#858e9f] text-center pt-1">
+                  Note: You will receive a call between Mon-Fri from 10am - 6pm.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </Modal>
       <ToastContainer />
     </>
   );

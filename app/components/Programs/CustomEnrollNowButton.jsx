@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import { userActions } from "../../store/reducers/user";
 import { useDispatch, useSelector } from "react-redux";
 import { useState, useEffect } from "react";

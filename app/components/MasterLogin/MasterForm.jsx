@@ -1,14 +1,25 @@
 "use client";
+
 import Image from "next/image";
-import { Box } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { IoWarning } from "react-icons/io5";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import { decodeToken, isExpired } from "react-jwt";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import { masterVerifyEmail, masterVerifyOtp } from "../../services/auth.service";
+
+function setCookie(name, value, hours, domain) {
+  let expires = "";
+  if (hours) {
+    const date = new Date();
+    date.setTime(date.getTime() + hours * 60 * 60 * 1000);
+    expires = `; expires=${date.toUTCString()}`;
+  }
+  const cookieDomain = domain ? `; domain=${domain}` : "";
+  document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
+}
 
 function MasterForm() {
   const steps = ["Step 1", "Step 2"];
@@ -31,19 +42,26 @@ function MasterForm() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm({
-    defaultValues: { email: "", name: "" },
-    mode: "onChange",
-  });
+  } = useForm();
+
+  const handleKeyDown = (index, e) => {
+    if (e.key === "Backspace" && !otp[index] && index > 0) {
+      document.getElementById(`otp-${index - 1}`).focus();
+    }
+  };
 
   useEffect(() => {
     let interval = null;
     if (isResending && timer > 0) {
       interval = setInterval(() => {
-        setTimer((prev) => prev - 1);
+        setTimer((prev) => {
+          if (prev <= 1) {
+            setIsResending(false);
+            return 0;
+          }
+          return prev - 1;
+        });
       }, 1000);
-    } else if (timer === 0) {
-      setIsResending(false);
     }
     return () => clearInterval(interval);
   }, [isResending, timer]);
@@ -68,17 +86,6 @@ function MasterForm() {
     };
     fetchIp();
   }, []);
-
-  function setCookie(name, value, hours, domain) {
-    let expires = "";
-    if (hours) {
-      const date = new Date();
-      date.setTime(date.getTime() + hours * 60 * 60 * 1000);
-      expires = `; expires=${date.toUTCString()}`;
-    }
-    const cookieDomain = domain ? `; domain=${domain}` : "";
-    document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
-  }
 
   const emailVerification = async (email, name) => {
     try {
@@ -113,122 +120,87 @@ function MasterForm() {
       if (!isOtpComplete) {
         setLoading(false);
         setOtpInvalid(true);
-        setOtpInvalidMessage("OTP is required");
+        setOtpInvalidMessage("Please enter all 4 digits of the OTP.");
         return;
       }
-      await onSubmit(data)();
-    } else {
-      if (data.email) {
-        const response = await emailVerification(data.email, data.name);
+
+      const verifyOtpPayload = {
+        email: emailValue,
+        name: nameValue,
+        otp: otp.join(""),
+        ipaddress: userIp,
+      };
+
+      try {
+        const response = await masterVerifyOtp(verifyOtpPayload);
         if (response) {
-          setActiveStep((prev) => prev + 1);
+          const myDecodedToken = decodeToken(response.token);
+          const isMyTokenExpired = isExpired(response.token);
+          const tokenExp = myDecodedToken.exp;
+
+          localStorage.setItem("token", response.token);
+          setTokenexp(tokenExp);
+          localStorage.setItem("user_id", response.id);
+          localStorage.setItem("name", response.name);
+          localStorage.setItem("email", response.email);
+
+          setCookie("token", response.token, 7, "accredian.com");
+          setCookie("user_id", response.id, 7, "accredian.com");
+          setCookie("name", response.name, 7, "accredian.com");
+          setCookie("email", response.email, 7, "accredian.com");
+
+          setOtpVerified(true);
+          toast.success(response.message, { position: "top-right" });
+
+          setTimeout(() => {
+            window.location.href = "https://master.accredian.com";
+          }, 500);
         }
+      } catch (error) {
+        setOtpInvalid(true);
+        if (error.response?.data?.feedback) {
+          toast.error(error.response.data.feedback, { position: "top-right" });
+          setOtpInvalidMessage(error.response.data.feedback);
+        } else {
+          toast.error(
+            "Apologies, we are currently experiencing some server issues. Please try again later.",
+            { position: "top-right" }
+          );
+        }
+      }
+    } else {
+      const response = await emailVerification(data.email, data.name);
+      if (response) {
+        setActiveStep((prevStep) => prevStep + 1);
+        setTimer(30);
+        setIsResending(true);
       }
     }
     setLoading(false);
   };
 
   const handleBack = () => {
+    setActiveStep((prevStep) => prevStep - 1);
     setOtp(["", "", "", ""]);
-    setTimer(0);
-    setIsResending(false);
     setOtpInvalid(false);
-    setOtpInvalidMessage("");
-    setOtpVerified(false);
-    setActiveStep((prev) => prev - 1);
+    setOtpInvalidMessage(false);
   };
 
   const handleOtpChange = (index, value) => {
+    if (isNaN(value)) return;
     const newOtp = [...otp];
     newOtp[index] = value;
     setOtp(newOtp);
-    setOtpInvalidMessage("");
 
-    if (value.length === 1 && index < otp.length - 1) {
-      setOtpInvalid(false);
+    if (value && index < 3) {
       document.getElementById(`otp-${index + 1}`).focus();
-    } else if (value.length === 0 && index > 0) {
-      document.getElementById(`otp-${index - 1}`).focus();
     }
-  };
-
-  const handleKeyDown = (index, event) => {
-    if (event.key === "Backspace" && otp[index].length === 0 && index > 0) {
-      document.getElementById(`otp-${index - 1}`).focus();
-    }
-  };
-
-  const setEnrollmentDetails = (response) => {
-    const enrollment = response.enrollmentDetails;
-    if (enrollment && enrollment.length > 0) {
-      localStorage.setItem("enrollment", JSON.stringify(enrollment));
-      localStorage.setItem("enrollmentStatus", true);
-    } else {
-      localStorage.setItem("enrollmentStatus", false);
-    }
-  };
-
-  const onSubmit = async () => {
-    setLoading(true);
-    try {
-      const email = emailValue;
-      const stringOtp = otp.join("");
-      const verifyOtpPayload = { email, otp: stringOtp };
-      const response = await masterVerifyOtp(verifyOtpPayload);
-
-      if (response) {
-        const auth_type = response.auth_type;
-        if (auth_type === "existingUser") {
-          setEnrollmentDetails(response);
-          setCookie("token", response.token, 12, "accredian.com");
-          const myDecodedToken = decodeToken(response.token);
-          const isMyTokenExpired = isExpired(response.token);
-          setTokenexp(isMyTokenExpired);
-          localStorage.setItem("name", myDecodedToken?.data?.firstname || nameValue);
-          localStorage.setItem("token", response.token);
-          setOtpVerified(true);
-          toast.success("OTP Verified", { position: "top-right" });
-
-          setTimeout(() => {
-            router.push("/");
-          }, 1000);
-        }
-      }
-    } catch (error) {
-      if (error.response) {
-        if (error.response.data.message) {
-          setOtpInvalidMessage(error.response.data.message);
-          setOtpInvalid(true);
-          setLoading(false);
-          setOtp(["", "", "", ""]);
-          return;
-        }
-      }
-    }
-    setLoading(false);
   };
 
   return (
-    <Box
-      className="font-circular font-normal relative p-10"
-      sx={{
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100%",
-        borderRadius: 4,
-        margin: "auto",
-        minHeight: "80vh",
-      }}
-    >
-      <div className="relative bg-white flex justify-center items-center h-[60%] rounded-lg max-w-[840px] w-[90%] outline-none border-none shadow-lg overflow-hidden">
-        <Box
-          sx={{
-            width: "50%",
-            display: { xs: "none", sm: "none", md: "block" },
-          }}
-        >
+    <div className="font-circular font-normal relative p-6 sm:p-10 flex flex-row justify-center items-center h-full rounded-2xl mx-auto min-h-[80vh]">
+      <div className="relative bg-white flex justify-center items-center h-[60%] rounded-lg max-w-[840px] w-[90%] shadow-lg overflow-hidden">
+        <div className="w-1/2 hidden md:block">
           <Image
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/loginModalImage.svg"
             alt="Login illustration"
@@ -237,10 +209,10 @@ function MasterForm() {
             quality={75}
             style={{ width: "100%", height: "auto", borderRadius: "8px" }}
           />
-        </Box>
+        </div>
 
-        <Box sx={{ width: { xs: "100%", md: "50%" }, paddingLeft: 4, paddingRight: 4 }}>
-          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mb: 2 }}>
+        <div className="w-full md:w-1/2 px-4 sm:px-8 py-6">
+          <div className="flex justify-center items-center mb-2">
             <Image
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
               alt="Company Logo"
@@ -249,74 +221,92 @@ function MasterForm() {
               quality={75}
               style={{ width: "150px", height: "auto" }}
             />
-          </Box>
+          </div>
 
           {activeStep === 0 ? (
             <>
-              <div className="mb-4 text-2xl font-semibold text-paleBlack pb-3 pt-3">
-                <h2>Admin Login</h2>
+              <div id="modal-description" className="mb-4 text-paleBlack">
+                <p className="text-sm text-gray-600">
+                  You can sign in with us if you&apos;re a Master member
+                </p>
               </div>
+
               <form onSubmit={handleSubmit(handleNext)}>
                 <div className="mb-4">
                   <input
-                    className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2 ${errors["name"] ? "border-rose-500 focus:border-rose-500" : "border-neutral-300 focus:border-blue-500"
-                      }`}
-                    {...register("name", { required: { value: true, message: "Name is required" } })}
-                    id="name"
-                    type="text"
-                    placeholder="Name (Required)"
-                    disabled={loading}
-                  />
-                  {errors.name?.message && (
-                    <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1 pl-2">
-                      <span className="mt-[-1px]"><IoWarning /></span>
-                      <p>{errors.name?.message}</p>
-                    </div>
-                  )}
-
-                  <input
-                    className={`w-full px-4 py-3 font-normal text-sm bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed pl-2 mt-2 ${errors["email"] ? "border-rose-500 focus:border-rose-500" : "border-neutral-300 focus:border-blue-500"
-                      }`}
-                    {...register("email", {
-                      required: { value: true, message: "Email is required" },
-                      pattern: {
-                        value: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                        message: "Please enter a valid email",
-                      },
+                    {...register("name", {
+                      required: "Name is required",
                     })}
-                    id="email"
                     type="text"
-                    placeholder="Email (Required)"
-                    disabled={loading}
+                    placeholder="Enter your name"
+                    className="w-full p-3 font-semibold text-sm border-2 rounded-lg outline-none transition pl-2 border-neutral-300 focus:border-blue-500"
                   />
-                  {errors.email?.message && (
-                    <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1 pl-2">
-                      <span className="mt-[-1px]"><IoWarning /></span>
-                      <p>{errors.email?.message}</p>
+                  {errors.name && (
+                    <div className="text-red-500 text-[12px] flex items-center gap-1 mt-1 pl-2">
+                      <IoWarning />
+                      <p>{errors.name.message}</p>
                     </div>
                   )}
                 </div>
+
+                <div className="mb-4">
+                  <input
+                    {...register("email", {
+                      required: "Email is required",
+                      pattern: {
+                        value:
+                          /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+                        message: "Invalid email address",
+                      },
+                    })}
+                    type="email"
+                    placeholder="Enter your email"
+                    className="w-full p-3 font-semibold text-sm border-2 rounded-lg outline-none transition pl-2 border-neutral-300 focus:border-blue-500"
+                  />
+                  {errors.email && (
+                    <div className="text-red-500 text-[12px] flex items-center gap-1 mt-1 pl-2">
+                      <IoWarning />
+                      <p>{errors.email.message}</p>
+                    </div>
+                  )}
+                </div>
+
                 <button
-                  className="hover:bg-darkBlue text-base relative mt-6 px-4 py-2 bg-universal font-medium text-white w-full flex justify-center rounded-lg drop-shadow-md"
+                  className="hover:bg-darkBlue text-base relative mt-6 px-4 py-2 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg drop-shadow-md"
                   type="submit"
                   disabled={loading}
                 >
-                  {loading ? <CircularProgress size={24} sx={{ color: "white" }} /> : "Continue"}
+                  {loading ? (
+                    <Loader2 className="w-6 h-6 animate-spin text-white" />
+                  ) : (
+                    "Continue"
+                  )}
                 </button>
               </form>
             </>
           ) : activeStep === 1 ? (
             <>
-              <button onClick={handleBack} className="text-universal pb-3 pt-3 cursor-pointer">
+              <button
+                onClick={handleBack}
+                type="button"
+                className="text-universal pb-3 pt-3 cursor-pointer text-sm"
+              >
                 &lt; Back
               </button>
 
               <div className="mb-4 text-paleBlack">
-                <h2 className="text-xl font-semibold">We've sent an OTP on </h2>
+                <h2 className="text-xl font-semibold">
+                  We&apos;ve sent an OTP on{" "}
+                </h2>
                 <p className="text-[14px] text-gray-500">
                   {emailValue}
                   <span className="ml-2">
-                    <button onClick={handleBack} disabled={otpVerified} className="text-universal underline">
+                    <button
+                      onClick={handleBack}
+                      type="button"
+                      disabled={otpVerified}
+                      className="text-universal underline"
+                    >
                       Edit
                     </button>
                   </span>
@@ -333,23 +323,35 @@ function MasterForm() {
                     onChange={(e) => handleOtpChange(index, e.target.value)}
                     onKeyDown={(e) => handleKeyDown(index, e)}
                     maxLength="1"
-                    className={`w-1/6 p-3 font-semibold text-md border-2 mr-2 rounded-lg text-center outline-none transition pl-2 mt-2 ${digit.length === 0 ? "border-neutral-300" : "border-blue-500"
-                      } ${otpInvalid ? "border-rose-600 shake" : ""} ${otpVerified ? "border-green-600 shake" : ""}`}
+                    className={`w-1/6 p-3 font-semibold text-md border-2 mr-2 rounded-lg text-center outline-none transition pl-2 mt-2 ${
+                      digit.length === 0
+                        ? "border-neutral-300"
+                        : "border-blue-500"
+                    } ${otpInvalid ? "border-rose-600 shake" : ""} ${
+                      otpVerified ? "border-green-600 shake" : ""
+                    }`}
                   />
                 ))}
               </div>
 
               {otpInvalidMessage && (
                 <div className="text-red-500 text-[12px] w-full flex items-center gap-1 mt-1 pl-2">
-                  <span className="mt-[-1px]"><IoWarning /></span>
+                  <span className="mt-[-1px]">
+                    <IoWarning />
+                  </span>
                   <p>{otpInvalidMessage}</p>
                 </div>
               )}
 
               <p className="text-[14px] mt-2">
-                Didn't receive OTP?
+                Didn&apos;t receive OTP?
                 <button
-                  className={`ml-1 text-universal ${isResending ? "cursor-not-allowed text-gray-400" : "cursor-pointer"}`}
+                  type="button"
+                  className={`ml-1 text-universal ${
+                    isResending
+                      ? "cursor-not-allowed text-gray-400"
+                      : "cursor-pointer"
+                  }`}
                   onClick={!isResending ? handleResend : null}
                   disabled={isResending || otpVerified}
                 >
@@ -358,18 +360,22 @@ function MasterForm() {
               </p>
 
               <button
-                className="hover:bg-darkBlue text-base relative mt-6 px-4 py-2 bg-universal font-medium text-white w-full flex justify-center rounded-lg drop-shadow-md"
+                className="hover:bg-darkBlue text-base relative mt-6 px-4 py-2 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg drop-shadow-md"
                 type="button"
                 onClick={handleNext}
                 disabled={loading || otpVerified}
               >
-                {loading ? <CircularProgress size={24} sx={{ color: "white" }} /> : "Submit"}
+                {loading ? (
+                  <Loader2 className="w-6 h-6 animate-spin text-white" />
+                ) : (
+                  "Submit"
+                )}
               </button>
             </>
           ) : null}
-        </Box>
+        </div>
       </div>
-    </Box>
+    </div>
   );
 }
 

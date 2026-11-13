@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import { IoIosArrowUp } from "react-icons/io";
 import CustomEnrollNowButton from "../../Programs/CustomEnrollNowButton";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import { allowedIds } from "../../Assets/constants";
 
 

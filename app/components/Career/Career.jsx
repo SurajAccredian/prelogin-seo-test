@@ -9,13 +9,13 @@ import {
   CardMedia,
   ThemeProvider,
   createTheme,
-} from "@mui/material";
+} from "../ui/LayoutPrimitives";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { MapPin as LocationOnIcon } from "lucide-react";
 import "react-phone-input-2/lib/material.css";
 import "./Careers.css"
 import Form from "./Form";
@@ -403,7 +403,7 @@ export default function Career() {
                     fontWeight: 300,
                   }}
                 >
-                  Here's what you should expect
+                  Here&apos;s what you should expect
                 </Typography>
               </Box>
               <Box sx={{ mb: 5 }}>
@@ -486,11 +486,11 @@ export default function Career() {
                                 fontSize: "17px",
                               }}
                             >
-                              Apart from daily grind, we don't miss an opportunity to
+                              Apart from daily grind, we don&apos;t miss an opportunity to
                               have fun at work. We celebrate every xsall occasion,
                               usually go on company wide outings, weekly team lunches
                               and not to miss HR activities which will ensure that
-                              you're always high on energy.
+                              you&apos;re always high on energy.
                             </Typography>
                           </Box>
                         </Grid>
@@ -557,7 +557,7 @@ export default function Career() {
                                 mb: 2,
                               }}
                             >
-                              If you're looking for faster growth, right role and a
+                              If you&apos;re looking for faster growth, right role and a
                               great opportunity to maximise your full potential then you
                               should join us.{" "}
                             </Typography>
@@ -978,7 +978,7 @@ export default function Career() {
                   fontWeight: 300,
                 }}
               >
-                Here's what you should expect
+                Here&apos;s what you should expect
               </Typography>
             </Box>
             <Box sx={{ mb: 5 }}>
@@ -1077,11 +1077,11 @@ export default function Career() {
                           fontSize: "17px",
                         }}
                       >
-                        Apart from daily grind, we don't miss an opportunity to
+                        Apart from daily grind, we don&apos;t miss an opportunity to
                         have fun at work. We celebrate every xsall occasion,
                         usually go on company wide outings, weekly team lunches
                         and not to miss HR activities which will ensure that
-                        you're always high on energy.
+                        you&apos;re always high on energy.
                       </Typography>
                     </Box>
                   </Grid>
@@ -1125,7 +1125,7 @@ export default function Career() {
                           mb: 2,
                         }}
                       >
-                        If you're looking for faster growth, right role and a
+                        If you&apos;re looking for faster growth, right role and a
                         great opportunity to maximise your full potential then you
                         should join us.{" "}
                       </Typography>

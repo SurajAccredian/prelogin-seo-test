@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Modal from "../ui/Modal";
+import Select from "react-select";
 import { IoIosClose } from "react-icons/io";
 import { IoWarning } from "react-icons/io5";
 import { CiPhone } from "react-icons/ci";
@@ -17,6 +18,22 @@ import { getStoredUTMData } from "../../helpers/utm.helpers";
 import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const streams = Object.keys(groupProgramsByCategory(vertical));
+const streamOptions = streams.map((stream) => {
+  let label = stream;
+  if (stream.toLowerCase() === "cxo leadership") {
+    label = "CXO Leadership";
+  } else if (stream.toLowerCase() === "data science & ai") {
+    label = "Data Science & AI";
+  } else if (stream.toLowerCase() === "pg diploma") {
+    label = "PG Diploma";
+  } else {
+    label = stream
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  }
+  return { value: stream, label };
+});
 
 // Default enquiry number
 const ENQUIRY_NUMBER = "7619555873";
@@ -346,31 +363,71 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
               {/* Program dropdown */}
               {!props.program && (
                 <div className="relative mt-4 mb-4">
-                  <select
+                  <Select
                     id="program"
                     name="program"
-                    value={program}
-                    onChange={handleChange}
-                    className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2 ${errors.program
-                        ? "border-rose-500 focus:border-rose-500"
-                        : "border-neutral-300 focus:border-blue-500"
-                      } ${program === "" ? "text-gray-500" : "text-gray-900"}`}
-                  >
-                    <option value="">---- Select Category ----</option>
-                    {streams.map((stream) => (
-                      <option
-                        key={stream.toUpperCase()}
-                        value={stream}
-                        className="text-gray-900"
-                      >
-                        {stream.toLowerCase() === "cxo leadership"
-                          ? "CXO Leadership"
-                          : stream.toLowerCase() === "data science & ai"
-                            ? "Data Science & AI"
-                            : stream}
-                      </option>
-                    ))}
-                  </select>
+                    value={
+                      program
+                        ? streamOptions.find((opt) => opt.value === program) || {
+                            value: program,
+                            label: program,
+                          }
+                        : null
+                    }
+                    onChange={(selected) => {
+                      setProgram(selected ? selected.value : "");
+                      if (errors.program) {
+                        setErrors((prev) => ({ ...prev, program: "" }));
+                      }
+                    }}
+                    options={streamOptions}
+                    placeholder="Select Category"
+                    isClearable
+                    className="mt-2 text-sm"
+                    classNamePrefix="react-select"
+                    styles={{
+                      control: (base, state) => ({
+                        ...base,
+                        borderTop: 0,
+                        borderLeft: 0,
+                        borderRight: 0,
+                        borderBottom: `2px solid ${
+                          errors.program
+                            ? "#f43f5e"
+                            : state.isFocused
+                            ? "#3b82f6"
+                            : "#d1d5db"
+                        }`,
+                        borderRadius: 0,
+                        boxShadow: "none",
+                        backgroundColor: "white",
+                        paddingLeft: 0,
+                        paddingRight: 0,
+                        cursor: "pointer",
+                        "&:hover": {
+                          borderBottomColor: errors.program ? "#f43f5e" : "#3b82f6",
+                        },
+                      }),
+                      valueContainer: (base) => ({
+                        ...base,
+                        paddingLeft: 0,
+                      }),
+                      placeholder: (base) => ({
+                        ...base,
+                        color: "#9ca3af",
+                        fontSize: "14px",
+                      }),
+                      singleValue: (base) => ({
+                        ...base,
+                        color: "#111827",
+                        fontSize: "14px",
+                      }),
+                      menu: (base) => ({
+                        ...base,
+                        zIndex: 9999,
+                      }),
+                    }}
+                  />
                   {errors.program && (
                     <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
                       <span className="mt-[-1px]">

@@ -1,6 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { FcPositiveDynamic } from "react-icons/fc";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import "./Admission.css";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";

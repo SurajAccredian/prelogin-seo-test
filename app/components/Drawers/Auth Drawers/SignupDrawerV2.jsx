@@ -9,7 +9,6 @@ import {
   DrawerOverlay,
   Spinner,
 } from "@chakra-ui/react";
-import { Box } from "@mui/material";
 import { IoWarning } from "react-icons/io5";
 
 import PhoneInput from "react-phone-input-2";
@@ -244,20 +243,7 @@ function SignupDrawer({ open, email, handleClose }) {
                 </Box> */}
 
                 {/* Right Side: Form */}
-                <Box
-                  sx={{
-                    width: "50%",
-                    width: {
-                      xs: "100%", // 100% width on extra-small screens
-                      md: "50%", // 50% width on medium screens and up
-                    },
-                    paddingLeft: 1,
-                    paddingRight: {
-                      xs: 1,
-                      md: 1,
-                    },
-                  }}
-                >
+                <div className="w-full md:w-1/2 px-1">
                   {/* <Box
               sx={{
                 display: "flex",
@@ -406,7 +392,7 @@ function SignupDrawer({ open, email, handleClose }) {
                       {loading ? <Spinner size="md" color="white" /> : "Submit"}
                     </button>
                   </form>
-                </Box>
+                </div>
               </div>
             </div>
           </DrawerBody>

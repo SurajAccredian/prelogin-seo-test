@@ -1,9 +1,6 @@
 "use client";
 import Image from 'next/image';
-import Backdrop from '@mui/material/Backdrop';
-import Box from '@mui/material/Box';
-import Modal from '@mui/material/Modal';
-import Fade from '@mui/material/Fade';
+import Modal from "../../ui/Modal";
 import { IoIosClose } from "react-icons/io";
 import React, { useEffect, useState } from 'react'
 import { Controller, useForm } from 'react-hook-form'
@@ -12,7 +9,6 @@ import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/material.css';
 import { useMutation } from '@tanstack/react-query'
 import Link from 'next/link';
-import Swal from 'sweetalert2'
 import { getCta, programSignUp } from '../../../services/program.service';
 import { HashLoader } from '../../Loaders';
 import { useDispatch } from 'react-redux';
@@ -58,9 +54,10 @@ export default function EnrollNow({ open }) {
 
   const { mutate, isPending } = useMutation({
     mutationFn: (body) => programSignUp(body),
-    onSuccess: (result) => {
+    onSuccess: async (result) => {
       dispatch(programActions.setEnrollState(null))
       reset("")
+      const Swal = (await import("sweetalert2")).default;
       if (result.status == 200) {
         trackGoogleAdsLeadConversion();
         Swal.fire({
@@ -126,37 +123,25 @@ export default function EnrollNow({ open }) {
   }
 
   return (
-    <div>
-      <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        open={open ? true : false}
-        onClose={handleClose}
-        closeAfterTransition
-        slots={{ backdrop: Backdrop }}
-        slotProps={{
-          backdrop: {
-            timeout: 500,
-          },
-        }}
-      >
-        <Fade in={open ? true : false}>
-          <Box sx={{
-            position: 'absolute',
-            top: '45%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            border: 'none',
-          }}>
-            <div className='overflow-hidden font-circular'>
-              <div className='py-2 w-full text-center relative flex items-center justify-end'>
-                {/* <h1 className="text-lg font-medium text-neutral-800 text-center">Don't miss the opportunities</h1> */}
-                <div className='w-8 h-8 rounded-lg bg-white flex-shrink-0 cursor-pointer justify-self-end' onClick={handleClose}>
-                  <IoIosClose className='w-full h-full' />
-                </div>
-              </div>
-              <div className='bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[90vw] min-h-[35vh] py-8 px-5 flex items-center gap-2 rounded-xl'>
-                <div className='md:block hidden flex-[0.5]'>
+    <Modal
+      open={!!open}
+      onClose={handleClose}
+      maxWidth="max-w-4xl"
+      className="p-0 overflow-hidden font-circular bg-transparent shadow-none"
+    >
+      <div className='overflow-hidden font-circular'>
+        <div className='py-2 w-full text-center relative flex items-center justify-end'>
+          <button
+            type="button"
+            aria-label="Close"
+            className='w-8 h-8 rounded-lg bg-white flex items-center justify-center cursor-pointer shadow hover:bg-gray-100 transition'
+            onClick={handleClose}
+          >
+            <IoIosClose className='w-6 h-6 text-gray-800' />
+          </button>
+        </div>
+        <div className='bg-white w-full min-h-[35vh] py-8 px-5 flex items-center gap-2 rounded-2xl shadow-2xl max-h-[90vh] overflow-y-auto'>
+          <div className='md:block hidden flex-[0.5]'>
                   <div className='max-w-sm w-full'>
                     <Image
                       title='enroll now'
@@ -314,9 +299,6 @@ ${errors["email"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                 </div>
               </div>
             </div>
-          </Box>
-        </Fade>
-      </Modal>
-    </div>
+    </Modal>
   );
 }

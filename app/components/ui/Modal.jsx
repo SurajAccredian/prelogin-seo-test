@@ -1,10 +1,14 @@
 "use client";
 
-import React, { useEffect, useCallback } from "react";
+import React, { useEffect, useCallback, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
 import { IoIosClose } from "react-icons/io";
 
+const emptySubscribe = () => () => {};
+
 /**
- * Lightweight, accessible Tailwind Modal replacing @mui/material/Modal and Dialog.
+ * Lightweight, accessible Tailwind Modal with smooth fade and zoom animation.
+ * Renders via React Portal to document.body.
  * Zero external CSS-in-JS dependencies.
  */
 export default function Modal({
@@ -15,13 +19,29 @@ export default function Modal({
   showCloseButton = false,
   className = "",
 }) {
+  const isClient = useSyncExternalStore(
+    emptySubscribe,
+    () => true,
+    () => false
+  );
+
+  const [isClosing, setIsClosing] = useState(false);
+
+  const handleClose = useCallback(() => {
+    setIsClosing(true);
+    setTimeout(() => {
+      onClose?.();
+      setIsClosing(false);
+    }, 220);
+  }, [onClose]);
+
   const handleKeyDown = useCallback(
     (e) => {
       if (e.key === "Escape") {
-        onClose?.();
+        handleClose();
       }
     },
-    [onClose]
+    [handleClose]
   );
 
   useEffect(() => {
@@ -38,30 +58,61 @@ export default function Modal({
     };
   }, [open, handleKeyDown]);
 
-  if (!open) return null;
+  if (!open || !isClient) return null;
 
-  return (
+  const modalContent = (
     <div
       role="dialog"
       aria-modal="true"
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 overflow-y-auto"
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-3 sm:p-4 overflow-y-auto"
     >
+      <style>{`
+        @keyframes modalFadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes modalFadeOut {
+          from { opacity: 1; }
+          to { opacity: 0; }
+        }
+        @keyframes modalScaleIn {
+          from { opacity: 0; transform: scale(0.95); }
+          to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes modalScaleOut {
+          from { opacity: 1; transform: scale(1); }
+          to { opacity: 0; transform: scale(0.95); }
+        }
+        .animate-modal-fade-in {
+          animation: modalFadeIn 0.24s ease-out forwards;
+        }
+        .animate-modal-fade-out {
+          animation: modalFadeOut 0.2s ease-in forwards;
+        }
+        .animate-modal-scale-in {
+          animation: modalScaleIn 0.26s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .animate-modal-scale-out {
+          animation: modalScaleOut 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+      `}</style>
+
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/60 transition-opacity duration-300"
-        onClick={onClose}
+        className={`fixed inset-0 bg-black/60 ${isClosing ? "animate-modal-fade-out" : "animate-modal-fade-in"}`}
+        onClick={handleClose}
         aria-hidden="true"
       />
 
       {/* Modal Dialog Body */}
       <div
-        className={`relative z-10 w-full ${maxWidth} bg-white rounded-xl sm:rounded-2xl shadow-2xl transition-all transform duration-300 max-h-[95vh] overflow-y-auto ${className}`}
+        className={`relative z-10 w-full ${maxWidth} bg-white rounded-xl sm:rounded-2xl shadow-2xl max-h-[95vh] overflow-y-auto will-change-transform ${isClosing ? "animate-modal-scale-out" : "animate-modal-scale-in"} ${className}`}
         onClick={(e) => e.stopPropagation()}
       >
         {showCloseButton && (
           <button
             type="button"
-            onClick={onClose}
+            onClick={handleClose}
             aria-label="Close modal"
             className="absolute top-3 right-3 z-20 w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 flex items-center justify-center transition"
           >
@@ -72,5 +123,6 @@ export default function Modal({
       </div>
     </div>
   );
-}
 
+  return createPortal(modalContent, document.body);
+}

@@ -15,7 +15,7 @@ import { GiStack } from "react-icons/gi";
 import { MdLibraryBooks } from "react-icons/md";
 import { FaEarthAmericas, FaPeopleGroup } from "react-icons/fa6";
 import CustomEnrollNowButton from "../CustomEnrollNowButton";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import Disclaimer from "../Disclaimer";
 import { Blocks, BookCopy, SquareLibrary } from "lucide-react";
 

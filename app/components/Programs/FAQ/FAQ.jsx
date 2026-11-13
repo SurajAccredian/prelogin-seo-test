@@ -17,6 +17,7 @@ const FAQ = ({ data: propData }) => {
     data?.short_university_name === 'iim-trichy' ||
     data?.short_university_name === 'iim-amritsar' ||
     data?.short_university_name === 'iim-kashipur' ||
+    data?.short_university_name === 'iim-kashipur-pgdm' ||
     data?.short_university_name === 'iim-ranchi' ||
     data?.short_university_name === 'iit-jammu' ||
     data?.short_university_name === 'iim-sirmaur' ||

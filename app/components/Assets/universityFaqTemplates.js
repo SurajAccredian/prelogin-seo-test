@@ -8651,7 +8651,7 @@ export const universityFaqTemplates = {
         {
           title: "What is the total program fee, and are EMI or installment options available?",
           content: [
-            "The program fee is INR 3,29,000 + GST. This includes the study material, the campus immersion, the international immersion in Dubai and Executive Alumni Status. A non-refundable application fee of INR 10,000 + GST is payable at the time of application.",
+            "The program fee is INR 3,39,000 + GST. This includes the study material, the campus immersion, the international immersion in Dubai and Executive Alumni Status. A non-refundable application fee of INR 10,000 + GST is payable at the time of application.",
             "Standard EMI options are available (with additional interest charges)."
           ]
         },

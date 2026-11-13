@@ -3736,7 +3736,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 10+ years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline.  Prior work experience of 10+ years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ]
                     },
                     {
@@ -4932,7 +4933,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -5132,7 +5134,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -5532,7 +5535,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -7533,7 +7537,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -8351,7 +8356,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -8747,7 +8753,8 @@ iim_ranchi_coo: {
         {
           title: "What are the minimum education and work experience requirements?",
           content: [
-            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred."
+            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred.",
+            "Diploma Holders are eligible to apply."
           ]
         },
         {

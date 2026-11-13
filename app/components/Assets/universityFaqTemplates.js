@@ -9052,7 +9052,7 @@ iim_kashipur_epgdbm: {
         {
           title: "What is the total program fee, and are EMI or installment options available?",
           content: [
-            "The program fee is INR 3,49,999 (inclusive of GST).",
+            "The program fee is INR 3,50,900 + GST",
             "Standard EMI options are available (with additional interest charges): 12 months at INR 32,942/month, 18 months at INR 22,840/month, and 24 months at INR 17,748/month."
           ]
         },

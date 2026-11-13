@@ -19,13 +19,13 @@ Fees, start dates and enrollment status change over time. Check the linked progr
 
 ## Partner institutions
 
+- IIM Kashipur
 - Indian Institute of Management Raipur
 - E&ICT Academy IIT Kanpur
 - IIM Lucknow
 - IIM Sirmaur
 - IIM Tiruchirappalli
 - IIM Ranchi
-- IIM Kashipur
 - I3C-IIT JAMMU
 - SP Jain School of Global Management
 - IIM Bodh Gaya
@@ -155,6 +155,28 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 
 ## Programs open for admission
 
+### [PG Diploma](https://accredian.com/course/pg-diploma)
+
+#### [Executive Post Graduate Diploma Program in Business Management](https://accredian.com/programs/iim-kashipur-executive-post-graduate-diploma-program-in-business-management)
+- **Institution:** IIM Kashipur
+- **Duration:** 14 Months
+- **Start date:** 25 April 2027
+- **Experience required:** 3+ years
+- **Fee:** INR 3,49,999 + GST
+- **Description:** Master Functional and Strategic Management through IIM Kashipur’s 14-month Executive Program, and develop the managerial expertise to lead business transformation while attaining IIM Kashipur Executive Alumni Status.
+
+#### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
+- **Institution:** IIM Visakhapatnam
+- **Duration:** 12 Months
+- **Start date:** 18 Apr 2027
+- **Experience required:** 3+ years
+- **Fee:** INR 4,84,300 + GST
+- **Description:** Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.
+- **Curriculum:**
+  1. Foundational
+  2. Intermediate
+  3. Final
+
 ### [Senior Management](https://accredian.com/course/senior-management)
 
 #### [Global Senior Leadership Program](https://accredian.com/programs/iim-raipur-global-senior-leadership-program)
@@ -162,7 +184,7 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 - **Duration:** 12 months
 - **Start date:** 28 Feb 2027
 - **Experience required:** 8+ years
-- **Fee:** INR 3,29,000 + GST
+- **Fee:** INR 3,39,000 + GST
 - **Description:** Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.
 - **Curriculum:**
   1. Strategic Leadership in Global Organizations
@@ -1180,20 +1202,6 @@ Accredian offers early-bird fee concessions for candidates who complete registra
   14. Strategic Leadership in the Digital Age
   15. Leadership with AI
   16. Capstone Project
-
-### [PG Diploma](https://accredian.com/course/pg-diploma)
-
-#### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
-- **Institution:** IIM Visakhapatnam
-- **Duration:** 12 Months
-- **Start date:** 18 Apr 2027
-- **Experience required:** 3+ years
-- **Fee:** INR 4,84,300 + GST
-- **Description:** Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.
-- **Curriculum:**
-  1. Foundational
-  2. Intermediate
-  3. Final
 
 ### [General Management](https://accredian.com/course/general-management)
 

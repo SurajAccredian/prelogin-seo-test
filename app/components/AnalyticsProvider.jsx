@@ -12,6 +12,16 @@ export default function AnalyticsProvider({ children }) {
     // Save _fbc_fallback cookie if fbclid is present in URL
     saveFbcFallback();
 
+    // Initialize dataLayer and gtag stub early so events can queue safely before GTM script loads
+    if (typeof window !== "undefined") {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag =
+        window.gtag ||
+        function () {
+          window.dataLayer.push(arguments);
+        };
+    }
+
     // PostHog initialization
     // posthog.init(
     //   process.env.NEXT_PUBLIC_POSTHOG_API_KEY || "phc_NZdN6nmco27sEhbueOjTabH2ozM8Hq8BJ3l4qH5vUob",
@@ -25,24 +35,6 @@ export default function AnalyticsProvider({ children }) {
 
   return (
     <>
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          setTimeout(function () {
-            var script = document.createElement("script");
-            script.async = true;
-            script.src = "https://www.googletagmanager.com/gtag/js?id=G-SWCZ0464KL";
-            document.head.appendChild(script);
-
-            window.dataLayer = window.dataLayer || [];
-            window.gtag = window.gtag || function () {
-              dataLayer.push(arguments);
-            };
-            window.gtag("js", new Date());
-            window.gtag("config", "G-SWCZ0464KL");
-          }, 2000);
-        `}
-      </Script>
-
       <Script id="gtm" strategy="afterInteractive">
         {`
           setTimeout(function () {

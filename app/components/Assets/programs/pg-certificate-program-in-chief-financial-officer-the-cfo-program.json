@@ -38,8 +38,8 @@
       "title": "modules"
     },
     {
-      "title": "campus immersion",
-      "text": "3 Days"
+      "text": "3 Days",
+      "title": "campus immersion"
     }
   ],
   "domain": "CXO Leadership",
@@ -81,7 +81,9 @@
           "Certification from IIM Ranchi",
           "Executive Alumni Status",
           "Career Assistance by Accredian",
-          "No Cost EMI up to 24 Months"
+          "EMI Options up to 24 Months",
+          "One Campus Immersion of 3 days",
+          "1 Capstone Project"
         ]
       }
     ]
@@ -90,8 +92,8 @@
   "unique_points": [
     "certificate",
     "capstone-project",
-    "mentoring-session",
-    "alumni-status"
+    "alumni-status",
+    "campus-immersion"
   ],
   "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
   "admission_process": [

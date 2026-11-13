@@ -1,5 +1,19 @@
 [
   {
+    "university_name": "IIM Kashipur",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+    "program_name": "Executive Post Graduate Diploma Program in Business Management",
+    "category": "PG Diploma",
+    "start_date": "25 April 2027",
+    "status": "New Launch",
+    "url": "https://accredian.com/programs/iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
+    "id": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
+    "pid": "186",
+    "duration": "14 Months",
+    "program_fee": 349999,
+    "required_years_experience": 3
+  },
+  {
     "university_name": "Indian Institute of Management Raipur",
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
     "program_name": "Global Senior Leadership Program",
@@ -10,7 +24,7 @@
     "id": "iim-raipur-global-senior-leadership-program",
     "pid": 183,
     "duration": "12 months",
-    "program_fee": 329000,
+    "program_fee": 339000,
     "required_years_experience": 8
   },
   {

@@ -1,0 +1,701 @@
+{
+  "id": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
+  "pid": 186,
+  "category": 75,
+  "vertical": "PG Diploma",
+  "title": "Executive Post Graduate Diploma Program in Business Management",
+  "seo_title": "Executive PG Diploma in Business Management | IIM Kashipur",
+  "og_title": "IIM Kashipur | Executive PG Diploma in Business Management",
+  "meta_description": "Explore IIM Kashipur’s 14-month Executive PG Diploma in Business Management for working professionals. Build functional, strategic and leadership skills.",
+  "description": "Advance your management career with IIM Kashipur’s 14-month Executive Post Graduate Diploma Program in Business Management. Develop strategic thinking, functional expertise and leadership capabilities to drive business growth and prepare for senior managerial roles.",
+  "short_title": "PG Diploma",
+  "contact": "8851827053",
+  "university_name": "IIM Kashipur",
+  "short_university_name": "iim-kashipur-pgdm",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-logo.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-short-logo.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/EPGDBM_SAMPLE_CERTIFICATE_page-0002.webp",
+  "start_date": "25 April 2027",
+  "duration": "14 Months",
+  "required_years_experience": 3,
+  "type": "online",
+  "enrollments": "upcoming",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "500",
+      "title": "hours"
+    },
+    {
+      "text": "20",
+      "title": "credits"
+    },
+    {
+      "text": "4",
+      "title": "term"
+    },
+    {
+      "text": "2",
+      "title": "campus immersions"
+    },
+    {
+      "title": "case studies",
+      "text": "Harvard Business School (HBS)"
+    }
+  ],
+  "domain": "PG Diploma",
+  "overview": {
+    "programId": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Mid-Level Managers: Strengthen managerial capabilities and transition into higher leadership roles.",
+          "Senior Managers: Enhance strategic thinking and organisational decision-making capabilities.",
+          "Working Professionals: Build cross-functional expertise across finance, marketing, and operations.HR,",
+          "Entrepreneurs: Strengthen business strategy, financial management, and operational capabilities.",
+          "Functional Specialists: Expand domain expertise and develop a broader understanding of business management.",
+          "Aspiring Business Leaders: Develop leadership skills and prepare for greater managerial responsibilities."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Management Consultant",
+          "Human Resources Manager",
+          "Business Development Manager",
+          "Supply Chain Manager",
+          "Marketing Manager",
+          "Project Manager",
+          "Finance Manager",
+          "Business Strategy Manager",
+          "Operations Manager"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "14-Month Executive Programme | Four Academic Terms",
+          "Learn from Eminent IIM Kashipur Faculty and Industry Experts",
+          "500 Contact Hours (366 Live + 134 Asynchronous)",
+          "Executive Post Graduate Diploma from IIM Kashipur",
+          "Weekend Live Online Classes",
+          "Curriculum Designed by IIM Kashipur Faculty",
+          "Three-Day On-Campus Immersion at IIM Kashipur",
+          "Valedictory Ceremony (Immersion) of Two Days",
+          "Industry Masterclasses & Harvard Business School (HBS) Case Studies",
+          "Capstone Project and Virtual Faculty Office Hours"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "capstone-project",
+    "alumni-status-opt",
+    "campus-immersion-opt",
+    "case-based-learning"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": {
+    "Terms 1 - 4": {
+      "title": "14-Month Academic Curriculum",
+      "subtitle": "4 Academic Terms · 500 Contact Hours · 20 Credits",
+      "totalCredits": 20,
+      "coreCourses": {
+        "title": "Core Courses",
+        "selectionRule": "All required",
+        "subtotalCredits": 20,
+        "courses": [
+          {
+            "name": "Managerial Economics",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Communication",
+            "credits": 0.68,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 5,
+            "total_hours": 17
+          },
+          {
+            "name": "Operations Management",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Financial and Management Accounting",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Organizational Behavior",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Statistics for Management",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Building Blocks of Leadership",
+            "credits": 0.48,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 0,
+            "total_hours": 12
+          },
+          {
+            "name": "Marketing Management",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Human Resources Management",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Environment and Indian Economy",
+            "credits": 0.84,
+            "live_hours": 15,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 21
+          },
+          {
+            "name": "Corporate Finance",
+            "credits": 0.84,
+            "live_hours": 15,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 21
+          },
+          {
+            "name": "Marketing Research",
+            "credits": 0.68,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 5,
+            "total_hours": 17
+          },
+          {
+            "name": "Innovation Management",
+            "credits": 0.68,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 5,
+            "total_hours": 17
+          },
+          {
+            "name": "Organizational Design in the Contemporary Era",
+            "credits": 0.48,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 0,
+            "total_hours": 12
+          },
+          {
+            "name": "Strategic Management",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Negotiations",
+            "credits": 0.68,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 5,
+            "total_hours": 17
+          },
+          {
+            "name": "Sales Management",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Ethics",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Valuation",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "E-Commerce and Platform Businesses",
+            "credits": 0.68,
+            "live_hours": 15,
+            "masterclass_hours": 1,
+            "async_hours": 1,
+            "total_hours": 17
+          },
+          {
+            "name": "Financial Modelling",
+            "credits": 0.48,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 0,
+            "total_hours": 12
+          },
+          {
+            "name": "B2B and Digital Marketing",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Digital Transformation",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Laws",
+            "credits": 0.84,
+            "live_hours": 12,
+            "masterclass_hours": 0,
+            "async_hours": 5,
+            "total_hours": 17
+          },
+          {
+            "name": "Startups, Entrepreneurship and Entrepreneurial Finance",
+            "credits": 0.72,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "International Economics",
+            "credits": 0.68,
+            "live_hours": 12,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 18
+          },
+          {
+            "name": "Business Analytics",
+            "credits": 0.72,
+            "live_hours": 15,
+            "masterclass_hours": 1,
+            "async_hours": 5,
+            "total_hours": 21
+          },
+          {
+            "name": "Capstone Project / CIS",
+            "credits": 1.2,
+            "live_hours": 30,
+            "masterclass_hours": 0,
+            "async_hours": 0,
+            "total_hours": 30
+          }
+        ]
+      },
+      "semesters": {
+        "Term 1": {
+          "id": "T1",
+          "title": "TERM I",
+          "name": "TERM I",
+          "totalCredits": 4.76,
+          "totalHours": 119,
+          "live_hours": 84,
+          "masterclass_hours": 5,
+          "async_hours": 30,
+          "coreCourses": {
+            "title": "Core Courses",
+            "selectionRule": "All required",
+            "subtotalCredits": 4.76,
+            "courses": [
+              {
+                "name": "Managerial Economics",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Communication",
+                "credits": 0.68,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 5,
+                "total_hours": 17
+              },
+              {
+                "name": "Operations Management",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Financial and Management Accounting",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Organizational Behavior",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Statistics for Management",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Building Blocks of Leadership",
+                "credits": 0.48,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 0,
+                "total_hours": 12
+              }
+            ]
+          },
+          "openElectives": null,
+          "limitedA": null,
+          "limitedB": null,
+          "masterClass": null
+        },
+        "Term 2": {
+          "id": "T2",
+          "title": "TERM II",
+          "name": "TERM II",
+          "totalCredits": 4.96,
+          "totalHours": 124,
+          "live_hours": 90,
+          "masterclass_hours": 4,
+          "async_hours": 30,
+          "coreCourses": {
+            "title": "Core Courses",
+            "selectionRule": "All required",
+            "subtotalCredits": 4.96,
+            "courses": [
+              {
+                "name": "Marketing Management",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Human Resources Management",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Environment and Indian Economy",
+                "credits": 0.84,
+                "live_hours": 15,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 21
+              },
+              {
+                "name": "Corporate Finance",
+                "credits": 0.84,
+                "live_hours": 15,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 21
+              },
+              {
+                "name": "Marketing Research",
+                "credits": 0.68,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 5,
+                "total_hours": 17
+              },
+              {
+                "name": "Innovation Management",
+                "credits": 0.68,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 5,
+                "total_hours": 17
+              },
+              {
+                "name": "Organizational Design in the Contemporary Era",
+                "credits": 0.48,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 0,
+                "total_hours": 12
+              }
+            ]
+          },
+          "openElectives": null,
+          "limitedA": null,
+          "limitedB": null,
+          "masterClass": null
+        },
+        "Term 3": {
+          "id": "T3",
+          "title": "TERM III",
+          "name": "TERM III",
+          "totalCredits": 4.72,
+          "totalHours": 118,
+          "live_hours": 87,
+          "masterclass_hours": 5,
+          "async_hours": 26,
+          "coreCourses": {
+            "title": "Core Courses",
+            "selectionRule": "All required",
+            "subtotalCredits": 4.72,
+            "courses": [
+              {
+                "name": "Strategic Management",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Negotiations",
+                "credits": 0.68,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 5,
+                "total_hours": 17
+              },
+              {
+                "name": "Sales Management",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Ethics",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Valuation",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "E-Commerce and Platform Businesses",
+                "credits": 0.68,
+                "live_hours": 15,
+                "masterclass_hours": 1,
+                "async_hours": 1,
+                "total_hours": 17
+              },
+              {
+                "name": "Financial Modelling",
+                "credits": 0.48,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 0,
+                "total_hours": 12
+              }
+            ]
+          },
+          "openElectives": null,
+          "limitedA": null,
+          "limitedB": null,
+          "masterClass": null
+        },
+        "Term 4": {
+          "id": "T4",
+          "title": "TERM IV",
+          "name": "TERM IV",
+          "totalCredits": 5.6,
+          "totalHours": 140,
+          "live_hours": 105,
+          "masterclass_hours": 5,
+          "async_hours": 30,
+          "coreCourses": {
+            "title": "Core Courses",
+            "selectionRule": "All required",
+            "subtotalCredits": 5.6,
+            "courses": [
+              {
+                "name": "B2B and Digital Marketing",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Digital Transformation",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Laws",
+                "credits": 0.84,
+                "live_hours": 12,
+                "masterclass_hours": 0,
+                "async_hours": 5,
+                "total_hours": 17
+              },
+              {
+                "name": "Startups, Entrepreneurship and Entrepreneurial Finance",
+                "credits": 0.72,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "International Economics",
+                "credits": 0.68,
+                "live_hours": 12,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 18
+              },
+              {
+                "name": "Business Analytics",
+                "credits": 0.72,
+                "live_hours": 15,
+                "masterclass_hours": 1,
+                "async_hours": 5,
+                "total_hours": 21
+              },
+              {
+                "name": "Capstone Project / CIS",
+                "credits": 1.2,
+                "live_hours": 30,
+                "masterclass_hours": 0,
+                "async_hours": 0,
+                "total_hours": 30
+              }
+            ]
+          },
+          "openElectives": null,
+          "limitedA": null,
+          "limitedB": null,
+          "masterClass": null
+        }
+      }
+    }
+  },
+  "billing": {
+    "total": 350900,
+    "points": [
+      "500+ Hours of Live Classes",
+      "Capstone Project",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 32942,
+        "months": 12
+      },
+      {
+        "emi": 22840,
+        "months": 18
+      },
+      {
+        "emi": 17748,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Executive-Post-Graduate-Diploma-Program-In-Business-Management.pdf",
+    "source": "IIM-KASHIPUR Executive Post Graduate Diploma Program in Business Management Brochure",
+    "campaign_name": "IIM-KASHIPUR-PG Diploma"
+  },
+  "faculty": [],
+  "tools": []
+}

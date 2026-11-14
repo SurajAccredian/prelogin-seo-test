@@ -92,7 +92,8 @@ const Wrapper = ({ data }) => {
               {renderSection(section)}
             </div>
           ))}
-          {data?.id !== "gim-hybrid-post-graduate-diploma-in-management" && (
+          {data?.id !== "gim-hybrid-post-graduate-diploma-in-management" &&
+            data?.id !== "iim-kashipur-executive-post-graduate-diploma-program-in-business-management" && (
             <>
               <Line />
               <Related data={data} />

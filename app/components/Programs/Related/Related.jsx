@@ -98,7 +98,10 @@ const Related = ({ data: propData }) => {
   }, [swiper]);
 
 
-  if (data?.id === "gim-hybrid-post-graduate-diploma-in-management") {
+  if (
+    data?.id === "gim-hybrid-post-graduate-diploma-in-management" ||
+    data?.id === "iim-kashipur-executive-post-graduate-diploma-program-in-business-management"
+  ) {
     return null;
   }
 

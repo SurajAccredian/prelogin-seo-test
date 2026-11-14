@@ -12,7 +12,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "11 Oct 2026",
+  "start_date": "13 Feb 2027",
   "duration": "4 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -241,18 +241,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 10842
+        "emi": 13986
       },
       {
         "months": 18,
-        "emi": 7490
+        "emi": 9662
       },
       {
         "months": 24,
-        "emi": 5802
+        "emi": 7485
       }
     ],
-    "total": 130000
+    "total": 169000
   },
   "faq": {
     "programId": "professional-certificate-in-ai-for-leaders",

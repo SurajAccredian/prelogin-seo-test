@@ -21,8 +21,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/material.css";
 import "./phone-input.css";
 import Swal from "sweetalert2";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 import ReCAPTCHA from "react-google-recaptcha";
 import { detectBrowserLocation } from "../../helpers/location.helpers";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
@@ -276,16 +275,7 @@ const BrochureContent = (props) => {
         });
       }
     } else {
-      toast.error("Please enter a valid mobile number", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "colored",
-      });
+      toast.error("Please enter a valid mobile number");
     }
   };
 
@@ -567,8 +557,6 @@ const BrochureContent = (props) => {
           </Grid>
         </Box>
       </BootstrapDialog>
-
-      <ToastContainer />
     </>
   );
 };

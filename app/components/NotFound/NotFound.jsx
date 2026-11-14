@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ToastContainer, toast } from "react-toastify";
+import toast from "react-hot-toast";
 import Footer from "../Footer/Footer";
 import MainNavbar from "../Navbar/MainNavbar";
 import { useRouter } from "next/navigation";
@@ -23,42 +23,8 @@ const NotFound = () => {
 
       // Show toast notification
       toast.success(response.message, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        icon: (
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="12" cy="12" r="10" stroke="#1A73E8" strokeWidth="2" fill="none" />
-            <path
-              d="M8 12l2 2 4-4"
-              stroke="#1A73E8"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        ),
-        style: {
-          fontSize: "15px",
-          width: window.innerWidth < 480 ? "100%" : "340px",
-          maxWidth: window.innerWidth < 480 ? "100vw" : "340px",
-        },
-        progressStyle: {
-          background: "#1A73E8",
-          height: "6px",
-        },
+        duration: 5000,
       });
-
 
       // Redirect after 5 seconds
       setTimeout(() => {
@@ -66,17 +32,7 @@ const NotFound = () => {
       }, 5000);
     } catch (error) {
       toast.error(error.message, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        style: {
-          fontSize: "15px",
-          width: window.innerWidth < 480 ? "100%" : "340px",
-          maxWidth: window.innerWidth < 480 ? "100vw" : "340px",
-        },
+        duration: 5000,
       });
     } finally {
       setLoading(false);
@@ -85,7 +41,6 @@ const NotFound = () => {
 
   return (
     <>
-      <ToastContainer />
       <MainNavbar />
       <div className="w-full min-h-[70vh] flex flex-col items-center justify-center bg-white-100 px-6 pb-6 text-center">
 

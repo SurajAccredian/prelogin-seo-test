@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import CareerTransition from "../CTA_Modal/career_transition";
+import dynamic from "next/dynamic";
+
+const CareerTransition = dynamic(() => import("../CTA_Modal/career_transition"), { ssr: false });
 
 
 const Hero = () => {

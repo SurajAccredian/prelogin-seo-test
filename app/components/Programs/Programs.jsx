@@ -9,10 +9,12 @@ import toast from "react-hot-toast";
 
 import "./Programs.css";
 import NotFound from "../NotFound/NotFound";
-import GetBrochure from "../Modals/call-to-actions/get-brochure";
-import EnrollNow from "../Modals/call-to-actions/enroll-now";
+import dynamic from "next/dynamic";
 import SkeletonWL from "../Skeleton/Withoutlogin";
 import Wrapper from "./wrapper";
+
+const GetBrochure = dynamic(() => import("../Modals/call-to-actions/get-brochure"), { ssr: false });
+const EnrollNow = dynamic(() => import("../Modals/call-to-actions/enroll-now"), { ssr: false });
 
 const API_BASE_URL = "https://internal-dash.accredian.com/api/v1/automations/preview";
 

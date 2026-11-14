@@ -11,8 +11,7 @@ import { useDispatch, useSelector, useStore } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import { VscListFilter } from "react-icons/vsc";
 import { useDisclosure } from "@chakra-ui/react";
-import FilterPageDrawer from "../../Drawers/FilterPageDrawer/FilterPageDrawer";
-import DownloadBrochure from "../../CTA_Modal/download_brochure";
+import dynamic from "next/dynamic";
 import { useSearchParams, useRouter } from "next/navigation";
 import { sortPrograms } from "../../../helpers/common.helpers";
 import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
@@ -21,6 +20,9 @@ import {
   filterPrograms,
   formatFilterLabel,
 } from "../../../helpers/programFilter.helpers";
+
+const FilterPageDrawer = dynamic(() => import("../../Drawers/FilterPageDrawer/FilterPageDrawer"), { ssr: false });
+const DownloadBrochure = dynamic(() => import("../../CTA_Modal/download_brochure"), { ssr: false });
 
 
 const areArraysEqual = (arr1 = [], arr2 = []) => {
@@ -444,8 +446,8 @@ const SearchedPageInner = () => {
       title: "Filters",
       categories: [],
       checked: [],
-      handleChange: () => {},
-      setChecked: () => {},
+      handleChange: () => { },
+      setChecked: () => { },
     };
   };
 
@@ -534,7 +536,7 @@ const SearchedPageInner = () => {
 
               {/* Right Content Area */}
               <div className="flex-1">
-                
+
                 {/* Results text & Sort by controls row */}
                 <div className="w-full flex items-center justify-between flex-wrap gap-3 mt-4 mb-2">
                   <div className="flex items-center gap-3">

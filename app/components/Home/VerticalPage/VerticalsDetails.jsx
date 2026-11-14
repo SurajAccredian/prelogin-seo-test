@@ -6,7 +6,9 @@ import PROGRAMS from "../../../Assets/constants/programs.json";
 import { useEffect, useState } from "react";
 import { CiViewTimeline } from "react-icons/ci";
 import Wrapper from "../../Wrappers/Wrapper";
-import Brochure from "../../CTA_Modal/download_brochure";
+import dynamic from "next/dynamic";
+
+const Brochure = dynamic(() => import("../../CTA_Modal/download_brochure"), { ssr: false });
 const VerticalDetail = () => {
   const [categorizedPrograms, setCategorizedPrograms] = useState([]);
   const [brotureDownloadInfo, setBrotureDownloadInfo] = useState(null);

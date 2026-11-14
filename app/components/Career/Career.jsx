@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import {
   Grid,
   Typography,
@@ -10,9 +10,9 @@ import {
   ThemeProvider,
   createTheme,
 } from "@mui/material";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -29,53 +29,6 @@ export default function Career() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
-  const sliderRef = useRef();
-
-  const settings = {
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    // dots: true,
-    autoplay: true,
-    autoplaySpeed: 6000,
-
-    responsive: [
-      {
-        breakpoint: 1124,
-        settings: {
-          infinite: true,
-          // dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 6000,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          infinite: true,
-          // dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 6000,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          infinite: true,
-          // dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 6000,
-        },
-      },
-    ],
-  };
-
 
   return (
     <main className="w-full block flex-grow mt-10 md:mt-0">
@@ -495,204 +448,210 @@ export default function Career() {
                           </Box>
                         </Grid>
                         <Grid size={6}>
-                          <Slider
-                            ref={sliderRef}
-                            {...settings}
-                            style={{ overflowX: "hidden" }}
+                          <Swiper
+                            modules={[Autoplay]}
+                            autoplay={{ delay: 6000, disableOnInteraction: false }}
+                            loop={true}
+                            slidesPerView={1}
+                            className="w-full overflow-hidden"
                           >
+                          <SwiperSlide>
                             <CardMedia
                               component="img"
                               image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/campany-work-fun.webp"
                               alt="Goole"
                               sx={{}}
                             />
+                          </SwiperSlide>
+                          <SwiperSlide>
                             <CardMedia
                               component="img"
                               image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/company-fun-2.webp"
                               alt="Goole"
                               sx={{}}
                             />
-                          </Slider>
-                        </Grid>
+                          </SwiperSlide>
+                        </Swiper>
                       </Grid>
-                    </Container>
-                  </Box>
+                    </Grid>
                 </Container>
               </Box>
-              <Box sx={{ mb: 5 }}>
+            </Container>
+          </Box>
+          <Box sx={{ mb: 5 }}>
+            <Container fixed>
+              <Box sx={{ ml: -2 }}>
                 <Container fixed>
-                  <Box sx={{ ml: -2 }}>
-                    <Container fixed>
-                      <Grid size={12} container>
-                        <Grid size={6}>
-                          <CardMedia
-                            component="img"
-                            image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/careers3.webp"
-                            alt="Goole"
-                            sx={{}}
-                          />
-                        </Grid>
-                        <Grid size={6}>
-                          <Box sx={{ mx: 13, mt: 15 }}>
-                            <Typography
-                              variant="h4"
-                              component="div"
-                              sx={{
-                                color: "#000",
-                                textDecoration: "none",
-                                fontSize: "25px",
-                                fontWeight: 400,
-                                mb: 2,
-                              }}
-                            >
-                              Accelerated Growth
-                            </Typography>
-                            <Typography
-                              variant="h4"
-                              component="div"
-                              sx={{
-                                color: "rgba(0, 0, 0, 0.5)",
-                                textDecoration: "none",
-                                fontSize: "17px",
-                                mb: 2,
-                              }}
-                            >
-                              If you're looking for faster growth, right role and a
-                              great opportunity to maximise your full potential then you
-                              should join us.{" "}
-                            </Typography>
-                            <Typography
-                              variant="h4"
-                              component="div"
-                              sx={{
-                                color: "rgba(0, 0, 0, 0.5)",
-                                textDecoration: "none",
-                                fontSize: "17px",
-                              }}
-                            >
-                              We truly believe in speed, innovation & results.{" "}
-                            </Typography>
-                          </Box>
-                        </Grid>
-                      </Grid>
-                    </Container>
-                  </Box>
-                </Container>
-              </Box>
-            </Box>
-            <Box sx={{ py: 2 }}>
-              <Box sx={{ pb: 5, backgroundColor: "#0091ff" }}>
-                <Container fixed>
-                  <Typography
-                    variant="h4"
-                    component="div"
-                    sx={{
-                      color: "#fff",
-                      textDecoration: "none",
-                      fontSize: "25px",
-                      textAlign: "center",
-                      fontWeight: 400,
-                      mb: 3,
-                      pt: 10,
-                    }}
-                  >
-                    Three pillars of our culture
-                  </Typography>
-                  {/* ✅ FIXED: removed `item`, lg={12} → size={12}, lg={4} → size={4} */}
-                  <Grid size={12} container justifyContent="center" spacing={4}>
-                    <Grid size={4}>
-                      <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
-                        <CardMedia
-                          component="img"
-                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Transparency.webp"
-                          alt="Transparency"
-                          sx={{ width: "60px", flexShrink: 0 }}
-                        />
-                        <Typography
-                          variant="h4"
-                          component="div"
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            fontSize: "22px",
-                          }}
-                        >
-                          Transparency
-                        </Typography>
-                      </Box>
+                  <Grid size={12} container>
+                    <Grid size={6}>
+                      <CardMedia
+                        component="img"
+                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/careers3.webp"
+                        alt="Goole"
+                        sx={{}}
+                      />
                     </Grid>
-                    <Grid size={4}>
-                      <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
-                        <CardMedia
-                          component="img"
-                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Growth-Oriented.webp"
-                          alt="Growth Oriented"
-                          sx={{ width: "60px", flexShrink: 0 }}
-                        />
+                    <Grid size={6}>
+                      <Box sx={{ mx: 13, mt: 15 }}>
                         <Typography
                           variant="h4"
                           component="div"
                           sx={{
-                            color: "#fff",
+                            color: "#000",
                             textDecoration: "none",
-                            fontSize: "22px",
+                            fontSize: "25px",
+                            fontWeight: 400,
+                            mb: 2,
                           }}
                         >
-                          Growth Oriented
+                          Accelerated Growth
                         </Typography>
-                      </Box>
-                    </Grid>
-                    <Grid size={4}>
-                      <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
-                        <CardMedia
-                          component="img"
-                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Impact-Driven.webp"
-                          alt="Impact Driven"
-                          sx={{ width: "60px", flexShrink: 0 }}
-                        />
                         <Typography
                           variant="h4"
                           component="div"
                           sx={{
-                            color: "#fff",
+                            color: "rgba(0, 0, 0, 0.5)",
                             textDecoration: "none",
-                            fontSize: "22px",
+                            fontSize: "17px",
+                            mb: 2,
                           }}
                         >
-                          Impact Driven
+                          If you're looking for faster growth, right role and a
+                          great opportunity to maximise your full potential then you
+                          should join us.{" "}
+                        </Typography>
+                        <Typography
+                          variant="h4"
+                          component="div"
+                          sx={{
+                            color: "rgba(0, 0, 0, 0.5)",
+                            textDecoration: "none",
+                            fontSize: "17px",
+                          }}
+                        >
+                          We truly believe in speed, innovation & results.{" "}
                         </Typography>
                       </Box>
                     </Grid>
                   </Grid>
                 </Container>
               </Box>
-            </Box>
-            <Box id="apply-form">
-              <Container fixed>
-                <Typography
-                  variant="h4"
-                  component="div"
-                  sx={{
-                    color: "#000",
-                    textDecoration: "none",
-                    fontSize: "20px",
-                    textAlign: "center",
-                    fontWeight: 400,
-                    mb: 3,
-                    pt: 2,
-                    mx: 15,
-                  }}
-                >
-                  Your work will directly impact professionals through education and
-                  help them upgrade to better lives. Apply to your dream role where
-                  you can work with utmost passion.
-                </Typography>
-              </Container>
-            </Box>
+            </Container>
           </Box>
         </Box>
+        <Box sx={{ py: 2 }}>
+          <Box sx={{ pb: 5, backgroundColor: "#0091ff" }}>
+            <Container fixed>
+              <Typography
+                variant="h4"
+                component="div"
+                sx={{
+                  color: "#fff",
+                  textDecoration: "none",
+                  fontSize: "25px",
+                  textAlign: "center",
+                  fontWeight: 400,
+                  mb: 3,
+                  pt: 10,
+                }}
+              >
+                Three pillars of our culture
+              </Typography>
+              {/* ✅ FIXED: removed `item`, lg={12} → size={12}, lg={4} → size={4} */}
+              <Grid size={12} container justifyContent="center" spacing={4}>
+                <Grid size={4}>
+                  <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                    <CardMedia
+                      component="img"
+                      image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Transparency.webp"
+                      alt="Transparency"
+                      sx={{ width: "60px", flexShrink: 0 }}
+                    />
+                    <Typography
+                      variant="h4"
+                      component="div"
+                      sx={{
+                        color: "#fff",
+                        textDecoration: "none",
+                        fontSize: "22px",
+                      }}
+                    >
+                      Transparency
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid size={4}>
+                  <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                    <CardMedia
+                      component="img"
+                      image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Growth-Oriented.webp"
+                      alt="Growth Oriented"
+                      sx={{ width: "60px", flexShrink: 0 }}
+                    />
+                    <Typography
+                      variant="h4"
+                      component="div"
+                      sx={{
+                        color: "#fff",
+                        textDecoration: "none",
+                        fontSize: "22px",
+                      }}
+                    >
+                      Growth Oriented
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid size={4}>
+                  <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                    <CardMedia
+                      component="img"
+                      image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/Impact-Driven.webp"
+                      alt="Impact Driven"
+                      sx={{ width: "60px", flexShrink: 0 }}
+                    />
+                    <Typography
+                      variant="h4"
+                      component="div"
+                      sx={{
+                        color: "#fff",
+                        textDecoration: "none",
+                        fontSize: "22px",
+                      }}
+                    >
+                      Impact Driven
+                    </Typography>
+                  </Box>
+                </Grid>
+              </Grid>
+            </Container>
+          </Box>
+        </Box>
+        <Box id="apply-form">
+          <Container fixed>
+            <Typography
+              variant="h4"
+              component="div"
+              sx={{
+                color: "#000",
+                textDecoration: "none",
+                fontSize: "20px",
+                textAlign: "center",
+                fontWeight: 400,
+                mb: 3,
+                pt: 2,
+                mx: 15,
+              }}
+            >
+              Your work will directly impact professionals through education and
+              help them upgrade to better lives. Apply to your dream role where
+              you can work with utmost passion.
+            </Typography>
+          </Container>
+        </Box>
+      </Box>
+    </Box>
 
-        {/* ===== MOBILE VIEW ===== */}
+        {/* ===== MOBILE VIEW ===== */ }
         <Box sx={{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }}>
           <Box
             sx={{
@@ -1033,24 +992,30 @@ export default function Career() {
               <Container fixed>
                 <Grid size={12} container>
                   <Grid size={12}>
-                    <Slider
-                      ref={sliderRef}
-                      {...settings}
-                      style={{ overflowX: "hidden" }}
+                    <Swiper
+                      modules={[Autoplay]}
+                      autoplay={{ delay: 6000, disableOnInteraction: false }}
+                      loop={true}
+                      slidesPerView={1}
+                      className="w-full overflow-hidden"
                     >
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/campany-work-fun.webp"
-                        alt="Goole"
-                        sx={{}}
-                      />
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/company-fun-2.webp"
-                        alt="Goole"
-                        sx={{}}
-                      />
-                    </Slider>
+                      <SwiperSlide>
+                        <CardMedia
+                          component="img"
+                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/campany-work-fun.webp"
+                          alt="Goole"
+                          sx={{}}
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <CardMedia
+                          component="img"
+                          image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/company-fun-2.webp"
+                          alt="Goole"
+                          sx={{}}
+                        />
+                      </SwiperSlide>
+                    </Swiper>
                   </Grid>
                   <Grid size={12}>
                     <Box sx={{}}>
@@ -1254,10 +1219,10 @@ export default function Career() {
               </Typography>
             </Container>
           </Box>
-        </Box>
-        <Form />
-      </ThemeProvider>
-      <Footer />
-    </main>
+        </Box >
+    <Form />
+      </ThemeProvider >
+    <Footer />
+    </main >
   );
 }

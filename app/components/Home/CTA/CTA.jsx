@@ -2,9 +2,10 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 
 import "./CTA.css";
 import { IoIosArrowForward } from "react-icons/io";
-// import CtaModal from "../../Modals/call-to-actions/get-in-touch";
+import dynamic from "next/dynamic";
 import { useState } from "react";
-import CtaModal from "../../Modals/call-to-actions/get-in-touch";
+
+const CtaModal = dynamic(() => import("../../Modals/call-to-actions/get-in-touch"), { ssr: false });
 
 const CTA = () => {
   const [isModalOpen, setIsModalOpen] = useState(null);

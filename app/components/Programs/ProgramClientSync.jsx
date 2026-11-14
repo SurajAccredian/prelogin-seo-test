@@ -7,13 +7,15 @@ import { programActions } from "../../store/reducers/program";
 import { userActions } from "../../store/reducers/user";
 import universityUrls from "../Assets/category-urls.json";
 import { useProgramStatuses } from "../../helpers/useProgramStatuses";
-import GetBrochure from "../Modals/call-to-actions/get-brochure";
-import EnrollNow from "../Modals/call-to-actions/enroll-now";
+import dynamic from "next/dynamic";
 import {
   ENCODED_ACTIONS,
   decodeAction,
   buildModalUrl,
 } from "../../helpers/modalUrl.helpers";
+
+const GetBrochure = dynamic(() => import("../Modals/call-to-actions/get-brochure"), { ssr: false });
+const EnrollNow = dynamic(() => import("../Modals/call-to-actions/enroll-now"), { ssr: false });
 
 export { ENCODED_ACTIONS, decodeAction, buildModalUrl };
 
@@ -54,7 +56,7 @@ function ProgramClientSyncInner({ initialProgramData }) {
       searchParams?.get("action") ||
       (typeof window !== "undefined"
         ? new URLSearchParams(window.location.search).get("modal") ||
-          new URLSearchParams(window.location.search).get("action")
+        new URLSearchParams(window.location.search).get("action")
         : null);
 
     if (!rawModalParam) {
@@ -134,8 +136,8 @@ function ProgramClientSyncInner({ initialProgramData }) {
     const activeAction = isBrochureOpen
       ? "brochure"
       : isLoginOpen
-      ? "enroll"
-      : null;
+        ? "enroll"
+        : null;
 
     if (activeAction) {
       wasModalOpenRef.current = true;

@@ -20,8 +20,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import { usePathname, useSearchParams } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
 import Swal from "sweetalert2";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 import axios from "axios";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
 import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
@@ -182,15 +181,7 @@ const CareerTransitionContent = (props) => {
           });
         });
     } else {
-      toast.error("Please enter a valid mobile number", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        theme: "colored",
-      });
+      toast.error("Please enter a valid mobile number");
     }
   };
 
@@ -375,7 +366,6 @@ const CareerTransitionContent = (props) => {
           </Grid>
         </Box>
       </RcbDialog>
-      <ToastContainer />
     </>
   );
 };

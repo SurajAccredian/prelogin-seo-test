@@ -528,8 +528,9 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iim_raipur_gslp"
         : programData.id == "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program"
         ? "iim_ranchi_coo"
-        : 'iitk';
-        
+        : programData.id == "iim-kashipur-executive-post-graduate-diploma-program-in-business-management"
+        ? "iim_kashipur_epgdbm"
+        : 'iitk';       
         
     const template = universityFaqTemplates[universityCode];
     console.log(template)

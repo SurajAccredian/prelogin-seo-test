@@ -1,11 +1,14 @@
 {
   "id": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
-  "pid": 184,
-  "category": 74,
-  "vertical": "PG Diploma ",
+  "pid": 186,
+  "category": 75,
+  "vertical": "PG Diploma",
   "title": "Executive Post Graduate Diploma Program in Business Management",
-  "description": "Master Functional and Strategic Management through IIM Kashipur’s 14-month Executive Program, and develop the managerial expertise to lead business transformation while attaining IIM Kashipur Executive Alumni Status.",
-  "short_title": "PG Diploma ",
+  "seo_title": "Executive PG Diploma in Business Management | IIM Kashipur",
+  "og_title": "IIM Kashipur | Executive PG Diploma in Business Management",
+  "meta_description": "Explore IIM Kashipur’s 14-month Executive PG Diploma in Business Management for working professionals. Build functional, strategic and leadership skills.",
+  "description": "Advance your management career with IIM Kashipur’s 14-month Executive Post Graduate Diploma Program in Business Management. Develop strategic thinking, functional expertise and leadership capabilities to drive business growth and prepare for senior managerial roles.",
+  "short_title": "PG Diploma",
   "contact": "8851827053",
   "university_name": "IIM Kashipur",
   "short_university_name": "iim-kashipur-pgdm",
@@ -42,7 +45,7 @@
       "text": "Harvard Business School (HBS)"
     }
   ],
-  "domain": "PG Diploma ",
+  "domain": "PG Diploma",
   "overview": {
     "programId": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
     "content": [
@@ -95,7 +98,11 @@
     "campus-immersion-opt",
     "case-based-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "Application Review",
@@ -650,7 +657,7 @@
     }
   },
   "billing": {
-    "total": 349999,
+    "total": 350900,
     "points": [
       "500+ Hours of Live Classes",
       "Capstone Project",
@@ -681,7 +688,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMKASHIPUR-Executive-Post-Graduate-Diploma-Program-In-Business-Management.pdf",

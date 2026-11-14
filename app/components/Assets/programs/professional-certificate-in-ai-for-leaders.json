@@ -241,18 +241,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 13986
+        "emi": 12685
       },
       {
         "months": 18,
-        "emi": 9662
+        "emi": 8795
       },
       {
         "months": 24,
-        "emi": 7485
+        "emi": 6835
       }
     ],
-    "total": 169000
+    "total": 139000
   },
   "faq": {
     "programId": "professional-certificate-in-ai-for-leaders",

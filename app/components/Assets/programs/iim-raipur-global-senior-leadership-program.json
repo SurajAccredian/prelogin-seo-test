@@ -91,14 +91,18 @@
       }
     ]
   },
-  "curriculum_type": "pillar",
+  "curriculum_type": "module",
   "unique_points": [
     "campus-immersion",
     "capstone-project",
     "certificate",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "Application Review",
@@ -218,8 +222,7 @@
     },
     {
       "title": "CEO Specialization",
-      "points": [],
-      "modules": []
+      "points": []
     },
     {
       "title": "Module 1: The Modern CEO",
@@ -228,8 +231,7 @@
         "Strategic Decision-Making Under Uncertainty",
         "Executive Resilience & Peak Performance",
         "Executive Presence & Leadership Credibility"
-      ],
-      "modules": []
+      ]
     },
     {
       "title": "Module 2: Board, Investor Relations & External Leadership",

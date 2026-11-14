@@ -20,7 +20,7 @@
   "seo_title": "IIM Lucknow Strategic Project Management | Accredian",
   "domain": "module",
   "billing": {
-    "total": 242500,
+    "total": 267500,
     "points": [
       "126+ Hours of Live Classes",
       "Interactive Doubt-Clearing Sessions",
@@ -82,7 +82,7 @@
       {
         "title": "program snapshot",
         "points": [
-          "10 Modules - Project Planning, Risk Management, and Project Procurement",
+          "9 Modules - Project Planning, Risk Management, and Project Procurement",
           "Learn From The Top Industry Professionals",
           "Duration: 10 Months | Weekend Online",
           "Certification From IIM Lucknow",
@@ -107,73 +107,67 @@
     "FAQs"
   ],
   "vertical": "Project Management",
+  
+
   "curriculum": [
     {
       "id": "1",
       "title": "Business Economics for Strategic Decisions",
       "points": [
-        "Dynamics of Market Demand & Supply",
-        "Cost Structure, Scale Economies, & Learning Curve",
-        "Economics of Multi-Sided Platforms & New Disruptive Business Models",
-        "Sustaining Business in Competitive Market",
-        "Understanding Macroeconomic & Global Business Environment"
+        "Dynamics of market demand and supply",
+        "Cost Structure, Scale Economies, and Learning Curve",
+        "Economics of multi sided platforms and new disruptive business models",
+        "Sustaining business in competitive market",
+        "Understanding Macroeconomic and Global Business Environment"
       ]
     },
     {
       "id": "2",
       "title": "Financial Acumen for Project Leaders",
       "points": [
-        "Financial Fundamentals for Project Leaders",
-        "Project Finance Structures & Use Cases",
-        "NPV, IRR, Payback, & Valuation Challenges",
-        "Risk Modelling & Financial Sensitivity Analysis"
+        "Financial fundamentals for project leaders",
+        "Project finance structures and use cases",
+        "NPV, IRR, payback, and valuation challenges",
+        "Risk modelling and financial sensitivity analysis"
       ]
     },
     {
       "id": "3",
-      "title": "Strategic Project Planning & Resourcing",
+      "title": "Strategic Project Planning & Execution Leadership",
       "points": [
-        "Aligning Project Selection & Procurement with Organisational Strategy",
-        "Project Scope & Planning",
-        "Effective Team Performance Management",
-        "Resource Allocation & Value Creation Strategies",
-        "Basics of Statistics, Optimisation for Analysis"
+        "Project Scope, Planning, & Project Charter",
+        "Gantt charts and visual control mechanisms",
+        "Network diagrams and dependency management",
+        "Critical path analysis- CPM",
+        "Scheduling under uncertainty – PERT, Monte Carlo Simulations",
+        "Fast-tracking and crashing decisions",
+        "Resource constrained scheduling",
+        "Project closure and outcome evaluation",
+        "Advanced project scheduling topics"
       ]
     },
     {
       "id": "4",
-      "title": "Project Execution Leadership & Schedule Optimization",
+      "title": "Agile Project Management for Delivery Excellence",
       "points": [
-        "Gantt Charts & Visual Control Mechanisms",
-        "Network Diagrams & Dependency Management",
-        "Critical Path Analysis – PERT & CPM Techniques",
-        "Fast-Tracking & Crashing Decisions",
-        "Project Closure & Outcome Evaluation",
-        "Advanced Project Scheduling Topics"
+        "Introduction to Agile",
+        "Scrum roles, ceremonies, and execution discipline",
+        "User stories and backlog prioritization (with GenAI)",
+        "Agile metrics, velocity, and predictability tracking"
       ]
     },
     {
       "id": "5",
-      "title": "Agile Project Management for Delivery Excellence",
+      "title": "Digital Product Leadership",
       "points": [
-        "Introduction to Agile",
-        "Scrum Roles, Ceremonies, & Execution Discipline",
-        "User Stories & Backlog Prioritization (with GenAI)",
-        "Agile Metrics, Velocity, & Predictability Tracking"
+        "Product R&D Strategy",
+        "Product Visioning & Marketing alignment",
+        "Building AI-first products",
+        "Tooling ecosystem: Jira, Azure DevOps"
       ]
     },
     {
       "id": "6",
-      "title": "Digital Product Leadership",
-      "points": [
-        "Product R&D Strategy",
-        "Product Visioning & Marketing Alignment",
-        "Building AI-First Products",
-        "Tooling Ecosystem: Jira, Azure DevOps"
-      ]
-    },
-    {
-      "id": "7",
       "title": "Agile for C-Suite (Program and Portfolio)",
       "points": [
         "Agile for Strategy",
@@ -182,17 +176,17 @@
       ]
     },
     {
-      "id": "8",
+      "id": "7",
       "title": "Digital, Legal & ESG for Project Leaders",
       "points": [
         "Basics of Procurement",
         "CyberRisk Management in the Digital Age",
-        "General Principles of Contract – Legal Perspective",
-        "ESG & Sustainability – Implications for Projects"
+        "General Principles of Contract – Legal perspective",
+        "ESG and Sustainability – Implications for Projects"
       ]
     },
     {
-      "id": "9",
+      "id": "8",
       "title": "Data & AI Driven Project Management",
       "points": [
         "Data Foundations, Project Analytics",
@@ -202,18 +196,20 @@
       ]
     },
     {
-      "id": "10",
+      "id": "9",
       "title": "Leadership, Stakeholder Management & Communication",
       "points": [
         "Executive Communication",
-        "CXO-Level Storytelling",
-        "Cross-Cultural Communications",
-        "Leading through Stakeholders: Managing Relationships That Matter",
-        "From Differences to Strength: Team Building in a Diverse Workplace"
+        "CXO-level storytelling",
+        "Cross-cultural Communications",
+        "Leading Through Stakeholders: Managing Relationships That Matter",
+        "From Differences to Strength: Team Building in a Diverse Workplace",
+        "Effective Team Performance Management"
       ]
     }
   ],
-  "start_date": "31 May 2026",
+
+  "start_date": "14 Feb 2027",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIML-certificate/IIML-EPSPML-Program.webp",
   "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
   "enrollments": "active",
@@ -229,7 +225,7 @@
       "title": "class hours"
     },
     {
-      "text": "10",
+      "text": "9",
       "title": "modules"
     },
     {

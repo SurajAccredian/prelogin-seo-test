@@ -284,13 +284,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Professional Certificate in AI for Leaders",
     "category": "artificial intelligence",
-    "start_date": "21st Jun 2026",
+    "start_date": "13 Feb 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/professional-certificate-in-ai-for-leaders",
     "id": "professional-certificate-in-ai-for-leaders",
     "pid": 147,
     "duration": "4 Months",
-    "program_fee": 130000,
+    "program_fee": 169000,
     "required_years_experience": 5
   },
   {
@@ -298,13 +298,13 @@
     "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/soj-brochure-logo.webp",
     "program_name": "Executive Program in Leadership with AI",
     "category": "artificial intelligence",
-    "start_date": "21st Jun 2026",
+    "start_date": "13 Feb 2027",
     "status": "New Launch",
     "url": "https://accredian.com/programs/sp-jain-executive-program-in-leadership-with-ai",
     "id": "sp-jain-executive-program-in-leadership-with-ai",
     "pid": 148,
     "duration": "7 Months",
-    "program_fee": 160000,
+    "program_fee": 169000,
     "required_years_experience": 5
   },
   {

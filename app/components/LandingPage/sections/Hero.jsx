@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import LeadForm from "./LeadForm";
 
 function renderFactIcon(iconType) {
@@ -86,7 +87,13 @@ export default function Hero({ data = {}, formConfig = {} }) {
           {data.advisor && (
             <div className="fhead">
               {data.advisor.image && (
-                <img src={data.advisor.image} alt="Program Advisor" />
+                <Image
+                  src={data.advisor.image}
+                  alt="Program Advisor"
+                  width={60}
+                  height={60}
+                  unoptimized
+                />
               )}
               <div>
                 <h3>{data.advisor.heading || "Talk to our Advisor"}</h3>

@@ -1,6 +1,7 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from "react";
+import Swal from "sweetalert2";
 
 const LandingPageContext = createContext(null);
 
@@ -20,13 +21,31 @@ export function LandingPageProvider({ children, urgency = {}, formConfig = {}, p
     text: "",
   });
 
+  const hasCheckedSubmittedRef = useRef(false);
+
   // Client-side initialization: check session storage for previous submission
   useEffect(() => {
     setIsClient(true);
     try {
-      if (typeof window !== "undefined") {
+      if (typeof window !== "undefined" && !hasCheckedSubmittedRef.current) {
+        hasCheckedSubmittedRef.current = true;
         if (sessionStorage.getItem("lead_submitted") === "1") {
           setIsSubmitted(true);
+          Swal.fire({
+            title: "Notice",
+            text: "You have already submitted this form",
+            icon: "info",
+            confirmButtonText: "OK",
+            confirmButtonColor: "#1A5CFF",
+            allowOutsideClick: false,
+          }).then(() => {
+            try {
+              sessionStorage.removeItem("lead_submitted");
+            } catch {
+              // Ignore
+            }
+            setIsSubmitted(false);
+          });
         }
       }
     } catch {

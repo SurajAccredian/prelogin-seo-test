@@ -20,6 +20,16 @@ export default function LeadModal({ formConfig = {}, urgency = {} }) {
     }
   }, [isModalOpen, closeModal]);
 
+  useEffect(() => {
+    if (isModalOpen && typeof document !== "undefined") {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [isModalOpen]);
+
   if (!isModalOpen) return null;
 
   const handleBackdropClick = (e) => {
@@ -39,16 +49,15 @@ export default function LeadModal({ formConfig = {}, urgency = {} }) {
       onClick={handleBackdropClick}
     >
       <div className="pop-box">
-        <button
-          className="pop-x"
-          type="button"
-          aria-label="Close"
-          onClick={closeModal}
-        >
-          &times;
-        </button>
-
         <div className="pop-top">
+          <button
+            className="pop-x"
+            type="button"
+            aria-label="Close"
+            onClick={closeModal}
+          >
+            &times;
+          </button>
           <span className="tag">
             {urgency.offer_text || "Scholarships open"}
           </span>

@@ -216,7 +216,11 @@
           "Choose where to play and how to win",
           "Present and defend strategy at board level"
         ],
-        "module_ids": [1, 2, 3]
+        "module_ids": [
+          1,
+          2,
+          3
+        ]
       },
       {
         "id": "finance-growth",
@@ -227,7 +231,10 @@
           "Allocate capital and evaluate investments",
           "Build expansion, partnership and ecosystem plays"
         ],
-        "module_ids": [4, 9]
+        "module_ids": [
+          4,
+          9
+        ]
       },
       {
         "id": "markets-operations",
@@ -238,7 +245,10 @@
           "Design customer value propositions that win",
           "Scale resilient operations and supply chains"
         ],
-        "module_ids": [5, 6]
+        "module_ids": [
+          5,
+          6
+        ]
       },
       {
         "id": "people-risk-governance",
@@ -249,7 +259,10 @@
           "Align talent strategy with business strategy",
           "Lead enterprise risk, compliance and accountability"
         ],
-        "module_ids": [7, 8]
+        "module_ids": [
+          7,
+          8
+        ]
       },
       {
         "id": "global-innovation",
@@ -260,7 +273,10 @@
           "Lead cross-cultural, global organisations",
           "Run innovation systems and new ventures"
         ],
-        "module_ids": [10, 11]
+        "module_ids": [
+          10,
+          11
+        ]
       },
       {
         "id": "data-ai-leadership",
@@ -271,7 +287,10 @@
           "Set enterprise AI and GenAI strategy",
           "Govern AI risk, ethics and compliance"
         ],
-        "module_ids": [12, 13]
+        "module_ids": [
+          12,
+          13
+        ]
       }
     ],
     "modules": [
@@ -479,25 +498,25 @@
   },
   "testimonials": {
     "eyebrow": "Learner stories",
-    "heading": "Hear from Accredian alumni",
+    "heading": "Hear from recent students",
     "cards": [
       {
-        "name": "Dilip Kumar Yadav",
-        "role": "Accredian alumnus",
-        "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/dilip-kumar-yadav-success-story.webp",
-        "quote": "Accredian's structured learning and mentorship helped me merge operational expertise with product management, empowering me to lead with confidence."
+        "name": "Nandan",
+        "role": "Head Business Development",
+        "image": "https://storage.googleapis.com/accredian-assets/Backend_Assests/Images/payment_portal/student_details/iim-ranchi/professional_headshot/46402_1785428142955.webp",
+        "quote": "What stood out was the professor's depth of knowledge combined with a very interactive teaching method. You're always part of the conversation, not just listening."
       },
       {
-        "name": "Priya Motwani",
-        "role": "Accredian alumna",
-        "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/priya-motwani-success-story.webp",
-        "quote": "Accredian's real-world projects, expert mentorship, and experienced faculty equipped me with the strategic mindset and technical skills to confidently lead cross-functional product teams."
+        "name": "Dr Uday",
+        "role": "Registrar",
+        "image": "https://storage.googleapis.com/accredian-assets/Backend_Assests/Images/payment_portal/student_details/iim-ranchi/professional_headshot/46056_1783491244272.webp",
+        "quote": "A very practical programme that is both interesting and useful. The interactive format keeps you engaged and makes the learning easy to apply at work."
       },
       {
-        "name": "Aditya Gundu",
-        "role": "Accredian alumnus",
-        "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Success-Stories/aditya-gundu-success-story.webp",
-        "quote": "The guidance I got from Accredian was really fantastic which set me on the right path."
+        "name": "Gyan",
+        "role": "General Manager Service",
+        "image": "https://storage.googleapis.com/accredian-assets/Backend_Assests/Images/payment_portal/student_details/iim-ranchi/professional_headshot/46409_1785501447564.webp",
+        "quote": "The professor expects precise, specific answers, and that pushes you to think sharply. Combined with the high level of interaction, it really raises the quality of learning."
       }
     ]
   },
@@ -614,4 +633,3 @@
     "final_cta"
   ]
 }
-

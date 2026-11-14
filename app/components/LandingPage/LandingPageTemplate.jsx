@@ -2,7 +2,6 @@
 
 import React from "react";
 import { LandingPageProvider } from "./LandingPageContext";
-import Footer from "../Footer/Footer";
 import TopBar from "./sections/TopBar";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
@@ -21,6 +20,7 @@ import FinalCTA from "./sections/FinalCTA";
 import StickyMobileCTA from "./sections/StickyMobileCTA";
 import LeadModal from "./sections/LeadModal";
 import "./LandingPage.css";
+import Footer from "./sections/Footer";
 
 const SECTION_REGISTRY = {
   hero: Hero,
@@ -70,13 +70,13 @@ export default function LandingPageTemplate({ data }) {
           })}
         </main>
 
+        {/* Landing Page Footer */}
+        <Footer data={data.footer} />
+
         {/* Floating Overlays */}
         <StickyMobileCTA urgency={data.urgency} />
         <LeadModal formConfig={data.form_config} urgency={data.urgency} />
       </div>
-
-      {/* Accredian Official Site Footer */}
-      <Footer />
     </LandingPageProvider>
   );
 }

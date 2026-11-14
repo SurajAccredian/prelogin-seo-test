@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useLandingPage } from "../LandingPageContext";
 
 const DEFAULT_ACCREDIAN_LOGO =
@@ -36,10 +37,14 @@ export default function Header({ data = {}, urgency = {} }) {
           {logos.map((logo, idx) => {
             const isAccredian = logo.alt?.toLowerCase().includes("accredian");
             const imgElement = (
-              <img
+              <Image
                 src={logo.src}
                 alt={logo.alt || "Logo"}
-                style={{ height: "34px", width: "auto" }}
+                width={logo.width || 140}
+                height={logo.height || 34}
+                style={{ height: "34px", width: "auto", objectFit: "contain" }}
+                unoptimized
+                priority
               />
             );
 

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 function renderExpIcon(icon) {
   switch (icon) {
@@ -51,7 +52,14 @@ export default function SignatureExperiences({ data = {} }) {
           {data.feature && (
             <div className="exp-feature">
               {data.feature.image && (
-                <img src={data.feature.image} alt={data.feature.title} loading="lazy" />
+                <Image
+                  src={data.feature.image}
+                  alt={data.feature.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                  unoptimized
+                />
               )}
               <div className="txt">
                 <h3>{data.feature.title}</h3>

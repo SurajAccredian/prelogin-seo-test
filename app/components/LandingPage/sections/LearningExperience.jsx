@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export default function LearningExperience({ data = {} }) {
   return (
@@ -9,19 +10,25 @@ export default function LearningExperience({ data = {} }) {
         {/* Left Column: Stacked Images */}
         <div className="people-img">
           {data.main_image && (
-            <img
+            <Image
               className="pi-main"
               src={data.main_image}
               alt="Senior leaders in a strategy discussion"
-              loading="lazy"
+              width={600}
+              height={450}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              unoptimized
             />
           )}
           {data.sub_image && (
-            <img
+            <Image
               className="pi-sub"
               src={data.sub_image}
               alt="Professionals learning together"
-              loading="lazy"
+              width={400}
+              height={300}
+              sizes="(max-width: 768px) 50vw, 25vw"
+              unoptimized
             />
           )}
         </div>

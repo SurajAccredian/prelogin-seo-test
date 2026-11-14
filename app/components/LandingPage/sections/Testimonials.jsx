@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export default function Testimonials({ data = {} }) {
   return (
@@ -16,7 +17,15 @@ export default function Testimonials({ data = {} }) {
             {data.cards.map((card, idx) => (
               <figure className="al" key={idx}>
                 {card.image && (
-                  <img src={card.image} alt={card.name} loading="lazy" />
+                  <div className="al-avatar">
+                    <Image
+                      src={card.image}
+                      alt={card.name}
+                      width={72}
+                      height={72}
+                      unoptimized
+                    />
+                  </div>
                 )}
                 <blockquote>&ldquo;{card.quote}&rdquo;</blockquote>
                 <figcaption>

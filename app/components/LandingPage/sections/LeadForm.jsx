@@ -1,20 +1,42 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/material.css";
+import Select from "react-select";
 import { useLandingPage } from "../LandingPageContext";
 import { getStoredUTMData } from "../../../helpers/utm.helpers";
 import { getFbc, getFbp } from "../../../helpers/cookie.helpers";
 import { fetchClientIp } from "../../../helpers/ip.helpers";
 import { trackGoogleAdsLeadConversion } from "../../../helpers/googleAds.helpers";
-import { getCta } from "../../../services/program.service";
+import { getCta, submitLandingPageLead } from "../../../services/program.service";
 
 const VALIDATION_RULES = {
   full_name: (v) => typeof v === "string" && v.trim().length >= 2,
   email: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test((v || "").trim()),
-  phone: (v) => /^[6-9]\d{9}$/.test((v || "").trim()),
-  work_experience: (v) => Boolean(v && v.trim() !== ""),
+  phone: (v) => {
+    if (!v || typeof v !== "string") return false;
+    const digits = v.replace(/\D/g, "");
+    if (/^[6-9]\d{9}$/.test(digits)) return true;
+    if (digits.startsWith("91")) {
+      return digits.length === 12 && /^[6-9]/.test(digits.slice(2));
+    }
+    return digits.length >= 10 && digits.length <= 15;
+  },
+  work_experience: (v) => Boolean(v && String(v).trim() !== ""),
   company: (v) => typeof v === "string" && v.trim().length >= 2,
   designation: (v) => typeof v === "string" && v.trim().length >= 2,
+};
+
+const formatPhoneForPayload = (phone) => {
+  if (!phone) return "";
+  const str = String(phone).trim();
+  if (str.startsWith("+")) return str;
+  const digits = str.replace(/\D/g, "");
+  if (digits.length === 10 && /^[6-9]/.test(digits)) {
+    return `+91${digits}`;
+  }
+  return `+${digits}`;
 };
 
 export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, isModal = false }) {
@@ -35,6 +57,24 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState("");
   const formStartedRef = useRef(false);
+
+  // Reset form inputs if submission state is cleared (e.g. after refresh notice modal)
+  useEffect(() => {
+    if (!isSubmitted) {
+      setFormData({
+        full_name: "",
+        email: "",
+        phone: "",
+        work_experience: "",
+        company: "",
+        designation: "",
+        consent: true,
+      });
+      setTouched({});
+      setErrors({});
+      setSubmitError("");
+    }
+  }, [isSubmitted]);
 
   // Auto-fill UTM and tracking params
   const [trackingParams, setTrackingParams] = useState({});
@@ -87,11 +127,7 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
-    let finalValue = type === "checkbox" ? checked : value;
-
-    if (name === "phone") {
-      finalValue = value.replace(/\D/g, "").slice(0, 10);
-    }
+    const finalValue = type === "checkbox" ? checked : value;
 
     setFormData((prev) => ({ ...prev, [name]: finalValue }));
 
@@ -102,6 +138,46 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
         delete next[name];
         return next;
       });
+    }
+  };
+
+  const handlePhoneChange = (value) => {
+    const phoneVal = value || "";
+    setFormData((prev) => ({ ...prev, phone: phoneVal }));
+
+    if (VALIDATION_RULES.phone(phoneVal)) {
+      setErrors((prev) => {
+        const next = { ...prev };
+        delete next.phone;
+        return next;
+      });
+    }
+  };
+
+  const handlePhoneBlur = () => {
+    setTouched((prev) => ({ ...prev, phone: true }));
+    if (!VALIDATION_RULES.phone(formData.phone)) {
+      setErrors((prev) => ({ ...prev, phone: true }));
+    }
+  };
+
+  const handleExperienceChange = (selected) => {
+    const val = selected ? selected.value : "";
+    setFormData((prev) => ({ ...prev, work_experience: val }));
+
+    if (VALIDATION_RULES.work_experience(val)) {
+      setErrors((prev) => {
+        const next = { ...prev };
+        delete next.work_experience;
+        return next;
+      });
+    }
+  };
+
+  const handleExperienceBlur = () => {
+    setTouched((prev) => ({ ...prev, work_experience: true }));
+    if (!VALIDATION_RULES.work_experience(formData.work_experience)) {
+      setErrors((prev) => ({ ...prev, work_experience: true }));
     }
   };
 
@@ -141,7 +217,7 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
     setIsSubmitting(true);
 
     const submissionPayload = {
-      phone: "+91" + formData.phone,
+      phone: formatPhoneForPayload(formData.phone),
       name: formData.full_name,
       email: formData.email,
       work_experience: formData.work_experience,
@@ -150,7 +226,9 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
       program: formConfig.program_name || "IIM Ranchi Senior Management Program",
       form_id: formId,
       source: isModal ? "Landing Page Popup" : "Landing Page Hero",
-      type: "CTA",
+      cta_button: formConfig.button_text || "Talk to our Advisor",
+      page: typeof window !== "undefined" ? window.location.pathname.replace(/^\//, "") : "landing-page",
+      type: "landing_page",
       ...trackingParams,
     };
 
@@ -163,8 +241,8 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
         });
         if (!res.ok) throw new Error("Submission endpoint error");
       } else {
-        // Submit via existing Accredian commonPublish backend service
-        await getCta(submissionPayload);
+        // Submit via botleads request-consultation-api
+        await submitLandingPageLead(submissionPayload);
       }
 
       // Track GTM & Google Ads conversions
@@ -206,6 +284,117 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
 
   const idPrefix = isModal ? "p-" : "f-";
 
+  const experienceOptions = (formConfig.experience_options || []).map((opt) => ({
+    value: opt,
+    label: opt,
+  }));
+
+  const isExpInvalid = Boolean(touched.work_experience && errors.work_experience);
+
+  const selectStyles = {
+    control: (base, state) => ({
+      ...base,
+      minHeight: "48px",
+      height: "48px",
+      borderRadius: "10px",
+      borderWidth: "1.5px",
+      borderStyle: "solid",
+      borderColor: isExpInvalid
+        ? "var(--err, #D93025)"
+        : state.isFocused
+          ? "var(--brand, #1A5CFF)"
+          : "var(--line, #E2E8F0)",
+      boxShadow: state.isFocused
+        ? "0 0 0 4px rgba(26, 92, 255, 0.12)"
+        : "none",
+      "&:hover": {
+        borderColor: isExpInvalid
+          ? "var(--err, #D93025)"
+          : state.isFocused
+            ? "var(--brand, #1A5CFF)"
+            : "var(--line, #E2E8F0)",
+      },
+      fontSize: "15px",
+      fontFamily: "inherit",
+      backgroundColor: "#fff",
+      cursor: "pointer",
+      transition: "border 0.15s, box-shadow 0.15s",
+    }),
+    valueContainer: (base) => ({
+      ...base,
+      padding: "0 14px",
+      height: "48px",
+      display: "flex",
+      alignItems: "center",
+    }),
+    input: (base) => ({
+      ...base,
+      margin: 0,
+      padding: 0,
+      color: "var(--ink, #0F172A)",
+    }),
+    placeholder: (base) => ({
+      ...base,
+      color: "var(--muted, #64748B)",
+      fontSize: "15px",
+      margin: 0,
+    }),
+    singleValue: (base) => ({
+      ...base,
+      color: "var(--ink, #0F172A)",
+      fontSize: "15px",
+      margin: 0,
+    }),
+    menu: (base) => ({
+      ...base,
+      borderRadius: "10px",
+      boxShadow: "0 10px 30px rgba(10, 22, 51, 0.12)",
+      zIndex: 60,
+      overflow: "hidden",
+      border: "1.5px solid var(--line, #E2E8F0)",
+      backgroundColor: "#fff",
+      marginTop: "4px",
+    }),
+    menuList: (base) => ({
+      ...base,
+      padding: "6px",
+    }),
+    option: (base, state) => ({
+      ...base,
+      borderRadius: "8px",
+      padding: "10px 12px",
+      fontSize: "14px",
+      fontFamily: "inherit",
+      cursor: "pointer",
+      backgroundColor: state.isSelected
+        ? "var(--brand, #1A5CFF)"
+        : state.isFocused
+          ? "rgba(26, 92, 255, 0.08)"
+          : "transparent",
+      color: state.isSelected ? "#ffffff" : "var(--ink, #0F172A)",
+      "&:active": {
+        backgroundColor: "var(--brand, #1A5CFF)",
+        color: "#ffffff",
+      },
+    }),
+    indicatorSeparator: () => ({ display: "none" }),
+    indicatorsContainer: (base) => ({
+      ...base,
+      height: "48px",
+      paddingRight: "8px",
+    }),
+    dropdownIndicator: (base, state) => ({
+      ...base,
+      color: state.isFocused ? "var(--brand, #1A5CFF)" : "var(--muted, #64748B)",
+      padding: "4px",
+      "&:hover": {
+        color: "var(--brand, #1A5CFF)",
+      },
+      transition: "transform 0.2s, color 0.2s",
+      transform: state.selectProps.menuIsOpen ? "rotate(180deg)" : "rotate(0deg)",
+    }),
+  };
+
   if (isSubmitted) {
     return (
       <div className="success">
@@ -222,12 +411,6 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
 
   return (
     <form id={formId} onSubmit={handleSubmit} noValidate>
-      {submitError && (
-        <div className="form-error" style={{ display: "block" }}>
-          {submitError}
-        </div>
-      )}
-
       {/* Full Name */}
       <div className={`field ${touched.full_name && errors.full_name ? "invalid" : ""}`}>
         <label htmlFor={`${idPrefix}name`}>Full name</label>
@@ -267,45 +450,50 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
       {/* Mobile Number */}
       <div className={`field ${touched.phone && errors.phone ? "invalid" : ""}`}>
         <label htmlFor={`${idPrefix}phone`}>Mobile number</label>
-        <div className="phone">
-          <span>+91</span>
-          <input
-            id={`${idPrefix}phone`}
-            name="phone"
-            type="tel"
-            inputMode="numeric"
-            maxLength={10}
-            autoComplete="tel-national"
-            placeholder="10-digit mobile"
-            value={formData.phone}
-            onFocus={handleFocus}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            required
-          />
-        </div>
-        <div className="err">Please enter a valid 10-digit mobile number</div>
+        <PhoneInput
+          country={"in"}
+          enableSearch={true}
+          value={formData.phone}
+          onChange={handlePhoneChange}
+          onFocus={handleFocus}
+          onBlur={handlePhoneBlur}
+          inputProps={{
+            id: `${idPrefix}phone`,
+            name: "phone",
+            required: true,
+            autoComplete: "tel",
+          }}
+          specialLabel=""
+          placeholder="Enter mobile number"
+          containerClass="landing-phone-container"
+          inputClass="landing-phone-input"
+          buttonClass="landing-phone-btn"
+          dropdownClass="landing-phone-dropdown"
+        />
+        <div className="err">Please enter a valid mobile number</div>
       </div>
 
       {/* Work Experience */}
-      <div className={`field ${touched.work_experience && errors.work_experience ? "invalid" : ""}`}>
+      <div className={`field ${isExpInvalid ? "invalid" : ""}`}>
         <label htmlFor={`${idPrefix}exp`}>Work experience</label>
-        <select
-          id={`${idPrefix}exp`}
+        <Select
+          inputId={`${idPrefix}exp`}
+          instanceId={`${idPrefix}exp-select`}
           name="work_experience"
-          value={formData.work_experience}
+          placeholder="Select years of experience"
+          options={experienceOptions}
+          value={
+            formData.work_experience
+              ? { value: formData.work_experience, label: formData.work_experience }
+              : null
+          }
+          onChange={handleExperienceChange}
           onFocus={handleFocus}
-          onChange={handleChange}
-          onBlur={handleBlur}
-          required
-        >
-          <option value="">Select years of experience</option>
-          {formConfig.experience_options?.map((opt, i) => (
-            <option key={i} value={opt}>
-              {opt}
-            </option>
-          ))}
-        </select>
+          onBlur={handleExperienceBlur}
+          styles={selectStyles}
+          isSearchable={false}
+          classNamePrefix="landing-select"
+        />
         <div className="err">Please select your experience</div>
       </div>
 
@@ -356,6 +544,13 @@ export default function LeadForm({ formId = "iimr_smp_hero", formConfig = {}, is
         />
         <span>{formConfig.consent_text || "I agree to be contacted by Accredian via call, WhatsApp, SMS and email about this program."}</span>
       </label>
+
+      {submitError && (
+        <div className="form-error" style={{ display: "block" }}>
+          {submitError}
+        </div>
+      )}
+
 
       {/* Submit Button */}
       <button

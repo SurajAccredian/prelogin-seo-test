@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useLandingPage } from "../LandingPageContext";
 
 export default function Certificate({ data = {} }) {
@@ -12,11 +13,14 @@ export default function Certificate({ data = {} }) {
         {/* Left Column: Certificate Preview Image */}
         <div>
           {data.image && (
-            <img
+            <Image
               className="cert-img"
               src={data.image}
               alt={data.heading || "Sample Certificate"}
-              loading="lazy"
+              width={600}
+              height={425}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              unoptimized
             />
           )}
         </div>

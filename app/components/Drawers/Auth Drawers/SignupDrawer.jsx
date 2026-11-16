@@ -11,7 +11,11 @@ import {
   DrawerOverlay,
   Spinner,
 } from '@chakra-ui/react';
-import Box from '@mui/material/Box';
+const Box = ({ children, className = "", ...props }) => (
+  <div className={className} {...props}>
+    {children}
+  </div>
+);
 import { IoWarning } from 'react-icons/io5';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/material.css';
@@ -616,7 +620,7 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
               {/* Resend OTP */}
               {otpSent && !otpVerified && (
                 <Box className="text-sm text-center">
-                  <span className="text-gray-600">Didn't receive OTP? </span>
+                  <span className="text-gray-600">Didn&apos;t receive OTP? </span>
                   <button
                     type="button"
                     onClick={handleResendOTP}

@@ -1,211 +1,140 @@
 "use client";
+
 import Image from "next/image";
-import {
-  Backdrop,
-  CircularProgress,
-  Dialog,
-  DialogContent,
-  InputAdornment,
-} from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Swal from "sweetalert2";
-import ClearIcon from "@mui/icons-material/Clear";
 import toast, { Toaster } from "react-hot-toast";
-// import { VERTICALS } from "../../../Assets/constants/constants";
 import programs from "../../Assets/programs.json";
-import {
-  TextField,
-  FormControl,
-  Select,
-  MenuItem,
-  Button,
-  Box,
-} from "@mui/material";
 import { decodeToken } from "react-jwt";
 import { groupProgramsByCategory } from "../../../helpers/common.helpers";
 import { Controller, useForm, useWatch } from "react-hook-form";
 import { getStoredUTMData } from "../../../helpers/utm.helpers";
 import { IoWarning } from "react-icons/io5";
-import Stepper from "@mui/material/Stepper";
-import Step from "@mui/material/Step";
-import StepLabel from "@mui/material/StepLabel";
-import StepConnector, {
-  stepConnectorClasses,
-} from "@mui/material/StepConnector";
-import Check from "@mui/icons-material/Check";
-import { styled } from "@mui/material/styles";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import { Loader2, X, ChevronLeft, Check } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import ReCAPTCHA from "react-google-recaptcha";
+import Modal from "../../ui/Modal";
+import Select from "react-select";
 
-const ITEM_HEIGHT = 40;
-const ITEM_PADDING_TOP = 8;
+const VERTICALS = [
+  "data science",
+  "product management",
+  "general management",
+  "digital transformation",
+  "business management",
+  "project management",
+  "strategic management",
+  "senior management",
+  "finance",
+];
 
-const MenuProps = {
-  PaperProps: {
-    style: {
-      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: 250,
-      overflowX: "auto",
-    },
-  },
-};
-
-//Stepper design
-const QontoConnector = styled(StepConnector)(({ theme }) => ({
-  [`&.${stepConnectorClasses.alternativeLabel}`]: {
-    top: 10,
-    left: "calc(-50% + 16px)",
-    right: "calc(50% + 16px)",
-  },
-  [`&.${stepConnectorClasses.active}`]: {
-    [`& .${stepConnectorClasses.line}`]: {
-      borderColor: "#1A73E8",
-    },
-  },
-  [`&.${stepConnectorClasses.completed}`]: {
-    [`& .${stepConnectorClasses.line}`]: {
-      borderColor: "#1A73E8",
-    },
-  },
-  [`& .${stepConnectorClasses.line}`]: {
-    borderColor:
-      theme.palette.mode === "dark" ? theme.palette.grey[800] : "#eaeaf0",
-    borderTopWidth: 3,
-    borderRadius: 1,
-  },
+const VERTICAL_OPTIONS = VERTICALS.map((vertical) => ({
+  value: vertical,
+  label: vertical
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" "),
 }));
 
-const QontoStepIconRoot = styled("div")(({ theme, ownerState }) => ({
-  color: theme.palette.mode === "dark" ? theme.palette.grey[700] : "#eaeaf0",
-  display: "flex",
-  height: 22,
-  alignItems: "center",
-  ...(ownerState.active && {
-    color: "#1A73E8",
+const getSelectStyles = (hasError) => ({
+  control: (base, state) => ({
+    ...base,
+    minHeight: "38px",
+    borderRadius: "0.375rem",
+    borderColor: hasError
+      ? "#ef4444"
+      : state.isFocused
+      ? "#3b82f6"
+      : "#d1d5db",
+    boxShadow: state.isFocused
+      ? hasError
+        ? "0 0 0 2px rgba(239, 68, 68, 0.4)"
+        : "0 0 0 2px rgba(59, 130, 246, 0.4)"
+      : "none",
+    "&:hover": {
+      borderColor: hasError ? "#ef4444" : state.isFocused ? "#3b82f6" : "#9ca3af",
+    },
+    fontSize: "0.875rem",
+    backgroundColor: "white",
+    cursor: "pointer",
   }),
-  "& .QontoStepIcon-completedIcon": {
-    color: "#1A73E8",
-    zIndex: 1,
-    fontSize: 18,
-  },
-  "& .QontoStepIcon-circle": {
-    width: 8,
-    height: 8,
-    borderRadius: "50%",
-    backgroundColor: "currentColor",
-  },
-}));
-
-function QontoStepIcon(props) {
-  const { active, completed } = props;
-  return (
-    <QontoStepIconRoot ownerState={{ active }}>
-      {completed ? (
-        <Check className="QontoStepIcon-completedIcon" />
-      ) : (
-        <div className="QontoStepIcon-circle" />
-      )}
-    </QontoStepIconRoot>
-  );
-}
-//end of stepper design
-
-const InputPropsDesign = {
-  sx: {
-    fontSize: "14px",
-    padding: "4px",
-  },
-};
-
-//CSS for form fields
-const responsiveStyle = {
-  marginBottom: "20px",
-  fontSize: "14px",
-  "@media (max-width:480px)": {
-    fontSize: "12px",
-    padding: "0",
-    marginBottom: "14px",
-  },
-};
+  placeholder: (base) => ({
+    ...base,
+    color: "#6b7280",
+    fontSize: "0.875rem",
+  }),
+  singleValue: (base) => ({
+    ...base,
+    color: "#111827",
+    fontSize: "0.875rem",
+  }),
+  menu: (base) => ({
+    ...base,
+    borderRadius: "0.375rem",
+    boxShadow:
+      "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    zIndex: 9999,
+  }),
+  option: (base, state) => ({
+    ...base,
+    fontSize: "0.875rem",
+    backgroundColor: state.isSelected
+      ? "#1A73E8"
+      : state.isFocused
+      ? "#EFF6FF"
+      : "white",
+    color: state.isSelected ? "white" : "#1f2937",
+    cursor: "pointer",
+    "&:active": {
+      backgroundColor: "#1A73E8",
+      color: "white",
+    },
+  }),
+});
 
 const ReferModalContent = ({ open, setOpen }) => {
   const searchParams = useSearchParams();
-  const myParam = searchParams ? searchParams.get("utm_source") : null;
-
-  const [captchaVerified, setCaptchaVerified] = useState(false);
-  const [isButtonVisible, setIsButtonVisible] = useState(false);
-
-  // console.log(programs[0].program_name)
-  const [userData, setUserData] = useState(null);
   const [activeStep, setActiveStep] = useState(0);
   const [loaderOpen, setLoaderOpen] = useState(false);
-  //useForm for validation
-  const {
-    register,
-    handleSubmit,
-    formState: { errors, isValid },
-    control,
-    reset,
-  } = useForm({
-    defaultValues: {
-      friendname: "",
-      friendemail: "",
-      friendnumber: "",
-      vertical: "",
-      programname: "",
-      username: "",
-      useremail: "",
-      userphone: "",
-    },
-    mode: "onChange",
-  });
+  const [captchaVerified, setCaptchaVerified] = useState(false);
+  const [userData, setUserData] = useState(null);
 
-  const onCaptchChange = (value) => {
-    setCaptchaVerified(true);
-    setIsButtonVisible(true);
-  };
-
-  //watch for selected vertical
-  const selectedVertical = useWatch({ name: "vertical", control });
+  const LoaderClose = () => setLoaderOpen(false);
+  const LoaderOpen = () => setLoaderOpen(true);
 
   const handleCloseref = () => {
     setOpen(false);
-    reset();
     setActiveStep(0);
   };
-  const LoaderOpen = () => {
-    setLoaderOpen(true);
-  };
-  const LoaderClose = () => {
-    setLoaderOpen(false);
+
+  const onCaptchChange = (value) => {
+    setCaptchaVerified(Boolean(value));
   };
 
-  //Filtering the program belongs to same vertical
-  const filteredPrograms = programs.filter(
-    (program) =>
-      program.category.toLowerCase() == selectedVertical.toLowerCase()
-  );
+  const {
+    register,
+    handleSubmit,
+    control,
+    reset,
+    setValue,
+    formState: { errors, isValid },
+  } = useForm({
+    mode: "onChange",
+  });
 
-  //Fetching all verticals
-  const VERTICALS = Object.keys(groupProgramsByCategory(programs));
+  const selectedVertical = useWatch({ control, name: "vertical" });
+  const allPrograms = React.useMemo(() => groupProgramsByCategory(programs), []);
+  const filteredPrograms = selectedVertical
+    ? allPrograms[selectedVertical.toLowerCase()] || []
+    : [];
 
-  // Extracting user information from token
   useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-      console.log("Token does not exist");
-    } else {
+    const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
+    if (token) {
       try {
-        // Decode the token to get user data
         const decodedToken = decodeToken(token);
-
-        // Check if the decoded token contains user data
         if (decodedToken?.data) {
           setUserData(decodedToken.data);
-        } else {
-          console.error("Token is invalid");
         }
       } catch (error) {
         console.error("Error decoding token:", error);
@@ -213,30 +142,28 @@ const ReferModalContent = ({ open, setOpen }) => {
     }
   }, []);
 
-  const handleSubmitRef = async (data) => {
+  const handleSubmitRef = async (formData) => {
     LoaderOpen();
 
-    if (activeStep < formSteps.length - 1) {
+    if (activeStep < 1) {
       setActiveStep((prevStep) => prevStep + 1);
       LoaderClose();
       return;
     }
 
-    //Request object to send data to refer and earn API
     const request = {
-      useremail: data.useremail,
-      username: data.username,
-      mobile: data.userphone,
+      useremail: formData.useremail,
+      username: formData.username,
+      mobile: formData.userphone,
       user_program_id: userData?.program_id,
       batch_id: userData?.batch_id,
-      friend_name: data.friendname,
-      friend_email: data.friendemail,
-      friend_mobile: data.friendnumber,
-      friend_vertical: data.vertical,
-      friend_program: data.programname,
+      friend_name: formData.friendname,
+      friend_email: formData.friendemail,
+      friend_mobile: formData.friendnumber,
+      friend_vertical: formData.vertical,
+      friend_program: formData.programname,
       lead_source: getStoredUTMData().utm_source || "Website",
     };
-    // return console.log(request)
 
     const options = {
       headers: {
@@ -247,29 +174,26 @@ const ReferModalContent = ({ open, setOpen }) => {
 
     try {
       const { data } = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD || process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD}/prelogin_referandearn/refer`,
-        // `${process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_LOCAL}/prelogin_referandearn/refer`,
+        `${process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD}/prelogin_referandearn/refer`,
         request,
         options
       );
-      // console.log(data);
+
+      const Swal = (await import("sweetalert2")).default;
       Swal.fire({
         title: "Thank You!",
         text: data.message,
         icon: "success",
         confirmButtonText: "OK",
       });
+      reset();
     } catch (error) {
       console.error("Error:", error);
-      if (
-        error.response &&
-        error.response.data &&
-        error.response.data.message
-      ) {
+      if (error.response?.data?.feedback) {
         toast.error(`${error.response.data.feedback}`);
       } else {
         toast.error(
-          `Apologies, we are currently experiencing some server issues. Please try again later.`
+          "Apologies, we are currently experiencing some server issues. Please try again later."
         );
       }
     } finally {
@@ -278,506 +202,336 @@ const ReferModalContent = ({ open, setOpen }) => {
     }
   };
 
-  //function to navigate to previous form state
   const handleBack = () => {
-    setActiveStep((prevActiveStep) => {
-      return prevActiveStep > 0 ? prevActiveStep - 1 : prevActiveStep;
-    });
+    setActiveStep((prev) => (prev > 0 ? prev - 1 : 0));
   };
 
-  //form steps
-  const formSteps = ["Friend's details", "Refer now"];
-
   return (
-    <Dialog
+    <Modal
       open={open}
       onClose={handleCloseref}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description"
-      maxWidth="md"
-      fullWidth
-      PaperProps={{
-        sx: {
-          borderRadius: ".75rem",
-        },
-      }}
-      sx={{
-        padding: "0px",
-      }}
-      className="refer-modal"
+      maxWidth="max-w-4xl"
+      className="p-0 overflow-hidden rounded-2xl"
     >
-      <DialogContent sx={{ padding: "0px" }}>
-        <div className="flex">
-          <div className="left-img-sec w-1/2 hidden md:flex items-center justify-center bg-universal">
-            <div className="img-container-refer-modal w-full overflow-hidden flex items-center justify-center">
-              <Image
-                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/refer-modal-bg.webp"
-                alt="Refer your friend"
-                width={550}
-                height={550}
-                quality={75}
-                sizes="(max-width: 768px) 100vw, 550px"
-                className="max-w-[550px] w-full h-auto object-cover object-center"
-              />
-            </div>
-          </div>
-          <div className="right-form-sec px-4 md:px-4 lg:px-4 w-full md:w-1/2 flex items-center justify-center py-5 md:py-5 lg:py-10">
-            <div className="flex w-full gap-2 flex-col items-center">
-              {/* close button and back button */}
-              <div
-                className={`w-full flex ${activeStep === 1 ? "justify-between" : "justify-end"
-                  } px-0 lg:px-0 m-[-10px] ${activeStep === 1 ? "lg:mt-[-25px]" : "lg:m-[-25px]"
-                  } `}
-              >
-                {activeStep === 1 && (
-                  <Button
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                      textTransform: "capitalize",
-                    }}
-                    onClick={handleBack}
-                  >
-                    <ArrowBackIosIcon sx={{ fontSize: "16px" }} />
-                    Back
-                  </Button>
-                )}
-
-                <div className="w-max hover:bg-gray-100 p-2 rounded-full">
-                  <ClearIcon
-                    className="cursor-pointer"
-                    onClick={handleCloseref}
-                  />
-                </div>
-              </div>
-              <p className="text-2xl md:text-2xl font-semibold font-circular">
-                Refer your <span className="text-universal ">friend!</span>
-              </p>
-
-              {/* Form Stepper */}
-              <Box sx={{ width: "100%", paddingTop: 0, mb: { xs: 3, md: 2 } }}>
-                <Stepper
-                  activeStep={activeStep}
-                  connector={<QontoConnector />}
-                  alternativeLabel
-                  sx={{ flexDirection: "row", alignItems: "flex-start" }}
-                >
-                  {formSteps.map((label) => (
-                    <Step key={label}>
-                      <StepLabel
-                        StepIconComponent={QontoStepIcon}
-                        sx={{
-                          flexDirection: "column",
-                          alignItems: "center",
-                          "& .MuiStepLabel-label": {
-                            marginTop: "0px!important",
-                          },
-                        }}
-                      >
-                        {label}
-                      </StepLabel>
-                    </Step>
-                  ))}
-                </Stepper>
-              </Box>
-
-              {/* Right side form */}
-              <form
-                onSubmit={handleSubmit(handleSubmitRef)}
-                className="w-full py-1"
-              >
-                {/* step - 1 - friend's details */}
-                {activeStep === 0 && (
-                  <>
-                    <Box mb={3} sx={responsiveStyle}>
-                      <TextField
-                        fullWidth
-                        variant="standard"
-                        placeholder="Enter friend's name"
-                        name="friendname"
-                        size="small"
-                        InputProps={InputPropsDesign}
-                        {...register("friendname", {
-                          required: {
-                            value: true,
-                            message: "Please enter your friend's name",
-                          },
-                          pattern: {
-                            value: /^[A-Za-z\s]+$/,
-                            message: "Name can only contain letters",
-                          },
-                        })}
-                      // required
-                      />
-                      {errors.friendname && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.friendname.message}</p>
-                        </div>
-                      )}
-                    </Box>
-                    <Box mb={3} sx={responsiveStyle}>
-                      <TextField
-                        fullWidth
-                        variant="standard"
-                        placeholder="Enter friend's email"
-                        name="friendemail"
-                        size="small"
-                        InputProps={InputPropsDesign}
-                        {...register("friendemail", {
-                          required: {
-                            value: true,
-                            message: "Email cannot be empty",
-                          },
-                          pattern: {
-                            value:
-                              /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                            message: "Please enter a valid email",
-                          },
-                        })}
-                        type="email"
-                      // required
-                      />
-                      {errors.friendemail && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.friendemail.message}</p>
-                        </div>
-                      )}
-                    </Box>
-                    <Box
-                      mb={3}
-                      display="flex"
-                      flexDirection="column"
-                      alignItems="center"
-                      sx={responsiveStyle}
-                    >
-                      <TextField
-                        fullWidth
-                        variant="standard"
-                        placeholder="Friend's phone number"
-                        name="friendnumber"
-                        size="small"
-                        InputProps={{
-                          startAdornment: (
-                            <InputAdornment
-                              position="start"
-                              sx={{
-                                mb: 0.4,
-                                "& .MuiTypography-root": { fontSize: "14px" },
-                              }}
-                            >
-                              +91
-                            </InputAdornment>
-                          ),
-                          sx: {
-                            fontSize: "14px",
-                            padding: "4px",
-                          },
-                        }}
-                        {...register("friendnumber", {
-                          required: {
-                            value: true,
-                            message: "Please enter your friend's number",
-                          },
-                        })}
-                        type="number"
-                      // required
-                      />
-                      {errors.friendnumber && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.friendnumber.message}</p>
-                        </div>
-                      )}
-                    </Box>
-                    <Box mb={3} sx={responsiveStyle}>
-                      <FormControl fullWidth variant="standard">
-                        <Controller
-                          name="vertical"
-                          control={control}
-                          rules={{ required: "Please select vertical" }}
-                          render={({ field }) => (
-                            <Select
-                              labelId="vertical-label"
-                              id="vertical"
-                              {...field}
-                              label="Select vertical"
-                              placeholder="Select vertical"
-                              MenuProps={MenuProps}
-                              size="small"
-                              displayEmpty
-                              sx={{
-                                textTransform: "capitalize",
-                                padding: "4px",
-                                fontSize: "14px",
-                              }}
-                              renderValue={(selected) => {
-                                if (!selected) {
-                                  return (
-                                    <span style={{ color: "#9e9e9e" }}>
-                                      Select vertical
-                                    </span>
-                                  );
-                                }
-                                return (
-                                  <span style={{ fontSize: "14px" }}>
-                                    {selected}
-                                  </span>
-                                );
-                              }}
-                            >
-                              <MenuItem
-                                value=""
-                                disabled
-                                sx={{ fontSize: "14px" }}
-                              >
-                                select vertical
-                              </MenuItem>
-                              {VERTICALS.map((vertical, index) => (
-                                <MenuItem
-                                  key={index}
-                                  value={vertical}
-                                  sx={{
-                                    textTransform: "capitalize",
-                                    fontSize: "14px",
-                                  }}
-                                >
-                                  {vertical}
-                                </MenuItem>
-                              ))}
-                            </Select>
-                          )}
-                        />
-                      </FormControl>
-                      {errors.vertical?.message && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.vertical.message}</p>
-                        </div>
-                      )}
-                    </Box>
-                    {/* If vertical is selected then show program dropdown */}
-                    {selectedVertical && (
-                      <Box mb={3} sx={responsiveStyle}>
-                        <FormControl fullWidth variant="standard">
-                          <Controller
-                            name="programname"
-                            control={control}
-                            rules={{ required: "Please select program name" }}
-                            render={({ field }) => (
-                              <Select
-                                labelId="program-label"
-                                id="program"
-                                {...field}
-                                placeholder="Select Program"
-                                MenuProps={MenuProps}
-                                size="small"
-                                sx={{ padding: "4px" }}
-                                displayEmpty
-                                renderValue={(selected) => {
-                                  if (!selected) {
-                                    return (
-                                      <span style={{ color: "#9e9e9e" }}>
-                                        Select program
-                                      </span>
-                                    );
-                                  }
-                                  return (
-                                    <span style={{ fontSize: "14px" }}>
-                                      {selected}
-                                    </span>
-                                  );
-                                }}
-                              >
-                                <MenuItem disabled sx={{ fontSize: "14px" }}>
-                                  select programs
-                                </MenuItem>
-                                {filteredPrograms.map((program, index) => (
-                                  <MenuItem
-                                    key={index}
-                                    value={program.program_name}
-                                    sx={{
-                                      maxWidth: "100%",
-                                      overflow: "hidden",
-                                      wordBreak: "break-word",
-                                      whiteSpace: "normal",
-                                      fontSize: "14px",
-                                    }}
-                                  >
-                                    {program.program_name}
-                                  </MenuItem>
-                                ))}
-                              </Select>
-                            )}
-                          />
-                        </FormControl>
-                        {errors.programname?.message && (
-                          <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                            <span className="mt-[1px]">
-                              <IoWarning />
-                            </span>
-                            <p>{errors.programname.message}</p>
-                          </div>
-                        )}
-                      </Box>
-                    )}
-                    <button
-                      className="disabled:py-6 disabled:bg-transparent hover:bg-darkBlue text-base relative mt-6 px-4 py-2 bg-universal font-medium text-white w-full flex justify-center rounded-lg drop-shadow-md"
-                      onClick={handleSubmit(handleSubmitRef)}
-                    >
-                      Next
-                    </button>
-                  </>
-                )}
-
-                {/* step - 2 - personal details */}
-                {activeStep === 1 && (
-                  <>
-                    <Box mb={3} sx={responsiveStyle}>
-                      <TextField
-                        fullWidth
-                        variant="standard"
-                        placeholder="Enter your name"
-                        name="username"
-                        InputProps={InputPropsDesign}
-                        {...register("username", {
-                          required: {
-                            value: true,
-                            message: "Please enter your your name",
-                          },
-                          pattern: {
-                            value: /^[A-Za-z\s]+$/,
-                            message: "Name can only contain letters",
-                          },
-                        })}
-                      // required
-                      />
-                      {errors.username && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.username.message}</p>
-                        </div>
-                      )}
-                    </Box>
-                    <Box mb={3} sx={responsiveStyle}>
-                      <TextField
-                        fullWidth
-                        variant="standard"
-                        placeholder="Enter your email"
-                        name="useremail"
-                        InputProps={InputPropsDesign}
-                        {...register("useremail", {
-                          required: {
-                            value: true,
-                            message: "Email cannot be empty",
-                          },
-                          pattern: {
-                            value:
-                              /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                            message: "Please enter a valid email",
-                          },
-                        })}
-                        type="email"
-                      // required
-                      />
-                      {errors.useremail && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.useremail.message}</p>
-                        </div>
-                      )}
-                    </Box>
-                    <Box
-                      mb={3}
-                      display="flex"
-                      flexDirection="column"
-                      alignItems="center"
-                      sx={responsiveStyle}
-                    >
-                      <TextField
-                        fullWidth
-                        variant="standard"
-                        placeholder="Enter your phone number"
-                        name="userphone"
-                        InputProps={{
-                          startAdornment: (
-                            <InputAdornment
-                              position="start"
-                              sx={{
-                                "& .MuiTypography-root": { fontSize: "14px" },
-                              }}
-                            >
-                              +91
-                            </InputAdornment>
-                          ),
-                          sx: {
-                            fontSize: "14px",
-                            padding: "4px",
-                          },
-                        }}
-                        {...register("userphone", {
-                          required: {
-                            value: true,
-                            message: "Please enter your friend's number",
-                          },
-                        })}
-                        type="number"
-                      // required
-                      />
-                      {errors.userphone && (
-                        <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                          <span className="mt-[1px]">
-                            <IoWarning />
-                          </span>
-                          <p>{errors.userphone.message}</p>
-                        </div>
-                      )}
-                    </Box>
-
-                    <div className="pt-3">
-                      <ReCAPTCHA
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY || process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
-                        onChange={onCaptchChange}
-                      />
-                    </div>
-
-                    <Box display="flex" justifyContent="center">
-                      <button
-                        className={`disabled:bg-gray-400 hover:bg-darkBlue text-base relative mt-6 px-4 py-2 bg-universal font-medium text-white w-full flex justify-center rounded-lg drop-shadow-md`}
-                        disabled={!isValid || !captchaVerified}
-                        onClick={handleSubmit(handleSubmitRef)}
-                      >
-                        Refer Now
-                      </button>
-                    </Box>
-                  </>
-                )}
-              </form>
-            </div>
-          </div>
-          <Toaster position="top-right" />
+      <div className="flex flex-col md:flex-row relative">
+        {/* Left image section */}
+        <div className="w-full md:w-1/2 hidden md:flex items-center justify-center bg-universal p-6">
+          <Image
+            src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/refer-modal-bg.webp"
+            alt="Refer your friend"
+            width={550}
+            height={550}
+            quality={75}
+            className="max-w-[400px] w-full h-auto object-cover object-center"
+          />
         </div>
-      </DialogContent>
-      <Backdrop
-        sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
-        open={loaderOpen}
-      >
-        <CircularProgress color="inherit" />
-      </Backdrop>
-    </Dialog>
+
+        {/* Right form section */}
+        <div className="w-full md:w-1/2 p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            {/* Header / close row */}
+            <div className="w-full flex items-center justify-between mb-2">
+              {activeStep === 1 ? (
+                <button
+                  type="button"
+                  onClick={handleBack}
+                  className="flex items-center text-sm font-medium text-gray-600 hover:text-black transition"
+                >
+                  <ChevronLeft className="w-4 h-4 mr-1" />
+                  Back
+                </button>
+              ) : (
+                <div />
+              )}
+              <button
+                type="button"
+                onClick={handleCloseref}
+                className="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 flex items-center justify-center transition"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <p className="text-2xl font-semibold font-circular text-center mb-4">
+              Refer your <span className="text-universal">friend!</span>
+            </p>
+
+            {/* Stepper indicator */}
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div
+                className={`flex items-center gap-1.5 text-xs font-medium ${
+                  activeStep === 0 ? "text-[#1A73E8]" : "text-gray-500"
+                }`}
+              >
+                <span
+                  className={`w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold ${
+                    activeStep >= 0 ? "bg-[#1A73E8] text-white" : "bg-gray-200"
+                  }`}
+                >
+                  {activeStep > 0 ? <Check className="w-3.5 h-3.5" /> : "1"}
+                </span>
+                <span>Friend&apos;s details</span>
+              </div>
+              <div className="w-8 h-0.5 bg-gray-200" />
+              <div
+                className={`flex items-center gap-1.5 text-xs font-medium ${
+                  activeStep === 1 ? "text-[#1A73E8]" : "text-gray-500"
+                }`}
+              >
+                <span
+                  className={`w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold ${
+                    activeStep >= 1 ? "bg-[#1A73E8] text-white" : "bg-gray-200 text-gray-600"
+                  }`}
+                >
+                  2
+                </span>
+                <span>Refer now</span>
+              </div>
+            </div>
+
+            {/* Form */}
+            <form onSubmit={handleSubmit(handleSubmitRef)} className="space-y-3.5">
+              {/* Step 0: Friend's details */}
+              {activeStep === 0 && (
+                <>
+                  <div>
+                    <input
+                      placeholder="Enter friend's name"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      {...register("friendname", {
+                        required: "Please enter your friend's name",
+                        pattern: {
+                          value: /^[A-Za-z\s]+$/,
+                          message: "Name can only contain letters",
+                        },
+                      })}
+                    />
+                    {errors.friendname && (
+                      <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                        <IoWarning />
+                        <p>{errors.friendname.message}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <input
+                      type="email"
+                      placeholder="Enter friend's email"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      {...register("friendemail", {
+                        required: "Email cannot be empty",
+                        pattern: {
+                          value:
+                            /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                          message: "Please enter a valid email",
+                        },
+                      })}
+                    />
+                    {errors.friendemail && (
+                      <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                        <IoWarning />
+                        <p>{errors.friendemail.message}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="flex rounded-md border border-gray-300 focus-within:ring-2 focus-within:ring-blue-500 overflow-hidden">
+                    <span className="px-3 py-2 bg-gray-50 text-gray-500 text-sm border-r border-gray-300 flex items-center">
+                      +91
+                    </span>
+                    <input
+                      type="number"
+                      placeholder="Friend's phone number"
+                      className="w-full px-3 py-2 text-sm focus:outline-none"
+                      {...register("friendnumber", {
+                        required: "Please enter your friend's number",
+                      })}
+                    />
+                  </div>
+                  {errors.friendnumber && (
+                    <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                      <IoWarning />
+                      <p>{errors.friendnumber.message}</p>
+                    </div>
+                  )}
+
+                  <div>
+                    <Controller
+                      name="vertical"
+                      control={control}
+                      rules={{ required: "Please select vertical" }}
+                      render={({ field }) => (
+                        <Select
+                          id="vertical"
+                          instanceId="vertical-select"
+                          value={
+                            field.value
+                              ? VERTICAL_OPTIONS.find((opt) => opt.value === field.value) || {
+                                  value: field.value,
+                                  label: field.value,
+                                }
+                              : null
+                          }
+                          onChange={(selectedOption) => {
+                            field.onChange(selectedOption ? selectedOption.value : "");
+                            setValue("programname", "");
+                          }}
+                          options={VERTICAL_OPTIONS}
+                          placeholder="Select Vertical"
+                          isClearable
+                          styles={getSelectStyles(Boolean(errors.vertical))}
+                        />
+                      )}
+                    />
+                    {errors.vertical && (
+                      <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                        <IoWarning />
+                        <p>{errors.vertical.message}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  {selectedVertical && (
+                    <div>
+                      <Controller
+                        name="programname"
+                        control={control}
+                        rules={{ required: "Please select program name" }}
+                        render={({ field }) => (
+                          <Select
+                            id="programname"
+                            instanceId="programname-select"
+                            value={
+                              field.value
+                                ? { value: field.value, label: field.value }
+                                : null
+                            }
+                            onChange={(selectedOption) => {
+                              field.onChange(selectedOption ? selectedOption.value : "");
+                            }}
+                            options={filteredPrograms.map((prog) => ({
+                              value: prog.program_name,
+                              label: prog.program_name,
+                            }))}
+                            placeholder="Select Program"
+                            isClearable
+                            styles={getSelectStyles(Boolean(errors.programname))}
+                          />
+                        )}
+                      />
+                      {errors.programname && (
+                        <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                          <IoWarning />
+                          <p>{errors.programname.message}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  <button
+                    type="submit"
+                    className="hover:bg-darkBlue text-sm mt-4 px-4 py-2.5 bg-universal font-medium text-white w-full flex justify-center rounded-lg shadow transition"
+                  >
+                    Next
+                  </button>
+                </>
+              )}
+
+              {/* Step 1: User's details */}
+              {activeStep === 1 && (
+                <>
+                  <div>
+                    <input
+                      placeholder="Enter your name"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      {...register("username", {
+                        required: "Please enter your name",
+                        pattern: {
+                          value: /^[A-Za-z\s]+$/,
+                          message: "Name can only contain letters",
+                        },
+                      })}
+                    />
+                    {errors.username && (
+                      <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                        <IoWarning />
+                        <p>{errors.username.message}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <input
+                      type="email"
+                      placeholder="Enter your email"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      {...register("useremail", {
+                        required: "Email cannot be empty",
+                        pattern: {
+                          value:
+                            /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                          message: "Please enter a valid email",
+                        },
+                      })}
+                    />
+                    {errors.useremail && (
+                      <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                        <IoWarning />
+                        <p>{errors.useremail.message}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="flex rounded-md border border-gray-300 focus-within:ring-2 focus-within:ring-blue-500 overflow-hidden">
+                    <span className="px-3 py-2 bg-gray-50 text-gray-500 text-sm border-r border-gray-300 flex items-center">
+                      +91
+                    </span>
+                    <input
+                      type="number"
+                      placeholder="Enter your phone number"
+                      className="w-full px-3 py-2 text-sm focus:outline-none"
+                      {...register("userphone", {
+                        required: "Please enter your phone number",
+                      })}
+                    />
+                  </div>
+                  {errors.userphone && (
+                    <div className="text-red-500 text-xs font-medium flex items-center gap-1 mt-1">
+                      <IoWarning />
+                      <p>{errors.userphone.message}</p>
+                    </div>
+                  )}
+
+                  <div className="pt-2">
+                    <ReCAPTCHA
+                      sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY || ""}
+                      onChange={onCaptchChange}
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={!isValid || !captchaVerified}
+                    className="disabled:bg-gray-400 hover:bg-darkBlue text-sm mt-4 px-4 py-2.5 bg-universal font-medium text-white w-full flex justify-center rounded-lg shadow transition"
+                  >
+                    Refer Now
+                  </button>
+                </>
+              )}
+            </form>
+          </div>
+        </div>
+
+        <Toaster position="top-right" />
+      </div>
+
+      {loaderOpen && (
+        <div className="absolute inset-0 bg-white/70 backdrop-blur-sm z-50 flex items-center justify-center rounded-2xl">
+          <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
+        </div>
+      )}
+    </Modal>
   );
 };
 

@@ -12,7 +12,14 @@ export const getLenisInstance = () => lenisInstance;
 
 export const useSmoothScroll = () => {
   useEffect(() => {
-    if (typeof window === "undefined") return;
+    // Disable on mobile/touch devices to avoid main-thread RAF contention & improve INP
+    if (
+      typeof window === "undefined" ||
+      window.innerWidth < 768 ||
+      (window.matchMedia && window.matchMedia("(pointer: coarse)").matches)
+    ) {
+      return;
+    }
 
     const lenis = new Lenis({
       duration: 1.2,

@@ -1,32 +1,27 @@
-import React, { useEffect, useRef, useState } from "react";
+"use client";
+
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import ReactMarkdown from "react-markdown";
-import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { ChevronDown } from "lucide-react";
 import { IoIosArrowForward } from "react-icons/io";
 import { mentorFaq } from "../../Assets/faq";
-// import "../refer.css"
 
 const MentorFaq = () => {
   const [activeTab, setActiveTab] = useState(mentorFaq[0]?.heading);
-  const [isOpen, setIsOpen] = useState(null);
-  const [points, setPoints] = useState(mentorFaq[0]?.Faqaccd || []);
+  const [isOpen, setIsOpen] = useState(mentorFaq[0]?.Faqaccd?.[0]?.faqHeading || null);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const points = useMemo(() => {
+    return mentorFaq.find((faq) => faq.heading === activeTab)?.Faqaccd || [];
+  }, [activeTab]);
 
   const handleOverviewData = (faq) => {
     setActiveTab(faq.heading);
-    setPoints(faq.Faqaccd);
+    setIsOpen(faq.Faqaccd?.[0]?.faqHeading || null);
   };
 
-  //Function to open FAQ by default tab or tabs
-  useEffect(() => {
-    setPoints(
-      mentorFaq.find((faq) => faq.heading === activeTab)?.Faqaccd || []
-    );
-    setIsOpen(points[0]?.faqHeading);
-  }, [activeTab, points]);
-
   const handleAccordionChange = (title) => {
-    setIsOpen(isOpen === title ? null : title);
+    setIsOpen((prev) => (prev === title ? null : title));
   };
 
   const scrollContainer = useRef(null);
@@ -44,19 +39,18 @@ const MentorFaq = () => {
   };
 
   useEffect(() => {
+    const el = scrollContainer.current;
+    if (!el) return;
+
     const checkScroll = () => {
-      if (scrollContainer.current) {
-        setIsScrolled(scrollContainer.current.scrollLeft > 0);
-      }
+      setIsScrolled(el.scrollLeft > 0);
     };
 
     checkScroll();
-    scrollContainer.current.addEventListener("scroll", checkScroll);
+    el.addEventListener("scroll", checkScroll);
 
     return () => {
-      if (scrollContainer.current) {
-        scrollContainer.current.removeEventListener("scroll", checkScroll);
-      }
+      el.removeEventListener("scroll", checkScroll);
     };
   }, []);
 
@@ -76,6 +70,7 @@ const MentorFaq = () => {
             {isScrolled && (
               <button
                 onClick={handlePreviousButt}
+                aria-label="Previous"
                 className="absolute md:hidden block z-10 left-0 top-[50%] translate-y-[-50%] drop-shadow-lg border bg-white rounded-full p-1 rotate-180"
               >
                 <IoIosArrowForward />
@@ -89,16 +84,18 @@ const MentorFaq = () => {
                 <div
                   onClick={() => handleOverviewData(faq)}
                   key={index}
-                  className={`w-full max-w-[280px] rounded-md ${activeTab === faq.heading
+                  className={`w-full max-w-[280px] rounded-md ${
+                    activeTab === faq.heading
                       ? "drop-shadow-lg md:drop-shadow-xl bg-white border"
                       : "border-2 border-neutral-300"
-                    } px-4 py-4 text-center cursor-pointer font-circular`}
+                  } px-4 py-4 text-center cursor-pointer font-circular`}
                 >
                   <h3
-                    className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${activeTab === faq.heading
+                    className={`text-sm max-md:text-nowrap lg:text-lg font-semibold ${
+                      activeTab === faq.heading
                         ? "text-universal"
                         : "text-neutral-500"
-                      } capitalize`}
+                    } capitalize`}
                   >
                     {faq.heading}
                   </h3>
@@ -107,94 +104,87 @@ const MentorFaq = () => {
             </div>
             <button
               onClick={handleNextButt}
+              aria-label="Next"
               className="absolute md:hidden block z-10 right-0 top-[50%] translate-y-[-50%] drop-shadow-lg border bg-white rounded-full p-1"
             >
               <IoIosArrowForward />
             </button>
           </div>
-          <div className="w-full md:flex-[0.7] md:px-4 flex flex-col items-start">
-            {points.map((point, pointIndex) => (
-              <Accordion
-                key={pointIndex}
-                sx={{
-                  "&:before": {
-                    display: "none",
-                  },
-                  boxShadow: "none",
-                  backgroundColor: "white",
-                }}
-                expanded={isOpen === point.faqHeading}
-                onChange={() => handleAccordionChange(point.faqHeading)}
-                disableGutters={true}
-              >
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel1bh-content"
-                  id="panel1bh-header"
-                  sx={{
-                    minHeight: "0",
-                    padding: "0",
-                    m: 0,
-                  }}
-                >
-                  <div className="flex items-center gap-2 py-2 px-2">
+          <div className="w-full md:flex-[0.7] md:px-4 flex flex-col items-start space-y-2">
+            {points.map((point, pointIndex) => {
+              const isItemOpen = isOpen === point.faqHeading;
+              return (
+                <div key={pointIndex} className="w-full bg-white">
+                  <button
+                    type="button"
+                    onClick={() => handleAccordionChange(point.faqHeading)}
+                    className="w-full flex items-center justify-between py-2 px-2 text-left"
+                  >
                     <span
-                      className={`text-lg font-semibold w-full h-full font-circular ${isOpen === point.faqHeading ? "text-universal" : ""
-                        }`}
+                      className={`text-lg font-semibold font-circular transition-colors ${
+                        isItemOpen ? "text-universal" : "text-neutral-800"
+                      }`}
                     >
                       {point.faqHeading}
                     </span>
+                    <ChevronDown
+                      className={`w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0 ml-2 ${
+                        isItemOpen ? "rotate-180" : "rotate-0"
+                      }`}
+                    />
+                  </button>
+                  <div
+                    className={`grid transition-all duration-300 ease-in-out ${
+                      isItemOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                    }`}
+                  >
+                    <div className="overflow-hidden">
+                      <div className="flex flex-col gap-4 pl-3 sm:pl-3 md:pl-2 pb-4 font-circular">
+                        {point.subfaq && (
+                          <ReactMarkdown
+                            components={{
+                              a: ({ ...props }) => (
+                                <a
+                                  {...props}
+                                  className="text-blue-500 hover:underline"
+                                />
+                              ),
+                              h1: ({ ...props }) => (
+                                <h2
+                                  {...props}
+                                  className="text-2xl font-bold mb-2"
+                                />
+                              ),
+                              h2: ({ ...props }) => (
+                                <h2
+                                  {...props}
+                                  className="text-base font-semibold mt-4 mb-2"
+                                />
+                              ),
+                              ol: ({ ...props }) => (
+                                <ol {...props} className="list-decimal ml-0" />
+                              ),
+                              ul: ({ ...props }) => (
+                                <ul {...props} className="list-disc ml-6" />
+                              ),
+                              li: ({ ...props }) => (
+                                <li {...props} className="mt-1" />
+                              ),
+                            }}
+                          >
+                            {point.subfaq.length > 1
+                              ? point.subfaq
+                                  .map((item, index) => `${index + 1}. ${item}`)
+                                  .join("\n")
+                              : point.subfaq.join("\n")}
+                          </ReactMarkdown>
+                        )}
+                      </div>
+                    </div>
                   </div>
-                </AccordionSummary>
-                <AccordionDetails
-                  sx={{
-                    margin: "0px !important",
-                  }}
-                >
-                  <div className="flex flex-col gap-4 pl-3 sm:pl-3 md:pl-0 font-circular">
-                    {point.subfaq && (
-                      <ReactMarkdown
-                        components={{
-                          a: ({ node, ...props }) => (
-                            <a
-                              {...props}
-                              className="text-blue-500 hover:underline"
-                            />
-                          ),
-                          h1: ({ node, ...props }) => (
-                            <h2
-                              {...props}
-                              className="text-2xl font-bold mb-2"
-                            />
-                          ),
-                          h2: ({ node, ...props }) => (
-                            <h2
-                              {...props}
-                              className="text-base font-semibold mt-4 mb-2"
-                            />
-                          ),
-                          ol: ({ node, ...props }) => (
-                            <ol {...props} className="list-decimal ml-0" />
-                          ),
-                          ul: ({ node, ...props }) => (
-                            <ul {...props} className="list-disc ml-6" />
-                          ),
-                          li: ({ node, ...props }) => (
-                            <li {...props} className="mt-1" />
-                          ),
-                        }}
-                      >
-                        {point.subfaq.length > 1
-                          ? point.subfaq
-                            .map((item, index) => `${index + 1}. ${item}`)
-                            .join("\n")
-                          : point.subfaq.join("\n")}
-                      </ReactMarkdown>
-                    )}
-                  </div>
-                </AccordionDetails>
-              </Accordion>
-            ))}
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

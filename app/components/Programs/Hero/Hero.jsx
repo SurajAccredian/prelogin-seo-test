@@ -6,7 +6,7 @@ import { getColorAndBgColor } from "../../../helpers/colors.helpers";
 import { BiSolidTimer } from "react-icons/bi";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuShare2 } from "react-icons/lu";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import "./Hero.css";
 import { useState, useEffect } from "react";
 import { programActions } from "../../../store/reducers/program";
@@ -336,7 +336,7 @@ const Hero = ({ data: propData }) => {
                     disabled={enrollLoderState}
                     className="w-full md:w-auto px-4 py-4 md:py-2 rounded bg-universal text-white drop-shadow-xl text-lg md:text-base font-medium mt-4 min-w-[100px]"
                   >
-                    <CircularProgress size={15} sx={{ color: "#FFFFFF" }} />
+                    <Loader2 className="w-4 h-4 animate-spin text-white inline-block" />
                   </button>
                 ) : (
                   <CustomEnrollNowButton

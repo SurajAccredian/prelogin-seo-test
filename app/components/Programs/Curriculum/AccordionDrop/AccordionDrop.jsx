@@ -1,21 +1,10 @@
-import AccordionGroup from "@mui/joy/AccordionGroup";
-import { accordionDetailsClasses } from "@mui/joy/AccordionDetails";
-import { accordionSummaryClasses } from "@mui/joy/AccordionSummary";
+"use client";
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Ordinary from "./Ordinary";
 import Special from "./Special";
 import { useSelector } from "react-redux";
-import Accordion from "@mui/joy/Accordion";
-import AccordionDetails from "@mui/joy/AccordionDetails";
-import AccordionSummary from "@mui/joy/AccordionSummary";
-import { Step, Stepper } from "@mui/joy";
-
-import { StepIcon, StepLabel } from "@mui/material";
-import { ExpandMore } from "@mui/icons-material";
-const BlueStepIcon = (props) => {
-  return <StepIcon {...props} style={{ color: "#1A73E8" }} />;
-};
+import { ChevronDown } from "lucide-react";
 
 export default function AccordionFilter({
   openAll,
@@ -48,7 +37,7 @@ export default function AccordionFilter({
 
     if (openAll && !isSplit) {
       const newExpanded = {};
-      curriculum.forEach((curriculum, index) => {
+      curriculum.forEach((curr, index) => {
         newExpanded[`panel${index}-0`] = true;
         newExpanded[`panel-special-${index}-0`] = true;
       });
@@ -57,7 +46,7 @@ export default function AccordionFilter({
 
     if (openAll && isSplit) {
       const newExpanded = {};
-      curriculum.coreModules.forEach((curriculum, index) => {
+      curriculum.coreModules.forEach((curr, index) => {
         newExpanded[`panel${index}-0`] = true;
       });
 
@@ -77,7 +66,7 @@ export default function AccordionFilter({
 
     if (openAll === false && isSplit) {
       const newExpanded = {};
-      curriculum.coreModules.forEach((curriculum, index) => {
+      curriculum.coreModules.forEach((curr, index) => {
         newExpanded[`panel${index}`] = false;
       });
 
@@ -91,7 +80,7 @@ export default function AccordionFilter({
 
     if (openAll === false && !isSplit) {
       const newExpanded = {};
-      curriculum.forEach((curriculum, index) => {
+      curriculum.forEach((curr, index) => {
         newExpanded[`panel${index}`] = false;
       });
 
@@ -103,13 +92,6 @@ export default function AccordionFilter({
 
   let termIndex = 1;
   let specialIndex = 1;
-  const formatTitle = (key) => {
-    const role = key.split("-");
-    const formattedRole = role
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
-    return `${formattedRole}`;
-  };
 
   return (
     <>
@@ -120,47 +102,35 @@ export default function AccordionFilter({
               ? "Core Modules"
               : "Curriculum"}
           </div>
-          <AccordionGroup
-            disableDivider
-            variant="plain"
-            sx={{
-              borderRadius: "md",
-              backgroundColor: "white",
-              border: "1px solid #dedede",
-              filter:
-                "drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));",
-              [`& .${accordionDetailsClasses.content}.${accordionDetailsClasses.expanded}`]:
-                {
-                  paddingBlock: "1rem",
-                },
-              [`& .${accordionSummaryClasses.button}`]: {
-                paddingBlock: "1rem",
-              },
-            }}
-          >
-            {curriculum.coreModules.map((curriculum, index) => (
-              <div key={index}>
-                {curriculum?.special ? (
-                  <Special
-                    curriculum={curriculum}
-                    index={specialIndex++}
-                    handleChange={handleChange}
-                    expanded={expanded}
-                  />
-                ) : (
-                  <Ordinary
-                    curriculum={curriculum}
-                    index={termIndex++}
-                    handleChange={handleChange}
-                    expanded={expanded}
-                    type={type}
-                    id={`panel${index}`}
-                  />
-                  // <Ordinary curriculum={curriculum} index={termIndex++} handleChange={handleChange} expanded={expanded} type={type} />
-                )}
-              </div>
-            ))}
-          </AccordionGroup>
+
+          <div className="rounded-lg bg-white border border-[#dedede] shadow-sm overflow-hidden font-circular">
+            {curriculum.coreModules.map((curr, index) => {
+              const isLast = index === curriculum.coreModules.length - 1;
+              return (
+                <div key={index}>
+                  {curr?.special ? (
+                    <Special
+                      curriculum={curr}
+                      index={specialIndex++}
+                      handleChange={handleChange}
+                      expanded={expanded}
+                      isLast={isLast}
+                    />
+                  ) : (
+                    <Ordinary
+                      curriculum={curr}
+                      index={termIndex++}
+                      handleChange={handleChange}
+                      expanded={expanded}
+                      type={type}
+                      id={`panel${index}`}
+                      isLast={isLast}
+                    />
+                  )}
+                </div>
+              );
+            })}
+          </div>
 
           <div className="sm:text-2xl text-xl text-universal p-4 pt-6 font-bold font-circular">
             {data?.id === "global-senior-leadership-program"
@@ -168,28 +138,11 @@ export default function AccordionFilter({
               : "Masterclasses"}
           </div>
 
-          <AccordionGroup
-            disableDivider
-            variant="plain"
-            sx={{
-              borderRadius: "md",
-              backgroundColor: "white",
-              border: "1px solid #dedede",
-              filter:
-                "drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));",
-              [`& .${accordionDetailsClasses.content}.${accordionDetailsClasses.expanded}`]:
-                {
-                  paddingBlock: "1rem",
-                },
-              [`& .${accordionSummaryClasses.button}`]: {
-                paddingBlock: "1rem",
-              },
-            }}
-          >
+          <div className="rounded-lg bg-white border border-[#dedede] shadow-sm overflow-hidden font-circular">
             {data?.id !== "global-senior-leadership-program" ? (
               Object.entries(curriculum)
                 .slice(1)
-                .map(([index, modules]) =>
+                .map(([idx, modules]) =>
                   modules.map((point, i) => (
                     <Ordinary
                       key={i}
@@ -197,93 +150,86 @@ export default function AccordionFilter({
                       expanded={expanded}
                       handleChange={handleChange}
                       index={i + 1}
-                      id={`${index}-${i}`}
+                      id={`${idx}-${i}`}
                       type="masterclass"
+                      isLast={i === modules.length - 1}
                     />
                   ))
                 )
             ) : (
               Object.entries(curriculum)
                 .slice(1)
-                .map(([index, modules]) => {
+                .map(([idx, modules], catIndex, catArr) => {
+                  const isItemExpanded = Boolean(expanded[idx]);
+                  const isCatLast = catIndex === catArr.length - 1;
                   return (
-                    <div key={index}>
-                      <Accordion
-                        key={index}
-                        sx={{
-                          "&:hover": {
-                            backgroundColor: "",
-                            boxShadow: "none",
-                          },
-                        }}
-                        expanded={expanded[index]}
-                        onChange={handleChange(index)}
-                        // expanded={expanded[panelId] || false}
-                        // onChange={handleChangeInner}
+                    <div key={idx} className="w-full bg-white">
+                      <button
+                        type="button"
+                        onClick={(e) => handleChange(idx)(e, !isItemExpanded)}
+                        className={`w-full flex items-center justify-between px-6 py-4 text-left transition select-none cursor-pointer ${
+                          isItemExpanded ? "bg-[#F0F4FE]" : "bg-white hover:bg-gray-50/50"
+                        }`}
                       >
-                        <AccordionSummary expandIcon={<ExpandMore />}>
-                          <div className="w-full flex items-center justify-between gap-2">
-                            <div className="flex items-center gap-2">
-                              <h3 className="text-sm md:text-base font-semibold">
-                                {index.split("-").join(" ")}
-                              </h3>
-                            </div>
+                        <div className="flex items-center gap-2">
+                          <h3 className="text-sm md:text-[15px] font-medium text-gray-800 capitalize">
+                            {idx.split("-").join(" ")}
+                          </h3>
+                        </div>
 
-                            <h4 className="max-md:hidden text-nowrap font-circular">
-                              {modules.length} Modules
-                            </h4>
-                          </div>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                          <Stepper orientation="vertical">
+                        <div className="flex items-center gap-3">
+                          <h4 className="max-md:hidden whitespace-nowrap font-circular text-sm text-gray-500">
+                            {modules.length} Modules
+                          </h4>
+                          <ChevronDown
+                            className={`w-5 h-5 text-gray-500 transition-transform duration-300 flex-shrink-0 ${
+                              isItemExpanded ? "rotate-180" : "rotate-0"
+                            }`}
+                          />
+                        </div>
+                      </button>
+
+                      {isItemExpanded && (
+                        <div className="pb-4 pt-1">
+                          <div className="flex flex-col space-y-3 pl-2 sm:pl-4">
                             {modules.map((point, i) => {
-                              // const pointId = `${id}-panel${index}-${i}`;
                               if (typeof point === "object") {
                                 return (
                                   <Ordinary
+                                    key={i}
                                     curriculum={point}
                                     expanded={expanded}
                                     handleChange={handleChange}
                                     index={i + 1}
-                                    id={`${index}-${i}`}
+                                    id={`${idx}-${i}`}
                                     type={type}
+                                    isLast={i === modules.length - 1}
                                   />
                                 );
                               } else {
                                 return (
-                                  <Step
-                                    key={index}
-                                    sx={{
-                                      "& .MuiStepLabel-root .Mui-active": {
-                                        color: "#1A73E8",
-                                      },
-                                      color: "#1A73E8",
-                                    }}
-                                  >
-                                    <StepLabel StepIconComponent={BlueStepIcon}>
-                                      <p className="text-sm font-medium">
-                                        {point}
-                                      </p>
-                                    </StepLabel>
-                                  </Step>
+                                  <div key={i} className="flex items-start gap-3">
+                                    <div className="w-2 h-2 rounded-full bg-[#1A73E8] mt-1.5 flex-shrink-0" />
+                                    <p className="text-sm font-medium text-gray-700">
+                                      {point}
+                                    </p>
+                                  </div>
                                 );
                               }
                             })}
-                          </Stepper>
-                        </AccordionDetails>
-                        <div className="w-full border-b" />
-                      </Accordion>
+                          </div>
+                        </div>
+                      )}
+                      {!isCatLast && <div className="mx-6 border-b border-gray-200" />}
                     </div>
                   );
                 })
             )}
-          </AccordionGroup>
+          </div>
 
           {data?.id === "global-senior-leadership-program" && (
             <div>
-              <p
-                className={`italic p-3  pl-0 font-medium text-sm mt-2 text-gray-500`}
-              >
+              <p className="italic p-3 pl-0 font-medium text-sm mt-2 text-gray-500">
                 *Participants will select only one elective specialization module,
                 each concluding with a Capstone Project.
               </p>
@@ -291,47 +237,34 @@ export default function AccordionFilter({
           )}
         </>
       ) : (
-        <AccordionGroup
-          disableDivider
-          variant="plain"
-          sx={{
-            borderRadius: "md",
-            backgroundColor: "white",
-            border: "1px solid #dedede",
-            filter:
-              "drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));",
-            [`& .${accordionDetailsClasses.content}.${accordionDetailsClasses.expanded}`]:
-              {
-                paddingBlock: "1rem",
-              },
-            [`& .${accordionSummaryClasses.button}`]: {
-              paddingBlock: "1rem",
-            },
-          }}
-        >
-          {curriculum.map((curriculum, index) => (
-            <div key={index}>
-              {curriculum?.special ? (
-                <Special
-                  curriculum={curriculum}
-                  index={specialIndex++}
-                  handleChange={handleChange}
-                  expanded={expanded}
-                />
-              ) : (
-                <Ordinary
-                  curriculum={curriculum}
-                  index={termIndex++}
-                  handleChange={handleChange}
-                  expanded={expanded}
-                  type={type}
-                  id={`panel${index}`}
-                />
-                // <Ordinary curriculum={curriculum} index={termIndex++} handleChange={handleChange} expanded={expanded} type={type} />
-              )}
-            </div>
-          ))}
-        </AccordionGroup>
+        <div className="rounded-lg bg-white border border-[#dedede] shadow-sm overflow-hidden font-circular">
+          {curriculum.map((curr, index) => {
+            const isLast = index === curriculum.length - 1;
+            return (
+              <div key={index}>
+                {curr?.special ? (
+                  <Special
+                    curriculum={curr}
+                    index={specialIndex++}
+                    handleChange={handleChange}
+                    expanded={expanded}
+                    isLast={isLast}
+                  />
+                ) : (
+                  <Ordinary
+                    curriculum={curr}
+                    index={termIndex++}
+                    handleChange={handleChange}
+                    expanded={expanded}
+                    type={type}
+                    id={`panel${index}`}
+                    isLast={isLast}
+                  />
+                )}
+              </div>
+            );
+          })}
+        </div>
       )}
     </>
   );

@@ -9,7 +9,6 @@ import {
   Button,
   Spinner,
 } from "@chakra-ui/react";
-import { Box } from "@mui/material";
 import CryptoJS from "crypto-js";
 import { IoWarning } from "react-icons/io5";
 import React from "react";
@@ -33,6 +32,30 @@ import {
   getApplicationDetails,
 } from "../../../services/program.service";
 // import SignUpModal from "../../Modals/SignUpModal";
+
+// Setting the cookies so that the user can login from any portal of accredian.com
+function setCookie(name, value, hours, domain) {
+  let expires = "";
+  if (hours) {
+    const date = new Date();
+    date.setTime(date.getTime() + hours * 60 * 60 * 1000);
+    expires = `; expires=${date.toUTCString()}`;
+  }
+  const cookieDomain = domain ? `; domain=${domain}` : "";
+  document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
+}
+
+// Setting the cookies so that the user can login from any portal of accredian.com
+function setCookie(name, value, hours, domain) {
+  let expires = "";
+  if (hours) {
+    const date = new Date();
+    date.setTime(date.getTime() + hours * 60 * 60 * 1000);
+    expires = `; expires=${date.toUTCString()}`;
+  }
+  const cookieDomain = domain ? `; domain=${domain}` : "";
+  document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
+}
 
 const LoginDrawer = ({ isOpen, onClose }) => {
   const steps = ["Step 1", "Step 2"];
@@ -82,10 +105,14 @@ const LoginDrawer = ({ isOpen, onClose }) => {
 
     if (isResending && timer > 0) {
       interval = setInterval(() => {
-        setTimer((prev) => prev - 1);
+        setTimer((prev) => {
+          if (prev <= 1) {
+            setIsResending(false);
+            return 0;
+          }
+          return prev - 1;
+        });
       }, 1000);
-    } else if (timer === 0) {
-      setIsResending(false);
     }
 
     return () => clearInterval(interval);
@@ -108,17 +135,6 @@ const LoginDrawer = ({ isOpen, onClose }) => {
     }
   };
 
-  // Setting the cookies so that the user can login from any portal of accredian.com
-  function setCookie(name, value, hours, domain) {
-    let expires = "";
-    if (hours) {
-      const date = new Date();
-      date.setTime(date.getTime() + hours * 60 * 60 * 1000);
-      expires = `; expires=${date.toUTCString()}`;
-    }
-    const cookieDomain = domain ? `; domain=${domain}` : "";
-    document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
-  }
 
   // To update the auth status to OTP
   const handleEmailVerification = (status) => {
@@ -852,16 +868,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
               </Box> */}
 
                   {/* Right Side: Form */}
-                  <Box
-                    sx={{
-                      width: {
-                        xs: "100%", // 100% width on extra-small screens
-                        md: "50%", // 50% width on medium screens and up
-                      },
-                      paddingLeft: 1,
-                      paddingRight: 1,
-                    }}
-                  >
+                  <div className="w-full md:w-1/2 px-1">
                     {/* <Box
                   sx={{
                     display: "flex",
@@ -887,7 +894,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
                           className="mb-4 text-paleBlack "
                         >
                           <p className="">
-                            You can sign in or join with us if you're new to
+                            You can sign in or join with us if you&apos;re new to
                             Accredian
                           </p>
                         </div>
@@ -1124,7 +1131,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
                           <>
                             <div className="mb-4  text-paleBlack">
                               <h2 className="text-xl font-semibold">
-                                We've sent an OTP on
+                                We&apos;ve sent an OTP on
                               </h2>
                               <p className="text-[14px] text-gray-500 ">
                                 {emailValue}
@@ -1175,7 +1182,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
                               </>
                             )}
                             <p className="text-[14px] mt-2">
-                              Didn't receive OTP?
+                              Didn&apos;t receive OTP?
                               <button
                                 className={`ml-1 text-universal ${isResending
                                   ? "cursor-not-allowed text-gray-400"
@@ -1233,7 +1240,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
                         )}
                       </>
                     ) : null}
-                  </Box>
+                  </div>
                 </div>
                 <div></div>
               </div>

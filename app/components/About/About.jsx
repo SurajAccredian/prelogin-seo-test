@@ -7,7 +7,7 @@ import {
   Box,
   Container,
   CardMedia,
-} from "@mui/material";
+} from "../ui/LayoutPrimitives";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
 
@@ -51,10 +51,10 @@ export default function About() {
         {/* Quote */}
         <Box sx={{ pt: 6, pb: 3 }}>
           <Typography sx={{ color: "#000", textAlign: "center", fontSize: "25px", fontWeight: 400, marginBottom: "0rem!important", lineHeight: 1.3 }}>
-            " We believe that anyone can learn new skills and{" "}
+            &ldquo; We believe that anyone can learn new skills and{" "}
           </Typography>
           <Typography sx={{ color: "#000", textAlign: "center", fontSize: "25px", fontWeight: 400, marginBottom: "0.4rem!important", lineHeight: 1.3 }}>
-            grow in their careers. "{" "}
+            grow in their careers. &rdquo;{" "}
           </Typography>
           <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "14px", fontWeight: 400 }}>
             - Manav, CEO - Accredian
@@ -388,7 +388,7 @@ export default function About() {
         <Box sx={{ pt: 6, pb: 3 }}>
           <Container fixed> {/* FIX: was <Container fixd> */}
             <Typography sx={{ color: "#000", textAlign: "center", fontSize: "20px", fontWeight: 400, marginBottom: "1rem!important", lineHeight: 1.3 }}>
-              " We believe that anyone can learn new skills and grow in their careers. "
+              &ldquo; We believe that anyone can learn new skills and grow in their careers. &rdquo;
             </Typography>
             <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "14px", fontWeight: 400 }}>
               - Manav, CEO - Accredian

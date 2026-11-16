@@ -1,154 +1,88 @@
 "use client";
 
 import React, { useState } from "react";
-import {
-  Typography,
-  Box,
-  Container,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-} from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { ChevronDown } from "lucide-react";
 
 export default function FaqAccordionSection({ faqData }) {
   // Default first question of first category open, like original panel1
   const [expanded, setExpanded] = useState("about-accredian-0");
 
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
+  const togglePanel = (panelId) => {
+    setExpanded((prev) => (prev === panelId ? false : panelId));
   };
 
   return (
-    <Box sx={{ pb: 8, pt: 2 }}>
-      <Container fixed sx={{ maxWidth: "85rem" }}>
+    <div className="pb-16 pt-4">
+      <div className="max-w-[85rem] mx-auto px-4 sm:px-6">
         {/* Main Heading & Intro */}
-        <Box sx={{ mb: { xs: 4, md: 5 } }}>
-          <Typography
-            component="h1"
-            sx={{
-              color: "#000",
-              fontWeight: "bold",
-              fontSize: { xs: "26px", sm: "30px", md: "34px" },
-              marginBottom: "0.5rem !important",
-              lineHeight: 1.2,
-            }}
-          >
+        <div className="mb-8 md:mb-10">
+          <h1 className="text-black font-bold text-[26px] sm:text-[30px] md:text-[34px] mb-2 leading-tight">
             Frequently Asked Questions (FAQ)
-          </Typography>
-          <Typography
-            component="p"
-            sx={{
-              color: "#1a1a1a",
-              fontWeight: "600",
-              fontSize: { xs: "18px", md: "20px" },
-              marginBottom: "0.4rem !important",
-            }}
-          >
-          </Typography>
-          <Typography
-            component="p"
-            sx={{
-              color: "#4a4a4a",
-              fontSize: "16px",
-              marginBottom: "0.5rem !important",
-            }}
-          >
+          </h1>
+          <p className="text-[#4a4a4a] text-base mb-2">
             Search for the answers to your questions below.
-          </Typography>
-        </Box>
+          </p>
+        </div>
 
         {/* Categories & Accordions */}
         {faqData &&
           faqData.map((category) => (
-            <Box key={category.id} sx={{ mb: { xs: 4, md: 5 } }}>
-              <Typography
-                component="h2"
-                sx={{
-                  color: "#000",
-                  fontWeight: "bold",
-                  fontSize: { xs: "20px", sm: "22px", md: "28px" },
-                  marginBottom: "1rem !important",
-                  pb: 1,
-                  borderBottom: "2px solid #e5e7eb",
-                }}
-              >
+            <div key={category.id} className="mb-8 md:mb-10">
+              <h2 className="text-black font-bold text-[20px] sm:text-[22px] md:text-[28px] mb-4 pb-2 border-b-2 border-[#e5e7eb]">
                 {category.heading}
-              </Typography>
+              </h2>
 
-              <Box sx={{ pt: 1, pb: 2 }}>
+              <div className="pt-2 pb-4">
                 {category.questions &&
                   category.questions.map((item, qIdx) => {
                     const panelId = `${category.id}-${qIdx}`;
                     const isPanelExpanded = expanded === panelId;
 
                     return (
-                      <Accordion
+                      <div
                         key={item.id || panelId}
-                        expanded={isPanelExpanded}
-                        onChange={handleChange(panelId)}
-                        slotProps={{ transition: { unmountOnExit: false } }}
-                        sx={{
-                          boxShadow: "none",
-                          border: { xs: "1px solid #e0e0e0", lg: "none" },
-                          borderBottom: { lg: "1px solid #e0e0e0" },
-                          mb: { xs: 1.5, lg: 0 },
-                          borderRadius: { xs: "8px", lg: 0 },
-                          "&:before": { display: "none" },
-                        }}
+                        className="border border-[#e0e0e0] lg:border-x-0 lg:border-t-0 lg:border-b mb-3 lg:mb-0 rounded-lg lg:rounded-none bg-white overflow-hidden transition"
                       >
-                        <AccordionSummary
-                          expandIcon={<ExpandMoreIcon sx={{ color: "#333" }} />}
-                          aria-controls={`${panelId}-content`}
-                          id={`${panelId}-header`}
-                          sx={{
-                            minHeight: { xs: "64px", md: "72px" },
-                            px: { xs: 2, md: 2 },
-                            "& .MuiAccordionSummary-content": {
-                              my: 1.5,
-                            },
-                          }}
+                        <button
+                          type="button"
+                          onClick={() => togglePanel(panelId)}
+                          aria-expanded={isPanelExpanded}
+                          className="w-full flex items-center justify-between text-left min-h-[64px] md:min-h-[72px] px-4 py-3 cursor-pointer select-none"
                         >
-                          <Typography
-                            component="h3"
-                            sx={{
-                              fontWeight: "bold",
-                              fontSize: { xs: "14px", md: "18px" },
-                              color: isPanelExpanded ? "#1A73E8" : "#1a1a1a",
-                              transition: "color 0.2s ease",
-                              m: 0,
-                              lineHeight: 1.4,
-                            }}
+                          <h3
+                            className={`font-bold text-sm md:text-lg transition-colors leading-[1.4] pr-4 ${
+                              isPanelExpanded ? "text-[#1A73E8]" : "text-[#1a1a1a]"
+                            }`}
                           >
                             {item.question}
-                          </Typography>
-                        </AccordionSummary>
-                        <AccordionDetails
-                          sx={{
-                            px: { xs: 2, md: 2 },
-                            pt: 0,
-                            pb: 2.5,
-                          }}
+                          </h3>
+                          <ChevronDown
+                            className={`w-5 h-5 text-[#333] flex-shrink-0 transition-transform duration-200 ${
+                              isPanelExpanded ? "rotate-180" : "rotate-0"
+                            }`}
+                          />
+                        </button>
+
+                        <div
+                          className={`grid transition-all duration-300 ease-in-out ${
+                            isPanelExpanded ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                          }`}
                         >
-                          <Typography
-                            component="p"
-                            sx={{
-                              fontSize: "16px",
-                              color: "#4a4a4a",
-                              lineHeight: 1.7,
-                              m: 0,
-                            }}
-                          >
-                            {item.answer}
-                          </Typography>
-                        </AccordionDetails>
-                      </Accordion>
+                          <div className="overflow-hidden">
+                            <div className="px-4 pt-0 pb-5">
+                              <p className="text-base text-[#4a4a4a] leading-[1.7] whitespace-pre-line">
+                                {item.answer}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     );
                   })}
-              </Box>
-            </Box>
+              </div>
+            </div>
           ))}
-      </Container>
-    </Box>
+      </div>
+    </div>
   );
 }

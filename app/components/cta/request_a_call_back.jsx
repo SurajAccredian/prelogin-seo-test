@@ -2,27 +2,38 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Backdrop from "@mui/material/Backdrop";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
-import Fade from "@mui/material/Fade";
+import Modal from "../ui/Modal";
+import Select from "react-select";
 import { IoIosClose } from "react-icons/io";
 import { IoWarning } from "react-icons/io5";
 import { CiPhone } from "react-icons/ci";
-import Swal from "sweetalert2";
+import { Loader2 } from "lucide-react";
 import axios from "axios";
 import { usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import vertical from "../Assets/programs.json";
 import { groupProgramsByCategory } from "../../helpers/common.helpers";
 import ReCAPTCHA from "react-google-recaptcha";
-import CircularProgress from "@mui/material/CircularProgress";
-import TextField from "@mui/material/TextField";
-import MenuItem from "@mui/material/MenuItem";
 import { getStoredUTMData } from "../../helpers/utm.helpers";
 import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const streams = Object.keys(groupProgramsByCategory(vertical));
+const streamOptions = streams.map((stream) => {
+  let label = stream;
+  if (stream.toLowerCase() === "cxo leadership") {
+    label = "CXO Leadership";
+  } else if (stream.toLowerCase() === "data science & ai") {
+    label = "Data Science & AI";
+  } else if (stream.toLowerCase() === "pg diploma") {
+    label = "PG Diploma";
+  } else {
+    label = stream
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  }
+  return { value: stream, label };
+});
 
 // Default enquiry number
 const ENQUIRY_NUMBER = "7619555873";
@@ -181,13 +192,26 @@ function RctaInner(props) {
           setProgram("");
           setCaptchaVerified(false);
         } else {
+          import("sweetalert2").then(({ default: Swal }) => {
+            Swal.fire({
+              title: "Warning",
+              text: "Something went wrong. Please try again!",
+              icon: "warning",
+              confirmButtonText: "OK",
+            });
+          });
+        }
+      })
+      .catch(() => {
+        LoaderClose();
+        import("sweetalert2").then(({ default: Swal }) => {
           Swal.fire({
             title: "Warning",
             text: "Something went wrong. Please try again!",
             icon: "warning",
             confirmButtonText: "OK",
           });
-        }
+        });
       });
   };
 
@@ -200,307 +224,288 @@ function RctaInner(props) {
   };
 
   return (
-    <div>
-      <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        open={props.open}
-        onClose={handleClose}
-        closeAfterTransition
-        slots={{ backdrop: Backdrop }}
-        slotProps={{
-          backdrop: {
-            timeout: 500,
-          },
-        }}
-      >
-        <Fade in={props.open}>
-          <Box
-            sx={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              border: "none",
-            }}
+    <Modal
+      open={props.open}
+      onClose={handleClose}
+      maxWidth="max-w-4xl"
+      className="p-0 overflow-hidden font-circular relative"
+    >
+      {/* Backdrop loader */}
+      {loader && (
+        <div className="absolute inset-0 bg-white/70 backdrop-blur-[2px] z-30 flex items-center justify-center">
+          <Loader2 className="w-10 h-10 animate-spin text-universal" />
+        </div>
+      )}
+
+      {/* Close button */}
+      <div className="absolute top-3 right-3 z-20">
+        <button
+          type="button"
+          onClick={handleClose}
+          aria-label="Close"
+          className="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition"
+        >
+          <IoIosClose className="w-6 h-6 text-gray-800" />
+        </button>
+      </div>
+
+      <div className="bg-white w-full py-6 px-4 sm:px-6 flex items-start gap-4 max-h-[90vh] overflow-y-auto">
+        {/* Left side image section */}
+        <div className="md:flex flex-col items-center justify-between gap-4 hidden flex-[0.5] h-full pt-4">
+          <div className="max-w-sm w-full border-r-[1px] border-neutral-100 pr-4">
+            <Image
+              src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
+              alt="get-in-touch"
+              width={384}
+              height={384}
+              quality={75}
+              className="w-full h-auto"
+            />
+          </div>
+          {/* Enquiry number for desktop */}
+          <div className="w-full mt-4 flex justify-center items-center gap-4 bg-blue-50 border border-blue-300 py-4 px-4 rounded-lg">
+            <div className="w-8 h-8 flex-shrink-0 p-1 border-2 rounded-lg border-universal bg-white">
+              <CiPhone className="w-full h-full text-universal" />
+            </div>
+            <div className="flex items-center gap-2">
+              <p className="font-medium text-gray-800">To Inquire</p>
+              <span className="text-gray-600">-</span>
+              <a
+                href={`tel:${ENQUIRY_NUMBER}`}
+                className="underline font-semibold text-universal"
+              >
+                {ENQUIRY_NUMBER}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Right side form section */}
+        <div className="flex-1 w-full md:flex-[0.5] flex flex-col items-center md:pl-4">
+          <div className="w-full text-center mb-6 block md:hidden">
+            <h2 className="text-2xl font-bold text-gray-900">Request a Callback</h2>
+            <p className="text-sm text-gray-500 mt-1">Fill the simple form below to get in touch</p>
+          </div>
+          <form
+            className="w-full h-full flex flex-col justify-between"
+            onSubmit={submitForm}
           >
-            {/* Backdrop loader - using CircularProgress */}
-            <Backdrop
-              sx={{
-                color: "#fff",
-                zIndex: (theme) => theme.zIndex.drawer + 1,
-              }}
-              open={loader}
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
-
-            <div className="overflow-hidden font-circular outline-none">
-              <div className="py-2 w-full text-center relative flex items-center justify-end">
-                <div
-                  className="w-8 h-8 rounded-lg bg-white flex items-center justify-center flex-shrink-0 cursor-pointer justify-self-end mt-[-30px] mr-[-10px] sm:mt-0 sm:mr-0 z-10"
-                  onClick={handleClose}
-                >
-                  <IoIosClose className="w-full h-full text-gray-800" />
-                </div>
-              </div>
-              <div className="bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[95vw] min-h-[35vh] py-6 px-4 sm:px-6 flex items-start gap-4 rounded-xl shadow-xl max-h-[90vh] overflow-y-auto">
-                {/* Left side image section */}
-                <div className="md:flex flex-col items-center justify-between gap-4 hidden flex-[0.5] h-full pt-4">
-                  <div className="max-w-sm w-full border-r-[1px] border-neutral-100 pr-4">
-                    <Image
-                      src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
-                      alt="get-in-touch"
-                      width={384}
-                      height={384}
-                      quality={75}
-                      className="w-full h-auto"
-                    />
-                  </div>
-                  {/* Enquiry number for desktop */}
-                  <div className="w-full mt-4 flex justify-center items-center gap-4 bg-blue-50 border border-blue-300 py-4 px-4 rounded-lg">
-                    <div className="w-8 h-8 flex-shrink-0 p-1 border-2 rounded-lg border-universal bg-white">
-                      <CiPhone className="w-full h-full text-universal" />
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <p className="font-medium text-gray-800">To Inquire</p>
-                      <span className="text-gray-600">-</span>
-                      <a
-                        href={`tel:${ENQUIRY_NUMBER}`}
-                        className="underline font-semibold text-universal"
-                      >
-                        {ENQUIRY_NUMBER}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Right side form section */}
-                <div className="flex-1 w-full md:flex-[0.5] flex flex-col items-center md:pl-4">
-                  <div className="w-full text-center mb-6 block md:hidden">
-                    <h2 className="text-2xl font-bold text-gray-900">Request a Callback</h2>
-                    <p className="text-sm text-gray-500 mt-1">Fill the simple form below to get in touch</p>
-                  </div>
-                  <form
-                    className="w-full h-full flex flex-col justify-between"
-                    onSubmit={submitForm}
-                  >
-                    <div className="w-full">
-                      {/* Name field */}
-                      <div className="relative mb-4">
-                        <input
-                          className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2
+            <div className="w-full">
+              {/* Name field */}
+              <div className="relative mb-4">
+                <input
+                  className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2
 ${errors["name"] ? "border-rose-500" : "border-neutral-300"} 
 ${errors["name"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
-                          id="name"
-                          type="text"
-                          name="name"
-                          placeholder="Name (Required)"
-                          value={rcb.name}
-                          onChange={rcbhandleChange}
-                        />
-                        {errors.name && (
-                          <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                            <span className="mt-[-1px]">
-                              <IoWarning />
-                            </span>
-                            <p>{errors.name}</p>
-                          </div>
-                        )}
-                      </div>
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Name (Required)"
+                  value={rcb.name}
+                  onChange={rcbhandleChange}
+                />
+                {errors.name && (
+                  <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
+                    <span className="mt-[-1px]">
+                      <IoWarning />
+                    </span>
+                    <p>{errors.name}</p>
+                  </div>
+                )}
+              </div>
 
-                      {/* Email field */}
-                      <div className="relative mb-4">
-                        <input
-                          className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2
+              {/* Email field */}
+              <div className="relative mb-4">
+                <input
+                  className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2
 ${errors["newemail"] ? "border-rose-500" : "border-neutral-300"} 
 ${errors["newemail"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
-                          id="newemail"
-                          type="email"
-                          name="newemail"
-                          placeholder="Email (Required)"
-                          value={rcb.newemail}
-                          onChange={rcbhandleChange}
-                        />
-                        {errors.newemail && (
-                          <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                            <span className="mt-[-1px]">
-                              <IoWarning />
-                            </span>
-                            <p>{errors.newemail}</p>
-                          </div>
-                        )}
-                      </div>
+                  id="newemail"
+                  type="email"
+                  name="newemail"
+                  placeholder="Email (Required)"
+                  value={rcb.newemail}
+                  onChange={rcbhandleChange}
+                />
+                {errors.newemail && (
+                  <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
+                    <span className="mt-[-1px]">
+                      <IoWarning />
+                    </span>
+                    <p>{errors.newemail}</p>
+                  </div>
+                )}
+              </div>
 
-                      {/* Mobile field */}
-                      <div className="relative mb-4">
-                        <input
-                          className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2
+              {/* Mobile field */}
+              <div className="relative mb-4">
+                <input
+                  className={`w-full py-3 px-2 font-normal bg-white border-b-2 outline-none transition disabled:opacity-70 disabled:cursor-not-allowed mt-2
 ${errors["mobile"] ? "border-rose-500" : "border-neutral-300"} 
 ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
-                          id="mobile"
-                          type="number"
-                          name="mobile"
-                          placeholder="Mobile (Required)"
-                          value={rcb.mobile}
-                          onChange={rcbhandleChange}
-                        />
-                        {errors.mobile && (
-                          <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                            <span className="mt-[-1px]">
-                              <IoWarning />
-                            </span>
-                            <p>{errors.mobile}</p>
-                          </div>
-                        )}
-                      </div>
-
-                      {/* Program dropdown - using original MUI TextField */}
-                      {!props.program && (
-                        <div className="relative mt-4 mb-4">
-                          <TextField
-                            id="program"
-                            select
-                            value={program}
-                            onChange={handleChange}
-                            variant="standard"
-                            sx={{
-                              width: "100%",
-                              "& .MuiInputBase-root": {
-                                paddingLeft: "8px",
-                                paddingRight: "0px",
-                              },
-                              "& .MuiSelect-select": {
-                                paddingLeft: "0px",
-                                textTransform: "capitalize",
-                              },
-                              "& .MuiInput-underline:before": {
-                                borderBottomColor: errors.program
-                                  ? "#f43f5e"
-                                  : "#d4d4d4",
-                                borderBottomWidth: "2px",
-                              },
-                              "& .MuiInput-underline:after": {
-                                borderBottomColor: errors.program
-                                  ? "#f43f5e"
-                                  : "#3b82f6",
-                                borderBottomWidth: "2px",
-                              },
-                              "& .MuiInput-underline:hover:not(.Mui-disabled):before":
-                              {
-                                borderBottomColor: errors.program
-                                  ? "#f43f5e"
-                                  : "#d4d4d4",
-                              },
-                            }}
-                            name="program"
-                            label={program === "" ? "Select Category" : ""}
-                            InputLabelProps={{ shrink: false, sx: { pl: 1 } }}
-                          >
-                            <MenuItem value="">
-                              <em>---- Select Category ----</em>
-                            </MenuItem>
-                            {streams.map((stream) => (
-                              <MenuItem
-                                key={stream.toUpperCase()}
-                                value={stream}
-                                sx={{
-                                  textTransform:
-                                    stream?.toLowerCase() === "cxo leadership"
-                                      ? "uppercase"
-                                      : "capitalize",
-                                }}
-                              >
-                                {stream.toLowerCase() === "cxo leadership"
-                                  ? "CXO Leadership"
-                                  : stream.toLowerCase() === "data science & ai"
-                                    ? "Data Science & AI"
-                                    : stream}
-                              </MenuItem>
-                            ))}
-                          </TextField>
-                          {errors.program && (
-                            <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
-                              <span className="mt-[-1px]">
-                                <IoWarning />
-                              </span>
-                              <p>{errors.program}</p>
-                            </div>
-                          )}
-                        </div>
-                      )}
-
-                      {/* Policy text */}
-                      <div className="w-full mt-6 text-center">
-                        <h3 className="text-xs font-medium text-gray-500 py-2 pt-4 border-t-[1px] border-neutral-100">
-                          By submitting the form, you agree to our{" "}
-                          <Link href="/terms" prefetch={false} className="text-universal transition hover:underline">
-                            Terms and Conditions
-                          </Link>{" "}
-                          and our{" "}
-                          <Link href="/terms/privacy" prefetch={false} className="text-universal transition hover:underline">
-                            Privacy Policy
-                          </Link>
-                          .
-                        </h3>
-                      </div>
-                    </div>
-
-                    {/* ReCAPTCHA */}
-                    <div className="pt-2 pb-2 flex justify-center w-full transform scale-[0.85] sm:scale-100 origin-center">
-                      <ReCAPTCHA
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"}
-                        onChange={onCaptchChange}
-                      />
-                    </div>
-
-                    {/* Submit button */}
-                    <button
-                      data-track="Request a Callback"
-                      disabled={loader || !captchaVerified}
-                      className={`disabled:bg-gray-300 disabled:text-gray-500 disabled:border-transparent hover:bg-darkBlue text-lg relative mt-2 px-4 py-3 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg shadow-md border border-universal transition-colors`}
-                      type="submit"
-                    >
-                      {loader ? (
-                        <CircularProgress size={24} sx={{ color: "white" }} />
-                      ) : (
-                        "Request a Callback"
-                      )}
-                    </button>
-                  </form>
-
-                  {/* Enquiry number for mobile */}
-                  <div className="mt-8 flex md:hidden flex-col items-center gap-4 w-full">
-                    <div className="flex items-center gap-2 w-full">
-                      <div className="flex-[0.45] border border-neutral-200" />
-                      <p className="flex-[0.1] text-sm font-medium text-gray-400 text-center uppercase tracking-wider">
-                        or
-                      </p>
-                      <div className="flex-[0.45] border border-neutral-200" />
-                    </div>
-                    <div className="w-full flex justify-center items-center gap-4 bg-blue-50 border border-blue-200 py-3 px-4 rounded-lg">
-                      <div className="w-8 h-8 flex-shrink-0 p-1 border-2 rounded-lg border-universal bg-white">
-                        <CiPhone className="w-full h-full text-universal" />
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <p className="font-medium text-gray-800">To Inquire</p>
-                        <span className="text-gray-400">-</span>
-                        <a
-                          href={`tel:${ENQUIRY_NUMBER}`}
-                          className="underline font-semibold text-universal"
-                        >
-                          {ENQUIRY_NUMBER}
-                        </a>
-                      </div>
-                    </div>
+                  id="mobile"
+                  type="number"
+                  name="mobile"
+                  placeholder="Mobile (Required)"
+                  value={rcb.mobile}
+                  onChange={rcbhandleChange}
+                />
+                {errors.mobile && (
+                  <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
+                    <span className="mt-[-1px]">
+                      <IoWarning />
+                    </span>
+                    <p>{errors.mobile}</p>
                   </div>
+                )}
+              </div>
+
+              {/* Program dropdown */}
+              {!props.program && (
+                <div className="relative mt-4 mb-4">
+                  <Select
+                    id="program"
+                    name="program"
+                    value={
+                      program
+                        ? streamOptions.find((opt) => opt.value === program) || {
+                            value: program,
+                            label: program,
+                          }
+                        : null
+                    }
+                    onChange={(selected) => {
+                      setProgram(selected ? selected.value : "");
+                      if (errors.program) {
+                        setErrors((prev) => ({ ...prev, program: "" }));
+                      }
+                    }}
+                    options={streamOptions}
+                    placeholder="Select Category"
+                    isClearable
+                    className="mt-2 text-sm"
+                    classNamePrefix="react-select"
+                    styles={{
+                      control: (base, state) => ({
+                        ...base,
+                        borderTop: 0,
+                        borderLeft: 0,
+                        borderRight: 0,
+                        borderBottom: `2px solid ${
+                          errors.program
+                            ? "#f43f5e"
+                            : state.isFocused
+                            ? "#3b82f6"
+                            : "#d1d5db"
+                        }`,
+                        borderRadius: 0,
+                        boxShadow: "none",
+                        backgroundColor: "white",
+                        paddingLeft: 0,
+                        paddingRight: 0,
+                        cursor: "pointer",
+                        "&:hover": {
+                          borderBottomColor: errors.program ? "#f43f5e" : "#3b82f6",
+                        },
+                      }),
+                      valueContainer: (base) => ({
+                        ...base,
+                        paddingLeft: 0,
+                      }),
+                      placeholder: (base) => ({
+                        ...base,
+                        color: "#9ca3af",
+                        fontSize: "14px",
+                      }),
+                      singleValue: (base) => ({
+                        ...base,
+                        color: "#111827",
+                        fontSize: "14px",
+                      }),
+                      menu: (base) => ({
+                        ...base,
+                        zIndex: 9999,
+                      }),
+                    }}
+                  />
+                  {errors.program && (
+                    <div className="text-red-500 text-xs w-full font-medium flex items-center gap-1 mt-1">
+                      <span className="mt-[-1px]">
+                        <IoWarning />
+                      </span>
+                      <p>{errors.program}</p>
+                    </div>
+                  )}
                 </div>
+              )}
+
+              {/* Policy text */}
+              <div className="w-full mt-6 text-center">
+                <h3 className="text-xs font-medium text-gray-500 py-2 pt-4 border-t-[1px] border-neutral-100">
+                  By submitting the form, you agree to our{" "}
+                  <Link href="/terms" prefetch={false} className="text-universal transition hover:underline">
+                    Terms and Conditions
+                  </Link>{" "}
+                  and our{" "}
+                  <Link href="/terms/privacy" prefetch={false} className="text-universal transition hover:underline">
+                    Privacy Policy
+                  </Link>
+                  .
+                </h3>
               </div>
             </div>
-          </Box>
-        </Fade>
-      </Modal>
-    </div>
+
+            {/* ReCAPTCHA */}
+            <div className="pt-2 pb-2 flex justify-center w-full transform scale-[0.85] sm:scale-100 origin-center">
+              <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"}
+                onChange={onCaptchChange}
+              />
+            </div>
+
+            {/* Submit button */}
+            <button
+              data-track="Request a Callback"
+              disabled={loader || !captchaVerified}
+              className={`disabled:bg-gray-300 disabled:text-gray-500 disabled:border-transparent hover:bg-darkBlue text-lg relative mt-2 px-4 py-3 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg shadow-md border border-universal transition-colors`}
+              type="submit"
+            >
+              {loader ? (
+                <Loader2 className="w-6 h-6 animate-spin text-white" />
+              ) : (
+                "Request a Callback"
+              )}
+            </button>
+          </form>
+
+          {/* Enquiry number for mobile */}
+          <div className="mt-8 flex md:hidden flex-col items-center gap-4 w-full">
+            <div className="flex items-center gap-2 w-full">
+              <div className="flex-[0.45] border border-neutral-200" />
+              <p className="flex-[0.1] text-sm font-medium text-gray-400 text-center uppercase tracking-wider">
+                or
+              </p>
+              <div className="flex-[0.45] border border-neutral-200" />
+            </div>
+            <div className="w-full flex justify-center items-center gap-4 bg-blue-50 border border-blue-200 py-3 px-4 rounded-lg">
+              <div className="w-8 h-8 flex-shrink-0 p-1 border-2 rounded-lg border-universal bg-white">
+                <CiPhone className="w-full h-full text-universal" />
+              </div>
+              <div className="flex items-center gap-2">
+                <p className="font-medium text-gray-800">To Inquire</p>
+                <span className="text-gray-400">-</span>
+                <a
+                  href={`tel:${ENQUIRY_NUMBER}`}
+                  className="underline font-semibold text-universal"
+                >
+                  {ENQUIRY_NUMBER}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Modal>
   );
 }
 

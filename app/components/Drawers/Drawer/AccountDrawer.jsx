@@ -1,4 +1,4 @@
-import Drawer from "@mui/material/Drawer";
+import Drawer from "../../ui/Drawer";
 import { useState } from "react";
 import { Avatar } from "@chakra-ui/react";
 import React from "react";
@@ -20,11 +20,11 @@ function AccountDrawer({ isOpen, onClose }) {
     <div className="lg:hidden">
       <Drawer
         anchor={"right"}
-        size={"full"}
         open={isOpen}
         onClose={toggleDrawer(false)}
+        className="w-[320px] max-w-[85vw] h-full"
       >
-        <div className=" h-screen bg-white p-4 font-circular">
+        <div className="h-full min-h-screen bg-white p-4 font-circular">
           <div className="w-[300px] flex flex-col gap-4 max-h-[70vh] overflow-y-auto custom-scrollbar py-6 px-1">
             <div className="flex items-center gap-2 max-w-[160px] cursor-pointer hover:bg-blue-200/30 py-2 px-3 rounded-md">
               <Avatar

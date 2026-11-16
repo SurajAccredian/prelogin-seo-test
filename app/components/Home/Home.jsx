@@ -1,9 +1,10 @@
 "use client";
 
-import React, { Suspense, useState, useEffect } from "react";
+import React, { Suspense, useState } from "react";
 import dynamic from "next/dynamic";
-import Rcta from "../cta/request_a_call_back";
 import Wrapper from "../Wrapper/HomePageWrapper";
+
+const Rcta = dynamic(() => import("../cta/request_a_call_back"), { ssr: false });
 
 import Hero from "./Hero/Hero";
 

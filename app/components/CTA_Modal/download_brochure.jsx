@@ -1,26 +1,12 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import TextField from "@mui/material/TextField";
 import "react-phone-input-2/lib/material.css";
-import {
-  Grid,
-  Typography,
-  Button,
-  Box,
-  CardMedia,
-  Backdrop,
-} from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Dialog from "@mui/material/Dialog";
-import DialogTitle from "@mui/material/DialogTitle";
-import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
-import CircularProgress from "@mui/material/CircularProgress";
+import Modal from "../ui/Modal";
+import { IoIosClose } from "react-icons/io";
+import { Loader2 } from "lucide-react";
 import { useSearchParams, usePathname } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/material.css";
 import "./phone-input.css";
-import Swal from "sweetalert2";
 import toast from "react-hot-toast";
 import ReCAPTCHA from "react-google-recaptcha";
 import { detectBrowserLocation } from "../../helpers/location.helpers";
@@ -30,42 +16,6 @@ import { fetchClientIp } from "../../helpers/ip.helpers";
 import { getBrochureCta } from "../../services/program.service";
 import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 import { trackBrochureLeadSubmit } from "../../helpers/gtm.helpers";
-
-const BootstrapDialog = styled(Dialog)(({ theme }) => ({
-  "& .MuiDialogContent-root": {
-    padding: theme.spacing(2),
-  },
-  "& .MuiDialogActions-root": {
-    padding: theme.spacing(1),
-  },
-  "& .MuiDialog-paper": {
-    maxWidth: "433px",
-  },
-}));
-
-function BootstrapDialogTitle(props) {
-  const { children, onClose, ...other } = props;
-
-  return (
-    <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
-      {children}
-      {onClose ? (
-        <IconButton
-          aria-label="close"
-          onClick={onClose}
-          sx={{
-            position: "absolute",
-            right: 8,
-            top: 8,
-            color: (theme) => theme.palette.grey[500],
-          }}
-        >
-          <CloseIcon />
-        </IconButton>
-      ) : null}
-    </DialogTitle>
-  );
-}
 
 const BrochureContent = (props) => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
@@ -221,6 +171,7 @@ const BrochureContent = (props) => {
         LoaderClose();
         props.handleClose();
 
+        const Swal = (await import("sweetalert2")).default;
         if (result?.data?.status == "200" || result?.status === 200) {
           trackGoogleAdsLeadConversion();
           Swal.fire({
@@ -267,6 +218,7 @@ const BrochureContent = (props) => {
       } catch (err) {
         LoaderClose();
         console.error("Brochure submission error:", err);
+        const Swal = (await import("sweetalert2")).default;
         Swal.fire({
           title: "Oops!",
           text: "We are facing server issue, please try again in sometime.",
@@ -281,87 +233,49 @@ const BrochureContent = (props) => {
 
   return (
     <>
-      <BootstrapDialog
-        onClose={props.handleClose}
-        aria-labelledby="customized-dialog-title"
+      <Modal
         open={props.open}
+        onClose={props.handleClose}
+        maxWidth="max-w-[440px]"
+        className="p-0 overflow-hidden font-circular relative bg-white rounded-2xl shadow-2xl"
       >
-        <Box>
-          <Grid lg={12} sm={12} md={12} xs={12} container>
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={props.handleClose}
-            ></BootstrapDialogTitle>
-            <Backdrop
-              sx={{
-                color: "#fff",
-                zIndex: (theme) => theme.zIndex.drawer + 1,
-              }}
-              open={loader}
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
-            <Grid lg={12} sm={12} md={12} xs={12}>
-              <Box
-                sx={{
-                  width: "100%",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <CardMedia
-                  component="img"
-                  image={props.image}
-                  alt="Organization Logo"
-                  sx={{
-                    width: "200px",
-                    mx: 3,
-                    mb: 2,
-                    display: {
-                      xs: "none",
-                      lg: "block",
-                      sm: "block",
-                      md: "block",
-                    },
-                  }}
-                />
-              </Box>
-            </Grid>
+        {loader && (
+          <div className="absolute inset-0 bg-white/70 backdrop-blur-[2px] z-30 flex items-center justify-center">
+            <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
+          </div>
+        )}
+        <div className="relative p-6 pt-4">
+          <button
+            type="button"
+            onClick={props.handleClose}
+            aria-label="Close"
+            className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 p-1 rounded-full hover:bg-gray-100 transition"
+          >
+            <IoIosClose className="w-6 h-6" />
+          </button>
 
-            <Grid lg={12} sm={12} md={12} xs={12}>
-              <Box sx={{ mx: 3, mb: 1 }}>
-                <Typography
-                  variant="h4"
-                  component="div"
-                  sx={{
-                    fontSize: "20px",
-                    textAlign: "center",
-                    fontWeight: 600,
-                    fontFamily: "'Poppins', sans-serif",
-                  }}
-                >
-                  Your Brochure is Ready
-                </Typography>
-              </Box>
-              <Box sx={{ mx: 3, mb: 2 }}>
-                <Typography
-                  variant="h4"
-                  component="div"
-                  sx={{
-                    fontSize: "14px",
-                    textAlign: "center",
-                    fontFamily: "'Poppins', sans-serif",
-                    color: "#344563",
-                    lineHeight: 1.4,
-                  }}
-                >
-                  Fill the form to know about Certificate, Faculty, curriculum
-                  and more
-                </Typography>
-              </Box>
-              <Box sx={{ mx: 3 }}>
-                <form onSubmit={submitForm}>
+          {props.image && (
+            <div className="w-full flex justify-center items-center mb-3">
+              <img
+                src={props.image}
+                alt="Organization Logo"
+                className="w-[200px] object-contain hidden sm:block"
+              />
+            </div>
+          )}
+
+          <div className="text-center mb-1">
+            <h4 className="text-xl font-semibold text-gray-900 font-sans">
+              Your Brochure is Ready
+            </h4>
+          </div>
+          <div className="text-center mb-4">
+            <p className="text-sm text-[#344563] leading-relaxed">
+              Fill the form to know about Certificate, Faculty, curriculum and more
+            </p>
+          </div>
+          <div>
+            <form onSubmit={submitForm}>
                   <input type="hidden" id="fbc_field" name="fbc_field" value={cta.fbc_field || ""} />
                   <input type="hidden" id="fbp_field" name="fbp_field" value={cta.fbp_field || ""} />
                   <input type="hidden" id="ip_field" name="ip_field" value={cta.ip_field || ""} />
@@ -373,123 +287,116 @@ const BrochureContent = (props) => {
                   <input type="hidden" id="utm_ad" name="utm_ad" value={cta.utm_ad || ""} />
                   <input type="hidden" id="utm_term" name="utm_term" value={cta.utm_term || ""} />
                   <input type="hidden" id="utm_format" name="utm_format" value={cta.utm_format || ""} />
-                  <Box sx={{ pb: 2 }}>
-                    <TextField
+                  <div className="space-y-2 pb-2">
+                    <input
                       id="standard-basic-name"
-                      label="Name"
+                      placeholder="Name *"
                       name="name"
                       onChange={ctahandleChange}
                       value={cta.name}
                       type="text"
-                      fullWidth
                       required
-                      sx={{ pb: 1 }}
+                      className="w-full border-b border-gray-300 py-2 text-sm outline-none focus:border-blue-600 transition"
                     />
-                    <TextField
+                    <input
                       id="standard-basic-email"
-                      label="Email"
+                      placeholder="Email *"
                       type="email"
                       name="newemail"
                       onChange={ctahandleChange}
                       value={cta.newemail}
-                      fullWidth
                       required
-                      sx={{ pb: 1 }}
+                      className="w-full border-b border-gray-300 py-2 text-sm outline-none focus:border-blue-600 transition"
                     />
-                    <PhoneInput
-                      inputStyle={{
-                        width: "100%",
-                      }}
-                      enableSearch={true}
-                      country={"in"}
-                      inputProps={{
-                        name: "mobile",
-                        required: true,
-                        autoFocus: true,
-                      }}
-                      size="small"
-                      placeholder="Enter phone number"
-                      value={number}
-                      onChange={setNumber}
-                    />
+                    <div className="pt-1">
+                      <PhoneInput
+                        inputStyle={{
+                          width: "100%",
+                        }}
+                        enableSearch={true}
+                        country={"in"}
+                        inputProps={{
+                          name: "mobile",
+                          required: true,
+                          autoFocus: true,
+                        }}
+                        size="small"
+                        placeholder="Enter phone number"
+                        value={number}
+                        onChange={setNumber}
+                      />
+                    </div>
 
                     {/* Location Capture: Auto-detected or Manual fallback */}
                     {locationStatus === "detected" && !showManualLocation && (
-                      <Box sx={{ mt: 1.5, mb: 1, p: 1.5, bgcolor: "#f0f7ff", borderRadius: 1.5, border: "1px solid #cce3ff" }}>
-                        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                          <Typography sx={{ fontSize: "12px", color: "#1e3a8a", fontWeight: 500, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                      <div className="mt-2 mb-1 p-2 bg-[#f0f7ff] rounded-lg border border-[#cce3ff]">
+                        <div className="flex justify-between items-center">
+                          <p className="text-xs text-[#1e3a8a] font-medium overflow-hidden text-ellipsis whitespace-nowrap">
                             📍 {[detectedLocation.city, detectedLocation.state, detectedLocation.country].filter(Boolean).join(", ")}
-                          </Typography>
-                          <Typography
-                            component="span"
+                          </p>
+                          <span
                             onClick={() => setShowManualLocation(true)}
-                            sx={{ fontSize: "12px", color: "#0039e6", cursor: "pointer", textDecoration: "underline", ml: 1, whiteSpace: "nowrap" }}
+                            className="text-xs text-[#0039e6] cursor-pointer underline ml-2 whitespace-nowrap"
                           >
                             Edit
-                          </Typography>
-                        </Box>
-                        <Typography sx={{ fontSize: "10px", color: "#888", mt: 0.5 }}>
+                          </span>
+                        </div>
+                        <p className="text-[10px] text-gray-400 mt-0.5">
                           Location data © OpenStreetMap contributors
-                        </Typography>
-                      </Box>
+                        </p>
+                      </div>
                     )}
 
                     {(showManualLocation || locationStatus === "fallback") && (
-                      <Box sx={{ mt: 1.5, mb: 1, pt: 1, borderTop: "1px solid #eee" }}>
-                        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mb: 1 }}>
-                          <Typography sx={{ fontSize: "12px", fontWeight: 500, color: "#555" }}>
+                      <div className="mt-2 mb-1 pt-2 border-t border-gray-100">
+                        <div className="flex justify-between items-center mb-1">
+                          <p className="text-xs font-medium text-gray-600">
                             Location Details
-                          </Typography>
+                          </p>
                           {locationStatus === "detected" && (
-                            <Typography
-                              component="span"
+                            <span
                               onClick={() => setShowManualLocation(false)}
-                              sx={{ fontSize: "11px", color: "#0039e6", cursor: "pointer", textDecoration: "underline" }}
+                              className="text-[11px] text-[#0039e6] cursor-pointer underline"
                             >
                               Use auto-detected
-                            </Typography>
+                            </span>
                           )}
-                        </Box>
-                        <Box sx={{ display: "flex", flexDirection: "column", gap: 1.25, mt: 0.5 }}>
-                          <Box sx={{ display: "flex", gap: 1.25, width: "100%" }}>
-                            <TextField
+                        </div>
+                        <div className="flex flex-col gap-2 mt-1">
+                          <div className="flex gap-2 w-full">
+                            <input
                               id="standard-basic-city"
-                              label="City *"
+                              placeholder="City *"
                               name="city"
-                              size="small"
                               onChange={ctahandleChange}
                               value={cta.city}
-                              fullWidth
                               required
-                              sx={{ flex: 1 }}
+                              className="w-full border-b border-gray-300 py-1.5 text-xs outline-none focus:border-blue-600 transition"
                             />
-                            <TextField
+                            <input
                               id="standard-basic-state"
-                              label="State *"
+                              placeholder="State *"
                               name="state"
-                              size="small"
                               onChange={ctahandleChange}
                               value={cta.state}
-                              fullWidth
                               required
-                              sx={{ flex: 1 }}
+                              className="w-full border-b border-gray-300 py-1.5 text-xs outline-none focus:border-blue-600 transition"
                             />
-                          </Box>
-                          <TextField
+                          </div>
+                          <input
                             id="standard-basic-country"
-                            label="Country *"
+                            placeholder="Country *"
                             name="country"
-                            size="small"
                             onChange={ctahandleChange}
                             value={cta.country}
-                            fullWidth
                             required
+                            className="w-full border-b border-gray-300 py-1.5 text-xs outline-none focus:border-blue-600 transition"
                           />
-                        </Box>
-                        <Typography sx={{ fontSize: "10px", color: "#888", mt: 0.5 }}>
+                        </div>
+                        <p className="text-[10px] text-gray-400 mt-1">
                           Location data © OpenStreetMap contributors
-                        </Typography>
-                      </Box>
+                        </p>
+                      </div>
                     )}
 
                     <div className="pt-2">
@@ -498,42 +405,23 @@ const BrochureContent = (props) => {
                         onChange={onCaptchChange}
                       />
                     </div>
-                  </Box>
-                  <Box sx={{ pb: 1 }}>
-                    <Button
-                      variant="contained"
-                      sx={{
-                        mb: 1,
-                        backgroundColor: "#0039e6",
-                        textTransform: "none",
-                        py: 1.25,
-                        fontWeight: 600,
-                        borderRadius: "6px",
-                        "&:hover": {
-                          backgroundColor: "#002bb8",
-                          textTransform: "none",
-                        },
-                      }}
+                  </div>
+
+                  <div className="mt-3 pb-1">
+                    <button
+                      className="w-full py-2.5 px-4 bg-[#0039e6] hover:bg-[#002bb8] text-white font-semibold rounded-lg transition text-sm disabled:opacity-50 disabled:cursor-not-allowed mb-2 shadow"
                       data-track="Download Brochure"
-                      disabled={!captchaVerified}
-                      fullWidth
+                      disabled={!captchaVerified || loader}
                       type="submit"
                     >
                       Download Brochure
-                    </Button>
-                  </Box>
-                  <Box>
-                    <Typography
-                      sx={{
-                        fontSize: "12px",
-                        textAlign: "center",
-                        color: "rgb(119, 119, 119)",
-                        mx: 1,
-                      }}
-                    >
+                    </button>
+                  </div>
+                  <div>
+                    <p className="text-xs text-center text-gray-500 mx-1">
                       By submitting the form, you agree to our{" "}
                       <a
-                        style={{ color: "rgb(119, 119, 119)" }}
+                        className="text-gray-500 underline"
                         rel="noreferrer"
                         target="_blank"
                         href="https://accredian.com/terms"
@@ -544,19 +432,17 @@ const BrochureContent = (props) => {
                       <a
                         rel="noreferrer"
                         target="_blank"
-                        style={{ color: "rgb(119, 119, 119)" }}
+                        className="text-gray-500 underline"
                         href="https://accredian.com/terms/privacy"
                       >
                         Privacy Policy.
                       </a>
-                    </Typography>
-                  </Box>
+                    </p>
+                  </div>
                 </form>
-              </Box>
-            </Grid>
-          </Grid>
-        </Box>
-      </BootstrapDialog>
+              </div>
+            </div>
+      </Modal>
     </>
   );
 };

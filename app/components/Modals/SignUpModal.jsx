@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import { Box, Modal } from '@mui/material';
+import Modal from '../ui/Modal';
 import { IoIosClose } from 'react-icons/io';
 import { useState, useEffect } from 'react';
 import PhoneInput from 'react-phone-input-2';
@@ -9,7 +9,6 @@ import 'react-phone-input-2/lib/material.css';
 import { useForm, Controller } from 'react-hook-form';
 import Link from 'next/link';
 import { IoWarning } from 'react-icons/io5';
-import CircularProgress from '@mui/material/CircularProgress';
 import toast from 'react-hot-toast';
 import { useDispatch, useSelector } from 'react-redux';
 import { decodeToken, isExpired } from "react-jwt";
@@ -19,7 +18,18 @@ import { createApplicationStepTracker } from '../../services/program.service';
 import { encodeBase64 } from '../../helpers/encodeTrackerId';
 import { mergeEnrollmentDetails } from '../../helpers/enrollment.helpers';
 import CryptoJS from "crypto-js";
-import { CircleCheck } from 'lucide-react';
+import { CircleCheck, Loader2 } from 'lucide-react';
+
+function setCookie(name, value, hours, domain) {
+  let expires = "";
+  if (hours) {
+    const date = new Date();
+    date.setTime(date.getTime() + hours * 60 * 60 * 1000);
+    expires = `; expires=${date.toUTCString()}`;
+  }
+  const cookieDomain = domain ? `; domain=${domain}` : "";
+  document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
+}
 
 function SignUpModal({ open = false, reOpenLoginModal }) {
   // 2 Steps: 0=Profile+Password, 1=OTP Verification
@@ -69,9 +79,15 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
   useEffect(() => {
     let interval = null;
     if (isResending && timer > 0) {
-      interval = setInterval(() => setTimer(prev => prev - 1), 1000);
-    } else if (timer === 0) {
-      setIsResending(false);
+      interval = setInterval(() => {
+        setTimer((prev) => {
+          if (prev <= 1) {
+            setIsResending(false);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
     }
     return () => clearInterval(interval);
   }, [isResending, timer]);
@@ -325,16 +341,6 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
     window.open(url, "_blank");
   }
 
-  function setCookie(name, value, hours, domain) {
-    let expires = "";
-    if (hours) {
-      const date = new Date();
-      date.setTime(date.getTime() + hours * 60 * 60 * 1000);
-      expires = `; expires=${date.toUTCString()}`;
-    }
-    const cookieDomain = domain ? `; domain=${domain}` : "";
-    document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
-  }
 
   // OTP handlers
   const handleOtpChange = (index, value) => {
@@ -388,11 +394,11 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
   return (
     <Modal
       open={open}
-      aria-labelledby="modal-title"
-      aria-describedby="modal-description"
       onClose={loading ? null : handleClose}
+      maxWidth="max-w-[760px]"
+      className="p-0 overflow-hidden rounded-2xl"
     >
-      <div className="font-circular font-normal w-full max-w-[760px] relative flex justify-center items-center h-full mx-auto px-3">
+      <div className="font-circular font-normal w-full relative flex justify-center items-center h-full mx-auto">
         <div className="relative flex w-full rounded-2xl overflow-hidden shadow-[0_18px_45px_rgba(15,23,42,0.18)] bg-white" style={{ minHeight: 420 }}>
           {/* Close Button */}
           <div className="absolute py-2 w-full text-center flex items-center justify-end top-1 right-2 z-10">
@@ -405,17 +411,8 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
             </button>
           </div>
 
-
           {/* Left Side Image */}
-          <Box
-            sx={{
-              width: '50%',
-              display: { xs: 'none', sm: 'block' },
-              backgroundImage:
-                'linear-gradient(135deg, #f1f5ff 0%, #e0f2ff 40%, #e5f3ff 100%)',
-            }}
-            className="relative"
-          >
+          <div className="w-1/2 hidden sm:block bg-gradient-to-br from-[#f1f5ff] via-[#e0f2ff] to-[#e5f3ff] relative">
             <div className="absolute inset-0 flex flex-col justify-between">
               <div className="px-6 pt-8 text-slate-800">
                 <Image
@@ -444,18 +441,10 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
                 />
               </div>
             </div>
-          </Box>
-
+          </div>
 
           {/* Right Side Form */}
-          <Box
-            sx={{
-              width: { xs: '100%', sm: '50%' },
-              height: '100%',
-              backgroundColor: '#F9FAFB',
-            }}
-            className="flex items-stretch"
-          >
+          <div className="w-full sm:w-1/2 h-full bg-[#F9FAFB] flex items-stretch">
             <div className="w-full h-full flex flex-col px-5 py-6 sm:px-7 sm:py-7">
               {/* Logo (mobile only) */}
               <div className="mb-3 flex justify-between items-center sm:hidden">
@@ -663,25 +652,25 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
                   </div>
                   {!otpSent ? (
                     <button
-                      className="mt-1 hover:bg-darkBlue text-sm relative px-4 py-2.5 bg-universal font-medium text-white w-full flex justify-center rounded-lg shadow-sm"
+                      className="mt-1 hover:bg-darkBlue text-sm relative px-4 py-2.5 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg shadow-sm"
                       type="button"
                       disabled={loading}
                       onClick={handleSubmit(handleSendOtp)}
                     >
                       {loading ? (
-                        <CircularProgress size={20} sx={{ color: 'white' }} />
+                        <Loader2 className="w-5 h-5 animate-spin text-white inline-block" />
                       ) : (
                         'Send OTP'
                       )}
                     </button>
                   ) : !otpVerified ? (
                     <button
-                      className="hover:bg-darkBlue text-sm relative px-2 py-2 bg-universal font-medium text-white w-full flex justify-center rounded-lg shadow-sm"
+                      className="hover:bg-darkBlue text-sm relative px-2 py-2 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg shadow-sm"
                       type="button"
                       disabled={loading}
                       onClick={handleVerifyOtp}
                     >
-                      {loading ? <CircularProgress size={20} sx={{ color: 'white' }} /> : 'Verify OTP'}
+                      {loading ? <Loader2 className="w-5 h-5 animate-spin text-white inline-block" /> : 'Verify OTP'}
                     </button>
                   ) : (
                     <div className='flex items-center gap-1'>
@@ -698,7 +687,7 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
                 )}
                 {otpSent && !otpVerified && (
                   <p className="text-[11px] text-center text-gray-500">
-                    Didn't receive OTP?{' '}
+                    Didn&apos;t receive OTP?{' '}
                     <button
                       type="button"
                       className={`ml-1 underline font-medium ${isResending ? 'cursor-not-allowed text-gray-400' : 'hover:text-darkBlue text-universal'
@@ -723,12 +712,12 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
 
                 {/* {otpVerified && ( */}
                 <button
-                  className="mt-1 hover:bg-darkBlue text-sm relative px-4 py-2.5 bg-universal font-medium text-white w-full flex justify-center rounded-lg shadow-sm disabled:opacity-70 disabled:cursor-not-allowed"
+                  className="mt-1 hover:bg-darkBlue text-sm relative px-4 py-2.5 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg shadow-sm disabled:opacity-70 disabled:cursor-not-allowed"
                   type="submit"
                   disabled={loading || !otpVerified}
                 >
                   {loading && otpVerified ? (
-                    <CircularProgress size={20} sx={{ color: 'white' }} />
+                    <Loader2 className="w-5 h-5 animate-spin text-white inline-block" />
                   ) : (
                     'Verify & Create Account'
                   )}
@@ -752,7 +741,7 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
               </form>
 
             </div>
-          </Box>
+          </div>
         </div>
       </div>
     </Modal>

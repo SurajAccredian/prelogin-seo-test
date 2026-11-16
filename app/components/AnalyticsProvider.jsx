@@ -2,7 +2,6 @@
 
 import Script from "next/script";
 import { useEffect } from "react";
-import posthog from "posthog-js";
 import { getInitialUTMData } from "../helpers/utm.helpers";
 import { saveFbcFallback } from "../helpers/cookie.helpers";
 

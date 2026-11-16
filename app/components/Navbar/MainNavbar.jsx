@@ -3,26 +3,26 @@ import Strip from '../cta/Strip';
 import Navbar from '../Navbar/Navbar';
 
 export default function Navbar3({ userInfo }) {
-
   const [show, setShow] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  const controlNavbar = () => {
-    if (window.scrollY > 100) {
-      setShow(true);
-    } else {
-      setShow(false)
-    }
-    setLastScrollY(window.scrollY);
-  };
 
   useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
+    let ticking = false;
+    const controlNavbar = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const shouldShow = window.scrollY > 100;
+          setShow((prev) => (prev !== shouldShow ? shouldShow : prev));
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
 
+    window.addEventListener("scroll", controlNavbar, { passive: true });
     return () => {
       window.removeEventListener("scroll", controlNavbar);
     };
-  }, [lastScrollY]);
+  }, []);
 
   return (
     <>

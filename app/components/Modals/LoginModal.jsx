@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Box, Modal } from "@mui/material";
+import Modal from "../ui/Modal";
 import CryptoJS from "crypto-js";
 
 import { IoIosClose } from "react-icons/io";
@@ -13,7 +13,7 @@ import { userActions } from "../../store/reducers/user";
 
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Loader2 } from "lucide-react";
 import { decodeToken, isExpired } from "react-jwt";
 import toast from "react-hot-toast";
 import SignUpModal from "./SignUpModal";
@@ -34,6 +34,18 @@ import { encodeBase64 } from "../../helpers/encodeTrackerId";
 import { mergeEnrollmentDetails } from "../../helpers/enrollment.helpers";
 import { Check } from "lucide-react";
 import axios from "axios";
+// Setting the cookies so that the user can login from any portal of accredian.com
+function setCookie(name, value, hours, domain) {
+  let expires = "";
+  if (hours) {
+    const date = new Date();
+    date.setTime(date.getTime() + hours * 60 * 60 * 1000);
+    expires = `; expires=${date.toUTCString()}`;
+  }
+  const cookieDomain = domain ? `; domain=${domain}` : "";
+  document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
+}
+
 function LoginModal({ open }) {
   console.log("Login Modal Rendered" + open);
   const steps = ["Step 1", "Step 2"];
@@ -94,10 +106,14 @@ function LoginModal({ open }) {
 
     if (isResending && timer > 0) {
       interval = setInterval(() => {
-        setTimer((prev) => prev - 1);
+        setTimer((prev) => {
+          if (prev <= 1) {
+            setIsResending(false);
+            return 0;
+          }
+          return prev - 1;
+        });
       }, 1000);
-    } else if (timer === 0) {
-      setIsResending(false);
     }
 
     return () => clearInterval(interval);
@@ -120,18 +136,6 @@ function LoginModal({ open }) {
       // console.log("OTP WAS SENT AGAIN for the existing user");
     }
   };
-
-  // Setting the cookies so that the user can login from any portal of accredian.com
-  function setCookie(name, value, hours, domain) {
-    let expires = "";
-    if (hours) {
-      const date = new Date();
-      date.setTime(date.getTime() + hours * 60 * 60 * 1000);
-      expires = `; expires=${date.toUTCString()}`;
-    }
-    const cookieDomain = domain ? `; domain=${domain}` : "";
-    document.cookie = `${name}=${value || ""}${expires}${cookieDomain}; path=/`;
-  }
 
   // To update the auth status to OTP
   const handleEmailVerification = (status) => {
@@ -956,34 +960,24 @@ function LoginModal({ open }) {
       {open && !isNewUser && (
         <Modal
           open={open}
-          aria-labelledby="modal-title"
-          aria-describedby="modal-description"
           onClose={loading ? null : handleClose}
+          maxWidth="max-w-[840px]"
+          className="p-0 overflow-hidden rounded-2xl"
         >
-          <div className="font-circular font-normal max-w-[90%] w-[840px] relative flex flex-row justify-center items-center outline-none border-none h-full mx-auto ">
-            <div className=" relative  bg-white flex justify-center items-center  rounded-2xl w-full outline-none border-none">
-              <div className=" absolute py-2 w-full text-center  flex items-center justify-end top-0 right-2 ">
+          <div className="font-circular font-normal relative flex flex-row justify-center items-center w-full">
+            <div className="relative bg-white flex justify-center items-center rounded-2xl w-full">
+              <div className="absolute py-2 w-full text-center flex items-center justify-end top-0 right-2 z-10">
                 <button
-                  className=" w-8 h-8 rounded-lg bg-white flex items-center justify-center cursor-pointer"
+                  className="w-8 h-8 rounded-lg bg-white/80 hover:bg-gray-100 flex items-center justify-center cursor-pointer"
                   onClick={handleClose}
                   disabled={loading}
                 >
-                  <IoIosClose className="w-12 h-12 text-gray-600" />
+                  <IoIosClose className="w-8 h-8 text-gray-600" />
                 </button>
               </div>
 
               {/* Left Side: Image */}
-
-              <Box
-                sx={{
-                  width: "50%",
-                  display: {
-                    xs: "none", // Show on extra-small screens
-                    sm: "none", // Show on small screens
-                    md: "block", // Hide on medium screens and up
-                  },
-                }}
-              >
+              <div className="w-1/2 hidden md:block">
                 <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/loginModalImage.svg"
                   alt="Login illustration"
@@ -992,27 +986,11 @@ function LoginModal({ open }) {
                   quality={75}
                   style={{ width: "100%", height: "auto", borderRadius: "8px" }}
                 />
-              </Box>
+              </div>
 
               {/* Right Side: Form */}
-              <Box
-                sx={{
-                  width: {
-                    xs: "100%", // 100% width on extra-small screens
-                    md: "50%", // 50% width on medium screens and up
-                  },
-                  height: "100%",
-                  padding: 4,
-                }}
-              >
-                <Box
-                  sx={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    mb: 2,
-                  }}
-                >
+              <div className="w-full md:w-1/2 h-full p-6 sm:p-8">
+                <div className="flex justify-center items-center mb-2">
                   <Image
                     src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                     alt="Company Logo"
@@ -1021,7 +999,7 @@ function LoginModal({ open }) {
                     quality={75}
                     style={{ width: "150px", height: "auto" }}
                   />
-                </Box>
+                </div>
 
                 {activeStep === 0 ? (
                   <>
@@ -1033,7 +1011,7 @@ function LoginModal({ open }) {
                       className="mb-4 text-paleBlack "
                     >
                       <p className="">
-                        You can sign in or join with us if you're new to
+                        You can sign in or join with us if you&apos;re new to
                         Accredian
                       </p>
                     </div>
@@ -1071,7 +1049,7 @@ function LoginModal({ open }) {
 
                       <div className="text-center mb-6 pt-2">
                         <p className="text-sm text-gray-600">
-                          Don't have an account?{' '}
+                          Don&apos;t have an account?{' '}
                           <button
                             type="button"
                             className="text-universal font-medium underline hover:text-darkBlue cursor-pointer"
@@ -1089,10 +1067,7 @@ function LoginModal({ open }) {
                         disabled={loading} // Disable button while loading
                       >
                         {loading ? (
-                          <CircularProgress
-                            size={24}
-                            sx={{ color: "white" }} // Set spinner color to white
-                          />
+                          <Loader2 className="w-6 h-6 animate-spin text-white inline-block" />
                         ) : (
                           "Continue"
                         )}{" "}
@@ -1225,10 +1200,7 @@ function LoginModal({ open }) {
                                 disabled={loading}
                               >
                                 {loading ? (
-                                  <CircularProgress
-                                    size={24}
-                                    sx={{ color: "white" }} // Set spinner color to white
-                                  />
+                                  <Loader2 className="w-6 h-6 animate-spin text-white inline-block" />
                                 ) : (
                                   "Submit"
                                 )}{" "}
@@ -1264,7 +1236,7 @@ function LoginModal({ open }) {
                               A password reset link has been sent to your registered email. Please follow the instructions.
                             </p>
                             <p className="text-xs text-gray-400 mt-2">
-                              Didn't receive the email? Check your spam folder.
+                              Didn&apos;t receive the email? Check your spam folder.
                             </p>
 
                             <button
@@ -1309,7 +1281,7 @@ function LoginModal({ open }) {
                         </button>
                         <div className="mb-4  text-paleBlack">
                           <h2 className="text-xl font-semibold">
-                            We've sent an OTP on
+                            We&apos;ve sent an OTP on
                           </h2>
                           <p className="text-[14px] text-gray-500 ">
                             {emailValue}
@@ -1360,7 +1332,7 @@ function LoginModal({ open }) {
                           </>
                         )}
                         <p className="text-[14px] mt-2">
-                          Didn't receive OTP?
+                          Didn&apos;t receive OTP?
                           <button
                             className={`ml-1 text-universal ${isResending
                               ? "cursor-not-allowed text-gray-400"
@@ -1392,10 +1364,7 @@ function LoginModal({ open }) {
                           disabled={loading || otpVerified} // Disable button while loading
                         >
                           {loading ? (
-                            <CircularProgress
-                              size={24}
-                              sx={{ color: "white" }} // Set spinner color to white
-                            />
+                            <Loader2 className="w-6 h-6 animate-spin text-white inline-block" />
                           ) : (
                             "Submit"
                           )}{" "}
@@ -1421,7 +1390,7 @@ function LoginModal({ open }) {
                     )}
                   </>
                 ) : null}
-              </Box>
+              </div>
             </div>
           </div>
         </Modal>

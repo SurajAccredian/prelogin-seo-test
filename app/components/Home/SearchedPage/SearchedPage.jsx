@@ -6,7 +6,7 @@ import Program from "./Program";
 import ProgramFilters from "../../Inputs/Filters/ProgramFilters";
 import HomePageWrapper from "../../Wrapper/HomePageWrapper";
 import FilterModal from "../../Modals/FilterModal/FilterModal";
-import { IoIosClose, IoIosArrowDown } from "react-icons/io";
+import { IoIosClose } from "react-icons/io";
 import { useDispatch, useSelector, useStore } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import { VscListFilter } from "react-icons/vsc";
@@ -20,6 +20,84 @@ import {
   filterPrograms,
   formatFilterLabel,
 } from "../../../helpers/programFilter.helpers";
+import Select from "react-select";
+
+const SORT_OPTIONS = [
+  { value: "relevance", label: "Relevance" },
+  { value: "duration_asc", label: "Duration: Shortest to Longest" },
+  { value: "duration_desc", label: "Duration: Longest to Shortest" },
+];
+
+const sortSelectStyles = {
+  control: (base, state) => ({
+    ...base,
+    minHeight: "36px",
+    height: "36px",
+    borderRadius: "0.5rem",
+    borderColor: state.isFocused ? "#1A73E8" : "#d1d5db",
+    boxShadow: state.isFocused ? "0 0 0 2px rgba(26, 115, 232, 0.2)" : "none",
+    "&:hover": {
+      borderColor: state.isFocused ? "#1A73E8" : "#9ca3af",
+    },
+    fontSize: "0.875rem",
+    fontWeight: 500,
+    backgroundColor: "white",
+    cursor: "pointer",
+  }),
+  valueContainer: (base) => ({
+    ...base,
+    padding: "0 10px",
+  }),
+  singleValue: (base) => ({
+    ...base,
+    color: "#262626",
+    fontSize: "0.875rem",
+    fontWeight: 500,
+  }),
+  dropdownIndicator: (base, state) => ({
+    ...base,
+    padding: "4px 8px",
+    color: "#737373",
+    transition: "transform 0.2s ease",
+    transform: state.selectProps.menuIsOpen ? "rotate(180deg)" : "rotate(0deg)",
+    "&:hover": {
+      color: "#262626",
+    },
+  }),
+  indicatorSeparator: () => ({
+    display: "none",
+  }),
+  menu: (base) => ({
+    ...base,
+    borderRadius: "0.5rem",
+    boxShadow:
+      "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    zIndex: 50,
+    overflow: "hidden",
+    minWidth: "220px",
+  }),
+  menuList: (base) => ({
+    ...base,
+    padding: "4px 0",
+  }),
+  option: (base, state) => ({
+    ...base,
+    fontSize: "0.875rem",
+    fontWeight: state.isSelected ? 600 : 500,
+    backgroundColor: state.isSelected
+      ? "#1A73E8"
+      : state.isFocused
+        ? "#EFF6FF"
+        : "white",
+    color: state.isSelected ? "white" : "#262626",
+    cursor: "pointer",
+    padding: "8px 12px",
+    "&:active": {
+      backgroundColor: "#1A73E8",
+      color: "white",
+    },
+  }),
+};
 
 const FilterPageDrawer = dynamic(() => import("../../Drawers/FilterPageDrawer/FilterPageDrawer"), { ssr: false });
 const DownloadBrochure = dynamic(() => import("../../CTA_Modal/download_brochure"), { ssr: false });
@@ -165,12 +243,11 @@ const SearchedPageInner = () => {
         dispatch(programActions.setCheckedCareerLevels(urlCareerLevels));
       }
       const parsedSearch = (urlSearch || "").trim();
-      setSearchQuery((prev) => (prev !== parsedSearch ? parsedSearch : prev));
-
       const validSort = ["relevance", "duration_asc", "duration_desc"].includes(urlSort)
         ? urlSort
         : "relevance";
       queueMicrotask(() => {
+        setSearchQuery((prev) => (prev !== parsedSearch ? parsedSearch : prev));
         setSortBy((prev) => (prev !== validSort ? validSort : prev));
       });
     },
@@ -568,150 +645,152 @@ const SearchedPageInner = () => {
                   <div className="flex items-center gap-2 ml-auto">
                     <label
                       htmlFor="program-sort-select"
-                      className="text-sm font-medium text-neutral-600"
+                      className="text-sm font-medium text-neutral-600 whitespace-nowrap"
                     >
                       Sort by:
                     </label>
-                    <div className="relative inline-block">
-                      <select
-                        id="program-sort-select"
-                        value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value)}
-                        className="appearance-none bg-white border border-neutral-300 rounded-lg px-3.5 py-1.5 pr-8 text-sm font-medium text-neutral-800 cursor-pointer hover:border-neutral-400 focus:outline-none focus:ring-2 focus:ring-universal/20 focus:border-universal transition-all shadow-sm"
-                      >
-                        <option value="relevance">Relevance</option>
-                        <option value="duration_asc">Duration: Shortest to Longest</option>
-                        <option value="duration_desc">Duration: Longest to Shortest</option>
-                      </select>
-                      <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2.5 text-neutral-500">
-                        <IoIosArrowDown className="text-sm" />
+                    <div className="w-[220px]">
+                        <Select
+                          id="program-sort-select"
+                        instanceId="program-sort-select"
+                        value={
+                          SORT_OPTIONS.find((opt) => opt.value === sortBy) ||
+                          SORT_OPTIONS[0]
+                        }
+                        onChange={(selected) => {
+                          setSortBy(selected?.value || "relevance");
+                        }}
+                        options={SORT_OPTIONS}
+                        isSearchable={false}
+                        isClearable={false}
+                        styles={sortSelectStyles}
+                      />
                       </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Active Filter Chips */}
-                {totalActiveFilterCount > 0 && (
-                  <div className="w-full hidden lg:flex md:flex-wrap items-center gap-2 mt-4 md:overflow-y-auto md:max-h-[200px] md:custom-scrollbar">
-                    {/* Area of Interest chips */}
-                    {checkedCategories.map((category, index) => (
-                      <button
-                        key={`interest-${index}`}
-                        className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
-                        onClick={() => handleRemoveCategory(category)}
-                      >
-                        <span className="pl-1">
-                          {formatFilterLabel("Area of Interest", category)}
-                        </span>
-                        <IoIosClose size={20} className="text-neutral-500" />
-                      </button>
-                    ))}
+                  {/* Active Filter Chips */}
+                  {totalActiveFilterCount > 0 && (
+                    <div className="w-full hidden lg:flex md:flex-wrap items-center gap-2 mt-4 md:overflow-y-auto md:max-h-[200px] md:custom-scrollbar">
+                      {/* Area of Interest chips */}
+                      {checkedCategories.map((category, index) => (
+                        <button
+                          key={`interest-${index}`}
+                          className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
+                          onClick={() => handleRemoveCategory(category)}
+                        >
+                          <span className="pl-1">
+                            {formatFilterLabel("Area of Interest", category)}
+                          </span>
+                          <IoIosClose size={20} className="text-neutral-500" />
+                        </button>
+                      ))}
 
-                    {/* Skills chips */}
-                    {checkedTags.map((tag, index) => (
-                      <button
-                        key={`skill-${index}`}
-                        className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
-                        onClick={() => handleRemoveTag(tag)}
-                      >
-                        <span className="pl-1">
-                          {formatFilterLabel("Skills", tag)}
-                        </span>
-                        <IoIosClose size={20} className="text-neutral-500" />
-                      </button>
-                    ))}
+                      {/* Skills chips */}
+                      {checkedTags.map((tag, index) => (
+                        <button
+                          key={`skill-${index}`}
+                          className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
+                          onClick={() => handleRemoveTag(tag)}
+                        >
+                          <span className="pl-1">
+                            {formatFilterLabel("Skills", tag)}
+                          </span>
+                          <IoIosClose size={20} className="text-neutral-500" />
+                        </button>
+                      ))}
 
-                    {/* Duration chips */}
-                    {checkedDurations.map((duration, index) => (
-                      <button
-                        key={`duration-${index}`}
-                        className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
-                        onClick={() => handleRemoveDuration(duration)}
-                      >
-                        <span className="pl-1">{duration}</span>
-                        <IoIosClose size={20} className="text-neutral-500" />
-                      </button>
-                    ))}
+                      {/* Duration chips */}
+                      {checkedDurations.map((duration, index) => (
+                        <button
+                          key={`duration-${index}`}
+                          className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
+                          onClick={() => handleRemoveDuration(duration)}
+                        >
+                          <span className="pl-1">{duration}</span>
+                          <IoIosClose size={20} className="text-neutral-500" />
+                        </button>
+                      ))}
 
-                    {/* Institute chips */}
-                    {checkedInstitutes.map((institute, index) => (
-                      <button
-                        key={`institute-${index}`}
-                        className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
-                        onClick={() => handleRemoveInstitute(institute)}
-                      >
-                        <span className="pl-1">{institute}</span>
-                        <IoIosClose size={20} className="text-neutral-500" />
-                      </button>
-                    ))}
+                      {/* Institute chips */}
+                      {checkedInstitutes.map((institute, index) => (
+                        <button
+                          key={`institute-${index}`}
+                          className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
+                          onClick={() => handleRemoveInstitute(institute)}
+                        >
+                          <span className="pl-1">{institute}</span>
+                          <IoIosClose size={20} className="text-neutral-500" />
+                        </button>
+                      ))}
 
-                    {/* Career Level chips */}
-                    {checkedCareerLevels.map((level, index) => (
-                      <button
-                        key={`level-${index}`}
-                        className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
-                        onClick={() => handleRemoveCareerLevel(level)}
-                      >
-                        <span className="pl-1">{level}</span>
-                        <IoIosClose size={20} className="text-neutral-500" />
-                      </button>
-                    ))}
+                      {/* Career Level chips */}
+                      {checkedCareerLevels.map((level, index) => (
+                        <button
+                          key={`level-${index}`}
+                          className="py-1 px-2.5 rounded-md bg-slate-50 border border-slate-200 text-sm font-medium text-neutral-700 flex items-center gap-1 text-nowrap hover:bg-slate-100 transition-colors"
+                          onClick={() => handleRemoveCareerLevel(level)}
+                        >
+                          <span className="pl-1">{level}</span>
+                          <IoIosClose size={20} className="text-neutral-500" />
+                        </button>
+                      ))}
 
-                    {/* Search Query chip */}
-                    {searchQuery && (
+                      {/* Search Query chip */}
+                      {searchQuery && (
+                        <button
+                          className="py-1 px-2.5 rounded-md bg-blue-50 border border-blue-200 text-sm font-medium text-universal flex items-center gap-1 text-nowrap hover:bg-blue-100 transition-colors"
+                          onClick={handleRemoveSearchQuery}
+                        >
+                          <span className="pl-1">Search: &ldquo;{searchQuery}&rdquo;</span>
+                          <IoIosClose size={20} className="text-universal" />
+                        </button>
+                      )}
+
+                      {/* Clear All button */}
                       <button
-                        className="py-1 px-2.5 rounded-md bg-blue-50 border border-blue-200 text-sm font-medium text-universal flex items-center gap-1 text-nowrap hover:bg-blue-100 transition-colors"
-                        onClick={handleRemoveSearchQuery}
+                        className="py-1 px-2.5 rounded-md bg-slate-50 border border-universal text-sm font-medium text-universal flex items-center gap-1 text-nowrap hover:bg-universal/5 transition-colors"
+                        onClick={handleClearClose}
                       >
-                        <span className="pl-1">Search: &ldquo;{searchQuery}&rdquo;</span>
+                        <span className="pl-1">Clear all</span>
                         <IoIosClose size={20} className="text-universal" />
                       </button>
-                    )}
+                    </div>
+                  )}
 
-                    {/* Clear All button */}
-                    <button
-                      className="py-1 px-2.5 rounded-md bg-slate-50 border border-universal text-sm font-medium text-universal flex items-center gap-1 text-nowrap hover:bg-universal/5 transition-colors"
-                      onClick={handleClearClose}
-                    >
-                      <span className="pl-1">Clear all</span>
-                      <IoIosClose size={20} className="text-universal" />
-                    </button>
-                  </div>
-                )}
-
-                {/* Program Cards Grid */}
-                {sortedPrograms.length > 0 ? (
-                  <div className="w-full grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-4 py-4">
-                    {sortedPrograms.map((program, index) => (
-                      <Program
-                        program={program}
-                        key={`${program.id}-${index}`}
-                        setBrotureDownloadInfo={setBrotureDownloadInfo}
-                        setOpen={setOpen}
-                        getProgramStatus={getProgramStatus}
-                      />
-                    ))}
-                  </div>
-                ) : (
-                  <div className="w-full py-20 flex flex-col items-center justify-center text-center">
-                    <p className="text-lg font-medium text-neutral-600">
-                      No programs match your selected filters.
-                    </p>
-                    <p className="text-sm text-neutral-400 mt-1">
-                      Try clearing some filters to explore more programs.
-                    </p>
-                    <button
-                      onClick={handleClearClose}
-                      className="mt-4 px-5 py-2.5 bg-universal text-white font-medium text-sm rounded-lg hover:bg-universal/90 transition-colors"
-                    >
-                      Clear all filters
-                    </button>
-                  </div>
-                )}
+                  {/* Program Cards Grid */}
+                  {sortedPrograms.length > 0 ? (
+                    <div className="w-full grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-4 py-4">
+                      {sortedPrograms.map((program, index) => (
+                        <Program
+                          program={program}
+                          key={`${program.id}-${index}`}
+                          setBrotureDownloadInfo={setBrotureDownloadInfo}
+                          setOpen={setOpen}
+                          getProgramStatus={getProgramStatus}
+                        />
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="w-full py-20 flex flex-col items-center justify-center text-center">
+                      <p className="text-lg font-medium text-neutral-600">
+                        No programs match your selected filters.
+                      </p>
+                      <p className="text-sm text-neutral-400 mt-1">
+                        Try clearing some filters to explore more programs.
+                      </p>
+                      <button
+                        onClick={handleClearClose}
+                        className="mt-4 px-5 py-2.5 bg-universal text-white font-medium text-sm rounded-lg hover:bg-universal/90 transition-colors"
+                      >
+                        Clear all filters
+                      </button>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </HomePageWrapper>
 
       {/* Show More Modal */}

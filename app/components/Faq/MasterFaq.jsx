@@ -1,324 +1,96 @@
 "use client";
 
 import React, { useEffect } from "react";
-import {
-  Grid,
-  Typography,
-  Button,
-  Box,
-  Container,
-  CardMedia,
-  Card,
-  CardContent,
-  Paper,
-} from "@mui/material";
-import Testingnavbar from "../Navbar/testinnav";
-import Footer from "../Footer/Footer";
 import Wrapper from "../Wrapper/HomePageWrapper";
 
 export default function MasterFaq() {
   useEffect(() => {
-    document.title = 'Master FAQ | Accredian';
-  }, []);
-  useEffect(() => {
-    // 👇️ scroll to top on page load
+    document.title = "Master FAQ | Accredian";
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
+
+  const items = [
+    {
+      title: "Program Pre-Requisites",
+      image:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Program-Pre-Requisites.webp",
+      mobileImage:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/output-onlinepngtools-2.webp",
+      width: "w-[149px]",
+    },
+    {
+      title: "Admissions",
+      image:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Admissions.webp",
+      mobileImage:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/master-faq.webp",
+      width: "w-[149px]",
+    },
+    {
+      title: "Programs",
+      image:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Programs.webp",
+      mobileImage:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/master-faq-2.webp",
+      width: "w-[195px]",
+    },
+    {
+      title: "Fee & Scholarships",
+      image:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Fee-Scholarships.webp",
+      mobileImage:
+        "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/master-faq-3.webp",
+      width: "w-[149px]",
+    },
+  ];
+
   return (
-    <>
-      <Wrapper>
-        <Box sx={{ pt: 2, display: { xs: "none", lg: "block", md: "none", sm: "none" } }}>
-          <Box sx={{}}>
-            <Container fied>
-              <Typography
-                sx={{
-                  color: "#000",
-                  textDecoration: "none",
-                  fontWeight: "bold",
-                  fontSize: "25px",
+    <Wrapper>
+      <div className="pt-4 pb-12 max-w-[85rem] mx-auto px-4 sm:px-6">
+        <h1 className="text-black font-bold text-[25px] mb-1.5">
+          FAQ
+        </h1>
+        <h2 className="text-black font-bold text-[20px] mb-1.5">
+          What are you looking for ?
+        </h2>
+        <p className="text-black text-[17px] mb-8">
+          Search for answers to your questions below.
+        </p>
 
-                  marginBottom: "0.4rem!important",
-                }}
-              >
-                FAQ{" "}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  textDecoration: "none",
-                  fontWeight: "bold",
-                  fontSize: "20px",
+        {/* Desktop Grid */}
+        <div className="hidden lg:grid grid-cols-3 gap-6">
+          {items.map((item, idx) => (
+            <div key={idx} className="flex flex-col items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={item.image}
+                alt={item.title}
+                className={`${item.width} pt-3 pb-2 object-contain`}
+              />
+              <h3 className="text-black font-bold text-[20px] text-center mb-1.5">
+                {item.title}
+              </h3>
+            </div>
+          ))}
+        </div>
 
-                  marginBottom: "0.4rem!important",
-                }}
-              >
-                What are you looking for ?{" "}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  textDecoration: "none",
-
-                  fontSize: "17px",
-                }}
-              >
-                Search for answers to your questions below.{" "}
-              </Typography>
-
-              <Grid item lg={12} container sx={{ ml: -5 }}>
-                <Grid item lg={4}>
-                  <Box
-                    style={{ textDecoration: "none" }}
-                  >
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Program-Pre-Requisites.webp"
-                        alt="Goole"
-                        sx={{ width: "149px", pt: 3, pb: 2 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Program Pre-Requisites{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid item lg={4}>
-                  <Box
-                    style={{ textDecoration: "none" }}
-                  >
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Admissions.webp"
-                        alt="Goole"
-                        sx={{ width: "149px", pt: 3, pb: 2 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Admissions{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid item lg={4}>
-                  <Box style={{ textDecoration: "none" }}>
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Programs.webp"
-                        alt="Goole"
-                        sx={{ width: "195px", pt: 3, pb: 2 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Programs{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid item lg={4}>
-                  <Box
-                    style={{ textDecoration: "none" }}
-                  >
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/FAQ/Fee-Scholarships.webp"
-                        alt="Goole"
-                        sx={{ width: "149px", pt: 3, pb: 2, ml: 3 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Fee & Scholarships{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Container>
-          </Box>
-        </Box>
-        <Box sx={{ height: { md: 1120, sm: 780, xs: 1120 }, display: { xs: "block", lg: "none", md: "block", sm: "block" } }}>
-          <Box sx={{ mt: 3 }}>
-            <Container fied sx={{ pt: { xs: 6, sm: 4, md: 4 } }}>
-              <Typography
-                sx={{
-                  color: "#000",
-                  textDecoration: "none",
-                  fontWeight: "bold",
-                  fontSize: "25px",
-                  mx: 4,
-                  marginBottom: "0.4rem!important",
-                }}
-              >
-                FAQ{" "}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  textDecoration: "none",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  mx: 4,
-                  marginBottom: "0.4rem!important",
-                }}
-              >
-                What are you looking for ?{" "}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "#000",
-                  textDecoration: "none",
-
-                  fontSize: "17px",
-                  mx: 4,
-                }}
-              >
-                Search for answers to your questions below.{" "}
-              </Typography>
-
-              <Grid item lg={12} container>
-                <Grid xs={12} sm={6} md={6}>
-                  <Box
-                    style={{ textDecoration: "none" }}
-                  >
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/output-onlinepngtools-2.webp"
-                        alt="Goole"
-                        sx={{ width: "149px", pt: 3, pb: 2 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Program Pre-Requisites{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid xs={12} sm={6} md={6}>
-                  <Box
-                    style={{ textDecoration: "none" }}
-                  >
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/master-faq.webp"
-                        alt="Goole"
-                        sx={{ width: "149px", pt: 3, pb: 2 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Admissions{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid xs={12} sm={6} md={6}>
-                  <Box style={{ textDecoration: "none" }}>
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/master-faq-2.webp"
-                        alt="Goole"
-                        sx={{ width: "195px", pt: 3, pb: 2 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Programs{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid xs={12} sm={6} md={6}>
-                  <Box
-                    style={{ textDecoration: "none" }}
-                  >
-                    <center>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/master-faq-3.webp"
-                        alt="Goole"
-                        sx={{ width: "149px", pt: 3, pb: 2, ml: 3 }}
-                      />
-                    </center>
-                    <Typography
-                      sx={{
-                        color: "#000",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                        fontSize: "20px",
-                        textAlign: "center",
-                        marginBottom: "0.4rem!important",
-                      }}
-                    >
-                      Fee & Scholarships{" "}
-                    </Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Container>
-          </Box>
-        </Box>
-      </Wrapper>
-    </>
+        {/* Mobile / Tablet Grid */}
+        <div className="grid lg:hidden grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
+          {items.map((item, idx) => (
+            <div key={idx} className="flex flex-col items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={item.mobileImage}
+                alt={item.title}
+                className={`${item.width} pt-3 pb-2 object-contain`}
+              />
+              <h3 className="text-black font-bold text-[20px] text-center mb-1.5">
+                {item.title}
+              </h3>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Wrapper>
   );
 }

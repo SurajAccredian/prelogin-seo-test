@@ -9,13 +9,13 @@ import {
   CardMedia,
   ThemeProvider,
   createTheme,
-} from "@mui/material";
+} from "../ui/LayoutPrimitives";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { MapPin as LocationOnIcon } from "lucide-react";
 import "react-phone-input-2/lib/material.css";
 import "./Careers.css"
 import Form from "./Form";
@@ -356,7 +356,7 @@ export default function Career() {
                     fontWeight: 300,
                   }}
                 >
-                  Here's what you should expect
+                  Here&apos;s what you should expect
                 </Typography>
               </Box>
               <Box sx={{ mb: 5 }}>
@@ -439,11 +439,11 @@ export default function Career() {
                                 fontSize: "17px",
                               }}
                             >
-                              Apart from daily grind, we don't miss an opportunity to
+                              Apart from daily grind, we don&apos;t miss an opportunity to
                               have fun at work. We celebrate every xsall occasion,
                               usually go on company wide outings, weekly team lunches
                               and not to miss HR activities which will ensure that
-                              you're always high on energy.
+                              you&apos;re always high on energy.
                             </Typography>
                           </Box>
                         </Grid>
@@ -455,90 +455,90 @@ export default function Career() {
                             slidesPerView={1}
                             className="w-full overflow-hidden"
                           >
-                          <SwiperSlide>
-                            <CardMedia
-                              component="img"
-                              image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/campany-work-fun.webp"
-                              alt="Goole"
-                              sx={{}}
-                            />
-                          </SwiperSlide>
-                          <SwiperSlide>
-                            <CardMedia
-                              component="img"
-                              image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/company-fun-2.webp"
-                              alt="Goole"
-                              sx={{}}
-                            />
-                          </SwiperSlide>
-                        </Swiper>
+                            <SwiperSlide>
+                              <CardMedia
+                                component="img"
+                                image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/campany-work-fun.webp"
+                                alt="Goole"
+                                sx={{}}
+                              />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                              <CardMedia
+                                component="img"
+                                image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/company-fun-2.webp"
+                                alt="Goole"
+                                sx={{}}
+                              />
+                            </SwiperSlide>
+                          </Swiper>
+                        </Grid>
                       </Grid>
-                    </Grid>
+                    </Container>
+                  </Box>
                 </Container>
               </Box>
-            </Container>
-          </Box>
-          <Box sx={{ mb: 5 }}>
-            <Container fixed>
-              <Box sx={{ ml: -2 }}>
+              <Box sx={{ mb: 5 }}>
                 <Container fixed>
-                  <Grid size={12} container>
-                    <Grid size={6}>
-                      <CardMedia
-                        component="img"
-                        image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/careers3.webp"
-                        alt="Goole"
-                        sx={{}}
-                      />
-                    </Grid>
-                    <Grid size={6}>
-                      <Box sx={{ mx: 13, mt: 15 }}>
-                        <Typography
-                          variant="h4"
-                          component="div"
-                          sx={{
-                            color: "#000",
-                            textDecoration: "none",
-                            fontSize: "25px",
-                            fontWeight: 400,
-                            mb: 2,
-                          }}
-                        >
-                          Accelerated Growth
-                        </Typography>
-                        <Typography
-                          variant="h4"
-                          component="div"
-                          sx={{
-                            color: "rgba(0, 0, 0, 0.5)",
-                            textDecoration: "none",
-                            fontSize: "17px",
-                            mb: 2,
-                          }}
-                        >
-                          If you're looking for faster growth, right role and a
-                          great opportunity to maximise your full potential then you
-                          should join us.{" "}
-                        </Typography>
-                        <Typography
-                          variant="h4"
-                          component="div"
-                          sx={{
-                            color: "rgba(0, 0, 0, 0.5)",
-                            textDecoration: "none",
-                            fontSize: "17px",
-                          }}
-                        >
-                          We truly believe in speed, innovation & results.{" "}
-                        </Typography>
-                      </Box>
-                    </Grid>
-                  </Grid>
-                </Container>
+                  <Box sx={{ ml: -2 }}>
+                    <Container fixed>
+                      <Grid size={12} container>
+                        <Grid size={6}>
+                          <CardMedia
+                            component="img"
+                            image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Career/careers3.webp"
+                            alt="Goole"
+                            sx={{}}
+                          />
+            </Grid>
+            <Grid size={6}>
+              <Box sx={{ mx: 13, mt: 15 }}>
+                <Typography
+                  variant="h4"
+                  component="div"
+                  sx={{
+                    color: "#000",
+                    textDecoration: "none",
+                    fontSize: "25px",
+                    fontWeight: 400,
+                    mb: 2,
+                  }}
+                >
+                  Accelerated Growth
+                </Typography>
+                <Typography
+                  variant="h4"
+                  component="div"
+                  sx={{
+                    color: "rgba(0, 0, 0, 0.5)",
+                    textDecoration: "none",
+                    fontSize: "17px",
+                    mb: 2,
+                  }}
+                >
+                  If you&apos;re looking for faster growth, right role and a
+                  great opportunity to maximise your full potential then you
+                  should join us.{" "}
+                </Typography>
+                <Typography
+                  variant="h4"
+                  component="div"
+                  sx={{
+                    color: "rgba(0, 0, 0, 0.5)",
+                    textDecoration: "none",
+                    fontSize: "17px",
+                  }}
+                >
+                  We truly believe in speed, innovation & results.{" "}
+                </Typography>
               </Box>
-            </Container>
-          </Box>
-        </Box>
+            </Grid>
+          </Grid>
+        </Container>
+      </Box>
+    </Container>
+          </Box >
+        </Box >
         <Box sx={{ py: 2 }}>
           <Box sx={{ pb: 5, backgroundColor: "#0091ff" }}>
             <Container fixed>
@@ -648,11 +648,12 @@ export default function Career() {
             </Typography>
           </Container>
         </Box>
-      </Box>
-    </Box>
+      </Box >
+    </Box >
 
-        {/* ===== MOBILE VIEW ===== */ }
-        <Box sx={{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }}>
+    {/* ===== MOBILE VIEW ===== */ }
+    < Box sx = {{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }
+}>
           <Box
             sx={{
               backgroundImage:
@@ -937,7 +938,7 @@ export default function Career() {
                   fontWeight: 300,
                 }}
               >
-                Here's what you should expect
+                Here&apos;s what you should expect
               </Typography>
             </Box>
             <Box sx={{ mb: 5 }}>
@@ -1042,11 +1043,11 @@ export default function Career() {
                           fontSize: "17px",
                         }}
                       >
-                        Apart from daily grind, we don't miss an opportunity to
+                        Apart from daily grind, we don&apos;t miss an opportunity to
                         have fun at work. We celebrate every xsall occasion,
                         usually go on company wide outings, weekly team lunches
                         and not to miss HR activities which will ensure that
-                        you're always high on energy.
+                        you&apos;re always high on energy.
                       </Typography>
                     </Box>
                   </Grid>
@@ -1090,7 +1091,7 @@ export default function Career() {
                           mb: 2,
                         }}
                       >
-                        If you're looking for faster growth, right role and a
+                        If you&apos;re looking for faster growth, right role and a
                         great opportunity to maximise your full potential then you
                         should join us.{" "}
                       </Typography>
@@ -1220,9 +1221,9 @@ export default function Career() {
             </Container>
           </Box>
         </Box >
-    <Form />
+  <Form />
       </ThemeProvider >
-    <Footer />
+  <Footer />
     </main >
   );
 }

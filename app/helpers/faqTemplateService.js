@@ -477,6 +477,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "xlri_cto_program"
         : programData.id == "executive-development-program-in-digital-hr-leadership-and-people-analytics"
         ? "xlri_digital_hr"
+        : programData.id == "executive-development-program-strategic-hr-leadership"
+        ? "xlri_strategic_hr_leadership"
         : programData.id == "iim-ranchi-senior-management-program"
         ? "iimr_senior_management_program"
 

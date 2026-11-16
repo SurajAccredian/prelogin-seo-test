@@ -11,6 +11,16 @@ export const getCta = async (body) => {
   }
 };
 
+export const submitLandingPageLead = async (body) => {
+  try {
+    const data = await api.post(`/bot-leads/request-consultation-api`, body);
+
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
+
 export const getBrochureCta = async (body) => {
   try {
     const data = await api.post(`/cta/get-brochure`, body);

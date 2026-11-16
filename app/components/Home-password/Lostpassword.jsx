@@ -10,8 +10,7 @@ import {
   Backdrop,
 } from "@mui/material";
 import CircularProgress from "@mui/material/CircularProgress";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 import axios from "axios";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
@@ -47,46 +46,20 @@ const Lostpassword = () => {
 
       if (result.data.status == 200) {
         toast.success(
-          "We have received your password reset request. Please check your email for further instructions.",
-          {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "colored",
-          }
+          "We have received your password reset request. Please check your email for further instructions."
         );
         e.target.reset();
         setEmail("");
       } else if (result.data.status === "404") {
-        toast.warn(
-          "Email not found. Please ensure you entered the correct email address or sign up for an account.",
-          {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "colored",
-          }
-        );
+          toast(
+            "Email not found. Please ensure you entered the correct email address or sign up for an account.",
+          { icon: "⚠️" }
+          );
         e.target.reset();
         setEmail("");
       } else {
         toast.error(
-          "Apologies for any inconvenience. Our system is experiencing high demand, causing delays. Please retry later. Your patience is appreciated.",
-          {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "colored",
-          }
+          "Apologies for any inconvenience. Our system is experiencing high demand, causing delays. Please retry later. Your patience is appreciated."
         );
       }
     } finally {
@@ -160,7 +133,6 @@ const Lostpassword = () => {
       >
         <CircularProgress color="inherit" />
       </Backdrop>
-      <ToastContainer />
     </>
   );
 };

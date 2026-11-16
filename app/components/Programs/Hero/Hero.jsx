@@ -1,4 +1,5 @@
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { useSelector, useDispatch } from "react-redux";
 import { FaCirclePlay } from "react-icons/fa6";
 import { getColorAndBgColor } from "../../../helpers/colors.helpers";
@@ -9,17 +10,16 @@ import CircularProgress from "@mui/material/CircularProgress";
 import "./Hero.css";
 import { useState, useEffect } from "react";
 import { programActions } from "../../../store/reducers/program";
-import HeroModal from "../../Modals/video-modal";
 import { usePathname } from "next/navigation";
 import { MdOutlineHourglassTop } from "react-icons/md";
-import Moment from "react-moment";
-import * as moment from "moment";
 import { decodeToken } from "react-jwt";
 import { userActions } from "../../../store/reducers/user";
 import CustomEnrollNowButton from "../CustomEnrollNowButton";
 import { getApplicationDetails } from "../../../services/program.service";
 import { CircleAlertIcon, HandshakeIcon } from "lucide-react";
 import { allowedIds } from "../../Assets/constants";
+
+const HeroModal = dynamic(() => import("../../Modals/video-modal"), { ssr: false });
 
 
 // ── Add more program IDs here as needed ──
@@ -48,25 +48,29 @@ const Hero = ({ data: propData }) => {
   // Check if the current program is the IIMV program
   const isAdmissionClosedProgram = ADMISSION_CLOSED_IDS.includes(data?.id);
 
-  const now = moment();
-  let date = "";
-  if (now.day() === 0 && now.format("hh:mm A") === "12:55 PM") {
-    date = moment().day("Sunday").add(7, "days");
-  }
+  const admissionDeadlineObj = (() => {
+    const now = new Date();
+    const day = now.getDay();
+    const target = new Date(now);
+    if (day === 0) {
+      const cutoff = new Date(now);
+      cutoff.setHours(23, 55, 0, 0);
+      if (now < cutoff) return target;
+      target.setDate(target.getDate() + 7);
+      return target;
+    }
+    target.setDate(target.getDate() + (7 - day));
+    return target;
+  })();
 
-
-  if (now.day() === 0 && now.isBefore(moment("23:55", "HH:mm"))) {
-    date = moment().day("Sunday");
-  }
-
-
-  if (now.day() !== 0) {
-    date = moment().day("Sunday").add(7, "days");
-  }
-
+  const formattedDeadline = (() => {
+    const day = admissionDeadlineObj.getDate();
+    const month = admissionDeadlineObj.toLocaleDateString("en-US", { month: "short" });
+    const year = admissionDeadlineObj.getFullYear();
+    return `${day} ${month} ${year}`;
+  })();
 
   const startDateObj = new Date(data?.start_date);
-  const admissionDeadlineObj = date.toDate();
   const [isVideoOpen, setIsVideoOpen] = useState(null);
 
 
@@ -292,7 +296,7 @@ const Hero = ({ data: propData }) => {
                         return data?.admission_deadline ? (
                           data?.admission_deadline
                         ) : (
-                          <Moment format="D MMM YYYY">{date}</Moment>
+                          formattedDeadline
                         );
                       })()}
                   </h4>
@@ -431,7 +435,7 @@ const Hero = ({ data: propData }) => {
                   <Image
                     className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
                       ? "w-[400px] h-[55px]"
-                      :  data?.short_university_name?.toLowerCase() !== "iim-trichy"
+                      : data?.short_university_name?.toLowerCase() !== "iim-trichy"
                         ? "w-full h-full"
                         : "w-[300px] h-[35px]"
                       } rounded object-contain`}

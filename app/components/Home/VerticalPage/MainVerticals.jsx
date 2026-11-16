@@ -15,8 +15,10 @@ import { useSelector } from "react-redux";
 // import SkeletonWL from "../Skeleton/Withoutlogin";
 import Wrapper from "./wrapper";
 import NotFound from "../../NotFound/NotFound";
-import GetBrochure from "../../Modals/call-to-actions/get-brochure";
-import EnrollNow from "../../Modals/call-to-actions/enroll-now";
+import dynamic from "next/dynamic";
+
+const GetBrochure = dynamic(() => import("../../Modals/call-to-actions/get-brochure"), { ssr: false });
+const EnrollNow = dynamic(() => import("../../Modals/call-to-actions/enroll-now"), { ssr: false });
 
 const MainVerticals = () => {
   const dispatch = useDispatch();
@@ -29,10 +31,10 @@ const MainVerticals = () => {
     const fetchFileData = async () => {
       try {
         const sanitizedCategory = decodeURIComponent(category).replace(/-/g, " ").toLowerCase();
-        
+
         const { verticalsData } = await import("../../Assets/verticals");
         const file = verticalsData[sanitizedCategory];
-        
+
         if (!file) throw new Error("Vertical missing in registry for: " + sanitizedCategory);
 
         dispatch(programActions.setData(file));

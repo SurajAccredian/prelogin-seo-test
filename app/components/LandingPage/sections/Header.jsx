@@ -9,9 +9,9 @@ const DEFAULT_ACCREDIAN_LOGO =
   "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp";
 
 export default function Header({ data = {}, urgency = {} }) {
-  const { countdown, isClient, scrollToForm } = useLandingPage();
+  const { countdown, scrollToForm } = useLandingPage();
 
-  const isExpired = isClient && countdown.isExpired;
+  const isExpired = countdown.isExpired;
 
   const rawLogos = data.logos && data.logos.length > 0
     ? data.logos
@@ -70,7 +70,10 @@ export default function Header({ data = {}, urgency = {} }) {
               <span className="hoff">
                 <span>{urgency.offer_text}</span> &middot;{" "}
               </span>
-              Closes in <b>{isClient && countdown.text ? countdown.text : "..."}</b>
+              Closes in{" "}
+              <b suppressHydrationWarning>
+                {countdown.text || `${countdown.days}d left`}
+              </b>
             </span>
           </div>
         )}

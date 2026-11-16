@@ -9,8 +9,8 @@
     "og_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg"
   },
   "urgency": {
-    "deadline": "2026-11-15T23:59:59+05:30",
-    "deadline_display": "15 Nov 2026",
+    "deadline": "2026-11-22T23:59:59+05:30",
+    "deadline_display": "22 Nov 2026",
     "next_cohort_date": "24 Jan 2027",
     "offer_text": "Scholarships open for Jan 2027 cohort",
     "offer_text_short": "Scholarships open",
@@ -67,7 +67,7 @@
       },
       {
         "label": "Admission deadline",
-        "value": "15 Nov 2026"
+        "value": "22 Nov 2026"
       },
       {
         "label": "Eligibility",
@@ -595,7 +595,7 @@
     ]
   },
   "final_cta": {
-    "heading": "Admissions for the January cohort close 15 Nov 2026",
+    "heading": "Admissions for the January cohort close 22 Nov 2026",
     "lead": "Speak with a program advisor to check your eligibility, understand fees and EMI, and reserve your seat.",
     "button_text": "Talk to our Advisor"
   },

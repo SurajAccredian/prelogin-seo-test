@@ -5,7 +5,7 @@ import { useLandingPage } from "../LandingPageContext";
 import LeadForm from "./LeadForm";
 
 export default function LeadModal({ formConfig = {}, urgency = {} }) {
-  const { isModalOpen, closeModal, countdown, isClient } = useLandingPage();
+  const { isModalOpen, closeModal, countdown } = useLandingPage();
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -38,7 +38,7 @@ export default function LeadModal({ formConfig = {}, urgency = {} }) {
     }
   };
 
-  const isExpired = isClient && countdown.isExpired;
+  const isExpired = countdown.isExpired;
 
   return (
     <div
@@ -65,9 +65,9 @@ export default function LeadModal({ formConfig = {}, urgency = {} }) {
           <p>
             Check your eligibility for the {formConfig.program_name || "program"} and get fee, EMI and scholarship details.
           </p>
-          {!isExpired && isClient && countdown.text ? (
-            <div className="pcd">
-              Admissions close in <b>{countdown.text}</b>
+          {!isExpired && countdown.text ? (
+            <div className="pcd" suppressHydrationWarning>
+              Admissions close in <b suppressHydrationWarning>{countdown.text}</b>
             </div>
           ) : null}
         </div>

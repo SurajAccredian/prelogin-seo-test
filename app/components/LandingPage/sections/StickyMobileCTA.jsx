@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useLandingPage } from "../LandingPageContext";
 
 export default function StickyMobileCTA({ urgency = {} }) {
-  const { countdown, isClient, scrollToForm } = useLandingPage();
+  const { countdown, scrollToForm } = useLandingPage();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -35,16 +35,16 @@ export default function StickyMobileCTA({ urgency = {} }) {
     };
   }, []);
 
-  const isExpired = isClient && countdown.isExpired;
+  const isExpired = countdown.isExpired;
 
   return (
     <div className={`mcta ${show ? "show" : ""}`} id="mcta">
       <div className="in">
         <div>
           <b>{urgency.offer_text_short || "Scholarships open"}</b>
-          {!isExpired && isClient && countdown.text ? (
-            <span className="mcd">
-              Closes in <b>{countdown.text}</b>
+          {!isExpired && countdown.text ? (
+            <span className="mcd" suppressHydrationWarning>
+              Closes in <b suppressHydrationWarning>{countdown.text}</b>
             </span>
           ) : null}
         </div>

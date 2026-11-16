@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { useLandingPage } from "../LandingPageContext";
 import LeadForm from "./LeadForm";
 
 function renderFactIcon(iconType) {
@@ -37,6 +38,8 @@ function renderFactIcon(iconType) {
 }
 
 export default function Hero({ data = {}, formConfig = {} }) {
+  const { urgency } = useLandingPage();
+
   return (
     <section className="hero">
       <div className="wrap hero-grid">
@@ -72,12 +75,19 @@ export default function Hero({ data = {}, formConfig = {} }) {
 
           {data.key_dates && data.key_dates.length > 0 && (
             <div className="dates">
-              {data.key_dates.map((item, idx) => (
-                <div key={idx}>
-                  {item.label}
-                  <b>{item.value}</b>
-                </div>
-              ))}
+              {data.key_dates.map((item, idx) => {
+                const isDeadline = item.label?.toLowerCase().includes("deadline");
+                const displayVal = isDeadline && urgency?.deadline_display
+                  ? urgency.deadline_display
+                  : item.value;
+
+                return (
+                  <div key={idx}>
+                    {item.label}
+                    <b>{displayVal}</b>
+                  </div>
+                );
+              })}
             </div>
           )}
         </div>

@@ -4,20 +4,23 @@ import React from "react";
 import { useLandingPage } from "../LandingPageContext";
 
 export default function TopBar({ data = {} }) {
-  const { countdown, isClient } = useLandingPage();
+  const { countdown } = useLandingPage();
 
   if (!data?.deadline) return null;
 
-  const isExpired = isClient && countdown.isExpired;
+  const isExpired = countdown.isExpired;
 
   return (
     <div className="topbar" id="topbar">
       {!isExpired ? (
         <span id="tb-open">
           Admissions close <b>{data.deadline_display || "Soon"}</b>
-          {isClient && countdown.text ? (
+          {countdown.text ? (
             <>
-              {" "}&middot; <span className="cd">{countdown.text} left</span>
+              {" "}&middot;{" "}
+              <span className="cd" suppressHydrationWarning>
+                {countdown.text} left
+              </span>
             </>
           ) : null}
         </span>

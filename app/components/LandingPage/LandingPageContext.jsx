@@ -1,9 +1,62 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from "react";
-import Swal from "sweetalert2";
+import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 
 const LandingPageContext = createContext(null);
+
+export function getCountdownData(deadline) {
+  if (!deadline) {
+    return {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      isExpired: false,
+      text: "",
+    };
+  }
+
+  const targetDate = new Date(deadline).getTime();
+  if (isNaN(targetDate)) {
+    return {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      isExpired: false,
+      text: "",
+    };
+  }
+
+  const now = Date.now();
+  const distance = targetDate - now;
+
+  if (distance <= 0) {
+    return {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      isExpired: true,
+      text: "",
+    };
+  }
+
+  const p = (n) => String(n).padStart(2, "0");
+  const d = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const s = Math.floor((distance % (1000 * 60)) / 1000);
+
+  return {
+    days: d,
+    hours: h,
+    minutes: m,
+    seconds: s,
+    isExpired: false,
+    text: `${d}d ${p(h)}h ${p(m)}m ${p(s)}s`,
+  };
+}
 
 export function LandingPageProvider({ children, urgency = {}, formConfig = {}, programName = "" }) {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -11,84 +64,19 @@ export function LandingPageProvider({ children, urgency = {}, formConfig = {}, p
   const [anyFormStarted, setAnyFormStarted] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
-  // Countdown timer state
-  const [countdown, setCountdown] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-    isExpired: false,
-    text: "",
-  });
+  // Countdown timer state initialized synchronously to prevent hydration layout flashes
+  const [countdown, setCountdown] = useState(() => getCountdownData(urgency?.deadline));
 
-  const hasCheckedSubmittedRef = useRef(false);
-
-  // Client-side initialization: check session storage for previous submission
   useEffect(() => {
     setIsClient(true);
-    try {
-      if (typeof window !== "undefined" && !hasCheckedSubmittedRef.current) {
-        hasCheckedSubmittedRef.current = true;
-        if (sessionStorage.getItem("lead_submitted") === "1") {
-          setIsSubmitted(true);
-          Swal.fire({
-            title: "Notice",
-            text: "You have already submitted this form",
-            icon: "info",
-            confirmButtonText: "OK",
-            confirmButtonColor: "#1A5CFF",
-            allowOutsideClick: false,
-          }).then(() => {
-            try {
-              sessionStorage.removeItem("lead_submitted");
-            } catch {
-              // Ignore
-            }
-            setIsSubmitted(false);
-          });
-        }
-      }
-    } catch {
-      // Ignore sessionStorage errors
-    }
   }, []);
 
   // Live countdown timer calculation
   useEffect(() => {
     if (!urgency?.deadline) return;
 
-    const targetDate = new Date(urgency.deadline).getTime();
-
     const updateTimer = () => {
-      const now = Date.now();
-      const distance = targetDate - now;
-
-      if (distance <= 0) {
-        setCountdown({
-          days: 0,
-          hours: 0,
-          minutes: 0,
-          seconds: 0,
-          isExpired: true,
-          text: "",
-        });
-        return;
-      }
-
-      const p = (n) => String(n).padStart(2, "0");
-      const d = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const s = Math.floor((distance % (1000 * 60)) / 1000);
-
-      setCountdown({
-        days: d,
-        hours: h,
-        minutes: m,
-        seconds: s,
-        isExpired: false,
-        text: `${d}d ${p(h)}h ${p(m)}m ${p(s)}s`,
-      });
+      setCountdown(getCountdownData(urgency.deadline));
     };
 
     updateTimer();

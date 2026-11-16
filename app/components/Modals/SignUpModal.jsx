@@ -199,7 +199,7 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
       const response = await createUser(payload);
       if (response) {
         localStorage.setItem("enrollmentStatus", false);
-        setCookie("token", response.token, 12, "accredian.com");
+        setCookie("token", response.token, 12, "localhost");
         const myDecodedToken = decodeToken(response.token);
         const isMyTokenExpired = isExpired(response.token);
         setTokenexp(isMyTokenExpired);

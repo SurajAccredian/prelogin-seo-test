@@ -44,6 +44,13 @@ const Ordinary = ({
   const panelId = id ? `${id}-${level}` : `panel${index}-${level}`;
   const isExpanded = Boolean(expanded[panelId]);
 
+  const titlePrefixMatch =
+    level === 0 &&
+    type !== "masterclass" &&
+    curriculum?.title?.match(
+      /^((?:Module|Term|Pillar)\s+\d+(?:\s*[:\-–]\s*|\s+))(.*)$/i
+    );
+
   return (
     <div key={index} className="w-full font-circular">
       <button
@@ -54,17 +61,26 @@ const Ordinary = ({
       >
         <div className="flex items-center gap-2">
           <h3 className="text-sm md:text-base font-semibold text-gray-900">
-            {level === 0 && type !== "masterclass" && (
-              <span className="font-bold">
-                {type === "term"
-                  ? "Term"
-                  : type === "pillar"
-                  ? "Pillar"
-                  : "Module"}{" "}
-                {index} :{" "}
-              </span>
+            {titlePrefixMatch ? (
+              <>
+                <span className="font-bold">{titlePrefixMatch[1]}</span>
+                {titlePrefixMatch[2]}
+              </>
+            ) : (
+              <>
+                {level === 0 && type !== "masterclass" && (
+                  <span className="font-bold">
+                    {type === "term"
+                      ? "Term"
+                      : type === "pillar"
+                      ? "Pillar"
+                      : "Module"}{" "}
+                    {index} :{" "}
+                  </span>
+                )}
+                {curriculum?.title}
+              </>
             )}
-            {curriculum?.title}
           </h3>
           {curriculum?.week && (
             <span className="text-xs font-normal max-md:hidden whitespace-nowrap text-gray-500">

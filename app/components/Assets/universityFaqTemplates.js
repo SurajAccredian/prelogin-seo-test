@@ -3109,7 +3109,7 @@ export const universityFaqTemplates = {
                             "Structured across multiple modules covering all core aspects of the Executive Program in Strategic Project Management & Leadership: including strategy, leadership development, organizational transformation, digital business, finance, and business simulations.",
                             "- **Duration:** 10 months",
                             "- **Learning Format:** 120+ hours of live online sessions, with recordings available for 3 months from the class delivery",
-                            "- **Class Timings:** 9 AM – 12 PM on Sundays",
+                            "- **Class Timings:** 12 PM – 3 PM on Sundays",
                             "- **Flexibility:** Recordings available in case a session is missed"
                         ]
                     },
@@ -3153,7 +3153,8 @@ export const universityFaqTemplates = {
                             "Yes. Participants will receive a Completion Certificate from IIM Lucknow upon fulfilling the requirements.",
                             "",
                             "- **Completion Certificate will be issued only if:** The participant maintains a minimum attendance of 75% and achieves a Cumulative Overall Percentage of Marks (COPM) of 50% or above",
-                            "- **Participation Certificate will be issued if:** Attendance is below 75% and/or COPM (Cumulative Overall Percentage of Marks) is below 50% (no Completion Certificate in this case)"
+                            "- **Participation Certificate will be issued if:** Attendance is below 75% and/or COPM (Cumulative Overall Percentage of Marks) is below 50% (no Completion Certificate in this case)",
+                            "- No Completion or Participation Certificate for attendance below 40%"
                         ]
                     },
                     {
@@ -3228,7 +3229,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is ₹2,42,500 + GST.",
+                            "- The program fee is ₹2,67,500 + GST.",
                             "- 12 Months EMI available. Standard EMI options are available for more than 12 months (with additional interest charges)."
                         ]
                     },
@@ -3736,7 +3737,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 10+ years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline.  Prior work experience of 10+ years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ]
                     },
                     {
@@ -4932,7 +4934,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -5132,7 +5135,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -5532,7 +5536,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -6836,7 +6841,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,30,000 + GST.",
+                            "- The program fee is INR 1,39,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },
@@ -7036,7 +7041,7 @@ export const universityFaqTemplates = {
                     {
                         title: "What is the total program fee, and are EMI or installment options available?",
                         content: [
-                            "- The program fee is INR 1,60,000 + GST.",
+                            "- The program fee is INR 1,69,000 + GST.",
                             "- Standard EMI options are available (with additional interest charges)."
                         ],
                     },
@@ -7533,7 +7538,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -8351,7 +8357,8 @@ export const universityFaqTemplates = {
                     {
                         title: "What are the minimum education and work experience requirements?",
                         content: [
-                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred."
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred.",
+                            "Diploma Holders are eligible to apply."
                         ],
                     },
                     {
@@ -8514,398 +8521,809 @@ export const universityFaqTemplates = {
     },
 
     iim_raipur_gslp: {
-  templateId: "iim_raipur_gslp_standard",
-  sections: [
-    {
-      title: "Program Overview",
-      questions: [
-        {
-          title: "What is the IIM Raipur Global Senior Leadership Program about?",
-          content: [
-            "The Global Senior Leadership Program is a 12-month program offered by IIM Raipur. It is designed to equip learners with core strategic and senior leadership skills."
-          ]
-        },
-        {
-          title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
-          content: [
-            "Structured across 12 months comprising 11 core modules (across 3 pillars) and 4 specializations (choose 1 of CEO, COO, CFO or CTO), covering all core aspects of senior leadership: Strategic Leadership, Cross-Functional Leadership, and Innovation, Digital & AI Leadership.",
-            "Duration: 12 months",
-            "Learning Format: 144 hours of live online sessions, with session recordings available from the first session until one month after program completion.",
-            "Class Timings: Conducted on weekends",
-            "Flexibility: Recordings & study materials available"
-          ]
-        },
-        {
-          title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
-          content: [
-            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
-          ]
-        }
-      ]
+        templateId: "iim_raipur_gslp_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIM Raipur Global Senior Leadership Program about?",
+                        content: [
+                            "The Global Senior Leadership Program is a 12-month program offered by IIM Raipur. It is designed to equip learners with core strategic and senior leadership skills."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 12 months comprising 11 core modules (across 3 pillars) and 4 specializations (choose 1 of CEO, COO, CFO or CTO), covering all core aspects of senior leadership: Strategic Leadership, Cross-Functional Leadership, and Innovation, Digital & AI Leadership.",
+                            "Duration: 12 months",
+                            "Learning Format: 144 hours of live online sessions, with session recordings available from the first session until one month after program completion.",
+                            "Class Timings: Conducted on weekends",
+                            "Flexibility: Recordings & study materials available"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of a minimum of 8 years is required.",
+                            "Diploma Holders are eligible to apply."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in a senior leadership role to enroll?",
+                        content: [
+                            "Prior senior leadership experience is not mandatory; however, a minimum of 8 years of overall work experience is required."
+                        ]
+                    },
+                    {
+                        title: "How do I apply?",
+                        content: [
+                            "You can apply through the Application Portal Link."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIM Raipur after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Raipur, upon fulfilling the requirements.",
+                            "Completion Certificate will be issued only if attendance is 75% or above and the overall assessment score is 50% or above.",
+                            "Participation Certificate will be issued if the above requirements are not met (no Completion Certificate).",
+                            "Note: Completion and Participation Certificates are provided in digital format only (no physical copy)."
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is a professional certificate program recognized by employers and issued by IIM Raipur."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni status or networking opportunities with IIM Raipur?",
+                        content: [
+                            "Yes, participants will receive Executive Alumni Status from IIM Raipur (the fee is included in the program fee). In addition, learners can network with peers, faculty and industry experts during the program, including the campus and international immersions."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIM Raipur confirming my enrollment?",
+                        content: [
+                            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by IIM Raipur faculty and industry experts with extensive hands-on experience."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, case studies, and capstone projects."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. 1:1 doubt clearing or mentoring is not available."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Students can explore roles such as Chief Executive Officer (CEO), Chief Operating Officer (COO), Chief Financial Officer (CFO), Chief Technology Officer (CTO), Senior Vice President (SVP), General Manager / Business Unit Head, etc."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "The program fee is INR 3,39,000 + GST. This includes the study material, the campus immersion, the international immersion in Dubai and Executive Alumni Status. A non-refundable application fee of INR 10,000 + GST is payable at the time of application.",
+                            "Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: Policy Details"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "Is there a campus immersion in the program?",
+                        content: [
+                            "Yes, the program has a 2-day campus immersion at IIM Raipur and a 3-day international immersion in Dubai (dates to be announced). The immersion fees are included in the total program fee. The Dubai immersion includes a 3-night stay at a 4- or 5-star property, all meals, a yacht cruise, a desert safari, and access to curated speaker sessions and a conference."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Raipur's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in strategic leadership, cross-functional leadership, and innovation, digital and AI leadership, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    {
-      title: "Eligibility & Admissions",
-      questions: [
-        {
-          title: "What are the minimum education and work experience requirements?",
-          content: [
-            "Applicants should have a bachelor's degree in any discipline. Prior work experience of a minimum of 8 years is required.",
-            "Diploma Holders are eligible to apply."
-          ]
-        },
-        {
-          title: "Do I need prior experience in a senior leadership role to enroll?",
-          content: [
-            "Prior senior leadership experience is not mandatory; however, a minimum of 8 years of overall work experience is required."
-          ]
-        },
-        {
-          title: "How do I apply?",
-          content: [
-            "You can apply through the Application Portal Link."
-          ]
-        }
-      ]
+    iim_ranchi_coo: {
+        templateId: "iim_ranchi_coo_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIM Ranchi PG Certificate Program in Chief Operating Officer about?",
+                        content: [
+                            "The PG Certificate Program in Chief Operating Officer is a 12 month program offered by IIM Ranchi. It is designed to equip learners with core Enterprise Operations & Strategic Leadership skills."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 12 months comprising 14 modules, covering all core aspects of Boardroom Leadership, Executive Influence, Enterprise Operating Models, Execution Systems, Supply Chain Management, Ecosystem Leadership, Digital Transformation, Technology-Enabled Operations.",
+                            "Duration: 12 months",
+                            "Learning Format: 144+ hours of live online sessions, with study materials available for up to 1 year from the program completion date.",
+                            "Class Timings: Conducted on weekends",
+                            "Flexibility: Recordings & study materials available"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred.",
+                            "Diploma Holders are eligible to apply."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in Operations to enroll?",
+                        content: [
+                            "Prior Operations experience is not required."
+                        ]
+                    },
+                    {
+                        title: "How do I apply?",
+                        content: [
+                            "You can apply through the Application Portal Link."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIM Ranchi after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Ranchi, upon fulfilling the requirements.",
+                            "Completion Certificate will be issued only if attendance is 70% or above.",
+                            "Participation Certificate will not be issued.",
+                            "Note: Completion and Participation Certificates are provided in digital format only (no physical copy). However Physical certificates will be provided to campus immersion participants only, subject to minimum attendance."
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is a professional certificate program recognized by employers and issued by IIM Ranchi."
+                        ]
+                    },
+                    {
+                        title: "Will I get any Executive Alumni Status or networking opportunities with IIM Ranchi?",
+                        content: [
+                            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees"
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIM Ranchi confirming my enrollment?",
+                        content: [
+                            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by IIM Ranchi Faculty with extensive hands-on experience."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, case studies, and capstone projects."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. 1:1 doubt clearing or mentoring is not available."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Students can explore roles such as Chief Operating Officer (COO), Vice President of Operations, Director of Operations, Operational Excellence Leader, Operations Strategy Consultant, Head of Operations, Business Operations Leader, etc."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "The program fee is INR 2,90,000 + GST.",
+                            "Standard EMI options are available (with additional interest charges)."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: Policy Details"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "Is there a campus immersion in the program?",
+                        content: [
+                            "Yes, the program includes a 3-day campus immersion with food and lodging in double-occupancy rooms. Travel expenses are not included."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Ranchi's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in Strategic Leadership, Boardroom Decision-Making, Enterprise-Wide Execution, Operating Model Design, Supply Chain Optimisation, Ecosystem Management, Digital Transformation, Technology-Driven Operations, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    {
-      title: "Certification & Recognition",
-      questions: [
-        {
-          title: "Will I receive a certificate from IIM Raipur after completing the program?",
-          content: [
-            "Yes. Participants will receive a Completion Certificate from IIM Raipur, upon fulfilling the requirements.",
-            "Completion Certificate will be issued only if attendance is 75% or above and the overall assessment score is 50% or above.",
-            "Participation Certificate will be issued if the above requirements are not met (no Completion Certificate).",
-            "Note: Completion and Participation Certificates are provided in digital format only (no physical copy)."
-          ]
-        },
-        {
-          title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
-          content: [
-            "This is a professional certificate program recognized by employers and issued by IIM Raipur."
-          ]
-        },
-        {
-          title: "Will I get any alumni status or networking opportunities with IIM Raipur?",
-          content: [
-            "Yes, participants will receive Executive Alumni Status from IIM Raipur (the fee is included in the program fee). In addition, learners can network with peers, faculty and industry experts during the program, including the campus and international immersions."
-          ]
-        },
-        {
-          title: "Will I receive a physical or digital batch ID or an official email from IIM Raipur confirming my enrollment?",
-          content: [
-            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
-          ]
-        }
-      ]
+    iim_kashipur_epgdbm: {
+        templateId: "iim_kashipur_epgdbm_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the IIM Kashipur Executive Post Graduate Diploma Program in Business Management (EPGDBM) about?",
+                        content: [
+                            "The Executive Post Graduate Diploma Program in Business Management (EPGDBM) is a(an) 14 months program offered by IIM Kashipur. It is designed to equip learners with core business management skills."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 14 months comprising 27 courses across 4 terms (20 credits), covering all core aspects of Business Management: Economics, Finance & Accounting, Marketing, Operations, Human Resources & Organizational Behavior, Strategy, and Business Analytics.",
+                            "Duration: 14 months (Batch 4: Tech Orientation on 25th April 2027; Batch Inauguration on 16th May 2027)",
+                            "Learning Format: 500 hours of learning (366 hours of live online sessions and 134 hours of asynchronous learning), with study materials available for 3 months post course completion",
+                            "Class Timings: Conducted on weekends (Saturdays: 6:00 PM to 9:00 PM IST; Sundays: 10:30 AM to 12:00 PM and 1:00 PM to 2:30 PM IST)",
+                            "Flexibility: Recordings & study materials available"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes (3 hours on Saturdays and 4 hours on Sundays) must be attended. The schedule for these classes will be shared in advance. A minimum of 70% attendance is mandatory in each course, and the camera must be switched on during online classes."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline (10+2+3) with a minimum of 45% marks or equivalent CGPA (42% for NC-OBC / EWS; 40% for SC / ST / DAP). Prior work experience of 3 years is required (only paid, full-time work experience gained after graduation is counted). Applicants also need a valid CAT / GMAT score, or must appear for the IIM Kashipur Admission Test (EMAT). The program is open to Indian nationals residing in India only."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in Business Management to enroll?",
+                        content: [
+                            "Prior Business Management experience is not required."
+                        ]
+                    },
+                    {
+                        title: "How do I apply?",
+                        content: [
+                            "You can apply through the Application Portal Link. The application fee is INR 5,900 (INR 5,000 + GST), non-refundable. Candidates are selected on a merit score out of 100 (Admission Test: 50 marks; Work Experience: 20 marks; Academic Excellence: 30 marks)."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from IIM Kashipur after completing the program?",
+                        content: [
+                            "Yes. Participants will receive a Completion Certificate from IIM Kashipur, upon fulfilling the requirements.",
+                            "Completion Certificate will be issued only if attendance is 75% or above and the overall assessment score is 50% or above.",
+                            "No Participation Certificate will be issued for this program.",
+                            "Note: A physical copy of the Completion Certificate is provided to campus immersion participants, subject to minimum attendance."
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
+                        content: [
+                            "This is a post graduate diploma program recognized by employers and issued by IIM Kashipur."
+                        ]
+                    },
+                    {
+                        title: "Will I get any alumni status or networking opportunities with IIM Kashipur?",
+                        content: [
+                            "Yes, IIM Kashipur Executive Alumni Status will be conferred upon program completion (included in the program fee). Benefits include a lifetime digital executive alumni I-card, access to the exclusive Alumni Portal, alumni city meets, invitations to institute events, newsletters, and on-site library access. Learners can also network with peers and industry experts during the program."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from IIM Kashipur confirming my enrollment?",
+                        content: [
+                            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching the program?",
+                        content: [
+                            "The program is taught by IIM Kashipur faculty and industry experts with extensive hands-on experience. The Program Director is Prof. Ashish Kumar, Associate Professor and Chairperson – Finance and Accounting, IIM Kashipur."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, asynchronous learning, assignments, quizzes, case studies, industry immersion sessions, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions and Virtual Office Hours, which offer one-to-one time with faculty to discuss your queries."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles or industries can I target after completing this program?",
+                        content: [
+                            "Students can explore roles such as General Manager, Business Head, Product Manager, Marketing Manager, Finance Manager, Operations Manager, Strategy Consultant, etc."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "The program fee is INR 3,50,900 + GST",
+                            "Standard EMI options are available (with additional interest charges): 12 months at INR 32,942/month, 18 months at INR 22,840/month, and 24 months at INR 17,748/month."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "No scholarships are currently offered for this program. For the latest details on discounts or referral benefits, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: Policy Details"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "Is there a campus immersion in the program?",
+                        content: [
+                            "Yes, the program has a 5-day Campus Immersion: 3 days on campus and a 2-day valedictory ceremony, included in the program fee. Food and lodging (twin-sharing accommodation, subject to availability) are included; travel expenses are not included. Campus immersion dates will be announced. Participants also receive a welcome merchandise kit."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines IIM Kashipur's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion. IIM Kashipur is an AACSB and EQUIS member, and is ranked #23 in NIRF 2025 (Management) and #26 in IIRF 2025 (Management)."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in Economics, Finance & Accounting, Marketing, Operations, Human Resources, Strategy, and Business Analytics, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate this program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    {
-      title: "Faculty, Learning Experience & Evaluation",
-      questions: [
-        {
-          title: "Who will be teaching the program?",
-          content: [
-            "The program is taught by IIM Raipur faculty and industry experts with extensive hands-on experience."
-          ]
-        },
-        {
-          title: "What kind of learning methods are used (case studies, projects, capstones)?",
-          content: [
-            "Learning includes live sessions, hands-on projects, case studies, and capstone projects."
-          ]
-        },
-        {
-          title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
-          content: [
-            "Doubt resolution is done through live sessions. 1:1 doubt clearing or mentoring is not available."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Career Support & Outcomes",
-      questions: [
-        {
-          title: "Do you provide placement assistance or career services?",
-          content: [
-            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
-          ]
-        },
-        {
-          title: "What is included in the career assistance sessions?",
-          content: [
-            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
-          ]
-        },
-        {
-          title: "What kind of roles or industries can I target after completing this program?",
-          content: [
-            "Students can explore roles such as Chief Executive Officer (CEO), Chief Operating Officer (COO), Chief Financial Officer (CFO), Chief Technology Officer (CTO), Senior Vice President (SVP), General Manager / Business Unit Head, etc."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Fees, Payments & Policies",
-      questions: [
-        {
-          title: "What is the total program fee, and are EMI or installment options available?",
-          content: [
-            "The program fee is INR 3,39,000 + GST. This includes the study material, the campus immersion, the international immersion in Dubai and Executive Alumni Status. A non-refundable application fee of INR 10,000 + GST is payable at the time of application.",
-            "Standard EMI options are available (with additional interest charges)."
-          ]
-        },
-        {
-          title: "Are there any scholarships, discounts, or referral benefits?",
-          content: [
-            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
-          ]
-        },
-        {
-          title: "What is the refund or deferral policy if I cannot continue with the batch?",
-          content: [
-            "A 7-day cooling-off period is applicable. Full details are available at: Policy Details"
-          ]
-        },
-        {
-          title: "What happens if I withdraw mid-program?",
-          content: [
-            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Campus Immersion & Logistics",
-      questions: [
-        {
-          title: "Is there a campus immersion in the program?",
-          content: [
-            "Yes, the program has a 2-day campus immersion at IIM Raipur and a 3-day international immersion in Dubai (dates to be announced). The immersion fees are included in the total program fee. The Dubai immersion includes a 3-night stay at a 4- or 5-star property, all meals, a yacht cruise, a desert safari, and access to curated speaker sessions and a conference."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Why Choose This Program",
-      questions: [
-        {
-          title: "Why choose this program over others?",
-          content: [
-            "This program combines IIM Raipur's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
-          ]
-        },
-        {
-          title: "What kind of learning outcomes can I expect from this program?",
-          content: [
-            "By the end of the program, participants will develop expertise in strategic leadership, cross-functional leadership, and innovation, digital and AI leadership, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
-          ]
-        },
-        {
-          title: "Can I balance this program alongside my full-time job?",
-          content: [
-            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
-          ]
-        }
-      ]
+    xlri_strategic_hr_leadership: {
+        templateId: "xlri_strategic_hr_leadership_standard",
+        sections: [
+            {
+                title: "Program Overview",
+                questions: [
+                    {
+                        title: "What is the XLRI Strategic HR Leadership Program about?",
+                        content: [
+                            "The Executive Development Program in Strategic HR Leadership is a 10 months program offered by XLRI. It is designed to equip learners with core Human Resource, HRM Strategy, DEI Leadership, and GenAI skills."
+                        ]
+                    },
+                    {
+                        title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
+                        content: [
+                            "Structured across 10 months comprising 8 modules, covering all core aspects of Human Resource: HRM Strategy, DEI Leadership, and GenAI.",
+                            "- **Duration:** 10 months",
+                            "- **Learning Format:** 126 hours of live online sessions, with study materials available for 3 years from the batch start date",
+                            "- **Class Timings:** Conducted on weekends",
+                            "- **Flexibility:** Recordings & study materials available"
+                        ]
+                    },
+                    {
+                        title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
+                        content: [
+                            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Eligibility & Admissions",
+                questions: [
+                    {
+                        title: "What are the minimum education and work experience requirements?",
+                        content: [
+                            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 5 years is preferred."
+                        ]
+                    },
+                    {
+                        title: "Do I need prior experience in Human Resource to enroll?",
+                        content: [
+                            "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
+                        ]
+                    },
+                    {
+                        title: "How do I apply?",
+                        content: [
+                            "You can apply through the Application Portal [Link](https://vilcorpadmissions.xlri.ac.in/lp/edpshir.html)."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Certification & Recognition",
+                questions: [
+                    {
+                        title: "Will I receive a certificate from XLRI after completing the program?",
+                        content: [
+                            "Participants will receive a Completion Certificate from XLRI & XLEAD, upon fulfilling the requirements.",
+                            "",
+                            "- **Completion Certificate will be issued only if:** Attendance is 70% or above along with Project participation and mandatory Assessments",
+                            "",
+                            "- **Participation Certificate will be issued if:** Attendance is below 70% and above 50% (no Completion Certificate in this case)",
+                            "",
+                            "- **No Completion or Participation Certificate will be issued if:** Attendance is below 50%"
+                        ]
+                    },
+                    {
+                        title: "Is this a degree, diploma, or certificate – and how is it recognized by employers?",
+                        content: [
+                            "This is a Certificate program from XLRI & XLEAD, one of India's most reputed B-schools, and is widely recognized by employers across industries."
+                        ]
+                    },
+                    {
+                        title: "Will I get any executive alumni status or networking opportunities with XLRI?",
+                        content: [
+                            "Yes. Participants can opt for XLRI Executive Alumni Status by paying a one-time fee of **INR 20,000 + GST** upon program completion. This grants lifetime membership, access to the Executive Alumni Directory, and exclusive networking opportunities."
+                        ]
+                    },
+                    {
+                        title: "Will I receive a physical or digital batch ID or an official email from XLRI confirming my enrollment?",
+                        content: [
+                            "**No physical ID card will be provided.** Enrollment confirmation will be shared digitally via email."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Faculty, Learning Experience & Evaluation",
+                questions: [
+                    {
+                        title: "Who will be teaching in the program?",
+                        content: [
+                            "The program is taught by XLRI faculty and top industry experts."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning methods are used (case studies, projects, capstones)?",
+                        content: [
+                            "Learning includes live sessions, hands-on projects, case studies, transformative simulations, and a capstone project."
+                        ]
+                    },
+                    {
+                        title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
+                        content: [
+                            "Doubt resolution is done through live sessions. **1:1 doubt clearing or mentoring is not available**."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Career Support & Outcomes",
+                questions: [
+                    {
+                        title: "Do you provide placement assistance or career services?",
+                        content: [
+                            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, **please note that no placement assistance or assurance is provided as part of the program.**"
+                        ]
+                    },
+                    {
+                        title: "What is included in the career assistance sessions?",
+                        content: [
+                            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career mentoring and counselling are available for career assistance sessions."
+                        ]
+                    },
+                    {
+                        title: "What kind of roles, industries, or leadership opportunities can I target after completing this program?",
+                        content: [
+                            "Students can explore roles such as Chief Human Resources Officer (CHRO), HR Director, Talent Management Head, Learning and Development Director, Organizational Development Consultant, Strategic HR Business Partner, HR Analytics Lead, Employee Experience Leader, Global HR Manager, Corporate HR Strategy Consultant, C-suite Advisor on HR Strategy, HR Transformation Lead, etc."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Fees, Payments & Policies",
+                questions: [
+                    {
+                        title: "What is the total program fee, and are EMI or installment options available?",
+                        content: [
+                            "- The program fee is INR 2,40,000 + GST.",
+                            "- Standard EMI options are available (with additional interest charges): 12 months at INR 21,683/month, 18 months at INR 14,980/month, and 24 months at INR 11,604/month."
+                        ]
+                    },
+                    {
+                        title: "Are there any scholarships, discounts, or referral benefits?",
+                        content: [
+                            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
+                        ]
+                    },
+                    {
+                        title: "What is the refund or deferral policy if I cannot continue with the batch?",
+                        content: [
+                            "A 7-day cooling-off period is applicable. Full details are available at: [Policy Details](/policies/xlri-delhi-policy)"
+                        ]
+                    },
+                    {
+                        title: "What happens if I withdraw mid-program?",
+                        content: [
+                            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Campus Immersion & Logistics",
+                questions: [
+                    {
+                        title: "Is there a campus immersion in the program?",
+                        content: [
+                            "Yes, the program includes a 2-day campus immersion at XLRI."
+                        ]
+                    },
+                    {
+                        title: "What does the XLRI campus immersion include, and how is it scheduled?",
+                        content: [
+                            "2-Day immersion at XLRI; included in the program fee.",
+                            "- Food and accommodation are included in the program fee",
+                            "- Travel cost is not included and must be arranged by the participant",
+                            "- Includes Executive CXO coaching sessions, Capstone Project presentations, and Valedictory",
+                            "- XLRI will provide prior notice of the schedule so participants can plan travel and work in advance"
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Why Choose This Program",
+                questions: [
+                    {
+                        title: "Why choose this program over others?",
+                        content: [
+                            "This program combines XLRI's academic excellence with Accredian's practical career support. Three things that make this program world-class:",
+                            "- **Progressive Learning Architecture:** XLRI's proprietary Progressive Learning Architecture ensures that irrespective of the background you are from, you will attain mastery in a step-by-step way.",
+                            "- **Theory to Industry Learning Framework:** XLRI's Theory to Industry framework ensures that you are learning every HR Leadership concept in context of real-world industry problems.",
+                            "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
+                        ]
+                    },
+                    {
+                        title: "What kind of learning outcomes can I expect from this program?",
+                        content: [
+                            "By the end of the program, participants will develop expertise in HRM Strategy, DEI Leadership, and GenAI, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
+                        ]
+                    },
+                    {
+                        title: "Can I balance this program alongside my full-time job?",
+                        content: [
+                            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-  ]
-},
-iim_ranchi_coo: {
-  templateId: "iim_ranchi_coo_standard",
-  sections: [
-    {
-      title: "Program Overview",
-      questions: [
-        {
-          title: "What is the IIM Ranchi PG Certificate Program in Chief Operating Officer about?",
-          content: [
-            "The PG Certificate Program in Chief Operating Officer is a 12 month program offered by IIM Ranchi. It is designed to equip learners with core Enterprise Operations & Strategic Leadership skills."
-          ]
-        },
-        {
-          title: "What is the structure and format of the program, including topics, duration, class format, and timings?",
-          content: [
-            "Structured across 12 months comprising 14 modules, covering all core aspects of Boardroom Leadership, Executive Influence, Enterprise Operating Models, Execution Systems, Supply Chain Management, Ecosystem Leadership, Digital Transformation, Technology-Enabled Operations.",
-            "Duration: 12 months",
-            "Learning Format: 144+ hours of live online sessions, with study materials available for up to 1 year from the program completion date.",
-            "Class Timings: Conducted on weekends",
-            "Flexibility: Recordings & study materials available"
-          ]
-        },
-        {
-          title: "How many hours per week do I need to commit, and will recordings be available if I miss a class?",
-          content: [
-            "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. Additionally, live weekend classes must be attended. The schedule for these classes will be shared in advance."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Eligibility & Admissions",
-      questions: [
-        {
-          title: "What are the minimum education and work experience requirements?",
-          content: [
-            "Applicants should have a bachelor's degree in any discipline. Prior work experience of 8 years is preferred."
-          ]
-        },
-        {
-          title: "Do I need prior experience in Operations to enroll?",
-          content: [
-            "Prior Operations experience is not required."
-          ]
-        },
-        {
-          title: "How do I apply?",
-          content: [
-            "You can apply through the Application Portal Link."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Certification & Recognition",
-      questions: [
-        {
-          title: "Will I receive a certificate from IIM Ranchi after completing the program?",
-          content: [
-            "Yes. Participants will receive a Completion Certificate from IIM Ranchi, upon fulfilling the requirements.",
-            "Completion Certificate will be issued only if attendance is 70% or above.",
-            "Participation Certificate will not be issued.",
-            "Note: Completion and Participation Certificates are provided in digital format only (no physical copy). However Physical certificates will be provided to campus immersion participants only, subject to minimum attendance."
-          ]
-        },
-        {
-          title: "Is this a degree, diploma, or certificate – and is it recognized by employers?",
-          content: [
-            "This is a professional certificate program recognized by employers and issued by IIM Ranchi."
-          ]
-        },
-        {
-          title: "Will I get any Executive Alumni Status or networking opportunities with IIM Ranchi?",
-          content: [
-            "Yes. Participants will receive IIM Ranchi Executive Alumni Status. It is included in the program fees"
-          ]
-        },
-        {
-          title: "Will I receive a physical or digital batch ID or an official email from IIM Ranchi confirming my enrollment?",
-          content: [
-            "No physical ID card will be provided. Enrollment confirmation will be shared digitally via email."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Faculty, Learning Experience & Evaluation",
-      questions: [
-        {
-          title: "Who will be teaching the program?",
-          content: [
-            "The program is taught by IIM Ranchi Faculty with extensive hands-on experience."
-          ]
-        },
-        {
-          title: "What kind of learning methods are used (case studies, projects, capstones)?",
-          content: [
-            "Learning includes live sessions, hands-on projects, case studies, and capstone projects."
-          ]
-        },
-        {
-          title: "How are doubts resolved during the program? Is 1:1 mentoring available?",
-          content: [
-            "Doubt resolution is done through live sessions. 1:1 doubt clearing or mentoring is not available."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Career Support & Outcomes",
-      questions: [
-        {
-          title: "Do you provide placement assistance or career services?",
-          content: [
-            "Accredian provides comprehensive career support through 6 dedicated career assistance sessions designed to help learners enhance their professional growth. However, please note that no placement assistance or assurance is provided as part of the program."
-          ]
-        },
-        {
-          title: "What is included in the career assistance sessions?",
-          content: [
-            "Career support includes resume building, interview preparation, and guidance on career pathways. 1:1 career counselling is available for career assistance sessions."
-          ]
-        },
-        {
-          title: "What kind of roles or industries can I target after completing this program?",
-          content: [
-            "Students can explore roles such as Chief Operating Officer (COO), Vice President of Operations, Director of Operations, Operational Excellence Leader, Operations Strategy Consultant, Head of Operations, Business Operations Leader, etc."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Fees, Payments & Policies",
-      questions: [
-        {
-          title: "What is the total program fee, and are EMI or installment options available?",
-          content: [
-            "The program fee is INR 2,90,000 + GST.",
-            "Standard EMI options are available (with additional interest charges)."
-          ]
-        },
-        {
-          title: "Are there any scholarships, discounts, or referral benefits?",
-          content: [
-            "Yes, we do offer scholarships, discounts, and referral benefits from time to time. These opportunities can make the program more affordable and rewarding. For the latest details, we recommend checking the brochure."
-          ]
-        },
-        {
-          title: "What is the refund or deferral policy if I cannot continue with the batch?",
-          content: [
-            "A 7-day cooling-off period is applicable. Full details are available at: Policy Details"
-          ]
-        },
-        {
-          title: "What happens if I withdraw mid-program?",
-          content: [
-            "If you withdraw after the 7-day cooling-off period, refunds are not applicable."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Campus Immersion & Logistics",
-      questions: [
-        {
-          title: "Is there a campus immersion in the program?",
-          content: [
-            "Yes, the program includes a 3-day campus immersion with food and lodging in double-occupancy rooms. Travel expenses are not included."
-          ]
-        }
-      ]
-    },
-    {
-      title: "Why Choose This Program",
-      questions: [
-        {
-          title: "Why choose this program over others?",
-          content: [
-            "This program combines IIM Ranchi's academic credibility with Accredian's practical career support. Learners benefit from a balance of theory, real-world case studies, and industry immersion, along with the flexibility of online learning and campus immersion."
-          ]
-        },
-        {
-          title: "What kind of learning outcomes can I expect from this program?",
-          content: [
-            "By the end of the program, participants will develop expertise in Strategic Leadership, Boardroom Decision-Making, Enterprise-Wide Execution, Operating Model Design, Supply Chain Optimisation, Ecosystem Management, Digital Transformation, Technology-Driven Operations, enabling them to make informed strategic decisions, lead cross-functional teams, and apply practical solutions to real-world challenges. The program's mix of academic rigor and hands-on exposure ensures they graduate with both conceptual clarity and actionable skills."
-          ]
-        },
-        {
-          title: "Can I balance this program alongside my full-time job?",
-          content: [
-            "Yes, absolutely. The program is designed specifically for working professionals. With weekend live sessions, flexible online learning, and dedicated academic support, you can continue progressing in your career while pursuing your learning goals. The curriculum pacing and delivery format make it easy to integrate the program into a busy professional schedule without compromising on depth or engagement."
-          ]
-        }
-      ]
-    }
-  ]
-}
 };

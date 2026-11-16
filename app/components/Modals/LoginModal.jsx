@@ -470,8 +470,8 @@ function LoginModal({ open }) {
   const setLoginDetails = (response) => {
     console.log("Local storage response")
     console.log(response)
-    setCookie("token", response.token, 12, "accredian.com");
-    // setCookie("token", response.token, 12, "accredian.com");
+    setCookie("token", response.token, 12, "localhost");
+    // setCookie("token", response.token, 12, "localhost");
     const myDecodedToken = decodeToken(response.token);
     const isMyTokenExpired = isExpired(response.token);
     // console.log(myDecodedToken);
@@ -734,7 +734,7 @@ function LoginModal({ open }) {
           window.clarity("set", "user_type", "enrolled");
         }
         if (auth_type === "existingUser") {
-          // setCookie("token", response.token, 12, "accredian.com");
+          // setCookie("token", response.token, 12, "localhost");
           // const myDecodedToken = decodeToken(response.token);
           // const isMyTokenExpired = isExpired(response.token);
           // console.log(myDecodedToken);

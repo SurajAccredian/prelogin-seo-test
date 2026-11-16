@@ -197,6 +197,7 @@ function MasterForm() {
     }
   };
 
+
   return (
     <div className="font-circular font-normal relative p-6 sm:p-10 flex flex-row justify-center items-center h-full rounded-2xl mx-auto min-h-[80vh]">
       <div className="relative bg-white flex justify-center items-center h-[60%] rounded-lg max-w-[840px] w-[90%] shadow-lg overflow-hidden">

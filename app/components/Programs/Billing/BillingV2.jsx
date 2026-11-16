@@ -5,8 +5,10 @@ import "./Billing.css";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
-import BillingModal from "../../Modals/billing-modal";
+import dynamic from "next/dynamic";
 import CustomEnrollNowButton from "../CustomEnrollNowButton";
+
+const BillingModal = dynamic(() => import("../../Modals/billing-modal"), { ssr: false });
 
 const BillingV2 = ({ data: propData }) => {
   const reduxProgram = useSelector((state) => state.program);

@@ -477,6 +477,8 @@ export const generateFAQFromTemplate = (programData) => {
         ? "xlri_cto_program"
         : programData.id == "executive-development-program-in-digital-hr-leadership-and-people-analytics"
         ? "xlri_digital_hr"
+        : programData.id == "executive-development-program-strategic-hr-leadership"
+        ? "xlri_strategic_hr_leadership"
         : programData.id == "iim-ranchi-senior-management-program"
         ? "iimr_senior_management_program"
 
@@ -528,8 +530,9 @@ export const generateFAQFromTemplate = (programData) => {
         ? "iim_raipur_gslp"
         : programData.id == "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program"
         ? "iim_ranchi_coo"
-        : 'iitk';
-        
+        : programData.id == "iim-kashipur-executive-post-graduate-diploma-program-in-business-management"
+        ? "iim_kashipur_epgdbm"
+        : 'iitk';       
         
     const template = universityFaqTemplates[universityCode];
     console.log(template)

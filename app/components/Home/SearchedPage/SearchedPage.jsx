@@ -11,8 +11,7 @@ import { useDispatch, useSelector, useStore } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import { VscListFilter } from "react-icons/vsc";
 import { useDisclosure } from "@chakra-ui/react";
-import FilterPageDrawer from "../../Drawers/FilterPageDrawer/FilterPageDrawer";
-import DownloadBrochure from "../../CTA_Modal/download_brochure";
+import dynamic from "next/dynamic";
 import { useSearchParams, useRouter } from "next/navigation";
 import { sortPrograms } from "../../../helpers/common.helpers";
 import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
@@ -99,6 +98,9 @@ const sortSelectStyles = {
     },
   }),
 };
+
+const FilterPageDrawer = dynamic(() => import("../../Drawers/FilterPageDrawer/FilterPageDrawer"), { ssr: false });
+const DownloadBrochure = dynamic(() => import("../../CTA_Modal/download_brochure"), { ssr: false });
 
 
 const areArraysEqual = (arr1 = [], arr2 = []) => {

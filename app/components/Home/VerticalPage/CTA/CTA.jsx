@@ -2,9 +2,11 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 
 import "./CTA.css"
 import { IoIosArrowForward } from "react-icons/io";
-import CtaModal from "../../../Modals/call-to-actions/get-in-touch";
+import dynamic from "next/dynamic";
 import { useState } from "react";
 import { useSelector } from "react-redux";
+
+const CtaModal = dynamic(() => import("../../../Modals/call-to-actions/get-in-touch"), { ssr: false });
 
 const CTA = () => {
 
@@ -34,7 +36,7 @@ const CTA = () => {
           </div>
         </div>
         <button onClick={handleModalOpen} className="cta-button w-full max-w-[260px] px-4 py-2 sm:py-3  mt-4 rounded-lg text-blue-500 bg-white text-xl font-semibold flex items-center justify-center gap-1">
-        Get Expert Advice
+          Get Expert Advice
           <IoIosArrowForward />
         </button>
       </div>

@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import "react-phone-input-2/lib/material.css";
 import { usePathname, useSearchParams } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 import axios from "axios";
 import { Loader2 } from "lucide-react";
 import Modal from "../ui/Modal";
@@ -133,15 +132,7 @@ const CareerTransitionContent = (props) => {
         });
       }
     } else {
-      toast.error("Please enter a valid mobile number", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        theme: "colored",
-      });
+      toast.error("Please enter a valid mobile number");
     }
   };
 
@@ -270,7 +261,6 @@ const CareerTransitionContent = (props) => {
           </div>
         </div>
       </Modal>
-      <ToastContainer />
     </>
   );
 };

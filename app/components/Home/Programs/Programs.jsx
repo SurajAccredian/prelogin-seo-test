@@ -418,8 +418,8 @@ export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
       {(resolved.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
         <span
           className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${resolved.isAdmissionClosed
-              ? "bg-red-500 capitalize"
-              : "bg-green-500"
+            ? "bg-red-500 capitalize"
+            : "bg-green-500"
             } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
         >
           {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : resolved.status}

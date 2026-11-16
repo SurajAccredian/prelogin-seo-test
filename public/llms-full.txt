@@ -162,8 +162,8 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 - **Duration:** 14 Months
 - **Start date:** 25 April 2027
 - **Experience required:** 3+ years
-- **Fee:** INR 3,49,999 + GST
-- **Description:** Master Functional and Strategic Management through IIM Kashipur’s 14-month Executive Program, and develop the managerial expertise to lead business transformation while attaining IIM Kashipur Executive Alumni Status.
+- **Fee:** INR 3,50,900 + GST
+- **Description:** Advance your management career with IIM Kashipur’s 14-month Executive Post Graduate Diploma Program in Business Management. Develop strategic thinking, functional expertise and leadership capabilities to drive business growth and prepare for senior managerial roles.
 
 #### [Post Graduate Diploma in Management for Working Executives (PGDMEx)](https://accredian.com/programs/post-graduate-diploma-in-management-for-working-executives)
 - **Institution:** IIM Visakhapatnam
@@ -747,9 +747,9 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 #### [Professional Certificate in AI for Leaders](https://accredian.com/programs/professional-certificate-in-ai-for-leaders)
 - **Institution:** SP Jain School of Global Management
 - **Duration:** 4 Months
-- **Start date:** 21st Jun 2026
+- **Start date:** 13 Feb 2027
 - **Experience required:** 5+ years
-- **Fee:** INR 1,30,000 + GST
+- **Fee:** INR 1,39,000 + GST
 - **Description:** Embark on a 4-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.
 - **Curriculum:**
   1. AI Foundations for Business Leaders
@@ -761,9 +761,9 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 #### [Executive Program in Leadership with AI](https://accredian.com/programs/sp-jain-executive-program-in-leadership-with-ai)
 - **Institution:** SP Jain School of Global Management
 - **Duration:** 7 Months
-- **Start date:** 21st Jun 2026
+- **Start date:** 13 Feb 2027
 - **Experience required:** 5+ years
-- **Fee:** INR 1,60,000 + GST
+- **Fee:** INR 1,69,000 + GST
 - **Description:** Embark on a 7-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.
 - **Curriculum:**
   1. AI Foundations for Business Leaders
@@ -1052,21 +1052,20 @@ Accredian offers early-bird fee concessions for candidates who complete registra
 #### [Executive Program in Strategic Project Management & Leadership](https://accredian.com/programs/iiml-executive-program-in-strategic-project-management-leadership)
 - **Institution:** IIM Lucknow
 - **Duration:** 10 Months
-- **Start date:** 30 May 2026
+- **Start date:** 14 Feb 2026
 - **Experience required:** 1+ years
-- **Fee:** INR 2,42,500 + GST
+- **Fee:** INR 2,67,500 + GST
 - **Description:** Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.
 - **Curriculum:**
   1. Business Economics for Strategic Decisions
   2. Financial Acumen for Project Leaders
-  3. Strategic Project Planning & Resourcing
-  4. Project Execution Leadership & Schedule Optimization
-  5. Agile Project Management for Delivery Excellence
-  6. Digital Product Leadership
-  7. Agile for C-Suite (Program and Portfolio)
-  8. Digital, Legal & ESG for Project Leaders
-  9. Data & AI Driven Project Management
-  10. Leadership, Stakeholder Management & Communication
+  3. Strategic Project Planning & Execution Leadership
+  4. Agile Project Management for Delivery Excellence
+  5. Digital Product Leadership
+  6. Agile for C-Suite (Program and Portfolio)
+  7. Digital, Legal & ESG for Project Leaders
+  8. Data & AI Driven Project Management
+  9. Leadership, Stakeholder Management & Communication
 
 #### [Post Graduate Certificate in Strategic Project Management & Leadership](https://accredian.com/programs/pg-certificate-in-strategic-project-management-and-leadership)
 - **Institution:** IIM Visakhapatnam

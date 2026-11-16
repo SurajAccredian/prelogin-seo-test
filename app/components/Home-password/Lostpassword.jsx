@@ -1,8 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 import axios from "axios";
 import { Loader2 } from "lucide-react";
 import Testingnavbar from "../Navbar/testinnav";
@@ -27,7 +26,7 @@ const Lostpassword = () => {
 
     try {
       const result = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_ENDPOINT_NODE_PRODUCTION_DASHBOARD}/password/forgot-password`,
+        `http://localhost:5001/password/forgot-password`,
         JSON.stringify(sandData),
         {
           headers: {
@@ -39,46 +38,20 @@ const Lostpassword = () => {
 
       if (result.data.status == 200) {
         toast.success(
-          "We have received your password reset request. Please check your email for further instructions.",
-          {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "colored",
-          }
+          "We have received your password reset request. Please check your email for further instructions."
         );
         e.target.reset();
         setEmail("");
       } else if (result.data.status === "404") {
-        toast.warn(
-          "Email not found. Please ensure you entered the correct email address or sign up for an account.",
-          {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "colored",
-          }
-        );
+          toast(
+            "Email not found. Please ensure you entered the correct email address or sign up for an account.",
+          { icon: "⚠️" }
+          );
         e.target.reset();
         setEmail("");
       } else {
         toast.error(
-          "Apologies for any inconvenience. Our system is experiencing high demand, causing delays. Please retry later. Your patience is appreciated.",
-          {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "colored",
-          }
+          "Apologies for any inconvenience. Our system is experiencing high demand, causing delays. Please retry later. Your patience is appreciated."
         );
       }
     } finally {
@@ -129,14 +102,11 @@ const Lostpassword = () => {
         </div>
       </div>
       <Footer />
-
       {open && (
         <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center">
           <Loader2 className="w-10 h-10 animate-spin text-white" />
         </div>
       )}
-
-      <ToastContainer />
     </>
   );
 };

@@ -92,7 +92,7 @@ export default function About() {
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/manav-profile.webp"
-                          alt="manav-profile"
+                          alt="Manvender Singh (Manav) - Chief Executive Officer"
                           sx={{ width: "65%", py: 3 }}
                         />
                       </center>
@@ -106,7 +106,7 @@ export default function About() {
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/linkedin-icon.webp"
-                          alt="linkedin-icon"
+                          alt="Accredian LinkedIn Profile"
                           sx={{ width: "8%", py: 2 }}
                         />
                       </center>
@@ -130,7 +130,7 @@ export default function About() {
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/nikhil-profile.webp"
-                          alt="nikhil-profile"
+                          alt="Nikhil Bhogaraju - Chief Operating Officer"
                           sx={{ width: "65%", py: 3 }}
                         />
                       </center>
@@ -144,7 +144,7 @@ export default function About() {
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/linkedin-icon.webp"
-                          alt="linkedin-icon"
+                          alt="Nikhil Bhogaraju LinkedIn Profile"
                           sx={{ width: "8%", py: 2 }}
                         />
                       </center>
@@ -168,7 +168,7 @@ export default function About() {
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/suchit-profile.webp"
-                          alt="suchit-profile"
+                          alt="Suchit Majumdar - Chief Product Officer"
                           sx={{ width: "65%", py: 3 }}
                         />
                       </center>
@@ -182,7 +182,7 @@ export default function About() {
                         <CardMedia
                           component="img"
                           image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/linkedin-icon.webp"
-                          alt="linkedin-icon"
+                          alt="Suchit Majumdar LinkedIn Profile"
                           sx={{ width: "8%", py: 2 }}
                         />
                       </center>
@@ -196,13 +196,14 @@ export default function About() {
         </Box>
 
         {/* Mission Section */}
+        {/* Mission Section */}
         <Box sx={{ py: 5 }}>
           <Box sx={{ pb: 4 }}>
             <Typography sx={{ color: "#0077b7", textAlign: "center", fontSize: "28px", fontWeight: 400 }}>
               Our mission &amp; focus
             </Typography>
           </Box>
-          <Box sx={{ pb: 4 }}>
+          <Box sx={{ pb: 6 }}>
             <Typography sx={{ color: "#000", textAlign: "center", fontSize: "28px", fontWeight: 400, marginBottom: "0rem!important", lineHeight: 1.3 }}>
               To make world class education accessible &amp;{" "}
             </Typography>
@@ -210,104 +211,92 @@ export default function About() {
               enable high impact careers for everyone.
             </Typography>
           </Box>
-          <Container fixed>
-            <Box sx={{ pb: 2 }}>
-              <Container fixed>
-                <Grid item lg={12} container sx={{ justifyContent: "center", columnGap: 2, rowGap: 4 }}>
 
-                  <Grid
-                    item
-                    lg={4} sm={12} md={6}
+          <Container maxWidth="lg">
+            {/* ROW 1: Top 3 Stats */}
+            <Grid container spacing={4} justifyContent="center" alignItems="stretch" sx={{ mb: 6 }}>
+              {[
+                { value: "2018", label: "Year of Inception", color: "#c2e76b" },
+                { value: "18K+", label: "Professionals Trained", color: "#002e5e" },
+                { value: "2M+", label: "Class Hours Delivered", color: "#00acd7" },
+              ].map((stat, idx) => (
+                <Grid
+                  item
+                  xs={12}
+                  sm={4}
+                  key={idx}
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    position: "relative",
+                    borderRight: { sm: idx !== 2 ? "1px solid #e0e0e0" : "none" },
+                    px: 3,
+                  }}
+                >
+                  <Box
                     sx={{
-                      boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                      maxWidth: { lg: "19.333333% !important", sm: "100%", md: "100%" },
-                      p: 3, ml: { lg: 0, md: 0, sm: 0 }, mb: { lg: 4, sm: 3, md: 3 },
-                      borderRadius: "10px",
-                      backgroundColor: "#fff", // FIX: was backgroubdColor
+                      backgroundColor: "#dbeafe",
+                      color: "#1a73e8",
+                      fontWeight: 700,
+                      fontSize: "22px",
+                      px: 2.5,
+                      py: 1,
+                      borderRadius: "26px",
+                      mb: 2,
+                      display: "inline-block",
                     }}
                   >
-                    <Typography sx={{ color: "#c2e76b", textAlign: "center", fontSize: "42px", fontWeight: "bold", marginBottom: "0.6rem!important" }}>2018</Typography>
-                    <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "17px", fontWeight: 300 }}>Year of inception</Typography>
-                  </Grid>
-
-                  <Grid
-                    item
-                    lg={4} sm={12} md={6}
-                    sx={{
-                      boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                      maxWidth: { lg: "19.333333% !important", sm: "100%", md: "100%" },
-                      p: 3, ml: { lg: 5, md: 0, sm: 0 }, mb: { lg: 4, sm: 3, md: 3 },
-                      borderRadius: "10px",
-                      backgroundColor: "#fff", // FIX: was backgroubdColor
-                    }}
-                  >
-                    <Typography sx={{ color: "#002e5e", textAlign: "center", fontSize: "42px", fontWeight: "bold", marginBottom: "0.6rem!important" }}>5000+</Typography>
-                    <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "17px", fontWeight: 300 }}>professionals trained</Typography>
-                  </Grid>
-
-                  <Grid
-                    item
-                    lg={4} sm={12} md={6}
-                    sx={{
-                      boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                      maxWidth: { lg: "19.333333% !important", sm: "100%", md: "100%" },
-                      p: 3, ml: { lg: 5, md: 0, sm: 0 }, mb: { lg: 4, sm: 3, md: 3 },
-                      borderRadius: "10px",
-                      backgroundColor: "#fff", // FIX: was backgroubdColor
-                    }}
-                  >
-                    <Typography sx={{ color: "#00acd7", textAlign: "center", fontSize: "42px", fontWeight: "bold", marginBottom: "0.6rem!important" }}>1.6M</Typography>
-                    <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "17px", fontWeight: 300 }}>class hours delivered</Typography>
-                  </Grid>
-
-                  <Grid
-                    item
-                    lg={4} sm={12} md={6}
-                    sx={{
-                      boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                      maxWidth: { lg: "19.333333% !important", sm: "100%", md: "100%" },
-                      p: 3, ml: { lg: 0, md: 0, sm: 0 }, mb: { lg: 4, sm: 3, md: 3 },
-                      borderRadius: "10px",
-                      backgroundColor: "#fff", // FIX: was backgroubdColor
-                    }}
-                  >
-                    <Typography sx={{ color: "#00acd7", textAlign: "center", fontSize: "42px", fontWeight: "bold", marginBottom: "0.6rem!important" }}>30+</Typography>
-                    <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "17px", fontWeight: 300 }}>batches launched</Typography>
-                  </Grid>
-
-                  <Grid
-                    item
-                    lg={4} sm={12} md={6}
-                    sx={{
-                      boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                      maxWidth: { lg: "19.333333% !important", sm: "100%", md: "100%" },
-                      p: 3, ml: { lg: 5, md: 0, sm: 0 }, mb: { lg: 4, sm: 3, md: 3 },
-                      borderRadius: "10px",
-                      backgroundColor: "#fff", // FIX: was backgroubdColor
-                    }}
-                  >
-                    <Typography sx={{ color: "#002e5e", textAlign: "center", fontSize: "42px", fontWeight: "bold", marginBottom: "0.6rem!important" }}>3.6 lac</Typography>
-                    <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "17px", fontWeight: 300 }}>followers &amp; users</Typography>
-                  </Grid>
-
-                  <Grid
-                    item
-                    lg={4} sm={12} md={6}
-                    sx={{
-                      boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                      maxWidth: { lg: "19.333333% !important", sm: "100%", md: "100%" },
-                      p: 3, ml: { lg: 5, md: 0, sm: 0 }, mb: { lg: 4, sm: 3, md: 3 },
-                      borderRadius: "10px",
-                      backgroundColor: "#fff", // FIX: was backgroubdColor
-                    }}
-                  >
-                    <Typography sx={{ color: "#c2e76b", textAlign: "center", fontSize: "42px", fontWeight: "bold", marginBottom: "0.6rem!important" }}>4.5/5</Typography>
-                    <Typography sx={{ color: "#6c757d", textAlign: "center", fontSize: "17px", fontWeight: 300 }}>program satisfaction</Typography>
-                  </Grid>
-
+                    {stat.value}
+                  </Box>
+                  <Typography sx={{ color: "#3c4043", textAlign: "center", fontSize: "16px", fontWeight: 500, lineHeight: 1.4 }}>
+                    {stat.label}
+                  </Typography>
                 </Grid>
-              </Container>
-            </Box>
+              ))}
+            </Grid>
+
+            {/* ROW 2: Bottom 2 Stats */}
+            <Grid container spacing={4} justifyContent="center" alignItems="stretch">
+              {[
+                { value: "100+", label: "Batches Launched" },
+                { value: "5L+", label: "Followers & Users" },
+              ].map((stat, idx) => (
+                <Grid
+                  item
+                  xs={12}
+                  sm={4}
+                  key={idx}
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    position: "relative",
+                    borderRight: { sm: idx !== 1 ? "1px solid #e0e0e0" : "none" },
+                    px: 3,
+                  }}
+                >
+                  <Box
+                    sx={{
+                      backgroundColor: "#dbeafe",
+                      color: "#1a73e8",
+                      fontWeight: 700,
+                      fontSize: "22px",
+                      px: 3,
+                      py: 1,
+                      borderRadius: "20px",
+                      mb: 2,
+                      display: "inline-block",
+                    }}
+                  >
+                    {stat.value}
+                  </Box>
+                  <Typography sx={{ color: "#3c4043", textAlign: "center", fontSize: "16px", fontWeight: 500, lineHeight: 1.4 }}>
+                    {stat.label}
+                  </Typography>
+                </Grid>
+              ))}
+            </Grid>
           </Container>
         </Box>
 
@@ -423,19 +412,19 @@ export default function About() {
                 name: "Manvender Singh (Manav)",
                 title: "Chief executive officer",
                 img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/manav-profile.webp",
-                alt: "manav-profile",
+                alt: "Manvender Singh (Manav) - Chief Executive Officer",
               },
               {
                 name: "Nikhil Bhogaraju",
                 title: "Chief operating officer",
                 img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/nikhil-profile.webp",
-                alt: "nikhil-profile",
+                alt: "Nikhil Bhogaraju - Chief Operating Officer",
               },
               {
                 name: "Suchit Majumdar",
                 title: "Chief product officer",
                 img: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/suchit-profile.webp",
-                alt: "suchit-profile",
+                alt: "Suchit Majumdar - Chief Product Officer",
               },
             ].map((person, i) => (
               <Box
@@ -466,7 +455,7 @@ export default function About() {
                   <CardMedia
                     component="img"
                     image="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/vision/linkedin-icon.webp"
-                    alt="linkedin"
+                    alt={`${person.name} LinkedIn Profile`}
                     sx={{ width: "8%" }}
                   />
                 </Box>
@@ -477,50 +466,108 @@ export default function About() {
 
         {/* Mission Mobile */}
         {/* ===== MOBILE - Mission Stats Section ===== */}
+        {/* Mission Section */}
         <Box sx={{ py: 5 }}>
-          <Container fixed>
-            <Box sx={{ pb: 4 }}>
-              <Typography sx={{ color: "#0077b7", textAlign: "center", fontSize: "28px", fontWeight: 400 }}>
-                Our mission &amp; focus
-              </Typography>
-            </Box>
-            <Box sx={{ pb: 4 }}>
-              <Typography sx={{ color: "#000", textAlign: "center", fontSize: "24px", fontWeight: 400, marginBottom: "0rem!important", lineHeight: 1.3 }}>
-                To make world class education accessible &amp; enable high impact careers for everyone.
-              </Typography>
-            </Box>
-          </Container>
-
-          {/* ✅ Replace Grid entirely with Box flex column */}
-          <Box sx={{ px: 2, display: "flex", flexDirection: "column", gap: 3 }}>
-            {[
-              { value: "2018", label: "Year of inception", color: "#c2e76b" },
-              { value: "5000+", label: "professionals trained", color: "#002e5e" },
-              { value: "1.6M", label: "class hours delivered", color: "#00acd7" },
-              { value: "30+", label: "batches launched", color: "#00acd7" },
-              { value: "3.6 lac", label: "followers & users", color: "#002e5e" },
-              { value: "4.5/5", label: "program satisfaction", color: "#c2e76b" },
-            ].map((stat, i) => (
-              <Box
-                key={i}
-                sx={{
-                  width: "100%",
-                  boxShadow: "0 0 30px 0 rgb(0 145 255 / 10%)",
-                  p: 3,
-                  borderRadius: "10px",
-                  backgroundColor: "#fff",
-                  textAlign: "center",
-                }}
-              >
-                <Typography sx={{ color: stat.color, fontSize: "42px", fontWeight: "bold", mb: 1 }}>
-                  {stat.value}
-                </Typography>
-                <Typography sx={{ color: "#6c757d", fontSize: "17px", fontWeight: 300 }}>
-                  {stat.label}
-                </Typography>
-              </Box>
-            ))}
+          <Box sx={{ pb: 4 }}>
+            <Typography sx={{ color: "#0077b7", textAlign: "center", fontSize: "28px", fontWeight: 400 }}>
+              Our mission &amp; focus
+            </Typography>
           </Box>
+          <Box sx={{ pb: 6 }}>
+            <Typography sx={{ color: "#000", textAlign: "center", fontSize: "28px", fontWeight: 400, marginBottom: "0rem!important", lineHeight: 1.3 }}>
+              To make world class education accessible &amp;{" "}
+            </Typography>
+            <Typography sx={{ color: "#000", textAlign: "center", fontSize: "28px", fontWeight: 400 }}>
+              enable high impact careers for everyone.
+            </Typography>
+          </Box>
+
+          <Container maxWidth="lg">
+            {/* ROW 1: Top 3 Stats */}
+            <Grid container spacing={4} justifyContent="center" alignItems="stretch" sx={{ mb: 6 }}>
+              {[
+                { value: "2018", label: "Year of Inception", color: "#c2e76b" },
+                { value: "18K+", label: "Professionals Trained", color: "#002e5e" },
+                { value: "2M+", label: "Class Hours Delivered", color: "#00acd7" },
+              ].map((stat, idx) => (
+                <Grid
+                  item
+                  xs={12}
+                  sm={4}
+                  key={idx}
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    position: "relative",
+                    borderRight: { sm: idx !== 2 ? "1px solid #e0e0e0" : "none" },
+                    px: 3,
+                  }}
+                >
+                  <Box
+                    sx={{
+                      backgroundColor: "#e8f2ff",
+                      color: "#1a73e8",
+                      fontWeight: 700,
+                      fontSize: "22px",
+                      px: 3,
+                      py: 1,
+                      borderRadius: "20px",
+                      mb: 2,
+                      display: "inline-block",
+                    }}
+                  >
+                    {stat.value}
+                  </Box>
+                  <Typography sx={{ color: "#3c4043", textAlign: "center", fontSize: "16px", fontWeight: 500, lineHeight: 1.4 }}>
+                    {stat.label}
+                  </Typography>
+                </Grid>
+              ))}
+            </Grid>
+
+            {/* ROW 2: Bottom 2 Stats */}
+            <Grid container spacing={4} justifyContent="center" alignItems="stretch">
+              {[
+                { value: "100+", label: "Batches Launched" },
+                { value: "5L+", label: "Followers & Users" },
+              ].map((stat, idx) => (
+                <Grid
+                  item
+                  xs={12}
+                  sm={4}
+                  key={idx}
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    position: "relative",
+                    borderRight: { sm: idx !== 1 ? "1px solid #e0e0e0" : "none" },
+                    px: 3,
+                  }}
+                >
+                  <Box
+                    sx={{
+                      backgroundColor: "#e8f2ff",
+                      color: "#1a73e8",
+                      fontWeight: 700,
+                      fontSize: "22px",
+                      px: 3,
+                      py: 1,
+                      borderRadius: "20px",
+                      mb: 2,
+                      display: "inline-block",
+                    }}
+                  >
+                    {stat.value}
+                  </Box>
+                  <Typography sx={{ color: "#3c4043", textAlign: "center", fontSize: "16px", fontWeight: 500, lineHeight: 1.4 }}>
+                    {stat.label}
+                  </Typography>
+                </Grid>
+              ))}
+            </Grid>
+          </Container>
         </Box>
 
         {/* ===== MOBILE - Join Team / PR Section ===== */}

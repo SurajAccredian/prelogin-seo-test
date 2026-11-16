@@ -1,8 +1,10 @@
 {
   "category": "47",
   "id": "professional-certificate-in-applied-generative-ai",
+  "pid": 145,
   "vertical": "artificial intelligence",
   "title": "Professional Certificate in Generative AI for Business Transformation",
+  "seo_title": "Generative AI Business Certificate SP Jain | Accredian",
   "description": "Embark on a 4-month learning journey in GenAI Tools, Workflow Automation, & Real-World Enterprise Use Cases.",
   "short_title": "Artificial Intelligence",
   "contact": "9358719988",
@@ -10,7 +12,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "22 Sep 2026",
+  "start_date": "13 Dec 2026",
   "duration": "4 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -26,7 +28,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SPJ/spjain-pcgaibt-certificate.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/spjain-pcgaibt-certificate.webp",
   "key_features": [
     {
       "title": "hours",
@@ -89,7 +91,8 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
         ]
       }
     ]
@@ -99,15 +102,19 @@
     "certificate",
     "alumni-status",
     "experiential-learning",
-    "mentoring-session"
+    "mentoring-session",
+    "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Generative AI Foundations For Leaders",
@@ -116,14 +123,14 @@
         "Understanding The New AI Paradigm",
         "Core Models Explained Simply",
         "Disruption Landscape: Opportunities & Risks",
-        "Leader’s Role In AI Adoption (TechRadar, Impact Radar, Maturity Assessment)"
+        "Leader’s Role In AI Adoption"
       ]
     },
     {
       "title": "Generative AI Tools, Workflows & Applied Practice",
       "id": "genai-tools-workflows",
       "points": [
-        "Hands-On With Top GenAI Platforms (ChatGPT, Claude, Gemini, MidJourney, Runway)",
+        "Hands-On With Top GenAI Platforms",
         "Prompt Design & Applied Use Cases",
         "RAG, Finetuning, MCP, & Multimodal Workflows",
         "Human–AI Collaboration In Day-To-Day Business"
@@ -160,7 +167,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Selvan Dorairaj",
@@ -258,18 +264,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 10842
+        "emi": 11817
       },
       {
         "months": 18,
-        "emi": 7490
+        "emi": 8164
       },
       {
         "months": 24,
-        "emi": 5802
+        "emi": 6324
       }
     ],
-    "total": 130000
+    "total": 139000
   },
   "faq": {
     "programId": "professional-certificate-in-applied-generative-ai",
@@ -302,7 +308,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 4 Months."]
+            "content": [
+              "The duration of the program is 4 Months."
+            ]
           }
         ]
       },
@@ -350,5 +358,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Professional-Certificate-in-Generative-AI-for-Business-Transformation-Brochure.pdf",
     "source": "SPJ Professional Certificate in Generative AI for Business Transformation Brochure",
     "campaign_name": "PCAGAI-SPJ-4 Months"
-  }
+  },
+  "og_title": "SP Jain School of Global Management - Professional Certificate in Generative AI for Business Transformation",
+  "meta_description": "Build expertise in generative AI tools, enterprise business automation and GenAI strategy with SP Jain's 4-month Generative AI program for working managers.",
+  "keywords": "generative AI business transformation SP Jain, applied generative AI course, SP Jain GenAI certification"
 }

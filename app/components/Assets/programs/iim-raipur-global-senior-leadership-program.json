@@ -1,0 +1,516 @@
+{
+  "id": "iim-raipur-global-senior-leadership-program",
+  "category": "73",
+  "pid": 183,
+  "vertical": "Senior Management",
+  "title": "Global Senior Leadership Program",
+  "description": "Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.",
+  "short_title": " Global Senior Leadership",
+  "contact": "8851827053",
+  "university_name": "IIM Raipur ",
+  "short_university_name": "iim-raipur",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/idXHEtaKTN_logos.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/id3GhOb_bd_1793445312307.webp",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/idqzd88Bz1_images.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_GSLP.webp",
+  "start_date": "28 Feb 2027",
+  "duration": "12 Months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "144+",
+      "title": "live sessions"
+    },
+    {
+      "text": "4",
+      "title": "subject areas"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "3-day",
+      "title": "int. immersion in dubai"
+    },
+    {
+      "text": "2-day",
+      "title": "campus immersion"
+    },
+    {
+      "text": "11",
+      "title": "modules"
+    }
+  ],
+  "domain": "Senior Management ",
+  "overview": {
+    "programId": "iim-raipur-global-senior-leadership-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Senior Executives: Expand global leadership capabilities.",
+          "Mid-Level Managers: Transition into strategic leadership roles.",
+          "Entrepreneurs: Scale ventures across borders.",
+          "Functional Heads: Align teams with global business strategies.",
+          "Consultants: Deepen expertise in global organizational leadership."
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "C-suite Executive (CEO / COO / CFO)",
+          "Managing Director",
+          "General Manager",
+          "Regional Director",
+          "Vice President of Global Operations",
+          "Senior Business Consultant",
+          "Head of Corporate Development",
+          "Global Program Manager",
+          "Director of Organizational Strategy"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "3 Pillars – Strategic Leadership, Cross-Functional Leadership, And Innovation, Digital & AI Leadership",
+          "Duration: 12 Months | Weekend Online",
+          "Business Case Studies, Simulations, And Interactive Class Activities",
+          "Live Instructor-Led Classes",
+          "CEO,COO,CFO,And CTO Specialisations",
+          "CXO Coaching Sessions",
+          "Learn From Esteemed IIM Raipur Faculty And Industry Experts",
+          "Certification From IIM Raipur",
+          "Campus Immersion For 2 Days At IIM Raipur",
+          "International Immersion For 3 Days At Dubai"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "campus-immersion",
+    "capstone-project",
+    "certificate",
+    "alumni-status"
+  ],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "Strategic Leadership in Global Organizations",
+      "points": [
+        "Strategic Leadership Frameworks",
+        "Executive Decision-Making Under Uncertainty",
+        "Leading High-Performing Leadership Teams",
+        "Leading Organizational Change"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Leadership & Executive Influence",
+      "points": [
+        "Executive Presence & Boardroom Credibility",
+        "Boardroom Governance & Decision-Making",
+        "Stakeholder Influence & Strategic Negotiation",
+        "Executive Storytelling & Strategic Communication"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Geopolitical Strategy, Global Expansion & Macro Risk",
+      "points": [
+        "Global Economic & Geopolitical Trends",
+        "International Trade & Regulatory Landscape",
+        "Geopolitical Risk & Business Resilience",
+        "Global Expansion & Market Entry Strategies"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Corporate & Business Strategy for CXOs",
+      "points": [
+        "Competitive Strategy & Market Positioning",
+        "Corporate Growth & Portfolio Strategy",
+        "Business Model Innovation",
+        "Strategy Execution & Performance Management"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Finance for Senior Leaders",
+      "points": [
+        "Financial Decision-Making for Executives",
+        "Capital Allocation & Investment Strategy",
+        "Business Performance Management",
+        "Driving Shareholder Value"
+      ],
+      "modules": []
+    },
+    {
+      "title": "People Strategy & Building High Performing Culture",
+      "points": [
+        "Strategic Workforce Planning",
+        "Leadership & Succession Development",
+        "Building High-Performance Cultures",
+        "Organization Design & Transformation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Customer, Brand & GTM in Global Markets",
+      "points": [
+        "Strategic Marketing & Brand Leadership",
+        "Customer Experience & Loyalty",
+        "Go-to-Market Strategy & Commercial Excellence",
+        "Commercial Analytics & Growth Insights"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Global Operations & Supply Chain Leadership",
+      "points": [
+        "Operations Strategy & Execution",
+        "Supply Chain Resilience & Agility",
+        "Operating Models & Performance Excellence",
+        "Global Sourcing & Logistics"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Corporate Governance, Risk & Crisis Leadership",
+      "points": [
+        "Corporate Governance & Board Oversight",
+        "Enterprise Risk Management",
+        "ESG & Sustainability Strategy",
+        "Crisis Leadership & Business Continuity"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Innovation & Digital Transformation",
+      "points": [
+        "Innovation Strategy & Business Reinvention",
+        "Digital Business Reinvention",
+        "Emerging Technologies & Business Models",
+        "Leading Innovation at Scale"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI & Generative AI for Leaders",
+      "points": [
+        "AI Strategy for Competitive Advantage",
+        "Generative AI Applications Across Functions",
+        "AI Governance, Ethics & Responsible AI",
+        "AI-Led Business Transformation & Productivity",
+        "CXO Coaching sessions are designed to strengthen executive leadership capabilities through guided reflection, leadership frameworks, and practical application. Participants work through real-world leadership scenarios covering strategic decision-making, executive presence, stakeholder management, leading high-performance teams, and navigating complex organizational challenges—helping them build the capabilities required to take on larger leadership responsibilities."
+      ],
+      "modules": []
+    },
+    {
+      "title": "CEO Specialization",
+      "points": []
+    },
+    {
+      "title": "Module 1: The Modern CEO",
+      "points": [
+        "The CEO Transition & Enterprise Perspective",
+        "Strategic Decision-Making Under Uncertainty",
+        "Executive Resilience & Peak Performance",
+        "Executive Presence & Leadership Credibility"
+      ]
+    },
+    {
+      "title": "Module 2: Board, Investor Relations & External Leadership",
+      "points": [
+        "Board Governance & CEO–Board Partnership",
+        "Investor Relations & Capital Markets",
+        "High-Stakes Negotiation & Stakeholder Influence",
+        "Media Leadership & Crisis Communication"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 3: Strategy, Growth & Expansion for CEOs",
+      "points": [
+        "Multi-Horizon Growth Strategy",
+        "Strategic Partnerships & Acquisitions",
+        "New Ventures & Business Expansion",
+        "Global Expansion & Market Leadership"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 4: Capital Allocation, Finance & Value Creation",
+      "points": [
+        "Capital Allocation & Investment Strategy",
+        "Business Valuation & Shareholder Value",
+        "Financial Performance Across Business Cycles",
+        "Business Turnaround & Value Recovery"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 5: Leading High-Performance Organizations & CXO Teams",
+      "points": [
+        "Leading High-Performing CXO Teams",
+        "Designing Scalable Operating Models",
+        "Building High-Performance Culture",
+        "AI-Driven Business Transformation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "CEO Capstone Project",
+      "special": "1",
+      "points": [
+        "Participants will apply their learning to a complex, real-world business challenge by developing a comprehensive CEO strategy for growth, value creation, and organizational transformation. They will present and defend their recommendations before an executive panel, demonstrating strategic judgment, leadership, financial acumen, and enterprise-wide decision-making capabilities."
+      ],
+      "modules": []
+    },
+    {
+      "title": "COO Specialization",
+      "points": [],
+      "modules": []
+    },
+    {
+      "title": "Module 1: The COO as Operational Architect",
+      "points": [
+        "Designing Scalable Operating Models",
+        "Translating Strategy into Execution",
+        "Balancing Efficiency, Agility & Resilience",
+        "Building Operational Excellence at Scale"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 2: Operational Strategy & Cross-Functional Leadership",
+      "points": [
+        "Developing Enterprise Operations Strategy",
+        "Aligning Business Functions & Enterprise Priorities",
+        "Leading Cross-Functional Collaboration",
+        "Driving Customer-Centric Business Outcomes"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 3: Performance Systems & Execution Discipline",
+      "points": [
+        "Performance Management Systems & KPIs",
+        "Driving Accountability & Execution Excellence",
+        "Continuous Improvement & Operational Transformation",
+        "Building Execution-Driven Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 4: Operational Risk, Resilience & Crisis Leadership",
+      "points": [
+        "Enterprise Operational Risk Management",
+        "Business Continuity Planning",
+        "Crisis Leadership & Decision-Making",
+        "Building Resilient Operations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 5: Scaling Operations & Operational Leadership",
+      "points": [
+        "Scaling Operations for Sustainable Growth",
+        "Building High-Performing Operational Leaders",
+        "Institutionalizing Operational Excellence",
+        "Preparing for the Next Growth Phase"
+      ],
+      "modules": []
+    },
+    {
+      "title": "COO Capstone Project",
+      "special": "1",
+      "points": [
+        "Participants will take on the role of a Chief Operating Officer (COO) to address a complex, real-world business challenge requiring enterprise-wide operational excellence. They will develop a strategic operating model focused on execution, operational efficiency, resilience, and business transformation, presenting their recommendations before an executive panel while demonstrating the leadership capabilities required to drive sustainable organizational performance."
+      ],
+      "modules": []
+    },
+    {
+      "title": "CFO Specialization",
+      "points": [],
+      "modules": []
+    },
+    {
+      "title": "Module 1: The Modern CFO",
+      "points": [
+        "The Evolving CFO Mandate",
+        "CFO Leadership in the C-Suite & Boardroom",
+        "Finance as a Strategic Business Partner",
+        "Building High-Performance Finance Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 2: Financial Strategy & Business Growth",
+      "points": [
+        "Corporate Financial Strategy",
+        "FP&A, Forecasting & Performance Management",
+        "Profitability & Growth Strategy",
+        "Capital Allocation & Strategic Decision-Making"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 3: Corporate Finance, M&A & Value Creation",
+      "points": [
+        "Corporate Valuation & Financial Modeling",
+        "M&A Strategy, Due Diligence & Deal Structuring",
+        "Capital Structure & Funding Strategy",
+        "Post-Merger Value Creation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 4: Investor Relations, Governance & Risk",
+      "points": [
+        "Investor Relations & Stakeholder Management",
+        "Board Reporting & Executive Communication",
+        "Corporate Governance & Internal Controls",
+        "Enterprise Financial Risk & Crisis Management"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 5: Digital Finance, AI & Transformation",
+      "points": [
+        "AI & GenAI for Finance Leaders",
+        "Digital Transformation of Finance",
+        "Finance Analytics & Decision Intelligence",
+        "Building Future-Ready Finance Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "CFO Capstone",
+      "special": "1",
+      "points": [
+        "Participants will take on the role of a Chief Financial Officer (CFO) to address a complex, real-world financial and business challenge. They will develop an integrated financial strategy covering capital allocation, business performance, risk management, and value creation, presenting their recommendations before an executive panel while demonstrating the strategic financial leadership required to drive sustainable business growth and long-term shareholder value."
+      ],
+      "modules": []
+    },
+    {
+      "title": "CTO Specialization",
+      "points": [],
+      "modules": []
+    },
+    {
+      "title": "Module 1: The Modern CTO",
+      "points": [
+        "Defining the Modern CTO Mandate",
+        "Technology Leadership in the C-Suite",
+        "Aligning Technology with Business Vision",
+        "Leading High-Performance Technology Organizations"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 2: Technology & AI Strategy & Business Alignment",
+      "points": [
+        "Enterprise Technology Strategy",
+        "Business-Technology Alignment",
+        "Technology Investment & Portfolio Management",
+        "Technology Roadmaps & Execution"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 3: Technology & Digital Architecture",
+      "points": [
+        "Enterprise Technology Architecture",
+        "Cloud & Digital Platforms",
+        "Data & Digital Foundations",
+        "Building Scalable Technology Systems"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 4: AI, Technology Governance & Cyber Risk",
+      "points": [
+        "Enterprise AI Strategy & Adoption",
+        "Technology Governance & Risk Management",
+        "Cybersecurity & Digital Trust",
+        "Responsible AI & Data Governance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Module 5: Leading & Scaling Technology Organizations",
+      "points": [
+        "Scaling Global Technology Organizations",
+        "Technology Operating Models & Transformation",
+        "Building Future Technology Leaders",
+        "Leading Enterprise Technology Transformation"
+      ],
+      "modules": []
+    },
+    {
+      "title": "CTO Capstone Project",
+      "special": "1",
+      "points": [
+        "Participants will take on the role of a Chief Technology Officer (CTO) to solve a complex, real-world technology and business challenge. They will develop a strategic technology roadmap covering technology strategy, digital architecture, AI adoption, cybersecurity, and technology transformation, presenting their recommendations before an executive panel while demonstrating the strategic technology leadership needed to drive business innovation and competitive advantage."
+      ],
+      "modules": []
+    }
+  ],
+  "billing": {
+    "total": 339000,
+    "points": [
+      "144+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 28419,
+        "months": 12
+      },
+      {
+        "emi": 19704,
+        "months": 18
+      },
+      {
+        "emi": 15311,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "tools",
+    "unique points",
+    "faculty",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/INDIANINSTITUTEOFMANAGEMENTRAIPUR-Global-Senior-Leadership-Program.pdf",
+    "source": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR Global Senior Leadership Program Brochure",
+    "campaign_name": "INDIAN-INSTITUTE-OF-MANAGEMENT-RAIPUR-Global Senior Leadership"
+  },
+  "faculty": [],
+  "tools": []
+}

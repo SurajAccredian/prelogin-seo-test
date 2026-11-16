@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import { FaCirclePlay } from "react-icons/fa6";
 import { getColorAndBgColor } from "../../../helpers/colors.helpers";
@@ -28,12 +29,20 @@ const ADMISSION_CLOSED_IDS = [
 const IIMV_PROGRAM_ID = "iimv-executive-program-in-leadership-with-ai";
 
 
-const Hero = () => {
+const Hero = ({ data: propData }) => {
   const pathname = usePathname();
-  const { data, enrollLoderState } = useSelector((state) => state.program);
-  localStorage.setItem("university_shortName", data.short_university_name);
-  const isNewProgram = data?.tags.find((tag) => tag.title === "new launch");
-  const isMain = data?.tags.find((tag) => tag.type === "main");
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
+  const enrollLoderState = reduxProgram.enrollLoderState;
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && data?.short_university_name) {
+      localStorage.setItem("university_shortName", data.short_university_name);
+    }
+  }, [data?.short_university_name]);
+
+  const isNewProgram = data?.tags?.find((tag) => tag.title === "new launch");
+  const isMain = data?.tags?.find((tag) => tag.type === "main");
   const dispatch = useDispatch();
 
   // Check if the current program is the IIMV program
@@ -139,17 +148,17 @@ const Hero = () => {
         {/* Left Section - Content */}
         <div className="w-full lg:flex-[0.5]">
           {/* Mobile Background Image Container - Full Width */}
-          <div
-            className="lg:hidden relative min-h-[300px] overflow-hidden mb-6 w-screen left-1/2 -translate-x-1/2"
-            style={{
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(${data?.university_image})`,
-
-
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
+          <div className="lg:hidden relative min-h-[300px] overflow-hidden mb-6 w-screen left-1/2 -translate-x-1/2">
+            {data?.university_image && (
+              <Image
+                src={data.university_image}
+                alt={data?.university_name || "University background"}
+                fill
+                priority
+                sizes="100vw"
+                className="object-cover -z-10 brightness-[0.35]"
+              />
+            )}
             {/* University Name Badge - Top Right */}
             {/* <div className="absolute top-4 right-4 z-20 bg-white text-black px-2 py-1 rounded-md shadow-md">
               <span className="text-[10px] font-semibold">
@@ -173,16 +182,22 @@ const Hero = () => {
                           : "max-w-[120px]"
                     } flex-shrink-0 rounded-md`}
                 >
-                  <img
-                    className="w-full h-full object-contain"
-                    src={data?.university_logo}
-                    alt="university logo"
-                  />
+                  {data?.university_logo && (
+                    <Image
+                      className="w-full h-full object-contain"
+                      src={data.university_logo}
+                      alt={data?.university_name || "University logo"}
+                      width={200}
+                      height={80}
+                      quality={75}
+                      sizes="200px"
+                    />
+                  )}
                 </div>
               </div>
 
 
-              <h1 className="text-2xl font-semibold mt-1">{data?.title}</h1>
+              <h2 className="text-2xl font-semibold mt-1">{data?.title}</h2>
               <h4 className="text-base font-normal mt-4 text-white/90">
                 {data?.description}
               </h4>
@@ -199,7 +214,7 @@ const Hero = () => {
                     }}
                     className="rounded-md px-2 py-1 w-fit text-center drop-shadow-md"
                   >
-                    <h1
+                    <span
                       style={{
                         color: `${getColorAndBgColor(tag.title.toLowerCase()).color
                           }`,
@@ -207,7 +222,7 @@ const Hero = () => {
                       className="text-nowrap font-semibold text-[10px] capitalize"
                     >
                       {tag.title}
-                    </h1>
+                    </span>
                   </div>
                 ))}
               </div>
@@ -217,9 +232,9 @@ const Hero = () => {
 
           {/* Desktop Title/Description */}
           <div className="hidden lg:block lg:text-start text-center">
-            <h1 className="text-neutral-500 text-xl md:text-2xl font-semibold">
+            <h2 className="text-neutral-500 text-xl md:text-2xl font-semibold">
               {data?.university_name}
-            </h1>
+            </h2>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mt-2">
               {data?.title}
             </h1>
@@ -238,9 +253,9 @@ const Hero = () => {
                 <BiSolidTimer className="w-full h-full text-green-500" />
               </div>
               <div className="text-center sm:text-start">
-                <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
+                <p className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
                   {isAdmissionClosedProgram ? "Number of Hours" : "Next Cohort"}
-                </h1>
+                </p>
                 <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
                   {isAdmissionClosedProgram
                     ? `${data?.key_features?.find(f => f.title === "hours")?.count ?? "120"}+ Hours`
@@ -258,7 +273,7 @@ const Hero = () => {
                   <MdOutlineHourglassTop className="w-full h-full text-green-500" />
                 </div>
                 <div className="text-center sm:text-start">
-                  <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
+                  <p className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
                     {isAdmissionClosedProgram
                       ? "Admission Deadline"
                       : (() => {
@@ -266,7 +281,7 @@ const Hero = () => {
                           ? "Cohort Status"
                           : "Admission Deadline";
                       })()}
-                  </h1>
+                  </p>
                   <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
                     {isAdmissionClosedProgram
                       ? "Closed"
@@ -290,9 +305,9 @@ const Hero = () => {
                 <IoCalendarNumberOutline className="w-full h-full text-green-500" />
               </div>
               <div className="text-center sm:text-start">
-                <h1 className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
+                <p className="text-neutral-600 text-nowrap text-xs sm:text-sm xl:text-base font-medium">
                   Duration
-                </h1>
+                </p>
                 <h4 className="text-[14px] xl:text-xl font-semibold text-universal text-nowrap">
                   {data?.duration}
                 </h4>
@@ -345,7 +360,6 @@ const Hero = () => {
           </div>
 
 
-          {/* Message Section */}
           {isMain && data?.enrollments !== "inactive" && (
             <div className="lg:text-start text-center flex max-lg:justify-center">
               {isNewProgram ? (
@@ -384,7 +398,7 @@ const Hero = () => {
                 }}
                 className="rounded-md px-2 py-1 w-fit text-center drop-shadow-md"
               >
-                <h1
+                <span
                   style={{
                     color: `${getColorAndBgColor(tag.title.toLowerCase()).color
                       }`,
@@ -392,7 +406,7 @@ const Hero = () => {
                   className="text-nowrap font-semibold text-xs capitalize"
                 >
                   {tag.title}
-                </h1>
+                </span>
               </div>
             ))}
           </div>
@@ -413,16 +427,22 @@ const Hero = () => {
                       : "max-w-[100px]"
                   }`}
               >
-                <img
-                  className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
-                    ? "w-[400px] h-[55px]"
-                    :  data?.short_university_name?.toLowerCase() !== "iim-trichy"
-                      ? "w-full h-full"
-                      : "w-[300px] h-[35px]"
-                    } rounded`}
-                  src={data?.university_logo}
-                  alt={data?.university_name}
-                />
+                {data?.university_logo && (
+                  <Image
+                    className={`${data.short_university_name?.toLowerCase() === "iim-amritsar"
+                      ? "w-[400px] h-[55px]"
+                      :  data?.short_university_name?.toLowerCase() !== "iim-trichy"
+                        ? "w-full h-full"
+                        : "w-[300px] h-[35px]"
+                      } rounded object-contain`}
+                    src={data.university_logo}
+                    alt={data?.university_name || "University logo"}
+                    width={250}
+                    height={80}
+                    quality={75}
+                    sizes="250px"
+                  />
+                )}
               </div>
               <div
                 onClick={handleShare}
@@ -434,12 +454,17 @@ const Hero = () => {
             </div>
 
 
-            <div className="w-full h-full relative">
-              <img
-                className="w-full h-full object-cover"
-                src={data?.university_image}
-                alt={data?.university_name}
-              />
+            <div className="w-full h-full relative min-h-[220px]">
+              {data?.university_image && (
+                <Image
+                  className="object-cover"
+                  src={data.university_image}
+                  alt={data?.university_name || "University"}
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
+              )}
               {data?.university_video && (
                 <div
                   onClick={handleVideoOpen}
@@ -448,9 +473,9 @@ const Hero = () => {
                   <div className="w-12 h-12 flex-shrink-0 bg-universal rounded-full animate-pulse">
                     <FaCirclePlay className="w-full h-full text-white" />
                   </div>
-                  <h1 className="text-white text-sm font-semibold mt-4">
+                  <p className="text-white text-sm font-semibold mt-4">
                     Watch Program Video
-                  </h1>
+                  </p>
                 </div>
               )}
             </div>
@@ -460,10 +485,14 @@ const Hero = () => {
                   <h3 className="text-[10px] sm:text-xs font-semibold text-neutral-600">
                     Powered By
                   </h3>
-                  <img
-                    className="w-full h-full rounded mt-1"
+                  <Image
+                    className="w-full h-auto rounded mt-1 object-contain"
                     src={data?.accredited_by[0]}
                     alt="accredited_logo"
+                    width={120}
+                    height={40}
+                    quality={75}
+                    sizes="120px"
                   />
                 </div>
               </div>

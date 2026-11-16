@@ -1,8 +1,10 @@
 {
   "id": "iiml-chief-human-resource-officer-programme-the-chro-program",
+  "pid": 163,
   "category": "51",
   "vertical": "cxo leadership",
   "title": "Chief Human Resources Officer Programme (The CHRO Program)",
+  "seo_title": "IIM Lucknow Chief Human Resource Officer Program | Accredian",
   "description": "Embark on a 10 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
   "short_title": "Chief Human Resources Officer",
   "contact": "8851827093",
@@ -12,7 +14,7 @@
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iiml-lucknow-logo-100x100.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IITG_Latest_Dummy_Certificate__6_.webp",
-  "start_date": "30 Aug 2026",
+  "start_date": "17 Jan 2027",
   "duration": "10 Months",
   "required_years_experience": 8,
   "type": "online",
@@ -105,7 +107,11 @@
     "alumni-status-opt",
     "capstone-project"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Personalized Discussion",
     "Application Review",
@@ -203,7 +209,10 @@
     },
     {
       "title": "Strategic Marketing",
-      "points": ["Customer Management", "Brand Management"],
+      "points": [
+        "Customer Management",
+        "Brand Management"
+      ],
       "modules": []
     },
     {
@@ -285,7 +294,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Chief-Human-Resources-Officer-Programme-The-CHRO-Program.pdf",
@@ -293,5 +303,8 @@
     "campaign_name": "IIML-Chief Human Resources Officer"
   },
   "faculty": [],
-  "tools": []
+  "tools": [],
+  "og_title": "IIM Lucknow - Chief Human Resources Officer Programme (The CHRO Program)",
+  "meta_description": "Master strategic HR architecture, talent analytics and organizational with IIM Lucknow's 10-month Chief Human Resources Officer Programme for HR leaders.",
+  "keywords": "chief human resource officer program IIM Lucknow, CHRO program IIM Lucknow, executive HR leadership program IIM"
 }

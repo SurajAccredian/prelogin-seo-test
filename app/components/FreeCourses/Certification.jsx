@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from "../../store/reducers/user";
 import { useRouter } from "next/navigation";
@@ -18,6 +19,11 @@ const Certification = ({ data }) => {
   const [width, setWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1024);
   const [isEnrolled, setIsEnrolled] = useState(false);
 
+  const isMicrosoftCourse =
+    data?.id === "transform-business-workflows-with-generative-ai" ||
+    Boolean(data?.partner_name?.toLowerCase()?.includes("microsoft")) ||
+    Boolean(data?.certification?.paid_cert);
+
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
@@ -25,7 +31,7 @@ const Certification = ({ data }) => {
   }, []);
 
   useEffect(() => {
-    if (authenticated) {
+    if (isMicrosoftCourse && authenticated) {
       try {
         const enrollments = JSON.parse(localStorage.getItem("enrollment") || "[]");
         const enrolled = enrollments.some(
@@ -38,7 +44,7 @@ const Certification = ({ data }) => {
     } else {
       setIsEnrolled(false);
     }
-  }, [authenticated, data.program_id]);
+  }, [authenticated, data.program_id, isMicrosoftCourse]);
 
   const handleInterestClick = (e) => {
     e.preventDefault();
@@ -59,21 +65,31 @@ const Certification = ({ data }) => {
 
   return (
     <>
-      <div className="cert-grid">
-        {/* Free Card */}
+      <div className={`cert-grid ${!isMicrosoftCourse || !certification.paid_cert ? "single-cert" : ""}`}>
+        {/* Free / Included Certificate Card */}
         <div className="cert-card cert-free">
-          <span className="cert-card-eyebrow">Free</span>
-          <h3>Completion Badge</h3>
+          <span className="cert-card-eyebrow">
+            {certification.free_badge?.price || "Free"}
+          </span>
+          <h3>{certification.free_badge?.title || "Certificate of Completion"}</h3>
 
           <div className="cert-badge-visual">
-            <img
-              src={certification.free_badge.image || "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.png"}
-              alt="Completion Badge Mockup"
+            <Image
+              src={
+                certification.free_badge?.image ||
+                "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian_microsoft_certification.webp"
+              }
+              alt="Certificate Mockup"
+              width={400}
+              height={280}
+              quality={75}
+              sizes="(max-width: 768px) 100vw, 400px"
+              className="w-full h-auto object-contain"
             />
           </div>
 
           <ul>
-            {certification.free_badge.points?.map((pt, idx) => (
+            {certification.free_badge?.points?.map((pt, idx) => (
               <li key={idx}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M20 6L9 17l-5-5" />
@@ -90,60 +106,77 @@ const Certification = ({ data }) => {
           />
         </div>
 
-        {/* Paid Card */}
-        <div className="cert-card cert-paid">
-          <span className="cert-card-eyebrow">Optional</span>
-          <h3>Official Certification</h3>
+        {/* Paid Card (Microsoft course only) */}
+        {isMicrosoftCourse && certification.paid_cert && (
+          <div className="cert-card cert-paid">
+            <span className="cert-card-eyebrow">Optional</span>
+            <h3>{certification.paid_cert?.title || "Official Certification"}</h3>
 
-          <div className="cert-badge-visual">
-            <img
-              src={certification.paid_cert.image || "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.png"}
-              alt="Official Certification Mockup"
-            />
+            <div className="cert-badge-visual">
+              <Image
+                src={
+                  certification.paid_cert?.image ||
+                  "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/official_certification.webp"
+                }
+                alt="Official Certification Mockup"
+                width={400}
+                height={280}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 400px"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+
+            <ul>
+              {certification.paid_cert?.points?.map((pt, idx) => (
+                <li key={idx}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  <span>{pt}</span>
+                </li>
+              ))}
+            </ul>
+
+            {data.exam_amount && (
+              <p className="cert-price">
+                &#8377;{data.exam_amount} + GST{" "}
+                <span
+                  style={{
+                    fontWeight: 500,
+                    color: "var(--accredian-text-muted)",
+                    fontSize: "13px",
+                  }}
+                >
+                  (indicative)
+                </span>
+              </p>
+            )}
+
+            {isEnrolled ? (
+              <button
+                className="btn btn-secondary btn-block"
+                disabled
+                style={{
+                  background: "#F0FDF4",
+                  borderColor: "#16A34A",
+                  color: "#16A34A",
+                  cursor: "not-allowed",
+                  opacity: 1,
+                }}
+              >
+                <span style={{ textTransform: "none" }}>Payment Received</span>
+              </button>
+            ) : (
+              <button
+                onClick={handleInterestClick}
+                className="btn btn-secondary btn-block"
+              >
+                <span style={{ textTransform: "none" }}>Get Certified</span>
+              </button>
+            )}
           </div>
-
-          <ul>
-            {certification.paid_cert.points?.map((pt, idx) => (
-              <li key={idx}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M20 6L9 17l-5-5" />
-                </svg>
-                <span>{pt}</span>
-              </li>
-            ))}
-          </ul>
-
-          <p className="cert-price">
-            &#8377;{data.exam_amount} + GST <span style={{ fontWeight: 500, color: "var(--accredian-text-muted)", fontSize: "13px" }}>(indicative)</span>
-          </p>
-
-          {isEnrolled ? (
-            <button
-              className="btn btn-secondary btn-block"
-              disabled
-              style={{
-                background: "#F0FDF4",
-                borderColor: "#16A34A",
-                color: "#16A34A",
-                cursor: "not-allowed",
-                opacity: 1,
-              }}
-            >
-              <span style={{ textTransform: "none" }}>
-                Payment Received
-              </span>
-            </button>
-          ) : (
-            <button
-              onClick={handleInterestClick}
-              className={`btn btn-secondary btn-block`}
-            >
-              <span style={{ textTransform: "none" }}>
-                Get Certified
-              </span>
-            </button>
-          )}
-        </div>
+        )}
       </div>
     </>
   );

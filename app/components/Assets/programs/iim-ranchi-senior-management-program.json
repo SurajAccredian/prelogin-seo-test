@@ -1,8 +1,10 @@
 {
   "category": "56",
   "id": "iim-ranchi-senior-management-program",
+  "pid": 146,
   "vertical": "senior management",
   "title": "Senior Management Program",
+  "seo_title": "Senior Management Program IIM Ranchi | Accredian",
   "description": "Embark on a 12 month learning journey in executive leadership, operations, business strategies, and analytics.",
   "short_title": "Senior Management",
   "contact": "8851827093",
@@ -10,11 +12,11 @@
   "short_university_name": "iim-ranchi",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "start_date": "26 Jul 2026",
-  "required_years_experience": 5,
+  "start_date": "24 Jan 2027",
+  "required_years_experience": 10,
   "duration": "12 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -30,7 +32,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM-Ranchi/iimr_certificate.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
   "key_features": [
     {
       "title": "hours",
@@ -47,6 +49,10 @@
     {
       "title": "capstone project",
       "text": 1
+    },
+    {
+      "title": "simulations",
+      "text": 3
     },
     {
       "title": "campus immersion",
@@ -108,7 +114,11 @@
     "experiential-learning",
     "strategic-leadership"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -245,6 +255,22 @@
         "Governing AI Risks and Responsible AI",
         "Ethical AI as a Cornerstone of Modern Business",
         "Building Legal Compliance Mechanisms for Responsible AI Use"
+      ]
+    },
+    {
+      "title": "Capstone",
+      "id": "capstone",
+      "special": "1",
+      "points": [
+        "As a Senior Leader, you must design an Enter prise-Wide Strategic Transformation Blueprint that defines your corporate strategy, growth roadmap, market positioning, operating model, financial strat egy, talent alignment, and risk governance frame work. The project must deliver a board-ready strat egy deck, value creation plan, and a 12–18 month execution roadmap."
+      ]
+    },
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Participants will get an opportunity to be a part of exclusive CXO Coaching. Led by experienced Coaches, this specialized offering provides deep insights into senior leadership, helping aspiring leaders build strong leadership acumen. Gain firsthand perspectives and practical guidance to confidently step into executive roles."
       ]
     }
   ],
@@ -390,7 +416,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },
@@ -437,5 +465,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIM-Ranchi-Senior-Management-Program-Brochure.pdf",
     "source": "IIM Ranchi Senior Management Brochure",
     "campaign_name": "SMP-IIMR-12 Months"
-  }
+  },
+  "og_title": "IIM Ranchi - Senior Management Program",
+  "meta_description": "Develop executive decision-making, financial intelligence and business strategy skills with IIM Ranchi's 12-month Senior Management Program for senior managers.",
+  "keywords": "senior management program IIM Ranchi, IIM Ranchi SMP, executive senior leadership program India, top IIM management courses"
 }

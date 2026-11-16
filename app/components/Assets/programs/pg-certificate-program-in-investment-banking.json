@@ -1,11 +1,13 @@
 {
   "category": "24",
   "id": "pg-certificate-program-in-investment-banking",
+  "pid": 91,
   "vertical": "finance",
   "title": "PG Certificate Program in Investment Banking & Capital Markets",
+  "seo_title": "Investment Banking Program IIMV | Accredian",
   "description": "Embark on a 12 month learning journey in M&A Strategy, Capital Markets, and Private Equity.",
   "short_title": "Investment Banking",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "IIM Visakhapatnam",
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
@@ -108,7 +110,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -299,7 +305,6 @@
     "programId": "pg-certificate-program-in-investment-banking",
     "points": [
       "130+ Hours of Live Classes",
-
       "3 Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -346,7 +351,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },
@@ -395,5 +402,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Investment-Banking-Capital-Markets.pdf",
     "source": "IIMV Investment Banking & Capital Markets Brochure",
     "campaign_name": "IB-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate Investment Banking",
+  "meta_description": "Build expertise in capital markets with IIM Visakhapatnam's 12-month Investment Banking program for finance leaders and finance professionals.",
+  "keywords": "PG certificate investment banking IIM Visakhapatnam, IIM investment banking course, capital markets executive program"
 }

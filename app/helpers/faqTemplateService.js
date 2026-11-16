@@ -308,21 +308,39 @@ const extractEmiDuration = (overviewContent) => {
 
 // Function to generate templte of the FAQ
 const getTemplateData = (programData) => {
-    // Extract dynamic values from your existing program data
-    const baseUrl = window.location.origin || 'https://yourdomain.com';
+    const baseUrl =
+      typeof window !== "undefined" && window.location
+        ? window.location.origin
+        : "https://accredian.com";
     // const policyPath = '/policies/iit-kanpur';
     // const fullPolicyUrl = `${baseUrl}${policyPath}`;
-    const universityCode = programData.short_university_name || 'iitk';
+    const universityCode = (programData.short_university_name || 'iitk').toLowerCase();
     let policyPath;
-    if (universityCode.toLowerCase() === 'xlri') {
+    if (universityCode === 'xlri') {
         policyPath = '/policies/xlri-delhi-policy';
-    } else if(universityCode.toLowerCase() === 'iimv'){ 
-      policyPath = '/policies/iimv-policy'
-    } else if(universityCode.toLowerCase() === 'iim-trichy'){ 
-      policyPath = '/policies/iim-trichy-policy'
-    }else if(universityCode.toLowerCase() === 'spjain'){
+    } else if (universityCode === 'iimv') { 
+        policyPath = '/policies/iimv-policy';
+    } else if (universityCode === 'iim-trichy') { 
+        policyPath = '/policies/iim-trichy-policy';
+    } else if (universityCode === 'spjain') {
         policyPath = '/policies/spj-policy';
-    }else { 
+    } else if (universityCode === 'iim-ranchi' || universityCode === 'iimr') {
+        policyPath = '/policies/iim-ranchi-policy';
+    } else if (universityCode === 'iiml') {
+        policyPath = '/policies/iiml-policy';
+    } else if (universityCode === 'iim-amritsar') {
+        policyPath = '/policies/iim-amritsar-policy';
+    } else if (universityCode === 'iit-jammu') {
+        policyPath = '/policies/iit-jammu-policy';
+    } else if (universityCode === 'iim-kashipur' || universityCode === 'iimk') {
+        policyPath = '/policies/iimk-policy';
+    } else if (universityCode === 'iimbg' || universityCode === 'iim-bodh-gaya') {
+        policyPath = '/policies/iim-bodh-gaya-policy';
+    } else if (universityCode === 'iitm-pravartak') {
+        policyPath = '/policies/iitm-pravartak-policy';
+    } else if (universityCode === 'iitg') {
+        policyPath = '/policies/iitg-policy';
+    } else { 
         policyPath = '/policies/iit-kanpur';
     }
     
@@ -391,7 +409,13 @@ const shouldRenderQuestion = (question, templateData) => {
     // Campus immersion questions
     if (questionTitle.includes('is there a campus immersion') || 
         questionTitle.includes('campus immersion include')) {
-        return templateData.campusImmersionDuration !== null;
+        const hasDynamicImmersionPlaceholder = question.content?.some(item => 
+            item.includes('{campusImmersion')
+        );
+        if (hasDynamicImmersionPlaceholder) {
+            return templateData.campusImmersionDuration !== null;
+        }
+        return true;
     }
     
     // International immersion questions
@@ -424,8 +448,92 @@ const hasNullValues = (content, data) => {
 export const generateFAQFromTemplate = (programData) => {
     console.log("Program Data:", programData.required_years_experience); // Debugging line    
         
-    const universityCode = programData.id == "executive-program-in-generative-ai-for-business-leaders" || programData.id == "chief-human-resource-officer-programme" ? "iimv-v2" : programData.id == "post-graduate-diploma-in-management-for-working-executives"  ? "iimv-diploma" : programData.id == 'executive-general-management-program' ? "iiml_egmp" : programData.id == "executive-program-in-strategic-hr-leadership" ?"spj_hr" : programData.id == "executive-program-in-strategic-project-management-and-leadership" ? "spj_pm"  : programData.id == "executive-program-in-generative-ai-for-leaders" ? "spj_genai" : programData.id == "professional-certificate-in-applied-generative-ai" ? "spj_applied_genai" : programData.id == "iith-professional-certificate-program-in-strategic-project-management" ? "iith_strategic_project_management" : programData.id == "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership" ? "iith_design_thinking_innovation" : programData.id == "iiml-executive-program-in-strategic-project-management-leadership" ? "iiml_strategic_project_management_leadership" : programData.id == "iiml-chief-digital-ai-officer-programme-the-cdaio-program" ? "iiml_chief_digital_ai_officer_programme" : programData.id == "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme" ? "xlri_cto_program" : programData.id == "iim-ranchi-senior-management-program" ? "iimr_senior_management_program" : 'iitk';
+    const universityCode =
+    programData.id == "post-graduate-diploma-in-management-for-working-executives"
+        ? "iimv-diploma"
+        : programData.id == "executive-program-in-generative-ai-for-business-leaders"
+        ? "iimv_genai_business_leaders"
+        : programData.short_university_name?.toLowerCase() === "iimv"
+        ? "iimv-v2"
+        : programData.id == "executive-general-management-program"
+        ? "iiml_egmp"
+        : programData.id == "executive-program-in-strategic-hr-leadership"
+        ? "spj_hr"
+        : programData.id == "executive-program-in-strategic-project-management-and-leadership"
+        ? "spj_pm"
+        : programData.id == "executive-program-in-generative-ai-for-leaders"
+        ? "spj_genai"
+        : programData.id == "professional-certificate-in-applied-generative-ai"
+        ? "spj_applied_genai"
+        : programData.id == "iith-professional-certificate-program-in-strategic-project-management"
+        ? "iith_strategic_project_management"
+        : programData.id == "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership"
+        ? "iith_design_thinking_innovation"
+        : programData.id == "iiml-executive-program-in-strategic-project-management-leadership"
+        ? "iiml_strategic_project_management_leadership"
+        : programData.id == "iiml-chief-digital-ai-officer-programme-the-cdaio-program"
+        ? "iiml_chief_digital_ai_officer_programme"
+        : programData.id == "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme"
+        ? "xlri_cto_program"
+        : programData.id == "executive-development-program-in-digital-hr-leadership-and-people-analytics"
+        ? "xlri_digital_hr"
+        : programData.id == "executive-development-program-strategic-hr-leadership"
+        ? "xlri_strategic_hr_leadership"
+        : programData.id == "iim-ranchi-senior-management-program"
+        ? "iimr_senior_management_program"
 
+        // Newly added FAQ template mappings
+        : programData.id == "iima-senior-management-program"
+        ? "iim_amritsar_smp"
+        : programData.id == "iiml-chief-human-resource-officer-programme-the-chro-program"
+        ? "iiml_chro"
+        : programData.id == "iit-jammu-executive-program-in-leadership-with-ai"
+        ? "iit_jammu_leadership_ai"
+        : programData.id == "iim-kashipur-chief-operating-officer-program"
+        ? "iim_kashipur_coo"
+        : programData.id == "iimr-chief-human-resource-officer-programme-the-chro-program"
+        ? "iim_ranchi_chro"
+        : programData.id == "iim-ranchi-executive-program-in-leadership-with-ai"
+        ? "iim_ranchi_leadership_ai"
+        : programData.id == "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders"
+        ? "iim_ranchi_genai_agentic_ai"
+        : programData.id == "iimr-executive-program-in-strategic-hr-leadership"
+        ? "iim_ranchi_strategic_hr"
+        : programData.id == "iimr-executive-program-in-strategy-leadership"
+        ? "iim_ranchi_strategy_leadership"
+        : programData.id == "iimt-certificate-programme-in-leadership-with-ai"
+        ? "iim_trichy_leadership_ai"
+        : programData.id == "iit-jammu-advanced-certificate-in-ai-for-leaders"
+        ? "iit_jammu_ai_leaders"
+        : programData.id == "iit-jammu-advanced-certificate-in-generative-ai-for-leaders"
+        ? "iit_jammu_genai_leaders"
+        : programData.id == "iit-jammu-executive-program-in-generative-ai-and-agentic-ai-for-business-leaders"
+        ? "iit_jammu_genai_agentic_ai"
+        : programData.id == "professional-certificate-in-ai-for-leaders"
+        ? "spj_ai_leaders"
+        : programData.id == "sp-jain-executive-program-in-leadership-with-ai"
+        ? "spj_leadership_ai"
+        : programData.id == "iimr-cto-ai-leadership-program"
+        ? "iim_ranchi_cto_ai_leadership"
+
+        : programData.id == "iims-executive-program-in-leadership-with-ai"
+        ? "iim_sirmaur_leadership_ai"
+        : programData.id == "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era"
+        ? "iim_sirmaur_strategy_leadership_innovation_ai"
+        : programData.id == "iim-bodh-gaya-senior-management-program"
+        ? "iim_bodh_gaya_smp"
+        : programData.id == "executive-program-in-technology-leadership-innovation"
+        ? "iitm_pravartak_tech_leadership"
+        : programData.id == "pg-certificate-program-in-chief-financial-officer-the-cfo-program" 
+        ? "iim_ranchi_cfo"
+        : programData.id == "iim-raipur-global-senior-leadership-program" 
+        ? "iim_raipur_gslp"
+        : programData.id == "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program"
+        ? "iim_ranchi_coo"
+        : programData.id == "iim-kashipur-executive-post-graduate-diploma-program-in-business-management"
+        ? "iim_kashipur_epgdbm"
+        : 'iitk';       
+        
     const template = universityFaqTemplates[universityCode];
     console.log(template)
     if (!template) {

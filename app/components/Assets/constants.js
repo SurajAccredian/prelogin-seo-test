@@ -11,7 +11,6 @@ import { IoCardOutline } from "react-icons/io5";
 import { LiaBrainSolid } from "react-icons/lia";
 import { RiMoneyDollarCircleLine, RiShieldKeyholeLine } from "react-icons/ri";
 import { LuBrainCircuit } from "react-icons/lu";
-import { IconType } from "react-icons";
 
 
 
@@ -50,17 +49,17 @@ export const VERTICALS = [
 
 export const categoriesWithContacts = [
   { category: "human resource", contact: "+91 8851827093" },
-  { category: "cxo leadership", contact: "+91 9810184424" },
+  { category: "cxo leadership", contact: "+91 8851827053" },
   { category: "finance", contact: "+91 9289224842" },
   { category: "product management", contact: "+91 7619555873" },
-  { category: "general management", contact: "+91 9810184424" },
+  { category: "general management", contact: "+91 8851827053" },
   { category: "digital transformation", contact: "+91 7619555873" },
   { category: "data science", contact: "+91 7619555873" },
   { category: "project management", contact: "+91 9818329799" },
-  { category: "strategic management", contact: "+91 9810184424" },
+  { category: "strategic management", contact: "+91 8851827053" },
   { category: "senior management", contact: "+91 7678385465" },
   { category: "strategy & leadership", contact: "+91 8882597163" },
-  { category: "business management", contact: "+91 9810184424" },
+  { category: "business management", contact: "+91 8851827053" },
   { category: "artificial intelligence", contact: "+91 9211285411" },
   { category: "cybersecurity", contact: "+91 9211285411" },
   { category: "PG Diploma", contact: "+91 8130897175" },
@@ -87,17 +86,17 @@ export const NAV_ITEMS = [
     label: "Resources",
     icon: GrResources,
     children: [
-      { label: "Blog", redirect: true, href: "https://blog.accredian.com/" },
-      { label: "Success Stories", href: "/Successstories" },
+      { label: "Blog", href: "/blog" },
+      { label: "Success Stories", href: "/successstories" },
     ],
   },
   {
     label: "About Us",
     icon: TbInfoSquareRounded,
     children: [
-      { label: "Career", href: "/Career" },
+      { label: "Career", href: "/career" },
       { label: "Why Accredian", href: "/whyaccredian" },
-      { label: "Vision & Mission", href: "/About" },
+      { label: "Vision & Mission", href: "/about" },
       { label: "Contact Us", href: "/contact-us" },
     ],
   },
@@ -105,7 +104,7 @@ export const NAV_ITEMS = [
     label: "More",
     icon: TbInfoSquareRounded,
     children: [
-      { label: "Become a Trainer", icon: GrAnnounce, href: "/Career/mentor" },
+      { label: "Become a Trainer", icon: GrAnnounce, href: "/career/mentor" },
       { label: "Refer & Earn", icon: GrAnnounce, href: "/referandearn" },
     ],
   },
@@ -216,3 +215,85 @@ export const TESTIMONIALS = [
       "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/alumnilogo10.webp",
   },
 ];
+
+/**
+ * Configurable list of popular and trending searches shown in the Global Search dropdown.
+ * Maps display labels to actual existing program categories and keywords in programs.json.
+ */
+
+export const TRENDING_SEARCHES = [
+  { label: "Artificial Intelligence & GenAI", value: "Artificial Intelligence" },
+  { label: "Leadership & Management", value: "Leadership" },
+  { label: "Strategy", value: "Strategy" },
+  { label: "Digital Transformation", value: "Digital Transformation" },
+  { label: "Product Management", value: "Product Management" },
+  { label: "Technology", value: "Technology" },
+];
+
+export const SUGGESTED_FALLBACK_SEARCHES = [
+  "Artificial Intelligence",
+  "Leadership",
+  "Product Management",
+  "Digital Transformation",
+  "Strategy",
+  "Technology",
+];
+
+// Shared blur placeholder for next/image (flat #F3F4F6 8x5 SVG)
+export const BLUR_DATA_URL =
+  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjUiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjUiIGZpbGw9IiNGM0Y0RjYiLz48L3N2Zz4=";
+
+
+// University Background Image Mapping (SEO-04)
+export const UNIVERSITY_BACKGROUNDS = {
+  "IIM Visakhapatnam":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-bg-v2.webp",
+  "IIM Tiruchirappalli":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
+  "IIM Lucknow":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
+  "IIM Ranchi":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "IIM Kashipur":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-kashipur-university-image.webp",
+  "IIM Amritsar":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-amritsar-cover-v2.webp",
+  "IIM Bodh Gaya":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-2.webp",
+  "IIM Sirmaur":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-sirmaur-university-image.webp",
+  XLRI:
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "XLRI | Delhi-NCR":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
+  "SP Jain School of Global Management":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
+  "E&ICT Academy IIT Kanpur":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
+  "E&ICT Academy IIT Guwahati":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg-cover-v1.webp",
+  "Department of Entrepreneurship and Management, IIT Hyderabad":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iith-universityi-image-v2.webp",
+  "I3C-IIT JAMMU":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
+  "IITM Pravartak":
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IITM_Campus_image__1_.webp",
+  Microsoft:
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/microsoft-hero-image-v3.webp",
+  Accredian:
+    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/product-management-course.webp",
+};
+
+export const isPlaceholderCoverImage = (url) => {
+  if (!url) return true;
+  return /img-(11|12|20|21)\.webp/i.test(url);
+};
+
+export const getProgramCoverImage = (program) => {
+  if (!program) return "";
+  const uniBg = UNIVERSITY_BACKGROUNDS[program.university_name];
+  if (isPlaceholderCoverImage(program.cover_image) && uniBg) {
+    return uniBg;
+  }
+  return uniBg || program.cover_image || program.university_image || "";
+};

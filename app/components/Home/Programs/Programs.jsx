@@ -3,31 +3,20 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Calendar, Clock, ArrowRight, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import "./Programs.css";
-import { STREAMS } from "../../Assets/constants";
+import { STREAMS, BLUR_DATA_URL, UNIVERSITY_BACKGROUNDS } from "../../Assets/constants";
 import { IoIosArrowDown } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
 import { programActions } from "../../../store/reducers/program";
 import PROGRAMS from "../../Assets/programs.json";
 import Brochure from "../../CTA_Modal/download_brochure";
+import { useProgramStatuses } from "../../../helpers/useProgramStatuses";
 // import { useScrollBoundary } from "../../../helpers/useScrollBoundary";
 // import { useConditionalScrollPrevention } from "../../../helpers/useConditionalScrollPrevention";
 import { TrendingUp } from "lucide-react"; // Icon for Popular Courses
 
-// University Background Image Mapping
-const UNIVERSITY_BACKGROUNDS = {
-  "IIM Visakhapatnam":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-bg-v2.webp",
-  "IIM Tiruchirappalli":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIMT-bg.webp",
-  XLRI: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
-  "IIM Lucknow":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
-  "SP Jain School of Global Management":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "E&ICT Academy IIT Kanpur":
-    "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-cover.webp",
-};
+// Shared University Background Image Mapping imported from constants.js
 
 // Popular program IDs
 const POPULAR_PROGRAM_IDS = [
@@ -39,6 +28,20 @@ const POPULAR_PROGRAM_IDS = [
   "global-senior-leadership-program",
   "senior-management-program",
   "iim-ranchi-senior-management-program",
+  "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
+  "iiml-chief-human-resource-officer-programme-the-chro-program",
+  "iims-executive-program-in-leadership-with-ai",
+  "iimt-certificate-programme-in-leadership-with-ai",
+  "professional-certificate-program-in-strategic-project-management-and-leadership",
+  "iimr-executive-program-in-strategic-hr-leadership",
+  "iim-kashipur-chief-operating-officer-program",
+  "iit-jammu-advanced-certificate-in-ai-for-leaders",
+  "professional-certificate-in-ai-for-leaders",
+  "advanced-certificate-program-in-design-thinking-innovation-with-ai",
+  "chief-technology-officer-programme",
+  "executive-development-program-in-global-senior-management",
+  "pg-certificate-program-in-data-science-ai",
+  "advanced-certificate-program-in-strategic-project-management",
 ];
 
 const Programs = () => {
@@ -46,6 +49,7 @@ const Programs = () => {
   // const { containerRef, hasOverflow } = useConditionalScrollPrevention();
   const dispatch = useDispatch();
   const { checkedCategories } = useSelector((state) => state.program);
+  const { getProgramStatus } = useProgramStatuses();
   const [selectedVertical, setSelectedVertical] = useState("popular");
   const [expandedMobileCategory, setExpandedMobileCategory] =
     useState("popular");
@@ -215,6 +219,7 @@ const Programs = () => {
                       key={program.id || index}
                       program={program}
                       handleOpen={handleOpen}
+                      getProgramStatus={getProgramStatus}
                     />
                   ))}
                 </div>
@@ -237,6 +242,7 @@ const Programs = () => {
                 onToggle={() => toggleMobileCategory(vertical.category)}
                 programs={categoryPrograms}
                 handleOpen={handleOpen}
+                getProgramStatus={getProgramStatus}
               />
             );
           })}
@@ -374,8 +380,14 @@ const SidebarDesktop = ({
   );
 };
 
-// Program Card Component (unchanged)
-export const ProgramCard = ({ program, handleOpen }) => {
+// Program Card Component
+export const ProgramCard = ({ program, handleOpen, getProgramStatus }) => {
+  const hookStatus = useProgramStatuses();
+  const statusResolver = getProgramStatus || hookStatus.getProgramStatus;
+  const resolved = statusResolver
+    ? statusResolver(program)
+    : { status: program.status, isAdmissionClosed: program.status?.toLowerCase() === "admission closed" };
+
   const backgroundImage =
     UNIVERSITY_BACKGROUNDS[program.university_name] || program.cover_image;
 
@@ -388,22 +400,28 @@ export const ProgramCard = ({ program, handleOpen }) => {
       }}
     >
       {/* Fixed Height Background Image */}
-      <div
-        className="relative h-[80px] md:h-[120px] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
+      <div className="relative h-[80px] md:h-[120px] bg-[#F3F4F6] transition-transform duration-700 group-hover:scale-110">
+        <Image
+          src={backgroundImage}
+          alt={`${program.university_name} Background | ${program.program_name}`}
+          fill
+          sizes="(max-width: 767px) 85vw, (max-width: 1535px) 45vw, 30vw"
+          className="object-cover object-center"
+          placeholder="blur"
+          blurDataURL={BLUR_DATA_URL}
+          quality={70}
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-universal/60 to-universal/30" />
       </div>
 
-      {(program.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
+      {(resolved.status || POPULAR_PROGRAM_IDS.includes(program.id)) && (
         <span
-          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${(program.status?.toLowerCase() === "admission closed" ||
-            program.status?.toLowerCase() === "admissions closed")
-            ? "bg-red-500 capitalize"
-            : "bg-green-500"
+          className={`absolute top-3 right-3 sm:top-4 sm:right-4 z-10 text-white text-[10px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 rounded-md ${resolved.isAdmissionClosed
+              ? "bg-red-500 capitalize"
+              : "bg-green-500"
             } ${POPULAR_PROGRAM_IDS.includes(program.id) ? "normal-case" : "capitalize"}`}
         >
-          {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : program.status}
+          {POPULAR_PROGRAM_IDS.includes(program.id) ? "Best selling" : resolved.status}
         </span>
       )}
 
@@ -412,9 +430,12 @@ export const ProgramCard = ({ program, handleOpen }) => {
         {/* University Logo - Half overlapping using negative margin */}
         <div className="relative -mt-[25px] sm:-mt-[30px] mb-2 sm:mb-3 z-10">
           <div className="w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] rounded-lg bg-white shadow-lg p-1.5 sm:p-2 transition-transform duration-500 group-hover:scale-105">
-            <img
+            <Image
               src={program.university_image}
               alt={program.university_name}
+              width={60}
+              height={60}
+              sizes="60px"
               className="w-full h-full object-contain"
             />
           </div>
@@ -444,35 +465,39 @@ export const ProgramCard = ({ program, handleOpen }) => {
 
         {/* Buttons - pushed to bottom */}
         <div className="flex flex-col md:flex-row gap-2 sm:gap-3 mt-auto">
-          <button
-            onClick={() => {
-              const isFreeCourse =
-                program.category?.toLowerCase() === "free courses" ||
-                program.category?.toLowerCase() === "microsoft" ||
-                program.id === "transform-business-workflows-with-generative-ai";
-              const path = isFreeCourse ? "free-courses" : "programs";
-              window.open(`http://accredian.com/${path}/${program.id}`);
-            }}
-            className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide"
-          >
-            <span className="text-[12px]">Explore</span>
-            <svg
-              className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2.5}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
-          </button>
+          {(() => {
+            const isFreeCourse =
+              program.category?.toLowerCase() === "free courses" ||
+              program.category?.toLowerCase() === "microsoft" ||
+              program.id === "transform-business-workflows-with-generative-ai" ||
+              program.id === "transform-ideas-into-impact-with-product-management";
+            const path = isFreeCourse ? "free-courses" : "programs";
+            return (
+              <Link
+                href={`/${path}/${program.id}`}
+                className="flex-1 bg-universal hover:bg-darkBlue text-white py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg text-sm sm:text-base font-semibold flex items-center justify-center gap-1.5 sm:gap-2 transition-all group/btn uppercase tracking-wide no-underline"
+              >
+                <span className="text-[12px]">Explore</span>
+                <svg
+                  className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2.5}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </Link>
+            );
+          })()}
 
           {program.brochure?.pdf && (
             <button
+              data-track="Brochure"
               onClick={() => handleOpen(program)}
               className="flex-1 border-2 border-gray-300 hover:border-universal hover:bg-universal/5 py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-1.5 font-semibold sm:text-base text-gray-700 hover:text-universal uppercase tracking-wide"
             >
@@ -498,13 +523,14 @@ export const ProgramCard = ({ program, handleOpen }) => {
   );
 };
 
-// Mobile Category Item with Horizontal Scroll (unchanged)
+// Mobile Category Item with Horizontal Scroll
 const MobileCategoryItem = ({
   vertical,
   isExpanded,
   onToggle,
   programs,
   handleOpen,
+  getProgramStatus,
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const scrollContainerRef = useRef(null);
@@ -601,7 +627,11 @@ const MobileCategoryItem = ({
                 key={program.id || index}
                 className="flex-shrink-0 w-[85%] snap-start"
               >
-                <ProgramCard program={program} handleOpen={handleOpen} />
+                <ProgramCard
+                  program={program}
+                  handleOpen={handleOpen}
+                  getProgramStatus={getProgramStatus}
+                />
               </div>
             ))}
           </div>

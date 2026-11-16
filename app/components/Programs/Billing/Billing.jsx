@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { IoIosArrowForward, IoMdCheckmarkCircleOutline } from "react-icons/io";
 import CircularProgress from "@mui/material/CircularProgress";
 import "./Billing.css";
@@ -9,28 +9,28 @@ import BillingModal from "../../Modals/billing-modal";
 import CustomEnrollNowButton from "../CustomEnrollNowButton";
 import { Sparkle } from "lucide-react";
 
-const Billing = () => {
-  const { data, enrollLoderState } = useSelector((state) => state.program);
+const Billing = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
+  const enrollLoderState = reduxProgram.enrollLoderState;
   const dispatch = useDispatch();
   const [billings, setBillings] = useState(null);
   const [showAllPoints, setShowAllPoints] = useState(false);
-  const [smallestEmi, setSmallestEmi] = useState(0);
 
-  useEffect(() => {
-    if (data?.billing) {
-      const emiValues = data.billing.monthly_emi.map((item) => {
-        if (typeof item.emi === "number") {
-          return item.emi;
-        } else if (typeof item.emi === "string") {
-          const match = item.emi.match(/\d+/);
-          return match ? parseInt(match[0], 10) : Infinity;
-        }
-        return Infinity;
-      });
+  const smallestEmi = React.useMemo(() => {
+    if (!data?.billing?.monthly_emi?.length) return 0;
+    const emiValues = data.billing.monthly_emi.map((item) => {
+      if (typeof item.emi === "number") {
+        return item.emi;
+      } else if (typeof item.emi === "string") {
+        const match = item.emi.match(/\d+/);
+        return match ? parseInt(match[0], 10) : Infinity;
+      }
+      return Infinity;
+    });
 
-      const minEmi = Math.min(...emiValues);
-      setSmallestEmi(minEmi.toLocaleString("en-IN"));
-    }
+    const minEmi = Math.min(...emiValues);
+    return isFinite(minEmi) ? minEmi.toLocaleString("en-IN") : 0;
   }, [data?.billing]);
 
   const handleEnrollNow = () => {
@@ -49,6 +49,23 @@ const Billing = () => {
     ? data?.billing?.points
     : data?.billing?.points?.slice(0, 3);
 
+  if (!data?.billing) {
+    return (
+      <div
+        id="program fee"
+        className="billing w-full flex flex-col justify-center py-6 md:py-12 xl:px-12 px-4"
+      >
+        <div className="w-full max-w-[85rem] mx-auto animate-pulse">
+          <div className="w-full md:text-start text-center">
+            <div className="h-4 w-48 bg-slate-200 rounded mx-auto md:mx-0 mb-3" />
+            <div className="h-8 w-80 bg-slate-200 rounded mx-auto md:mx-0 mb-6" />
+          </div>
+          <div className="w-full max-w-6xl h-72 bg-slate-100 rounded-xl border border-slate-200 mx-auto mt-6" />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div
       id="program fee"
@@ -57,10 +74,10 @@ const Billing = () => {
       <div className="w-full max-w-[85rem] mx-auto">
         <div className="w-full md:text-start text-center">
           <h4 className="text-base font-medium">Make Your Investment Count!</h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Program <span className="text-universal">Fees</span> and Highlights:
             An Overview
-          </h1>
+          </h2>
         </div>
 
         {/* Mobile View - Exact same as original */}
@@ -77,14 +94,14 @@ const Billing = () => {
                 <p className="text-xs font-medium uppercase tracking-wide opacity-90">
                   STARTS AT
                 </p>
-                <h1 className="text-4xl font-bold mt-1">
+                <p className="text-4xl font-bold mt-1">
                   ₹{smallestEmi}
-                </h1>
+                </p>
                 <p className="text-sm mt-1 opacity-90">per month</p>
                 <div className="mt-4 pt-4 border-t border-white/20">
                   <p className="text-xs font-medium opacity-90">Total Fee</p>
                   <h2 className="text-xl font-bold mt-1">
-                    ₹{data?.billing?.total.toLocaleString("en-IN")}
+                    ₹{data?.billing?.total?.toLocaleString("en-IN")}
                     {data?.id !==
                       "post-graduate-diploma-in-management-for-working-executives" && (
                         <span className="text-sm font-normal ml-1">+ GST</span>
@@ -207,9 +224,9 @@ const Billing = () => {
             <div className="relative flex flex-col h-full pt-12">
               <div className="mb-5 text-center">
                 <p className="text-xl font-semibold text-slate-900 mb-1">Starting at Just</p>
-                <h1 className="text-4xl font-bold text-slate-900 leading-tight">
+                <p className="text-4xl font-bold text-slate-900 leading-tight">
                   ₹{smallestEmi}
-                </h1>
+                </p>
                 <p className="text-base mt-0.5 text-slate-700 font-semibold">per month</p>
                 <button
                   onClick={handleBillingsOpen}
@@ -223,7 +240,7 @@ const Billing = () => {
                   Total Program Investment
                 </p>
                 <h2 className="text-2xl font-bold text-slate-900">
-                  ₹{data?.billing?.total.toLocaleString("en-IN")}
+                  ₹{data?.billing?.total?.toLocaleString("en-IN")}
                   {data?.id !==
                     "post-graduate-diploma-in-management-for-working-executives" && (
                       <span className="text-base font-normal ml-1 text-slate-700">+ GST</span>

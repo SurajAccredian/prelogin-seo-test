@@ -1,8 +1,10 @@
 {
   "id": "iimr-executive-program-in-generative-ai-agentic-ai-for-leaders",
+  "pid": 160,
   "category": "58",
   "vertical": "artificial intelligence",
   "title": "Executive Program in Generative AI & Agentic AI for Leaders",
+  "seo_title": "Generative & Agentic AI Program IIM Ranchi | Accredian",
   "description": "Embark on a 7 months learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "8851827093",
@@ -11,8 +13,8 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
-  "start_date": "9 Aug 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
+  "start_date": "29 Nov 2026",
   "duration": "7 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -37,7 +39,7 @@
       "title": "campus immersion"
     },
     {
-      "text": "3",
+      "text": "2",
       "title": "simulations"
     },
     {
@@ -85,7 +87,7 @@
           "Live Instructor-Led Classes",
           "One Campus Immersion of 2 Days",
           "1 Capstone Project",
-          "3 Transformative Simulations",
+          "2 Transformative Simulations",
           "EMI up to 24 Months",
           "1:1 Career Mentorship Sessions"
         ]
@@ -99,7 +101,11 @@
     "certificate",
     "alumni-status-opt"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Personalized Discussion",
     "Application Review",
@@ -205,16 +211,16 @@
     ],
     "monthly_emi": [
       {
-        "emi": 15178,
-        "months": 12
+        "months": 12,
+        "emi": 15178
       },
       {
-        "emi": 10486,
-        "months": 18
+        "months": 18,
+        "emi": 10486
       },
       {
-        "emi": 8123,
-        "months": 24
+        "months": 24,
+        "emi": 8123
       }
     ]
   },
@@ -227,7 +233,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Generative-AI-Agentic-AI-For-Leaders.pdf",
@@ -250,7 +257,7 @@
     },
     {
       "title": "Perplexity",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/perplexity.svg"
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/perplexity%20(1).webp"
     },
     {
       "title": "Lovable",
@@ -264,5 +271,8 @@
       "title": "NotbookLM",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notbooklm.webp"
     }
-  ]
+  ],
+  "og_title": "IIM Ranchi - Executive Program in Generative AI & Agentic AI for Leaders",
+  "meta_description": "Master generative AI workflows with IIM Ranchi's 7-month Generative AI & Agentic AI for Leaders program for working professionals and managers.",
+  "keywords": "generative AI agentic AI IIM Ranchi, agentic AI executive program, IIM Ranchi AI leadership course, enterprise GenAI strategy"
 }

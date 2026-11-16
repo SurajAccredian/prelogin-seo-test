@@ -3,6 +3,7 @@
   "id": "executive-program-in-analytics-&-digital-transformation",
   "vertical": "business analytics",
   "title": "Executive Program in Analytics & Digital Transformation",
+  "seo_title": "Analytics & Digital Transformation E&ICT IITG | Accredian",
   "description": "Embark on an 10-term learning journey Digital Strategy, Analytics, Agile Methodologies, and Digital Leadership.",
   "short_title": "Analytics & Digital Transformation",
   "contact": "9996005613",
@@ -262,7 +263,6 @@
       "organization": "IIT Guwahati",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
     },
-
     {
       "name": "Deepesh Wadhwani",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
@@ -342,7 +342,6 @@
     "programId": "executive-program-in-analytics-&-digital-transformation",
     "points": [
       "140+ Hours of Live Classes",
-      
       "25+ Tools and Frameworks Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -419,7 +418,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Analytics & Digital Transformation different?",
@@ -463,5 +462,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-BADT-12-Months-v2.pdf",
     "source": "analytics & digital transformation brochure",
     "campaign_name": "BADT-IITG-12 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Analytics & Digital Shift",
+  "meta_description": "Develop business analytics, data-driven strategy and enterprise digital with E&ICT IIT Guwahati's 12-month Executive Program for data professionals.",
+  "keywords": "analytics digital transformation IIT Guwahati, digital transformation executive program, business analytics certification IIT, digital leadership course"
 }

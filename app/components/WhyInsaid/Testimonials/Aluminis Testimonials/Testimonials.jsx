@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -21,10 +22,10 @@ const Testimonials = () => {
         <h4 className="text-base font-medium">
           Success Stories That Speak Volumes
         </h4>
-        <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+        <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
           From <span className="text-universal"> Learners </span> to{" "}
           <span className="text-universal"> Leaders </span>
-        </h1>
+        </h2>
       </div>
       <div className="w-full max-w-[86rem] flex justify-center lg:justify-normal">
         <div className="w-full max-w-[90vw] lg:max-w-[60rem] xl:max-w-[78rem]">
@@ -67,12 +68,16 @@ const Testimonials = () => {
                   <div className="w-full">
                     <div className="w-full">
                       <div className="max-w-[100px] h-12 w-full">
-                        <img
-                          loading="lazy"
-                          className="w-full h-full object-contain"
-                          src={val.company_logo}
-                          alt={val.name}
-                        />
+                        {val.company_logo && (
+                          <Image
+                            width={100}
+                            height={48}
+                            quality={75}
+                            className="w-full h-full object-contain"
+                            src={val.company_logo}
+                            alt={val.name || "Company logo"}
+                          />
+                        )}
                       </div>
                     </div>
                     <div className="w-full">
@@ -83,16 +88,20 @@ const Testimonials = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-universal/15 overflow-hidden">
-                      <img
-                        loading="lazy"
-                        className="w-full h-full object-contain"
-                        src={val.photo_url}
-                        alt={val.name}
-                      />
+                    <div className="w-12 h-12 rounded-full bg-universal/15 overflow-hidden flex-shrink-0">
+                      {val.photo_url && (
+                        <Image
+                          width={48}
+                          height={48}
+                          quality={75}
+                          className="w-full h-full object-cover"
+                          src={val.photo_url}
+                          alt={val.name || "Alumni photo"}
+                        />
+                      )}
                     </div>
                     <div className="">
-                      <h1 className="text-lg font-medium">{val.name}</h1>
+                      <p className="text-lg font-medium">{val.name}</p>
                       <h4 className="font-extralight text-neutral-500">
                         {val.designation}
                       </h4>

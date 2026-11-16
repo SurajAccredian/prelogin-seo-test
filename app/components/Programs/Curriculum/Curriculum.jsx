@@ -3,11 +3,35 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import AccordionDrop from "./AccordionDrop/AccordionDrop";
 import SideForm from "./SideForm/SideForm";
+import PGDMHybridCurriculum from "./PGDMHybridCurriculum";
 
-const Curriculum = () => {
+const Curriculum = ({ data: propData }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
-  const { data } = useSelector((state) => state.program);
+  if (!data?.curriculum) {
+    return (
+      <div id="curriculum" className="program-accordion w-full flex justify-center py-12 xl:px-12 px-4">
+        <div className="w-full max-w-[85rem] animate-pulse">
+          <div className="h-4 w-48 bg-slate-200 rounded mb-3" />
+          <div className="h-8 w-96 bg-slate-200 rounded mb-8" />
+          <div className="w-full h-64 bg-slate-100 rounded-xl border border-slate-200" />
+        </div>
+      </div>
+    );
+  }
+
+  const isCustomCurriculum =
+    data?.id === "gim-hybrid-post-graduate-diploma-in-management" ||
+    data?.id === "iim-kashipur-executive-post-graduate-diploma-program-in-business-management" ||
+    data?.id === "iim-kashipur-executive-post-graduate-diploma-program-in-business-management-program" ||
+    (data?.curriculum && !Array.isArray(data.curriculum) && !data.curriculum.coreModules);
+
+  const courseworkTitle =
+    data?.id === "gim-hybrid-post-graduate-diploma-in-management"
+      ? "2 Year Hybrid PGDM"
+      : data?.short_title?.trim() || "Program";
 
   return (
     <div
@@ -18,13 +42,13 @@ const Curriculum = () => {
         <div className="w-full flex items-center">
           <div className="flex-1 md:text-start text-center">
             <h4 className="text-base font-medium">
-              Our <span className="text-universal">{data?.short_title}</span>{" "}
+              Our <span className="text-universal">{courseworkTitle}</span>{" "}
               Coursework
             </h4>
-            <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+            <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
               Explore our Comprehensive Program{" "}
               <span className="text-universal">Curriculum</span>
-            </h1>
+            </h2>
           </div>
         </div>
 
@@ -45,23 +69,32 @@ const Curriculum = () => {
 
         {data && (
           <div
-            className={`w-full ${
-              data?.id === "executive-general-management-program"
+            className={`w-full ${data?.id === "executive-general-management-program"
                 ? "mt-6"
-                : 
+                :
                 "mt-0"
-            } flex gap-4`}
+              } flex gap-4`}
           >
-            <div className="flex-1">
-              <AccordionDrop
-                type={data?.curriculum_type}
-                curriculum={data?.curriculum}
-                openAll={isExpanded}
-                setOpenAll={setIsExpanded}
-              />
+            <div className="flex-1 min-w-0">
+              {isCustomCurriculum ? (
+                <PGDMHybridCurriculum
+                  data={data}
+                  curriculum={data?.curriculum}
+                  openAll={isExpanded}
+                  setOpenAll={setIsExpanded}
+                />
+              ) : (
+                <AccordionDrop
+                  data={data}
+                  type={data?.curriculum_type}
+                  curriculum={data?.curriculum}
+                  openAll={isExpanded}
+                  setOpenAll={setIsExpanded}
+                />
+              )}
             </div>
             <div className="flex-[0.5] hidden lg:flex justify-center px-8">
-              <SideForm />
+              <SideForm data={data} />
             </div>
           </div>
         )}

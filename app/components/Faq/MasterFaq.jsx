@@ -14,7 +14,6 @@ import {
 } from "@mui/material";
 import Testingnavbar from "../Navbar/testinnav";
 import Footer from "../Footer/Footer";
-import Link from 'next/link';
 import Wrapper from "../Wrapper/HomePageWrapper";
 
 export default function MasterFaq() {
@@ -68,8 +67,7 @@ export default function MasterFaq() {
 
               <Grid item lg={12} container sx={{ ml: -5 }}>
                 <Grid item lg={4}>
-                  <Link
-                    href={"/Faqs/program-pre-requisites"}
+                  <Box
                     style={{ textDecoration: "none" }}
                   >
                     <center>
@@ -92,11 +90,10 @@ export default function MasterFaq() {
                     >
                       Program Pre-Requisites{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
                 <Grid item lg={4}>
-                  <Link
-                    href={"/Faqs/admissions"}
+                  <Box
                     style={{ textDecoration: "none" }}
                   >
                     <center>
@@ -119,10 +116,10 @@ export default function MasterFaq() {
                     >
                       Admissions{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
                 <Grid item lg={4}>
-                  <Link href={"/Faqs/program"} style={{ textDecoration: "none" }}>
+                  <Box style={{ textDecoration: "none" }}>
                     <center>
                       <CardMedia
                         component="img"
@@ -143,11 +140,10 @@ export default function MasterFaq() {
                     >
                       Programs{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
                 <Grid item lg={4}>
-                  <Link
-                    href={"/Faqs/fee-scholarships"}
+                  <Box
                     style={{ textDecoration: "none" }}
                   >
                     <center>
@@ -170,7 +166,7 @@ export default function MasterFaq() {
                     >
                       Fee & Scholarships{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
               </Grid>
             </Container>
@@ -217,8 +213,7 @@ export default function MasterFaq() {
 
               <Grid item lg={12} container>
                 <Grid xs={12} sm={6} md={6}>
-                  <Link
-                    href={"/Faqs/program-pre-requisites"}
+                  <Box
                     style={{ textDecoration: "none" }}
                   >
                     <center>
@@ -241,11 +236,10 @@ export default function MasterFaq() {
                     >
                       Program Pre-Requisites{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
                 <Grid xs={12} sm={6} md={6}>
-                  <Link
-                    href={"/Faqs/admissions"}
+                  <Box
                     style={{ textDecoration: "none" }}
                   >
                     <center>
@@ -268,10 +262,10 @@ export default function MasterFaq() {
                     >
                       Admissions{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
                 <Grid xs={12} sm={6} md={6}>
-                  <Link href={"/Faqs/program"} style={{ textDecoration: "none" }}>
+                  <Box style={{ textDecoration: "none" }}>
                     <center>
                       <CardMedia
                         component="img"
@@ -292,11 +286,10 @@ export default function MasterFaq() {
                     >
                       Programs{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
                 <Grid xs={12} sm={6} md={6}>
-                  <Link
-                    href={"/Faqs/fee-scholarships"}
+                  <Box
                     style={{ textDecoration: "none" }}
                   >
                     <center>
@@ -319,7 +312,7 @@ export default function MasterFaq() {
                     >
                       Fee & Scholarships{" "}
                     </Typography>
-                  </Link>
+                  </Box>
                 </Grid>
               </Grid>
             </Container>

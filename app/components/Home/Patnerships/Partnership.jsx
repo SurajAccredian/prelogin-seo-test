@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -50,6 +51,10 @@ const universities = [
   {
     name: "IIM Kashipur",
     logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-kashipur-logo.webp",
+  },
+  {
+    name: "IIM Sirmaur",
+    logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIMS.webp",
   }
 ];
 
@@ -63,12 +68,12 @@ function Partnership() {
       <div className="w-full max-w-[80rem] h-full flex flex-col gap-8">
         <div className="flex flex-col gap-4 items-center text-center">
           <div className="space-y-3 sm:space-y-4">
-            <h1 className="capitalize  ml-6 text-center text-3xl lg:text-[36px] font-medium leading-tight tracking-tight">
+            <p className="capitalize  ml-6 text-center text-3xl lg:text-[36px] font-medium leading-tight tracking-tight">
               Real-World Learning Powered by{" "}
               <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
                 Leading Institutions
               </span>
-            </h1>
+            </p>
             <div className="h-1 sm:h-1.5 w-12 sm:w-16 md:w-20 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full mx-auto"></div>
           </div>
         </div>
@@ -125,17 +130,22 @@ function Partnership() {
                 <SwiperSlide key={index}>
                   <div className="group flex items-center justify-center h-24 cursor-pointer">
 
-                    <img
-                      src={university.logo}
-                      alt={university.name}
-                      loading="lazy"
-                      className={`w-full object-contain group-hover:scale-105 transition-all duration-300 ${university.name === "IIM Amritsar" ||
-                        university.name === "XLRI Delhi | NCR"
-                        ? "h-16"
-                        : "h-full"
-                        }`}
-                      title={university.name}
-                    />
+                    {university.logo && (
+                      <Image
+                        src={university.logo}
+                        alt={university.name || "University logo"}
+                        width={180}
+                        height={70}
+                        quality={75}
+                        sizes="180px"
+                        className={`w-auto object-contain group-hover:scale-105 transition-all duration-300 ${university.name === "IIM Amritsar" ||
+                          university.name === "XLRI Delhi | NCR"
+                          ? "h-16"
+                          : "h-full"
+                          }`}
+                        title={university.name}
+                      />
+                    )}
                   </div>
                 </SwiperSlide>
               ))}

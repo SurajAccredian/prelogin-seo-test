@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { Play, Quote, ArrowLeft, ArrowRight } from "lucide-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from 'react';
@@ -79,9 +80,9 @@ const WatchStoriesV2 = () => {
         <h4 className="text-sm text-gray-600 font-medium">
           Meet our <span className='text-blue-600'>Alumni</span>
         </h4>
-        <h1 className='text-3xl md:text-4xl mt-2 font-bold'>
+        <h2 className='text-3xl md:text-4xl mt-2 font-bold'>
           Get to Know Our <span className='text-blue-600'>Successful</span> Graduates
-        </h1>
+        </h2>
       </div>
       
       {/* 3D Carousel Container */}
@@ -128,11 +129,16 @@ const WatchStoriesV2 = () => {
                 <div className="card-wrapper rounded-xl border-2 border-gray-200 overflow-hidden shadow-lg bg-white group">
                   {/* Video Section with Play Button */}
                   <div className="relative w-full aspect-video overflow-hidden bg-gray-900">
-                    <img 
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
-                      src={alumni.banner} 
-                      alt={alumni.name} 
-                    />
+                    {alumni.banner && (
+                      <Image 
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                        src={alumni.banner} 
+                        alt={alumni.name || "Alumni story"}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 600px"
+                        quality={75}
+                      />
+                    )}
   
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none" />
   

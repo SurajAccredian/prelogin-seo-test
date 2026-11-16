@@ -26,7 +26,7 @@ export default function Navbar3({ userInfo }) {
 
   return (
     <>
-      <div className='w-full fixed md:sticky top-0 z-20 bg-white transition-all duration-300 font-circular'
+      <div id="site-header" className='w-full fixed md:sticky top-0 z-30 bg-white transition-all duration-300 font-circular'
         style={{
           transform: `translateY(0)`,
           filter: show ? "drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06))" : "drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06))",
@@ -35,20 +35,12 @@ export default function Navbar3({ userInfo }) {
         <Strip />
         <Navbar />
       </div>
-      {/* skeleton */}
-      <div className='w-full md:hidden block z-20'
-      >
+      {/* skeleton for mobile fixed header document-flow spacing */}
+      <div className='w-full md:hidden block pointer-events-none invisible' aria-hidden="true">
         {/* <Strip user={userInfo} /> */}
-        <div
-          className="nav-3"
-        >
-          <div className='nav-3-inner px-4'>
-            <div className='nav-3-left'>
-              <div className='max-w-[125px] w-full'>
-                {/* <img className='w-full' alt='logo' src='https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp' /> */}
-              </div>
-            </div>
-          </div>
+        <div className="nav-3 flex flex-col items-center justify-center py-[0.6rem] w-full px-4">
+          <div className="nav-3-inner min-h-[60px]" />
+          <div className="w-full pt-2 pb-1 h-[48px]" />
         </div>
       </div>
     </>

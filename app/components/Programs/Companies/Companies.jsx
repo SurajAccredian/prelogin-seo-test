@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "./Companies.css";
 
 const Companies = () => {
@@ -39,6 +40,20 @@ const Companies = () => {
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Alumni-Section-Images/pine-labs-logo-png_seeklogo-461867.webp"
   ];
 
+  const getCompanyName = (url) => {
+    try {
+      const filename = url.split("/").pop().replace(/\.(webp|png|svg|jpg)/gi, "");
+      const clean = decodeURIComponent(filename)
+        .replace(/[_-]+/g, " ")
+        .replace(/\b(logo|svg|rgb|gray|new|monogram|seeklogo|\d+)\b/gi, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      return clean ? `${clean} - Accredian Alumni Hiring Partner` : "Top Hiring Partner";
+    } catch {
+      return "Top Hiring Partner";
+    }
+  };
+
   return (
     <>
       <div
@@ -47,10 +62,10 @@ const Companies = () => {
       >
         <div className="w-full text-center">
           <h4 className="text-base font-medium">A Track Record of Success</h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Our <span className="text-universal">Students</span> Thrive in{" "}
             <span className="text-universal">Top-tier</span> Professions
-          </h1>
+          </h2>
         </div>
 
         <div className="companies-carousel-wrapper">
@@ -59,12 +74,30 @@ const Companies = () => {
             <div className="companies-carousel-track scroll-right-to-left">
               {logosRow1.map((logo, index) => (
                 <div key={`row1-set1-${index}`} className="company-logo-card">
-                  <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
               {logosRow1.map((logo, index) => (
                 <div key={`row1-set2-${index}`} className="company-logo-card">
-                  <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
             </div>
@@ -75,12 +108,30 @@ const Companies = () => {
             <div className="companies-carousel-track scroll-left-to-right">
               {logosRow2.map((logo, index) => (
                 <div key={`row2-set1-${index}`} className="company-logo-card">
-                  <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
               {logosRow2.map((logo, index) => (
                 <div key={`row2-set2-${index}`} className="company-logo-card">
-                  <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                  <Image
+                    src={logo}
+                    alt={getCompanyName(logo)}
+                    width={140}
+                    height={60}
+                    className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    sizes="140px"
+                    quality={75}
+                  />
                 </div>
               ))}
             </div>

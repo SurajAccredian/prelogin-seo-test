@@ -3,6 +3,7 @@
   "id": "pg-certificate-program-in-ai-for-leaders",
   "vertical": "artificial intelligence",
   "title": "Post Graduate Certificate Program in AI for Leaders",
+  "seo_title": "IIT Guwahati PG Certificate in AI for Leaders | Accredian",
   "description": "Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "9818329799",
@@ -170,9 +171,9 @@
     }
   ],
   "faculty": [
-     {
+    {
       "name": "Deepesh",
- "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
       "position": "Senior Faculty",
       "organization": "Accredian",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
@@ -232,7 +233,6 @@
     "programId": "pg-certificate-program-in-ai-for-leaders",
     "points": [
       "60+ Class Hours",
-      
       "10+ Tools and Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -319,7 +319,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How is the Post Graduate Certificate Program in AI for Leaders program different?",
@@ -363,5 +363,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Professional-Certificate-Program-in-AI-for-Leaders.pdf",
     "source": "IITG PG Certificate Program in AI for Leaders",
     "campaign_name": "PGPDSAIL-5 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - PG Certificate AI Leaders",
+  "meta_description": "Master executive AI literacy, data-driven strategy and business with E&ICT IIT Guwahati's 5-month PG Certificate in AI for Leaders for working managers.",
+  "keywords": "PG certificate AI for leaders IIT Guwahati, executive AI program IIT Guwahati, artificial intelligence leadership"
 }

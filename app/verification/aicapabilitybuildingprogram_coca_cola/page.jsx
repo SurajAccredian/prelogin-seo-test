@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import CocaColaVerification from "../../components/Verification/CocaColaVerification";
 
 export const metadata = {
-  title: "Certificate Verification | Accredian",
+  title: "Certificate Verification",
   description:
     "Verify physical workshop certificate authenticity issued by Accredian.",
 };

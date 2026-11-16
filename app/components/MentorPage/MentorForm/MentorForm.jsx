@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import CircularProgress from "@mui/material/CircularProgress";
 import "./mentorForm.css";
 import { useState } from "react";
@@ -308,7 +309,7 @@ function MentorForm() {
         toast.success(response.data.feedback, { position: "top-right" });
         setTimeout(() => {
           setFormSubmit(false);
-          window.location.href = "/Career/mentor";
+          window.location.href = "/career/mentor";
         }, 1000);
       }
     } catch (error) {
@@ -322,7 +323,7 @@ function MentorForm() {
         );
       }
       setTimeout(() => {
-        window.location.href = "/Career/mentor";
+        window.location.href = "/career/mentor";
         setFormSubmit(false);
       }, 1000);
     } finally {
@@ -345,9 +346,9 @@ function MentorForm() {
               <span className="text-universal">Your Path to Joining </span>Is
               Just a Few Clicks Away.
             </h2>
-            <h1 className="text-2xl  mt-2 font-semibold capitalize">
+            <h3 className="text-2xl  mt-2 font-semibold capitalize">
               Get Started Today!
-            </h1>
+            </h3>
           </div>
 
           <div className="flex justify-between items-center mb-4">
@@ -656,16 +657,21 @@ function MentorForm() {
                     >
                       <div className="flex items-center">
                         <div className="w-12 h-12 text-blue-600 flex-shrink-0">
-                          <img
-                            src={role.image}
-                            alt={role.label}
-                            className="w-full h-full"
-                          />
+                          {role.image && (
+                            <Image
+                              src={role.image}
+                              alt={role.label || "Role icon"}
+                              width={48}
+                              height={48}
+                              quality={75}
+                              className="w-full h-full object-contain"
+                            />
+                          )}
                         </div>
                         <div className="ml-3">
-                          <h1 className="text-base font-semibold">
+                          <span className="text-base font-semibold">
                             {role.label}
-                          </h1>
+                          </span>
                           <span className="text-gray-400 font-medium mt-2 text-[14px]">
                             {role.description}
                           </span>
@@ -887,7 +893,7 @@ function MentorForm() {
                             </svg>
                           </div>
                         )}
-                        <h1
+                        <span
                           className={`text-base ${
                             fileError
                               ? "text-red-500"
@@ -899,7 +905,7 @@ function MentorForm() {
                           {fileName && !fileError
                             ? "Resume uploaded successfully"
                             : "Upload your resume"}
-                        </h1>
+                        </span>
                       </div>
                       <div className="">
                         {" "}

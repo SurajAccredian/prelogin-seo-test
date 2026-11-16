@@ -1,15 +1,16 @@
 {
   "category": "13",
   "id": "executive-general-management-program",
+  "pid": 126,
   "vertical": "general management",
   "title": "Executive General Management Program",
+  "seo_title": "IIM Lucknow Executive General Management Program | Accredian",
   "description": "Embark on an 11 month learning journey in Strategy, Finance, and Digital Transformation.",
   "short_title": "General Management",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "IIM Lucknow",
   "short_university_name": "iiml",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIML-LOGO-v4.webp",
-
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-University-Image.webp",
   "start_date": "30 Nov 2025",
   "duration": "11 months",
@@ -28,7 +29,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIML-certificate/IIML-GMP-11-Months.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/IIML-GMP-11-Months.webp",
   "key_features": [
     {
       "title": "hours",
@@ -42,7 +43,6 @@
       "title": "modules",
       "text": 17
     },
-
     {
       "title": "campus immersions",
       "text": "10 Day"
@@ -101,7 +101,11 @@
     "experiential-learning",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -327,7 +331,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },
@@ -358,5 +364,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIML-Executive-General-Management-Program.pdf",
     "source": "IIML Executive General Management Program Brochure",
     "campaign_name": "GM-IIML-11 Months"
-  }
+  },
+  "og_title": "IIM Lucknow - Executive General Management",
+  "meta_description": "Develop core management, financial intelligence and strategic with IIM Lucknow's 11-month Executive General Management Program for senior managers.",
+  "keywords": "general management program IIM Lucknow, EGMP IIM Lucknow, executive MBA India, top general management courses IIM"
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Box, Modal } from "@mui/material";
 import CryptoJS from "crypto-js";
 
@@ -30,6 +31,7 @@ import {
   getApplicationDetails,
 } from "../../services/program.service";
 import { encodeBase64 } from "../../helpers/encodeTrackerId";
+import { mergeEnrollmentDetails } from "../../helpers/enrollment.helpers";
 import { Check } from "lucide-react";
 import axios from "axios";
 function LoginModal({ open }) {
@@ -382,7 +384,7 @@ function LoginModal({ open }) {
     setOtp(["", "", "", ""]);
   };
 
-  const handleFreeCoursePostLogin = async (response, auth_type) => {
+  const handleFreeCoursePostLogin = async (response, auth_type, newTab = null) => {
     try {
       const finalProgramId = program_id || localStorage.getItem('freeCourseProgram');
       const finalCategoryId = localStorage.getItem('freeCourseCategory');
@@ -411,26 +413,7 @@ function LoginModal({ open }) {
       });
 
       if (statusRes?.enrolled && statusRes?.enrollmentDetails?.length > 0) {
-        localStorage.setItem("enrollment", JSON.stringify(statusRes.enrollmentDetails));
-        localStorage.setItem("enrollmentStatus", "true");
-
-        let thinkificRedirectUrl = "";
-        try {
-          thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
-          if (thinkificRedirectUrl) {
-            localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
-          }
-        } catch (err) {
-          console.error("Failed to fetch Thinkific redirect URL:", err);
-          toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
-        }
-
-        setTimeout(() => {
-          if (thinkificRedirectUrl) {
-            window.open(thinkificRedirectUrl, "_blank");
-          }
-          window.location.reload();
-        }, 1000);
+        mergeEnrollmentDetails(statusRes.enrollmentDetails);
       } else {
         const enrollRes = await enrollFreeCourseUser({
           user_id,
@@ -445,29 +428,35 @@ function LoginModal({ open }) {
         });
 
         if (enrollRes?.enrollmentDetails?.length > 0) {
-          localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
-          localStorage.setItem("enrollmentStatus", "true");
+          mergeEnrollmentDetails(enrollRes.enrollmentDetails);
         }
-
-        let thinkificRedirectUrl = "";
-        try {
-          thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
-          if (thinkificRedirectUrl) {
-            localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
-          }
-        } catch (err) {
-          console.error("Failed to fetch Thinkific redirect URL:", err);
-          toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
-        }
-
-        setTimeout(() => {
-          if (thinkificRedirectUrl) {
-            window.open(thinkificRedirectUrl, "_blank");
-          }
-          window.location.reload();
-        }, 1000);
       }
+
+      let thinkificRedirectUrl = "";
+      try {
+        thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
+        if (thinkificRedirectUrl) {
+          localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
+        }
+      } catch (err) {
+        console.error("Failed to fetch Thinkific redirect URL:", err);
+        toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
+      }
+
+      if (thinkificRedirectUrl && newTab) {
+        newTab.location.href = thinkificRedirectUrl;
+      } else if (newTab && !newTab.closed) {
+        newTab.close();
+      }
+
+      setLoading(false);
+      handleClose();
+      window.location.reload();
     } catch (err) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
+      setLoading(false);
       console.error("Failed to check/enroll user on login:", err);
       toast.error("Failed to verify program enrollment. Please try again.", { position: "top-right" });
     }
@@ -519,6 +508,7 @@ function LoginModal({ open }) {
 
   // Function checking user password nd if coming from program page then check his enrolments if does not exist then creating one
   const submimtPassword = async (data) => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     setLoading(true);
     // console.log("Entered into submit password");
     try {
@@ -558,7 +548,7 @@ function LoginModal({ open }) {
         dispatch(userActions.setAuthenticatedState(true));
 
         if (isfreeCourse) {
-          handleFreeCoursePostLogin(response, auth_type);
+          handleFreeCoursePostLogin(response, auth_type, newTab);
           return;
         }
 
@@ -692,6 +682,9 @@ function LoginModal({ open }) {
         }
       }
     } catch (e) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       // console.log("The error occured is " + e);
       if (e.response) {
         const { status, data } = e.response;
@@ -715,6 +708,7 @@ function LoginModal({ open }) {
 
   // Function checking user otp and if coming from program page then check his enrolments if does not exist then creating one
   const onSubmit = async (data) => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     // console.log(data);
     // console.log("otp is :" + otp);
     setLoading(true); // Start loading
@@ -766,7 +760,7 @@ function LoginModal({ open }) {
           }
 
           if (isfreeCourse) {
-            handleFreeCoursePostLogin(response, auth_type);
+            handleFreeCoursePostLogin(response, auth_type, newTab);
             return;
           }
 
@@ -929,6 +923,9 @@ function LoginModal({ open }) {
         }
       }
     } catch (error) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       // console.log("Error occurred:", error);
 
       if (error.response) {
@@ -987,9 +984,12 @@ function LoginModal({ open }) {
                   },
                 }}
               >
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/loginModalImage.svg"
                   alt="Login illustration"
+                  width={400}
+                  height={400}
+                  quality={75}
                   style={{ width: "100%", height: "auto", borderRadius: "8px" }}
                 />
               </Box>
@@ -1013,9 +1013,12 @@ function LoginModal({ open }) {
                     mb: 2,
                   }}
                 >
-                  <img
+                  <Image
                     src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                     alt="Company Logo"
+                    width={150}
+                    height={45}
+                    quality={75}
                     style={{ width: "150px", height: "auto" }}
                   />
                 </Box>
@@ -1197,7 +1200,7 @@ function LoginModal({ open }) {
                           )} */}
                               <button type="button">
                                 <a
-                                  href="/Lost-password"
+                                  href="/lost-password"
                                   target="__blank"
                                   className="w-full"
                                 >

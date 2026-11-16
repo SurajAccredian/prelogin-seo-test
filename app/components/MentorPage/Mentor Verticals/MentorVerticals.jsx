@@ -58,14 +58,14 @@ const MentorVerticals = () => {
                     Chosen Field
                   </span>
                 </h4>
-                <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+                <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                   {/* Lead Innovation in
                   <span className="text-universal"> Key Domains</span>{" "} */}
                   Essential Skills              for
                   <span className="text-universal capitalize">
                     Each Vertical
                   </span>
-                </h1>
+                </h2>
               </div>
             </div>
           </div>
@@ -129,12 +129,12 @@ const MentorVerticals = () => {
                 <SwiperSlide key={index} className="md:max-w[900px]  w-full">
                   <div className="vertical-bg p-5 bg-white text-left  border cursor-context-menu">
                     <div className="flex items-center gap-4">
-                      <h1
+                      <h3
                         title={val?.name}
                         className="text-xl font-bold text-slate-700  text-nowrap truncate"
                       >
                         {val?.name}
-                      </h1>
+                      </h3>
                     </div>
                     {val?.points?.map((point, pointIndex) => (
                       <div
@@ -144,9 +144,9 @@ const MentorVerticals = () => {
                         <div className="w-5 lg:w-6 h-5 lg:h-6 flex-shrink-0 mt-[2px]">
                           <IoMdCheckmarkCircleOutline className="w-full h-full text-green-500" />
                         </div>
-                        <h1 className="text-sm   lg:text-sm font-medium capitalize">
+                        <p className="text-sm   lg:text-sm font-medium capitalize">
                           {point}
-                        </h1>
+                        </p>
                       </div>
                     ))}
                   </div>
@@ -163,7 +163,7 @@ const MentorVerticals = () => {
       <div className="flex justify-center mb-5">
         <button className="w-full text-center max-w-[200px]  mt-4 rounded-lg bg-universal text-white text-base font-semibold flex items-center justify-center gap-1">
           <a
-            href="/Career/mentor/application"
+            href="/career/mentor/application"
             target="_blank"
             className="h-full w-full px-4 py-3"
           >

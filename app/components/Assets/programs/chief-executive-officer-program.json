@@ -1,15 +1,17 @@
 {
   "category": "31",
   "id": "chief-executive-officer-program",
+  "pid": 120,
   "vertical": "cxo leadership",
-  "title": " Chief Executive Officer Program (The CEO Program)",
+  "title": "Chief Executive Officer Program (The CEO Program)",
+  "seo_title": "IIMV 11-Month Chief Executive Officer Program | Accredian",
   "description": "Embark on an 11-month learning journey in Strategic Leadership, Organizational Excellence, Innovation & AI.",
   "short_title": "Chief Executive Officer",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "IIM Visakhapatnam",
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.webp",
   "start_date": "25 Oct 2026",
   "duration": "11 months",
   "required_years_experience": 8,
@@ -325,7 +327,7 @@
     },
     {
       "name": "Dr. Chandreie Mukherjee",
-      "image": "  https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/dr-chandreie-mukherjee.svg",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dr-chandreie-mukherjee.webp",
       "position": "Assistant Professor",
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
@@ -437,5 +439,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Chief-Executive-Officer-Programme.pdf",
     "source": "IIMV Chief Executive Officer Program Brochure",
     "campaign_name": "IIMV-CEO-11 Months"
-  }
+  },
+  "og_title": "IIM Visakhapatnam - Chief Executive Officer Program (The CEO Program)",
+  "meta_description": "Develop C-suite governance, corporate strategy and digital transformation leadership with IIM Visakhapatnam's 11-month CEO Program for senior managers.",
+  "keywords": "chief executive officer program, best CXO programs, CEO program IIM Visakhapatnam, top IIM CXO programs, executive leadership for CEOs"
 }

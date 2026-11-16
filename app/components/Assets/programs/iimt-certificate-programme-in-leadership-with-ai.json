@@ -1,8 +1,10 @@
 {
   "id": "iimt-certificate-programme-in-leadership-with-ai",
+  "pid": 164,
   "category": 64,
   "vertical": "artificial intelligence",
   "title": "Certificate Programme in Leadership with AI",
+  "seo_title": "IIM Trichy Certificate in Leadership with AI | Accredian",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "",
@@ -98,7 +100,11 @@
     "iimt-mentoring-session",
     "leadership-driven-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "Application Review",
@@ -246,7 +252,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMTRICHY-Certificate-Programme-In-Leadership-With-AI.pdf",
@@ -273,7 +280,7 @@
     },
     {
       "title": "Perplexity",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/perplexity.svg"
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/perplexity%20(1).webp"
     },
     {
       "title": "Gamma",
@@ -283,5 +290,8 @@
       "title": "Lovable",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/lovable.svg"
     }
-  ]
+  ],
+  "og_title": "IIM Tiruchirappalli - Certificate Programme in Leadership with AI",
+  "meta_description": "Master AI adoption strategies, team management and executive with IIM Trichy's 8-month Certificate Programme in Leadership with AI for working managers.",
+  "keywords": "leadership with AI IIM Trichy, IIM Trichy AI leadership certificate, executive AI for business leaders"
 }

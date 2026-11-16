@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Image from 'next/image';
 import { groupProgramsByCategory, sortVerticalProgramsByStatus } from '../../../helpers/common.helpers';
 import programs from "../../Assets/programs.json"
 import Drawer from "@mui/material/Drawer";
@@ -9,10 +10,10 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Clock, MapPin, X } from 'lucide-react';
 import { STREAMS } from '../../Assets/constants';
-
+import { useProgramStatuses } from '../../../helpers/useProgramStatuses';
 
 const ExploreDrawer = ({ isOpen, onClose }) => {
-
+  const { getProgramStatus } = useProgramStatuses();
   const [openAccordion, setOpenAccordion] = useState(false);
   const [categorizedPrograms, setCategorizedPrograms] = useState({});
   const [managementSubcategories, setManagementSubcategories] = useState([]);
@@ -112,7 +113,7 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
 
   return (
     <Drawer
-      anchor="right"
+      anchor="left"
       open={isOpen}
       onClose={onClose}
       PaperProps={{
@@ -224,7 +225,7 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
 
                 const val = item;
                 return (
-                  <a href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${val.id}` : `/programs/${val.id}`} className="w-full" key={index} type="div">
+                  <a href={val.category?.toLowerCase() === "free courses" || val.category?.toLowerCase() === "microsoft" || val.id === "transform-business-workflows-with-generative-ai" || val.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${val.id}` : `/programs/${val.id}`} className="w-full" key={index} type="div">
                     <div className="relative flex mb-4 flex-col px-2 py-2 h-full min-h-[120px] transition-all duration-300 cursor-pointer overflow-hidden group bg-card rounded hover:bg-accent/5 hover:bg-blue-500/5 shadow-sm border border-transparent hover:border-gray-100">
                       {/* Blue Line */}
                       <div className="absolute top-0 left-0 h-[3px] bg-[#1a73e8] w-0 transition-all duration-300 ease-out group-hover:w-full"></div>
@@ -232,11 +233,16 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
                       <div>
                         <div className="mb-3">
                           <div className="flex ml-1 items-center gap-3">
-                            <img
-                              src={val.university_image}
-                              alt={val.university_name}
-                              className="w-6 h-6 object-contain flex-shrink-0"
-                            />
+                            {val.university_image && (
+                              <Image
+                                src={val.university_image}
+                                alt={val.university_name || "University logo"}
+                                width={24}
+                                height={24}
+                                quality={75}
+                                className="w-6 h-6 object-contain flex-shrink-0"
+                              />
+                            )}
                             <p className="text-[13px] font-medium text-gray-700">
                               {val.university_name}
                             </p>
@@ -262,14 +268,26 @@ const ExploreDrawer = ({ isOpen, onClose }) => {
                             </div>
                           )}
                         </div>
-                        <span
-                          className={`px-3 py-1 rounded-full text-xs ${val.status.toLowerCase() === "admission closed"
-                            ? "bg-red-100 text-red-500"
-                            : "text-[#3366ff] bg-[#e8f0ff]"
-                            } whitespace-nowrap capitalize`}
-                        >
-                          {val.status}
-                        </span>
+                        {(() => {
+                          const resolved = getProgramStatus
+                            ? getProgramStatus(val)
+                            : {
+                                status: val.status,
+                                isAdmissionClosed:
+                                  val.status?.toLowerCase() === "admission closed",
+                              };
+                          return (
+                            <span
+                              className={`px-3 py-1 rounded-full text-xs ${
+                                resolved.isAdmissionClosed
+                                  ? "bg-red-100 text-red-500"
+                                  : "text-[#3366ff] bg-[#e8f0ff]"
+                              } whitespace-nowrap capitalize`}
+                            >
+                              {resolved.status}
+                            </span>
+                          );
+                        })()}
                       </div>
                     </div>
                   </a>

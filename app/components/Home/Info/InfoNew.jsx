@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./Info.css";
 
 const InfoNew = () => {
@@ -26,6 +27,20 @@ const InfoNew = () => {
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp",
   ];
 
+  const getCompanyName = (url) => {
+    try {
+      const filename = url.split("/").pop().replace(/\.(webp|png|svg|jpg)/gi, "");
+      const clean = decodeURIComponent(filename)
+        .replace(/[_-]+/g, " ")
+        .replace(/\b(logo|svg|rgb|gray|new|monogram|seeklogo|\d+)\b/gi, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      return clean ? `${clean} - Accredian Alumni Company` : "Top Global Company";
+    } catch {
+      return "Top Global Company";
+    }
+  };
+
   return (
     <div
       id=""
@@ -42,12 +57,28 @@ const InfoNew = () => {
           <div className="logo-carousel logo-carousel-rtl">
             {logosRow1.map((logo, index) => (
               <div key={`row1-1-${index}`} className="logo-item">
-                <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
             {logosRow1.map((logo, index) => (
               <div key={`row1-2-${index}`} className="logo-item">
-                <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
           </div>
@@ -58,12 +89,28 @@ const InfoNew = () => {
           <div className="logo-carousel logo-carousel-rtl">
             {logosRow2.map((logo, index) => (
               <div key={`row2-1-${index}`} className="logo-item">
-                <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
             {logosRow2.map((logo, index) => (
               <div key={`row2-2-${index}`} className="logo-item">
-                <img src={logo} alt={`Company ${index + 1}`} loading="lazy" />
+                <Image
+                  src={logo}
+                  alt={getCompanyName(logo)}
+                  width={140}
+                  height={60}
+                  sizes="140px"
+                  quality={75}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
           </div>

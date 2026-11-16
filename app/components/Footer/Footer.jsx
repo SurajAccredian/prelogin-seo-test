@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Grid, Typography, Button, Box, Container } from "@mui/material";
 import Link from "next/link";
@@ -78,13 +79,13 @@ const Footer = () => {
               lg={6}
               sx={{ display: "flex", flexDirection: "column" }}
             >
-              <img
-                style={{ width: "9rem" }}
-                src="	https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredainnew.webp"
+              <Image
+                style={{ width: "9rem", height: "auto" }}
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredainnew.webp"
                 alt="Accredian logo"
-                width="338"
-                height="90"
-                loading="lazy"
+                width={144}
+                height={38}
+                quality={75}
               />
               <div className="flex mt-4">
                 <a
@@ -208,7 +209,7 @@ const Footer = () => {
                 </Typography>
                 <ul className="footer-body-content">
                   <li className="pt-4">
-                    <Link href="/About" prefetch={false} style={{ textDecoration: "none" }}>
+                    <Link href="/about" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -222,7 +223,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="pt-4">
-                    <Link href="/Career" prefetch={false} style={{ textDecoration: "none" }}>
+                    <Link href="/career" prefetch={false} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
                           color: "#fff",
@@ -250,8 +251,8 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="pt-4">
-                    <a
-                      href="https://blog.accredian.com/"
+                    <Link
+                      href="/blog"
                       style={{ textDecoration: "none" }}
                     >
                       <Typography
@@ -264,7 +265,7 @@ const Footer = () => {
                       >
                         Blog
                       </Typography>
-                    </a>
+                    </Link>
                   </li>
                   {/* <li className="pt-4 pb-4">
                     <Link href="/whyaccredian" prefetch={false} style={{ textDecoration: "none" }}>
@@ -365,7 +366,7 @@ const Footer = () => {
                       </Link>
 
                       <Link
-                        href={"/terms/refund"}
+                        href={"/refund-policies/accredian-policy"}
                         prefetch={false}
                         style={{ textDecoration: "none" }}
                       >
@@ -454,19 +455,6 @@ const Footer = () => {
                         </Typography>
                       </Link>
 
-                      {/* <Link href="/Faq" style={{ textDecoration: "none" }}>
-                        <Typography
-                          sx={{
-                            color: "#fff",
-                            textDecoration: "none",
-                            marginBottom: "0.2rem!important",
-                            fontSize: "14px",
-                            marginTop: "10px",
-                          }}
-                        >
-                          Master FAQs
-                        </Typography>
-                      </Link> */}
                     </div>
                   </div>
                   {/* <li className="pt-4"> */}
@@ -760,7 +748,7 @@ const Footer = () => {
                           <div
                             className="flex gap-4 cursor-pointer mb-4 text-[12px]"
                             onClick={() =>
-                              (window.location.href = `tel:${matchingContact.contact}`)
+                              (window.location.href = `tel:${matchingContact.contact.replace(/\s/g, "")}`)
                             }
                           >
                             <div className="">
@@ -788,7 +776,7 @@ const Footer = () => {
                                     className="pb-2 text-gray-400"
                                   >
                                     <Link
-                                      href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                                      href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                                       prefetch={false}
                                       style={{ textDecoration: "none" }}
                                     >
@@ -932,7 +920,11 @@ const Footer = () => {
 
       <SubFooter />
       <FloatingChatWidget isOpen={isChatBotOpen} setIsChatBotOpen={setIsChatBotOpen} />
-      <Rcta open={cta} handleClose={RcbhandleClose} />
+      <Rcta
+        open={cta}
+        handleClose={RcbhandleClose}
+        source="Schedule 1-on-1 Call Now"
+      />
       {/* {isFreshchatOpen && ( */}
       {/* <FreshChat
         token={process.env.NEXT_PUBLIC_FRESHCHAT_TOKEN}

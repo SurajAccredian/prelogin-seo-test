@@ -3,6 +3,7 @@
   "id": "executive-program-in-analytics-and-project-management",
   "vertical": "business analytics",
   "title": "Executive Program in Business Analytics and Project Management",
+  "seo_title": "Business Analytics & Project Management E&ICT IITG | Accredian",
   "description": "Embark on a 10-term learning journey in Excel Modelling, Marketing Analytics, Project Execution, and Risk Management.",
   "short_title": "Business Analytics",
   "contact": "9971109528",
@@ -188,17 +189,26 @@
     {
       "title": "Project Management Fundamentals",
       "id": "project-management-fundamentals",
-      "points": ["Introduction to Project Management", "Project Initiation"]
+      "points": [
+        "Introduction to Project Management",
+        "Project Initiation"
+      ]
     },
     {
       "title": "Project Planning & Execution",
       "id": "project-planning-and-execution",
-      "points": ["Project Planning", "Project Execution"]
+      "points": [
+        "Project Planning",
+        "Project Execution"
+      ]
     },
     {
       "title": "Risk Management & Agile Project Management",
       "id": "risk-management-and-agile-project-management",
-      "points": ["Project Risk Management", "Agile Project Management"]
+      "points": [
+        "Project Risk Management",
+        "Agile Project Management"
+      ]
     },
     {
       "title": "Contract, Procurement, Closure",
@@ -261,7 +271,6 @@
       "organization": "Jio",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
     },
-
     {
       "name": "Pratul Gupta",
       "position": "Product Manager",
@@ -333,7 +342,6 @@
     "programId": "executive-program-in-analytics-and-project-management",
     "points": [
       "170+ Hours of Live Classes",
-      
       "10+ Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -410,7 +418,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Business Analytics and Project Management different?",
@@ -454,5 +462,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-Business-Analytics-and-PI-12-Months-v1.pdf",
     "source": "business analytics and project management brochure",
     "campaign_name": "BAPMT-IITG-12 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Business Analytics & Projects",
+  "meta_description": "Master business intelligence with E&ICT IIT Guwahati's 12-month Analytics & Project Management program for project managers and delivery leads.",
+  "keywords": "business analytics project management IIT Guwahati, executive project management analytics course, business intelligence project program"
 }

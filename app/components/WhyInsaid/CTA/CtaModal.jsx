@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -18,19 +19,13 @@ import { HashLoader } from "../../Loaders";
 import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
 import { STREAMS } from "../../Assets/constants";
+import { getStoredUTMData } from "../../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../helpers/googleAds.helpers";
 export default function CtaModal({ open, setOpen }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
     pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source =
-    searchParams.get("utm_source") == undefined
-      ? "null"
-      : searchParams.get("utm_source");
-  const utm_medium =
-    searchParams.get("utm_medium") == undefined
-      ? "null"
-      : searchParams.get("utm_medium");
   const campaign_name =
     open?.brochure?.campaign_name !== undefined
       ? open.brochure.campaign_name
@@ -65,6 +60,7 @@ export default function CtaModal({ open, setOpen }) {
     onSuccess: (result) => {
       setOpen(null);
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for your callback request! Our admission counselor will reach out shortly.",
@@ -97,6 +93,7 @@ export default function CtaModal({ open, setOpen }) {
 
   const submitForm = (body) => {
     const { name, contact, email, program } = body;
+    const utmData = getStoredUTMData();
 
     const payload = {
       phone: contact,
@@ -105,9 +102,15 @@ export default function CtaModal({ open, setOpen }) {
       program: program.value,
       source: "Request Callback",
       page: "Why Accredian",
-      utm_source,
-      utm_medium,
-      utm_campaign: campaign_name,
+      utm_source: utmData.utm_source || "Direct",
+      utm_medium: utmData.utm_medium || "website-organic",
+      utm_campaign: utmData.utm_campaign || campaign_name || "",
+      utm_content: utmData.utm_content || "",
+      utm_adset: utmData.utm_adset || "",
+      utm_ad: utmData.utm_ad || "",
+      utm_term: utmData.utm_term || "",
+      utm_format: utmData.utm_format || "",
+      cta_button: "Request Callback",
       form_id: "request_callback",
       type: "CTA",
     };
@@ -163,10 +166,13 @@ export default function CtaModal({ open, setOpen }) {
               <div className="bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[90vw] min-h-[35vh] py-5 px-5 flex items-center gap-2 rounded-xl">
                 <div className="md:flex flex-col items-center justify-between gap-2 hidden flex-[0.5]">
                   <div className="max-w-sm w-full">
-                    <img
-                      className="w-full"
+                    <Image
                       src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
                       alt="get-in-touch"
+                      width={384}
+                      height={384}
+                      quality={75}
+                      className="w-full h-auto"
                     />
                   </div>
                   {/* <div className="w-full mt-4 hidden md:flex justify-center items-center gap-4 bg-blue-50 border border-blue-300 py-4 px-4 rounded-lg">

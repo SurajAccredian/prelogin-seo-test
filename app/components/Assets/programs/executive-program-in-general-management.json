@@ -1,8 +1,10 @@
 {
   "category": "13",
   "id": "executive-program-in-general-management",
+  "pid": 103,
   "vertical": "general management",
   "title": "Executive Development Program in General Management",
+  "seo_title": "General Management Program XLRI | Accredian",
   "description": "Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status.",
   "short_title": "General Management",
   "contact": "8882597163",
@@ -113,7 +115,11 @@
     "experiential-learning",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -325,7 +331,6 @@
     "programId": "executive-program-in-general-management",
     "points": [
       "130+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "20+ Frameworks Covered",
       "Quick Query Resolution",
@@ -380,7 +385,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },
@@ -428,5 +435,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-General-Management.pdf",
     "source": "XLRI General Management Brochure",
     "campaign_name": "GM-XLRI-11 Months"
-  }
+  },
+  "og_title": "XLRI - Executive Development Program in General Management",
+  "meta_description": "Develop cross-functional management expertise, financial acumen and strategic leadership with XLRI's 11-month General Management program for senior managers.",
+  "keywords": "general management XLRI, XLRI executive program in general management, top executive management programs India"
 }

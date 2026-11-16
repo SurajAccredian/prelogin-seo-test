@@ -6,16 +6,16 @@ import CtaModal from "../../Modals/call-to-actions/get-in-touch";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 
-const CTA = () => {
-
-  const { data } = useSelector(state => state.program)
+const CTA = ({ data: propData }) => {
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
   const [isModalOpen, setIsModalOpen] = useState(null)
 
   const handleModalOpen = () => {
     if (data) {
-      setIsModalOpen(data)
+      setIsModalOpen({ ...data, source: "Get in touch" });
     }
-  }
+  };
 
   return (
     <div className='cta flex justify-center w-full py-8 md:py-12 xl:px-12 px-4'>
@@ -27,7 +27,7 @@ const CTA = () => {
             </div>
           </div>
           <div className="text-start">
-            <h1 className="text-2xl md:text-3xl font-semibold text-white max-md:hidden">Want to delve deeper into the program?</h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-white max-md:hidden">Want to delve deeper into the program?</h2>
             {/* <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100">Share your details to receive expert insights from our program team!</h4> */}
             <h4 className="text-lg md:mt-2 max-w-xl font-medium text-neutral-100">Connect with an expert for clear program insights!</h4>
           </div>

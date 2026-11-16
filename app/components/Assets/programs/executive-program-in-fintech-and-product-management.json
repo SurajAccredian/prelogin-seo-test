@@ -3,6 +3,7 @@
   "id": "executive-program-in-fintech-and-product-management",
   "vertical": "finance",
   "title": "Executive Program in Fintech & Product Management",
+  "seo_title": "Fintech & Product Management E&ICT IITG | Accredian",
   "description": "Embark on an 11 month learning journey in Fintech Ecosystem, Digital Payments, and Product Leadership.",
   "short_title": "Fintech",
   "contact": "8826567425",
@@ -131,7 +132,6 @@
     "Eligibility Test",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Introduction to FinTech",
@@ -260,7 +260,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Prahlad Modi",
       "position": "Senior Product Manager",
@@ -351,7 +350,6 @@
     "programId": "executive-program-in-fintech-and-product-management",
     "points": [
       "130+ Hours of Live Classes",
-      
       "15+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -436,7 +434,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Fintech & Product Management different?",
@@ -479,5 +477,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/executive-program-in-fintech-and-product-management-v2.pdf",
     "source": "IITG Fintech & Product Management Brochure",
     "campaign_name": "EPFPM-IITG-11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Fintech & Product Mgmt",
+  "meta_description": "Build expertise in financial product design, regulatory compliance with E&ICT IIT Guwahati's 11-month Fintech & Product Management course for product managers.",
+  "keywords": "fintech product management IIT Guwahati, financial product manager course, executive fintech PM certification"
 }

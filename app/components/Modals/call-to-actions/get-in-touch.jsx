@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -16,20 +17,14 @@ import { getCta } from "../../../services/program.service";
 import { HashLoader } from "../../Loaders";
 import { CiPhone } from "react-icons/ci";
 import ReCAPTCHA from "react-google-recaptcha";
+import { getStoredUTMData } from "../../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../helpers/googleAds.helpers";
 
-export default function CtaModal({ open, setOpen }) {
+function CtaModalContent({ open, setOpen }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
     pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source =
-    searchParams.get("utm_source") == undefined
-      ? "null"
-      : searchParams.get("utm_source");
-  const utm_medium =
-    searchParams.get("utm_medium") == undefined
-      ? "null"
-      : searchParams.get("utm_medium");
   const campaign_name =
     open?.brochure?.campaign_name !== undefined
       ? open.brochure.campaign_name
@@ -64,6 +59,7 @@ export default function CtaModal({ open, setOpen }) {
     onSuccess: (result) => {
       setOpen(null);
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for your callback request! Our admission counselor will reach out shortly.",
@@ -96,18 +92,26 @@ export default function CtaModal({ open, setOpen }) {
 
   const submitForm = (body) => {
     const { name, contact, email, query } = body;
+    const utmData = getStoredUTMData();
+    const resolvedSource = open?.source || "Get in touch";
 
     const payload = {
       phone: contact,
       name,
       email,
       query,
-      program: open.vertical,
-      source: open.brochure.source,
+      program: open?.vertical || open?.category || open?.program_name || "Explore Programs",
+      source: resolvedSource,
       page: currentPage,
-      utm_source,
-      utm_medium,
-      utm_campaign: campaign_name,
+      utm_source: utmData.utm_source || "Direct",
+      utm_medium: utmData.utm_medium || "website-organic",
+      utm_campaign: utmData.utm_campaign || campaign_name || "",
+      utm_content: utmData.utm_content || "",
+      utm_adset: utmData.utm_adset || "",
+      utm_ad: utmData.utm_ad || "",
+      utm_term: utmData.utm_term || "",
+      utm_format: utmData.utm_format || "",
+      cta_button: resolvedSource,
       form_id: "brochure",
       type: "CTA",
     };
@@ -160,10 +164,13 @@ export default function CtaModal({ open, setOpen }) {
               <div className="bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[90vw] min-h-[35vh] py-5 px-5 flex items-end gap-2 rounded-xl">
                 <div className="md:flex flex-col items-center justify-between gap-2 hidden flex-[0.5]">
                   <div className="max-w-sm w-full">
-                    <img
-                      className="w-full"
+                    <Image
                       src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
                       alt="get-in-touch"
+                      width={384}
+                      height={384}
+                      quality={75}
+                      className="w-full h-auto"
                     />
                   </div>
                   <div className="w-full mt-4 hidden md:flex justify-center items-center gap-4 bg-blue-50 border border-blue-300 py-4 px-4 rounded-lg">
@@ -174,7 +181,7 @@ export default function CtaModal({ open, setOpen }) {
                       <h1 className="font-medium">To Inquire</h1>
                       <span>-</span>
                       <a
-                        href={`tel:${open?.contact}`}
+                        href={`tel:${open?.contact?.replace(/\s/g, "")}`}
                         className="underline font-semibold"
                       >
                         {open?.contact?.substring(0, 5) +
@@ -356,6 +363,7 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                       />
                     </div>
                     <button
+                      data-track="Request Callback"
                       disabled={isPending || !captchaVerified}
                       className={`disabled:py-4 disabled:bg-gray-300 disabled:border-none hover:bg-darkBlue text-lg relative mt-6 px-4 py-4 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg drop-shadow-sm border border-universal`}
                       type="submit"
@@ -381,7 +389,7 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                         <h1 className="font-medium">To Inquire</h1>
                         <span>-</span>
                         <a
-                          href={`tel:${open?.contact}`}
+                          href={`tel:${open?.contact?.replace(/\s/g, "")}`}
                           className="underline font-semibold"
                         >
                           {open?.contact?.substring(0, 5) +
@@ -398,5 +406,14 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
         </Fade>
       </Modal>
     </div>
+  );
+}
+
+export default function CtaModal(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <CtaModalContent {...props} />
+    </React.Suspense>
   );
 }

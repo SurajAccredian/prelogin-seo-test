@@ -3,6 +3,7 @@
   "id": "pg-certificate-program-in-data-science",
   "vertical": "data science",
   "title": "Post Graduate Certificate Program in Data Science",
+  "seo_title": "PG Certificate Data Science E&ICT IITG | Accredian",
   "description": "Embark on a 6 month learning journey in Python Foundation, Data Visualization, and Machine Learning.",
   "short_title": "Data Science",
   "contact": "9358719988",
@@ -245,7 +246,6 @@
     "programId": "pg-certificate-program-in-data-science",
     "points": [
       "72+ Class Hours",
-      
       "5+ Tools and Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -330,7 +330,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How is the Post Graduate Certificate Program in Data Science program different?",
@@ -374,5 +374,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIT-Post-Graduate-Certificate-Program-in-DS-6-months.pdf",
     "source": "IITG PG Certificate Program in Data Science Brochure",
     "campaign_name": "PGCPDS-IITG-6 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - PG Cert Data Science",
+  "meta_description": "Develop core data analytics, SQL with E&ICT IIT Guwahati's 6-month PG Certificate in Data Science for data professionals and business analysts.",
+  "keywords": "PG certificate data science IIT Guwahati, executive data science course India, business analytics IIT Guwahati"
 }

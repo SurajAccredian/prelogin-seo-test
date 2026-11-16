@@ -1,18 +1,20 @@
 {
   "category": "22",
   "id": "global-senior-leadership-program",
+  "pid": 172,
   "vertical": "senior management",
   "title": "Global Senior Leadership Program",
+  "seo_title": "Global Senior Leadership Program IIMV | Accredian",
   "description": "Embark on a 12-month journey in Market Strategy, HR, and Digital Leadership, featuring a 3-day global immersion in Dubai.",
   "short_title": "Global Senior Leadership",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "IIM Visakhapatnam",
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.jpg",
-  "start_date": "27 Sep 2026",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-dubai-image-v2.webp",
+  "start_date": "10 Jan 2027",
   "duration": "12 Months",
-  "required_years_experience": 10,
+  "required_years_experience": 5,
   "type": "online",
   "enrollments": "active",
   "timings": "weekends only",
@@ -116,7 +118,11 @@
     "international-immersion",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -125,7 +131,7 @@
   "curriculum": {
     "coreModules": [
       {
-        "title": "Strategic Leadership for Senior Leaders",
+        "title": "Leadership and Strategy for Global Leaders",
         "week": "",
         "id": "competitive-strategy-for-leaders",
         "points": [
@@ -136,7 +142,7 @@
         ]
       },
       {
-        "title": "Leading High Performing Teams & Organizations",
+        "title": "Leading Teams for Strategic Impact",
         "week": "",
         "id": "corporate---business-strategy",
         "points": [
@@ -147,15 +153,18 @@
         ]
       },
       {
-        "title": "Innovation & Transformation Leadership",
+        "title": "Innovation & Transformation",
         "week": "",
         "id": "corporate---business-strategy",
-        "points": ["Digital Transformation & Innovation", "Leadership with AI"]
+        "points": [
+          "Digital Transformation & Innovation",
+          "Leadership with AI"
+        ]
       }
     ],
     "Chief-Executive-Officer": [
       "Critical Thinking & Strategic Decision Making for CEOs",
-      "Leading High-Performance Executive Teams",
+      "Leading a High-Performance Executive Team",
       "Growth Strategies for CEOs",
       "Scaling Organizations & Leading High-Growth Companies",
       "Financial Acumen & Shareholder Value Creation",
@@ -178,13 +187,11 @@
       "Executive Presence, Leadership & C-Suite Strategy",
       "Capstone Project"
     ],
-
     "Chief-Financial-Officer": [
       "Strategic Financial Leadership for CFOs",
       "Financial Planning & Analysis (FP&A) Leadership",
       "Capital Budgeting & Investment Appraisal",
       "M&A Strategy & Execution",
-      "CFO’s Role in Digital Transformation & Automation",
       "Investor Relations & Stakeholder Communication",
       "Capstone Project"
     ],
@@ -219,7 +226,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. Sushil Kumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
@@ -227,7 +233,6 @@
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Prof. PRS Sharma",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
@@ -239,7 +244,6 @@
       "name": "Prof. Vijay Bhaskar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/vijaya-bhaskar.webp",
       "position": "Dr B R Ambedkar Chair Professor",
-
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
@@ -248,7 +252,6 @@
     "programId": "global-senior-leadership-program",
     "points": [
       "144+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -303,10 +306,11 @@
               "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
             ]
           },
-
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },
@@ -354,5 +358,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Global-Senior-Leadership-Program.pdf",
     "source": "IIMV Global Senior Leadership Program Brochure",
     "campaign_name": "GSL-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIM Visakhapatnam - Global Senior Leadership Program",
+  "meta_description": "Master cross-border business expansion with IIM Visakhapatnam's 12-month Global Senior Leadership Program for senior managers and executives.",
+  "keywords": "global senior leadership program IIM Visakhapatnam, global executive leadership course, IIM executive leadership for leaders"
 }

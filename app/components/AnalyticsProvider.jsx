@@ -3,40 +3,39 @@
 import Script from "next/script";
 import { useEffect } from "react";
 import posthog from "posthog-js";
+import { getInitialUTMData } from "../helpers/utm.helpers";
+import { saveFbcFallback } from "../helpers/cookie.helpers";
 
 export default function AnalyticsProvider({ children }) {
   useEffect(() => {
+    // Capture and persist first-touch UTM parameters / referrer fallback in sessionStorage
+    getInitialUTMData();
+    // Save _fbc_fallback cookie if fbclid is present in URL
+    saveFbcFallback();
+
+    // Initialize dataLayer and gtag stub early so events can queue safely before GTM script loads
+    if (typeof window !== "undefined") {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag =
+        window.gtag ||
+        function () {
+          window.dataLayer.push(arguments);
+        };
+    }
+
     // PostHog initialization
-    posthog.init(
-      process.env.NEXT_PUBLIC_POSTHOG_API_KEY || "phc_NZdN6nmco27sEhbueOjTabH2ozM8Hq8BJ3l4qH5vUob",
-      {
-        api_host:
-          process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
-        person_profiles: "identified_only",
-      }
-    );
+    // posthog.init(
+    //   process.env.NEXT_PUBLIC_POSTHOG_API_KEY || "phc_NZdN6nmco27sEhbueOjTabH2ozM8Hq8BJ3l4qH5vUob",
+    //   {
+    //     api_host:
+    //       process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
+    //     person_profiles: "identified_only",
+    //   }
+    // );
   }, []);
 
   return (
     <>
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          setTimeout(function () {
-            var script = document.createElement("script");
-            script.async = true;
-            script.src = "https://www.googletagmanager.com/gtag/js?id=G-SWCZ0464KL";
-            document.head.appendChild(script);
-
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-              dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-            gtag("config", "G-SWCZ0464KL");
-          }, 2000);
-        `}
-      </Script>
-
       <Script id="gtm" strategy="afterInteractive">
         {`
           setTimeout(function () {
@@ -111,7 +110,7 @@ export default function AnalyticsProvider({ children }) {
         `}
       </Script>
 
-      <Script id="artibot" strategy="afterInteractive">
+      {/* <Script id="artibot" strategy="afterInteractive">
         {`
           setTimeout(function () {
             !(function (t, e) {
@@ -149,7 +148,7 @@ export default function AnalyticsProvider({ children }) {
             })(window, document);
           }, 2000);
         `}
-      </Script>
+      </Script> */}
 
       <Script id="clarity-script" strategy="afterInteractive">
         {`
@@ -162,6 +161,18 @@ export default function AnalyticsProvider({ children }) {
           }, 2000);
         `}
       </Script>
+
+      {/* LeadSquared Tracking Script */}
+      <Script
+        id="leadsquared-tracker"
+        src="https://web-in21.mxradon.com/t/Tracker.js"
+        strategy="afterInteractive"
+        onReady={() => {
+          if (typeof window !== "undefined" && typeof window.pidTracker === "function") {
+            window.pidTracker("58946");
+          }
+        }}
+      />
       {children}
     </>
   );

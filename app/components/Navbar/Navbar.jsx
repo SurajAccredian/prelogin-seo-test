@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import ExploreDropDown from "./ExploreDropdown/ExploreDropDown";
 import "./Navbar.css";
@@ -22,6 +23,7 @@ import { useRouter } from "next/navigation";
 import Ham from "../Drawers/Drawer/Ham";
 import ExploreDrawer from "../Drawers/Drawer/ExploreDrawer";
 import Authdrawer from "../Drawers/Auth Drawers/Authdrawer";
+import GlobalSearch from "./GlobalSearch/GlobalSearch";
 
 export const shouldUseNewDashboard = () => {
   const enrollmentStatus = localStorage.getItem("enrollmentStatus");
@@ -49,6 +51,9 @@ export const shouldUseNewDashboard = () => {
   // Check if any enrollment matches the specific criteria
   return status;
 };
+
+const FREE_COURSE_CATEGORIES = [66, 71];
+const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));
 
 export default function Navbar() {
   const [isOpenHam, setIsOpenHam] = useState(false);
@@ -88,8 +93,9 @@ export default function Navbar() {
   }, []);
 
   const [thinkificUrl, setThinkificUrl] = useState("");
-  const [hasCategory66, setHasCategory66] = useState(false);
-  const [onlyCategory66, setOnlyCategory66] = useState(false);
+  const [hasFreeCourse, setHasFreeCourse] = useState(false);
+  const [hasOtherEnrollment, setHasOtherEnrollment] = useState(false);
+  const [onlyFreeCourse, setOnlyFreeCourse] = useState(false);
 
   const decodeJwt = (token) => {
     try {
@@ -111,13 +117,21 @@ export default function Navbar() {
   useEffect(() => {
     if (isCookie) {
       const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      const is66 = enrollmentDetails && enrollmentDetails.some(item => Number(item.category) === 66);
-      setHasCategory66(is66);
 
-      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
-      setOnlyCategory66(isOnly66);
+      const hasFree = Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+        item => isFreeCourseCategory(item.category || item.category_id)
+      );
+      setHasFreeCourse(hasFree);
 
-      if (is66) {
+      const hasOther = Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+        item => !isFreeCourseCategory(item.category || item.category_id)
+      );
+      setHasOtherEnrollment(hasOther);
+
+      const isOnlyFree = hasFree && !hasOther;
+      setOnlyFreeCourse(isOnlyFree);
+
+      if (hasFree) {
         const token = isCookie || localStorage.getItem("token");
         let email = localStorage.getItem("email");
         let firstname = "";
@@ -297,7 +311,7 @@ export default function Navbar() {
     // setUserInfo("");
     // navigate(`/Login`);
     // navigate('/')
-    window.location.href = (process.env.NEXT_PUBLIC_BASE_URL || "/");
+    window.location.reload();
   };
 
   // Get the appropriate base URL
@@ -355,22 +369,26 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-3 flex justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
+      <div className="nav-3 flex flex-col items-center justify-center py-[0.6rem] w-full px-4 xl:px-12" data-lenis-prevent>
         <div className="nav-3-inner">
           <div className="nav-3-left">
             <Link href={"/"} prefetch={false} style={{ textDecoration: "none" }}>
               <div className="max-w-[125px] w-full">
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Accredian logo"
-                  width="358"
-                  height="105"
+                  width={125}
+                  height={37}
                   className="w-full h-auto"
-                  loading="lazy"
+                  priority
+                  quality={75}
                 />
               </div>
             </Link>
             <ExploreDropDown />
+            <div className="hidden md:flex justify-center flex-1 max-w-[320px] lg:max-w-[360px] xl:max-w-[400px] rounded-md">
+              <GlobalSearch />
+            </div>
           </div>
           <div className="nav-3-right">
             <div className="nav-3-right-inner">
@@ -397,15 +415,14 @@ export default function Navbar() {
                       </div>
                     </PopoverTrigger>
                     <PopoverContent top={3} className="pop-content-user">
-                      {/* 1. Only Free Course Enrollment */}
-                      {onlyCategory66 && (
+                      {/* 1. Only Free Course Enrollment(s) */}
+                      {onlyFreeCourse && (
                         <>
                           <a
                             href="#"
                             onClick={handleAccessFreeCourses}
                             className="py-2 px-4 hover:text-universal hover:bg-universal/15 rounded-md cursor-pointer w-full flex items-center gap-2"
                           >
-
                             <h2 className="font-medium capitalize">
                               Access Free Courses
                             </h2>
@@ -413,8 +430,8 @@ export default function Navbar() {
                         </>
                       )}
 
-                      {/* 2. Both Types of Enrollments */}
-                      {hasCategory66 && !onlyCategory66 && (
+                      {/* 2. Both Free Course AND Other/Paid Enrollments */}
+                      {hasFreeCourse && hasOtherEnrollment && (
                         <>
                           <a
                             href={`${getBaseUrl()}/?tab=my-applications`}
@@ -446,8 +463,8 @@ export default function Navbar() {
                         </>
                       )}
 
-                      {/* 3. Standard Enrollments Only */}
-                      {!hasCategory66 && !pgdmDashboardStatus && (
+                      {/* 3. Standard / Paid Enrollments Only */}
+                      {!hasFreeCourse && !pgdmDashboardStatus && (
                         <>
                           <a
                             href={`${getBaseUrl()}/?tab=my-applications`}
@@ -477,16 +494,19 @@ export default function Navbar() {
                         <h2 className="font-medium capitalize">Logout</h2>
                       </button>
 
-                      {!hasCategory66 && (
+                      {!hasFreeCourse && (
                         <a
                           href={`${(process.env.NEXT_PUBLIC_BASE_URL || "/")}/referandearn`}
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
+                          <Image
                             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp"
-                            className="w-[240px]"
+                            className="w-[240px] h-auto"
                             alt="Refer and earn banner"
+                            width={240}
+                            height={120}
+                            quality={75}
                           />
                         </a>
                       )}
@@ -535,6 +555,10 @@ export default function Navbar() {
               onClick={() => setIsOpenHam(!isOpenHam)}
             />
           </div>
+        </div>
+        {/* Mobile / Tablet Second Row: Full-width Global Search */}
+        <div className="w-full md:hidden pt-2 pb-1 max-w-[85rem]">
+          <GlobalSearch className="!max-w-full w-full" />
         </div>
       </div>
       <Ham

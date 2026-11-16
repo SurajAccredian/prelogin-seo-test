@@ -1,8 +1,9 @@
 {
   "category": "",
-  "id": "senior-management-program",
+  "id": "post-graduate-diploma-in-management-for-executives",
   "vertical": "senior management",
   "title": "Senior Management Program",
+  "seo_title": "Senior Management Program IIMV | Accredian",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Senior Management",
   "contact": "8826565087",
@@ -58,7 +59,7 @@
     }
   ],
   "overview": {
-    "programId": "senior-management-program",
+    "programId": "post-graduate-diploma-in-management-for-executives",
     "content": [
       {
         "title": "who should join",
@@ -352,10 +353,9 @@
     }
   ],
   "billing": {
-    "programId": "senior-management-program",
+    "programId": "post-graduate-diploma-in-management-for-executives",
     "points": [
       "140+ Hours of Live Classes",
-      
       "3 Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -378,7 +378,7 @@
     "total": 350000
   },
   "faq": {
-    "programId": "senior-management-program",
+    "programId": "post-graduate-diploma-in-management-for-executives",
     "points": [
       {
         "title": "Program Pre-Requisites",
@@ -453,5 +453,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Vizag-Senior-Management.pdf",
     "source": "IIMV Senior Management brochure",
     "campaign_name": "SMP-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - Senior Management Program (SMP)",
+  "meta_description": "Master strategic decision-making, corporate growth leadership and financial with IIM Visakhapatnam's 12-month Senior Management Program for senior managers.",
+  "keywords": "senior management program IIM Visakhapatnam, IIMV SMP, PG diploma management for executives IIMV"
 }

@@ -3,6 +3,7 @@
   "id": "professional-certificate-program-in-project-management",
   "vertical": "project management",
   "title": "Professional Certificate Program in Project Management",
+  "seo_title": "Project Management Program E&ICT IITG | Accredian",
   "description": "Embark on a 5-term learning journey in Project Planning, Risk Management, and Project Procurement.",
   "short_title": "Project Management",
   "contact": "9818329799",
@@ -132,17 +133,26 @@
     {
       "title": "Project Management Fundamentals",
       "id": "1",
-      "points": ["Introduction to Project Management", "Project Initiation"]
+      "points": [
+        "Introduction to Project Management",
+        "Project Initiation"
+      ]
     },
     {
       "title": "Project Planning & Execution",
       "id": "2",
-      "points": ["Project Planning", "Project Execution"]
+      "points": [
+        "Project Planning",
+        "Project Execution"
+      ]
     },
     {
       "title": "Risk Management & Agile Project Management",
       "id": "3",
-      "points": ["Project Risk Management", "Agile Project Management"]
+      "points": [
+        "Project Risk Management",
+        "Agile Project Management"
+      ]
     },
     {
       "title": "Contract, Procurement, Closure",
@@ -232,7 +242,6 @@
     "programId": "professional-certificate-program-in-project-management",
     "points": [
       "72+ Hours of Live Classes",
-      
       "5+ Tools Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -317,7 +326,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Professional Certificate Program in Project Management different?",
@@ -361,5 +370,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Professional-Certificate-in-PMT.pdf",
     "source": "IITG PCP Project Management Brochure",
     "campaign_name": "PCPMT-IITG-6 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Project Management Cert",
+  "meta_description": "Master agile project execution with E&ICT IIT Guwahati's 6-month Professional Certificate in Project Management for project managers and delivery leads.",
+  "keywords": "project management program IIT Guwahati, executive project management certification, PMP training IIT Guwahati"
 }

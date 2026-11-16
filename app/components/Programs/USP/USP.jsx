@@ -22,8 +22,9 @@ import { FileCog, ScrollText, Trophy } from "lucide-react";
 import { GiDiploma } from "react-icons/gi";
 import { FcDiploma1 } from "react-icons/fc";
 
-const USP = () => {
-  const { data } = useSelector((state) => state.program);
+const USP = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   return (
     <div
@@ -36,10 +37,10 @@ const USP = () => {
             Explore the unparalleled offerings for{" "}
             <span className="text-universal">{data?.short_title}</span> Program
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold">
             Program <span className="text-universal">Strengths</span> at a
             Glance*
-          </h1>
+          </h2>
         </div>
         <div className="flex justify-center mt-12">
           <div className={`w-full max-w-[75rem] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:place-items-center gap-4 md:gap-8`}>
@@ -49,9 +50,9 @@ const USP = () => {
                   <FaRegAddressCard className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Completion Certificate
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Official credential validating skills & program completion
                   </h4>
@@ -64,7 +65,7 @@ const USP = () => {
                   <FileCog className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">Capstone Project</h1>
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">Capstone Project</h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Solve real business challenges through hands-on application
                   </h4>
@@ -77,7 +78,7 @@ const USP = () => {
                   <FiTrendingUp className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">BYOP Challenge</h1>
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">BYOP Challenge</h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Design, build, & launch your own product
                   </h4>
@@ -90,7 +91,7 @@ const USP = () => {
                   <RiPresentationFill className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">Product Demo Day</h1>
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">Product Demo Day</h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Showcase products to industry experts & receive feedback
                   </h4>
@@ -103,9 +104,9 @@ const USP = () => {
                   <FaUniversity className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Campus Immersion
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     On-campus exposure with faculty & industry insights
                   </h4>
@@ -118,9 +119,9 @@ const USP = () => {
                   <FaUniversity className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Campus Immersion
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Optional on-campus learning experience with industry exposure
                   </h4>
@@ -133,9 +134,9 @@ const USP = () => {
                   <CgExtensionAdd className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Add-on Modules
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Specialized modules to deepen expertise & practical knowledge
                   </h4>
@@ -148,9 +149,9 @@ const USP = () => {
                   <GrDocumentPerformance className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Experiential Learning
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Hands-on learning through live projects & case studies
                   </h4>
@@ -163,9 +164,9 @@ const USP = () => {
                   <FaEarthAmericas className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Dual Immersive Experiences
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Leadership immersions across IIMV & global business hub, Dubai
                   </h4>
@@ -178,9 +179,9 @@ const USP = () => {
                   <MdGroups2 className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Engaging Simulations
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Interactive simulations to strengthen strategic decision-making
                   </h4>
@@ -193,9 +194,9 @@ const USP = () => {
                   <IoBagHandleSharp className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Exclusive Merchandise
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Premium curated merchandise kit for enrolled participants
                   </h4>
@@ -208,7 +209,7 @@ const USP = () => {
                   <FaChalkboardTeacher className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">Career Session</h1>
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">Career Session</h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Guided mentoring sessions for career clarity & transitions
                   </h4>
@@ -221,7 +222,7 @@ const USP = () => {
                   <FaChalkboardTeacher className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">Career Session</h1>
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">Career Session</h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Guided mentoring sessions for career clarity & transitions, by Accredian
                   </h4>
@@ -234,9 +235,9 @@ const USP = () => {
                   <FaChalkboardTeacher className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     CXO Coaching Sessions
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Strategic coaching from senior industry leaders & CXOs
                   </h4>
@@ -249,9 +250,9 @@ const USP = () => {
                   <FaGraduationCap className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Executive Alumni Status
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Exclusive access to executive alumni community & benefits
                   </h4>
@@ -264,9 +265,9 @@ const USP = () => {
                   <FaGraduationCap className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Executive Alumni Status
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Optional access to executive-level alumni network benefits
                   </h4>
@@ -279,9 +280,9 @@ const USP = () => {
                   <FaGraduationCap className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     IIMV Alumni Status
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Membership in the prestigious IIM Visakhapatnam alumni network
                   </h4>
@@ -294,9 +295,9 @@ const USP = () => {
                   <FaAward className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Convocation Ceremony
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Formal graduation ceremony celebrating academic achievements
                   </h4>
@@ -309,9 +310,9 @@ const USP = () => {
                   <PiCertificateFill className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     PG Diploma from IIMV
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Industry-recognized postgraduate diploma for career advancement
                   </h4>
@@ -324,7 +325,7 @@ const USP = () => {
                   <FaGraduationCap className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">Alumni Status</h1>
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">Alumni Status</h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Official alumni status with E&ICT IIT Guwahati
                   </h4>
@@ -337,9 +338,9 @@ const USP = () => {
                   <MdGroups className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     AI Leadership Training
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Develop AI-driven leadership & strategic decision-making
                   </h4>
@@ -352,9 +353,9 @@ const USP = () => {
                   <TbBooks className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Case Based Pedagogy
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Learn through real-world AI & business case studies
                   </h4>
@@ -367,9 +368,9 @@ const USP = () => {
                   <TbBooks className="w-6 h-6 md:w-full md:h-full" />
                 </div>
                 <div className="flex flex-col md:block">
-                  <h1 className="text-base md:text-lg font-semibold md:mt-4">
+                  <h3 className="text-base md:text-lg font-semibold md:mt-4">
                     Senior Leadership
-                  </h1>
+                  </h3>
                   <h4 className="text-gray-500 md:text-neutral-600 font-normal md:font-medium mt-1 md:mt-2 text-sm md:text-[15px] ">
                     Master enterprise-level leadership, strategy, & innovation
                   </h4>

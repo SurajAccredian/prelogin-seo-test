@@ -1,9 +1,13 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+node validateProgramTitles.js
 node syncPrograms.js
 node syncNumbers.js
-node syncSitemaps.js
+node syncLlms.js
+git add app/components/Assets/programs.json
 git add public/programs.json
-git add public/sitemaps/
-git add public/sitemap.xml
+git add public/numbers.json
+git add public/category-numbers.json
+git add public/llms.txt
+git add public/llms-full.txt

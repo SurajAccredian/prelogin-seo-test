@@ -3,6 +3,7 @@
   "id": "executive-program-in-leadership-with-ai",
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
+  "seo_title": "IIT Guwahati Executive Leadership with AI Program | Accredian",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "9818329799",
@@ -162,7 +163,6 @@
         "Enterprise GenAI: Model Selection & Data Strategy"
       ]
     },
-
     {
       "title": "Capstone Project",
       "special": "1",
@@ -171,7 +171,6 @@
         "Participants will develop a strategic framework for integrating AI, including Generative AI, into an organization that is looking to adopt AI. The project will begin with an assessment of existing processes and challenges to identify opportunities for value addition through Generative AI. Students will craft an AI strategy and outline a detailed implementation roadmap, addressing steps, potential risks, and mitigation strategies. The final deliverable will include a report and presentation that describe the strategic framework, supported by data and case studies, highlighting anticipated benefits for operational efficiency and competitive positioning."
       ]
     },
-
     {
       "title": "Building AI Products & Services",
       "points": [
@@ -272,7 +271,6 @@
     "programId": "executive-program-in-leadership-with-ai",
     "points": [
       "90+ Class Hours",
-
       "10+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -403,5 +401,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-In-Leadership-With-AI.pdf",
     "source": "IITG Executive Program in Leadership with AI Brochure",
     "campaign_name": "EPAI-8 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Leadership with AI",
+  "meta_description": "Develop AI-driven decision-making, digital team management and tech strategy with E&ICT IIT Guwahati's 8-month Leadership with AI program for working managers.",
+  "keywords": "leadership with AI IIT Guwahati, AI leadership executive program, AI strategy for managers, top AI executive leadership courses"
 }

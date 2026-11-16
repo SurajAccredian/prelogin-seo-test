@@ -3,6 +3,7 @@
   "id": "executive-program-in-digital-transformation-ai-for-leaders",
   "vertical": "digital transformation",
   "title": "Executive Program in Digital Transformation & AI for Leaders",
+  "seo_title": "Digital Transformation & AI Program E&ICT IITG | Accredian",
   "description": "Embark on an 11-term learning journey in Digital Strategy, AI/ML Analytics, Natural Language Processing (NLP), and Generative AI.",
   "short_title": "Digital Transformation",
   "contact": "9818329799",
@@ -313,17 +314,14 @@
       "title": "tensorflow",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/tensorflow.svg"
     },
-
     {
       "title": "ChatGPT",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-ai.webp"
     },
-  
     {
       "title": "python",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
     },
-  
     {
       "title": "colab",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/google-colab.svg"
@@ -361,7 +359,6 @@
     "programId": "executive-program-in-digital-transformation-ai-for-leaders",
     "points": [
       "130+ Hours of Live Classes",
-      
       "20+ Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -397,7 +394,7 @@
           },
           {
             "title": "What is the minimum system configuration required?",
-           "content": [
+            "content": [
               "## Minimum System Requirements for the Program:",
               "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
               "- **RAM:** 4GB (8GB recommended for better performance)"
@@ -440,7 +437,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Digital Transformation & AI for Leaders different?",
@@ -484,5 +481,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-Digital-Transformation-and-AI-for-Leaders.pdf",
     "source": "IITG Digital Transformation & AI for Leaders Brochure",
     "campaign_name": "DTAI-IITG-11 Month"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Digital Shift & AI Leaders",
+  "meta_description": "Master digital ecosystem building with E&ICT IIT Guwahati's 11-month Digital Transformation & AI program for working professionals and managers.",
+  "keywords": "digital transformation AI leaders IIT Guwahati, enterprise AI transformation course, digital leadership program India, executive tech strategy"
 }

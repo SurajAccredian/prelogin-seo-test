@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { Box } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
@@ -228,18 +229,24 @@ function MasterForm() {
             display: { xs: "none", sm: "none", md: "block" },
           }}
         >
-          <img
+          <Image
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/loginModalImage.svg"
             alt="Login illustration"
+            width={400}
+            height={400}
+            quality={75}
             style={{ width: "100%", height: "auto", borderRadius: "8px" }}
           />
         </Box>
 
         <Box sx={{ width: { xs: "100%", md: "50%" }, paddingLeft: 4, paddingRight: 4 }}>
           <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mb: 2 }}>
-            <img
+            <Image
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
               alt="Company Logo"
+              width={150}
+              height={45}
+              quality={75}
               style={{ width: "150px", height: "auto" }}
             />
           </Box>

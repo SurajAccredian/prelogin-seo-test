@@ -1,0 +1,734 @@
+{
+    "id": "gim-hybrid-post-graduate-diploma-in-management",
+    "category": "",
+    "vertical": "PG Diploma",
+    "title": "Post Graduate Diploma in Management (Hybrid)",
+    "description": "Embark on a 2-year transformational journey in strategic leadership, cross-functional decision-making, and ethically grounded business judgment.",
+    "short_title": "2 Year Hybrid PGDM",
+    "contact": "8130897175",
+    "university_name": "Goa Institute of Management",
+    "short_university_name": "goa-institute-of-management",
+    "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/GIM_Logo_Blue__1_.webp",
+    "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/GIM_Logo__1_.webp",
+    "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/GIM_Campus_5__1___1___1___1___1___1_.webp",
+    "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Brochure_Page_-_Shubham__9_.webp",
+    "start_date": "2 May 2027",
+    "duration": "2 Years",
+    "required_years_experience": 3,
+    "type": "online",
+    "enrollments": "coming-soon",
+    "timings": "weekends only",
+    "tags": [],
+    "key_features": [
+        {
+            "text": "800+",
+            "title": "hours"
+        },
+        {
+            "text": "2 Day",
+            "title": "int. immersion in dubai (opt.)"
+        },
+        {
+            "text": "7+",
+            "title": "case studies"
+        },
+        {
+            "text": "12 Days",
+            "title": "campus immersion"
+        },
+        {
+            "text": "1",
+            "title": "project"
+        }
+    ],
+    "domain": "PG Diploma",
+    "overview": {
+        "programId": "gim-hybrid-post-graduate-diploma-in-management",
+        "content": [
+            {
+                "title": "who should join",
+                "points": [
+                    "Early-to-Mid-Career Professionals : Build management foundations to step into leadership roles.",
+                    "Managers & Team Leads: Strengthen decision-making and people leadership to lead larger teams.",
+                    "Functional Specialists: Gain cross-functional business fluency to move into general management.",
+                    "Senior Managers & Division Heads: Sharpen strategic judgment to influence enterprise-level decisions.",
+                    "Consultants & Business Analysts: Apply structured frameworks to deliver sharper client recommendations.",
+                    "Entrepreneurs & Family Business Owners: Refine strategic vision and ethical governance for sustainable growth."
+                ]
+            },
+            {
+                "title": "job opportunities",
+                "points": [
+                    "Business Unit Heads",
+                    "Strategy & Corporate Planning Managers",
+                    "Finance & Business Controllers",
+                    "Product & Program Managers",
+                    "Management Consultants",
+                    "Entrepreneurs & Founders",
+                    "HR & Talent Management Leaders",
+                    "Business Analytics & Insights Managers"
+                ]
+            },
+            {
+                "title": "program snapshot",
+                "points": [
+                    "Foundation Courses - 3 | Core Courses - 16 | Electives - 27 ",
+                    "Duration: 2 Years | Weekend Online",
+                    "Live Instructor led classes",
+                    "Learn from esteemed GIM's faculty and top industry professionals.",
+                    "Certification from Goa Institute of Management",
+                    "GIM Alumni Status",
+                    "Campus Immersions: 12 Days of Campus Immersion"
+                ]
+            }
+        ]
+    },
+    "curriculum_type": "module",
+    "unique_points": [
+        "certificate",
+        "mentoring-session",
+        "strategic-leadership",
+        "convocation-ceremony"
+    ],
+    "extra_points": [
+        "Technical Support",
+        "Placement Assistance",
+        "Learning Hub"
+    ],
+    "admission_process": [
+        "Fill the application form",
+        "Application Review",
+        "Start Learning"
+    ],
+    "curriculum": {
+        "Year 1": {
+            "title": "Year 1",
+            "totalCredits": 43,
+            "coreCourses": {
+                "title": "Core Courses",
+                "selectionRule": "All required",
+                "subtotalCredits": 30,
+                "courses": [
+                    {
+                        "name": "Quantitative & Research Methods",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Marketing Management",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Managerial Economics",
+                        "credits": 3
+                    },
+                    {
+                        "name": "People Management",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Managerial Accounting",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Operations Management",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Social and Legal Aspects of Business",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Financial Management",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Group Dynamics and Leadership",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Business Ethics & Corporate Governance",
+                        "credits": 3
+                    }
+                ]
+            },
+            "openElectives": {
+                "title": "Open Electives",
+                "selectionRequirement": "any 1",
+                "selectionRule": "Choose any 1",
+                "requiredCredits": 2,
+                "subtotalCredits": 6,
+                "courses": [
+                    {
+                        "name": "Organizational Development & Change Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Competency Mapping & Assessment Centre for Talent Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Financial Statement Analysis",
+                        "credits": 2
+                    }
+                ]
+            },
+            "limitedA": {
+                "title": "Limited Elective A",
+                "selectionRule": "Choose either A or B",
+                "subtotalCredits": 6,
+                "courses": [
+                    {
+                        "name": "Marketing Research",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Consumer Behaviour",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Digital Marketing",
+                        "credits": 2
+                    }
+                ]
+            },
+            "limitedB": {
+                "title": "Limited Elective B",
+                "selectionRule": "Choose either A or B",
+                "subtotalCredits": 6,
+                "courses": [
+                    {
+                        "name": "Operations Strategy",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Service Operations Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Inventory & Materials Management",
+                        "credits": 2
+                    }
+                ]
+            },
+            "semesters": {
+                "Semester 1": {
+                    "id": "Y1S1",
+                    "title": "Semester 1",
+                    "totalCredits": 25,
+                    "foundationCourses": {
+                        "title": "Foundation Courses",
+                        "selectionRule": "All required",
+                        "subtotalCredits": 3,
+                        "courses": [
+                            {
+                                "name": "Basic Statistics",
+                                "credits": 1
+                            },
+                            {
+                                "name": "MS Excel",
+                                "credits": 1
+                            },
+                            {
+                                "name": "Business Communication",
+                                "credits": 1
+                            }
+                        ]
+                    },
+                    "coreCourses": {
+                        "title": "Core Courses",
+                        "selectionRule": "All required",
+                        "subtotalCredits": 21,
+                        "courses": [
+                            {
+                                "name": "Quantitative & Research Methods",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Marketing Management",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Managerial Economics",
+                                "credits": 3
+                            },
+                            {
+                                "name": "People Management",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Managerial Accounting",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Operations Management",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Social and Legal Aspects of Business",
+                                "credits": 3
+                            }
+                        ]
+                    },
+                    "openElectives": null,
+                    "limitedA": null,
+                    "limitedB": null,
+                    "masterClass": {
+                        "title": "Master Class",
+                        "selectionRule": "Required",
+                        "credits": 1
+                    }
+                },
+                "Semester 2": {
+                    "id": "Y1S2",
+                    "title": "Semester 2",
+                    "totalCredits": 18,
+                    "coreCourses": {
+                        "title": "Core Courses",
+                        "selectionRule": "All required",
+                        "subtotalCredits": 9,
+                        "courses": [
+                            {
+                                "name": "Financial Management",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Group Dynamics and Leadership",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Business Ethics & Corporate Governance",
+                                "credits": 3
+                            }
+                        ]
+                    },
+                    "openElectives": {
+                        "title": "Open Electives",
+                        "selectionRequirement": "any 1",
+                        "selectionRule": "Choose any 1",
+                        "requiredCredits": 2,
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "Organizational Development & Change Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Competency Mapping & Assessment Centre for Talent Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Financial Statement Analysis",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "limitedA": {
+                        "title": "Limited Elective A",
+                        "selectionRule": "Choose either A or B",
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "Marketing Research",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Consumer Behaviour",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Digital Marketing",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "limitedB": {
+                        "title": "Limited Elective B",
+                        "selectionRule": "Choose either A or B",
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "Operations Strategy",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Service Operations Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Inventory & Materials Management",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "masterClass": {
+                        "title": "Master Class",
+                        "selectionRule": "Required",
+                        "credits": 1
+                    }
+                }
+            }
+        },
+        "Year 2": {
+            "title": "Year 2",
+            "totalCredits": 37,
+            "coreCourses": {
+                "title": "Core Courses",
+                "selectionRule": "All required",
+                "subtotalCredits": 19,
+                "courses": [
+                    {
+                        "name": "Strategic Management",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Entrepreneurship & Design Thinking",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Supply Chain Strategy & Management",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Project",
+                        "credits": 4
+                    },
+                    {
+                        "name": "Digital Transformation",
+                        "credits": 3
+                    },
+                    {
+                        "name": "Business Analytics",
+                        "credits": 3
+                    }
+                ]
+            },
+            "openElectives": {
+                "title": "Open Electives",
+                "selectionRequirement": "any 1",
+                "selectionRule": "Choose any 1",
+                "requiredCredits": 4,
+                "subtotalCredits": 4,
+                "courses": [
+                    {
+                        "name": "HR Analytics",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Emerging Technologies in Business",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Investment Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Performance Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Data Visualization and Storytelling",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Mergers & Acquisitions",
+                        "credits": 2
+                    }
+                ]
+            },
+            "limitedA": {
+                "title": "Limited Elective A",
+                "selectionRule": "Choose either A or B",
+                "subtotalCredits": 12,
+                "courses": [
+                    {
+                        "name": "Brand Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Marketing Analytics",
+                        "credits": 2
+                    },
+                    {
+                        "name": "B2B Marketing",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Services Marketing",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Rural Marketing",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Sales Force Management",
+                        "credits": 2
+                    }
+                ]
+            },
+            "limitedB": {
+                "title": "Limited Elective B",
+                "selectionRule": "Choose either A or B",
+                "subtotalCredits": 12,
+                "courses": [
+                    {
+                        "name": "Revenue Analytics",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Maintenance Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Quality Strategy & Engineering",
+                        "credits": 2
+                    },
+                    {
+                        "name": "E-Commerce: Strategy & Execution",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Project Management",
+                        "credits": 2
+                    },
+                    {
+                        "name": "Industry 4.0 Applications",
+                        "credits": 2
+                    }
+                ]
+            },
+            "semesters": {
+                "Semester 3": {
+                    "id": "Y2S3",
+                    "title": "Semester 3",
+                    "totalCredits": 18,
+                    "coreCourses": {
+                        "title": "Core Courses",
+                        "selectionRule": "All required",
+                        "subtotalCredits": 9,
+                        "courses": [
+                            {
+                                "name": "Strategic Management",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Entrepreneurship & Design Thinking",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Supply Chain Strategy & Management",
+                                "credits": 3
+                            }
+                        ]
+                    },
+                    "openElectives": {
+                        "title": "Open Electives",
+                        "selectionRequirement": "any 1",
+                        "selectionRule": "Choose any 1",
+                        "requiredCredits": 2,
+                        "subtotalCredits": 2,
+                        "courses": [
+                            {
+                                "name": "HR Analytics",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Emerging Technologies in Business",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Investment Management",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "limitedA": {
+                        "title": "Limited Elective A",
+                        "selectionRule": "Choose either A or B",
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "Brand Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Marketing Analytics",
+                                "credits": 2
+                            },
+                            {
+                                "name": "B2B Marketing",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "limitedB": {
+                        "title": "Limited Elective B",
+                        "selectionRule": "Choose either A or B",
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "Revenue Analytics",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Maintenance Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Quality Strategy & Engineering",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "masterClass": {
+                        "title": "Master Class",
+                        "selectionRule": "Required",
+                        "credits": 1
+                    }
+                },
+                "Semester 4": {
+                    "id": "Y2S4",
+                    "title": "Semester 4",
+                    "totalCredits": 19,
+                    "coreCourses": {
+                        "title": "Core Courses",
+                        "selectionRule": "All required",
+                        "subtotalCredits": 10,
+                        "courses": [
+                            {
+                                "name": "Project",
+                                "credits": 4
+                            },
+                            {
+                                "name": "Digital Transformation",
+                                "credits": 3
+                            },
+                            {
+                                "name": "Business Analytics",
+                                "credits": 3
+                            }
+                        ]
+                    },
+                    "openElectives": {
+                        "title": "Open Electives",
+                        "selectionRequirement": "any 1",
+                        "selectionRule": "Choose any 1",
+                        "requiredCredits": 2,
+                        "subtotalCredits": 2,
+                        "courses": [
+                            {
+                                "name": "Performance Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Data Visualization and Storytelling",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Mergers & Acquisitions",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "limitedA": {
+                        "title": "Limited Elective A",
+                        "selectionRule": "Choose either A or B",
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "Services Marketing",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Rural Marketing",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Sales Force Management",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "limitedB": {
+                        "title": "Limited Elective B",
+                        "selectionRule": "Choose either A or B",
+                        "subtotalCredits": 6,
+                        "courses": [
+                            {
+                                "name": "E-Commerce: Strategy & Execution",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Project Management",
+                                "credits": 2
+                            },
+                            {
+                                "name": "Industry 4.0 Applications",
+                                "credits": 2
+                            }
+                        ]
+                    },
+                    "masterClass": {
+                        "title": "Master Class",
+                        "selectionRule": "Required",
+                        "credits": 1
+                    }
+                }
+            }
+        }
+    },
+    "billing": {
+        "total": 560000,
+        "points": [
+            "800+ Hours of Live Classes",
+            "Access to Session Recordings",
+            "Quick Query Resolution"
+        ],
+        "monthly_emi": [
+            {
+                "emi": 56375,
+                "months": 12
+            },
+            {
+                "emi": 38947,
+                "months": 18
+            },
+            {
+                "emi": 30169,
+                "months": 24
+            }
+        ]
+    },
+    "sections": [
+        "introduction",
+        "overview",
+        "curriculum",
+        "unique points",
+        "certificate",
+        "top companies",
+        "extra achievements",
+        "program fee"
+    ],
+    "brochure": {
+        "pdf": "",
+        "source": "GOA-INSTITUTE-OF-MANAGEMENT Post Graduate Diploma in Management (Two-Year executive MBA) Brochure",
+        "campaign_name": "GOA-INSTITUTE-OF-MANAGEMENT-PG Diploma"
+    },
+    "faculty": [
+        {
+            "name": "Dr. Ajit Parulekar",
+            "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Screenshot_2026-11-02_154238.webp",
+            "position": "Director",
+            "organization": "",
+            "organization_image": ""
+        },
+        {
+            "name": "Dr. Abhishek Ranga",
+            "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/Screenshot_2026-11-04_101245.webp",
+            "position": "Professor",
+            "organization": "",
+            "organization_image": ""
+        }
+    ],
+    "tools": []
+}

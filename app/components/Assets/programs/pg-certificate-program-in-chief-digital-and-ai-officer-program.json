@@ -1,8 +1,10 @@
 {
   "category": "31",
   "id": "pg-certificate-program-in-chief-digital-and-ai-officer-program",
+  "pid": 117,
   "vertical": "cxo leadership",
   "title": "PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program)",
+  "seo_title": "Chief Digital & AI Officer Program IIMV | Accredian",
   "description": "Embark on an 11 month learning journey in Strategic Leadership, Digital Technologies, and AI Strategy.",
   "short_title": "Chief Digital & AI Officer",
   "contact": "7619555873",
@@ -15,13 +17,13 @@
   "duration": "11 Months",
   "required_years_experience": 10,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "enroll_button_text": "Batch Coming Soon",
   "enroll_button_disabled": true,
   "timings": "weekends only",
   "tags": [
     {
-      "title": "new launch",
+      "title": "coming soon",
       "type": "main"
     },
     {
@@ -114,7 +116,11 @@
     "campus-immersion",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -285,7 +291,6 @@
       "organization": "IIM Visakhapatnam",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. Sushil Kumar",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
@@ -307,7 +312,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Dr. MV Anuradha",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
@@ -351,7 +355,6 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
   ],
-
   "tools": [
     {
       "title": "Aha!",
@@ -378,12 +381,10 @@
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/notion.svg"
     }
   ],
-
   "billing": {
     "programId": "pg-certificate-program-in-chief-digital-and-ai-officer-program ",
     "points": [
       "132+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -438,10 +439,11 @@
               "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
             ]
           },
-
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },
@@ -490,5 +492,9 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Chief-Digital-and-AI-Officer-Program.pdf",
     "source": "IIMV PG Certificate Program in Chief Digital & AI Officer (The CDAIO Program) Brochure",
     "campaign_name": "IIMV-CDAIO-11-Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate CDAIO Program",
+  "meta_description": "Build skills in enterprise AI strategy, chief digital officer leadership and tech with IIM Visakhapatnam's 11-month CDAIO Program for digital leaders.",
+  "keywords": "PG certificate chief digital AI officer IIM Visakhapatnam, CDAIO program IIMV, chief digital officer certification",
+  "status": "Coming Soon"
 }

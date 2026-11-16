@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
@@ -62,13 +63,14 @@ const NavigationTop = ({ show, data, setCurrentSection, currentSection }) => {
         <div className="flex-[0.1] hidden md:flex items-center">
           <Link href="/" prefetch={false} style={{ textDecoration: "none" }}>
             <div className="max-w-[125px] min-w-[100px] w-full">
-              <img
+              <Image
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                 alt="Accredian logo"
-                width="358"
-                height="105"
+                width={125}
+                height={37}
                 className="w-full h-auto"
-                loading="lazy"
+                priority
+                quality={75}
               />
             </div>
           </Link>

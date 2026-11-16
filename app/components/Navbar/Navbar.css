@@ -38,18 +38,19 @@
 }
 
 .nav-3-left {
-  flex: 0.7;
+  flex: 1;
   display: flex;
-  gap: 2rem;
+  gap: 1.25rem;
   align-items: center;
+  min-width: 0;
 }
 
 .nav-3-right {
-  flex: 1;
   display: flex;
   gap: 1rem;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .nav-3-right .nav-3-right-inner {

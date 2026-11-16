@@ -1,0 +1,292 @@
+{
+  "id": "pg-certificate-program-in-chief-financial-officer-the-cfo-program",
+  "pid": 184,
+  "category": "63",
+  "vertical": "CXO Leadership",
+  "title": "PG Certificate Program in Chief Financial Officer (The CFO Program)",
+  "description": "Embark on a 12 month learning journey in Financial Leadership, Corporate Governance, and Digital Leadership.",
+  "short_title": "Chief Financial Officer",
+  "contact": "9289224842",
+  "university_name": "IIM Ranchi",
+  "short_university_name": "iim-ranchi",
+  "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1_.webp",
+  "start_date": "7 Mar 2027",
+  "duration": "12 Months",
+  "required_years_experience": 8,
+  "type": "online",
+  "enrollments": "active",
+  "timings": "weekends only",
+  "tags": [],
+  "key_features": [
+    {
+      "text": "144+",
+      "title": "hours"
+    },
+    {
+      "text": "6",
+      "title": "career sessions"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "13",
+      "title": "modules"
+    },
+    {
+      "text": "3 Days",
+      "title": "campus immersion"
+    }
+  ],
+  "domain": "CXO Leadership",
+  "overview": {
+    "programId": "pg-certificate-program-in-chief-financial-officer-the-cfo-program",
+    "content": [
+      {
+        "title": "who should join",
+        "points": [
+          "Current CFOs: Refine financial leadership and stay ahead of trends",
+          "Senior Finance Leaders (SVP Directors Controllers): Scale influence and prepare for the CFO seat",
+          "High-Potential Finance Managers: Gain comprehensive insights into financial leadership",
+          "Strategic Executives: Deepen understanding of CFO responsibilities",
+          "Financial Consultants: Understand CFO challenges to better serve clients",
+          "Industry Experts: Shift from technical finance to executive leadership"
+        ]
+      },
+      {
+        "title": "job opportunities",
+        "points": [
+          "Chief Financial Officer (CFO)",
+          "Chief Executive Officer (CEO)",
+          "Chief Operating Officer (COO)",
+          "Chief Risk Officer (CRO)",
+          "Vice President of Finance",
+          "Finance Director",
+          "Corporate Treasurer",
+          "Senior Financial Consultant",
+          "Board Member",
+          "Entrepreneur/Founder"
+        ]
+      },
+      {
+        "title": "program snapshot",
+        "points": [
+          "4 Pillars - Core CFO Mandate & Financial Excellence",
+          "Learn from Esteemed IIM Ranchi Faculty",
+          "Duration: 12 Months | Weekend Online",
+          "Certification from IIM Ranchi",
+          "Executive Alumni Status",
+          "Career Assistance by Accredian",
+          "EMI Options up to 24 Months",
+          "One Campus Immersion of 3 days",
+          "1 Capstone Project"
+        ]
+      }
+    ]
+  },
+  "curriculum_type": "module",
+  "unique_points": [
+    "certificate",
+    "capstone-project",
+    "alumni-status",
+    "campus-immersion"
+  ],
+  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "admission_process": [
+    "Fill the application form",
+    "Application Review",
+    "Start Learning"
+  ],
+  "curriculum": [
+    {
+      "title": "The Modern CFO",
+      "points": [
+        "Evolving role and mandate of the CFO",
+        "CFO as strategic business partner and enterprise leader",
+        "CEO–CFO dynamics and cross-functional leadership",
+        "Balancing growth, profitability, liquidity, risk, and integrity"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Financial Leadership",
+      "points": [
+        "Aligning financial strategy with business strategy",
+        "Business models and enterprise value drivers",
+        "Unit economics and drivers of profitable growth",
+        "Strategic decision-making under uncertainty"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Boardroom Leadership & Executive Communication for CFOs",
+      "points": [
+        "Boardroom presence and executive influence",
+        "Financial storytelling and strategic narratives",
+        "Board and audit committee engagement",
+        "Investor relations and earnings communication"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Planning & Analysis",
+      "points": [
+        "Strategic and long-range financial planning",
+        "Budgeting, forecasting,  and variance analysis",
+        "Financial modelling and driver-based planning",
+        "Scenario planning, profitability analysis, and performance insights"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Strategic Finance & Capital Allocation",
+      "points": [
+        "Capital structure and cost of capital",
+        "Capital markets and debt, equity, and hybrid financing",
+        "Capital allocation and investment prioritization",
+        "Fundraising, restructuring, and turnaround finance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Treasury & Working Capital Management",
+      "points": [
+        "Cash flow forecasting and liquidity management",
+        "Working capital and cash conversion optimization",
+        "Treasury strategy, banking relationships,  and funding",
+        "FX and interest-rate risk, hedging, and funding resilience"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Reporting & Controllership",
+      "points": [
+        "Financial reporting, accounting judgment, and regulatory standards",
+        "Financial close, consolidation, and management reporting",
+        "Earnings quality, financial red flags, and internal controls",
+        "Audit assurance and sustainability reporting"
+      ],
+      "modules": []
+    },
+    {
+      "title": "M&A & Strategic Investments",
+      "points": [
+        "M&A strategy, target screening, and strategic fit",
+        "Business valuation and transaction modelling",
+        "Due diligence, deal structuring, and transaction economics",
+        "Post-merger integration, divestitures, and synergy realization"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Governance & Risk Management",
+      "points": [
+        "Financial governance and CFO accountability",
+        "Enterprise risk management and internal control frameworks",
+        "Financial, operational, cyber,  and emerging risks",
+        "Fraud risk, crisis management, and business resilience"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Tax Strategy & International Finance",
+      "points": [
+        "Corporate tax strategy and tax governance",
+        "International taxation and cross-border structuring",
+        "Transfer pricing and global tax developments",
+        "Foreign operations, transaction tax, and regulatory compliance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Finance Transformation & FinTech",
+      "points": [
+        "Finance operating model transformation",
+        "ERP, cloud, and connected finance architecture",
+        "Intelligent automation and touchless finance",
+        "FinTech, digital payments, and embedded finance"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Financial Analytics & Decision Support",
+      "points": [
+        "Financial dashboards and performance analytics",
+        "Predictive analytics for forecasting and planning",
+        "Scenario modelling and advanced financial analytics",
+        "Machine learning for financial decision-making"
+      ],
+      "modules": []
+    },
+    {
+      "title": "AI & GenAI for CFOs",
+      "points": [
+        "AI applications across the finance function",
+        "GenAI for financial analysis and decision support",
+        "AI copilots and AI driven automation",
+        "Responsible AI, governance, and controls"
+      ],
+      "modules": []
+    },
+    {
+      "title": "Capstone Project",
+      "special": "1",
+      "id": "capstone-project",
+      "points": [
+        "Participants will address a complex CFO-level business challenge by developing an integrated financial strategy for a real or simulated organization. The project may cover financial planning, capital allocation, profitability, risk, M&A, digital finance or AI-led transformation. Participants will apply program frameworks, analyze financial and business data evaluate strategic trade-offs and present actionable recommendations to drive sustainable enterprise value."
+      ]
+    },
+    {
+      "title": "CXO Coaching",
+      "special": "2",
+      "id": "cxo-coaching",
+      "points": [
+        "Elevate your Chief Financial Officer (CFO) Program experience with exclusive CXO coaching. Gain in valuable insights into strategic financial leadership, boardroom influence, capital allocation, and enterprise value creation. Prepare to take on strategic CFO and enterprise leadership roles through first hand guidance, practical perspectives, and mentorship from experienced industry leaders."
+      ]
+    }
+  ],
+  "billing": {
+    "total": 290000,
+    "points": [
+      "144+ Hours of Live Classes",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution"
+    ],
+    "monthly_emi": [
+      {
+        "emi": 26019,
+        "months": 12
+      },
+      {
+        "emi": 17976,
+        "months": 18
+      },
+      {
+        "emi": 13924,
+        "months": 24
+      }
+    ]
+  },
+  "sections": [
+    "introduction",
+    "overview",
+    "curriculum",
+    "unique points",
+    "certificate",
+    "top companies",
+    "extra achievements",
+    "program fee",
+    "FAQs"
+  ],
+  "brochure": {
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-PG-Certificate-Program-In-Chief-Financial-Officer-The-CFO-Program.pdf",
+    "source": "IIM-RANCHI Chief Financial Officer Program Brochure",
+    "campaign_name": "IIM-RANCHI-Chief Financial Officer"
+  },
+  "faculty": [],
+  "tools": []
+}

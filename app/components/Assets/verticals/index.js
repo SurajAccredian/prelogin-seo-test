@@ -13,4 +13,6 @@ export const verticalsData = {
   "project management": require('./project management.json'),
   "senior management": require('./senior management.json'),
   "strategy & leadership": require('./strategy & leadership.json'),
+  "strategy and leadership": require('./strategy & leadership.json'),
+  "strategy leadership": require('./strategy & leadership.json'),
 };

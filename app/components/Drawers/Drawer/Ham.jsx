@@ -1,9 +1,12 @@
 import Drawer from "@mui/material/Drawer";
+import Image from "next/image";
 import { TbLogin2 } from "react-icons/tb";
 import AccordionHam from "./AccodionHam";
 import AccodionMyAccount from "./AccodionMyAccount";
 import { X } from "lucide-react";
-import { useState, useEffect } from "react";
+
+const FREE_COURSE_CATEGORIES = [66, 71];
+const isFreeCourseCategory = (cat) => FREE_COURSE_CATEGORIES.includes(Number(cat));
 
 export default function Ham({
   isOpen,
@@ -12,17 +15,20 @@ export default function Ham({
   LogOut,
   onLoginClick,
 }) {
-  const [onlyCategory66, setOnlyCategory66] = useState(false);
-
-  useEffect(() => {
-    if (loginStatus) {
-      const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
-      const isOnly66 = enrollmentDetails && enrollmentDetails.length === 1 && Number(enrollmentDetails[0].category) === 66;
-      setOnlyCategory66(isOnly66);
-    } else {
-      setOnlyCategory66(false);
-    }
-  }, [loginStatus]);
+  const hasFreeCourse = Boolean(
+    loginStatus &&
+    typeof window !== "undefined" &&
+    (() => {
+      try {
+        const enrollmentDetails = JSON.parse(localStorage.getItem("enrollment") || "[]");
+        return Array.isArray(enrollmentDetails) && enrollmentDetails.some(
+          item => isFreeCourseCategory(item.category || item.category_id)
+        );
+      } catch {
+        return false;
+      }
+    })()
+  );
   const toggleDrawer = (open) => (event) => {
     if (
       event.type === "keydown" &&
@@ -44,10 +50,13 @@ export default function Ham({
         <div className="w-full bg-white p-4 font-circular flex flex-col overflow-y-auto custom-scrollbar xl:hidden">
           <div className="flex-grow">
             <div className="w-full flex justify-between items-center mt-2 mb-6">
-              <img
+              <Image
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
-                alt="logo"
-                className="max-w-[130px] w-full"
+                alt="Accredian logo"
+                width={130}
+                height={38}
+                quality={75}
+                className="max-w-[130px] w-full h-auto"
               />
 
               <X
@@ -66,7 +75,7 @@ export default function Ham({
                 >
                   <div className="flex justify-center items-center gap-2 w-full text-center">
                     <TbLogin2 />
-                    <h1 className="font-semibold text-center text-xl">Login</h1>
+                    <span className="font-semibold text-center text-xl">Login</span>
                   </div>
                 </div>
                 {/* <a
@@ -84,10 +93,17 @@ export default function Ham({
               </div>
             )}
           </div>
-          {!onlyCategory66 && (
+          {!hasFreeCourse && (
             <div>
               <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/referandearn`} target="_blank" rel="noreferrer">
-                <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp" className="" alt="Refer and earn banner" />
+                <Image
+                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/dropDownBanner-v2.webp"
+                  className="w-full h-auto"
+                  alt="Refer and earn banner"
+                  width={280}
+                  height={140}
+                  quality={75}
+                />
               </a>
             </div>
           )}

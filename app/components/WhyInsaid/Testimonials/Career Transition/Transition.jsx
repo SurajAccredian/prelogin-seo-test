@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { useRef } from "react";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -55,10 +56,10 @@ const Transition = () => {
               </h4>
 
 
-              <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+              <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                 Our Top Career{" "}
                 <span className="text-universal">Transitions</span>
-              </h1>
+              </h2>
             </div>
           </div>
         </div>
@@ -110,16 +111,21 @@ const Transition = () => {
                   <div className="w-full flex items-center gap-4 justify-between relative">
                     <div className="w-full md:flex-[0.7] flex items-center gap-4">
                       <div className="w-28 h-28 flex-shrink-0 rounded-full overflow-hidden border">
-                        <img
-                          className="w-full h-full object-cover object-top"
-                          src={transition.image}
-                          alt={transition.name}
-                        />
+                        {transition.image && (
+                          <Image
+                            width={112}
+                            height={112}
+                            quality={75}
+                            className="w-full h-full object-cover object-top"
+                            src={transition.image}
+                            alt={transition.name || "Alumni photo"}
+                          />
+                        )}
                       </div>
                       <div>
-                        <h1 className="text-lg font-semibold">
+                        <h3 className="text-lg font-semibold">
                           {transition.name}
-                        </h1>
+                        </h3>
                         {transition.experience && (
                           <h4 className="text-xs md:text-sm font-medium text-neutral-500">
                             {transition.experience} Years of Experience
@@ -148,19 +154,24 @@ const Transition = () => {
                     {/* companies div */}
                     <div className="w-full lg:flex-[0.5] min-h-32 border rounded-xl py-3 px-4 text-center flex flex-col justify-between items-center">
                       <div className="w-full min-h-20 ">
-                        <h1 className="font-medium text-sm text-neutral-500">
+                        <p className="font-medium text-sm text-neutral-500">
                           From
-                        </h1>
-                        <h1 className="text-base mt-2 text-neutral-700 font-medium">
+                        </p>
+                        <p className="text-base mt-2 text-neutral-700 font-medium">
                           {transition?.from?.role}
-                        </h1>
+                        </p>
                       </div>
                       <div className="w-full max-w-28 min-h-12 mt-2 flex flex-col justify-center items-center">
-                        <img
-                          className="w-full"
-                          src={transition?.from?.logo}
-                          alt={transition?.from?.name}
-                        />
+                        {transition?.from?.logo && (
+                          <Image
+                            width={112}
+                            height={48}
+                            quality={75}
+                            className="w-full h-auto max-h-12 object-contain"
+                            src={transition?.from?.logo}
+                            alt={transition?.from?.name || "Company logo"}
+                          />
+                        )}
                       </div>
                     </div>
                     <div className="w-5 h-5 flex-shrink-0">
@@ -168,19 +179,24 @@ const Transition = () => {
                     </div>
                     <div className="w-full lg:flex-[0.5] min-h-32 border rounded-xl py-3 px-4 text-center flex flex-col justify-between items-center">
                       <div className="w-full min-h-20">
-                        <h1 className="font-medium text-sm text-neutral-500">
+                        <p className="font-medium text-sm text-neutral-500">
                           To
-                        </h1>
-                        <h1 className="text-base mt-2 text-neutral-700 font-medium">
+                        </p>
+                        <p className="text-base mt-2 text-neutral-700 font-medium">
                           {transition?.to?.role}
-                        </h1>
+                        </p>
                       </div>
                       <div className="w-full max-w-28 min-h-12 mt-2 flex flex-col justify-center items-center">
-                        <img
-                          className="w-full"
-                          src={transition?.to?.logo}
-                          alt={transition?.to?.name}
-                        />
+                        {transition?.to?.logo && (
+                          <Image
+                            width={112}
+                            height={48}
+                            quality={75}
+                            className="w-full h-auto max-h-12 object-contain"
+                            src={transition?.to?.logo}
+                            alt={transition?.to?.name || "Company logo"}
+                          />
+                        )}
                       </div>
                     </div>
                   </div>

@@ -13,8 +13,9 @@ const CTA = () => {
     const data = {
       vertical: "",
       contact: "7619555873",
+      source: "Get Expert Guidance",
       brochure: {
-        source: "website",
+        source: "Get Expert Guidance",
         campaign_name: "",
       },
     };
@@ -31,9 +32,9 @@ const CTA = () => {
             </div>
           </div>
           <div className="text-start">
-            <h1 className="text-2xl md:text-3xl font-semibold text-white max-md:hidden">
+            <h2 className="text-2xl md:text-3xl font-semibold text-white max-md:hidden">
               Don’t Just Upskill. Level Up.
-            </h1>
+            </h2>
             {/* <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100">Share your details to receive expert insights from our program team!</h4> */}
             <h4 className="text-lg md:mt-2 max-w-xl font-medium text-neutral-100">
               Speak with experts to choose the right executive program and build
@@ -42,6 +43,7 @@ const CTA = () => {
           </div>
         </div>
         <button
+          data-track="Get Expert Guidance"
           onClick={handleModalOpen}
           className="cta-button w-full md:max-w-[250px] px-4 py-3  rounded-lg text-blue-500 bg-white text-lg md:text-xl font-semibold flex items-center justify-center gap-1"
         >

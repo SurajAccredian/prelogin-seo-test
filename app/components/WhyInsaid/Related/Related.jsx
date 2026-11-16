@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -91,10 +92,10 @@ const Related = () => {
     <div className="related w-full xl:px-12 px-4">
       <div className="w-full text-center">
         <h4 className="text-base font-medium">Choose the Right Program</h4>
-        <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+        <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
           Explore Our
           <span className="text-universal"> Career-Accelerating</span> Programs
-        </h1>
+        </h2>
       </div>
       <div className="w-full flex mt-6 justify-center">
         <div className="w-full max-w-[85rem] flex justify-center gap-2 relative">
@@ -135,7 +136,7 @@ const Related = () => {
               {verticalPrograms.map((program, index) => (
                 <SwiperSlide key={index} className="py-4">
                   <div className="w-full lg:max-w-[400px] min-h-[420px] rounded-2xl overflow-hidden bg-white drop-shadow-md border flex flex-col relative">
-                    <div className="w-full h-32 flex items-center justify-center bg-blue-50">
+                    <div className="w-full h-32 flex items-center justify-center bg-blue-50 relative">
                       <div className="absolute top-2 right-2 z-10">
                         <div
                           className={`rounded-lg px-3 py-1 capitalize text-xs font-semibold text-white shadow-md bg-green-500`}
@@ -143,58 +144,68 @@ const Related = () => {
                           {program.category}
                         </div>
                       </div>
-                      <img
-                        className="w-full h-full object-cover"
-                        src={program.cover_image}
-                        alt="cover images"
-                      />
+                      {program.cover_image && (
+                        <Image
+                          fill
+                          sizes="(max-width: 768px) 100vw, 400px"
+                          quality={75}
+                          className="object-cover"
+                          src={program.cover_image}
+                          alt={`${program.title || program.program_name} - ${program.university_name || "Accredian"}`}
+                        />
+                      )}
                     </div>
                     <div className="w-full pt-4 pb-2 px-4">
                       <div className="w-full flex items-center gap-4">
-                        <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md">
-                          <img
-                            title={program.university_name}
-                            src={program.university_image}
-                            className="w-full h-full object-contain rounded-sm"
-                            alt={program.university_name}
-                          />
+                        <div className="w-10 h-10 flex-shrink-0 rounded-xl overflow-hidden p-2 bg-white drop-shadow-md relative">
+                          {program.university_image && (
+                            <Image
+                              title={program.university_name}
+                              src={program.university_image}
+                              width={40}
+                              height={40}
+                              quality={75}
+                              className="w-full h-full object-contain rounded-sm"
+                              alt={program.university_name || "University logo"}
+                            />
+                          )}
                         </div>
 
-                        <h1
+                        <p
                           title={program.university_name}
                           className="text-center font-medium text-xs text-neutral-500 cursor-context-menu"
                         >
                           {program.university_name}
-                        </h1>
+                        </p>
                       </div>
                       <div className="w-full border-b border-neutral-300 mt-4" />
                     </div>
                     <div className="w-full flex-1 flex flex-col justify-between px-4 pt-2 pb-4 cursor-context-menu">
-                      <h1 className="font-semibold">{program.program_name}</h1>
+                      <h3 className="font-semibold">{program.program_name}</h3>
                       <div className="w-full">
-                        <h2
+                        <p
                           className="w-full text-[14px] text-neutral-400 my-4 truncate cursor-context-menu"
                           title={program.tags?.join(", ")}
                         >
                           <span className="text-black">Core skills - </span>
                           {program.tags?.join(", ")}
-                        </h2>
+                        </p>
                         <div className="flex items-center gap-2">
                           <CiViewTimeline
                             className="text-2xl text-universal/90"
                             strokeWidth={0.5}
                           />
-                          <h1 className="text-base font-medium capitalize">
+                          <p className="text-base font-medium capitalize">
                             {program.duration} -{" "}
                             <span title={program.batch_type}>
                               {program.batch_type}
                             </span>
-                          </h1>
+                          </p>
                         </div>
                       </div>
                       <div className="flex items-center w-full gap-2 mt-4">
                         <a
-                          href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
+                          href={program.category?.toLowerCase() === "free courses" || program.category?.toLowerCase() === "microsoft" || program.id === "transform-business-workflows-with-generative-ai" || program.id === "transform-ideas-into-impact-with-product-management" ? `/free-courses/${program.id}` : `/programs/${program.id}`}
                           className="px-2 py-2.5 flex-1 text-sm font-semibold border bg-universal text-white border-neutral-300 rounded-lg text-center"
                         >
                           View Program

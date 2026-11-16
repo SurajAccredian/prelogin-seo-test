@@ -1,8 +1,10 @@
 {
   "category": "45",
   "id": "pg-certificate-in-strategic-project-management-and-leadership",
+  "pid": 129,
   "vertical": "project management",
   "title": "Post Graduate Certificate in Strategic Project Management & Leadership",
+  "seo_title": "PG Certificate Strategic Project Management IIMV | Accredian",
   "description": "Embark on a 10 month learning journey in Project Planning, Risk Management, and Project Procurement.",
   "short_title": "Project Management",
   "contact": "8851827093",
@@ -10,15 +12,15 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "18 Jan 2026",
+  "start_date": "7 Mar 2027",
   "required_years_experience": 5,
   "duration": "10 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "timings": "weekends only",
   "tags": [
     {
-      "title": "best selling",
+      "title": "coming soon",
       "type": "main"
     },
     {
@@ -48,7 +50,6 @@
       "title": "capstone project",
       "text": 2
     },
-
     {
       "title": "campus immersion (opt.)",
       "text": "2 Day"
@@ -112,13 +113,16 @@
     "exclusive-merchandise",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Foundations of Strategic Project Management",
@@ -126,7 +130,7 @@
       "points": [
         "Intro to Strategic Project Management",
         "Linking Projects to Organizational Strategy",
-        "Project Life Cycle Models & Methodologies",
+        "Program vs. portfolio vs. project management",
         "Role of Project Leader in Value Creation"
       ]
     },
@@ -136,7 +140,7 @@
       "points": [
         "Defining Scope & Creating WBS",
         "Advanced Scheduling Techniques (CPM, PERT, Agile Sprints)",
-        "Budgeting, Cost Estimation Techniques & Control Techniques",
+        "Budgeting, cost estimation techniques & Earned Value Management (EVM)",
         "Financial Metrics for Projects: ROI, NPV, Cost-Benefit Analysis"
       ]
     },
@@ -151,13 +155,13 @@
       ]
     },
     {
-      "title": "Communication & Stakeholder Engagement",
+      "title": "Communication, Influence & Stakeholder Leadership",
       "id": "communication-stakeholder-engagement",
       "points": [
-        "Stakeholder Analysis & Influence Strategies",
-        "Executive Communication Frameworks",
-        "Conflict Resolution & Negotiation Skills",
-        "Dashboards, Reporting & Effective Storytelling with Data"
+        "Stakeholder mapping and engagement strategies",
+        "Influencing without authority in complex organizations",
+        "Executive communication frameworks & board-level reporting",
+        "Negotiation & conflict resolution for project leaders"
       ]
     },
     {
@@ -165,8 +169,8 @@
       "id": "governance-procurement-compliance",
       "points": [
         "Governance Models for Large-Scale Projects",
-        "Project Procurement Planning",
-        "Contract Management, Vendor Negotiations & SLAs",
+        "Procurement & vendor management best practices",
+        "Contracting strategies (fixed, agile, hybrid)",
         "Ethics, Compliance & Sustainability in Project Leadership"
       ]
     },
@@ -257,7 +261,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Aalok Kumar",
@@ -266,7 +269,6 @@
       "organization": "IIMV",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     },
-
     {
       "name": "Prof. Rohit Titiyal",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rohit-titiyal.webp",
@@ -296,7 +298,6 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
     }
   ],
-
   "billing": {
     "programId": "pg-certificate-in-strategic-project-management-and-leadership",
     "points": [
@@ -308,18 +309,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 16717
+        "emi": 18322
       },
       {
         "months": 18,
-        "emi": 11591
+        "emi": 12658
       },
       {
         "months": 24,
-        "emi": 9007
+        "emi": 9805
       }
     ],
-    "total": 210000
+    "total": 209000
   },
   "faq": {
     "programId": "pg-certificate-in-strategic-project-management-and-leadership",
@@ -346,7 +347,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },
@@ -394,5 +397,9 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-pg-certificate-in-strategic-project-management-and-leadership.pdf",
     "source": "IIMV Post Graduate Certificate in Strategic Project Management & Leadership Brochure",
     "campaign_name": "PGCSPML-IIMV-10 Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate Strategic Project Mgmt",
+  "meta_description": "Develop strategic project portfolio management with IIM Visakhapatnam's 10-month PG Certificate Program for project managers and delivery leads.",
+  "keywords": "PG certificate strategic project management IIM Visakhapatnam, IIMV project leadership, executive project management",
+  "status": "Coming Soon"
 }

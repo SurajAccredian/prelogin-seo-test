@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import { Box, Modal } from '@mui/material';
 import { IoIosClose } from 'react-icons/io';
 import { useState, useEffect } from 'react';
@@ -16,6 +17,7 @@ import { verifyEmail, verifyOtp, createUser, enrollFreeCourseUser, generateUserL
 import { userActions } from '../../store/reducers/user';
 import { createApplicationStepTracker } from '../../services/program.service';
 import { encodeBase64 } from '../../helpers/encodeTrackerId';
+import { mergeEnrollmentDetails } from '../../helpers/enrollment.helpers';
 import CryptoJS from "crypto-js";
 import { CircleCheck } from 'lucide-react';
 
@@ -153,18 +155,19 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
   };
 
   const handleCreateAccount = async () => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     try {
       setLoading(true);
-      await createUserAccount();
+      await createUserAccount(newTab);
     } catch (error) {
       toast.error('Failed to create account. Please try again.', { position: 'top-right' });
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   // Create user account
-  const createUserAccount = async () => {
+  const createUserAccount = async (newTab = null) => {
     try {
       // Get fresh form values directly from React Hook Form
       const formData = getValues();
@@ -233,8 +236,7 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
               dashboard_link: process.env.NEXT_PUBLIC_DASHBOARD_BASE_URL || "https://accredian.com",
             });
             if (enrollRes?.enrollmentDetails?.length > 0) {
-              localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
-              localStorage.setItem("enrollmentStatus", "true");
+              mergeEnrollmentDetails(enrollRes.enrollmentDetails);
             }
           } catch (enrollErr) {
             console.error("Failed to auto-enroll new user:", enrollErr);
@@ -254,13 +256,15 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
             toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
           }
 
-          // Open the dashboard in a new tab and close the modal
-          setTimeout(() => {
-            if (thinkificRedirectUrl) {
-              window.open(thinkificRedirectUrl, "_blank");
-            }
-            window.location.reload();
-          }, 1000);
+          if (thinkificRedirectUrl && newTab) {
+            newTab.location.href = thinkificRedirectUrl;
+          } else if (newTab && !newTab.closed) {
+            newTab.close();
+          }
+
+          setLoading(false);
+          handleClose();
+          window.location.reload();
           return;
         }
 
@@ -295,6 +299,9 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
         }
       }
     } catch (error) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       console.log("Error creating account:", error);
       if (error.response) {
         const { status, data } = error.response;
@@ -411,9 +418,14 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
           >
             <div className="absolute inset-0 flex flex-col justify-between">
               <div className="px-6 pt-8 text-slate-800">
-                <img src='https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp'
+                <Image
+                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Company Logo"
-                  className="w-28" />
+                  width={112}
+                  height={34}
+                  quality={75}
+                  className="w-28 h-auto"
+                />
                 <h2 className="mt-2 text-xl font-semibold leading-snug text-slate-900">
                   Designed for Professionals. Built for Impact.
                 </h2>
@@ -422,9 +434,12 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
                 </p>
               </div>
               <div className="flex-1 flex items-center justify-center px-4 pb-4">
-                <img
-                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/signUpModalImage.svg"
+                <Image
+                  src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/signUpModalImage.webp"
                   alt="Create Account"
+                  width={260}
+                  height={260}
+                  quality={75}
                   className="w-full max-w-[260px] h-auto drop-shadow-[0_14px_30px_rgba(15,23,42,0.18)]"
                 />
               </div>
@@ -444,9 +459,12 @@ function SignUpModal({ open = false, reOpenLoginModal }) {
             <div className="w-full h-full flex flex-col px-5 py-6 sm:px-7 sm:py-7">
               {/* Logo (mobile only) */}
               <div className="mb-3 flex justify-between items-center sm:hidden">
-                <img
+                <Image
                   src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                   alt="Company Logo"
+                  width={90}
+                  height={24}
+                  quality={75}
                   className="h-6 w-auto"
                 />
               </div>

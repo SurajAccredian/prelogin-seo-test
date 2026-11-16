@@ -1,11 +1,13 @@
 {
   "category": "21",
   "id": "executive-development-program-in-global-senior-management",
+  "pid": 141,
   "vertical": "senior management",
   "title": "Executive Development Program in Global Senior Management",
+  "seo_title": "Global Senior Management Program XLRI | Accredian",
   "description": "Master executive leadership, operations, business strategies, and analytics at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Senior Management",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "XLRI",
   "short_university_name": "xlri",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-v3.webp",
@@ -120,7 +122,11 @@
     "CXO-coaching-sessions",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -182,7 +188,6 @@
         "Cross Cultural Management"
       ]
     },
-
     {
       "title": "Marketing & Customer Growth Strategy",
       "week": "",
@@ -194,7 +199,6 @@
         "Data-Driven Marketing & Customer Insights"
       ]
     },
-
     {
       "title": "Global Operations & Supply Chain Leadership",
       "week": "",
@@ -375,7 +379,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },
@@ -424,5 +430,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Global-Senior-Management.pdf",
     "source": "Executive Development Program in Global Senior Management Brochure",
     "campaign_name": "GSM-XLRI-11 Months"
-  }
+  },
+  "og_title": "XLRI - Executive Development Program in Global Senior Management",
+  "meta_description": "Develop global market strategy, enterprise governance and cross-cultural leadership with XLRI's 11-month Global Senior Management Program for senior managers.",
+  "keywords": "global senior management XLRI, executive development program XLRI, senior management program India, top general management courses"
 }

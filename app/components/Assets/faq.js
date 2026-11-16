@@ -1,309 +1,196 @@
-import { Typography } from "@mui/material";
-import FiberManualRecordOutlinedIcon from "@mui/icons-material/FiberManualRecordOutlined";
-export const faq = [
+export const mainFaq = [
   {
-    id: "program-pre-requisites",
-    hadding: "Program Pre-Requisites",
-    Faqaccd: [
+    id: "about-accredian",
+    heading: "About Accredian",
+    questions: [
       {
-        faqhadding:
-          "I am from a non-coding background, can I learn Data Science?",
-        accodingid: "panel1",
-        subfaq: [
-          "Anyone who wants to get into Data Science needs to juggle between three things: Domain knowledge, basics of statistics and applied mathematics, and coding (that can be mastered in 2-3 months).",
-          " The level of coding that we teach in Data Science is not complicated. For instance, Python, which is a coding tool for data analytics. Once you start working on Python, you will find it way simpler than Advanced Excel.",
-          "Thus, the coding tools which we cover in Data Science can be easily learned through consistency and practice. ",
-        ],
+        id: "about-1",
+        question: "What is Accredian?",
+        answer:
+          "Accredian is a premier executive education and upskilling platform in India. In partnership with top national institutes like IIMs, IITs, XLRI, and technology partners like Microsoft, Accredian delivers live online post-graduate certificates, executive courses, and CXO leadership programs designed to help working professionals transition into high-growth roles.",
       },
       {
-        faqhadding: "Is Maths and Statistics required to learn Data Science?",
-        accodingid: "panel2",
-        subfaq: [
-          "Basic knowledge of statistics and applied mathematics is more than enough. We provide a Starter Kit that includes statistics and Python, helping the student catch up on the subject.",
-        ],
+        id: "about-2",
+        question: "Who are Accredian programs designed for?",
+        answer:
+          "Accredian programs are specifically built for working professionals—ranging from mid-level managers and technical leads to functional heads, C-suite executives, and business owners—who want to gain role-ready expertise, strategic leadership capabilities, and career progression without disrupting their full-time jobs.",
       },
       {
-        faqhadding: "Who should take up the product management program?",
-        accodingid: "panel3",
-        subfaq: [
-          "This program is beneficial for everyone interested in the field of product management, and most students fall into one of these categories:",
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            a. Start-up owners/people who want to create their own product.
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            b. Individuals who want to transition into Product Management.
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            c. Product Managers seeking formal education on product management.
-          </Typography>,
-          "Our program caters to all of them; students will learn how to create a new product, market it, understand user needs, adopt a product management mindset, and become a product manager that companies desire.",
-          "They will receive all the necessary information about product management in a very structured format and will be taught frameworks that can be applied in the real world to accomplish product management tasks successfully.",
-        ],
+        id: "about-3",
+        question: "How do Accredian programs differ from traditional online courses?",
+        answer:
+          "Unlike self-paced recording libraries, Accredian offers interactive, live weekend classes taught directly by premier institute faculty and industry practitioners. Learners participate in real-time Q&A, work on hands-on capstone projects, gain access to career support services, and participate in exclusive on-campus immersion(if applicable) modules at top university campuses.",
       },
       {
-        faqhadding: "Why you should go forward with Accredian?",
-        accodingid: "panel4",
-        subfaq: [
-          "Our programs are crafted in the way that once students complete their desired program, they will have the necessary learning to implement in their work.",
-          "The level of attention and assistance were given to each student is unparalleled and can not be found with any other organization offering courses. Each student is considered a part of Accredian and in any way they need assistance, they will be provided with it.",
-          "Accredian not just focuses on in-class learning but also on outside the classroom, we conduct events, call the best & brightest minds in product management to share their knowledge with students, organize debates and competitions between students to help them perfect their soft skills as well.",
-        ],
+        id: "about-4",
+        question: "Are Accredian certifications recognized by industry employers?",
+        answer:
+          "Yes. Certificates are issued directly by Accredian’s partner institutions (such as IIM Lucknow, IIM Visakhapatnam, E&ICT Academy IIT Kanpur, IIT Hyderabad, XLRI, etc.) upon fulfilling attendance and evaluation criteria. These credentialed certificates validate your skills and are widely recognized by leading enterprise employers across industries.",
+      },
+      {
+        id: "about-5",
+        question:
+          "What is the professional background and industry diversity of Accredian cohorts?",
+        answer:
+          "Cohorts consist of seasoned professionals spanning mid-level management to senior leadership with experience across IT, Software, BFSI, Consulting, Healthcare, Manufacturing, Retail, and many more. This diversity fosters high-level peer discussions, cross-industry perspectives, and executive networking opportunities.",
+      },
+      {
+        id: "about-6",
+        question:
+          "Are international candidates and non-resident professionals eligible to join Accredian programs?",
+        answer:
+          "Yes. Working professionals residing outside India can enroll in all live online programs. International participants receive full access to live weekend sessions, recorded lectures, digital learning materials, and virtual networking opportunities, with program fees payable via international credit cards and cross-border payment gateways.",
+      },
+      {
+        id: "about-7",
+        question:
+          "Are Accredian executive certificates recognized by employers globally, and are they UGC/AICTE degree programs?",
+        answer:
+          "Accredian programs offer executive education certificates in collaboration with premier partner institutes (such as IIMs, IITs, and XLRI); they are specialized skill-building certificate programs rather than UGC/AICTE full-time degree programs. These certificates are widely recognized by top recruiters and global corporations as proof of advanced functional expertise and continuous executive development.",
       },
     ],
   },
   {
-    id: "admissions",
-    hadding: "Admissions",
-    Faqaccd: [
+    id: "program-academic-faqs",
+    heading: "Program & Academic FAQs",
+    questions: [
       {
-        faqhadding: "I'm working full time. How can I learn with a job?",
-        accodingid: "panel1",
-        subfaq: [
-          "Our programs are explicitly designed to accommodate the needs of working professionals. We recognize the challenges posed by full-time work commitments, making it impractical to allocate 3 to 4 hours of study time on a regular basis.",
-          "We anticipate that students can dedicate a manageable 45 to 50 minutes for the revision of topics covered in the last class on a working day. In summary, if a student is able to commit 2 hours for class on the weekend and 45 to 50 minutes on a working day for revision, they can effectively pursue their learning journey while maintaining employment commitments.",
-        ],
+        id: "academic-1",
+        question: "What programs does Accredian offer?",
+        answer:
+          "Accredian offers industry-relevant executive education, advanced certification, and leadership development programs in Artificial Intelligence, Generative & Agentic AI, CXO Leadership (CEO, CTO, CFO, CHRO, COO, CDAIO), Senior Management, Strategy & Leadership, Project Management, Product Management, Finance, Human Resource Leadership, and Design Thinking in premier academic collaboration with India's top institutions.",
       },
       {
-        faqhadding: "On what basis are the Scholarships offered?",
-        accodingid: "panel2",
-        subfaq: [
-          "We offer scholarship on a First Come First Serve basis. Accredian wants to democratize learning and make it affordable without compromising on quality.",
-        ],
+        id: "academic-2",
+        question: "Who are Accredian's university partners?",
+        answer:
+          "Accredian partners with premier institutions including IIM Lucknow, IIM Visakhapatnam, E&ICT Academy IIT Kanpur, I3C IIT Jammu, IIT Hyderabad, IITM Pravartak (IIT Madras), XLRI Jamshedpur, IIM Tiruchirappalli, IIM Ranchi, IIM Kashipur, IIM Sirmaur, IIM Bodh Gaya, IIM Amritsar, SP Jain School of Global Management, and Microsoft.",
       },
       {
-        faqhadding: "What is the process of getting enrolled into a program?",
-        accodingid: "panel3",
-        subfaq: [
-          "You can schedule a callback with one of our program advisors to go ahead with the next steps for admission by clicking here.",
-        ],
+        id: "academic-3",
+        question: "What is the eligibility criteria for Accredian's executive programs?",
+        answer:
+          "Most programmes require a bachelor's degree in any discipline, and some set a minimum of 50% marks. Recommended work experience ranges from 0 to 10 years by programme, and a few programmes make a minimum mandatory. Each programme page lists its exact requirements. Refer to the respective program pages on the website to know more.",
       },
       {
-        faqhadding: "Who is going to be our faculty at Accredian?",
-        accodingid: "panel4",
-        subfaq: [
-          "All the faculties at Accredian are highly experienced in their respective industry and have mastered their domains. Different faculties get assigned for different terms and the details will be communicated to you before the start of every term.",
-        ],
+        id: "academic-4",
+        question: "Are Accredian programs delivered live online?",
+        answer:
+          "Yes, all programs feature live, interactive online sessions delivered directly by institute faculty and senior industry practitioners. Sessions are scheduled on weekends (Saturday and Sunday) to accommodate working executives. Comprehensive lecture recordings, session notes, and case studies are accessible 24/7 on the student learning portal.",
       },
       {
-        faqhadding: "Are the programs going to be offline?",
-        accodingid: "panel5",
-        subfaq: [
-          "The programs will be conducted entirely live online, with an instructor present in a live environment to provide you with the best possible exposure and learning experience.",
-        ],
-      },
-    ],
-  },
-  {
-    id: "program",
-    hadding: "Program",
-    Faqaccd: [
-      {
-        faqhadding: "How many programs do Accredian provide?",
-        accodingid: "panel1",
-        subfaq: [
-          "Accredian provides several programs in the field of Product Management and Data Science. You can select any of those which is best aligning with the goal and vision you have.",
-        ],
+        id: "academic-5",
+        question: "What certifications do graduates receive?",
+        answer:
+          "Completion certificates are issued by the partner institution when you meet that programme's requirements: typically a minimum live-attendance level (70% or 75% depending on the institute) and, for some programmes, assessment or project requirements. Requirements, certificate format and any alumni-status benefits or fees are listed on each programme page.",
       },
       {
-        faqhadding: "What is the registration fee for and is it refundable?",
-        accodingid: "panel2",
-        subfaq: [
-          "The registration fee of INR 3,000 is your seat reservation fee paid for a particular program and is non-refundable.",
-        ],
+        id: "academic-6",
+        question: "Is campus immersion included in Accredian executive programs?",
+        answer:
+          "Selected executive and leadership programs feature exclusive on-campus immersion modules ranging from 2 to 5 days at partner institute campuses (e.g. IIM Visakhapatnam, IIT Kanpur, IIM Lucknow, XLRI and many more). Participants attend in-person classroom lectures, engage in workshops, present capstone solutions, and network directly with faculty and industry peers. Teaching is online. Some programmes add an on-campus immersion of 2 to 5 days per visit; depending on the programme it is included in the fee, optional, or charged separately. Where it is included, food and lodging are covered; travel is always at your own cost. Each programme page states whether immersion is offered, what it costs and whether attendance is required.",
       },
       {
-        faqhadding: "What kind of job assistance is provided at Accredian?",
-        accodingid: "panel3",
-        subfaq: [
-          "Accredian offers a Career Launchpad Program (CLP) with the main goal of preparing students for the world and providing them with all kinds of assistance in terms of preparing for their respective target jobs.",
-        ],
+        id: "academic-7",
+        question: "What are the key pedagogical methods and capstone projects included?",
+        answer:
+          "Teaching combines live faculty sessions, case studies, peer discussions and, in most programmes, a capstone project; the methods used are listed on each programme page.",
       },
       {
-        faqhadding: "What all is covered in the Starter Kit you provide?",
-        accodingid: "panel4",
-        subfaq: [
-          "The main intent of the starter kit is to give candidates a jump start and brush up on the basics of the field. It contains reading material and subject videos followed by Accredian Thursday, which are industry speaker sessions.",
-        ],
+        id: "academic-8",
+        question:
+          "Who delivers the live classes, masterclasses, and executive lectures?",
+        answer:
+          "Sessions are delivered by senior faculty members from partner academic institutions (such as IIMs and IITs) and seasoned industry leaders (CXOs, Vice Presidents, and specialized practice leads), combining academic rigor with real-world corporate execution. It may vary as per institute guidelines, check respective program pages to verify.",
       },
       {
-        faqhadding: "Is Job Guarantee applicable in every program?",
-        accodingid: "panel5",
-        subfaq: [
-          "No, Job assistance is applicable in every program but Job Guarantee is applicable only in PGP in Data Science and AI Program.",
-        ],
+        id: "academic-9",
+        question:
+          "What evaluation and assessment criteria are required to graduate?",
+        answer:
+          "Graduation requirements vary by partner institute. Typically, candidates must maintain a minimum live attendance threshold (70% to 75%) and pass continuous evaluation modules, including quizzes, case study submissions, and capstone project assessments as defined on each program page.",
       },
       {
-        faqhadding:
-          "How much Salary Package is available after Program Completion?",
-        accodingid: "panel6",
-        subfaq: [
-          "A job package depends entirely on the capabilities of a student. Usually, our alumni get a 40-70% hike on the last drawn CTC.",
-        ],
-      },
-
-      {
-        faqhadding: "How to deal with issues before or during the program?",
-        accodingid: "panel7",
-        subfaq: [
-          "After 7 day cooling off window closes or anytime during the program, you might run into some issues like the ones below.",
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            a. Not able to attend classes due to medical reasons including
-            suffering from illness
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            b. Not able to attend classes as traveling abroad in a different
-            timezone
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            c. Not being able to grasp content due to unpreparedness for that
-            cohort
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            d. Not able to dedicate time to program due to professional workload
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            e. Not being able to attend classes on weekends due to family
-            commitments
-          </Typography>,
-          "To help you deal with these issues, you have an option to pause the program for a certain time and restart the program with another batch. This option is called “Batch Transfer” option.",
-        ],
+        id: "academic-10",
+        question: "Do graduates receive official institute alumni status?",
+        answer:
+          "Alumni benefits depend on the partner institution and specific executive program. Selected long-duration or diploma programs grant official executive alumni status, portal access, and campus library privileges, while short-term certificate programs issue completion credentials without formal alumni rights. Details are specified on each program's page.",
       },
       {
-        faqhadding: "How can I download the brochure of programs?",
-        accodingid: "panel8",
-        subfaq: [
-          "You can download the brochure of PGP in Product Management by clicking here and PGP in Ds and AI by clicking here",
-          //brochure popup
-        ],
-      },
-      {
-        faqhadding:
-          "How are the programs at Accredian different from other institutions?",
-        accodingid: "panel9",
-        subfaq: [
-          "This program is distinguished by three key elements:",
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            1. Dynamic Learning Environment: Accredian's Dynamic Learning
-            Environment adapts in real-time, offering an interactive platform
-            that integrates the latest advancements, ensuring a current and
-            relevant educational experience aligned with the dynamic landscape
-            of technology. This approach enables students to thrive and stay at
-            the forefront of their disciplines.
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            2. Concept-to-Context Educational Framework: Accredian's
-            Concept-to-Context educational framework ensures a holistic learning
-            experience, embedding Data Science concepts in real-world industry
-            challenges. This approach bridges theory and practical skills,
-            fostering effective problem-solving for professional success.
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            3. Accredian Career Center: Accredian's mission is to groom Data
-            leaders of tomorrow. Accredian Career Center helps you launch a Data
-            Science career with 100% confidence.
-          </Typography>,
-        ],
+        id: "academic-11",
+        question:
+          "Can candidates pause their program or request a batch transfer?",
+        answer:
+          "Programs cannot be paused mid-duration. Batch transfers are not permitted as a standard option; however, they may be considered strictly under exceptional circumstances, subject to formal review and written approval from the respective partner university or institution.",
       },
     ],
   },
   {
-    id: "fee-scholarships",
-    hadding: "Fee & Scholarships",
-    Faqaccd: [
+    id: "learning-support-career-platform-faqs",
+    heading: "Learning Support, Career & Platform FAQs",
+    questions: [
       {
-        faqhadding: "What Payment Options are available?",
-        accodingid: "panel1",
-        subfaq: [
-          "No Cost EMI on Debit Card (Early Salary, Eduvanz)",
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            {" "}
-            <FiberManualRecordOutlinedIcon sx={{ fontSize: "0.8rem" }} /> No
-            Cost EMI on Credit Card
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            <FiberManualRecordOutlinedIcon sx={{ fontSize: "0.8rem" }} />{" "}
-            Installment Options
-          </Typography>,
-          <Typography
-            sx={{ fontSize: "14px", marginBottom: "1.1px !important", ml: 2 }}
-          >
-            <FiberManualRecordOutlinedIcon sx={{ fontSize: "0.8rem" }} /> One
-            Shot Payment
-          </Typography>,
-        ],
+        id: "support-1",
+        question: "What career assistance and career support does Accredian provide?",
+        answer:
+          "Accredian does not provide placement assistance or any job guarantee. Most programmes include a fixed number of career assistance sessions covering resume building, interview preparation and career-path guidance. The number varies by programme and is listed on each programme page; some programmes include no career services.",
       },
       {
-        faqhadding: "What is the registration fee for and is it refundable?",
-        accodingid: "panel2",
-        subfaq: [
-          "The registration fee of INR 3,000 is your seat reservation fee paid for a particular program and is non-refundable.",
-        ],
+        id: "support-2",
+        question: "How do industry mentorship and 1-on-1 career coaching sessions work?",
+        answer:
+          "Learners are paired with experienced industry leaders who provide strategic guidance, portfolio critiques, and real-time advice tailored to career goals. Dedicated 1-on-1 coaching slots allow professionals to discuss role transitions, managerial challenges, and leadership opportunities in detail. Some programmes do not include career services.",
       },
       {
-        faqhadding: "Is the registration fee extra from the total fee?",
-        accodingid: "panel3",
-        subfaq: [
-          "No, the registration fee is included in the total program fee and will be adjusted against the final fee payable.",
-        ],
+        id: "support-3",
+        question: "How are classes scheduled to accommodate working professionals?",
+        answer:
+          "All live instructor-led lectures and masterclasses are intentionally scheduled during weekends, typically on Saturday and Sunday mornings or afternoons. This executive-friendly schedule ensures that working professionals can fulfill their demanding weekday workplace responsibilities while consistently attending interactive sessions, asking real-time questions, and collaborating with cohort peers without career disruption.",
       },
       {
-        faqhadding:
-          "How many days do we get to confirm the admission after registration?",
-        accodingid: "panel4",
-        subfaq: [
-          "Student will have to confirm his admission within 5 days of paying the registration fee. To confirm your registration, you can either pay the full fee or make a partial payment.",
-        ],
+        id: "support-4",
+        question: "What technical requirements and software tools are needed for the coursework?",
+        answer:
+          "Participants require a standard laptop or desktop computer with a modern web browser, reliable high-speed internet connectivity, a webcam, and a microphone.",
       },
       {
-        faqhadding: "How can we avail loan facility for the program fee?",
-        accodingid: "panel5",
-        subfaq: [
-          "Loan facility can be availed by one of our third party partners like EarlySalary, Eduvanz, Zestmoney etc.",
-        ],
+        id: "support-5",
+        question: "Are EMI options and educational financing available for program fees?",
+        answer:
+          "EMI plans are available through third-party lending partners, subject to the lender's credit approval. Standard EMI plans carry interest charged by the lender. Where a programme offers an interest-free tenure, it is stated on that programme's page. Fees are exclusive of GST.",
       },
       {
-        faqhadding: "Is the program fee refundable?",
-        accodingid: "panel6",
-        subfaq: [
-          "if you want to withdraw from the program, you can do so during this 7 day window. To withdraw from the program, please use Withdraw from the program option on the portal. Full fee will be refunded to you after deduction of administrative fee of INR 5,000. (Note: Administrative fee includes class participation license for students, access to Accredian Learning Center, access to starter kits, faculty, teaching & support staff reserved for particular cohort).",
-        ],
+        id: "support-6",
+        question: "What is the refund, cancellation, or deferral policy for enrolled candidates?",
+        answer:
+          "Accredian maintains transparent admission policies. Each institute has its own refund policy. Candidates are advised to refer to the respective institute’s refund and cancellation policy page on the website for detailed information.",
+      },
+      {
+        id: "support-7",
+        question:
+          "How long do candidates retain access to the learning portal and session recordings?",
+        answer:
+          "Participants receive 24/7 access to the Accredian Learning Portal during the program. Access to live session recordings, and learning materials is strictly governed by the guidelines of each respective partner institution. Availability and access timeframes vary by university—some partner institutions limit recording access to a specific timeframe even while the program is actively running, while others may offer extended post-program access. Please refer to your specific program page for institute-defined portal access and recording policies.",
+      },
+      {
+        id: "support-8",
+        question:
+          "Does Accredian offer corporate sponsorship invoicing or employee referral rewards?",
+        answer:
+          "Yes. For professionals funded by their organizations, Accredian issues formal GST-compliant invoices and receipt documentation for corporate reimbursement. Additionally, Accredian maintains an active candidate referral policy where enrolled students or alumni receive a referral bonus of INR 10,000 for every successfully enrolled colleague.",
+      },
+      {
+        id: "support-9",
+        question:
+          "Does Accredian offer early-bird discounts, merit scholarships, or group enrollment pricing?",
+        answer:
+          "Accredian offers early-bird fee concessions for candidates who complete registration prior to specified cohort deadlines. Merit-based fee waivers or corporate group enrollment discounts may also be available for select programs; details can be confirmed directly with admissions advisors during application process.",
       },
     ],
   },
 ];
+
+export const faq = mainFaq;
 
 export const referFaq = [
   {

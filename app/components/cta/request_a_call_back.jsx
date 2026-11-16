@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -18,6 +19,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 import CircularProgress from "@mui/material/CircularProgress";
 import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
+import { getStoredUTMData } from "../../helpers/utm.helpers";
+import { trackGoogleAdsLeadConversion } from "../../helpers/googleAds.helpers";
 
 const streams = Object.keys(groupProgramsByCategory(vertical));
 
@@ -112,9 +115,6 @@ function RctaInner(props) {
   };
 
   const ctapage = pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source = searchParams.get("utm_source") || "null";
-  const utm_medium = searchParams.get("utm_medium") || "null";
-  const utm_campaign = searchParams.get("utm_campaign") || "null";
 
   const submitForm = (e) => {
     e.preventDefault();
@@ -125,17 +125,26 @@ function RctaInner(props) {
 
     LoaderOpen();
 
+    const utmData = getStoredUTMData();
+    const resolvedSource = props.source || "Request Callback Top Bar";
+
     const sendRcbctaData = {
       phone: rcb.mobile,
       name: rcb.name,
       email: rcb.newemail,
       query: rcb.query,
       program: props.program ? props.program : program,
-      source: "Request Callback Top Bar",
+      source: resolvedSource,
       page: ctapage,
-      utm_source: utm_source,
-      utm_medium: utm_medium,
-      utm_campaign: utm_campaign,
+      utm_source: utmData.utm_source || "Direct",
+      utm_medium: utmData.utm_medium || "website-organic",
+      utm_campaign: utmData.utm_campaign || searchParams.get("utm_campaign") || "",
+      utm_content: utmData.utm_content || "",
+      utm_adset: utmData.utm_adset || "",
+      utm_ad: utmData.utm_ad || "",
+      utm_term: utmData.utm_term || "",
+      utm_format: utmData.utm_format || "",
+      cta_button: resolvedSource,
       form_id: "request_callback",
       type: "CTA",
     };
@@ -153,6 +162,7 @@ function RctaInner(props) {
         props.handleClose();
 
         if (result.data.status == "200") {
+          trackGoogleAdsLeadConversion();
           if (window) {
             window.open("/cta-thank-you", "_blank");
           }
@@ -238,10 +248,13 @@ function RctaInner(props) {
                 {/* Left side image section */}
                 <div className="md:flex flex-col items-center justify-between gap-4 hidden flex-[0.5] h-full pt-4">
                   <div className="max-w-sm w-full border-r-[1px] border-neutral-100 pr-4">
-                    <img
-                      className="w-full"
+                    <Image
                       src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/get-in-touch.webp"
                       alt="get-in-touch"
+                      width={384}
+                      height={384}
+                      quality={75}
+                      className="w-full h-auto"
                     />
                   </div>
                   {/* Enquiry number for desktop */}
@@ -250,7 +263,7 @@ function RctaInner(props) {
                       <CiPhone className="w-full h-full text-universal" />
                     </div>
                     <div className="flex items-center gap-2">
-                      <h1 className="font-medium text-gray-800">To Inquire</h1>
+                      <p className="font-medium text-gray-800">To Inquire</p>
                       <span className="text-gray-600">-</span>
                       <a
                         href={`tel:${ENQUIRY_NUMBER}`}
@@ -443,6 +456,7 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
 
                     {/* Submit button */}
                     <button
+                      data-track="Request a Callback"
                       disabled={loader || !captchaVerified}
                       className={`disabled:bg-gray-300 disabled:text-gray-500 disabled:border-transparent hover:bg-darkBlue text-lg relative mt-2 px-4 py-3 bg-universal font-medium text-white w-full flex justify-center items-center rounded-lg shadow-md border border-universal transition-colors`}
                       type="submit"
@@ -459,9 +473,9 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                   <div className="mt-8 flex md:hidden flex-col items-center gap-4 w-full">
                     <div className="flex items-center gap-2 w-full">
                       <div className="flex-[0.45] border border-neutral-200" />
-                      <h1 className="flex-[0.1] text-sm font-medium text-gray-400 text-center uppercase tracking-wider">
+                      <p className="flex-[0.1] text-sm font-medium text-gray-400 text-center uppercase tracking-wider">
                         or
-                      </h1>
+                      </p>
                       <div className="flex-[0.45] border border-neutral-200" />
                     </div>
                     <div className="w-full flex justify-center items-center gap-4 bg-blue-50 border border-blue-200 py-3 px-4 rounded-lg">
@@ -469,7 +483,7 @@ ${errors["mobile"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                         <CiPhone className="w-full h-full text-universal" />
                       </div>
                       <div className="flex items-center gap-2">
-                        <h1 className="font-medium text-gray-800">To Inquire</h1>
+                        <p className="font-medium text-gray-800">To Inquire</p>
                         <span className="text-gray-400">-</span>
                         <a
                           href={`tel:${ENQUIRY_NUMBER}`}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import BenefitTable from "../Stream_section/BenefitTable";
 import { Switch } from "@mui/material";
 import { styled } from "@mui/material/styles";
@@ -107,9 +108,9 @@ const Benefits = () => {
       id="benefitsSection"
       className="flex flex-col justify-center items-center relative w-full xl:px-12 px-0 my-5"
     >
-      <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center font-circular">
+      <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center font-circular">
         What are the <span className="text-universal">Referral Benefits?</span>
-      </h1>
+      </h2>
       <div className="upper-panel w-full max-w-[85rem] flex justify-between lg:justify-end items-center pt-5 md:pt-6">
         <div className="lg:hidden px-4 sm:px-5 lg:px-5 xl:px-1 font-circular">
           {/* MUI dropdown component */}
@@ -198,13 +199,16 @@ const Benefits = () => {
                     {vertical_name}
                   </p>
                   <div className="w-2.5">
-                    <img
+                    <Image
                       src={
                         selectedVertical === vertical_name
                           ? "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/right-arrow-2.webp"
                           : "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/arrow-white-2.webp"
                       }
                       alt="Open"
+                      width={10}
+                      height={10}
+                      className="w-2.5 h-auto"
                     />
                   </div>
                 </div>

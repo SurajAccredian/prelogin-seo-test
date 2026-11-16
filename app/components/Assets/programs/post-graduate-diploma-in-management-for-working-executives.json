@@ -1,8 +1,10 @@
 {
   "category": "44",
   "id": "post-graduate-diploma-in-management-for-working-executives",
+  "pid": 127,
   "vertical": "PG Diploma",
   "title": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
+  "seo_title": "PGDM for Working Executives IIMV | Accredian",
   "description": "Master Functional Management, Strategic Management, and Business Transformation at one of India’s premier business schools, and attain Alumni Status.",
   "short_title": "PG Diploma",
   "contact": "8130897175",
@@ -10,11 +12,11 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "24 May 2026",
+  "start_date": "18 Apr 2027",
   "required_years_experience": 3,
   "duration": "12 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -30,7 +32,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv-pgdmex-certificate-v2.svg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-pgdmex-certificate-v2.webp",
   "key_features": [
     {
       "title": "hours",
@@ -42,15 +44,15 @@
     },
     {
       "title": "courses",
-      "count": 42
+      "count": 21
     },
     {
       "title": "capstone project",
       "text": 1
     },
     {
-      "title": "subject areas",
-      "count": 11
+      "title": "global immersion (opt.)",
+      "text": "1"
     },
     {
       "title": "campus immersion",
@@ -90,7 +92,7 @@
       {
         "title": "program snapshot",
         "points": [
-          "42 Courses - Functional Management, Strategic Management and Business Transformation",
+          "21 Courses - Functional Management, Strategic Management and Business Transformation",
           "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
           "Duration: 12 months | Weekend Online",
           "PG Diploma from IIM Visakhapatnam",
@@ -98,7 +100,7 @@
           "IIM Visakhapatnam Alumni Status",
           "EMI upto 24 months",
           "Harvard Business Review Case Studies",
-          "60 hour capstone project",
+          "Optional Global Executive Immersion Experience",
           "Campus Immersions: One Campus Immersion of 3 days"
         ]
       }
@@ -111,7 +113,11 @@
     "convocation-ceremony",
     "iimv-diploma"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "Fill the application form",
     "online test (MAST) and personal interview",
@@ -158,7 +164,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "M Chandrasekhar Director",
@@ -308,7 +313,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },
@@ -355,5 +362,9 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-post-graduate-diploma-in-management-for-working-executives.pdf",
     "source": "IIMV Post Graduate Diploma in Management for Working Executives (PGDMEx) Brochure",
     "campaign_name": "PGDMEx-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - Executive PGDM Program (PGDMEx)",
+  "meta_description": "Develop general management capabilities, strategic leadership and with IIM Visakhapatnam's 12-month PGDM for Working Executives for working professionals.",
+  "keywords": "PGDM for working executives IIM Visakhapatnam, PGDMEx IIMV, executive MBA IIM Visakhapatnam, top executive PGDM",
+  "status": "Coming Soon"
 }

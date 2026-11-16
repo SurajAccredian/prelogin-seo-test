@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Drawer,
   DrawerBody,
@@ -197,9 +198,12 @@ function SignupDrawer({ open, email, handleClose }) {
         <DrawerContent bg="white" zIndex="1500">
           <DrawerCloseButton mx={"4px"} />
           <DrawerHeader mx={"4px"} borderBottom="2px solid #e2e8f0">
-            <img
+            <Image
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
               alt="Company Logo"
+              width={100}
+              height={30}
+              quality={75}
               style={{ width: "100px", height: "auto" }}
             />
           </DrawerHeader>

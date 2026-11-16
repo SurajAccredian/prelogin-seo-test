@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -109,7 +110,13 @@ const BenefitTable = ({ selectedVertical, enrolled, columnNames }) => {
                     }}
                   >
                     <span className="flex gap-4 items-start">
-                      <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/program-hat.svg" alt="program" />
+                      <Image
+                        src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/program-hat.svg"
+                        alt="program icon"
+                        width={24}
+                        height={24}
+                        className="w-6 h-6 flex-shrink-0"
+                      />
                       {row.program_name}
                     </span>
                   </StyledTableCell>

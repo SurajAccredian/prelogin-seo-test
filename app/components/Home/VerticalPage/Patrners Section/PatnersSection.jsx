@@ -1,11 +1,13 @@
 import React from "react";
+import Image from "next/image";
 
 import { useSelector } from "react-redux";
 
 import Patners from "./Patners.css";
 
-const Partners = () => {
-  const { data } = useSelector((state) => state.program);
+const Partners = ({ data: propData }) => {
+  const { data: reduxData } = useSelector((state) => state.program);
+  const data = propData || reduxData;
   const universitiesURL = {
     iitg: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iitg.webp",
     iimv: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
@@ -29,26 +31,46 @@ const Partners = () => {
             Our
             <span className="text-universal"> Educational Partners</span>
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold ">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold ">
             Learn from the{" "}
             <span className="text-universal"> Best Institutions</span> in India
-          </h1>
+          </h2>
         </div>
 
         {/* <div className="flex"> */}
         <div className="flex justify-center items-center gap-16 py-10 flex-wrap">
-          {partnerURLs?.map((partner, index) => (
-            <div
-              key={index}
-              className="w-[150px] h-[50px] flex justify-center items-center overflow-hidden"
-            >
-              <img
-                className="object-contain w-full h-full"
-                src={partner.url}
-                alt={partner.university}
-              />
-            </div>
-          ))}
+          {partnerURLs?.map((partner, index) => {
+            const partnerNameMap = {
+              iimv: "IIM Visakhapatnam",
+              "iim-v": "IIM Visakhapatnam",
+              iitk: "IIT Kanpur",
+              "iim-trichy": "IIM Tiruchirappalli",
+              iiml: "IIM Lucknow",
+              iimr: "IIM Ranchi",
+              xlri: "XLRI Delhi NCR",
+              spjain: "SP Jain School of Global Management",
+            };
+            const partnerDisplayName = partnerNameMap[partner.university?.toLowerCase()] || `${partner.university} - Accredian Partner`;
+
+            return (
+              <div
+                key={index}
+                className="w-[150px] h-[50px] flex justify-center items-center overflow-hidden"
+              >
+                {partner.url && (
+                  <Image
+                    className="object-contain w-full h-full"
+                    src={partner.url}
+                    alt={partnerDisplayName}
+                    width={150}
+                    height={50}
+                    quality={75}
+                    sizes="150px"
+                  />
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ import PROGRAMS from "../../Assets/programs.json"
 
 import "./Related.css"
 import { CiViewTimeline } from 'react-icons/ci';
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useMemo } from 'react';
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { programActions } from '../../../store/reducers/program';
@@ -23,13 +23,28 @@ import { ProgramCard } from '../../Home/Programs/Programs';
 SwiperCore.use([EffectCoverflow, Navigation, Autoplay])
 
 
-const Related = () => {
+const Related = ({ data: propData }) => {
 
-  const { data } = useSelector(state => state.program)
+  const reduxProgram = useSelector(state => state.program);
+  const data = propData || reduxProgram.data;
   const dispatch = useDispatch()
   const paginationRef = useRef(null);
   const swiperContainerRef = useRef(null);
-  const [verticalPrograms, setVerticalPrograms] = useState([])
+
+  const initialPrograms = React.useMemo(() => {
+    if (data?.vertical) {
+      const programs = PROGRAMS.filter(program => program.category.toLocaleLowerCase() === data?.vertical.toLocaleLowerCase());
+      let relatedPrograms = programs.filter(p => p.program_name !== data?.title);
+      if (relatedPrograms.length < 3) {
+        const mostSellingCourses = PROGRAMS.filter(p => p.status.toLocaleLowerCase() === 'new launch');
+        relatedPrograms = [...mostSellingCourses];
+      }
+      return relatedPrograms;
+    }
+    return [];
+  }, [data?.vertical, data?.title]);
+
+  const [verticalPrograms, setVerticalPrograms] = useState(initialPrograms)
   const [swiper, setSwiper] = useState(null);
 
   useEffect(() => {
@@ -83,12 +98,19 @@ const Related = () => {
   }, [swiper]);
 
 
+  if (
+    data?.id === "gim-hybrid-post-graduate-diploma-in-management" ||
+    data?.id === "iim-kashipur-executive-post-graduate-diploma-program-in-business-management"
+  ) {
+    return null;
+  }
+
   return (
     <div className='related w-full xl:px-12 px-4 py-6 md:py-12'>
       <div className='w-full flex justify-center'>
         <div className='w-full max-w-[85rem] relative'>
           <div className='mt-2 w-full flex items-center'>
-            <h1 className='text-xl capitalize font-semibold'>Related Programs</h1>
+            <h2 className='text-xl capitalize font-semibold'>Related Programs</h2>
           </div>
         </div>
       </div>

@@ -1,8 +1,10 @@
 {
   "category": "39",
   "id": "accelerated-senior-management-program",
+  "pid": 121,
   "vertical": "senior management",
   "title": "Accelerated Senior Management Programme",
+  "seo_title": "Senior Management Program IIM Tiruchirappalli | Accredian",
   "description": "Embark on a 10 month learning journey in Strategic Leadership, AI and GenAI Strategy.",
   "short_title": "Senior Management",
   "contact": "8882597163",
@@ -107,7 +109,11 @@
     "certificate",
     "strategic-leadership"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -242,7 +248,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Dr. Amit Shankar",
@@ -322,7 +327,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },
@@ -369,5 +376,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMT-Accelerated-Senior-Management-Program.pdf",
     "source": "IIMT Accelerated Senior Management Program Brochure",
     "campaign_name": "SMP-IIMT-10 Months"
-  }
+  },
+  "og_title": "IIMT - Accelerated Senior Management Program",
+  "meta_description": "Master strategic leadership, decision-making and cross-functional vision with IIM Trichy's 10-month Senior Management Program for senior managers.",
+  "keywords": "senior management program, IIM Trichy senior management course, executive leadership program India, best executive management courses"
 }

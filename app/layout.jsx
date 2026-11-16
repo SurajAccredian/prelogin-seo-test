@@ -8,6 +8,8 @@ import QueryProvider from "./store/QueryProvider";
 import AnalyticsProvider from "./components/AnalyticsProvider";
 import SmoothScroll from "./components/SmoothScroll";
 import { Toaster } from "react-hot-toast";
+import { JsonLd } from "./components/JsonLd";
+import { sitewideGraph } from "./lib/schema";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -18,53 +20,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://accredian.com";
+
 export const metadata = {
+  metadataBase: new URL(BASE_URL),
+  alternates: {
+    canonical: "/",
+  },
   title: {
-    template: "%s | Accredian",
     default: "Accredian",
   },
   description:
-    "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
-  keywords:
-    "data science course India, AI ML certification, AI ML courses in india, top AI ML programs, product management program IIT, IIM executive program, online data science certification, career transition data science, IIT Kanpur data science, IIM Lucknow executive program, XLRI HR program, best data science courses in India, online professional certifications, IIM certification for working professionals, IIT artificial intelligence course, management courses for senior executives, data analytics course with placement, best AI ML courses for beginners",
+    "Learn from top IIMs, IITs and XLRI through industry-relevant programs in AI, leadership, strategy and more. Build skills that move your career forward.",
   openGraph: {
     type: "website",
     siteName: "Accredian",
-    title: "Accredian",
+    title: "Accredian | Build Skills for What's Next",
     description:
-      "Join India's leading online professional certification programs from IITs, IIMs, XLRI & SP Jain. Advance your career in Data Science, AI, Product Management, and Business Analytics.",
-    url: "https://accredian.com",
+      "Courses by top IIMs, IITs, XLRI and many more in AI, leadership, strategy and more. Find the right path to your next career move.",
+    url: BASE_URL,
     images: [
-      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+      "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/accredian-logo-image-v2.webp",
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@accredianedu",
   },
-};
-
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Gurugram",
-    addressRegion: "IN",
-    postalCode: "122015",
-    streetAddress: "4th Floor, Plot No. 250, Udyog Vihar, Phase IV",
-  },
-  name: "Accredian",
-  url: "https://accredian.com",
-  logo: "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
-  sameAs: [
-    "https://facebook.com/accredianlearn",
-    "https://twitter.com/accredianedu",
-    "https://www.instagram.com/accredian_edu",
-    "https://www.youtube.com/channel/UCE0L_4ADPU2iyKnDJ0xRzyA",
-    "https://www.linkedin.com/company/accredianedu/",
-    "https://accredian.com",
-  ],
 };
 
 export default function RootLayout({ children }) {
@@ -101,10 +83,7 @@ export default function RootLayout({ children }) {
             src="https://px.ads.linkedin.com/collect/?pid=3021458&fmt=gif"
           />
         </noscript>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <JsonLd data={sitewideGraph()} />
         <SmoothScroll />
         <ReduxProvider>
           <QueryProvider>

@@ -1,8 +1,10 @@
 {
   "category": "24",
   "id": "fintech-blockchain-program",
+  "pid": 72,
   "vertical": "finance",
   "title": "Post Graduate Certificate in FinTech, Blockchain & Risk Management",
+  "seo_title": "FinTech & Blockchain Certificate IIMV | Accredian",
   "description": "Master fundamentals of FinTech, Blockchain & Business Applications at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "FinTech & Blockchain",
   "contact": "8826567425",
@@ -106,7 +108,11 @@
     "engaging-simulations",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -367,7 +373,6 @@
     "programId": "fintech-blockchain-program",
     "points": [
       "140+ Hours of Live Classes",
-
       "3 Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -414,7 +419,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },
@@ -463,5 +470,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-PG-Certificate-Program-in-Fintech-Blockchain-and-Risk-Management.pdf",
     "source": "IIMV Fintech, Blockchain & Risk Management Brochure",
     "campaign_name": "FT-IIMV-11 Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate FinTech & Risk Mgmt",
+  "meta_description": "Develop expertise in blockchain frameworks with IIM Visakhapatnam's 11-month FinTech & Blockchain program for finance professionals and fintech managers.",
+  "keywords": "fintech blockchain risk management IIM Visakhapatnam, IIM fintech certification, blockchain risk executive program"
 }

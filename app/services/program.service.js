@@ -1,8 +1,29 @@
+
 import api from "./server";
 
 export const getCta = async (body) => {
   try {
     const data = await api.post(`/common_publish/commonPublish`, body);
+
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const submitLandingPageLead = async (body) => {
+  try {
+    const data = await api.post(`/bot-leads/request-consultation-api`, body);
+
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const getBrochureCta = async (body) => {
+  try {
+    const data = await api.post(`/cta/get-brochure`, body);
 
     return data;
   } catch (error) {
@@ -46,3 +67,31 @@ export const createApplicationStepTracker = async (body) => {
     throw error;
   }
 };
+
+/**
+ * Service function to fetch live program registration status by PID
+ * Endpoint: GET /program/:pid/registration-status
+ */
+export const getProgramRegistrationStatus = async (pid) => {
+  try {
+    const { data } = await api.get(`/program/${pid}/registration-status`);
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+/**
+ * Service function to fetch live bulk program registration statuses
+ * Endpoint: GET /program/bulk/registration-status?pids=...
+ */
+export const getBulkProgramRegistrationStatus = async (pids) => {
+  try {
+    const params = pids ? { pids: Array.isArray(pids) ? pids.join(",") : pids } : {};
+    const { data } = await api.get(`/program/bulk/registration-status`, { params });
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
+

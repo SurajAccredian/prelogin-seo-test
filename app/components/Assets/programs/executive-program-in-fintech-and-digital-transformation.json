@@ -3,6 +3,7 @@
   "id": "executive-program-in-fintech-and-digital-transformation",
   "vertical": "finance",
   "title": "Executive Program in Fintech & Digital Transformation",
+  "seo_title": "Fintech & Digital Transformation E&ICT IITG | Accredian",
   "description": "Embark on a 12 month learning journey in Fintech Ecosystem, Cybersecurity, and Digital Leadership.",
   "short_title": "Fintech",
   "contact": "8826567425",
@@ -54,7 +55,7 @@
     },
     {
       "title": "campus immersion",
-         "text": "2 day"
+      "text": "2 day"
     }
   ],
   "overview": {
@@ -96,15 +97,15 @@
       {
         "title": "program snapshot",
         "points": [
-         "10 Terms - Fintech Ecosystem, Cybersecurity, and Digital Leadership.",
-    "Learn From The Top Industry Professionals",
-    "Duration: 12 Months | Weekend Online",
-    "Certification From E&ICT, IIT Guwahati",
-    "Live Instructor Led Classes",
-    "Capstone Project",
-    "No Cost EMI Upto 12 Months",
-    "Career Assistance by Accredian",
-    "One On One Career Mentorship Sessions"
+          "10 Terms - Fintech Ecosystem, Cybersecurity, and Digital Leadership.",
+          "Learn From The Top Industry Professionals",
+          "Duration: 12 Months | Weekend Online",
+          "Certification From E&ICT, IIT Guwahati",
+          "Live Instructor Led Classes",
+          "Capstone Project",
+          "No Cost EMI Upto 12 Months",
+          "Career Assistance by Accredian",
+          "One On One Career Mentorship Sessions"
         ]
       }
     ]
@@ -127,7 +128,6 @@
     "Eligibility Test",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Introduction to FinTech",
@@ -197,20 +197,20 @@
       "title": "Digital Business Models and Value Proposition",
       "id": "2",
       "points": [
-       "Digital Business Model Fundamentals",
-    "Value Proposition Development",
-    "Monetizing Digital Business Models",
-    "Digital Ecosystems and Partnerships"
+        "Digital Business Model Fundamentals",
+        "Value Proposition Development",
+        "Monetizing Digital Business Models",
+        "Digital Ecosystems and Partnerships"
       ]
     },
     {
       "title": "Digital Technology & Tools",
       "id": "3",
       "points": [
-       "Foundations of Digital Technologies",
-    "Cybersecurity and Data Privacy",
-    "AI/ML & IOT Analytics",
-    "Blockchain & Industry 4.0"
+        "Foundations of Digital Technologies",
+        "Cybersecurity and Data Privacy",
+        "AI/ML & IOT Analytics",
+        "Blockchain & Industry 4.0"
       ]
     },
     {
@@ -218,9 +218,9 @@
       "id": "4",
       "points": [
         "Digital Transformation Models",
-    "Digital Transformation Roadmaps",
-    "Agile Methodologies for Transformation",
-    "Digital Transformation Governance"
+        "Digital Transformation Roadmaps",
+        "Agile Methodologies for Transformation",
+        "Digital Transformation Governance"
       ]
     },
     {
@@ -228,9 +228,9 @@
       "id": "5",
       "points": [
         "Leadership in Digital Transformation",
-    "Change Management Strategies",
-    "Building an Innovation First culture",
-    "Sustaining Digital Success"
+        "Change Management Strategies",
+        "Building an Innovation First culture",
+        "Sustaining Digital Success"
       ]
     },
     {
@@ -257,7 +257,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Prahlad Modi",
       "position": "Senior Product Manager",
@@ -306,28 +305,36 @@
     {
       "title": "solidity",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/solidity.svg"
-    },  {
+    },
+    {
       "title": "OpenVAS",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/open-vas.webp"
-    },  {
+    },
+    {
       "title": "confluence",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
-    },  {
+    },
+    {
       "title": "miro",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
-    },  {
+    },
+    {
       "title": "hotjar",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/hotjar.webp"
-    },  {
+    },
+    {
       "title": "bubble.io",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/bubble-io.webp"
-    },  {
+    },
+    {
       "title": "Retool",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/retool.webp"
-    },  {
+    },
+    {
       "title": "Bigml",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/big-ml-v1.webp"
-    },  {
+    },
+    {
       "title": "thirdweb",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/thirdweb.webp"
     }
@@ -336,11 +343,10 @@
     "programId": "executive-program-in-fintech-and-digital-transformation",
     "points": [
       "140+ Hours of Live Classes",
-    
-    "10+ Tools and Frameworks Covered",
-    "6 Career Sessions by Accredian",
-    "Quick Query Resolution",
-    "Access to Session Recordings"
+      "10+ Tools and Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
     ],
     "monthly_emi": [
       {
@@ -372,7 +378,7 @@
           },
           {
             "title": "What is the minimum system configuration required?",
-           "content": [
+            "content": [
               "## Minimum System Requirements for the Program:",
               "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
               "- **RAM:** 4GB (8GB recommended for better performance)"
@@ -421,7 +427,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Fintech & Digital Transformation different?",
@@ -464,5 +470,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-Fintech-and-DT.pdf",
     "source": "IITG Fintech & Digital Transformation Brochure",
     "campaign_name": "EPFDT-IITG-12 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Fintech & Digital Shift",
+  "meta_description": "Develop expertise in digital banking shifts with E&ICT IIT Guwahati's 12-month Digital Transformation program for finance professionals and fintech managers.",
+  "keywords": "fintech digital transformation IIT Guwahati, digital banking executive course, financial transformation management program"
 }

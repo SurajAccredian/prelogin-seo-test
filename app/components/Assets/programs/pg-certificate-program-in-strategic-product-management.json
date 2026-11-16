@@ -3,6 +3,7 @@
   "id": "pg-certificate-program-in-strategic-product-management",
   "vertical": "product management",
   "title": "PG Certificate Program in Strategic Product Management",
+  "seo_title": "Strategic Product Management Program IIMV | Accredian",
   "description": "Master product strategy, agile product development, and data driven decision making at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Product Management",
   "contact": "7012957331",
@@ -347,7 +348,6 @@
     "programId": "pg-certificate-program-in-strategic-product-management",
     "points": [
       "130+ Hours of Live Classes",
-      
       "40+ Tools & Frameworks Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -446,5 +446,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIMV-SPM-Brochure-v8.pdf",
     "source": "product management brochure",
     "campaign_name": "PM-IIMV-10 Months"
-  }
+  },
+  "og_title": "IIMV - PG Certificate Strategic Product Mgmt",
+  "meta_description": "Master product strategy with IIM Visakhapatnam's 10-month Strategic Product Management program for product managers and aspiring product leaders.",
+  "keywords": "PG certificate strategic product management IIM Visakhapatnam, IIM product management course, product strategy IIMV"
 }

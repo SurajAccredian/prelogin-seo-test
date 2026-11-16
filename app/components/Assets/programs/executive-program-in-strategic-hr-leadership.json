@@ -3,6 +3,7 @@
   "id": "executive-program-in-strategic-hr-leadership",
   "vertical": "Human Resource",
   "title": "Executive Program in Strategic HR Leadership",
+  "seo_title": "Strategic HR Leadership Program SP Jain | Accredian",
   "description": "Embark on a 6 month learning journey in HR Leadership, Corporate Governance, and Digitalization & GenAl.",
   "short_title": "Human Resource",
   "contact": "9211285411",
@@ -101,7 +102,11 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -328,7 +333,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 6 Months."]
+            "content": [
+              "The duration of the program is 6 Months."
+            ]
           }
         ]
       },
@@ -376,5 +383,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SP-Jain-Strategic-HR-Leadership-Program-Brochure.pdf",
     "source": "SPJ Executive Program in Strategic HR Leadership Brochure",
     "campaign_name": "EPSHRL-SPJ-6 Months"
-  }
+  },
+  "og_title": "SP Jain - Strategic HR Leadership Program",
+  "meta_description": "Build strategic talent management, workforce transformation and HR leadership skills with SP Jain's 6-month Strategic HR Leadership program for HR leaders.",
+  "keywords": "strategic HR leadership SP Jain, executive HR certification SP Jain, strategic human resources leadership course"
 }

@@ -3,6 +3,7 @@
   "id": "executive-program-in-pm-ba",
   "vertical": "product management",
   "title": "Executive Program in Product Management and Business Analytics",
+  "seo_title": "Product Management & Business Analytics E&ICT IITG | Accredian",
   "description": "Embark on a 10-term learning journey in UI/UX, Product Engineering & Business Analytics.",
   "short_title": "Product Management",
   "contact": "7012957331",
@@ -281,7 +282,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Nishkam Verma",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
@@ -382,7 +382,6 @@
     "programId": "executive-program-in-pm-ba",
     "points": [
       "170+ Hours of Live Classes",
-      
       "40+ Tools & Frameworks Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -465,7 +464,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Product Management and Business Analytics different?",
@@ -510,5 +509,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-PMBA-10-Months-v1.pdf",
     "source": "product management and business analytics brochure",
     "campaign_name": "PMBA-IITG 10 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Product & Analytics",
+  "meta_description": "Build skills in product metrics, data analytics and with E&ICT IIT Guwahati's 10-month Product Management & Business Analytics program for product managers.",
+  "keywords": "product management business analytics IIT Guwahati, PM analytics executive course, data driven product management"
 }

@@ -1,8 +1,10 @@
 {
   "category": "58",
   "id": "iim-ranchi-executive-program-in-leadership-with-ai",
+  "pid": 157,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
+  "seo_title": "IIM Ranchi Executive Programme in Leadership with AI | Accredian",
   "description": "Embark on an 8 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "8851827093",
@@ -10,7 +12,7 @@
   "short_university_name": "iim-ranchi",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "start_date": "26 Jul 2026",
+  "start_date": "15 Nov 2026",
   "required_years_experience": 5,
   "duration": "8 months",
   "type": "online",
@@ -30,7 +32,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIM-Ranchi/iimr_certificate.jpg",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
   "key_features": [
     {
       "title": "hours",
@@ -106,7 +108,11 @@
     "experiential-learning",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -140,12 +146,11 @@
         "Aligning AI with Business Strategy",
         "Use Case Identification & Prioritization",
         "AI Execution Roadmaps & Operating Models",
-        "AI Economics: ROI & Value Realization",
-        "(AI Strategy Simulation)"
+        "AI Economics: ROI & Value Realization"
       ]
     },
     {
-      "title": "AI Business Models & Monetization",
+      "title": "AI Business Models",
       "id": "ai-business-models-monetization",
       "points": [
         "AI Business Model Design & Innovation",
@@ -171,29 +176,17 @@
         "AI in Marketing: Growth & Personalization",
         "AI in Finance: Forecasting & Decision Intelligence",
         "AI in HR: Talent & Workforce Analytics",
-        "AI in Operations & Supply Chain Systems",
-        "(AI Business Transformation Simulation)"
+        "AI in Operations & Supply Chain Systems"
       ]
     },
     {
-      "title": "AI Risk, Safety & Governance",
+      "title": "AI Risk, Safety, Ethics & Governance",
       "id": "ai-risk-safety-governance",
       "points": [
         "Understanding AI Risks – Bias, Errors & Uncertainty",
         "Data Privacy, Security & Regulatory Considerations",
         "Governance Models – Control, Audit & Accountability",
-        "Responsible AI – Ethics, Oversight & Trust",
-        "(AI Governance Simulation)"
-      ]
-    },
-    {
-      "title": "Leading AI Transformation",
-      "id": "leading-ai-transformation",
-      "points": [
-        "Leading AI-Driven Organizational Change",
-        "AI Talent, Capability & Operating Models",
-        "Driving Adoption Across Business Units",
-        "Measuring Transformation Impact & Value"
+        "Responsible AI – Ethics, Oversight & Trust"
       ]
     },
     {
@@ -207,6 +200,16 @@
       ]
     },
     {
+      "title": "Leading AI Transformation & Change",
+      "id": "leading-ai-transformation",
+      "points": [
+        "Building human resource capabilities- reskilling, upskilling",
+        "Leading AI-Driven Organizational Change",
+        "AI Talent, Capability & Operating Models",
+        "Driving Adoption Across Business Units"
+      ]
+    },
+    {
       "title": "Capstone",
       "id": "capstone",
       "special": "1",
@@ -215,89 +218,10 @@
       ]
     }
   ],
-  "faculty": [
-    {
-      "name": "Dr. Amit Shankar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
-      "position": "Program Co-Director",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Josyula Srinivas",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
-      "position": "Associate Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Happy Paul",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/happy-paul-v1.webp",
-      "position": "Associate Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Dr. Sushil Kumar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
-      "position": "Program Director",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Dr. MV Anuradha",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/MV-anuradha-v1.webp",
-      "position": "Associate Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Dr. PRS Sharma",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/PRS-sharma-v1.webp",
-      "position": "Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Shalini Agnihotri",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shalini-v1.webp",
-      "position": "Assistant Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Md. Shameem Jawed",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/shameem-v1.webp",
-      "position": "Associate Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Ashmita Verma",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Ashmita-v1.webp",
-      "position": "Assistant Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Bishakha Majumdar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/Bisakha-v1.webp",
-      "position": "Assistant Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Kalyan K",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/kalyan-v1.webp",
-      "position": "Assistant Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    }
-  ],
   "tools": [
     {
       "title": "Perplexity",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/perplexity.svg"
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/perplexity%20(1).webp"
     },
     {
       "title": "ChatGPT",
@@ -318,6 +242,14 @@
     {
       "title": "Claude AI",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/claudeAi-logo.svg"
+    },
+    {
+      "title": "NotebookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notebooklm-icon.webp"
+    },
+    {
+      "title": "Leonardo.AI",
+      "icon_url": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/leonardo-ai-logo.webp"
     }
   ],
   "billing": {
@@ -331,18 +263,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 17238
+        "emi": 18431
       },
       {
         "months": 18,
-        "emi": 11909
+        "emi": 12733
       },
       {
         "months": 24,
-        "emi": 9225
+        "emi": 9863
       }
     ],
-    "total": 199000
+    "total": 210000
   },
   "faq": {
     "programId": "iim-ranchi-executive-program-in-leadership-with-ai",
@@ -369,7 +301,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },
@@ -410,11 +344,15 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iim-ranchi-executive-program-in-leadership-with-ai-Brochure.pdf",
     "source": "IIM Ranchi Executive Program in Leadership with AI Brochure",
     "campaign_name": "EPLA-IIMR-8 Months"
-  }
+  },
+  "og_title": "IIM Ranchi - Executive Program in Leadership with AI",
+  "meta_description": "Build expertise in AI transformation, data-driven leadership and strategic with IIM Ranchi's 8-month Leadership with AI program for senior executives.",
+  "keywords": "leadership with AI IIM Ranchi, IIM Ranchi AI executive program, AI strategy for business leaders, executive AI certification"
 }

@@ -1,8 +1,10 @@
 {
   "category": "18",
   "id": "executive-program-in-business-management",
+  "pid": 63,
   "vertical": "business management",
   "title": "Executive Program in Business Management",
+  "seo_title": "Executive Business Management Program IIMV | Accredian",
   "description": "Master leadership principles, strategic thinking, and management at one of India’s premier business schools, and attain Executive Alumni status",
   "short_title": "Business Management",
   "university_name": "IIM Visakhapatnam",
@@ -108,7 +110,11 @@
     "engaging-simulations",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -254,7 +260,9 @@
       "title": "Capstone Project",
       "week": "1 week",
       "id": "capstone-project--1-week",
-      "points": ["Strategic Business Transformation Project"]
+      "points": [
+        "Strategic Business Transformation Project"
+      ]
     }
   ],
   "faculty": [
@@ -326,7 +334,6 @@
     "programId": "executive-program-in-business-management",
     "points": [
       "150+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -372,7 +379,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },
@@ -420,5 +429,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Business-Management.pdf",
     "source": "Business Management brochure",
     "campaign_name": "BM-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - Executive Program in Business Management",
+  "meta_description": "Develop strategic decision-making with IIM Visakhapatnam's 12-month Executive Business Management Program for senior managers and executives.",
+  "keywords": "business management program IIM Visakhapatnam, executive program in management IIMV, executive general management course"
 }

@@ -3,6 +3,7 @@
   "id": "executive-program-in-ds-ba",
   "vertical": "data science",
   "title": "Executive Program in Data Science and Business Analytics",
+  "seo_title": "Data Science & Business Analytics E&ICT IITG | Accredian",
   "description": "Embark on an 11-term learning journey in Data Analytics, ML & Business Analytics.",
   "short_title": "Data Science",
   "contact": "9079653292",
@@ -296,7 +297,6 @@
       "organization": "IIT Guwahati",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
     },
-
     {
       "name": "Subhodeep Dey",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
@@ -351,7 +351,6 @@
     "programId": "executive-program-in-ds-ba",
     "points": [
       "160+ Hours of Live Classes",
-      
       "30+ Tools Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -434,7 +433,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Data Science and Business Analytics program different?",
@@ -479,5 +478,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-in-DS-BA-11-months.pdf",
     "source": "data science and business analytics brochure",
     "campaign_name": "DSBA-IIT 11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Data Science & Analytics",
+  "meta_description": "Develop statistical modeling, business intelligence and predictive with E&ICT IIT Guwahati's 11-month Data Science & BA program for data professionals.",
+  "keywords": "data science business analytics IIT Guwahati, executive program in data science, business analytics certification India, data analyst executive course"
 }

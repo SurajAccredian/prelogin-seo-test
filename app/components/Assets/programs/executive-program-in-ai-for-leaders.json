@@ -1,7 +1,8 @@
 {
-  "id": "executive-program-in-business-management",
+  "id": "executive-program-in-ai-for-leaders",
   "vertical": "artificial intelligence",
   "title": "Executive Program in AI for Leaders",
+  "seo_title": "IIM Amritsar Executive AI for Leaders Programme | Accredian",
   "description": "Master AI fundamentals, strategies for integration, and innovation at one of India's premier business schools, and attain Executive Alumni status.",
   "university_name": "IIM Amritsar",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
@@ -54,7 +55,7 @@
     }
   ],
   "overview": {
-    "programId": "executive-program-in-business-management",
+    "programId": "executive-program-in-ai-for-leaders",
     "content": [
       {
         "title": "who should join",
@@ -328,10 +329,9 @@
     }
   ],
   "billing": {
-    "programId": "executive-program-in-business-management",
+    "programId": "executive-program-in-ai-for-leaders",
     "points": [
       "150+ Hours of Live Classes",
-      
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -353,7 +353,7 @@
     "total": 290000
   },
   "faq": {
-    "programId": "executive-program-in-business-management",
+    "programId": "executive-program-in-ai-for-leaders",
     "points": [
       {
         "title": "Program Pre-Requisites",
@@ -426,5 +426,8 @@
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIMV-EPBM-B2-Brochure.pdf",
     "source": "business management brochure"
-  }
+  },
+  "og_title": "IIMA - Executive Program in AI for Leaders",
+  "meta_description": "Master AI strategy, predictive modeling and digital business innovation with IIM Amritsar's 12-month Executive Program in AI for Leaders for working managers.",
+  "keywords": "AI for leaders IIM Amritsar, executive program in AI, artificial intelligence management IIM, AI leadership certification India"
 }

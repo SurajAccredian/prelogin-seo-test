@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function StepperVertical() {
   return (
     <div className="flex flex-col">
@@ -8,18 +10,22 @@ export default function StepperVertical() {
       <div className="flex gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
-            <img
+            <Image
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps1.webp"
               alt="career launchpad"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
             />
           </div>
           <div className="w-[1px] h-full min-h-10 md:min-h-16 bg-slate-500" />
         </div>
         <div className="mb-4">
-          <h1 className="font-semibold text-xl md:text-2xl">
+          <h3 className="font-semibold text-xl md:text-2xl">
             360 Degree - Career Launchpad
-          </h1>
+          </h3>
           <h4 className="max-w-lg lg:max-w-md text-sm md:text-base leading-tight mt-3 text-neutral-700 ">
             Get a 360 degree career transformation with resume preparation,
             GitHub & Linkedin profile builders.
@@ -30,18 +36,22 @@ export default function StepperVertical() {
       <div className="flex gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
-            <img
+            <Image
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps2.webp"
               alt="Interview preparation"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
             />
           </div>
           <div className="w-[1px] h-full min-h-10 md:min-h-16 bg-slate-500" />
         </div>
         <div className="mb-4">
-          <h1 className="font-semibold text-xl md:text-2xl">
+          <h3 className="font-semibold text-xl md:text-2xl">
             Interview Preparation
-          </h1>
+          </h3>
           <h4 className="max-w-lg lg:max-w-md text-sm md:text-base leading-tight mt-3 text-neutral-700 ">
             Apply to recommended jobs based on your profile and crack any
             interview with our Top 100 Interview Questions guide. Don't worry,
@@ -53,18 +63,22 @@ export default function StepperVertical() {
       <div className="flex gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg border border-universal p-4">
-            <img
+            <Image
               className="w-full h-full object-contain"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/home-page-images/ps3.webp"
               alt="Mentor session"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
             />
           </div>
           <div className="w-[1px] h-full bg-slate-500" />
         </div>
         <div className="mb-2">
-          <h1 className="font-semibold text-xl md:text-2xl">
+          <h3 className="font-semibold text-xl md:text-2xl">
             Experience 1-on-1 mentor sessions
-          </h1>
+          </h3>
           <h4 className="max-w-lg lg:max-w-md text-sm md:text-base leading-tight mt-3 text-neutral-700 ">
             Global Data Leader talks help you gain practical insights into
             industry requirements, current trends, and opportunities.

@@ -3,6 +3,7 @@
   "id": "executive-program-in-ds-and-ai-advance",
   "vertical": "data science",
   "title": "Executive Program in Data Science & Artificial Intelligence",
+  "seo_title": "Data Science & AI Program E&ICT IITG | Accredian",
   "description": "Embark on a 12-term learning journey in Data Science, Machine Learning, & End-to-End AI Product Development.",
   "short_title": "Data Science & AI",
   "contact": "9079653292",
@@ -309,7 +310,6 @@
       "organization": "IIT Guwahati",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/iitg.webp"
     },
-
     {
       "name": "Subhodeep Dey",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
@@ -388,7 +388,6 @@
     "points": [
       "Dual Certification from E&ICT, IIT Guwahati and Accredian",
       "190+ Hours of Live Classes",
-      
       "25+ Tools Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -612,5 +611,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-in-DS-AI-12-months.pdf",
     "source": "data science and AI brochure",
     "campaign_name": "DSAI-IIT 12 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Data Science & AI Program",
+  "meta_description": "Build deep expertise in machine learning with E&ICT IIT Guwahati's 12-month Data Science & AI program for data professionals and business analysts.",
+  "keywords": "data science AI program IIT Guwahati, executive data science course India, advanced machine learning certification, best AI data science course"
 }

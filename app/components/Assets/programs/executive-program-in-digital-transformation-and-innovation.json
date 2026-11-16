@@ -3,6 +3,7 @@
   "id": "executive-program-in-digital-transformation-and-innovation",
   "vertical": "digital transformation",
   "title": "Executive Program in Digital Transformation & Innovation",
+  "seo_title": "Digital Transformation & Innovation E&ICT IITG | Accredian",
   "description": "Embark on a 9 terms learning journey Digital Strategy, AI/ML Analytics, Agile Methodologies, and Digital Leadership.",
   "short_title": "Digital Transformation",
   "contact": "9358719988",
@@ -339,7 +340,6 @@
     "programId": "executive-program-in-digital-transformation-and-innovation",
     "points": [
       "100+ Hours of Live Classes",
-      
       "10+ Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -418,7 +418,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Digital Transformation & Innovation different?",
@@ -462,5 +462,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/Executive-Program-in-Digital-Transformation-Innovation-10-Months-v6.pdf",
     "source": "IITG Digital Transformation & Innovation Brochure",
     "campaign_name": "PCDT-IITG-10 Month"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Digital Shift & Innovation",
+  "meta_description": "Develop digital transformation frameworks with E&ICT IIT Guwahati's 10-month Digital Transformation program for innovation managers and design professionals.",
+  "keywords": "digital transformation innovation IIT Guwahati, executive program digital innovation, enterprise transformation management"
 }

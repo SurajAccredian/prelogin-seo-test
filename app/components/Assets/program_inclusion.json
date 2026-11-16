@@ -12,10 +12,7 @@
       "Campus Immersion": "Two Campus Immersion of 2 days each",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "XLRI Professors and Industry Experts",
-      "Program Highlights": [
-        "Board Room Simulation",
-        "Management Hackathon"
-      ],
+      "Program Highlights": ["Board Room Simulation", "Management Hackathon"],
       "Alumni Status": "Yes, Executive Alumni Status at an additional fee of INR 20,000 + GST. This one-time fee, payable directly to XLRI upon program completion, grants lifetime membership to the Executive Education Alumni Status, including access to the Executive Alumni Directory.",
       "Minimum Attendance Required": "Minimum Attendance - 75% // Project Participation + Assessments are mandatory",
       "Certificates": "Completion Certificate from XLRI Delhi-NCR",
@@ -111,10 +108,7 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Visakhapatnam",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": [
-        "Excel",
-        "Power BI"
-      ]
+      "Tools/Framework Covered in the Program": ["Excel", "Power BI"]
     }
   },
   {
@@ -482,11 +476,7 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Visakhapatnam",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": [
-        "Excel",
-        "Python",
-        "Solidity"
-      ]
+      "Tools/Framework Covered in the Program": ["Excel", "Python", "Solidity"]
     }
   },
   {
@@ -1166,7 +1156,6 @@
       "tools/framework covered in the program": "N.A."
     }
   },
-  
   {
     "title": "PG Certificate Program in Family Business Management",
     "id": "family-business-management-12-months",
@@ -1195,7 +1184,8 @@
       "Minimum Attendance Required": "Minimum Attendance Required: 70%",
       "Certificates": "Completion Certificate issued by IIM Visakhapatnam",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "physical ID card": "No Physical ID card to be provided"  }
+      "physical ID card": "No Physical ID card to be provided"
+    }
   },
   {
     "title": "PG Certificate Program in Investment Banking & Capital Markets",
@@ -1397,7 +1387,6 @@
       ]
     }
   },
-  
   {
     "title": "Chief Financial Officer Programme",
     "id": "chief-financial-officer-programme-12-months",
@@ -1613,8 +1602,8 @@
       "Institute Name": "XLRI Delhi NCR",
       "Program Name": "Executive Development Program in Strategic HR Leadership",
       "Duration of the Program": "10 Months",
-      "Program Terms/Modules": "10 Modules",
-      "Live Session Hours": "120+ hours",
+      "Program Terms/Modules": "8 Modules",
+      "Live Session Hours": "126+ hours",
       "Capstone Project": "1 Capstone Project",
       "Campus Immersion": "One Campus Immersion of 2 days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
@@ -1624,7 +1613,7 @@
         "CXO Coaching Sessions"
       ],
       "Alumni Status": "Yes, Executive Alumni Status at an additional fee of INR 20,000 + GST. This one-time fee, payable directly to XLRI upon program completion, grants lifetime membership to the Executive Education Alumni Status, including access to the Executive Alumni Directory.",
-      "Minimum Attendance Required": "Minimum Attendance - 75% // Project Participation + Assessments are mandatory",
+      "Minimum Attendance Required": "Minimum Attendance - 70% // Project Participation + Assessments are mandatory",
       "Certificates": "Completion Certificate from XLRI & XLEAD",
       "Career Assistance Sessions": "6 Sessions by Accredian",
       "Tools/Framework Covered in the Program": "NA"
@@ -1731,13 +1720,14 @@
         "The dates will be confirmed at least 90 days before the event, subject to hotel availability.",
         "The program fee includes double occupancy boarding and lodging only.",
         "Participants will need to make their own arrangements and bear the costs for travel, visa, and immigration documentation.",
-        "The itinerary and activities are subject to the final schedule and may change based on local conditions and availability."
+        "The Dubai Immersion may include activities like yacht cruise, desert safari, etc. The itinerary and activities are subject to the final schedule and may change based on local conditions and availability.",
+        "Airport Transfers are not a part of the Dubai Immersion."
       ],
       "program faculty": "IIM Visakhapatnam Faculty and Industry Experts",
       "alumni status": "Executive Alumni Status from IIM Visakhapatnam awarded upon program completion",
       "benefits of alumni status": [
         "Batch and Individual Email IDs",
-        "Executive Alumni Identity Card",
+        "Executive Alumni Identity Card – provided in digital format (not a physical ID card), subject to the faculty’s discretion.",
         "Monthly access to IIM(V)ibes and IIMV Newsletter",
         "Invitation and news about eminent talks, workshops, seminars and conferences at the institute to grow professional and social networks.",
         "Access to IIMV Alumni group on linkedin exposing you to a great networking opportunity",
@@ -1921,7 +1911,6 @@
       "physical ID card": "No Physical ID card to be provided"
     }
   },
-  
   {
     "title": "Chief Executive Officer Program (The CEO Program)",
     "id": "ceo-program-11-months",
@@ -2176,7 +2165,7 @@
       "campus immersion available": "Yes",
       "campus immersion duration": "One Campus Immersions of 2 Days at additional cost",
       "campus immersion fee": [
-        "Campus Immersion carries a nominal fee of INR 10,000+GST, which is payable at the time of the scheduled Immersion dates.",
+        "Campus Immersion carries a nominal fee of INR 15,000 + GST, which is payable at the time of the scheduled Immersion dates.",
         "Advance notice of these dates will be provided.",
         "Meals and accommodation (travel expenses not included)"
       ],
@@ -2252,14 +2241,17 @@
       "Program Terms/Modules": "8 Modules",
       "Live Session Hours": "84+ Hours",
       "Capstone Project": "2 Capstone Project upon Modules Completion",
-      "Campus Immersion": "No",
+      "Campus Immersion": "No Campus immersion",
       "Campus Immersion Fee": "NA",
       "Program Faculty": "SP Jain School of Global Management Faculty and Industry Experts ",
       "Alumni Status": "Executive Alumni Status from SP Jain School of Global Management awarded upon program completion",
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": "50+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
+      "Tools/Framework Covered in the Program": [
+        "50+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2294,12 +2286,16 @@
       "Capstone Project": "1 Capstone Project upon Modules Completion",
       "Campus Immersion": "NA",
       "Campus Immersion Fee": "NA",
+      "industry immersion sessions": "yes",
       "Program Faculty": "SP Jain School of Global Management Faculty and Industry Experts ",
       "Alumni Status": "Executive Alumni Status from SP Jain School of Global Management awarded upon program completion",
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc."
+      "Tools/Framework Covered in the Program": [
+        "25+ Tools Chatgpt, Gemini, Claude, BigMl, Gamma, Replicate, Napkin, NotebookLM etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2452,7 +2448,7 @@
       "Institute Name": "IIM Lucknow",
       "Program Name": "Executive Program in Strategic Project Management & Leadership",
       "Duration of the Program": "10 Months",
-      "Program Terms/Modules": "10 Modules",
+      "Program Terms/Modules": "9 Modules",
       "Live Session Hours": "126 Hours",
       "Capstone Project": "1 Capstone Project",
       "Campus Immersion": "One Campus Immersions of 3 Days",
@@ -2536,7 +2532,7 @@
       "institute name": "IIM Visakhapatnam",
       "program name": "Post Graduate Diploma in Management for Working Executives (PGDMEx)",
       "duration": "12 Months",
-      "courses": "40+ Courses",
+      "courses": "21+ Courses",
       "live session hours": "480+ Hours (includes 60+ hour capstone project)",
       "capstone project": "1 Capstone Project",
       "campus immersion available": "Yes",
@@ -2624,6 +2620,35 @@
     }
   },
   {
+    "title": "CTO & AI Leadership Program",
+    "id": "iimr-cto-ai-leadership-program-12months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "CTO & AI Leadership Program",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "13 Modules",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 3 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Alumni Status Fee": "Included in Program Fees",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% fee waiver on Open MDP programs offered by IIM Ranchi",
+        "Access to Soft copy of Alumni ID cards"
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
+  },
+  {
     "title": "Professional Certificate in AI for Leaders",
     "id": "sp-jain-professional-certificate-in-ai-for-leaders-4-months",
     "data": {
@@ -2640,7 +2665,10 @@
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "4 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": "10+ Tools Chatgpt, Gemini, Claude, Sora etc."
+      "Tools/Framework Covered in the Program": [
+        "10+ Tools Chatgpt, Gemini, Claude, Sora etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2660,7 +2688,10 @@
       "Certificates": "Completion Certificate issued by SP Jain School of Global Management",
       "physical ID card": "No Physical ID card to be provided",
       "Career Assistance Sessions": "6 Career Assistance Sessions by Accredian",
-      "Tools/Framework Covered in the Program": "15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc."
+      "Tools/Framework Covered in the Program": [
+        "15+ Tools Chatgpt, Gemini, Claude, Sora, Gamma, Perplexity, etc.",
+        "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
+      ]
     }
   },
   {
@@ -2785,7 +2816,7 @@
       "Institute Name": "IIM Kashipur",
       "Program Name": "Chief Operating Officer Program (The COO Program)`",
       "Duration of the Program": "12 Months",
-      "Program Terms/Modules": "13 Modules",
+      "Program Terms/Modules": "12 Modules",
       "Live Session Hours": "144+ hours",
       "Capstone Project": "1 Capstone Project upon Program Completion",
       "Campus Immersion": "One Campus Immersions of 3 days ",
@@ -2816,6 +2847,7 @@
       "Live Session Hours": "84+ hours",
       "Capstone Project": "1 Capstone Project upon Program Completion",
       "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Simulations": "2 Transformative Simulations",
       "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
       "Program Faculty": "IIM Ranchi Faculty",
       "Benefits of Alumni Status": [
@@ -2825,9 +2857,10 @@
         "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
         "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
       ],
-      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "alumni status": "Executive Alumni Status from IIM Ranchi at an additional cost of INR 10,000 + GST, awarded upon program completion",
       "Minimum Attendance Required": "Minimum Attendance - 70%",
       "Certificates": "Completion Certificate from IIM Ranchi",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
       "Career Assistance Sessions": "6 Sessions by Accredian",
       "Tools/Framework Covered in the Program": "8+ Tools Perplexity, ChatGPT, Lovable, Gemini, Claude, Gamma, NotebookLM, Leonardo.AI etc."
     }
@@ -2922,7 +2955,7 @@
       "Program Terms/Modules": "14 Modules",
       "Live Session Hours": "126 Hours",
       "Capstone Project": "1 Capstone Project",
-      "Campus Immersion": "One Campus Immersions of 3 Days",
+      "Campus Immersion": "One Campus Immersion of 3 Days",
       "Campus Immersion Fee": "Included in the Program Fee: Meals and accommodation (travel expenses not included)",
       "Program Faculty": "IIM Lucknow Faculty",
       "Alumni Status": "Executive Alumni Status from IIM Lucknow- Optional at an additional cost of INR 10,000 + GST",
@@ -2990,6 +3023,240 @@
         "Gemini, Lovable, Claude, ChatGPT, Figma"
       ],
       "physical ID card": "No Physical ID card to be provided"
+    }
+  },
+  {
+    "title": "Executive Programme in Strategy Leadership & Innovation in AI Era",
+    "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era-8-months",
+    "data": {
+      "Institute Name": "IIM Sirmaur",
+      "Program Name": "Executive Programme in Strategy Leadership & Innovation in AI Era",
+      "Duration of the Program": "8 Months",
+      "Program Terms/Modules": "9 Modules",
+      "Live Session Hours": "85+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms) will be provided by IIM Sirmaur;  Travel Expenses Not Included",
+      "Program Faculty": "IIM Sirmaur Faculty",
+      "alumni status": "Optional Executive Alumni Status at an additional cost of INR 10,000 + GST (Fees subject to change from institute) for IIM Sirmaur Executive Alumni Status membership. The status is granted upon program completion.",
+      "Benefits of Alumni Status": [
+        "Batch & Individual E-mail IDs",
+        "Lifelong Executive Alumni Identity card",
+        "Access to IIM Sirmaur Executive Alumni Network",
+        "Access to Library and Campus Visits",
+        "Alumni City Meetups"
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 75% (For online sessions) and 100% Physical attendance for campus immersion",
+      "Certificates": "Completion Certificate from IIM Sirmaur (Programme manual will be shared)",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "4+ Tools: ChatGPT, Gamma, NotebookLM, Julius"
+    }
+  },
+  {
+    "title": "Executive Program in Leadership with AI",
+    "id": "iims-executive-program-in-leadership-with-ai-6-months",
+    "data": {
+      "Institute Name": "IIM Sirmaur",
+      "Program Name": "Executive Program in Leadership with AI",
+      "Duration of the Program": "6 Months",
+      "Program Terms/Modules": "7 Modules",
+      "Live Session Hours": "70 hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms) will be provided by IIM Sirmaur;  Travel Expenses Not Included",
+      "Program Faculty": "IIM Sirmaur Faculty",
+      "alumni status": "Optional Executive Alumni Status at an additional cost of INR 10,000 + GST (Fees subject to change from institute) for IIM Sirmaur Executive Alumni Status membership. The status is granted upon program completion.",
+      "Benefits of Alumni Status": [
+        "Batch & Individual E-mail IDs",
+        "Lifelong Executive Alumni Identity card",
+        "Access to IIM Sirmaur Executive Alumni Network",
+        "Access to Library and Campus Visits",
+        "Alumni City Meetups"
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 75% (For online sessions) and 100% Physical attendance for campus immersion",
+      "Certificates": "Completion Certificate from IIM Sirmaur (Programme manual will be shared)",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "4+ Tools: ChatGPT, Gamma, Julius, Gemini"
+    }
+  },
+  {
+    "title": "Executive Program in Technology Leadership & Innovation",
+    "id": "executive-program-in-technology-leadership-innovation-9-months",
+    "data": {
+      "Institute Name": "IITM Pravartak",
+      "Program Name": "Executive Program in Technology Leadership & Innovation",
+      "Duration of the Program": "9 Months",
+      "Program Terms/Modules": "9 Modules",
+      "Live Session Hours": "100 hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersions of 2 days ",
+      "Campus Immersion Fee": "This is a day immersion with meals included; on-campus accommodation will not be provided.",
+      "Program Faculty": "IITM Pravartak Faculty and Industry Experts",
+      "alumni status": "NA",
+      "Minimum Attendance Required": "Minimum Attendance - 45%",
+      "Certificates": "Completion Certificate from IITM Pravartak",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian",
+      "Tools/Framework Covered in the Program": "4+ Tools: Miro, Excel, ChatGPT, Claude"
+    }
+  },
+  {
+    "title": "Senior Management Program",
+    "id": "iim-bodh-gaya-senior-management-program-11-months",
+    "data": {
+      "Institute Name": "IIM Bodh Gaya",
+      "Program Name": "Senior Management Program",
+      "Duration of the Program": "11 Months",
+      "Program Terms/Modules": "13 Modules",
+      "Live Session Hours": "130+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "One Campus Immersion of 2 days ",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms);  Travel Expenses Not Included",
+      "Program Faculty": "IIM Bodh Gaya Faculty",
+      "Program Highlights": [
+        "3 Transformative Simulations",
+        "2 CXO Coaching Sessions"
+      ],
+      "alumni status": "Included in Program Fees",
+      "Benefits of Alumni Status": [
+        "Access to Bodh Gaya's library in digital & physical mode",
+        "IIM Bodh Gaya Executive Alumni Card",
+        "Access to guest house facilities at Bodh Gaya at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared."
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Bodh Gaya",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
+  },
+  {
+    "title": "PG Certificate Program in Chief Financial Officer (The CFO Program)",
+    "id": "pg-certificate-program-in-chief-financial-officer-the-cfo-program-12-months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "PG Certificate Program in Chief Financial Officer (The CFO Program)",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "13 Modules",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "3 Day Campus Immersion",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms); Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Alumni Status Fee": "Included in Program Fees",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
+  },
+
+  {
+    "title": "Global Senior Leadership Program",
+    "id": "iim-raipur-global-senior-leadership-program-12-months",
+    "data": {
+      "Institute Name": "IIM Raipur",
+      "Program Name": "Global Senior Leadership Program",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "Core Modules- 11 ; Specialization (Elective)- 1 of 4 ; 6 Modules each",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project (Per specialization)",
+      "Campus Immersion": "2 Day Campus Immersion",
+      "Campus Immersion Fee": "Campus Immersion Fee included in the Program fees; Boarding, Lodging & Travel details TBD",
+      "Program Faculty": "IIM Raipur Faculty and Industry Experts",
+      "Alumni Status": "Executive Alumni Status from IIM Raipur awarded upon program completion",
+      "Alumni Status Fee": "Included in the Program fees",
+      "Minimum Attendance Required": "Minimum Attendance - 75%",
+      "Certificates": "Completion Certificate from IIM Raipur"
+    }
+  },
+  {
+    "title": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program-12-months",
+    "data": {
+      "Institute Name": "IIM Ranchi",
+      "Program Name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+      "Duration of the Program": "12 Months",
+      "Program Terms/Modules": "14 Modules",
+      "Live Session Hours": "144+ hours",
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": "3 Day Campus Immersion",
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms); Travel Expenses Not Included",
+      "Program Faculty": "IIM Ranchi Faculty",
+      "Alumni Status": "Executive Alumni Status from IIM Ranchi awarded upon program completion",
+      "Alumni Status Fee": "Included in Program Fees",
+      "Benefits of Alumni Status": [
+        "Access to IIM Ranchi’s library in physical mode only.",
+        "Eligibility to participate in Alumni Meets (Note: Executive Alumni cannot contest elections or hold voting rights).",
+        "Access to guest house facilities at IIM Ranchi at the same rates/charges as other alumni.",
+        "Regular updates, including newsletters, important news, articles, achievements, events, and programs, will be shared.",
+        "A 5% discount on program fees for Executive Education Alumni enrolling in the Open MDP program offered by the Institute."
+      ],
+      "Minimum Attendance Required": "Minimum Attendance - 70%",
+      "Certificates": "Completion Certificate from IIM Ranchi",
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
+    }
+  },
+  {
+    "title": "Executive Post Graduate Diploma Program in Business Management",
+    "id": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management-14-months",
+    "data": {
+      "Institute Name": "IIM Kashipur",
+      "Program Name": "Executive Post Graduate Diploma Program in Business Management",
+      "Duration of the Program": "14 Months",
+      "courses": "27 Courses",
+      "terms": "4 Terms",
+      "total class hours": [
+        "Total Hours - 500",
+        "Live Delivery Hours: 366 Hours",
+        "Async Delivery Hours: 134 Hours "
+      ],
+      "Capstone Project": "1 Capstone Project",
+      "Campus Immersion": [
+        "3 Day Campus Immersion",
+        "Veldictory Ceremony (Immersion) of 2 Days"
+      ],
+      "Campus Immersion Fee": "Food and lodging (only stay included in Double Occupancy Rooms); Travel Expenses Not Included",
+      "Program Faculty": "IIM Kashipur Faculty & Industry Experts",
+      "Alumni Status": "Executive Alumni Status from IIM Kashipur awarded upon program completion",
+      "Alumni Status Fee": "Included in Program Fees",
+      "Benefits of Alumni Status": [
+        "Lifetime executive alumni I-card (digital) and other exclusive membership perks, like regular newsletters from the Institute. Invitations for Institute events, alumni City meets, etc.",
+        "Connect with other alumni and gain access to opportunities through the exclusive Alumni Portal.",
+        "Be part of the alumni network; alumni meet, held regularly in different cities.",
+        "Gain exclusive access to IIM Alumni benefits offered on various platforms.",
+        "On-site Library access.",
+        "Continuous involvement with various on-campus activities like Alumni Mentorship, Al-Prep, Webinars, etc., through the Alumni Relations Committee."
+      ],
+      "Attendance Policy": [
+        "Expected: 100% of sessions in each course",
+        "Mandatory minimum: 75% of sessions in each course (1 session = 90 minutes); below this, the grade penalty applies",
+        "Camera must be switched on to attend online classes"
+      ],
+      "Attendance-Based Grade Penalty": [
+        "60% to below 70%: one-grade drop (e.g. A+ to A)",
+        "50% to below 60%: two-grade drop (e.g. A+ to A-)",
+        "40% to below 50%: three-grade drop (e.g. A+ to B+)",
+        "Below 40%: F grade"
+      ],
+      "Certificates": [
+        "To be issued only if:",
+        "Attendance: 75% and above",
+        "Score in Overall Assessment: 50% and above"
+      ],
+      "physical copy of program completion certificate": "Applicable for campus immersion participants subject to minimum attendance",
+      "Career Assistance Sessions": "6 Sessions by Accredian"
     }
   }
 ]

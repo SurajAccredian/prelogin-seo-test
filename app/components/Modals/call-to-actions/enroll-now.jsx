@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
@@ -17,6 +18,7 @@ import { HashLoader } from '../../Loaders';
 import { useDispatch } from 'react-redux';
 import { programActions } from '../../../store/reducers/program';
 import urlMapping from "../../Assets/category-urls.json"
+import { trackGoogleAdsLeadConversion } from '../../../helpers/googleAds.helpers';
 
 
 export default function EnrollNow({ open }) {
@@ -60,6 +62,7 @@ export default function EnrollNow({ open }) {
       dispatch(programActions.setEnrollState(null))
       reset("")
       if (result.status == 200) {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Success",
           text: "Welcome! We have emailed you your login details. Please use those login details to continue your application on next page.",
@@ -72,6 +75,7 @@ export default function EnrollNow({ open }) {
         });
       }
       else if (result.status == 302) {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Success",
           text: "Hello! Account with this email already exists. We had emailed you login details when you registered with us last. Please check your email for these details to continue your application on next page.",
@@ -154,7 +158,15 @@ export default function EnrollNow({ open }) {
               <div className='bg-white xl:w-[50vw] lg:w-[70vw] md:w-[80vw] w-[90vw] min-h-[35vh] py-8 px-5 flex items-center gap-2 rounded-xl'>
                 <div className='md:block hidden flex-[0.5]'>
                   <div className='max-w-sm w-full'>
-                    <img title='enroll now' className='w-full' src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/enroll-now.webp" alt="enroll-now" />
+                    <Image
+                      title='enroll now'
+                      className='w-full h-auto'
+                      src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/enroll-now.webp"
+                      alt="enroll-now"
+                      width={384}
+                      height={384}
+                      quality={75}
+                    />
                   </div>
                 </div>
                 <div className="flex-1 md:flex-[0.5] flex flex-col items-center">

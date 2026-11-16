@@ -2,6 +2,7 @@
   "category": "26",
   "vertical": "artificial intelligence",
   "title": "Advanced Certificate Program in AI for Leaders",
+  "seo_title": "IIT Kanpur AI for Leaders Advanced Certificate | Accredian",
   "description": "Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "9211285411",
@@ -46,10 +47,11 @@
     }
   ],
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-kanpur-certificate-v2.webp",
-  "start_date": "08 Aug 2026",
+  "start_date": "13 Dec 2026",
   "id": "advanced-certificate-program-in-ai-for-leaders",
+  "pid": 118,
   "duration": "5 Months",
-  "required_years_experience": 0,
+  "required_years_experience": 1,
   "timings": "weekends only",
   "type": "online",
   "enrollments": "active",
@@ -190,7 +192,6 @@
     "programId": "advanced-certificate-program-in-ai-for-leaders",
     "points": [
       "60+ Hours of Live Classes",
-
       "10+ Tools and Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -199,18 +200,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 11926
+        "emi": 12902
       },
       {
         "months": 18,
-        "emi": 8239
+        "emi": 8913
       },
       {
         "months": 24,
-        "emi": 6382
+        "emi": 6904
       }
     ],
-    "total": 140000
+    "total": 159000
   },
   "faq": {
     "programId": "advanced-certificate-program-in-ai-for-leaders",
@@ -224,7 +225,6 @@
               "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work."
             ]
           },
-
           {
             "title": "What is the minimum system configuration required?",
             "content": [
@@ -311,7 +311,6 @@
     "leadership-driven-learning",
     "case-based-learning"
   ],
-
   "tools": [
     {
       "title": "python",
@@ -365,5 +364,8 @@
     "source": "IITK Advanced Certificate Program in AI for Leaders Brochure",
     "campaign_name": "ACPAIL-IITK-5 Months"
   },
-  "external_enroll": "https://www.eicta.iitk.ac.in/courses/advanced-certificate-program-in-ai-for-leaders"
+  "external_enroll": "https://www.eicta.iitk.ac.in/courses/advanced-certificate-program-in-ai-for-leaders",
+  "og_title": "E&ICT Academy IIT Kanpur - Advanced Certificate Program in AI for Leaders",
+  "meta_description": "Master enterprise AI strategy, machine learning integration and data-driven with E&ICT IIT Kanpur's 5-month AI for Leaders program for working managers.",
+  "keywords": "AI for leaders IIT Kanpur, artificial intelligence for business leaders, executive AI program India, top AI certificate for executives"
 }

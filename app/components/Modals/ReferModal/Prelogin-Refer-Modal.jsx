@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import {
   Backdrop,
   CircularProgress,
@@ -24,6 +25,7 @@ import {
 import { decodeToken } from "react-jwt";
 import { groupProgramsByCategory } from "../../../helpers/common.helpers";
 import { Controller, useForm, useWatch } from "react-hook-form";
+import { getStoredUTMData } from "../../../helpers/utm.helpers";
 import { IoWarning } from "react-icons/io5";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
@@ -128,7 +130,7 @@ const responsiveStyle = {
   },
 };
 
-const ReferModal = ({ open, setOpen }) => {
+const ReferModalContent = ({ open, setOpen }) => {
   const searchParams = useSearchParams();
   const myParam = searchParams ? searchParams.get("utm_source") : null;
 
@@ -232,7 +234,7 @@ const ReferModal = ({ open, setOpen }) => {
       friend_mobile: data.friendnumber,
       friend_vertical: data.vertical,
       friend_program: data.programname,
-      lead_source: myParam ? myParam : "Website",
+      lead_source: getStoredUTMData().utm_source || "Website",
     };
     // return console.log(request)
 
@@ -307,11 +309,15 @@ const ReferModal = ({ open, setOpen }) => {
       <DialogContent sx={{ padding: "0px" }}>
         <div className="flex">
           <div className="left-img-sec w-1/2 hidden md:flex items-center justify-center bg-universal">
-            <div className="img-container-refer-modal w-full overflow-hidden">
-              <img
-                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/refer-modal-bg.svg"
+            <div className="img-container-refer-modal w-full overflow-hidden flex items-center justify-center">
+              <Image
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/refer-modal-bg.webp"
                 alt="Refer your friend"
-                className="max-w-[550px] w-full object-cover object-center"
+                width={550}
+                height={550}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 550px"
+                className="max-w-[550px] w-full h-auto object-cover object-center"
               />
             </div>
           </div>
@@ -775,4 +781,11 @@ const ReferModal = ({ open, setOpen }) => {
   );
 };
 
-export default ReferModal;
+export default function ReferModal(props) {
+  if (!props.open) return null;
+  return (
+    <React.Suspense fallback={null}>
+      <ReferModalContent {...props} />
+    </React.Suspense>
+  );
+}

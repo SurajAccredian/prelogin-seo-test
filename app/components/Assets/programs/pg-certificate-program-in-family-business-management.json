@@ -1,9 +1,11 @@
 {
   "id": "pg-certificate-program-in-family-business-management",
+  "pid": 171,
   "category": "18",
   "category_id": null,
   "vertical": "Management",
   "title": "PG Certificate Program in Family Business Management",
+  "seo_title": "Family Business Management Program IIMV | Accredian",
   "description": "Embark on a 12-month learning journey in strategic, governance, financial, and digital capabilities to lead and scale family enterprises.",
   "short_title": "Family Business Management",
   "contact": "",
@@ -13,7 +15,7 @@
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/iimv_certificate.webp",
-  "start_date": "25 Oct 2026",
+  "start_date": "17 Jan 2027",
   "duration": "12 Months",
   "required_years_experience": 8,
   "type": "online",
@@ -285,5 +287,8 @@
       "title": "power BI",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
     }
-  ]
+  ],
+  "og_title": "IIM Visakhapatnam - PG Certificate Program in Family Business Management",
+  "meta_description": "Master family business governance, succession planning and operational with IIM Visakhapatnam's 12-month Family Business Management program for senior managers.",
+  "keywords": "PG certificate family business management IIM Visakhapatnam, IIM family business course, family business leadership India"
 }

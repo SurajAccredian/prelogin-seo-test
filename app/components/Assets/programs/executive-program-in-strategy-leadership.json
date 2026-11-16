@@ -1,8 +1,10 @@
 {
   "category": "21",
   "id": "executive-program-in-strategy-leadership",
+  "pid": 105,
   "vertical": "strategy & leadership",
   "title": "Executive Development Program in Strategy & Leadership",
+  "seo_title": "Strategy & Leadership Program XLRI | Accredian",
   "description": "Master Strategic Leadership, Global Expansion, Leadership with AI, and Change Management at one of India’s premier business schools, and attain Executive Alumni status.",
   "short_title": "Strategy & Leadership",
   "contact": "8882597163",
@@ -109,7 +111,11 @@
     "CXO-coaching-sessions",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -171,7 +177,6 @@
         "Inorganic Growth Strategies"
       ]
     },
-
     {
       "title": "Foundations of Strategic  Leadership",
       "week": "",
@@ -183,7 +188,6 @@
         "Vision, Mission, and Values in Leadership"
       ]
     },
-
     {
       "title": "Leading Organizations & Building Culture",
       "week": "",
@@ -336,7 +340,6 @@
     "programId": "executive-program-in-strategy-leadership",
     "points": [
       "132+ Hours of Live Classes",
-
       "5+ Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -391,7 +394,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
+            "content": [
+              "The duration of the program is 11 months."
+            ]
           }
         ]
       },
@@ -439,5 +444,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/XLRI-Executive-Development-Program-in-Strategy-and-Leadership.pdf",
     "source": "Executive Development Program in Strategy & Leadership Brochure",
     "campaign_name": "S&L-XLRI-11 Months"
-  }
+  },
+  "og_title": "XLRI - Executive Development Program in Strategy & Leadership",
+  "meta_description": "Build core skills in growth strategy formulation with XLRI's 11-month Strategy & Leadership program for business leaders and experienced managers.",
+  "keywords": "strategy leadership XLRI, XLRI executive program strategy, strategic management course XLRI, senior leadership program"
 }

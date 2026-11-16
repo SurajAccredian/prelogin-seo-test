@@ -17,6 +17,11 @@ const StickyPurchase = ({ data }) => {
   const [width, setWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1024);
   const [isEnrolled, setIsEnrolled] = useState(false);
 
+  const isMicrosoftCourse =
+    data?.id === "transform-business-workflows-with-generative-ai" ||
+    Boolean(data?.partner_name?.toLowerCase()?.includes("microsoft")) ||
+    Boolean(data?.certification?.paid_cert);
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 400) {
@@ -35,7 +40,7 @@ const StickyPurchase = ({ data }) => {
   }, []);
 
   useEffect(() => {
-    if (authenticated) {
+    if (isMicrosoftCourse && authenticated) {
       try {
         const enrollments = JSON.parse(localStorage.getItem("enrollment") || "[]");
         const enrolled = enrollments.some(
@@ -48,7 +53,7 @@ const StickyPurchase = ({ data }) => {
     } else {
       setIsEnrolled(false);
     }
-  }, [authenticated, data.program_id]);
+  }, [authenticated, data.program_id, isMicrosoftCourse]);
 
   const handleInterestClick = (e) => {
     e.preventDefault();
@@ -78,25 +83,35 @@ const StickyPurchase = ({ data }) => {
       >
         <h4>{data.title}</h4>
         <div>
-          <div className="price-label" style={{ marginBottom: "2px" }}>Free to learn</div>
-          <div className="price-now" style={{ fontSize: "16px", fontWeight: "700" }}>
-            Certify for &#8377;{data.exam_amount} <span style={{ fontSize: "12px", color: "var(--accredian-text-muted)", fontWeight: "400" }}>+ GST</span>
+          <div className="price-label" style={{ marginBottom: "2px" }}>
+            {isMicrosoftCourse ? "Free to learn" : "100% Free to learn"}
           </div>
+          {isMicrosoftCourse && data.exam_amount ? (
+            <div className="price-now" style={{ fontSize: "16px", fontWeight: "700" }}>
+              Certify for &#8377;{data.exam_amount} <span style={{ fontSize: "12px", color: "var(--accredian-text-muted)", fontWeight: "400" }}>+ GST</span>
+            </div>
+          ) : (
+            <div className="price-now" style={{ fontSize: "15px", fontWeight: "700", color: "#16A34A" }}>
+              Certificate Included
+            </div>
+          )}
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
           <CustomFreeCourseButton
             data={data}
-            text="Start Learning Free"
+            text="Start Learning for Free"
             className="btn btn-primary"
           />
-          {isEnrolled ? (
-            <button className="btn btn-secondary" disabled style={{ cursor: "not-allowed", border: "1px solid #16A34A", background: "#F0FDF4", color: "#16A34A" }}>
-              Payment Received
-            </button>
-          ) : (
-            <button onClick={handleInterestClick} className="btn btn-secondary" style={{ border: "1px solid var(--accredian-border)", background: "#fff", color: "#1f2937" }}>
-              Get Certified
-            </button>
+          {isMicrosoftCourse && (
+            isEnrolled ? (
+              <button className="btn btn-secondary" disabled style={{ cursor: "not-allowed", border: "1px solid #16A34A", background: "#F0FDF4", color: "#16A34A" }}>
+                Payment Received
+              </button>
+            ) : (
+              <button onClick={handleInterestClick} className="btn btn-secondary" style={{ border: "1px solid var(--accredian-border)", background: "#fff", color: "#1f2937" }}>
+                Get Certified
+              </button>
+            )
           )}
         </div>
       </div>
@@ -107,11 +122,13 @@ const StickyPurchase = ({ data }) => {
           <div className="price-now" style={{ fontSize: "14px" }}>
             Free to learn
           </div>
-          <span className="price-label">Earn a badge</span>
+          <span className="price-label">
+            {isMicrosoftCourse ? "Earn a badge" : "Certificate included"}
+          </span>
         </div>
         <CustomFreeCourseButton
           data={data}
-          text="Start Learning Free"
+          text="Start Learning for Free"
           className="btn btn-primary"
         />
       </div>

@@ -1,5 +1,7 @@
 
 
+import Image from "next/image";
+
 const Companies = () => {
   return (
     <>
@@ -12,23 +14,31 @@ const Companies = () => {
             <h4 className="text-base font-medium">
               Hands-On Learning with Industry Experts
             </h4>
-            <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+            <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
               Learn from <span className="text-universal">Experts,</span> at the World’s
               <span className="text-universal"> Top </span> Companies
-            </h1>
+            </h2>
           </div>
           <div className="w-full hidden md:flex justify-center mt-12">
-            <img
-              className="w-full max-w-7xl"
+            <Image
+              width={1280}
+              height={320}
+              sizes="(max-width: 1280px) 100vw, 1280px"
+              quality={75}
+              className="w-full max-w-7xl h-auto"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/faculty-companies-group.webp"
-              alt="companies"
+              alt="Accredian hiring partner companies and alumni employers"
             />
           </div>
           <div className="w-full flex md:hidden justify-center mt-8">
-            <img
-              className="w-full max-w-7xl"
+            <Image
+              width={640}
+              height={400}
+              sizes="100vw"
+              quality={75}
+              className="w-full max-w-7xl h-auto"
               src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/faculty-companies-group-mobile.webp"
-              alt="companies-res"
+              alt="Accredian hiring partner companies and alumni employers"
             />
           </div>
         </div>

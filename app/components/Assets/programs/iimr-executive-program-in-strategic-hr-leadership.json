@@ -1,8 +1,10 @@
 {
   "id": "iimr-executive-program-in-strategic-hr-leadership",
+  "pid": 161,
   "category": "62",
   "vertical": "Human Resource",
   "title": "Executive Program in Strategic HR Leadership",
+  "seo_title": "Strategic HR Leadership Program IIM Ranchi | Accredian",
   "description": "Embark on a 10 month learning journey in HRM Strategy, DEI Leadership, and GenAI.",
   "short_title": "Human Resource",
   "contact": "8851827093",
@@ -11,7 +13,7 @@
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/IIM-Ranchi-Logo.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-ranchi-university-image.jpg",
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_page-0001.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/Sample_Certificate_LDP__1___1_.webp",
   "start_date": "10 Jan 2027",
   "duration": "10 Months",
   "required_years_experience": 3,
@@ -97,7 +99,11 @@
     "capstone-project",
     "certificate"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -254,7 +260,8 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMRANCHI-Executive-Program-In-Strategic-HR-Leadership.pdf",
@@ -262,5 +269,8 @@
     "campaign_name": "IIM-RANCHI-SHRL"
   },
   "faculty": [],
-  "tools": []
+  "tools": [],
+  "og_title": "IIM Ranchi - Executive Program in Strategic HR Leadership",
+  "meta_description": "Develop strategic human resource management, leadership coaching and talent strategy with IIM Ranchi's 10-month Strategic HR Leadership program for HR leaders.",
+  "keywords": "strategic HR leadership IIM Ranchi, executive HR program IIM Ranchi, strategic human resource management course"
 }

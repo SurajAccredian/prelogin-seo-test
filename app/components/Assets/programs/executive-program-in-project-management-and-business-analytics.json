@@ -3,6 +3,7 @@
   "id": "executive-program-in-project-management-and-business-analytics",
   "vertical": "product management",
   "title": "Executive Program in Project Management and Business Analytics",
+  "seo_title": "Project Management & Analytics E&ICT IITG | Accredian",
   "description": "Embark on a 10-term learning journey in Project Management, Project Evaluation, Data Visualization, & Marketing Analytics.",
   "short_title": "Project Management",
   "contact": "7012957331",
@@ -249,7 +250,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Gaurav Trivedi",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/gaurav-trivedi-v1.webp",
@@ -342,7 +342,6 @@
     "programId": "executive-program-in-project-management-&-business-analytics",
     "points": [
       "170+ Hours of Live Classes",
-      
       "10+ Tools & Frameworks Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -425,7 +424,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Project Management and Business Analytics different?",
@@ -470,5 +469,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-executive-program-in-project-management-and-business-analytics-5-months-v1.pdf",
     "source": "product management brochure",
     "campaign_name": "ACPM-IIT-5 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Projects & Analytics",
+  "meta_description": "Master project analytics with E&ICT IIT Guwahati's 12-month Project Management & Business Analytics program for project managers and delivery leads.",
+  "keywords": "project management business analytics IIT Guwahati, executive project analytics course, data driven project management"
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {
   Drawer,
   DrawerBody,
@@ -21,6 +22,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { userActions } from "../../../store/reducers/user";
 import toast from "react-hot-toast";
 import { encodeBase64 } from "../../../helpers/encodeTrackerId";
+import { mergeEnrollmentDetails } from "../../../helpers/enrollment.helpers";
 import SignupDrawer from "./SignupDrawer";
 import {
   genrateOtpExistingUser,
@@ -383,7 +385,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
   };
   // The otp is verfied of the user
 
-  const handleFreeCoursePostLogin = async (response, auth_type) => {
+  const handleFreeCoursePostLogin = async (response, auth_type, newTab = null) => {
     try {
       const finalProgramId = program_id || localStorage.getItem('freeCourseProgram');
       const finalCategoryId = localStorage.getItem('freeCourseCategory');
@@ -412,26 +414,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
       });
 
       if (statusRes?.enrolled && statusRes?.enrollmentDetails?.length > 0) {
-        localStorage.setItem("enrollment", JSON.stringify(statusRes.enrollmentDetails));
-        localStorage.setItem("enrollmentStatus", "true");
-
-        let thinkificRedirectUrl = "";
-        try {
-          thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
-          if (thinkificRedirectUrl) {
-            localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
-          }
-        } catch (err) {
-          console.error("Failed to fetch Thinkific redirect URL in drawer:", err);
-          toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
-        }
-
-        setTimeout(() => {
-          if (thinkificRedirectUrl) {
-            window.open(thinkificRedirectUrl, "_blank");
-          }
-          window.location.reload();
-        }, 1000);
+        mergeEnrollmentDetails(statusRes.enrollmentDetails);
       } else {
         const enrollRes = await enrollFreeCourseUser({
           user_id,
@@ -446,29 +429,35 @@ const LoginDrawer = ({ isOpen, onClose }) => {
         });
 
         if (enrollRes?.enrollmentDetails?.length > 0) {
-          localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
-          localStorage.setItem("enrollmentStatus", "true");
+          mergeEnrollmentDetails(enrollRes.enrollmentDetails);
         }
-
-        let thinkificRedirectUrl = "";
-        try {
-          thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
-          if (thinkificRedirectUrl) {
-            localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
-          }
-        } catch (err) {
-          console.error("Failed to fetch Thinkific redirect URL in drawer:", err);
-          toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
-        }
-
-        setTimeout(() => {
-          if (thinkificRedirectUrl) {
-            window.open(thinkificRedirectUrl, "_blank");
-          }
-          window.location.reload();
-        }, 1000);
       }
+
+      let thinkificRedirectUrl = "";
+      try {
+        thinkificRedirectUrl = await fetchThinkificUrl({ email, firstname, lastname });
+        if (thinkificRedirectUrl) {
+          localStorage.setItem("thinkificUrl", thinkificRedirectUrl);
+        }
+      } catch (err) {
+        console.error("Failed to fetch Thinkific redirect URL in drawer:", err);
+        toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
+      }
+
+      if (thinkificRedirectUrl && newTab) {
+        newTab.location.href = thinkificRedirectUrl;
+      } else if (newTab && !newTab.closed) {
+        newTab.close();
+      }
+
+      setLoading(false);
+      handleClose();
+      window.location.reload();
     } catch (err) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
+      setLoading(false);
       console.error("Failed to check/enroll user on login in drawer:", err);
       toast.error("Failed to verify program enrollment. Please try again.", { position: "top-right" });
     }
@@ -515,6 +504,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
   }
 
   const submimtPassword = async (data) => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     setLoading(true);
     // console.log("Entered into submit password");
     try {
@@ -550,7 +540,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
         dispatch(userActions.setAuthenticatedState(true));
 
         if (isfreeCourse) {
-          handleFreeCoursePostLogin(response, auth_type);
+          handleFreeCoursePostLogin(response, auth_type, newTab);
           return;
         }
 
@@ -676,6 +666,9 @@ const LoginDrawer = ({ isOpen, onClose }) => {
         }
       }
     } catch (e) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       // console.log("The error occured is " + e);
       if (e.response) {
         const { status, data } = e.response;
@@ -698,6 +691,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
   };
 
   const onSubmit = async (data) => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     // console.log(data);
     // console.log("otp is :" + otp);
     setLoading(true); // Start loading
@@ -746,7 +740,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
           }
 
           if (isfreeCourse) {
-            handleFreeCoursePostLogin(response, auth_type);
+            handleFreeCoursePostLogin(response, auth_type, newTab);
             return;
           }
 
@@ -900,6 +894,9 @@ const LoginDrawer = ({ isOpen, onClose }) => {
         }
       }
     } catch (error) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       // console.log("Error occurred:", error);
 
       if (error.response) {
@@ -947,9 +944,12 @@ const LoginDrawer = ({ isOpen, onClose }) => {
           >
             <DrawerCloseButton mx={"4px"} />
             <DrawerHeader mx={"4px"} borderBottom="2px solid #e2e8f0">
-              <img
+              <Image
                 src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
                 alt="Company Logo"
+                width={100}
+                height={30}
+                quality={75}
                 style={{ width: "100px", height: "auto" }}
               />
             </DrawerHeader>
@@ -1196,7 +1196,7 @@ const LoginDrawer = ({ isOpen, onClose }) => {
                               </div>
                             </>
                           )} */}
-                                <a href="/Lost-password" target="__blank">
+                                <a href="/lost-password" target="__blank">
                                   <p className="text-[12px] mt-2">
                                     {resetPasswordText}
                                     <button

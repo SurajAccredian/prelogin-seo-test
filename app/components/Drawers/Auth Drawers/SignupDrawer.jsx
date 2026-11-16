@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import {
   Drawer,
   DrawerBody,
@@ -30,6 +31,7 @@ import {
 } from '../../../services/auth.service';
 import { createApplicationStepTracker } from '../../../services/program.service';
 import { encodeBase64 } from '../../../helpers/encodeTrackerId';
+import { mergeEnrollmentDetails } from '../../../helpers/enrollment.helpers';
 import CryptoJS from 'crypto-js';
 import { CircleCheck } from 'lucide-react';
 
@@ -166,7 +168,7 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
   };
 
   // Create user account
-  const createUserAccount = async () => {
+  const createUserAccount = async (newTab = null) => {
     try {
       const formData = getValues();
 
@@ -243,8 +245,7 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
               dashboard_link: process.env.NEXT_PUBLIC_DASHBOARD_BASE_URL || "https://accredian.com",
             });
             if (enrollRes?.enrollmentDetails?.length > 0) {
-              localStorage.setItem("enrollment", JSON.stringify(enrollRes.enrollmentDetails));
-              localStorage.setItem("enrollmentStatus", "true");
+              mergeEnrollmentDetails(enrollRes.enrollmentDetails);
             }
           } catch (enrollErr) {
             console.error("Failed to auto-enroll new user in drawer:", enrollErr);
@@ -264,13 +265,15 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
             toast.error("Failed to generate course redirect URL. Please try again.", { position: "top-right" });
           }
 
-          // Open the dashboard in a new tab and close the drawer
-          setTimeout(() => {
-            if (thinkificRedirectUrl) {
-              window.open(thinkificRedirectUrl, "_blank");
-            }
-            window.location.reload();
-          }, 1000);
+          if (thinkificRedirectUrl && newTab) {
+            newTab.location.href = thinkificRedirectUrl;
+          } else if (newTab && !newTab.closed) {
+            newTab.close();
+          }
+
+          setLoading(false);
+          handleClose();
+          window.location.reload();
           return;
         }
 
@@ -302,6 +305,9 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
         }
       }
     } catch (error) {
+      if (newTab && !newTab.closed) {
+        newTab.close();
+      }
       console.log('Error creating account', error);
       if (error.response) {
         const { status, data } = error.response;
@@ -315,15 +321,17 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
   };
 
   const handleCreateAccount = async () => {
+    const newTab = isfreeCourse && typeof window !== "undefined" ? window.open("", "_blank") : null;
     try {
       setLoading(true);
-      await createUserAccount();
+      await createUserAccount(newTab);
     } catch (error) {
       toast.error('Failed to create account. Please try again.', { position: 'top-right' });
     } finally {
       setLoading(false);
     }
   };
+
 
   async function openUniversityApp(university, encodedTracker) {
     const isDevelopment = process.env.NODE_ENV === "development";
@@ -398,9 +406,12 @@ function SignupDrawer({ open, reOpenLoginModal, handleClose }) {
       <DrawerContent>
         <DrawerCloseButton />
         <DrawerHeader mx={"4px"} borderBottom="2px solid #e2e8f0">
-          <img
+          <Image
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
             alt="Company Logo"
+            width={100}
+            height={30}
+            quality={75}
             style={{ width: "100px", height: "auto" }}
           />
         </DrawerHeader>

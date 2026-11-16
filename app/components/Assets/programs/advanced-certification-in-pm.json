@@ -3,6 +3,7 @@
   "id": "advanced-certification-in-pm",
   "vertical": "product management",
   "title": "Advanced Certification in Product Management",
+  "seo_title": "Certification in Product Management E&ICT IITG | Accredian",
   "description": "Embark on a 5-term learning journey in Product Management, UI/UX, Product Strategy, Product Marketing.",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -255,7 +256,6 @@
     "programId": "advanced-certification-in-pm",
     "points": [
       "60+ Hours of Live Classes",
-      
       "20+ Tools & Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -340,7 +340,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Advanced Certification in Product Management Program different?",
@@ -385,5 +385,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Advanced-Certification-in-PM.pdf",
     "source": "IITG Advanced Certification in Product Management Brochure",
     "campaign_name": "ACPM-IITG-5 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Advanced Product Management",
+  "meta_description": "Build expertise in product roadmapping with E&ICT IIT Guwahati's 5-month Product Management program for product managers and aspiring product leaders.",
+  "keywords": "product management program IIT Guwahati, best product management course India, executive certification in product management, top PM courses"
 }

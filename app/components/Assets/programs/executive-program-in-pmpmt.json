@@ -3,6 +3,7 @@
   "id": "executive-program-in-pmpmt",
   "vertical": "product management",
   "title": "Executive Program in Product Management and Project Management",
+  "seo_title": "Product & Project Management Program E&ICT IITG | Accredian",
   "description": "Embark on a 10 term learning journey in Design Thinking, UI/UX Engineering, & Project Management",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -191,17 +192,26 @@
     {
       "title": "Project Management Fundamentals",
       "id": "project-management-fundamentals",
-      "points": ["Introduction to Project Management", "Project Initiation"]
+      "points": [
+        "Introduction to Project Management",
+        "Project Initiation"
+      ]
     },
     {
       "title": "Project Planning & Execution",
       "id": "project-planning---execution",
-      "points": ["Project Planning", "Project Execution"]
+      "points": [
+        "Project Planning",
+        "Project Execution"
+      ]
     },
     {
       "title": "Risk Management & Agile Project Management",
       "id": "risk-management---agile-project-management",
-      "points": ["Project Risk Management", "Agile Project Management"]
+      "points": [
+        "Project Risk Management",
+        "Agile Project Management"
+      ]
     },
     {
       "title": "Contract, Procurement, Closure",
@@ -264,7 +274,6 @@
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
     },
-
     {
       "name": "Shailendra",
       "position": "Ex-Vice President of Product",
@@ -272,16 +281,13 @@
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Shailendra-v1.webp",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/spinny.webp"
     },
-
     {
       "name": "Dr. Anand Lokhande",
       "position": "Co-Founder",
       "organization": "Change Engine",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Dr.%20Anand%20Lokhande.webp",
-
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/imagilytica-v1.webp"
     },
-
     {
       "name": "Jaideep Butta",
       "position": "Sr. Product Line Manager",
@@ -289,7 +295,6 @@
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Jaideep%20Butta.webp",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/shell.webp"
     },
-
     {
       "name": "Dr. Preeti Adhav",
       "position": "Founder & CEO",
@@ -327,7 +332,6 @@
       "title": "Microsoft Project",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/microsoft-project.webp"
     },
-
     {
       "title": "toggle",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/togll.svg"
@@ -337,7 +341,6 @@
     "programId": "executive-program-in-pmpmt",
     "points": [
       "130+ Hours of Live Classes",
-      
       "30+ Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -422,7 +425,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Product Management and Project Management Program different?",
@@ -467,5 +470,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-PMPMT.pdf",
     "source": "IITG Product Management and Project Management Brochure",
     "campaign_name": "PMPMT-IITG-11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Product & Project Mgmt",
+  "meta_description": "Build expertise in product roadmapping, agile delivery and sprint with E&ICT IIT Guwahati's 11-month Product & Project Management program for product managers.",
+  "keywords": "product project management IIT Guwahati, PM PMP executive program, combined product project management certification"
 }

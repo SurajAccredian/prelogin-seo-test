@@ -3,6 +3,7 @@
   "id": "professional-certificate-program-in-digital-transformation",
   "vertical": "digital transformation",
   "title": "Professional Certificate Program in Digital Transformation",
+  "seo_title": "Digital Transformation Program E&ICT IITG | Accredian",
   "description": "Embark on a 6 term learning journey Digital Strategy, AI/ML Analytics, Agile Methodologies, and Digital Leadership.",
   "short_title": "Digital Transformation",
   "contact": "9358719988",
@@ -289,7 +290,6 @@
     "programId": "professional-certificate-program-in-digital-transformation",
     "points": [
       "72+ Hours of Live Classes",
-      
       "8+ Tools Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -368,7 +368,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Professional Certificate Program in Digital Transformation different?",
@@ -412,5 +412,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Professional-Certification-Program-in-DT.pdf",
     "source": "IITG PCP Digital Transformation Brochure",
     "campaign_name": "PCDT-IITG-6 Month"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Digital Transformation",
+  "meta_description": "Master digital technology adoption, agile business models and with E&ICT IIT Guwahati's 6-month Digital Transformation program for working professionals.",
+  "keywords": "digital transformation program IIT Guwahati, executive digital transformation certification, digital shift leadership"
 }

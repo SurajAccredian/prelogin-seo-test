@@ -1,8 +1,10 @@
 {
   "category": "32",
   "id": "chief-human-resource-officer-programme",
+  "pid": 90,
   "vertical": "Human Resource",
   "title": "Chief Human Resource Officer Programme",
+  "seo_title": "IIMV 12-Month Chief Human Resource Officer Program",
   "description": "Embark on a 12 month learning journey in Talent Acquisition, Leadership Development, and HR Analytics.",
   "short_title": "Chief Human Resource Officer",
   "contact": "9115924967",
@@ -14,11 +16,11 @@
   "duration": "12 months",
   "required_years_experience": 10,
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "timings": "weekends only",
   "tags": [
     {
-      "title": "new launch",
+      "title": "coming soon",
       "type": "main"
     },
     {
@@ -109,7 +111,11 @@
     "alumni-status",
     "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -303,7 +309,6 @@
     "programId": "chief-human-resource-officer-programme",
     "points": [
       "140+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -349,7 +354,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 12 months."]
+            "content": [
+              "The duration of the program is 12 months."
+            ]
           }
         ]
       },
@@ -397,5 +404,9 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-chief-human-resource-officer-programme.pdf",
     "source": "IIMV Human Resource Brochure",
     "campaign_name": "CHRO-IIMV-12 Months"
-  }
+  },
+  "og_title": "IIMV - Chief Human Resource Officer Programme",
+  "meta_description": "Build expertise in workforce strategy, organizational culture and talent development with IIM Visakhapatnam's 12-month CHRO program for HR leaders.",
+  "keywords": "chief human resource officer program, CHRO program India, IIM Visakhapatnam CHRO course, strategic HR executive leadership, top CHRO programs",
+  "status": "Coming Soon"
 }

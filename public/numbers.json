@@ -1,5 +1,15 @@
 [
   {
+    "id": "iim-kashipur-executive-post-graduate-diploma-program-in-business-management",
+    "program_name": "Executive Post Graduate Diploma Program in Business Management",
+    "contact": "8851827053"
+  },
+  {
+    "id": "iim-raipur-global-senior-leadership-program",
+    "program_name": "Global Senior Leadership Program",
+    "contact": "8851827053"
+  },
+  {
     "id": "advanced-certificate-program-in-design-thinking-innovation-with-ai",
     "program_name": "Advanced Certificate Program in Design Thinking & Innovation with AI",
     "contact": "9211285411"
@@ -7,7 +17,12 @@
   {
     "id": "iiml-chief-digital-ai-officer-programme-the-cdaio-program",
     "program_name": "Chief Digital & AI Officer Programme (The CDAIO Program)",
-    "contact": "9810184424"
+    "contact": "8851827053"
+  },
+  {
+    "id": "iims-executive-program-in-leadership-with-ai",
+    "program_name": "Executive Program in Leadership with AI",
+    "contact": "9358719988"
   },
   {
     "id": "iimt-certificate-programme-in-leadership-with-ai",
@@ -61,7 +76,7 @@
   {
     "id": "iim-ranchi-executive-program-in-leadership-with-ai",
     "program_name": "Executive Program in Leadership with AI",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "iit-jammu-advanced-certificate-in-ai-for-leaders",
@@ -94,14 +109,24 @@
     "contact": "9358719988"
   },
   {
+    "id": "iim-bodh-gaya-senior-management-program",
+    "program_name": "Senior Management Program",
+    "contact": "8851827093"
+  },
+  {
     "id": "iim-ranchi-senior-management-program",
     "program_name": "Senior Management Program",
-    "contact": "9810184424"
+    "contact": "8851827053"
+  },
+  {
+    "id": "iimr-cto-ai-leadership-program",
+    "program_name": "CTO & AI Leadership Program",
+    "contact": "8851827053"
   },
   {
     "id": "iima-senior-management-program",
     "program_name": "Senior Management Program",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "executive-development-programme-for-emerging-chief-technology-officers-the-cto-programme",
@@ -111,27 +136,32 @@
   {
     "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "program_name": "Executive Program in Design Thinking & Innovation for Strategic Leadership",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "iith-professional-certificate-program-in-strategic-project-management",
     "program_name": "Professional Certificate Program in Strategic Project Management",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "iiml-executive-program-in-strategic-project-management-leadership",
     "program_name": "Executive Program in Strategic Project Management & Leadership",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "executive-development-program-in-global-senior-management",
     "program_name": "Executive Development Program in Global Senior Management",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "executive-program-in-generative-ai-for-leaders",
     "program_name": "Executive Program in Generative AI & Agentic AI for Leaders",
     "contact": "9358719988"
+  },
+  {
+    "id": "executive-program-in-technology-leadership-innovation",
+    "program_name": "Executive Program in Technology Leadership & Innovation",
+    "contact": "8882597163"
   },
   {
     "id": "professional-certificate-in-applied-generative-ai",
@@ -164,8 +194,23 @@
     "contact": "8851827093"
   },
   {
+    "id": "pg-certificate-program-in-chief-financial-officer-the-cfo-program",
+    "program_name": "PG Certificate Program in Chief Financial Officer (The CFO Program)",
+    "contact": "9289224842"
+  },
+  {
+    "id": "iim-ranchi-pg-certificate-program-in-chief-operating-officer-the-coo-program",
+    "program_name": "PG Certificate Program in Chief Operating Officer (The COO Program)",
+    "contact": "8851827093"
+  },
+  {
     "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
     "program_name": "Executive Program in Strategy, Leadership and Innovation in AI Era",
+    "contact": "8851827093"
+  },
+  {
+    "id": "iims-executive-programme-in-strategy-leadership-and-innovation-in-ai-era",
+    "program_name": "Executive Program in Strategy Leadership & Innovation in AI Era",
     "contact": "8851827093"
   },
   {
@@ -181,7 +226,7 @@
   {
     "id": "executive-general-management-program",
     "program_name": "Executive General Management Program",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "iim-trichy-chief-technology-officer-programme",
@@ -196,7 +241,7 @@
   {
     "id": "chief-executive-officer-program",
     "program_name": "Chief Executive Officer Program (The CEO Program)",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "advanced-certificate-program-in-ai-for-leaders",
@@ -226,7 +271,7 @@
   {
     "id": "global-senior-leadership-program",
     "program_name": "Global Senior Leadership Program",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "executive-program-in-business-management",
@@ -260,7 +305,7 @@
   {
     "id": "pg-certificate-program-in-investment-banking",
     "program_name": "PG Certificate Program in Investment Banking & Capital Markets",
-    "contact": "9810184424"
+    "contact": "8851827053"
   },
   {
     "id": "senior-management-program",
@@ -279,5 +324,13 @@
   {
     "id": "transform-business-workflows-with-generative-ai",
     "program_name": "Transform Business Workflows with Generative AI"
+  },
+  {
+    "id": "transform-ideas-into-impact-with-product-management",
+    "program_name": "Transform Ideas into Impact with Product Management"
+  },
+  {
+    "id": "transform-ideas-into-impact-with-product-management",
+    "program_name": "Transform Ideas into Impact with Product Management"
   }
 ]

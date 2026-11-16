@@ -1,8 +1,10 @@
 {
   "category": "34",
   "id": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
+  "pid": 110,
   "vertical": "Human Resource",
   "title": "Executive Development Programme in Digital HR Leadership and People Analytics",
+  "seo_title": "Digital HR & People Analytics Program at XLRI | Accredian",
   "description": "Embark on a 10 month learning journey in HR Analytics, Digital Leadership, and GenAI.",
   "short_title": "Human Resource",
   "contact": "8826567425",
@@ -13,7 +15,7 @@
     "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/XLRI-XLEAD.webp"
   ],
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/xlri-cover-v1.webp",
-  "start_date": "27 Sep 2026",
+  "start_date": "15 Nov 2026",
   "duration": "10 months",
   "external_enroll": "https://vilcorpadmissions.xlri.ac.in/lp/edphrpa.html",
   "required_years_experience": 3,
@@ -109,7 +111,11 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -164,7 +170,6 @@
         "Analyzing Attrition Data with Power BI"
       ]
     },
-
     {
       "title": "People Analytics & Digital HR",
       "week": "",
@@ -178,7 +183,6 @@
         "Using Design Thinking for People Engagement II"
       ]
     },
-
     {
       "title": "Visualization & Storytelling for HR Leaders",
       "week": "",
@@ -189,7 +193,6 @@
         "Visualizing Qualitative Data, Advanced Charts"
       ]
     },
-
     {
       "title": "Transforming HR Value Chain Through Analytics",
       "week": "",
@@ -279,7 +282,6 @@
     "programId": "executive-development-program-in-digital-hr-leadership-and-people-analytics",
     "points": [
       "120+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
       "Access to Session Recordings"
@@ -333,7 +335,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },
@@ -381,5 +385,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/Executive-Development-Programme-in-Digital-HR-Leadership-and-People-Analytics.pdf",
     "source": "XLRI Executive Development Programme in Digital HR Leadership and People Analytics Brochure",
     "campaign_name": "EDPSHR-XLRI-10 Months"
-  }
+  },
+  "og_title": "XLRI - Executive Development Programme in Digital HR Leadership and People Analytics",
+  "meta_description": "Master HR analytics, workforce planning and digital HR strategy with XLRI's 10-month Digital HR Leadership and People Analytics programme for HR leaders.",
+  "keywords": "digital HR leadership XLRI, people analytics executive program, XLRI HR analytics certification, strategic HR leadership course"
 }

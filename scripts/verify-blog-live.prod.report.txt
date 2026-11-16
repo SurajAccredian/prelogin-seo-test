@@ -1,0 +1,97 @@
+verify-blog-live  BASE=http://localhost:3001  2026-10-27T11:51:37.241Z
+
+== 1) PAGE CHECKS ==
+PASS  /blog  status=200 canonical=https://accredian.com/blog og:url=https://accredian.com/blog noindex=false oldHost=0 (bad 0) ld=1 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite]
+PASS  /blog/articles  status=200 canonical=https://accredian.com/blog/articles og:url=https://accredian.com/blog/articles noindex=false oldHost=0 (bad 0) ld=1 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite]
+PASS  /blog/articles/page/2  status=200 canonical=https://accredian.com/blog/articles/page/2 og:url=https://accredian.com/blog/articles/page/2 noindex=false oldHost=0 (bad 0) ld=1 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite]
+PASS  /blog/top-10-genai-tools-dominating-2025  status=200 canonical=https://accredian.com/blog/top-10-genai-tools-dominating-2025 og:url=https://accredian.com/blog/top-10-genai-tools-dominating-2025 noindex=false oldHost=6 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,Blog,WebPage,BlogPosting,Person,Thing,BreadcrumbList,ListItem]
+PASS  /blog/category/data-science  status=200 canonical=https://accredian.com/blog/category/data-science og:url=https://accredian.com/blog/category/data-science noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/category/data-science/page/2  status=200 canonical=https://accredian.com/blog/category/data-science/page/2 og:url=https://accredian.com/blog/category/data-science/page/2 noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/spotlight  status=200 canonical=https://accredian.com/blog/spotlight og:url=https://accredian.com/blog/spotlight noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/spotlight/bfsi  status=200 canonical=https://accredian.com/blog/spotlight/bfsi og:url=https://accredian.com/blog/spotlight/bfsi noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/spotlight/consultation  status=200 canonical=https://accredian.com/blog/spotlight/consultation og:url=https://accredian.com/blog/spotlight/consultation noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/success-stories  status=200 canonical=https://accredian.com/blog/success-stories og:url=https://accredian.com/blog/success-stories noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/success-stories/ds  status=200 canonical=https://accredian.com/blog/success-stories/ds og:url=https://accredian.com/blog/success-stories/ds noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/success-stories/pm  status=200 canonical=https://accredian.com/blog/success-stories/pm og:url=https://accredian.com/blog/success-stories/pm noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/testimonials  status=200 canonical=https://accredian.com/blog/testimonials og:url=https://accredian.com/blog/testimonials noindex=false oldHost=0 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,BreadcrumbList,ListItem]
+PASS  /blog/search?q=ai  status=200 canonical=https://accredian.com/blog/search og:url=https://accredian.com/blog/search noindex=true oldHost=0 (bad 0) ld=1 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite]
+PASS  /blog/author/tushar-baug  status=200 canonical=https://accredian.com/blog/author/tushar-baug og:url=https://accredian.com/blog/author/tushar-baug noindex=false oldHost=4 (bad 0) ld=2 @type=[Organization,EducationalOrganization,ImageObject,PostalAddress,Country,ContactPoint,WebSite,Blog,ProfilePage,Person]
+
+== 2) EXPECT 404 ==
+PASS  /blog/author/admin  status=404
+PASS  /blog/category/chatgpt  status=404
+PASS  /blog/spotlight/finance  status=404
+PASS  /blog/x-does-not-exist  status=404
+PASS  /blog/articles/page/9999  status=404
+PASS  /blog/articles/page/0  status=404
+PASS  /blog/articles/page/abc  status=404
+PASS  /blog/success-stories/xx  status=404
+
+== 3) EXPECT 308 ==
+PASS  /blog/articles/page/1  status=308 location=/blog/articles expected path /blog/articles
+PASS  /blog/category/data-science/page/1  status=308 location=/blog/category/data-science expected path /blog/category/data-science
+PASS  /blog/spotlight/bfsi/page/1  status=308 location=/blog/spotlight/bfsi expected path /blog/spotlight/bfsi
+
+== 4) HEADERS ==
+PASS  /blog  Cache-Control=s-maxage=3600, stale-while-revalidate=31532400  X-Robots-Tag=(none)  expect /s-maxage=3600/
+PASS  /blog/articles  Cache-Control=s-maxage=3600, stale-while-revalidate=31532400  X-Robots-Tag=(none)  expect /s-maxage=3600/
+PASS  /blog/top-10-genai-tools-dominating-2025  Cache-Control=s-maxage=3600, stale-while-revalidate=31532400  X-Robots-Tag=(none)  expect /s-maxage=3600/
+PASS  /blog/search?q=ai  Cache-Control=private, no-cache, no-store, max-age=0, must-revalidate  X-Robots-Tag=(none)  expect /no-store/
+
+== 5) SITEMAP AND ROBOTS ==
+  /sitemap.xml: status=200 <loc>=1474 under https://accredian.com/blog/=1309 suspicious=0
+  /blog/sitemap.xml: status=404 <loc>=0 under https://accredian.com/blog/=0 suspicious=0
+PASS  /sitemap.xml  status=200 entries=1474 blog=1309 suspicious=0
+PASS  /blog/sitemap.xml  status=404 entries=0 blog=0 (a 404 here is only informational)
+  blog URLs live in: /sitemap.xml
+PASS  sitemap sample  25 random blog <loc> checked, non-200: 0
+PASS  /robots.txt  status=200 /blog/search disallowed=true Sitemap lines=[https://accredian.com/sitemap.xml]
+
+== 6) CONTENT CHECKS on /blog ==
+  Explore by Category strip (new build):
+    Accredian Spotlight 280  (same as old)
+    Data Science 279  (same as old)
+    Product Management 207  (same as old)
+    Accredian DS Spotlight 109  (same as old)
+    AI 98  (same as old)
+    Non-Programmer 91  (same as old)
+    Programmer/Non-Programmer 80  (same as old)
+    Work Experience 77  (not in old strip)
+    Professional Background 74  (same as old)
+    Industry 71  (same as old)
+  in old strip but not new: 7 to 15 Years
+  in new strip but not old: Work Experience 77
+  Note: the cause (100-category cap fix) cannot be proven from HTML alone; see the summary for the reasoning.
+PASS  strip parsed  10 categories
+  success-stories group label "Alumni Career Articles" present=true
+  success-stories child links: DS Success Stories -> /blog/success-stories/ds | PM Success Stories -> /blog/success-stories/pm
+PASS  sub-nav label  "Alumni Career Articles" present=true
+PASS  header/footer once  id="site-header"=1 <header>=0 .footer(MUI)=1 <footer>=0
+
+== 7) NIKKI POST ==
+PASS  /blog/in-talks-with-nikki-from-information-security-consultant  status=200
+PASS  old-host /in-talks-with-nikki-from-information-security-consultant  -> 301 https://accredian.com/blog/in-talks-with-nikki-from-information-security-consultant  expected https://accredian.com/blog/in-talks-with-nikki-from-information-security-consultant
+PASS  old-host /blog/in-talks-with-nikki-from-information-security-consultant  -> 301 https://accredian.com/blog/in-talks-with-nikki-from-information-security-consultant  expected https://accredian.com/blog/in-talks-with-nikki-from-information-security-consultant
+
+== 8) BRANCH DRIFT (footer Refund Policy) ==
+  rendered on BASE: /refund-policies/accredian-policy
+  source Footer.jsx: /refund-policies/accredian-policy
+  production expected: /terms/refund
+
+== 9) HIDDEN CATEGORIES ==
+PASS  /blog/category/topreads  status=200 noindex=true canonical=https://accredian.com/blog/category/topreads
+PASS  /blog/category/topreads excluded  home strip=false articles strip=false sitemap=false
+PASS  /blog/category/trendingnow  status=200 noindex=true canonical=https://accredian.com/blog/category/trendingnow
+PASS  /blog/category/trendingnow excluded  home strip=false articles strip=false sitemap=false
+
+== 10) RAW HTML CONTENT ==
+PASS  /blog/top-10-genai-tools-dominating-2025 body sentence  status=200 "GPT-5 Turbo delivers faster, cheaper, an..." in raw HTML=true
+PASS  /blog/category/data-science <title>  status=200 title="Data Science Archives | Accredian Blog"
+PASS  /blog/category/data-science heading  "Category: Data Science" in raw HTML=true
+
+== SUMMARY ==
+PASS=47 FAIL=0
+  DEVIATION /blog/articles/page/1: Location header sent twice on a cache MISS ("/blog/articles, /blog/articles"), framework behaviour
+  DEVIATION /blog/category/data-science/page/1: Location header sent twice on a cache MISS ("/blog/category/data-science, /blog/category/data-science"), framework behaviour
+  DEVIATION /blog/spotlight/bfsi/page/1: Location header sent twice on a cache MISS ("/blog/spotlight/bfsi, /blog/spotlight/bfsi"), framework behaviour
+  DEVIATION footer Refund Policy href is /refund-policies/accredian-policy, production uses /terms/refund (app/components/Footer/Footer.jsx)

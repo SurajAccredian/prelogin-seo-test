@@ -1,0 +1,83 @@
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+/* Pinned slider: card always fits the visible viewport; image takes the leftover space */
+.cg-container {
+  /* --cg-offset = header height, set from CareerGrowth.jsx */
+  height: calc(100svh - var(--cg-offset, 0px));
+  overflow: hidden;
+}
+
+/* browsers without svh units (minifiers drop a plain 100vh fallback) */
+@supports not (height: 100svh) {
+  .cg-container {
+    height: calc(100vh - var(--cg-offset, 0px));
+  }
+}
+
+.cg-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* phone portrait: stacked. The pin starts below the navbar (see CareerGrowth.jsx), so no top padding is needed */
+.cg-text {
+  flex: none;
+}
+
+.cg-image {
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+/* tablet and up, and short landscape screens: side by side */
+@media (min-width: 768px) {
+  .cg-card {
+    flex-direction: row;
+  }
+  .cg-text {
+    flex: 0 0 50%;
+  }
+  .cg-image {
+    flex: 0 0 50%;
+  }
+}
+
+/* portrait tablets: autoplay carousel instead of the pinned slider (see CareerGrowth.jsx), so the section is only as tall as one card */
+.cg-container--carousel {
+  height: auto;
+}
+.cg-container--carousel .cg-card--slide {
+  position: relative;
+  height: 440px;
+  padding-bottom: 2rem;
+}
+.cg-container--carousel .swiper-pagination-bullet-active {
+  background: #0050a3;
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+  .cg-card {
+    flex-direction: row;
+  }
+  .cg-card .cg-text {
+    flex: 0 0 50%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  .cg-card .cg-title {
+    font-size: 1.25rem;
+  }
+  .cg-card .cg-desc {
+    font-size: 0.8125rem;
+    line-height: 1.4;
+  }
+  .cg-card .cg-image {
+    flex: 0 0 50%;
+  }
+}

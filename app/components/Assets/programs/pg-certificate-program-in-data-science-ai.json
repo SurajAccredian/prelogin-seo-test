@@ -3,6 +3,7 @@
   "id": "pg-certificate-program-in-data-science-ai",
   "vertical": "data science",
   "title": "Post Graduate Certificate Program in Data Science & Artificial Intelligence",
+  "seo_title": "PG Certificate Data Science & AI E&ICT IITG | Accredian",
   "description": "Embark on a 10-term learning journey in Data Visualization, Machine Learning, Neural Networks, and GenAI.",
   "short_title": "Data Science",
   "contact": "9818329799",
@@ -53,7 +54,6 @@
       "title": "modules",
       "text": 40
     },
-
     {
       "title": "campus immersion",
       "text": "2-Days"
@@ -256,9 +256,9 @@
     }
   ],
   "faculty": [
-     {
+    {
       "name": "Deepesh",
- "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
+      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
       "position": "Senior Faculty",
       "organization": "Accredian",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/accredian-logo.webp"
@@ -349,7 +349,6 @@
     "programId": "pg-certificate-program-in-data-science-ai",
     "points": [
       "120+ Class Hours",
-      
       "Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -434,7 +433,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How is the Post Graduate Certificate Program in Data Science & Artificial Intelligence program different?",
@@ -478,5 +477,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIT-Post-Graduate-Certificate-Program-in-DSAI.pdf",
     "source": "IITG PG Data Science AI Brochure",
     "campaign_name": "PGDSAI-10 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - PG Cert Data Science & AI",
+  "meta_description": "Master data science algorithms with E&ICT IIT Guwahati's 10-month PG Certificate in Data Science & AI for data professionals and business analysts.",
+  "keywords": "PG certificate data science AI IIT Guwahati, executive data science program, IIT data science artificial intelligence course"
 }

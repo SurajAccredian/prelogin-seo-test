@@ -3,6 +3,7 @@
   "id": "executive-program-in-fintech-and-innovation",
   "vertical": "finance",
   "title": "Executive Program in Fintech & Innovation",
+  "seo_title": "Fintech & Innovation Program E&ICT IITG | Accredian",
   "description": "Embark on a 10 month learning journey in Fintech Ecosystem, Digital Payments, and Blockchain.",
   "short_title": "Fintech",
   "contact": "8826567425",
@@ -243,8 +244,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
-    
     {
       "name": "Harihara",
       "position": "Senior Program Manager",
@@ -282,7 +281,7 @@
     {
       "title": "miro",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/miro.webp"
-    },    
+    },
     {
       "title": "balsamiq",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/balsamiq.webp"
@@ -316,7 +315,6 @@
     "programId": "executive-program-in-fintech-and-innovation",
     "points": [
       "120+ Hours of Live Classes",
-      
       "10+ Tools Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -401,7 +399,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Fintech & Innovation different?",
@@ -444,5 +442,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-Fintech-and-Innovation.pdf",
     "source": "IITG Fintech & Innovation Brochure",
     "campaign_name": "EPFI-IITG-10 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Fintech & Innovation",
+  "meta_description": "Master paytech platforms, blockchain applications and financial with E&ICT IIT Guwahati's 10-month Fintech & Innovation program for finance professionals.",
+  "keywords": "fintech innovation IIT Guwahati, executive fintech program, financial innovation certification, digital finance course India"
 }

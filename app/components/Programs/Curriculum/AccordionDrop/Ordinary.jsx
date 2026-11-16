@@ -31,14 +31,14 @@ const Ordinary = ({
         style={{ paddingLeft: level === 0 ? "1.5rem" : "0.5rem" }}
       >
         <div className="flex items-center gap-2">
-          <h1 className="text-sm md:text-base font-semibold">
+          <h3 className="text-sm md:text-base font-semibold">
             {curriculum?.title}
-          </h1>
+          </h3>
           {curriculum?.week && (
-            <h1 className="text-xs font-medium max-md:hidden text-nowrap">
+            <span className="text-xs font-medium max-md:hidden text-nowrap">
               <span className="text-green-500 mr-2">•</span>
               {curriculum?.week}
-            </h1>
+            </span>
           )}
         </div>
       </div>
@@ -46,6 +46,13 @@ const Ordinary = ({
   }
 
   const panelId = id ? `${id}-${level}` : `panel${index}-${level}`;
+
+  const titlePrefixMatch =
+    level === 0 &&
+    type !== "masterclass" &&
+    curriculum?.title?.match(
+      /^((?:Module|Term|Pillar)\s+\d+(?:\s*[:\-–]\s*|\s+))(.*)$/i
+    );
 
   return (
     <Accordion
@@ -65,25 +72,34 @@ const Ordinary = ({
       <AccordionSummary>
         <div className="w-full flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
-            <h1 className="text-sm md:text-base font-semibold">
-              {level === 0 && type !== "masterclass" && (
-                <span className="font-bold">
-                  {type === "term"
-                    ? "Term"
-                    : type === "pillar"
-                    ? "Pillar"
-                    : "Module"}{" "}
-                  {index} :{" "}
-                </span>
+            <h3 className="text-sm md:text-base font-semibold">
+              {titlePrefixMatch ? (
+                <>
+                  <span className="font-bold">{titlePrefixMatch[1]}</span>
+                  {titlePrefixMatch[2]}
+                </>
+              ) : (
+                <>
+                  {level === 0 && type !== "masterclass" && (
+                    <span className="font-bold">
+                      {type === "term"
+                        ? "Term"
+                        : type === "pillar"
+                        ? "Pillar"
+                        : "Module"}{" "}
+                      {index} :{" "}
+                    </span>
+                  )}
+                  {curriculum?.title}
+                </>
               )}
-              {curriculum?.title}
-            </h1>
+            </h3>
             {curriculum?.week && (
               <>
-                <h1 className="text-xs font-medium max-md:hidden text-nowrap">
+                <span className="text-xs font-medium max-md:hidden text-nowrap">
                   <span className="text-green-500 mr-2">•</span>
                   {curriculum?.week}
-                </h1>
+                </span>
               </>
             )}
           </div>
@@ -127,7 +143,7 @@ const Ordinary = ({
                   }}
                 >
                   <StepLabel StepIconComponent={BlueStepIcon}>
-                    <h1 className="text-sm font-medium">{point}</h1>
+                    <p className="text-sm font-medium">{point}</p>
                   </StepLabel>
                 </Step>
               );

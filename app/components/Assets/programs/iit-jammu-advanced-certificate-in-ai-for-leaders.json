@@ -1,15 +1,17 @@
 {
   "category": "57",
   "id": "iit-jammu-advanced-certificate-in-ai-for-leaders",
+  "pid": 155,
   "vertical": "artificial intelligence",
   "title": "Advanced Certificate in AI for Leaders",
+  "seo_title": "IIT Jammu Advanced Certificate in AI for Leaders | Accredian",
   "description": "Embark on a 5 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial Intelligence",
   "contact": "8851827093",
   "university_name": "I3C-IIT JAMMU",
   "short_university_name": "iit-jammu",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-jammu-logo.webp",
-  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.JPG",
+  "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iit-jammu-university-image.webp",
   "start_date": "26 Jul 2026",
   "required_years_experience": 5,
   "duration": "5 months",
@@ -101,7 +103,11 @@
     "experiential-learning",
     "leadership-driven-learning"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -347,7 +353,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },
@@ -387,11 +395,15 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/iit-jammu-advanced-certificate-in-ai-for-leaders-Brochure.pdf",
     "source": "IIT Jammu Advanced Certificate in AI for Leaders Brochure",
     "campaign_name": "IITJ-Advanced-Certificate-in-AI-for-Leaders-5-Months"
-  }
+  },
+  "og_title": "I3C-IIT Jammu - Advanced Certificate in AI for Leaders",
+  "meta_description": "Develop practical AI strategy, machine learning insights and digital with IIT Jammu's 5-month Advanced Certificate in AI for Leaders for working managers.",
+  "keywords": "AI for leaders IIT Jammu, advanced certificate AI IIT Jammu, executive AI course IIT, artificial intelligence strategy"
 }

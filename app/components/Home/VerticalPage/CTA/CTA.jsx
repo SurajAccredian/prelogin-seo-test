@@ -13,9 +13,9 @@ const CTA = () => {
 
   const handleModalOpen = () => {
     if (data) {
-      setIsModalOpen(data)
+      setIsModalOpen({ ...data, source: "Get Expert Advice" });
     }
-  }
+  };
 
   return (
     <div className='cta flex justify-center w-full py-4 md:py-12 xl:px-12 px-4'>
@@ -27,7 +27,7 @@ const CTA = () => {
             </div>
           </div>
           <div className="md:text-start text-start">
-            <h1 className="text-xl md:text-3xl font-semibold text-white">Finding the Right Program Can Be Challenging!</h1>
+            <h2 className="text-xl md:text-3xl font-semibold text-white">Finding the Right Program Can Be Challenging!</h2>
             {/* <h4 className="text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100">Share your details to receive expert insights from our program team!</h4> */}
             <h4 className="hidden sm:block text-base md:text-lg mt-2 max-w-xl font-medium text-neutral-100">Our Experts Can Help You Make an Informed Decision
             </h4>

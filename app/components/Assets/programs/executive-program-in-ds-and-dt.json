@@ -3,6 +3,7 @@
   "id": "executive-program-in-ds-and-dt",
   "vertical": "data science",
   "title": "Executive Program in Data Science and Digital Transformation",
+  "seo_title": "Data Science & Digital Transformation E&ICT IITG | Accredian",
   "description": "Embark on an 11- term learning journey Data Analytics, Machine Learning, Digital Strategy, and Design Thinking.",
   "short_title": "Data Science",
   "contact": "9079653292",
@@ -305,7 +306,6 @@
       "organization": "Paytm",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
     },
-
     {
       "name": "Subhodeep Dey",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
@@ -313,7 +313,6 @@
       "organization": "Jio",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/jio.webp"
     },
-
     {
       "name": "Pratul Gupta",
       "position": "Product Manager",
@@ -405,7 +404,6 @@
     "programId": "executive-program-in-ds-and-dt",
     "points": [
       "160+ Hours of Live Classes",
-      
       "20+ Tools Covered",
       "8 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -586,7 +584,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Data Science & DT different?",
@@ -632,5 +630,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIT-Executive-Program-DSDT-12-months-v2.pdf",
     "source": "Data Science and digital transformation Brochure",
     "campaign_name": "DSDT-IITG-12 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Data Science & Digital Shift",
+  "meta_description": "Master data science workflows, predictive modeling and enterprise digital with E&ICT IIT Guwahati's 12-month Executive Program for data professionals.",
+  "keywords": "data science digital transformation IIT Guwahati, data driven transformation course, executive data analytics program"
 }

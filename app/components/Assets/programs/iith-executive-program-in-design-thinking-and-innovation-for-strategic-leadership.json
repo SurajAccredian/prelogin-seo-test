@@ -1,12 +1,23 @@
 {
   "id": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
+  "pid": 140,
   "tags": [
-    { "type": "main", "title": "best selling" },
-    { "type": "ordinary", "title": "Instructor led" },
-    { "type": "ordinary", "title": "Online" }
+    {
+      "type": "main",
+      "title": "coming soon"
+    },
+    {
+      "type": "ordinary",
+      "title": "Instructor led"
+    },
+    {
+      "type": "ordinary",
+      "title": "Online"
+    }
   ],
   "type": "online",
   "title": "Executive Certification Program in Design Thinking & Innovation for Strategic Leadership",
+  "seo_title": "Design Thinking & Innovation IIT Hyderabad | Accredian",
   "domain": "module",
   "billing": {
     "total": 179000,
@@ -18,9 +29,18 @@
     ],
     "programId": "iith-executive-program-in-design-thinking-and-innovation-for-strategic-leadership",
     "monthly_emi": [
-      { "emi": 15070, "months": 12 },
-      { "emi": 10411, "months": 18 },
-      { "emi": 8065, "months": 24 }
+      {
+        "emi": 15070,
+        "months": 12
+      },
+      {
+        "emi": 10411,
+        "months": 18
+      },
+      {
+        "emi": 8065,
+        "months": 24
+      }
     ]
   },
   "contact": "8882597163",
@@ -152,15 +172,34 @@
   "start_date": "13 June 2026",
   "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMT-certificate/IITH-ECPDTISL-Program-v2.png",
   "description": "Embark on a 6 month learning journey in Applied Innovation, Experience Design & Strategic Leadership.",
-  "enrollments": "inactive",
+  "enrollments": "coming-soon",
   "short_title": "Design Thinking",
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "key_features": [
-    { "text": "5", "title": "modules" },
-    { "text": "72+", "title": "class hours" },
-    { "text": "1", "title": "capstone project" },
-    { "text": "2 day", "title": "campus immersion (opt.)" },
-    { "text": "4", "title": "career sessions" }
+    {
+      "text": "5",
+      "title": "modules"
+    },
+    {
+      "text": "72+",
+      "title": "class hours"
+    },
+    {
+      "text": "1",
+      "title": "capstone project"
+    },
+    {
+      "text": "2 day",
+      "title": "campus immersion (opt.)"
+    },
+    {
+      "text": "4",
+      "title": "career sessions"
+    }
   ],
   "unique_points": [
     "capstone-project",
@@ -178,5 +217,9 @@
     "Start Learning"
   ],
   "short_university_name": "iith",
-  "required_years_experience": 1
+  "required_years_experience": 1,
+  "og_title": "IIT Hyderabad - Design Thinking & Innovation",
+  "meta_description": "Master human-centered innovation with IIT Hyderabad's 6-month Design Thinking & Innovation program for innovation managers and design professionals.",
+  "keywords": "design thinking innovation IIT Hyderabad, strategic leadership design thinking, IIT Hyderabad executive certificate",
+  "status": "Coming Soon"
 }

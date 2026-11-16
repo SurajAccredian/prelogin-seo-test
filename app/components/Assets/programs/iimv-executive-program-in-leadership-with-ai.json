@@ -1,8 +1,10 @@
 {
   "category": "41",
   "id": "iimv-executive-program-in-leadership-with-ai",
+  "pid": 173,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
+  "seo_title": "IIM Visakhapatnam Leadership with AI Program | Accredian",
   "description": "Embark on a 10 month learning journey in Machine Learning, AI Strategy, and GenAI.",
   "short_title": "Artificial intelligence",
   "contact": "7678385465",
@@ -10,7 +12,7 @@
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "13 Sep 2026",
+  "start_date": "10 Jan 2027",
   "required_years_experience": 5,
   "duration": "10 months",
   "type": "online",
@@ -106,7 +108,11 @@
     "exclusive-merchandise",
     "alumni-status"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
@@ -203,7 +209,6 @@
         "AI in Finance, Risk & Compliance"
       ]
     },
-
     {
       "title": "Leading AI Transformation & Change Management",
       "id": "growth-strategies-for-senior-leaders",
@@ -214,7 +219,6 @@
         "Governance, Incentives & Execution Discipline"
       ]
     },
-
     {
       "title": "Capstone Project",
       "special": "1",
@@ -283,7 +287,7 @@
     },
     {
       "title": "Alteryx",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/alteryx.svg"
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/alteryx.webp"
     },
     {
       "title": "Gemini",
@@ -294,7 +298,6 @@
     "programId": "iimv-executive-program-in-leadership-with-ai",
     "points": [
       "120+ Hours of Live Classes",
-
       "7+ Tools and Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -345,7 +348,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 10 months."]
+            "content": [
+              "The duration of the program is 10 months."
+            ]
           }
         ]
       },
@@ -394,5 +399,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-leadership-with-ai-brochure.pdf",
     "source": "IIMV Executive Program in Leadership with AI Brochure",
     "campaign_name": "EPLAI-IIMV-10 Months"
-  }
+  },
+  "og_title": "IIM Visakhapatnam - Executive Program in Leadership with AI",
+  "meta_description": "Build skills in strategic AI adoption, digital business strategy and team with IIM Visakhapatnam's 10-month Leadership with AI program for working managers.",
+  "keywords": "leadership with AI IIM Visakhapatnam, IIMV AI executive program, strategic AI leadership course India"
 }

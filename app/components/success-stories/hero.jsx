@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import CareerTransition from "../CTA_Modal/career_transition";
 
 
@@ -17,7 +18,7 @@ const Hero = () => {
           <div className="flex-1 flex flex-col gap-3 md:items-start items-center justify-between">
             <div className="w-full flex flex-col md:items-start items-center">
               <h1 className="text-center cursor-context-menu md:text-start text-4xl lg:text-7xl font-bold max-w-lg xl:max-w-[700px]">Alumni Achievements:</h1>
-              <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4">Inspiring Journeys to Success</h1>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4">Inspiring Journeys to Success</h2>
               <p className="max-w-sm mt-4 lg:max-w-[630px] font-semibold text-sm md:text-start text-center md:text-base lg:text-[20px] text-paleBlack">Hear how our alumni transformed their careers and see the results that speak for themselves.</p>
             </div>
             <div className="flex items-center gap-4 md:justify-start justify-center mt-6 font-circular">
@@ -31,7 +32,16 @@ const Hero = () => {
           </div>
           <div className="flex-1 md:py-0 py-16 sm:flex hidden justify-center">
             <div className='relative h-fit w-full max-w-xl rounded-lg overflow-hidden p-2 bg-white border drop-shadow-xl'>
-              <img src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/success-stories-hero.webp" alt="hero" className='w-full rounded-md' />
+              <Image
+                src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/success-stories-hero2.webp"
+                alt="Alumni Achievements"
+                width={600}
+                height={400}
+                priority
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 550px"
+                className="w-full h-auto rounded-md object-contain"
+              />
             </div>
           </div>
         </div>

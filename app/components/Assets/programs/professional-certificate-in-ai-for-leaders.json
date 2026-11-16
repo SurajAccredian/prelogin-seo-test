@@ -1,8 +1,10 @@
 {
   "category": "47",
   "id": "professional-certificate-in-ai-for-leaders",
+  "pid": 147,
   "vertical": "artificial intelligence",
   "title": "Professional Certificate in AI for Leaders",
+  "seo_title": "SP Jain Professional Certificate in AI for Leaders | Accredian",
   "description": "Embark on a 4-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.",
   "short_title": "Artificial intelligence",
   "contact": "9358719988",
@@ -10,7 +12,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "11 Oct 2026",
+  "start_date": "13 Feb 2027",
   "duration": "4 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -26,7 +28,7 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/SPJ/spjain-professional-certificate-in-ai-for-leaders.webp",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/spjain-professional-certificate-in-ai-for-leaders.webp",
   "key_features": [
     {
       "title": "hours",
@@ -85,7 +87,8 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
         ]
       }
     ]
@@ -97,13 +100,16 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "AI Foundations for Business Leaders",
@@ -146,16 +152,6 @@
       ]
     },
     {
-      "title": "AI Business Models & Growth Strategy",
-      "id": "ai-business-models-growth-strategy",
-      "points": [
-        "AI-Native Business Models and Value Creation",
-        "Pricing, Monetization, and Revenue Strategies",
-        "Unit Economics and Margin Structures",
-        "Scaling AI-Driven Business Models"
-      ]
-    },
-    {
       "title": "Capstone Project",
       "id": "capstone-project",
       "special": "1",
@@ -164,7 +160,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Selvan Dorairaj",
@@ -246,18 +241,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 10733
+        "emi": 12685
       },
       {
         "months": 18,
-        "emi": 7415
+        "emi": 8795
       },
       {
         "months": 24,
-        "emi": 5744
+        "emi": 6835
       }
     ],
-    "total": 130000
+    "total": 139000
   },
   "faq": {
     "programId": "professional-certificate-in-ai-for-leaders",
@@ -290,7 +285,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 4 Months."]
+            "content": [
+              "The duration of the program is 4 Months."
+            ]
           }
         ]
       },
@@ -331,11 +328,15 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Professional-Certificate-in-AI-for-Leaders-Brochure.pdf",
     "source": "SPJ Professional Certificate in AI for Leaders Brochure",
     "campaign_name": "PCAIL-SPJ-4 Months"
-  }
+  },
+  "og_title": "SP Jain School of Global Management - Professional Certificate in AI for Leaders",
+  "meta_description": "Master applied AI frameworks, executive decision-making and digital with SP Jain's 4-month Professional Certificate in AI for Leaders for working managers.",
+  "keywords": "professional certificate AI for leaders SP Jain, SP Jain executive AI course, artificial intelligence leadership"
 }

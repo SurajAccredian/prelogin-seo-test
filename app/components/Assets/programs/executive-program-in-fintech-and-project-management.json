@@ -3,6 +3,7 @@
   "id": "executive-program-in-fintech-and-project-management",
   "vertical": "finance",
   "title": "Executive Program in Fintech & Project Management",
+  "seo_title": "Fintech & Project Management E&ICT IITG | Accredian",
   "description": "Embark on a 12 month learning journey in Fintech Ecosystem, Digital Payments, and Project Leadership.",
   "short_title": "Fintech",
   "contact": "8826567425",
@@ -128,7 +129,6 @@
     "Eligibility Test",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "Introduction to FinTech",
@@ -248,7 +248,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Prahlad Modi",
       "position": "Senior Product Manager",
@@ -327,11 +326,10 @@
     "programId": "executive-program-in-fintech-and-project-management",
     "points": [
       "140+ Hours of Live Classes",
-    
-    "10+ Tools and Frameworks Covered",
-    "6 Career Sessions by Accredian",
-    "Quick Query Resolution",
-    "Access to Session Recordings"
+      "10+ Tools and Frameworks Covered",
+      "6 Career Sessions by Accredian",
+      "Quick Query Resolution",
+      "Access to Session Recordings"
     ],
     "monthly_emi": [
       {
@@ -363,7 +361,7 @@
           },
           {
             "title": "What is the minimum system configuration required?",
-           "content": [
+            "content": [
               "## Minimum System Requirements for the Program:",
               "- **Processor**: Any modern processor – Intel Core i3 (10th Gen or newer) / AMD Ryzen 3 (3000 series or newer) / Apple M1 or later",
               "- **RAM:** 4GB (8GB recommended for better performance)"
@@ -412,7 +410,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Fintech & Project Management different?",
@@ -455,5 +453,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-Fintech-and-PMT.pdf",
     "source": "IITG Fintech & Project Management Brochure",
     "campaign_name": "EPFPMT-IITG-12 months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Fintech & Project Mgmt",
+  "meta_description": "Master financial technology project delivery with E&ICT IIT Guwahati's 12-month Fintech & Project Management program for project managers and delivery leads.",
+  "keywords": "fintech project management IIT Guwahati, financial tech project manager course, executive project management fintech"
 }

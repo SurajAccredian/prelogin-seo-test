@@ -2,6 +2,7 @@
   "category": "26",
   "vertical": "product management",
   "title": "Professional Certificate Program in Product Management",
+  "seo_title": "Product Management Program E&ICT IITK | Accredian",
   "description": "Embark on a 6-term learning journey in Product Strategy, UI/UX, Agile Product Development, Product Analytics, and Generative AI.",
   "short_title": "Product Management",
   "contact": "8882597163",
@@ -99,7 +100,6 @@
     ]
   },
   "curriculum_type": "term",
-
   "domain": "term",
   "campusImmersionCost": "900",
   "curriculum": [
@@ -227,12 +227,15 @@
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
     }
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "billing": {
     "programId": "professional-certificate-program-in-product-management",
     "points": [
       "72+ Hours of Live Classes",
-
       "30+ Tools & Frameworks Covered",
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -401,5 +404,8 @@
     "source": "IITK Professional Certificate Program in Product Management Brochure",
     "campaign_name": "PCPM-IITK-6 Months"
   },
-  "external_enroll": "https://eicta.iitk.ac.in/courses/professional-certificate-program-in-product-management"
+  "external_enroll": "https://eicta.iitk.ac.in/courses/professional-certificate-program-in-product-management",
+  "og_title": "E&ICT IIT Kanpur - Product Management Cert",
+  "meta_description": "Develop product roadmap planning with E&ICT IIT Kanpur's 6-month Product Management program for product managers and aspiring product leaders.",
+  "keywords": "product management program IIT Kanpur, executive product manager course IIT Kanpur, product strategy certificate"
 }

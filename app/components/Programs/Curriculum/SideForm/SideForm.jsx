@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { IoWarning } from "react-icons/io5";
 import PhoneInput from "react-phone-input-2";
@@ -7,38 +7,38 @@ import { useMutation } from "@tanstack/react-query";
 import { useSelector } from "react-redux";
 import { usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import Swal from "sweetalert2";
-import { getCta } from "../../../../services/program.service";
+import { getBrochureCta } from "../../../../services/program.service";
 import { HashLoader } from "../../../Loaders";
 import Disclaimer from "../../Disclaimer";
 import ReCAPTCHA from "react-google-recaptcha";
 import { allowedIds } from "../../../Assets/constants";
+import { detectBrowserLocation } from "../../../../helpers/location.helpers";
+import { getStoredUTMData } from "../../../../helpers/utm.helpers";
+import { getFbc, getFbp } from "../../../../helpers/cookie.helpers";
+import { fetchClientIp } from "../../../../helpers/ip.helpers";
+import { trackGoogleAdsLeadConversion } from "../../../../helpers/googleAds.helpers";
 import "react-phone-input-2/lib/style.css";
-const SideForm = () => {
-  const { data } = useSelector((state) => state.program);
+
+const SideFormContent = ({ data: propData }) => {
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const currentPage =
     pathname === "/" ? "homepage" : pathname.replace("/", "");
-  const utm_source =
-    searchParams.get("utm_source") == undefined
-      ? "null"
-      : searchParams.get("utm_source");
-  const utm_medium =
-    searchParams.get("utm_medium") == undefined
-      ? "null"
-      : searchParams.get("utm_medium");
-  const utm_campaign =
-    searchParams.get("utm_campaign") == undefined
-      ? "null"
-      : searchParams.get("utm_campaign");
+
+  const [locationStatus, setLocationStatus] = useState("idle"); // 'idle' | 'detecting' | 'detected' | 'fallback'
+  const [detectedLocation, setDetectedLocation] = useState({ city: "", state: "", country: "" });
+  const [showManualLocation, setShowManualLocation] = useState(false);
+  const [userIp, setUserIp] = useState("");
 
   const {
     register,
     handleSubmit,
     control,
     reset,
+    setValue,
     formState: { errors },
   } = useForm({
     defaultValues: {
@@ -46,14 +46,70 @@ const SideForm = () => {
       email: "",
       contact: "",
       query: "",
+      city: "",
+      state: "",
+      country: "",
+      fbc_field: "",
+      fbp_field: "",
+      ip_field: "",
+      utm_source: "",
+      utm_medium: "",
+      utm_campaign: "",
+      utm_content: "",
+      utm_adset: "",
+      utm_ad: "",
+      utm_term: "",
+      utm_format: "",
     },
     mode: "onChange",
   });
+
+  // Automatically populate first-touch UTM attribution from sessionStorage / URL
+  useEffect(() => {
+    const utmData = getStoredUTMData();
+    setValue("utm_source", utmData.utm_source || "");
+    setValue("utm_medium", utmData.utm_medium || "");
+    setValue("utm_campaign", utmData.utm_campaign || "");
+    setValue("utm_content", utmData.utm_content || "");
+    setValue("utm_adset", utmData.utm_adset || "");
+    setValue("utm_ad", utmData.utm_ad || "");
+    setValue("utm_term", utmData.utm_term || "");
+    setValue("utm_format", utmData.utm_format || "");
+    setValue("fbc_field", getFbc());
+    setValue("fbp_field", getFbp());
+    fetchClientIp().then((ip) => {
+      if (ip) {
+        setUserIp(ip);
+        setValue("ip_field", ip);
+      }
+    });
+  }, [setValue]);
+
+  // Request browser geolocation on first interaction with the form, not on page load
+  const requestLocation = () => {
+    if (locationStatus !== "idle") return;
+    setLocationStatus("detecting");
+    detectBrowserLocation().then((res) => {
+      if (res.success && res.data && (res.data.city || res.data.state || res.data.country)) {
+        setLocationStatus("detected");
+        setDetectedLocation(res.data);
+        setValue("city", res.data.city || "");
+        setValue("state", res.data.state || "");
+        setValue("country", res.data.country || "");
+        setShowManualLocation(false);
+      } else {
+        setLocationStatus("fallback");
+        setShowManualLocation(true);
+      }
+    });
+  };
+
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const { mutate, isPending } = useMutation({
-    mutationFn: (body) => getCta(body),
+    mutationFn: (body) => getBrochureCta(body),
     onSuccess: (result) => {
       if (result.data.status == "200") {
+        trackGoogleAdsLeadConversion();
         Swal.fire({
           title: "Thank You",
           text: "Thank you for downloading the brochure. Our executive will contact you to provide more information about the course!",
@@ -86,19 +142,37 @@ const SideForm = () => {
   };
 
   const submitForm = (body) => {
-    const { name, contact, email, query } = body;
+    const { name, contact, email, query, city, state, country, fbc_field, fbp_field, ip_field } = body;
+    const utmData = getStoredUTMData();
+
+    const finalCity = (city || detectedLocation.city || "").trim();
+    const finalState = (state || detectedLocation.state || "").trim();
+    const finalCountry = (country || detectedLocation.country || "").trim();
 
     const payload = {
       phone: contact,
       name,
       email,
       query,
-      program: data.vertical,
-      source: data.brochure.source,
+      city: finalCity,
+      state: finalState,
+      country: finalCountry,
+      fbc_field: fbc_field || getFbc(),
+      fbp_field: fbp_field || getFbp(),
+      ip_field: userIp || ip_field || "",
+      program: data?.vertical,
+      source: "Curriculum Side Form",
+      cta_button: "Curriculum Side Form",
       page: currentPage,
-      utm_source,
-      utm_medium,
-      utm_campaign,
+      utm_source: body.utm_source || utmData.utm_source || "Direct",
+      utm_medium: body.utm_medium || utmData.utm_medium || "website-organic",
+      utm_campaign: body.utm_campaign || utmData.utm_campaign || "",
+      utm_content: body.utm_content || utmData.utm_content || "",
+      utm_adset: body.utm_adset || utmData.utm_adset || "",
+      utm_ad: body.utm_ad || utmData.utm_ad || "",
+      utm_term: body.utm_term || utmData.utm_term || "",
+      utm_format: body.utm_format || utmData.utm_format || "",
+      campaign_name: data?.brochure?.campaign_name || null,
       form_id: "brochure",
       type: "CTA",
     };
@@ -109,14 +183,26 @@ const SideForm = () => {
     <div className="request-brochure p-6 bg-white border drop-shadow rounded-lg w-full max-w-[400px] h-fit flex flex-col justify-between">
       <div className="w-full flex flex-col items-center">
         {/* upper heading */}
-        <h1 className="text-xl font-semibold text-neutral-800">
+        <h3 className="text-xl font-semibold text-neutral-800">
           Request more information
-        </h1>
+        </h3>
         {/* request form */}
         <form
           className="w-full h-full min-h-[24rem] flex flex-col justify-between"
           onSubmit={handleSubmit(submitForm)}
+          onFocus={requestLocation}
         >
+          <input type="hidden" id="fbc_field" {...register("fbc_field")} />
+          <input type="hidden" id="fbp_field" {...register("fbp_field")} />
+          <input type="hidden" id="ip_field" {...register("ip_field")} />
+          <input type="hidden" id="utm_source" {...register("utm_source")} />
+          <input type="hidden" id="utm_medium" {...register("utm_medium")} />
+          <input type="hidden" id="utm_campaign" {...register("utm_campaign")} />
+          <input type="hidden" id="utm_content" {...register("utm_content")} />
+          <input type="hidden" id="utm_adset" {...register("utm_adset")} />
+          <input type="hidden" id="utm_ad" {...register("utm_ad")} />
+          <input type="hidden" id="utm_term" {...register("utm_term")} />
+          <input type="hidden" id="utm_format" {...register("utm_format")} />
           <div className="w-full">
             {/* name */}
             <div className="relative mt-4">
@@ -230,6 +316,98 @@ ${errors["email"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
                 </div>
               )}
             </div>
+
+            {/* Location Capture: Auto-detected state or Manual fallback/editable fields */}
+            {locationStatus === "detecting" && (
+              <div className="mt-3 p-2 bg-neutral-50 border border-neutral-200 rounded-lg flex items-center gap-2 text-xs text-neutral-500 animate-pulse">
+                <span>📍</span>
+                <span>Detecting location...</span>
+              </div>
+            )}
+
+            {locationStatus === "detected" && !showManualLocation && (
+              <div className="mt-3">
+                <div className="p-2.5 bg-blue-50/70 border border-blue-100 rounded-lg flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-1.5 text-neutral-700 truncate pr-2">
+                    <span className="text-blue-600 text-sm">📍</span>
+                    <span className="font-medium truncate">
+                      {[detectedLocation.city, detectedLocation.state, detectedLocation.country].filter(Boolean).join(", ")}
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setShowManualLocation(true)}
+                    className="text-universal hover:underline font-medium text-xs whitespace-nowrap cursor-pointer"
+                  >
+                    Edit
+                  </button>
+                </div>
+                <p className="text-[10px] text-neutral-400 mt-0.5 pl-1">Location data © OpenStreetMap contributors</p>
+              </div>
+            )}
+
+            {(showManualLocation || locationStatus === "fallback") && (
+              <div className="mt-3 pt-2 border-t border-neutral-100">
+                <div className="flex items-center justify-between mb-1.5">
+                  <label className="text-xs font-medium text-neutral-600">Location Details</label>
+                  {locationStatus === "detected" && (
+                    <button
+                      type="button"
+                      onClick={() => setShowManualLocation(false)}
+                      className="text-[11px] text-universal hover:underline cursor-pointer"
+                    >
+                      Use auto-detected
+                    </button>
+                  )}
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="relative">
+                    <input
+                      className={`w-full px-2 py-1.5 text-xs bg-white border-b-2 outline-none transition ${
+                        errors["city"] ? "border-rose-500" : "border-neutral-300"
+                      } focus:border-blue-500`}
+                      {...register("city", { required: "City required" })}
+                      id="city"
+                      type="text"
+                      placeholder="City (Required)"
+                    />
+                    {errors.city?.message && (
+                      <p className="text-red-500 text-[10px] mt-0.5">{errors.city?.message}</p>
+                    )}
+                  </div>
+                  <div className="relative">
+                    <input
+                      className={`w-full px-2 py-1.5 text-xs bg-white border-b-2 outline-none transition ${
+                        errors["state"] ? "border-rose-500" : "border-neutral-300"
+                      } focus:border-blue-500`}
+                      {...register("state", { required: "State required" })}
+                      id="state"
+                      type="text"
+                      placeholder="State (Required)"
+                    />
+                    {errors.state?.message && (
+                      <p className="text-red-500 text-[10px] mt-0.5">{errors.state?.message}</p>
+                    )}
+                  </div>
+                </div>
+                <div className="relative mt-1.5">
+                  <input
+                    className={`w-full px-2 py-1.5 text-xs bg-white border-b-2 outline-none transition ${
+                      errors["country"] ? "border-rose-500" : "border-neutral-300"
+                    } focus:border-blue-500`}
+                    {...register("country", { required: "Country required" })}
+                    id="country"
+                    type="text"
+                    placeholder="Country (Required)"
+                  />
+                  {errors.country?.message && (
+                    <p className="text-red-500 text-[10px] mt-0.5">{errors.country?.message}</p>
+                  )}
+                </div>
+                <p className="text-[10px] text-neutral-400 mt-1 pl-1">Location data © OpenStreetMap contributors</p>
+              </div>
+            )}
+
             {/* query */}
             <div className="relative mt-4">
               <textarea
@@ -305,4 +483,10 @@ ${errors["query"] ? "focus:border-rose-500" : "focus:border-blue-500"}`}
   );
 };
 
-export default SideForm;
+export default function SideForm(props) {
+  return (
+    <React.Suspense fallback={null}>
+      <SideFormContent {...props} />
+    </React.Suspense>
+  );
+}

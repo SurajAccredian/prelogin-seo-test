@@ -44,7 +44,7 @@ const Alumines = () => {
       <div className="w-full max-w-[85rem]">
         <div className='w-full'>
           <h4 className="text-base font-medium"><span className='text-universal'>Success</span> Stories from Our Graduates</h4>
-          <h1 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>Alumni <span className='text-universal'>Testimonials</span></h1>
+          <h2 className='text-2xl md:text-3xl mt-2 font-semibold capitalize'>Alumni <span className='text-universal'>Testimonials</span></h2>
         </div>
         <div className="w-full">
           <div className='w-full flex justify-center'>

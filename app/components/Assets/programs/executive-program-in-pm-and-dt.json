@@ -3,6 +3,7 @@
   "id": "executive-program-in-pm-and-dt",
   "vertical": "product management",
   "title": "Executive Program in Product Management and Digital Transformation",
+  "seo_title": "Product Management & Digital Transformation E&ICT IITG | Accredian",
   "description": "Embark on an 11-term learning journey in UI/UX, Digital Strategy, Design Thinking.",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -329,7 +330,6 @@
       "title": "figma",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/figma.webp"
     },
-
     {
       "title": "confluence",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/confluence.png"
@@ -367,7 +367,6 @@
     "programId": "executive-program-in-pm-and-dt",
     "points": [
       "132+ Hours of Live Classes",
-      
       "25+ Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -497,5 +496,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-PMDT.pdf",
     "source": "IITG Product Management and Digital Transformation Brochure",
     "campaign_name": "PMDT-IITG-11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Product & Digital Shift",
+  "meta_description": "Master product roadmapping, user growth and digital with E&ICT IIT Guwahati's 11-month Product Management & Digital Transformation program for product managers.",
+  "keywords": "product management digital transformation IIT Guwahati, PM DT executive course, digital product leadership program"
 }

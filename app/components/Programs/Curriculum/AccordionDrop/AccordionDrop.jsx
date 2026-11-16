@@ -22,9 +22,11 @@ export default function AccordionFilter({
   setOpenAll,
   curriculum = [],
   type = "modules",
+  data: propData,
 }) {
   const [expanded, setExpanded] = useState({});
-  const { data } = useSelector((state) => state.program);
+  const reduxProgram = useSelector((state) => state.program);
+  const data = propData || reduxProgram.data;
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded((prevExpanded) => {
@@ -222,9 +224,9 @@ export default function AccordionFilter({
                         <AccordionSummary expandIcon={<ExpandMore />}>
                           <div className="w-full flex items-center justify-between gap-2">
                             <div className="flex items-center gap-2">
-                              <h1 className="text-sm md:text-base font-semibold">
+                              <h3 className="text-sm md:text-base font-semibold">
                                 {index.split("-").join(" ")}
-                              </h1>
+                              </h3>
                             </div>
 
                             <h4 className="max-md:hidden text-nowrap font-circular">
@@ -259,9 +261,9 @@ export default function AccordionFilter({
                                     }}
                                   >
                                     <StepLabel StepIconComponent={BlueStepIcon}>
-                                      <h1 className="text-sm font-medium">
+                                      <p className="text-sm font-medium">
                                         {point}
-                                      </h1>
+                                      </p>
                                     </StepLabel>
                                   </Step>
                                 );

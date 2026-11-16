@@ -40,10 +40,10 @@ const Application = () => {
             <span className="text-universal">Become an Expert</span> in Just
             Three Simple Steps
           </h4>
-          <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+          <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
             Structured <span className="text-universal">Application</span>{" "}
             Process
-          </h1>
+          </h2>
         </div>
         <div className="w-full flex md:flex-row flex-col mt-8 md:mt-12 gap-4 md:gap-8">
           <div className="admission-card-bg-image w-full border py-6 md:py-12 px-4 md:px-8 rounded-lg">
@@ -64,9 +64,9 @@ const Application = () => {
                     className="flex gap-2 md:gap-4 h-[150px] md:h-[150px] lg:h-[100px]"
                   >
                     <div className="font-extrabold  text-2xl text-universal/60 max-w-10 min-w-8 w-full">
-                      <h1 className="text-2xl font-extrabold text-universal/60 leading-none">
+                      <span className="text-2xl font-extrabold text-universal/60 leading-none">
                         0{index + 1}
-                      </h1>
+                      </span>
                     </div>
                     <div className="flex flex-col items-center">
                       <div className="p-1.5 flex-shrink-0 bg-universal/25 rounded-full flex justify-center items-center">
@@ -75,9 +75,9 @@ const Application = () => {
                       <div className={`w-[1px] h-full  bg-universal/60`} />
                     </div>
                     <div className="">
-                      <h1 className="font-semibold text-lg text-neutral-800 capitalize">
+                      <h3 className="font-semibold text-lg text-neutral-800 capitalize">
                         {step.title}
-                      </h1>
+                      </h3>
                       <h4 className="text-sm md:text-base leading-tight mt-2 mb-4 text-neutral-600 ">
                         {step.description}
                       </h4>
@@ -91,16 +91,16 @@ const Application = () => {
             <div className="w-20 h-20 flex-shrink-0">
               <FcPositiveDynamic className="w-full h-full" />
             </div>
-            <h1 className="text-xl md:text-2xl font-semibold mt-2">
+            <h2 className="text-xl md:text-2xl font-semibold mt-2">
               Every submission is given thoughtful consideration!
-            </h1>
+            </h2>
             <h4 className="text-sm md:text-base text-neutral-600 mt-4">
               Inviting Industry Professionals to Join Our Expert Community
             </h4>
 
             <button className="w-full max-w-[200px] outline-none mt-4 rounded-lg bg-blue-500 text-white text-base font-semibold flex items-center justify-center gap-1">
               <a
-                href="/Career/mentor/application"
+                href="/career/mentor/application"
                 target="_blank"
                 className="h-full w-full px-4 py-3 flex items-center justify-center gap-1"
               >

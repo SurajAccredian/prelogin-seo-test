@@ -1,0 +1,111 @@
+{
+  "url": "https://accredian.com/blog/category/data-science",
+  "blocks": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "EducationalOrganization"
+          ],
+          "@id": "https://accredian.com/#organization",
+          "name": "Accredian",
+          "legalName": "FullStack Education Pvt Ltd",
+          "url": "https://accredian.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://accredian.com/#logo",
+            "url": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+            "contentUrl": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp",
+            "caption": "Accredian logo"
+          },
+          "image": {
+            "@id": "https://accredian.com/#logo"
+          },
+          "description": "Accredian is an online executive education company founded in 2018 and based in Gurugram, India. A brand of FullStack Education Pvt Ltd, it delivers live online programs in partnership with institutes including IIMs, IITs, XLRI and SP Jain School of Global Management.",
+          "foundingDate": "2018",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "4th Floor, Plot No. 250, Udyog Vihar Phase IV, Sector 18",
+            "addressLocality": "Gurugram",
+            "addressRegion": "Haryana",
+            "postalCode": "122015",
+            "addressCountry": "IN"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "admissions",
+              "url": "https://accredian.com/contact-us",
+              "areaServed": "IN",
+              "availableLanguage": "English"
+            }
+          ],
+          "knowsAbout": [
+            "Executive education",
+            "Artificial intelligence",
+            "Generative AI",
+            "Leadership",
+            "Strategy",
+            "Product management",
+            "Project management",
+            "Human resource management",
+            "Finance",
+            "Data science"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/company/accredianedu/",
+            "https://www.youtube.com/channel/UCE0L_4ADPU2iyKnDJ0xRzyA",
+            "https://www.instagram.com/accredian_edu",
+            "https://twitter.com/accredianedu",
+            "https://facebook.com/accredianlearn"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://accredian.com/#website",
+          "url": "https://accredian.com/",
+          "name": "Accredian",
+          "inLanguage": "en-IN",
+          "publisher": {
+            "@id": "https://accredian.com/#organization"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://accredian.com/blog/category/data-science#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://accredian.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://accredian.com/blog"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Data Science",
+              "item": "https://accredian.com/blog/category/data-science"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

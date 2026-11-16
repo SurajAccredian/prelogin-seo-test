@@ -1,8 +1,10 @@
 {
   "category": "49",
   "id": "advanced-certificate-program-in-strategic-project-management",
+  "pid": 135,
   "vertical": "project management",
   "title": "Advanced Certificate Program in Strategic Project Management",
+  "seo_title": "Strategic Project Management Program E&ICT IITK | Accredian",
   "description": "Embark on a 5 month learning journey in Project Planning, Risk Management, and Project Procurement.",
   "short_title": "Project Management",
   "contact": "9818329799",
@@ -105,7 +107,6 @@
   },
   "curriculum_type": "term",
   "domain": "term",
-
   "unique_points": [
     "certificate",
     "add-ons",
@@ -377,5 +378,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITK-Advanced-Certificate-Program-in-Strategic-Project-Management.pdf",
     "source": "IITK Advanced Certificate Program in Strategic Project Management Brochure",
     "campaign_name": "ACPSPMT-IITk-5 Months"
-  }
+  },
+  "og_title": "E&ICT Academy IIT Kanpur - Advanced Certificate Program in Strategic Project Management",
+  "meta_description": "Master agile project execution with E&ICT IIT Kanpur's 5-month Strategic Project Management program for project managers and leaders.",
+  "keywords": "strategic project management IIT Kanpur, executive project management course, advanced project leadership certification, PMP executive program"
 }

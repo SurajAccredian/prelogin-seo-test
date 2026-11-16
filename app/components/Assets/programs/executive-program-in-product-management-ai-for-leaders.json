@@ -3,6 +3,7 @@
   "id": "executive-program-in-product-management-ai-for-leaders",
   "vertical": "product management",
   "title": "Executive Program in Product Management & AI for Leaders",
+  "seo_title": "Product Management & AI Program E&ICT IITG | Accredian",
   "description": "Embark on a 10-term learning journey in Product Planning, Design Thinking, AI Strategy and Generative AI.",
   "short_title": "Product Management",
   "contact": "8851827093",
@@ -283,7 +284,6 @@
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/Pratul.webp",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/razorpay.svg"
     },
-
     {
       "name": "Deepesh Wadhwani",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/deepesh-wadhwani-v1.webp",
@@ -291,7 +291,6 @@
       "organization": "SketchMyHome.AI",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/sketchMyHomeAI-v2.svg"
     },
-
     {
       "name": "Nishkam Verma",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/nishkam-verma-v1.webp",
@@ -306,7 +305,6 @@
       "organization": "Paytm",
       "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/company-images/paytm.webp"
     },
-
     {
       "name": "Subhodeep Dey",
       "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IITG-Faculty/subhodeep-dey-v1.webp",
@@ -343,7 +341,6 @@
       "title": "mural",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/mural.webp"
     },
-
     {
       "title": "python",
       "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Python.webp"
@@ -365,7 +362,6 @@
     "programId": "executive-program-in-product-management-ai-for-leaders",
     "points": [
       "132+ Hours of Live Classes",
-      
       "30+ Tools & Frameworks Covered",
       "6 Career Sessions by Accredian",
       "Quick Query Resolution",
@@ -450,7 +446,7 @@
         ]
       },
       {
-        "title":  "Why E&ICT, IIT Guwahati ?",
+        "title": "Why E&ICT, IIT Guwahati ?",
         "content": [
           {
             "title": "How's the Executive Program in Product Management & AI for Leaders different?",
@@ -495,5 +491,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IITG-Executive-Program-in-PMAI-for-Leaders.pdf",
     "source": "IITG Product Management & AI for Leaders Brochure",
     "campaign_name": "PMAI-IITG-11 Months"
-  }
+  },
+  "og_title": "E&ICT IIT Guwahati - Product Mgmt & AI",
+  "meta_description": "Master AI feature integration with E&ICT IIT Guwahati's 11-month Product Management & AI for Leaders program for product managers and aspiring product leaders.",
+  "keywords": "product management AI leaders IIT Guwahati, AI product manager course, executive AI product leadership, top PM courses"
 }

@@ -3,9 +3,10 @@
   "id": "executive-program-in-strategic-management",
   "vertical": "strategic & leadership",
   "title": "Executive Program in Strategic Management",
+  "seo_title": "Strategic Management Program IIM Amritsar | Accredian",
   "description": "Embark on an 8 month learning journey in Strategy Formulation, Strategic Leadership, and Change Management.",
   "short_title": "Strategic Management",
-  "contact": "9810184424",
+  "contact": "8851827053",
   "university_name": "IIM Amritsar",
   "short_university_name": "iitg",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/iim-amritsar-logo-v2.webp",
@@ -123,7 +124,11 @@
     "campus-immersion",
     "engaging-simulations"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "fill the application form",
     "application review",
@@ -311,7 +316,6 @@
     "programId": "executive-program-in-strategic-management",
     "points": [
       "80+ Hours of Live Classes",
-
       "4 Career Sessions by Accredian",
       "Quick Query Resolution",
       "2-days Optional Campus Immersion"
@@ -357,7 +361,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 8 months."]
+            "content": [
+              "The duration of the program is 8 months."
+            ]
           }
         ]
       },
@@ -405,5 +411,8 @@
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/PDF/IIM-Amritsar-Strategic-Management.pdf",
     "source": "IIMA Strategic Management Brochure",
     "campaign_name": "EPSM-IIMA-8 Months"
-  }
+  },
+  "og_title": "IIMA - Executive Program in Strategic Management",
+  "meta_description": "Develop competitive business strategy with IIM Amritsar's 8-month Strategic Management program for business leaders and experienced managers.",
+  "keywords": "strategic management IIM Amritsar, executive program strategic management, strategic business decision making IIM"
 }

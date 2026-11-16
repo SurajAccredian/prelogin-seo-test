@@ -1,20 +1,24 @@
 {
   "category": "42",
   "id": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
+  "pid": 125,
   "vertical": "strategy & leadership",
   "title": "Executive Program in Strategy, Leadership and Innovation in AI Era",
+  "seo_title": "Strategy & AI Leadership Program IIMV | Accredian",
   "description": "Embark on an 11 month learning journey in executive leadership, operations, business strategies, and analytics.",
   "short_title": "Strategy & Leadership",
   "contact": "8851827093",
   "university_name": "IIM Visakhapatnam",
   "short_university_name": "iimv",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v.webp",
+  "university_short_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iimv-logo-v5.png",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-bg-v1.webp",
-  "start_date": "10 May 2026",
+  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/iimv_certificate.webp",
+  "start_date": "17 Jan 2027",
+  "duration": "11 Months",
   "required_years_experience": 5,
-  "duration": "11 months",
   "type": "online",
-  "enrollments": "inactive",
+  "enrollments": "active",
   "timings": "weekends only",
   "tags": [
     {
@@ -30,33 +34,33 @@
       "type": "ordinary"
     }
   ],
-  "certificate": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/certificate/IIMV/iimv_certificate.webp",
   "key_features": [
     {
-      "title": "hours",
-      "count": 132
+      "text": "132+",
+      "title": "hours"
     },
     {
-      "title": "career sessions",
-      "text": 6
+      "text": "13",
+      "title": "modules"
     },
     {
-      "title": "modules",
-      "text": 13
+      "text": "6",
+      "title": "career sessions"
     },
     {
-      "title": "capstone project",
-      "text": 1
+      "text": "1",
+      "title": "capstone project"
     },
     {
-      "title": "simulations",
-      "text": 3
+      "text": "3 Days",
+      "title": "campus immersion"
     },
     {
-      "title": "campus immersion",
-      "text": "3 Days"
+      "text": "3",
+      "title": "simulations"
     }
   ],
+  "domain": "Strategy & Leadership",
   "overview": {
     "programId": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
     "content": [
@@ -64,24 +68,24 @@
         "title": "who should join",
         "points": [
           "Senior Executives: Develop strategic thinking to lead organizational change.",
-          "Directors & Division Heads: Align goals with strategic planning and cross-functional collaboration.",
           "Senior Managers: Drive competitive initiatives and leadership capabilities.",
-          "Entrepreneurs: Refine strategic vision for sustainable growth.",
-          "Public & Social Sector Leaders: Implement strategic initiatives for institutional advancement."
+          "Public & Social Sector Leaders: Implement strategic initiatives for institutional advancement.",
+          "Directors & Division Heads: Align goals with strategic planning and cross-functional collaboration.",
+          "Entrepreneurs: Refine strategic vision for sustainable growth."
         ]
       },
       {
         "title": "job opportunities",
         "points": [
           "Chief Executive Officer (CEO)",
-          "Chief Strategy Officer (CSO)",
           "Chief Innovation Officer (CIO)",
-          "Director of Strategy",
           "Vice President of Operations",
-          "Senior Leadership Consultant",
           "Business Transformation Manager",
-          "Organizational Development Manager",
           "Change Management Specialist",
+          "Chief Strategy Officer (CSO)",
+          "Director of Strategy",
+          "Senior Leadership Consultant",
+          "Organizational Development Manager",
           "Leadership Development Coach"
         ]
       },
@@ -89,71 +93,76 @@
         "title": "program snapshot",
         "points": [
           "13 Modules - Leadership Principles, Strategic Thinking and Management",
-          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
           "Duration: 11 months | Weekend Online",
-          "Certification from IIM Visakhapatnam",
-          "Live Instructor led classes",
-          "Executive Alumni Status",
-          "Strategy, Boardroom Leadership, and Innovation Simulations",
-          "Campus Immersions: One Campus Immersion of 3 days",
+          "Strategy, Boardroom Leadership and Innovation Simulations",
           "Career Counseling by Accredian",
-          "No Cost EMI upto 12 months"
+          "Learn from esteemed IIM Visakhapatnam faculty and top industry professionals.",
+          "Certification from IIM Visakhapatnam",
+          "Executive Alumni Status",
+          "Campus Immersions: One Campus Immersion of 3 days"
         ]
       }
     ]
   },
-  "domain": "duration",
   "curriculum_type": "module",
   "unique_points": [
     "certificate",
     "campus-immersion",
-    "exclusive-merchandise",
-    "engaging-simulations"
+    "engaging-simulations",
+    "exclusive-merchandise"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
-    "personalized discussion",
-    "application review",
+    "Fill the application form",
+    "Application Review",
     "Start Learning"
   ],
   "curriculum": [
     {
       "title": "Strategic Thinking Foundations for Leaders",
-      "week": "4 weeks",
-      "id": "strategic-thinking-foundations-for-leaders",
       "points": [
-        "Understanding Strategic Role of Senior Leaders",
+        "Understanding Strategic role of Senior Leaders",
         "Foundations of Strategic Thinking for Long Term Growth",
         "Critical Thinking & Problem Framing for Effective Leadership Decisions",
-        "Strategic Analysis for Competitive Advantage"
+        "Strategic Analysis for Competitive Advantage",
+        "Ethical leadership versus compliance-led leadership",
+        "Ethical decision-making under ambiguity and pressure",
+        "Building an ethical organizational culture",
+        "Stakeholder trust, transparency and reputation."
       ]
     },
     {
       "title": "Corporate & Business Strategy in Disruptive World",
-      "week": "5 weeks",
-      "id": "corporate-and-business-strategy-in-disruptive-world",
       "points": [
         "Industry & Competitive Analysis in Volatile Markets",
         "Corporate & Business Strategy Formulation",
         "Strategic Scenario Planning and Forecasting",
-        "M&A, Joint Ventures, and Portfolio Management"
+        "M&A, Joint Ventures and Portfolio Management"
       ]
     },
     {
       "title": "Strategy Execution & Transformation",
-      "week": "4 weeks",
-      "id": "strategy-execution-and-transformation",
       "points": [
         "Strategy Execution Frameworks & KPIs",
         "Leading Organizational Transformation Initiatives",
         "Enterprise Risk Management",
-        "Overcoming execution roadblocks"
+        "Overcoming execution roadblocks",
+        "Culture–strategy alignment",
+        "Diagnosing organisational culture before transformation",
+        "Culture integration during M&A and restructuring",
+        "Measuring culture transformation",
+        "Strategy-to-execution cascade",
+        "People,  process and technology alignment",
+        "Transformation governance",
+        "Why strategy fails in execution"
       ]
     },
     {
       "title": "Financial Strategy for Leaders",
-      "week": "4 weeks",
-      "id": "financial-strategy-for-leaders",
       "points": [
         "Financial Analysis for Decision Making",
         "Investment & Capital Allocation Strategies for Senior Leaders",
@@ -162,31 +171,63 @@
       ]
     },
     {
-      "title": "Growth & Global Strategy",
-      "week": "4 weeks",
-      "id": "growth-and-global-strategy",
+      "title": "Growth & Global Strategy Execution",
       "points": [
         "Global Market Expansion and Entry Leadership",
         "Navigating International Business and Geopolitical Risk",
         "Scaling Operations & Global Supply Chains",
-        "Strategic Alliances, Joint Ventures, and M&A Execution"
+        "Strategic Alliances, Joint Ventures, and M&A"
+      ]
+    },
+    {
+      "title": "Innovation & Digital Transformation",
+      "points": [
+        "Driving Innovation Strategy",
+        "Business Model Reinvention & Design Thinking",
+        "Leading Digital Transformation Initiatives",
+        "Emerging Technologies & Strategic Application",
+        "Digital business model reinvention",
+        "Platform and ecosystem strategy",
+        "Network effects and marketplace economics",
+        "AI-native business models",
+        "Platform governance and trust"
+      ]
+    },
+    {
+      "title": "Analytics for Strategic Leaders",
+      "points": [
+        "Data-Driven Decision Making",
+        "Predictive Analytics: Shaping Future Strategies",
+        "Mastering Business Insights with PowerBI",
+        "Strategic Dashboards for In Business Verticals"
+      ]
+    },
+    {
+      "title": "AI & Generative AI in Business",
+      "points": [
+        "AI & GenAI Fundamentals for Executives",
+        "AI Strategy & Roadmapping",
+        "Generative AI for Business Transformation",
+        "Ethics, Risk & Governance of AI",
+        "AI governance operating model and accountability",
+        "AI risk classification and human oversight",
+        "Bias, explainability and responsible AI",
+        "Data governance,  privacy and security"
       ]
     },
     {
       "title": "Strategic Leadership & Executive Influence",
-      "week": "4 weeks",
-      "id": "strategic-leadership-and-executive-influence",
       "points": [
         "Executive Presence & Personal Branding",
         "Leadership Style for Strategic Impact",
         "Influence & Stakeholder Mapping",
-        "Decision-Making Under Uncertainty"
+        "Decision-Making Under Uncertainty",
+        "Enterprise resilience and scenario planning",
+        "Crisis communication and stakeholder management"
       ]
     },
     {
       "title": "Leading High-Performance Teams & Organizations",
-      "week": "4 weeks",
-      "id": "leading-high-performance-teams-and-organizations",
       "points": [
         "Designing and Sustaining High-Performance Cultures",
         "Motivating & Aligning Diverse Teams",
@@ -196,8 +237,6 @@
     },
     {
       "title": "Strategic Communication for Leaders",
-      "week": "4 weeks",
-      "id": "strategic-communication-for-leaders",
       "points": [
         "High-Impact Communication Techniques",
         "Storytelling for Influence & Alignment",
@@ -207,57 +246,26 @@
     },
     {
       "title": "Boardroom Influence & Corporate Governance",
-      "week": "5 weeks",
-      "id": "boardroom-influence-and-corporate-governance",
       "points": [
         "Principles of Corporate Governance",
         "Steering Board Dynamics and Decision-Making",
         "Ethical Leadership and Accountability Frameworks",
-        "Integrating ESG into Executive Strategy"
+        "Integrating ESG into Executive Strategy",
+        "Board challenge on transformation investment",
+        "Ethical and regulatory dilemma",
+        "Stakeholder and investor pressure",
+        "Decision-making with incomplete and conflicting information"
       ]
     },
     {
       "title": "Negotiation & Stakeholder Management",
-      "week": "4 weeks",
-      "id": "negotiation-and-stakeholder-management",
       "points": [
         "Negotiation Frameworks for Executives",
         "Conflict Resolution & Alignment Strategies",
         "Stakeholder Analysis & Engagement",
-        "Long-Term Relationship and Trust Building"
-      ]
-    },
-    {
-      "title": "Innovation & Digital Transformation",
-      "week": "5 weeks",
-      "id": "innovation-and-digital-transformation",
-      "points": [
-        "Driving Innovation Strategy",
-        "Business Model Reinvention & Design Thinking",
-        "Leading Digital Transformation Initiatives",
-        "Emerging Technologies & Strategic Application"
-      ]
-    },
-    {
-      "title": "Analytics for Strategic Leaders",
-      "week": "4 weeks",
-      "id": "analytics-for-strategic-leaders",
-      "points": [
-        "Data-Driven Decision Making",
-        "Predictive Analytics: Shaping Future Strategies",
-        "Mastering Business Insights with PowerBI",
-        "Strategic Dashboards for Business Verticals"
-      ]
-    },
-    {
-      "title": "AI & Generative AI in Business",
-      "week": "4 weeks",
-      "id": "ai-and-generative-ai-in-business",
-      "points": [
-        "AI & GenAI Fundamentals for Executives",
-        "AI Strategy & Roadmapping",
-        "Generative AI for Business Transformation",
-        "Ethics, Risk & Governance of AI"
+        "Long-Term Relationship and Trust Building",
+        "Structured problem framing",
+        "Scenario-based executive judgement"
       ]
     },
     {
@@ -265,152 +273,29 @@
       "special": "1",
       "id": "capstone-project",
       "points": [
-        "Participants will serve as strategic leaders for a selected organization, crafting a holistic enterprise strategy to enhance competitive advantage. They will assess market dynamics, define corporate and business unit strategies, integrate innovation and digital transformation initiatives, identify AI-driven opportunities, and produce a comprehensive roadmap with KPIs to achieve measurable organizational impact."
+        "Participants will serve as strategic leaders for a selected organization, crafting a holistic enterprise strategy to enhance competitive advantage. They will assess market dynamics, define corporate and business unit strategies,  integrate innovation and digital transformation initiatives,  identify AI-driven opportunities, and produce a comprehensive roadmap with KPIs to achieve measurable organizational impact."
       ]
     }
   ],
-
-  "faculty": [
-    {
-      "name": "Dr. Sushil Kumar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/sushil-kumar.webp",
-      "position": "Program Director",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Sumod SD",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/prof-sumod-sd.webp",
-      "position": "Program Co-Director",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Dr. Amit Shankar",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/amit-shankar.webp",
-      "position": "Associate Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Josyula Srinivas",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/joysula-v1.webp",
-      "position": "Associate Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Dr. Chandreie Mukherjee",
-      "image": "  https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/dr-chandreie-mukherjee.svg",
-      "position": "Assistant Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    },
-    {
-      "name": "Prof. Rishi Raj",
-      "image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/Faculty/IIMV-Faculty/rishi-raj.webp",
-      "position": "Assistant Professor",
-      "organization": "IIM Visakhapatnam",
-      "organization_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/iim-v-v1.webp"
-    }
-  ],
-  "tools": [
-    {
-      "title": "NotebookLM",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notbooklm.webp"
-    },
-    {
-      "title": "power BI",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
-    },
-    {
-      "title": "Gamma",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
-    },
-    {
-      "title": "ChatGPT",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
-    }
-  ],
   "billing": {
-    "programId": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
+    "total": 300000,
     "points": [
       "132+ Hours of Live Classes",
-
       "6 Career Sessions by Accredian",
-      "Quick Query Resolution",
-      "Access to Session Recordings"
+      "Quick Query Resolution"
     ],
     "monthly_emi": [
       {
-        "months": 12,
-        "emi": 24584
+        "emi": 27104,
+        "months": 12
       },
       {
-        "months": 18,
-        "emi": 17045
+        "emi": 18725,
+        "months": 18
       },
       {
-        "months": 24,
-        "emi": 13245
-      }
-    ],
-    "total": 300000
-  },
-  "faq": {
-    "programId": "executive-program-in-strategy-leadership-and-innovation-in-ai-era",
-    "points": [
-      {
-        "title": "Program Pre-Requisites",
-        "content": [
-          {
-            "title": "Is prior experience in Strategy & Leadership required for program enrollment?",
-            "content": [
-              "This program is specifically crafted for seasoned professionals looking to advance their careers and expand their sectoral knowledge. It is intended for individuals with substantial industry experience."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Time Commitment",
-        "content": [
-          {
-            "title": "How much time does one need to spend?",
-            "content": [
-              "Ideally, 30 minutes of preparation time is recommended each day, but students can allocate time according to their own schedules. They can choose to practice, read, or watch videos. Additionally, students must attend live classes on weekends. The schedule for these classes will be shared in advance."
-            ]
-          },
-          {
-            "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 11 months."]
-          }
-        ]
-      },
-      {
-        "title": "Why IIM Visakhapatnam",
-        "content": [
-          {
-            "title": "How is the IIM Visakhapatnam's Executive Program in Strategy, Leadership and Innovation in AI Era different?",
-            "content": [
-              "### Three things that make this program world class:",
-              "- **Advanced Pedagogical Approach:** IIM Visakhapatnam's advanced pedagogical approach, supported by its rank of 26th by NIRF, ensures a cutting-edge, innovative, and effective learning experience. This method fosters deep understanding and real-world application of Strategy & Leadership concepts.",
-              "- **Bridging Ideas to Industry:** IIM Visakhapatnam bridges academic ideas to real-world industry applications through a structured framework, fostering practical learning and career readiness. This ensures that students are not only theoretically knowledgeable but also equipped to tackle contemporary business challenges effectively.",
-              "- **Accredian Career Center:** Aligned with our mission to cultivate the leaders of tomorrow, the Accredian Career Center empowers you to confidently launch your career."
-            ]
-          },
-          {
-            "title": "Tell me more about Career Assistance?",
-            "content": [
-              "You will have access to Accredian Career Support module. This module includes comprehensive career development sessions aimed at enhancing your job profile and helping you excel in your interviews."
-            ]
-          },
-          {
-            "title": "What's the refund policy?",
-            "content": [
-              "Go through our Student Policy [link](/policies/iimv-policy)"
-            ]
-          }
-        ]
+        "emi": 14505,
+        "months": 24
       }
     ]
   },
@@ -420,7 +305,6 @@
     "curriculum",
     "tools",
     "unique points",
-    "faculty",
     "certificate",
     "top companies",
     "extra achievements",
@@ -428,8 +312,30 @@
     "FAQs"
   ],
   "brochure": {
-    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-executive-program-in-strategy-leadership-and-innovation-in-ai-era.pdf",
+    "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/IIMV-Executive-Program-In-Strategy-Leadership-And-Innovation-In-AI-Era.pdf",
     "source": "IIMV Executive Program in Strategy, Leadership and Innovation in AI Era Brochure",
-    "campaign_name": "EPSLAI-IIMV-11 Months"
-  }
+    "campaign_name": "IIMV-Strategy & Leadership"
+  },
+  "faculty": [],
+  "tools": [
+    {
+      "title": "ChatGPT",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/chatgpt.webp"
+    },
+    {
+      "title": "NotebookLM",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/notebooklm-icon.webp"
+    },
+    {
+      "title": "Gamma",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/gamma-ai.webp"
+    },
+    {
+      "title": "power BI",
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/tools/Power-BI.webp"
+    }
+  ],
+  "og_title": "IIMV - Strategy, Leadership & Innovation AI Era",
+  "meta_description": "Develop strategic leadership with IIM Visakhapatnam's 11-month Strategy, Leadership & Innovation program for working professionals and managers.",
+  "keywords": "strategy leadership AI era IIM Visakhapatnam, strategic leadership in AI era, IIMV AI strategy program, business leadership certification"
 }

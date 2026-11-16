@@ -1,8 +1,10 @@
 {
   "category": "47",
   "id": "sp-jain-executive-program-in-leadership-with-ai",
+  "pid": 148,
   "vertical": "artificial intelligence",
   "title": "Executive Program in Leadership with AI",
+  "seo_title": "SP Jain Executive Program in Leadership with AI | Accredian",
   "description": "Embark on a 7-month learning journey in AI Strategy, Applied Tools, & Leadership-Driven Transformation.",
   "short_title": "Artificial intelligence",
   "contact": "9358719988",
@@ -10,7 +12,7 @@
   "short_university_name": "spjain",
   "university_logo": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/logo/spjain-logo-new.webp",
   "university_image": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/sp-jain-cover-v1.webp",
-  "start_date": "11 Oct 2026",
+  "start_date": "13 Feb 2027",
   "duration": "7 Months",
   "required_years_experience": 5,
   "type": "online",
@@ -85,7 +87,8 @@
           "Case Studies",
           "EMI upto 24 Months",
           "Career Assistance by Accredian",
-          "1:1 Career Mentorship Sessions"
+          "1:1 Career Mentorship Sessions",
+          "India’s Only Program Providing Paid Tools - Claude Pro & OpenRouter"
         ]
       }
     ]
@@ -97,13 +100,16 @@
     "experiential-learning",
     "mentoring-session"
   ],
-  "extra_points": ["Technical Support", "Placement Assistance", "Learning Hub"],
+  "extra_points": [
+    "Technical Support",
+    "Placement Assistance",
+    "Learning Hub"
+  ],
   "admission_process": [
     "personalized discussion",
     "application review",
     "Start Learning"
   ],
-
   "curriculum": [
     {
       "title": "AI Foundations for Business Leaders",
@@ -136,31 +142,23 @@
       ]
     },
     {
-      "title": "Digital Transformation and AI Strategy",
+      "title": " AI Strategy & Digital Transformation",
       "id": "digital-transformation-ai-strategy",
       "points": [
         "Digital Transformation Frameworks and Strategy",
-        "Various Tools and Techniques",
+        "Digital & AI Tools & Techniques",
         "AI Strategy and Business Alignment",
         "AI Execution Roadmaps and Operating Models"
       ]
     },
     {
-      "title": "AI Business Models & GTM Strategy",
+      "title": "AI Business Models & Growth Strategy",
       "id": "ai-business-models-gtm-strategy",
       "points": [
         "AI-Native Business Models and Value Creation",
         "Pricing, Monetization, and Revenue Strategies",
-        "Unit Economics and Market Structures",
+        "Unit Economics & Margin Structures",
         "Scaling AI-Driven Business Models"
-      ]
-    },
-    {
-      "title": "Capstone Project",
-      "id": "capstone-project-1",
-      "special": "1",
-      "points": [
-        "Participants identify a high-impact business problem and design an AI-enabled solution using strategy, product, and no-code tools. They define use cases, build a working prototype, evaluate ROI and business value, and present an implementation roadmap covering adoption, risks, and scalability, demonstrating how AI can drive measurable outcomes in real organizational contexts."
       ]
     },
     {
@@ -174,7 +172,7 @@
       ]
     },
     {
-      "title": "Applied AI in Business Functions, KPI and ROI",
+      "title": "Business Transformation with AI",
       "id": "applied-ai-business-functions-kpi-roi",
       "points": [
         "AI in Marketing, Sales & Customer Experience",
@@ -196,7 +194,7 @@
       ]
     },
     {
-      "title": "Enterprise AI Considerations: Scalability, Consistency, Governance, Risk & Responsible AI",
+      "title": "Enterprise AI: Scalability, Governance & Risk",
       "id": "enterprise-ai-scalability-governance-risk",
       "points": [
         "Building for Scalability and Consistency",
@@ -208,6 +206,14 @@
     },
     {
       "title": "Capstone Project",
+      "id": "capstone-project-1",
+      "special": "1",
+      "points": [
+        "Participants identify a high-impact business problem and design an AI-enabled solution using strategy, product, and no-code tools. They define use cases, build a working prototype, evaluate ROI and business value, and present an implementation roadmap covering adoption, risks, and scalability, demonstrating how AI can drive measurable outcomes in real organizational contexts."
+      ]
+    },
+    {
+      "title": "Capstone Project",
       "id": "capstone-project-2",
       "special": "1",
       "points": [
@@ -215,7 +221,6 @@
       ]
     }
   ],
-
   "faculty": [
     {
       "name": "Prof. Selvan Dorairaj",
@@ -298,7 +303,7 @@
     },
     {
       "title": "Perplexity",
-      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/tools-images/perplexity.svg"
+      "icon": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/perplexity%20(1).webp"
     }
   ],
   "billing": {
@@ -313,18 +318,18 @@
     "monthly_emi": [
       {
         "months": 12,
-        "emi": 13010
+        "emi": 13986
       },
       {
         "months": 18,
-        "emi": 8988
+        "emi": 9662
       },
       {
         "months": 24,
-        "emi": 6962
+        "emi": 7485
       }
     ],
-    "total": 160000
+    "total": 169000
   },
   "faq": {
     "programId": "sp-jain-executive-program-in-leadership-with-ai",
@@ -357,7 +362,9 @@
           },
           {
             "title": "What is the duration of the program?",
-            "content": ["The duration of the program is 6 Months."]
+            "content": [
+              "The duration of the program is 6 Months."
+            ]
           }
         ]
       },
@@ -398,11 +405,15 @@
     "certificate",
     "top companies",
     "extra achievements",
-    "program fee"
+    "program fee",
+    "FAQs"
   ],
   "brochure": {
     "pdf": "https://storage.googleapis.com/accredian-assets/Frontend_Assests/Program-Brochures/SPJ-Executive-Program-in-Leadership-with-AI-Brochure.pdf",
     "source": "SPJ Executive Program in Leadership with AI Brochure",
     "campaign_name": "EPLAI-SPJ-7 Months"
-  }
+  },
+  "og_title": "SP Jain School of Global Management - Executive Program in Leadership with AI",
+  "meta_description": "Build expertise in AI adoption strategies with SP Jain's 7-month Executive Program in Leadership with AI for working professionals and managers.",
+  "keywords": "leadership with AI SP Jain, executive AI leadership, AI business strategy certification"
 }

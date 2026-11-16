@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
@@ -50,10 +51,10 @@ const FacultyMentor = () => {
                   Team of Experts
                 </span>{" "}
               </h4>
-              <h1 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
+              <h2 className="text-2xl md:text-3xl mt-2 font-semibold capitalize">
                 Shaping The{" "}
                 <span className="text-universal">Future Of Education</span> With Innovation
-              </h1>
+              </h2>
             </div>
           </div>
         </div>
@@ -112,11 +113,17 @@ const FacultyMentor = () => {
                 <div className="faculty-bg w-full p-3 bg-white rounded-2xl border cursor-context-menu">
                   <div className="w-full flex items-center gap-3">
                     <div className="w-24 h-24 flex-shrink-0 overflow-hidden rounded-lg relative z-20">
-                      <img
-                        className="w-full h-full object-cover object-top"
-                        src={val?.image}
-                        alt={val?.name}
-                      />
+                      {val?.image && (
+                        <Image
+                          className="w-full h-full object-cover object-top"
+                          src={val.image}
+                          alt={val?.name || "Mentor"}
+                          width={96}
+                          height={96}
+                          quality={75}
+                          sizes="96px"
+                        />
+                      )}
                     </div>
                     <div className="flex mt-2 flex-col w-full truncate">
                       <h4
@@ -129,11 +136,17 @@ const FacultyMentor = () => {
                         className="w-12 h-12 flex-shrink-0 mt-2 rounded-lg overflow-hidden"
                         title={val?.organization}
                       >
-                        <img
-                          className="w-full h-full object-contain"
-                          src={val?.organization_image}
-                          alt={val?.organization}
-                        />
+                        {val?.organization_image && (
+                          <Image
+                            className="w-full h-full object-contain"
+                            src={val.organization_image}
+                            alt={val?.organization || "Organization"}
+                            width={48}
+                            height={48}
+                            quality={75}
+                            sizes="48px"
+                          />
+                        )}
                       </div>
                     </div>
                   </div>
